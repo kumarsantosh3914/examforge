@@ -1,0 +1,785 @@
+{
+  "subject": "Computer Networks",
+  "set": 4,
+  "title": "Computer Networks Mock Test 4",
+  "questions": [
+    {
+      "id": "computer-networks-04-001",
+      "number": 1,
+      "question": "Which access method is used in the IEEE 802.11 wireless standard?",
+      "options": {
+        "A": "CSMA/CD",
+        "B": "CSMA/CA",
+        "C": "Token Passing",
+        "D": "Polling"
+      },
+      "answer": "B",
+      "explanation": "Wireless networks use Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) because they cannot detect collisions during transmission.",
+      "hash": "6efac7cf6feb5403",
+      "translations": {
+        "hi": {
+          "question": "IEEE 802.11 वायरलेस मानक में किस एक्सेस विधि का उपयोग किया जाता है?",
+          "options": {
+            "A": "सीएसएमए/सीडी",
+            "B": "सीएसएमए/सीए",
+            "C": "टोकन पासिंग",
+            "D": "पोलिंग"
+          },
+          "explanation": "वायरलेस नेटवर्क सीएसएमए/सीए का उपयोग करते हैं क्योंकि वे ट्रांसमिशन के दौरान टकराव (collision) का पता नहीं लगा सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-002",
+      "number": 2,
+      "question": "What is the maximum number of characters in a NetBIOS name?",
+      "options": {
+        "A": "8",
+        "B": "15",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "C",
+      "explanation": "NetBIOS names are 16 characters long, where the 16th character is used for the service type.",
+      "hash": "f0908c24c04c7ca9",
+      "translations": {
+        "hi": {
+          "question": "NetBIOS नाम में वर्णों (characters) की अधिकतम संख्या क्या है?",
+          "options": {
+            "A": "8",
+            "B": "15",
+            "C": "16",
+            "D": "32"
+          },
+          "explanation": "NetBIOS नाम 16 वर्ण लंबे होते हैं, जहां 16वें वर्ण का उपयोग सर्विस टाइप के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-003",
+      "number": 3,
+      "question": "Which protocol is used by a diskless workstation to get its IP address from a server?",
+      "options": {
+        "A": "BOOTP",
+        "B": "RARP",
+        "C": "DHCP",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "BOOTP, RARP, and DHCP are all protocols that can be used to assign IP addresses to hosts.",
+      "hash": "b9b55e95549faeeb",
+      "translations": {
+        "hi": {
+          "question": "डिस्कलेस वर्कस्टेशन द्वारा सर्वर से अपना IP एड्रेस प्राप्त करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "बूटपी",
+            "B": "आरएआरपी",
+            "C": "डीएचसीपी",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "BOOTP, RARP और DHCP सभी प्रोटोकॉल हैं जिनका उपयोग होस्ट को IP एड्रेस असाइन करने के लिए किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-004",
+      "number": 4,
+      "question": "In the TCP/IP model, which layer corresponds to the OSI Network layer?",
+      "options": {
+        "A": "Host-to-Network Layer",
+        "B": "Internet Layer",
+        "C": "Transport Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B",
+      "explanation": "The Internet Layer in TCP/IP provides the same functionality as the Network layer in OSI.",
+      "hash": "3182ba6fce4a9434",
+      "translations": {
+        "hi": {
+          "question": "TCP/IP मॉडल में, कौन सी परत OSI नेटवर्क परत के अनुरूप है?",
+          "options": {
+            "A": "होस्ट-टू-नेटवर्क लेयर",
+            "B": "इंटरनेट लेयर",
+            "C": "ट्रांसपोर्ट लेयर",
+            "D": "एप्लीकेशन लेयर"
+          },
+          "explanation": "TCP/IP में इंटरनेट लेयर वही कार्यक्षमता प्रदान करती है जो OSI में नेटवर्क लेयर प्रदान करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-005",
+      "number": 5,
+      "question": "Which field in the TCP header is used to manage flow control?",
+      "options": {
+        "A": "Sequence Number",
+        "B": "Acknowledgment Number",
+        "C": "Window Size",
+        "D": "Checksum"
+      },
+      "answer": "C",
+      "explanation": "The Window Size field indicates the amount of data the receiver is willing to accept.",
+      "hash": "f4a45a7275f50b51",
+      "translations": {
+        "hi": {
+          "question": "फ्लो कंट्रोल को मैनेज करने के लिए TCP हेडर में किस फील्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "सीक्वेंस नंबर",
+            "B": "एक्नॉलेजमेंट नंबर",
+            "C": "विंडो साइज",
+            "D": "चेकसम"
+          },
+          "explanation": "विंडो साइज फील्ड उस डेटा की मात्रा को दर्शाता है जिसे रिसीवर स्वीकार करने के लिए तैयार है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-006",
+      "number": 6,
+      "question": "Which cable type supports the highest bandwidth and longest distance?",
+      "options": {
+        "A": "UTP Category 6",
+        "B": "Coaxial Cable",
+        "C": "Single-mode Fiber",
+        "D": "Multi-mode Fiber"
+      },
+      "answer": "C",
+      "explanation": "Single-mode fiber optic cable has a smaller core and carries signals much further than other types.",
+      "hash": "902a0fcec386de4b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा केबल प्रकार उच्चतम बैंडविड्थ और सबसे लंबी दूरी का समर्थन करता है?",
+          "options": {
+            "A": "यूटीपी श्रेणी 6",
+            "B": "समाक्षीय केबल",
+            "C": "सिंगल-मोड फाइबर",
+            "D": "मल्टी-मोड फाइबर"
+          },
+          "explanation": "सिंगल-मोड फाइबर ऑप्टिक केबल का कोर छोटा होता है और यह अन्य प्रकारों की तुलना में सिग्नल को बहुत आगे तक ले जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-007",
+      "number": 7,
+      "question": "Which algorithm is commonly used for Link State Routing?",
+      "options": {
+        "A": "Bellman-Ford",
+        "B": "Dijkstra's Algorithm",
+        "C": "RSA Algorithm",
+        "D": "Diffie-Hellman"
+      },
+      "answer": "B",
+      "explanation": "Dijkstra's algorithm (Shortest Path First) is used by protocols like OSPF for route calculation.",
+      "hash": "4d38629cadaf7a0b",
+      "translations": {
+        "hi": {
+          "question": "लिंक स्टेट रूटिंग के लिए आमतौर पर किस एल्गोरिदम का उपयोग किया जाता है?",
+          "options": {
+            "A": "बेलमैन-फोर्ड",
+            "B": "डिज्कस्ट्रा एल्गोरिदम",
+            "C": "आरएसए एल्गोरिदम",
+            "D": "डिफी-हेलमैन"
+          },
+          "explanation": "OSPF जैसे प्रोटोकॉल द्वारा रूट गणना के लिए डिज्कस्ट्रा एल्गोरिदम (शॉर्टेस्ट पाथ फर्स्ट) का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-008",
+      "number": 8,
+      "question": "What is the default port number for the POP3 protocol?",
+      "options": {
+        "A": "110",
+        "B": "143",
+        "C": "25",
+        "D": "995"
+      },
+      "answer": "A",
+      "explanation": "POP3 (Post Office Protocol version 3) uses port 110 for unencrypted email retrieval.",
+      "hash": "7b252da2c73b1860",
+      "translations": {
+        "hi": {
+          "question": "POP3 प्रोटोकॉल के लिए डिफॉल्ट पोर्ट नंबर क्या है?",
+          "options": {
+            "A": "110",
+            "B": "143",
+            "C": "25",
+            "D": "995"
+          },
+          "explanation": "POP3 (पोस्ट ऑफिस प्रोटोकॉल वर्जन 3) अनएन्क्रिप्टेड ईमेल पुनर्प्राप्ति के लिए पोर्ट 110 का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-009",
+      "number": 9,
+      "question": "Which type of transmission uses start and stop bits?",
+      "options": {
+        "A": "Synchronous",
+        "B": "Asynchronous",
+        "C": "Isochronous",
+        "D": "Parallel"
+      },
+      "answer": "B",
+      "explanation": "Asynchronous transmission sends data in small groups (characters) using start/stop bits for timing.",
+      "hash": "60a9f79936bb6ad8",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के ट्रांसमिशन में स्टार्ट और स्टॉप बिट्स का उपयोग किया जाता है?",
+          "options": {
+            "A": "सिंक्रोनस",
+            "B": "एसिंक्रोनस",
+            "C": "आइसोक्रोनस",
+            "D": "पैरेलल"
+          },
+          "explanation": "एसिंक्रोनस ट्रांसमिशन टाइमिंग के लिए स्टार्ट/स्टॉप बिट्स का उपयोग करके छोटे समूहों (वर्णों) में डेटा भेजता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-010",
+      "number": 10,
+      "question": "Which of the following is a Layer 3 broadcast address?",
+      "options": {
+        "A": "FF:FF:FF:FF:FF:FF",
+        "B": "255.255.255.255",
+        "C": "127.0.0.1",
+        "D": "0.0.0.0"
+      },
+      "answer": "B",
+      "explanation": "255.255.255.255 is the limited broadcast address for the local network at the IP layer.",
+      "hash": "578dd48756eb90fc",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा लेयर 3 ब्रॉडकास्ट एड्रेस है?",
+          "options": {
+            "A": "FF:FF:FF:FF:FF:FF",
+            "B": "255.255.255.255",
+            "C": "127.0.0.1",
+            "D": "0.0.0.0"
+          },
+          "explanation": "255.255.255.255 IP लेयर पर स्थानीय नेटवर्क के लिए सीमित ब्रॉडकास्ट एड्रेस है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-011",
+      "number": 11,
+      "question": "What is the purpose of the \"Padding\" field in an Ethernet frame?",
+      "options": {
+        "A": "To encrypt the data",
+        "B": "To ensure the frame meets the minimum length requirement",
+        "C": "To identify the source",
+        "D": "To store the CRC"
+      },
+      "answer": "B",
+      "explanation": "Ethernet frames must be at least 64 bytes; padding is added if the data is too small.",
+      "hash": "eb94516d1576c744",
+      "translations": {
+        "hi": {
+          "question": "ईथरनेट फ्रेम में \"पैडिंग\" (Padding) फील्ड का उद्देश्य क्या है?",
+          "options": {
+            "A": "डेटा को एन्क्रिप्ट करना",
+            "B": "यह सुनिश्चित करना कि फ्रेम न्यूनतम लंबाई की आवश्यकता को पूरा करता है",
+            "C": "सोर्स की पहचान करना",
+            "D": "सीआरसी को स्टोर करना"
+          },
+          "explanation": "ईथरनेट फ्रेम कम से कम 64 बाइट्स का होना चाहिए; यदि डेटा बहुत कम है तो पैडिंग जोड़ी जाती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-012",
+      "number": 12,
+      "question": "Which hardware device connects multiple network segments at the Data Link layer?",
+      "options": {
+        "A": "Bridge",
+        "B": "Repeater",
+        "C": "Hub",
+        "D": "Modem"
+      },
+      "answer": "A",
+      "explanation": "A bridge connects segments and uses MAC addresses to filter traffic.",
+      "hash": "887c4978542734a5",
+      "translations": {
+        "hi": {
+          "question": "कौन सा हार्डवेयर डिवाइस डेटा लिंक लेयर पर कई नेटवर्क सेगमेंट को जोड़ता है?",
+          "options": {
+            "A": "ब्रिज",
+            "B": "रिपीटर",
+            "C": "हब",
+            "D": "मॉडम"
+          },
+          "explanation": "एक ब्रिज सेगमेंट को जोड़ता है और ट्रैफिक को फिल्टर करने के लिए MAC एड्रेस का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-013",
+      "number": 13,
+      "question": "What is the decimal representation of the subnet mask /26?",
+      "options": {
+        "A": "255.255.255.128",
+        "B": "255.255.255.192",
+        "C": "255.255.255.224",
+        "D": "255.255.255.240"
+      },
+      "answer": "B",
+      "explanation": "/26 means 26 bits are set to 1, which equals 255.255.255.192.",
+      "hash": "d7dedfafd4e7922a",
+      "translations": {
+        "hi": {
+          "question": "सबनेट मास्क /26 का दशमलव प्रतिनिधित्व क्या है?",
+          "options": {
+            "A": "255.255.255.128",
+            "B": "255.255.255.192",
+            "C": "255.255.255.224",
+            "D": "255.255.255.240"
+          },
+          "explanation": "/26 का अर्थ है कि 26 बिट्स 1 पर सेट हैं, जो 255.255.255.192 के बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-014",
+      "number": 14,
+      "question": "Which protocol allows a user to access their email from multiple devices while keeping it on the server?",
+      "options": {
+        "A": "POP3",
+        "B": "IMAP",
+        "C": "SMTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "IMAP (Internet Message Access Protocol) synchronizes mail across devices and keeps a copy on the server.",
+      "hash": "9c5f21598b64cc61",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल उपयोगकर्ता को सर्वर पर रखते हुए कई डिवाइसों से अपने ईमेल एक्सेस करने की अनुमति देता है?",
+          "options": {
+            "A": "पीओपी3",
+            "B": "आईएमएपी",
+            "C": "एसएमटीपी",
+            "D": "एचटीटीपी"
+          },
+          "explanation": "IMAP सभी डिवाइसों में मेल को सिंक्रनाइज़ करता है और सर्वर पर एक कॉपी रखता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-015",
+      "number": 15,
+      "question": "What is \"Goodput\" in networking?",
+      "options": {
+        "A": "Total bits transmitted per second",
+        "B": "The number of useful information bits delivered per unit time",
+        "C": "The maximum possible speed of the link",
+        "D": "The time taken for a packet to return"
+      },
+      "answer": "B",
+      "explanation": "Goodput excludes protocol overhead and retransmitted packets, measuring actual application data.",
+      "hash": "05f90effa1f636bf",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में \"गुडपुट\" (Goodput) क्या है?",
+          "options": {
+            "A": "प्रति सेकंड ट्रांसमिट किए गए कुल बिट्स",
+            "B": "प्रति इकाई समय में वितरित उपयोगी जानकारी बिट्स की संख्या",
+            "C": "लिंक की अधिकतम संभव गति",
+            "D": "एक पैकेट को वापस आने में लगने वाला समय"
+          },
+          "explanation": "गुडपुट में प्रोटोकॉल ओवरहेड और पुन: ट्रांसमिट किए गए पैकेट शामिल नहीं होते हैं, यह वास्तविक एप्लीकेशन डेटा को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-016",
+      "number": 16,
+      "question": "Which type of routing protocol is BGP (Border Gateway Protocol)?",
+      "options": {
+        "A": "Interior Gateway Protocol",
+        "B": "Distance Vector Protocol",
+        "C": "Path Vector Protocol",
+        "D": "Link State Protocol"
+      },
+      "answer": "C",
+      "explanation": "BGP is an Exterior Gateway Protocol that uses Path Vector routing to exchange routes between AS.",
+      "hash": "17458f4f4172bef2",
+      "translations": {
+        "hi": {
+          "question": "BGP (बॉर्डर गेटवे प्रोटोकॉल) किस प्रकार का रूटिंग प्रोटोकॉल है?",
+          "options": {
+            "A": "इंटीरियर गेटवे प्रोटोकॉल",
+            "B": "डिस्टेंस वेक्टर प्रोटोकॉल",
+            "C": "पाथ वेक्टर प्रोटोकॉल",
+            "D": "लिंक स्टेट प्रोटोकॉल"
+          },
+          "explanation": "BGP एक एक्सटीरियर गेटवे प्रोटोकॉल है जो AS के बीच रूट एक्सचेंज करने के लिए पाथ वेक्टर रूटिंग का उपयोग करता।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-017",
+      "number": 17,
+      "question": "What is the bit rate of a standard 56K modem?",
+      "options": {
+        "A": "56,000 bytes per second",
+        "B": "56,000 bits per second",
+        "C": "56 megabits per second",
+        "D": "5,600 bits per second"
+      },
+      "answer": "B",
+      "explanation": "56K refers to 56 kilobits per second (kbps).",
+      "hash": "7cee0a0b3581791b",
+      "translations": {
+        "hi": {
+          "question": "एक मानक 56K मॉडम की बिट दर क्या है?",
+          "options": {
+            "A": "56,000 बाइट्स प्रति सेकंड",
+            "B": "56,000 बिट्स प्रति सेकंड",
+            "C": "56 मेगाबिट्स प्रति सेकंड",
+            "D": "5,600 बिट्स प्रति सेकंड"
+          },
+          "explanation": "56K का अर्थ 56 किलोबिट्स प्रति सेकंड (kbps) है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-018",
+      "number": 18,
+      "question": "Which layer of the OSI model manages the bit-to-signal conversion?",
+      "options": {
+        "A": "Data Link Layer",
+        "B": "Physical Layer",
+        "C": "Network Layer",
+        "D": "Presentation Layer"
+      },
+      "answer": "B",
+      "explanation": "The Physical layer defines electrical, mechanical, and functional specifications for the physical link.",
+      "hash": "d0f3ce74473c6cff",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत बिट-टू-सिग्नल रूपांतरण का प्रबंधन करती है?",
+          "options": {
+            "A": "डेटा लिंक लेयर",
+            "B": "फिजिकल लेयर",
+            "C": "नेटवर्क लेयर",
+            "D": "प्रेजेंटेशन लेयर"
+          },
+          "explanation": "फिजिकल लेयर फिजिकल लिंक के लिए विद्युत, यांत्रिक और कार्यात्मक विनिर्देशों को परिभाषित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-019",
+      "number": 19,
+      "question": "Which port is used by the SNMP protocol?",
+      "options": {
+        "A": "161",
+        "B": "162",
+        "C": "53",
+        "D": "Both 161 and 162"
+      },
+      "answer": "D",
+      "explanation": "SNMP agents use port 161 for requests, and SNMP managers use port 162 for traps.",
+      "hash": "8132e65f1cc9062f",
+      "translations": {
+        "hi": {
+          "question": "SNMP प्रोटोकॉल द्वारा किस पोर्ट का उपयोग किया जाता है?",
+          "options": {
+            "A": "161",
+            "B": "162",
+            "C": "53",
+            "D": "161 और 162 दोनों"
+          },
+          "explanation": "SNMP एजेंट रिक्वेस्ट के लिए पोर्ट 161 का उपयोग करते हैं, और मैनेजर ट्रैप्स के लिए पोर्ट 162 का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-020",
+      "number": 20,
+      "question": "What is the \"Three-way Handshake\" in TCP?",
+      "options": {
+        "A": "A way to terminate a connection",
+        "B": "A process to establish a reliable connection",
+        "C": "A method for error checking",
+        "D": "A data compression technique"
+      },
+      "answer": "B",
+      "explanation": "TCP uses SYN, SYN-ACK, and ACK messages to synchronize and establish a connection.",
+      "hash": "727b0f3426332e97",
+      "translations": {
+        "hi": {
+          "question": "TCP में \"थ्री-वे हैंडशेक\" क्या है?",
+          "options": {
+            "A": "कनेक्शन समाप्त करने का एक तरीका",
+            "B": "एक विश्वसनीय कनेक्शन स्थापित करने की प्रक्रिया",
+            "C": "एरर चेकिंग की एक विधि",
+            "D": "डेटा कंप्रेशन तकनीक"
+          },
+          "explanation": "TCP कनेक्शन को सिंक्रनाइज़ और स्थापित करने के लिए SYN, SYN-ACK और ACK मैसेज का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-021",
+      "number": 21,
+      "question": "Which of the following is NOT a guided transmission medium?",
+      "options": {
+        "A": "Twisted pair cable",
+        "B": "Coaxial cable",
+        "C": "Fiber optic cable ) Radio waves | रेडियो तरंगें"
+      },
+      "answer": null,
+      "explanation": "Radio waves travel through the air and are considered unguided media.",
+      "hash": "e4c5badc2a6cad08",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा गाइडेड ट्रांसमिशन माध्यम नहीं है?",
+          "options": {
+            "A": "ट्विस्टेड पेयर केबल",
+            "B": "कोएक्सियल केबल",
+            "C": "फाइबर ऑप्टिक केबल"
+          },
+          "explanation": "रेडियो तरंगें हवा के माध्यम से यात्रा करती हैं और उन्हें अनगाइडेड मीडिया माना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-022",
+      "number": 22,
+      "question": "What is the size of the IPv4 Header (without options)?",
+      "options": {
+        "A": "10 bytes",
+        "B": "20 bytes",
+        "C": "32 bytes",
+        "D": "40 bytes"
+      },
+      "answer": "B",
+      "explanation": "A standard IPv4 header is 20 bytes long.",
+      "hash": "bdff14c9690da8a4",
+      "translations": {
+        "hi": {
+          "question": "IPv4 हेडर (बिना ऑप्शन्स के) का आकार क्या है?",
+          "options": {
+            "A": "10 बाइट्स",
+            "B": "20 बाइट्स",
+            "C": "32 बाइट्स",
+            "D": "40 बाइट्स"
+          },
+          "explanation": "एक मानक IPv4 हेडर 20 बाइट्स लंबा होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-023",
+      "number": 23,
+      "question": "What is the function of the \"Preamble\" in an Ethernet frame?",
+      "options": {
+        "A": "Error detection",
+        "B": "Destination address",
+        "C": "Synchronization of receiver's clock",
+        "D": "Data encryption"
+      },
+      "answer": "C",
+      "explanation": "The preamble is a 7-byte pattern of alternating 1s and 0s used to synchronize clocks.",
+      "hash": "3ff79c32361ca5a7",
+      "translations": {
+        "hi": {
+          "question": "ईथरनेट फ्रेम में \"प्रिअंबल\" (Preamble) का कार्य क्या है?",
+          "options": {
+            "A": "एरर डिटेक्शन",
+            "B": "गंतव्य पता",
+            "C": "रिसीवर के क्लॉक का सिंक्रनाइज़ेशन",
+            "D": "डेटा एन्क्रिप्शन"
+          },
+          "explanation": "प्रिअंबल क्लॉक को सिंक्रनाइज़ करने के लिए उपयोग किए जाने वाले 1s और 0s का 7-बाइट पैटर्न है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-024",
+      "number": 24,
+      "question": "Which protocol is used to securely transfer files over the internet using SSH?",
+      "options": {
+        "A": "FTP",
+        "B": "SFTP",
+        "C": "TFTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "SFTP (SSH File Transfer Protocol) provides secure file transfer over an encrypted SSH connection.",
+      "hash": "5b34d56f9c15d93d",
+      "translations": {
+        "hi": {
+          "question": "SSH का उपयोग करके इंटरनेट पर सुरक्षित रूप से फाइल ट्रांसफर करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एफटीपी",
+            "B": "एसएफटीपी",
+            "C": "टीएफटीपी",
+            "D": "एचटीटीपी"
+          },
+          "explanation": "SFTP एक एन्क्रिप्टेड SSH कनेक्शन पर सुरक्षित फाइल ट्रांसफर प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-025",
+      "number": 25,
+      "question": "What does \"Attentuation\" mean in data communication?",
+      "options": {
+        "A": "Increase in signal strength",
+        "B": "Loss of signal energy over distance",
+        "C": "Disturbance from other signals",
+        "D": "Compression of data"
+      },
+      "answer": "B",
+      "explanation": "Attenuation is the weakening of a signal as it travels through a medium.",
+      "hash": "29a15f0cd580a0bd",
+      "translations": {
+        "hi": {
+          "question": "डेटा संचार में \"एटेन्यूएशन\" (Attenuation) का क्या अर्थ है?",
+          "options": {
+            "A": "सिग्नल की ताकत में वृद्धि",
+            "B": "दूरी के साथ सिग्नल ऊर्जा की हानि",
+            "C": "अन्य सिग्नल से होने वाली गड़बड़ी",
+            "D": "डेटा का संपीड़न"
+          },
+          "explanation": "एटेन्यूएशन एक माध्यम से यात्रा करते समय सिग्नल का कमजोर होना है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-026",
+      "number": 26,
+      "question": "Which layer of the OSI model handles the management of tokens in a token ring network?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Data Link Layer",
+        "C": "Physical Layer",
+        "D": "Session Layer"
+      },
+      "answer": "B",
+      "explanation": "Token management and media access control are functions of the Data Link layer.",
+      "hash": "73ee71069627ee14",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत टोकन रिंग नेटवर्क में टोकन के प्रबंधन को संभालती है?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "फिजिकल लेयर",
+            "D": "सेशन लेयर"
+          },
+          "explanation": "टोकन प्रबंधन और मीडिया एक्सेस कंट्रोल डेटा लिंक लेयर के कार्य हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-027",
+      "number": 27,
+      "question": "Which field in the IPv6 header is equivalent to the IPv4 TTL field?",
+      "options": {
+        "A": "Flow Label",
+        "B": "Next Header",
+        "C": "Hop Limit",
+        "D": "Traffic Class"
+      },
+      "answer": "C",
+      "explanation": "IPv6 uses the Hop Limit field to define the maximum number of hops for a packet.",
+      "hash": "f247b4c688e5543e",
+      "translations": {
+        "hi": {
+          "question": "IPv6 हेडर में कौन सा फील्ड IPv4 TTL फील्ड के बराबर है?",
+          "options": {
+            "A": "फ्लो लेबल",
+            "B": "नेक्स्ट हेडर",
+            "C": "हॉप लिमिट",
+            "D": "ट्रैफिक क्लास"
+          },
+          "explanation": "IPv6 पैकेट के लिए हॉप्स की अधिकतम संख्या को परिभाषित करने के लिए हॉप लिमिट फील्ड का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-028",
+      "number": 28,
+      "question": "What is the maximum distance for a 100Base-TX Ethernet segment?",
+      "options": {
+        "A": "100 meters",
+        "B": "200 meters",
+        "C": "500 meters",
+        "D": "2000 meters"
+      },
+      "answer": "A",
+      "explanation": "100Base-TX (Fast Ethernet over Twisted Pair) has a maximum cable length of 100 meters.",
+      "hash": "89621c4424126c78",
+      "translations": {
+        "hi": {
+          "question": "100Base-TX ईथरनेट सेगमेंट के लिए अधिकतम दूरी क्या है?",
+          "options": {
+            "A": "100 मीटर",
+            "B": "200 मीटर",
+            "C": "500 मीटर",
+            "D": "2000 मीटर"
+          },
+          "explanation": "100Base-TX की अधिकतम केबल लंबाई 100 मीटर होती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-029",
+      "number": 29,
+      "question": "Which networking device operates at Layer 1 and simply regenerates the signal?",
+      "options": {
+        "A": "Switch",
+        "B": "Router",
+        "C": "Repeater",
+        "D": "Gateway"
+      },
+      "answer": "C",
+      "explanation": "Repeaters operate at the Physical layer to extend cable distances.",
+      "hash": "b4ba2978473a19bd",
+      "translations": {
+        "hi": {
+          "question": "कौन सा नेटवर्किंग डिवाइस लेयर 1 पर काम करता है और केवल सिग्नल को पुन: उत्पन्न करता है?",
+          "options": {
+            "A": "स्विच",
+            "B": "राउटर",
+            "C": "रिपीटर",
+            "D": "गेटवे"
+          },
+          "explanation": "केबल की दूरी बढ़ाने के लिए रिपीटर फिजिकल लेयर पर काम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-04-030",
+      "number": 30,
+      "question": "Which protocol is used by the ping command?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "ICMP",
+        "D": "ARP"
+      },
+      "answer": "C",
+      "explanation": "Ping uses ICMP Echo Request and Echo Reply messages.",
+      "hash": "54492c5a4bd1c5b1",
+      "translations": {
+        "hi": {
+          "question": "पिंग (ping) कमांड द्वारा किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "यूडीपी",
+            "C": "आईसीएमपी",
+            "D": "एआरपी"
+          },
+          "explanation": "पिंग ICMP इको रिक्वेस्ट और इको रिप्लाई मैसेज का उपयोग करता है।"
+        }
+      }
+    }
+  ]
+}

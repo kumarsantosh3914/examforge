@@ -1,0 +1,787 @@
+{
+  "subject": "Operating Systems",
+  "set": 5,
+  "title": "Operating Systems Mock Test 5",
+  "questions": [
+    {
+      "id": "operating-systems-05-001",
+      "number": 1,
+      "question": "The interval from the time of submission of a process to the time of completion is known as:",
+      "options": {
+        "A": "Waiting time",
+        "B": "Turnaround time",
+        "C": "Response time",
+        "D": "Throughput"
+      },
+      "answer": "B",
+      "explanation": "Turnaround time = Completion Time - Submission Time.",
+      "hash": "682c19dd27d2d7bf",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया के जमा करने के समय से लेकर पूरा होने के समय तक के अंतराल को कहा जाता है:",
+          "options": {
+            "A": "वेटिंग टाइम",
+            "B": "टर्नअराउंड टाइम",
+            "C": "रिस्पांस टाइम",
+            "D": "थ्रूपुट"
+          },
+          "explanation": "टर्नअराउंड समय = पूर्णता समय - जमा करने का समय।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-002",
+      "number": 2,
+      "question": "Which memory management scheme allows the process to be stored non-contiguously in physical memory?",
+      "options": {
+        "A": "Single contiguous allocation",
+        "B": "Paging",
+        "C": "Partitioned allocation",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Paging avoids the need for contiguous allocation of physical memory by dividing it into fixed-size frames.",
+      "hash": "d3871c6bffecef6d",
+      "translations": {
+        "hi": {
+          "question": "कौन सी मेमोरी प्रबंधन योजना प्रक्रिया को फिजिकल मेमोरी में गैर-सन्निहित (non-contiguously) रूप से संग्रहीत करने की अनुमति देती है?",
+          "options": {
+            "A": "सिंगल सन्निहित आवंटन",
+            "B": "पेजिंग",
+            "C": "पार्टीशन आवंटन",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "पेजिंग फिजिकल मेमोरी को निश्चित आकार के फ्रेम में विभाजित करके सन्निहित आवंटन की आवश्यकता को समाप्त करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-003",
+      "number": 3,
+      "question": "In which allocation method is each file a linked list of disk blocks?",
+      "options": {
+        "A": "Contiguous allocation",
+        "B": "Indexed allocation",
+        "C": "Linked allocation",
+        "D": "Block allocation"
+      },
+      "answer": "C",
+      "explanation": "In linked allocation, each block contains a pointer to the next block belonging to the file.",
+      "hash": "3d0692c7b3969a9a",
+      "translations": {
+        "hi": {
+          "question": "किस आवंटन विधि में प्रत्येक फ़ाइल डिस्क ब्लॉकों की एक लिंक्ड लिस्ट होती है?",
+          "options": {
+            "A": "सन्निहित आवंटन",
+            "B": "इंडेक्स्ड आवंटन",
+            "C": "लिंक्ड आवंटन",
+            "D": "ब्लॉक आवंटन"
+          },
+          "explanation": "लिंक्ड आवंटन में, प्रत्येक ब्लॉक में फ़ाइल से संबंधित अगले ब्लॉक का पॉइंटर होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-004",
+      "number": 4,
+      "question": "Which of the following is a synchronization tool that does not require busy waiting?",
+      "options": {
+        "A": "Spinlock",
+        "B": "Mutex with blocking",
+        "C": "Test-and-Set",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Modern mutexes and semaphores put a process to sleep instead of letting it spin (busy wait).",
+      "hash": "2d2f6b9e8427c86c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक सिंक्रोनाइज़ेशन टूल है जिसमें बिजी वेटिंग की आवश्यकता नहीं होती है?",
+          "options": {
+            "A": "स्पिनलॉक",
+            "B": "ब्लॉकिंग के साथ म्यूटेक्स",
+            "C": "टेस्ट-एंड-सेट",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "आधुनिक म्यूटेक्स और सेमाफोर प्रक्रिया को स्पिन (बिजी वेट) करने के बजाय स्लीप मोड में डाल देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-005",
+      "number": 5,
+      "question": "The segment of code in which a process may be changing common variables or files is:",
+      "options": {
+        "A": "Critical Section",
+        "B": "Entry Section",
+        "C": "Exit Section",
+        "D": "Remainder Section"
+      },
+      "answer": "A",
+      "explanation": "Critical section is the part of the program where shared data is accessed.",
+      "hash": "7bfb00d9cd4f60f8",
+      "translations": {
+        "hi": {
+          "question": "कोड का वह खंड जिसमें एक प्रक्रिया सामान्य वेरिएबल या फ़ाइलों को बदल सकती है:",
+          "options": {
+            "A": "क्रिटिकल सेक्शन",
+            "B": "एंट्री सेक्शन",
+            "C": "एग्जिट सेक्शन",
+            "D": "रिमाइंडर सेक्शन"
+          },
+          "explanation": "क्रिटिकल सेक्शन प्रोग्राम का वह हिस्सा है जहाँ साझा डेटा तक पहुँचा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-006",
+      "number": 6,
+      "question": "In a multi-level queue scheduling, how are processes assigned to queues?",
+      "options": {
+        "A": "Randomly",
+        "B": "Based on process priority or type",
+        "C": "Based on arrival time",
+        "D": "Equally distributed"
+      },
+      "answer": "B",
+      "explanation": "Processes are permanently assigned to a queue based on their properties (e.g., interactive or batch).",
+      "hash": "749f247c3be52059",
+      "translations": {
+        "hi": {
+          "question": "मल्टी-लेवल क्यू शेड्यूलिंग में, प्रक्रियाओं को कतारों (queues) में कैसे सौंपा जाता है?",
+          "options": {
+            "A": "यादृच्छिक रूप से",
+            "B": "प्रक्रिया की प्राथमिकता या प्रकार के आधार पर",
+            "C": "आगमन समय के आधार पर",
+            "D": "समान रूप से वितरित"
+          },
+          "explanation": "प्रक्रियाओं को उनके गुणों (जैसे, इंटरैक्टिव या बैच) के आधार पर स्थायी रूप से एक कतार में सौंपा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-007",
+      "number": 7,
+      "question": "What is the purpose of the \"vnode\" in a Virtual File System (VFS)?",
+      "options": {
+        "A": "To store user passwords",
+        "B": "To provide a unique identifier for a file across different file systems",
+        "C": "To increase disk speed",
+        "D": "To format the partition"
+      },
+      "answer": "B",
+      "explanation": "VFS use vnodes to represent files in a uniform way, regardless of the underlying file system.",
+      "hash": "3962109233f8530c",
+      "translations": {
+        "hi": {
+          "question": "वर्चुअल फ़ाइल सिस्टम (VFS) में \"vnode\" का उद्देश्य क्या है?",
+          "options": {
+            "A": "यूजर पासवर्ड स्टोर करना",
+            "B": "विभिन्न फ़ाइल सिस्टमों में फ़ाइल के लिए एक विशिष्ट पहचानकर्ता प्रदान करना",
+            "C": "डिस्क की गति बढ़ाना",
+            "D": "पार्टीशन को फॉर्मेट करना"
+          },
+          "explanation": "VFS फाइलों को एक समान तरीके से प्रस्तुत करने के लिए vnodes का उपयोग करते हैं, चाहे अंतर्निहित फ़ाइल सिस्टम कोई भी हो।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-008",
+      "number": 8,
+      "question": "Which of the following is a benefit of using threads over processes?",
+      "options": {
+        "A": "Higher security",
+        "B": "Faster context switching",
+        "C": "Independent memory space",
+        "D": "No shared data"
+      },
+      "answer": "B",
+      "explanation": "Switching between threads is faster than switching between processes because they share the same address space.",
+      "hash": "bd6f0b982eb65ba5",
+      "translations": {
+        "hi": {
+          "question": "प्रक्रियाओं की तुलना में थ्रेड्स का उपयोग करने का लाभ निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "उच्च सुरक्षा",
+            "B": "तेज़ कॉन्टेक्स्ट स्विचिंग",
+            "C": "स्वतंत्र मेमोरी स्पेस",
+            "D": "कोई साझा डेटा नहीं"
+          },
+          "explanation": "थ्रेड्स के बीच स्विच करना प्रक्रियाओं के बीच स्विच करने की तुलना में तेज़ है क्योंकि वे एक ही एड्रेस स्पेस साझा करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-009",
+      "number": 9,
+      "question": "What is \"Hard Affinity\" in multiprocessor scheduling?",
+      "options": {
+        "A": "A process can run on any CPU",
+        "B": "A process is restricted to run only on a specific set of CPUs",
+        "C": "CPUs are linked by a hard wire",
+        "D": "Memory is shared"
+      },
+      "answer": "B",
+      "explanation": "Hard affinity prevents a process from migrating to other processors.",
+      "hash": "0b1e78aba7372091",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्रोसेसर शेड्यूलिंग में \"हार्ड एफिनिटी\" क्या है?",
+          "options": {
+            "A": "एक प्रक्रिया किसी भी CPU पर चल सकती है",
+            "B": "एक प्रक्रिया केवल CPU के एक विशिष्ट सेट पर चलने के लिए प्रतिबंधित है",
+            "C": "CPU एक हार्ड वायर से जुड़े होते हैं",
+            "D": "मेमोरी साझा की जाती है"
+          },
+          "explanation": "हार्ड एफिनिटी एक प्रक्रिया को अन्य प्रोसेसर पर माइग्रेट करने से रोकती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-010",
+      "number": 10,
+      "question": "Which of the following describes a \"Microkernel\"?",
+      "options": {
+        "A": "A kernel that handles all OS services",
+        "B": "A kernel that moves as many services as possible from kernel space to user space",
+        "C": "A kernel used in small watches only",
+        "D": "A kernel with no security"
+      },
+      "answer": "B",
+      "explanation": "Microkernels keep only essential services (like IPC and scheduling) in kernel space.",
+      "hash": "8427dfbb84136d0a",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन \"माइक्रोकर्नेल\" का वर्णन करता है?",
+          "options": {
+            "A": "एक कर्नेल जो सभी OS सेवाओं को संभालता है",
+            "B": "एक कर्नेल जो कर्नेल स्पेस से यूजर स्पेस में जितनी संभव हो उतनी सेवाओं को स्थानांतरित करता है",
+            "C": "केवल छोटी घड़ियों में उपयोग किया जाने वाला कर्नेल",
+            "D": "बिना सुरक्षा वाला कर्नेल"
+          },
+          "explanation": "माइक्रोकर्नेल केवल आवश्यक सेवाओं (जैसे IPC और शेड्यूलिंग) को कर्नेल स्पेस में रखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-011",
+      "number": 11,
+      "question": "In paging, if the page size is 4KB, what is the page offset?",
+      "options": {
+        "A": "10 bits",
+        "B": "11 bits",
+        "C": "12 bits",
+        "D": "13 bits"
+      },
+      "answer": "C",
+      "explanation": "4KB = 2^12 bytes, so 12 bits are needed for the offset.",
+      "hash": "8749a99d8f1df802",
+      "translations": {
+        "hi": {
+          "question": "पेजिंग में, यदि पेज का आकार 4KB है, तो पेज ऑफसेट क्या है?",
+          "options": {
+            "A": "10 बिट्स",
+            "B": "11 बिट्स",
+            "C": "12 बिट्स",
+            "D": "13 बिट्स"
+          },
+          "explanation": "4KB = 2^12 बाइट्स, इसलिए ऑफसेट के लिए 12 बिट्स की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-012",
+      "number": 12,
+      "question": "What is the main cause of \"Thrashing\"?",
+      "options": {
+        "A": "Over-allocation of frames and low page-fault frequency",
+        "B": "Under-allocation of frames and high page-fault frequency",
+        "C": "Too much RAM",
+        "D": "Fast CPU"
+      },
+      "answer": "B",
+      "explanation": "Thrashing occurs when the sum of the working sets exceeds the available frames.",
+      "hash": "fba359feff2d0713",
+      "translations": {
+        "hi": {
+          "question": "\"थ्रैशिंग\" का मुख्य कारण क्या है?",
+          "options": {
+            "A": "फ्रेम का अधिक आवंटन और कम पेज-फॉल्ट फ्रीक्वेंसी",
+            "B": "फ्रेम का कम आवंटन और उच्च पेज-फॉल्ट फ्रीक्वेंसी",
+            "C": "बहुत अधिक रैम",
+            "D": "तेज़ CPU"
+          },
+          "explanation": "थ्रैशिंग तब होती है जब वर्किंग सेट का योग उपलब्ध फ्रेम से अधिक हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-013",
+      "number": 13,
+      "question": "Which scheduling algorithm minimizes the \"Convoy Effect\"?",
+      "options": {
+        "A": "FCFS",
+        "B": "Round Robin",
+        "C": "SJF",
+        "D": "Priority"
+      },
+      "answer": "B",
+      "explanation": "Round Robin prevents short jobs from waiting behind long jobs, thus reducing the convoy effect.",
+      "hash": "4d224c88b3cc9728",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शेड्यूलिंग एल्गोरिथम \"कॉन्वॉय इफेक्ट\" (Convoy Effect) को कम करता है?",
+          "options": {
+            "A": "FCFS",
+            "B": "राउंड रॉबिन",
+            "C": "SJF",
+            "D": "प्रायोरिटी"
+          },
+          "explanation": "राउंड रॉबिन छोटे कार्यों को लंबे कार्यों के पीछे प्रतीक्षा करने से रोकता है, इस प्रकार कॉन्वॉय प्रभाव को कम करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-014",
+      "number": 14,
+      "question": "In the context of I/O, what does DMA stand for?",
+      "options": {
+        "A": "Direct Memory Access",
+        "B": "Digital Memory Access",
+        "C": "Data Management Area",
+        "D": "Direct Module Access"
+      },
+      "answer": "A",
+      "explanation": "DMA allows hardware subsystems to access main system memory independently of the CPU.",
+      "hash": "2376cef6fd0ae1f2",
+      "translations": {
+        "hi": {
+          "question": "I/O के संदर्भ में, DMA का क्या अर्थ है?",
+          "options": {
+            "A": "डायरेक्ट मेमोरी एक्सेस",
+            "B": "डिजिटल मेमोरी एक्सेस",
+            "C": "डेटा मैनेजमेंट एरिया",
+            "D": "डायरेक्ट मॉड्यूल एक्सेस"
+          },
+          "explanation": "DMA हार्डवेयर सबसिस्टम को CPU से स्वतंत्र रूप से मुख्य सिस्टम मेमोरी तक पहुंचने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-015",
+      "number": 15,
+      "question": "Which signal is sent when a user presses Ctrl+C in a Linux terminal?",
+      "options": {
+        "A": "SIGKILL",
+        "B": "SIGINT",
+        "C": "SIGSTOP",
+        "D": "SIGQUIT"
+      },
+      "answer": "B",
+      "explanation": "SIGINT (Signal Interrupt) is used to gracefully terminate a process.",
+      "hash": "f6e550b9dee80d4c",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स टर्मिनल में जब कोई उपयोगकर्ता Ctrl+C दबाता है तो कौन सा सिग्नल भेजा जाता है?",
+          "options": {
+            "A": "SIGKILL",
+            "B": "SIGINT",
+            "C": "SIGSTOP",
+            "D": "SIGQUIT"
+          },
+          "explanation": "SIGINT (सिग्नल इंटरप्ट) का उपयोग प्रक्रिया को शालीनता से समाप्त करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-016",
+      "number": 16,
+      "question": "What is a \"File Descriptor\" in Linux?",
+      "options": {
+        "A": "A descriptive name of a file",
+        "B": "An integer that uniquely identifies an open file",
+        "C": "A backup copy of a file",
+        "D": "A security key"
+      },
+      "answer": "B",
+      "explanation": "Every open file is assigned a file descriptor (like 0 for stdin, 1 for stdout).",
+      "hash": "6bb9b1027ab76ab8",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स में \"फ़ाइल डिस्क्रिप्टर\" क्या है?",
+          "options": {
+            "A": "फ़ाइल का वर्णनात्मक नाम",
+            "B": "एक पूर्णांक जो खुली हुई फ़ाइल की विशिष्ट रूप से पहचान करता है",
+            "C": "फ़ाइल की बैकअप प्रति",
+            "D": "एक सुरक्षा कुंजी"
+          },
+          "explanation": "प्रत्येक खुली हुई फ़ाइल को एक फ़ाइल डिस्क्रिप्टर सौंपा जाता है (जैसे stdin के लिए 0, stdout के लिए 1)।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-017",
+      "number": 17,
+      "question": "The degree of multiprogramming is defined as:",
+      "options": {
+        "A": "The speed of the CPU",
+        "B": "The number of processes in memory",
+        "C": "The size of the RAM",
+        "D": "The number of I/O devices"
+      },
+      "answer": "B",
+      "explanation": "It refers to the number of processes currently residing in main memory.",
+      "hash": "46ac1945d74dda2b",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्रोग्रामिंग की डिग्री को इस रूप में परिभाषित किया गया है:",
+          "options": {
+            "A": "CPU की गति",
+            "B": "मेमोरी में प्रक्रियाओं की संख्या",
+            "C": "रैम का आकार",
+            "D": "I/O उपकरणों की संख्या"
+          },
+          "explanation": "यह मुख्य मेमोरी में वर्तमान में रहने वाली प्रक्रियाओं की संख्या को संदर्भित करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-018",
+      "number": 18,
+      "question": "Which condition is broken to prevent deadlock when using \"Hold and Wait\" prevention?",
+      "options": {
+        "A": "Mutual Exclusion",
+        "B": "No Preemption",
+        "C": "Processes must request all resources at once",
+        "D": "Circular Wait"
+      },
+      "answer": "C",
+      "explanation": "By requiring all resources at the start, the \"Wait\" condition is eliminated.",
+      "hash": "c1bdca47621821c4",
+      "translations": {
+        "hi": {
+          "question": "\"होल्ड एंड वेट\" रोकथाम का उपयोग करते समय डेडलॉक को रोकने के लिए कौन सी स्थिति तोड़ी जाती है?",
+          "options": {
+            "A": "म्यूचुअल एक्सक्लूजन",
+            "B": "नो प्रीइम्पशन",
+            "C": "प्रक्रियाओं को एक साथ सभी संसाधनों का अनुरोध करना चाहिए",
+            "D": "सर्कुलर वेट"
+          },
+          "explanation": "शुरुआत में सभी संसाधनों की आवश्यकता होने पर, \"वेट\" स्थिति समाप्त हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-019",
+      "number": 19,
+      "question": "Which of the following is not a directory structure?",
+      "options": {
+        "A": "Single-level",
+        "B": "Two-level",
+        "C": "Multi-level",
+        "D": "Random-level"
+      },
+      "answer": "D",
+      "explanation": "Common structures are Single, Two, Tree, and Acyclic-Graph.",
+      "hash": "f94573e2886520b6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी डायरेक्टरी संरचना नहीं है?",
+          "options": {
+            "A": "सिंगल-लेवल",
+            "B": "टू-लेवल",
+            "C": "मल्टी-लेवल",
+            "D": "रैंडम-लेवल"
+          },
+          "explanation": "सामान्य संरचनाएं सिंगल, टू, ट्री और एसाइक्लिक-ग्राफ हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-020",
+      "number": 20,
+      "question": "What is \"Spooling\" stand for?",
+      "options": {
+        "A": "Simultaneous Peripheral Operation On-Line",
+        "B": "Sequential Process On-Line",
+        "C": "System Peripheral On-Line",
+        "D": "Single Process On-Line"
+      },
+      "answer": "A",
+      "explanation": "Spooling uses a buffer to hold data for peripheral devices.",
+      "hash": "2321a03e2a6daf2a",
+      "translations": {
+        "hi": {
+          "question": "\"स्पूलिंग\" का क्या अर्थ है?",
+          "options": {
+            "A": "साइमल्टेनियस पेरिफेरल ऑपरेशन ऑन-लाइन",
+            "B": "सीक्वेंशियल प्रोसेस ऑन-लाइन",
+            "C": "सिस्टम पेरिफेरल ऑन-लाइन",
+            "D": "सिंगल प्रोसेस ऑन-लाइन"
+          },
+          "explanation": "स्पूलिंग पेरिफेरल उपकरणों के लिए डेटा रखने के लिए बफर का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-021",
+      "number": 21,
+      "question": "In a multi-level feedback queue, a process can:",
+      "options": {
+        "A": "Never change queues",
+        "B": "Move between different queues",
+        "C": "Only move to a higher priority queue",
+        "D": "Run only in the first queue"
+      },
+      "answer": "B",
+      "explanation": "Processes move between queues based on their CPU burst behavior.",
+      "hash": "4c172fcdc659751b",
+      "translations": {
+        "hi": {
+          "question": "मल्टी-लेवल फीडबैक क्यू में, एक प्रक्रिया:",
+          "options": {
+            "A": "कभी कतार नहीं बदल सकती",
+            "B": "विभिन्न कतारों के बीच घूम सकती है",
+            "C": "केवल उच्च प्राथमिकता वाली कतार में जा सकती है",
+            "D": "केवल पहली कतार में चल सकती है"
+          },
+          "explanation": "प्रक्रियाएँ अपने CPU बर्स्ट व्यवहार के आधार पर कतारों के बीच घूमती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-022",
+      "number": 22,
+      "question": "What is the primary advantage of \"Segmented Paging\"?",
+      "options": {
+        "A": "Reduced page table size",
+        "B": "No fragmentation",
+        "C": "Faster CPU speed",
+        "D": "Easier hardware design"
+      },
+      "answer": "A",
+      "explanation": "Dividing the page table into segments reduces the amount of memory needed to store it.",
+      "hash": "9c13117c3e69450e",
+      "translations": {
+        "hi": {
+          "question": "\"सेगमेंटेड पेजिंग\" का प्राथमिक लाभ क्या है?",
+          "options": {
+            "A": "पेज टेबल का आकार कम होना",
+            "B": "कोई विखंडन नहीं",
+            "C": "तेज़ CPU गति",
+            "D": "आसान हार्डवेयर डिजाइन"
+          },
+          "explanation": "पेज टेबल को सेगमेंट में विभाजित करने से इसे स्टोर करने के लिए आवश्यक मेमोरी की मात्रा कम हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-023",
+      "number": 23,
+      "question": "Which command is used in Linux to find the difference between two files?",
+      "options": {
+        "A": "diff",
+        "B": "cmp",
+        "C": "grep",
+        "D": "comm"
+      },
+      "answer": "A",
+      "explanation": "The 'diff' command compares files line by line.",
+      "hash": "1ab160cd9a7a198f",
+      "translations": {
+        "hi": {
+          "question": "दो फाइलों के बीच अंतर खोजने के लिए लिनक्स में किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "diff",
+            "B": "cmp",
+            "C": "grep",
+            "D": "comm"
+          },
+          "explanation": "'diff' कमांड फाइलों की लाइन दर लाइन तुलना करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-024",
+      "number": 24,
+      "question": "What is the \"Working Set\" of a process?",
+      "options": {
+        "A": "All pages of the process",
+        "B": "Pages currently in use by the process",
+        "C": "Pages stored on the disk",
+        "D": "Number of frames allocated"
+      },
+      "answer": "B",
+      "explanation": "The working set model is based on the locality of reference.",
+      "hash": "8fe5be8499f301c6",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया का \"वर्किंग सेट\" क्या है?",
+          "options": {
+            "A": "प्रक्रिया के सभी पेज",
+            "B": "प्रक्रिया द्वारा वर्तमान में उपयोग किए जा रहे पेज",
+            "C": "डिस्क पर संग्रहीत पेज",
+            "D": "आवंटित फ्रेम की संख्या"
+          },
+          "explanation": "वर्किंग सेट मॉडल लोकैलिटी ऑफ रेफरेंस (locality of reference) पर आधारित है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-025",
+      "number": 25,
+      "question": "Which system call is used to create a pipe for inter-process communication?",
+      "options": {
+        "A": "pipe()",
+        "B": "create()",
+        "C": "open()",
+        "D": "mkpipe()"
+      },
+      "answer": "A",
+      "explanation": "pipe() creates a unidirectional data channel.",
+      "hash": "87f542ca1580273a",
+      "translations": {
+        "hi": {
+          "question": "इंटर-प्रोसेस संचार के लिए पाइप बनाने के लिए किस सिस्टम कॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "pipe()",
+            "B": "create()",
+            "C": "open()",
+            "D": "mkpipe()"
+          },
+          "explanation": "pipe() एक एकदिशीय डेटा चैनल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-026",
+      "number": 26,
+      "question": "A binary semaphore can take values:",
+      "options": {
+        "A": "0 and 1",
+        "B": "Any integer",
+        "C": "0 to 10",
+        "D": "Only 1"
+      },
+      "answer": "A",
+      "explanation": "Binary semaphores are often used as mutex locks.",
+      "hash": "6705ebaa7d98b00b",
+      "translations": {
+        "hi": {
+          "question": "एक बाइनरी सेमाफोर मान ले सकता है:",
+          "options": {
+            "A": "0 और 1",
+            "B": "कोई भी इंटीजर",
+            "C": "0 से 10",
+            "D": "केवल 1"
+          },
+          "explanation": "बाइनरी सेमाफोर का उपयोग अक्सर म्यूटेक्स लॉक के रूप में किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-027",
+      "number": 27,
+      "question": "In memory management, \"Next-fit\" starts searching from:",
+      "options": {
+        "A": "The beginning of memory",
+        "B": "The location of the last allocated block",
+        "C": "The end of memory",
+        "D": "Randomly"
+      },
+      "answer": "B",
+      "explanation": "Next-fit is a variation of First-fit that resumes the search from where it left off.",
+      "hash": "b80867aeb2afb55a",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी प्रबंधन में, \"नेक्स्ट-फिट\" कहाँ से खोजना शुरू करता है?",
+          "options": {
+            "A": "मेमोरी की शुरुआत से",
+            "B": "अंतिम आवंटित ब्लॉक के स्थान से",
+            "C": "मेमोरी के अंत से",
+            "D": "यादृच्छिक रूप से"
+          },
+          "explanation": "नेक्स्ट-फिट फर्स्ट-फिट का एक रूप है जो खोज को वहीं से फिर से शुरू करता है जहाँ उसने छोड़ा था।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-028",
+      "number": 28,
+      "question": "Which module is responsible for swapping processes in and out of memory?",
+      "options": {
+        "A": "Short-term scheduler",
+        "B": "Medium-term scheduler",
+        "C": "Long-term scheduler",
+        "D": "Dispatcher"
+      },
+      "answer": "B",
+      "explanation": "The medium-term scheduler handles swapping to balance multiprogramming.",
+      "hash": "658623d6298d37f8",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी के अंदर और बाहर प्रक्रियाओं की अदला-बदली के लिए कौन सा मॉड्यूल जिम्मेदार है?",
+          "options": {
+            "A": "शॉर्ट-टर्म शेड्यूलर",
+            "B": "मीडियम-टर्म शेड्यूलर",
+            "C": "लॉन्ग-टर्म शेड्यूलर",
+            "D": "डिस्पैचर"
+          },
+          "explanation": "मीडियम-टर्म शेड्यूलर मल्टीप्रोग्रामिंग को संतुलित करने के लिए स्वैपिंग को संभालता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-029",
+      "number": 29,
+      "question": "Which of the following is not a disk scheduling algorithm?",
+      "options": {
+        "A": "SCAN",
+        "B": "C-LOOK",
+        "C": "FIFO",
+        "D": "SJF"
+      },
+      "answer": "D",
+      "explanation": "SJF is a CPU scheduling algorithm, while the others (including FIFO/FCFS) apply to disks.",
+      "hash": "eea7955a87e0a65d",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा डिस्क शेड्यूलिंग एल्गोरिथम नहीं है?",
+          "options": {
+            "A": "SCAN",
+            "B": "C-LOOK",
+            "C": "FIFO",
+            "D": "SJF"
+          },
+          "explanation": "SJF एक CPU शेड्यूलिंग एल्गोरिथम है, जबकि अन्य (FIFO/FCFS सहित) डिस्क पर लागू होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-05-030",
+      "number": 30,
+      "question": "What is the purpose of a \"Bootstrap Loader\"?",
+      "options": {
+        "A": "To load the compiler",
+        "B": "To load the OS kernel into memory",
+        "C": "To scan for viruses",
+        "D": "To format the RAM"
+      },
+      "answer": "B",
+      "explanation": "It is the first code executed when the computer is powered on.",
+      "hash": "4f09457927c043eb",
+      "translations": {
+        "hi": {
+          "question": "\"बूटस्ट्रैप लोडर\" का उद्देश्य क्या है?",
+          "options": {
+            "A": "कंपाइलर लोड करना",
+            "B": "मेमोरी में OS कर्नेल लोड करना",
+            "C": "वायरस स्कैन करना",
+            "D": "रैम फॉर्मेट करना"
+          },
+          "explanation": "कंप्यूटर चालू होने पर यह सबसे पहले निष्पादित होने वाला कोड है।"
+        }
+      }
+    }
+  ]
+}

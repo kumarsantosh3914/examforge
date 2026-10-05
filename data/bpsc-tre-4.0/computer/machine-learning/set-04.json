@@ -1,0 +1,787 @@
+{
+  "subject": "Machine Learning",
+  "set": 4,
+  "title": "Machine Learning Mock Test 4",
+  "questions": [
+    {
+      "id": "machine-learning-04-001",
+      "number": 1,
+      "question": "Which type of neural network is primarily used for image recognition and processing?",
+      "options": {
+        "A": "Recurrent Neural Network (RNN)",
+        "B": "Convolutional Neural Network (CNN)",
+        "C": "Long Short-Term Memory (LSTM)",
+        "D": "Perceptron"
+      },
+      "answer": "B",
+      "explanation": "CNNs are designed to automatically and adaptively learn spatial hierarchies of features from images.",
+      "hash": "55b9ac63045cccf4",
+      "translations": {
+        "hi": {
+          "question": "छवि पहचान (image recognition) और प्रोसेसिंग के लिए मुख्य रूप से किस प्रकार के न्यूरल नेटवर्क का उपयोग किया जाता है?",
+          "options": {
+            "A": "रिकरेंट न्यूरल नेटवर्क (RNN)",
+            "B": "कनवल्शनल न्यूरल नेटवर्क (CNN)",
+            "C": "लॉन्ग शॉर्ट-टर्म मेमोरी (LSTM)",
+            "D": "परसेप्ट्रॉन"
+          },
+          "explanation": "CNN को छवियों से फीचर्स के स्थानिक पदानुक्रमों (spatial hierarchies) को स्वचालित रूप से सीखने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-002",
+      "number": 2,
+      "question": "What is the primary advantage of 'Ridge Regression' over standard Linear Regression?",
+      "options": {
+        "A": "It reduces training time",
+        "B": "It handles multicollinearity and prevents overfitting",
+        "C": "It eliminates features entirely",
+        "D": "It only works on small datasets"
+      },
+      "answer": "B",
+      "explanation": "Ridge regression adds an L2 penalty term (squared magnitude of coefficients) to the loss function to shrink weights.",
+      "hash": "618d9de0b6a32a43",
+      "translations": {
+        "hi": {
+          "question": "मानक लीनियर रिग्रेशन की तुलना में 'रिज रिग्रेशन' (Ridge Regression) का प्राथमिक लाभ क्या है?",
+          "options": {
+            "A": "यह ट्रेनिंग के समय को कम करता है",
+            "B": "यह मल्टीकोलिनियरिटी को संभालता है और ओवरफिटिंग को रोकता है",
+            "C": "यह फीचर्स को पूरी तरह से समाप्त कर देता है",
+            "D": "यह केवल छोटे डेटासेट पर काम करता है"
+          },
+          "explanation": "रिज रिग्रेशन वेट्स को कम करने के लिए लॉस फ़ंक्शन में L2 पेनल्टी शब्द (गुणांकों का वर्ग परिमाण) जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-003",
+      "number": 3,
+      "question": "What does the 'S' in SVM stand for?",
+      "options": {
+        "A": "Simple",
+        "B": "Support",
+        "C": "Stochastic",
+        "D": "Sequential"
+      },
+      "answer": "B",
+      "explanation": "SVM stands for Support Vector Machine, named after the data points (support vectors) closest to the hyperplane.",
+      "hash": "ac253c9812f6a1f2",
+      "translations": {
+        "hi": {
+          "question": "SVM में 'S' का क्या अर्थ है?",
+          "options": {
+            "A": "सिंपल",
+            "B": "सपोर्ट",
+            "C": "स्टोकेस्टिक",
+            "D": "सीक्वेंशियल"
+          },
+          "explanation": "SVM का अर्थ सपोर्ट वेक्टर मशीन है, जिसका नाम हाइपरप्लेन के सबसे करीब के डेटा बिंदुओं (सपोर्ट वेक्टर्स) के नाम पर रखा गया है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-004",
+      "number": 4,
+      "question": "Which of the following is a density-based clustering algorithm?",
+      "options": {
+        "A": "K-Means",
+        "B": "Hierarchical Clustering",
+        "C": "DBSCAN",
+        "D": "Fuzzy C-Means"
+      },
+      "answer": "C",
+      "explanation": "DBSCAN identifies clusters of any shape based on the density of data points in a region.",
+      "hash": "dac867dafb90a165",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा डेंसिटी-आधारित क्लस्टरिंग एल्गोरिथ्म है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "हायरार्किकल क्लस्टरिंग",
+            "C": "डीबीस्कैन (DBSCAN)",
+            "D": "फजी सी-मीन्स"
+          },
+          "explanation": "डीबीस्कैन एक क्षेत्र में डेटा बिंदुओं के घनत्व के आधार पर किसी भी आकार के क्लस्टर्स की पहचान करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-005",
+      "number": 5,
+      "question": "In an LSTM network, which 'gate' decides which information to discard from the cell state?",
+      "options": {
+        "A": "Input gate",
+        "B": "Output gate",
+        "C": "Forget gate",
+        "D": "Update gate"
+      },
+      "answer": "C",
+      "explanation": "The Forget gate looks at the previous hidden state and current input to decide which information is no longer useful.",
+      "hash": "4e05edba189deed8",
+      "translations": {
+        "hi": {
+          "question": "एक LSTM नेटवर्क में, कौन सा 'गेट' यह तय करता है कि सेल स्टेट से कौन सी जानकारी हटानी है?",
+          "options": {
+            "A": "इनपुट गेट",
+            "B": "आउटपुट गेट",
+            "C": "फॉरगेट गेट",
+            "D": "अपडेट गेट"
+          },
+          "explanation": "फॉरगेट गेट पिछले हिडन स्टेट और वर्तमान इनपुट को देखता है ताकि यह तय किया जा सके कि कौन सी जानकारी अब उपयोगी नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-006",
+      "number": 6,
+      "question": "Which type of machine learning is used when we have a dataset with input features but no target labels?",
+      "options": {
+        "A": "Supervised Learning",
+        "B": "Unsupervised Learning",
+        "C": "Reinforcement Learning",
+        "D": "Semi-supervised Learning"
+      },
+      "answer": "B",
+      "explanation": "Unsupervised learning is used to find intrinsic structures or clusters within unlabeled data.",
+      "hash": "b2b60e22a6b30058",
+      "translations": {
+        "hi": {
+          "question": "जब हमारे पास इनपुट फीचर्स वाला डेटासेट हो लेकिन कोई टारगेट लेबल न हो, तो किस प्रकार की मशीन लर्निंग का उपयोग किया जाता है?",
+          "options": {
+            "A": "सुपरवाइज्ड लर्निंग",
+            "B": "अनसुपरवाइज्ड लर्निंग",
+            "C": "रीइन्फोर्समेंट लर्निंग",
+            "D": "सेमी-सुपरवाइज्ड लर्निंग"
+          },
+          "explanation": "अनसुपरवाइज्ड लर्निंग का उपयोग बिना लेबल वाले डेटा के भीतर आंतरिक संरचनाओं या क्लस्टर्स को खोजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-007",
+      "number": 7,
+      "question": "Which technique involves training multiple versions of the same model on different subsets of data and averaging the results?",
+      "options": {
+        "A": "Boosting",
+        "B": "Bagging",
+        "C": "Pruning",
+        "D": "Scaling"
+      },
+      "answer": "B",
+      "explanation": "Bagging (Bootstrap Aggregating) reduces variance by combining the predictions of multiple independent models.",
+      "hash": "c9e9fc7b1e645694",
+      "translations": {
+        "hi": {
+          "question": "किस तकनीक में डेटा के विभिन्न उपसमुच्चयों पर एक ही मॉडल के कई संस्करणों को प्रशिक्षित करना और परिणामों का औसत निकालना शामिल है?",
+          "options": {
+            "A": "बूस्टिंग",
+            "B": "बैगिंग",
+            "C": "प्रूनिंग",
+            "D": "स्केलिंग"
+          },
+          "explanation": "बैगिंग (बूटस्ट्रैप एग्रीगेटिंग) कई स्वतंत्र मॉडलों की भविष्यवाणियों को मिलाकर वेरियंस को कम करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-008",
+      "number": 8,
+      "question": "What is 'Curse of Dimensionality'?",
+      "options": {
+        "A": "Having too few features in a dataset",
+        "B": "Problems encountered when analyzing data in high-dimensional spaces",
+        "C": "The increase in training speed with more features",
+        "D": "A type of error in decision trees"
+      },
+      "answer": "B",
+      "explanation": "As dimensions increase, data becomes sparse, making it difficult for models to find meaningful patterns.",
+      "hash": "731e8696ed9bb457",
+      "translations": {
+        "hi": {
+          "question": "'कर्स ऑफ डाइमेंशनलिटी' (Curse of Dimensionality) क्या है?",
+          "options": {
+            "A": "डेटासेट में बहुत कम फीचर्स होना",
+            "B": "उच्च-आयामी स्थानों में डेटा का विश्लेषण करते समय आने वाली समस्याएं",
+            "C": "अधिक फीचर्स के साथ ट्रेनिंग की गति में वृद्धि",
+            "D": "डिसीजन ट्री में एक प्रकार की त्रुटि"
+          },
+          "explanation": "जैसे-जैसे आयाम बढ़ते हैं, डेटा विरल (sparse) हो जाता है, जिससे मॉडलों के लिए सार्थक पैटर्न खोजना मुश्किल हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-009",
+      "number": 9,
+      "question": "What is the main purpose of using a 'Learning Rate Scheduler'?",
+      "options": {
+        "A": "To keep the learning rate constant",
+        "B": "To change the learning rate during training for better convergence",
+        "C": "To increase the size of the neural network",
+        "D": "To visualize the loss curve"
+      },
+      "answer": "B",
+      "explanation": "Schedulers typically reduce the learning rate over time to allow the model to settle into the global minimum.",
+      "hash": "4d3336285b1fcb91",
+      "translations": {
+        "hi": {
+          "question": "'लर्निंग रेट शेड्यूलर' का उपयोग करने का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "लर्निंग रेट को स्थिर रखने के लिए",
+            "B": "बेहतर अभिसरण (convergence) के लिए ट्रेनिंग के दौरान लर्निंग रेट को बदलना",
+            "C": "न्यूरल नेटवर्क के आकार को बढ़ाने के लिए",
+            "D": "लॉस कर्व को विजुअलाइज करने के लिए"
+          },
+          "explanation": "शेड्यूलर आमतौर पर समय के साथ लर्निंग रेट को कम करते हैं ताकि मॉडल को ग्लोबल मिनिमम में स्थिर होने की अनुमति मिल सके।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-010",
+      "number": 10,
+      "question": "Which kernel in SVM is used to handle infinitely dimensional feature spaces?",
+      "options": {
+        "A": "Linear Kernel",
+        "B": "Polynomial Kernel",
+        "C": "RBF (Gaussian) Kernel",
+        "D": "Sigmoid Kernel"
+      },
+      "answer": "C",
+      "explanation": "The RBF kernel implicitly maps data into an infinite-dimensional space to find a separating hyperplane.",
+      "hash": "1cfd0031ea9f82e5",
+      "translations": {
+        "hi": {
+          "question": "अनंत आयामी फीचर स्पेस (infinitely dimensional feature spaces) को संभालने के लिए SVM में किस कर्नेल का उपयोग किया जाता है?",
+          "options": {
+            "A": "लीनियर कर्नेल",
+            "B": "पॉलिनॉमियल कर्नेल",
+            "C": "आरबीएफ (गॉसियन) कर्नेल",
+            "D": "सिग्मॉइड कर्नेल"
+          },
+          "explanation": "RBF कर्नेल अलग करने वाले हाइपरप्लेन को खोजने के लिए डेटा को अप्रत्यक्ष रूप से अनंत-आयामी स्थान में मैप करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-011",
+      "number": 11,
+      "question": "Which evaluation metric is best suited for a 'Medical Diagnostic' model where missing a sick person is very costly?",
+      "options": {
+        "A": "Precision",
+        "B": "Recall",
+        "C": "Accuracy",
+        "D": "Specificity"
+      },
+      "answer": "B",
+      "explanation": "High recall ensures that the model captures as many positive (sick) cases as possible, even if it adds some false positives.",
+      "hash": "40706433f1f40afb",
+      "translations": {
+        "hi": {
+          "question": "'मेडिकल डायग्नोस्टिक' मॉडल के लिए कौन सा मूल्यांकन मीट्रिक सबसे उपयुक्त है जहाँ बीमार व्यक्ति को छोड़ना बहुत महंगा पड़ता है?",
+          "options": {
+            "A": "प्रिसिजन",
+            "B": "रिकॉल",
+            "C": "सटीकता",
+            "D": "विशिष्टता"
+          },
+          "explanation": "उच्च रिकॉल यह सुनिश्चित करता है कि मॉडल यथासंभव अधिक से अधिक सकारात्मक (बीमार) मामलों को पकड़े, भले ही यह कुछ फॉल्स पॉजिटिव जोड़ दे।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-012",
+      "number": 12,
+      "question": "In Random Forest, if 'n_estimators' is increased, what is the likely impact?",
+      "options": {
+        "A": "The model will overfit more",
+        "B": "The model performance usually stabilizes or improves, but training becomes slower",
+        "C": "The model will become a linear model",
+        "D": "The number of features will decrease"
+      },
+      "answer": "B",
+      "explanation": "n_estimators defines the number of trees; more trees generally improve the robustness of the forest.",
+      "hash": "51a52455f5f8642e",
+      "translations": {
+        "hi": {
+          "question": "रैंडम फ़ॉरेस्ट में, यदि 'n_estimators' बढ़ाया जाता है, तो संभावित प्रभाव क्या होगा?",
+          "options": {
+            "A": "मॉडल अधिक ओवरफिट होगा",
+            "B": "मॉडल का प्रदर्शन स्थिर या बेहतर होता है, लेकिन ट्रेनिंग धीमी हो जाती है",
+            "C": "मॉडल एक लीनियर मॉडल बन जाएगा",
+            "D": "फीचर्स की संख्या कम हो जाएगी"
+          },
+          "explanation": "n_estimators पेड़ों की संख्या को परिभाषित करता है; अधिक पेड़ आमतौर पर फ़ॉरेस्ट की मजबूती (robustness) में सुधार करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-013",
+      "number": 13,
+      "question": "What is the purpose of 'StandardScaler' in Scikit-learn?",
+      "options": {
+        "A": "To normalize values between 0 and 1",
+        "B": "To transform data such that it has a mean of 0 and standard deviation of 1",
+        "C": "To remove categorical columns",
+        "D": "To split the data into 80/20 ratio"
+      },
+      "answer": "B",
+      "explanation": "Standardizing data helps distance-based algorithms like KNN and SVM perform better.",
+      "hash": "8b4052015e996d59",
+      "translations": {
+        "hi": {
+          "question": "Scikit-learn में 'StandardScaler' का उद्देश्य क्या है?",
+          "options": {
+            "A": "मानों को 0 और 1 के बीच सामान्य करना",
+            "B": "डेटा को इस तरह बदलना कि उसका माध्य 0 और मानक विचलन 1 हो",
+            "C": "कैटेगोरिकल कॉलम हटाना",
+            "D": "डेटा को 80/20 अनुपात में विभाजित करना"
+          },
+          "explanation": "डेटा को मानकीकृत (Standardizing) करने से KNN और SVM जैसे दूरी-आधारित एल्गोरिदम को बेहतर प्रदर्शन करने में मदद मिलती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-014",
+      "number": 14,
+      "question": "Which algorithm is known for using 'Weak Learners' to create a 'Strong Learner'?",
+      "options": {
+        "A": "K-Means",
+        "B": "PCA",
+        "C": "Boosting (e.g., AdaBoost)",
+        "D": "Linear Regression"
+      },
+      "answer": "C",
+      "explanation": "Boosting algorithms sequentially train weak learners, each focusing on the mistakes of the previous one.",
+      "hash": "8e96473270ef36f9",
+      "translations": {
+        "hi": {
+          "question": "'वीक लर्नर्स' (Weak Learners) का उपयोग करके 'स्ट्रांग लर्नर' बनाने के लिए कौन सा एल्गोरिथ्म जाना जाता है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "पीसीए",
+            "C": "बूस्टिंग (जैसे, एडाबूस्ट)",
+            "D": "लीनियर रिग्रेशन"
+          },
+          "explanation": "बूस्टिंग एल्गोरिथ्म क्रमिक रूप से कमजोर लर्नर्स को प्रशिक्षित करते हैं, जिनमें से प्रत्येक पिछले वाले की गलतियों पर ध्यान केंद्रित करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-015",
+      "number": 15,
+      "question": "Which loss function is ideal for 'Multi-class Classification'?",
+      "options": {
+        "A": "Mean Squared Error",
+        "B": "Binary Cross-Entropy",
+        "C": "Categorical Cross-Entropy",
+        "D": "Hinge Loss"
+      },
+      "answer": "C",
+      "explanation": "Categorical Cross-Entropy measures the performance of models where the output is a probability distribution over multiple classes.",
+      "hash": "822211c36d2f1743",
+      "translations": {
+        "hi": {
+          "question": "'मल्टी-क्लास वर्गीकरण' के लिए कौन सा लॉस फ़ंक्शन आदर्श है?",
+          "options": {
+            "A": "मीन स्क्वेर्ड एरर",
+            "B": "बाइनरी क्रॉस-एंट्रॉपी",
+            "C": "कैटेगोरिकल क्रॉस-एंट्रॉपी",
+            "D": "हिंज लॉस"
+          },
+          "explanation": "कैटेगोरिकल क्रॉस-एंट्रॉपी उन मॉडलों के प्रदर्शन को मापती है जहाँ आउटपुट कई वर्गों पर संभाव्यता वितरण होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-016",
+      "number": 16,
+      "question": "What is the 'Epoch' in neural network training?",
+      "options": {
+        "A": "One forward pass of a single batch",
+        "B": "One full pass of the entire training dataset through the network",
+        "C": "The time taken to update one weight",
+        "D": "The number of neurons in the hidden layer"
+      },
+      "answer": "B",
+      "explanation": "An epoch is completed when the model has seen every training example in the dataset exactly once.",
+      "hash": "d5c73aea1ce5d252",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क ट्रेनिंग में 'इपोक' (Epoch) क्या है?",
+          "options": {
+            "A": "एक बैच का एक फॉरवर्ड पास",
+            "B": "नेटवर्क के माध्यम से पूरे ट्रेनिंग डेटासेट का एक पूर्ण पास",
+            "C": "एक वेट को अपडेट करने में लगने वाला समय",
+            "D": "हिडन लेयर में न्यूरॉन्स की संख्या"
+          },
+          "explanation": "एक इपोक तब पूरा होता है जब मॉडल ने डेटासेट के प्रत्येक ट्रेनिंग उदाहरण को ठीक एक बार देख लिया होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-017",
+      "number": 17,
+      "question": "What is 'Data Augmentation'?",
+      "options": {
+        "A": "Deleting unnecessary data",
+        "B": "Creating new training samples by applying transformations to existing data",
+        "C": "Buying more data from third parties",
+        "D": "Encrypting data for privacy"
+      },
+      "answer": "B",
+      "explanation": "Techniques like rotating, flipping, or scaling images are used to artificially increase the size of the training set.",
+      "hash": "caf9e06ca77f8bc9",
+      "translations": {
+        "hi": {
+          "question": "'डेटा ऑगमेंटेशन' (Data Augmentation) क्या है?",
+          "options": {
+            "A": "अनावश्यक डेटा को हटाना",
+            "B": "मौजूदा डेटा में परिवर्तन लागू करके नए ट्रेनिंग नमूने बनाना",
+            "C": "तीसरे पक्ष से अधिक डेटा खरीदना",
+            "D": "गोपनीयता के लिए डेटा को एनक्रिप्ट करना"
+          },
+          "explanation": "ट्रेनिंग सेट के आकार को कृत्रिम रूप से बढ़ाने के लिए छवियों को घुमाने, पलटने या स्केल करने जैसी तकनीकों का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-018",
+      "number": 18,
+      "question": "Which component of an LSTM helps in solving the 'Vanishing Gradient Problem'?",
+      "options": {
+        "A": "Softmax function",
+        "B": "Cell State (Constant Error Carousel)",
+        "C": "Pooling Layer",
+        "D": "ReLu activation"
+      },
+      "answer": "B",
+      "explanation": "The cell state allows information to flow through the network with minimal changes, preserving gradients over long sequences.",
+      "hash": "235b499f29de6171",
+      "translations": {
+        "hi": {
+          "question": "LSTM का कौन सा घटक 'वैनिशिंग ग्रेडिएंट समस्या' को हल करने में मदद करता है?",
+          "options": {
+            "A": "सॉफ्टमैक्स फ़ंक्शन",
+            "B": "सेल स्टेट (Constant Error Carousel)",
+            "C": "पूलिंग लेयर",
+            "D": "ReLu एक्टिवेशन"
+          },
+          "explanation": "सेल स्टेट जानकारी को न्यूनतम परिवर्तनों के साथ नेटवर्क के माध्यम से प्रवाहित होने की अनुमति देता है, जिससे लंबे अनुक्रमों में ग्रेडिएंट सुरक्षित रहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-019",
+      "number": 19,
+      "question": "In Decision Trees, what does 'Information Gain' measure?",
+      "options": {
+        "A": "The increase in complexity of the tree",
+        "B": "The reduction in entropy after a dataset is split on an attribute",
+        "C": "The accuracy of the final leaf nodes",
+        "D": "The number of rows in a split"
+      },
+      "answer": "B",
+      "explanation": "Information Gain is used to decide which feature provides the most \"order\" to the resulting groups.",
+      "hash": "c58959ca4ed1627f",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, 'इन्फॉर्मेशन गेन' (Information Gain) क्या मापता है?",
+          "options": {
+            "A": "पेड़ की जटिलता में वृद्धि",
+            "B": "एक एट्रिब्यूट पर डेटासेट विभाजित होने के बाद एंट्रॉपी में कमी",
+            "C": "अंतिम लीफ नोड्स की सटीकता",
+            "D": "एक विभाजन में पंक्तियों की संख्या"
+          },
+          "explanation": "इन्फॉर्मेशन गेन का उपयोग यह तय करने के लिए किया जाता है कि कौन सा फीचर परिणामी समूहों को सबसे अधिक \"क्रम\" प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-020",
+      "number": 20,
+      "question": "Which type of clustering uses a 'Dendrogram' to visualize the results?",
+      "options": {
+        "A": "K-Means",
+        "B": "Hierarchical Clustering",
+        "C": "PCA",
+        "D": "Mean Shift"
+      },
+      "answer": "B",
+      "explanation": "A dendrogram is a tree-like diagram that records the sequences of merges or splits in hierarchical clustering.",
+      "hash": "636255b88fb8b735",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की क्लस्टरिंग परिणामों को विजुअलाइज करने के लिए 'डेंड्रोग्राम' (Dendrogram) का उपयोग करती है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "हायरार्किकल क्लस्टरिंग",
+            "C": "पीसीए",
+            "D": "मीन शिफ्ट"
+          },
+          "explanation": "डेंड्रोग्राम एक पेड़ जैसा आरेख है जो हायरार्किकल क्लस्टरिंग में विलय (merges) या विभाजन के अनुक्रमों को रिकॉर्ड करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-021",
+      "number": 21,
+      "question": "What is 'Transfer Learning'?",
+      "options": {
+        "A": "Moving data from one server to another",
+        "B": "Using a pre-trained model on a new, related task",
+        "C": "Converting a model from Python to C++",
+        "D": "Training a model using multiple GPUs"
+      },
+      "answer": "B",
+      "explanation": "Transfer learning allows us to leverage knowledge from large datasets (like ImageNet) for smaller, specific tasks.",
+      "hash": "89723171606a291d",
+      "translations": {
+        "hi": {
+          "question": "'ट्रांसफर लर्निंग' (Transfer Learning) क्या है?",
+          "options": {
+            "A": "डेटा को एक सर्वर से दूसरे सर्वर पर ले जाना",
+            "B": "एक नए, संबंधित कार्य पर पूर्व-प्रशिक्षित (pre-trained) मॉडल का उपयोग करना",
+            "C": "एक मॉडल को पायथन से C++ में बदलना",
+            "D": "कई GPU का उपयोग करके एक मॉडल को प्रशिक्षित करना"
+          },
+          "explanation": "ट्रांसफर लर्निंग हमें छोटे, विशिष्ट कार्यों के लिए बड़े डेटासेट (जैसे इमेजनेट) से ज्ञान का लाभ उठाने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-022",
+      "number": 22,
+      "question": "In a 'Confusion Matrix', what are 'False Positives' also known as?",
+      "options": {
+        "A": "Type I Error",
+        "B": "Type II Error",
+        "C": "True Negative",
+        "D": "Sampling Error"
+      },
+      "answer": "A",
+      "explanation": "A Type I error occurs when the model predicts a positive result for a case that is actually negative.",
+      "hash": "1aef257b96149d56",
+      "translations": {
+        "hi": {
+          "question": "'कन्फ्यूजन मैट्रिक्स' में, 'फॉल्स पॉजिटिव' (False Positives) को और किस रूप में जाना जाता है?",
+          "options": {
+            "A": "टाइप I एरर",
+            "B": "टाइप II एरर",
+            "C": "ट्रू नेगेटिव",
+            "D": "सैंपलिंग एरर"
+          },
+          "explanation": "टाइप I एरर तब होती है जब मॉडल उस मामले के लिए सकारात्मक परिणाम की भविष्यवाणी करता है जो वास्तव में नकारात्मक है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-023",
+      "number": 23,
+      "question": "What is the main objective of 'Exploratory Data Analysis' (EDA)?",
+      "options": {
+        "A": "To deploy the model to production",
+        "B": "To understand data patterns, spot anomalies, and check assumptions",
+        "C": "To increase the learning rate",
+        "D": "To encrypt the training labels"
+      },
+      "answer": "B",
+      "explanation": "EDA is a critical step before modeling to ensure the data is clean and the features make sense.",
+      "hash": "8427dfd54ceb22cb",
+      "translations": {
+        "hi": {
+          "question": "'एक्सप्लोरेटरी डेटा एनालिसिस' (EDA) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "मॉडल को प्रोडक्शन में तैनात करना",
+            "B": "डेटा पैटर्न को समझना, विसंगतियों का पता लगाना और मान्यताओं की जांच करना",
+            "C": "लर्निंग रेट बढ़ाना",
+            "D": "ट्रेनिंग लेबल को एनक्रिप्ट करना"
+          },
+          "explanation": "ईडीए (EDA) मॉडलिंग से पहले यह सुनिश्चित करने के लिए एक महत्वपूर्ण कदम है कि डेटा साफ है और फीचर्स अर्थपूर्ण हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-024",
+      "number": 24,
+      "question": "What happens in 'Label Encoding'?",
+      "options": {
+        "A": "Each category is assigned a unique integer",
+        "B": "Each category is turned into a new binary column",
+        "C": "All labels are deleted",
+        "D": "Labels are scaled between -1 and 1"
+      },
+      "answer": "A",
+      "explanation": "Label encoding converts text labels into numbers (e.g., Apple=0, Banana=1) but can imply an unintended order.",
+      "hash": "edab647b44359cbd",
+      "translations": {
+        "hi": {
+          "question": "'लेबल एनकोडिंग' (Label Encoding) में क्या होता है?",
+          "options": {
+            "A": "प्रत्येक श्रेणी को एक अद्वितीय पूर्णांक (unique integer) सौंपा जाता है",
+            "B": "प्रत्येक श्रेणी को एक नए बाइनरी कॉलम में बदल दिया जाता है",
+            "C": "सभी लेबल हटा दिए जाते हैं",
+            "D": "लेबल को -1 और 1 के बीच स्केल किया जाता है"
+          },
+          "explanation": "लेबल एनकोडिंग टेक्स्ट लेबल को नंबरों में बदल देती है (जैसे Apple=0, Banana=1) लेकिन यह एक अनपेक्षित क्रम का संकेत दे सकती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-025",
+      "number": 25,
+      "question": "Which optimization algorithm is an extension of SGD that uses 'Momentum'?",
+      "options": {
+        "A": "Adam",
+        "B": "RMSprop",
+        "C": "Adagrad",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Modern optimizers like Adam and RMSprop use variations of momentum to accelerate gradient descent and avoid local minima.",
+      "hash": "2906155c1009813f",
+      "translations": {
+        "hi": {
+          "question": "कौन सा ऑप्टिमाइजेशन एल्गोरिथ्म SGD का विस्तार है जो 'मोमेंटम' (Momentum) का उपयोग करता है?",
+          "options": {
+            "A": "एडम (Adam)",
+            "B": "आरएमएसप्रॉप",
+            "C": "एडाग्रैड",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "एडम और आरएमएसप्रॉप जैसे आधुनिक ऑप्टिमाइज़र ग्रेडिएंट डिसेंट को तेज करने और लोकल मिनिमा से बचने के लिए मोमेंटम के विविध रूपों का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-026",
+      "number": 26,
+      "question": "What is the primary function of an 'Encoder' in an Autoencoder?",
+      "options": {
+        "A": "To reconstruct the input",
+        "B": "To compress the input into a lower-dimensional latent representation",
+        "C": "To add noise to the data",
+        "D": "To classify the data"
+      },
+      "answer": "B",
+      "explanation": "Autoencoders are used for feature learning and dimensionality reduction by learning a compressed bottleneck layer.",
+      "hash": "b52ac39b91baac7f",
+      "translations": {
+        "hi": {
+          "question": "एक ऑटोएनकोडर में 'एनकोडर' का प्राथमिक कार्य क्या है?",
+          "options": {
+            "A": "इनपुट को फिर से बनाना",
+            "B": "इनपुट को कम-आयामी अव्यक्त प्रतिनिधित्व (latent representation) में संकुचित करना",
+            "C": "डेटा में शोर जोड़ना",
+            "D": "डेटा को वर्गीकृत करना"
+          },
+          "explanation": "ऑटोएनकोडर का उपयोग कंप्रेस्ड बॉटलनेक लेयर को सीखकर फीचर लर्निंग और डाइमेंशनलिटी रिडक्शन के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-027",
+      "number": 27,
+      "question": "In a CNN, what is the purpose of 'Max Pooling'?",
+      "options": {
+        "A": "To increase the size of the image",
+        "B": "To reduce the spatial dimensions (width/height) of the input volume",
+        "C": "To add more filters",
+        "D": "To flatten the layer"
+      },
+      "answer": "B",
+      "explanation": "Max pooling reduces the number of parameters and computation in the network, also helping with translation invariance.",
+      "hash": "cdbcaa699dadf662",
+      "translations": {
+        "hi": {
+          "question": "एक CNN में, 'मैक्स पूलिंग' (Max Pooling) का उद्देश्य क्या है?",
+          "options": {
+            "A": "छवि का आकार बढ़ाने के लिए",
+            "B": "इनपुट वॉल्यूम के स्थानिक आयामों (चौड़ाई/ऊंचाई) को कम करना",
+            "C": "और अधिक फ़िल्टर जोड़ना",
+            "D": "लेयर को फ्लैटन (flatten) करना"
+          },
+          "explanation": "मैक्स पूलिंग नेटवर्क में मापदंडों और गणना की संख्या को कम करती है, साथ ही ट्रांसलेशन इनवेरिएंस (translation invariance) में भी मदद करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-028",
+      "number": 28,
+      "question": "'Precision-Recall Curve' is particularly useful for?",
+      "options": {
+        "A": "Balanced datasets",
+        "B": "Highly imbalanced datasets",
+        "C": "Regression problems",
+        "D": "Unsupervised learning"
+      },
+      "answer": "B",
+      "explanation": "When one class is very rare, PR curves provide a better picture of model performance than ROC curves.",
+      "hash": "6747537b10b81bf7",
+      "translations": {
+        "hi": {
+          "question": "'प्रिसिजन-रिकॉल कर्व' विशेष रूप से किसके लिए उपयोगी है?",
+          "options": {
+            "A": "संतुलित डेटासेट",
+            "B": "अत्यधिक असंतुलित डेटासेट",
+            "C": "रिग्रेशन समस्याएं",
+            "D": "अनसुपरवाइज्ड लर्निंग"
+          },
+          "explanation": "जब एक वर्ग बहुत दुर्लभ होता है, तो पीआर (PR) कर्व आरओसी (ROC) कर्व की तुलना में मॉडल के प्रदर्शन की बेहतर तस्वीर प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-029",
+      "number": 29,
+      "question": "What is 'Early Stopping' used for?",
+      "options": {
+        "A": "To stop the computer if it gets too hot",
+        "B": "To stop training when the validation error starts to increase to prevent overfitting",
+        "C": "To stop the user from entering wrong data",
+        "D": "To end the program after 5 minutes"
+      },
+      "answer": "B",
+      "explanation": "Early stopping monitors the model's performance on a validation set and terminates training once performance stops improving.",
+      "hash": "a2a903b2cd0ca246",
+      "translations": {
+        "hi": {
+          "question": "'अर्ली स्टॉपिंग' (Early Stopping) का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "कंप्यूटर बहुत गर्म होने पर उसे रोकने के लिए",
+            "B": "जब वैलिडेशन एरर बढ़ने लगे तो ओवरफिटिंग रोकने के लिए ट्रेनिंग रोकना",
+            "C": "उपयोगकर्ता को गलत डेटा दर्ज करने से रोकना",
+            "D": "5 मिनट के बाद प्रोग्राम को समाप्त करना"
+          },
+          "explanation": "अर्ली स्टॉपिंग वैलिडेशन सेट पर मॉडल के प्रदर्शन की निगरानी करती है और प्रदर्शन में सुधार रुकने पर ट्रेनिंग समाप्त कर देती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-04-030",
+      "number": 30,
+      "question": "Which algorithm uses a 'Voting' mechanism to determine the final class in an ensemble?",
+      "options": {
+        "A": "Support Vector Machine",
+        "B": "Logistic Regression",
+        "C": "Random Forest",
+        "D": "K-Means"
+      },
+      "answer": "C",
+      "explanation": "Random Forest takes a majority vote from all individual decision trees to decide the final predicted category.",
+      "hash": "e560d62430207cc1",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म एन्सेम्बल में अंतिम वर्ग निर्धारित करने के लिए 'वोटिंग' तंत्र का उपयोग करता है?",
+          "options": {
+            "A": "सपोर्ट वेक्टर मशीन",
+            "B": "लॉजिस्टिक रिग्रेशन",
+            "C": "रैंडम फ़ॉरेस्ट",
+            "D": "के-मीन्स"
+          },
+          "explanation": "रैंडम फ़ॉरेस्ट अंतिम अनुमानित श्रेणी तय करने के लिए सभी व्यक्तिगत डिसीजन ट्री से बहुमत वोट लेता है।"
+        }
+      }
+    }
+  ]
+}

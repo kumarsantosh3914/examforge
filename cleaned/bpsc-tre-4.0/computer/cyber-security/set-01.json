@@ -1,0 +1,787 @@
+{
+  "subject": "Cyber Security",
+  "set": 1,
+  "title": "Cyber Security Mock Test 1",
+  "questions": [
+    {
+      "id": "cyber-security-01-001",
+      "number": 1,
+      "question": "Which of the following is considered the first computer virus?",
+      "options": {
+        "A": "Rabbit",
+        "B": "Creeper",
+        "C": "Sasser",
+        "D": "SCA Virus"
+      },
+      "answer": "B",
+      "explanation": "Creeper was an experimental self-replicating program written by Bob Thomas at BBN in 1971.",
+      "hash": "7b39fb41e0221476",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किसे पहला कंप्यूटर वायरस माना जाता है?",
+          "options": {
+            "A": "रैबिट",
+            "B": "क्रीपर",
+            "C": "सैसर",
+            "D": "एससीए वायरस"
+          },
+          "explanation": "क्रीपर 1971 में बीबीएन में बॉब थॉमस द्वारा लिखा गया एक प्रायोगिक स्व-प्रतिकृति कार्यक्रम था।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-002",
+      "number": 2,
+      "question": "What is the full form of CIA triad in information security?",
+      "options": {
+        "A": "Confidentiality, Integrity, Availability",
+        "B": "Control, Identification, Access",
+        "C": "Cryptography, Identification, Authentication",
+        "D": "Confidentiality, Inspection, Authorization"
+      },
+      "answer": "A",
+      "explanation": "The CIA triad stands for Confidentiality, Integrity, and Availability, the three pillars of security.",
+      "hash": "7c373bb3e4a6ddd8",
+      "translations": {
+        "hi": {
+          "question": "सूचना सुरक्षा में CIA ट्रायड का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "गोपनीयता, अखंडता, उपलब्धता",
+            "B": "नियंत्रण, पहचान, पहुंच",
+            "C": "क्रिप्टोग्राफी, पहचान, प्रमाणीकरण",
+            "D": "गोपनीयता, निरीक्षण, प्राधिकरण"
+          },
+          "explanation": "CIA ट्रायड का अर्थ गोपनीयता, अखंडता और उपलब्धता है, जो सुरक्षा के तीन स्तंभ हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-003",
+      "number": 3,
+      "question": "A type of malware that locks your files and demands payment to unlock them is called?",
+      "options": {
+        "A": "Spyware",
+        "B": "Trojan",
+        "C": "Ransomware",
+        "D": "Adware"
+      },
+      "answer": "C",
+      "explanation": "Ransomware encrypts data and demands a ransom for the decryption key.",
+      "hash": "068248833ca486c6",
+      "translations": {
+        "hi": {
+          "question": "एक प्रकार का मैलवेयर जो आपकी फ़ाइलों को लॉक कर देता है और उन्हें अनलॉक करने के लिए भुगतान की मांग करता है, क्या कहलाता है?",
+          "options": {
+            "A": "स्पाइवेयर",
+            "B": "ट्रोजन",
+            "C": "रैंसमवेयर",
+            "D": "एडवेयर"
+          },
+          "explanation": "रैंसमवेयर डेटा को एनक्रिप्ट करता है और डिक्रिप्शन कुंजी के लिए फिरौती की मांग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-004",
+      "number": 4,
+      "question": "Which attack involves redirecting a user to a fake website by poisoning DNS cache?",
+      "options": {
+        "A": "Phishing",
+        "B": "Pharming",
+        "C": "Sniffing",
+        "D": "Spoofing"
+      },
+      "answer": "B",
+      "explanation": "Pharming redirects users to malicious sites by modifying DNS entries or host files.",
+      "hash": "3c37f9c9a9c62692",
+      "translations": {
+        "hi": {
+          "question": "DNS कैश को खराब करके उपयोगकर्ता को नकली वेबसाइट पर भेजने वाले हमले को क्या कहा जाता है?",
+          "options": {
+            "A": "फिशिंग",
+            "B": "फार्मिंग",
+            "C": "स्निफिंग",
+            "D": "स्पूफिंग"
+          },
+          "explanation": "फार्मिंग DNS प्रविष्टियों या होस्ट फ़ाइलों को संशोधित करके उपयोगकर्ताओं को दुर्भावनापूर्ण साइटों पर पुनर्निर्देशित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-005",
+      "number": 5,
+      "question": "What is the process of converting plaintext into unreadable gibberish?",
+      "options": {
+        "A": "Decryption",
+        "B": "Encryption",
+        "C": "Hashing",
+        "D": "Compression"
+      },
+      "answer": "B",
+      "explanation": "Encryption is the process of encoding information so only authorized parties can read it.",
+      "hash": "bbd3d402a19d17b1",
+      "translations": {
+        "hi": {
+          "question": "प्लेनटेक्स्ट को अपठनीय डेटा में बदलने की प्रक्रिया क्या है?",
+          "options": {
+            "A": "डिक्रिप्शन",
+            "B": "एन्क्रिप्शन",
+            "C": "हैशिंग",
+            "D": "संपीड़न"
+          },
+          "explanation": "एन्क्रिप्शन जानकारी को कोड करने की प्रक्रिया है ताकि केवल अधिकृत पक्ष ही इसे पढ़ सकें।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-006",
+      "number": 6,
+      "question": "Which protocol is used to secure communication over the internet using encryption?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "HTTPS",
+        "D": "Telnet"
+      },
+      "answer": "C",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) uses SSL/TLS to encrypt data between client and server.",
+      "hash": "36ad780570991ab8",
+      "translations": {
+        "hi": {
+          "question": "एन्क्रिप्शन का उपयोग करके इंटरनेट पर संचार सुरक्षित करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एचटीटीपी",
+            "B": "एफटीपी",
+            "C": "एचटीटीपीएस",
+            "D": "टेलनेट"
+          },
+          "explanation": "HTTPS क्लाइंट और सर्वर के बीच डेटा को एनक्रिप्ट करने के लिए SSL/TLS का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-007",
+      "number": 7,
+      "question": "Which of these is a hardware or software that monitors and controls incoming and outgoing network traffic?",
+      "options": {
+        "A": "Antivirus",
+        "B": "Firewall",
+        "C": "Router",
+        "D": "Switch"
+      },
+      "answer": "B",
+      "explanation": "A firewall acts as a barrier between a trusted network and an untrusted network.",
+      "hash": "63e090d9b6a360a6",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सा हार्डवेयर या सॉफ्टवेयर है जो आने वाले और जाने वाले नेटवर्क ट्रैफ़िक की निगरानी और नियंत्रण करता है?",
+          "options": {
+            "A": "एंटीवायरस",
+            "B": "फ़ायरवॉल",
+            "C": "राउटर",
+            "D": "स्विच"
+          },
+          "explanation": "फ़ायरवॉल एक विश्वसनीय नेटवर्क और एक अविश्वसनीय नेटवर्क के बीच बाधा के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-008",
+      "number": 8,
+      "question": "Which type of attack sends a large number of packets to a server to crash it?",
+      "options": {
+        "A": "Man-in-the-middle",
+        "B": "SQL Injection",
+        "C": "DoS/DDoS",
+        "D": "Cross-site scripting"
+      },
+      "answer": "C",
+      "explanation": "Denial of Service (DoS) attacks overwhelm a resource with traffic to make it unavailable.",
+      "hash": "138ab5e28069bb3d",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का हमला सर्वर को क्रैश करने के लिए बड़ी संख्या में पैकेट भेजता है?",
+          "options": {
+            "A": "मैन-इन-द-मिडल",
+            "B": "SQL इंजेक्शन",
+            "C": "DoS/DDoS",
+            "D": "क्रॉस-साइट स्क्रिप्टिंग"
+          },
+          "explanation": "सेवा से इनकार (DoS) हमले किसी संसाधन को ट्रैफ़िक से भर देते हैं ताकि वह अनुपलब्ध हो जाए।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-009",
+      "number": 9,
+      "question": "A \"Logic Bomb\" is triggered by:",
+      "options": {
+        "A": "User movement",
+        "B": "Specific time or condition",
+        "C": "Internet speed",
+        "D": "Battery level"
+      },
+      "answer": "B",
+      "explanation": "A logic bomb is a piece of code intentionally inserted into a software system that sets off a malicious function when specific conditions are met.",
+      "hash": "be81e00a472cd936",
+      "translations": {
+        "hi": {
+          "question": "एक \"लॉजिक बॉम्ब\" किसके द्वारा ट्रिगर होता है?",
+          "options": {
+            "A": "उपयोगकर्ता की हलचल",
+            "B": "विशिष्ट समय या स्थिति",
+            "C": "इंटरनेट की गति",
+            "D": "बैटरी स्तर"
+          },
+          "explanation": "लॉजिक बॉम्ब कोड का एक टुकड़ा है जो विशिष्ट स्थितियां पूरी होने पर दुर्भावनापूर्ण कार्य शुरू करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-010",
+      "number": 10,
+      "question": "What is 'Social Engineering'?",
+      "options": {
+        "A": "Coding a social media site",
+        "B": "Manipulating people into giving up confidential info",
+        "C": "Building a network of servers",
+        "D": "Fixing hardware issues"
+      },
+      "answer": "B",
+      "explanation": "Social engineering relies on human interaction and psychological manipulation to gain access.",
+      "hash": "63db30a77feeac90",
+      "translations": {
+        "hi": {
+          "question": "'सोशल इंजीनियरिंग' क्या है?",
+          "options": {
+            "A": "सोशल मीडिया साइट को कोड करना",
+            "B": "लोगों को गोपनीय जानकारी देने के लिए हेरफेर करना",
+            "C": "सर्वर का नेटवर्क बनाना",
+            "D": "हार्डवेयर समस्याओं को ठीक करना"
+          },
+          "explanation": "सोशल इंजीनियरिंग पहुंच प्राप्त करने के लिए मानवीय अंतःक्रिया और मनोवैज्ञानिक हेरफेर पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-011",
+      "number": 11,
+      "question": "Which of the following is a symmetric key encryption algorithm?",
+      "options": {
+        "A": "RSA",
+        "B": "AES",
+        "C": "Diffie-Hellman",
+        "D": "ECC"
+      },
+      "answer": "B",
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm, meaning it uses the same key for encryption and decryption.",
+      "hash": "0c8996a0b0a696cd",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा सममित कुंजी (Symmetric key) एन्क्रिप्शन एल्गोरिथ्म है?",
+          "options": {
+            "A": "आरएसए",
+            "B": "एईएस",
+            "C": "डिफी-हेलमैन",
+            "D": "ईसीसी"
+          },
+          "explanation": "AES एक सिमेट्रिक एन्क्रिप्शन एल्गोरिथ्म है, जिसका अर्थ है कि यह एन्क्रिप्शन और डिक्रिप्शन के लिए एक ही कुंजी का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-012",
+      "number": 12,
+      "question": "The term 'Botnet' refers to:",
+      "options": {
+        "A": "A robotic network",
+        "B": "A network of infected computers controlled by a hacker",
+        "C": "A high-speed internet line",
+        "D": "A collection of antivirus software"
+      },
+      "answer": "B",
+      "explanation": "A botnet is a group of hijacked internet-connected devices, each of which is called a bot.",
+      "hash": "e9b1f2cc5f319e30",
+      "translations": {
+        "hi": {
+          "question": "'बोटनेट' शब्द का अर्थ है:",
+          "options": {
+            "A": "एक रोबोटिक नेटवर्क",
+            "B": "हैकर द्वारा नियंत्रित संक्रमित कंप्यूटरों का नेटवर्क",
+            "C": "एक उच्च गति वाली इंटरनेट लाइन",
+            "D": "एंटीवायरस सॉफ़्टवेयर का संग्रह"
+          },
+          "explanation": "बोटनेट अपहृत इंटरनेट से जुड़े उपकरणों का एक समूह है, जिनमें से प्रत्येक को बोट कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-013",
+      "number": 13,
+      "question": "What does SQL injection target?",
+      "options": {
+        "A": "Network Hardware",
+        "B": "Operating Systems",
+        "C": "Databases",
+        "D": "Web Browsers"
+      },
+      "answer": "C",
+      "explanation": "SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.",
+      "hash": "9badb5f121d0ef0c",
+      "translations": {
+        "hi": {
+          "question": "SQL इंजेक्शन किसे लक्षित करता है?",
+          "options": {
+            "A": "नेटवर्क हार्डवेयर",
+            "B": "ऑपरेटिंग सिस्टम",
+            "C": "डेटाबेस",
+            "D": "वेब ब्राउज़र"
+          },
+          "explanation": "SQL इंजेक्शन एक वेब सुरक्षा भेद्यता है जो हमलावर को डेटाबेस क्वेरी में हस्तक्षेप करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-014",
+      "number": 14,
+      "question": "In asymmetric encryption, how many keys are used per user?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "B",
+      "explanation": "Asymmetric encryption uses two keys: a public key for encryption and a private key for decryption.",
+      "hash": "c08f0540770ad915",
+      "translations": {
+        "hi": {
+          "question": "असममित एन्क्रिप्शन (Asymmetric encryption) में प्रति उपयोगकर्ता कितनी कुंजियों का उपयोग किया जाता है?",
+          "options": {
+            "A": "एक",
+            "B": "दो",
+            "C": "तीन",
+            "D": "चार"
+          },
+          "explanation": "असममित एन्क्रिप्शन दो कुंजियों का उपयोग करता है: एन्क्रिप्शन के लिए एक सार्वजनिक कुंजी और डिक्रिप्शन के लिए एक निजी कुंजी।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-015",
+      "number": 15,
+      "question": "Which of the following is a type of 'Man-in-the-Middle' attack?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Session Hijacking",
+        "C": "Brute Force",
+        "D": "Spamming"
+      },
+      "answer": "B",
+      "explanation": "Session hijacking involves an attacker taking over a user's active session to impersonate them.",
+      "hash": "ff3ecf651130cb37",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'मैन-इन-द-मिडल' हमले का एक प्रकार है?",
+          "options": {
+            "A": "SQL इंजेक्शन",
+            "B": "सेशन हाइजैकिंग",
+            "C": "ब्रूट फ़ोर्स",
+            "D": "स्पैमिंग"
+          },
+          "explanation": "सेशन हाइजैकिंग में हमलावर किसी उपयोगकर्ता के सक्रिय सत्र को अपने कब्जे में ले लेता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-016",
+      "number": 16,
+      "question": "What is the main purpose of a Digital Signature?",
+      "options": {
+        "A": "To hide the message",
+        "B": "To ensure message integrity and authenticity",
+        "C": "To compress the file",
+        "D": "To speed up transmission"
+      },
+      "answer": "B",
+      "explanation": "Digital signatures verify that the sender is who they claim to be and that the message has not been altered.",
+      "hash": "92be41296b05d6d2",
+      "translations": {
+        "hi": {
+          "question": "डिजिटल हस्ताक्षर का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "संदेश को छिपाने के लिए",
+            "B": "संदेश की अखंडता और प्रामाणिकता सुनिश्चित करने के लिए",
+            "C": "फ़ाइल को संपीड़ित करने के लिए",
+            "D": "ट्रांसमिशन को तेज़ करने के लिए"
+          },
+          "explanation": "डिजिटल हस्ताक्षर यह सत्यापित करते हैं कि प्रेषक वही है जो वह होने का दावा करता है और संदेश बदला नहीं गया है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-017",
+      "number": 17,
+      "question": "Which wireless security protocol is considered most secure currently?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA2",
+        "D": "WPA3"
+      },
+      "answer": "D",
+      "explanation": "WPA3 is the latest and most secure standard for wireless network encryption.",
+      "hash": "b16f80358c318690",
+      "translations": {
+        "hi": {
+          "question": "वर्तमान में कौन सा वायरलेस सुरक्षा प्रोटोकॉल सबसे सुरक्षित माना जाता है?",
+          "options": {
+            "A": "डब्लूईपी",
+            "B": "डब्लू पी ए",
+            "C": "डब्लू पी ए 2",
+            "D": "डब्लू पी ए 3"
+          },
+          "explanation": "WPA3 वायरलेस नेटवर्क एन्क्रिप्शन के लिए नवीनतम और सबसे सुरक्षित मानक है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-018",
+      "number": 18,
+      "question": "\"Brute Force\" attack is used to:",
+      "options": {
+        "A": "Crack passwords",
+        "B": "Clean viruses",
+        "C": "Increase internet speed",
+        "D": "Design websites"
+      },
+      "answer": "A",
+      "explanation": "A brute force attack involves trying all possible combinations of characters until the correct password is found.",
+      "hash": "0459c365a987f6fb",
+      "translations": {
+        "hi": {
+          "question": "\"ब्रूट फ़ोर्स\" हमले का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "पासवर्ड क्रैक करने के लिए",
+            "B": "वायरस साफ करने के लिए",
+            "C": "इंटरनेट की गति बढ़ाने के लिए",
+            "D": "वेबसाइट डिजाइन करने के लिए"
+          },
+          "explanation": "ब्रूट फ़ोर्स हमले में सही पासवर्ड मिलने तक पात्रों के सभी संभावित संयोजनों को आज़माना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-019",
+      "number": 19,
+      "question": "What is a \"Zero-day vulnerability\"?",
+      "options": {
+        "A": "A bug fixed in zero days",
+        "B": "A vulnerability unknown to the software vendor",
+        "C": "A virus that starts at 12:00 AM",
+        "D": "A security patch"
+      },
+      "answer": "B",
+      "explanation": "A zero-day vulnerability is a security flaw that is exploited by hackers before the vendor has a chance to create a patch.",
+      "hash": "28dcb75824e217c1",
+      "translations": {
+        "hi": {
+          "question": "\"जीरो-डे भेद्यता\" क्या है?",
+          "options": {
+            "A": "शून्य दिनों में ठीक किया गया बग",
+            "B": "सॉफ़्टवेयर विक्रेता को अज्ञात भेद्यता",
+            "C": "एक वायरस जो रात 12:00 बजे शुरू होता है",
+            "D": "एक सुरक्षा पैच"
+          },
+          "explanation": "जीरो-डे भेद्यता एक सुरक्षा दोष है जिसका हैकर्स द्वारा पैच बनाने से पहले ही फायदा उठा लिया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-020",
+      "number": 20,
+      "question": "What is the primary function of an IDS?",
+      "options": {
+        "A": "Increasing Disk Space",
+        "B": "Intrusion Detection System",
+        "C": "Internet Data Service",
+        "D": "International Data Standard"
+      },
+      "answer": "B",
+      "explanation": "IDS (Intrusion Detection System) monitors network traffic for suspicious activity and alerts administrators.",
+      "hash": "f0921f96e71cd6ad",
+      "translations": {
+        "hi": {
+          "question": "IDS का प्राथमिक कार्य क्या है?",
+          "options": {
+            "A": "डिस्क स्पेस बढ़ाना",
+            "B": "घुसपैठ का पता लगाने वाला तंत्र",
+            "C": "इंटरनेट डेटा सेवा",
+            "D": "अंतर्राष्ट्रीय डेटा मानक"
+          },
+          "explanation": "IDS संदिग्ध गतिविधि के लिए नेटवर्क ट्रैफ़िक की निगरानी करता है और प्रशासकों को सचेत करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-021",
+      "number": 21,
+      "question": "Which of the following is an example of Multi-Factor Authentication (MFA)?",
+      "options": {
+        "A": "Only a password",
+        "B": "Password and an OTP on phone",
+        "C": "Using the same password for all sites",
+        "D": "Saving password in browser"
+      },
+      "answer": "B",
+      "explanation": "MFA requires two or more independent methods of identification to verify a user.",
+      "hash": "9e7d1d8abe8ecd7d",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन मल्टी-फैक्टर ऑथेंटिकेशन (MFA) का उदाहरण है?",
+          "options": {
+            "A": "केवल एक पासवर्ड",
+            "B": "पासवर्ड और फोन पर एक ओटीपी",
+            "C": "सभी साइटों के लिए एक ही पासवर्ड का उपयोग करना",
+            "D": "ब्राउज़र में पासवर्ड सहेजना"
+          },
+          "explanation": "MFA को उपयोगकर्ता को सत्यापित करने के लिए पहचान के दो या अधिक स्वतंत्र तरीकों की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-022",
+      "number": 22,
+      "question": "A program that appears useful but carries out malicious activities in the background is a:",
+      "options": {
+        "A": "Worm",
+        "B": "Trojan Horse",
+        "C": "Spyware",
+        "D": "Patch"
+      },
+      "answer": "B",
+      "explanation": "A Trojan Horse misleads users by appearing as legitimate software but contains malicious code.",
+      "hash": "5ec5485e0d1c5583",
+      "translations": {
+        "hi": {
+          "question": "वह प्रोग्राम जो उपयोगी प्रतीत होता है लेकिन बैकग्राउंड में दुर्भावनापूर्ण गतिविधियाँ करता है, वह है:",
+          "options": {
+            "A": "वॉर्म",
+            "B": "ट्रोजन हॉर्स",
+            "C": "स्पाइवेयर",
+            "D": "पैच"
+          },
+          "explanation": "ट्रोजन हॉर्स वैध सॉफ़्टवेयर के रूप में दिखाई देकर उपयोगकर्ताओं को गुमराह करता है लेकिन इसमें दुर्भावनापूर्ण कोड होता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-023",
+      "number": 23,
+      "question": "Which act in India deals with cyber crimes?",
+      "options": {
+        "A": "Indian Penal Code",
+        "B": "IT Act 2000",
+        "C": "Companies Act",
+        "D": "Cyber Security Bill 2015"
+      },
+      "answer": "B",
+      "explanation": "The Information Technology Act, 2000 (IT Act) is the primary law in India dealing with cybercrime and electronic commerce.",
+      "hash": "cc1fc3f2d727a028",
+      "translations": {
+        "hi": {
+          "question": "भारत में कौन सा अधिनियम साइबर अपराधों से संबंधित है?",
+          "options": {
+            "A": "भारतीय दंड संहिता",
+            "B": "आईटी अधिनियम 2000",
+            "C": "कंपनी अधिनियम",
+            "D": "साइबर सुरक्षा विधेयक 2015"
+          },
+          "explanation": "सूचना प्रौद्योगिकी अधिनियम, 2000 (IT Act) भारत में साइबर अपराध और इलेक्ट्रॉनिक कॉमर्स से निपटने वाला प्राथमिक कानून है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-024",
+      "number": 24,
+      "question": "What is 'Honeypot' in cyber security?",
+      "options": {
+        "A": "A strong password",
+        "B": "A trap set to detect or deflect hacking attempts",
+        "C": "An antivirus brand",
+        "D": "A type of secure server"
+      },
+      "answer": "B",
+      "explanation": "A honeypot is a decoy system designed to lure attackers and study their methods.",
+      "hash": "c0936909d3d7d4c3",
+      "translations": {
+        "hi": {
+          "question": "साइबर सुरक्षा में 'हनीपॉट' क्या है?",
+          "options": {
+            "A": "एक मजबूत पासवर्ड",
+            "B": "हैकिंग के प्रयासों का पता लगाने या उन्हें मोड़ने के लिए सेट किया गया जाल",
+            "C": "एक एंटीवायरस ब्रांड",
+            "D": "एक प्रकार का सुरक्षित सर्वर"
+          },
+          "explanation": "हनीपॉट एक डिकॉय (धोखा देने वाला) सिस्टम है जिसे हमलावरों को लुभाने और उनके तरीकों का अध्ययन करने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-025",
+      "number": 25,
+      "question": "Steganography is a technique used for:",
+      "options": {
+        "A": "Encrypting files",
+        "B": "Hiding data within another file like an image",
+        "C": "Compressing video",
+        "D": "Creating web pages"
+      },
+      "answer": "B",
+      "explanation": "Steganography is the practice of concealing a file, message, image, or video within another file.",
+      "hash": "9f32ec0817007d9c",
+      "translations": {
+        "hi": {
+          "question": "स्टेग्नोग्राफी एक तकनीक है जिसका उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "फ़ाइलों को एन्क्रिप्ट करने के लिए",
+            "B": "किसी अन्य फ़ाइल जैसे छवि के भीतर डेटा छिपाने के लिए",
+            "C": "वीडियो कंप्रेस करने के लिए",
+            "D": "वेब पेज बनाने के लिए"
+          },
+          "explanation": "स्टेग्नोग्राफी किसी फ़ाइल, संदेश, छवि या वीडियो को दूसरी फ़ाइल के भीतर छिपाने का अभ्यास है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-026",
+      "number": 26,
+      "question": "What is the purpose of 'Hashing' a password?",
+      "options": {
+        "A": "To encrypt it for reversible use",
+        "B": "To store it in a way that cannot be reversed to plaintext",
+        "C": "To make it longer",
+        "D": "To share it with others"
+      },
+      "answer": "B",
+      "explanation": "Hashing is a one-way function that produces a fixed-size string from data, making it hard to retrieve the original password.",
+      "hash": "588460871de86fb0",
+      "translations": {
+        "hi": {
+          "question": "पासवर्ड को 'हैश' करने का उद्देश्य क्या है?",
+          "options": {
+            "A": "प्रतिवर्ती उपयोग के लिए इसे एन्क्रिप्ट करने के लिए",
+            "B": "इसे इस तरह से संग्रहीत करने के लिए जिसे वापस प्लेनटेक्स्ट में नहीं बदला जा सके",
+            "C": "इसे लंबा बनाने के लिए",
+            "D": "इसे दूसरों के साथ साझा करने के लिए"
+          },
+          "explanation": "हैशिंग एक वन-वे फंक्शन है जो डेटा से एक निश्चित आकार का स्ट्रिंग बनाता है, जिससे मूल पासवर्ड प्राप्त करना कठिन हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-027",
+      "number": 27,
+      "question": "\"Cross-Site Scripting\" (XSS) attacks target:",
+      "options": {
+        "A": "Server OS",
+        "B": "Users of a web application",
+        "C": "Network switches",
+        "D": "SQL Databases"
+      },
+      "answer": "B",
+      "explanation": "XSS allows attackers to inject malicious scripts into web pages viewed by other users.",
+      "hash": "3c316265f0de078c",
+      "translations": {
+        "hi": {
+          "question": "\"क्रॉस-साइट स्क्रिप्टिंग\" (XSS) हमले किसे लक्षित करते हैं?",
+          "options": {
+            "A": "सर्वर ओएस",
+            "B": "वेब एप्लिकेशन के उपयोगकर्ता",
+            "C": "नेटवर्क स्विच",
+            "D": "SQL डेटाबेस"
+          },
+          "explanation": "XSS हमलावरों को अन्य उपयोगकर्ताओं द्वारा देखे जाने वाले वेब पेजों में दुर्भावनापूर्ण स्क्रिप्ट इंजेक्ट करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-028",
+      "number": 28,
+      "question": "Which of the following malware does NOT require a host file to spread?",
+      "options": {
+        "A": "Virus",
+        "B": "Worm",
+        "C": "Trojan",
+        "D": "Macro"
+      },
+      "answer": "B",
+      "explanation": "Unlike viruses, worms are standalone programs that can replicate themselves without a host file.",
+      "hash": "5eb74206d13a9a5c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किस मैलवेयर को फैलने के लिए होस्ट फ़ाइल की आवश्यकता नहीं होती है?",
+          "options": {
+            "A": "वायरस",
+            "B": "वॉर्म",
+            "C": "ट्रोजन",
+            "D": "मैक्रो"
+          },
+          "explanation": "वायरस के विपरीत, वॉर्म स्टैंडअलोन प्रोग्राम होते हैं जो होस्ट फ़ाइल के बिना खुद को दोहरा सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-029",
+      "number": 29,
+      "question": "What is a 'Rootkit'?",
+      "options": {
+        "A": "A hardware repair kit",
+        "B": "Malware designed to provide privileged access while hiding its presence",
+        "C": "A tool to install Windows",
+        "D": "A type of high-speed router"
+      },
+      "answer": "B",
+      "explanation": "Rootkits allow remote control and administrative-level access to a computer while hiding from standard detection methods.",
+      "hash": "bed1f0218f4a5db6",
+      "translations": {
+        "hi": {
+          "question": "'रूटकिट' क्या है?",
+          "options": {
+            "A": "एक हार्डवेयर मरम्मत किट",
+            "B": "मैलवेयर जिसे अपनी उपस्थिति छिपाते हुए विशेषाधिकार प्राप्त पहुंच प्रदान करने के लिए डिज़ाइन किया गया है",
+            "C": "विंडोज स्थापित करने का एक उपकरण",
+            "D": "एक प्रकार का हाई-स्पीड राउटर"
+          },
+          "explanation": "रूटकिट मानक पहचान विधियों से छिपते हुए कंप्यूटर पर रिमोट कंट्रोल और प्रशासनिक-स्तर की पहुंच की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-01-030",
+      "number": 30,
+      "question": "The practice of making an email look like it came from a trusted source is:",
+      "options": {
+        "A": "Sniffing",
+        "B": "Spoofing",
+        "C": "Cracking",
+        "D": "Buffering"
+      },
+      "answer": "B",
+      "explanation": "Email spoofing is the creation of email messages with a forged sender address.",
+      "hash": "9a1740c97cc019c9",
+      "translations": {
+        "hi": {
+          "question": "ईमेल को ऐसा दिखाने का अभ्यास कि वह किसी विश्वसनीय स्रोत से आया है, कहलाता है:",
+          "options": {
+            "A": "स्निफिंग",
+            "B": "स्पूफिंग",
+            "C": "क्रैकिंग",
+            "D": "बफरिंग"
+          },
+          "explanation": "ईमेल स्पूफिंग जाली प्रेषक पते के साथ ईमेल संदेशों का निर्माण है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Programming Languages",
+  "set": 2,
+  "title": "Programming Languages Mock Test 2",
+  "questions": [
+    {
+      "id": "programming-languages-02-001",
+      "number": 1,
+      "question": "Which of the following is not a storage class in C?",
+      "options": {
+        "A": "auto",
+        "B": "register",
+        "C": "mutable",
+        "D": "extern"
+      },
+      "answer": "C",
+      "explanation": "mutable is a keyword in C++, not C. Storage classes in C include auto, register, static, and extern.",
+      "hash": "9e71788f380f0533",
+      "translations": {
+        "hi": {
+          "question": "C में निम्नलिखित में से कौन सी स्टोरेज क्लास नहीं है?",
+          "options": {
+            "A": "ऑटो",
+            "B": "रजिस्टर",
+            "C": "म्यूटेबल",
+            "D": "एक्सटर्न"
+          },
+          "explanation": "म्यूटेबल (mutable) C++ का कीवर्ड है, C का नहीं। C में स्टोरेज क्लासेस में ऑटो, रजिस्टर, स्टैटिक और एक्सटर्न शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-002",
+      "number": 2,
+      "question": "In Java, which keyword is used to refer to the parent class constructor?",
+      "options": {
+        "A": "this",
+        "B": "super",
+        "C": "parent",
+        "D": "base"
+      },
+      "answer": "B",
+      "explanation": "The super keyword is used to invoke the immediate parent class constructor.",
+      "hash": "1c6857752366ce59",
+      "translations": {
+        "hi": {
+          "question": "जावा में, पैरेंट क्लास कंस्ट्रक्टर को संदर्भित करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "दिस",
+            "B": "सुपर",
+            "C": "पैरेंट",
+            "D": "बेस"
+          },
+          "explanation": "सुपर (super) कीवर्ड का उपयोग पैरेंट क्लास के कंस्ट्रक्टर को कॉल करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-003",
+      "number": 3,
+      "question": "Which of these is a mechanism for achieving runtime polymorphism in C++?",
+      "options": {
+        "A": "Operator overloading",
+        "B": "Function overloading",
+        "C": "Virtual functions",
+        "D": "Templates"
+      },
+      "answer": "C",
+      "explanation": "Runtime polymorphism is achieved using virtual functions, while others are compile-time.",
+      "hash": "b333292c159f6a91",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सा C++ में रनटाइम पॉलीमॉर्फिज्म प्राप्त करने का एक तंत्र है?",
+          "options": {
+            "A": "ऑपरेटर ओवरलोडिंग",
+            "B": "फ़ंक्शन ओवरलोडिंग",
+            "C": "वर्चुअल फ़ंक्शंस",
+            "D": "टेम्पलेट्स"
+          },
+          "explanation": "रनटाइम पॉलीमॉर्फिज्म वर्चुअल फ़ंक्शंस का उपयोग करके प्राप्त किया जाता है, जबकि अन्य कंपाइल-टाइम होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-004",
+      "number": 4,
+      "question": "What is the output of the expression '3 * 1 ** 3' in Python?",
+      "options": {
+        "A": "27",
+        "B": "9",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "In Python, exponentiation (**) has higher precedence than multiplication (*). So, 1**3 = 1, and 3*1 = 3.",
+      "hash": "0b3211af491c1831",
+      "translations": {
+        "hi": {
+          "question": "पायथन में एक्सप्रेशन '3 * 1 ** 3' का आउटपुट क्या है?",
+          "options": {
+            "A": "27",
+            "B": "9",
+            "C": "3",
+            "D": "1"
+          },
+          "explanation": "पायथन में, घातांक (**) की प्राथमिकता गुणा (*) से अधिक होती है। इसलिए, 1**3 = 1, और 3*1 = 3।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-005",
+      "number": 5,
+      "question": "Which data structure in Python is used to store key-value pairs?",
+      "options": {
+        "A": "List",
+        "B": "Set",
+        "C": "Dictionary",
+        "D": "Tuple"
+      },
+      "answer": "C",
+      "explanation": "Dictionaries in Python store data as key:value pairs and are mutable.",
+      "hash": "1eb647d07c1e1479",
+      "translations": {
+        "hi": {
+          "question": "पायथन में की-वैल्यू पेयर्स को स्टोर करने के लिए किस डेटा स्ट्रक्चर का उपयोग किया जाता है?",
+          "options": {
+            "A": "लिस्ट",
+            "B": "सेट",
+            "C": "डिक्शनरी",
+            "D": "टपल"
+          },
+          "explanation": "पायथन में डिक्शनरी डेटा को की:वैल्यू जोड़े के रूप में स्टोर करती है और यह म्यूटेबल होती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-006",
+      "number": 6,
+      "question": "What is the size of a float variable in C?",
+      "options": {
+        "A": "2 bytes",
+        "B": "4 bytes",
+        "C": "8 bytes",
+        "D": "1 byte"
+      },
+      "answer": "B",
+      "explanation": "In most modern compilers, the float data type occupies 4 bytes of memory.",
+      "hash": "83eb2e0d2f2273eb",
+      "translations": {
+        "hi": {
+          "question": "C में फ्लोट वेरिएबल का आकार क्या है?",
+          "options": {
+            "A": "2 बाइट्स",
+            "B": "4 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "1 बाइट"
+          },
+          "explanation": "अधिकांश आधुनिक कंपाइलरों में, फ्लोट डेटा टाइप मेमोरी में 4 बाइट्स लेता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-007",
+      "number": 7,
+      "question": "In Python, which method is used to remove the last item from a list?",
+      "options": {
+        "A": "delete()",
+        "B": "remove()",
+        "C": "pop()",
+        "D": "clear()"
+      },
+      "answer": "C",
+      "explanation": "pop() removes and returns the last element by default.",
+      "hash": "84600edbe0fb02a5",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, लिस्ट से अंतिम आइटम को हटाने के लिए किस मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "डिलीट()",
+            "B": "रिमूव()",
+            "C": "पॉप()",
+            "D": "क्लियर()"
+          },
+          "explanation": "pop() डिफ़ॉल्ट रूप से अंतिम तत्व को हटाता है और उसे लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-008",
+      "number": 8,
+      "question": "Which operator is used for dynamic memory allocation in Java?",
+      "options": {
+        "A": "malloc",
+        "B": "alloc",
+        "C": "new",
+        "D": "create"
+      },
+      "answer": "C",
+      "explanation": "The new operator is used in Java to create objects and allocate memory dynamically.",
+      "hash": "e7e8ea448ae19279",
+      "translations": {
+        "hi": {
+          "question": "जावा में डायनामिक मेमोरी आवंटन के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "मैलॉक",
+            "B": "एलॉक",
+            "C": "न्यू",
+            "D": "क्रिएट"
+          },
+          "explanation": "जावा में ऑब्जेक्ट बनाने और डायनामिक रूप से मेमोरी आवंटित करने के लिए न्यू (new) ऑपरेटर का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-009",
+      "number": 9,
+      "question": "What is the index of the last element in a C++ array of size N?",
+      "options": {
+        "A": "N",
+        "B": "N+1",
+        "C": "N-1",
+        "D": "0"
+      },
+      "answer": "C",
+      "explanation": "Arrays are 0-indexed, so for a size N, indices range from 0 to N-1.",
+      "hash": "500e3cd839daf745",
+      "translations": {
+        "hi": {
+          "question": "N आकार के C++ एरे में अंतिम तत्व का इंडेक्स क्या है?",
+          "options": {
+            "A": "N",
+            "B": "N+1",
+            "C": "N-1",
+            "D": "0"
+          },
+          "explanation": "एरे 0-इंडेक्स वाले होते हैं, इसलिए N आकार के लिए इंडेक्स 0 से N-1 तक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-010",
+      "number": 10,
+      "question": "What does the 'break' statement do in a C loop?",
+      "options": {
+        "A": "Restarts the loop",
+        "B": "Skips the current iteration",
+        "C": "Terminates the loop",
+        "D": "Exits the entire program"
+      },
+      "answer": "C",
+      "explanation": "The break statement exits the innermost loop or switch statement immediately.",
+      "hash": "932c9c65fdc81c46",
+      "translations": {
+        "hi": {
+          "question": "C लूप में 'break' स्टेटमेंट क्या करता है?",
+          "options": {
+            "A": "लूप को पुनरारंभ करता है",
+            "B": "वर्तमान इटरेशन को छोड़ देता है",
+            "C": "लूप को समाप्त करता है",
+            "D": "पूरे प्रोग्राम से बाहर निकलता है"
+          },
+          "explanation": "break स्टेटमेंट तुरंत सबसे भीतरी लूप या स्विच स्टेटमेंट से बाहर निकल जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-011",
+      "number": 11,
+      "question": "Which C++ feature allows a class to inherit from more than one class?",
+      "options": {
+        "A": "Multilevel inheritance",
+        "B": "Multiple inheritance",
+        "C": "Hierarchical inheritance",
+        "D": "Hybrid inheritance"
+      },
+      "answer": "B",
+      "explanation": "Multiple inheritance allows a child class to have more than one parent class.",
+      "hash": "abde8b2344326efe",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ विशेषता एक क्लास को एक से अधिक क्लास से इनहेरिट करने की अनुमति देती है?",
+          "options": {
+            "A": "मल्टीलेवल इनहेरिटेंस",
+            "B": "मल्टीपल इनहेरिटेंस",
+            "C": "हिरार्कीकल इनहेरिटेंस",
+            "D": "हाइब्रिड इनहेरिटेंस"
+          },
+          "explanation": "मल्टीपल इनहेरिटेंस एक चाइल्ड क्लास को एक से अधिक पैरेंट क्लास रखने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-012",
+      "number": 12,
+      "question": "Which of the following cannot be inherited in Java?",
+      "options": {
+        "A": "Private members",
+        "B": "Public members",
+        "C": "Protected members",
+        "D": "Static members"
+      },
+      "answer": "A",
+      "explanation": "Private members of a class are not accessible outside that class, including subclasses.",
+      "hash": "5a77c5e64bd6f18e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किसे जावा में इनहेरिट नहीं किया जा सकता है?",
+          "options": {
+            "A": "प्राइवेट मेंबर्स",
+            "B": "पब्लिक मेंबर्स",
+            "C": "प्रोटेक्टेड मेंबर्स",
+            "D": "स्टैटिक मेंबर्स"
+          },
+          "explanation": "क्लास के प्राइवेट मेंबर्स उस क्लास के बाहर सुलभ नहीं होते हैं, जिसमें सबक्लास भी शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-013",
+      "number": 13,
+      "question": "In C, a pointer that does not point to any memory location is called?",
+      "options": {
+        "A": "Empty pointer",
+        "B": "Null pointer",
+        "C": "Void pointer",
+        "D": "Dangling pointer"
+      },
+      "answer": "B",
+      "explanation": "A NULL pointer is a pointer that points to nothing (address 0).",
+      "hash": "6a31cbd2a9e562cb",
+      "translations": {
+        "hi": {
+          "question": "C में, एक पॉइंटर जो किसी भी मेमोरी लोकेशन को इंगित नहीं करता है, क्या कहलाता है?",
+          "options": {
+            "A": "एम्प्टी पॉइंटर",
+            "B": "नल पॉइंटर",
+            "C": "वॉइड पॉइंटर",
+            "D": "डैंगलिंग पॉइंटर"
+          },
+          "explanation": "एक NULL पॉइंटर वह पॉइंटर है जो किसी भी चीज (एड्रेस 0) को इंगित नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-014",
+      "number": 14,
+      "question": "Which operator is used for integer division in Python 3?",
+      "options": {
+        "A": "/",
+        "B": "//",
+        "C": "%",
+        "D": "div"
+      },
+      "answer": "B",
+      "explanation": "// is the floor division operator which returns the integer part of the quotient.",
+      "hash": "580ff91f9db0adf7",
+      "translations": {
+        "hi": {
+          "question": "पायथन 3 में पूर्णांक विभाजन (integer division) के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "/",
+            "B": "//",
+            "C": "%",
+            "D": "div"
+          },
+          "explanation": "// फ्लोर डिवीजन ऑपरेटर है जो भागफल का पूर्णांक भाग लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-015",
+      "number": 15,
+      "question": "What is the base class for all classes in Java?",
+      "options": {
+        "A": "Main",
+        "B": "Java",
+        "C": "Object",
+        "D": "System"
+      },
+      "answer": "C",
+      "explanation": "java.lang.Object is the root of the class hierarchy in Java.",
+      "hash": "91fa06b0c7126bfe",
+      "translations": {
+        "hi": {
+          "question": "जावा में सभी क्लासेस के लिए बेस क्लास क्या है?",
+          "options": {
+            "A": "मेन",
+            "B": "जावा",
+            "C": "ऑब्जेक्ट",
+            "D": "सिस्टम"
+          },
+          "explanation": "java.lang.Object जावा में क्लास हिरार्की की जड़ (root) है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-016",
+      "number": 16,
+      "question": "Which Python keyword is used to import only a specific part of a module?",
+      "options": {
+        "A": "include",
+        "B": "from",
+        "C": "with",
+        "D": "get"
+      },
+      "answer": "B",
+      "explanation": "The 'from module import function' syntax allows selective importing.",
+      "hash": "2840781de38a3692",
+      "translations": {
+        "hi": {
+          "question": "मॉड्यूल के केवल एक विशिष्ट भाग को इम्पोर्ट करने के लिए किस पायथन कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "इन्क्लूड",
+            "B": "फ्रॉम",
+            "C": "विथ",
+            "D": "गेट"
+          },
+          "explanation": "'from module import function' सिंटैक्स चयनात्मक इम्पोर्ट की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-017",
+      "number": 17,
+      "question": "In C++, which function is called when an object goes out of scope?",
+      "options": {
+        "A": "Constructor",
+        "B": "Destructor",
+        "C": "Finalizer",
+        "D": "Deleter"
+      },
+      "answer": "B",
+      "explanation": "Destructors are used to deallocate memory and clean up when an object is destroyed.",
+      "hash": "3940f3c321da3160",
+      "translations": {
+        "hi": {
+          "question": "C++ में, जब कोई ऑब्जेक्ट स्कोप से बाहर हो जाता है, तो कौन सा फ़ंक्शन कॉल किया जाता है?",
+          "options": {
+            "A": "कंस्ट्रक्टर",
+            "B": "डिस्ट्रक्टर",
+            "C": "फाइनलाइज़र",
+            "D": "डिलीटर"
+          },
+          "explanation": "डिस्ट्रक्टर का उपयोग मेमोरी को डीएलोकेट करने और ऑब्जेक्ट के नष्ट होने पर सफाई करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-018",
+      "number": 18,
+      "question": "Which keyword is used to define an interface in Java?",
+      "options": {
+        "A": "abstract",
+        "B": "implements",
+        "C": "interface",
+        "D": "class"
+      },
+      "answer": "C",
+      "explanation": "The interface keyword is used to declare a completely abstract class.",
+      "hash": "87207fbe639667fd",
+      "translations": {
+        "hi": {
+          "question": "जावा में इंटरफेस को परिभाषित करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "एब्स्ट्रैक्ट",
+            "B": "इम्प्लीमेंट्स",
+            "C": "इंटरफेस",
+            "D": "क्लास"
+          },
+          "explanation": "इंटरफेस कीवर्ड का उपयोग पूरी तरह से एब्स्ट्रैक्ट क्लास घोषित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-019",
+      "number": 19,
+      "question": "What is the return type of the printf() function in C?",
+      "options": {
+        "A": "void",
+        "B": "char*",
+        "C": "int",
+        "D": "float"
+      },
+      "answer": "C",
+      "explanation": "printf() returns the total number of characters printed on the screen.",
+      "hash": "311b9cd199f04017",
+      "translations": {
+        "hi": {
+          "question": "C में printf() फ़ंक्शन का रिटर्न टाइप क्या है?",
+          "options": {
+            "A": "वॉइड",
+            "B": "चार*",
+            "C": "इंट",
+            "D": "फ्लोट"
+          },
+          "explanation": "printf() स्क्रीन पर प्रिंट किए गए कैरेक्टर्स की कुल संख्या लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-020",
+      "number": 20,
+      "question": "Which of the following is used to handle exceptions in Java?",
+      "options": {
+        "A": "try-catch-finally",
+        "B": "try-except",
+        "C": "throw-error",
+        "D": "if-else"
+      },
+      "answer": "A",
+      "explanation": "Java uses try, catch, and finally blocks for structured exception handling.",
+      "hash": "274316a22660d762",
+      "translations": {
+        "hi": {
+          "question": "जावा में अपवादों (exceptions) को संभालने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "ट्राई-कैच-फाइनली",
+            "B": "ट्राई-एक्सेप्ट",
+            "C": "थ्रो-एरर",
+            "D": "इफ़-एल्स"
+          },
+          "explanation": "जावा स्ट्रक्चर्ड एक्सेप्शन हैंडलिंग के लिए ट्राई, कैच और फाइनली ब्लॉक का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-021",
+      "number": 21,
+      "question": "How do you create a set in Python?",
+      "options": {
+        "A": "set = []",
+        "B": "set = {}",
+        "C": "set = ()",
+        "D": "set = set()"
+      },
+      "answer": "D",
+      "explanation": "set() is used to create an empty set; {} creates an empty dictionary.",
+      "hash": "71a94db07ba31765",
+      "translations": {
+        "hi": {
+          "question": "पायथन में एक सेट (Set) कैसे बनाते हैं?",
+          "options": {
+            "A": "सेट = []",
+            "B": "सेट = {}",
+            "C": "सेट = ()",
+            "D": "सेट = set()"
+          },
+          "explanation": "खाली सेट बनाने के लिए set() का उपयोग किया जाता है; {} एक खाली डिक्शनरी बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-022",
+      "number": 22,
+      "question": "In C++, what is 'this' pointer?",
+      "options": {
+        "A": "Pointer to the base class",
+        "B": "Pointer to the current object",
+        "C": "Pointer to the parent class",
+        "D": "A global pointer"
+      },
+      "answer": "B",
+      "explanation": "'this' is a hidden pointer passed to non-static member functions, pointing to the invoking object.",
+      "hash": "3fd68c1e8e001401",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'this' पॉइंटर क्या है?",
+          "options": {
+            "A": "बेस क्लास का पॉइंटर",
+            "B": "वर्तमान ऑब्जेक्ट का पॉइंटर",
+            "C": "पैरेंट क्लास का पॉइंटर",
+            "D": "एक ग्लोबल पॉइंटर"
+          },
+          "explanation": "'this' एक गुप्त पॉइंटर है जो नॉन-स्टैटिक मेंबर फ़ंक्शंस को दिया जाता है, जो कॉल करने वाले ऑब्जेक्ट की ओर इशारा करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-023",
+      "number": 23,
+      "question": "Which Java access modifier provides the widest visibility?",
+      "options": {
+        "A": "Private",
+        "B": "Public",
+        "C": "Protected",
+        "D": "Default"
+      },
+      "answer": "B",
+      "explanation": "Public members are accessible from any other class in any package.",
+      "hash": "538bfe0d422419f6",
+      "translations": {
+        "hi": {
+          "question": "कौन सा जावा एक्सेस मॉडिफायर सबसे व्यापक दृश्यता प्रदान करता है?",
+          "options": {
+            "A": "प्राइवेट",
+            "B": "पब्लिक",
+            "C": "प्रोटेक्टेड",
+            "D": "डिफ़ॉल्ट"
+          },
+          "explanation": "पब्लिक मेंबर्स किसी भी पैकेज की किसी भी अन्य क्लास से सुलभ होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-024",
+      "number": 24,
+      "question": "Which function is used to read a string with spaces in C?",
+      "options": {
+        "A": "scanf()",
+        "B": "gets()",
+        "C": "cin",
+        "D": "read()"
+      },
+      "answer": "B",
+      "explanation": "gets() (or better, fgets) reads characters until a newline is found, including spaces.",
+      "hash": "b735f29364f74a84",
+      "translations": {
+        "hi": {
+          "question": "C में स्पेस के साथ स्ट्रिंग पढ़ने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्कैनएफ()",
+            "B": "गेट्स()",
+            "C": "सिन",
+            "D": "रीड()"
+          },
+          "explanation": "gets() (या बेहतर, fgets) न्यूलाइन मिलने तक कैरेक्टर्स को पढ़ता है, जिसमें स्पेस भी शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-025",
+      "number": 25,
+      "question": "What is the output of 'print(type(1.0))' in Python?",
+      "options": {
+        "A": "<class 'int'>",
+        "B": "<class 'float'>",
+        "C": "<class 'number'>",
+        "D": "<class 'double'>"
+      },
+      "answer": "B",
+      "explanation": "Python treats decimal numbers as floats.",
+      "hash": "da9876ca65cde664",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'print(type(1.0))' का आउटपुट क्या है?",
+          "options": {
+            "A": "<class 'int'>",
+            "B": "<class 'float'>",
+            "C": "<class 'number'>",
+            "D": "<class 'double'>"
+          },
+          "explanation": "पायथन दशमलव संख्याओं को फ्लोट (float) के रूप में मानता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-026",
+      "number": 26,
+      "question": "Which component is responsible for running Java bytecode?",
+      "options": {
+        "A": "JDK",
+        "B": "JRE",
+        "C": "JVM",
+        "D": "JIT"
+      },
+      "answer": "C",
+      "explanation": "The Java Virtual Machine (JVM) executes the compiled bytecode.",
+      "hash": "535cf2cbe8e9bbbf",
+      "translations": {
+        "hi": {
+          "question": "जावा बाइटकोड को चलाने के लिए कौन सा घटक जिम्मेदार है?",
+          "options": {
+            "A": "JDK",
+            "B": "JRE",
+            "C": "JVM",
+            "D": "JIT"
+          },
+          "explanation": "जावा वर्चुअल मशीन (JVM) कंपाइल किए गए बाइटकोड को निष्पादित करती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-027",
+      "number": 27,
+      "question": "Which C++ keyword is used to allow a non-member function to access private members of a class?",
+      "options": {
+        "A": "public",
+        "B": "static",
+        "C": "friend",
+        "D": "protected"
+      },
+      "answer": "C",
+      "explanation": "A friend function has access to the private and protected members of the class.",
+      "hash": "3947013a6e38983d",
+      "translations": {
+        "hi": {
+          "question": "किसी नॉन-मेंबर फ़ंक्शन को क्लास के प्राइवेट मेंबर्स तक पहुँचने की अनुमति देने के लिए किस C++ कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "पब्लिक",
+            "B": "स्टैटिक",
+            "C": "फ्रेंड",
+            "D": "प्रोटेक्टेड"
+          },
+          "explanation": "एक फ्रेंड फ़ंक्शन के पास क्लास के प्राइवेट और प्रोटेक्टेड मेंबर्स तक पहुँच होती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-028",
+      "number": 28,
+      "question": "Which C++ keyword is used for exception handling?",
+      "options": {
+        "A": "catch",
+        "B": "finally",
+        "C": "except",
+        "D": "error"
+      },
+      "answer": "A",
+      "explanation": "C++ uses try, throw, and catch for handling exceptions.",
+      "hash": "1ecfdf935e2b8202",
+      "translations": {
+        "hi": {
+          "question": "एक्सेप्शन हैंडलिंग के लिए किस C++ कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "कैच",
+            "B": "फाइनली",
+            "C": "एक्सेप्ट",
+            "D": "एरर"
+          },
+          "explanation": "C++ अपवादों को संभालने के लिए ट्राई, थ्रो और कैच का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-029",
+      "number": 29,
+      "question": "In C, which operator has the highest precedence?",
+      "options": {
+        "A": "+",
+        "B": "*",
+        "C": "()",
+        "D": "="
+      },
+      "answer": "C",
+      "explanation": "Parentheses () have the highest precedence in expression evaluation.",
+      "hash": "b3724e98b8567a9d",
+      "translations": {
+        "hi": {
+          "question": "C में, किस ऑपरेटर की प्राथमिकता सबसे अधिक है?",
+          "options": {
+            "A": "+",
+            "B": "*",
+            "C": "()",
+            "D": "="
+          },
+          "explanation": "एक्सप्रेशन मूल्यांकन में कोष्ठक () की प्राथमिकता सबसे अधिक होती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-02-030",
+      "number": 30,
+      "question": "What is the default value of a boolean variable in Java when defined as a class member?",
+      "options": {
+        "A": "true",
+        "B": "false",
+        "C": "null",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "Instance variables of type boolean are initialized to false by default.",
+      "hash": "b5f5411184df8840",
+      "translations": {
+        "hi": {
+          "question": "क्लास मेंबर के रूप में परिभाषित होने पर जावा में बुलियन वेरिएबल का डिफ़ॉल्ट मान क्या होता है?",
+          "options": {
+            "A": "ट्रू",
+            "B": "फॉल्स",
+            "C": "नल",
+            "D": "0"
+          },
+          "explanation": "बुलियन प्रकार के इंस्टेंस वेरिएबल्स डिफ़ॉल्ट रूप से फॉल्स (false) पर इनिशियलाइज होते हैं।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Cloud Computing",
+  "set": 5,
+  "title": "Cloud Computing Mock Test 5",
+  "questions": [
+    {
+      "id": "cloud-computing-05-001",
+      "number": 1,
+      "question": "What is the primary purpose of a \"Cloud Gateway\"?",
+      "options": {
+        "A": "To connect on-premises environments to cloud-based storage or services",
+        "B": "To increase the local internet speed",
+        "C": "To replace the physical router",
+        "D": "To scan for hardware defects"
+      },
+      "answer": "A",
+      "explanation": "A cloud gateway provides a bridge between local applications and remote cloud storage/services.",
+      "hash": "21b5e46b42e46585",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड गेटवे\" का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "ऑन-प्रिमाइसेस वातावरण को क्लाउड-आधारित स्टोरेज या सेवाओं से जोड़ने के लिए",
+            "B": "स्थानीय इंटरनेट की गति बढ़ाने के लिए",
+            "C": "भौतिक राउटर को बदलने के लिए",
+            "D": "हार्डवेयर दोषों को स्कैन करने के लिए"
+          },
+          "explanation": "क्लाउड गेटवे स्थानीय अनुप्रयोगों और दूरस्थ क्लाउड स्टोरेज/सेवाओं के बीच एक सेतु (Bridge) प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-002",
+      "number": 2,
+      "question": "Which cloud concept describes the practice of distributing data and applications across multiple data centers to ensure they remain available during a disaster?",
+      "options": {
+        "A": "Elasticity",
+        "B": "Geo-replication",
+        "C": "Vertical Scaling",
+        "D": "Resource Pooling"
+      },
+      "answer": "B",
+      "explanation": "Geo-replication involves storing copies of data in different geographical locations to prevent data loss.",
+      "hash": "07286ca98efe3a3e",
+      "translations": {
+        "hi": {
+          "question": "डिजास्टर के दौरान डेटा और एप्लिकेशन को उपलब्ध रखने के लिए उन्हें कई डेटा सेंटरों में वितरित करने की क्लाउड अवधारणा क्या है?",
+          "options": {
+            "A": "इलास्टिसिटी",
+            "B": "जियो-रेप्लीकेशन",
+            "C": "वर्टिकल स्केलिंग",
+            "D": "रिसोर्स पूलिंग"
+          },
+          "explanation": "जियो-रेप्लीकेशन में डेटा की हानि को रोकने के लिए विभिन्न भौगोलिक स्थानों में डेटा की प्रतियां संग्रहीत करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-003",
+      "number": 3,
+      "question": "Which cloud service category is most suitable for a customer who wants to manage their own middleware and runtime?",
+      "options": {
+        "A": "SaaS",
+        "B": "PaaS",
+        "C": "IaaS",
+        "D": "FaaS"
+      },
+      "answer": "C",
+      "explanation": "In IaaS, the customer is responsible for managing everything from the OS level up, including middleware and runtime.",
+      "hash": "b965e9073e958245",
+      "translations": {
+        "hi": {
+          "question": "उस ग्राहक के लिए कौन सी क्लाउड सेवा श्रेणी सबसे उपयुक्त है जो अपने स्वयं के मिडलवेयर और रनटाइम का प्रबंधन करना चाहता है?",
+          "options": {
+            "A": "सास",
+            "B": "पास",
+            "C": "आईआस",
+            "D": "फास"
+          },
+          "explanation": "IaaS में, ग्राहक OS स्तर से ऊपर की हर चीज़ के प्रबंधन के लिए जिम्मेदार होता है, जिसमें मिडलवेयर और रनटाइम शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-004",
+      "number": 4,
+      "question": "What does \"RPO\" stand for in the context of cloud disaster recovery?",
+      "options": {
+        "A": "Resource Process Objective",
+        "B": "Recovery Point Objective",
+        "C": "Runtime Performance Optimization",
+        "D": "Real-time Power Output"
+      },
+      "answer": "B",
+      "explanation": "RPO determines the maximum acceptable amount of data loss measured in time.",
+      "hash": "69fd641d268fc5ef",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड डिजास्टर रिकवरी के संदर्भ में \"RPO\" का क्या अर्थ है?",
+          "options": {
+            "A": "रिसोर्स प्रोसेस ऑब्जेक्टिव",
+            "B": "रिकवरी पॉइंट ऑब्जेक्टिव",
+            "C": "रनटाइम परफॉर्मेंस ऑप्टिमाइजेशन",
+            "D": "रियल-टाइम पावर आउटपुट"
+          },
+          "explanation": "RPO समय के संदर्भ में मापी गई डेटा हानि की अधिकतम स्वीकार्य मात्रा निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-005",
+      "number": 5,
+      "question": "Which of the following is a disadvantage of \"Multi-tenancy\"?",
+      "options": {
+        "A": "High cost",
+        "B": "\"Noisy Neighbor\" effect (one tenant consuming excessive resources)",
+        "C": "Efficient resource use",
+        "D": "Automatic updates"
+      },
+      "answer": "B",
+      "explanation": "In a shared environment, one user's heavy load can sometimes affect the performance of others on the same hardware.",
+      "hash": "50702ec48e928764",
+      "translations": {
+        "hi": {
+          "question": "\"मल्टी-टेनेंसी\" का एक नुकसान निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "उच्च लागत",
+            "B": "\"नॉइज़ी नेबर\" प्रभाव (एक टेनेंट द्वारा अत्यधिक संसाधनों का उपभोग करना)",
+            "C": "कुशल संसाधन उपयोग",
+            "D": "स्वचालित अपडेट"
+          },
+          "explanation": "साझा वातावरण में, एक उपयोगकर्ता का भारी लोड कभी-कभी उसी हार्डवेयर पर दूसरों के प्रदर्शन को प्रभावित कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-006",
+      "number": 6,
+      "question": "What does \"RTO\" stand for in cloud disaster recovery planning?",
+      "options": {
+        "A": "Recovery Time Objective",
+        "B": "Read Time Only",
+        "C": "Remote Traffic Operation",
+        "D": "Resource Task Order"
+      },
+      "answer": "A",
+      "explanation": "RTO is the maximum duration of time within which a business process must be restored after a disaster.",
+      "hash": "f145c85611d67419",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड डिजास्टर रिकवरी प्लानिंग में \"RTO\" का क्या अर्थ है?",
+          "options": {
+            "A": "रिकवरी टाइम ऑब्जेक्टिव",
+            "B": "रीड टाइम ओनली",
+            "C": "रिमोट ट्रैफिक ऑपरेशन",
+            "D": "रिसोर्स टास्क ऑर्डर"
+          },
+          "explanation": "RTO समय की वह अधिकतम अवधि है जिसके भीतर डिजास्टर के बाद व्यावसायिक प्रक्रिया को बहाल किया जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-007",
+      "number": 7,
+      "question": "What is \"Cloud Native\" application development?",
+      "options": {
+        "A": "Developing apps that only run offline",
+        "B": "An approach to building and running applications that exploits the advantages of the cloud computing delivery model",
+        "C": "Using local servers for development",
+        "D": "Apps developed in a specific country"
+      },
+      "answer": "B",
+      "explanation": "Cloud-native apps are typically built using microservices, containers, and serverless technologies.",
+      "hash": "e2be8fabe6ce3132",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड नेटिव\" एप्लिकेशन डेवलपमेंट क्या है?",
+          "options": {
+            "A": "ऐसे ऐप्स विकसित करना जो केवल ऑफलाइन चलते हैं",
+            "B": "अनुप्रयोगों के निर्माण और संचालन का एक दृष्टिकोण जो क्लाउड कंप्यूटिंग मॉडल के लाभों का लाभ उठाता है",
+            "C": "विकास के लिए स्थानीय सर्वर का उपयोग करना",
+            "D": "किसी विशिष्ट देश में विकसित ऐप्स"
+          },
+          "explanation": "क्लाउड-नेटिव ऐप्स आमतौर पर माइक्रोसर्विसेज, कंटेनर और सर्वरलेस तकनीकों का उपयोग करके बनाए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-008",
+      "number": 8,
+      "question": "What is the function of a \"Cloud Broker\"?",
+      "options": {
+        "A": "To hack cloud accounts",
+        "B": "An entity that manages the use, performance and delivery of cloud services and negotiates relationships between providers and consumers",
+        "C": "To provide physical hardware",
+        "D": "To build websites"
+      },
+      "answer": "B",
+      "explanation": "A cloud broker acts as an intermediary to help customers find the best cloud services for their needs.",
+      "hash": "f23c1a1e0ce28210",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड ब्रोकर\" का कार्य क्या है?",
+          "options": {
+            "A": "क्लाउड खाते हैक करना",
+            "B": "एक इकाई जो क्लाउड सेवाओं के उपयोग, प्रदर्शन और वितरण का प्रबंधन करती है और प्रदाताओं और उपभोक्ताओं के बीच संबंधों पर बातचीत करती है",
+            "C": "भौतिक हार्डवेयर प्रदान करना",
+            "D": "वेबसाइट बनाना"
+          },
+          "explanation": "एक क्लाउड ब्रोकर ग्राहकों को उनकी आवश्यकताओं के लिए सर्वोत्तम क्लाउड सेवाएं खोजने में मदद करने के लिए एक मध्यस्थ के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-009",
+      "number": 9,
+      "question": "Which cloud concept allows resources to be automatically added to a system when demand spikes and removed when demand drops?",
+      "options": {
+        "A": "Static allocation",
+        "B": "Elasticity",
+        "C": "Manual scaling",
+        "D": "Virtualization"
+      },
+      "answer": "B",
+      "explanation": "Elasticity is the ability to grow or shrink infrastructure resources dynamically as needed.",
+      "hash": "e1a5df381adf75b2",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा मांग बढ़ने पर संसाधनों को स्वचालित रूप से जोड़ने और मांग कम होने पर हटाने की अनुमति देती है?",
+          "options": {
+            "A": "स्टेटिक एलोकेशन",
+            "B": "इलास्टिसिटी",
+            "C": "मैनुअल स्केलिंग",
+            "D": "वर्चुअलाइजेशन"
+          },
+          "explanation": "इलास्टिसिटी आवश्यकतानुसार इंफ्रास्ट्रक्चर संसाधनों को गतिशील रूप से बढ़ाने या घटाने की क्षमता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-010",
+      "number": 10,
+      "question": "What is \"Object Storage\" metadata?",
+      "options": {
+        "A": "The content of the file",
+        "B": "Information about the data (like tags, creator, or date) that is stored with the object",
+        "C": "The encryption key only",
+        "D": "A photo of the object"
+      },
+      "answer": "B",
+      "explanation": "Metadata makes it easier to index and search for files within a large object storage system.",
+      "hash": "d4f74b2f884677ae",
+      "translations": {
+        "hi": {
+          "question": "\"ऑब्जेक्ट स्टोरेज\" मेटाडेटा क्या है?",
+          "options": {
+            "A": "फ़ाइल की सामग्री",
+            "B": "डेटा के बारे में जानकारी (जैसे टैग, निर्माता, या तिथि) जो ऑब्जेक्ट के साथ संग्रहीत होती है",
+            "C": "केवल एन्क्रिप्शन की",
+            "D": "ऑब्जेक्ट की एक फोटो"
+          },
+          "explanation": "मेटाडेटा बड़े ऑब्जेक्ट स्टोरेज सिस्टम के भीतर फाइलों को इंडेक्स करना और खोजना आसान बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-011",
+      "number": 11,
+      "question": "What is \"Data Gravity\" in cloud computing?",
+      "options": {
+        "A": "The weight of a server",
+        "B": "The idea that data and applications are attracted to each other; as data grows, more apps move toward it",
+        "C": "Physical pull of the earth",
+        "D": "Deleting large files"
+      },
+      "answer": "B",
+      "explanation": "Large datasets are difficult to move, so it is more efficient to move the processing (apps) to where the data is.",
+      "hash": "ea69ed2e02cee2f2",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"डेटा ग्रेविटी\" (Data Gravity) क्या है?",
+          "options": {
+            "A": "सर्वर का वजन",
+            "B": "यह विचार कि डेटा और एप्लिकेशन एक-दूसरे की ओर आकर्षित होते हैं; जैसे-जैसे डेटा बढ़ता है, अधिक ऐप्स उसकी ओर बढ़ते हैं",
+            "C": "पृथ्वी का भौतिक खिंचाव",
+            "D": "बड़ी फाइलों को हटाना"
+          },
+          "explanation": "बड़े डेटासेट को स्थानांतरित करना कठिन होता है, इसलिए प्रोसेसिंग (एप्लिकेशन) को वहां ले जाना अधिक कुशल होता है जहां डेटा होता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-012",
+      "number": 12,
+      "question": "Which cloud service is best for hosting a high-traffic e-commerce website with seasonal spikes?",
+      "options": {
+        "A": "Private Cloud",
+        "B": "Public Cloud",
+        "C": "Shared Hosting",
+        "D": "Dedicated Server"
+      },
+      "answer": "B",
+      "explanation": "Public cloud offers the scalability and elasticity needed to handle unpredictable or seasonal traffic spikes.",
+      "hash": "6075d75e3f07070c",
+      "translations": {
+        "hi": {
+          "question": "मौसमी उतार-चढ़ाव वाली उच्च-ट्रैफ़िक ई-कॉमर्स वेबसाइट होस्ट करने के लिए कौन सी क्लाउड सेवा सर्वोत्तम है?",
+          "options": {
+            "A": "प्राइवेट क्लाउड",
+            "B": "पब्लिक क्लाउड",
+            "C": "शेयर्ड होस्टिंग",
+            "D": "डेडिकेटेड सर्वर"
+          },
+          "explanation": "पब्लिक क्लाउड अप्रत्याशित या मौसमी ट्रैफ़िक वृद्धि को संभालने के लिए आवश्यक स्केलेबिलिटी और इलास्टिसिटी प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-013",
+      "number": 13,
+      "question": "In a cloud environment, what is \"Provisioning\"?",
+      "options": {
+        "A": "Deleting a virtual machine",
+        "B": "The process of setting up and configuring IT infrastructure resources for use",
+        "C": "Paying the cloud bill",
+        "D": "Moving data to a USB"
+      },
+      "answer": "B",
+      "explanation": "Provisioning involves allocating resources like CPU, storage, and networking to a user or application.",
+      "hash": "498987d00c104c95",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड वातावरण में, \"प्रोविजनिंग\" (Provisioning) क्या है?",
+          "options": {
+            "A": "वर्चुअल मशीन हटाना",
+            "B": "उपयोग के लिए आईटी इंफ्रास्ट्रक्चर संसाधनों को स्थापित और कॉन्फ़िगर करने की प्रक्रिया",
+            "C": "क्लाउड बिल का भुगतान करना",
+            "D": "डेटा को USB में ले जाना"
+          },
+          "explanation": "प्रोविजनिंग में उपयोगकर्ता या एप्लिकेशन को सीपीयू, स्टोरेज और नेटवर्किंग जैसे संसाधन आवंटित करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-014",
+      "number": 14,
+      "question": "What is \"Cloud bursting\"?",
+      "options": {
+        "A": "When a cloud server crashes",
+        "B": "A configuration that uses public cloud resources when private cloud capacity is exceeded",
+        "C": "Buying more local hard drives",
+        "D": "Speeding up a laptop"
+      },
+      "answer": "B",
+      "explanation": "Cloud bursting allows an organization to handle peak loads by \"bursting\" into a public cloud.",
+      "hash": "a6cba703d423296d",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड बर्स्टिंग\" (Cloud bursting) क्या है?",
+          "options": {
+            "A": "जब क्लाउड सर्वर क्रैश हो जाता है",
+            "B": "एक कॉन्फ़िगरेशन जो निजी क्लाउड क्षमता समाप्त होने पर सार्वजनिक क्लाउड संसाधनों का उपयोग करता है",
+            "C": "अधिक स्थानीय हार्ड ड्राइव खरीदना",
+            "D": "लैपटॉप की गति बढ़ाना"
+          },
+          "explanation": "क्लाउड बर्स्टिंग एक संगठन को सार्वजनिक क्लाउड में \"बर्स्ट\" करके पीक लोड को संभालने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-015",
+      "number": 15,
+      "question": "Which security risk is specifically associated with the \"Management Plane\" of a cloud provider?",
+      "options": {
+        "A": "Physical theft of a server",
+        "B": "Unauthorized access to the administrative console used to control resources",
+        "C": "A bug in the user's code",
+        "D": "Slow internet connection"
+      },
+      "answer": "B",
+      "explanation": "If the management plane is compromised, an attacker can gain control over all of the customer's cloud resources.",
+      "hash": "7591bd848f6630dd",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सुरक्षा जोखिम विशेष रूप से क्लाउड प्रदाता के \"मैनेजमेंट प्लेन\" (Management Plane) से जुड़ा है?",
+          "options": {
+            "A": "सर्वर की भौतिक चोरी",
+            "B": "संसाधनों को नियंत्रित करने के लिए उपयोग किए जाने वाले प्रशासनिक कंसोल तक अनधिकृत पहुंच",
+            "C": "उपयोगकर्ता के कोड में एक बग",
+            "D": "धीमी इंटरनेट कनेक्शन"
+          },
+          "explanation": "यदि मैनेजमेंट प्लेन से समझौता किया जाता है, तो हमलावर ग्राहक के सभी क्लाउड संसाधनों पर नियंत्रण प्राप्त कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-016",
+      "number": 16,
+      "question": "Which cloud concept is defined as the \"ability to move applications and data from one cloud provider to another\"?",
+      "options": {
+        "A": "Interoperability",
+        "B": "Portability",
+        "C": "Scalability",
+        "D": "Elasticity"
+      },
+      "answer": "B",
+      "explanation": "Portability ensures that a customer is not locked into a single vendor's ecosystem.",
+      "hash": "4885e34512c41efa",
+      "translations": {
+        "hi": {
+          "question": "किस क्लाउड अवधारणा को \"अनुप्रयोगों और डेटा को एक क्लाउड प्रदाता से दूसरे में ले जाने की क्षमता\" के रूप में परिभाषित किया गया है?",
+          "options": {
+            "A": "इंटरऑपरेबिलिटी",
+            "B": "पोर्टेबिलिटी",
+            "C": "स्केलेबिलिटी",
+            "D": "इलास्टिसिटी"
+          },
+          "explanation": "पोर्टेबिलिटी यह सुनिश्चित करती है कि ग्राहक एकल विक्रेता के ईकोसिस्टम में बंधा न रहे।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-017",
+      "number": 17,
+      "question": "What does \"PaaS\" provide to developers?",
+      "options": {
+        "A": "Only physical hardware",
+        "B": "A ready-to-use application",
+        "C": "A platform including OS, runtime, and tools to develop and host apps",
+        "D": "Just an email service"
+      },
+      "answer": "C",
+      "explanation": "PaaS simplifies development by managing the underlying infrastructure automatically.",
+      "hash": "7e74454ee7f39a4c",
+      "translations": {
+        "hi": {
+          "question": "\"PaaS\" डेवलपर्स को क्या प्रदान करता है?",
+          "options": {
+            "A": "केवल भौतिक हार्डवेयर",
+            "B": "उपयोग के लिए तैयार एप्लिकेशन",
+            "C": "ओएस, रनटाइम और ऐप्स विकसित करने और होस्ट करने के लिए टूल सहित एक मंच",
+            "D": "सिर्फ एक ईमेल सेवा"
+          },
+          "explanation": "PaaS अंतर्निहित इंफ्रास्ट्रक्चर को स्वचालित रूप से प्रबंधित करके विकास को सरल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-018",
+      "number": 18,
+      "question": "Which cloud storage is typically accessed via an API or HTTP, rather than as a mounted drive?",
+      "options": {
+        "A": "Block Storage",
+        "B": "File Storage",
+        "C": "Object Storage",
+        "D": "Tape Storage"
+      },
+      "answer": "C",
+      "explanation": "Object storage (like AWS S3) uses RESTful APIs for data access and management.",
+      "hash": "fb47d98971c74c75",
+      "translations": {
+        "hi": {
+          "question": "कौन सा क्लाउड स्टोरेज आमतौर पर माउंटेड ड्राइव के बजाय एपीआई या एचटीटीपी के माध्यम से एक्सेस किया जाता है?",
+          "options": {
+            "A": "ब्लॉक स्टोरेज",
+            "B": "फाइल स्टोरेज",
+            "C": "ऑब्जेक्ट स्टोरेज",
+            "D": "टेप स्टोरेज"
+          },
+          "explanation": "ऑब्जेक्ट स्टोरेज (जैसे AWS S3) डेटा एक्सेस और प्रबंधन के लिए RESTful API का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-019",
+      "number": 19,
+      "question": "What is the main goal of \"Cloud Governance\"?",
+      "options": {
+        "A": "To make the cloud free for everyone",
+        "B": "To ensure cloud investments are aligned with business objectives and compliance",
+        "C": "To manage the electricity of data centers",
+        "D": "To build cloud servers"
+      },
+      "answer": "B",
+      "explanation": "Governance sets the rules and policies for how a company uses its cloud resources.",
+      "hash": "64066f25b20593ce",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड गवर्नेंस\" का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "क्लाउड को सभी के लिए मुफ्त बनाना",
+            "B": "यह सुनिश्चित करना कि क्लाउड निवेश व्यावसायिक उद्देश्यों और अनुपालन के अनुरूप हों",
+            "C": "डेटा सेंटरों की बिजली का प्रबंधन करना",
+            "D": "क्लाउड सर्वर बनाना"
+          },
+          "explanation": "गवर्नेंस कंपनी द्वारा अपने क्लाउड संसाधनों का उपयोग करने के तरीके के लिए नियम और नीतियां निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-020",
+      "number": 20,
+      "question": "Which cloud concept relates to having no single point of failure?",
+      "options": {
+        "A": "Redundancy",
+        "B": "Complexity",
+        "C": "Speed",
+        "D": "Portability"
+      },
+      "answer": "A",
+      "explanation": "Redundancy involves having duplicate components so that if one fails, another can take over.",
+      "hash": "88b9b6adce0f6688",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा 'नो सिंगल पॉइंट ऑफ फेल्योर' (कोई एकल विफलता बिंदु नहीं) से संबंधित है?",
+          "options": {
+            "A": "रिडंडेंसी",
+            "B": "जटिलता",
+            "C": "गति",
+            "D": "पोर्टेबिलिटी"
+          },
+          "explanation": "रिडंडेंसी में डुप्लिकेट घटक होना शामिल है ताकि यदि एक विफल हो जाए, तो दूसरा कार्यभार संभाल सके।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-021",
+      "number": 21,
+      "question": "What is \"Microservices Architecture\"?",
+      "options": {
+        "A": "Building an app as a single large unit",
+        "B": "Building an app as a collection of small, independent services that communicate via APIs",
+        "C": "Using only small servers",
+        "D": "Deleting code"
+      },
+      "answer": "B",
+      "explanation": "Microservices allow for easier scaling and faster development cycles in the cloud.",
+      "hash": "11d1ff84ca5339bb",
+      "translations": {
+        "hi": {
+          "question": "\"माइक्रोसर्विसेज आर्किटेक्चर\" क्या है?",
+          "options": {
+            "A": "एक एप्लिकेशन को एक बड़ी इकाई के रूप में बनाना",
+            "B": "एक एप्लिकेशन को छोटे, स्वतंत्र अनुप्रयोगों के संग्रह के रूप में बनाना जो एपीआई के माध्यम से संवाद करते हैं",
+            "C": "केवल छोटे सर्वर का उपयोग करना",
+            "D": "कोड हटाना"
+          },
+          "explanation": "माइक्रोसर्विसेज क्लाउड में आसान स्केलिंग और तेज़ विकास चक्र की अनुमति देती हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-022",
+      "number": 22,
+      "question": "Which role in a cloud environment is responsible for examining cloud logs to verify compliance?",
+      "options": {
+        "A": "Cloud Consumer",
+        "B": "Cloud Auditor",
+        "C": "Cloud Provider",
+        "D": "Cloud Developer"
+      },
+      "answer": "B",
+      "explanation": "A Cloud Auditor objectively evaluates cloud services, operations, and security.",
+      "hash": "31f57779b377116d",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड वातावरण में कौन सी भूमिका अनुपालन (compliance) को सत्यापित करने के लिए क्लाउड लॉग की जांच करने के लिए जिम्मेदार है?",
+          "options": {
+            "A": "क्लाउड कंज्यूमर",
+            "B": "क्लाउड ऑडिटर",
+            "C": "क्लाउड प्रदाता",
+            "D": "क्लाउड डेवलपर"
+          },
+          "explanation": "एक क्लाउड ऑडिटर क्लाउड सेवाओं, संचालन और सुरक्षा का निष्पक्ष रूप से मूल्यांकन करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-023",
+      "number": 23,
+      "question": "What is a \"Tenant\" in cloud computing?",
+      "options": {
+        "A": "A person who fixes the server",
+        "B": "A single user or organization sharing the same physical resources",
+        "C": "The physical building of the data center",
+        "D": "A cloud security tool"
+      },
+      "answer": "B",
+      "explanation": "Multitenancy refers to the architecture where one software instance serves multiple tenants.",
+      "hash": "f237fde99d43f648",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"टेनेंट\" (Tenant) क्या है?",
+          "options": {
+            "A": "एक व्यक्ति जो सर्वर ठीक करता है",
+            "B": "एक ही भौतिक संसाधनों को साझा करने वाला एक एकल उपयोगकर्ता या संगठन",
+            "C": "डेटा सेंटर की भौतिक इमारत",
+            "D": "एक क्लाउड सुरक्षा उपकरण"
+          },
+          "explanation": "मल्टीटेनेंसी उस आर्किटेक्चर को संदर्भित करती है जहां एक सॉफ्टवेयर इंस्टेंस कई टेनेंट की सेवा करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-024",
+      "number": 24,
+      "question": "What is \"Cloud Interoperability\"?",
+      "options": {
+        "A": "Locking a user to one vendor",
+        "B": "The ability for two or more cloud systems to work together and exchange information",
+        "C": "Using a cloud without internet",
+        "D": "Buying cloud stock"
+      },
+      "answer": "B",
+      "explanation": "Interoperability allows different platforms and services to communicate effectively.",
+      "hash": "94df06000af73496",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड इंटरऑपरेबिलिटी\" क्या है?",
+          "options": {
+            "A": "किसी उपयोगकर्ता को एक वेंडर से बांधना",
+            "B": "दो या दो से अधिक क्लाउड सिस्टमों के एक साथ काम करने और जानकारी का आदान-प्रदान करने की क्षमता",
+            "C": "बिना इंटरनेट के क्लाउड का उपयोग करना",
+            "D": "क्लाउड स्टॉक खरीदना"
+          },
+          "explanation": "इंटरऑपरेबिलिटी विभिन्न प्लेटफार्मों और सेवाओं को प्रभावी ढंग से संवाद करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-025",
+      "number": 25,
+      "question": "Which of the following is a key driver for cloud adoption?",
+      "options": {
+        "A": "Increased complexity",
+        "B": "Business Agility and Faster Time-to-Market",
+        "C": "High initial investment",
+        "D": "Permanent data storage"
+      },
+      "answer": "B",
+      "explanation": "Cloud allows companies to launch new products quickly without waiting for hardware delivery.",
+      "hash": "468d3b435c3cba34",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड अपनाने के लिए निम्नलिखित में से कौन सा एक प्रमुख चालक (driver) है?",
+          "options": {
+            "A": "बढ़ी हुई जटिलता",
+            "B": "व्यावसायिक चपलता (Agility) और बाजार में तेजी से पहुंचने का समय",
+            "C": "उच्च प्रारंभिक निवेश",
+            "D": "स्थायी डेटा भंडारण"
+          },
+          "explanation": "क्लाउड कंपनियों को हार्डवेयर डिलीवरी की प्रतीक्षा किए बिना जल्दी से नए उत्पाद लॉन्च करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-026",
+      "number": 26,
+      "question": "What is a \"Community Cloud\"?",
+      "options": {
+        "A": "A cloud for one person",
+        "B": "A cloud shared by several organizations with shared concerns (e.g., mission, security, compliance)",
+        "C": "The public internet",
+        "D": "A cloud with no password"
+      },
+      "answer": "B",
+      "explanation": "Community clouds are specialized environments shared by a specific group with common requirements.",
+      "hash": "6c7b6f7258df89dd",
+      "translations": {
+        "hi": {
+          "question": "\"कम्युनिटी क्लाउड\" (Community Cloud) क्या है?",
+          "options": {
+            "A": "एक व्यक्ति के लिए क्लाउड",
+            "B": "साझा चिंताओं (जैसे मिशन, सुरक्षा, अनुपालन) वाले कई संगठनों द्वारा साझा किया गया क्लाउड",
+            "C": "सार्वजनिक इंटरनेट",
+            "D": "बिना पासवर्ड वाला क्लाउड"
+          },
+          "explanation": "कम्युनिटी क्लाउड विशिष्ट आवश्यकताओं वाले एक विशिष्ट समूह द्वारा साझा किए गए विशेष वातावरण हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-027",
+      "number": 27,
+      "question": "Which cloud concept relates to the legal requirement that data must be stored within a specific country?",
+      "options": {
+        "A": "Data Sovereignty",
+        "B": "Data Portability",
+        "C": "Data Mining",
+        "D": "Data Scrubbing"
+      },
+      "answer": "A",
+      "explanation": "Data Sovereignty ensures compliance with local laws regarding digital data storage.",
+      "hash": "3b491a8b3da6f0e8",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा इस कानूनी आवश्यकता से संबंधित है कि डेटा एक विशिष्ट देश के भीतर संग्रहीत किया जाना चाहिए?",
+          "options": {
+            "A": "डेटा संप्रभुता",
+            "B": "डेटा पोर्टेबिलिटी",
+            "C": "डेटा माइनिंग",
+            "D": "डेटा स्क्रबिंग"
+          },
+          "explanation": "डेटा संप्रभुता डिजिटल डेटा भंडारण के संबंध में स्थानीय कानूनों का अनुपालन सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-028",
+      "number": 28,
+      "question": "What is \"Dynamic Scaling\"?",
+      "options": {
+        "A": "Fixed resource allocation",
+        "B": "Automatically adjusting resources based on real-time demand",
+        "C": "Deleting the database",
+        "D": "Changing the UI"
+      },
+      "answer": "B",
+      "explanation": "Dynamic scaling ensures the system handles load changes without manual intervention.",
+      "hash": "e285359b3d2c2dbf",
+      "translations": {
+        "hi": {
+          "question": "\"डायनेमिक स्केलिंग\" (Dynamic Scaling) क्या है?",
+          "options": {
+            "A": "निश्चित संसाधन आवंटन",
+            "B": "वास्तविक समय की मांग के आधार पर संसाधनों को स्वचालित रूप से समायोजित करना",
+            "C": "डेटाबेस हटाना",
+            "D": "यूआई बदलना"
+          },
+          "explanation": "डायनेमिक स्केलिंग यह सुनिश्चित करती है कि सिस्टम मैन्युअल हस्तक्षेप के बिना लोड परिवर्तनों को संभाले।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-029",
+      "number": 29,
+      "question": "What is the main function of \"Middleware\" in the cloud?",
+      "options": {
+        "A": "To act as a physical server",
+        "B": "To provide a layer between the OS and applications to manage communication and data",
+        "C": "To clean the hardware",
+        "D": "To provide internet"
+      },
+      "answer": "B",
+      "explanation": "Middleware simplifies app development by handling things like database connectivity and messaging.",
+      "hash": "0be49eef66bc845a",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड में \"मिडलवेयर\" (Middleware) का मुख्य कार्य क्या है?",
+          "options": {
+            "A": "भौतिक सर्वर के रूप में कार्य करना",
+            "B": "संचार और डेटा को प्रबंधित करने के लिए ओएस और अनुप्रयोगों के बीच एक परत प्रदान करना",
+            "C": "हार्डवेयर को साफ करना",
+            "D": "इंटरनेट प्रदान करना"
+          },
+          "explanation": "मिडलवेयर डेटाबेस कनेक्टिविटी और मैसेजिंग जैसी चीजों को संभालकर ऐप विकास को सरल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-05-030",
+      "number": 30,
+      "question": "Which technology is used to abstract hardware resources to create virtual machines?",
+      "options": {
+        "A": "Firewall",
+        "B": "Hypervisor",
+        "C": "Router",
+        "D": "Switch"
+      },
+      "answer": "B",
+      "explanation": "Hypervisors (like VMM) are the core technology that enables virtualization in the cloud.",
+      "hash": "96b09e6c8d95b146",
+      "translations": {
+        "hi": {
+          "question": "वर्चुअल मशीन बनाने के लिए हार्डवेयर संसाधनों को एब्सट्रैक्ट (Abstract) करने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "फ़ायरवॉल",
+            "B": "हाइपरवाइजर",
+            "C": "राउटर",
+            "D": "स्विच"
+          },
+          "explanation": "हाइपरवाइजर (जैसे VMM) वह मुख्य तकनीक है जो क्लाउड में वर्चुअलाइजेशन को सक्षम बनाती है।"
+        }
+      }
+    }
+  ]
+}

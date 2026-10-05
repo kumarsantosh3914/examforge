@@ -1,0 +1,787 @@
+{
+  "subject": "Programming Languages",
+  "set": 5,
+  "title": "Programming Languages Mock Test 5",
+  "questions": [
+    {
+      "id": "programming-languages-05-001",
+      "number": 1,
+      "question": "Which C function is used to reallocate or resize previously allocated memory?",
+      "options": {
+        "A": "malloc()",
+        "B": "calloc()",
+        "C": "realloc()",
+        "D": "resize()"
+      },
+      "answer": "C",
+      "explanation": "realloc() changes the size of the memory block pointed to by a pointer while preserving contents.",
+      "hash": "e77013ac86a4a136",
+      "translations": {
+        "hi": {
+          "question": "पहले से आवंटित मेमोरी को पुन: आवंटित या आकार बदलने के लिए किस C फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "malloc()",
+            "B": "calloc()",
+            "C": "realloc()",
+            "D": "resize()"
+          },
+          "explanation": "realloc() सामग्री को सुरक्षित रखते हुए पॉइंटर द्वारा इंगित मेमोरी ब्लॉक के आकार को बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-002",
+      "number": 2,
+      "question": "In C++, which operator is used for scope resolution?",
+      "options": {
+        "A": ".",
+        "B": "->",
+        "C": ":",
+        "D": "::"
+      },
+      "answer": "D",
+      "explanation": "The double colon (::) is the scope resolution operator used to access global variables or class members.",
+      "hash": "d4e85efb9b68d6d6",
+      "translations": {
+        "hi": {
+          "question": "C++ में, स्कोप रेजोल्यूशन के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": ".",
+            "B": "->",
+            "C": ":",
+            "D": "::"
+          },
+          "explanation": "डबल कोलन (::) स्कोप रेजोल्यूशन ऑपरेटर है जिसका उपयोग ग्लोबल वेरिएबल्स या क्लास मेंबर्स तक पहुँचने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-003",
+      "number": 3,
+      "question": "Which Java keyword is used to restrict a class so it cannot be instantiated but can be inherited?",
+      "options": {
+        "A": "static",
+        "B": "final",
+        "C": "abstract",
+        "D": "private"
+      },
+      "answer": "C",
+      "explanation": "An abstract class cannot be used to create objects; it serves as a template for subclasses.",
+      "hash": "9fdfdd00eff10fd0",
+      "translations": {
+        "hi": {
+          "question": "किस जावा कीवर्ड का उपयोग क्लास को प्रतिबंधित करने के लिए किया जाता है ताकि इसे इंस्टेंटिएट न किया जा सके लेकिन इनहेरिट किया जा सके?",
+          "options": {
+            "A": "static",
+            "B": "final",
+            "C": "abstract",
+            "D": "private"
+          },
+          "explanation": "एक एब्स्ट्रैक्ट क्लास का उपयोग ऑब्जेक्ट बनाने के लिए नहीं किया जा सकता; यह सबक्लासेस के लिए एक टेम्पलेट के रूप में कार्य करती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-004",
+      "number": 4,
+      "question": "In C, what is the value of EOF (End of File) usually defined as?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "NULL"
+      },
+      "answer": "C",
+      "explanation": "EOF is a macro defined in stdio.h, typically having a value of -1.",
+      "hash": "69de0955b8bca245",
+      "translations": {
+        "hi": {
+          "question": "C में, EOF (End of File) का मान आमतौर पर क्या परिभाषित किया जाता है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "NULL"
+          },
+          "explanation": "EOF एक मैक्रो है जिसे stdio.h में परिभाषित किया गया है, जिसका मान आमतौर पर -1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-005",
+      "number": 5,
+      "question": "What is the output of 'print(type([]))' in Python?",
+      "options": {
+        "A": "<class 'tuple'>",
+        "B": "<class 'list'>",
+        "C": "<class 'set'>",
+        "D": "<class 'array'>"
+      },
+      "answer": "B",
+      "explanation": "Empty square brackets [] represent an empty list object in Python.",
+      "hash": "ba31be3ff458ad1c",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'print(type([]))' का आउटपुट क्या है?",
+          "options": {
+            "A": "<class 'tuple'>",
+            "B": "<class 'list'>",
+            "C": "<class 'set'>",
+            "D": "<class 'array'>"
+          },
+          "explanation": "पायथन में खाली स्क्वायर ब्रैकेट [] एक खाली लिस्ट ऑब्जेक्ट का प्रतिनिधित्व करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-006",
+      "number": 6,
+      "question": "Which C++ feature allows a function to be defined outside the class but declared inside?",
+      "options": {
+        "A": "Inline function",
+        "B": "Friend function",
+        "C": "Scope resolution",
+        "D": "Inheritance"
+      },
+      "answer": "C",
+      "explanation": "Using the :: operator, member functions can be defined outside the class body.",
+      "hash": "47875bcc376a4072",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ विशेषता एक फ़ंक्शन को क्लास के बाहर परिभाषित करने लेकिन अंदर घोषित करने की अनुमति देती है?",
+          "options": {
+            "A": "इनलाइन फ़ंक्शन",
+            "B": "फ्रेंड फ़ंक्शन",
+            "C": "स्कोप रेजोल्यूशन",
+            "D": "इनहेरिटेंस"
+          },
+          "explanation": ":: ऑपरेटर का उपयोग करके, मेंबर फ़ंक्शंस को क्लास बॉडी के बाहर परिभाषित किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-007",
+      "number": 7,
+      "question": "Which of these is a synchronized collection class in Java?",
+      "options": {
+        "A": "ArrayList",
+        "B": "LinkedList",
+        "C": "Vector",
+        "D": "HashMap"
+      },
+      "answer": "C",
+      "explanation": "Vector is thread-safe (synchronized), whereas ArrayList is not.",
+      "hash": "16d15d84f355e856",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सी जावा में एक सिंक्रोनाइज़्ड कलेक्शन क्लास है?",
+          "options": {
+            "A": "ArrayList",
+            "B": "LinkedList",
+            "C": "Vector",
+            "D": "HashMap"
+          },
+          "explanation": "Vector थ्रेड-सेफ (सिंक्रोनाइज़्ड) है, जबकि ArrayList नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-008",
+      "number": 8,
+      "question": "In C, a function that calls itself is known as?",
+      "options": {
+        "A": "Inline function",
+        "B": "Recursive function",
+        "C": "Static function",
+        "D": "Global function"
+      },
+      "answer": "B",
+      "explanation": "Recursion is the process where a function calls itself to solve smaller instances of a problem.",
+      "hash": "3ce9ea9eb65122c1",
+      "translations": {
+        "hi": {
+          "question": "C में, वह फ़ंक्शन जो स्वयं को कॉल करता है, क्या कहलाता है?",
+          "options": {
+            "A": "इनलाइन फ़ंक्शन",
+            "B": "रिकर्सिव फ़ंक्शन",
+            "C": "स्टैटिक फ़ंक्शन",
+            "D": "ग्लोबल फ़ंक्शन"
+          },
+          "explanation": "रिकर्सन वह प्रक्रिया है जहाँ एक फ़ंक्शन समस्या के छोटे उदाहरणों को हल करने के लिए स्वयं को कॉल करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-009",
+      "number": 9,
+      "question": "Which method is used to add an element at the end of a list in Python?",
+      "options": {
+        "A": "add()",
+        "B": "push()",
+        "C": "append()",
+        "D": "insert()"
+      },
+      "answer": "C",
+      "explanation": "append() adds its argument as a single element to the end of a list.",
+      "hash": "888f435a74389c48",
+      "translations": {
+        "hi": {
+          "question": "पायथन में लिस्ट के अंत में एक तत्व जोड़ने के लिए किस मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "add()",
+            "B": "push()",
+            "C": "append()",
+            "D": "insert()"
+          },
+          "explanation": "append() अपने तर्क को लिस्ट के अंत में एक एकल तत्व के रूप में जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-010",
+      "number": 10,
+      "question": "Which Java keyword is used to define a block that executes regardless of whether an exception is thrown?",
+      "options": {
+        "A": "catch",
+        "B": "finally",
+        "C": "throw",
+        "D": "try"
+      },
+      "answer": "B",
+      "explanation": "The finally block is used for cleanup code and always executes after try-catch blocks.",
+      "hash": "ab5c1aee0f2f050e",
+      "translations": {
+        "hi": {
+          "question": "जावा में उस ब्लॉक को परिभाषित करने के लिए किस कीवर्ड का उपयोग किया जाता है जो अपवाद (exception) आने या न आने पर भी निष्पादित होता है?",
+          "options": {
+            "A": "catch",
+            "B": "finally",
+            "C": "throw",
+            "D": "try"
+          },
+          "explanation": "finally ब्लॉक का उपयोग सफाई कोड के लिए किया जाता है और यह हमेशा try-catch ब्लॉक के बाद निष्पादित होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-011",
+      "number": 11,
+      "question": "In Python, what does 'pip' stand for?",
+      "options": {
+        "A": "Python Install Package",
+        "B": "Preferred Installer Program",
+        "C": "Python Interface Program",
+        "D": "Package Input Python"
+      },
+      "answer": "B",
+      "explanation": "pip is the standard package manager used to install and manage software packages written in Python.",
+      "hash": "f6f25febcc6cb889",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'pip' का क्या अर्थ है?",
+          "options": {
+            "A": "पायथन इंस्टॉल पैकेज",
+            "B": "प्रेफर्ड इंस्टॉलर प्रोग्राम",
+            "C": "पायथन इंटरफेस प्रोग्राम",
+            "D": "पैकेज इनपुट पायथन"
+          },
+          "explanation": "pip मानक पैकेज मैनेजर है जिसका उपयोग पायथन में लिखे गए सॉफ्टवेयर पैकेज को स्थापित और प्रबंधित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-012",
+      "number": 12,
+      "question": "In C++, what is 'function overriding'?",
+      "options": {
+        "A": "Multiple functions with same name in same class",
+        "B": "Redefining a base class function in a derived class",
+        "C": "Using a function without declaration",
+        "D": "A function that calls another function"
+      },
+      "answer": "B",
+      "explanation": "Overriding allows a subclass to provide a specific implementation of a method already defined in its superclass.",
+      "hash": "8b888c4cb7450753",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'फ़ंक्शन ओवरराइडिंग' क्या है?",
+          "options": {
+            "A": "एक ही क्लास में एक ही नाम के कई फ़ंक्शन",
+            "B": "डिराइव्ड क्लास में बेस क्लास फ़ंक्शन को फिर से परिभाषित करना",
+            "C": "बिना घोषणा के फ़ंक्शन का उपयोग करना",
+            "D": "एक फ़ंक्शन जो दूसरे फ़ंक्शन को कॉल करता है"
+          },
+          "explanation": "ओवरराइडिंग एक सबक्लास को उस मेथड का विशिष्ट कार्यान्वयन प्रदान करने की अनुमति देती है जो पहले से ही उसकी सुपरक्लास में परिभाषित है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-013",
+      "number": 13,
+      "question": "What is a 'pure virtual function' in C++?",
+      "options": {
+        "A": "A function with no body assigned to 0",
+        "B": "A function that returns 0",
+        "C": "A function defined in a header file",
+        "D": "A function that cannot be overridden"
+      },
+      "answer": "A",
+      "explanation": "A pure virtual function is declared by assigning 0 to it, making the class abstract.",
+      "hash": "bb9030bd5b56d8d6",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'प्योर वर्चुअल फ़ंक्शन' क्या है?",
+          "options": {
+            "A": "0 को असाइन किया गया बिना बॉडी वाला फ़ंक्शन",
+            "B": "0 लौटाने वाला फ़ंक्शन",
+            "C": "हेडर फ़ाइल में परिभाषित फ़ंक्शन",
+            "D": "एक फ़ंक्शन जिसे ओवरराइड नहीं किया जा सकता"
+          },
+          "explanation": "एक प्योर वर्चुअल फ़ंक्शन को 0 असाइन करके घोषित किया जाता है, जिससे क्लास एब्स्ट्रैक्ट बन जाती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-014",
+      "number": 14,
+      "question": "In Java, which access modifier makes a member visible only within its own package?",
+      "options": {
+        "A": "public",
+        "B": "private",
+        "C": "protected",
+        "D": "default (no modifier)"
+      },
+      "answer": "D",
+      "explanation": "If no modifier is specified, it's package-private, meaning visible only within its package.",
+      "hash": "2d96169f380915d4",
+      "translations": {
+        "hi": {
+          "question": "जावा में, कौन सा एक्सेस मॉडिफायर किसी सदस्य को केवल उसके अपने पैकेज के भीतर ही दृश्यमान बनाता है?",
+          "options": {
+            "A": "public",
+            "B": "private",
+            "C": "protected",
+            "D": "डिफ़ॉल्ट (कोई मॉडिफायर नहीं)"
+          },
+          "explanation": "यदि कोई मॉडिफायर निर्दिष्ट नहीं है, तो यह पैकेज-प्राइवेट है, जिसका अर्थ है केवल अपने पैकेज के भीतर दृश्यमान।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-015",
+      "number": 15,
+      "question": "Which of the following is used to end a string in C?",
+      "options": {
+        "A": "\\n",
+        "B": "\\t",
+        "C": "\\0",
+        "D": "\\e"
+      },
+      "answer": "C",
+      "explanation": "C strings are null-terminated, meaning they end with the null character '\\0'.",
+      "hash": "296ad6492035af85",
+      "translations": {
+        "hi": {
+          "question": "C में स्ट्रिंग को समाप्त करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "\\n",
+            "B": "\\t",
+            "C": "\\0",
+            "D": "\\e"
+          },
+          "explanation": "C स्ट्रिंग्स नल-टर्मिनेटेड होती हैं, जिसका अर्थ है कि वे नल कैरेक्टर '\\0' के साथ समाप्त होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-016",
+      "number": 16,
+      "question": "What is the size of a pointer variable on a 64-bit C compiler?",
+      "options": {
+        "A": "2 bytes",
+        "B": "4 bytes",
+        "C": "8 bytes",
+        "D": "16 bytes"
+      },
+      "answer": "C",
+      "explanation": "On a 64-bit architecture, pointers typically take 8 bytes to store a memory address.",
+      "hash": "e958779581642952",
+      "translations": {
+        "hi": {
+          "question": "64-बिट C कंपाइलर पर पॉइंटर वेरिएबल का आकार क्या है?",
+          "options": {
+            "A": "2 बाइट्स",
+            "B": "4 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "16 बाइट्स"
+          },
+          "explanation": "64-बिट आर्किटेक्चर पर, पॉइंटर्स आमतौर पर मेमोरी एड्रेस स्टोर करने के लिए 8 बाइट्स लेते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-017",
+      "number": 17,
+      "question": "Which C++ keyword is used to create a template for generic programming?",
+      "options": {
+        "A": "type",
+        "B": "generic",
+        "C": "template",
+        "D": "class"
+      },
+      "answer": "C",
+      "explanation": "The template keyword allows functions or classes to operate with generic types.",
+      "hash": "19ec5949d38aa0d4",
+      "translations": {
+        "hi": {
+          "question": "जेनेरिक प्रोग्रामिंग के लिए टेम्पलेट बनाने के लिए किस C++ कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "type",
+            "B": "generic",
+            "C": "template",
+            "D": "class"
+          },
+          "explanation": "template कीवर्ड फ़ंक्शंस या क्लासेज को जेनेरिक टाइप्स के साथ संचालित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-018",
+      "number": 18,
+      "question": "In Python, which operator is used for exponentiation?",
+      "options": {
+        "A": "^",
+        "B": "**",
+        "C": "//",
+        "D": "*"
+      },
+      "answer": "B",
+      "explanation": "The double asterisk (**) is used to calculate power (e.g., 2**3 = 8).",
+      "hash": "14dedbfd336ad047",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, घातांक (exponentiation) के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "^",
+            "B": "**",
+            "C": "//",
+            "D": "*"
+          },
+          "explanation": "डबल एस्टेरिस्क (**) का उपयोग पावर की गणना करने के लिए किया जाता है (जैसे, 2**3 = 8)।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-019",
+      "number": 19,
+      "question": "Which Java feature allows the execution of multiple parts of a program simultaneously?",
+      "options": {
+        "A": "Multitasking",
+        "B": "Multithreading",
+        "C": "Polymorphism",
+        "D": "Encapsulation"
+      },
+      "answer": "B",
+      "explanation": "Multithreading is a Java feature that allows concurrent execution of two or more parts of a program.",
+      "hash": "f48417c36037febb",
+      "translations": {
+        "hi": {
+          "question": "जावा की कौन सी विशेषता प्रोग्राम के कई हिस्सों को एक साथ निष्पादित करने की अनुमति देती है?",
+          "options": {
+            "A": "मल्टीटास्किंग",
+            "B": "मल्टीथ्रेडिंग",
+            "C": "पॉलीमॉर्फिज्म",
+            "D": "एनकैप्सुलेशन"
+          },
+          "explanation": "मल्टीथ्रेडिंग एक जावा विशेषता है जो प्रोग्राम के दो या दो से अधिक हिस्सों के एक साथ निष्पादन की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-020",
+      "number": 20,
+      "question": "How do you start a comment in a Python script?",
+      "options": {
+        "A": "//",
+        "B": "/*",
+        "C": "#",
+        "D": "--"
+      },
+      "answer": "C",
+      "explanation": "The hash symbol (#) is used for single-line comments in Python.",
+      "hash": "7ff009650c78f7f0",
+      "translations": {
+        "hi": {
+          "question": "पायथन स्क्रिप्ट में कमेंट कैसे शुरू करते हैं?",
+          "options": {
+            "A": "//",
+            "B": "/*",
+            "C": "#",
+            "D": "--"
+          },
+          "explanation": "पायथन में सिंगल-लाइन कमेंट के लिए हैश (#) प्रतीक का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-021",
+      "number": 21,
+      "question": "In C, 'a' and \"a\" are?",
+      "options": {
+        "A": "Both are same",
+        "B": "'a' is a character, \"a\" is a string",
+        "C": "Both are characters",
+        "D": "Both are strings"
+      },
+      "answer": "B",
+      "explanation": "Single quotes denote a single character, double quotes denote a string (null-terminated).",
+      "hash": "24044ce7c075c667",
+      "translations": {
+        "hi": {
+          "question": "C में, 'a' और \"a\" क्या हैं?",
+          "options": {
+            "A": "दोनों समान हैं",
+            "B": "'a' एक कैरेक्टर है, \"a\" एक स्ट्रिंग है",
+            "C": "दोनों कैरेक्टर हैं",
+            "D": "दोनों स्ट्रिंग हैं"
+          },
+          "explanation": "सिंगल कोट्स एक एकल कैरेक्टर को दर्शाते हैं, डबल कोट्स एक स्ट्रिंग (नल-टर्मिनेटेड) को दर्शाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-022",
+      "number": 22,
+      "question": "In Python, which collection is unordered and does not allow duplicate elements?",
+      "options": {
+        "A": "List",
+        "B": "Tuple",
+        "C": "Set",
+        "D": "Dictionary"
+      },
+      "answer": "C",
+      "explanation": "A set is an unordered collection of unique elements.",
+      "hash": "5cca8c7c8b8a03fa",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, कौन सा कलेक्शन अव्यवस्थित है और डुप्लिकेट तत्वों की अनुमति नहीं देता है?",
+          "options": {
+            "A": "लिस्ट",
+            "B": "टपल",
+            "C": "सेट",
+            "D": "डिक्शनरी"
+          },
+          "explanation": "सेट अद्वितीय तत्वों का एक अव्यवस्थित संग्रह है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-023",
+      "number": 23,
+      "question": "What is the size of an 'int' in Java?",
+      "options": {
+        "A": "2 bytes",
+        "B": "4 bytes",
+        "C": "8 bytes",
+        "D": "Depends on OS"
+      },
+      "answer": "B",
+      "explanation": "In Java, the size of primitive types like int is fixed at 4 bytes (32 bits) regardless of the platform.",
+      "hash": "e853a349ad1c8a84",
+      "translations": {
+        "hi": {
+          "question": "जावा में 'int' का आकार क्या है?",
+          "options": {
+            "A": "2 बाइट्स",
+            "B": "4 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "OS पर निर्भर करता है"
+          },
+          "explanation": "जावा में, प्लेटफॉर्म की परवाह किए बिना int जैसे प्रिमिटिव टाइप्स का आकार 4 बाइट्स (32 बिट्स) पर तय होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-024",
+      "number": 24,
+      "question": "Which C++ header file provides the 'cout' and 'cin' objects?",
+      "options": {
+        "A": "stdio.h",
+        "B": "conio.h",
+        "C": "iostream",
+        "D": "fstream"
+      },
+      "answer": "C",
+      "explanation": "iostream stands for input-output stream and contains basic I/O objects.",
+      "hash": "ee4bc0e41a36f69c",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ हेडर फ़ाइल 'cout' और 'cin' ऑब्जेक्ट प्रदान करती है?",
+          "options": {
+            "A": "stdio.h",
+            "B": "conio.h",
+            "C": "iostream",
+            "D": "fstream"
+          },
+          "explanation": "iostream का अर्थ इनपुट-आउटपुट स्ट्रीम है और इसमें बुनियादी I/O ऑब्जेक्ट होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-025",
+      "number": 25,
+      "question": "Which Java keyword is used to call the constructor of the same class?",
+      "options": {
+        "A": "super()",
+        "B": "this()",
+        "C": "self()",
+        "D": "current()"
+      },
+      "answer": "B",
+      "explanation": "this() is used for constructor chaining within the same class.",
+      "hash": "d2a7142cf0bdb9cd",
+      "translations": {
+        "hi": {
+          "question": "एक ही क्लास के कंस्ट्रक्टर को कॉल करने के लिए किस जावा कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "super()",
+            "B": "this()",
+            "C": "self()",
+            "D": "current()"
+          },
+          "explanation": "this() का उपयोग एक ही क्लास के भीतर कंस्ट्रक्टर चेनिंग के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-026",
+      "number": 26,
+      "question": "What is the output of '3 // 2' in Python?",
+      "options": {
+        "A": "1.5",
+        "B": "1",
+        "C": "2",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "// is the floor division operator which returns only the integer part of the result.",
+      "hash": "13b6269a68e7af13",
+      "translations": {
+        "hi": {
+          "question": "पायथन में '3 // 2' का आउटपुट क्या है?",
+          "options": {
+            "A": "1.5",
+            "B": "1",
+            "C": "2",
+            "D": "0"
+          },
+          "explanation": "// फ्लोर डिवीजन ऑपरेटर है जो परिणाम का केवल पूर्णांक भाग लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-027",
+      "number": 27,
+      "question": "In C, which operator is used for bitwise AND?",
+      "options": {
+        "A": "&&",
+        "B": "&",
+        "C": "",
+        "D": "^"
+      },
+      "answer": "B",
+      "explanation": "Single ampersand (&) is the bitwise AND operator, while && is logical AND.",
+      "hash": "6f5a8dea8896b84b",
+      "translations": {
+        "hi": {
+          "question": "C में, बिटवाइज़ AND के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "&&",
+            "B": "&",
+            "C": "| |",
+            "D": "^"
+          },
+          "explanation": "सिंगल एम्परसेंड (&) बिटवाइज़ AND ऑपरेटर है, जबकि && लॉजिकल AND है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-028",
+      "number": 28,
+      "question": "Which of the following is the 'Insertion Operator' in C++?",
+      "options": {
+        "A": ">>",
+        "B": "<<",
+        "C": "::",
+        "D": "?:"
+      },
+      "answer": "B",
+      "explanation": "<< is used with cout to insert data into the output stream.",
+      "hash": "ddfbe942b2c684dc",
+      "translations": {
+        "hi": {
+          "question": "C++ में निम्नलिखित में से कौन सा 'इंसर्शन ऑपरेटर' है?",
+          "options": {
+            "A": ">>",
+            "B": "<<",
+            "C": "::",
+            "D": "?:"
+          },
+          "explanation": "<< का उपयोग आउटपुट स्ट्रीम में डेटा डालने के लिए cout के साथ किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-029",
+      "number": 29,
+      "question": "Which C++ feature allows a class to access the private members of another class?",
+      "options": {
+        "A": "Inheritance",
+        "B": "Friend class",
+        "C": "Encapsulation",
+        "D": "Polymorphism"
+      },
+      "answer": "B",
+      "explanation": "If a class is declared as a 'friend', it can access private and protected members of the class it is friends with.",
+      "hash": "798f5ae86c374637",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ विशेषता एक क्लास को दूसरी क्लास के प्राइवेट मेंबर्स तक पहुँचने की अनुमति देती है?",
+          "options": {
+            "A": "इनहेरिटेंस",
+            "B": "फ्रेंड क्लास",
+            "C": "एनकैप्सुलेशन",
+            "D": "पॉलीमॉर्फिज्म"
+          },
+          "explanation": "यदि किसी क्लास को 'friend' घोषित किया जाता है, तो वह उस क्लास के प्राइवेट और प्रोटेक्टेड मेंबर्स तक पहुँच सकती है जिसकी वह फ्रेंड है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-05-030",
+      "number": 30,
+      "question": "In C, a variable declared inside a function is by default?",
+      "options": {
+        "A": "static",
+        "B": "extern",
+        "C": "auto",
+        "D": "register"
+      },
+      "answer": "C",
+      "explanation": "Variables declared within blocks are 'auto' (automatic) by default.",
+      "hash": "09bc96655e3fdfe0",
+      "translations": {
+        "hi": {
+          "question": "C में, फ़ंक्शन के अंदर घोषित वेरिएबल डिफ़ॉल्ट रूप से क्या होता है?",
+          "options": {
+            "A": "static",
+            "B": "extern",
+            "C": "auto",
+            "D": "register"
+          },
+          "explanation": "ब्लॉक के भीतर घोषित वेरिएबल्स डिफ़ॉल्ट रूप से 'auto' (स्वचालित) होते हैं।"
+        }
+      }
+    }
+  ]
+}

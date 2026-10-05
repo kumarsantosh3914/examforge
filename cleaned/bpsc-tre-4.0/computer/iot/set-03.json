@@ -1,0 +1,787 @@
+{
+  "subject": "IoT",
+  "set": 3,
+  "title": "IoT Mock Test 3",
+  "questions": [
+    {
+      "id": "iot-03-001",
+      "number": 1,
+      "question": "Which IEEE standard defines the Physical and MAC layers for Low-Rate Wireless Personal Area Networks (LR-WPANs)?",
+      "options": {
+        "A": "IEEE 802.11",
+        "B": "IEEE 802.15.4",
+        "C": "IEEE 802.3",
+        "D": "IEEE 802.16"
+      },
+      "answer": "B",
+      "explanation": "IEEE 802.15.4 provides the technical standard for low-rate wireless connectivity used by protocols like Zigbee and 6LoWPAN.",
+      "hash": "235013761d386018",
+      "translations": {
+        "hi": {
+          "question": "लो-रेट वायरलेस पर्सनल एरिया नेटवर्क (LR-WPANs) के लिए कौन सा IEEE मानक फिजिकल और MAC परतों को परिभाषित करता है?",
+          "options": {
+            "A": "IEEE 802.11",
+            "B": "IEEE 802.15.4",
+            "C": "IEEE 802.3",
+            "D": "IEEE 802.16"
+          },
+          "explanation": "IEEE 802.15.4 लो-रेट वायरलेस कनेक्टिविटी के लिए तकनीकी मानक प्रदान करता है जिसका उपयोग ज़िगबी और 6LoWPAN जैसे प्रोटोकॉल द्वारा किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-002",
+      "number": 2,
+      "question": "What is the primary difference between a microcontroller and a microprocessor in IoT?",
+      "options": {
+        "A": "Microprocessors include on-chip memory",
+        "B": "Microcontrollers include CPU, RAM, and I/O on a single chip",
+        "C": "Microcontrollers are faster than microprocessors",
+        "D": "Microprocessors consume less power"
+      },
+      "answer": "B",
+      "explanation": "A microcontroller is a self-contained system with a CPU, memory, and peripherals on one chip, ideal for low-power IoT devices.",
+      "hash": "204deb0f794acfd8",
+      "translations": {
+        "hi": {
+          "question": "IoT में माइक्रोकंट्रोलर और माइक्रोप्रोसेसर के बीच प्राथमिक अंतर क्या है?",
+          "options": {
+            "A": "माइक्रोप्रोसेसर में ऑन-चिप मेमोरी शामिल होती है",
+            "B": "माइक्रोकंट्रोलर में एक ही चिप पर CPU, RAM और I/O शामिल होते हैं",
+            "C": "माइक्रोकंट्रोलर माइक्रोप्रोसेसर से तेज होते हैं",
+            "D": "माइक्रोप्रोसेसर कम बिजली की खपत करते हैं"
+          },
+          "explanation": "एक माइक्रोकंट्रोलर एक चिप पर CPU, मेमोरी और बाह्य उपकरणों के साथ एक आत्मनिर्भर प्रणाली है, जो कम-शक्ति वाले IoT उपकरणों के लिए आदर्श है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-003",
+      "number": 3,
+      "question": "Which sensor is typically used to measure the tilt or orientation of an IoT device?",
+      "options": {
+        "A": "Barometer",
+        "B": "Gyroscope",
+        "C": "Hygrometer",
+        "D": "Thermistor"
+      },
+      "answer": "B",
+      "explanation": "A gyroscope measures angular velocity and orientation, helping devices understand their position in 3D space.",
+      "hash": "065ab9aca80445ec",
+      "translations": {
+        "hi": {
+          "question": "IoT डिवाइस के झुकाव या ओरिएंटेशन को मापने के लिए आमतौर पर किस सेंसर का उपयोग किया जाता है?",
+          "options": {
+            "A": "बैरोमीटर",
+            "B": "जाइरोस्कोप",
+            "C": "हाइग्रोमीटर",
+            "D": "थर्मिस्टर"
+          },
+          "explanation": "एक जाइरोस्कोप कोणीय वेग और ओरिएंटेशन को मापता है, जिससे उपकरणों को 3D स्पेस में अपनी स्थिति समझने में मदद मिलती है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-004",
+      "number": 4,
+      "question": "Which cloud-based service model provides the hardware and virtualized OS for IoT application development?",
+      "options": {
+        "A": "SaaS",
+        "B": "PaaS",
+        "C": "IaaS",
+        "D": "DaaS"
+      },
+      "answer": "B",
+      "explanation": "PaaS (Platform as a Service) provides a platform allowing customers to develop, run, and manage IoT applications without the complexity of infrastructure.",
+      "hash": "6c82da862d95140f",
+      "translations": {
+        "hi": {
+          "question": "कौन सा क्लाउड-आधारित सेवा मॉडल IoT एप्लिकेशन विकास के लिए हार्डवेयर और वर्चुअलाइज्ड OS प्रदान करता है?",
+          "options": {
+            "A": "SaaS",
+            "B": "PaaS",
+            "C": "IaaS",
+            "D": "DaaS"
+          },
+          "explanation": "PaaS (प्लेटफॉर्म एज़ ए सर्विस) एक प्लेटफॉर्म प्रदान करता है जो ग्राहकों को बुनियादी ढांचे की जटिलता के बिना IoT एप्लिकेशन विकसित करने, चलाने और प्रबंधित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-005",
+      "number": 5,
+      "question": "What does the 'QoS' level 0 in MQTT signify?",
+      "options": {
+        "A": "Exactly once delivery",
+        "B": "At least once delivery",
+        "C": "At most once (Fire and Forget)",
+        "D": "Guaranteed delivery"
+      },
+      "answer": "C",
+      "explanation": "QoS 0 is the fastest and least reliable level where the message is sent once with no confirmation required.",
+      "hash": "5de915757a344dba",
+      "translations": {
+        "hi": {
+          "question": "MQTT में 'QoS' स्तर 0 क्या दर्शाता है?",
+          "options": {
+            "A": "बिल्कुल एक बार वितरण",
+            "B": "कम से कम एक बार वितरण",
+            "C": "अधिक से अधिक एक बार (फायर एंड फॉरगेट)",
+            "D": "गारंटीकृत वितरण"
+          },
+          "explanation": "QoS 0 सबसे तेज़ और कम से कम विश्वसनीय स्तर है जहाँ संदेश बिना किसी पुष्टि के एक बार भेजा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-006",
+      "number": 6,
+      "question": "Which protocol uses a 128-bit address and is essential for connecting billions of IoT devices?",
+      "options": {
+        "A": "IPv4",
+        "B": "IPv6",
+        "C": "MAC",
+        "D": "DHCP"
+      },
+      "answer": "B",
+      "explanation": "IPv6 provides a massive address space, allowing virtually unlimited devices to have unique IP addresses.",
+      "hash": "9108753fd0e06092",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल 128-बिट एड्रेस का उपयोग करता है और अरबों IoT उपकरणों को जोड़ने के लिए आवश्यक है?",
+          "options": {
+            "A": "IPv4",
+            "B": "IPv6",
+            "C": "MAC",
+            "D": "DHCP"
+          },
+          "explanation": "IPv6 एक विशाल एड्रेस स्पेस प्रदान करता है, जिससे लगभग असीमित उपकरणों के पास अद्वितीय IP एड्रेस हो सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-007",
+      "number": 7,
+      "question": "Which Arduino function is used to read data from an analog sensor?",
+      "options": {
+        "A": "digitalRead()",
+        "B": "analogRead()",
+        "C": "analogWrite()",
+        "D": "readSensor()"
+      },
+      "answer": "B",
+      "explanation": "analogRead() reads the value from a specified analog pin and converts it into a digital integer.",
+      "hash": "88628a6c0cb72ac6",
+      "translations": {
+        "hi": {
+          "question": "एनालॉग सेंसर से डेटा पढ़ने के लिए किस Arduino फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "digitalRead()",
+            "B": "analogRead()",
+            "C": "analogWrite()",
+            "D": "readSensor()"
+          },
+          "explanation": "analogRead() एक निर्दिष्ट एनालॉग पिन से मान पढ़ता है और इसे डिजिटल पूर्णांक में परिवर्तित करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-008",
+      "number": 8,
+      "question": "In a Wireless Sensor Network (WSN), what is the function of a 'Sink' node?",
+      "options": {
+        "A": "To generate data",
+        "B": "To act as a central collector for sensor data",
+        "C": "To provide power to other nodes",
+        "D": "To destroy old data"
+      },
+      "answer": "B",
+      "explanation": "The sink node (or base station) collects data from all distributed sensor nodes in the network for further processing.",
+      "hash": "27d99bb3b7334e9b",
+      "translations": {
+        "hi": {
+          "question": "वायरलेस सेंसर नेटवर्क (WSN) में, 'सिंक' (Sink) नोड का क्या कार्य है?",
+          "options": {
+            "A": "डेटा उत्पन्न करना",
+            "B": "सेंसर डेटा के लिए एक केंद्रीय कलेक्टर के रूप में कार्य करना",
+            "C": "अन्य नोड्स को शक्ति प्रदान करना",
+            "D": "पुराने डेटा को नष्ट करना"
+          },
+          "explanation": "सिंक नोड (या बेस स्टेशन) आगे की प्रोसेसिंग के लिए नेटवर्क के सभी वितरित सेंसर नोड्स से डेटा एकत्र करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-009",
+      "number": 9,
+      "question": "What is the main characteristic of 'Calm Technology' in IoT?",
+      "options": {
+        "A": "It requires constant user attention",
+        "B": "It works in the user's periphery without being intrusive",
+        "C": "It makes a loud noise during alerts",
+        "D": "it only works in silent mode"
+      },
+      "answer": "B",
+      "explanation": "Calm technology aims to provide information without overwhelming the user or demanding their center of attention.",
+      "hash": "1e45295729cec871",
+      "translations": {
+        "hi": {
+          "question": "IoT में 'काम टेक्नोलॉजी' (Calm Technology) की मुख्य विशेषता क्या है?",
+          "options": {
+            "A": "इसके लिए निरंतर उपयोगकर्ता के ध्यान की आवश्यकता होती है",
+            "B": "यह दखल दिए बिना उपयोगकर्ता की परिधि में काम करता है",
+            "C": "यह अलर्ट के दौरान तेज़ शोर करता है",
+            "D": "यह केवल साइलेंट मोड में काम करता है"
+          },
+          "explanation": "'काम टेक्नोलॉजी' का उद्देश्य उपयोगकर्ता को अभिभूत किए बिना या उनके ध्यान के केंद्र की मांग किए बिना जानकारी प्रदान करना है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-010",
+      "number": 10,
+      "question": "Which layer in the IoT World Forum Standardized Architecture handles the storage of data for long-term use?",
+      "options": {
+        "A": "Connectivity Layer",
+        "B": "Edge Computing Layer",
+        "C": "Data Accumulation Layer",
+        "D": "Perception Layer"
+      },
+      "answer": "C",
+      "explanation": "The Data Accumulation layer is responsible for converting moving data into data at rest (storage).",
+      "hash": "47f83feaf551cae7",
+      "translations": {
+        "hi": {
+          "question": "IoT वर्ल्ड फोरम मानकीकृत आर्किटेक्चर में कौन सी परत लंबी अवधि के उपयोग के लिए डेटा के भंडारण को संभालती है?",
+          "options": {
+            "A": "कनेक्टिविटी परत",
+            "B": "एज कंप्यूटिंग परत",
+            "C": "डेटा संचय (Accumulation) परत",
+            "D": "धारणा परत"
+          },
+          "explanation": "डेटा संचय परत चलते हुए डेटा को स्थिर डेटा (भंडारण) में बदलने के लिए जिम्मेदार है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-011",
+      "number": 11,
+      "question": "Which technology is commonly used for contactless smart cards and near-range data exchange?",
+      "options": {
+        "A": "LoRa",
+        "B": "NFC (Near Field Communication)",
+        "C": "Sigfox",
+        "D": "5G"
+      },
+      "answer": "B",
+      "explanation": "NFC is a subset of RFID that allows two-way communication over distances of a few centimeters.",
+      "hash": "895887e7aac0895a",
+      "translations": {
+        "hi": {
+          "question": "संपर्क रहित स्मार्ट कार्ड और नियर-रेंज डेटा विनिमय के लिए आमतौर पर किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "LoRa",
+            "B": "NFC (नियर फील्ड कम्युनिकेशन)",
+            "C": "Sigfox",
+            "D": "5G"
+          },
+          "explanation": "NFC, RFID का एक उपसमूह है जो कुछ सेंटीमीटर की दूरी पर द्वि-मार्गी संचार की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-012",
+      "number": 12,
+      "question": "What is the function of a 'Relay' in an IoT circuit?",
+      "options": {
+        "A": "To sense temperature",
+        "B": "To act as an electrically operated switch for high voltage devices",
+        "C": "To increase the CPU speed",
+        "D": "To convert analog to digital"
+      },
+      "answer": "B",
+      "explanation": "A relay allows a low-power microcontroller to control high-power electrical appliances safely.",
+      "hash": "064d4ffc78fdcb18",
+      "translations": {
+        "hi": {
+          "question": "IoT सर्किट में 'रिले' (Relay) का क्या कार्य है?",
+          "options": {
+            "A": "तापमान महसूस करना",
+            "B": "उच्च वोल्टेज उपकरणों के लिए विद्युत संचालित स्विच के रूप में कार्य करना",
+            "C": "CPU की गति बढ़ाना",
+            "D": "एनालॉग को डिजिटल में बदलना"
+          },
+          "explanation": "रिले एक कम-शक्ति वाले माइक्रोकंट्रोलर को उच्च-शक्ति वाले बिजली के उपकरणों को सुरक्षित रूप से नियंत्रित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-013",
+      "number": 13,
+      "question": "Which type of sensor is used to measure the intensity of light?",
+      "options": {
+        "A": "PIR Sensor",
+        "B": "LDR (Light Dependent Resistor)",
+        "C": "Ultrasonic Sensor",
+        "D": "Gas Sensor"
+      },
+      "answer": "B",
+      "explanation": "An LDR's resistance changes based on the amount of light falling on it, making it ideal for light sensing.",
+      "hash": "e75c35300701a8ec",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश की तीव्रता मापने के लिए किस प्रकार के सेंसर का उपयोग किया जाता है?",
+          "options": {
+            "A": "PIR सेंसर",
+            "B": "LDR (लाइट डिपेंडेंट रेसिस्टर)",
+            "C": "अल्ट्रासोनिक सेंसर",
+            "D": "गैस सेंसर"
+          },
+          "explanation": "एक LDR का प्रतिरोध उस पर पड़ने वाले प्रकाश की मात्रा के आधार पर बदलता है, जो इसे प्रकाश संवेदन के लिए आदर्श बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-014",
+      "number": 14,
+      "question": "What does the term 'Latency' refer to in IoT networks?",
+      "options": {
+        "A": "The physical size of the device",
+        "B": "The time delay in data transmission",
+        "C": "The battery life of a sensor",
+        "D": "The number of connected devices"
+      },
+      "answer": "B",
+      "explanation": "Latency is the time it takes for a data packet to travel from the source to the destination.",
+      "hash": "ac6a5c0a338c04b1",
+      "translations": {
+        "hi": {
+          "question": "IoT नेटवर्क में 'लेटेंसी' (Latency) शब्द का क्या अर्थ है?",
+          "options": {
+            "A": "डिवाइस का भौतिक आकार",
+            "B": "डेटा ट्रांसमिशन में समय की देरी",
+            "C": "सेंसर की बैटरी लाइफ",
+            "D": "जुड़े हुए उपकरणों की संख्या"
+          },
+          "explanation": "लेटेंसी वह समय है जो डेटा पैकेट को स्रोत से गंतव्य तक यात्रा करने में लगता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-015",
+      "number": 15,
+      "question": "In IoT security, what does 'Encryption' primarily protect?",
+      "options": {
+        "A": "Device hardware from theft",
+        "B": "Data confidentiality during transmission",
+        "C": "Battery consumption",
+        "D": "Device weight"
+      },
+      "answer": "B",
+      "explanation": "Encryption encodes data so that only authorized parties can read it, protecting it from eavesdropping.",
+      "hash": "56ad54343df619cd",
+      "translations": {
+        "hi": {
+          "question": "IoT सुरक्षा में, 'एन्क्रिप्शन' मुख्य रूप से किसकी रक्षा करता है?",
+          "options": {
+            "A": "डिवाइस हार्डवेयर की चोरी से",
+            "B": "ट्रांसमिशन के दौरान डेटा की गोपनीयता",
+            "C": "बैटरी की खपत",
+            "D": "डिवाइस का वजन"
+          },
+          "explanation": "एन्क्रिप्शन डेटा को एन्कोड करता है ताकि केवल अधिकृत पक्ष ही इसे पढ़ सकें, जिससे यह जासूसी से सुरक्षित रहता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-016",
+      "number": 16,
+      "question": "What is the full form of PWM?",
+      "options": {
+        "A": "Pulse Width Modulation",
+        "B": "Power Wave Management",
+        "C": "Protocol Wide Modulation",
+        "D": "Pulse Wave Member"
+      },
+      "answer": "A",
+      "explanation": "PWM is a technique used to control the power supplied to electrical devices, like dimming an LED or controlling motor speed.",
+      "hash": "ea4af435b1f59038",
+      "translations": {
+        "hi": {
+          "question": "PWM का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "पल्स विड्थ मॉड्यूलेशन",
+            "B": "पावर वेव मैनेजमेंट",
+            "C": "प्रोटोकॉल वाइड मॉड्यूलेशन",
+            "D": "पल्स वेव मेंबर"
+          },
+          "explanation": "PWM एक तकनीक है जिसका उपयोग विद्युत उपकरणों को आपूर्ति की जाने वाली बिजली को नियंत्रित करने के लिए किया जाता है, जैसे LED को धीमा करना या मोटर की गति को नियंत्रित करना।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-017",
+      "number": 17,
+      "question": "Which IoT communication model is most prone to 'Man-in-the-Middle' attacks?",
+      "options": {
+        "A": "Device-to-Device",
+        "B": "Device-to-Cloud",
+        "C": "Device-to-Gateway",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Any communication link without strong encryption and authentication can be intercepted by an attacker.",
+      "hash": "8e8cca4bbbcbd140",
+      "translations": {
+        "hi": {
+          "question": "कौन सा IoT संचार मॉडल 'मैन-इन-द-मिडल' हमलों के लिए सबसे अधिक प्रवण है?",
+          "options": {
+            "A": "डिवाइस-टू-डिवाइस",
+            "B": "डिवाइस-टू-क्लाउड",
+            "C": "डिवाइस-टू-गेटवे",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "मजबूत एन्क्रिप्शन और प्रमाणीकरण के बिना किसी भी संचार लिंक को हमलावर द्वारा रोका जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-018",
+      "number": 18,
+      "question": "Which protocol is used by CoAP to ensure it is lightweight?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "FTP",
+        "D": "SSH"
+      },
+      "answer": "B",
+      "explanation": "CoAP uses UDP instead of TCP to avoid the overhead of complex connection handshakes.",
+      "hash": "d2475e5c573bbc0e",
+      "translations": {
+        "hi": {
+          "question": "CoAP हल्का होने को सुनिश्चित करने के लिए किस प्रोटोकॉल का उपयोग करता है?",
+          "options": {
+            "A": "TCP",
+            "B": "UDP",
+            "C": "FTP",
+            "D": "SSH"
+          },
+          "explanation": "CoAP जटिल कनेक्शन हैंडशेक के ओवरहेड से बचने के लिए TCP के बजाय UDP का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-019",
+      "number": 19,
+      "question": "What is the main purpose of 'Industry 4.0'?",
+      "options": {
+        "A": "To replace all humans with robots",
+        "B": "To integrate IoT and smart technologies into manufacturing",
+        "C": "To stop using the internet in factories",
+        "D": "To increase the price of goods"
+      },
+      "answer": "B",
+      "explanation": "Industry 4.0 refers to the Fourth Industrial Revolution, focusing on automation, IoT, and real-time data in industry.",
+      "hash": "6d3ebf623da27b69",
+      "translations": {
+        "hi": {
+          "question": "'इंडस्ट्री 4.0' का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "सभी मनुष्यों को रोबोट से बदलना",
+            "B": "विनिर्माण में IoT और स्मार्ट तकनीकों को एकीकृत करना",
+            "C": "कारखानों में इंटरनेट का उपयोग बंद करना",
+            "D": "वस्तुओं की कीमत बढ़ाना"
+          },
+          "explanation": "इंडस्ट्री 4.0 चौथी औद्योगिक क्रांति को संदर्भित करता है, जो उद्योग में स्वचालन, IoT और रीयल-टाइम डेटा पर केंद्रित है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-020",
+      "number": 20,
+      "question": "What is the standard voltage level for the Arduino Uno's digital pins?",
+      "options": {
+        "A": "1.5V",
+        "B": "3.3V",
+        "C": "5V",
+        "D": "12V"
+      },
+      "answer": "C",
+      "explanation": "The Arduino Uno typically operates at 5V for its digital I/O pins.",
+      "hash": "ae070c76e05caf6f",
+      "translations": {
+        "hi": {
+          "question": "Arduino Uno के डिजिटल पिन के लिए मानक वोल्टेज स्तर क्या है?",
+          "options": {
+            "A": "1.5V",
+            "B": "3.3V",
+            "C": "5V",
+            "D": "12V"
+          },
+          "explanation": "Arduino Uno आमतौर पर अपने डिजिटल I/O पिन के लिए 5V पर संचालित होता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-021",
+      "number": 21,
+      "question": "Which sensor is used to measure the moisture level in soil?",
+      "options": {
+        "A": "Soil Moisture Sensor",
+        "B": "Gas Sensor",
+        "C": "PIR Sensor",
+        "D": "Flame Sensor"
+      },
+      "answer": "A",
+      "explanation": "Soil moisture sensors measure the volumetric water content in soil, often used in smart irrigation.",
+      "hash": "55d01fd4d6ec10e9",
+      "translations": {
+        "hi": {
+          "question": "मिट्टी में नमी के स्तर को मापने के लिए किस सेंसर का उपयोग किया जाता है?",
+          "options": {
+            "A": "सॉयल मॉइस्चर सेंसर",
+            "B": "गैस सेंसर",
+            "C": "PIR सेंसर",
+            "D": "फ्लेम सेंसर"
+          },
+          "explanation": "सॉयल मॉइस्चर सेंसर मिट्टी में वॉल्यूमेट्रिक पानी की मात्रा को मापते हैं, जिसका उपयोग अक्सर स्मार्ट सिंचाई में किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-022",
+      "number": 22,
+      "question": "Which device acts as the central 'brain' of the Raspberry Pi?",
+      "options": {
+        "A": "Microcontroller",
+        "B": "SoC (System on Chip)",
+        "C": "Actuator",
+        "D": "Relay"
+      },
+      "answer": "B",
+      "explanation": "Raspberry Pi uses a SoC that integrates the CPU, GPU, and RAM on a single chip.",
+      "hash": "28f153233f4f0732",
+      "translations": {
+        "hi": {
+          "question": "कौन सा उपकरण Raspberry Pi के केंद्रीय 'मस्तिष्क' के रूप में कार्य करता है?",
+          "options": {
+            "A": "माइक्रोकंट्रोलर",
+            "B": "SoC (सिस्टम ऑन चिप)",
+            "C": "एक्चुएटर",
+            "D": "रिले"
+          },
+          "explanation": "Raspberry Pi एक SoC का उपयोग करता है जो एक ही चिप पर CPU, GPU और RAM को एकीकृत करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-023",
+      "number": 23,
+      "question": "What is 'Payload' in the context of an IoT message?",
+      "options": {
+        "A": "The weight of the sensor",
+        "B": "The actual data being transmitted (e.g., sensor value)",
+        "C": "The cost of the data plan",
+        "D": "The physical casing of the device"
+      },
+      "answer": "B",
+      "explanation": "The payload is the core part of a data packet that carries the actual intended message.",
+      "hash": "2cfc31af4e20a597",
+      "translations": {
+        "hi": {
+          "question": "IoT संदेश के संदर्भ में 'पेलोड' (Payload) क्या है?",
+          "options": {
+            "A": "सेंसर का वजन",
+            "B": "प्रेषित किया जा रहा वास्तविक डेटा (जैसे, सेंसर मान)",
+            "C": "डेटा प्लान की लागत",
+            "D": "डिवाइस का भौतिक आवरण"
+          },
+          "explanation": "पेलोड डेटा पैकेट का मुख्य हिस्सा है जो वास्तविक इच्छित संदेश ले जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-024",
+      "number": 24,
+      "question": "Which of these is a major disadvantage of the 'Mesh Topology' in IoT?",
+      "options": {
+        "A": "Low reliability",
+        "B": "High power consumption for routing nodes",
+        "C": "Small coverage area",
+        "D": "Easy to set up"
+      },
+      "answer": "B",
+      "explanation": "In a mesh, intermediate nodes must stay awake to relay messages, which drains batteries faster.",
+      "hash": "1f7d12e5ca331594",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन IoT में 'मेश टोपोलॉजी' (Mesh Topology) का एक बड़ा नुकसान है?",
+          "options": {
+            "A": "कम विश्वसनीयता",
+            "B": "रूटिंग नोड्स के लिए उच्च बिजली की खपत",
+            "C": "छोटा कवरेज क्षेत्र",
+            "D": "सेटअप करना आसान है"
+          },
+          "explanation": "मेश में, संदेशों को रिले करने के लिए मध्यवर्ती नोड्स को जागृत रहना चाहिए, जिससे बैटरी तेज़ी से खत्म होती है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-025",
+      "number": 25,
+      "question": "What is the full form of SBC in IoT hardware?",
+      "options": {
+        "A": "Single Board Computer",
+        "B": "Small Binary Controller",
+        "C": "Secure Board Connection",
+        "D": "System Binary Chip"
+      },
+      "answer": "A",
+      "explanation": "Devices like Raspberry Pi are called Single Board Computers because the entire computer is built on one circuit board.",
+      "hash": "0121c16a28fc8740",
+      "translations": {
+        "hi": {
+          "question": "IoT हार्डवेयर में SBC का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "सिंगल बोर्ड कंप्यूटर",
+            "B": "स्मॉल बाइनरी कंट्रोलर",
+            "C": "सिक्योर बोर्ड कनेक्शन",
+            "D": "सिस्टम बाइनरी चिप"
+          },
+          "explanation": "Raspberry Pi जैसे उपकरणों को सिंगल बोर्ड कंप्यूटर कहा जाता है क्योंकि पूरा कंप्यूटर एक ही सर्किट बोर्ड पर बना होता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-026",
+      "number": 26,
+      "question": "Which pin on the Arduino Uno can provide a 5V power supply to sensors?",
+      "options": {
+        "A": "GND",
+        "B": "Vin",
+        "C": "5V",
+        "D": "RESET"
+      },
+      "answer": "C",
+      "explanation": "The 5V pin outputs a regulated 5 volts from the board's voltage regulator.",
+      "hash": "b7c891fbeaa4f5b3",
+      "translations": {
+        "hi": {
+          "question": "Arduino Uno पर कौन सा पिन सेंसर को 5V बिजली की आपूर्ति प्रदान कर सकता है?",
+          "options": {
+            "A": "GND",
+            "B": "Vin",
+            "C": "5V",
+            "D": "RESET"
+          },
+          "explanation": "5V पिन बोर्ड के वोल्टेज रेगुलेटर से नियंत्रित 5 वोल्ट आउटपुट देता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-027",
+      "number": 27,
+      "question": "Which type of cloud deployment is shared among multiple organizations with similar interests?",
+      "options": {
+        "A": "Private Cloud",
+        "B": "Public Cloud",
+        "C": "Community Cloud",
+        "D": "Hybrid Cloud"
+      },
+      "answer": "C",
+      "explanation": "A community cloud is a shared infrastructure between several organizations with shared concerns (e.g., security, compliance).",
+      "hash": "a4718bb4865e5721",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का क्लाउड परिनियोजन (Deployment) समान हितों वाले कई संगठनों के बीच साझा किया जाता है?",
+          "options": {
+            "A": "प्राइवेट क्लाउड",
+            "B": "पब्लिक क्लाउड",
+            "C": "कम्युनिटी क्लाउड",
+            "D": "हाइब्रिड क्लाउड"
+          },
+          "explanation": "कम्युनिटी क्लाउड साझा चिंताओं (जैसे सुरक्षा, अनुपालन) वाले कई संगठनों के बीच एक साझा बुनियादी ढांचा है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-028",
+      "number": 28,
+      "question": "What is the primary function of a PIR sensor?",
+      "options": {
+        "A": "To measure temperature",
+        "B": "To detect motion by sensing infrared radiation changes",
+        "C": "To measure humidity",
+        "D": "To detect gas leaks"
+      },
+      "answer": "B",
+      "explanation": "PIR (Passive Infrared) sensors detect motion based on heat emitted by moving objects like humans or animals.",
+      "hash": "be43714c36fdb194",
+      "translations": {
+        "hi": {
+          "question": "PIR सेंसर का प्राथमिक कार्य क्या है?",
+          "options": {
+            "A": "तापमान मापना",
+            "B": "इन्फ्रारेड विकिरण परिवर्तनों को महसूस करके गति का पता लगाना",
+            "C": "आर्द्रता मापना",
+            "D": "गैस रिसाव का पता लगाना"
+          },
+          "explanation": "PIR (पैसिव इन्फ्रारेड) सेंसर मनुष्यों या जानवरों जैसी चलती वस्तुओं द्वारा उत्सर्जित गर्मी के आधार पर गति का पता लगाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-029",
+      "number": 29,
+      "question": "What does MQTT use to facilitate communication between a publisher and a subscriber?",
+      "options": {
+        "A": "Gateway",
+        "B": "Broker",
+        "C": "Router",
+        "D": "Switch"
+      },
+      "answer": "B",
+      "explanation": "The broker is the central server that receives messages and distributes them to interested subscribers based on topics.",
+      "hash": "bcbaba00813056db",
+      "translations": {
+        "hi": {
+          "question": "पब्लिशर और सब्सक्राइबर के बीच संचार को आसान बनाने के लिए MQTT किसका उपयोग करता है?",
+          "options": {
+            "A": "गेटवे",
+            "B": "ब्रोकर",
+            "C": "राउटर",
+            "D": "स्विच"
+          },
+          "explanation": "ब्रोकर केंद्रीय सर्वर है जो संदेश प्राप्त करता है और उन्हें विषयों के आधार पर इच्छुक ग्राहकों को वितरित करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-03-030",
+      "number": 30,
+      "question": "Which layer of the IoT architecture is responsible for providing the final service to the user?",
+      "options": {
+        "A": "Perception Layer",
+        "B": "Transport Layer",
+        "C": "Application Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "C",
+      "explanation": "The application layer interacts with the user and provides specific services like smart home controls or health monitoring alerts.",
+      "hash": "f1b9c9ce570e9089",
+      "translations": {
+        "hi": {
+          "question": "IoT आर्किटेक्चर की कौन सी परत उपयोगकर्ता को अंतिम सेवा प्रदान करने के लिए जिम्मेदार है?",
+          "options": {
+            "A": "धारणा परत",
+            "B": "ट्रांसपोर्ट परत",
+            "C": "अनुप्रयोग (एप्लीकेशन) परत",
+            "D": "भौतिक परत"
+          },
+          "explanation": "एप्लिकेशन परत उपयोगकर्ता के साथ इंटरैक्ट करती है और स्मार्ट होम कंट्रोल या स्वास्थ्य निगरानी अलर्ट जैसी विशिष्ट सेवाएं प्रदान करती है।"
+        }
+      }
+    }
+  ]
+}

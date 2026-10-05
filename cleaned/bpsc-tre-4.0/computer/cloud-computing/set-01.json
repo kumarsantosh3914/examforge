@@ -1,0 +1,787 @@
+{
+  "subject": "Cloud Computing",
+  "set": 1,
+  "title": "Cloud Computing Mock Test 1",
+  "questions": [
+    {
+      "id": "cloud-computing-01-001",
+      "number": 1,
+      "question": "Which cloud service model provides a virtualized computing environment over the internet?",
+      "options": {
+        "A": "SaaS",
+        "B": "PaaS",
+        "C": "IaaS",
+        "D": "DBaaS"
+      },
+      "answer": "C",
+      "explanation": "IaaS provides fundamental computing resources like virtual machines, storage, and networks.",
+      "hash": "b80d0c0c44bfb189",
+      "translations": {
+        "hi": {
+          "question": "कौन सा क्लाउड सेवा मॉडल इंटरनेट पर एक वर्चुअलाइज्ड कंप्यूटिंग वातावरण प्रदान करता है?",
+          "options": {
+            "A": "सास (SaaS)",
+            "B": "पास (PaaS)",
+            "C": "आईआस (IaaS)",
+            "D": "डीबीआस (DBaaS)"
+          },
+          "explanation": "IaaS वर्चुअल मशीन, स्टोरेज और नेटवर्क जैसे मौलिक कंप्यूटिंग संसाधन प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-002",
+      "number": 2,
+      "question": "What is the main characteristic of \"Elasticity\" in cloud computing?",
+      "options": {
+        "A": "Fixed resource allocation",
+        "B": "Manual scaling",
+        "C": "Ability to scale resources up and down automatically",
+        "D": "Limited bandwidth"
+      },
+      "answer": "C",
+      "explanation": "Elasticity allows the system to handle load changes by provisioning and de-provisioning resources.",
+      "hash": "798346cf7fb8edab",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"इलास्टिसिटी\" (Elasticity) की मुख्य विशेषता क्या है?",
+          "options": {
+            "A": "निश्चित संसाधन आवंटन",
+            "B": "मैनुअल स्केलिंग",
+            "C": "संसाधनों को स्वचालित रूप से ऊपर और नीचे स्केल करने की क्षमता",
+            "D": "सीमित बैंडविड्थ"
+          },
+          "explanation": "इलास्टिसिटी सिस्टम को संसाधनों के प्रोविजनिंग और डी-प्रोविजनिंग द्वारा लोड परिवर्तनों को संभालने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-003",
+      "number": 3,
+      "question": "Which of the following is an example of a PaaS provider?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Google App Engine",
+        "C": "Microsoft Office 365",
+        "D": "Dropbox"
+      },
+      "answer": "B",
+      "explanation": "Google App Engine allows developers to build and host web applications on Google's infrastructure.",
+      "hash": "6652a70766f4e174",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन PaaS प्रदाता का एक उदाहरण है?",
+          "options": {
+            "A": "अमेज़न EC2",
+            "B": "गूगल ऐप इंजन",
+            "C": "माइक्रोसॉफ्ट ऑफिस 365",
+            "D": "ड्रॉपबॉक्स"
+          },
+          "explanation": "गूगल ऐप इंजन डेवलपर्स को गूगल के इंफ्रास्ट्रक्चर पर वेब एप्लिकेशन बनाने और होस्ट करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-004",
+      "number": 4,
+      "question": "In which type of cloud deployment is the infrastructure shared by several organizations with common concerns?",
+      "options": {
+        "A": "Private Cloud",
+        "B": "Community Cloud",
+        "C": "Public Cloud",
+        "D": "Hybrid Cloud"
+      },
+      "answer": "B",
+      "explanation": "Community cloud is shared by organizations that have specific shared requirements or goals.",
+      "hash": "d47a6479f1ef36dd",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के क्लाउड परिनियोजन में इंफ्रास्ट्रक्चर को समान चिंताओं वाले कई संगठनों द्वारा साझा किया जाता है?",
+          "options": {
+            "A": "प्राइवेट क्लाउड",
+            "B": "कम्युनिटी क्लाउड",
+            "C": "पब्लिक क्लाउड",
+            "D": "हाइब्रिड क्लाउड"
+          },
+          "explanation": "कम्युनिटी क्लाउड उन संगठनों द्वारा साझा किया जाता है जिनकी विशिष्ट साझा आवश्यकताएं या लक्ष्य होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-005",
+      "number": 5,
+      "question": "Which cloud concept refers to the delivery of software applications over the internet?",
+      "options": {
+        "A": "IaaS",
+        "B": "SaaS",
+        "C": "PaaS",
+        "D": "BaaS"
+      },
+      "answer": "B",
+      "explanation": "SaaS allows users to connect to and use cloud-based apps over the Internet.",
+      "hash": "4e717157266b7e44",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा इंटरनेट पर सॉफ्टवेयर अनुप्रयोगों की डिलीवरी को संदर्भित करती है?",
+          "options": {
+            "A": "आईआस",
+            "B": "सास",
+            "C": "पास",
+            "D": "बास"
+          },
+          "explanation": "सास उपयोगकर्ताओं को इंटरनेट पर क्लाउड-आधारित ऐप्स से जुड़ने और उनका उपयोग करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-006",
+      "number": 6,
+      "question": "Which layer of cloud computing acts as the foundation?",
+      "options": {
+        "A": "Application Layer",
+        "B": "Platform Layer",
+        "C": "Infrastructure Layer",
+        "D": "User Interface Layer"
+      },
+      "answer": "C",
+      "explanation": "Infrastructure (IaaS) provides the hardware and virtualization layer upon which other services are built.",
+      "hash": "7bdb48e663b88472",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग की कौन सी परत आधार (फाउंडेशन) के रूप में कार्य करती है?",
+          "options": {
+            "A": "एप्लीकेशन लेयर",
+            "B": "प्लेटफॉर्म लेयर",
+            "C": "इंफ्रास्ट्रक्चर लेयर",
+            "D": "यूजर इंटरफेस लेयर"
+          },
+          "explanation": "इंफ्रास्ट्रक्चर (IaaS) हार्डवेयर और वर्चुअलाइजेशन परत प्रदान करता है जिस पर अन्य सेवाएं बनाई जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-007",
+      "number": 7,
+      "question": "What is the term for a combination of private and public cloud services?",
+      "options": {
+        "A": "Combined Cloud",
+        "B": "Multi-Cloud",
+        "C": "Hybrid Cloud",
+        "D": "Shared Cloud"
+      },
+      "answer": "C",
+      "explanation": "Hybrid cloud uses a mix of on-premises, private cloud, and third-party public cloud services.",
+      "hash": "dd542f8255d93f93",
+      "translations": {
+        "hi": {
+          "question": "निजी और सार्वजनिक क्लाउड सेवाओं के संयोजन के लिए क्या शब्द है?",
+          "options": {
+            "A": "कंबाइंड क्लाउड",
+            "B": "मल्टी-क्लाउड",
+            "C": "हाइब्रिड क्लाउड",
+            "D": "शेयर्ड क्लाउड"
+          },
+          "explanation": "हाइब्रिड क्लाउड ऑन-प्रिमाइसेस, प्राइवेट क्लाउड और थर्ड-पार्टी पब्लिक क्लाउड सेवाओं के मिश्रण का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-008",
+      "number": 8,
+      "question": "In \"Pay-as-you-go\" pricing, users pay for:",
+      "options": {
+        "A": "Lifetime access",
+        "B": "Actual usage of resources",
+        "C": "Number of physical servers",
+        "D": "Monthly flat fee"
+      },
+      "answer": "B",
+      "explanation": "Cloud computing uses a utility-based model where you pay only for what you consume.",
+      "hash": "ae7824e9752382ec",
+      "translations": {
+        "hi": {
+          "question": "\"पे-एज़-यू-गो\" मूल्य निर्धारण में, उपयोगकर्ता किसके लिए भुगतान करते हैं?",
+          "options": {
+            "A": "लाइफटाइम एक्सेस",
+            "B": "संसाधनों का वास्तविक उपयोग",
+            "C": "भौतिक सर्वरों की संख्या",
+            "D": "मासिक फ्लैट शुल्क"
+          },
+          "explanation": "क्लाउड कंप्यूटिंग एक उपयोगिता-आधारित मॉडल का उपयोग करता है जहां आप केवल उसी के लिए भुगतान करते हैं जिसका आप उपभोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-009",
+      "number": 9,
+      "question": "Which of these is a major concern in cloud computing security?",
+      "options": {
+        "A": "High availability",
+        "B": "Data breaches",
+        "C": "Low latency",
+        "D": "Scalability"
+      },
+      "answer": "B",
+      "explanation": "Security of sensitive data in shared environments is a primary concern for cloud users.",
+      "hash": "9b95f4b84268f128",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग सुरक्षा में इनमें से कौन सी एक प्रमुख चिंता है?",
+          "options": {
+            "A": "उच्च उपलब्धता",
+            "B": "डेटा ब्रीच (डेटा चोरी)",
+            "C": "कम विलंबता",
+            "D": "स्केलेबिलिटी"
+          },
+          "explanation": "साझा वातावरण में संवेदनशील डेटा की सुरक्षा क्लाउड उपयोगकर्ताओं के लिए एक प्राथमिक चिंता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-010",
+      "number": 10,
+      "question": "The process of creating multiple virtual resources from a single physical resource is called:",
+      "options": {
+        "A": "Clouding",
+        "B": "Virtualization",
+        "C": "Multiplexing",
+        "D": "Partitioning"
+      },
+      "answer": "B",
+      "explanation": "Virtualization uses software to create an abstraction layer over computer hardware.",
+      "hash": "f3d605260447ff03",
+      "translations": {
+        "hi": {
+          "question": "एक एकल भौतिक संसाधन से कई वर्चुअल संसाधन बनाने की प्रक्रिया को क्या कहा जाता है?",
+          "options": {
+            "A": "क्लाउडिंग",
+            "B": "वर्चुअलाइजेशन",
+            "C": "मल्टीप्लेक्सिंग",
+            "D": "पार्टिशनिंग"
+          },
+          "explanation": "वर्चुअलाइजेशन कंप्यूटर हार्डवेयर पर एक एब्स्ट्रैक्शन परत बनाने के लिए सॉफ्टवेयर का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-011",
+      "number": 11,
+      "question": "What does \"On-demand self-service\" mean in cloud computing?",
+      "options": {
+        "A": "Calling the provider for every resource",
+        "B": "Manually setting up hardware",
+        "C": "Provisioning resources without human interaction with the provider",
+        "D": "Using resources only during office hours"
+      },
+      "answer": "C",
+      "explanation": "Users can access resources automatically whenever needed without manual provider intervention.",
+      "hash": "44fca117bfa94039",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"ऑन-डिमांड सेल्फ-सर्विस\" का क्या अर्थ है?",
+          "options": {
+            "A": "हर संसाधन के लिए प्रदाता को कॉल करना",
+            "B": "हार्डवेयर को मैनुअल रूप से सेट करना",
+            "C": "प्रदाता के साथ मानवीय संपर्क के बिना संसाधनों का प्रोविजनिंग करना",
+            "D": "केवल कार्यालय समय के दौरान संसाधनों का उपयोग करना"
+          },
+          "explanation": "उपयोगकर्ता मैन्युअल प्रदाता हस्तक्षेप के बिना आवश्यकता पड़ने पर स्वचालित रूप से संसाधनों तक पहुंच सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-012",
+      "number": 12,
+      "question": "Google Drive and Dropbox are examples of which cloud service?",
+      "options": {
+        "A": "PaaS",
+        "B": "IaaS",
+        "C": "SaaS",
+        "D": "CaaS"
+      },
+      "answer": "C",
+      "explanation": "These are application-level services delivered over the internet to end-users.",
+      "hash": "e1614bd8c064d8a2",
+      "translations": {
+        "hi": {
+          "question": "गूगल ड्राइव और ड्रॉपबॉक्स किस क्लाउड सेवा के उदाहरण हैं?",
+          "options": {
+            "A": "पास",
+            "B": "आईआस",
+            "C": "सास",
+            "D": "कास"
+          },
+          "explanation": "ये अंतिम उपयोगकर्ताओं को इंटरनेट पर वितरित एप्लिकेशन-स्तर की सेवाएं हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-013",
+      "number": 13,
+      "question": "Which cloud model is most cost-effective for a startup with unpredictable traffic?",
+      "options": {
+        "A": "Private Cloud",
+        "B": "Public Cloud",
+        "C": "Hybrid Cloud",
+        "D": "Local Server"
+      },
+      "answer": "B",
+      "explanation": "Public cloud offers scalability and no capital expenditure for infrastructure.",
+      "hash": "6abc295ea4560f70",
+      "translations": {
+        "hi": {
+          "question": "अप्रत्याशित ट्रैफ़िक वाले स्टार्टअप के लिए कौन सा क्लाउड मॉडल सबसे अधिक लागत प्रभावी है?",
+          "options": {
+            "A": "प्राइवेट क्लाउड",
+            "B": "पब्लिक क्लाउड",
+            "C": "हाइब्रिड क्लाउड",
+            "D": "लोकल सर्वर"
+          },
+          "explanation": "पब्लिक क्लाउड स्केलेबिलिटी प्रदान करता है और इंफ्रास्ट्रक्चर के लिए इसमें कोई पूंजीगत व्यय नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-014",
+      "number": 14,
+      "question": "Which of the following is NOT a characteristic of cloud computing?",
+      "options": {
+        "A": "Broad network access",
+        "B": "Resource pooling",
+        "C": "High fixed cost",
+        "D": "Rapid elasticity"
+      },
+      "answer": "C",
+      "explanation": "Cloud computing aims to reduce fixed costs by converting them into variable operational costs.",
+      "hash": "d1349f194ab9ad06",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा क्लाउड कंप्यूटिंग की विशेषता नहीं है?",
+          "options": {
+            "A": "ब्रॉड नेटवर्क एक्सेस",
+            "B": "रिसोर्स पूलिंग",
+            "C": "उच्च निश्चित लागत",
+            "D": "रैपिड इलास्टिसिटी"
+          },
+          "explanation": "क्लाउड कंप्यूटिंग का लक्ष्य निश्चित लागतों को परिवर्तनीय परिचालन लागतों में बदलकर कम करना है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-015",
+      "number": 15,
+      "question": "Hypervisor is also known as:",
+      "options": {
+        "A": "Virtual Machine Monitor (VMM)",
+        "B": "Cloud OS",
+        "C": "Hardware Manager",
+        "D": "Resource Allocator"
+      },
+      "answer": "A",
+      "explanation": "A hypervisor or VMM is software that creates and runs virtual machines.",
+      "hash": "31183bf19d2d8741",
+      "translations": {
+        "hi": {
+          "question": "हाइपरवाइजर को इस नाम से भी जाना जाता है:",
+          "options": {
+            "A": "वर्चुअल मशीन मॉनिटर (VMM)",
+            "B": "क्लाउड ओएस",
+            "C": "हार्डवेयर मैनेजर",
+            "D": "रिसोर्स एलोकेटर"
+          },
+          "explanation": "हाइपरवाइजर या VMM वह सॉफ्टवेयर है जो वर्चुअल मशीन बनाता और चलाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-016",
+      "number": 16,
+      "question": "Which cloud service allows developers to focus on coding without managing servers?",
+      "options": {
+        "A": "IaaS",
+        "B": "SaaS",
+        "C": "PaaS",
+        "D": "HaaS"
+      },
+      "answer": "C",
+      "explanation": "PaaS provides a platform allowing customers to develop, run, and manage applications.",
+      "hash": "564932be2894aea4",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड सेवा डेवलपर्स को सर्वर प्रबंधित किए बिना कोडिंग पर ध्यान केंद्रित करने की अनुमति देती है?",
+          "options": {
+            "A": "आईआस",
+            "B": "सास",
+            "C": "पास",
+            "D": "हास"
+          },
+          "explanation": "PaaS एक ऐसा मंच प्रदान करता है जो ग्राहकों को एप्लिकेशन विकसित करने, चलाने और प्रबंधित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-017",
+      "number": 17,
+      "question": "SOA stands for:",
+      "options": {
+        "A": "Simple Object Architecture",
+        "B": "Service Oriented Architecture",
+        "C": "Software Oriented Application",
+        "D": "System Operational Area"
+      },
+      "answer": "B",
+      "explanation": "SOA is an architectural style that supports service-orientation in cloud computing.",
+      "hash": "8603454d8ccf19ac",
+      "translations": {
+        "hi": {
+          "question": "SOA का अर्थ है:",
+          "options": {
+            "A": "सिंपल ऑब्जेक्ट आर्किटेक्चर",
+            "B": "सर्विस ओरिएंटेड आर्किटेक्चर",
+            "C": "सॉफ्टवेयर ओरिएंटेड एप्लीकेशन",
+            "D": "सिस्टम ऑपरेशनल एरिया"
+          },
+          "explanation": "SOA एक आर्किटेक्चरल स्टाइल है जो क्लाउड कंप्यूटिंग में सर्विस-ओरिएंटेशन का समर्थन करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-018",
+      "number": 18,
+      "question": "Vertical scaling is also known as:",
+      "options": {
+        "A": "Scaling out",
+        "B": "Scaling up",
+        "C": "Scaling down",
+        "D": "Scaling in"
+      },
+      "answer": "B",
+      "explanation": "Scaling up involves adding more power (CPU, RAM) to an existing machine.",
+      "hash": "f01dde84b78edd66",
+      "translations": {
+        "hi": {
+          "question": "वर्टिकल स्केलिंग को इस नाम से भी जाना जाता है:",
+          "options": {
+            "A": "स्केलिंग आउट",
+            "B": "स्केलिंग अप",
+            "C": "स्केलिंग डाउन",
+            "D": "स्केलिंग इन"
+          },
+          "explanation": "स्केलिंग अप में मौजूदा मशीन में अधिक शक्ति (सीपीयू, रैम) जोड़ना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-019",
+      "number": 19,
+      "question": "What is \"Cloud Interoperability\"?",
+      "options": {
+        "A": "Ability to move from one office to another",
+        "B": "Ability of different cloud systems to communicate and exchange data",
+        "C": "Locking a user to one vendor",
+        "D": "Running cloud without internet"
+      },
+      "answer": "B",
+      "explanation": "Interoperability ensures that different cloud platforms can work together seamlessly.",
+      "hash": "57323e39f6f02918",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड इंटरऑपरेबिलिटी\" क्या है?",
+          "options": {
+            "A": "एक कार्यालय से दूसरे कार्यालय में जाने की क्षमता",
+            "B": "विभिन्न क्लाउड सिस्टमों की संवाद करने और डेटा विनिमय करने की क्षमता",
+            "C": "किसी उपयोगकर्ता को एक विक्रेता से बांधना",
+            "D": "बिना इंटरनेट के क्लाउड चलाना"
+          },
+          "explanation": "इंटरऑपरेबिलिटी यह सुनिश्चित करती है कि विभिन्न क्लाउड प्लेटफॉर्म एक साथ निर्बाध रूप से काम कर सकें।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-020",
+      "number": 20,
+      "question": "Horizontal scaling is also known as:",
+      "options": {
+        "A": "Scaling up",
+        "B": "Scaling out",
+        "C": "Resource pooling",
+        "D": "Virtualization"
+      },
+      "answer": "B",
+      "explanation": "Scaling out involves adding more machines or nodes to the resource pool.",
+      "hash": "1d28b3ef9cd5d228",
+      "translations": {
+        "hi": {
+          "question": "हॉरिजॉन्टल स्केलिंग को इस नाम से भी जाना जाता है:",
+          "options": {
+            "A": "स्केलिंग अप",
+            "B": "स्केलिंग आउट",
+            "C": "रिसोर्स पूलिंग",
+            "D": "वर्चुअलाइजेशन"
+          },
+          "explanation": "स्केलिंग आउट में संसाधन पूल में अधिक मशीनें या नोड्स जोड़ना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-021",
+      "number": 21,
+      "question": "Which cloud concept relates to \"Measured Service\"?",
+      "options": {
+        "A": "Unlimited free usage",
+        "B": "Metering of resource usage for billing",
+        "C": "Physical counting of servers",
+        "D": "Fixed annual pricing"
+      },
+      "answer": "B",
+      "explanation": "Measured service means the cloud provider monitors resource usage for transparency and billing.",
+      "hash": "f4851195fc5d22ee",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा \"मेजर्ड सर्विस\" से संबंधित है?",
+          "options": {
+            "A": "असीमित मुफ्त उपयोग",
+            "B": "बिलिंग के लिए संसाधन उपयोग की मीटरिंग",
+            "C": "सर्वरों की भौतिक गणना",
+            "D": "निश्चित वार्षिक मूल्य निर्धारण"
+          },
+          "explanation": "मेजर्ड सर्विस का मतलब है कि क्लाउड प्रदाता पारदर्शिता और बिलिंग के लिए संसाधन उपयोग की निगरानी करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-022",
+      "number": 22,
+      "question": "What is the purpose of a Content Delivery Network (CDN) in the cloud?",
+      "options": {
+        "A": "To increase storage space",
+        "B": "To reduce latency by delivering content from a closer location",
+        "C": "To secure the database",
+        "D": "To replace the main server"
+      },
+      "answer": "B",
+      "explanation": "CDNs store cached content on edge servers near the user to speed up delivery.",
+      "hash": "5bcfb13b889e200a",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड में कंटेंट डिलीवरी नेटवर्क (CDN) का उद्देश्य क्या है?",
+          "options": {
+            "A": "स्टोरेज स्पेस बढ़ाने के लिए",
+            "B": "करीब के स्थान से सामग्री वितरित करके विलंबता को कम करने के लिए",
+            "C": "डेटाबेस को सुरक्षित करने के लिए",
+            "D": "मुख्य सर्वर को बदलने के लिए"
+          },
+          "explanation": "CDN वितरण को गति देने के लिए उपयोगकर्ता के पास के एज सर्वर पर कैश्ड सामग्री संग्रहीत करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-023",
+      "number": 23,
+      "question": "Which model is \"Microsoft Azure\" primarily known for?",
+      "options": {
+        "A": "Only SaaS",
+        "B": "Only IaaS",
+        "C": "Integrated Cloud (IaaS, PaaS, SaaS)",
+        "D": "Local hosting"
+      },
+      "answer": "C",
+      "explanation": "Azure is a comprehensive cloud platform providing all three major service models.",
+      "hash": "99847f578a567dd6",
+      "translations": {
+        "hi": {
+          "question": "\"माइक्रोसॉफ्ट एज़्योर\" मुख्य रूप से किस मॉडल के लिए जाना जाता है?",
+          "options": {
+            "A": "केवल सास",
+            "B": "केवल आईआस",
+            "C": "एकीकृत क्लाउड (IaaS, PaaS, SaaS)",
+            "D": "स्थानीय होस्टिंग"
+          },
+          "explanation": "एज़्योर एक व्यापक क्लाउड प्लेटफ़ॉर्म है जो तीनों प्रमुख सेवा मॉडल प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-024",
+      "number": 24,
+      "question": "AWS stands for:",
+      "options": {
+        "A": "Amazon Web Software",
+        "B": "Amazon Web Services",
+        "C": "Advanced Web System",
+        "D": "Apple Web Services"
+      },
+      "answer": "B",
+      "explanation": "AWS is the cloud computing subsidiary of Amazon.",
+      "hash": "0659912bf2d6f91a",
+      "translations": {
+        "hi": {
+          "question": "AWS का अर्थ है:",
+          "options": {
+            "A": "अमेज़न वेब सॉफ्टवेयर",
+            "B": "अमेज़न वेब सर्विसेज",
+            "C": "एडवांस्ड वेब सिस्टम",
+            "D": "एप्पल वेब सर्विसेज"
+          },
+          "explanation": "AWS अमेज़न की क्लाउड कंप्यूटिंग सहायक कंपनी है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-025",
+      "number": 25,
+      "question": "What is the \"Multitenancy\" concept?",
+      "options": {
+        "A": "One user using one server",
+        "B": "Multiple users sharing the same physical resources and infrastructure",
+        "C": "Using multiple clouds at once",
+        "D": "Building multiple apps on one OS"
+      },
+      "answer": "B",
+      "explanation": "Multitenancy allows multiple customers (tenants) to share the same physical hardware securely.",
+      "hash": "9f8e62cb30092079",
+      "translations": {
+        "hi": {
+          "question": "\"मल्टीटेनेंसी\" अवधारणा क्या है?",
+          "options": {
+            "A": "एक उपयोगकर्ता एक सर्वर का उपयोग कर रहा है",
+            "B": "एक ही भौतिक संसाधन और इंफ्रास्ट्रक्चर को साझा करने वाले कई उपयोगकर्ता",
+            "C": "एक साथ कई क्लाउड का उपयोग करना",
+            "D": "एक ओएस पर कई ऐप बनाना"
+          },
+          "explanation": "मल्टीटेनेंसी कई ग्राहकों (टेनेंट्स) को एक ही भौतिक हार्डवेयर को सुरक्षित रूप से साझा करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-026",
+      "number": 26,
+      "question": "Which of the following is a private cloud example?",
+      "options": {
+        "A": "Amazon Web Services",
+        "B": "Microsoft Azure",
+        "C": "OpenStack",
+        "D": "Google Cloud Platform"
+      },
+      "answer": "C",
+      "explanation": "OpenStack is a free, open-standard cloud computing platform often used for private clouds.",
+      "hash": "930848f9ce634b0c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक निजी क्लाउड उदाहरण है?",
+          "options": {
+            "A": "अमेज़न वेब सर्विसेज",
+            "B": "माइक्रोसॉफ्ट एज़्योर",
+            "C": "ओपनस्टैक",
+            "D": "गूगल क्लाउड प्लेटफॉर्म"
+          },
+          "explanation": "ओपनस्टैक एक फ्री, ओपन-स्टैंडर्ड क्लाउड कंप्यूटिंग प्लेटफॉर्म है जिसका उपयोग अक्सर निजी क्लाउड के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-027",
+      "number": 27,
+      "question": "What is \"Cloud Bursting\"?",
+      "options": {
+        "A": "Failure of a cloud server",
+        "B": "Moving from public to private cloud",
+        "C": "Overflowing tasks from private cloud to public cloud during peak demand",
+        "D": "Deleting all cloud data"
+      },
+      "answer": "C",
+      "explanation": "Cloud bursting is a configuration that switches to a public cloud when private cloud capacity is reached.",
+      "hash": "37970c6d44aa1ef9",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड बर्स्टिंग\" क्या है?",
+          "options": {
+            "A": "क्लाउड सर्वर की विफलता",
+            "B": "सार्वजनिक से निजी क्लाउड में जाना",
+            "C": "पीक डिमांड के दौरान निजी क्लाउड से सार्वजनिक क्लाउड में कार्यों का ओवरफ्लो होना",
+            "D": "सभी क्लाउड डेटा को हटाना"
+          },
+          "explanation": "क्लाउड बर्स्टिंग एक कॉन्फ़िगरेशन है जो निजी क्लाउड क्षमता समाप्त होने पर सार्वजनिक क्लाउड पर स्विच हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-028",
+      "number": 28,
+      "question": "Which service model is most suitable for hosting a database?",
+      "options": {
+        "A": "SaaS",
+        "B": "IaaS",
+        "C": "PaaS",
+        "D": "All of the above (depending on control needed)"
+      },
+      "answer": "D",
+      "explanation": "Databases can be hosted on IaaS (VMs), PaaS (Managed DB), or accessed via SaaS.",
+      "hash": "89a4705e15ca16b1",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस होस्ट करने के लिए कौन सा सेवा मॉडल सबसे उपयुक्त है?",
+          "options": {
+            "A": "सास",
+            "B": "आईआस",
+            "C": "पास",
+            "D": "उपरोक्त सभी (आवश्यक नियंत्रण के आधार पर)"
+          },
+          "explanation": "डेटाबेस को IaaS (VMs), PaaS (Managed DB) पर होस्ट किया जा सकता है, या SaaS के माध्यम से एक्सेस किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-029",
+      "number": 29,
+      "question": "Which entity is responsible for security \"in\" the cloud in the Shared Responsibility Model?",
+      "options": {
+        "A": "Cloud Provider",
+        "B": "Internet Service Provider",
+        "C": "Cloud Customer",
+        "D": "Government"
+      },
+      "answer": "C",
+      "explanation": "Providers secure the infrastructure, while customers are responsible for their data and apps.",
+      "hash": "14512108a0212efc",
+      "translations": {
+        "hi": {
+          "question": "साझा जिम्मेदारी मॉडल (Shared Responsibility Model) में क्लाउड \"के भीतर\" सुरक्षा के लिए कौन सी संस्था जिम्मेदार है?",
+          "options": {
+            "A": "क्लाउड प्रदाता",
+            "B": "इंटरनेट सेवा प्रदाता",
+            "C": "क्लाउड ग्राहक",
+            "D": "सरकार"
+          },
+          "explanation": "प्रदाता इंफ्रास्ट्रक्चर को सुरक्षित करते हैं, जबकि ग्राहक अपने डेटा और ऐप्स के लिए जिम्मेदार होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-01-030",
+      "number": 30,
+      "question": "What is the main benefit of \"Resource Pooling\"?",
+      "options": {
+        "A": "Increased latency",
+        "B": "Economical use of hardware through large-scale sharing",
+        "C": "Single user access",
+        "D": "Manual updates"
+      },
+      "answer": "B",
+      "explanation": "Resource pooling allows providers to serve multiple consumers using a multi-tenant model.",
+      "hash": "ea180516b92e48be",
+      "translations": {
+        "hi": {
+          "question": "\"रिसोर्स पूलिंग\" का मुख्य लाभ क्या है?",
+          "options": {
+            "A": "विलंबता में वृद्धि",
+            "B": "बड़े पैमाने पर साझाकरण के माध्यम से हार्डवेयर का किफायती उपयोग",
+            "C": "एकल उपयोगकर्ता पहुंच",
+            "D": "मैनुअल अपडेट"
+          },
+          "explanation": "रिसोर्स पूलिंग प्रदाताओं को मल्टी-टेनेंट मॉडल का उपयोग करके कई उपभोक्ताओं की सेवा करने की अनुमति देती है।"
+        }
+      }
+    }
+  ]
+}

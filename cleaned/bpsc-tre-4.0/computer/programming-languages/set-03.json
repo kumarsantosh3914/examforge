@@ -1,0 +1,787 @@
+{
+  "subject": "Programming Languages",
+  "set": 3,
+  "title": "Programming Languages Mock Test 3",
+  "questions": [
+    {
+      "id": "programming-languages-03-001",
+      "number": 1,
+      "question": "Which of the following is used to define a constant in C using the preprocessor?",
+      "options": {
+        "A": "#define",
+        "B": "const",
+        "C": "#constant",
+        "D": "#include"
+      },
+      "answer": "A",
+      "explanation": "#define is a preprocessor directive used to create macros or constants before compilation.",
+      "hash": "68a5d0d3e3ac3e7c",
+      "translations": {
+        "hi": {
+          "question": "प्रीप्रोसेसर का उपयोग करके C में स्थिरांक (constant) को परिभाषित करने के लिए किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "#define",
+            "B": "const",
+            "C": "#constant",
+            "D": "#include"
+          },
+          "explanation": "#define एक प्रीप्रोसेसर डायरेक्टिव है जिसका उपयोग कंपाइलेशन से पहले मैक्रोज़ या स्थिरांक बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-002",
+      "number": 2,
+      "question": "Which C++ keyword is used to handle multiple conditions in a single branch?",
+      "options": {
+        "A": "select",
+        "B": "switch",
+        "C": "cases",
+        "D": "check"
+      },
+      "answer": "B",
+      "explanation": "The switch statement allows a variable to be tested for equality against a list of values.",
+      "hash": "a4109189823f45cb",
+      "translations": {
+        "hi": {
+          "question": "एक ही ब्रांच में कई स्थितियों को संभालने के लिए किस C++ कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "सिलेक्ट",
+            "B": "स्विच",
+            "C": "केसेस",
+            "D": "चेक"
+          },
+          "explanation": "स्विच (switch) स्टेटमेंट एक वेरिएबल को मानों की सूची के विरुद्ध समानता के लिए परीक्षण करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-003",
+      "number": 3,
+      "question": "What is the output of 'print(\"Hello\" * 2)' in Python?",
+      "options": {
+        "A": "Hello2",
+        "B": "Hello Hello",
+        "C": "HelloHello",
+        "D": "Error"
+      },
+      "answer": "C",
+      "explanation": "In Python, the '*' operator with a string and an integer performs string repetition.",
+      "hash": "67394ddc5605eec3",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'print(\"Hello\" * 2)' का आउटपुट क्या है?",
+          "options": {
+            "A": "Hello2",
+            "B": "Hello Hello",
+            "C": "HelloHello",
+            "D": "Error"
+          },
+          "explanation": "पायथन में, स्ट्रिंग और इंटीजर के साथ '*' ऑपरेटर स्ट्रिंग रिपिटिशन (पुनरावृत्ति) करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-004",
+      "number": 4,
+      "question": "In Java, which of these is used to create a thread?",
+      "options": {
+        "A": "By implementing Runnable interface",
+        "B": "By extending Thread class",
+        "C": "Both A and B",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Java threads can be created by either extending the Thread class or implementing the Runnable interface.",
+      "hash": "fbf3381dbde60f72",
+      "translations": {
+        "hi": {
+          "question": "जावा में, इनमें से किसका उपयोग थ्रेड बनाने के लिए किया जाता है?",
+          "options": {
+            "A": "रननेबल इंटरफेस को लागू करके",
+            "B": "थ्रेड क्लास को एक्सटेंड करके",
+            "C": "A और B दोनों",
+            "D": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "जावा थ्रेड्स को थ्रेड क्लास को एक्सटेंड करके या रननेबल इंटरफेस को लागू करके बनाया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-005",
+      "number": 5,
+      "question": "In Java, what is the default value of an uninitialized object reference?",
+      "options": {
+        "A": "0",
+        "B": "void",
+        "C": "null",
+        "D": "empty"
+      },
+      "answer": "C",
+      "explanation": "Any object reference variable that is not initialized points to null.",
+      "hash": "77754600932dc9c9",
+      "translations": {
+        "hi": {
+          "question": "जावा में, एक अनइनिशियलाइज्ड ऑब्जेक्ट रिफरेंस का डिफ़ॉल्ट मान क्या होता है?",
+          "options": {
+            "A": "0",
+            "B": "वॉइड",
+            "C": "नल",
+            "D": "एम्प्टी"
+          },
+          "explanation": "कोई भी ऑब्जेक्ट रिफरेंस वेरिएबल जो इनिशियलाइज नहीं है, वह नल (null) को इंगित करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-006",
+      "number": 6,
+      "question": "What is the purpose of the 'pass' statement in Python?",
+      "options": {
+        "A": "To exit the program",
+        "B": "To skip the current iteration",
+        "C": "It is a null operation used as a placeholder",
+        "D": "To return a value"
+      },
+      "answer": "C",
+      "explanation": "The pass statement is used when a statement is required syntactically but no action is needed.",
+      "hash": "c0599fc2faad7e18",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'pass' स्टेटमेंट का उद्देश्य क्या है?",
+          "options": {
+            "A": "प्रोग्राम से बाहर निकलने के लिए",
+            "B": "वर्तमान इटरेशन को छोड़ने के लिए",
+            "C": "यह एक नल ऑपरेशन है जिसका उपयोग प्लेसहोल्डर के रूप में किया जाता है",
+            "D": "मान वापस करने के लिए"
+          },
+          "explanation": "pass स्टेटमेंट का उपयोग तब किया जाता है जब सिंटैक्स के लिए स्टेटमेंट आवश्यक हो लेकिन किसी क्रिया की आवश्यकता न हो।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-007",
+      "number": 7,
+      "question": "Which operator is used to find the memory address of a variable in C?",
+      "options": {
+        "A": "*",
+        "B": "&",
+        "C": "->",
+        "D": "%"
+      },
+      "answer": "B",
+      "explanation": "The address-of operator (&) returns the memory location of a variable.",
+      "hash": "2c15c12d5d43ca22",
+      "translations": {
+        "hi": {
+          "question": "C में वेरिएबल का मेमोरी एड्रेस खोजने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "*",
+            "B": "&",
+            "C": "->",
+            "D": "%"
+          },
+          "explanation": "एड्रेस-ऑफ ऑपरेटर (&) वेरिएबल का मेमोरी लोकेशन लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-008",
+      "number": 8,
+      "question": "How do you define a dictionary in Python?",
+      "options": {
+        "A": "d = {}",
+        "B": "d = []",
+        "C": "d = ()",
+        "D": "d = set()"
+      },
+      "answer": "A",
+      "explanation": "Curly braces {} are used to define a dictionary in Python.",
+      "hash": "0ae880fb6d066a86",
+      "translations": {
+        "hi": {
+          "question": "पायथन में डिक्शनरी को कैसे परिभाषित करते हैं?",
+          "options": {
+            "A": "d = {}",
+            "B": "d = []",
+            "C": "d = ()",
+            "D": "d = set()"
+          },
+          "explanation": "पायथन में डिक्शनरी को परिभाषित करने के लिए कर्ली ब्रेसेस {} का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-009",
+      "number": 9,
+      "question": "Which memory area in C is used for dynamic memory allocation?",
+      "options": {
+        "A": "Stack",
+        "B": "Heap",
+        "C": "Data Segment",
+        "D": "Register"
+      },
+      "answer": "B",
+      "explanation": "Functions like malloc and calloc allocate memory from the heap.",
+      "hash": "66fb16b790f767b1",
+      "translations": {
+        "hi": {
+          "question": "डायनामिक मेमोरी आवंटन के लिए C में किस मेमोरी क्षेत्र का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टैक",
+            "B": "हीप",
+            "C": "डेटा सेगमेंट",
+            "D": "रजिस्टर"
+          },
+          "explanation": "malloc और calloc जैसे फ़ंक्शन हीप (heap) से मेमोरी आवंटित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-010",
+      "number": 10,
+      "question": "Which of the following is not a valid identifier in C++?",
+      "options": {
+        "A": "my_var",
+        "B": "_var",
+        "C": "2var",
+        "D": "Var2"
+      },
+      "answer": "C",
+      "explanation": "Identifiers cannot start with a digit.",
+      "hash": "97eafd5eb6b62c35",
+      "translations": {
+        "hi": {
+          "question": "C++ में निम्नलिखित में से कौन सा एक मान्य आइडेंटिफायर नहीं है?",
+          "options": {
+            "A": "my_var",
+            "B": "_var",
+            "C": "2var",
+            "D": "Var2"
+          },
+          "explanation": "आइडेंटिफायर किसी अंक (digit) से शुरू नहीं हो सकते।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-011",
+      "number": 11,
+      "question": "What is the size of the 'double' data type in C++?",
+      "options": {
+        "A": "2 bytes",
+        "B": "4 bytes",
+        "C": "8 bytes",
+        "D": "10 bytes"
+      },
+      "answer": "C",
+      "explanation": "The double data type typically takes 8 bytes of memory.",
+      "hash": "4356a8079c8fccd1",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'double' डेटा टाइप का आकार क्या है?",
+          "options": {
+            "A": "2 बाइट्स",
+            "B": "4 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "10 बाइट्स"
+          },
+          "explanation": "double डेटा टाइप आमतौर पर मेमोरी के 8 बाइट्स लेता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-012",
+      "number": 12,
+      "question": "In Python, which of the following is used for exception handling?",
+      "options": {
+        "A": "try...catch",
+        "B": "try...except",
+        "C": "try...finally",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "Python uses try...except to catch errors and finally for cleanup code.",
+      "hash": "18668638bbc3ff62",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, अपवाद प्रबंधन (exception handling) के लिए निम्न में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "try...catch",
+            "B": "try...except",
+            "C": "try...finally",
+            "D": "B और C दोनों"
+          },
+          "explanation": "पायथन त्रुटियों को पकड़ने के लिए try...except और सफाई कोड के लिए finally का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-013",
+      "number": 13,
+      "question": "Which Java keyword is used to access members of an interface within a class?",
+      "options": {
+        "A": "extends",
+        "B": "implements",
+        "C": "inherits",
+        "D": "includes"
+      },
+      "answer": "B",
+      "explanation": "A class uses the 'implements' keyword to use an interface.",
+      "hash": "624a6ae3735e0744",
+      "translations": {
+        "hi": {
+          "question": "क्लास के भीतर इंटरफेस के सदस्यों तक पहुँचने के लिए किस जावा कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "एक्सटेंड्स",
+            "B": "इम्प्लीमेंट्स",
+            "C": "इनहेरिट्स",
+            "D": "इन्क्लूड्स"
+          },
+          "explanation": "एक क्लास इंटरफेस का उपयोग करने के लिए 'implements' कीवर्ड का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-014",
+      "number": 14,
+      "question": "What is 'encapsulation' in C++?",
+      "options": {
+        "A": "Hiding data",
+        "B": "Combining data and functions into a single unit",
+        "C": "Overloading functions",
+        "D": "Inheriting from a base class"
+      },
+      "answer": "B",
+      "explanation": "Encapsulation is the process of wrapping data and the methods that operate on them into one class.",
+      "hash": "d2fba9808fff290f",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'एनकैप्सुलेशन' क्या है?",
+          "options": {
+            "A": "डेटा छिपाना",
+            "B": "डेटा और फ़ंक्शंस को एक इकाई में संयोजित करना",
+            "C": "फ़ंक्शंस को ओवरलोड करना",
+            "D": "बेस क्लास से इनहेरिट करना"
+          },
+          "explanation": "एनकैप्सुलेशन डेटा और उन पर काम करने वाले मेथड्स को एक क्लास में लपेटने की प्रक्रिया है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-015",
+      "number": 15,
+      "question": "Which C library function is used to copy one string to another?",
+      "options": {
+        "A": "strcopy()",
+        "B": "strcpy()",
+        "C": "strdup()",
+        "D": "scopy()"
+      },
+      "answer": "B",
+      "explanation": "strcpy(dest, src) is used to copy the source string to the destination.",
+      "hash": "bfbdb0c81e3d941d",
+      "translations": {
+        "hi": {
+          "question": "एक स्ट्रिंग को दूसरी स्ट्रिंग में कॉपी करने के लिए किस C लाइब्रेरी फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "strcopy()",
+            "B": "strcpy()",
+            "C": "strdup()",
+            "D": "scopy()"
+          },
+          "explanation": "strcpy(dest, src) का उपयोग सोर्स स्ट्रिंग को डेस्टिनेशन में कॉपी करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-016",
+      "number": 16,
+      "question": "In Java, which method is called first when a program starts?",
+      "options": {
+        "A": "start()",
+        "B": "init()",
+        "C": "main()",
+        "D": "run()"
+      },
+      "answer": "C",
+      "explanation": "The public static void main(String[] args) method is the entry point of a Java program.",
+      "hash": "7e3721dffdae1c06",
+      "translations": {
+        "hi": {
+          "question": "जावा में, प्रोग्राम शुरू होने पर सबसे पहले कौन सा मेथड कॉल किया जाता है?",
+          "options": {
+            "A": "स्टार्ट()",
+            "B": "इनिट()",
+            "C": "मेन()",
+            "D": "रन()"
+          },
+          "explanation": "public static void main(String[] args) मेथड जावा प्रोग्राम का एंट्री पॉइंट है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-017",
+      "number": 17,
+      "question": "What is the purpose of 'static' variables in C?",
+      "options": {
+        "A": "To make them accessible globally",
+        "B": "To retain their value between function calls",
+        "C": "To allow dynamic allocation",
+        "D": "To prevent initialization"
+      },
+      "answer": "B",
+      "explanation": "Static variables persist in memory even after the function scope ends.",
+      "hash": "e777eb2909928617",
+      "translations": {
+        "hi": {
+          "question": "C में 'static' वेरिएबल्स का उद्देश्य क्या है?",
+          "options": {
+            "A": "उन्हें विश्व स्तर पर सुलभ बनाने के लिए",
+            "B": "फ़ंक्शन कॉल के बीच उनके मान को बनाए रखने के लिए",
+            "C": "डायनामिक आवंटन की अनुमति देने के लिए",
+            "D": "इनिशियलाइजेशन को रोकने के लिए"
+          },
+          "explanation": "फ़ंक्शन स्कोप समाप्त होने के बाद भी स्टैटिक वेरिएबल मेमोरी में बने रहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-018",
+      "number": 18,
+      "question": "Which Python function is used to convert a string to an integer?",
+      "options": {
+        "A": "str()",
+        "B": "int()",
+        "C": "float()",
+        "D": "parse()"
+      },
+      "answer": "B",
+      "explanation": "The int() function converts a compatible string or float into an integer.",
+      "hash": "308c227573d22456",
+      "translations": {
+        "hi": {
+          "question": "किसी स्ट्रिंग को इंटीजर में बदलने के लिए किस पायथन फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "str()",
+            "B": "int()",
+            "C": "float()",
+            "D": "parse()"
+          },
+          "explanation": "int() फ़ंक्शन एक संगत स्ट्रिंग या फ्लोट को इंटीजर में बदल देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-019",
+      "number": 19,
+      "question": "Which package is imported by default in every Java program?",
+      "options": {
+        "A": "java.util",
+        "B": "java.io",
+        "C": "java.lang",
+        "D": "java.net"
+      },
+      "answer": "C",
+      "explanation": "The java.lang package contains classes fundamental to Java and is automatically imported.",
+      "hash": "1195e64c09cc3357",
+      "translations": {
+        "hi": {
+          "question": "प्रत्येक जावा प्रोग्राम में डिफ़ॉल्ट रूप से कौन सा पैकेज इम्पोर्ट किया जाता है?",
+          "options": {
+            "A": "java.util",
+            "B": "java.io",
+            "C": "java.lang",
+            "D": "java.net"
+          },
+          "explanation": "java.lang पैकेज में जावा के लिए मौलिक क्लासेस होती हैं और यह स्वचालित रूप से इम्पोर्ट हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-020",
+      "number": 20,
+      "question": "Which of the following is not a keyword in Python?",
+      "options": {
+        "A": "lambda",
+        "B": "with",
+        "C": "eval",
+        "D": "yield"
+      },
+      "answer": "C",
+      "explanation": "eval() is a built-in function, not a reserved keyword like the others.",
+      "hash": "3e4a4d9116b7491b",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा पायथन में कीवर्ड नहीं है?",
+          "options": {
+            "A": "लैम्ब्डा",
+            "B": "विथ",
+            "C": "इवेल",
+            "D": "यील्ड"
+          },
+          "explanation": "eval() एक बिल्ट-इन फ़ंक्शन है, अन्य की तरह आरक्षित कीवर्ड नहीं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-021",
+      "number": 21,
+      "question": "In C++, how is a destructor named?",
+      "options": {
+        "A": "class_name()",
+        "B": "~class_name()",
+        "C": "!class_name()",
+        "D": "@class_name()"
+      },
+      "answer": "B",
+      "explanation": "A destructor name is the class name preceded by a tilde symbol (~).",
+      "hash": "efb57db89cafab03",
+      "translations": {
+        "hi": {
+          "question": "C++ में, डिस्ट्रक्टर का नाम कैसे रखा जाता है?",
+          "options": {
+            "A": "class_name()",
+            "B": "~class_name()",
+            "C": "!class_name()",
+            "D": "@class_name()"
+          },
+          "explanation": "डिस्ट्रक्टर का नाम टिल्ड प्रतीक (~) के बाद क्लास का नाम होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-022",
+      "number": 22,
+      "question": "In Java, which keyword is used to prevent method overriding?",
+      "options": {
+        "A": "static",
+        "B": "final",
+        "C": "private",
+        "D": "abstract"
+      },
+      "answer": "B",
+      "explanation": "A final method in a parent class cannot be overridden by any subclass.",
+      "hash": "c3bc0e77b26230ce",
+      "translations": {
+        "hi": {
+          "question": "जावा में, मेथड ओवरराइडिंग को रोकने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टैटिक",
+            "B": "फाइनल",
+            "C": "प्राइवेट",
+            "D": "एब्स्ट्रैक्ट"
+          },
+          "explanation": "पैरेंट क्लास में एक फाइनल मेथड को किसी भी सबक्लास द्वारा ओवरराइड नहीं किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-023",
+      "number": 23,
+      "question": "What is the result of '5 % 2' in C?",
+      "options": {
+        "A": "2.5",
+        "B": "2",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "C",
+      "explanation": "The modulo operator (%) returns the remainder of a division.",
+      "hash": "75bcf2b998e146ef",
+      "translations": {
+        "hi": {
+          "question": "C में '5 % 2' का परिणाम क्या है?",
+          "options": {
+            "A": "2.5",
+            "B": "2",
+            "C": "1",
+            "D": "0"
+          },
+          "explanation": "मॉड्यूलो ऑपरेटर (%) विभाजन का शेषफल (remainder) लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-024",
+      "number": 24,
+      "question": "Which feature of C++ allows the same operator to have different meanings?",
+      "options": {
+        "A": "Operator overriding",
+        "B": "Operator overloading",
+        "C": "Encapsulation",
+        "D": "Polymorphism"
+      },
+      "answer": "B",
+      "explanation": "Operator overloading allows customization of how operators work with user-defined types.",
+      "hash": "8423c8a370c6ef2d",
+      "translations": {
+        "hi": {
+          "question": "C++ की कौन सी विशेषता एक ही ऑपरेटर को अलग-अलग अर्थ रखने की अनुमति देती है?",
+          "options": {
+            "A": "ऑपरेटर ओवरराइडिंग",
+            "B": "ऑपरेटर ओवरलोडिंग",
+            "C": "एनकैप्सुलेशन",
+            "D": "पॉलीमॉर्फिज्म"
+          },
+          "explanation": "ऑपरेटर ओवरलोडिंग यह कस्टमाइज़ करने की अनुमति देता है कि ऑपरेटर उपयोगकर्ता-परिभाषित प्रकारों के साथ कैसे काम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-025",
+      "number": 25,
+      "question": "What is a 'List Comprehension' in Python?",
+      "options": {
+        "A": "A way to delete a list",
+        "B": "A concise way to create lists",
+        "C": "A method to sort a list",
+        "D": "A way to copy a list"
+      },
+      "answer": "B",
+      "explanation": "List comprehension provides a shorter syntax when you want to create a new list based on existing values.",
+      "hash": "24e69d7729e4c39b",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'लिस्ट कॉम्प्रिहेंशन' क्या है?",
+          "options": {
+            "A": "लिस्ट को डिलीट करने का एक तरीका",
+            "B": "लिस्ट बनाने का एक संक्षिप्त तरीका",
+            "C": "लिस्ट को सॉर्ट करने का एक मेथड",
+            "D": "लिस्ट को कॉपी करने का एक तरीका"
+          },
+          "explanation": "लिस्ट कॉम्प्रिहेंशन मौजूदा मानों के आधार पर एक नई लिस्ट बनाने के लिए एक छोटा सिंटैक्स प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-026",
+      "number": 26,
+      "question": "In C, 'unsigned int' can store?",
+      "options": {
+        "A": "Positive values only",
+        "B": "Negative values only",
+        "C": "Both positive and negative values",
+        "D": "Only zero"
+      },
+      "answer": "A",
+      "explanation": "Unsigned integers do not use a sign bit and can only represent non-negative numbers.",
+      "hash": "5872ad469648c1d5",
+      "translations": {
+        "hi": {
+          "question": "C में, 'unsigned int' क्या स्टोर कर सकता है?",
+          "options": {
+            "A": "केवल धनात्मक मान",
+            "B": "केवल ऋणात्मक मान",
+            "C": "धनात्मक और ऋणात्मक दोनों मान",
+            "D": "केवल शून्य"
+          },
+          "explanation": "अनसाइंड इंटीजर्स साइन बिट का उपयोग नहीं करते हैं और केवल गैर-ऋणात्मक संख्याओं का प्रतिनिधित्व कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-027",
+      "number": 27,
+      "question": "Which C++ header file is used for file handling?",
+      "options": {
+        "A": "iostream",
+        "B": "fstream",
+        "C": "stdio.h",
+        "D": "conio.h"
+      },
+      "answer": "B",
+      "explanation": "fstream (file stream) is used to read from and write to files in C++.",
+      "hash": "de31afbb5b5a61ba",
+      "translations": {
+        "hi": {
+          "question": "फ़ाइल हैंडलिंग के लिए किस C++ हेडर फ़ाइल का उपयोग किया जाता है?",
+          "options": {
+            "A": "iostream",
+            "B": "fstream",
+            "C": "stdio.h",
+            "D": "conio.h"
+          },
+          "explanation": "fstream (फाइल स्ट्रीम) का उपयोग C++ में फाइलों को पढ़ने और लिखने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-028",
+      "number": 28,
+      "question": "Which exception is thrown when a division by zero occurs in Java?",
+      "options": {
+        "A": "ZeroException",
+        "B": "ArithmeticException",
+        "C": "MathError",
+        "D": "NullPointerException"
+      },
+      "answer": "B",
+      "explanation": "Division by zero for integers in Java throws an ArithmeticException.",
+      "hash": "e3452e3ddc61c8f9",
+      "translations": {
+        "hi": {
+          "question": "जावा में शून्य से विभाजन होने पर कौन सा अपवाद (exception) आता है?",
+          "options": {
+            "A": "ZeroException",
+            "B": "ArithmeticException",
+            "C": "MathError",
+            "D": "NullPointerException"
+          },
+          "explanation": "जावा में पूर्णांकों के लिए शून्य से विभाजन ArithmeticException पैदा करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-029",
+      "number": 29,
+      "question": "What is the size of an 'empty class' in C++?",
+      "options": {
+        "A": "0 byte",
+        "B": "1 byte",
+        "C": "4 bytes",
+        "D": "Depends on the compiler"
+      },
+      "answer": "B",
+      "explanation": "To ensure that two different objects of the same class have distinct addresses, the size is usually 1 byte.",
+      "hash": "d82a83fd8a7909f2",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'empty class' का आकार क्या है?",
+          "options": {
+            "A": "0 बाइट",
+            "B": "1 बाइट",
+            "C": "4 बाइट्स",
+            "D": "कंपाइलर पर निर्भर करता है"
+          },
+          "explanation": "यह सुनिश्चित करने के लिए कि एक ही क्लास के दो अलग-अलग ऑब्जेक्ट्स के पते अलग-अलग हों, आकार आमतौर पर 1 बाइट होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-03-030",
+      "number": 30,
+      "question": "What does the 'global' keyword do in Python?",
+      "options": {
+        "A": "Defines a variable for the whole internet",
+        "B": "Allows modification of a global variable inside a function",
+        "C": "Makes a variable private",
+        "D": "Deletes a global variable"
+      },
+      "answer": "B",
+      "explanation": "The global keyword allows you to modify a variable outside the current scope.",
+      "hash": "fed822cdaede6516",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'global' कीवर्ड क्या करता है?",
+          "options": {
+            "A": "पूरे इंटरनेट के लिए एक वेरिएबल को परिभाषित करता है",
+            "B": "फ़ंक्शन के अंदर ग्लोबल वेरिएबल के संशोधन की अनुमति देता है",
+            "C": "एक वेरिएबल को प्राइवेट बनाता है",
+            "D": "एक ग्लोबल वेरिएबल को हटा देता है"
+          },
+          "explanation": "ग्लोबल कीवर्ड आपको वर्तमान स्कोप के बाहर वेरिएबल को संशोधित करने की अनुमति देता है।"
+        }
+      }
+    }
+  ]
+}

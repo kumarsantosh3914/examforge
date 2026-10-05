@@ -1,0 +1,787 @@
+{
+  "subject": "Software Engineering",
+  "set": 5,
+  "title": "Software Engineering Mock Test 5",
+  "questions": [
+    {
+      "id": "software-engineering-05-001",
+      "number": 1,
+      "question": "Which coupling type is considered the most desirable (best) for a good software design?",
+      "options": {
+        "A": "Content Coupling",
+        "B": "Control Coupling",
+        "C": "Data Coupling",
+        "D": "Stamp Coupling"
+      },
+      "answer": "C",
+      "explanation": "Data coupling is the best because modules share only the necessary data items, leading to high independence.",
+      "hash": "61ff98f282f0f84c",
+      "translations": {
+        "hi": {
+          "question": "एक अच्छे सॉफ्टवेयर डिजाइन के लिए किस कपलिंग प्रकार को सबसे वांछनीय (सबसे अच्छा) माना जाता है?",
+          "options": {
+            "A": "कंटेंट कपलिंग",
+            "B": "कंट्रोल कपलिंग",
+            "C": "डेटा कपलिंग",
+            "D": "स्टैम्प कपलिंग"
+          },
+          "explanation": "डेटा कपलिंग सबसे अच्छा है क्योंकि मॉड्यूल केवल आवश्यक डेटा आइटम साझा करते हैं, जिससे उच्च स्वतंत्रता प्राप्त होती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-002",
+      "number": 2,
+      "question": "What is the main objective of Formal Technical Reviews (FTR)?",
+      "options": {
+        "A": "To train the programmers",
+        "B": "To find errors in logic and function",
+        "C": "To increase the project cost",
+        "D": "To skip the testing phase"
+      },
+      "answer": "B",
+      "explanation": "FTR is a quality control activity intended to uncover errors in software requirements, design, or code.",
+      "hash": "67a689d2f75b6c3f",
+      "translations": {
+        "hi": {
+          "question": "फॉर्मल टेक्निकल रिव्यू (FTR) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "प्रोग्रामर को प्रशिक्षित करना",
+            "B": "लॉजिक और फंक्शन में त्रुटियां ढूंढना",
+            "C": "प्रोजेक्ट की लागत बढ़ाना",
+            "D": "टेस्टिंग चरण को छोड़ना"
+          },
+          "explanation": "FTR एक गुणवत्ता नियंत्रण गतिविधि है जिसका उद्देश्य सॉफ्टवेयर आवश्यकताओं, डिजाइन या कोड में त्रुटियों को उजागर करना है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-003",
+      "number": 3,
+      "question": "Which type of cohesion is where elements are grouped because they all execute at the same time?",
+      "options": {
+        "A": "Logical Cohesion",
+        "B": "Temporal Cohesion",
+        "C": "Procedural Cohesion",
+        "D": "Functional Cohesion"
+      },
+      "answer": "B",
+      "explanation": "Temporal cohesion occurs when parts of a module are grouped because they are processed at the same time (e.g., initialization).",
+      "hash": "c07d11eea5c54cdf",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का कोहेशन वह है जहाँ तत्वों को इसलिए समूहीकृत किया जाता है क्योंकि वे सभी एक ही समय में निष्पादित होते हैं?",
+          "options": {
+            "A": "लॉजिकल कोहेशन",
+            "B": "टेम्पोरल कोहेशन",
+            "C": "प्रोसीजरल कोहेशन",
+            "D": "फंक्शनल कोहेशन"
+          },
+          "explanation": "टेम्पोरल कोहेशन तब होता है जब एक मॉड्यूल के हिस्सों को इसलिए समूहीकृत किया जाता है क्योंकि वे एक ही समय में संसाधित होते हैं (जैसे, इनिशियलाइजेशन)।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-004",
+      "number": 4,
+      "question": "In the context of Software Engineering, \"Fan-in\" refers to?",
+      "options": {
+        "A": "Number of modules called by a given module",
+        "B": "Number of modules that call a given module",
+        "C": "Number of lines of code in a module",
+        "D": "Number of inputs to a system"
+      },
+      "answer": "B",
+      "explanation": "Fan-in is the number of modules that call or depend on a specific module. High fan-in promotes reusability.",
+      "hash": "8b52cf32622eb118",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग के संदर्भ में, \"फैन-इन\" का तात्पर्य क्या है?",
+          "options": {
+            "A": "एक दिए गए मॉड्यूल द्वारा कॉल किए गए मॉड्यूल की संख्या",
+            "B": "एक दिए गए मॉड्यूल को कॉल करने वाले मॉड्यूल की संख्या",
+            "C": "एक मॉड्यूल में कोड की लाइनों की संख्या",
+            "D": "एक सिस्टम के इनपुट की संख्या"
+          },
+          "explanation": "फैन-इन उन मॉड्यूल की संख्या है जो एक विशिष्ट मॉड्यूल को कॉल करते हैं या उस पर निर्भर होते हैं। उच्च फैन-इन पुन: प्रयोज्यता को बढ़ावा देता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-005",
+      "number": 5,
+      "question": "Which maintenance type involves changing software to work on a new operating system?",
+      "options": {
+        "A": "Corrective Maintenance",
+        "B": "Adaptive Maintenance",
+        "C": "Perfective Maintenance",
+        "D": "Preventive Maintenance"
+      },
+      "answer": "B",
+      "explanation": "Adaptive maintenance adjusts software to a changed or changing environment (hardware/software platform).",
+      "hash": "5bb8b56119d98f07",
+      "translations": {
+        "hi": {
+          "question": "किस रखरखाव प्रकार में सॉफ्टवेयर को नए ऑपरेटिंग सिस्टम पर काम करने के लिए बदलना शामिल है?",
+          "options": {
+            "A": "करेक्टिव मेंटेनेंस",
+            "B": "एडेप्टिव मेंटेनेंस",
+            "C": "परफेक्टिव मेंटेनेंस",
+            "D": "प्रिवेंटिव मेंटेनेंस"
+          },
+          "explanation": "एडेप्टिव मेंटेनेंस सॉफ्टवेयर को बदले हुए या बदलते परिवेश (हार्डवेयर/सॉफ्टवेयर प्लेटफॉर्म) में समायोजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-006",
+      "number": 6,
+      "question": "In UML, which diagram is used to represent the dynamic behavior of a system?",
+      "options": {
+        "A": "Class Diagram",
+        "B": "Object Diagram",
+        "C": "Interaction Diagram",
+        "D": "Deployment Diagram"
+      },
+      "answer": "C",
+      "explanation": "Interaction diagrams, like sequence and collaboration diagrams, show how objects interact over time.",
+      "hash": "379d392c60fa701e",
+      "translations": {
+        "hi": {
+          "question": "UML में, सिस्टम के गतिशील व्यवहार को दर्शाने के लिए किस आरेख का उपयोग किया जाता है?",
+          "options": {
+            "A": "क्लास डायग्राम",
+            "B": "ऑब्जेक्ट डायग्राम",
+            "C": "इंटरेक्शन डायग्राम",
+            "D": "डिप्लॉयमेंट डायग्राम"
+          },
+          "explanation": "इंटरेक्शन डायग्राम, जैसे सीक्वेंस और कोलैबोरेशन डायग्राम, दिखाते हैं कि समय के साथ ऑब्जेक्ट कैसे इंटरैक्ट करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-007",
+      "number": 7,
+      "question": "The degree to which a system or component can be used in other systems is?",
+      "options": {
+        "A": "Portability",
+        "B": "Reusability",
+        "C": "Scalability",
+        "D": "Reliability"
+      },
+      "answer": "B",
+      "explanation": "Reusability allows existing code components to be used in the development of new software.",
+      "hash": "6023598eda1abafa",
+      "translations": {
+        "hi": {
+          "question": "जिस डिग्री तक किसी सिस्टम या घटक का उपयोग अन्य प्रणालियों में किया जा सकता है, वह है?",
+          "options": {
+            "A": "पोर्टेबिलिटी",
+            "B": "रियूजेबिलिटी",
+            "C": "स्केलेबिलिटी",
+            "D": "रिलायबिलिटी"
+          },
+          "explanation": "रियूजेबिलिटी मौजूदा कोड घटकों को नए सॉफ्टवेयर के विकास में उपयोग करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-008",
+      "number": 8,
+      "question": "What does \"DRE\" stand for in software quality management?",
+      "options": {
+        "A": "Design Reliability Entry",
+        "B": "Defect Removal Efficiency",
+        "C": "Data Response Execution",
+        "D": "Development Rate Estimate"
+      },
+      "answer": "B",
+      "explanation": "DRE measures how effectively defects are found and fixed during the development process before release.",
+      "hash": "6300f02a0388eda7",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर गुणवत्ता प्रबंधन में \"DRE\" का क्या अर्थ है?",
+          "options": {
+            "A": "डिजाइन रिलायबिलिटी एंट्री",
+            "B": "डिफेक्ट रिमूवल एफिशिएंसी",
+            "C": "डेटा रिस्पांस एक्जीक्यूशन",
+            "D": "डेवलपमेंट रेट एस्टीमेट"
+          },
+          "explanation": "DRE यह मापता है कि रिलीज से पहले विकास प्रक्रिया के दौरान दोषों को कितनी प्रभावी ढंग से खोजा और ठीक किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-009",
+      "number": 9,
+      "question": "Which model is based on the philosophy of \"Build a version, then improve it\"?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Evolutionary Model",
+        "C": "V-Model",
+        "D": "Big Bang Model"
+      },
+      "answer": "B",
+      "explanation": "Evolutionary models develop initial versions and refine them through cycles based on user feedback.",
+      "hash": "e089c5e88e3683ae",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मॉडल \"एक संस्करण बनाएं, फिर उसमें सुधार करें\" के दर्शन पर आधारित है?",
+          "options": {
+            "A": "वॉटरफॉल मॉडल",
+            "B": "इवोल्यूशनरी मॉडल",
+            "C": "वी-मॉडल",
+            "D": "बिग बैंग मॉडल"
+          },
+          "explanation": "इवोल्यूशनरी मॉडल शुरुआती संस्करण विकसित करते हैं और उपयोगकर्ता फीडबैक के आधार पर चक्रों के माध्यम से उन्हें परिष्कृत करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-010",
+      "number": 10,
+      "question": "Which testing type is also known as \"Glass Box Testing\"?",
+      "options": {
+        "A": "Black Box Testing",
+        "B": "White Box Testing",
+        "C": "Integration Testing",
+        "D": "Acceptance Testing"
+      },
+      "answer": "B",
+      "explanation": "White box testing is called glass box because the internal code and structure are visible to the tester.",
+      "hash": "36cdcd604a80c10b",
+      "translations": {
+        "hi": {
+          "question": "किस टेस्टिंग प्रकार को \"ग्लास बॉक्स टेस्टिंग\" के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "ब्लैक बॉक्स टेस्टिंग",
+            "B": "व्हाइट बॉक्स टेस्टिंग",
+            "C": "इंटीग्रेशन टेस्टिंग",
+            "D": "एक्सेप्टेंस टेस्टिंग"
+          },
+          "explanation": "व्हाइट बॉक्स टेस्टिंग को ग्लास बॉक्स कहा जाता है क्योंकि आंतरिक कोड और संरचना टेस्टर को दिखाई देती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-011",
+      "number": 11,
+      "question": "The concept of \"Software Crisis\" was first discussed at the NATO conference in?",
+      "options": {
+        "A": "1958",
+        "B": "1968",
+        "C": "1978",
+        "D": "1988"
+      },
+      "answer": "B",
+      "explanation": "The term was coined in 1968 to describe the problems in developing quality software within budget and time.",
+      "hash": "c7dea3e53a19d5c4",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर संकट\" की अवधारणा पर पहली बार नाटो सम्मेलन में चर्चा कब की गई थी?",
+          "options": {
+            "A": "1958",
+            "B": "1968",
+            "C": "1978",
+            "D": "1988"
+          },
+          "explanation": "यह शब्द 1968 में बजट और समय के भीतर गुणवत्तापूर्ण सॉफ्टवेयर विकसित करने की समस्याओं का वर्णन करने के लिए गढ़ा गया था।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-012",
+      "number": 12,
+      "question": "\"Regression Testing\" is primarily performed to check?",
+      "options": {
+        "A": "New features",
+        "B": "If changes have introduced new bugs in existing code",
+        "C": "Database speed",
+        "D": "System hardware"
+      },
+      "answer": "B",
+      "explanation": "It ensures that recent modifications haven't adversely affected parts of the software that were previously working.",
+      "hash": "7de141bd9da3c41b",
+      "translations": {
+        "hi": {
+          "question": "\"रिग्रेशन टेस्टिंग\" मुख्य रूप से क्या जांचने के लिए की जाती है?",
+          "options": {
+            "A": "नई विशेषताएं",
+            "B": "क्या परिवर्तनों ने मौजूदा कोड में नए बग पेश किए हैं",
+            "C": "डेटाबेस की गति",
+            "D": "सिस्टम हार्डवेयर"
+          },
+          "explanation": "यह सुनिश्चित करता है कि हाल के संशोधनों ने सॉफ्टवेयर के उन हिस्सों पर प्रतिकूल प्रभाव नहीं डाला है जो पहले काम कर रहे थे।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-013",
+      "number": 13,
+      "question": "Which metric is used to estimate the effort required for a project in COCOMO?",
+      "options": {
+        "A": "Person-Months",
+        "B": "Lines of Code",
+        "C": "Function Points",
+        "D": "KLOC"
+      },
+      "answer": "A",
+      "explanation": "COCOMO expresses the required effort in units of Person-Months (PM).",
+      "hash": "6e517771b746949d",
+      "translations": {
+        "hi": {
+          "question": "COCOMO में किसी प्रोजेक्ट के लिए आवश्यक प्रयास (effort) का अनुमान लगाने के लिए किस मेट्रिक का उपयोग किया जाता है?",
+          "options": {
+            "A": "पर्सन-मंथ्स",
+            "B": "लाइन्स ऑफ कोड",
+            "C": "फंक्शन पॉइंट्स",
+            "D": "केएलओसी"
+          },
+          "explanation": "COCOMO आवश्यक प्रयास को पर्सन-मंथ्स (PM) की इकाइयों में व्यक्त करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-014",
+      "number": 14,
+      "question": "In a PERT chart, \"Slack Time\" refers to?",
+      "options": {
+        "A": "Total project duration",
+        "B": "The time a task can be delayed without delaying the project",
+        "C": "Time taken for coding",
+        "D": "Time spent on meetings"
+      },
+      "answer": "B",
+      "explanation": "Slack (or Float) is the amount of time an activity can be delayed without affecting the end date.",
+      "hash": "30abb14ab3959bb4",
+      "translations": {
+        "hi": {
+          "question": "PERT चार्ट में, \"स्लैक टाइम\" (Slack Time) का तात्पर्य क्या है?",
+          "options": {
+            "A": "कुल परियोजना अवधि",
+            "B": "वह समय जब किसी कार्य में परियोजना में देरी किए बिना देरी की जा सकती है",
+            "C": "कोडिंग के लिए लिया गया समय",
+            "D": "मीटिंग्स पर बिताया गया समय"
+          },
+          "explanation": "स्लैक (या फ्लोट) वह समय है जब किसी गतिविधि में अंतिम तिथि को प्रभावित किए बिना देरी की जा सकती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-015",
+      "number": 15,
+      "question": "What is \"Software Configuration Management\" (SCM) responsible for?",
+      "options": {
+        "A": "Hiring developers",
+        "B": "Tracking and controlling changes in software",
+        "C": "Writing the user manual",
+        "D": "Designing the logo"
+      },
+      "answer": "B",
+      "explanation": "SCM manages evolution and changes to the software throughout its life cycle.",
+      "hash": "a5aac95a62e1df49",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर कॉन्फ़िगरेशन प्रबंधन\" (SCM) किसके लिए जिम्मेदार है?",
+          "options": {
+            "A": "डेवलपर्स को काम पर रखना",
+            "B": "सॉफ्टवेयर में बदलावों को ट्रैक और नियंत्रित करना",
+            "C": "यूजर मैनुअल लिखना",
+            "D": "लोगो डिजाइन करना"
+          },
+          "explanation": "SCM अपने पूरे जीवन चक्र के दौरान सॉफ्टवेयर के विकास और परिवर्तनों का प्रबंधन करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-016",
+      "number": 16,
+      "question": "Which type of cohesion is considered the weakest?",
+      "options": {
+        "A": "Logical Cohesion",
+        "B": "Coincidental Cohesion",
+        "C": "Temporal Cohesion",
+        "D": "Procedural Cohesion"
+      },
+      "answer": "B",
+      "explanation": "Coincidental cohesion is the weakest where elements are grouped together randomly with no meaningful relationship.",
+      "hash": "7af53041f86eebd8",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का कोहेशन सबसे कमजोर माना जाता है?",
+          "options": {
+            "A": "लॉजिकल कोहेशन",
+            "B": "कोइंसीडेंटल कोहेशन",
+            "C": "टेम्पोरल कोहेशन",
+            "D": "प्रोसीजरल कोहेशन"
+          },
+          "explanation": "कोइंसीडेंटल कोहेशन सबसे कमजोर है जहाँ तत्वों को बिना किसी सार्थक संबंध के बेतरतीब ढंग से एक साथ समूहीकृत किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-017",
+      "number": 17,
+      "question": "\"Alpha Testing\" is conducted by?",
+      "options": {
+        "A": "End users at their own site",
+        "B": "Developers/Testers at the development site",
+        "C": "Government agencies",
+        "D": "Third-party auditors"
+      },
+      "answer": "B",
+      "explanation": "Alpha testing is an internal test performed at the developer's site to find bugs before release.",
+      "hash": "405187c676c423f0",
+      "translations": {
+        "hi": {
+          "question": "\"अल्फा टेस्टिंग\" किसके द्वारा आयोजित की जाती है?",
+          "options": {
+            "A": "उनके अपने साइट पर अंतिम उपयोगकर्ता",
+            "B": "विकास साइट पर डेवलपर्स/टेस्टर्स",
+            "C": "सरकारी एजेंसियां",
+            "D": "तीसरे पक्ष के लेखा परीक्षक"
+          },
+          "explanation": "अल्फा टेस्टिंग डेवलपर की साइट पर रिलीज से पहले बग खोजने के लिए किया जाने वाला एक आंतरिक परीक्षण है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-018",
+      "number": 18,
+      "question": "\"Beta Testing\" is conducted by?",
+      "options": {
+        "A": "Developers only",
+        "B": "A sample of end users at their own environment",
+        "C": "Compilers",
+        "D": "System administrators"
+      },
+      "answer": "B",
+      "explanation": "Beta testing is the second phase of testing where a sampling of the intended audience tries the product.",
+      "hash": "769dcc33f0d88941",
+      "translations": {
+        "hi": {
+          "question": "\"बीटा टेस्टिंग\" किसके द्वारा आयोजित की जाती है?",
+          "options": {
+            "A": "केवल डेवलपर्स",
+            "B": "उनके अपने वातावरण में अंतिम उपयोगकर्ताओं का एक नमूना",
+            "C": "कंपाइलर्स",
+            "D": "सिस्टम एडमिनिस्ट्रेटर"
+          },
+          "explanation": "बीटा टेस्टिंग परीक्षण का दूसरा चरण है जहाँ लक्षित दर्शकों का एक नमूना उत्पाद को आजमाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-019",
+      "number": 19,
+      "question": "What is \"Cleanroom Software Engineering\" primarily focused on?",
+      "options": {
+        "A": "Manual testing",
+        "B": "Defect prevention using formal methods",
+        "C": "Faster coding speeds",
+        "D": "Cleaning the server room"
+      },
+      "answer": "B",
+      "explanation": "Cleanroom focuses on finding and preventing defects through rigorous mathematical verification.",
+      "hash": "edc3967cbb472254",
+      "translations": {
+        "hi": {
+          "question": "\"क्लीनरूम सॉफ्टवेयर इंजीनियरिंग\" मुख्य रूप से किस पर केंद्रित है?",
+          "options": {
+            "A": "मैनुअल टेस्टिंग",
+            "B": "औपचारिक तरीकों का उपयोग करके दोषों की रोकथाम",
+            "C": "तेज कोडिंग गति",
+            "D": "सर्वर रूम की सफाई"
+          },
+          "explanation": "क्लीनरूम कठोर गणितीय सत्यापन के माध्यम से दोषों को खोजने और रोकने पर केंद्रित है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-020",
+      "number": 20,
+      "question": "What is \"Software Re-engineering\"?",
+      "options": {
+        "A": "Deleting old software",
+        "B": "Redesigning and rewriting software to improve quality",
+        "C": "Copying software from a competitor",
+        "D": "Installing software updates"
+      },
+      "answer": "B",
+      "explanation": "Re-engineering is the examination and alteration of a system to reconstitute it in a new form.",
+      "hash": "3d7f0cb147ada5a8",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर री-इंजीनियरिंग\" क्या है?",
+          "options": {
+            "A": "पुराने सॉफ्टवेयर को हटाना",
+            "B": "गुणवत्ता सुधारने के लिए सॉफ्टवेयर को फिर से डिजाइन और लिखना",
+            "C": "किसी प्रतियोगी से सॉफ्टवेयर कॉपी करना",
+            "D": "सॉफ्टवेयर अपडेट इंस्टॉल करना"
+          },
+          "explanation": "री-इंजीनियरिंग किसी सिस्टम को नए रूप में पुनर्गठित करने के लिए उसकी जांच और परिवर्तन है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-021",
+      "number": 21,
+      "question": "In Scrum (Agile), what is a \"Sprint\"?",
+      "options": {
+        "A": "A fast running race",
+        "B": "A fixed time period to complete specific tasks",
+        "C": "A bug tracking tool",
+        "D": "A meeting with the CEO"
+      },
+      "answer": "B",
+      "explanation": "A Sprint is a time-boxed iteration (usually 2-4 weeks) where a specific set of work is completed.",
+      "hash": "02dba33eff6370e2",
+      "translations": {
+        "hi": {
+          "question": "स्क्रम (एजाइल) में \"स्प्रिंट\" क्या है?",
+          "options": {
+            "A": "एक तेज दौड़ने वाली रेस",
+            "B": "विशिष्ट कार्यों को पूरा करने के लिए एक निश्चित समय अवधि",
+            "C": "एक बग ट्रैकिंग टूल",
+            "D": "सीईओ के साथ बैठक"
+          },
+          "explanation": "स्प्रिंट एक टाइम-बॉक्स्ड इटरेशन (आमतौर पर 2-4 सप्ताह) है जहाँ कार्यों का एक विशिष्ट सेट पूरा किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-022",
+      "number": 22,
+      "question": "Which of the following is NOT a level in the CMM (Capability Maturity Model)?",
+      "options": {
+        "A": "Initial",
+        "B": "Managed",
+        "C": "Optimized",
+        "D": "Intermediate"
+      },
+      "answer": "D",
+      "explanation": "The 5 levels of CMM are Initial, Repeatable, Defined, Managed, and Optimizing.",
+      "hash": "545659c6d7c0db76",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन CMM (कैपेबिलिटी मैच्योरिटी मॉडल) का एक स्तर नहीं है?",
+          "options": {
+            "A": "इनिशियल",
+            "B": "मैनेज्ड",
+            "C": "ऑप्टिमाइज्ड",
+            "D": "इंटरमीडिएट"
+          },
+          "explanation": "CMM के 5 स्तर इनिशियल, रिपीटेबल, डिफाइंड, मैनेज्ड और ऑप्टिमाइजिंग हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-023",
+      "number": 23,
+      "question": "In software testing, what is \"Equivalence Partitioning\"?",
+      "options": {
+        "A": "Dividing the test team into equal groups",
+        "B": "Grouping input data into classes that are expected to behave similarly",
+        "C": "Testing only the first line of code",
+        "D": "Using the same password for all users"
+      },
+      "answer": "B",
+      "explanation": "It is a black box technique that reduces the number of test cases while maintaining coverage.",
+      "hash": "b97b8731d69da6c0",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर टेस्टिंग में, \"इक्विवेलेंस पार्टिशनिंग\" क्या है?",
+          "options": {
+            "A": "टेस्ट टीम को समान समूहों में विभाजित करना",
+            "B": "इनपुट डेटा को उन श्रेणियों में समूहित करना जिनसे समान व्यवहार की अपेक्षा की जाती है",
+            "C": "केवल कोड की पहली लाइन का परीक्षण करना",
+            "D": "सभी उपयोगकर्ताओं के लिए एक ही पासवर्ड का उपयोग करना"
+          },
+          "explanation": "यह एक ब्लैक बॉक्स तकनीक है जो कवरेज बनाए रखते हुए टेस्ट केस की संख्या को कम करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-024",
+      "number": 24,
+      "question": "What is \"Modularity\" in software design?",
+      "options": {
+        "A": "Increasing the program size",
+        "B": "Breaking a large system into smaller, independent parts",
+        "C": "Using only one function for everything",
+        "D": "Designing software for mobile phones"
+      },
+      "answer": "B",
+      "explanation": "Modularity helps in managing complexity and allows for independent development and testing.",
+      "hash": "af07b38dc348484d",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर डिजाइन में \"मॉड्युलैरिटी\" क्या है?",
+          "options": {
+            "A": "प्रोग्राम का आकार बढ़ाना",
+            "B": "एक बड़े सिस्टम को छोटे, स्वतंत्र भागों में तोड़ना",
+            "C": "हर चीज के लिए केवल एक फंक्शन का उपयोग करना",
+            "D": "मोबाइल फोन के लिए सॉफ्टवेयर डिजाइन करना"
+          },
+          "explanation": "मॉड्युलैरिटी जटिलता को प्रबंधित करने में मदद करती है और स्वतंत्र विकास और परीक्षण की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-025",
+      "number": 25,
+      "question": "Which tool is used for visual modeling in software development?",
+      "options": {
+        "A": "SQL Server",
+        "B": "Rational Rose",
+        "C": "Postman",
+        "D": "Notepad++"
+      },
+      "answer": "B",
+      "explanation": "Rational Rose is a popular CASE tool used for UML modeling and design.",
+      "hash": "25489aac70436165",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर विकास में विजुअल मॉडलिंग के लिए किस टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एसक्यूएल सर्वर",
+            "B": "रेशनल रोज",
+            "C": "पोस्टमैन",
+            "D": "नोटपैड++"
+          },
+          "explanation": "रेशनल रोज एक लोकप्रिय CASE टूल है जिसका उपयोग UML मॉडलिंग और डिजाइन के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-026",
+      "number": 26,
+      "question": "What is \"Software Portability\"?",
+      "options": {
+        "A": "Ease of transferring data",
+        "B": "Ease of moving software from one environment to another",
+        "C": "Speed of downloading software",
+        "D": "Size of the installation file"
+      },
+      "answer": "B",
+      "explanation": "Portability ensures that software can run on different hardware or operating systems with minimal changes.",
+      "hash": "b81289a924f186b4",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर पोर्टेबिलिटी\" क्या है?",
+          "options": {
+            "A": "डेटा स्थानांतरित करने में आसानी",
+            "B": "सॉफ्टवेयर को एक वातावरण से दूसरे वातावरण में ले जाने में आसानी",
+            "C": "सॉफ्टवेयर डाउनलोड करने की गति",
+            "D": "इंस्टॉलेशन फाइल का आकार"
+          },
+          "explanation": "पोर्टेबिलिटी यह सुनिश्चित करती है कि सॉफ्टवेयर न्यूनतम परिवर्तनों के साथ विभिन्न हार्डवेयर या ऑपरेटिंग सिस्टम पर चल सकता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-027",
+      "number": 27,
+      "question": "What does \"COCOMO\" stand for?",
+      "options": {
+        "A": "Common Cost Model",
+        "B": "Constructive Cost Model",
+        "C": "Computer Cost Model",
+        "D": "Composition Cost Model"
+      },
+      "answer": "B",
+      "explanation": "COCOMO is a regression model used to estimate project cost, effort, and schedule.",
+      "hash": "cba917bb1ad05730",
+      "translations": {
+        "hi": {
+          "question": "\"COCOMO\" का अर्थ क्या है?",
+          "options": {
+            "A": "कॉमन कॉस्ट मॉडल",
+            "B": "कंस्ट्रक्टिव कॉस्ट मॉडल",
+            "C": "कंप्यूटर कॉस्ट मॉडल",
+            "D": "कंपोजिशन कॉस्ट मॉडल"
+          },
+          "explanation": "COCOMO एक रिग्रेशन मॉडल है जिसका उपयोग प्रोजेक्ट की लागत, प्रयास और शेड्यूल के अनुमान के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-028",
+      "number": 28,
+      "question": "In a PERT chart, \"Critical Path\" refers to?",
+      "options": {
+        "A": "The shortest path to finish the project",
+        "B": "The longest sequence of tasks that must be completed on time",
+        "C": "The path with the least important tasks",
+        "D": "The path used by the manager"
+      },
+      "answer": "B",
+      "explanation": "Any delay in a task on the critical path directly delays the entire project.",
+      "hash": "fac8e32e5559203a",
+      "translations": {
+        "hi": {
+          "question": "PERT चार्ट में, \"क्रिटिकल पाथ\" (Critical Path) का तात्पर्य क्या है?",
+          "options": {
+            "A": "प्रोजेक्ट को समाप्त करने का सबसे छोटा रास्ता",
+            "B": "कार्यों का सबसे लंबा क्रम जिन्हें समय पर पूरा किया जाना चाहिए",
+            "C": "सबसे कम महत्वपूर्ण कार्यों वाला रास्ता",
+            "D": "मैनेजर द्वारा उपयोग किया जाने वाला रास्ता"
+          },
+          "explanation": "क्रिटिकल पाथ पर किसी भी कार्य में देरी सीधे पूरे प्रोजेक्ट में देरी करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-029",
+      "number": 29,
+      "question": "What is the primary purpose of a \"Feasibility Study\"?",
+      "options": {
+        "A": "To write the source code",
+        "B": "To check if the project is worth developing from technical and financial aspects",
+        "C": "To hire project managers",
+        "D": "To test the finished product"
+      },
+      "answer": "B",
+      "explanation": "It helps in deciding whether to proceed with the project or not based on constraints.",
+      "hash": "c1f435520fd265ae",
+      "translations": {
+        "hi": {
+          "question": "\"व्यवहार्यता अध्ययन\" (Feasibility Study) का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "स्रोत कोड लिखना",
+            "B": "तकनीकी और वित्तीय पहलुओं से यह जांचना कि क्या प्रोजेक्ट विकसित करने लायक है",
+            "C": "प्रोजेक्ट मैनेजर को काम पर रखना",
+            "D": "तैयार उत्पाद का परीक्षण करना"
+          },
+          "explanation": "यह बाधाओं के आधार पर प्रोजेक्ट के साथ आगे बढ़ना है या नहीं, यह तय करने में मदद करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-05-030",
+      "number": 30,
+      "question": "Which maintenance type is used to protect software from future problems or errors?",
+      "options": {
+        "A": "Corrective Maintenance",
+        "B": "Adaptive Maintenance",
+        "C": "Preventive Maintenance",
+        "D": "Perfective Maintenance"
+      },
+      "answer": "C",
+      "explanation": "Preventive maintenance involves activities like code cleaning or refactoring to prevent future bugs.",
+      "hash": "337a86d1835f8fc0",
+      "translations": {
+        "hi": {
+          "question": "भविष्य की समस्याओं या त्रुटियों से सॉफ्टवेयर को बचाने के लिए किस रखरखाव प्रकार का उपयोग किया जाता है?",
+          "options": {
+            "A": "करेक्टिव मेंटेनेंस",
+            "B": "एडेप्टिव मेंटेनेंस",
+            "C": "प्रिवेंटिव मेंटेनेंस",
+            "D": "परफेक्टिव मेंटेनेंस"
+          },
+          "explanation": "प्रिवेंटिव मेंटेनेंस में भविष्य के बग्स को रोकने के लिए कोड क्लीनिंग या रिफैक्टरिंग जैसी गतिविधियाँ शामिल होती हैं।"
+        }
+      }
+    }
+  ]
+}

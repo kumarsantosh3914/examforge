@@ -1,0 +1,787 @@
+{
+  "subject": "Operating Systems",
+  "set": 1,
+  "title": "Operating Systems Mock Test 1",
+  "questions": [
+    {
+      "id": "operating-systems-01-001",
+      "number": 1,
+      "question": "Which of the following is not a function of the operating system?",
+      "options": {
+        "A": "Memory management",
+        "B": "Disk management",
+        "C": "Database management",
+        "D": "Process management"
+      },
+      "answer": "C",
+      "explanation": "Database management is handled by DBMS software, not the core OS.",
+      "hash": "62454471d93c39fe",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम का कार्य नहीं है?",
+          "options": {
+            "A": "मेमोरी प्रबंधन",
+            "B": "डिस्क प्रबंधन",
+            "C": "डेटाबेस प्रबंधन",
+            "D": "प्रोसेस प्रबंधन"
+          },
+          "explanation": "डेटाबेस प्रबंधन DBMS सॉफ्टवेयर द्वारा नियंत्रित किया जाता है, कोर OS द्वारा नहीं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-002",
+      "number": 2,
+      "question": "A process that has finished execution but still has an entry in the process table is called:",
+      "options": {
+        "A": "Orphan process",
+        "B": "Zombie process",
+        "C": "Daemon process",
+        "D": "Parent process"
+      },
+      "answer": "B",
+      "explanation": "A zombie process is one whose execution is complete but exit status is not yet read by parent.",
+      "hash": "6be662d92ae504e8",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया जिसने निष्पादन समाप्त कर लिया है लेकिन फिर भी प्रोसेस टेबल में उसकी प्रविष्टि है, कहलाती है:",
+          "options": {
+            "A": "अनाथ प्रक्रिया",
+            "B": "ज़ोंबी प्रक्रिया",
+            "C": "डेमन प्रक्रिया",
+            "D": "पैरेंट प्रक्रिया"
+          },
+          "explanation": "ज़ोंबी प्रक्रिया वह है जिसका निष्पादन पूरा हो गया है लेकिन निकास स्थिति अभी तक पैरेंट द्वारा नहीं पढ़ी गई है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-003",
+      "number": 3,
+      "question": "Which scheduling algorithm may cause starvation?",
+      "options": {
+        "A": "Round Robin",
+        "B": "First Come First Served",
+        "C": "Priority Scheduling",
+        "D": "Multi-level Queue with Feedback"
+      },
+      "answer": "C",
+      "explanation": "Low priority tasks may wait indefinitely if high priority tasks keep arriving.",
+      "hash": "ea36c0665596b70b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शेड्यूलिंग एल्गोरिथम भुखमरी (starvation) का कारण बन सकता है?",
+          "options": {
+            "A": "राउंड रॉबिन",
+            "B": "फर्स्ट कम फर्स्ट सर्व्ड",
+            "C": "प्रायोरिटी शेड्यूलिंग",
+            "D": "मल्टी-लेवल क्यू फीडबैक के साथ"
+          },
+          "explanation": "यदि उच्च प्राथमिकता वाले कार्य आते रहते हैं, तो निम्न प्राथमिकता वाले कार्य अनिश्चित काल तक प्रतीक्षा कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-004",
+      "number": 4,
+      "question": "What is the main purpose of a kernel in an operating system?",
+      "options": {
+        "A": "User interface",
+        "B": "Resource management and hardware communication",
+        "C": "Providing help menu",
+        "D": "File compression"
+      },
+      "answer": "B",
+      "explanation": "Kernel is the core part of OS that manages system resources and hardware.",
+      "hash": "f0c301757b25c44b",
+      "translations": {
+        "hi": {
+          "question": "ऑपरेटिंग सिस्टम में कर्नेल का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "यूजर इंटरफेस",
+            "B": "संसाधन प्रबंधन और हार्डवेयर संचार",
+            "C": "हेल्प मेनू प्रदान करना",
+            "D": "फ़ाइल संपीड़न"
+          },
+          "explanation": "कर्नेल OS का मुख्य हिस्सा है जो सिस्टम संसाधनों और हार्डवेयर का प्रबंधन करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-005",
+      "number": 5,
+      "question": "What is the condition for a deadlock to occur?",
+      "options": {
+        "A": "Mutual exclusion",
+        "B": "Hold and wait",
+        "C": "No preemption and Circular wait",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "All four Coffman conditions must hold simultaneously for a deadlock.",
+      "hash": "015944d7b43dbc69",
+      "translations": {
+        "hi": {
+          "question": "डेडलॉक होने की स्थिति क्या है?",
+          "options": {
+            "A": "म्यूचुअल एक्सक्लूजन",
+            "B": "होल्ड एंड वेट",
+            "C": "नो प्रीइम्पशन और सर्कुलर वेट",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "डेडलॉक के लिए चारों कॉफ़मैन स्थितियाँ एक साथ होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-006",
+      "number": 6,
+      "question": "Belady's anomaly is related to which page replacement algorithm?",
+      "options": {
+        "A": "LRU",
+        "B": "Optimal",
+        "C": "FIFO",
+        "D": "LIFO"
+      },
+      "answer": "C",
+      "explanation": "In FIFO, increasing the number of page frames can sometimes increase page faults.",
+      "hash": "1cef718358eb317e",
+      "translations": {
+        "hi": {
+          "question": "बेलेडी की विसंगति किस पेज रिप्लेसमेंट एल्गोरिथम से संबंधित है?",
+          "options": {
+            "A": "एलआरयू",
+            "B": "ऑप्टिमल",
+            "C": "फीफो",
+            "D": "लीफो"
+          },
+          "explanation": "FIFO में, पेज फ्रेम की संख्या बढ़ाने से कभी-कभी पेज फॉल्ट बढ़ सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-007",
+      "number": 7,
+      "question": "Which of the following is a synchronization tool?",
+      "options": {
+        "A": "Thread",
+        "B": "Semaphore",
+        "C": "Pipe",
+        "D": "Socket"
+      },
+      "answer": "B",
+      "explanation": "Semaphores are used to solve critical section problems and synchronize processes.",
+      "hash": "8263840bb3a0a4f3",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक सिंक्रोनाइज़ेशन टूल है?",
+          "options": {
+            "A": "थ्रेड",
+            "B": "सेमाफोर",
+            "C": "पाइप",
+            "D": "सॉकेट"
+          },
+          "explanation": "सेमाफोर का उपयोग क्रिटिकल सेक्शन की समस्याओं को हल करने और प्रक्रियाओं को सिंक्रोनाइज़ करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-008",
+      "number": 8,
+      "question": "Which of the following is a real-time operating system?",
+      "options": {
+        "A": "Windows 10",
+        "B": "Ubuntu",
+        "C": "RTLinux",
+        "D": "MS-DOS"
+      },
+      "answer": "C",
+      "explanation": "RTLinux is designed for real-time applications with strict timing constraints.",
+      "hash": "ef5edc2bf886f1a5",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा रियल-टाइम ऑपरेटिंग सिस्टम है?",
+          "options": {
+            "A": "विंडोज 10",
+            "B": "उबंटू",
+            "C": "आरटी-लिनक्स",
+            "D": "एमएस-डॉस"
+          },
+          "explanation": "RTLinux को सख्त समय की कमी वाले रियल-टाइम अनुप्रयोगों के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-009",
+      "number": 9,
+      "question": "The technique of using disk space to extend the RAM is called:",
+      "options": {
+        "A": "Caching",
+        "B": "Paging",
+        "C": "Virtual Memory",
+        "D": "Spooling"
+      },
+      "answer": "C",
+      "explanation": "Virtual memory allows execution of processes that may not be entirely in physical memory.",
+      "hash": "25a901d09accd8e3",
+      "translations": {
+        "hi": {
+          "question": "रैम को बढ़ाने के लिए डिस्क स्पेस का उपयोग करने की तकनीक कहलाती है:",
+          "options": {
+            "A": "कैशिंग",
+            "B": "पेजिंग",
+            "C": "वर्चुअल मेमोरी",
+            "D": "स्पूलिंग"
+          },
+          "explanation": "वर्चुअल मेमोरी उन प्रक्रियाओं के निष्पादन की अनुमति देती है जो पूरी तरह से फिजिकल मेमोरी में नहीं होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-010",
+      "number": 10,
+      "question": "What is the role of the Dispatcher?",
+      "options": {
+        "A": "To create a new process",
+        "B": "To give control of CPU to the selected process",
+        "C": "To terminate a process",
+        "D": "To swap processes to disk"
+      },
+      "answer": "B",
+      "explanation": "The dispatcher gives control of the CPU to the process selected by the short-term scheduler.",
+      "hash": "7298150dc2d35eeb",
+      "translations": {
+        "hi": {
+          "question": "डिस्पैचर की क्या भूमिका है?",
+          "options": {
+            "A": "एक नई प्रक्रिया बनाने के लिए",
+            "B": "चयनित प्रक्रिया को CPU का नियंत्रण देने के लिए",
+            "C": "एक प्रक्रिया को समाप्त करने के लिए",
+            "D": "डिस्क पर प्रक्रियाओं की अदला-बदली करने के लिए"
+          },
+          "explanation": "डिस्पैचर शॉर्ट-टर्म शेड्यूलर द्वारा चयनित प्रक्रिया को CPU का नियंत्रण देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-011",
+      "number": 11,
+      "question": "Thrashing occurs when:",
+      "options": {
+        "A": "CPU utilization is very high",
+        "B": "The system spends more time paging than executing",
+        "C": "Multiple processes are in the ready queue",
+        "D": "The disk is formatted"
+      },
+      "answer": "B",
+      "explanation": "Thrashing is a state where the system is busy swapping pages instead of doing useful work.",
+      "hash": "7d748d09db6878ed",
+      "translations": {
+        "hi": {
+          "question": "थ्रैशिंग तब होती है जब:",
+          "options": {
+            "A": "CPU उपयोग बहुत अधिक होता है",
+            "B": "सिस्टम निष्पादन के बजाय पेजिंग में अधिक समय बिताता है",
+            "C": "रेडी क्यू में कई प्रक्रियाएँ होती हैं",
+            "D": "डिस्क को फॉर्मेट किया जाता है"
+          },
+          "explanation": "थ्रैशिंग वह स्थिति है जहाँ सिस्टम उपयोगी कार्य करने के बजाय पेज स्वैपिंग में व्यस्त रहता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-012",
+      "number": 12,
+      "question": "Banker's algorithm is used for:",
+      "options": {
+        "A": "Deadlock prevention",
+        "B": "Deadlock avoidance",
+        "C": "Deadlock detection",
+        "D": "Deadlock recovery"
+      },
+      "answer": "B",
+      "explanation": "Banker's algorithm checks for safe states to avoid deadlocks.",
+      "hash": "521dbc6eeda84492",
+      "translations": {
+        "hi": {
+          "question": "बैंकर एल्गोरिथम का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "डेडलॉक प्रिवेंशन",
+            "B": "डेडलॉक अवॉयडेंस",
+            "C": "डेडलॉक डिटेक्शन",
+            "D": "डेडलॉक रिकवरी"
+          },
+          "explanation": "बैंकर एल्गोरिथम डेडलॉक से बचने के लिए सुरक्षित स्थितियों की जाँच करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-013",
+      "number": 13,
+      "question": "Which of the following is not a state of a process?",
+      "options": {
+        "A": "New",
+        "B": "Ready",
+        "C": "Waiting",
+        "D": "Completed"
+      },
+      "answer": "D",
+      "explanation": "Standard process states are New, Ready, Running, Waiting, and Terminated.",
+      "hash": "a3e892470cb037a5",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा प्रक्रिया की स्थिति (state) नहीं है?",
+          "options": {
+            "A": "न्यू",
+            "B": "रेडी",
+            "C": "वेटिंग",
+            "D": "कम्पलीटेड"
+          },
+          "explanation": "मानक प्रक्रिया स्थितियाँ न्यू, रेडी, रनिंग, वेटिंग और टर्मिनेटेड हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-014",
+      "number": 14,
+      "question": "What is the size of the IPv4 address?",
+      "options": {
+        "A": "16 bits",
+        "B": "32 bits",
+        "C": "64 bits",
+        "D": "128 bits"
+      },
+      "answer": "B",
+      "explanation": "IPv4 addresses are 32-bit binary numbers.",
+      "hash": "2a16398556614c04",
+      "translations": {
+        "hi": {
+          "question": "IPv4 एड्रेस का आकार क्या है?",
+          "options": {
+            "A": "16 बिट्स",
+            "B": "32 बिट्स",
+            "C": "64 बिट्स",
+            "D": "128 बिट्स"
+          },
+          "explanation": "IPv4 एड्रेस 32-बिट बाइनरी नंबर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-015",
+      "number": 15,
+      "question": "Fragmentation is a problem of:",
+      "options": {
+        "A": "CPU scheduling",
+        "B": "Memory management",
+        "C": "File system",
+        "D": "Deadlock"
+      },
+      "answer": "B",
+      "explanation": "Fragmentation refers to unused memory space that cannot be allocated.",
+      "hash": "6608d457cd652dfc",
+      "translations": {
+        "hi": {
+          "question": "विखंडन (Fragmentation) किसकी समस्या है?",
+          "options": {
+            "A": "CPU शेड्यूलिंग",
+            "B": "मेमोरी प्रबंधन",
+            "C": "फ़ाइल सिस्टम",
+            "D": "डेडलॉक"
+          },
+          "explanation": "विखंडन अप्रयुक्त मेमोरी स्पेस को संदर्भित करता है जिसे आवंटित नहीं किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-016",
+      "number": 16,
+      "question": "A system call is a way for a program to interact with the:",
+      "options": {
+        "A": "Compiler",
+        "B": "Kernel",
+        "C": "User",
+        "D": "Linker"
+      },
+      "answer": "B",
+      "explanation": "System calls provide the interface between a running program and the operating system kernel.",
+      "hash": "d4c84a07fdd63dc6",
+      "translations": {
+        "hi": {
+          "question": "सिस्टम कॉल एक प्रोग्राम के लिए किसके साथ बातचीत करने का एक तरीका है?",
+          "options": {
+            "A": "कंपाइलर",
+            "B": "कर्नेल",
+            "C": "यूजर",
+            "D": "लिंकर"
+          },
+          "explanation": "सिस्टम कॉल रनिंग प्रोग्राम और ऑपरेटिंग सिस्टम कर्नेल के बीच इंटरफेस प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-017",
+      "number": 17,
+      "question": "RAID stands for:",
+      "options": {
+        "A": "Redundant Array of Independent Disks",
+        "B": "Random Access of Independent Disks",
+        "C": "Reusable Array of Inexpensive Disks",
+        "D": "Redundant Array of Inexpensive Drives"
+      },
+      "answer": "A",
+      "explanation": "RAID technology provides data redundancy and performance improvement.",
+      "hash": "b96694b7f6d92926",
+      "translations": {
+        "hi": {
+          "question": "RAID का अर्थ है:",
+          "options": {
+            "A": "रिडंडेंट एरे ऑफ इंडिपेंडेंट डिस्क",
+            "B": "रैंडम एक्सेस ऑफ इंडिपेंडेंट डिस्क",
+            "C": "रीयूजेबल एरे ऑफ इनएक्सपेंसिव डिस्क",
+            "D": "रिडंडेंट एरे ऑफ इनएक्सपेंसिव ड्राइव्स"
+          },
+          "explanation": "RAID तकनीक डेटा रिडंडेंसी और प्रदर्शन में सुधार प्रदान करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-018",
+      "number": 18,
+      "question": "The time taken to move the disk arm to the desired cylinder is called:",
+      "options": {
+        "A": "Latency time",
+        "B": "Seek time",
+        "C": "Transfer time",
+        "D": "Access time"
+      },
+      "answer": "B",
+      "explanation": "Seek time is the time taken to position the head over the correct track.",
+      "hash": "d9d639428e8835a6",
+      "translations": {
+        "hi": {
+          "question": "डिस्क आर्म को वांछित सिलेंडर तक ले जाने में लगने वाले समय को कहा जाता है:",
+          "options": {
+            "A": "लेटेंसी टाइम",
+            "B": "सीक टाइम",
+            "C": "ट्रांसफर टाइम",
+            "D": "एक्सेस टाइम"
+          },
+          "explanation": "सीक टाइम हेड को सही ट्रैक पर रखने में लगने वाला समय है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-019",
+      "number": 19,
+      "question": "Which file system is used by Windows?",
+      "options": {
+        "A": "EXT4",
+        "B": "NTFS",
+        "C": "HFS",
+        "D": "ZFS"
+      },
+      "answer": "B",
+      "explanation": "New Technology File System (NTFS) is the standard file system for Windows.",
+      "hash": "47092c06ca98b67c",
+      "translations": {
+        "hi": {
+          "question": "विंडोज द्वारा किस फ़ाइल सिस्टम का उपयोग किया जाता है?",
+          "options": {
+            "A": "EXT4",
+            "B": "NTFS",
+            "C": "HFS",
+            "D": "ZFS"
+          },
+          "explanation": "न्यू टेक्नोलॉजी फ़ाइल सिस्टम (NTFS) विंडोज के लिए मानक फ़ाइल सिस्टम है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-020",
+      "number": 20,
+      "question": "What is a shell?",
+      "options": {
+        "A": "Hardware component",
+        "B": "Command interpreter",
+        "C": "Part of the RAM",
+        "D": "Network protocol"
+      },
+      "answer": "B",
+      "explanation": "Shell is the user interface for access to an operating system's services.",
+      "hash": "687a76fc0f7148df",
+      "translations": {
+        "hi": {
+          "question": "शेल ऑपरेटिंग सिस्टम की सेवाओं तक पहुँचने के लिए यूजर इंटरफेस है।",
+          "options": {
+            "A": "हार्डवेयर घटक",
+            "B": "कमांड इंटरप्रेटर",
+            "C": "रैम का हिस्सा",
+            "D": "नेटवर्क प्रोटोकॉल"
+          },
+          "explanation": "Shell is the user interface for access to an operating system's services."
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-021",
+      "number": 21,
+      "question": "In Round Robin scheduling, if the time quantum is very large, it behaves like:",
+      "options": {
+        "A": "SJF",
+        "B": "FCFS",
+        "C": "LJF",
+        "D": "Priority"
+      },
+      "answer": "B",
+      "explanation": "If time quantum is large enough to finish any process, it becomes FCFS.",
+      "hash": "0d9d38d168fa3677",
+      "translations": {
+        "hi": {
+          "question": "राउंड रॉबिन शेड्यूलिंग में, यदि टाइम क्वांटम बहुत बड़ा है, तो यह किसकी तरह व्यवहार करता है:",
+          "options": {
+            "A": "एसजेएफ",
+            "B": "एफसीएफएस",
+            "C": "एलजेएफ",
+            "D": "प्रायोरिटी"
+          },
+          "explanation": "यदि टाइम क्वांटम किसी भी प्रक्रिया को समाप्त करने के लिए पर्याप्त बड़ा है, तो यह FCFS बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-022",
+      "number": 22,
+      "question": "Fork is used for:",
+      "options": {
+        "A": "Terminating a process",
+        "B": "Creating a new process",
+        "C": "Scheduling a process",
+        "D": "Debugging a process"
+      },
+      "answer": "B",
+      "explanation": "The fork() system call is used to create a child process in Unix-like systems.",
+      "hash": "58221aaa8f5d5e64",
+      "translations": {
+        "hi": {
+          "question": "फोर्क (Fork) का उपयोग किया जाता है:",
+          "options": {
+            "A": "एक प्रक्रिया को समाप्त करने के लिए",
+            "B": "एक नई प्रक्रिया बनाने के लिए",
+            "C": "एक प्रक्रिया को शेड्यूल करने के लिए",
+            "D": "एक प्रक्रिया को डीबग करने के लिए"
+          },
+          "explanation": "fork() सिस्टम कॉल का उपयोग यूनिक्स जैसे सिस्टम में चाइल्ड प्रोसेस बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-023",
+      "number": 23,
+      "question": "What is spooling?",
+      "options": {
+        "A": "A method of process scheduling",
+        "B": "A technique to manage data transfer to slow devices",
+        "C": "A type of memory management",
+        "D": "A security protocol"
+      },
+      "answer": "B",
+      "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for devices like printers.",
+      "hash": "8c7a172102cf5eab",
+      "translations": {
+        "hi": {
+          "question": "स्पूलिंग (Spooling) क्या है?",
+          "options": {
+            "A": "प्रोसेस शेड्यूलिंग की एक विधि",
+            "B": "धीमे उपकरणों में डेटा ट्रांसफर प्रबंधित करने की तकनीक",
+            "C": "एक प्रकार का मेमोरी प्रबंधन",
+            "D": "एक सुरक्षा प्रोटोकॉल"
+          },
+          "explanation": "स्पूलिंग प्रिंटर जैसे उपकरणों के लिए डेटा को बफर करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-024",
+      "number": 24,
+      "question": "Virtual memory is typically implemented by:",
+      "options": {
+        "A": "Demand paging",
+        "B": "Segmentation",
+        "C": "Swapping",
+        "D": "Fragmentation"
+      },
+      "answer": "A",
+      "explanation": "Demand paging loads pages into memory only when they are required.",
+      "hash": "7e50187b437ef14b",
+      "translations": {
+        "hi": {
+          "question": "वर्चुअल मेमोरी आमतौर पर किसके द्वारा कार्यान्वित की जाती है?",
+          "options": {
+            "A": "डिमांड पेजिंग",
+            "B": "सेगमेंटेशन",
+            "C": "स्वैपिंग",
+            "D": "विखंडन"
+          },
+          "explanation": "डिमांड पेजिंग पेज को मेमोरी में तभी लोड करती है जब उनकी आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-025",
+      "number": 25,
+      "question": "Which directory contains binary executables in Linux?",
+      "options": {
+        "A": "/etc",
+        "B": "/bin",
+        "C": "/dev",
+        "D": "/usr"
+      },
+      "answer": "B",
+      "explanation": "The /bin directory contains essential binary files for all users.",
+      "hash": "e41e4af629512c1a",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स में किस डायरेक्टरी में बाइनरी एक्जीक्यूटेबल्स होते हैं?",
+          "options": {
+            "A": "/etc",
+            "B": "/bin",
+            "C": "/dev",
+            "D": "/usr"
+          },
+          "explanation": "/bin डायरेक्टरी में सभी उपयोगकर्ताओं के लिए आवश्यक बाइनरी फाइलें होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-026",
+      "number": 26,
+      "question": "The \"Dirty Bit\" is used to show:",
+      "options": {
+        "A": "A page that is corrupted",
+        "B": "A page that has been modified",
+        "C": "A page that is empty",
+        "D": "A page that is locked"
+      },
+      "answer": "B",
+      "explanation": "A dirty bit indicates that the page in memory has been modified and must be written back to disk.",
+      "hash": "f0a3271df76c2d88",
+      "translations": {
+        "hi": {
+          "question": "\"डर्टी बिट\" (Dirty Bit) का उपयोग क्या दिखाने के लिए किया जाता है?",
+          "options": {
+            "A": "एक पेज जो दूषित है",
+            "B": "एक पेज जिसे संशोधित किया गया है",
+            "C": "एक पेज जो खाली है",
+            "D": "एक पेज जो लॉक है"
+          },
+          "explanation": "डर्टी बिट इंगित करता है कि मेमोरी में पेज को संशोधित किया गया है और इसे डिस्क पर वापस लिखा जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-027",
+      "number": 27,
+      "question": "What is the main disadvantage of a contiguous memory allocation?",
+      "options": {
+        "A": "Slow execution",
+        "B": "External fragmentation",
+        "C": "Security risk",
+        "D": "Difficult to implement"
+      },
+      "answer": "B",
+      "explanation": "Contiguous allocation leads to external fragmentation where total memory space exists but is not contiguous.",
+      "hash": "eb6d6e448ce6945f",
+      "translations": {
+        "hi": {
+          "question": "सन्निहित (Contiguous) मेमोरी आवंटन का मुख्य नुकसान क्या है?",
+          "options": {
+            "A": "धीमा निष्पादन",
+            "B": "बाहरी विखंडन",
+            "C": "सुरक्षा जोखिम",
+            "D": "लागू करना कठिन"
+          },
+          "explanation": "सन्निहित आवंटन से बाहरी विखंडन होता है जहाँ कुल मेमोरी स्पेस मौजूद होता है लेकिन सन्निहित नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-028",
+      "number": 28,
+      "question": "The interval from the time of submission of a process to the time of completion is:",
+      "options": {
+        "A": "Waiting time",
+        "B": "Turnaround time",
+        "C": "Response time",
+        "D": "Throughput"
+      },
+      "answer": "B",
+      "explanation": "Turnaround time = Completion Time - Submission Time.",
+      "hash": "2044ca1d5e526300",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया के जमा करने के समय से लेकर पूरा होने के समय तक का अंतराल है:",
+          "options": {
+            "A": "वेटिंग टाइम",
+            "B": "टर्नअराउंड टाइम",
+            "C": "रिस्पांस टाइम",
+            "D": "थ्रूपुट"
+          },
+          "explanation": "टर्नअराउंड समय = पूर्णता समय - जमा करने का समय।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-029",
+      "number": 29,
+      "question": "Which of the following is an example of an open-source operating system?",
+      "options": {
+        "A": "Windows 11",
+        "B": "macOS",
+        "C": "Linux",
+        "D": "Oracle Solaris"
+      },
+      "answer": "C",
+      "explanation": "Linux is a famous open-source OS where the source code is freely available.",
+      "hash": "6a425cd934b5c3fa",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ओपन-सोर्स ऑपरेटिंग सिस्टम का उदाहरण है?",
+          "options": {
+            "A": "विंडोज 11",
+            "B": "मैक ओएस",
+            "C": "लिनक्स",
+            "D": "ओरेकल सोलेरिस"
+          },
+          "explanation": "लिनक्स एक प्रसिद्ध ओपन-सोर्स OS है जहाँ सोर्स कोड स्वतंत्र रूप से उपलब्ध है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-01-030",
+      "number": 30,
+      "question": "Multiprogramming is:",
+      "options": {
+        "A": "Executing multiple programs simultaneously by multiple CPUs",
+        "B": "Keeping multiple programs in main memory to increase CPU utilization",
+        "C": "A single program running on multiple computers",
+        "D": "Writing programs in multiple languages"
+      },
+      "answer": "B",
+      "explanation": "Multiprogramming increases CPU efficiency by ensuring the CPU always has something to execute.",
+      "hash": "6dfdab0865da0240",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्रोग्रामिंग है:",
+          "options": {
+            "A": "कई CPU द्वारा एक साथ कई प्रोग्राम निष्पादित करना",
+            "B": "CPU उपयोग बढ़ाने के लिए मुख्य मेमोरी में कई प्रोग्राम रखना",
+            "C": "कई कंप्यूटरों पर चलने वाला एक सिंगल प्रोग्राम",
+            "D": "कई भाषाओं में प्रोग्राम लिखना"
+          },
+          "explanation": "मल्टीप्रोग्रामिंग यह सुनिश्चित करके CPU दक्षता बढ़ाता है कि CPU के पास निष्पादित करने के लिए हमेशा कुछ हो।"
+        }
+      }
+    }
+  ]
+}

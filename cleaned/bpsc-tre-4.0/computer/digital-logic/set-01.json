@@ -1,0 +1,787 @@
+{
+  "subject": "Digital Logic",
+  "set": 1,
+  "title": "Digital Logic Mock Test 1",
+  "questions": [
+    {
+      "id": "digital-logic-01-001",
+      "number": 1,
+      "question": "Which gate is known as the universal gate?",
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "NAND",
+        "D": "NOT"
+      },
+      "answer": "C",
+      "explanation": "NAND and NOR gates are called universal gates because they can implement any logic function.",
+      "hash": "65a71aa76d8166c2",
+      "translations": {
+        "hi": {
+          "question": "किस गेट को यूनिवर्सल गेट के रूप में जाना जाता है?",
+          "options": {
+            "A": "AND",
+            "B": "OR",
+            "C": "NAND",
+            "D": "NOT"
+          },
+          "explanation": "NAND और NOR गेट को यूनिवर्सल गेट कहा जाता है क्योंकि वे किसी भी लॉजिक फंक्शन को लागू कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-002",
+      "number": 2,
+      "question": "A flip-flop is a 1-bit memory cell that stores:",
+      "options": {
+        "A": "Only 0",
+        "B": "Only 1",
+        "C": "Either 0 or 1",
+        "D": "Both 0 and 1"
+      },
+      "answer": "C",
+      "explanation": "A flip-flop is a bistable multivibrator that stores one bit of binary data.",
+      "hash": "be4384f0a954eb7a",
+      "translations": {
+        "hi": {
+          "question": "फ्लिप-फ्लॉप एक 1-बिट मेमोरी सेल है जो स्टोर करता है:",
+          "options": {
+            "A": "केवल 0",
+            "B": "केवल 1",
+            "C": "0 या 1 में से कोई एक",
+            "D": "0 और 1 दोनों"
+          },
+          "explanation": "फ्लिप-फ्लॉप एक बाईस्टेबल मल्टीवाइब्रेटर है जो बाइनरी डेटा का एक बिट स्टोर करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-003",
+      "number": 3,
+      "question": "How many select lines are required for a 16-to-1 multiplexer?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "For n inputs, log2(n) select lines are needed. log2(16) = 4.",
+      "hash": "3a0e9004c82b1f03",
+      "translations": {
+        "hi": {
+          "question": "16-से-1 मल्टीप्लेक्स के लिए कितनी सिलेक्ट लाइनों की आवश्यकता होती है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "n इनपुट के लिए, log2(n) सिलेक्ट लाइनों की आवश्यकता होती है। log2(16) = 4।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-004",
+      "number": 4,
+      "question": "What is the 2's complement of the binary number 1010?",
+      "options": {
+        "A": "0101",
+        "B": "0110",
+        "C": "1011",
+        "D": "1100"
+      },
+      "answer": "B",
+      "explanation": "1's complement of 1010 is 0101. Adding 1 gives 0110.",
+      "hash": "e67fb8ff64ea2efe",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी नंबर 1010 का 2's कॉम्प्लीमेंट क्या है?",
+          "options": {
+            "A": "0101",
+            "B": "0110",
+            "C": "1011",
+            "D": "1100"
+          },
+          "explanation": "1010 का 1's कॉम्प्लीमेंट 0101 है। 1 जोड़ने पर 0110 मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-005",
+      "number": 5,
+      "question": "The Boolean expression A + A'B is equal to:",
+      "options": {
+        "A": "A + B",
+        "B": "AB",
+        "C": "A",
+        "D": "B"
+      },
+      "answer": "A",
+      "explanation": "By distribution law, A + A'B = (A + A')(A + B) = 1(A + B) = A + B.",
+      "hash": "0b92ddf5263fa226",
+      "translations": {
+        "hi": {
+          "question": "बुलियन एक्सप्रेशन A + A'B किसके बराबर है?",
+          "options": {
+            "A": "A + B",
+            "B": "AB",
+            "C": "A",
+            "D": "B"
+          },
+          "explanation": "वितरण नियम के अनुसार, A + A'B = (A + A')(A + B) = 1(A + B) = A + B."
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-006",
+      "number": 6,
+      "question": "Which logic circuit is used to add three binary digits?",
+      "options": {
+        "A": "Half Adder",
+        "B": "Full Adder",
+        "C": "Half Subtractor",
+        "D": "Full Subtractor"
+      },
+      "answer": "B",
+      "explanation": "A full adder adds three bits: two significant bits and a carry bit.",
+      "hash": "186b17caa7571740",
+      "translations": {
+        "hi": {
+          "question": "तीन बाइनरी अंकों को जोड़ने के लिए किस लॉजिक सर्किट का उपयोग किया जाता है?",
+          "options": {
+            "A": "हाफ एडर",
+            "B": "फुल एडर",
+            "C": "हाफ सबट्रैक्टर",
+            "D": "फुल सबट्रैक्टर"
+          },
+          "explanation": "एक फुल एडर तीन बिट्स जोड़ता है: दो महत्वपूर्ण बिट्स और एक कैरी बिट।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-007",
+      "number": 7,
+      "question": "De Morgan's first law states that (A + B)' is equal to:",
+      "options": {
+        "A": "A' + B'",
+        "B": "A' . B'",
+        "C": "A . B",
+        "D": "A + B"
+      },
+      "answer": "B",
+      "explanation": "The complement of a sum is equal to the product of the complements.",
+      "hash": "f4efc9a053b77038",
+      "translations": {
+        "hi": {
+          "question": "डी मॉर्गन का पहला नियम कहता है कि (A + B)' किसके बराबर है?",
+          "options": {
+            "A": "A' + B'",
+            "B": "A' . B'",
+            "C": "A . B",
+            "D": "A + B"
+          },
+          "explanation": "योग का पूरक (complement) पूरकों के गुणनफल के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-008",
+      "number": 8,
+      "question": "Which of the following is a sequential circuit?",
+      "options": {
+        "A": "Multiplexer",
+        "B": "Decoder",
+        "C": "Counter",
+        "D": "Full Adder"
+      },
+      "answer": "C",
+      "explanation": "Counters use flip-flops and memory, making them sequential circuits.",
+      "hash": "96318e3ee0e76bd2",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक अनुक्रमिक (sequential) सर्किट है?",
+          "options": {
+            "A": "मल्टीप्लेक्स",
+            "B": "डिकोडर",
+            "C": "काउंटर",
+            "D": "फुल एडर"
+          },
+          "explanation": "काउंटर फ्लिप-फ्लॉप और मेमोरी का उपयोग करते हैं, जिससे वे अनुक्रमिक सर्किट बन जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-009",
+      "number": 9,
+      "question": "How many entries are there in a truth table for 4 variables?",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "32",
+        "D": "64"
+      },
+      "answer": "B",
+      "explanation": "Number of entries = 2^n. For 4 variables, 2^4 = 16.",
+      "hash": "c059dddd9ecd2788",
+      "translations": {
+        "hi": {
+          "question": "4 वेरिएबल्स के लिए ट्रुथ टेबल में कितनी प्रविष्टियाँ होती हैं?",
+          "options": {
+            "A": "8",
+            "B": "16",
+            "C": "32",
+            "D": "64"
+          },
+          "explanation": "प्रविष्टियों की संख्या = 2^n। 4 वेरिएबल्स के लिए, 2^4 = 16।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-010",
+      "number": 10,
+      "question": "Race around condition occurs in which flip-flop?",
+      "options": {
+        "A": "SR Flip-flop",
+        "B": "JK Flip-flop",
+        "C": "D Flip-flop",
+        "D": "T Flip-flop"
+      },
+      "answer": "B",
+      "explanation": "Race around occurs in JK flip-flop when both inputs are 1 and enable is high.",
+      "hash": "0b01a718cc140a0f",
+      "translations": {
+        "hi": {
+          "question": "रेस अराउंड कंडीशन किस फ्लिप-फ्लॉप में होती है?",
+          "options": {
+            "A": "SR फ्लिप-फ्लॉप",
+            "B": "JK फ्लिप-फ्लॉप",
+            "C": "D फ्लिप-फ्लॉप",
+            "D": "T फ्लिप-फ्लॉप"
+          },
+          "explanation": "रेस अराउंड JK फ्लिप-फ्लॉप में तब होता है जब दोनों इनपुट 1 होते हैं और इनेबल हाई होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-011",
+      "number": 11,
+      "question": "The output of an XOR gate is high (1) only when:",
+      "options": {
+        "A": "Both inputs are same",
+        "B": "Both inputs are different",
+        "C": "Both inputs are 0",
+        "D": "Both inputs are 1"
+      },
+      "answer": "B",
+      "explanation": "XOR gate gives high output when the number of high inputs is odd.",
+      "hash": "87a07bbf94dec234",
+      "translations": {
+        "hi": {
+          "question": "XOR गेट का आउटपुट हाई (1) केवल तब होता है जब:",
+          "options": {
+            "A": "दोनों इनपुट समान हों",
+            "B": "दोनों इनपुट अलग हों",
+            "C": "दोनों इनपुट 0 हों",
+            "D": "दोनों इनपुट 1 हों"
+          },
+          "explanation": "XOR गेट हाई आउटपुट देता है जब हाई इनपुट की संख्या विषम होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-012",
+      "number": 12,
+      "question": "A Decoder with 3 inputs will have how many outputs?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "A decoder with n inputs has 2^n outputs. 2^3 = 8.",
+      "hash": "b41964e91eedbed6",
+      "translations": {
+        "hi": {
+          "question": "3 इनपुट वाले डिकोडर के कितने आउटपुट होंगे?",
+          "options": {
+            "A": "3",
+            "B": "6",
+            "C": "8",
+            "D": "9"
+          },
+          "explanation": "n इनपुट वाले डिकोडर के 2^n आउटपुट होते हैं। 2^3 = 8।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-013",
+      "number": 13,
+      "question": "How many flip-flops are required to build a Mod-16 counter?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "2^n >= Modulus. 2^4 = 16, so 4 flip-flops are needed.",
+      "hash": "2e55a8bef9febea5",
+      "translations": {
+        "hi": {
+          "question": "Mod-16 काउंटर बनाने के लिए कितने फ्लिप-फ्लॉप की आवश्यकता होती है?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "2^n >= मापांक। 2^4 = 16, इसलिए 4 फ्लिप-फ्लॉप की आवश्यकता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-014",
+      "number": 14,
+      "question": "Which code is also known as 8421 code?",
+      "options": {
+        "A": "BCD",
+        "B": "Excess-3",
+        "C": "Gray Code",
+        "D": "ASCII"
+      },
+      "answer": "A",
+      "explanation": "Binary Coded Decimal (BCD) uses weights 8, 4, 2, and 1 for its four bits.",
+      "hash": "ff03b442036bd59c",
+      "translations": {
+        "hi": {
+          "question": "किस कोड को 8421 कोड के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "BCD",
+            "B": "Excess-3",
+            "C": "ग्रे कोड",
+            "D": "ASCII"
+          },
+          "explanation": "बाइनरी कोडेड डेसीमल (BCD) अपने चार बिट्स के लिए 8, 4, 2 और 1 भार का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-015",
+      "number": 15,
+      "question": "Gray code for decimal 4 is:",
+      "options": {
+        "A": "0100",
+        "B": "0110",
+        "C": "0111",
+        "D": "0101"
+      },
+      "answer": "B",
+      "explanation": "Binary 4 is 0100. In Gray code, it becomes 0110.",
+      "hash": "93d283ea04a67743",
+      "translations": {
+        "hi": {
+          "question": "दशमलव 4 के लिए ग्रे कोड है:",
+          "options": {
+            "A": "0100",
+            "B": "0110",
+            "C": "0111",
+            "D": "0101"
+          },
+          "explanation": "बाइनरी 4, 0100 है। ग्रे कोड में, यह 0110 हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-016",
+      "number": 16,
+      "question": "The minimum number of NAND gates required to implement an OR gate is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "B",
+      "explanation": "To get A+B using NAND, we need 3 NAND gates.",
+      "hash": "3ea20b8cc3a894cf",
+      "translations": {
+        "hi": {
+          "question": "OR गेट को लागू करने के लिए आवश्यक NAND गेटों की न्यूनतम संख्या है:",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "1"
+          },
+          "explanation": "NAND का उपयोग करके A+B प्राप्त करने के लिए, हमें 3 NAND गेटों की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-017",
+      "number": 17,
+      "question": "Which of the following is a non-weighted code?",
+      "options": {
+        "A": "BCD",
+        "B": "Binary",
+        "C": "Excess-3",
+        "D": "Hexadecimal"
+      },
+      "answer": "C",
+      "explanation": "Excess-3 and Gray code are examples of non-weighted codes.",
+      "hash": "98a55138fe449f34",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा नॉन-वेटेड कोड है?",
+          "options": {
+            "A": "BCD",
+            "B": "बाइनरी",
+            "C": "Excess-3",
+            "D": "हेक्साडेसिमल"
+          },
+          "explanation": "Excess-3 और ग्रे कोड नॉन-वेटेड कोड के उदाहरण हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-018",
+      "number": 18,
+      "question": "K-map is used for:",
+      "options": {
+        "A": "Logic Minimization",
+        "B": "Circuit Construction",
+        "C": "Data Storage",
+        "D": "Increasing complexity"
+      },
+      "answer": "A",
+      "explanation": "Karnaugh map (K-map) is used to simplify Boolean expressions.",
+      "hash": "3ae0d13f16cab879",
+      "translations": {
+        "hi": {
+          "question": "K-मैप का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "लॉजिक मिनिमाइजेशन",
+            "B": "सर्किट निर्माण",
+            "C": "डेटा स्टोरेज",
+            "D": "जटिलता बढ़ाना"
+          },
+          "explanation": "कार्नॉट मैप (K-मैप) का उपयोग बुलियन एक्सप्रेशन को सरल बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-019",
+      "number": 19,
+      "question": "A multiplexer is also called:",
+      "options": {
+        "A": "Data Selector",
+        "B": "Data Distributor",
+        "C": "Encoder",
+        "D": "Logic Gate"
+      },
+      "answer": "A",
+      "explanation": "A multiplexer selects one of many inputs and routes it to a single output.",
+      "hash": "3b491885b86bdd3c",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्लेक्स को यह भी कहा जाता है:",
+          "options": {
+            "A": "डेटा सेलेक्टर",
+            "B": "डेटा डिस्ट्रीब्यूटर",
+            "C": "डिकोडर",
+            "D": "लॉजिक गेट"
+          },
+          "explanation": "एक मल्टीप्लेक्स कई इनपुट में से एक को चुनता है और उसे सिंगल आउटपुट पर भेजता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-020",
+      "number": 20,
+      "question": "A Master-Slave flip-flop is used to:",
+      "options": {
+        "A": "Increase speed",
+        "B": "Eliminate race around",
+        "C": "Reduce power",
+        "D": "Simplify circuit"
+      },
+      "answer": "B",
+      "explanation": "The master-slave configuration eliminates the race-around problem in JK flip-flops.",
+      "hash": "c845c15665979363",
+      "translations": {
+        "hi": {
+          "question": "मास्टर-स्लेव फ्लिप-फ्लॉप का उपयोग किया जाता है:",
+          "options": {
+            "A": "गति बढ़ाने के लिए",
+            "B": "रेस अराउंड को खत्म करने के लिए",
+            "C": "पावर कम करने के लिए",
+            "D": "सर्किट सरल करने के लिए"
+          },
+          "explanation": "मास्टर-स्लेव कॉन्फ़िगरेशन JK फ्लिप-फ्लॉप में रेस-अराउंड समस्या को समाप्त करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-021",
+      "number": 21,
+      "question": "Which shift register allows both serial and parallel data transfer?",
+      "options": {
+        "A": "SISO",
+        "B": "PIPO",
+        "C": "SIPO",
+        "D": "Universal Shift Register"
+      },
+      "answer": "D",
+      "explanation": "Universal Shift Registers support all modes of loading and shifting.",
+      "hash": "686acdfcdd82773d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शिफ्ट रजिस्टर सीरियल और पैरेलल दोनों डेटा ट्रांसफर की अनुमति देता है?",
+          "options": {
+            "A": "SISO",
+            "B": "PIPO",
+            "C": "SIPO",
+            "D": "यूनिवर्सल शिफ्ट रजिस्टर"
+          },
+          "explanation": "यूनिवर्सल शिफ्ट रजिस्टर लोडिंग और शिफ्टिंग के सभी तरीकों का समर्थन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-022",
+      "number": 22,
+      "question": "In a 3-variable K-map, how many cells are there?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "C",
+      "explanation": "Cells = 2^n. For 3 variables, 2^3 = 8.",
+      "hash": "c555c9435e2e02de",
+      "translations": {
+        "hi": {
+          "question": "3-वेरिएबल K-मैप में कितने सेल होते हैं?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12"
+          },
+          "explanation": "सेल = 2^n। 3 वेरिएबल्स के लिए, 2^3 = 8।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-023",
+      "number": 23,
+      "question": "A half adder consists of which gates?",
+      "options": {
+        "A": "XOR and AND",
+        "B": "XOR and OR",
+        "C": "AND and OR",
+        "D": "OR and NOT"
+      },
+      "answer": "A",
+      "explanation": "Sum is generated by XOR gate and Carry is generated by AND gate.",
+      "hash": "63264e103159b153",
+      "translations": {
+        "hi": {
+          "question": "हाफ एडर में कौन से गेट होते हैं?",
+          "options": {
+            "A": "XOR और AND",
+            "B": "XOR और OR",
+            "C": "AND और OR",
+            "D": "OR और NOT"
+          },
+          "explanation": "सम (Sum) XOR गेट द्वारा और कैरी (Carry) AND गेट द्वारा उत्पन्न किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-024",
+      "number": 24,
+      "question": "What is the base of the Hexadecimal number system?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "D",
+      "explanation": "Hexadecimal system uses 16 symbols (0-9 and A-F).",
+      "hash": "b87e1c3b3c17e1b3",
+      "translations": {
+        "hi": {
+          "question": "हेक्साडेसिमल संख्या प्रणाली का आधार (base) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "8",
+            "C": "10",
+            "D": "16"
+          },
+          "explanation": "हेक्साडेसिमल सिस्टम 16 प्रतीकों (0-9 और A-F) का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-025",
+      "number": 25,
+      "question": "Fan-out is defined as:",
+      "options": {
+        "A": "Number of inputs",
+        "B": "Number of gates it can drive",
+        "C": "Power consumption",
+        "D": "Operating speed"
+      },
+      "answer": "B",
+      "explanation": "Fan-out is the maximum number of standard logic inputs a gate can drive.",
+      "hash": "56e5bf5404982637",
+      "translations": {
+        "hi": {
+          "question": "फैन-आउट को इस प्रकार परिभाषित किया गया है:",
+          "options": {
+            "A": "इनपुट की संख्या",
+            "B": "गेटों की संख्या जिन्हें यह चला सकता है",
+            "C": "बिजली की खपत",
+            "D": "ऑपरेटिंग गति"
+          },
+          "explanation": "फैन-आउट मानक लॉजिक इनपुट की अधिकतम संख्या है जिसे एक गेट चला सकता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-026",
+      "number": 26,
+      "question": "The time required for a gate to change its output is called:",
+      "options": {
+        "A": "Rise time",
+        "B": "Fall time",
+        "C": "Propagation delay",
+        "D": "Hold time"
+      },
+      "answer": "C",
+      "explanation": "Propagation delay is the time interval between input change and output change.",
+      "hash": "67f423d67f3ccee6",
+      "translations": {
+        "hi": {
+          "question": "आउटपुट बदलने के लिए गेट द्वारा आवश्यक समय को कहा जाता है:",
+          "options": {
+            "A": "राइज टाइम",
+            "B": "फॉल टाइम",
+            "C": "प्रोपेगेशन डिले",
+            "D": "होल्ड टाइम"
+          },
+          "explanation": "प्रोपेगेशन डिले इनपुट परिवर्तन और आउटपुट परिवर्तन के बीच का समय अंतराल है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-027",
+      "number": 27,
+      "question": "Which logic gate is equivalent to a logical equality (A=B)?",
+      "options": {
+        "A": "XOR",
+        "B": "XNOR",
+        "C": "NAND",
+        "D": "NOR"
+      },
+      "answer": "B",
+      "explanation": "XNOR output is 1 when both inputs are the same.",
+      "hash": "32861339119b2546",
+      "translations": {
+        "hi": {
+          "question": "कौन सा लॉजिक गेट लॉजिकल समानता (A=B) के बराबर है?",
+          "options": {
+            "A": "XOR",
+            "B": "XNOR",
+            "C": "NAND",
+            "D": "NOR"
+          },
+          "explanation": "XNOR आउटपुट 1 होता है जब दोनों इनपुट समान होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-028",
+      "number": 28,
+      "question": "Which flip-flop is used to eliminate switch bouncing?",
+      "options": {
+        "A": "SR Flip-flop",
+        "B": "JK Flip-flop",
+        "C": "D Flip-flop",
+        "D": "T Flip-flop"
+      },
+      "answer": "A",
+      "explanation": "An SR latch is commonly used as a switch debouncer.",
+      "hash": "18129bf93cffb5f9",
+      "translations": {
+        "hi": {
+          "question": "स्विच बाउंसिंग को खत्म करने के लिए किस फ्लिप-फ्लॉप का उपयोग किया जाता है?",
+          "options": {
+            "A": "SR फ्लिप-फ्लॉप",
+            "B": "JK फ्लिप-फ्लॉप",
+            "C": "D फ्लिप-फ्लॉप",
+            "D": "T फ्लिप-फ्लॉप"
+          },
+          "explanation": "स्विच डिबाउंसर के रूप में आमतौर पर SR लैच का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-029",
+      "number": 29,
+      "question": "The Boolean function F = A.B + A.C can be simplified to:",
+      "options": {
+        "A": "A(B + C)",
+        "B": "B(A + C)",
+        "C": "C(A + B)",
+        "D": "AB + C"
+      },
+      "answer": "A",
+      "explanation": "Using the distributive law, A is factored out from both terms.",
+      "hash": "c1648af8c314a8c4",
+      "translations": {
+        "hi": {
+          "question": "बुलियन फ़ंक्शन F = A.B + A.C को सरल किया जा सकता है:",
+          "options": {
+            "A": "A(B + C)",
+            "B": "B(A + C)",
+            "C": "C(A + B)",
+            "D": "AB + C"
+          },
+          "explanation": "वितरणात्मक नियम का उपयोग करते हुए, A को दोनों पदों से बाहर निकाला जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-01-030",
+      "number": 30,
+      "question": "A ripple counter is an example of:",
+      "options": {
+        "A": "Synchronous counter",
+        "B": "Asynchronous counter",
+        "C": "Parallel counter",
+        "D": "Shift register"
+      },
+      "answer": "B",
+      "explanation": "In ripple counters, the clock is applied only to the first flip-flop.",
+      "hash": "51de955199488889",
+      "translations": {
+        "hi": {
+          "question": "रिपल काउंटर किसका उदाहरण है?",
+          "options": {
+            "A": "सिंक्रोनस काउंटर",
+            "B": "एसिंक्रोनस काउंटर",
+            "C": "पैरेलल काउंटर",
+            "D": "शिफ्ट रजिस्टर"
+          },
+          "explanation": "रिपल काउंटरों में, क्लॉक केवल पहले फ्लिप-फ्लॉप पर लागू की जाती है।"
+        }
+      }
+    }
+  ]
+}

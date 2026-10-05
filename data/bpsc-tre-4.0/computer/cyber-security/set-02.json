@@ -1,0 +1,787 @@
+{
+  "subject": "Cyber Security",
+  "set": 2,
+  "title": "Cyber Security Mock Test 2",
+  "questions": [
+    {
+      "id": "cyber-security-02-001",
+      "number": 1,
+      "question": "Which type of cipher uses two or more different alphabets for substitution?",
+      "options": {
+        "A": "Caesar Cipher",
+        "B": "Polyalphabetic Cipher",
+        "C": "Monoalphabetic Cipher",
+        "D": "Transposition Cipher"
+      },
+      "answer": "B",
+      "explanation": "A polyalphabetic cipher uses multiple substitution alphabets, like the Vigenere cipher, to make frequency analysis harder.",
+      "hash": "f081789acdf7a514",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का सिफर प्रतिस्थापन (substitution) के लिए दो या दो से अधिक विभिन्न अक्षरों का उपयोग करता है?",
+          "options": {
+            "A": "सीज़र सिफर",
+            "B": "पॉलीअल्फाबेटिक सिफर",
+            "C": "मोनोअल्फाबेटिक सिफर",
+            "D": "ट्रांसपोज़िशन सिफर"
+          },
+          "explanation": "पॉलीअल्फाबेटिक सिफर आवृत्ति विश्लेषण को कठिन बनाने के लिए कई प्रतिस्थापन अक्षरों (जैसे विगेनेयर सिफर) का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-002",
+      "number": 2,
+      "question": "What is 'Salting' in the context of password security?",
+      "options": {
+        "A": "Encrypting the password twice",
+        "B": "Adding random data to a password before hashing",
+        "C": "Changing the password every 30 days",
+        "D": "Deleting the password from the server"
+      },
+      "answer": "B",
+      "explanation": "Salting adds unique, random data to each password before hashing to protect against Rainbow Table attacks.",
+      "hash": "c7113dbd9b18aff7",
+      "translations": {
+        "hi": {
+          "question": "पासवर्ड सुरक्षा के संदर्भ में 'साल्टिंग' (Salting) क्या है?",
+          "options": {
+            "A": "पासवर्ड को दो बार एन्क्रिप्ट करना",
+            "B": "हैशिंग से पहले पासवर्ड में रैंडम डेटा जोड़ना",
+            "C": "हर 30 दिनों में पासवर्ड बदलना",
+            "D": "सर्वर से पासवर्ड हटाना"
+          },
+          "explanation": "साल्टिंग रेनबो टेबल हमलों से बचाने के लिए हैशिंग से पहले प्रत्येक पासवर्ड में अद्वितीय, रैंडम डेटा जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-003",
+      "number": 3,
+      "question": "Which OSI layer do most Proxy Firewalls operate at?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Data Link Layer",
+        "C": "Application Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "C",
+      "explanation": "Proxy firewalls (Application Gateways) operate at the Application Layer (Layer 7) to filter specific traffic like HTTP.",
+      "hash": "17604f76f8d6122e",
+      "translations": {
+        "hi": {
+          "question": "अधिकांश प्रॉक्सी फ़ायरवॉल किस OSI परत पर काम करते हैं?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "एप्लीकेशन लेयर",
+            "D": "फिजिकल लेयर"
+          },
+          "explanation": "प्रॉक्सी फ़ायरवॉल (एप्लिकेशन गेटवे) HTTP जैसे विशिष्ट ट्रैफ़िक को फ़िल्टर करने के लिए एप्लीकेशन लेयर (लेयर 7) पर काम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-004",
+      "number": 4,
+      "question": "What is the maximum length of an MD5 hash?",
+      "options": {
+        "A": "64 bits",
+        "B": "128 bits",
+        "C": "160 bits",
+        "D": "256 bits"
+      },
+      "answer": "B",
+      "explanation": "MD5 (Message Digest 5) produces a 128-bit hash value, usually represented as a 32-digit hexadecimal number.",
+      "hash": "f9394c2834e83642",
+      "translations": {
+        "hi": {
+          "question": "MD5 हैश की अधिकतम लंबाई क्या है?",
+          "options": {
+            "A": "64 बिट्स",
+            "B": "128 बिट्स",
+            "C": "160 बिट्स",
+            "D": "256 बिट्स"
+          },
+          "explanation": "MD5 (मैसेज डाइजेस्ट 5) 128-बिट हैश मान उत्पन्न करता है, जिसे आमतौर पर 32-अंकों की हेक्साडेसिमल संख्या के रूप में दर्शाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-005",
+      "number": 5,
+      "question": "In a 'Smurf Attack', which protocol is exploited to overwhelm the victim?",
+      "options": {
+        "A": "TCP",
+        "B": "ICMP",
+        "C": "UDP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "A Smurf attack is a DDoS attack in which large numbers of ICMP packets with the victim's spoofed source IP are broadcast to a computer network.",
+      "hash": "cddcf0e48d6434f5",
+      "translations": {
+        "hi": {
+          "question": "'स्मर्फ अटैक' में पीड़ित को परेशान करने के लिए किस प्रोटोकॉल का दुरुपयोग किया जाता है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "आईसीएमपी",
+            "C": "यूडीपी",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "स्मर्फ अटैक एक DDoS हमला है जिसमें पीड़ित के नकली सोर्स आईपी के साथ बड़ी संख्या में ICMP पैकेट नेटवर्क पर प्रसारित किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-006",
+      "number": 6,
+      "question": "What is the primary purpose of a 'Demilitarized Zone' (DMZ) in networking?",
+      "options": {
+        "A": "To connect two internal networks",
+        "B": "To provide a buffer between the public internet and a private network",
+        "C": "To speed up Wi-Fi",
+        "D": "To encrypt all outgoing emails"
+      },
+      "answer": "B",
+      "explanation": "A DMZ is a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted network.",
+      "hash": "5f17f1bdc657314f",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में 'डिमिलिट्राइज्ड ज़ोन' (DMZ) का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "दो आंतरिक नेटवर्क को जोड़ना",
+            "B": "सार्वजनिक इंटरनेट और निजी नेटवर्क के बीच बफर प्रदान करना",
+            "C": "वाई-फाई की गति बढ़ाना",
+            "D": "सभी आउटगोइंग ईमेल को एन्क्रिप्ट करना"
+          },
+          "explanation": "DMZ एक भौतिक या तार्किक सबनेटवर्क है जो संगठन की बाहरी सेवाओं को एक अविश्वसनीय नेटवर्क (इंटरनेट) के सामने उजागर करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-007",
+      "number": 7,
+      "question": "Which of the following is an example of an Asymmetric Encryption algorithm?",
+      "options": {
+        "A": "DES",
+        "B": "3DES",
+        "C": "Blowfish",
+        "D": "RSA"
+      },
+      "answer": "D",
+      "explanation": "RSA is an asymmetric algorithm based on the difficulty of factoring large integers. DES, 3DES, and Blowfish are symmetric.",
+      "hash": "8a1f6dbc3c89cdf5",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा असममित एन्क्रिप्शन (Asymmetric Encryption) एल्गोरिथ्म का उदाहरण है?",
+          "options": {
+            "A": "डीईएस",
+            "B": "3डीईएस",
+            "C": "ब्लोफिश",
+            "D": "आरएसए"
+          },
+          "explanation": "RSA बड़े पूर्णांकों के गुणनखंडन की कठिनाई पर आधारित एक असममित एल्गोरिथ्म है। DES, 3DES और ब्लोफिश सममित (Symmetric) हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-008",
+      "number": 8,
+      "question": "A 'Replay Attack' is most likely to affect which security property?",
+      "options": {
+        "A": "Integrity",
+        "B": "Availability",
+        "C": "Authenticity",
+        "D": "Non-repudiation"
+      },
+      "answer": "C",
+      "explanation": "A replay attack occurs when an attacker intercepts a valid data transmission and later repeats it to impersonate a user.",
+      "hash": "8024038ae147c8f8",
+      "translations": {
+        "hi": {
+          "question": "'रिप्ले अटैक' किस सुरक्षा गुण को प्रभावित करने की सबसे अधिक संभावना रखता है?",
+          "options": {
+            "A": "अखंडता",
+            "B": "उपलब्धता",
+            "C": "प्रामाणिकता",
+            "D": "गैर-अस्वीकरण"
+          },
+          "explanation": "रिप्ले अटैक तब होता है जब एक हमलावर वैध डेटा ट्रांसमिशन को रोकता है और बाद में उपयोगकर्ता का रूप धारण करने के लिए इसे दोहराता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-009",
+      "number": 9,
+      "question": "What is 'Shoulder Surfing'?",
+      "options": {
+        "A": "Surfing the web on a mobile",
+        "B": "Observing someone's private info over their shoulder",
+        "C": "Hacking into a computer from a distance",
+        "D": "A type of network cable"
+      },
+      "answer": "B",
+      "explanation": "Shoulder surfing is a physical technique used to obtain information such as personal identification numbers (PINs) or passwords by looking over a person's shoulder.",
+      "hash": "365348b1307417b0",
+      "translations": {
+        "hi": {
+          "question": "'शोल्डर सर्फिंग' क्या है?",
+          "options": {
+            "A": "मोबाइल पर वेब सर्फिंग करना",
+            "B": "किसी की निजी जानकारी को उनके कंधे के ऊपर से देखना",
+            "C": "दूर से कंप्यूटर को हैक करना",
+            "D": "एक प्रकार का नेटवर्क केबल"
+          },
+          "explanation": "शोल्डर सर्फिंग एक भौतिक तकनीक है जिसका उपयोग किसी व्यक्ति के कंधे के ऊपर से देखकर पिन (PIN) या पासवर्ड जैसी जानकारी प्राप्त करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-010",
+      "number": 10,
+      "question": "Which term describes an authorized attempt to gain unauthorized access to a computer system?",
+      "options": {
+        "A": "Black Hat Hacking",
+        "B": "Penetration Testing",
+        "C": "Phishing",
+        "D": "Shoulder Surfing"
+      },
+      "answer": "B",
+      "explanation": "Penetration testing (or ethical hacking) is a simulated cyber attack against your computer system to check for exploitable vulnerabilities.",
+      "hash": "e3d38f47d0aac633",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द कंप्यूटर सिस्टम तक अनधिकृत पहुंच प्राप्त करने के अधिकृत प्रयास का वर्णन करता है?",
+          "options": {
+            "A": "ब्लैक हैट हैकिंग",
+            "B": "पेनिट्रेशन टेस्टिंग",
+            "C": "फिशिंग",
+            "D": "शोल्डर सर्फिंग"
+          },
+          "explanation": "पेनिट्रेशन टेस्टिंग (या एथिकल हैकिंग) आपके कंप्यूटर सिस्टम के खिलाफ एक सिम्युलेटेड साइबर हमला है ताकि शोषण योग्य कमजोरियों की जांच की जा सके।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-011",
+      "number": 11,
+      "question": "Which of the following is NOT a type of biometric authentication?",
+      "options": {
+        "A": "Fingerprint",
+        "B": "Retinal Scan",
+        "C": "Smart Card",
+        "D": "Voice Recognition"
+      },
+      "answer": "C",
+      "explanation": "A smart card is \"something you have,\" while biometrics are \"something you are.\"",
+      "hash": "55a1070ebe49a197",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा बायोमेट्रिक प्रमाणीकरण का प्रकार नहीं है?",
+          "options": {
+            "A": "फिंगरप्रिंट",
+            "B": "रेटिनल स्कैन",
+            "C": "स्मार्ट कार्ड",
+            "D": "वॉयस रिकग्निशन"
+          },
+          "explanation": "एक स्मार्ट कार्ड \"वह चीज़ है जो आपके पास है\", जबकि बायोमेट्रिक्स \"वह चीज़ है जो आप हैं\"।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-012",
+      "number": 12,
+      "question": "'Bluesnarfing' refers to:",
+      "options": {
+        "A": "Hacking via Bluetooth",
+        "B": "Hacking a blue-colored computer",
+        "C": "Overloading a router",
+        "D": "Setting up a fake Wi-Fi"
+      },
+      "answer": "A",
+      "explanation": "Bluesnarfing is the unauthorized access of information from a wireless device through a Bluetooth connection.",
+      "hash": "0b92775b2816a39a",
+      "translations": {
+        "hi": {
+          "question": "'ब्लूस्नर्फिंग' (Bluesnarfing) का तात्पर्य है:",
+          "options": {
+            "A": "ब्लूटूथ के माध्यम से हैकिंग",
+            "B": "नीले रंग के कंप्यूटर को हैक करना",
+            "C": "राउटर को ओवरलोड करना",
+            "D": "नकली वाई-फाई सेट करना"
+          },
+          "explanation": "ब्लूस्नर्फिंग ब्लूटूथ कनेक्शन के माध्यम से वायरलेस डिवाइस से जानकारी की अनधिकृत पहुंच है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-013",
+      "number": 13,
+      "question": "What is 'Kerberos'?",
+      "options": {
+        "A": "A computer virus",
+        "B": "A network authentication protocol",
+        "C": "A type of firewall",
+        "D": "A database management system"
+      },
+      "answer": "B",
+      "explanation": "Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity.",
+      "hash": "5686913ef41b599e",
+      "translations": {
+        "hi": {
+          "question": "'कर्बरोस' (Kerberos) क्या है?",
+          "options": {
+            "A": "एक कंप्यूटर वायरस",
+            "B": "एक नेटवर्क प्रमाणीकरण प्रोटोकॉल",
+            "C": "एक प्रकार का फ़ायरवॉल",
+            "D": "एक डेटाबेस प्रबंधन प्रणाली"
+          },
+          "explanation": "कर्बरोस एक नेटवर्क प्रमाणीकरण प्रोटोकॉल है जो टिकटों के आधार पर काम करता है ताकि असुरक्षित नेटवर्क पर नोड्स अपनी पहचान साबित कर सकें।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-014",
+      "number": 14,
+      "question": "Which of the following is considered a 'Passive Attack'?",
+      "options": {
+        "A": "Denial of Service",
+        "B": "Modification of messages",
+        "C": "Traffic Analysis",
+        "D": "Replay attack"
+      },
+      "answer": "C",
+      "explanation": "Passive attacks, like sniffing or traffic analysis, involve monitoring or eavesdropping without altering the data.",
+      "hash": "9fbf64c815e581ea",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किसे 'पैसिव अटैक' (Passive Attack) माना जाता है?",
+          "options": {
+            "A": "डिनायल ऑफ सर्विस",
+            "B": "संदेशों का संशोधन",
+            "C": "ट्रैफिक विश्लेषण",
+            "D": "रिप्ले अटैक"
+          },
+          "explanation": "पैसिव हमलों में डेटा को बदले बिना निगरानी या गुप्त रूप से सुनना शामिल है, जैसे ट्रैफिक विश्लेषण।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-015",
+      "number": 15,
+      "question": "Which malware is known for spreading through email attachments and making copies of itself?",
+      "options": {
+        "A": "Ransomware",
+        "B": "Email Worm",
+        "C": "Adware",
+        "D": "Spyware"
+      },
+      "answer": "B",
+      "explanation": "Worms are self-replicating and use networks/email to spread quickly to other systems.",
+      "hash": "8b87684426b1be89",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मैलवेयर ईमेल अटैचमेंट के माध्यम से फैलने और अपनी प्रतियां बनाने के लिए जाना जाता है?",
+          "options": {
+            "A": "रैंसमवेयर",
+            "B": "ईमेल वॉर्म",
+            "C": "एडवेयर",
+            "D": "स्पाइवेयर"
+          },
+          "explanation": "वॉर्म स्वयं-प्रतिकृति (self-replicating) होते हैं और अन्य प्रणालियों में तेज़ी से फैलने के लिए नेटवर्क/ईमेल का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-016",
+      "number": 16,
+      "question": "'Whaling' is a specific type of:",
+      "options": {
+        "A": "Brute force attack",
+        "B": "Phishing attack targeting high-level executives",
+        "C": "Hardware theft",
+        "D": "Operating system update"
+      },
+      "answer": "B",
+      "explanation": "Whaling is a highly targeted phishing attack aimed at senior executives or high-profile individuals.",
+      "hash": "d392ecddf26c6c3a",
+      "translations": {
+        "hi": {
+          "question": "'व्हेलिंग' (Whaling) एक विशिष्ट प्रकार का है:",
+          "options": {
+            "A": "ब्रूट फोर्स अटैक",
+            "B": "उच्च स्तरीय अधिकारियों को लक्षित करने वाला फिशिंग हमला",
+            "C": "हार्डवेयर चोरी",
+            "D": "ऑपरेटिंग सिस्टम अपडेट"
+          },
+          "explanation": "व्हेलिंग एक अत्यधिक लक्षित फिशिंग हमला है जिसका उद्देश्य वरिष्ठ अधिकारियों या हाई-प्रोफाइल व्यक्तियों को निशाना बनाना है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-017",
+      "number": 17,
+      "question": "What does VPN stand for?",
+      "options": {
+        "A": "Virtual Public Network",
+        "B": "Verified Private Network",
+        "C": "Virtual Private Network",
+        "D": "Visual Protocol Network"
+      },
+      "answer": "C",
+      "explanation": "A VPN creates a secure, encrypted tunnel over a public network like the internet.",
+      "hash": "bc6f598815596332",
+      "translations": {
+        "hi": {
+          "question": "VPN का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "वर्चुअल पब्लिक नेटवर्क",
+            "B": "वेरीफाइड प्राइवेट नेटवर्क",
+            "C": "वर्चुअल प्राइवेट नेटवर्क",
+            "D": "विजुअल प्रोटोकॉल नेटवर्क"
+          },
+          "explanation": "VPN इंटरनेट जैसे सार्वजनिक नेटवर्क पर एक सुरक्षित, एन्क्रिप्टेड टनल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-018",
+      "number": 18,
+      "question": "Which port is commonly used for Secure Shell (SSH)?",
+      "options": {
+        "A": "80",
+        "B": "443",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": "C",
+      "explanation": "Port 22 is the default port for SSH, which provides secure remote login.",
+      "hash": "d048ed92cf5e54b2",
+      "translations": {
+        "hi": {
+          "question": "सिक्योर शेल (SSH) के लिए आमतौर पर किस पोर्ट का उपयोग किया जाता है?",
+          "options": {
+            "A": "80",
+            "B": "443",
+            "C": "22",
+            "D": "25"
+          },
+          "explanation": "पोर्ट 22 SSH के लिए डिफ़ॉल्ट पोर्ट है, जो सुरक्षित रिमोट लॉगिन प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-019",
+      "number": 19,
+      "question": "'Rooting' an Android device or 'Jailbreaking' an iOS device increases security risk by:",
+      "options": {
+        "A": "Increasing battery life",
+        "B": "Bypassing built-in OS security restrictions",
+        "C": "Speeding up the processor",
+        "D": "Deleting the contacts"
+      },
+      "answer": "B",
+      "explanation": "These processes remove the vendor's security protections, allowing unauthorized apps more access to the system.",
+      "hash": "75923015771de2c4",
+      "translations": {
+        "hi": {
+          "question": "Android डिवाइस को 'रूट' करना या iOS डिवाइस को 'जेलब्रेक' करना सुरक्षा जोखिम को बढ़ाता है:",
+          "options": {
+            "A": "बैटरी लाइफ बढ़ाकर",
+            "B": "अंतर्निहित OS सुरक्षा प्रतिबंधों को दरकिनार करके",
+            "C": "प्रोसेसर को तेज़ करके",
+            "D": "कॉन्टैक्ट्स डिलीट करके"
+          },
+          "explanation": "ये प्रक्रियाएं विक्रेता की सुरक्षा सुरक्षा को हटा देती हैं, जिससे अनधिकृत ऐप्स को सिस्टम तक अधिक पहुंच मिल जाती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-020",
+      "number": 20,
+      "question": "What is the main vulnerability addressed by 'Address Space Layout Randomization' (ASLR)?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Buffer Overflow",
+        "C": "Phishing",
+        "D": "Man-in-the-middle"
+      },
+      "answer": "B",
+      "explanation": "ASLR randomly arranges the address space positions of key data areas of a process to prevent buffer overflow attacks.",
+      "hash": "350e01b5476c80e0",
+      "translations": {
+        "hi": {
+          "question": "'एड्रेस स्पेस लेआउट रैंडमाइजेशन' (ASLR) द्वारा संबोधित मुख्य भेद्यता क्या है?",
+          "options": {
+            "A": "SQL इंजेक्शन",
+            "B": "बफर ओवरफ्लो",
+            "C": "फिशिंग",
+            "D": "मैन-इन-द-मिडल"
+          },
+          "explanation": "ASLR बफर ओवरफ्लो हमलों को रोकने के लिए किसी प्रोसेस के मुख्य डेटा क्षेत्रों के एड्रेस स्पेस पदों को बेतरतीब ढंग से व्यवस्थित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-021",
+      "number": 21,
+      "question": "Which security principle ensures that an entity cannot deny having performed an action?",
+      "options": {
+        "A": "Availability",
+        "B": "Non-repudiation",
+        "C": "Confidentiality",
+        "D": "Authorization"
+      },
+      "answer": "B",
+      "explanation": "Non-repudiation provides proof of the origin and integrity of data, making it impossible to deny a transaction.",
+      "hash": "67659d4a1a9b4428",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सुरक्षा सिद्धांत यह सुनिश्चित करता है कि कोई इकाई किसी कार्रवाई को करने से इनकार नहीं कर सकती है?",
+          "options": {
+            "A": "उपलब्धता",
+            "B": "गैर-अस्वीकरण",
+            "C": "गोपनीयता",
+            "D": "प्राधिकरण"
+          },
+          "explanation": "गैर-अस्वीकरण डेटा की उत्पत्ति और अखंडता का प्रमाण प्रदान करता है, जिससे लेनदेन से इनकार करना असंभव हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-022",
+      "number": 22,
+      "question": "'Keyloggers' are a form of:",
+      "options": {
+        "A": "Hardware routers",
+        "B": "Spyware",
+        "C": "Anti-virus",
+        "D": "Display drivers"
+      },
+      "answer": "B",
+      "explanation": "Keyloggers record every keystroke made by the user to steal passwords and sensitive data.",
+      "hash": "12857ff7953cebb0",
+      "translations": {
+        "hi": {
+          "question": "'कीलॉगर्स' (Keyloggers) किसका एक रूप हैं?",
+          "options": {
+            "A": "हार्डवेयर राउटर",
+            "B": "स्पाइवेयर",
+            "C": "एंटी-वायरस",
+            "D": "डिस्प्ले ड्राइवर"
+          },
+          "explanation": "कीलॉगर्स पासवर्ड और संवेदनशील डेटा चुराने के लिए उपयोगकर्ता द्वारा की गई प्रत्येक कीस्ट्रोक को रिकॉर्ड करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-023",
+      "number": 23,
+      "question": "What is the 'Payload' in terms of a cyber attack?",
+      "options": {
+        "A": "The cost of the attack",
+        "B": "The component that performs the malicious action",
+        "C": "The size of the virus file",
+        "D": "The encryption key"
+      },
+      "answer": "B",
+      "explanation": "The payload is the part of the malware which executes the actual activity, such as deleting files or stealing data.",
+      "hash": "b6b0989aeba48abb",
+      "translations": {
+        "hi": {
+          "question": "साइबर हमले के संदर्भ में 'पेलोड' (Payload) क्या है?",
+          "options": {
+            "A": "हमले की लागत",
+            "B": "वह घटक जो दुर्भावनापूर्ण कार्रवाई करता है",
+            "C": "वायरस फ़ाइल का आकार",
+            "D": "एन्क्रिप्शन कुंजी"
+          },
+          "explanation": "पेलोड मैलवेयर का वह हिस्सा है जो वास्तविक गतिविधि को निष्पादित करता है, जैसे फ़ाइलें हटाना या डेटा चुराना।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-024",
+      "number": 24,
+      "question": "What is a 'Script Kiddie'?",
+      "options": {
+        "A": "A professional hacker",
+        "B": "An unskilled individual who uses existing scripts to hack",
+        "C": "A child learning to code",
+        "D": "A web developer"
+      },
+      "answer": "B",
+      "explanation": "Script kiddies lack technical skills and rely on tools created by others to launch attacks.",
+      "hash": "e03463fd327957c8",
+      "translations": {
+        "hi": {
+          "question": "'स्क्रिप्ट किडी' (Script Kiddie) क्या है?",
+          "options": {
+            "A": "एक पेशेवर हैकर",
+            "B": "एक अकुशल व्यक्ति जो हैक करने के लिए मौजूदा स्क्रिप्ट का उपयोग करता है",
+            "C": "कोडिंग सीखने वाला बच्चा",
+            "D": "एक वेब डेवलपर"
+          },
+          "explanation": "स्क्रिप्ट किडीज में तकनीकी कौशल की कमी होती है और वे हमले शुरू करने के लिए दूसरों द्वारा बनाए गए टूल पर निर्भर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-025",
+      "number": 25,
+      "question": "Which header is used to prevent Clickjacking attacks?",
+      "options": {
+        "A": "X-Content-Type-Options",
+        "B": "X-Frame-Options",
+        "C": "Set-Cookie",
+        "D": "Authorization"
+      },
+      "answer": "B",
+      "explanation": "The X-Frame-Options HTTP response header indicates whether a browser should be allowed to render a page in a frame or iframe.",
+      "hash": "2f7ca6e4ecdd388c",
+      "translations": {
+        "hi": {
+          "question": "क्लिकजैकिंग (Clickjacking) हमलों को रोकने के लिए किस हेडर का उपयोग किया जाता है?",
+          "options": {
+            "A": "X-कंटेंट-टाइप-ऑप्शंस",
+            "B": "X-फ्रेम-ऑप्शंस",
+            "C": "सेट-कुकी",
+            "D": "ऑथराइजेशन"
+          },
+          "explanation": "X-Frame-Options HTTP रिस्पांस हेडर यह बताता है कि ब्राउज़र को किसी पेज को फ्रेम या आईफ्रेम में रेंडर करने की अनुमति दी जानी चाहिए या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-026",
+      "number": 26,
+      "question": "What is the purpose of an 'Audit Trail'?",
+      "options": {
+        "A": "To speed up the database",
+        "B": "To keep a chronological record of system activities",
+        "C": "To design icons",
+        "D": "To format the hard drive"
+      },
+      "answer": "B",
+      "explanation": "An audit trail is a set of records that provides documentary evidence of the sequence of activities that have affected a specific operation.",
+      "hash": "cf5efaad64a8b4cf",
+      "translations": {
+        "hi": {
+          "question": "'ऑडिट ट्रेल' (Audit Trail) का उद्देश्य क्या है?",
+          "options": {
+            "A": "डेटाबेस को तेज़ करना",
+            "B": "सिस्टम गतिविधियों का एक कालानुक्रमिक रिकॉर्ड रखना",
+            "C": "आइकन डिज़ाइन करना",
+            "D": "हार्ड ड्राइव को फॉर्मेट करना"
+          },
+          "explanation": "ऑडिट ट्रेल रिकॉर्ड्स का एक सेट है जो उन गतिविधियों के अनुक्रम का दस्तावेजी प्रमाण प्रदान करता है जिन्होंने किसी विशिष्ट ऑपरेशन को प्रभावित किया है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-027",
+      "number": 27,
+      "question": "A 'Cold Site' in disaster recovery is:",
+      "options": {
+        "A": "A site with fully configured hardware",
+        "B": "A space with power and cooling but no equipment",
+        "C": "A site that is currently frozen",
+        "D": "A backup on the cloud"
+      },
+      "answer": "B",
+      "explanation": "A cold site is the cheapest option, providing only infrastructure but requiring time to install hardware and data.",
+      "hash": "1da23145edd97e48",
+      "translations": {
+        "hi": {
+          "question": "डिजास्टर रिकवरी में 'कोल्ड साइट' (Cold Site) है:",
+          "options": {
+            "A": "पूरी तरह से कॉन्फ़िगर किए गए हार्डवेयर वाली साइट",
+            "B": "पावर और कूलिंग वाला स्थान लेकिन कोई उपकरण नहीं",
+            "C": "एक साइट जो वर्तमान में जमी हुई है",
+            "D": "क्लाउड पर एक बैकअप"
+          },
+          "explanation": "कोल्ड साइट सबसे सस्ता विकल्प है, जो केवल बुनियादी ढांचा प्रदान करता है लेकिन हार्डवेयर और डेटा स्थापित करने के लिए समय की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-028",
+      "number": 28,
+      "question": "What is 'Data Diddling'?",
+      "options": {
+        "A": "Deleting all data",
+        "B": "Small changes made to data before it is entered into a system",
+        "C": "Increasing data size",
+        "D": "Transferring data to a pen drive"
+      },
+      "answer": "B",
+      "explanation": "Data diddling is the unauthorized alteration of data before or during its entry into a computer system.",
+      "hash": "7295a6597f7139d2",
+      "translations": {
+        "hi": {
+          "question": "'डेटा डिडलिंग' (Data Diddling) क्या है?",
+          "options": {
+            "A": "सारा डेटा हटाना",
+            "B": "सिस्टम में दर्ज होने से पहले डेटा में किए गए छोटे बदलाव",
+            "C": "डेटा का आकार बढ़ाना",
+            "D": "डेटा को पेन ड्राइव में ट्रांसफर करना"
+          },
+          "explanation": "डेटा डिडलिंग कंप्यूटर सिस्टम में प्रवेश करने से पहले या उसके दौरान डेटा का अनधिकृत परिवर्तन है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-029",
+      "number": 29,
+      "question": "Which term refers to the art of breaking ciphers or encrypted code?",
+      "options": {
+        "A": "Cryptography",
+        "B": "Cryptanalysis",
+        "C": "Steganography",
+        "D": "Hashing"
+      },
+      "answer": "B",
+      "explanation": "Cryptanalysis is the study of analyzing information systems to understand hidden aspects of the systems and break codes.",
+      "hash": "89ba38a35482b31e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द सिफर या एन्क्रिप्टेड कोड को तोड़ने की कला को संदर्भित करता है?",
+          "options": {
+            "A": "क्रिप्टोग्राफी",
+            "B": "क्रिप्टएनालिसिस",
+            "C": "स्टेग्नोग्राफी",
+            "D": "हैशिंग"
+          },
+          "explanation": "क्रिप्टएनालिसिस सिस्टम के छिपे हुए पहलुओं को समझने और कोड तोड़ने के लिए सूचना प्रणालियों का विश्लेषण करने का अध्ययन है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-02-030",
+      "number": 30,
+      "question": "Which attack exploits the trust a web application has in a user's browser?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "CSRF (Cross-Site Request Forgery)",
+        "C": "XSS",
+        "D": "Brute Force"
+      },
+      "answer": "B",
+      "explanation": "CSRF tricks a victim into submitting a malicious request to a web application where they are currently authenticated.",
+      "hash": "2869b418f93dd75d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा हमला उस भरोसे का फायदा उठाता है जो एक वेब एप्लीकेशन उपयोगकर्ता के ब्राउज़र पर करती है?",
+          "options": {
+            "A": "SQL इंजेक्शन",
+            "B": "CSRF (क्रॉस-साइट रिक्वेस्ट फोर्जरी)",
+            "C": "XSS",
+            "D": "ब्रूट फोर्स"
+          },
+          "explanation": "CSRF पीड़ित को एक वेब एप्लिकेशन पर दुर्भावनापूर्ण अनुरोध सबमिट करने के लिए धोखा देता है जहाँ वे वर्तमान में प्रमाणित हैं।"
+        }
+      }
+    }
+  ]
+}

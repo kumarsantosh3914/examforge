@@ -1,0 +1,787 @@
+{
+  "subject": "Programming Languages",
+  "set": 4,
+  "title": "Programming Languages Mock Test 4",
+  "questions": [
+    {
+      "id": "programming-languages-04-001",
+      "number": 1,
+      "question": "Which C++ keyword is used to allocate memory on the heap?",
+      "options": {
+        "A": "malloc",
+        "B": "alloc",
+        "C": "new",
+        "D": "give"
+      },
+      "answer": "C",
+      "explanation": "The 'new' operator is used for dynamic memory allocation in C++.",
+      "hash": "5a87409afc61868e",
+      "translations": {
+        "hi": {
+          "question": "हीप पर मेमोरी आवंटित करने के लिए किस C++ कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "malloc",
+            "B": "alloc",
+            "C": "new",
+            "D": "give"
+          },
+          "explanation": "C++ में डायनामिक मेमोरी आवंटन के लिए 'new' ऑपरेटर का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-002",
+      "number": 2,
+      "question": "What is the output of 'print(2 ** 3 ** 2)' in Python?",
+      "options": {
+        "A": "64",
+        "B": "512",
+        "C": "4096",
+        "D": "32"
+      },
+      "answer": "B",
+      "explanation": "Exponentiation operators in Python are evaluated from right to left (3**2 = 9, then 2**9 = 512).",
+      "hash": "730cfe45b5c4d62c",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'print(2 ** 3 ** 2)' का आउटपुट क्या है?",
+          "options": {
+            "A": "64",
+            "B": "512",
+            "C": "4096",
+            "D": "32"
+          },
+          "explanation": "पायथन में घातांक ऑपरेटर दाएं से बाएं हल किए जाते हैं (3**2 = 9, फिर 2**9 = 512)।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-003",
+      "number": 3,
+      "question": "Which of the following is the correct syntax for a pointer to an integer in C?",
+      "options": {
+        "A": "int &p;",
+        "B": "int *p;",
+        "C": "int p*;",
+        "D": "ptr int p;"
+      },
+      "answer": "B",
+      "explanation": "The asterisk (*) symbol is used to declare a pointer variable in C.",
+      "hash": "a8a0184ac6a3b91a",
+      "translations": {
+        "hi": {
+          "question": "C में पूर्णांक (integer) के पॉइंटर के लिए निम्नलिखित में से कौन सा सही सिंटैक्स है?",
+          "options": {
+            "A": "int &p;",
+            "B": "int *p;",
+            "C": "int p*;",
+            "D": "ptr int p;"
+          },
+          "explanation": "C में पॉइंटर वेरिएबल घोषित करने के लिए एस्टेरिस्क (*) प्रतीक का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-004",
+      "number": 4,
+      "question": "In Java, which keyword is used to define a constant variable?",
+      "options": {
+        "A": "const",
+        "B": "final",
+        "C": "static",
+        "D": "constant"
+      },
+      "answer": "B",
+      "explanation": "The final keyword makes a variable's value unchangeable once assigned.",
+      "hash": "c9481eb2a4be7429",
+      "translations": {
+        "hi": {
+          "question": "जावा में, एक निरंतर वेरिएबल (constant) को परिभाषित करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "const",
+            "B": "final",
+            "C": "static",
+            "D": "constant"
+          },
+          "explanation": "final कीवर्ड एक बार असाइन होने के बाद वेरिएबल के मान को अपरिवर्तनीय बना देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-005",
+      "number": 5,
+      "question": "Which of the following is not a valid loop structure in C?",
+      "options": {
+        "A": "for",
+        "B": "while",
+        "C": "do-while",
+        "D": "repeat-until"
+      },
+      "answer": "D",
+      "explanation": "C supports for, while, and do-while loops; repeat-until is used in Pascal.",
+      "hash": "1b777eed5be6604e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा C में मान्य लूप स्ट्रक्चर नहीं है?",
+          "options": {
+            "A": "for",
+            "B": "while",
+            "C": "do-while",
+            "D": "repeat-until"
+          },
+          "explanation": "C फॉर, व्हाईल और डू-व्हाईल लूप का समर्थन करता है; रिपीट-अंटिल पास्कल में उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-006",
+      "number": 6,
+      "question": "Which of the following is a 'wrapper class' in Java?",
+      "options": {
+        "A": "int",
+        "B": "Integer",
+        "C": "float",
+        "D": "double"
+      },
+      "answer": "B",
+      "explanation": "Wrapper classes like Integer allow primitive types to be treated as objects.",
+      "hash": "d92b833bb0c155d6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन जावा में एक 'रैपर क्लास' है?",
+          "options": {
+            "A": "int",
+            "B": "Integer",
+            "C": "float",
+            "D": "double"
+          },
+          "explanation": "Integer जैसी रैपर क्लास प्रिमिटिव टाइप्स को ऑब्जेक्ट के रूप में मानने की अनुमति देती हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-007",
+      "number": 7,
+      "question": "What is the correct file extension for a Python script?",
+      "options": {
+        "A": ".pyt",
+        "B": ".py",
+        "C": ".python",
+        "D": ".pt"
+      },
+      "answer": "B",
+      "explanation": "Python source files are saved with the .py extension.",
+      "hash": "027e9a7d48a43db1",
+      "translations": {
+        "hi": {
+          "question": "पायथन स्क्रिप्ट के लिए सही फ़ाइल एक्सटेंशन क्या है?",
+          "options": {
+            "A": ".pyt",
+            "B": ".py",
+            "C": ".python",
+            "D": ".pt"
+          },
+          "explanation": "पायथन सोर्स फाइलें .py एक्सटेंशन के साथ सेव की जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-008",
+      "number": 8,
+      "question": "In C++, what is an 'abstract class'?",
+      "options": {
+        "A": "A class with no members",
+        "B": "A class with at least one pure virtual function",
+        "C": "A class that cannot be inherited",
+        "D": "A class with only private members"
+      },
+      "answer": "B",
+      "explanation": "Abstract classes provide a base for other classes and cannot be instantiated.",
+      "hash": "a644233263f91925",
+      "translations": {
+        "hi": {
+          "question": "C++ में 'एब्स्ट्रैक्ट क्लास' क्या है?",
+          "options": {
+            "A": "बिना किसी सदस्य वाली क्लास",
+            "B": "कम से कम एक शुद्ध वर्चुअल फ़ंक्शन वाली क्लास",
+            "C": "एक क्लास जिसे इनहेरिट नहीं किया जा सकता",
+            "D": "केवल प्राइवेट मेंबर्स वाली क्लास"
+          },
+          "explanation": "एब्स्ट्रैक्ट क्लास अन्य क्लासेस के लिए बेस प्रदान करती है और इसका ऑब्जेक्ट नहीं बनाया जा सकता।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-009",
+      "number": 9,
+      "question": "Which function is used to get the size of a variable or data type in C++?",
+      "options": {
+        "A": "lengthof()",
+        "B": "sizeof()",
+        "C": "size()",
+        "D": "countof()"
+      },
+      "answer": "B",
+      "explanation": "sizeof is a unary operator that returns the size in bytes.",
+      "hash": "0b747eb520347574",
+      "translations": {
+        "hi": {
+          "question": "C++ में किसी वेरिएबल या डेटा टाइप का आकार प्राप्त करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "lengthof()",
+            "B": "sizeof()",
+            "C": "size()",
+            "D": "countof()"
+          },
+          "explanation": "sizeof एक यूनरी ऑपरेटर है जो बाइट्स में आकार लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-010",
+      "number": 10,
+      "question": "In C, which escape sequence is used for a backspace?",
+      "options": {
+        "A": "\\n",
+        "B": "\\t",
+        "C": "\\b",
+        "D": "\\r"
+      },
+      "answer": "C",
+      "explanation": "\\b represents the backspace character in C strings.",
+      "hash": "9d9b6c10b32ddaec",
+      "translations": {
+        "hi": {
+          "question": "C में बैकस्पेस के लिए किस एस्केप सीक्वेंस का उपयोग किया जाता है?",
+          "options": {
+            "A": "\\n",
+            "B": "\\t",
+            "C": "\\b",
+            "D": "\\r"
+          },
+          "explanation": "\\b C स्ट्रिंग्स में बैकस्पेस कैरेक्टर का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-011",
+      "number": 11,
+      "question": "In Python, what does the 'yield' keyword do?",
+      "options": {
+        "A": "Terminates a function",
+        "B": "Returns a value and pauses the function (Generator)",
+        "C": "Imports a module",
+        "D": "Defines a constant"
+      },
+      "answer": "B",
+      "explanation": "yield is used to create a generator function that yields a sequence of values.",
+      "hash": "4ee5ae60838ed142",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, 'yield' कीवर्ड क्या करता है?",
+          "options": {
+            "A": "एक फ़ंक्शन को समाप्त करता है",
+            "B": "मान लौटाता है और फ़ंक्शन को रोकता है (जेनरेटर)",
+            "C": "एक मॉड्यूल इम्पोर्ट करता है",
+            "D": "एक स्थिरांक को परिभाषित करता है"
+          },
+          "explanation": "yield का उपयोग एक जेनरेटर फ़ंक्शन बनाने के लिए किया जाता है जो मानों का एक क्रम प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-012",
+      "number": 12,
+      "question": "Which C++ feature allows multiple functions with the same name but different signatures?",
+      "options": {
+        "A": "Function overriding",
+        "B": "Function overloading",
+        "C": "Encapsulation",
+        "D": "Inheritance"
+      },
+      "answer": "B",
+      "explanation": "Function overloading is a type of compile-time polymorphism.",
+      "hash": "debcc85a147df569",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ विशेषता समान नाम लेकिन अलग सिग्नेचर वाले कई फ़ंक्शंस की अनुमति देती है?",
+          "options": {
+            "A": "फ़ंक्शन ओवरराइडिंग",
+            "B": "फ़ंक्शन ओवरलोडिंग",
+            "C": "एनकैप्सुलेशन",
+            "D": "इनहेरिटेंस"
+          },
+          "explanation": "फ़ंक्शन ओवरलोडिंग कंपाइल-टाइम पॉलीमॉर्फिज्म का एक प्रकार है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-013",
+      "number": 13,
+      "question": "What is the index of the first element in a C array?",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "0",
+        "D": "Any number"
+      },
+      "answer": "C",
+      "explanation": "Array indexing in C starts at 0.",
+      "hash": "151b026854c1b20e",
+      "translations": {
+        "hi": {
+          "question": "C एरे में पहले तत्व का इंडेक्स क्या है?",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "0",
+            "D": "कोई भी संख्या"
+          },
+          "explanation": "C में एरे इंडेक्सिंग 0 से शुरू होती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-014",
+      "number": 14,
+      "question": "Which Java keyword is used to throw an exception manually?",
+      "options": {
+        "A": "throws",
+        "B": "throw",
+        "C": "catch",
+        "D": "finally"
+      },
+      "answer": "B",
+      "explanation": "The throw keyword is used to explicitly throw an exception from a method or block.",
+      "hash": "ce58a6e4bfd518a4",
+      "translations": {
+        "hi": {
+          "question": "मैन्युअल रूप से अपवाद (exception) फेंकने के लिए किस जावा कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "throws",
+            "B": "throw",
+            "C": "catch",
+            "D": "finally"
+          },
+          "explanation": "थ्रो (throw) कीवर्ड का उपयोग किसी मेथड या ब्लॉक से स्पष्ट रूप से अपवाद फेंकने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-015",
+      "number": 15,
+      "question": "What is the return type of the constructor in Java?",
+      "options": {
+        "A": "void",
+        "B": "int",
+        "C": "Class type",
+        "D": "No return type"
+      },
+      "answer": "D",
+      "explanation": "Java constructors do not have a return type, not even void.",
+      "hash": "ec0b073d7e527ffa",
+      "translations": {
+        "hi": {
+          "question": "जावा में कंस्ट्रक्टर का रिटर्न टाइप क्या है?",
+          "options": {
+            "A": "void",
+            "B": "int",
+            "C": "क्लास टाइप",
+            "D": "कोई रिटर्न टाइप नहीं"
+          },
+          "explanation": "जावा कंस्ट्रक्टर का कोई रिटर्न टाइप नहीं होता है, यहाँ तक कि void भी नहीं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-016",
+      "number": 16,
+      "question": "In C, which function is used to close an open file?",
+      "options": {
+        "A": "file_close()",
+        "B": "fclose()",
+        "C": "close()",
+        "D": "exit()"
+      },
+      "answer": "B",
+      "explanation": "fclose() is used to release the file pointer and close the stream.",
+      "hash": "b41160e32abfea28",
+      "translations": {
+        "hi": {
+          "question": "C में, खुली हुई फ़ाइल को बंद करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "file_close()",
+            "B": "fclose()",
+            "C": "close()",
+            "D": "exit()"
+          },
+          "explanation": "fclose() का उपयोग फ़ाइल पॉइंटर को मुक्त करने और स्ट्रीम को बंद करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-017",
+      "number": 17,
+      "question": "Which C++ access specifier allows access only within the class and its subclasses?",
+      "options": {
+        "A": "public",
+        "B": "private",
+        "C": "protected",
+        "D": "internal"
+      },
+      "answer": "C",
+      "explanation": "Protected members are accessible to derived classes but not outside.",
+      "hash": "364c7e633ad2560c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा C++ एक्सेस स्पेसिफायर केवल क्लास और उसकी सबक्लास के भीतर पहुँच की अनुमति देता है?",
+          "options": {
+            "A": "public",
+            "B": "private",
+            "C": "protected",
+            "D": "internal"
+          },
+          "explanation": "प्रोटेक्टेड मेंबर्स डिराइव्ड क्लासेज के लिए सुलभ हैं लेकिन बाहर नहीं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-018",
+      "number": 18,
+      "question": "Which Python data type is an ordered collection of elements and is mutable?",
+      "options": {
+        "A": "List",
+        "B": "Tuple",
+        "C": "Set",
+        "D": "Dictionary"
+      },
+      "answer": "A",
+      "explanation": "Lists are ordered and can be modified after creation.",
+      "hash": "8c6829bab03c5c73",
+      "translations": {
+        "hi": {
+          "question": "कौन सा पायथन डेटा टाइप तत्वों का एक क्रमबद्ध संग्रह है और म्यूटेबल (परिवर्तनीय) है?",
+          "options": {
+            "A": "लिस्ट",
+            "B": "टपल",
+            "C": "सेट",
+            "D": "डिक्शनरी"
+          },
+          "explanation": "लिस्ट क्रमबद्ध होती हैं और निर्माण के बाद संशोधित की जा सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-019",
+      "number": 19,
+      "question": "Which operator is used to check if two values are equal in Java?",
+      "options": {
+        "A": "=",
+        "B": "==",
+        "C": "===",
+        "D": "!="
+      },
+      "answer": "B",
+      "explanation": "The double equals (==) is the relational equality operator.",
+      "hash": "a178c4c5a3f1505c",
+      "translations": {
+        "hi": {
+          "question": "जावा में दो मान बराबर हैं या नहीं, यह जाँचने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "=",
+            "B": "==",
+            "C": "===",
+            "D": "!="
+          },
+          "explanation": "डबल इक्वल्स (==) रिलेशनल इक्वैलिटी ऑपरेटर है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-020",
+      "number": 20,
+      "question": "Which Python function is used to read input from the user?",
+      "options": {
+        "A": "get()",
+        "B": "read()",
+        "C": "input()",
+        "D": "scan()"
+      },
+      "answer": "C",
+      "explanation": "input() reads a line from input and returns it as a string.",
+      "hash": "28464e08c6e5dd5b",
+      "translations": {
+        "hi": {
+          "question": "उपयोगकर्ता से इनपुट पढ़ने के लिए किस पायथन फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "get()",
+            "B": "read()",
+            "C": "input()",
+            "D": "scan()"
+          },
+          "explanation": "input() इनपुट से एक लाइन पढ़ता है और उसे स्ट्रिंग के रूप में लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-021",
+      "number": 21,
+      "question": "In C, what happens if you access an array index out of bounds?",
+      "options": {
+        "A": "Compilation error",
+        "B": "Runtime error",
+        "C": "Undefined behavior",
+        "D": "Array size increases"
+      },
+      "answer": "C",
+      "explanation": "C does not perform bound checking, leading to potential memory corruption or crashes.",
+      "hash": "938e8e677081245c",
+      "translations": {
+        "hi": {
+          "question": "C में, यदि आप सीमा से बाहर (out of bounds) एरे इंडेक्स तक पहुँचते हैं तो क्या होता है?",
+          "options": {
+            "A": "कंपाइलेशन एरर",
+            "B": "रनटाइम एरर",
+            "C": "अनडिफाइंड बिहेवियर",
+            "D": "एरे का आकार बढ़ जाता है"
+          },
+          "explanation": "C बाउंड चेकिंग नहीं करता है, जिससे संभावित मेमोरी करप्शन या क्रैश हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-022",
+      "number": 22,
+      "question": "In Python, which method is used to add an item to the end of a list?",
+      "options": {
+        "A": "insert()",
+        "B": "add()",
+        "C": "push()",
+        "D": "append()"
+      },
+      "answer": "D",
+      "explanation": "append() adds a single element to the end of the list.",
+      "hash": "e1c8a43092709090",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, लिस्ट के अंत में आइटम जोड़ने के लिए किस मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "insert()",
+            "B": "add()",
+            "C": "push()",
+            "D": "append()"
+          },
+          "explanation": "append() लिस्ट के अंत में एक एकल तत्व जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-023",
+      "number": 23,
+      "question": "What is 'polymorphism' in OOP?",
+      "options": {
+        "A": "Hiding data",
+        "B": "One interface, multiple forms",
+        "C": "Inheriting from parent",
+        "D": "Creating multiple objects"
+      },
+      "answer": "B",
+      "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass.",
+      "hash": "018236575d82be87",
+      "translations": {
+        "hi": {
+          "question": "OOP में 'पॉलीमॉर्फिज्म' क्या है?",
+          "options": {
+            "A": "डेटा छिपाना",
+            "B": "एक इंटरफेस, कई रूप",
+            "C": "पैरेंट से इनहेरिट करना",
+            "D": "कई ऑब्जेक्ट बनाना"
+          },
+          "explanation": "पॉलीमॉर्फिज्म विभिन्न क्लासेज के ऑब्जेक्ट्स को एक कॉमन सुपरक्लास के ऑब्जेक्ट्स के रूप में मानने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-024",
+      "number": 24,
+      "question": "Which C function is used to dynamically allocate memory for an array and initialize it to zero?",
+      "options": {
+        "A": "malloc()",
+        "B": "realloc()",
+        "C": "calloc()",
+        "D": "alloc()"
+      },
+      "answer": "C",
+      "explanation": "calloc() allocates memory and clears it to zero, unlike malloc().",
+      "hash": "2be676623a236bce",
+      "translations": {
+        "hi": {
+          "question": "किस C फ़ंक्शन का उपयोग एरे के लिए डायनामिक रूप से मेमोरी आवंटित करने और उसे शून्य पर इनिशियलाइज करने के लिए किया जाता है?",
+          "options": {
+            "A": "malloc()",
+            "B": "realloc()",
+            "C": "calloc()",
+            "D": "alloc()"
+          },
+          "explanation": "calloc() मेमोरी आवंटित करता है और उसे शून्य पर क्लियर करता है, malloc() के विपरीत।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-025",
+      "number": 25,
+      "question": "Which keyword is used to inherit a class in C++?",
+      "options": {
+        "A": "extends",
+        "B": ":",
+        "C": "::",
+        "D": "->"
+      },
+      "answer": "B",
+      "explanation": "In C++, the colon (:) is used to specify the base class during inheritance.",
+      "hash": "da27ff306e5cb6e7",
+      "translations": {
+        "hi": {
+          "question": "C++ में क्लास को इनहेरिट करने के लिए किस कीवर्ड (प्रतीक) का उपयोग किया जाता है?",
+          "options": {
+            "A": "extends",
+            "B": ":",
+            "C": "::",
+            "D": "->"
+          },
+          "explanation": "C++ में, इनहेरिटेंस के दौरान बेस क्लास को निर्दिष्ट करने के लिए कोलन (:) का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-026",
+      "number": 26,
+      "question": "What is the size of a boolean data type in Java?",
+      "options": {
+        "A": "1 bit",
+        "B": "1 byte",
+        "C": "4 bytes",
+        "D": "Size is not precisely defined"
+      },
+      "answer": "D",
+      "explanation": "The JVM specification does not define the size, though it often uses 1 byte.",
+      "hash": "682c027339936633",
+      "translations": {
+        "hi": {
+          "question": "जावा में बुलियन डेटा टाइप का आकार क्या है?",
+          "options": {
+            "A": "1 बिट",
+            "B": "1 बाइट",
+            "C": "4 बाइट्स",
+            "D": "आकार सटीक रूप से परिभाषित नहीं है"
+          },
+          "explanation": "JVM विनिर्देश आकार को परिभाषित नहीं करता है, हालांकि यह अक्सर 1 बाइट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-027",
+      "number": 27,
+      "question": "In Python, what is the output of 'bool(0)'?",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "None",
+        "D": "Error"
+      },
+      "answer": "B",
+      "explanation": "In Python, 0 is considered False and non-zero values are True.",
+      "hash": "4bfb1d21b7bd9f27",
+      "translations": {
+        "hi": {
+          "question": "पायथन में 'bool(0)' का आउटपुट क्या है?",
+          "options": {
+            "A": "True",
+            "B": "False",
+            "C": "None",
+            "D": "Error"
+          },
+          "explanation": "पायथन में, 0 को False माना जाता है और गैर-शून्य मानों को True माना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-028",
+      "number": 28,
+      "question": "What is the purpose of a constructor in C++?",
+      "options": {
+        "A": "To destroy an object",
+        "B": "To initialize an object",
+        "C": "To copy an object",
+        "D": "To call private members"
+      },
+      "answer": "B",
+      "explanation": "A constructor is automatically called when an instance of a class is created.",
+      "hash": "4f1fe9c7c11354cb",
+      "translations": {
+        "hi": {
+          "question": "C++ में कंस्ट्रक्टर का उद्देश्य क्या है?",
+          "options": {
+            "A": "ऑब्जेक्ट को नष्ट करना",
+            "B": "ऑब्जेक्ट को इनिशियलाइज करना",
+            "C": "ऑब्जेक्ट को कॉपी करना",
+            "D": "प्राइवेट मेंबर्स को कॉल करना"
+          },
+          "explanation": "क्लास का इंस्टेंस बनने पर कंस्ट्रक्टर अपने आप कॉल हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-029",
+      "number": 29,
+      "question": "Which Java keyword is used to jump out of a loop?",
+      "options": {
+        "A": "exit",
+        "B": "break",
+        "C": "stop",
+        "D": "return"
+      },
+      "answer": "B",
+      "explanation": "The break statement exits the current loop immediately.",
+      "hash": "628b3c7f7b6406ff",
+      "translations": {
+        "hi": {
+          "question": "लूप से बाहर कूदने के लिए किस जावा कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "exit",
+            "B": "break",
+            "C": "stop",
+            "D": "return"
+          },
+          "explanation": "break स्टेटमेंट वर्तमान लूप से तुरंत बाहर निकल जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-04-030",
+      "number": 30,
+      "question": "Which Python module is used to work with regular expressions?",
+      "options": {
+        "A": "regex",
+        "B": "re",
+        "C": "expressions",
+        "D": "math"
+      },
+      "answer": "B",
+      "explanation": "The 're' module provides support for regular expressions in Python.",
+      "hash": "29d07c78d46cd6d1",
+      "translations": {
+        "hi": {
+          "question": "रेगुलर एक्सप्रेशन के साथ काम करने के लिए किस पायथन मॉड्यूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "regex",
+            "B": "re",
+            "C": "expressions",
+            "D": "math"
+          },
+          "explanation": "'re' मॉड्यूल पायथन में रेगुलर एक्सप्रेशन के लिए समर्थन प्रदान करता है।"
+        }
+      }
+    }
+  ]
+}

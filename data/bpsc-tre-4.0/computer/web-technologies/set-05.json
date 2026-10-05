@@ -1,0 +1,787 @@
+{
+  "subject": "Web Technologies",
+  "set": 5,
+  "title": "Web Technologies Mock Test 5",
+  "questions": [
+    {
+      "id": "web-technologies-05-001",
+      "number": 1,
+      "question": "Which CSS property is used to specify the transparency of an element?",
+      "options": {
+        "A": "visibility",
+        "B": "filter",
+        "C": "opacity",
+        "D": "overlay"
+      },
+      "answer": "C",
+      "explanation": "Opacity ranges from 0.0 (fully transparent) to 1.0 (fully opaque).",
+      "hash": "a10626e765d805f4",
+      "translations": {
+        "hi": {
+          "question": "किसी तत्व की पारदर्शिता (transparency) निर्दिष्ट करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "visibility",
+            "B": "filter",
+            "C": "opacity",
+            "D": "overlay"
+          },
+          "explanation": "ओपेसिटी 0.0 (पूरी तरह से पारदर्शी) से 1.0 (पूरी तरह से अपारदर्शी) तक होती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-002",
+      "number": 2,
+      "question": "Which HTML5 tag is used to specify a caption for the <figure> element?",
+      "options": {
+        "A": "<caption>",
+        "B": "<fig-title>",
+        "C": "<figcaption>",
+        "D": "<legend>"
+      },
+      "answer": "C",
+      "explanation": "The <figcaption> element provides a label or description for the figure.",
+      "hash": "08904b9677b15319",
+      "translations": {
+        "hi": {
+          "question": "<figure> तत्व के लिए कैप्शन निर्दिष्ट करने के लिए किस HTML5 टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<caption>",
+            "B": "<fig-title>",
+            "C": "<figcaption>",
+            "D": "<legend>"
+          },
+          "explanation": "<figcaption> तत्व आकृति (figure) के लिए लेबल या विवरण प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-003",
+      "number": 3,
+      "question": "In JavaScript, what is the purpose of the 'map()' array method?",
+      "options": {
+        "A": "To filter items based on a condition",
+        "B": "To create a new array by calling a function on every element",
+        "C": "To find the index of a specific element",
+        "D": "To sort the array in ascending order"
+      },
+      "answer": "B",
+      "explanation": "map() iterates through an array and returns a new array with modified values.",
+      "hash": "ddf3bc4501b20d5f",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, 'map()' ऐरे मेथड का उद्देश्य क्या है?",
+          "options": {
+            "A": "किसी शर्त के आधार पर आइटम फ़िल्टर करना",
+            "B": "प्रत्येक तत्व पर फ़ंक्शन कॉल करके एक नया ऐरे बनाना",
+            "C": "किसी विशिष्ट तत्व का इंडेक्स खोजना",
+            "D": "ऐरे को आरोही क्रम में सॉर्ट करना"
+          },
+          "explanation": "map() एक ऐरे के माध्यम से पुनरावृत्ति करता है और संशोधित मानों के साथ एक नया ऐरे लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-004",
+      "number": 4,
+      "question": "Which CSS property defines the space between the content and the border?",
+      "options": {
+        "A": "margin",
+        "B": "border-width",
+        "C": "padding",
+        "D": "outline"
+      },
+      "answer": "C",
+      "explanation": "Padding is internal space, while margin is external space.",
+      "hash": "fd4fe5468d069086",
+      "translations": {
+        "hi": {
+          "question": "कौन सी CSS प्रॉपर्टी कंटेंट और बॉर्डर के बीच की जगह को परिभाषित करती है?",
+          "options": {
+            "A": "margin",
+            "B": "border-width",
+            "C": "padding",
+            "D": "outline"
+          },
+          "explanation": "पैडिंग आंतरिक स्थान है, जबकि मार्जिन बाहरी स्थान है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-005",
+      "number": 5,
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": {
+        "A": "<css>",
+        "B": "<script>",
+        "C": "<style>",
+        "D": "<link>"
+      },
+      "answer": "C",
+      "explanation": "The <style> tag is placed within the <head> section for internal CSS.",
+      "hash": "0c03c62f514000c2",
+      "translations": {
+        "hi": {
+          "question": "इंटरनल स्टाइल शीट को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<css>",
+            "B": "<script>",
+            "C": "<style>",
+            "D": "<link>"
+          },
+          "explanation": "इंटरनल CSS के लिए <style> टैग को <head> सेक्शन के अंदर रखा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-006",
+      "number": 6,
+      "question": "Which CSS property is used to change the order of flex items?",
+      "options": {
+        "A": "item-order",
+        "B": "flex-index",
+        "C": "order",
+        "D": "z-index"
+      },
+      "answer": "C",
+      "explanation": "The order property specifies the order of a flexible item relative to others.",
+      "hash": "4f846b7ebc40d2c7",
+      "translations": {
+        "hi": {
+          "question": "फ्लेक्स आइटम के क्रम (order) को बदलने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "item-order",
+            "B": "flex-index",
+            "C": "order",
+            "D": "z-index"
+          },
+          "explanation": "order प्रॉपर्टी दूसरों के सापेक्ष फ्लेक्सिबल आइटम का क्रम निर्दिष्ट करती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-007",
+      "number": 7,
+      "question": "What is the correct syntax for a JavaScript arrow function?",
+      "options": {
+        "A": "let myFunc = () -> {}",
+        "B": "let myFunc = () => {}",
+        "C": "let myFunc = function() => {}",
+        "D": "let myFunc = arrow() {}"
+      },
+      "answer": "B",
+      "explanation": "Arrow functions use the \"fat arrow\" (=>) syntax introduced in ES6.",
+      "hash": "409c624e4d39da2d",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट एरो फ़ंक्शन (arrow function) के लिए सही सिंटैक्स क्या है?",
+          "options": {
+            "A": "let myFunc = () -> {}",
+            "B": "let myFunc = () => {}",
+            "C": "let myFunc = function() => {}",
+            "D": "let myFunc = arrow() {}"
+          },
+          "explanation": "एरो फ़ंक्शन ES6 में पेश किए गए \"फैट एरो\" (=>) सिंटैक्स का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-008",
+      "number": 8,
+      "question": "Which HTML5 attribute provides a hint to the user of what can be entered in the field?",
+      "options": {
+        "A": "hint",
+        "B": "value",
+        "C": "placeholder",
+        "D": "tooltip"
+      },
+      "answer": "C",
+      "explanation": "Placeholder text disappears when the user starts typing in the input field.",
+      "hash": "4216de8fd31f7192",
+      "translations": {
+        "hi": {
+          "question": "कौन सा HTML5 एट्रिब्यूट उपयोगकर्ता को संकेत देता है कि फ़ील्ड में क्या दर्ज किया जा सकता है?",
+          "options": {
+            "A": "hint",
+            "B": "value",
+            "C": "placeholder",
+            "D": "tooltip"
+          },
+          "explanation": "जब उपयोगकर्ता इनपुट फ़ील्ड में टाइप करना शुरू करता है तो प्लेसहोल्डर टेक्स्ट गायब हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-009",
+      "number": 9,
+      "question": "Which CSS property allows text to be wrapped to the next line when it overflows its container?",
+      "options": {
+        "A": "text-overflow",
+        "B": "overflow-wrap",
+        "C": "white-space",
+        "D": "word-break"
+      },
+      "answer": "B",
+      "explanation": "overflow-wrap (or word-wrap) specifies whether the browser can break lines within words.",
+      "hash": "2345963f57b8e125",
+      "translations": {
+        "hi": {
+          "question": "जब टेक्स्ट अपने कंटेनर से बाहर निकल जाता है, तो उसे अगली लाइन में रैप करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "text-overflow",
+            "B": "overflow-wrap",
+            "C": "white-space",
+            "D": "word-break"
+          },
+          "explanation": "overflow-wrap (या word-wrap) निर्दिष्ट करता है कि क्या ब्राउज़र शब्दों के भीतर लाइन तोड़ सकता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-010",
+      "number": 10,
+      "question": "Which JavaScript method adds one or more elements to the end of an array?",
+      "options": {
+        "A": "shift()",
+        "B": "unshift()",
+        "C": "push()",
+        "D": "pop()"
+      },
+      "answer": "C",
+      "explanation": "push() adds elements to the end, while unshift() adds them to the beginning.",
+      "hash": "9fd6ab6b242f469e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा जावास्क्रिप्ट मेथड किसी ऐरे के अंत में एक या अधिक तत्वों को जोड़ता है?",
+          "options": {
+            "A": "shift()",
+            "B": "unshift()",
+            "C": "push()",
+            "D": "pop()"
+          },
+          "explanation": "push() अंत में तत्व जोड़ता है, जबकि unshift() उन्हें शुरुआत में जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-011",
+      "number": 11,
+      "question": "Which HTML element is used to define a set of data terms and descriptions?",
+      "options": {
+        "A": "<ul>",
+        "B": "<ol>",
+        "C": "<dl>",
+        "D": "<list>"
+      },
+      "answer": "C",
+      "explanation": "<dl> defines a description list, used with <dt> (term) and <dd> (description).",
+      "hash": "3767ae7e0cf0e3a5",
+      "translations": {
+        "hi": {
+          "question": "डेटा शर्तों और विवरणों के एक सेट को परिभाषित करने के लिए किस HTML तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<ul>",
+            "B": "<ol>",
+            "C": "<dl>",
+            "D": "<list>"
+          },
+          "explanation": "<dl> एक विवरण सूची को परिभाषित करता है, जिसका उपयोग <dt> (शब्द) और <dd> (विवरण) के साथ किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-012",
+      "number": 12,
+      "question": "Which CSS property is used to create a grid container?",
+      "options": {
+        "A": "grid-template",
+        "B": "display: grid;",
+        "C": "layout: grid;",
+        "D": "type: grid;"
+      },
+      "answer": "B",
+      "explanation": "Applying display: grid; enables the CSS Grid Layout module.",
+      "hash": "ecc20373f18f8d88",
+      "translations": {
+        "hi": {
+          "question": "ग्रिड कंटेनर बनाने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "grid-template",
+            "B": "display: grid;",
+            "C": "layout: grid;",
+            "D": "type: grid;"
+          },
+          "explanation": "display: grid; लागू करने से CSS ग्रिड लेआउट मॉड्यूल सक्षम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-013",
+      "number": 13,
+      "question": "Which HTML tag is used to define the main content of a document?",
+      "options": {
+        "A": "<section>",
+        "B": "<content>",
+        "C": "<main>",
+        "D": "<body>"
+      },
+      "answer": "C",
+      "explanation": "The <main> tag represents the dominant content of the <body>.",
+      "hash": "98115249a3962142",
+      "translations": {
+        "hi": {
+          "question": "दस्तावेज़ की मुख्य सामग्री को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<section>",
+            "B": "<content>",
+            "C": "<main>",
+            "D": "<body>"
+          },
+          "explanation": "<main> टैग <body> की प्रमुख सामग्री का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-014",
+      "number": 14,
+      "question": "What does the JavaScript 'typeof' operator return for an array?",
+      "options": {
+        "A": "\"array\"",
+        "B": "\"object\"",
+        "C": "\"list\"",
+        "D": "\"undefined\""
+      },
+      "answer": "B",
+      "explanation": "In JavaScript, arrays are technically a type of object.",
+      "hash": "23cb48ac01391fb0",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट 'typeof' ऑपरेटर एक ऐरे के लिए क्या लौटाता है?",
+          "options": {
+            "A": "\"array\"",
+            "B": "\"object\"",
+            "C": "\"list\"",
+            "D": "\"undefined\""
+          },
+          "explanation": "जावास्क्रिप्ट में, ऐरे तकनीकी रूप से एक प्रकार के ऑब्जेक्ट होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-015",
+      "number": 15,
+      "question": "In CSS, what is the default value of the 'overflow' property?",
+      "options": {
+        "A": "hidden",
+        "B": "scroll",
+        "C": "auto",
+        "D": "visible"
+      },
+      "answer": "D",
+      "explanation": "visible means the overflow is not clipped and renders outside the element's box.",
+      "hash": "293fd707e2cc5a3e",
+      "translations": {
+        "hi": {
+          "question": "CSS में, 'overflow' प्रॉपर्टी का डिफॉल्ट मान क्या है?",
+          "options": {
+            "A": "hidden",
+            "B": "scroll",
+            "C": "auto",
+            "D": "visible"
+          },
+          "explanation": "visible का अर्थ है कि ओवरफ्लो कटा हुआ नहीं है और तत्व के बॉक्स के बाहर रेंडर होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-016",
+      "number": 16,
+      "question": "Which HTML5 tag is used to group related options in a <select> dropdown?",
+      "options": {
+        "A": "<optgroup>",
+        "B": "<optiongroup>",
+        "C": "<group>",
+        "D": "<listgroup>"
+      },
+      "answer": "A",
+      "explanation": "<optgroup> creates a non-selectable label for a group of options.",
+      "hash": "a5857d0b0deb3cb2",
+      "translations": {
+        "hi": {
+          "question": "<select> ड्रॉपडाउन में संबंधित विकल्पों को समूहित करने के लिए किस HTML5 टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<optgroup>",
+            "B": "<optiongroup>",
+            "C": "<group>",
+            "D": "<listgroup>"
+          },
+          "explanation": "<optgroup> विकल्पों के समूह के लिए एक गैर-चयन योग्य लेबल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-017",
+      "number": 17,
+      "question": "Which JavaScript function can be used to execute a block of code after a specific number of milliseconds?",
+      "options": {
+        "A": "setInterval()",
+        "B": "setTimer()",
+        "C": "setTimeout()",
+        "D": "wait()"
+      },
+      "answer": "C",
+      "explanation": "setTimeout() executes the code once after the delay.",
+      "hash": "549a3c0cc079dd5c",
+      "translations": {
+        "hi": {
+          "question": "विशिष्ट संख्या में मिलीसेकंड के बाद कोड के ब्लॉक को निष्पादित करने के लिए किस जावास्क्रिप्ट फ़ंक्शन का उपयोग किया जा सकता है?",
+          "options": {
+            "A": "setInterval()",
+            "B": "setTimer()",
+            "C": "setTimeout()",
+            "D": "wait()"
+          },
+          "explanation": "setTimeout() विलंब के बाद कोड को एक बार निष्पादित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-018",
+      "number": 18,
+      "question": "Which JavaScript method is used to combine two or more arrays?",
+      "options": {
+        "A": "join()",
+        "B": "combine()",
+        "C": "concat()",
+        "D": "merge()"
+      },
+      "answer": "C",
+      "explanation": "concat() creates a new array by merging existing arrays.",
+      "hash": "7f9930d33ee2430b",
+      "translations": {
+        "hi": {
+          "question": "दो या दो से अधिक ऐरे को जोड़ने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "join()",
+            "B": "combine()",
+            "C": "concat()",
+            "D": "merge()"
+          },
+          "explanation": "concat() मौजूदा ऐरे को मिलाकर एक नया ऐरे बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-019",
+      "number": 19,
+      "question": "What does the 'S' stand for in HTTPS?",
+      "options": {
+        "A": "Simple",
+        "B": "Standard",
+        "C": "Secure",
+        "D": "Synchronized"
+      },
+      "answer": "C",
+      "explanation": "The 'S' stands for Secure, indicating the data is encrypted via SSL/TLS.",
+      "hash": "57a6fb4d142634bf",
+      "translations": {
+        "hi": {
+          "question": "HTTPS में 'S' का क्या अर्थ है?",
+          "options": {
+            "A": "सिंपल",
+            "B": "स्टैंडर्ड",
+            "C": "सिक्योर",
+            "D": "सिंक्रोनाइज़्ड"
+          },
+          "explanation": "'S' का अर्थ सिक्योर (Secure) है, जो यह दर्शाता है कि डेटा SSL/TLS के माध्यम से एन्क्रिप्ट किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-020",
+      "number": 20,
+      "question": "Which CSS property defines the space between columns in a grid or multi-column layout?",
+      "options": {
+        "A": "column-space",
+        "B": "gap",
+        "C": "margin-columns",
+        "D": "gutter"
+      },
+      "answer": "B",
+      "explanation": "The gap property (formerly grid-gap) sets the size of the gutters between rows and columns.",
+      "hash": "2a30ff716aaf1810",
+      "translations": {
+        "hi": {
+          "question": "ग्रिड या मल्टी-कॉलम लेआउट में कॉलम के बीच की जगह को कौन सी CSS प्रॉपर्टी परिभाषित करती है?",
+          "options": {
+            "A": "column-space",
+            "B": "gap",
+            "C": "margin-columns",
+            "D": "gutter"
+          },
+          "explanation": "गैप प्रॉपर्टी (पहले ग्रिड-गैप) पंक्तियों और कॉलम के बीच के गटर का आकार निर्धारित करती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-021",
+      "number": 21,
+      "question": "Which CSS pseudo-class matches an element that is the first child of its parent?",
+      "options": {
+        "A": ":first-element",
+        "B": ":first-child",
+        "C": ":child(1)",
+        "D": ":initial-child"
+      },
+      "answer": "B",
+      "explanation": ":first-child targets the very first element inside a container.",
+      "hash": "2fbd2944edf32d81",
+      "translations": {
+        "hi": {
+          "question": "कौन सा CSS सूडो-क्लास उस तत्व से मेल खाता है जो अपने पैरेंट का पहला बच्चा (first child) है?",
+          "options": {
+            "A": ":first-element",
+            "B": ":first-child",
+            "C": ":child(1)",
+            "D": ":initial-child"
+          },
+          "explanation": ":first-child कंटेनर के अंदर सबसे पहले तत्व को लक्षित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-022",
+      "number": 22,
+      "question": "Which HTML element is used to display a progress bar?",
+      "options": {
+        "A": "<loader>",
+        "B": "<progress>",
+        "C": "<meter>",
+        "D": "<bar>"
+      },
+      "answer": "B",
+      "explanation": "The <progress> element represents the completion progress of a task.",
+      "hash": "632b8c4ac53e1c64",
+      "translations": {
+        "hi": {
+          "question": "प्रोग्रेस बार प्रदर्शित करने के लिए किस HTML तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<loader>",
+            "B": "<progress>",
+            "C": "<meter>",
+            "D": "<bar>"
+          },
+          "explanation": "<progress> तत्व किसी कार्य के पूरा होने की प्रगति का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-023",
+      "number": 23,
+      "question": "Which CSS property is used to specify whether the background image should scroll with the page or be fixed?",
+      "options": {
+        "A": "background-scroll",
+        "B": "background-attachment",
+        "C": "background-position",
+        "D": "background-repeat"
+      },
+      "answer": "B",
+      "explanation": "background-attachment: fixed; keeps the background image static during scroll.",
+      "hash": "e66c9a13ad48bfa7",
+      "translations": {
+        "hi": {
+          "question": "यह निर्दिष्ट करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है कि बैकग्राउंड इमेज पेज के साथ स्क्रॉल होनी चाहिए या फिक्स्ड होनी चाहिए?",
+          "options": {
+            "A": "background-scroll",
+            "B": "background-attachment",
+            "C": "background-position",
+            "D": "background-repeat"
+          },
+          "explanation": "background-attachment: fixed; स्क्रॉल के दौरान बैकग्राउंड इमेज को स्थिर रखता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-024",
+      "number": 24,
+      "question": "Which HTML tag is used to define a client-side image map's clickable areas?",
+      "options": {
+        "A": "<map>",
+        "B": "<area>",
+        "C": "<click>",
+        "D": "<region>"
+      },
+      "answer": "B",
+      "explanation": "<area> tags are nested inside a <map> tag to define coordinates.",
+      "hash": "c8ec93d9916419d4",
+      "translations": {
+        "hi": {
+          "question": "क्लाइंट-साइड इमेज मैप के क्लिक करने योग्य क्षेत्रों को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<map>",
+            "B": "<area>",
+            "C": "<click>",
+            "D": "<region>"
+          },
+          "explanation": "निर्देशांकों को परिभाषित करने के लिए <area> टैग को <map> टैग के अंदर नेस्ट किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-025",
+      "number": 25,
+      "question": "Which JavaScript operator is used to check the type of a value?",
+      "options": {
+        "A": "checkType",
+        "B": "typeOf",
+        "C": "typeof",
+        "D": "isType"
+      },
+      "answer": "C",
+      "explanation": "typeof returns a string indicating the type of the unevaluated operand.",
+      "hash": "dc1a37587f3ea8b9",
+      "translations": {
+        "hi": {
+          "question": "किसी मान के प्रकार (type) की जांच करने के लिए किस जावास्क्रिप्ट ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "checkType",
+            "B": "typeOf",
+            "C": "typeof",
+            "D": "isType"
+          },
+          "explanation": "typeof एक स्ट्रिंग लौटाता है जो अनइवैल्यूएटेड ऑपरेंड के प्रकार को इंगित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-026",
+      "number": 26,
+      "question": "Which JavaScript event is triggered when the contents of an input element change?",
+      "options": {
+        "A": "onclick",
+        "B": "onsubmit",
+        "C": "onchange",
+        "D": "onload"
+      },
+      "answer": "C",
+      "explanation": "onchange is triggered when the user commits a change (e.g., leaving the field).",
+      "hash": "d3359b6aaff6b8b6",
+      "translations": {
+        "hi": {
+          "question": "इनपुट तत्व की सामग्री बदलने पर कौन सा जावास्क्रिप्ट इवेंट ट्रिगर होता है?",
+          "options": {
+            "A": "onclick",
+            "B": "onsubmit",
+            "C": "onchange",
+            "D": "onload"
+          },
+          "explanation": "onchange तब ट्रिगर होता है जब उपयोगकर्ता बदलाव करता है (जैसे, फ़ील्ड छोड़ना)।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-027",
+      "number": 27,
+      "question": "Which CSS unit is relative to the width of the viewport's width?",
+      "options": {
+        "A": "vh",
+        "B": "vw",
+        "C": "em",
+        "D": "px"
+      },
+      "answer": "B",
+      "explanation": "1vw is equal to 1% of the width of the viewport.",
+      "hash": "5abb1a197d63d5a4",
+      "translations": {
+        "hi": {
+          "question": "कौन सी CSS इकाई व्यूपोर्ट की चौड़ाई के सापेक्ष है?",
+          "options": {
+            "A": "vh",
+            "B": "vw",
+            "C": "em",
+            "D": "px"
+          },
+          "explanation": "1vw व्यूपोर्ट की चौड़ाई के 1% के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-028",
+      "number": 28,
+      "question": "In JavaScript, what does 'DOM' stand for?",
+      "options": {
+        "A": "Digital Object Model",
+        "B": "Data Object Management",
+        "C": "Document Object Model",
+        "D": "Document Oriented Module"
+      },
+      "answer": "C",
+      "explanation": "DOM is an interface that treats an HTML document as a tree structure.",
+      "hash": "c6e3e4f361e4867c",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, 'DOM' का क्या अर्थ है?",
+          "options": {
+            "A": "डिजिटल ऑब्जेक्ट मॉडल",
+            "B": "डेटा ऑब्जेक्ट मैनेजमेंट",
+            "C": "डॉक्यूमेंट ऑब्जेक्ट मॉडल",
+            "D": "डॉक्यूमेंट ओरिएंटेड मॉड्यूल"
+          },
+          "explanation": "DOM एक इंटरफ़ेस है जो HTML दस्तावेज़ को ट्री स्ट्रक्चर के रूप में मानता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-029",
+      "number": 29,
+      "question": "Which property is used to change the font-style of a text to italic in CSS?",
+      "options": {
+        "A": "text-style",
+        "B": "font-weight",
+        "C": "font-style",
+        "D": "style-font"
+      },
+      "answer": "C",
+      "explanation": "font-style: italic; is the standard way to slant text.",
+      "hash": "f39379b256cc081b",
+      "translations": {
+        "hi": {
+          "question": "CSS में टेक्स्ट के फ़ॉन्ट-स्टाइल को इटैलिक (italic) में बदलने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "text-style",
+            "B": "font-weight",
+            "C": "font-style",
+            "D": "style-font"
+          },
+          "explanation": "font-style: italic; टेक्स्ट को तिरछा करने का मानक तरीका है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-05-030",
+      "number": 30,
+      "question": "Which HTML attribute specifies where to send the form-data when a form is submitted?",
+      "options": {
+        "A": "method",
+        "B": "action",
+        "C": "target",
+        "D": "route"
+      },
+      "answer": "B",
+      "explanation": "The action attribute contains the URL of the server-side script.",
+      "hash": "0b2660a2274289fa",
+      "translations": {
+        "hi": {
+          "question": "कौन सा HTML एट्रिब्यूट यह निर्दिष्ट करता है कि फॉर्म सबमिट होने पर फॉर्म-डेटा कहां भेजा जाए?",
+          "options": {
+            "A": "method",
+            "B": "action",
+            "C": "target",
+            "D": "route"
+          },
+          "explanation": "action एट्रिब्यूट में सर्वर-साइड स्क्रिप्ट का URL होता है।"
+        }
+      }
+    }
+  ]
+}

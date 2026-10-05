@@ -1,0 +1,787 @@
+{
+  "subject": "AI",
+  "set": 3,
+  "title": "AI Mock Test 3",
+  "questions": [
+    {
+      "id": "ai-03-001",
+      "number": 1,
+      "question": "Which search algorithm combines the benefits of both BFS and DFS by increasing the depth limit gradually?",
+      "options": {
+        "A": "Uniform Cost Search",
+        "B": "Iterative Deepening DFS",
+        "C": "Bidirectional Search",
+        "D": "Greedy Search"
+      },
+      "answer": "B",
+      "explanation": "IDDFS is optimal like BFS but uses less memory like DFS.",
+      "hash": "16d9ede7a915f047",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च एल्गोरिथम धीरे-धीरे गहराई की सीमा बढ़ाकर BFS और DFS दोनों के लाभों को जोड़ता है?",
+          "options": {
+            "A": "यूनिफॉर्म कॉस्ट सर्च",
+            "B": "इटरेटिव डीपनिंग DFS",
+            "C": "बाईडायरेक्शनल सर्च",
+            "D": "ग्रीडी सर्च"
+          },
+          "explanation": "IDDFS, BFS की तरह इष्टतम (optimal) है लेकिन DFS की तरह कम मेमोरी का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-002",
+      "number": 2,
+      "question": "What is the term for the process of simplifying a logic expression to its canonical form?",
+      "options": {
+        "A": "Resolution",
+        "B": "Normalization",
+        "C": "Unification",
+        "D": "Skolemization"
+      },
+      "answer": "A",
+      "explanation": "Resolution is a rule of inference used for proving theorems in propositional and first-order logic.",
+      "hash": "d50c5e355288cee4",
+      "translations": {
+        "hi": {
+          "question": "लॉजिक एक्सप्रेशन को उसके कैनोनिकल रूप में सरल बनाने की प्रक्रिया के लिए क्या शब्द है?",
+          "options": {
+            "A": "रेजोल्यूशन",
+            "B": "नॉर्मलाइजेशन",
+            "C": "यूनिफिकेशन",
+            "D": "स्कोलेमाइजेशन"
+          },
+          "explanation": "रेजोल्यूशन इंफरेंस का एक नियम है जिसका उपयोग प्रपोजिशनल और फर्स्ट-ऑर्डर लॉजिक में प्रमेयों को सिद्ध करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-003",
+      "number": 3,
+      "question": "In Neural Networks, what is the 'Vanishing Gradient Problem'?",
+      "options": {
+        "A": "Loss function becomes zero",
+        "B": "Gradients become too small, stopping weights from updating",
+        "C": "The network architecture is deleted",
+        "D": "Input data is lost"
+      },
+      "answer": "B",
+      "explanation": "It often occurs in deep networks using sigmoid activation where gradients diminish during backpropagation.",
+      "hash": "72ffca510d31b48e",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में, 'वैनिशिंग ग्रेडिएंट प्रॉब्लम' क्या है?",
+          "options": {
+            "A": "लॉस फंक्शन शून्य हो जाता है",
+            "B": "ग्रेडिएंट बहुत छोटे हो जाते हैं, जिससे वेट्स अपडेट होना बंद हो जाते हैं",
+            "C": "नेटवर्क आर्किटेक्चर डिलीट हो जाता है",
+            "D": "इनपुट डेटा खो जाता है"
+          },
+          "explanation": "यह अक्सर सिग्मॉइड एक्टिवेशन का उपयोग करने वाले डीप नेटवर्क में होता है जहाँ बैकप्रोपेगेशन के दौरान ग्रेडिएंट कम हो जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-004",
+      "number": 4,
+      "question": "Which heuristic is considered 'Admissible'?",
+      "options": {
+        "A": "One that overestimates the actual cost",
+        "B": "One that never overestimates the actual cost to the goal",
+        "C": "One that equals the actual cost",
+        "D": "One that is always zero"
+      },
+      "answer": "B",
+      "explanation": "An admissible heuristic is necessary for A* search to guarantee an optimal solution.",
+      "hash": "80f20e0f038bba10",
+      "translations": {
+        "hi": {
+          "question": "किस ह्यूरिस्टिक को 'एडमिसिबल' (Admissible) माना जाता है?",
+          "options": {
+            "A": "वह जो वास्तविक लागत को अधिक आंकता है",
+            "B": "वह जो लक्ष्य तक की वास्तविक लागत को कभी अधिक नहीं आंकता",
+            "C": "वह जो वास्तविक लागत के बराबर है",
+            "D": "वह जो हमेशा शून्य रहता है"
+          },
+          "explanation": "A* सर्च के लिए एक इष्टतम समाधान की गारंटी देने के लिए एक एडमिसिबल ह्यूरिस्टिक आवश्यक है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-005",
+      "number": 5,
+      "question": "Which approach is used to handle uncertainty using probability and evidence?",
+      "options": {
+        "A": "Bayesian Networks",
+        "B": "Decision Trees",
+        "C": "Search Trees",
+        "D": "Linear Logic"
+      },
+      "answer": "A",
+      "explanation": "Bayesian networks use directed acyclic graphs to represent probabilistic relationships.",
+      "hash": "850b8b96aee33601",
+      "translations": {
+        "hi": {
+          "question": "संभावना और साक्ष्य का उपयोग करके अनिश्चितता को संभालने के लिए किस दृष्टिकोण का उपयोग किया जाता है?",
+          "options": {
+            "A": "बायेसियन नेटवर्क",
+            "B": "डिसीजन ट्री",
+            "C": "सर्च ट्री",
+            "D": "लीनियर लॉजिक"
+          },
+          "explanation": "बायेसियन नेटवर्क संभाव्य संबंधों का प्रतिनिधित्व करने के लिए डायरेक्टेड एसाइक्लिक ग्राफ का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-006",
+      "number": 6,
+      "question": "What is 'Tuning' in the context of Machine Learning?",
+      "options": {
+        "A": "Changing the hardware",
+        "B": "Adjusting hyperparameters to improve model performance",
+        "C": "Deleting the training set",
+        "D": "Renaming the variables"
+      },
+      "answer": "B",
+      "explanation": "Hyperparameter tuning helps in finding the best configuration for an algorithm.",
+      "hash": "023d5eddb0d0cc9a",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग के संदर्भ में 'ट्यूनिंग' क्या है?",
+          "options": {
+            "A": "हार्डवेयर बदलना",
+            "B": "मॉडल के प्रदर्शन को बेहतर बनाने के लिए हाइपरपैरामीटर को एडजस्ट करना",
+            "C": "ट्रेनिंग सेट को डिलीट करना",
+            "D": "वेरिएबल्स का नाम बदलना"
+          },
+          "explanation": "हाइपरपैरामीटर ट्यूनिंग किसी एल्गोरिथम के लिए सबसे अच्छा कॉन्फ़िगरेशन खोजने में मदद करती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-007",
+      "number": 7,
+      "question": "In First-Order Logic, what does 'Unification' do?",
+      "options": {
+        "A": "It deletes redundant formulas",
+        "B": "It finds a substitution that makes two expressions identical",
+        "C": "It converts logic to binary",
+        "D": "It simplifies the search tree"
+      },
+      "answer": "B",
+      "explanation": "Unification is essential for the resolution process in predicate logic.",
+      "hash": "b2f55a36e8332742",
+      "translations": {
+        "hi": {
+          "question": "फर्स्ट-ऑर्डर लॉजिक में, 'यूनिफिकेशन' क्या करता है?",
+          "options": {
+            "A": "यह अनावश्यक सूत्रों को हटा देता है",
+            "B": "यह एक ऐसा प्रतिस्थापन (substitution) ढूंढता है जो दो भावों को समान बनाता है",
+            "C": "यह लॉजिक को बाइनरी में बदल देता है",
+            "D": "यह सर्च ट्री को सरल बनाता है"
+          },
+          "explanation": "प्रेडिकेट लॉजिक में रेजोल्यूशन प्रक्रिया के लिए यूनिफिकेशन आवश्यक है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-008",
+      "number": 8,
+      "question": "Which learning method uses labeled data but only for a small portion of the dataset?",
+      "options": {
+        "A": "Supervised Learning",
+        "B": "Unsupervised Learning",
+        "C": "Semi-Supervised Learning",
+        "D": "Reinforcement Learning"
+      },
+      "answer": "C",
+      "explanation": "Semi-supervised learning uses a small amount of labeled data with a large amount of unlabeled data.",
+      "hash": "4107e414640d41a2",
+      "translations": {
+        "hi": {
+          "question": "कौन सी लर्निंग विधि लेबल वाले डेटा का उपयोग करती है लेकिन डेटासेट के केवल एक छोटे हिस्से के लिए?",
+          "options": {
+            "A": "सुपरवाइज़्ड लर्निंग",
+            "B": "अनसुपरवाइज़्ड लर्निंग",
+            "C": "सेमी-सुपरवाइज़्ड लर्निंग",
+            "D": "रीइन्फोर्समेंट लर्निंग"
+          },
+          "explanation": "सेमी-सुपरवाइज़्ड लर्निंग बड़ी मात्रा में बिना लेबल वाले डेटा के साथ कम मात्रा में लेबल वाले डेटा का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-009",
+      "number": 9,
+      "question": "What is the 'Knowledge Engineering' process?",
+      "options": {
+        "A": "Building a computer",
+        "B": "The process of building an expert system",
+        "C": "Writing a database query",
+        "D": "Designing a web page"
+      },
+      "answer": "B",
+      "explanation": "It involves acquiring knowledge from experts and coding it into a knowledge base.",
+      "hash": "1ee007f2eaa230cd",
+      "translations": {
+        "hi": {
+          "question": "'नॉलेज इंजीनियरिंग' प्रक्रिया क्या है?",
+          "options": {
+            "A": "कंप्यूटर बनाना",
+            "B": "एक्सपर्ट सिस्टम बनाने की प्रक्रिया",
+            "C": "डेटाबेस क्वेरी लिखना",
+            "D": "वेब पेज डिजाइन करना"
+          },
+          "explanation": "इसमें विशेषज्ञों से ज्ञान प्राप्त करना और उसे नॉलेज बेस में कोड करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-010",
+      "number": 10,
+      "question": "Which search algorithm is used when the path cost is not uniform?",
+      "options": {
+        "A": "Breadth First Search",
+        "B": "Uniform Cost Search",
+        "C": "Depth First Search",
+        "D": "Linear Search"
+      },
+      "answer": "B",
+      "explanation": "UCS expands the node with the lowest path cost g(n).",
+      "hash": "f952b8fe164ab4db",
+      "translations": {
+        "hi": {
+          "question": "जब पथ लागत (path cost) समान नहीं होती है तो किस सर्च एल्गोरिथम का उपयोग किया जाता है?",
+          "options": {
+            "A": "ब्रैड्थ फर्स्ट सर्च",
+            "B": "यूनिफॉर्म कॉस्ट सर्च",
+            "C": "डेप्थ फर्स्ट सर्च",
+            "D": "लीनियर सर्च"
+          },
+          "explanation": "UCS सबसे कम पथ लागत g(n) वाले नोड का विस्तार करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-011",
+      "number": 11,
+      "question": "Which algorithm is primarily used for Object Detection in images?",
+      "options": {
+        "A": "YOLO (You Only Look Once)",
+        "B": "K-Means",
+        "C": "Apriori",
+        "D": "PageRank"
+      },
+      "answer": "A",
+      "explanation": "YOLO is a popular real-time object detection system.",
+      "hash": "3ac696084dbc01b7",
+      "translations": {
+        "hi": {
+          "question": "मुख्य रूप से छवियों में ऑब्जेक्ट डिटेक्शन के लिए किस एल्गोरिथम का उपयोग किया जाता है?",
+          "options": {
+            "A": "योलो (YOLO)",
+            "B": "के-मीन्स",
+            "C": "एप्रीओरी",
+            "D": "पेजरैंक"
+          },
+          "explanation": "YOLO एक लोकप्रिय रीयल-टाइम ऑब्जेक्ट डिटेक्शन सिस्टम है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-012",
+      "number": 12,
+      "question": "What is a 'Agent Function' in AI?",
+      "options": {
+        "A": "A hardware driver",
+        "B": "A mapping from percept sequences to actions",
+        "C": "A mathematical error",
+        "D": "A user manual"
+      },
+      "answer": "B",
+      "explanation": "It defines the behavior of an agent by mapping inputs to outputs.",
+      "hash": "e9317664bb44f977",
+      "translations": {
+        "hi": {
+          "question": "एआई में 'एजेंट फंक्शन' क्या है?",
+          "options": {
+            "A": "एक हार्डवेयर ड्राइवर",
+            "B": "धारणा अनुक्रमों (percept sequences) से क्रियाओं तक का मैपिंग",
+            "C": "एक गणितीय एरर",
+            "D": "एक यूजर मैनुअल"
+          },
+          "explanation": "यह इनपुट को आउटपुट से मैप करके एजेंट के व्यवहार को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-013",
+      "number": 13,
+      "question": "In Game Theory, what is 'Nash Equilibrium'?",
+      "options": {
+        "A": "When all players lose",
+        "B": "A state where no player can benefit by changing strategy alone",
+        "C": "The start of the game",
+        "D": "A tie between two players"
+      },
+      "answer": "B",
+      "explanation": "At equilibrium, each player's strategy is optimal given the strategies of others.",
+      "hash": "ded5c0bdadbfa19f",
+      "translations": {
+        "hi": {
+          "question": "गेम थ्योरी में, 'नैश इक्विलिब्रियम' क्या है?",
+          "options": {
+            "A": "जब सभी खिलाड़ी हार जाते हैं",
+            "B": "ऐसी स्थिति जहाँ कोई भी खिलाड़ी अकेले रणनीति बदलकर लाभ नहीं उठा सकता",
+            "C": "खेल की शुरुआत",
+            "D": "दो खिलाड़ियों के बीच मुकाबला टाई होना"
+          },
+          "explanation": "इक्विलिब्रियम पर, प्रत्येक खिलाड़ी की रणनीति दूसरों की रणनीतियों को देखते हुए इष्टतम होती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-014",
+      "number": 14,
+      "question": "What is 'Regularization' used for in AI?",
+      "options": {
+        "A": "To speed up the CPU",
+        "B": "To prevent overfitting",
+        "C": "To format the database",
+        "D": "To increase learning rate"
+      },
+      "answer": "B",
+      "explanation": "Regularization adds a penalty to the loss function to keep weights small.",
+      "hash": "8696df58c3215438",
+      "translations": {
+        "hi": {
+          "question": "एआई में 'रेगुलराइजेशन' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "सीपीयू को तेज करने के लिए",
+            "B": "ओवरफिटिंग को रोकने के लिए",
+            "C": "डेटाबेस को फॉर्मेट करने के लिए",
+            "D": "लर्निंग रेट बढ़ाने के लिए"
+          },
+          "explanation": "रेगुलराइजेशन वेट्स को छोटा रखने के लिए लॉस फंक्शन में पेनल्टी जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-015",
+      "number": 15,
+      "question": "What is the 'Wumpus World' used for in AI textbooks?",
+      "options": {
+        "A": "To explain hardware cooling",
+        "B": "To illustrate reasoning and logic agents",
+        "C": "To design social media",
+        "D": "To test internet speed"
+      },
+      "answer": "B",
+      "explanation": "It is a grid-based environment used to show how an agent uses logic to navigate safely.",
+      "hash": "dfaeb3ba8d32f5b2",
+      "translations": {
+        "hi": {
+          "question": "एआई पाठ्यपुस्तकों में 'वम्पस वर्ल्ड' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "हार्डवेयर कूलिंग समझाने के लिए",
+            "B": "तर्क और लॉजिक एजेंटों को समझाने के लिए",
+            "C": "सोशल मीडिया डिजाइन करने के लिए",
+            "D": "इंटरनेट स्पीड टेस्ट करने के लिए"
+          },
+          "explanation": "यह एक ग्रिड-आधारित वातावरण है जिसका उपयोग यह दिखाने के लिए किया जाता है कि एक एजेंट सुरक्षित रूप से नेविगेट करने के लिए लॉजिक का उपयोग कैसे करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-016",
+      "number": 16,
+      "question": "Which term describes the AI's ability to adjust its own internal parameters?",
+      "options": {
+        "A": "Sensing",
+        "B": "Learning",
+        "C": "Actuating",
+        "D": "Transmitting"
+      },
+      "answer": "B",
+      "explanation": "Learning allows the system to improve its performance over time.",
+      "hash": "b36413b156e5cfb2",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द एआई की अपने आंतरिक मापदंडों को समायोजित करने की क्षमता का वर्णन करता है?",
+          "options": {
+            "A": "सेंसिंग",
+            "B": "लर्निंग",
+            "C": "एक्चुएटिंग",
+            "D": "ट्रांसमिटिंग"
+          },
+          "explanation": "लर्निंग सिस्टम को समय के साथ अपने प्रदर्शन में सुधार करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-017",
+      "number": 17,
+      "question": "Which search algorithm is considered 'Blind Search'?",
+      "options": {
+        "A": "A* Search",
+        "B": "Best First Search",
+        "C": "Breadth First Search",
+        "D": "Hill Climbing"
+      },
+      "answer": "C",
+      "explanation": "Blind search (Uninformed) has no domain-specific knowledge about the goal.",
+      "hash": "033ce64037d5c209",
+      "translations": {
+        "hi": {
+          "question": "किस सर्च एल्गोरिथम को 'ब्लाइंड सर्च' माना जाता है?",
+          "options": {
+            "A": "ए* सर्च",
+            "B": "बेस्ट फर्स्ट सर्च",
+            "C": "ब्रैड्थ फर्स्ट सर्च",
+            "D": "हिल क्लाइंबिंग"
+          },
+          "explanation": "ब्लाइंड सर्च (अनइन्फॉर्मड) को लक्ष्य के बारे में कोई डोमेन-विशिष्ट ज्ञान नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-018",
+      "number": 18,
+      "question": "What is the 'Cost Function' in Machine Learning?",
+      "options": {
+        "A": "The price of the software",
+        "B": "A function that measures the error between predicted and actual values",
+        "C": "The power consumption of the model",
+        "D": "The number of lines of code"
+      },
+      "answer": "B",
+      "explanation": "The goal of training is to minimize the cost function.",
+      "hash": "f47e92d9d841d185",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में 'कॉस्ट फंक्शन' क्या है?",
+          "options": {
+            "A": "सॉफ्टवेयर की कीमत",
+            "B": "एक फंक्शन जो अनुमानित और वास्तविक मानों के बीच एरर को मापता है",
+            "C": "मॉडल की बिजली खपत",
+            "D": "कोड की लाइनों की संख्या"
+          },
+          "explanation": "ट्रेनिंग का लक्ष्य कॉस्ट फंक्शन को कम करना है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-019",
+      "number": 19,
+      "question": "Which type of environment is one where the agent’s sensor gives it access to the complete state?",
+      "options": {
+        "A": "Partially Observable",
+        "B": "Fully Observable",
+        "C": "Non-Observable",
+        "D": "Episodic"
+      },
+      "answer": "B",
+      "explanation": "In a fully observable environment, the agent can see everything relevant to the task.",
+      "hash": "77fc94bf3d0966ec",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का वातावरण वह है जहाँ एजेंट का सेंसर उसे पूरी स्थिति तक पहुँच प्रदान करता है?",
+          "options": {
+            "A": "आंशिक रूप से अवलोकन योग्य",
+            "B": "पूरी तरह से अवलोकन योग्य",
+            "C": "गैर-अवलोकन योग्य",
+            "D": "एपिसोडिक"
+          },
+          "explanation": "पूरी तरह से अवलोकन योग्य वातावरण में, एजेंट कार्य से संबंधित सब कुछ देख सकता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-020",
+      "number": 20,
+      "question": "In a Decision Tree, what is 'Pruning'?",
+      "options": {
+        "A": "Growing the tree",
+        "B": "Reducing the size of the tree to prevent overfitting",
+        "C": "Changing the root node",
+        "D": "Deleting the entire tree"
+      },
+      "answer": "B",
+      "explanation": "Pruning removes branches that provide little power to classify instances.",
+      "hash": "2335ee66ad3f9868",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में 'प्रूनिंग' क्या है?",
+          "options": {
+            "A": "ट्री को बढ़ाना",
+            "B": "ओवरफिटिंग को रोकने के लिए ट्री का आकार कम करना",
+            "C": "रूट नोड को बदलना",
+            "D": "पूरे ट्री को डिलीट करना"
+          },
+          "explanation": "प्रूनिंग उन शाखाओं को हटा देती है जो उदाहरणों को वर्गीकृत करने के लिए बहुत कम शक्ति प्रदान करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-021",
+      "number": 21,
+      "question": "In AI, what is 'Natural Language Generation' (NLG)?",
+      "options": {
+        "A": "Translating text to binary",
+        "B": "Producing human-like text from structured data",
+        "C": "Reading text aloud",
+        "D": "Deleting spam emails"
+      },
+      "answer": "B",
+      "explanation": "NLG is a subfield of NLP focused on turning data into understandable language.",
+      "hash": "7bb36749dcab3bff",
+      "translations": {
+        "hi": {
+          "question": "एआई में 'नेचुरल लैंग्वेज जनरेशन' (NLG) क्या है?",
+          "options": {
+            "A": "टेक्स्ट को बाइनरी में अनुवाद करना",
+            "B": "संरचित डेटा से मानव जैसा टेक्स्ट तैयार करना",
+            "C": "टेक्स्ट को जोर से पढ़ना",
+            "D": "स्पैम ईमेल हटाना"
+          },
+          "explanation": "NLG, एनएलपी का एक उपक्षेत्र है जो डेटा को समझने योग्य भाषा में बदलने पर केंद्रित है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-022",
+      "number": 22,
+      "question": "What does 'Fuzzy Set Theory' deal with?",
+      "options": {
+        "A": "Precise mathematical values",
+        "B": "Partial membership and ambiguity",
+        "C": "Binary logic only",
+        "D": "Database normalization"
+      },
+      "answer": "B",
+      "explanation": "Fuzzy sets allow elements to have degrees of membership between 0 and 1.",
+      "hash": "550c66baa916c2c6",
+      "translations": {
+        "hi": {
+          "question": "'फजी सेट थ्योरी' किससे संबंधित है?",
+          "options": {
+            "A": "सटीक गणितीय मान",
+            "B": "आंशिक सदस्यता और अस्पष्टता",
+            "C": "केवल बाइनरी लॉजिक",
+            "D": "डेटाबेस नॉर्मलाइजेशन"
+          },
+          "explanation": "फजी सेट तत्वों को 0 और 1 के बीच सदस्यता की डिग्री रखने की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-023",
+      "number": 23,
+      "question": "Which of the following is a 'Top-Down' approach in AI?",
+      "options": {
+        "A": "Neural Networks",
+        "B": "Expert Systems",
+        "C": "Genetic Algorithms",
+        "D": "Deep Learning"
+      },
+      "answer": "B",
+      "explanation": "Expert systems start with high-level rules, unlike neural networks which learn from data.",
+      "hash": "04ee4afa5152ebd3",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन एआई में 'टॉप-डाउन' दृष्टिकोण है?",
+          "options": {
+            "A": "न्यूरल नेटवर्क",
+            "B": "एक्सपर्ट सिस्टम",
+            "C": "जेनेटिक एल्गोरिदम",
+            "D": "डीप लर्निंग"
+          },
+          "explanation": "एक्सपर्ट सिस्टम उच्च-स्तरीय नियमों के साथ शुरू होते हैं, न्यूरल नेटवर्क के विपरीत जो डेटा से सीखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-024",
+      "number": 24,
+      "question": "What is 'Deep Learning' a subset of?",
+      "options": {
+        "A": "Cloud Computing",
+        "B": "Machine Learning",
+        "C": "Web Development",
+        "D": "Cyber Security"
+      },
+      "answer": "B",
+      "explanation": "Deep Learning is a subset of Machine Learning based on Artificial Neural Networks.",
+      "hash": "d9199e9f1cdf967f",
+      "translations": {
+        "hi": {
+          "question": "'डीप लर्निंग' किसका सबसेट है?",
+          "options": {
+            "A": "क्लाउड कंप्यूटिंग",
+            "B": "मशीन लर्निंग",
+            "C": "वेब डेवलपमेंट",
+            "D": "साइबर सुरक्षा"
+          },
+          "explanation": "डीप लर्निंग आर्टिफिशियल न्यूरल नेटवर्क पर आधारित मशीन लर्निंग का एक सबसेट है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-025",
+      "number": 25,
+      "question": "Which search algorithm uses the formula: f(n) = h(n)?",
+      "options": {
+        "A": "Greedy Best-First Search",
+        "B": "A* Search",
+        "C": "Uniform Cost Search",
+        "D": "DFS"
+      },
+      "answer": "A",
+      "explanation": "Greedy search only considers the heuristic distance to the goal.",
+      "hash": "1785c1f66527d9eb",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च एल्गोरिथम सूत्र f(n) = h(n) का उपयोग करता है?",
+          "options": {
+            "A": "ग्रीडी बेस्ट-फर्स्ट सर्च",
+            "B": "ए* सर्च",
+            "C": "यूनिफॉर्म कॉस्ट सर्च",
+            "D": "डीएफएस"
+          },
+          "explanation": "ग्रीडी सर्च केवल लक्ष्य तक की ह्यूरिस्टिक दूरी पर विचार करती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-026",
+      "number": 26,
+      "question": "What is 'Exploration vs Exploitation' in Reinforcement Learning?",
+      "options": {
+        "A": "Deleting old data vs adding new data",
+        "B": "Trying new actions vs using known best actions",
+        "C": "Hardware vs Software",
+        "D": "Training vs Testing"
+      },
+      "answer": "B",
+      "explanation": "This tradeoff is crucial for an agent to find new rewards while maximizing current ones.",
+      "hash": "b3824ae8edd4df29",
+      "translations": {
+        "hi": {
+          "question": "रीइन्फोर्समेंट लर्निंग में 'एक्सप्लोरेशन बनाम एक्सप्लॉइटेशन' क्या है?",
+          "options": {
+            "A": "पुराना डेटा हटाना बनाम नया डेटा जोड़ना",
+            "B": "नए कार्यों को आज़माना बनाम ज्ञात सर्वोत्तम कार्यों का उपयोग करना",
+            "C": "हार्डवेयर बनाम सॉफ्टवेयर",
+            "D": "ट्रेनिंग बनाम टेस्टिंग"
+          },
+          "explanation": "यह ट्रेडऑफ़ एक एजेंट के लिए वर्तमान पुरस्कारों को अधिकतम करते हुए नए पुरस्कार खोजने के लिए महत्वपूर्ण है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-027",
+      "number": 27,
+      "question": "Which component is known as the 'Long-term Memory' of an Expert System?",
+      "options": {
+        "A": "User Interface",
+        "B": "Knowledge Base",
+        "C": "Working Memory",
+        "D": "RAM"
+      },
+      "answer": "B",
+      "explanation": "The knowledge base stores all the permanent rules and facts.",
+      "hash": "e2f7d853607fda3b",
+      "translations": {
+        "hi": {
+          "question": "एक्सपर्ट सिस्टम की 'लॉन्ग-टर्म मेमोरी' के रूप में किस घटक को जाना जाता है?",
+          "options": {
+            "A": "यूजर इंटरफेस",
+            "B": "नॉलेज बेस",
+            "C": "वर्किंग मेमोरी",
+            "D": "रैम"
+          },
+          "explanation": "नॉलेज बेस सभी स्थायी नियमों और तथ्यों को संग्रहीत करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-028",
+      "number": 28,
+      "question": "What is the 'SOTA' (State of the Art) model?",
+      "options": {
+        "A": "An old, deprecated model",
+        "B": "The current best performing model for a task",
+        "C": "A model with no parameters",
+        "D": "A hardware manual"
+      },
+      "answer": "B",
+      "explanation": "SOTA refers to the highest level of development in a field at a particular time.",
+      "hash": "636e77a01965d5a4",
+      "translations": {
+        "hi": {
+          "question": "'SOTA' (स्टेट ऑफ द आर्ट) मॉडल क्या है?",
+          "options": {
+            "A": "एक पुराना, अप्रचलित मॉडल",
+            "B": "किसी कार्य के लिए वर्तमान में सबसे अच्छा प्रदर्शन करने वाला मॉडल",
+            "C": "बिना मापदंडों वाला मॉडल",
+            "D": "एक हार्डवेयर मैनुअल"
+          },
+          "explanation": "SOTA किसी विशेष समय में किसी क्षेत्र में विकास के उच्चतम स्तर को संदर्भित करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-029",
+      "number": 29,
+      "question": "What is 'Backtracking' in the context of Search?",
+      "options": {
+        "A": "Going forward to the goal",
+        "B": "Returning to a previous state when a path fails",
+        "C": "Restarting the computer",
+        "D": "Deleting the search tree"
+      },
+      "answer": "B",
+      "explanation": "Backtracking is commonly used in DFS to explore alternative paths.",
+      "hash": "56e30d651ef3f5a6",
+      "translations": {
+        "hi": {
+          "question": "सर्च के संदर्भ में 'बैकट्रैकिंग' क्या है?",
+          "options": {
+            "A": "लक्ष्य की ओर आगे बढ़ना",
+            "B": "पथ विफल होने पर पिछली स्थिति में वापस आना",
+            "C": "कंप्यूटर को रीस्टार्ट करना",
+            "D": "सर्च ट्री को डिलीट करना"
+          },
+          "explanation": "बैकट्रैकिंग का उपयोग आमतौर पर DFS में वैकल्पिक पथों को खोजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-03-030",
+      "number": 30,
+      "question": "Which logic handles statements that can be partially true?",
+      "options": {
+        "A": "Boolean Logic",
+        "B": "Fuzzy Logic",
+        "C": "Propositional Logic",
+        "D": "Predicate Logic"
+      },
+      "answer": "B",
+      "explanation": "Fuzzy logic accounts for the gray area between true and false.",
+      "hash": "1dabcca9c9e8db7c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा लॉजिक उन कथनों को संभालता है जो आंशिक रूप से सत्य हो सकते हैं?",
+          "options": {
+            "A": "बुलियन लॉजिक",
+            "B": "फजी लॉजिक",
+            "C": "प्रपोजिशनल लॉजिक",
+            "D": "प्रेडिकेट लॉजिक"
+          },
+          "explanation": "फजी लॉजिक सच और झूठ के बीच के ग्रे क्षेत्र (gray area) को ध्यान में रखता है।"
+        }
+      }
+    }
+  ]
+}

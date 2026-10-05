@@ -1,0 +1,787 @@
+{
+  "subject": "Data Structures",
+  "set": 5,
+  "title": "Data Structures Mock Test 5",
+  "questions": [
+    {
+      "id": "data-structures-05-001",
+      "number": 1,
+      "question": "Which data structure is specifically used for evaluating \"Prefix expressions\" (Polish Notation)?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Array",
+        "D": "Hash Table"
+      },
+      "answer": "B",
+      "explanation": "Similar to postfix, a stack is used to hold operands until an operator is encountered while scanning from right to left.",
+      "hash": "9e0f42935c77f6b2",
+      "translations": {
+        "hi": {
+          "question": "\"प्रीफिक्स एक्सप्रेशन\" (पोलिश नोटेशन) का मूल्यांकन करने के लिए विशेष रूप से किस डेटा संरचना का उपयोग किया जाता है?",
+          "options": {
+            "A": "क्यू",
+            "B": "स्टैक",
+            "C": "एरे",
+            "D": "हैश टेबल"
+          },
+          "explanation": "पोस्टफिक्स के समान, दाएं से बाएं स्कैन करते समय ऑपरेटर मिलने तक ऑपरेंड रखने के लिए स्टैक का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-002",
+      "number": 2,
+      "question": "In a B-Tree of order m, what is the maximum number of children an internal node can have?",
+      "options": {
+        "A": "m",
+        "B": "m - 1",
+        "C": "m/2",
+        "D": "2m"
+      },
+      "answer": "A",
+      "explanation": "By definition, the order m of a B-Tree specifies the maximum number of children for each node.",
+      "hash": "6f503764611e6bc2",
+      "translations": {
+        "hi": {
+          "question": "m ऑर्डर के B-ट्री में, एक आंतरिक नोड के अधिकतम कितने बच्चे हो सकते हैं?",
+          "options": {
+            "A": "m",
+            "B": "m - 1",
+            "C": "m/2",
+            "D": "2m"
+          },
+          "explanation": "परिभाषा के अनुसार, B-ट्री का ऑर्डर m प्रत्येक नोड के लिए बच्चों की अधिकतम संख्या निर्दिष्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-003",
+      "number": 3,
+      "question": "Which hashing technique maps several keys to the same index and stores them in a list at that index?",
+      "options": {
+        "A": "Linear Probing",
+        "B": "Double Hashing",
+        "C": "Separate Chaining",
+        "D": "Quadratic Probing"
+      },
+      "answer": "C",
+      "explanation": "Chaining involves creating a linked list at each index to handle multiple keys mapping to the same location.",
+      "hash": "51a7f3e907c5c919",
+      "translations": {
+        "hi": {
+          "question": "कौन सी हैशिंग तकनीक कई कुंजियों को एक ही इंडेक्स पर मैप करती है और उन्हें उस इंडेक्स पर एक लिस्ट में संग्रहीत करती है?",
+          "options": {
+            "A": "लीनियर प्रोबिंग",
+            "B": "डबल हैशिंग",
+            "C": "सेपरेट चेनिंग",
+            "D": "क्वाड्रेटिक प्रोबिंग"
+          },
+          "explanation": "चेनिंग में एक ही स्थान पर मैप करने वाली कई कुंजियों को संभालने के लिए प्रत्येक इंडेक्स पर एक लिंक्ड लिस्ट बनाना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-004",
+      "number": 4,
+      "question": "What is the time complexity of the \"Extract-Min\" operation in a binary min-heap?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n^2)"
+      },
+      "answer": "C",
+      "explanation": "Extracting the minimum involves replacing the root with the last element and heapifying down, which takes logarithmic time.",
+      "hash": "e1a671fcf90ab5eb",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी मिन-हीप में \"एक्सट्रैक्ट-मिन\" (Extract-Min) ऑपरेशन की समय जटिलता क्या है?",
+          "options": {
+            "A": "O(1)",
+            "B": "O(n)",
+            "C": "O(log n)",
+            "D": "O(n^2)"
+          },
+          "explanation": "न्यूनतम निकालने में रूट को अंतिम तत्व से बदलना और हीपीफाई करना शामिल है, जिसमें लॉगरिदमिक समय लगता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-005",
+      "number": 5,
+      "question": "What is the maximum number of nodes in a binary tree of height h (where root is level 0)?",
+      "options": {
+        "A": "2^h - 1",
+        "B": "2^(h+1) - 1",
+        "C": "2h + 1",
+        "D": "h^2"
+      },
+      "answer": "B",
+      "explanation": "A full binary tree of height h contains the maximum nodes, calculated as 2^(h+1) - 1.",
+      "hash": "12735c8908ff7eeb",
+      "translations": {
+        "hi": {
+          "question": "ऊँचाई h वाले बाइनरी ट्री में नोड्स की अधिकतम संख्या क्या है (जहाँ रूट स्तर 0 है)?",
+          "options": {
+            "A": "2^h - 1",
+            "B": "2^(h+1) - 1",
+            "C": "2h + 1",
+            "D": "h^2"
+          },
+          "explanation": "h ऊँचाई वाले एक पूर्ण बाइनरी ट्री में अधिकतम नोड होते हैं, जिसकी गणना 2^(h+1) - 1 के रूप में की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-006",
+      "number": 6,
+      "question": "A graph with no cycles is called?",
+      "options": {
+        "A": "Cyclic Graph",
+        "B": "Acyclic Graph",
+        "C": "Complete Graph",
+        "D": "Connected Graph"
+      },
+      "answer": "B",
+      "explanation": "An acyclic graph is a graph that contains no Hamiltonian or simple cycles.",
+      "hash": "249fdee44208104f",
+      "translations": {
+        "hi": {
+          "question": "बिना साइकिल वाले ग्राफ को क्या कहा जाता है?",
+          "options": {
+            "A": "साइक्लिक ग्राफ",
+            "B": "एसाइक्लिक ग्राफ",
+            "C": "पूर्ण ग्राफ",
+            "D": "कनेक्टेड ग्राफ"
+          },
+          "explanation": "एक एसाइक्लिक ग्राफ वह ग्राफ है जिसमें कोई हैमिल्टनियन या सरल साइकिल नहीं होती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-007",
+      "number": 7,
+      "question": "In a Min-Heap, what is the complexity of finding the maximum element?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "C",
+      "explanation": "In a Min-Heap, the maximum elements are located at the leaves, and there are n/2 leaves to check.",
+      "hash": "7ddb3af55f403ea9",
+      "translations": {
+        "hi": {
+          "question": "मिन-हीप में अधिकतम तत्व खोजने की जटिलता क्या है?",
+          "options": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n log n)"
+          },
+          "explanation": "मिन-हीप में, अधिकतम तत्व लीफ नोड्स पर स्थित होते हैं, और जांचने के लिए n/2 लीफ नोड्स होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-008",
+      "number": 8,
+      "question": "Which data structure is primarily used to implement a \"State Space Search\"?",
+      "options": {
+        "A": "Graph",
+        "B": "Stack",
+        "C": "Queue",
+        "D": "Array"
+      },
+      "answer": "A",
+      "explanation": "State space search problems are modeled as graphs where nodes represent states and edges represent actions.",
+      "hash": "f17e9ee0152d07b6",
+      "translations": {
+        "hi": {
+          "question": "\"स्टेट स्पेस सर्च\" को लागू करने के लिए मुख्य रूप से किस डेटा संरचना का उपयोग किया जाता है?",
+          "options": {
+            "A": "ग्राफ",
+            "B": "स्टैक",
+            "C": "क्यू",
+            "D": "एरे"
+          },
+          "explanation": "स्टेट स्पेस सर्च समस्याओं को ग्राफ के रूप में मॉडल किया जाता है जहाँ नोड राज्यों का प्रतिनिधित्व करते हैं और किनारे क्रियाओं का।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-009",
+      "number": 9,
+      "question": "Which of the following is the most efficient way to check if two nodes are in the same component of a graph?",
+      "options": {
+        "A": "BFS",
+        "B": "DFS",
+        "C": "Disjoint Set Union (DSU)",
+        "D": "Dijkstra"
+      },
+      "answer": "C",
+      "explanation": "DSU (Find operation) can check connectivity between nodes in nearly constant amortized time.",
+      "hash": "f66f4fea874533ca",
+      "translations": {
+        "hi": {
+          "question": "यह जांचने का सबसे कुशल तरीका कौन सा है कि क्या दो नोड ग्राफ के एक ही घटक (component) में हैं?",
+          "options": {
+            "A": "BFS",
+            "B": "DFS",
+            "C": "डिसजॉइंट सेट यूनियन (DSU)",
+            "D": "डिज्कस्ट्रा"
+          },
+          "explanation": "DSU (फाइंड ऑपरेशन) लगभग नियत एमोर्टाइज्ड समय में नोड्स के बीच कनेक्टिविटी की जांच कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-010",
+      "number": 10,
+      "question": "How many edges are in a complete bipartite graph K(3,4)?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "10",
+        "D": "14"
+      },
+      "answer": "B",
+      "explanation": "In a complete bipartite graph K(m,n), the total number of edges is m * n (3 * 4 = 12).",
+      "hash": "32544ff626412fe3",
+      "translations": {
+        "hi": {
+          "question": "एक पूर्ण बाइपार्टाइट ग्राफ K(3,4) में कितने किनारे होते हैं?",
+          "options": {
+            "A": "7",
+            "B": "12",
+            "C": "10",
+            "D": "14"
+          },
+          "explanation": "एक पूर्ण बाइपार्टाइट ग्राफ K(m,n) में, किनारों की कुल संख्या m * n (3 * 4 = 12) होती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-011",
+      "number": 11,
+      "question": "What is \"Path Compression\" in Disjoint Set Union?",
+      "options": {
+        "A": "Deleting nodes from a path",
+        "B": "Making all nodes on a path point directly to the root",
+        "C": "Sorting the paths",
+        "D": "Increasing path length"
+      },
+      "answer": "B",
+      "explanation": "Path compression flattens the tree structure, ensuring future operations on those nodes are O(1).",
+      "hash": "08f639c80f177832",
+      "translations": {
+        "hi": {
+          "question": "डिसजॉइंट सेट यूनियन में \"पाथ कम्प्रेशन\" (Path Compression) क्या है?",
+          "options": {
+            "A": "पथ से नोड्स हटाना",
+            "B": "पथ के सभी नोड्स को सीधे रूट की ओर इंगित करना",
+            "C": "पथों को सॉर्ट करना",
+            "D": "पथ की लंबाई बढ़ाना"
+          },
+          "explanation": "पाथ कम्प्रेशन ट्री संरचना को समतल करता है, यह सुनिश्चित करता है कि उन नोड्स पर भविष्य के ऑपरेशन O(1) हों।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-012",
+      "number": 12,
+      "question": "In a circular linked list, how can you identify the end of the list?",
+      "options": {
+        "A": "Next pointer is NULL",
+        "B": "Next pointer points back to the head",
+        "C": "Data value is 0",
+        "D": "Previous pointer is NULL"
+      },
+      "answer": "B",
+      "explanation": "The loop is closed by the last node's next pointer referencing the first node.",
+      "hash": "a739c39ce37edd69",
+      "translations": {
+        "hi": {
+          "question": "सर्कुलर लिंक्ड लिस्ट में, आप लिस्ट के अंत की पहचान कैसे कर सकते हैं?",
+          "options": {
+            "A": "अगला पॉइंटर NULL है",
+            "B": "अगला पॉइंटर वापस हेड की ओर इशारा करता है",
+            "C": "डेटा मान 0 है",
+            "D": "पिछला पॉइंटर NULL है"
+          },
+          "explanation": "लूप अंतिम नोड के अगले पॉइंटर द्वारा पहले नोड को संदर्भित करने से बंद होता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-013",
+      "number": 13,
+      "question": "What is the auxiliary space complexity of Merge Sort?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n^2)"
+      },
+      "answer": "C",
+      "explanation": "Merge sort requires a temporary array of size n to merge the sorted sub-arrays.",
+      "hash": "6f68addccdda8cfb",
+      "translations": {
+        "hi": {
+          "question": "मर्ज सॉर्ट की सहायक स्थान जटिलता (Auxiliary space complexity) क्या है?",
+          "options": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n^2)"
+          },
+          "explanation": "मर्ज सॉर्ट को सॉर्ट किए गए सब-एरे को मिलाने के लिए n आकार के एक अस्थायी एरे की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-014",
+      "number": 14,
+      "question": "What is the worst-case search time in a Hash Table?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n^2)"
+      },
+      "answer": "C",
+      "explanation": "Worst case occurs when all keys hash to the same index, turning the search into a linear search.",
+      "hash": "8e8f7dc1ca48948d",
+      "translations": {
+        "hi": {
+          "question": "हैश टेबल में वर्स्ट-केस सर्च समय क्या है?",
+          "options": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n^2)"
+          },
+          "explanation": "वर्स्ट केस तब होता है जब सभी कुंजियाँ एक ही इंडेक्स पर हैश होती हैं, जिससे खोज एक लीनियर सर्च में बदल जाती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-015",
+      "number": 15,
+      "question": "Which data structure is used by an Operating System for \"SPOOLing\"?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Binary Tree",
+        "D": "Hash Map"
+      },
+      "answer": "B",
+      "explanation": "Spooling uses a queue to hold tasks (like print jobs) waiting for a device to become available.",
+      "hash": "20e3fac56eb1e04b",
+      "translations": {
+        "hi": {
+          "question": "ऑपरेटिंग सिस्टम द्वारा \"स्पूलिंग\" (SPOOLing) के लिए किस डेटा संरचना का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टैक",
+            "B": "क्यू",
+            "C": "बाइनरी ट्री",
+            "D": "हैश मैप"
+          },
+          "explanation": "स्पूलिंग किसी डिवाइस के उपलब्ध होने की प्रतीक्षा कर रहे कार्यों (जैसे प्रिंट जॉब) को रखने के लिए क्यू का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-016",
+      "number": 16,
+      "question": "What is a \"Degenerate Binary Tree\"?",
+      "options": {
+        "A": "A tree with no nodes",
+        "B": "A tree where each node has at most one child",
+        "C": "A tree with 2n nodes",
+        "D": "A perfectly balanced tree"
+      },
+      "answer": "B",
+      "explanation": "It behaves essentially like a linked list as each internal node has exactly one child.",
+      "hash": "6e60949e85cd062b",
+      "translations": {
+        "hi": {
+          "question": "\"डिजेनरेट बाइनरी ट्री\" (Degenerate Binary Tree) क्या है?",
+          "options": {
+            "A": "बिना नोड्स वाला ट्री",
+            "B": "जहाँ प्रत्येक नोड का अधिकतम एक बच्चा होता है",
+            "C": "2n नोड्स वाला ट्री",
+            "D": "एक पूरी तरह संतुलित ट्री"
+          },
+          "explanation": "यह अनिवार्य रूप से एक लिंक्ड लिस्ट की तरह व्यवहार करता है क्योंकि प्रत्येक आंतरिक नोड का ठीक एक बच्चा होता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-017",
+      "number": 17,
+      "question": "Which algorithm is used for \"Topological Sorting\" of a DAG?",
+      "options": {
+        "A": "Prim's Algorithm",
+        "B": "Kahn’s Algorithm",
+        "C": "Kruskal’s Algorithm",
+        "D": "Dijkstra’s Algorithm"
+      },
+      "answer": "B",
+      "explanation": "Kahn's algorithm uses in-degrees of vertices to perform topological sorting on a DAG.",
+      "hash": "512dbce25dd8cc5a",
+      "translations": {
+        "hi": {
+          "question": "DAG के \"टोपोलॉजिकल सॉर्टिंग\" के लिए किस एल्गोरिदम का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्रिम्स एल्गोरिदम",
+            "B": "काह्न का एल्गोरिदम",
+            "C": "क्रुस्कल का एल्गोरिदम",
+            "D": "डिज्कस्ट्रा का एल्गोरिदम"
+          },
+          "explanation": "काह्न का एल्गोरिदम DAG पर टोपोलॉजिकल सॉर्टिंग करने के लिए शीर्षों के इन-डिग्री का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-018",
+      "number": 18,
+      "question": "What is the balance factor of a node in a balanced AVL tree?",
+      "options": {
+        "A": "Any integer",
+        "B": "Only 0",
+        "C": "-1, 0, or 1",
+        "D": "2 or -2"
+      },
+      "answer": "C",
+      "explanation": "A node is considered balanced in AVL if the height difference between subtrees is at most 1.",
+      "hash": "0c4e4cd14cbcd05c",
+      "translations": {
+        "hi": {
+          "question": "संतुलित AVL ट्री में नोड का बैलेंस फैक्टर क्या होता है?",
+          "options": {
+            "A": "कोई भी पूर्णांक",
+            "B": "केवल 0",
+            "C": "-1, 0, या 1",
+            "D": "2 या -2"
+          },
+          "explanation": "AVL में एक नोड को संतुलित माना जाता है यदि सब-ट्री के बीच ऊंचाई का अंतर अधिकतम 1 हो।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-019",
+      "number": 19,
+      "question": "Which of the following is used to store data in \"Column-major\" or \"Row-major\" order?",
+      "options": {
+        "A": "Linked List",
+        "B": "Stack",
+        "C": "2D Array",
+        "D": "Tree"
+      },
+      "answer": "C",
+      "explanation": "Multi-dimensional arrays are mapped to linear memory using either row-major or column-major ordering.",
+      "hash": "a297e3446cd2b945",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किसका उपयोग \"कॉलम-मेजर\" या \"रो-मेजर\" क्रम में डेटा संग्रहीत करने के लिए किया जाता है?",
+          "options": {
+            "A": "लिंक्ड लिस्ट",
+            "B": "स्टैक",
+            "C": "2D एरे",
+            "D": "ट्री"
+          },
+          "explanation": "बहु-आयामी एरे को रो-मेजर या कॉलम-मेजर ऑर्डरिंग का उपयोग करके लीनियर मेमोरी में मैप किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-020",
+      "number": 20,
+      "question": "What happens in an \"Enque\" operation on a full queue?",
+      "options": {
+        "A": "Underflow",
+        "B": "Overflow",
+        "C": "Success",
+        "D": "Deletion"
+      },
+      "answer": "B",
+      "explanation": "Overflow is the error condition that occurs when trying to add an element to a data structure that is at capacity.",
+      "hash": "bb7202a338ea77e8",
+      "translations": {
+        "hi": {
+          "question": "एक भरी हुई क्यू पर \"एनक्यू\" (Enque) ऑपरेशन करने पर क्या होता है?",
+          "options": {
+            "A": "अंडरफ्लो",
+            "B": "ओवरफ्लो",
+            "C": "सफलता",
+            "D": "विलोपन"
+          },
+          "explanation": "ओवरफ्लो वह त्रुटि स्थिति है जो तब होती है जब क्षमता पर मौजूद डेटा संरचना में तत्व जोड़ने का प्रयास किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-021",
+      "number": 21,
+      "question": "What is the primary advantage of a Doubly Linked List over a Singly Linked List?",
+      "options": {
+        "A": "Less memory",
+        "B": "Faster access to head",
+        "C": "Bidirectional traversal",
+        "D": "Simpler code"
+      },
+      "answer": "C",
+      "explanation": "It allows moving both forward and backward through the list using 'next' and 'prev' pointers.",
+      "hash": "82ea8680b3598a51",
+      "translations": {
+        "hi": {
+          "question": "सिंगली लिंक्ड लिस्ट की तुलना में डबली लिंक्ड लिस्ट का प्राथमिक लाभ क्या है?",
+          "options": {
+            "A": "कम मेमोरी",
+            "B": "हेड तक तेज़ पहुँच",
+            "C": "द्विदिश (Bidirectional) ट्रैवर्सल",
+            "D": "सरल कोड"
+          },
+          "explanation": "यह 'नेक्स्ट' और 'प्रिव' पॉइंटर्स का उपयोग करके लिस्ट में आगे और पीछे दोनों ओर जाने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-022",
+      "number": 22,
+      "question": "Which property is common to both stacks and queues?",
+      "options": {
+        "A": "Elements are removed in FIFO order",
+        "B": "Elements are removed in LIFO order",
+        "C": "They are linear data structures",
+        "D": "They allow random access"
+      },
+      "answer": "C",
+      "explanation": "Both are restricted linear data structures where elements follow a specific sequential order.",
+      "hash": "6f1eda1d03af7126",
+      "translations": {
+        "hi": {
+          "question": "स्टैक और क्यू दोनों में कौन सा गुण समान है?",
+          "options": {
+            "A": "तत्वों को FIFO क्रम में हटाया जाता है",
+            "B": "तत्वों को LIFO क्रम में हटाया जाता है",
+            "C": "वे लीनियर डेटा संरचनाएं हैं",
+            "D": "वे रैंडम एक्सेस की अनुमति देते हैं"
+          },
+          "explanation": "दोनों प्रतिबंधित लीनियर डेटा संरचनाएं हैं जहाँ तत्व एक विशिष्ट अनुक्रमिक क्रम का पालन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-023",
+      "number": 23,
+      "question": "What is the time complexity of searching in a Skip List in the average case?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(1)"
+      },
+      "answer": "B",
+      "explanation": "Skip lists use multiple layers of linked lists to achieve logarithmic search time similar to balanced trees.",
+      "hash": "ab96109192a7fe86",
+      "translations": {
+        "hi": {
+          "question": "औसत मामले में स्किप लिस्ट (Skip List) में खोजने की समय जटिलता क्या है?",
+          "options": {
+            "A": "O(n)",
+            "B": "O(log n)",
+            "C": "O(n log n)",
+            "D": "O(1)"
+          },
+          "explanation": "स्किप लिस्ट संतुलित ट्री के समान लॉगरिदमिक खोज समय प्राप्त करने के लिए लिंक्ड लिस्ट की कई परतों का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-024",
+      "number": 24,
+      "question": "In a Huffman Tree, where are the characters (data) stored?",
+      "options": {
+        "A": "At the root",
+        "B": "In all internal nodes",
+        "C": "Only in leaf nodes",
+        "D": "In a separate array"
+      },
+      "answer": "C",
+      "explanation": "Huffman coding is a prefix code where actual data symbols are only located at the leaves to avoid ambiguity.",
+      "hash": "d9fdf6e976466103",
+      "translations": {
+        "hi": {
+          "question": "हफमैन ट्री (Huffman Tree) में, वर्ण (डेटा) कहाँ संग्रहीत किए जाते हैं?",
+          "options": {
+            "A": "रूट पर",
+            "B": "सभी आंतरिक नोड्स में",
+            "C": "केवल लीफ नोड्स में",
+            "D": "एक अलग एरे में"
+          },
+          "explanation": "हफमैन कोडिंग एक प्रीफिक्स कोड है जहाँ वास्तविक डेटा प्रतीक केवल पत्तियों पर स्थित होते हैं ताकि अस्पष्टता से बचा जा सके।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-025",
+      "number": 25,
+      "question": "Which traversal is used to copy a binary tree?",
+      "options": {
+        "A": "In-order",
+        "B": "Pre-order",
+        "C": "Post-order",
+        "D": "Level-order"
+      },
+      "answer": "B",
+      "explanation": "Pre-order is often used to copy a tree because it visits the root before children, allowing the structure to be built correctly.",
+      "hash": "c8c43a0e7b882d0e",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी ट्री को कॉपी करने के लिए किस ट्रैवर्सल का उपयोग किया जाता है?",
+          "options": {
+            "A": "इन-ऑर्डर",
+            "B": "प्री-ऑर्डर",
+            "C": "पोस्ट-ऑर्डर",
+            "D": "लेवल-ऑर्डर"
+          },
+          "explanation": "प्री-ऑर्डर का उपयोग अक्सर ट्री को कॉपी करने के लिए किया जाता है क्योंकि यह बच्चों से पहले रूट पर जाता है, जिससे संरचना सही ढंग से बनाई जा सकती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-026",
+      "number": 26,
+      "question": "What is \"Double Hashing\"?",
+      "options": {
+        "A": "Using two tables",
+        "B": "Using a second hash function to find the step size for probing",
+        "C": "Hashing the key twice before storing",
+        "D": "Storing two values per key"
+      },
+      "answer": "B",
+      "explanation": "It is an open addressing technique where the interval between probes is computed by a second hash function.",
+      "hash": "2ed6cd9ffbda8810",
+      "translations": {
+        "hi": {
+          "question": "\"डबल हैशिंग\" क्या है?",
+          "options": {
+            "A": "दो टेबल का उपयोग करना",
+            "B": "प्रोबिंग के लिए स्टेप साइज खोजने हेतु दूसरे हैश फंक्शन का उपयोग करना",
+            "C": "स्टोर करने से पहले कुंजी को दो बार हैश करना",
+            "D": "प्रति कुंजी दो मान संग्रहीत करना"
+          },
+          "explanation": "यह एक ओपन एड्रेसिंग तकनीक है जहाँ प्रोब्स के बीच के अंतराल की गणना दूसरे हैश फंक्शन द्वारा की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-027",
+      "number": 27,
+      "question": "Which of the following is not a property of a \"Good Hash Function\"?",
+      "options": {
+        "A": "Deterministic",
+        "B": "Fast to compute",
+        "C": "Causes many collisions",
+        "D": "Uniform distribution"
+      },
+      "answer": "C",
+      "explanation": "A good hash function should minimize collisions to keep operations efficient.",
+      "hash": "29cd2cc109dc6269",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा \"अच्छे हैश फंक्शन\" का गुण नहीं है?",
+          "options": {
+            "A": "नियतात्मक (Deterministic)",
+            "B": "गणना करने में तेज़",
+            "C": "कई कोलिजन का कारण बनता है",
+            "D": "समान वितरण"
+          },
+          "explanation": "एक अच्छे हैश फंक्शन को ऑपरेशन को कुशल बनाए रखने के लिए कोलिजन को कम करना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-028",
+      "number": 28,
+      "question": "What is the maximum degree of any vertex in a tree with n nodes?",
+      "options": {
+        "A": "2",
+        "B": "n - 1",
+        "C": "n/2",
+        "D": "log n"
+      },
+      "answer": "B",
+      "explanation": "In a star graph (a type of tree), the central node is connected to all other n-1 nodes.",
+      "hash": "f45c24f0c869aa0c",
+      "translations": {
+        "hi": {
+          "question": "n नोड्स वाले ट्री में किसी भी शीर्ष की अधिकतम डिग्री क्या हो सकती है?",
+          "options": {
+            "A": "2",
+            "B": "n - 1",
+            "C": "n/2",
+            "D": "log n"
+          },
+          "explanation": "एक स्टार ग्राफ (ट्री का एक प्रकार) में, केंद्रीय नोड अन्य सभी n-1 नोड्स से जुड़ा होता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-029",
+      "number": 29,
+      "question": "Which graph representation uses a boolean matrix of size V x V?",
+      "options": {
+        "A": "Adjacency List",
+        "B": "Adjacency Matrix",
+        "C": "Incidence Matrix",
+        "D": "Linked List"
+      },
+      "answer": "B",
+      "explanation": "The adjacency matrix uses a 2D array where matrix[i][j] = 1 indicates an edge between vertex i and j.",
+      "hash": "52372d012d98f35c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा ग्राफ प्रतिनिधित्व V x V आकार के बूलियन मैट्रिक्स का उपयोग करता है?",
+          "options": {
+            "A": "एडजसेंसी लिस्ट",
+            "B": "एडजसेंसी मैट्रिक्स",
+            "C": "इंसीडेंस मैट्रिक्स",
+            "D": "लिंक्ड लिस्ट"
+          },
+          "explanation": "एडजसेंसी मैट्रिक्स एक 2D एरे का उपयोग करता है जहाँ मैट्रिक्स[i][j] = 1 शीर्ष i और j के बीच एक किनारे को इंगित करता है।"
+        }
+      }
+    },
+    {
+      "id": "data-structures-05-030",
+      "number": 30,
+      "question": "Which of the following is an example of an \"In-place\" sorting algorithm?",
+      "options": {
+        "A": "Merge Sort",
+        "B": "Insertion Sort",
+        "C": "Radix Sort",
+        "D": "Bucket Sort"
+      },
+      "answer": "B",
+      "explanation": "Insertion sort does not require significant extra space and sorts the array within its own bounds.",
+      "hash": "9f4e443114f2f8d4",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा \"इन-प्लेस\" सॉर्टिंग एल्गोरिदम का एक उदाहरण है?",
+          "options": {
+            "A": "मर्ज सॉर्ट",
+            "B": "इंसर्शन सॉर्ट",
+            "C": "रेडिक्स सॉर्ट",
+            "D": "बकेट सॉर्ट"
+          },
+          "explanation": "इंसर्शन सॉर्ट को महत्वपूर्ण अतिरिक्त स्थान की आवश्यकता नहीं होती है और यह एरे को अपनी सीमा के भीतर सॉर्ट करता है।"
+        }
+      }
+    }
+  ]
+}

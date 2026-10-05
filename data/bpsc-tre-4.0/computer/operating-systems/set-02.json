@@ -1,0 +1,787 @@
+{
+  "subject": "Operating Systems",
+  "set": 2,
+  "title": "Operating Systems Mock Test 2",
+  "questions": [
+    {
+      "id": "operating-systems-02-001",
+      "number": 1,
+      "question": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+      "options": {
+        "A": "Interrupt",
+        "B": "Dispatcher",
+        "C": "Scheduler",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The dispatcher is the module that gives control of the CPU to the process selected by the short-term scheduler.",
+      "hash": "c555e67c31e39038",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मॉड्यूल शॉर्ट-टर्म शेड्यूलर द्वारा चुनी गई प्रक्रिया को CPU का नियंत्रण देता है?",
+          "options": {
+            "A": "इंटरप्ट",
+            "B": "डिस्पैचर",
+            "C": "शेड्यूलर",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "डिस्पैचर वह मॉड्यूल है जो शॉर्ट-टर्म शेड्यूलर द्वारा चुनी गई प्रक्रिया को CPU का नियंत्रण देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-002",
+      "number": 2,
+      "question": "In memory management, a \"Page Fault\" occurs when:",
+      "options": {
+        "A": "The page is corrupted",
+        "B": "The requested page is not in the main memory",
+        "C": "There is an error in the program",
+        "D": "The CPU is idle"
+      },
+      "answer": "B",
+      "explanation": "A page fault occurs when a program tries to access a block of memory that is not currently in RAM.",
+      "hash": "00c9f438c07e3454",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी प्रबंधन में, \"पेज फॉल्ट\" तब होता है जब:",
+          "options": {
+            "A": "पेज खराब हो गया है",
+            "B": "अनुरोधित पेज मुख्य मेमोरी में नहीं है",
+            "C": "प्रोग्राम में कोई त्रुटि है",
+            "D": "CPU खाली है"
+          },
+          "explanation": "पेज फॉल्ट तब होता है जब कोई प्रोग्राम मेमोरी के उस ब्लॉक तक पहुंचने की कोशिश करता है जो वर्तमान में रैम में नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-003",
+      "number": 3,
+      "question": "What is the primary purpose of the PCB (Process Control Block)?",
+      "options": {
+        "A": "To store user data",
+        "B": "To store process-specific information for management",
+        "C": "To speed up the CPU",
+        "D": "To manage the monitor"
+      },
+      "answer": "B",
+      "explanation": "PCB contains information like process state, program counter, and CPU registers needed to manage a process.",
+      "hash": "af17270dd5e7ee02",
+      "translations": {
+        "hi": {
+          "question": "PCB (प्रोसेस कंट्रोल ब्लॉक) का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "यूजर डेटा स्टोर करने के लिए",
+            "B": "प्रबंधन के लिए प्रक्रिया-विशिष्ट जानकारी स्टोर करने के लिए",
+            "C": "CPU की गति बढ़ाने के लिए",
+            "D": "मॉनिटर को प्रबंधित करने के लिए"
+          },
+          "explanation": "PCB में प्रोसेस स्टेट, प्रोग्राम काउंटर और CPU रजिस्टर जैसी जानकारी होती है जो प्रक्रिया को प्रबंधित करने के लिए आवश्यक होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-004",
+      "number": 4,
+      "question": "Which of the following is a non-preemptive scheduling algorithm?",
+      "options": {
+        "A": "Round Robin",
+        "B": "First Come First Served (FCFS)",
+        "C": "SRTF",
+        "D": "Preemptive Priority"
+      },
+      "answer": "B",
+      "explanation": "In FCFS, once a process gets the CPU, it holds it until it terminates or blocks for I/O.",
+      "hash": "cfc3fbd3049cc4a5",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा नॉन-प्रीइम्पटिव शेड्यूलिंग एल्गोरिथम है?",
+          "options": {
+            "A": "राउंड रॉबिन",
+            "B": "फर्स्ट कम फर्स्ट सर्व्ड (FCFS)",
+            "C": "एसआरटीएफ",
+            "D": "प्रीइम्पटिव प्रायोरिटी"
+          },
+          "explanation": "FCFS में, एक बार जब किसी प्रक्रिया को CPU मिल जाता है, तो वह उसे तब तक अपने पास रखती है जब तक कि वह समाप्त न हो जाए या I/O के लिए ब्लॉक न हो जाए।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-005",
+      "number": 5,
+      "question": "What is the maximum number of processes that can be in the \"Running\" state at a time in a single processor system?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Multiple"
+      },
+      "answer": "B",
+      "explanation": "In a single processor system, only one process can be executed by the CPU at any given moment.",
+      "hash": "bda4ac47dea8afed",
+      "translations": {
+        "hi": {
+          "question": "सिंगल प्रोसेसर सिस्टम में एक समय में \"रनिंग\" अवस्था में अधिकतम कितनी प्रक्रियाएँ हो सकती हैं?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "अनेक"
+          },
+          "explanation": "सिंगल प्रोसेसर सिस्टम में, किसी भी क्षण CPU द्वारा केवल एक ही प्रक्रिया को निष्पादित किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-006",
+      "number": 6,
+      "question": "Which of the following is used to overcome the problem of external fragmentation?",
+      "options": {
+        "A": "Paging",
+        "B": "Compaction",
+        "C": "Both A and B",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Paging and compaction are techniques used to manage or eliminate external fragmentation.",
+      "hash": "b78e1dc06611105f",
+      "translations": {
+        "hi": {
+          "question": "बाहरी विखंडन की समस्या को दूर करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "पेजिंग",
+            "B": "कॉम्पैक्शन",
+            "C": "A और B दोनों",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "पेजिंग और कॉम्पैक्शन बाहरी विखंडन को प्रबंधित करने या खत्म करने के लिए उपयोग की जाने वाली तकनीकें हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-007",
+      "number": 7,
+      "question": "The critical section problem is related to:",
+      "options": {
+        "A": "Memory management",
+        "B": "Process synchronization",
+        "C": "Disk scheduling",
+        "D": "File systems"
+      },
+      "answer": "B",
+      "explanation": "Critical section refers to the segment of code where shared resources are accessed by processes.",
+      "hash": "d47e085392c9f617",
+      "translations": {
+        "hi": {
+          "question": "क्रिटिकल सेक्शन की समस्या किससे संबंधित है?",
+          "options": {
+            "A": "मेमोरी प्रबंधन",
+            "B": "प्रोसेस सिंक्रोनाइज़ेशन",
+            "C": "डिस्क शेड्यूलिंग",
+            "D": "फ़ाइल सिस्टम"
+          },
+          "explanation": "क्रिटिकल सेक्शन कोड के उस हिस्से को संदर्भित करता है जहाँ प्रक्रियाओं द्वारा साझा संसाधनों तक पहुँचा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-008",
+      "number": 8,
+      "question": "The Banker’s algorithm is also known as:",
+      "options": {
+        "A": "Deadlock Avoidance",
+        "B": "Safety Algorithm",
+        "C": "Resource Allocation Graph",
+        "D": "Both A and B"
+      },
+      "answer": "D",
+      "explanation": "Banker's algorithm uses a safety algorithm to avoid entering an unsafe state (deadlock).",
+      "hash": "25a864bcd4d53cf1",
+      "translations": {
+        "hi": {
+          "question": "बैंकर एल्गोरिथम को इस नाम से भी जाना जाता है:",
+          "options": {
+            "A": "डेडलॉक अवॉयडेंस",
+            "B": "सेफ्टी एल्गोरिथम",
+            "C": "रिसोर्स एलोकेशन ग्राफ",
+            "D": "A और B दोनों"
+          },
+          "explanation": "बैंकर एल्गोरिथम असुरक्षित स्थिति (डेडलॉक) में जाने से बचने के लिए सेफ्टी एल्गोरिथम का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-009",
+      "number": 9,
+      "question": "A semaphore is a/an ________ variable.",
+      "options": {
+        "A": "Integer",
+        "B": "String",
+        "C": "Boolean",
+        "D": "Float"
+      },
+      "answer": "A",
+      "explanation": "A semaphore is an integer variable used for signaling and controlling access to shared resources.",
+      "hash": "57fdf3bbe8e0f893",
+      "translations": {
+        "hi": {
+          "question": "सेमाफोर एक ________ वेरिएबल है।",
+          "options": {
+            "A": "इंटीजर",
+            "B": "स्ट्रिंग",
+            "C": "बुलियन",
+            "D": "फ्लोट"
+          },
+          "explanation": "सेमाफोर एक इंटीजर वेरिएबल है जिसका उपयोग साझा संसाधनों तक पहुंच को नियंत्रित करने और सिग्नल देने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-010",
+      "number": 10,
+      "question": "What does \"LRU\" stand for in page replacement?",
+      "options": {
+        "A": "Last Recently Used",
+        "B": "Least Recently Used",
+        "C": "Least Regularly Used",
+        "D": "Longest Recently Used"
+      },
+      "answer": "B",
+      "explanation": "LRU replaces the page that has not been used for the longest period of time.",
+      "hash": "f16d28053d6c200e",
+      "translations": {
+        "hi": {
+          "question": "पेज रिप्लेसमेंट में \"LRU\" का क्या अर्थ है?",
+          "options": {
+            "A": "लास्ट रिसेंटली यूज्ड",
+            "B": "लीस्ट रिसेंटली यूज्ड",
+            "C": "लीस्ट रेगुलरली यूज्ड",
+            "D": "लॉन्गेस्ट रिसेंटली यूज्ड"
+          },
+          "explanation": "LRU उस पेज को बदल देता है जिसका उपयोग सबसे लंबे समय से नहीं किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-011",
+      "number": 11,
+      "question": "Which of the following is not a CPU scheduling criterion?",
+      "options": {
+        "A": "CPU utilization",
+        "B": "Throughput",
+        "C": "Burst time",
+        "D": "Waiting time"
+      },
+      "answer": "C",
+      "explanation": "Burst time is a characteristic of the process, not a performance criterion for the scheduler.",
+      "hash": "b0c77e1d75416716",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा CPU शेड्यूलिंग मानदंड नहीं है?",
+          "options": {
+            "A": "CPU उपयोग",
+            "B": "थ्रूपुट",
+            "C": "बर्स्ट टाइम",
+            "D": "वेटिंग टाइम"
+          },
+          "explanation": "बर्स्ट टाइम प्रक्रिया की एक विशेषता है, शेड्यूलर के लिए प्रदर्शन मानदंड नहीं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-012",
+      "number": 12,
+      "question": "In a Unix-like OS, which command is used to change file permissions?",
+      "options": {
+        "A": "chown",
+        "B": "chmod",
+        "C": "chgrp",
+        "D": "ls -l"
+      },
+      "answer": "B",
+      "explanation": "'chmod' (change mode) is used to define permissions (read, write, execute) for files.",
+      "hash": "37262f2403a0dcd1",
+      "translations": {
+        "hi": {
+          "question": "यूनिक्स जैसे OS में, फ़ाइल अनुमतियाँ बदलने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "chown",
+            "B": "chmod",
+            "C": "chgrp",
+            "D": "ls -l"
+          },
+          "explanation": "'chmod' का उपयोग फाइलों के लिए अनुमतियां (पढ़ना, लिखना, निष्पादित करना) निर्धारित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-013",
+      "number": 13,
+      "question": "The situation where a process is waiting forever for a resource that is held by another waiting process is:",
+      "options": {
+        "A": "Starvation",
+        "B": "Deadlock",
+        "C": "Thrashing",
+        "D": "Interrupt"
+      },
+      "answer": "B",
+      "explanation": "Deadlock is a circular wait condition where no process can proceed.",
+      "hash": "b63c98b72ca4dc2b",
+      "translations": {
+        "hi": {
+          "question": "वह स्थिति जहाँ एक प्रक्रिया हमेशा के लिए एक संसाधन की प्रतीक्षा कर रही है जो दूसरी प्रतीक्षा कर रही प्रक्रिया के पास है:",
+          "options": {
+            "A": "भुखमरी",
+            "B": "डेडलॉक",
+            "C": "थ्रैशिंग",
+            "D": "इंटरप्ट"
+          },
+          "explanation": "डेडलॉक एक सर्कुलर वेट स्थिति है जहाँ कोई भी प्रक्रिया आगे नहीं बढ़ सकती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-014",
+      "number": 14,
+      "question": "Internal fragmentation occurs in:",
+      "options": {
+        "A": "Paging",
+        "B": "Segmentation",
+        "C": "Variable partitioning",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Internal fragmentation occurs when the allocated memory is slightly larger than the requested memory.",
+      "hash": "c59bf5b56312243a",
+      "translations": {
+        "hi": {
+          "question": "आंतरिक विखंडन (Internal fragmentation) किसमें होता है?",
+          "options": {
+            "A": "पेजिंग",
+            "B": "सेगमेंटेशन",
+            "C": "वेरिएबल पार्टीशनिंग",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "आंतरिक विखंडन तब होता है जब आवंटित मेमोरी अनुरोधित मेमोरी से थोड़ी बड़ी होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-015",
+      "number": 15,
+      "question": "What is the \"Kernel\" of an operating system?",
+      "options": {
+        "A": "The user interface",
+        "B": "The hardware of the system",
+        "C": "The core part that remains in memory",
+        "D": "The installation files"
+      },
+      "answer": "C",
+      "explanation": "The Kernel is the central component of an OS that manages system resources and hardware.",
+      "hash": "f56760afbda02814",
+      "translations": {
+        "hi": {
+          "question": "ऑपरेटिंग सिस्टम का \"कर्नेल\" क्या है?",
+          "options": {
+            "A": "यूजर इंटरफेस",
+            "B": "सिस्टम का हार्डवेयर",
+            "C": "मुख्य भाग जो मेमोरी में रहता है",
+            "D": "इंस्टालेशन फाइलें"
+          },
+          "explanation": "कर्नेल OS का केंद्रीय घटक है जो सिस्टम संसाधनों और हार्डवेयर का प्रबंधन करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-016",
+      "number": 16,
+      "question": "Which disk scheduling algorithm services requests in the order they arrive?",
+      "options": {
+        "A": "SSTF",
+        "B": "SCAN",
+        "C": "FCFS",
+        "D": "LOOK"
+      },
+      "answer": "C",
+      "explanation": "FCFS (First Come First Served) disk scheduling is the simplest and handles requests in arrival order.",
+      "hash": "c657edf15433eb0b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा डिस्क शेड्यूलिंग एल्गोरिथम अनुरोधों को उसी क्रम में सेवा देता है जिस क्रम में वे आते हैं?",
+          "options": {
+            "A": "SSTF",
+            "B": "SCAN",
+            "C": "FCFS",
+            "D": "LOOK"
+          },
+          "explanation": "FCFS डिस्क शेड्यूलिंग सबसे सरल है और आगमन क्रम में अनुरोधों को संभालती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-017",
+      "number": 17,
+      "question": "Which of the following is an example of an Operating System?",
+      "options": {
+        "A": "MS-Word",
+        "B": "Google Chrome",
+        "C": "Windows",
+        "D": "Photoshop"
+      },
+      "answer": "C",
+      "explanation": "Windows is system software (OS), while the others are application software.",
+      "hash": "cb56d8069cd6deaa",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम का एक उदाहरण है?",
+          "options": {
+            "A": "एमएस-वर्ड",
+            "B": "गूगल क्रोम",
+            "C": "विंडोज",
+            "D": "फोटोशॉप"
+          },
+          "explanation": "विंडोज सिस्टम सॉफ्टवेयर (OS) है, जबकि अन्य एप्लिकेशन सॉफ्टवेयर हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-018",
+      "number": 18,
+      "question": "What is the purpose of the \"chmod 777\" command?",
+      "options": {
+        "A": "No permissions to anyone",
+        "B": "Read, write, and execute permissions to everyone",
+        "C": "Read only for owner",
+        "D": "Execute only for group"
+      },
+      "answer": "B",
+      "explanation": "'777' gives full read, write, and execute permissions to the user, group, and others.",
+      "hash": "7872ca00866d7b20",
+      "translations": {
+        "hi": {
+          "question": "\"chmod 777\" कमांड का उद्देश्य क्या है?",
+          "options": {
+            "A": "किसी को कोई अनुमति नहीं",
+            "B": "सभी को पढ़ने, लिखने और निष्पादित करने की अनुमति",
+            "C": "केवल मालिक के लिए पढ़ने की अनुमति",
+            "D": "समूह के लिए केवल निष्पादित करने की अनुमति"
+          },
+          "explanation": "'777' यूजर, ग्रुप और अन्य को पूर्ण पढ़ने, लिखने और निष्पादित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-019",
+      "number": 19,
+      "question": "Swapping is a technique used in:",
+      "options": {
+        "A": "Memory management",
+        "B": "CPU scheduling",
+        "C": "Process creation",
+        "D": "File management"
+      },
+      "answer": "A",
+      "explanation": "Swapping involves moving processes between main memory and disk to handle more processes than RAM allows.",
+      "hash": "5c138d827f1ee94d",
+      "translations": {
+        "hi": {
+          "question": "स्वैपिंग एक तकनीक है जिसका उपयोग किसमें किया जाता है?",
+          "options": {
+            "A": "मेमोरी प्रबंधन",
+            "B": "CPU शेड्यूलिंग",
+            "C": "प्रोसेस निर्माण",
+            "D": "फ़ाइल प्रबंधन"
+          },
+          "explanation": "स्वैपिंग में रैम की अनुमति से अधिक प्रक्रियाओं को संभालने के लिए मुख्य मेमोरी और डिस्क के बीच प्रक्रियाओं को स्थानांतरित करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-020",
+      "number": 20,
+      "question": "In memory management, \"Logical Address\" is generated by:",
+      "options": {
+        "A": "Memory unit",
+        "B": "CPU",
+        "C": "OS",
+        "D": "I/O Unit"
+      },
+      "answer": "B",
+      "explanation": "The CPU generates the logical address, which is later mapped to a physical address by the MMU.",
+      "hash": "9f13b44ce6e0216a",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी प्रबंधन में, \"लॉजिकल एड्रेस\" किसके द्वारा उत्पन्न किया जाता है?",
+          "options": {
+            "A": "मेमोरी यूनिट",
+            "B": "CPU",
+            "C": "OS",
+            "D": "I/O यूनिट"
+          },
+          "explanation": "CPU लॉजिकल एड्रेस जेनरेट करता है, जिसे बाद में MMU द्वारा फिजिकल एड्रेस पर मैप किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-021",
+      "number": 21,
+      "question": "A thread is also known as a:",
+      "options": {
+        "A": "Heavyweight process",
+        "B": "Lightweight process",
+        "C": "Independent process",
+        "D": "Zombie process"
+      },
+      "answer": "B",
+      "explanation": "Threads share resources of the parent process and have less overhead than full processes.",
+      "hash": "a578efe4a5a12c27",
+      "translations": {
+        "hi": {
+          "question": "थ्रेड को इसके रूप में भी जाना जाता है:",
+          "options": {
+            "A": "हैवीवेट प्रोसेस",
+            "B": "लाइटवेट प्रोसेस",
+            "C": "इंडिपेंडेंट प्रोसेस",
+            "D": "ज़ोंबी प्रोसेस"
+          },
+          "explanation": "थ्रेड्स पैरेंट प्रोसेस के संसाधनों को साझा करते हैं और पूर्ण प्रक्रियाओं की तुलना में कम ओवरहेड रखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-022",
+      "number": 22,
+      "question": "Which scheduling algorithm uses \"Time Quantum\"?",
+      "options": {
+        "A": "FCFS",
+        "B": "SJF",
+        "C": "Round Robin",
+        "D": "Priority"
+      },
+      "answer": "C",
+      "explanation": "Round Robin assigns a fixed time unit (quantum) to each process in the ready queue.",
+      "hash": "29c12c208c17a63c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शेड्यूलिंग एल्गोरिथम \"टाइम क्वांटम\" का उपयोग करता है?",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "राउंड रॉबिन",
+            "D": "प्रायोरिटी"
+          },
+          "explanation": "राउंड रॉबिन रेडी क्यू में प्रत्येक प्रक्रिया को एक निश्चित समय इकाई (क्वांटम) प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-023",
+      "number": 23,
+      "question": "Which system call is used to wait for a child process to terminate?",
+      "options": {
+        "A": "stop()",
+        "B": "wait()",
+        "C": "exit()",
+        "D": "terminate()"
+      },
+      "answer": "B",
+      "explanation": "In Unix, the wait() system call allows a parent process to pause until its child completes.",
+      "hash": "b05fd82986b6f87d",
+      "translations": {
+        "hi": {
+          "question": "चाइल्ड प्रोसेस के समाप्त होने की प्रतीक्षा करने के लिए किस सिस्टम कॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "stop()",
+            "B": "wait()",
+            "C": "exit()",
+            "D": "terminate()"
+          },
+          "explanation": "यूनिक्स में, wait() सिस्टम कॉल पैरेंट प्रोसेस को तब तक रुकने की अनुमति देता है जब तक उसका चाइल्ड पूरा न हो जाए।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-024",
+      "number": 24,
+      "question": "Multi-processing involves:",
+      "options": {
+        "A": "Single CPU",
+        "B": "Two or more CPUs",
+        "C": "No CPU",
+        "D": "Multiple monitors"
+      },
+      "answer": "B",
+      "explanation": "Multi-processing is the use of two or more central processing units within a single computer system.",
+      "hash": "a8bcc2836da9287f",
+      "translations": {
+        "hi": {
+          "question": "मल्टी-प्रोसेसिंग में शामिल है:",
+          "options": {
+            "A": "सिंगल CPU",
+            "B": "दो या दो से अधिक CPU",
+            "C": "कोई CPU नहीं",
+            "D": "अनेक मॉनिटर"
+          },
+          "explanation": "मल्टी-प्रोसेसिंग एक ही कंप्यूटर सिस्टम के भीतर दो या दो से अधिक सेंट्रल प्रोसेसिंग यूनिट का उपयोग है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-025",
+      "number": 25,
+      "question": "What is the main function of the \"Ready Queue\"?",
+      "options": {
+        "A": "To store processes waiting for I/O",
+        "B": "To store processes ready to execute",
+        "C": "To store finished processes",
+        "D": "To store blocked processes"
+      },
+      "answer": "B",
+      "explanation": "The ready queue contains all processes residing in main memory that are ready and waiting to execute.",
+      "hash": "a9c43709924c8aa1",
+      "translations": {
+        "hi": {
+          "question": "\"रेडी क्यू\" का मुख्य कार्य क्या है?",
+          "options": {
+            "A": "I/O की प्रतीक्षा कर रही प्रक्रियाओं को स्टोर करने के लिए",
+            "B": "निष्पादित होने के लिए तैयार प्रक्रियाओं को स्टोर करने के लिए",
+            "C": "समाप्त प्रक्रियाओं को स्टोर करने के लिए",
+            "D": "ब्लॉक की गई प्रक्रियाओं को स्टोर करने के लिए"
+          },
+          "explanation": "रेडी क्यू में मुख्य मेमोरी में रहने वाली सभी प्रक्रियाएं होती हैं जो तैयार हैं और निष्पादित होने की प्रतीक्षा कर रही हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-026",
+      "number": 26,
+      "question": "The term \"Aging\" is used to solve the problem of:",
+      "options": {
+        "A": "Deadlock",
+        "B": "Starvation",
+        "C": "Fragmentation",
+        "D": "Thrashing"
+      },
+      "answer": "B",
+      "explanation": "Aging gradually increases the priority of processes that wait in the system for a long time.",
+      "hash": "a17414e50751f36f",
+      "translations": {
+        "hi": {
+          "question": "\"एजिंग\" (Aging) शब्द का उपयोग किस समस्या को हल करने के लिए किया जाता है?",
+          "options": {
+            "A": "डेडलॉक",
+            "B": "भुखमरी",
+            "C": "विखंडन",
+            "D": "थ्रैशिंग"
+          },
+          "explanation": "एजिंग धीरे-धीरे उन प्रक्रियाओं की प्राथमिकता बढ़ाता है जो सिस्टम में लंबे समय तक प्रतीक्षा करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-027",
+      "number": 27,
+      "question": "The address of the next instruction to be executed is stored in the:",
+      "options": {
+        "A": "Stack pointer",
+        "B": "Program counter",
+        "C": "Accumulator",
+        "D": "Index register"
+      },
+      "answer": "B",
+      "explanation": "The Program Counter (PC) holds the memory address of the next instruction the CPU should fetch.",
+      "hash": "df36f6e2181e05ab",
+      "translations": {
+        "hi": {
+          "question": "निष्पादित होने वाले अगले निर्देश का पता किसमें संग्रहीत होता है?",
+          "options": {
+            "A": "स्टैक पॉइंटर",
+            "B": "प्रोग्राम काउंटर",
+            "C": "एक्यूमुलेटर",
+            "D": "इंडेक्स रजिस्टर"
+          },
+          "explanation": "प्रोग्राम काउंटर (PC) अगले निर्देश का मेमोरी एड्रेस रखता है जिसे CPU को प्राप्त करना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-028",
+      "number": 28,
+      "question": "Which command is used to list files in a directory in Linux?",
+      "options": {
+        "A": "list",
+        "B": "ls",
+        "C": "show",
+        "D": "dir -l"
+      },
+      "answer": "B",
+      "explanation": "'ls' is the standard command used to list contents of a directory in Unix-based systems.",
+      "hash": "1a3f07b59bc5a7ff",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स में डायरेक्टरी में फाइलों को सूचीबद्ध करने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "list",
+            "B": "ls",
+            "C": "show",
+            "D": "dir -l"
+          },
+          "explanation": "'ls' मानक कमांड है जिसका उपयोग यूनिक्स-आधारित प्रणालियों में डायरेक्टरी की सामग्री को सूचीबद्ध करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-029",
+      "number": 29,
+      "question": "Which layer is responsible for process-to-process delivery in the OSI model?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Transport Layer",
+        "C": "Data Link Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "B",
+      "explanation": "While OS managed, the Transport layer ensures reliable process-to-process delivery.",
+      "hash": "e3f86e8c7fdb4616",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल में प्रोसेस-टू-प्रोसेस डिलीवरी के लिए कौन सी परत जिम्मेदार है?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "ट्रांसपोर्ट लेयर",
+            "C": "डेटा लिंक लेयर",
+            "D": "फिजिकल लेयर"
+          },
+          "explanation": "जबकि OS प्रबंधित है, ट्रांसपोर्ट लेयर विश्वसनीय प्रोसेस-टू-प्रोसेस डिलीवरी सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-02-030",
+      "number": 30,
+      "question": "Real-time systems must have:",
+      "options": {
+        "A": "High efficiency",
+        "B": "Deterministic behavior",
+        "C": "Large RAM",
+        "D": "User-friendly GUI"
+      },
+      "answer": "B",
+      "explanation": "Real-time systems must provide results within guaranteed time constraints (predictable/deterministic).",
+      "hash": "2b6fe1a77c83b984",
+      "translations": {
+        "hi": {
+          "question": "रियल-टाइम सिस्टम में होना चाहिए:",
+          "options": {
+            "A": "उच्च दक्षता",
+            "B": "डिटरमिनिस्टिक व्यवहार",
+            "C": "बड़ी रैम",
+            "D": "यूजर-फ्रेंडली GUI"
+          },
+          "explanation": "रियल-टाइम सिस्टम को गारंटीकृत समय बाधाओं (अनुमानित/डिटरमिनिस्टिक) के भीतर परिणाम प्रदान करना चाहिए।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Computer Networks",
+  "set": 3,
+  "title": "Computer Networks Mock Test 3",
+  "questions": [
+    {
+      "id": "computer-networks-03-001",
+      "number": 1,
+      "question": "Which protocol is used to translate an IP address into a MAC address?",
+      "options": {
+        "A": "DNS",
+        "B": "ARP",
+        "C": "DHCP",
+        "D": "RARP"
+      },
+      "answer": "B",
+      "explanation": "ARP (Address Resolution Protocol) finds the hardware address (MAC) corresponding to a known IP address.",
+      "hash": "7d3984a3dcc6b4bd",
+      "translations": {
+        "hi": {
+          "question": "IP एड्रेस को MAC एड्रेस में बदलने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "डीएनएस",
+            "B": "एआरपी",
+            "C": "डीएचसीपी",
+            "D": "आरएआरपी"
+          },
+          "explanation": "ARP (एड्रेस रेजोल्यूशन प्रोटोकॉल) एक ज्ञात IP एड्रेस के संबंधित हार्डवेयर एड्रेस (MAC) को ढूंढता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-002",
+      "number": 2,
+      "question": "Which layer of the OSI model is responsible for link-to-link delivery?",
+      "options": {
+        "A": "Physical Layer",
+        "B": "Data Link Layer",
+        "C": "Network Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "B",
+      "explanation": "The Data Link layer ensures reliable delivery of frames between two adjacent nodes.",
+      "hash": "078d1db2e92a3801",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत लिंक-टू-लिंक डिलीवरी के लिए जिम्मेदार है?",
+          "options": {
+            "A": "फिजिकल लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "नेटवर्क लेयर",
+            "D": "ट्रांसपोर्ट लेयर"
+          },
+          "explanation": "डेटा लिंक लेयर दो आसन्न नोड्स के बीच फ्रेम की विश्वसनीय डिलीवरी सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-003",
+      "number": 3,
+      "question": "Which multiplexing technique shifts each signal to a different carrier frequency?",
+      "options": {
+        "A": "TDM",
+        "B": "FDM",
+        "C": "WDM",
+        "D": "PDM"
+      },
+      "answer": "B",
+      "explanation": "Frequency Division Multiplexing (FDM) divides the bandwidth into non-overlapping frequency bands.",
+      "hash": "b278482cc9bec2be",
+      "translations": {
+        "hi": {
+          "question": "कौन सी मल्टीप्लेक्सिंग तकनीक प्रत्येक सिग्नल को एक अलग कैरियर फ्रीक्वेंसी पर शिफ्ट करती है?",
+          "options": {
+            "A": "टीडीएम",
+            "B": "एफडीएम",
+            "C": "डब्ल्यूडीएम",
+            "D": "पीडीएम"
+          },
+          "explanation": "फ्रीक्वेंसी डिवीजन मल्टीप्लेक्सिंग (FDM) बैंडविड्थ को गैर-अतिव्यापी फ्रीक्वेंसी बैंड में विभाजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-004",
+      "number": 4,
+      "question": "What is the range of Class D IP addresses used for multicasting?",
+      "options": {
+        "A": "192.0.0.0 to 223.255.255.255",
+        "B": "224.0.0.0 to 239.255.255.255",
+        "C": "240.0.0.0 to 255.255.255.255",
+        "D": "128.0.0.0 to 191.255.255.255"
+      },
+      "answer": "B",
+      "explanation": "Class D is reserved exclusively for multicast groups.",
+      "hash": "bdabc5ce565d3504",
+      "translations": {
+        "hi": {
+          "question": "मल्टीकास्टिंग के लिए उपयोग किए जाने वाले क्लास D IP एड्रेस की रेंज क्या है?",
+          "options": {
+            "A": "192.0.0.0 से 223.255.255.255",
+            "B": "224.0.0.0 से 239.255.255.255",
+            "C": "240.0.0.0 से 255.255.255.255",
+            "D": "128.0.0.0 से 191.255.255.255"
+          },
+          "explanation": "क्लास D विशेष रूप से मल्टीकास्ट समूहों के लिए आरक्षित है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-005",
+      "number": 5,
+      "question": "What is the port number used by the DNS protocol?",
+      "options": {
+        "A": "23",
+        "B": "53",
+        "C": "67",
+        "D": "80"
+      },
+      "answer": "B",
+      "explanation": "DNS typically uses port 53 for handling queries and responses.",
+      "hash": "b3f6818ea32ec39e",
+      "translations": {
+        "hi": {
+          "question": "DNS प्रोटोकॉल द्वारा किस पोर्ट नंबर का उपयोग किया जाता है?",
+          "options": {
+            "A": "23",
+            "B": "53",
+            "C": "67",
+            "D": "80"
+          },
+          "explanation": "DNS आमतौर पर प्रश्नों और उत्तरों को संभालने के लिए पोर्ट 53 का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-006",
+      "number": 6,
+      "question": "Which device is used to connect multiple computers in a LAN where data is sent only to the intended port?",
+      "options": {
+        "A": "Hub",
+        "B": "Switch",
+        "C": "Repeater",
+        "D": "Bridge"
+      },
+      "answer": "B",
+      "explanation": "A switch is an intelligent device that uses MAC addresses to forward data to specific ports.",
+      "hash": "36d07297b9f43002",
+      "translations": {
+        "hi": {
+          "question": "LAN में कई कंप्यूटरों को जोड़ने के लिए किस डिवाइस का उपयोग किया जाता है जहाँ डेटा केवल इच्छित पोर्ट पर भेजा जाता है?",
+          "options": {
+            "A": "हब",
+            "B": "स्विच",
+            "C": "रिपीटर",
+            "D": "ब्रिज"
+          },
+          "explanation": "स्विच एक इंटेलिजेंट डिवाइस है जो डेटा को विशिष्ट पोर्ट पर भेजने के लिए MAC एड्रेस का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-007",
+      "number": 7,
+      "question": "Which error detection method involves adding all data units and sending the complement of the sum?",
+      "options": {
+        "A": "CRC",
+        "B": "Checksum",
+        "C": "Simple Parity",
+        "D": "Hamming Code"
+      },
+      "answer": "B",
+      "explanation": "Checksum calculates a value based on the sum of data segments to verify integrity.",
+      "hash": "58874717674699a2",
+      "translations": {
+        "hi": {
+          "question": "किस एरर डिटेक्शन विधि में सभी डेटा यूनिट्स को जोड़ना और योग का पूरक (complement) भेजना शामिल है?",
+          "options": {
+            "A": "सीआरसी",
+            "B": "चेकसम",
+            "C": "सिंपल पैरिटी",
+            "D": "हैमिंग कोड"
+          },
+          "explanation": "चेकसम अखंडता को सत्यापित करने के लिए डेटा सेगमेंट के योग के आधार पर एक मान की गणना करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-008",
+      "number": 8,
+      "question": "What is the maximum length of a 10Base5 (Thicknet) segment?",
+      "options": {
+        "A": "100 meters",
+        "B": "185 meters",
+        "C": "500 meters",
+        "D": "2000 meters"
+      },
+      "answer": "C",
+      "explanation": "10Base5 supports segments up to 500 meters.",
+      "hash": "17d30ee1acb7e6a9",
+      "translations": {
+        "hi": {
+          "question": "10Base5 (Thicknet) सेगमेंट की अधिकतम लंबाई क्या है?",
+          "options": {
+            "A": "100 मीटर",
+            "B": "185 मीटर",
+            "C": "500 मीटर",
+            "D": "2000 मीटर"
+          },
+          "explanation": "10Base5 500 मीटर तक के सेगमेंट का समर्थन करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-009",
+      "number": 9,
+      "question": "Which layer of the OSI model establishes, manages, and terminates connections between applications?",
+      "options": {
+        "A": "Transport Layer",
+        "B": "Session Layer",
+        "C": "Presentation Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B",
+      "explanation": "The Session layer manages the dialogue and synchronization between two systems.",
+      "hash": "a267f3cf16bc33de",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत अनुप्रयोगों (applications) के बीच कनेक्शन स्थापित, प्रबंधित और समाप्त करती है?",
+          "options": {
+            "A": "ट्रांसपोर्ट लेयर",
+            "B": "सेशन लेयर",
+            "C": "प्रेजेंटेशन लेयर",
+            "D": "एप्लीकेशन लेयर"
+          },
+          "explanation": "सेशन लेयर दो सिस्टम के बीच संवाद और सिंक्रनाइज़ेशन का प्रबंधन करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-010",
+      "number": 10,
+      "question": "Which protocol is used by a host to discover its own IP address when it only knows its MAC address?",
+      "options": {
+        "A": "ARP",
+        "B": "RARP",
+        "C": "ICMP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "Reverse ARP (RARP) allows a station to request its IP address from a gateway server.",
+      "hash": "4ed26cf2e9aa4545",
+      "translations": {
+        "hi": {
+          "question": "जब किसी होस्ट को केवल अपना MAC एड्रेस पता होता है, तो अपना IP एड्रेस खोजने के लिए वह किस प्रोटोकॉल का उपयोग करता है?",
+          "options": {
+            "A": "एआरपी",
+            "B": "आरएआरपी",
+            "C": "आईसीएमपी",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "रिवर्स ARP (RARP) एक स्टेशन को गेटवे सर्वर से अपना IP एड्रेस मांगने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-011",
+      "number": 11,
+      "question": "Which switching method stores the entire frame before forwarding it?",
+      "options": {
+        "A": "Cut-through switching",
+        "B": "Store-and-forward switching",
+        "C": "Fragment-free switching",
+        "D": "Adaptive switching"
+      },
+      "answer": "B",
+      "explanation": "Store-and-forward waits for the whole frame to perform error checking before sending.",
+      "hash": "9595bb75a1cefb70",
+      "translations": {
+        "hi": {
+          "question": "कौन सी स्विचिंग विधि आगे भेजने से पहले पूरे फ्रेम को स्टोर करती है?",
+          "options": {
+            "A": "कट-थ्रू स्विचिंग",
+            "B": "स्टोर-एंड-फॉरवर्ड स्विचिंग",
+            "C": "फ्रैगमेंट-फ्री स्विचिंग",
+            "D": "एडेप्टिव स्विचिंग"
+          },
+          "explanation": "स्टोर-एंड-फॉरवर्ड भेजने से पहले एरर चेकिंग करने के लिए पूरे फ्रेम की प्रतीक्षा करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-012",
+      "number": 12,
+      "question": "In the IPv4 header, which field indicates the version of the IP protocol?",
+      "options": {
+        "A": "IHL",
+        "B": "Version",
+        "C": "Type of Service",
+        "D": "Protocol"
+      },
+      "answer": "B",
+      "explanation": "The first 4 bits of the IP header define the version (4 for IPv4).",
+      "hash": "88198366c99fc31b",
+      "translations": {
+        "hi": {
+          "question": "IPv4 हेडर में, कौन सा फील्ड IP प्रोटोकॉल के वर्जन को दर्शाता है?",
+          "options": {
+            "A": "आईएचएल",
+            "B": "वर्जन",
+            "C": "टाइप ऑफ सर्विस",
+            "D": "प्रोटोकॉल"
+          },
+          "explanation": "IP हेडर के पहले 4 बिट वर्जन (IPv4 के लिए 4) को परिभाषित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-013",
+      "number": 13,
+      "question": "What does \"Collision Domain\" refer to?",
+      "options": {
+        "A": "The area where data can be intercepted",
+        "B": "A network segment where packets can collide with each other",
+        "C": "The entire internet",
+        "D": "A secure portion of a server"
+      },
+      "answer": "B",
+      "explanation": "A collision domain is a section of a network where data packets can collide on a shared medium.",
+      "hash": "7dee6085db87b3a6",
+      "translations": {
+        "hi": {
+          "question": "\"कोलिजन डोमेन\" (Collision Domain) का क्या अर्थ है?",
+          "options": {
+            "A": "वह क्षेत्र जहाँ डेटा को बीच में रोका जा सकता है",
+            "B": "एक नेटवर्क सेगमेंट जहाँ पैकेट एक दूसरे से टकरा सकते हैं",
+            "C": "पूरा इंटरनेट",
+            "D": "सर्वर का एक सुरक्षित हिस्सा"
+          },
+          "explanation": "कोलिजन डोमेन नेटवर्क का वह हिस्सा है जहाँ साझा माध्यम पर डेटा पैकेट आपस में टकरा सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-014",
+      "number": 14,
+      "question": "Which layer is responsible for translating data into a format that the application can understand?",
+      "options": {
+        "A": "Session Layer",
+        "B": "Presentation Layer",
+        "C": "Application Layer",
+        "D": "Network Layer"
+      },
+      "answer": "B",
+      "explanation": "The Presentation layer handles syntax and semantics like encryption and compression.",
+      "hash": "5bae5435c9312e61",
+      "translations": {
+        "hi": {
+          "question": "डेटा को उस प्रारूप में अनुवाद करने के लिए कौन सी परत जिम्मेदार है जिसे एप्लीकेशन समझ सके?",
+          "options": {
+            "A": "सेशन लेयर",
+            "B": "प्रेजेंटेशन लेयर",
+            "C": "एप्लीकेशन लेयर",
+            "D": "नेटवर्क लेयर"
+          },
+          "explanation": "प्रेजेंटेशन लेयर एन्क्रिप्शन और कंप्रेशन जैसे सिंटैक्स और सेमेंटिक्स को संभालती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-015",
+      "number": 15,
+      "question": "What is the standard port for the Telnet protocol?",
+      "options": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "25"
+      },
+      "answer": "C",
+      "explanation": "Telnet uses port 23, but it is unencrypted and considered insecure.",
+      "hash": "6bbb0c66593b2a31",
+      "translations": {
+        "hi": {
+          "question": "टेलनेट (Telnet) प्रोटोकॉल के लिए मानक पोर्ट क्या है?",
+          "options": {
+            "A": "21",
+            "B": "22",
+            "C": "23",
+            "D": "25"
+          },
+          "explanation": "टेलनेट पोर्ट 23 का उपयोग करता है, लेकिन यह अनएन्क्रिप्टेड है और असुरक्षित माना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-016",
+      "number": 16,
+      "question": "Which protocol provides a way to transfer files between a client and a server?",
+      "options": {
+        "A": "SNMP",
+        "B": "FTP",
+        "C": "HTTP",
+        "D": "DHCP"
+      },
+      "answer": "B",
+      "explanation": "FTP (File Transfer Protocol) is designed specifically for moving files between systems.",
+      "hash": "65024bc9abeab3d8",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल क्लाइंट और सर्वर के बीच फाइल ट्रांसफर करने का तरीका प्रदान करता है?",
+          "options": {
+            "A": "एसएनएमपी",
+            "B": "एफटीपी",
+            "C": "एचटीटीपी",
+            "D": "डीएचसीपी"
+          },
+          "explanation": "FTP (फाइल ट्रांसफर प्रोटोकॉल) विशेष रूप से सिस्टम के बीच फाइल ले जाने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-017",
+      "number": 17,
+      "question": "What is the main difference between a Hub and a Bridge?",
+      "options": {
+        "A": "Hub is faster",
+        "B": "Bridge can filter traffic based on MAC addresses",
+        "C": "Hub connects different protocols",
+        "D": "Bridge is a physical layer device"
+      },
+      "answer": "B",
+      "explanation": "A Bridge divides a collision domain by filtering traffic using a MAC address table.",
+      "hash": "76c8e240f84b0281",
+      "translations": {
+        "hi": {
+          "question": "हब और ब्रिज के बीच मुख्य अंतर क्या है?",
+          "options": {
+            "A": "हब तेज है",
+            "B": "ब्रिज MAC एड्रेस के आधार पर ट्रैफिक को फिल्टर कर सकता है",
+            "C": "हब विभिन्न प्रोटोकॉल को जोड़ता है",
+            "D": "ब्रिज एक फिजिकल लेयर डिवाइस है"
+          },
+          "explanation": "ब्रिज MAC एड्रेस टेबल का उपयोग करके ट्रैफिक को फिल्टर करके कोलिजन डोमेन को विभाजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-018",
+      "number": 18,
+      "question": "Which type of routing uses a manually configured routing table?",
+      "options": {
+        "A": "Dynamic Routing",
+        "B": "Static Routing",
+        "C": "Default Routing",
+        "D": "Adaptive Routing"
+      },
+      "answer": "B",
+      "explanation": "In static routing, paths are fixed and entered by the network administrator.",
+      "hash": "8ad491a65fa2e291",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की रूटिंग मैन्युअल रूप से कॉन्फ़िगर की गई रूटिंग टेबल का उपयोग करती है?",
+          "options": {
+            "A": "डायनामिक रूटिंग",
+            "B": "स्टेटिक रूटिंग",
+            "C": "डिफॉल्ट रूटिंग",
+            "D": "एडेप्टिव रूटिंग"
+          },
+          "explanation": "स्टेटिक रूटिंग में, रास्ते निश्चित होते हैं और नेटवर्क एडमिनिस्ट्रेटर द्वारा दर्ज किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-019",
+      "number": 19,
+      "question": "What is the function of the transport layer's \"Port Number\"?",
+      "options": {
+        "A": "To identify the source host",
+        "B": "To identify a specific process/application on a host",
+        "C": "To identify the network cable",
+        "D": "To count the number of hops"
+      },
+      "answer": "B",
+      "explanation": "Port numbers distinguish between different services (like web vs email) on a single machine.",
+      "hash": "5b2a467a3edef529",
+      "translations": {
+        "hi": {
+          "question": "ट्रांसपोर्ट लेयर के \"पोर्ट नंबर\" का कार्य क्या है?",
+          "options": {
+            "A": "सोर्स होस्ट की पहचान करना",
+            "B": "होस्ट पर एक विशिष्ट प्रक्रिया/एप्लीकेशन की पहचान करना",
+            "C": "नेटवर्क केबल की पहचान करना",
+            "D": "हॉप्स की संख्या गिनना"
+          },
+          "explanation": "पोर्ट नंबर एक ही मशीन पर विभिन्न सेवाओं (जैसे वेब बनाम ईमेल) के बीच अंतर करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-020",
+      "number": 20,
+      "question": "Which network topology is used by FDDI (Fiber Distributed Data Interface)?",
+      "options": {
+        "A": "Star Topology",
+        "B": "Dual Ring Topology",
+        "C": "Bus Topology",
+        "D": "Mesh Topology"
+      },
+      "answer": "B",
+      "explanation": "FDDI uses two counter-rotating rings for high reliability and redundancy.",
+      "hash": "dd84e2642ab347f0",
+      "translations": {
+        "hi": {
+          "question": "FDDI (फाइबर डिस्ट्रीब्यूटेड डेटा इंटरफेस) द्वारा किस नेटवर्क टोपोलॉजी का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टार टोपोलॉजी",
+            "B": "डुअल रिंग टोपोलॉजी",
+            "C": "बस टोपोलॉजी",
+            "D": "मेश टोपोलॉजी"
+          },
+          "explanation": "FDDI उच्च विश्वसनीयता के लिए दो काउंटर-रोटेटिंग रिंग का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-021",
+      "number": 21,
+      "question": "Which mechanism is used by TCP to ensure data is not lost during transmission?",
+      "options": {
+        "A": "Retransmission after Timeout",
+        "B": "Flow control",
+        "C": "Encryption",
+        "D": "Routing"
+      },
+      "answer": "A",
+      "explanation": "If an ACK is not received within a timeout period, TCP retransmits the data.",
+      "hash": "327a01516990aca0",
+      "translations": {
+        "hi": {
+          "question": "डेटा ट्रांसमिशन के दौरान डेटा खो न जाए, यह सुनिश्चित करने के लिए TCP किस तंत्र का उपयोग करता है?",
+          "options": {
+            "A": "टाइमआउट के बाद रिट्रांसमिशन",
+            "B": "फ्लो कंट्रोल",
+            "C": "एन्क्रिप्शन",
+            "D": "रूटिंग"
+          },
+          "explanation": "यदि टाइमआउट अवधि के भीतर ACK प्राप्त नहीं होता है, तो TCP डेटा को फिर से भेजता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-022",
+      "number": 22,
+      "question": "What is the bit rate of a standard T1 carrier line?",
+      "options": {
+        "A": "64 kbps",
+        "B": "1.544 Mbps",
+        "C": "2.048 Mbps",
+        "D": "10 Mbps"
+      },
+      "answer": "B",
+      "explanation": "A T1 line consists of 24 channels, totaling 1.544 Mbps of bandwidth.",
+      "hash": "0a20c71b4d75fc66",
+      "translations": {
+        "hi": {
+          "question": "एक मानक T1 कैरियर लाइन की बिट दर क्या है?",
+          "options": {
+            "A": "64 केबीपीएस",
+            "B": "1.544 एमबीपीएस",
+            "C": "2.048 एमबीपीएस",
+            "D": "10 एमबीपीएस"
+          },
+          "explanation": "एक T1 लाइन में 24 चैनल होते हैं, जो कुल 1.544 एमबीपीएस बैंडविड्थ देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-023",
+      "number": 23,
+      "question": "Which sublayer of the Data Link layer interacts with the Physical layer?",
+      "options": {
+        "A": "Logical Link Control (LLC)",
+        "B": "Media Access Control (MAC)",
+        "C": "Network Interface Layer",
+        "D": "Session Sublayer"
+      },
+      "answer": "B",
+      "explanation": "The MAC sublayer defines how data is placed onto the physical medium.",
+      "hash": "c303751aef5b6a5e",
+      "translations": {
+        "hi": {
+          "question": "डेटा लिंक लेयर की कौन सी सबलेयर फिजिकल लेयर के साथ इंटरैक्ट करती है?",
+          "options": {
+            "A": "लॉजिकल लिंक कंट्रोल (LLC)",
+            "B": "मीडिया एक्सेस कंट्रोल (MAC)",
+            "C": "नेटवर्क इंटरफेस लेयर",
+            "D": "सेशन सबलेयर"
+          },
+          "explanation": "MAC सबलेयर परिभाषित करती है कि डेटा को फिजिकल माध्यम पर कैसे रखा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-024",
+      "number": 24,
+      "question": "In a p-persistent CSMA, what is 'p'?",
+      "options": {
+        "A": "Parity",
+        "B": "Power",
+        "C": "Probability",
+        "D": "Protocol"
+      },
+      "answer": "C",
+      "explanation": "The station transmits with a probability 'p' when it finds the channel idle.",
+      "hash": "fa399379fac0560f",
+      "translations": {
+        "hi": {
+          "question": "p-प्रेसिस्टेंट CSMA में, 'p' क्या है?",
+          "options": {
+            "A": "पैरिटी",
+            "B": "पावर",
+            "C": "प्रोबेबिलिटी (प्रायिकता)",
+            "D": "प्रोटोकॉल"
+          },
+          "explanation": "स्टेशन 'p' प्रायिकता के साथ ट्रांसमिट करता है जब उसे चैनल खाली मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-025",
+      "number": 25,
+      "question": "What is the maximum size of an Ethernet Frame (excluding preamble)?",
+      "options": {
+        "A": "64 bytes",
+        "B": "512 bytes",
+        "C": "1518 bytes",
+        "D": "4096 bytes"
+      },
+      "answer": "C",
+      "explanation": "A standard Ethernet frame ranges from 64 to 1518 bytes.",
+      "hash": "d5434bd2b43d154c",
+      "translations": {
+        "hi": {
+          "question": "ईथरनेट फ्रेम (प्रिअंबल को छोड़कर) का अधिकतम आकार क्या है?",
+          "options": {
+            "A": "64 बाइट्स",
+            "B": "512 बाइट्स",
+            "C": "1518 बाइट्स",
+            "D": "4096 बाइट्स"
+          },
+          "explanation": "एक मानक ईथरनेट फ्रेम 64 से 1518 बाइट्स तक होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-026",
+      "number": 26,
+      "question": "Which distance vector routing protocol uses hop count as its metric?",
+      "options": {
+        "A": "OSPF",
+        "B": "BGP",
+        "C": "RIP",
+        "D": "EIGRP"
+      },
+      "answer": "C",
+      "explanation": "RIP (Routing Information Protocol) considers the path with the fewest hops as the best path.",
+      "hash": "d1cef105db71cc3a",
+      "translations": {
+        "hi": {
+          "question": "कौन सा डिस्टेंस वेक्टर रूटिंग प्रोटोकॉल हॉप काउंट को अपनी मेट्रिक के रूप में उपयोग करता है?",
+          "options": {
+            "A": "ओएसपीएफ",
+            "B": "बीजीपी",
+            "C": "आरआईपी",
+            "D": "ईआईजीआरपी"
+          },
+          "explanation": "RIP (रूटिंग इंफॉर्मेशन प्रोटोकॉल) सबसे कम हॉप्स वाले रास्ते को सबसे अच्छा रास्ता मानता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-027",
+      "number": 27,
+      "question": "What is the purpose of a \"VLAN\"?",
+      "options": {
+        "A": "To connect different countries",
+        "B": "To logically group devices in the same broadcast domain regardless of location",
+        "C": "To increase the length of the cable",
+        "D": "To replace the router"
+      },
+      "answer": "B",
+      "explanation": "Virtual LANs (VLANs) allow network administrators to group users logically by function or department.",
+      "hash": "48b0358c86e0ecab",
+      "translations": {
+        "hi": {
+          "question": "\"VLAN\" का उद्देश्य क्या है?",
+          "options": {
+            "A": "विभिन्न देशों को जोड़ने के लिए",
+            "B": "स्थान की परवाह किए बिना एक ही ब्रॉडकास्ट डोमेन में डिवाइस को लॉजिकली समूहबद्ध करना",
+            "C": "केबल की लंबाई बढ़ाने के लिए",
+            "D": "राउटर को बदलने के लिए"
+          },
+          "explanation": "वर्चुअल लैन (VLAN) नेटवर्क एडमिनिस्ट्रेटर को फंक्शन या विभाग द्वारा उपयोगकर्ताओं को लॉजिकली समूहबद्ध करने की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-028",
+      "number": 28,
+      "question": "Which protocol is used to provide security for web transactions?",
+      "options": {
+        "A": "SSL/TLS",
+        "B": "SNMP",
+        "C": "ICMP",
+        "D": "ARP"
+      },
+      "answer": "A",
+      "explanation": "SSL/TLS encrypts communication between the web browser and the server.",
+      "hash": "896a9721feac5416",
+      "translations": {
+        "hi": {
+          "question": "वेब लेनदेन के लिए सुरक्षा प्रदान करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एसएसएल/टीएलएस",
+            "B": "एसएनएमपी",
+            "C": "आईसीएमपी",
+            "D": "एआरपी"
+          },
+          "explanation": "SSL/TLS वेब ब्राउज़र और सर्वर के बीच संचार को एन्क्रिप्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-029",
+      "number": 29,
+      "question": "Which layer handles the synchronization of data bits in the OSI model?",
+      "options": {
+        "A": "Physical Layer",
+        "B": "Data Link Layer",
+        "C": "Network Layer",
+        "D": "Session Layer"
+      },
+      "answer": "A",
+      "explanation": "The Physical layer deals with bit-level synchronization and transmission.",
+      "hash": "7860d3742cce25f7",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल में डेटा बिट्स के सिंक्रनाइज़ेशन को कौन सी परत संभालती है?",
+          "options": {
+            "A": "फिजिकल लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "नेटवर्क लेयर",
+            "D": "सेशन लेयर"
+          },
+          "explanation": "फिजिकल लेयर बिट-लेवल सिंक्रनाइज़ेशन और ट्रांसमिशन से संबंधित है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-03-030",
+      "number": 30,
+      "question": "What is the loopback IP address for IPv6?",
+      "options": {
+        "A": "127.0.0.1",
+        "B": "::1",
+        "C": "0:0:0:0",
+        "D": "FE80::1"
+      },
+      "answer": "B",
+      "explanation": "In IPv6, the address ::1 (all zeros followed by a one) is used for loopback testing.",
+      "hash": "bfe6467165b72213",
+      "translations": {
+        "hi": {
+          "question": "IPv6 के लिए लूपबैक IP एड्रेस क्या है?",
+          "options": {
+            "A": "127.0.0.1",
+            "B": "::1",
+            "C": "0:0:0:0",
+            "D": "FE80::1"
+          },
+          "explanation": "IPv6 में, एड्रेस ::1 का उपयोग लूपबैक टेस्टिंग के लिए किया जाता है।"
+        }
+      }
+    }
+  ]
+}

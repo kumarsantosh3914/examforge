@@ -1,0 +1,787 @@
+{
+  "subject": "Web Technologies",
+  "set": 4,
+  "title": "Web Technologies Mock Test 4",
+  "questions": [
+    {
+      "id": "web-technologies-04-001",
+      "number": 1,
+      "question": "Which CSS property is used to make a flexible container and its items?",
+      "options": {
+        "A": "display: block;",
+        "B": "display: flex;",
+        "C": "display: grid;",
+        "D": "float: flex;"
+      },
+      "answer": "B",
+      "explanation": "display: flex; initializes a flexbox layout for the container's children.",
+      "hash": "535ff60544ebf7bd",
+      "translations": {
+        "hi": {
+          "question": "एक फ्लेक्सिबल कंटेनर और उसके आइटम बनाने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "display: block;",
+            "B": "display: flex;",
+            "C": "display: grid;",
+            "D": "float: flex;"
+          },
+          "explanation": "display: flex; कंटेनर के बच्चों के लिए फ्लेक्सबॉक्स लेआउट को इनिशियलाइज़ करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-002",
+      "number": 2,
+      "question": "Which JavaScript method is used to remove the last element from an array?",
+      "options": {
+        "A": "shift()",
+        "B": "push()",
+        "C": "pop()",
+        "D": "slice()"
+      },
+      "answer": "C",
+      "explanation": "pop() removes the last element and returns that element.",
+      "hash": "f68945acb53d23c2",
+      "translations": {
+        "hi": {
+          "question": "ऐरे से अंतिम तत्व को हटाने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "shift()",
+            "B": "push()",
+            "C": "pop()",
+            "D": "slice()"
+          },
+          "explanation": "pop() अंतिम तत्व को हटा देता है और उस तत्व को वापस कर देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-003",
+      "number": 3,
+      "question": "Which HTML tag is used to define an SVG (Scalable Vector Graphics) container?",
+      "options": {
+        "A": "<canvas>",
+        "B": "<graphics>",
+        "C": "<svg>",
+        "D": "<vector>"
+      },
+      "answer": "C",
+      "explanation": "The <svg> tag is used to draw vector graphics directly in the browser.",
+      "hash": "eb5c92e218d1f45c",
+      "translations": {
+        "hi": {
+          "question": "SVG (स्केलेबल वेक्टर ग्राफिक्स) कंटेनर को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<canvas>",
+            "B": "<graphics>",
+            "C": "<svg>",
+            "D": "<vector>"
+          },
+          "explanation": "<svg> टैग का उपयोग सीधे ब्राउज़र में वेक्टर ग्राफिक्स बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-004",
+      "number": 4,
+      "question": "In the CSS Grid layout, which property is used to define the number and width of columns?",
+      "options": {
+        "A": "grid-columns",
+        "B": "grid-template-columns",
+        "C": "column-count",
+        "D": "grid-layout-columns"
+      },
+      "answer": "B",
+      "explanation": "grid-template-columns defines the columns of the grid with specific sizes or fractions.",
+      "hash": "15fca5adf36cac75",
+      "translations": {
+        "hi": {
+          "question": "CSS ग्रिड लेआउट में, कॉलम की संख्या और चौड़ाई को परिभाषित करने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "grid-columns",
+            "B": "grid-template-columns",
+            "C": "column-count",
+            "D": "grid-layout-columns"
+          },
+          "explanation": "grid-template-columns विशिष्ट आकार या अंशों (fractions) के साथ ग्रिड के कॉलम को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-005",
+      "number": 5,
+      "question": "Which HTML attribute is used to link a label to a specific form input by its ID?",
+      "options": {
+        "A": "name",
+        "B": "for",
+        "C": "id",
+        "D": "relate"
+      },
+      "answer": "B",
+      "explanation": "The for attribute in a <label> should match the id of the input element.",
+      "hash": "60abb266e0d90d7e",
+      "translations": {
+        "hi": {
+          "question": "किसी लेबल को उसकी आईडी द्वारा विशिष्ट फॉर्म इनपुट से जोड़ने के लिए किस HTML एट्रिब्यूट का उपयोग किया जाता है?",
+          "options": {
+            "A": "name",
+            "B": "for",
+            "C": "id",
+            "D": "relate"
+          },
+          "explanation": "<label> में for एट्रिब्यूट इनपुट तत्व की id से मेल खाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-006",
+      "number": 6,
+      "question": "In CSS, what is the default value of the flex-direction property?",
+      "options": {
+        "A": "column",
+        "B": "row-reverse",
+        "C": "row",
+        "D": "initial"
+      },
+      "answer": "C",
+      "explanation": "The default direction of a flex container is row (horizontal).",
+      "hash": "f87bd82091c672a9",
+      "translations": {
+        "hi": {
+          "question": "CSS में, flex-direction प्रॉपर्टी का डिफॉल्ट मान क्या है?",
+          "options": {
+            "A": "column",
+            "B": "row-reverse",
+            "C": "row",
+            "D": "initial"
+          },
+          "explanation": "फ्लेक्स कंटेनर की डिफॉल्ट दिशा रो (क्षैतिज) होती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-007",
+      "number": 7,
+      "question": "What is the purpose of the 'alt' attribute in the <img> tag?",
+      "options": {
+        "A": "To change the image size",
+        "B": "To provide a link for the image",
+        "C": "To provide descriptive text if the image fails to load",
+        "D": "To animate the image"
+      },
+      "answer": "C",
+      "explanation": "Alt text is vital for accessibility and SEO when images cannot be seen.",
+      "hash": "2233d717277eb0d9",
+      "translations": {
+        "hi": {
+          "question": "<img> टैग में 'alt' एट्रिब्यूट का उद्देश्य क्या है?",
+          "options": {
+            "A": "इमेज का आकार बदलने के लिए",
+            "B": "इमेज के लिए लिंक प्रदान करने के लिए",
+            "C": "इमेज लोड होने में विफल होने पर वर्णनात्मक टेक्स्ट प्रदान करने के लिए",
+            "D": "इमेज को एनिमेट करने के लिए"
+          },
+          "explanation": "जब इमेज नहीं देखी जा सकती है, तो एक्सेसिबिलिटी और SEO के लिए ऑल्ट टेक्स्ट महत्वपूर्ण है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-008",
+      "number": 8,
+      "question": "Which JavaScript keyword is used to handle exceptions/errors?",
+      "options": {
+        "A": "throw",
+        "B": "error",
+        "C": "catch",
+        "D": "handle"
+      },
+      "answer": "C",
+      "explanation": "The catch block is used to handle errors thrown by the try block.",
+      "hash": "7ffdf697125cb6d0",
+      "translations": {
+        "hi": {
+          "question": "अपवाद/त्रुटियों (exceptions) को संभालने के लिए किस जावास्क्रिप्ट कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "throw",
+            "B": "error",
+            "C": "catch",
+            "D": "handle"
+          },
+          "explanation": "catch ब्लॉक का उपयोग try ब्लॉक द्वारा फेंकी गई त्रुटियों को संभालने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-009",
+      "number": 9,
+      "question": "What does the viewport meta tag do in responsive web design?",
+      "options": {
+        "A": "It increases the loading speed",
+        "B": "It controls the page layout on mobile browsers",
+        "C": "It secures the website from viruses",
+        "D": "It translates the page to different languages"
+      },
+      "answer": "B",
+      "explanation": "It sets the width and scale of the viewport to match the device's screen.",
+      "hash": "095166fe309b2941",
+      "translations": {
+        "hi": {
+          "question": "रिस्पॉन्सिव वेब डिज़ाइन में व्यूपोर्ट मेटा टैग क्या करता है?",
+          "options": {
+            "A": "यह लोडिंग गति बढ़ाता है",
+            "B": "यह मोबाइल ब्राउज़र पर पेज लेआउट को नियंत्रित करता है",
+            "C": "यह वेबसाइट को वायरस से सुरक्षित करता है",
+            "D": "यह पेज को विभिन्न भाषाओं में अनुवादित करता है"
+          },
+          "explanation": "यह डिवाइस की स्क्रीन से मेल खाने के लिए व्यूपोर्ट की चौड़ाई और स्केल सेट करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-010",
+      "number": 10,
+      "question": "Which CSS property determines whether an element is visible or hidden without removing it from the layout?",
+      "options": {
+        "A": "display",
+        "B": "visibility",
+        "C": "opacity",
+        "D": "block"
+      },
+      "answer": "B",
+      "explanation": "visibility: hidden hides the element but it still takes up space in the layout.",
+      "hash": "6fd67ca2e7c8e971",
+      "translations": {
+        "hi": {
+          "question": "कौन सी CSS प्रॉपर्टी यह निर्धारित करती है कि कोई तत्व लेआउट से हटाए बिना दृश्यमान है या छिपा हुआ है?",
+          "options": {
+            "A": "display",
+            "B": "visibility",
+            "C": "opacity",
+            "D": "block"
+          },
+          "explanation": "visibility: hidden तत्व को छिपा देता है लेकिन वह अभी भी लेआउट में जगह घेरता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-011",
+      "number": 11,
+      "question": "Which HTML element is used for marking up a short inline quotation?",
+      "options": {
+        "A": "<blockquote>",
+        "B": "<quote>",
+        "C": "<q>",
+        "D": "<cite>"
+      },
+      "answer": "C",
+      "explanation": "The <q> tag is for short quotations, while <blockquote> is for long ones.",
+      "hash": "7d2153666fc19b08",
+      "translations": {
+        "hi": {
+          "question": "संक्षिप्त इनलाइन उद्धरण (inline quotation) को चिह्नित करने के लिए किस HTML तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<blockquote>",
+            "B": "<quote>",
+            "C": "<q>",
+            "D": "<cite>"
+          },
+          "explanation": "<q> टैग संक्षिप्त उद्धरणों के लिए है, जबकि <blockquote> लंबे उद्धरणों के लिए है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-012",
+      "number": 12,
+      "question": "In JavaScript, what is the 'this' keyword?",
+      "options": {
+        "A": "A variable that holds the current date",
+        "B": "A reference to the object the function belongs to",
+        "C": "A function that clears the cache",
+        "D": "A keyword used to delete variables"
+      },
+      "answer": "B",
+      "explanation": "The value of 'this' depends on how the function is called.",
+      "hash": "90029e34abeff623",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, 'this' कीवर्ड क्या है?",
+          "options": {
+            "A": "एक वेरिएबल जो वर्तमान तिथि रखता है",
+            "B": "उस ऑब्जेक्ट का संदर्भ जिससे फ़ंक्शन संबंधित है",
+            "C": "एक फ़ंक्शन जो कैश साफ़ करता है",
+            "D": "वेरिएबल को हटाने के लिए उपयोग किया जाने वाला कीवर्ड"
+          },
+          "explanation": "'this' का मान इस बात पर निर्भर करता है कि फ़ंक्शन को कैसे कॉल किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-013",
+      "number": 13,
+      "question": "Which CSS property is used to stack elements along the Z-axis?",
+      "options": {
+        "A": "x-index",
+        "B": "z-order",
+        "C": "z-index",
+        "D": "stack-order"
+      },
+      "answer": "C",
+      "explanation": "z-index only works on elements that have a position value other than static.",
+      "hash": "3516ca2fcba637d4",
+      "translations": {
+        "hi": {
+          "question": "Z-अक्ष के साथ तत्वों को स्टैक करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "x-index",
+            "B": "z-order",
+            "C": "z-index",
+            "D": "stack-order"
+          },
+          "explanation": "z-index केवल उन तत्वों पर काम करता है जिनका पोजीशन मान static के अलावा कुछ और होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-014",
+      "number": 14,
+      "question": "Which HTML attribute specifies an input's initial value?",
+      "options": {
+        "A": "text",
+        "B": "value",
+        "C": "initial",
+        "D": "placeholder"
+      },
+      "answer": "B",
+      "explanation": "The value attribute sets the default content of an input field.",
+      "hash": "14a1748ba3c46379",
+      "translations": {
+        "hi": {
+          "question": "कौन सा HTML एट्रिब्यूट इनपुट के प्रारंभिक मान (initial value) को निर्दिष्ट करता है?",
+          "options": {
+            "A": "text",
+            "B": "value",
+            "C": "initial",
+            "D": "placeholder"
+          },
+          "explanation": "value एट्रिब्यूट इनपुट फ़ील्ड की डिफॉल्ट सामग्री सेट करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-015",
+      "number": 15,
+      "question": "Which JavaScript method is used to join all elements of an array into a string?",
+      "options": {
+        "A": "concat()",
+        "B": "stringify()",
+        "C": "join()",
+        "D": "combine()"
+      },
+      "answer": "C",
+      "explanation": "join() returns an array as a string, optionally separated by a specific character.",
+      "hash": "70395aee8310e582",
+      "translations": {
+        "hi": {
+          "question": "ऐरे के सभी तत्वों को एक स्ट्रिंग में जोड़ने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "concat()",
+            "B": "stringify()",
+            "C": "join()",
+            "D": "combine()"
+          },
+          "explanation": "join() एक ऐरे को स्ट्रिंग के रूप में लौटाता है, जो वैकल्पिक रूप से एक विशिष्ट कैरेक्टर द्वारा अलग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-016",
+      "number": 16,
+      "question": "Which CSS property is used to specify the space between words?",
+      "options": {
+        "A": "letter-spacing",
+        "B": "text-spacing",
+        "C": "word-spacing",
+        "D": "line-spacing"
+      },
+      "answer": "C",
+      "explanation": "word-spacing increases or decreases the white space between words.",
+      "hash": "98d4b962c534ec67",
+      "translations": {
+        "hi": {
+          "question": "शब्दों के बीच की जगह निर्दिष्ट करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "letter-spacing",
+            "B": "text-spacing",
+            "C": "word-spacing",
+            "D": "line-spacing"
+          },
+          "explanation": "word-spacing शब्दों के बीच के व्हाइट स्पेस को बढ़ाता या घटाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-017",
+      "number": 17,
+      "question": "Which CSS function is used to calculate values dynamically?",
+      "options": {
+        "A": "compute()",
+        "B": "math()",
+        "C": "calc()",
+        "D": "evaluate()"
+      },
+      "answer": "C",
+      "explanation": "calc() allows you to perform calculations (like 100% - 20px) for CSS properties.",
+      "hash": "fdc546e852c4f7bc",
+      "translations": {
+        "hi": {
+          "question": "गतिशील रूप से मानों की गणना करने के लिए किस CSS फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "compute()",
+            "B": "math()",
+            "C": "calc()",
+            "D": "evaluate()"
+          },
+          "explanation": "calc() आपको CSS प्रॉपर्टीज के लिए गणना (जैसे 100% - 20px) करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-018",
+      "number": 18,
+      "question": "Which JavaScript global function is used to check if a value is a finite number?",
+      "options": {
+        "A": "isNumber()",
+        "B": "checkFinite()",
+        "C": "isFinite()",
+        "D": "isNaN()"
+      },
+      "answer": "C",
+      "explanation": "isFinite() returns false if the value is Infinity, -Infinity, or NaN.",
+      "hash": "9b4d86208ffecd42",
+      "translations": {
+        "hi": {
+          "question": "यह जांचने के लिए कि क्या कोई मान एक परिमित संख्या (finite number) है, किस जावास्क्रिप्ट ग्लोबल फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "isNumber()",
+            "B": "checkFinite()",
+            "C": "isFinite()",
+            "D": "isNaN()"
+          },
+          "explanation": "isFinite() फ़ाल्स (false) लौटाता है यदि मान इंफिनिटी, -इंफिनिटी, या NaN है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-019",
+      "number": 19,
+      "question": "Which HTML5 tag is used to draw graphics on the fly via JavaScript?",
+      "options": {
+        "A": "<draw>",
+        "B": "<canvas>",
+        "C": "<graphics>",
+        "D": "<paint>"
+      },
+      "answer": "B",
+      "explanation": "The <canvas> element is only a container; you must use JS to draw the graphics.",
+      "hash": "a6dc3d3d8b4cb053",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट के माध्यम से तुरंत (on the fly) ग्राफिक्स बनाने के लिए किस HTML5 टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<draw>",
+            "B": "<canvas>",
+            "C": "<graphics>",
+            "D": "<paint>"
+          },
+          "explanation": "<canvas> तत्व केवल एक कंटेनर है; ग्राफिक्स बनाने के लिए आपको JS का उपयोग करना होगा।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-020",
+      "number": 20,
+      "question": "Which CSS pseudo-element is used to insert content before an element?",
+      "options": {
+        "A": ":before",
+        "B": "::before",
+        "C": ":first-child",
+        "D": "::front"
+      },
+      "answer": "B",
+      "explanation": "The ::before pseudo-element is used to add cosmetic content using the 'content' property.",
+      "hash": "78fdec3bd4057ac0",
+      "translations": {
+        "hi": {
+          "question": "किसी तत्व से पहले सामग्री डालने के लिए किस CSS सूडो-एलिमेंट (pseudo-element) का उपयोग किया जाता है?",
+          "options": {
+            "A": ":before",
+            "B": "::before",
+            "C": ":first-child",
+            "D": "::front"
+          },
+          "explanation": "::before सूडो-एलिमेंट का उपयोग 'content' प्रॉपर्टी का उपयोग करके कॉस्मेटिक सामग्री जोड़ने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-021",
+      "number": 21,
+      "question": "Which CSS property allows you to specify the duration of a transition?",
+      "options": {
+        "A": "transition-speed",
+        "B": "transition-time",
+        "C": "transition-duration",
+        "D": "speed"
+      },
+      "answer": "C",
+      "explanation": "transition-duration defines how many seconds or milliseconds a transition effect takes.",
+      "hash": "ebdb7f354321211d",
+      "translations": {
+        "hi": {
+          "question": "कौन सी CSS प्रॉपर्टी आपको ट्रांज़िशन की अवधि निर्दिष्ट करने की अनुमति देती है?",
+          "options": {
+            "A": "transition-speed",
+            "B": "transition-time",
+            "C": "transition-duration",
+            "D": "speed"
+          },
+          "explanation": "transition-duration यह परिभाषित करता है कि ट्रांज़िशन प्रभाव में कितने सेकंड या मिलीसेकंड लगते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-022",
+      "number": 22,
+      "question": "Which HTML tag is used for the smallest text?",
+      "options": {
+        "A": "<small>",
+        "B": "<tiny>",
+        "C": "<sub>",
+        "D": "<min>"
+      },
+      "answer": "A",
+      "explanation": "The <small> tag makes the text one size smaller than the surrounding text.",
+      "hash": "8acb9a62d51eb3a1",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटे टेक्स्ट के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<small>",
+            "B": "<tiny>",
+            "C": "<sub>",
+            "D": "<min>"
+          },
+          "explanation": "<small> टैग टेक्स्ट को आस-पास के टेक्स्ट से एक साइज छोटा बना देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-023",
+      "number": 23,
+      "question": "Which JavaScript method is used to call a function repeatedly after a set time interval?",
+      "options": {
+        "A": "setTimeout()",
+        "B": "setDelay()",
+        "C": "setInterval()",
+        "D": "loop()"
+      },
+      "answer": "C",
+      "explanation": "setInterval() continues calling the function until clearInterval() is called.",
+      "hash": "33442fb9f0033824",
+      "translations": {
+        "hi": {
+          "question": "एक निर्धारित समय अंतराल के बाद बार-बार फ़ंक्शन को कॉल करने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "setTimeout()",
+            "B": "setDelay()",
+            "C": "setInterval()",
+            "D": "loop()"
+          },
+          "explanation": "setInterval() फ़ंक्शन को तब तक कॉल करना जारी रखता है जब तक clearInterval() को कॉल नहीं किया जाता।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-024",
+      "number": 24,
+      "question": "Which HTTP method is considered \"idempotent\" (multiple identical requests have the same effect as a single request)?",
+      "options": {
+        "A": "POST",
+        "B": "GET",
+        "C": "CONNECT",
+        "D": "PATCH"
+      },
+      "answer": "B",
+      "explanation": "GET and PUT are idempotent; POST is not, as it may create multiple resources.",
+      "hash": "a7c0b48cde5f3c74",
+      "translations": {
+        "hi": {
+          "question": "किस HTTP मेथड को \"idempotent\" माना जाता है (कई समान अनुरोधों का प्रभाव एक ही अनुरोध के समान होता है)?",
+          "options": {
+            "A": "POST",
+            "B": "GET",
+            "C": "CONNECT",
+            "D": "PATCH"
+          },
+          "explanation": "GET और PUT इडेम्पोटेंट हैं; POST नहीं है, क्योंकि यह कई संसाधन बना सकता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-025",
+      "number": 25,
+      "question": "In a CSS Flexbox, which property is used to align items along the main axis?",
+      "options": {
+        "A": "align-items",
+        "B": "justify-content",
+        "C": "align-content",
+        "D": "main-align"
+      },
+      "answer": "B",
+      "explanation": "justify-content aligns items horizontally if flex-direction is row.",
+      "hash": "bdbbf5fa5e65a4ed",
+      "translations": {
+        "hi": {
+          "question": "CSS फ्लेक्सबॉक्स में, मुख्य अक्ष (main axis) के साथ आइटम को संरेखित करने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "align-items",
+            "B": "justify-content",
+            "C": "align-content",
+            "D": "main-align"
+          },
+          "explanation": "justify-content आइटम को क्षैतिज रूप से संरेखित करता है यदि flex-direction 'row' है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-026",
+      "number": 26,
+      "question": "Which CSS property is used to change the shadow of a text?",
+      "options": {
+        "A": "box-shadow",
+        "B": "text-shadow",
+        "C": "font-shadow",
+        "D": "shadow-color"
+      },
+      "answer": "B",
+      "explanation": "text-shadow adds shadows to the characters of a text.",
+      "hash": "60b81c600fbebf9a",
+      "translations": {
+        "hi": {
+          "question": "टेक्स्ट की छाया (shadow) बदलने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "box-shadow",
+            "B": "text-shadow",
+            "C": "font-shadow",
+            "D": "shadow-color"
+          },
+          "explanation": "text-shadow टेक्स्ट के अक्षरों में छाया जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-027",
+      "number": 27,
+      "question": "Which HTML attribute is used to provide a unique identifier for an element?",
+      "options": {
+        "A": "class",
+        "B": "id",
+        "C": "name",
+        "D": "key"
+      },
+      "answer": "B",
+      "explanation": "An id must be unique within an HTML document.",
+      "hash": "d6347f8eb39e50c4",
+      "translations": {
+        "hi": {
+          "question": "किसी तत्व के लिए एक विशिष्ट पहचानकर्ता (unique identifier) प्रदान करने के लिए किस HTML एट्रिब्यूट का उपयोग किया जाता है?",
+          "options": {
+            "A": "class",
+            "B": "id",
+            "C": "name",
+            "D": "key"
+          },
+          "explanation": "एक HTML दस्तावेज़ के भीतर id अद्वितीय (unique) होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-028",
+      "number": 28,
+      "question": "Which JavaScript keyword is used to stop a loop from continuing?",
+      "options": {
+        "A": "exit",
+        "B": "stop",
+        "C": "break",
+        "D": "end"
+      },
+      "answer": "C",
+      "explanation": "The break statement jumps out of a loop immediately.",
+      "hash": "4b21f85744d4b2fc",
+      "translations": {
+        "hi": {
+          "question": "लूप को जारी रखने से रोकने के लिए किस जावास्क्रिप्ट कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "exit",
+            "B": "stop",
+            "C": "break",
+            "D": "end"
+          },
+          "explanation": "break स्टेटमेंट तुरंत लूप से बाहर निकल जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-029",
+      "number": 29,
+      "question": "What is the purpose of the <article> tag in HTML5?",
+      "options": {
+        "A": "To define a sidebar",
+        "B": "To define a set of links",
+        "C": "To define independent, self-contained content",
+        "D": "To define the main header"
+      },
+      "answer": "C",
+      "explanation": "<article> is intended for content like blog posts, news stories, or forum posts.",
+      "hash": "8c44e1f90f1c651e",
+      "translations": {
+        "hi": {
+          "question": "HTML5 में <article> टैग का उद्देश्य क्या है?",
+          "options": {
+            "A": "साइडबार को परिभाषित करने के लिए",
+            "B": "लिंक के एक सेट को परिभाषित करने के लिए",
+            "C": "स्वतंत्र, स्व-निहित सामग्री को परिभाषित करने के लिए",
+            "D": "मुख्य हेडर को परिभाषित करने के लिए"
+          },
+          "explanation": "<article> ब्लॉग पोस्ट, समाचार कहानियों या फ़ोरम पोस्ट जैसी सामग्री के लिए है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-04-030",
+      "number": 30,
+      "question": "Which property is used to hide an element from the page layout entirely?",
+      "options": {
+        "A": "visibility: hidden;",
+        "B": "display: none;",
+        "C": "opacity: 0;",
+        "D": "hidden: true;"
+      },
+      "answer": "B",
+      "explanation": "display: none; removes the element from the document flow as if it weren't there.",
+      "hash": "fbbd6d0d1d9c012a",
+      "translations": {
+        "hi": {
+          "question": "पेज लेआउट से किसी तत्व को पूरी तरह से छिपाने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "visibility: hidden;",
+            "B": "display: none;",
+            "C": "opacity: 0;",
+            "D": "hidden: true;"
+          },
+          "explanation": "display: none; तत्व को दस्तावेज़ प्रवाह से हटा देता है जैसे कि वह वहां था ही नहीं।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Machine Learning",
+  "set": 1,
+  "title": "Machine Learning Mock Test 1",
+  "questions": [
+    {
+      "id": "machine-learning-01-001",
+      "number": 1,
+      "question": "Which of the following is an example of supervised learning?",
+      "options": {
+        "A": "K-means clustering",
+        "B": "Linear Regression",
+        "C": "Principal Component Analysis",
+        "D": "Association Rules"
+      },
+      "answer": "B",
+      "explanation": "Linear Regression uses labeled data to predict continuous values, making it a supervised learning task.",
+      "hash": "350c545a171ff371",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा सुपरवाइज्ड लर्निंग का एक उदाहरण है?",
+          "options": {
+            "A": "के-मीन्स क्लस्टरिंग",
+            "B": "लीनियर रिग्रेशन",
+            "C": "प्रिंसिपल कंपोनेंट एनालिसिस",
+            "D": "एसोसिएशन रूल्स"
+          },
+          "explanation": "लीनियर रिग्रेशन निरंतर मूल्यों की भविष्यवाणी करने के लिए लेबल किए गए डेटा का उपयोग करता है, जो इसे एक सुपरवाइज्ड लर्निंग कार्य बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-002",
+      "number": 2,
+      "question": "What is the primary goal of Unsupervised Learning?",
+      "options": {
+        "A": "Predicting a target value",
+        "B": "Finding hidden patterns in unlabeled data",
+        "C": "Minimizing the cost function",
+        "D": "Classifying images into categories"
+      },
+      "answer": "B",
+      "explanation": "Unsupervised learning focuses on finding structures or patterns in data that doesn't have pre-defined labels.",
+      "hash": "6806ccd21755c95b",
+      "translations": {
+        "hi": {
+          "question": "अनसुपरवाइज्ड लर्निंग का प्राथमिक लक्ष्य क्या है?",
+          "options": {
+            "A": "लक्ष्य मान की भविष्यवाणी करना",
+            "B": "बिना लेबल वाले डेटा में छिपे हुए पैटर्न खोजना",
+            "C": "लागत फ़ंक्शन को कम करना",
+            "D": "छवियों को श्रेणियों में वर्गीकृत करना"
+          },
+          "explanation": "अनसुपरवाइज्ड लर्निंग उन डेटा में संरचनाओं या पैटर्न को खोजने पर केंद्रित है जिनमें पूर्व-निर्धारित लेबल नहीं होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-003",
+      "number": 3,
+      "question": "Which algorithm is used for dimensionality reduction?",
+      "options": {
+        "A": "Logistic Regression",
+        "B": "Random Forest",
+        "C": "PCA (Principal Component Analysis)",
+        "D": "Naive Bayes"
+      },
+      "answer": "C",
+      "explanation": "PCA is a popular technique used to reduce the number of variables in a dataset while preserving information.",
+      "hash": "8e1697e0864be188",
+      "translations": {
+        "hi": {
+          "question": "डाइमेंशनलिटी रिडक्शन के लिए किस एल्गोरिथ्म का उपयोग किया जाता है?",
+          "options": {
+            "A": "लॉजिस्टिक रिग्रेशन",
+            "B": "रैंडम फ़ॉरेस्ट",
+            "C": "पीसीए (प्रिंसिपल कंपोनेंट एनालिसिस)",
+            "D": "नैवे बायेस"
+          },
+          "explanation": "पीसीए एक लोकप्रिय तकनीक है जिसका उपयोग जानकारी को सुरक्षित रखते हुए डेटासेट में वेरिएबल्स की संख्या को कम करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-004",
+      "number": 4,
+      "question": "Overfitting occurs when a model performs well on?",
+      "options": {
+        "A": "Training data but poorly on test data",
+        "B": "Test data but poorly on training data",
+        "C": "Both training and test data",
+        "D": "Neither training nor test data"
+      },
+      "answer": "A",
+      "explanation": "Overfitting happens when a model learns the noise in the training data rather than the actual pattern.",
+      "hash": "62f69dd9dc4e162f",
+      "translations": {
+        "hi": {
+          "question": "ओवरफिटिंग तब होती है जब कोई मॉडल किस पर अच्छा प्रदर्शन करता है?",
+          "options": {
+            "A": "ट्रेनिंग डेटा पर लेकिन टेस्ट डेटा पर खराब",
+            "B": "टेस्ट डेटा पर लेकिन ट्रेनिंग डेटा पर खराब",
+            "C": "ट्रेनिंग और टेस्ट डेटा दोनों पर",
+            "D": "न तो ट्रेनिंग और न ही टेस्ट डेटा पर"
+          },
+          "explanation": "ओवरफिटिंग तब होती है जब कोई मॉडल वास्तविक पैटर्न के बजाय ट्रेनिंग डेटा में शोर (noise) को सीख लेता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-005",
+      "number": 5,
+      "question": "Which of the following is a classification algorithm?",
+      "options": {
+        "A": "Linear Regression",
+        "B": "Support Vector Machine",
+        "C": "K-means",
+        "D": "Apriori Algorithm"
+      },
+      "answer": "B",
+      "explanation": "SVM is widely used for classification tasks by finding the optimal hyperplane.",
+      "hash": "7ad6abaf7a5fc517",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक वर्गीकरण (classification) एल्गोरिथ्म है?",
+          "options": {
+            "A": "लीनियर रिग्रेशन",
+            "B": "सपोर्ट वेक्टर मशीन",
+            "C": "के-मीन्स",
+            "D": "एप्रीयरी एल्गोरिथ्म"
+          },
+          "explanation": "एसवीएम (SVM) का व्यापक रूप से इष्टतम हाइपरप्लेन खोजकर वर्गीकरण कार्यों के लिए उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-006",
+      "number": 6,
+      "question": "In a Decision Tree, the leaf nodes represent?",
+      "options": {
+        "A": "Features",
+        "B": "Decision Rules",
+        "C": "Class labels or outcomes",
+        "D": "Root of the tree"
+      },
+      "answer": "C",
+      "explanation": "Leaf nodes are the final nodes in a decision tree that provide the classification or prediction result.",
+      "hash": "c201d20188c0cdf4",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, लीफ नोड्स (leaf nodes) किसका प्रतिनिधित्व करते हैं?",
+          "options": {
+            "A": "विशेषताएं",
+            "B": "निर्णय नियम",
+            "C": "क्लास लेबल या परिणाम",
+            "D": "पेड़ की जड़"
+          },
+          "explanation": "लीफ नोड्स डिसीजन ट्री के अंतिम नोड्स होते हैं जो वर्गीकरण या भविष्यवाणी परिणाम प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-007",
+      "number": 7,
+      "question": "What is 'K' in K-Nearest Neighbors (KNN)?",
+      "options": {
+        "A": "Number of clusters",
+        "B": "Number of neighbors to consider",
+        "C": "Number of iterations",
+        "D": "Learning rate"
+      },
+      "answer": "B",
+      "explanation": "K represents the number of closest data points used to determine the class of a new data point.",
+      "hash": "c67af2fe28fdd88a",
+      "translations": {
+        "hi": {
+          "question": "के-नियरेस्ट नेबर्स (KNN) में 'K' क्या है?",
+          "options": {
+            "A": "क्लस्टर की संख्या",
+            "B": "विचार किए जाने वाले पड़ोसियों की संख्या",
+            "C": "इटरेशन की संख्या",
+            "D": "लर्निंग रेट"
+          },
+          "explanation": "K एक नए डेटा बिंदु के वर्ग को निर्धारित करने के लिए उपयोग किए जाने वाले निकटतम डेटा बिंदुओं की संख्या का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-008",
+      "number": 8,
+      "question": "Bias in machine learning refers to?",
+      "options": {
+        "A": "Error due to complex models",
+        "B": "Error due to overly simplistic assumptions",
+        "C": "Difference between training and test error",
+        "D": "Random noise in data"
+      },
+      "answer": "B",
+      "explanation": "High bias leads to underfitting because the model is too simple to capture underlying patterns.",
+      "hash": "11dd773bd22cd343",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में बायस (Bias) का क्या अर्थ है?",
+          "options": {
+            "A": "जटिल मॉडल के कारण होने वाली त्रुटि",
+            "B": "अत्यधिक सरल मान्यताओं के कारण होने वाली त्रुटि",
+            "C": "ट्रेनिंग और टेस्ट एरर के बीच का अंतर",
+            "D": "डेटा में रैंडम शोर"
+          },
+          "explanation": "उच्च बायस अंडरफिटिंग की ओर ले जाता है क्योंकि मॉडल अंतर्निहित पैटर्न को पकड़ने के लिए बहुत सरल होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-009",
+      "number": 9,
+      "question": "Which metric is commonly used for evaluating regression models?",
+      "options": {
+        "A": "Accuracy",
+        "B": "Mean Squared Error (MSE)",
+        "C": "F1-Score",
+        "D": "Recall"
+      },
+      "answer": "B",
+      "explanation": "MSE measures the average squared difference between estimated and actual values in regression.",
+      "hash": "8f670cee673b6289",
+      "translations": {
+        "hi": {
+          "question": "रिग्रेशन मॉडल के मूल्यांकन के लिए आमतौर पर किस मीट्रिक का उपयोग किया जाता है?",
+          "options": {
+            "A": "सटीकता",
+            "B": "मीन स्क्वेर्ड एरर (MSE)",
+            "C": "F1-स्कोर",
+            "D": "रिकॉल"
+          },
+          "explanation": "MSE रिग्रेशन में अनुमानित और वास्तविक मूल्यों के बीच औसत वर्ग अंतर को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-010",
+      "number": 10,
+      "question": "Random Forest is an example of?",
+      "options": {
+        "A": "Boosting",
+        "B": "Bagging",
+        "C": "Stacking",
+        "D": "Clustering"
+      },
+      "answer": "B",
+      "explanation": "Random Forest uses Bootstrap Aggregating (Bagging) to improve accuracy and reduce variance.",
+      "hash": "60ab053b6c6d4bf8",
+      "translations": {
+        "hi": {
+          "question": "रैंडम फ़ॉरेस्ट किसका एक उदाहरण है?",
+          "options": {
+            "A": "बूस्टिंग",
+            "B": "बैगिंग",
+            "C": "स्टैकिंग",
+            "D": "क्लस्टरिंग"
+          },
+          "explanation": "रैंडम फ़ॉरेस्ट सटीकता में सुधार और वेरियंस को कम करने के लिए बूटस्ट्रैप एग्रीगेटिंग (बैगिंग) का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-011",
+      "number": 11,
+      "question": "Which function is used in Logistic Regression for binary classification?",
+      "options": {
+        "A": "Linear function",
+        "B": "Sigmoid function",
+        "C": "Step function",
+        "D": "Gaussian function"
+      },
+      "answer": "B",
+      "explanation": "The Sigmoid function maps any real-valued number into a value between 0 and 1.",
+      "hash": "b0b113bb7a5a778b",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी वर्गीकरण के लिए लॉजिस्टिक रिग्रेशन में किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "लीनियर फ़ंक्शन",
+            "B": "सिग्मॉइड फ़ंक्शन",
+            "C": "स्टेप फ़ंक्शन",
+            "D": "गॉसियन फ़ंक्शन"
+          },
+          "explanation": "सिग्मॉइड फ़ंक्शन किसी भी वास्तविक मान वाली संख्या को 0 और 1 के बीच के मान में मैप करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-012",
+      "number": 12,
+      "question": "What is the purpose of Gradient Descent?",
+      "options": {
+        "A": "To increase the learning rate",
+        "B": "To minimize the cost function",
+        "C": "To split the dataset",
+        "D": "To visualize data"
+      },
+      "answer": "B",
+      "explanation": "Gradient descent is an optimization algorithm used to find the minimum of a cost function.",
+      "hash": "bc75af9194738610",
+      "translations": {
+        "hi": {
+          "question": "ग्रेडिएंट डिसेंट का उद्देश्य क्या है?",
+          "options": {
+            "A": "लर्निंग रेट बढ़ाने के लिए",
+            "B": "लागत फ़ंक्शन को कम करने के लिए",
+            "C": "डेटासेट को विभाजित करने के लिए",
+            "D": "डेटा को विजुअलाइज करने के लिए"
+          },
+          "explanation": "ग्रेडिएंट डिसेंट एक अनुकूलन एल्गोरिथ्म है जिसका उपयोग लागत फ़ंक्शन के न्यूनतम मान को खोजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-013",
+      "number": 13,
+      "question": "Which of these is a generative model?",
+      "options": {
+        "A": "SVM",
+        "B": "Naive Bayes",
+        "C": "Decision Trees",
+        "D": "Logistic Regression"
+      },
+      "answer": "B",
+      "explanation": "Naive Bayes models the distribution of inputs for a given class, making it a generative model.",
+      "hash": "eb1b6e62925f55c3",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सा एक जनरेटिव मॉडल है?",
+          "options": {
+            "A": "एसवीएम",
+            "B": "नैवे बायेस",
+            "C": "डिसीजन ट्री",
+            "D": "लॉजिस्टिक रिग्रेशन"
+          },
+          "explanation": "नैवे बायेस एक दी गई श्रेणी के लिए इनपुट के वितरण को मॉडल करता है, जिससे यह एक जनरेटिव मॉडल बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-014",
+      "number": 14,
+      "question": "What is the 'Confusion Matrix' used for?",
+      "options": {
+        "A": "Data preprocessing",
+        "B": "Evaluating classification performance",
+        "C": "Features selection",
+        "D": "Training speed measurement"
+      },
+      "answer": "B",
+      "explanation": "A confusion matrix summarizes the performance of a classification algorithm.",
+      "hash": "1a528c976943030f",
+      "translations": {
+        "hi": {
+          "question": "'कन्फ्यूजन मैट्रिक्स' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "डेटा प्रीप्रोसेसिंग",
+            "B": "वर्गीकरण प्रदर्शन का मूल्यांकन",
+            "C": "फीचर्स चयन",
+            "D": "ट्रेनिंग गति माप"
+          },
+          "explanation": "कन्फ्यूजन मैट्रिक्स वर्गीकरण एल्गोरिथ्म के प्रदर्शन का सारांश प्रस्तुत करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-015",
+      "number": 15,
+      "question": "In Reinforcement Learning, the agent learns from?",
+      "options": {
+        "A": "Historical data",
+        "B": "Labels provided by humans",
+        "C": "Rewards and penalties",
+        "D": "Unlabeled clusters"
+      },
+      "answer": "C",
+      "explanation": "Reinforcement learning involves an agent taking actions in an environment to maximize cumulative rewards.",
+      "hash": "5b2b9af5e6ee308d",
+      "translations": {
+        "hi": {
+          "question": "रीइन्फोर्समेंट लर्निंग में, एजेंट किससे सीखता है?",
+          "options": {
+            "A": "ऐतिहासिक डेटा",
+            "B": "मनुष्यों द्वारा प्रदान किए गए लेबल",
+            "C": "पुरस्कार और दंड",
+            "D": "बिना लेबल वाले क्लस्टर"
+          },
+          "explanation": "रीइन्फोर्समेंट लर्निंग में एक एजेंट संचयी पुरस्कारों को अधिकतम करने के लिए पर्यावरण में कार्रवाई करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-016",
+      "number": 16,
+      "question": "Pruning is a technique used in which algorithm?",
+      "options": {
+        "A": "Neural Networks",
+        "B": "Decision Trees",
+        "C": "K-Means",
+        "D": "Support Vector Machines"
+      },
+      "answer": "B",
+      "explanation": "Pruning removes branches of a decision tree that provide little power to classify instances, reducing overfitting.",
+      "hash": "5f919eb9780c1b73",
+      "translations": {
+        "hi": {
+          "question": "प्रूनिंग (Pruning) किस एल्गोरिथ्म में प्रयुक्त एक तकनीक है?",
+          "options": {
+            "A": "न्यूरल नेटवर्क",
+            "B": "डिसीजन ट्री",
+            "C": "के-मीन्स",
+            "D": "सपोर्ट वेक्टर मशीन"
+          },
+          "explanation": "प्रूनिंग डिसीजन ट्री की उन शाखाओं को हटा देती है जो वर्गीकरण में कम मदद करती हैं, जिससे ओवरफिटिंग कम होती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-017",
+      "number": 17,
+      "question": "Which kernel is commonly used in SVM for non-linear data?",
+      "options": {
+        "A": "Linear Kernel",
+        "B": "RBF (Radial Basis Function)",
+        "C": "Polynomial Kernel",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "RBF and Polynomial kernels are used to project non-linear data into higher dimensions for classification.",
+      "hash": "eb2b203fa3543646",
+      "translations": {
+        "hi": {
+          "question": "गैर-रेखीय डेटा के लिए SVM में आमतौर पर किस कर्नेल का उपयोग किया जाता है?",
+          "options": {
+            "A": "लीनियर कर्नेल",
+            "B": "आरबीएफ (रेडियल बेसिस फ़ंक्शन)",
+            "C": "पॉलिनॉमियल कर्नेल",
+            "D": "B और C दोनों"
+          },
+          "explanation": "RBF और पॉलिनॉमियल कर्नेल का उपयोग वर्गीकरण के लिए गैर-रेखीय डेटा को उच्च आयामों में प्रोजेक्ट करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-018",
+      "number": 18,
+      "question": "Which algorithm is sensitive to outliers?",
+      "options": {
+        "A": "Random Forest",
+        "B": "K-means Clustering",
+        "C": "Naive Bayes",
+        "D": "Decision Trees"
+      },
+      "answer": "B",
+      "explanation": "In K-means, outliers can significantly pull the centroid away from the true cluster center.",
+      "hash": "e48435d6350ccd0b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म आउटलेर्स (outliers) के प्रति संवेदनशील है?",
+          "options": {
+            "A": "रैंडम फ़ॉरेस्ट",
+            "B": "के-मीन्स क्लस्टरिंग",
+            "C": "नैवे बायेस",
+            "D": "डिसीजन ट्री"
+          },
+          "explanation": "के-मीन्स में, आउटलेर्स सेंट्रोइड को वास्तविक क्लस्टर केंद्र से काफी दूर खींच सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-019",
+      "number": 19,
+      "question": "What is the term for a subset of machine learning based on artificial neural networks?",
+      "options": {
+        "A": "Data Mining",
+        "B": "Deep Learning",
+        "C": "Statistics",
+        "D": "Robotics"
+      },
+      "answer": "B",
+      "explanation": "Deep learning is a specialized branch of machine learning that uses multi-layered neural networks.",
+      "hash": "9b03234ed61c842f",
+      "translations": {
+        "hi": {
+          "question": "कृत्रिम तंत्रिका नेटवर्क (ANN) पर आधारित मशीन लर्निंग के उपसमुच्चय के लिए क्या शब्द है?",
+          "options": {
+            "A": "डेटा माइनिंग",
+            "B": "डीप लर्निंग",
+            "C": "सांख्यिकी",
+            "D": "रोबोटिक्स"
+          },
+          "explanation": "डीप लर्निंग मशीन लर्निंग की एक विशेष शाखा है जो बहु-स्तरीय न्यूरल नेटवर्क का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-020",
+      "number": 20,
+      "question": "What is Cross-Validation used for?",
+      "options": {
+        "A": "To increase dataset size",
+        "B": "To estimate the skill of a model on unseen data",
+        "C": "To clean missing data",
+        "D": "To choose the color of a plot"
+      },
+      "answer": "B",
+      "explanation": "Cross-validation ensures the model's performance is stable across different subsets of data.",
+      "hash": "fcfc665a78a34376",
+      "translations": {
+        "hi": {
+          "question": "क्रॉस-वैलिडेशन का उपयोग किस लिए किया जाता है?",
+          "options": {
+            "A": "डेटासेट आकार बढ़ाने के लिए",
+            "B": "अनदेखे डेटा पर मॉडल के कौशल का अनुमान लगाने के लिए",
+            "C": "लापता डेटा को साफ करने के लिए",
+            "D": "प्लॉट का रंग चुनने के लिए"
+          },
+          "explanation": "क्रॉस-वैलिडेशन यह सुनिश्चित करता है कि डेटा के विभिन्न उपसमुच्चयों में मॉडल का प्रदर्शन स्थिर रहे।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-021",
+      "number": 21,
+      "question": "What is the main disadvantage of a high learning rate in Gradient Descent?",
+      "options": {
+        "A": "It takes too much time",
+        "B": "It may overshoot the minimum",
+        "C": "It causes underfitting",
+        "D": "It only works for small datasets"
+      },
+      "answer": "B",
+      "explanation": "A high learning rate can cause the optimization to bounce around and fail to converge at the minimum.",
+      "hash": "c53953d1a382db43",
+      "translations": {
+        "hi": {
+          "question": "ग्रेडिएंट डिसेंट में उच्च लर्निंग रेट का मुख्य नुकसान क्या है?",
+          "options": {
+            "A": "यह बहुत अधिक समय लेता है",
+            "B": "यह न्यूनतम मान से आगे निकल सकता है",
+            "C": "यह अंडरफिटिंग का कारण बनता है",
+            "D": "यह केवल छोटे डेटासेट के लिए काम करता है"
+          },
+          "explanation": "उच्च लर्निंग रेट के कारण अनुकूलन न्यूनतम मान पर स्थिर होने के बजाय उसके आसपास भटक सकता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-022",
+      "number": 22,
+      "question": "The F1-score is the harmonic mean of?",
+      "options": {
+        "A": "Bias and Variance",
+        "B": "Precision and Recall",
+        "C": "Sensitivity and Specificity",
+        "D": "Accuracy and Error"
+      },
+      "answer": "B",
+      "explanation": "F1-score balances precision and recall, especially when dealing with imbalanced datasets.",
+      "hash": "ac777ad7315e7544",
+      "translations": {
+        "hi": {
+          "question": "F1-स्कोर किसका हार्मोनिक मीन है?",
+          "options": {
+            "A": "बायस और वेरियंस",
+            "B": "प्रिसिजन और रिकॉल",
+            "C": "संवेदनशीलता और विशिष्टता",
+            "D": "सटीकता और त्रुटि"
+          },
+          "explanation": "F1-स्कोर प्रिसिजन और रिकॉल को संतुलित करता है, खासकर जब असंतुलित डेटासेट के साथ काम किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-023",
+      "number": 23,
+      "question": "Which learning style does the Apriori algorithm follow?",
+      "options": {
+        "A": "Supervised",
+        "B": "Semi-supervised",
+        "C": "Unsupervised",
+        "D": "Reinforcement"
+      },
+      "answer": "C",
+      "explanation": "Apriori is used for association rule mining in unsupervised learning.",
+      "hash": "e7a5b4ffb546e7c8",
+      "translations": {
+        "hi": {
+          "question": "एप्रीयरी (Apriori) एल्गोरिथ्म किस लर्निंग शैली का अनुसरण करता है?",
+          "options": {
+            "A": "सुपरवाइज्ड",
+            "B": "सेमी-सुपरवाइज्ड",
+            "C": "अनसुपरवाइज्ड",
+            "D": "रीइन्फोर्समेंट"
+          },
+          "explanation": "एप्रीयरी का उपयोग अनसुपरवाइज्ड लर्निंग में एसोसिएशन रूल माइनिंग के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-024",
+      "number": 24,
+      "question": "'Ensemble Learning' refers to?",
+      "options": {
+        "A": "Using a single complex algorithm",
+        "B": "Combining multiple models to improve performance",
+        "C": "Training on a very large dataset",
+        "D": "Learning without any data"
+      },
+      "answer": "B",
+      "explanation": "Ensemble methods like Bagging and Boosting combine multiple weak learners to create a strong learner.",
+      "hash": "6996c9a348faa581",
+      "translations": {
+        "hi": {
+          "question": "'एन्सेम्बल लर्निंग' (Ensemble Learning) का क्या अर्थ है?",
+          "options": {
+            "A": "एक एकल जटिल एल्गोरिथ्म का उपयोग करना",
+            "B": "प्रदर्शन में सुधार के लिए कई मॉडलों को मिलाना",
+            "C": "बहुत बड़े डेटासेट पर ट्रेनिंग करना",
+            "D": "बिना किसी डेटा के सीखना"
+          },
+          "explanation": "बैगिंग और बूस्टिंग जैसी एन्सेम्बल विधियाँ एक मजबूत लर्नर बनाने के लिए कई कमजोर लर्नर्स को मिलाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-025",
+      "number": 25,
+      "question": "What is the role of the 'Activation Function' in a neural network?",
+      "options": {
+        "A": "To weight the inputs",
+        "B": "To introduce non-linearity",
+        "C": "To reduce the number of layers",
+        "D": "To initialize parameters"
+      },
+      "answer": "B",
+      "explanation": "Activation functions allow neural networks to learn complex, non-linear patterns.",
+      "hash": "3bda08d9eacdd54f",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में 'एक्टिवेशन फ़ंक्शन' की क्या भूमिका है?",
+          "options": {
+            "A": "इनपुट को वेट देने के लिए",
+            "B": "गैर-रेखीयता पेश करने के लिए",
+            "C": "परतों की संख्या कम करने के लिए",
+            "D": "मापदंडों को प्रारंभ करने के लिए"
+          },
+          "explanation": "एक्टिवेशन फ़ंक्शन न्यूरल नेटवर्क को जटिल, गैर-रेखीय पैटर्न सीखने की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-026",
+      "number": 26,
+      "question": "Which technique is used to prevent overfitting by adding a penalty to the cost function?",
+      "options": {
+        "A": "Normalization",
+        "B": "Regularization",
+        "C": "Optimization",
+        "D": "Transformation"
+      },
+      "answer": "B",
+      "explanation": "Regularization (like L1 or L2) discourages complex models by penalizing large weights.",
+      "hash": "a1ffaf3444846674",
+      "translations": {
+        "hi": {
+          "question": "लागत फ़ंक्शन में पेनल्टी जोड़कर ओवरफिटिंग को रोकने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "नॉर्मलाइजेशन",
+            "B": "रेगुलराइजेशन",
+            "C": "ऑप्टिमाइजेशन",
+            "D": "ट्रांसफॉर्मेशन"
+          },
+          "explanation": "रेगुलराइजेशन (जैसे L1 या L2) बड़े वेट्स पर पेनल्टी लगाकर जटिल मॉडल को हतोत्साहित करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-027",
+      "number": 27,
+      "question": "Which of the following is a boosting algorithm?",
+      "options": {
+        "A": "XGBoost",
+        "B": "K-means",
+        "C": "KNN",
+        "D": "PCA"
+      },
+      "answer": "A",
+      "explanation": "XGBoost is a popular gradient boosting framework used for speed and performance.",
+      "hash": "bca1a4f90775f394",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक बूस्टिंग एल्गोरिथ्म है?",
+          "options": {
+            "A": "एक्सजीबूस्ट",
+            "B": "के-मीन्स",
+            "C": "केएनएन",
+            "D": "पीसीए"
+          },
+          "explanation": "XGBoost एक लोकप्रिय ग्रेडिएंट बूस्टिंग फ्रेमवर्क है जिसका उपयोग गति और प्रदर्शन के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-028",
+      "number": 28,
+      "question": "In machine learning, 'Feature Engineering' is?",
+      "options": {
+        "A": "Building a hardware for ML",
+        "B": "Selecting and transforming raw data into useful features",
+        "C": "Training the model",
+        "D": "Testing the model"
+      },
+      "answer": "B",
+      "explanation": "Feature engineering involves creating input variables that help machine learning models work better.",
+      "hash": "8e7c939976cca459",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में, 'फीचर इंजीनियरिंग' क्या है?",
+          "options": {
+            "A": "एमएल के लिए हार्डवेयर बनाना",
+            "B": "कच्चे डेटा को उपयोगी फीचर्स में चुनना और बदलना",
+            "C": "मॉडल को ट्रेनिंग देना",
+            "D": "मॉडल का परीक्षण करना"
+          },
+          "explanation": "फीचर इंजीनियरिंग में इनपुट वेरिएबल्स बनाना शामिल है जो मशीन लर्निंग मॉडल को बेहतर ढंग से काम करने में मदद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-029",
+      "number": 29,
+      "question": "Underfitting occurs when?",
+      "options": {
+        "A": "Model is too complex",
+        "B": "Model is too simple to capture data trends",
+        "C": "Training time is too long",
+        "D": "Dataset is very clean"
+      },
+      "answer": "B",
+      "explanation": "Underfitting happens when a model has high bias and cannot learn the relationship in the training data.",
+      "hash": "d3f9f4d6f7c12051",
+      "translations": {
+        "hi": {
+          "question": "अंडरफिटिंग (Underfitting) कब होती है?",
+          "options": {
+            "A": "मॉडल बहुत जटिल है",
+            "B": "मॉडल डेटा ट्रेंड्स को पकड़ने के लिए बहुत सरल है",
+            "C": "ट्रेनिंग का समय बहुत लंबा है",
+            "D": "डेटासेट बहुत साफ है"
+          },
+          "explanation": "अंडरफिटिंग तब होती है जब किसी मॉडल में उच्च बायस होता है और वह ट्रेनिंग डेटा में संबंधों को नहीं सीख पाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-01-030",
+      "number": 30,
+      "question": "Which algorithm works on the principle of 'Maximum Margin'?",
+      "options": {
+        "A": "Naive Bayes",
+        "B": "SVM",
+        "C": "Logistic Regression",
+        "D": "Decision Tree"
+      },
+      "answer": "B",
+      "explanation": "Support Vector Machines aim to find the hyperplane that maximizes the margin between classes.",
+      "hash": "764ef48051779a27",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म 'मैक्सिमम मार्जिन' के सिद्धांत पर काम करता है?",
+          "options": {
+            "A": "नैवे बायेस",
+            "B": "एसवीएम",
+            "C": "लॉजिस्टिक रिग्रेशन",
+            "D": "डिसीजन ट्री"
+          },
+          "explanation": "सपोर्ट वेक्टर मशीन का उद्देश्य उस हाइपरप्लेन को खोजना है जो वर्गों के बीच मार्जिन को अधिकतम करता है।"
+        }
+      }
+    }
+  ]
+}

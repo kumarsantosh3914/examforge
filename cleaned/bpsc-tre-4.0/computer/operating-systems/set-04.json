@@ -1,0 +1,787 @@
+{
+  "subject": "Operating Systems",
+  "set": 4,
+  "title": "Operating Systems Mock Test 4",
+  "questions": [
+    {
+      "id": "operating-systems-04-001",
+      "number": 1,
+      "question": "Which of the following conditions is NOT required for a deadlock to occur?",
+      "options": {
+        "A": "Mutual Exclusion",
+        "B": "Hold and Wait",
+        "C": "Preemption",
+        "D": "Circular Wait"
+      },
+      "answer": "C",
+      "explanation": "Deadlock requires 'No Preemption'. If preemption is allowed, deadlock can be broken.",
+      "hash": "3cb355b1b58bc289",
+      "translations": {
+        "hi": {
+          "question": "डेडलॉक होने के लिए निम्नलिखित में से कौन सी स्थिति आवश्यक नहीं है?",
+          "options": {
+            "A": "म्यूचुअल एक्सक्लूजन",
+            "B": "होल्ड एंड वेट",
+            "C": "प्रीइम्पशन",
+            "D": "सर्कुलर वेट"
+          },
+          "explanation": "डेडलॉक के लिए 'नो प्रीइम्पशन' की आवश्यकता होती है। यदि प्रीइम्पशन की अनुमति है, तो डेडलॉक को तोड़ा जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-002",
+      "number": 2,
+      "question": "In the context of disk scheduling, what does SSTF stand for?",
+      "options": {
+        "A": "Shortest Seek Time First",
+        "B": "System Service Time First",
+        "C": "Shortest Service Time First",
+        "D": "Standard Seek Time First"
+      },
+      "answer": "A",
+      "explanation": "SSTF selects the request with the minimum seek time from the current head position.",
+      "hash": "a503c2a92522f180",
+      "translations": {
+        "hi": {
+          "question": "डिस्क शेड्यूलिंग के संदर्भ में, SSTF का क्या अर्थ है?",
+          "options": {
+            "A": "शॉर्टेस्ट सीक टाइम फर्स्ट",
+            "B": "सिस्टम सर्विस टाइम फर्स्ट",
+            "C": "शॉर्टेस्ट सर्विस टाइम फर्स्ट",
+            "D": "स्टैंडर्ड सीक टाइम फर्स्ट"
+          },
+          "explanation": "SSTF वर्तमान हेड पोजीशन से न्यूनतम सीक टाइम वाले अनुरोध का चयन करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-003",
+      "number": 3,
+      "question": "A page table is used to map:",
+      "options": {
+        "A": "Physical address to Logical address",
+        "B": "Logical address to Physical address",
+        "C": "File name to Disk block",
+        "D": "Process ID to User ID"
+      },
+      "answer": "B",
+      "explanation": "The page table maps the page number of a logical address to the frame number in physical memory.",
+      "hash": "372af07b386ef66e",
+      "translations": {
+        "hi": {
+          "question": "पेज टेबल का उपयोग किसे मैप करने के लिए किया जाता है?",
+          "options": {
+            "A": "फिजिकल एड्रेस को लॉजिकल एड्रेस में",
+            "B": "लॉजिकल एड्रेस को फिजिकल एड्रेस में",
+            "C": "फ़ाइल नाम को डिस्क ब्लॉक में",
+            "D": "प्रोसेस आईडी को यूजर आईडी में"
+          },
+          "explanation": "पेज टेबल लॉजिकल एड्रेस के पेज नंबर को फिजिकल मेमोरी के फ्रेम नंबर पर मैप करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-004",
+      "number": 4,
+      "question": "Which scheduling algorithm is also known as \"Shortest Remaining Time First\" (SRTF)?",
+      "options": {
+        "A": "Preemptive SJF",
+        "B": "Non-preemptive SJF",
+        "C": "Priority Scheduling",
+        "D": "Round Robin"
+      },
+      "answer": "A",
+      "explanation": "SRTF is the preemptive version of SJF scheduling.",
+      "hash": "3707099cf55e0d7f",
+      "translations": {
+        "hi": {
+          "question": "किस शेड्यूलिंग एल्गोरिथम को \"शॉर्टेस्ट रिमेनिंग टाइम फर्स्ट\" (SRTF) के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "प्रीइम्पटिव SJF",
+            "B": "नॉन-प्रीइम्पटिव SJF",
+            "C": "प्रायोरिटी शेड्यूलिंग",
+            "D": "राउंड रॉबिन"
+          },
+          "explanation": "SRTF, SJF शेड्यूलिंग का प्रीइम्पटिव संस्करण है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-005",
+      "number": 5,
+      "question": "What is the purpose of the \"Limit Register\" in hardware protection?",
+      "options": {
+        "A": "To store the starting address of a process",
+        "B": "To define the size of the range of logical addresses",
+        "C": "To count the number of instructions",
+        "D": "To limit the CPU speed"
+      },
+      "answer": "B",
+      "explanation": "The base register holds the smallest physical address; the limit register specifies the range size.",
+      "hash": "d27c129aaeb0476c",
+      "translations": {
+        "hi": {
+          "question": "हार्डवेयर सुरक्षा में \"लिमिट रजिस्टर\" का उद्देश्य क्या है?",
+          "options": {
+            "A": "एक प्रक्रिया का शुरुआती पता स्टोर करने के लिए",
+            "B": "लॉजिकल एड्रेस की सीमा का आकार परिभाषित करने के लिए",
+            "C": "निर्देशों की संख्या गिनने के लिए",
+            "D": "CPU गति को सीमित करने के लिए"
+          },
+          "explanation": "बेस रजिस्टर सबसे छोटा फिजिकल एड्रेस रखता है; लिमिट रजिस्टर रेंज के आकार को निर्दिष्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-006",
+      "number": 6,
+      "question": "Which memory allocation policy picks the largest available hole?",
+      "options": {
+        "A": "First-fit",
+        "B": "Best-fit",
+        "C": "Worst-fit",
+        "D": "Next-fit"
+      },
+      "answer": "C",
+      "explanation": "Worst-fit picks the largest hole to leave a remaining hole that might be useful for other processes.",
+      "hash": "8e754054df6f7b35",
+      "translations": {
+        "hi": {
+          "question": "कौन सी मेमोरी आवंटन नीति सबसे बड़े उपलब्ध होल (hole) को चुनती है?",
+          "options": {
+            "A": "फर्स्ट-फिट",
+            "B": "बेस्ट-फिट",
+            "C": "वर्स्ट-फिट",
+            "D": "नेक्स्ट-फिट"
+          },
+          "explanation": "वर्स्ट-फिट सबसे बड़े होल को चुनता है ताकि बचा हुआ हिस्सा अन्य प्रक्रियाओं के लिए उपयोगी हो सके।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-007",
+      "number": 7,
+      "question": "Which of the following is a synchronization hardware?",
+      "options": {
+        "A": "Test-and-Set instruction",
+        "B": "Monitor",
+        "C": "Semaphore",
+        "D": "Critical Section"
+      },
+      "answer": "A",
+      "explanation": "Test-and-Set is a hardware-level instruction used to implement mutual exclusion.",
+      "hash": "a758bd291ae22ff4",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक सिंक्रोनाइज़ेशन हार्डवेयर है?",
+          "options": {
+            "A": "टेस्ट-एंड-सेट निर्देश",
+            "B": "मॉनिटर",
+            "C": "सेमाफोर",
+            "D": "क्रिटिकल सेक्शन"
+          },
+          "explanation": "टेस्ट-एंड-सेट एक हार्डवेयर-स्तर का निर्देश है जिसका उपयोग म्यूचुअल एक्सक्लूजन को लागू करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-008",
+      "number": 8,
+      "question": "In a multi-threaded process, threads share:",
+      "options": {
+        "A": "Stack",
+        "B": "Registers",
+        "C": "Code and Data",
+        "D": "Program Counter"
+      },
+      "answer": "C",
+      "explanation": "Threads share the code, data, and OS resources, but each has its own stack and PC.",
+      "hash": "97c37e608ce9e339",
+      "translations": {
+        "hi": {
+          "question": "एक मल्टी-थ्रेडेड प्रक्रिया में, थ्रेड्स साझा करते हैं:",
+          "options": {
+            "A": "स्टैक",
+            "B": "रजिस्टर्स",
+            "C": "कोड और डेटा",
+            "D": "प्रोग्राम काउंटर"
+          },
+          "explanation": "थ्रेड्स कोड, डेटा और OS संसाधनों को साझा करते हैं, लेकिन प्रत्येक का अपना स्टैक और PC होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-009",
+      "number": 9,
+      "question": "Segmentation suffers from:",
+      "options": {
+        "A": "Internal fragmentation",
+        "B": "External fragmentation",
+        "C": "Belady's anomaly",
+        "D": "No fragmentation"
+      },
+      "answer": "B",
+      "explanation": "Since segments are of variable size, it leads to external fragmentation.",
+      "hash": "f05348d92d846395",
+      "translations": {
+        "hi": {
+          "question": "सेगमेंटेशन (Segmentation) किससे ग्रस्त होता है?",
+          "options": {
+            "A": "आंतरिक विखंडन",
+            "B": "बाहरी विखंडन",
+            "C": "बेलेडी की विसंगति",
+            "D": "कोई विखंडन नहीं"
+          },
+          "explanation": "चूंकि सेगमेंट अलग-अलग आकार के होते हैं, इसलिए यह बाहरी विखंडन का कारण बनता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-010",
+      "number": 10,
+      "question": "What is the main function of the 'init' process in Unix/Linux?",
+      "options": {
+        "A": "To shut down the system",
+        "B": "To be the parent of all other processes",
+        "C": "To manage network connections",
+        "D": "To compile programs"
+      },
+      "answer": "B",
+      "explanation": "Init (PID 1) is the first process started by the kernel and the ancestor of all other processes.",
+      "hash": "f41d30823f2b81f1",
+      "translations": {
+        "hi": {
+          "question": "यूनिक्स/लिनक्स में 'init' प्रक्रिया का मुख्य कार्य क्या है?",
+          "options": {
+            "A": "सिस्टम को बंद करने के लिए",
+            "B": "अन्य सभी प्रक्रियाओं का पैरेंट होना",
+            "C": "नेटवर्क कनेक्शन प्रबंधित करने के लिए",
+            "D": "प्रोग्राम संकलित करने के लिए"
+          },
+          "explanation": "Init (PID 1) कर्नेल द्वारा शुरू की गई पहली प्रक्रिया है और अन्य सभी प्रक्रियाओं का पूर्वज है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-011",
+      "number": 11,
+      "question": "The \"Race Condition\" occurs when:",
+      "options": {
+        "A": "Multiple processes access and manipulate the same data concurrently",
+        "B": "A process finishes too fast",
+        "C": "Two processes are in different states",
+        "D": "CPU speed is increased"
+      },
+      "answer": "A",
+      "explanation": "The final outcome depends on the order of execution in a race condition.",
+      "hash": "f9d8991070bbedd0",
+      "translations": {
+        "hi": {
+          "question": "\"रेस कंडीशन\" (Race Condition) तब होती है जब:",
+          "options": {
+            "A": "कई प्रक्रियाएं एक साथ एक ही डेटा तक पहुंचती हैं और उसे बदलती हैं",
+            "B": "एक प्रक्रिया बहुत तेजी से समाप्त होती है",
+            "C": "दो प्रक्रियाएं अलग-अलग स्थितियों में हैं",
+            "D": "CPU की गति बढ़ाई जाती है"
+          },
+          "explanation": "रेस कंडीशन में अंतिम परिणाम निष्पादन के क्रम पर निर्भर करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-012",
+      "number": 12,
+      "question": "The 'Ready' state of a process means:",
+      "options": {
+        "A": "It is waiting for I/O",
+        "B": "It has everything to run except the CPU",
+        "C": "It has finished execution",
+        "D": "It is being created"
+      },
+      "answer": "B",
+      "explanation": "A process in ready state is waiting in main memory for CPU time.",
+      "hash": "d4763b94e9f9f48c",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया की 'रेडी' (Ready) स्थिति का अर्थ है:",
+          "options": {
+            "A": "यह I/O की प्रतीक्षा कर रही है",
+            "B": "इसके पास CPU को छोड़कर चलने के लिए सब कुछ है",
+            "C": "इसने निष्पादन समाप्त कर लिया है",
+            "D": "इसे बनाया जा रहा है"
+          },
+          "explanation": "रेडी स्टेट में एक प्रक्रिया CPU समय के लिए मुख्य मेमोरी में प्रतीक्षा कर रही होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-013",
+      "number": 13,
+      "question": "What is the time complexity of the Banker's Algorithm?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n^2)",
+        "C": "O(m * n^2)",
+        "D": "O(log n)"
+      },
+      "answer": "C",
+      "explanation": "Where n is the number of processes and m is the number of resource types.",
+      "hash": "401e83626e14fce1",
+      "translations": {
+        "hi": {
+          "question": "बैंकर एल्गोरिथम की समय जटिलता (time complexity) क्या है?",
+          "options": {
+            "A": "O(n)",
+            "B": "O(n^2)",
+            "C": "O(m * n^2)",
+            "D": "O(log n)"
+          },
+          "explanation": "जहाँ n प्रक्रियाओं की संख्या है और m संसाधनों के प्रकारों की संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-014",
+      "number": 14,
+      "question": "Which command is used to display the contents of a file in Linux?",
+      "options": {
+        "A": "cat",
+        "B": "ls",
+        "C": "grep",
+        "D": "touch"
+      },
+      "answer": "A",
+      "explanation": "The 'cat' command is used to concatenate and display file contents.",
+      "hash": "f9ac17073c21a022",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स में फ़ाइल की सामग्री प्रदर्शित करने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "cat",
+            "B": "ls",
+            "C": "grep",
+            "D": "touch"
+          },
+          "explanation": "'cat' कमांड का उपयोग फ़ाइल की सामग्री को जोड़ने और प्रदर्शित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-015",
+      "number": 15,
+      "question": "Which type of OS is used in flight control systems?",
+      "options": {
+        "A": "Batch OS",
+        "B": "Hard Real-Time OS",
+        "C": "Soft Real-Time OS",
+        "D": "Network OS"
+      },
+      "answer": "B",
+      "explanation": "Flight systems require strict adherence to timing constraints for safety.",
+      "hash": "5c8e33c2a847e84a",
+      "translations": {
+        "hi": {
+          "question": "उड़ान नियंत्रण प्रणालियों (flight control systems) में किस प्रकार के OS का उपयोग किया जाता है?",
+          "options": {
+            "A": "बैच OS",
+            "B": "हार्ड रियल-टाइम OS",
+            "C": "सॉफ्ट रियल-टाइम OS",
+            "D": "नेटवर्क OS"
+          },
+          "explanation": "सुरक्षा के लिए उड़ान प्रणालियों को समय की पाबंदियों का सख्ती से पालन करने की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-016",
+      "number": 16,
+      "question": "An address generated by the CPU is referred to as:",
+      "options": {
+        "A": "Physical address",
+        "B": "Relative address",
+        "C": "Logical address",
+        "D": "Absolute address"
+      },
+      "answer": "C",
+      "explanation": "The hardware (MMU) later translates this logical address into a physical one.",
+      "hash": "7b11a3d10742e16a",
+      "translations": {
+        "hi": {
+          "question": "CPU द्वारा उत्पन्न पते (address) को कहा जाता है:",
+          "options": {
+            "A": "फिजिकल एड्रेस",
+            "B": "रिलेटिव एड्रेस",
+            "C": "लॉजिकल एड्रेस",
+            "D": "एब्सोल्यूट एड्रेस"
+          },
+          "explanation": "हार्डवेयर (MMU) बाद में इस लॉजिकल एड्रेस को फिजिकल एड्रेस में अनुवादित करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-017",
+      "number": 17,
+      "question": "What is 'Deadlock Detection'?",
+      "options": {
+        "A": "Preventing deadlocks before they happen",
+        "B": "Periodically checking the system for a deadlock state",
+        "C": "Avoiding cycles in a resource graph",
+        "D": "Restarting the computer"
+      },
+      "answer": "B",
+      "explanation": "Detection uses algorithms (like Wait-for Graph) to find if a deadlock has occurred.",
+      "hash": "141beae2cd2b2b61",
+      "translations": {
+        "hi": {
+          "question": "'डेडलॉक डिटेक्शन' क्या है?",
+          "options": {
+            "A": "डेडलॉक होने से पहले उन्हें रोकना",
+            "B": "डेडलॉक स्थिति के लिए समय-समय पर सिस्टम की जाँच करना",
+            "C": "रिसोर्स ग्राफ में साइकिल से बचना",
+            "D": "कंप्यूटर को रीस्टार्ट करना"
+          },
+          "explanation": "डिटेक्शन एल्गोरिथम (जैसे वेट-फॉर ग्राफ) का उपयोग यह पता लगाने के लिए करता है कि क्या डेडलॉक हुआ है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-018",
+      "number": 18,
+      "question": "Which page replacement algorithm suffers from the stack property?",
+      "options": {
+        "A": "FIFO",
+        "B": "LRU",
+        "C": "Optimal",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "Stack algorithms like LRU and Optimal do not suffer from Belady's Anomaly.",
+      "hash": "6e3d2aab7d0dd2b6",
+      "translations": {
+        "hi": {
+          "question": "कौन सा पेज रिप्लेसमेंट एल्गोरिथम स्टैक प्रॉपर्टी (stack property) से ग्रस्त है?",
+          "options": {
+            "A": "FIFO",
+            "B": "LRU",
+            "C": "Optimal",
+            "D": "B और C दोनों"
+          },
+          "explanation": "LRU और ऑप्टिमल जैसे स्टैक एल्गोरिदम बेलेडी की विसंगति से ग्रस्त नहीं होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-019",
+      "number": 19,
+      "question": "What is 'Spooling' most commonly used for?",
+      "options": {
+        "A": "CPU scheduling",
+        "B": "Printing",
+        "C": "Memory management",
+        "D": "Compiling"
+      },
+      "answer": "B",
+      "explanation": "Spooling allows a printer to receive data at its own pace while the OS continues other tasks.",
+      "hash": "2cfd9a1363166c83",
+      "translations": {
+        "hi": {
+          "question": "'स्पूलिंग' का सबसे अधिक उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "CPU शेड्यूलिंग",
+            "B": "प्रिंटिंग",
+            "C": "मेमोरी प्रबंधन",
+            "D": "कंपाइलिंग"
+          },
+          "explanation": "स्पूलिंग एक प्रिंटर को अपनी गति से डेटा प्राप्त करने की अनुमति देती है जबकि OS अन्य कार्य जारी रखता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-020",
+      "number": 20,
+      "question": "What is 'Starvation' in scheduling?",
+      "options": {
+        "A": "A process is running too slow",
+        "B": "A process is indefinitely delayed",
+        "C": "A process has no memory",
+        "D": "The CPU has no work"
+      },
+      "answer": "B",
+      "explanation": "Starvation happens when a process waits forever because higher priority tasks keep coming.",
+      "hash": "2390a3775a098ea8",
+      "translations": {
+        "hi": {
+          "question": "शेड्यूलिंग में 'भुखमरी' (Starvation) क्या है?",
+          "options": {
+            "A": "एक प्रक्रिया बहुत धीमी चल रही है",
+            "B": "एक प्रक्रिया अनिश्चित काल के लिए विलंबित है",
+            "C": "एक प्रक्रिया के पास मेमोरी नहीं है",
+            "D": "CPU के पास कोई काम नहीं है"
+          },
+          "explanation": "भुखमरी तब होती है जब कोई प्रक्रिया हमेशा के लिए प्रतीक्षा करती है क्योंकि उच्च प्राथमिकता वाले कार्य आते रहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-021",
+      "number": 21,
+      "question": "Which of the following is NOT a storage device?",
+      "options": {
+        "A": "Hard Disk",
+        "B": "USB Flash Drive",
+        "C": "Monitor",
+        "D": "Magnetic Tape"
+      },
+      "answer": "C",
+      "explanation": "Monitor is an output device, not a storage device.",
+      "hash": "7a5f5d7a55f5700a",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में में से कौन सा स्टोरेज डिवाइस नहीं है?",
+          "options": {
+            "A": "हार्ड डिस्क",
+            "B": "USB फ्लैश ड्राइव",
+            "C": "मॉनिटर",
+            "D": "मैग्नेटिक टेप"
+          },
+          "explanation": "मॉनिटर एक आउटपुट डिवाइस है, स्टोरेज डिवाइस नहीं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-022",
+      "number": 22,
+      "question": "Which system call is used to delete a file in Unix?",
+      "options": {
+        "A": "delete()",
+        "B": "remove()",
+        "C": "unlink()",
+        "D": "erase()"
+      },
+      "answer": "C",
+      "explanation": "The unlink() system call removes the directory entry for a file.",
+      "hash": "83bf672cb4102613",
+      "translations": {
+        "hi": {
+          "question": "यूनिक्स में फ़ाइल को हटाने के लिए किस सिस्टम कॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "delete()",
+            "B": "remove()",
+            "C": "unlink()",
+            "D": "erase()"
+          },
+          "explanation": "unlink() सिस्टम कॉल किसी फ़ाइल के लिए डायरेक्टरी एंट्री को हटा देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-023",
+      "number": 23,
+      "question": "What is the main purpose of 'Swapping'?",
+      "options": {
+        "A": "To improve CPU speed",
+        "B": "To allow more processes than physical memory can hold",
+        "C": "To protect the system from viruses",
+        "D": "To format the disk"
+      },
+      "answer": "B",
+      "explanation": "Swapping moves processes between RAM and disk.",
+      "hash": "905cf4bbf4b8c5b3",
+      "translations": {
+        "hi": {
+          "question": "'स्वैपिंग' का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "CPU गति में सुधार करने के लिए",
+            "B": "फिजिकल मेमोरी की क्षमता से अधिक प्रक्रियाओं की अनुमति देने के लिए",
+            "C": "सिस्टम को वायरस से बचाने के लिए",
+            "D": "डिस्क को फॉर्मेट करने के लिए"
+          },
+          "explanation": "स्वैपिंग प्रक्रियाओं को रैम और डिस्क के बीच स्थानांतरित करती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-024",
+      "number": 24,
+      "question": "Which register contains the address of the page table?",
+      "options": {
+        "A": "Base Register",
+        "B": "PTBR",
+        "C": "Limit Register",
+        "D": "Index Register"
+      },
+      "answer": "B",
+      "explanation": "PTBR stands for Page Table Base Register.",
+      "hash": "d113b460ff120b2d",
+      "translations": {
+        "hi": {
+          "question": "किस रजिस्टर में पेज टेबल का पता होता है?",
+          "options": {
+            "A": "बेस रजिस्टर",
+            "B": "PTBR",
+            "C": "लिमिट रजिस्टर",
+            "D": "इंडेक्स रजिस्टर"
+          },
+          "explanation": "PTBR का अर्थ पेज टेबल बेस रजिस्टर है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-025",
+      "number": 25,
+      "question": "In memory management, 'Compaction' is used to solve:",
+      "options": {
+        "A": "Internal fragmentation",
+        "B": "External fragmentation",
+        "C": "Deadlock",
+        "D": "Thrashing"
+      },
+      "answer": "B",
+      "explanation": "Compaction moves all free memory blocks together into one large block.",
+      "hash": "26a2d7abe5fbd6b5",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी प्रबंधन में, 'कॉम्पैक्शन' (Compaction) का उपयोग किसे हल करने के लिए किया जाता है?",
+          "options": {
+            "A": "आंतरिक विखंडन",
+            "B": "बाहरी विखंडन",
+            "C": "डेडलॉक",
+            "D": "थ्रैशिंग"
+          },
+          "explanation": "कॉम्पैक्शन सभी फ्री मेमोरी ब्लॉक्स को एक साथ एक बड़े ब्लॉक में स्थानांतरित कर देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-026",
+      "number": 26,
+      "question": "What is a 'Thread'?",
+      "options": {
+        "A": "A physical wire",
+        "B": "A unit of CPU utilization",
+        "C": "A type of hardware",
+        "D": "A process state"
+      },
+      "answer": "B",
+      "explanation": "A thread is a basic unit of CPU utilization, consisting of a thread ID, PC, register set, and stack.",
+      "hash": "9ae7e4d287d4dfa8",
+      "translations": {
+        "hi": {
+          "question": "'थ्रेड' क्या है?",
+          "options": {
+            "A": "एक भौतिक तार",
+            "B": "CPU उपयोग की एक इकाई",
+            "C": "एक प्रकार का हार्डवेयर",
+            "D": "एक प्रोसेस स्टेट"
+          },
+          "explanation": "थ्रेड CPU उपयोग की एक बुनियादी इकाई है, जिसमें थ्रेड आईडी, PC, रजिस्टर सेट और स्टैक होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-027",
+      "number": 27,
+      "question": "Which scheduling algorithm gives the minimum average waiting time?",
+      "options": {
+        "A": "FCFS",
+        "B": "SJF",
+        "C": "Priority",
+        "D": "Round Robin"
+      },
+      "answer": "B",
+      "explanation": "SJF is optimal in terms of minimum average waiting time for a given set of processes.",
+      "hash": "f86108a3aa6b8f49",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शेड्यूलिंग एल्गोरिथम न्यूनतम औसत प्रतीक्षा समय देता है?",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "Priority",
+            "D": "Round Robin"
+          },
+          "explanation": "दिए गए प्रक्रियाओं के सेट के लिए न्यूनतम औसत प्रतीक्षा समय के मामले में SJF इष्टतम है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-028",
+      "number": 28,
+      "question": "Which signal is used to terminate a process in Linux?",
+      "options": {
+        "A": "SIGKILL",
+        "B": "SIGSTOP",
+        "C": "SIGCONT",
+        "D": "SIGWAIT"
+      },
+      "answer": "A",
+      "explanation": "SIGKILL (Signal number 9) immediately terminates a process.",
+      "hash": "35b0b42448627dfe",
+      "translations": {
+        "hi": {
+          "question": "लिनक्स में किसी प्रक्रिया को समाप्त करने के लिए किस सिग्नल का उपयोग किया जाता है?",
+          "options": {
+            "A": "SIGKILL",
+            "B": "SIGSTOP",
+            "C": "SIGCONT",
+            "D": "SIGWAIT"
+          },
+          "explanation": "SIGKILL (सिग्नल नंबर 9) तुरंत एक प्रक्रिया को समाप्त कर देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-029",
+      "number": 29,
+      "question": "What is the purpose of 'Device Drivers'?",
+      "options": {
+        "A": "To clean the hardware",
+        "B": "To provide an interface between OS and hardware",
+        "C": "To increase internet speed",
+        "D": "To edit photos"
+      },
+      "answer": "B",
+      "explanation": "Device drivers act as translators between the hardware device and the OS.",
+      "hash": "ec5e4ad70a92e160",
+      "translations": {
+        "hi": {
+          "question": "'डिवाइस ड्राइवर' का उद्देश्य क्या है?",
+          "options": {
+            "A": "हार्डवेयर को साफ करने के लिए",
+            "B": "OS और हार्डवेयर के बीच एक इंटरफेस प्रदान करने के लिए",
+            "C": "इंटरनेट की गति बढ़ाने के लिए",
+            "D": "फोटो संपादित करने के लिए"
+          },
+          "explanation": "डिवाइस ड्राइवर हार्डवेयर डिवाइस और OS के बीच अनुवादक के रूप में कार्य करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-04-030",
+      "number": 30,
+      "question": "Which of the following is an example of an GUI based OS?",
+      "options": {
+        "A": "MS-DOS",
+        "B": "Windows 11",
+        "C": "Unix (Original)",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Windows 11 uses a Graphical User Interface, whereas DOS is command-line based.",
+      "hash": "d1519629e694c185",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा GUI आधारित OS का उदाहरण है?",
+          "options": {
+            "A": "MS-DOS",
+            "B": "Windows 11",
+            "C": "Unix (Original)",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "Windows 11 ग्राफिकल यूजर इंटरफेस का उपयोग करता है, जबकि DOS कमांड-लाइन आधारित है।"
+        }
+      }
+    }
+  ]
+}

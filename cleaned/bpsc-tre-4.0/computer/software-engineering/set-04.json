@@ -1,0 +1,787 @@
+{
+  "subject": "Software Engineering",
+  "set": 4,
+  "title": "Software Engineering Mock Test 4",
+  "questions": [
+    {
+      "id": "software-engineering-04-001",
+      "number": 1,
+      "question": "In the context of Software Engineering, what is \"Fan-out\"?",
+      "options": {
+        "A": "Number of modules that call a module",
+        "B": "Number of modules called by a module",
+        "C": "Lines of code in a module",
+        "D": "Number of errors in a module"
+      },
+      "answer": "B",
+      "explanation": "Fan-out is the number of modules directly controlled by a given module.",
+      "hash": "849fb9f9ece6bc5e",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग के संदर्भ में, \"फैन-आउट\" क्या है?",
+          "options": {
+            "A": "एक मॉड्यूल को कॉल करने वाले मॉड्यूल की संख्या",
+            "B": "एक मॉड्यूल द्वारा कॉल किए गए मॉड्यूल की संख्या",
+            "C": "एक मॉड्यूल में कोड की लाइनें",
+            "D": "एक मॉड्यूल में त्रुटियों की संख्या"
+          },
+          "explanation": "फैन-आउट एक दिए गए मॉड्यूल द्वारा सीधे नियंत्रित मॉड्यूल की संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-002",
+      "number": 2,
+      "question": "Which model is also known as the \"Verification and Validation\" model?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "V-Model",
+        "C": "Spiral Model",
+        "D": "Iterative Model"
+      },
+      "answer": "B",
+      "explanation": "The V-Model executes development and testing phases in parallel, forming a V shape.",
+      "hash": "07335e263cbf0a02",
+      "translations": {
+        "hi": {
+          "question": "किस मॉडल को \"वेरिफिकेशन और वैलिडेशन\" मॉडल के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "वॉटरफॉल मॉडल",
+            "B": "वी-मॉडल",
+            "C": "स्पाइरल मॉडल",
+            "D": "इटरेटिव मॉडल"
+          },
+          "explanation": "वी-मॉडल विकास और परीक्षण चरणों को समानांतर में निष्पादित करता है, जिससे V आकार बनता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-003",
+      "number": 3,
+      "question": "The degree to which a software component can be reused in other systems is called?",
+      "options": {
+        "A": "Portability",
+        "B": "Reusability",
+        "C": "Maintainability",
+        "D": "Reliability"
+      },
+      "answer": "B",
+      "explanation": "Reusability allows segments of code to be used again to build new applications.",
+      "hash": "50edb20d48104647",
+      "translations": {
+        "hi": {
+          "question": "किसी सॉफ्टवेयर घटक को अन्य प्रणालियों में पुन: उपयोग किए जाने की डिग्री को क्या कहा जाता है?",
+          "options": {
+            "A": "पोर्टेबिलिटी",
+            "B": "रियूजेबिलिटी",
+            "C": "मेंटेनेबिलिटी",
+            "D": "रिलायबिलिटी"
+          },
+          "explanation": "रियूजेबिलिटी कोड के खंडों को नए अनुप्रयोग बनाने के लिए फिर से उपयोग करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-004",
+      "number": 4,
+      "question": "Which tool is used to represent the flow of data through a system?",
+      "options": {
+        "A": "Flowchart",
+        "B": "Data Flow Diagram",
+        "C": "Entity Relationship Diagram",
+        "D": "Gantt Chart"
+      },
+      "answer": "B",
+      "explanation": "DFD visually represents how data enters, processes, and leaves a system.",
+      "hash": "89f9f808b2f69443",
+      "translations": {
+        "hi": {
+          "question": "सिस्टम के माध्यम से डेटा के प्रवाह को दर्शाने के लिए किस टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "फ्लोचार्ट",
+            "B": "डेटा फ्लो डायग्राम",
+            "C": "एंटिटी रिलेशनशिप डायग्राम",
+            "D": "गैंट चार्ट"
+          },
+          "explanation": "DFD विज़ुअली प्रदर्शित करता है कि डेटा सिस्टम में कैसे प्रवेश करता है, प्रोसेस होता है और बाहर निकलता है। [Image of Data Flow Diagram levels 0 1 2]"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-005",
+      "number": 5,
+      "question": "Which type of cohesion occurs when a module performs multiple functions in a specific order?",
+      "options": {
+        "A": "Logical Cohesion",
+        "B": "Sequential Cohesion",
+        "C": "Procedural Cohesion",
+        "D": "Temporal Cohesion"
+      },
+      "answer": "C",
+      "explanation": "Procedural cohesion groups elements so they follow a specific sequence of steps.",
+      "hash": "7b65285bf8652848",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का कोहेशन तब होता है जब एक मॉड्यूल एक विशिष्ट क्रम में कई कार्य करता है?",
+          "options": {
+            "A": "लॉजिकल कोहेशन",
+            "B": "सीक्वेंशियल कोहेशन",
+            "C": "प्रोसीजरल कोहेशन",
+            "D": "टेम्पोरल कोहेशन"
+          },
+          "explanation": "प्रोसीजरल कोहेशन तत्वों को समूहित करता है ताकि वे चरणों के एक विशिष्ट अनुक्रम का पालन करें।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-006",
+      "number": 6,
+      "question": "Which testing type is performed to ensure the system can handle heavy loads?",
+      "options": {
+        "A": "Unit Testing",
+        "B": "Stress Testing",
+        "C": "Regression Testing",
+        "D": "Alpha Testing"
+      },
+      "answer": "B",
+      "explanation": "Stress testing evaluates system behavior under extreme conditions or heavy traffic.",
+      "hash": "b0e4e0920cf273a1",
+      "translations": {
+        "hi": {
+          "question": "यह सुनिश्चित करने के लिए कि सिस्टम भारी लोड को संभाल सकता है, कौन सा टेस्टिंग प्रकार किया जाता है?",
+          "options": {
+            "A": "यूनिट टेस्टिंग",
+            "B": "स्ट्रेस टेस्टिंग",
+            "C": "रिग्रेशन टेस्टिंग",
+            "D": "अल्फा टेस्टिंग"
+          },
+          "explanation": "स्ट्रेस टेस्टिंग चरम स्थितियों या भारी ट्रैफिक के तहत सिस्टम के व्यवहार का मूल्यांकन करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-007",
+      "number": 7,
+      "question": "What is the main objective of Formal Technical Reviews (FTR)?",
+      "options": {
+        "A": "To train programmers",
+        "B": "To find errors in software logic and function",
+        "C": "To calculate the project cost",
+        "D": "To promote employees"
+      },
+      "answer": "B",
+      "explanation": "FTR is a quality control activity performed by software engineers to uncover bugs.",
+      "hash": "4864ca93ab69f362",
+      "translations": {
+        "hi": {
+          "question": "फॉर्मल टेक्निकल रिव्यू (FTR) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "प्रोग्रामर को प्रशिक्षित करना",
+            "B": "सॉफ्टवेयर लॉजिक और फंक्शन में त्रुटियां ढूंढना",
+            "C": "प्रोजेक्ट की लागत की गणना करना",
+            "D": "कर्मचारियों को बढ़ावा देना"
+          },
+          "explanation": "FTR सॉफ्टवेयर इंजीनियरों द्वारा बग्स को उजागर करने के लिए की जाने वाली एक गुणवत्ता नियंत्रण गतिविधि है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-008",
+      "number": 8,
+      "question": "The \"Mythical Man-Month\" concept suggests that?",
+      "options": {
+        "A": "Adding more people speeds up a late project",
+        "B": "Adding more people to a late project makes it later",
+        "C": "One man can do any job in one month",
+        "D": "Software projects never end"
+      },
+      "answer": "B",
+      "explanation": "Brooks's Law states that adding manpower to a late software project makes it later.",
+      "hash": "635f7c521a25e933",
+      "translations": {
+        "hi": {
+          "question": "\"मिथिकल मैन-मंथ\" अवधारणा क्या सुझाव देती है?",
+          "options": {
+            "A": "अधिक लोगों को जोड़ने से विलंबित प्रोजेक्ट में तेजी आती है",
+            "B": "विलंबित प्रोजेक्ट में अधिक लोगों को जोड़ने से इसमें और देरी होती है",
+            "C": "एक आदमी एक महीने में कोई भी काम कर सकता है",
+            "D": "सॉफ्टवेयर प्रोजेक्ट कभी खत्म नहीं होते"
+          },
+          "explanation": "ब्रूक्स का नियम कहता है कि देरी से चल रहे सॉफ्टवेयर प्रोजेक्ट में जनशक्ति जोड़ने से इसमें और भी देरी होती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-009",
+      "number": 9,
+      "question": "Which maintenance type involves making changes to keep a product usable in a changed environment?",
+      "options": {
+        "A": "Corrective",
+        "B": "Adaptive",
+        "C": "Perfective",
+        "D": "Preventive"
+      },
+      "answer": "B",
+      "explanation": "Adaptive maintenance adjusts software to work on new OS or hardware platforms.",
+      "hash": "80747597bcffb2ea",
+      "translations": {
+        "hi": {
+          "question": "किस रखरखाव प्रकार में उत्पाद को बदलते वातावरण में उपयोगी बनाए रखने के लिए परिवर्तन शामिल हैं?",
+          "options": {
+            "A": "करेक्टिव",
+            "B": "एडेप्टिव",
+            "C": "परफेक्टिव",
+            "D": "प्रिवेंटिव"
+          },
+          "explanation": "एडेप्टिव मेंटेनेंस सॉफ्टवेयर को नए ओएस या हार्डवेयर प्लेटफॉर्म पर काम करने के लिए समायोजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-010",
+      "number": 10,
+      "question": "Which model is categorized as an Evolutionary Model?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Prototyping Model",
+        "C": "RAD Model",
+        "D": "V-Model"
+      },
+      "answer": "B",
+      "explanation": "Evolutionary models like Prototyping develop versions of software iteratively.",
+      "hash": "4cba149fe7a3fa69",
+      "translations": {
+        "hi": {
+          "question": "किस मॉडल को इवोल्यूशनरी मॉडल के रूप में वर्गीकृत किया गया है?",
+          "options": {
+            "A": "वॉटरफॉल मॉडल",
+            "B": "प्रोटोटाइपिंग मॉडल",
+            "C": "आरएडी मॉडल",
+            "D": "वी-मॉडल"
+          },
+          "explanation": "प्रोटोटाइपिंग जैसे इवोल्यूशनरी मॉडल सॉफ्टवेयर के संस्करणों को इटरेटिव रूप से विकसित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-011",
+      "number": 11,
+      "question": "In Software Engineering, \"Cleanroom\" approach emphasizes?",
+      "options": {
+        "A": "Manual testing",
+        "B": "Defect prevention rather than removal",
+        "C": "Faster coding",
+        "D": "Cleaning the hardware"
+      },
+      "answer": "B",
+      "explanation": "Cleanroom software engineering focuses on error prevention using formal methods.",
+      "hash": "17efd432a06a8fd6",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग में, \"क्लीनरूम\" दृष्टिकोण किस पर जोर देता है?",
+          "options": {
+            "A": "मैनुअल टेस्टिंग",
+            "B": "दोषों को हटाने के बजाय उनकी रोकथाम",
+            "C": "तेज कोडिंग",
+            "D": "हार्डवेयर की सफाई"
+          },
+          "explanation": "क्लीनरूम सॉफ्टवेयर इंजीनियरिंग औपचारिक तरीकों का उपयोग करके त्रुटि रोकथाम पर केंद्रित है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-012",
+      "number": 12,
+      "question": "The ratio of (Actual Effort / Estimated Effort) is known as?",
+      "options": {
+        "A": "Productivity",
+        "B": "Accuracy",
+        "C": "Experience Factor",
+        "D": "Bias"
+      },
+      "answer": "D",
+      "explanation": "Bias measures the accuracy of estimation by comparing planned vs actual effort.",
+      "hash": "d194d1527a748f0f",
+      "translations": {
+        "hi": {
+          "question": "(वास्तविक प्रयास / अनुमानित प्रयास) के अनुपात को क्या कहा जाता है?",
+          "options": {
+            "A": "प्रोडक्टिविटी",
+            "B": "एक्यूरेसी",
+            "C": "एक्सपीरियंस फैक्टर",
+            "D": "बायस"
+          },
+          "explanation": "बायस नियोजित बनाम वास्तविक प्रयास की तुलना करके अनुमान की सटीकता को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-013",
+      "number": 13,
+      "question": "Which UML diagram represents the flow of activities in a process?",
+      "options": {
+        "A": "Class Diagram",
+        "B": "Activity Diagram",
+        "C": "State Diagram",
+        "D": "Object Diagram"
+      },
+      "answer": "B",
+      "explanation": "Activity diagrams are like flowcharts that show the flow from one activity to another.",
+      "hash": "582b8b93dd37c9fb",
+      "translations": {
+        "hi": {
+          "question": "कौन सा UML आरेख प्रक्रिया में गतिविधियों के प्रवाह का प्रतिनिधित्व करता है?",
+          "options": {
+            "A": "क्लास डायग्राम",
+            "B": "एक्टिविटी डायग्राम",
+            "C": "स्टेट डायग्राम",
+            "D": "ऑब्जेक्ट डायग्राम"
+          },
+          "explanation": "एक्टिविटी डायग्राम फ्लोचार्ट की तरह होते हैं जो एक गतिविधि से दूसरी गतिविधि के प्रवाह को दिखाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-014",
+      "number": 14,
+      "question": "In a PERT chart, what does the \"Critical Path\" represent?",
+      "options": {
+        "A": "The shortest path",
+        "B": "The longest path through the project",
+        "C": "The path with most errors",
+        "D": "The easiest path"
+      },
+      "answer": "B",
+      "explanation": "The Critical Path determines the minimum time needed to complete a project.",
+      "hash": "fdc36b666bd68efb",
+      "translations": {
+        "hi": {
+          "question": "PERT चार्ट में, \"क्रिटिकल पाथ\" क्या दर्शाता है?",
+          "options": {
+            "A": "सबसे छोटा रास्ता",
+            "B": "प्रोजेक्ट के माध्यम से सबसे लंबा रास्ता",
+            "C": "सबसे अधिक त्रुटियों वाला रास्ता",
+            "D": "सबसे आसान रास्ता"
+          },
+          "explanation": "क्रिटिकल पाथ एक प्रोजेक्ट को पूरा करने के लिए आवश्यक न्यूनतम समय निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-015",
+      "number": 15,
+      "question": "A system that is easy to modify is said to have high?",
+      "options": {
+        "A": "Reliability",
+        "B": "Maintainability",
+        "C": "Efficiency",
+        "D": "Portability"
+      },
+      "answer": "B",
+      "explanation": "Maintainability refers to the ease with which software can be corrected or improved.",
+      "hash": "1d6d557bf3662c3f",
+      "translations": {
+        "hi": {
+          "question": "जिस सिस्टम को संशोधित करना आसान होता है, उसे क्या कहा जाता है?",
+          "options": {
+            "A": "रिलायबिलिटी",
+            "B": "मेंटेनेबिलिटी",
+            "C": "एफिशिएंसी",
+            "D": "पोर्टेबिलिटी"
+          },
+          "explanation": "मेंटेनेबिलिटी उस आसानी को संदर्भित करती है जिससे सॉफ्टवेयर को सुधारा या बेहतर बनाया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-016",
+      "number": 16,
+      "question": "Which tool is commonly used for version control in software development?",
+      "options": {
+        "A": "Git",
+        "B": "Apache",
+        "C": "Wireshark",
+        "D": "Tableau"
+      },
+      "answer": "A",
+      "explanation": "Git is a distributed version control system to track changes in source code.",
+      "hash": "335678edf0f4f869",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर विकास में वर्जन कंट्रोल के लिए आमतौर पर किस टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "गिट",
+            "B": "अपाचे",
+            "C": "वायरशार्क",
+            "D": "झांकी"
+          },
+          "explanation": "गिट स्रोत कोड में परिवर्तनों को ट्रैक करने के लिए एक वितरित वर्जन कंट्रोल सिस्टम है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-017",
+      "number": 17,
+      "question": "Software engineering belongs to which category of science?",
+      "options": {
+        "A": "Natural Science",
+        "B": "Applied Science",
+        "C": "Social Science",
+        "D": "Formal Science"
+      },
+      "answer": "B",
+      "explanation": "It applies scientific principles to design and build software systems.",
+      "hash": "b6ad7ea1b6463d31",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग विज्ञान की किस श्रेणी में आती है?",
+          "options": {
+            "A": "प्राकृतिक विज्ञान",
+            "B": "व्यावहारिक विज्ञान",
+            "C": "सामाजिक विज्ञान",
+            "D": "औपचारिक विज्ञान"
+          },
+          "explanation": "यह सॉफ्टवेयर सिस्टम को डिजाइन और निर्माण करने के लिए वैज्ञानिक सिद्धांतों को लागू करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-018",
+      "number": 18,
+      "question": "Which is the first level of the Capability Maturity Model (CMM)?",
+      "options": {
+        "A": "Repeatable",
+        "B": "Defined",
+        "C": "Initial",
+        "D": "Managed"
+      },
+      "answer": "C",
+      "explanation": "The Initial level describes a chaotic process with inconsistent results.",
+      "hash": "176281b9be540704",
+      "translations": {
+        "hi": {
+          "question": "कैपेबिलिटी मैच्योरिटी मॉडल (CMM) का पहला स्तर कौन सा है?",
+          "options": {
+            "A": "रिपीटेबल",
+            "B": "डिफाइंड",
+            "C": "इनिशियल",
+            "D": "मैनेज्ड"
+          },
+          "explanation": "इनिशियल स्तर असंगत परिणामों वाली एक अराजक प्रक्रिया का वर्णन करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-019",
+      "number": 19,
+      "question": "What is \"Software Sizing\"?",
+      "options": {
+        "A": "Estimating the physical size of the hardware",
+        "B": "Estimating the size of the software in LOC or FP",
+        "C": "Measuring the size of the development team",
+        "D": "Reducing the code size"
+      },
+      "answer": "B",
+      "explanation": "Sizing is the process of estimating the scale of the software to be built.",
+      "hash": "d3dc9fc37a1ce91d",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर साइजिंग\" क्या है?",
+          "options": {
+            "A": "हार्डवेयर के भौतिक आकार का अनुमान लगाना",
+            "B": "LOC या FP में सॉफ्टवेयर के आकार का अनुमान लगाना",
+            "C": "विकास टीम के आकार को मापना",
+            "D": "कोड का आकार कम करना"
+          },
+          "explanation": "साइजिंग बनाए जाने वाले सॉफ्टवेयर के पैमाने का अनुमान लगाने की प्रक्रिया है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-020",
+      "number": 20,
+      "question": "Which testing checks the internal logic of a module with knowledge of its code?",
+      "options": {
+        "A": "Black Box",
+        "B": "White Box",
+        "C": "System Testing",
+        "D": "Functional Testing"
+      },
+      "answer": "B",
+      "explanation": "White box testing (structural testing) examines the internal code and paths.",
+      "hash": "5c544e19a00d553c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा परीक्षण अपने कोड के ज्ञान के साथ मॉड्यूल के आंतरिक तर्क की जांच करता है?",
+          "options": {
+            "A": "ब्लैक बॉक्स",
+            "B": "व्हाइट बॉक्स",
+            "C": "सिस्टम टेस्टिंग",
+            "D": "फंक्शनल टेस्टिंग"
+          },
+          "explanation": "व्हाइट बॉक्स टेस्टिंग (स्ट्रक्चरल टेस्टिंग) आंतरिक कोड और पथों की जांच करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-021",
+      "number": 21,
+      "question": "Which of the following is an example of an Agile framework?",
+      "options": {
+        "A": "Scrum",
+        "B": "Waterfall",
+        "C": "V-Model",
+        "D": "Big Bang"
+      },
+      "answer": "A",
+      "explanation": "Scrum is an iterative agile framework for project management and development.",
+      "hash": "fcd4019c81ac43cf",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एजाइल फ्रेमवर्क का एक उदाहरण है?",
+          "options": {
+            "A": "स्क्रम",
+            "B": "वॉटरफॉल",
+            "C": "वी-मॉडल",
+            "D": "बिग बैंग"
+          },
+          "explanation": "स्क्रम प्रोजेक्ट मैनेजमेंट और विकास के लिए एक इटरेटिव एजाइल फ्रेमवर्क है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-022",
+      "number": 22,
+      "question": "What is \"Regression Testing\"?",
+      "options": {
+        "A": "Testing the first version of software",
+        "B": "Re-testing to ensure changes didn't break existing features",
+        "C": "Testing by the customer",
+        "D": "Testing without code"
+      },
+      "answer": "B",
+      "explanation": "Regression testing ensures that updates do not introduce new bugs in old code.",
+      "hash": "03b3130f13832bee",
+      "translations": {
+        "hi": {
+          "question": "\"रिग्रेशन टेस्टिंग\" क्या है?",
+          "options": {
+            "A": "सॉफ्टवेयर के पहले संस्करण का परीक्षण करना",
+            "B": "यह सुनिश्चित करने के लिए पुन: परीक्षण कि परिवर्तनों ने मौजूदा सुविधाओं को नहीं तोड़ा",
+            "C": "ग्राहक द्वारा परीक्षण",
+            "D": "बिना कोड के परीक्षण"
+          },
+          "explanation": "रिग्रेशन टेस्टिंग यह सुनिश्चित करती है कि अपडेट पुराने कोड में नए बग न पैदा करें।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-023",
+      "number": 23,
+      "question": "A \"Structure Chart\" is a tool for?",
+      "options": {
+        "A": "Coding",
+        "B": "Architectural Design",
+        "C": "Database Normalization",
+        "D": "Hardware configuration"
+      },
+      "answer": "B",
+      "explanation": "Structure charts show the hierarchy and relationship between modules in a design.",
+      "hash": "59cb7167d6102497",
+      "translations": {
+        "hi": {
+          "question": "\"स्ट्रक्चर चार्ट\" किसके लिए एक टूल है?",
+          "options": {
+            "A": "कोडिंग",
+            "B": "आर्किटेक्चरल डिजाइन",
+            "C": "डेटाबेस नॉर्मलाइजेशन",
+            "D": "हार्डवेयर कॉन्फ़िगरेशन"
+          },
+          "explanation": "स्ट्रक्चर चार्ट डिजाइन में मॉड्यूल के बीच पदानुक्रम और संबंध दिखाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-024",
+      "number": 24,
+      "question": "Which design concept refers to the hiding of implementation details?",
+      "options": {
+        "A": "Abstraction",
+        "B": "Information Hiding",
+        "C": "Modularity",
+        "D": "Refactoring"
+      },
+      "answer": "B",
+      "explanation": "Information hiding masks the internal workings of a module from the rest of the system.",
+      "hash": "c55a3e4f246ba686",
+      "translations": {
+        "hi": {
+          "question": "कौन सी डिजाइन अवधारणा कार्यान्वयन विवरण को छिपाने को संदर्भित करती है?",
+          "options": {
+            "A": "एब्स्ट्रैक्शन",
+            "B": "इंफॉर्मेशन हाइडिंग",
+            "C": "मॉड्युलैरिटी",
+            "D": "रिफैक्टरिंग"
+          },
+          "explanation": "इंफॉर्मेशन हाइडिंग सिस्टम के बाकी हिस्सों से मॉड्यूल के आंतरिक कामकाज को छुपाती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-025",
+      "number": 25,
+      "question": "What is the main goal of \"Validation\"?",
+      "options": {
+        "A": "To ensure we built the right product",
+        "B": "To ensure we built the product right",
+        "C": "To write documentation",
+        "D": "To design the UI"
+      },
+      "answer": "A",
+      "explanation": "Validation checks if the final software meets the user's actual needs.",
+      "hash": "3eba2c4f75ee2b4a",
+      "translations": {
+        "hi": {
+          "question": "\"वैलिडेशन\" का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "यह सुनिश्चित करना कि हमने सही उत्पाद बनाया है",
+            "B": "यह सुनिश्चित करना कि हमने उत्पाद को सही तरीके से बनाया है",
+            "C": "दस्तावेज़ीकरण लिखना",
+            "D": "UI डिजाइन करना"
+          },
+          "explanation": "वैलिडेशन यह जांचता है कि अंतिम सॉफ्टवेयर उपयोगकर्ता की वास्तविक जरूरतों को पूरा करता है या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-026",
+      "number": 26,
+      "question": "Which metric is used to estimate the number of function points?",
+      "options": {
+        "A": "Number of lines of code",
+        "B": "Number of external inputs and outputs",
+        "C": "Number of test cases",
+        "D": "Number of developers"
+      },
+      "answer": "B",
+      "explanation": "FP is calculated based on inputs, outputs, inquiries, files, and interfaces.",
+      "hash": "bdc43fcfc121621e",
+      "translations": {
+        "hi": {
+          "question": "फंक्शन पॉइंट्स की संख्या का अनुमान लगाने के लिए किस मेट्रिक का उपयोग किया जाता है?",
+          "options": {
+            "A": "कोड की लाइनों की संख्या",
+            "B": "बाहरी इनपुट और आउटपुट की संख्या",
+            "C": "टेस्ट केस की संख्या",
+            "D": "डेवलपर्स की संख्या"
+          },
+          "explanation": "FP की गणना इनपुट, आउटपुट, पूछताछ, फाइलों और इंटरफेस के आधार पर की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-027",
+      "number": 27,
+      "question": "What is the main goal of \"Verification\"?",
+      "options": {
+        "A": "To ensure we built the right product",
+        "B": "To ensure we built the product right",
+        "C": "To get payment from the client",
+        "D": "To finish the project fast"
+      },
+      "answer": "B",
+      "explanation": "Verification checks if the software conforms to the specification.",
+      "hash": "b1452d36e6185ef8",
+      "translations": {
+        "hi": {
+          "question": "\"वेरिफिकेशन\" का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "यह सुनिश्चित करना कि हमने सही उत्पाद बनाया है",
+            "B": "यह सुनिश्चित करना कि हमने उत्पाद को सही तरीके से बनाया है",
+            "C": "क्लाइंट से भुगतान प्राप्त करना",
+            "D": "प्रोजेक्ट को तेजी से पूरा करना"
+          },
+          "explanation": "वेरिफिकेशन यह जांचता है कि सॉफ्टवेयर विनिर्देश (स्पेसिफिकेशन) के अनुरूप है या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-028",
+      "number": 28,
+      "question": "Which type of maintenance adds new features to the existing software?",
+      "options": {
+        "A": "Corrective",
+        "B": "Perfective",
+        "C": "Adaptive",
+        "D": "Preventive"
+      },
+      "answer": "B",
+      "explanation": "Perfective maintenance involves enhancements and new requirements requested by users.",
+      "hash": "ea7256f980697fe5",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का रखरखाव मौजूदा सॉफ्टवेयर में नई सुविधाएँ जोड़ता है?",
+          "options": {
+            "A": "करेक्टिव",
+            "B": "परफेक्टिव",
+            "C": "एडेप्टिव",
+            "D": "प्रिवेंटिव"
+          },
+          "explanation": "परफेक्टिव मेंटेनेंस में उपयोगकर्ताओं द्वारा अनुरोधित संवर्द्धन और नई आवश्यकताएं शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-029",
+      "number": 29,
+      "question": "In the context of coding, what is \"Refactoring\"?",
+      "options": {
+        "A": "Changing the external behavior of code",
+        "B": "Improving internal structure without changing external behavior",
+        "C": "Compiling the code again",
+        "D": "Deleting the code"
+      },
+      "answer": "B",
+      "explanation": "Refactoring cleans up code to make it more readable and maintainable.",
+      "hash": "9bfbd74274de6644",
+      "translations": {
+        "hi": {
+          "question": "कोडिंग के संदर्भ में, \"रिफैक्टरिंग\" क्या है?",
+          "options": {
+            "A": "कोड के बाहरी व्यवहार को बदलना",
+            "B": "बाहरी व्यवहार बदले बिना आंतरिक संरचना में सुधार करना",
+            "C": "कोड को फिर से संकलित करना",
+            "D": "कोड को हटाना"
+          },
+          "explanation": "रिफैक्टरिंग कोड को अधिक पठनीय और बनाए रखने योग्य बनाने के लिए उसे साफ करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-04-030",
+      "number": 30,
+      "question": "\"Cyclomatic Complexity\" was developed by?",
+      "options": {
+        "A": "Barry Boehm",
+        "B": "Thomas McCabe",
+        "C": "Edsger Dijkstra",
+        "D": "Alan Turing"
+      },
+      "answer": "B",
+      "explanation": "Thomas McCabe introduced this metric in 1976 to measure code complexity.",
+      "hash": "216e809082a304b9",
+      "translations": {
+        "hi": {
+          "question": "\"साइक्लोमैटिक कॉम्प्लेक्सिटी\" किसके द्वारा विकसित की गई थी?",
+          "options": {
+            "A": "बैरी बोहम",
+            "B": "थॉमस मैकेबे",
+            "C": "एड्सगर डिज्कस्ट्रा",
+            "D": "एलन ट्यूरिंग"
+          },
+          "explanation": "थॉमस मैकेबे ने कोड जटिलता को मापने के लिए 1976 में यह मेट्रिक पेश किया था।"
+        }
+      }
+    }
+  ]
+}

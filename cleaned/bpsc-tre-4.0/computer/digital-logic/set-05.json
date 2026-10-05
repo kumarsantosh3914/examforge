@@ -1,0 +1,787 @@
+{
+  "subject": "Digital Logic",
+  "set": 5,
+  "title": "Digital Logic Mock Test 5",
+  "questions": [
+    {
+      "id": "digital-logic-05-001",
+      "number": 1,
+      "question": "Which logic family has the lowest power consumption?",
+      "options": {
+        "A": "TTL",
+        "B": "CMOS",
+        "C": "ECL",
+        "D": "DTL"
+      },
+      "answer": "B",
+      "explanation": "CMOS (Complementary Metal-Oxide-Semiconductor) consumes very little power, especially in a static state.",
+      "hash": "e02560c655cd864c",
+      "translations": {
+        "hi": {
+          "question": "किस लॉजिक फैमिली में बिजली की खपत (power consumption) सबसे कम होती है?",
+          "options": {
+            "A": "TTL",
+            "B": "CMOS",
+            "C": "ECL",
+            "D": "DTL"
+          },
+          "explanation": "CMOS (कॉम्प्लीमेंट्री मेटल-ऑक्साइड-सेमीकंडक्टर) बहुत कम बिजली की खपत करता है, खासकर स्थिर अवस्था में।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-002",
+      "number": 2,
+      "question": "The binary number 101101 is equivalent to which Hexadecimal number?",
+      "options": {
+        "A": "2D",
+        "B": "2B",
+        "C": "3D",
+        "D": "3B"
+      },
+      "answer": "A",
+      "explanation": "Grouping 101101 into fours: 0010 (2) and 1101 (D). Result is 2D.",
+      "hash": "a93bb7a445f57c2f",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी नंबर 101101 किस हेक्साडेसिमल संख्या के बराबर है?",
+          "options": {
+            "A": "2D",
+            "B": "2B",
+            "C": "3D",
+            "D": "3B"
+          },
+          "explanation": "101101 को चार के समूहों में विभाजित करने पर: 0010 (2) और 1101 (D)। परिणाम 2D है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-003",
+      "number": 3,
+      "question": "A Full Subtractor can be implemented using:",
+      "options": {
+        "A": "Two Half Subtractors and one OR gate",
+        "B": "Two Half Subtractors and one AND gate",
+        "C": "Two Half Subtractors and one XOR gate",
+        "D": "One Half Subtractor and one OR gate"
+      },
+      "answer": "A",
+      "explanation": "A full subtractor requires two half subtractors and an OR gate to combine the borrow outputs.",
+      "hash": "6487ea2ca37ba1ef",
+      "translations": {
+        "hi": {
+          "question": "एक फुल सबट्रैक्टर (Full Subtractor) को किसके उपयोग से लागू किया जा सकता है?",
+          "options": {
+            "A": "दो हाफ सबट्रैक्टर और एक OR गेट",
+            "B": "दो हाफ सबट्रैक्टर और एक AND गेट",
+            "C": "दो हाफ सबट्रैक्टर और एक XOR गेट",
+            "D": "एक हाफ सबट्रैक्टर और एक OR गेट"
+          },
+          "explanation": "एक फुल सबट्रैक्टर के लिए दो हाफ सबट्रैक्टर और बोरो आउटपुट को संयोजित करने के लिए एक OR गेट की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-004",
+      "number": 4,
+      "question": "What is the main characteristic of a J-K flip-flop in toggle mode?",
+      "options": {
+        "A": "J=0, K=0",
+        "B": "J=1, K=1",
+        "C": "J=1, K=0",
+        "D": "J=0, K=1"
+      },
+      "answer": "B",
+      "explanation": "When both J and K inputs are 1, the output toggles on each clock pulse.",
+      "hash": "955bd20c4ae42ea6",
+      "translations": {
+        "hi": {
+          "question": "टॉगल मोड में J-K फ्लिप-फ्लॉप की मुख्य विशेषता क्या है?",
+          "options": {
+            "A": "J=0, K=0",
+            "B": "J=1, K=1",
+            "C": "J=1, K=0",
+            "D": "J=0, K=1"
+          },
+          "explanation": "जब J और K दोनों इनपुट 1 होते हैं, तो आउटपुट प्रत्येक क्लॉक पल्स पर टॉगल होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-005",
+      "number": 5,
+      "question": "A 4-to-1 Multiplexer has how many select lines?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "For 4 inputs, 2^n = 4 implies n = 2 select lines.",
+      "hash": "e49817ac359512da",
+      "translations": {
+        "hi": {
+          "question": "4-टू-1 मल्टीप्लेक्स में कितनी सिलेक्ट लाइनें होती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "4 इनपुट के लिए, 2^n = 4 का अर्थ है n = 2 सिलेक्ट लाइनें।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-006",
+      "number": 6,
+      "question": "The Excess-3 code for decimal 0 is:",
+      "options": {
+        "A": "0000",
+        "B": "0001",
+        "C": "0011",
+        "D": "0110"
+      },
+      "answer": "C",
+      "explanation": "Excess-3 is decimal + 3. 0 + 3 = 3, which is 0011 in binary.",
+      "hash": "5c477a4631881164",
+      "translations": {
+        "hi": {
+          "question": "दशमलव 0 के लिए Excess-3 कोड है:",
+          "options": {
+            "A": "0000",
+            "B": "0001",
+            "C": "0011",
+            "D": "0110"
+          },
+          "explanation": "Excess-3 दशमलव + 3 है। 0 + 3 = 3, जो बाइनरी में 0011 है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-007",
+      "number": 7,
+      "question": "Which circuit is used to compare two binary numbers?",
+      "options": {
+        "A": "Multiplexer",
+        "B": "Magnitude Comparator",
+        "C": "Decoder",
+        "D": "Encoder"
+      },
+      "answer": "B",
+      "explanation": "A magnitude comparator determines if one binary number is greater than, less than, or equal to another.",
+      "hash": "ea4486b18937aeb9",
+      "translations": {
+        "hi": {
+          "question": "दो बाइनरी नंबरों की तुलना करने के लिए किस सर्किट का उपयोग किया जाता है?",
+          "options": {
+            "A": "मल्टीप्लेक्स",
+            "B": "मैग्नीट्यूड कम्पेरेटर",
+            "C": "डिकोडर",
+            "D": "एनकोडर"
+          },
+          "explanation": "एक मैग्नीट्यूड कम्पेरेटर यह निर्धारित करता है कि एक बाइनरी संख्या दूसरी से बड़ी, छोटी या बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-008",
+      "number": 8,
+      "question": "In a Gray code, the number after 011 is:",
+      "options": {
+        "A": "010",
+        "B": "111",
+        "C": "100",
+        "D": "001"
+      },
+      "answer": "A",
+      "explanation": "In Gray code, only one bit changes at a time. The sequence is 010 (binary 3) then 011 (binary 2) or vice versa.",
+      "hash": "c2d7938e6af136a0",
+      "translations": {
+        "hi": {
+          "question": "ग्रे कोड में, 011 के बाद वाली संख्या है:",
+          "options": {
+            "A": "010",
+            "B": "111",
+            "C": "100",
+            "D": "001"
+          },
+          "explanation": "ग्रे कोड में, एक बार में केवल एक बिट बदलता है। अनुक्रम 010 (बाइनरी 3) फिर 011 (बाइनरी 2) या इसके विपरीत होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-009",
+      "number": 9,
+      "question": "The Boolean expression (A+B)' = A'.B' is part of:",
+      "options": {
+        "A": "Commutative Law",
+        "B": "De Morgan's Law",
+        "C": "Distributive Law",
+        "D": "Associative Law"
+      },
+      "answer": "B",
+      "explanation": "This is De Morgan's first theorem, stating the complement of a sum is the product of complements.",
+      "hash": "cb7cc653c56a7a78",
+      "translations": {
+        "hi": {
+          "question": "बुलियन एक्सप्रेशन (A+B)' = A'.B' किसका हिस्सा है?",
+          "options": {
+            "A": "कम्यूटेटिव नियम",
+            "B": "डी मॉर्गन नियम",
+            "C": "वितरण नियम",
+            "D": "एसोसिएटिव नियम"
+          },
+          "explanation": "यह डी मॉर्गन का पहला प्रमेय है, जो बताता है कि योग का पूरक, पूरकों का गुणनफल होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-010",
+      "number": 10,
+      "question": "How many cells are in a 2-variable K-map?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "Number of cells is 2^n. For n=2, 2^2 = 4.",
+      "hash": "520cef6d95bfc21f",
+      "translations": {
+        "hi": {
+          "question": "2-वेरिएबल K-मैप में कितने सेल होते हैं?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "सेल की संख्या 2^n है। n=2 के लिए, 2^2 = 4।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-011",
+      "number": 11,
+      "question": "Which gate is also called an \"Equality Detector\"?",
+      "options": {
+        "A": "XOR",
+        "B": "XNOR",
+        "C": "NAND",
+        "D": "AND"
+      },
+      "answer": "B",
+      "explanation": "XNOR output is 1 only when both inputs are the same (0,0 or 1,1).",
+      "hash": "d7ed170ba35c4d07",
+      "translations": {
+        "hi": {
+          "question": "किस गेट को \"इक्वलिटी डिटेक्टर\" भी कहा जाता है?",
+          "options": {
+            "A": "XOR",
+            "B": "XNOR",
+            "C": "NAND",
+            "D": "AND"
+          },
+          "explanation": "XNOR आउटपुट 1 केवल तभी होता है जब दोनों इनपुट समान (0,0 या 1,1) होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-012",
+      "number": 12,
+      "question": "A universal shift register can shift data:",
+      "options": {
+        "A": "Only left",
+        "B": "Only right",
+        "C": "Both left and right",
+        "D": "Not at all"
+      },
+      "answer": "C",
+      "explanation": "Universal shift registers have bidirectional shifting capabilities.",
+      "hash": "38770abe1b1d28a2",
+      "translations": {
+        "hi": {
+          "question": "एक यूनिवर्सल शिफ्ट रजिस्टर डेटा को शिफ्ट कर सकता है:",
+          "options": {
+            "A": "केवल बाएं",
+            "B": "केवल दाएं",
+            "C": "बाएं और दाएं दोनों",
+            "D": "बिल्कुल नहीं"
+          },
+          "explanation": "यूनिवर्सल शिफ्ट रजिस्टरों में द्विदिश (bidirectional) शिफ्टिंग क्षमता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-013",
+      "number": 13,
+      "question": "A 1-to-16 Demultiplexer requires how many select lines?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "2^n = 16, so n = 4.",
+      "hash": "3b374b032ed7ea7e",
+      "translations": {
+        "hi": {
+          "question": "1-टू-16 डिमल्टीप्लेक्स के लिए कितनी सिलेक्ट लाइनों की आवश्यकता होती है?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "2^n = 16, इसलिए n = 4।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-014",
+      "number": 14,
+      "question": "What is the radix of the Octal system?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "Radix is another word for base; the Octal system base is 8.",
+      "hash": "e263ce690c260b2b",
+      "translations": {
+        "hi": {
+          "question": "ऑक्टल सिस्टम का रेडिक्स (आधार) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "8",
+            "C": "10",
+            "D": "16"
+          },
+          "explanation": "रेडिक्स आधार का दूसरा नाम है; ऑक्टल सिस्टम का आधार 8 है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-015",
+      "number": 15,
+      "question": "Which of the following is a non-volatile memory?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "ROM",
+        "D": "All of these"
+      },
+      "answer": "C",
+      "explanation": "ROM retains data even after power is removed.",
+      "hash": "b7a615fbe110dfa1",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी नॉन-वोलेटाइल मेमोरी है?",
+          "options": {
+            "A": "SRAM",
+            "B": "DRAM",
+            "C": "ROM",
+            "D": "ये सभी"
+          },
+          "explanation": "पावर हटाने के बाद भी ROM डेटा बरकरार रखती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-016",
+      "number": 16,
+      "question": "The 2's complement of 1000 is:",
+      "options": {
+        "A": "0111",
+        "B": "1000",
+        "C": "0001",
+        "D": "1111"
+      },
+      "answer": "B",
+      "explanation": "1's complement is 0111. Adding 1 gives 1000.",
+      "hash": "04a284f0b6a10b57",
+      "translations": {
+        "hi": {
+          "question": "1000 का 2's कॉम्प्लीमेंट है:",
+          "options": {
+            "A": "0111",
+            "B": "1000",
+            "C": "0001",
+            "D": "1111"
+          },
+          "explanation": "1's कॉम्प्लीमेंट 0111 है। 1 जोड़ने पर 1000 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-017",
+      "number": 17,
+      "question": "How many bits are in a 32-bit register?",
+      "options": {
+        "A": "4",
+        "B": "16",
+        "C": "32",
+        "D": "64"
+      },
+      "answer": "C",
+      "explanation": "A 32-bit register stores exactly 32 bits.",
+      "hash": "cfc3a05503c691d8",
+      "translations": {
+        "hi": {
+          "question": "32-बिट रजिस्टर में कितने बिट्स होते हैं?",
+          "options": {
+            "A": "4",
+            "B": "16",
+            "C": "32",
+            "D": "64"
+          },
+          "explanation": "एक 32-बिट रजिस्टर ठीक 32 बिट्स स्टोर करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-018",
+      "number": 18,
+      "question": "A Priority Encoder with 8 inputs has how many output lines?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "An 8-to-3 encoder produces a 3-bit binary code.",
+      "hash": "a249d387e991c6ec",
+      "translations": {
+        "hi": {
+          "question": "8 इनपुट वाले प्रायोरिटी एनकोडर में कितनी आउटपुट लाइनें होती हैं?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "8"
+          },
+          "explanation": "एक 8-टू-3 एनकोडर 3-बिट बाइनरी कोड उत्पन्न करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-019",
+      "number": 19,
+      "question": "A digital signal has how many levels?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "10",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "Digital signals typically have two discrete levels: High (1) and Low (0).",
+      "hash": "9b5d01c2b9a273bc",
+      "translations": {
+        "hi": {
+          "question": "एक डिजिटल सिग्नल में कितने स्तर (levels) होते हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "10",
+            "D": "अनंत"
+          },
+          "explanation": "डिजिटल सिग्नल में आमतौर पर दो अलग-अलग स्तर होते हैं: हाई (1) और लो (0)।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-020",
+      "number": 20,
+      "question": "The sum of A + A' in Boolean algebra is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "A",
+        "D": "A'"
+      },
+      "answer": "B",
+      "explanation": "Complement law states that a variable ORed with its complement is always 1.",
+      "hash": "fad75793aef2645c",
+      "translations": {
+        "hi": {
+          "question": "बुलियन बीजगणित में A + A' का योग है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "A",
+            "D": "A'"
+          },
+          "explanation": "पूरक नियम कहता है कि एक वेरिएबल को उसके पूरक के साथ OR करने पर हमेशा 1 मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-021",
+      "number": 21,
+      "question": "Which gate is the complement of the OR gate?",
+      "options": {
+        "A": "NOR",
+        "B": "NAND",
+        "C": "XOR",
+        "D": "NOT"
+      },
+      "answer": "A",
+      "explanation": "NOR = NOT + OR.",
+      "hash": "fd612a0e5f915ca0",
+      "translations": {
+        "hi": {
+          "question": "कौन सा गेट OR गेट का पूरक है?",
+          "options": {
+            "A": "NOR",
+            "B": "NAND",
+            "C": "XOR",
+            "D": "NOT"
+          },
+          "explanation": "NOR = NOT + OR."
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-022",
+      "number": 22,
+      "question": "In K-map, a 'Quad' helps in eliminating how many variables?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "A group of 4 (quad) eliminates 2 variables from the expression.",
+      "hash": "d52ed654b414c5a7",
+      "translations": {
+        "hi": {
+          "question": "K-मैप में, एक 'क्वाड' (Quad) कितने वेरिएबल्स को खत्म करने में मदद करता है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "4 का समूह (क्वाड) एक्सप्रेशन से 2 वेरिएबल्स को हटा देता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-023",
+      "number": 23,
+      "question": "A counter that counts from 0 to 9 is called a:",
+      "options": {
+        "A": "Mod-8 counter",
+        "B": "BCD counter",
+        "C": "Mod-16 counter",
+        "D": "Binary counter"
+      },
+      "answer": "B",
+      "explanation": "A BCD or Decade counter counts 10 states (0-9).",
+      "hash": "8076fa8d82848af3",
+      "translations": {
+        "hi": {
+          "question": "0 से 9 तक गिनने वाले काउंटर को क्या कहा जाता है?",
+          "options": {
+            "A": "Mod-8 काउंटर",
+            "B": "BCD काउंटर",
+            "C": "Mod-16 काउंटर",
+            "D": "बाइनरी काउंटर"
+          },
+          "explanation": "एक BCD या डिकेड (Decade) काउंटर 10 स्थितियों (0-9) को गिनता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-024",
+      "number": 24,
+      "question": "Which register is used to store data temporarily during ALU operations?",
+      "options": {
+        "A": "Program Counter",
+        "B": "Accumulator",
+        "C": "Instruction Register",
+        "D": "Memory Address Register"
+      },
+      "answer": "B",
+      "explanation": "The accumulator is the primary register for arithmetic and logic results.",
+      "hash": "58c94c6e534b338b",
+      "translations": {
+        "hi": {
+          "question": "ALU संचालन के दौरान डेटा को अस्थायी रूप से स्टोर करने के लिए किस रजिस्टर का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्रोग्राम काउंटर",
+            "B": "एक्यूमुलेटर",
+            "C": "इंस्ट्रक्शन रजिस्टर",
+            "D": "मेमोरी एड्रेस रजिस्टर"
+          },
+          "explanation": "एक्यूमुलेटर अंकगणितीय और लॉजिक परिणामों के लिए प्राथमिक रजिस्टर है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-025",
+      "number": 25,
+      "question": "The decimal value of binary 1111 is:",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "15",
+        "D": "16"
+      },
+      "answer": "C",
+      "explanation": "(1*8) + (1*4) + (1*2) + (1*1) = 15.",
+      "hash": "04a6ef52ce7c586d",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी 1111 का दशमलव मान है:",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "15",
+            "D": "16"
+          },
+          "explanation": "(1*8) + (1*4) + (1*2) + (1*1) = 15।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-026",
+      "number": 26,
+      "question": "A 1-bit comparator has how many outputs?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "Outputs are A>B, A<B, and A=B.",
+      "hash": "e500c31f2b27fb83",
+      "translations": {
+        "hi": {
+          "question": "एक 1-बिट कम्पेरेटर के कितने आउटपुट होते हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "आउटपुट A>B, A<B और A=B होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-027",
+      "number": 27,
+      "question": "Which logic family is used in most modern microprocessors?",
+      "options": {
+        "A": "TTL",
+        "B": "CMOS",
+        "C": "ECL",
+        "D": "RTL"
+      },
+      "answer": "B",
+      "explanation": "CMOS is preferred due to high density and low power.",
+      "hash": "4af31d71431dbcae",
+      "translations": {
+        "hi": {
+          "question": "अधिकांश आधुनिक माइक्रोप्रोसेसरों में किस लॉजिक फैमिली का उपयोग किया जाता है?",
+          "options": {
+            "A": "TTL",
+            "B": "CMOS",
+            "C": "ECL",
+            "D": "RTL"
+          },
+          "explanation": "उच्च घनत्व और कम शक्ति के कारण CMOS को प्राथमिकता दी जाती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-028",
+      "number": 28,
+      "question": "What is the complement of AB + CD?",
+      "options": {
+        "A": "(A'+B')(C'+D')",
+        "B": "A'B' + C'D'",
+        "C": "(A'+B') + (C'+D')",
+        "D": "A' + B' + C' + D'"
+      },
+      "answer": "A",
+      "explanation": "Using De Morgan's: (AB+CD)' = (AB)' . (CD)' = (A'+B') . (C'+D').",
+      "hash": "c097f18057e40b5f",
+      "translations": {
+        "hi": {
+          "question": "AB + CD का पूरक (complement) क्या है?",
+          "options": {
+            "A": "(A'+B')(C'+D')",
+            "B": "A'B' + C'D'",
+            "C": "(A'+B') + (C'+D')",
+            "D": "A' + B' + C' + D'"
+          },
+          "explanation": "डी मॉर्गन का उपयोग करते हुए: (AB+CD)' = (AB)' . (CD)' = (A'+B') . (C'+D')।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-029",
+      "number": 29,
+      "question": "A decoder can be used to implement:",
+      "options": {
+        "A": "Boolean functions",
+        "B": "Memory addressing",
+        "C": "Both A and B",
+        "D": "None of these"
+      },
+      "answer": "C",
+      "explanation": "Decoders are used for both logic implementation and chip/memory selection.",
+      "hash": "2808e1357ca04606",
+      "translations": {
+        "hi": {
+          "question": "एक डिकोडर का उपयोग किसे लागू करने के लिए किया जा सकता है?",
+          "options": {
+            "A": "बुलियन फंक्शन",
+            "B": "मेमोरी एड्रेसिंग",
+            "C": "A और B दोनों",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "डिकोडर का उपयोग लॉजिक कार्यान्वयन और चिप/मेमोरी चयन दोनों के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-05-030",
+      "number": 30,
+      "question": "Which gate is used as a basic parity checker?",
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "XOR",
+        "D": "NAND"
+      },
+      "answer": "C",
+      "explanation": "XOR gates detect an odd number of 1s, making them ideal for parity checks.",
+      "hash": "db87b89703d32c6d",
+      "translations": {
+        "hi": {
+          "question": "बुनियादी पैरिटी चेकर के रूप में किस गेट का उपयोग किया जाता है?",
+          "options": {
+            "A": "AND",
+            "B": "OR",
+            "C": "XOR",
+            "D": "NAND"
+          },
+          "explanation": "XOR गेट 1s की विषम संख्या का पता लगाते हैं, जो उन्हें पैरिटी जांच के लिए आदर्श बनाता है।"
+        }
+      }
+    }
+  ]
+}

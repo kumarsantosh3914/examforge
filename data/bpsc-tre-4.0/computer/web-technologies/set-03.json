@@ -1,0 +1,787 @@
+{
+  "subject": "Web Technologies",
+  "set": 3,
+  "title": "Web Technologies Mock Test 3",
+  "questions": [
+    {
+      "id": "web-technologies-03-001",
+      "number": 1,
+      "question": "In JavaScript, which operator is used for strict equality (checks both value and type)?",
+      "options": {
+        "A": "==",
+        "B": "!=",
+        "C": "===",
+        "D": "="
+      },
+      "answer": "C",
+      "explanation": "The === operator checks for both equal value and equal type.",
+      "hash": "b94d1f98d50674ca",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, सख्त समानता (मान और प्रकार दोनों की जांच) के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "==",
+            "B": "!=",
+            "C": "===",
+            "D": "="
+          },
+          "explanation": "=== ऑपरेटर समान मान और समान प्रकार दोनों की जांच करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-002",
+      "number": 2,
+      "question": "Which property is used in CSS to control the spacing between lines of text?",
+      "options": {
+        "A": "letter-spacing",
+        "B": "line-height",
+        "C": "word-spacing",
+        "D": "text-indent"
+      },
+      "answer": "B",
+      "explanation": "Line-height is used to set the amount of space between lines of text.",
+      "hash": "7bbca198ae64ad9f",
+      "translations": {
+        "hi": {
+          "question": "टेक्स्ट की लाइनों के बीच की दूरी को नियंत्रित करने के लिए CSS में किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "letter-spacing",
+            "B": "line-height",
+            "C": "word-spacing",
+            "D": "text-indent"
+          },
+          "explanation": "लाइन-हाइट का उपयोग टेक्स्ट की लाइनों के बीच की जगह की मात्रा निर्धारित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-003",
+      "number": 3,
+      "question": "Which CSS property is used to change the mouse cursor when it points over an element?",
+      "options": {
+        "A": "pointer",
+        "B": "mouse",
+        "C": "cursor",
+        "D": "icon"
+      },
+      "answer": "C",
+      "explanation": "The cursor property specifies the mouse cursor to be displayed.",
+      "hash": "c9345c0f56b54066",
+      "translations": {
+        "hi": {
+          "question": "जब माउस किसी तत्व पर इंगित करता है तो माउस कर्सर को बदलने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "pointer",
+            "B": "mouse",
+            "C": "cursor",
+            "D": "icon"
+          },
+          "explanation": "cursor प्रॉपर्टी प्रदर्शित किए जाने वाले माउस कर्सर को निर्दिष्ट करती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-004",
+      "number": 4,
+      "question": "Which HTML element is used to define the title of a work, such as a book or a song?",
+      "options": {
+        "A": "<title>",
+        "B": "<cite>",
+        "C": "<header>",
+        "D": "<work>"
+      },
+      "answer": "B",
+      "explanation": "The <cite> tag defines the title of a creative work.",
+      "hash": "a3bcd0c45add46ee",
+      "translations": {
+        "hi": {
+          "question": "किसी कार्य के शीर्षक, जैसे कि पुस्तक या गीत, को परिभाषित करने के लिए किस HTML तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<title>",
+            "B": "<cite>",
+            "C": "<header>",
+            "D": "<work>"
+          },
+          "explanation": "<cite> टैग किसी रचनात्मक कार्य के शीर्षक को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-005",
+      "number": 5,
+      "question": "Which HTML5 attribute is used to specify that an input field must be filled out before submitting the form?",
+      "options": {
+        "A": "validate",
+        "B": "required",
+        "C": "placeholder",
+        "D": "mandatory"
+      },
+      "answer": "B",
+      "explanation": "The required attribute prevents form submission if the field is empty.",
+      "hash": "632becc250f91181",
+      "translations": {
+        "hi": {
+          "question": "किस HTML5 एट्रिब्यूट का उपयोग यह निर्दिष्ट करने के लिए किया जाता है कि फॉर्म सबमिट करने से पहले एक इनपुट फ़ील्ड भरी जानी चाहिए?",
+          "options": {
+            "A": "validate",
+            "B": "required",
+            "C": "placeholder",
+            "D": "mandatory"
+          },
+          "explanation": "required एट्रिब्यूट फ़ील्ड खाली होने पर फॉर्म सबमिशन को रोकता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-006",
+      "number": 6,
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element: <p id=\"demo\">Hello</p>?",
+      "options": {
+        "A": "document.getElementByName(\"p\").innerHTML = \"Bye\";",
+        "B": "#demo.innerHTML = \"Bye\";",
+        "C": "document.getElementById(\"demo\").innerHTML = \"Bye\";",
+        "D": "document.getElement(\"p\").innerHTML = \"Bye\";"
+      },
+      "answer": "C",
+      "explanation": "innerHTML is used to get or set the HTML content of an element.",
+      "hash": "5cf34b15e4e54887",
+      "translations": {
+        "hi": {
+          "question": "HTML तत्व <p id=\"demo\">Hello</p> की सामग्री को बदलने के लिए सही जावास्क्रिप्ट सिंटैक्स क्या है?",
+          "options": {
+            "A": "document.getElementByName(\"p\").innerHTML = \"Bye\";",
+            "B": "#demo.innerHTML = \"Bye\";",
+            "C": "document.getElementById(\"demo\").innerHTML = \"Bye\";",
+            "D": "document.getElement(\"p\").innerHTML = \"Bye\";"
+          },
+          "explanation": "innerHTML का उपयोग किसी तत्व की HTML सामग्री प्राप्त करने या सेट करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-007",
+      "number": 7,
+      "question": "Which property is used to align the text to the center in CSS?",
+      "options": {
+        "A": "text-align: center;",
+        "B": "align: center;",
+        "C": "margin: auto;",
+        "D": "content-align: center;"
+      },
+      "answer": "A",
+      "explanation": "text-align: center; is used to horizontally align text inside its container.",
+      "hash": "c7908ea5197b20dc",
+      "translations": {
+        "hi": {
+          "question": "CSS में टेक्स्ट को केंद्र (center) में संरेखित करने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "text-align: center;",
+            "B": "align: center;",
+            "C": "margin: auto;",
+            "D": "content-align: center;"
+          },
+          "explanation": "text-align: center; का उपयोग टेक्स्ट को उसके कंटेनर के भीतर क्षैतिज रूप से संरेखित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-008",
+      "number": 8,
+      "question": "Which HTML tag is used to define an image map?",
+      "options": {
+        "A": "<canvas>",
+        "B": "<map>",
+        "C": "<area>",
+        "D": "<imgmap>"
+      },
+      "answer": "B",
+      "explanation": "The <map> tag is used to define a client-side image map.",
+      "hash": "2135160162ea9922",
+      "translations": {
+        "hi": {
+          "question": "इमेज मैप को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<canvas>",
+            "B": "<map>",
+            "C": "<area>",
+            "D": "<imgmap>"
+          },
+          "explanation": "<map> टैग का उपयोग क्लाइंट-साइड इमेज मैप को परिभाषित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-009",
+      "number": 9,
+      "question": "Which CSS selector is used to style an element only when a user hovers over it?",
+      "options": {
+        "A": ":active",
+        "B": ":focus",
+        "C": ":hover",
+        "D": ":visited"
+      },
+      "answer": "C",
+      "explanation": "The :hover pseudo-class applies styles when the mouse pointer is over an element.",
+      "hash": "9dc921aef5d9761b",
+      "translations": {
+        "hi": {
+          "question": "किसी तत्व को केवल तब स्टाइल करने के लिए किस CSS चयनकर्ता का उपयोग किया जाता है जब कोई उपयोगकर्ता उस पर होवर करता है?",
+          "options": {
+            "A": ":active",
+            "B": ":focus",
+            "C": ":hover",
+            "D": ":visited"
+          },
+          "explanation": ":hover छद्म-वर्ग (pseudo-class) तब स्टाइल लागू करता है जब माउस पॉइंटर किसी तत्व के ऊपर होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-010",
+      "number": 10,
+      "question": "What is the correct way to write a JavaScript object?",
+      "options": {
+        "A": "var person = {firstName:\"John\", lastName:\"Doe\"};",
+        "B": "var person = (firstName:\"John\", lastName:\"Doe\");",
+        "C": "var person = [firstName:\"John\", lastName:\"Doe\"];",
+        "D": "var person = \"firstName\":\"John\", \"lastName\":\"Doe\";"
+      },
+      "answer": "A",
+      "explanation": "Objects are written with curly braces {} and name:value pairs.",
+      "hash": "5edacd4aa84e3928",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट ऑब्जेक्ट लिखने का सही तरीका क्या है?",
+          "options": {
+            "A": "var person = {firstName:\"John\", lastName:\"Doe\"};",
+            "B": "var person = (firstName:\"John\", lastName:\"Doe\");",
+            "C": "var person = [firstName:\"John\", lastName:\"Doe\"];",
+            "D": "var person = \"firstName\":\"John\", \"lastName\":\"Doe\";"
+          },
+          "explanation": "ऑब्जेक्ट घुंघराले कोष्ठक {} और नाम:मान (name:value) जोड़ों के साथ लिखे जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-011",
+      "number": 11,
+      "question": "Which HTML element is used to display a measurement with a known range and fractional values?",
+      "options": {
+        "A": "<progress>",
+        "B": "<range>",
+        "C": "<meter>",
+        "D": "<scale>"
+      },
+      "answer": "C",
+      "explanation": "<meter> is for static measurements; <progress> is for the completion status of a task.",
+      "hash": "7e7500193b9dd2c5",
+      "translations": {
+        "hi": {
+          "question": "ज्ञात सीमा और भिन्नात्मक मानों के साथ माप प्रदर्शित करने के लिए किस HTML तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<progress>",
+            "B": "<range>",
+            "C": "<meter>",
+            "D": "<scale>"
+          },
+          "explanation": "<meter> स्थिर माप के लिए है; <progress> किसी कार्य के पूरा होने की स्थिति के लिए है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-012",
+      "number": 12,
+      "question": "Which CSS property is used to round the corners of an element?",
+      "options": {
+        "A": "corner-radius",
+        "B": "border-radius",
+        "C": "border-round",
+        "D": "corner-style"
+      },
+      "answer": "B",
+      "explanation": "border-radius allows you to define how rounded the border corners are.",
+      "hash": "4cd8cca7940e08d4",
+      "translations": {
+        "hi": {
+          "question": "किसी तत्व के कोनों को गोल करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "corner-radius",
+            "B": "border-radius",
+            "C": "border-round",
+            "D": "corner-style"
+          },
+          "explanation": "border-radius आपको यह परिभाषित करने की अनुमति देता है कि बॉर्डर के कोने कितने गोल हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-013",
+      "number": 13,
+      "question": "Which HTTP status code represents \"Not Found\"?",
+      "options": {
+        "A": "200",
+        "B": "403",
+        "C": "404",
+        "D": "500"
+      },
+      "answer": "C",
+      "explanation": "404 is the standard error code for a resource not found on the server.",
+      "hash": "4176a84feee426fa",
+      "translations": {
+        "hi": {
+          "question": "कौन सा HTTP स्टेटस कोड \"Not Found\" का प्रतिनिधित्व करता है?",
+          "options": {
+            "A": "200",
+            "B": "403",
+            "C": "404",
+            "D": "500"
+          },
+          "explanation": "404 सर्वर पर संसाधन नहीं मिलने का मानक एरर कोड है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-014",
+      "number": 14,
+      "question": "How do you declare a JavaScript variable that should not be re-declared in the same scope?",
+      "options": {
+        "A": "var",
+        "B": "let",
+        "C": "set",
+        "D": "variable"
+      },
+      "answer": "B",
+      "explanation": "Variables declared with let cannot be re-declared in the same block.",
+      "hash": "06839f9c3df03382",
+      "translations": {
+        "hi": {
+          "question": "आप एक जावास्क्रिप्ट वेरिएबल को कैसे घोषित करते हैं जिसे उसी स्कोप में फिर से घोषित नहीं किया जाना चाहिए?",
+          "options": {
+            "A": "var",
+            "B": "let",
+            "C": "set",
+            "D": "variable"
+          },
+          "explanation": "let के साथ घोषित वेरिएबल को उसी ब्लॉक में फिर से घोषित नहीं किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-015",
+      "number": 15,
+      "question": "Which HTML tag is used to group related elements in a form?",
+      "options": {
+        "A": "<group>",
+        "B": "<fieldset>",
+        "C": "<legend>",
+        "D": "<section>"
+      },
+      "answer": "B",
+      "explanation": "The <fieldset> tag is used to group related data in a form.",
+      "hash": "3f0c145fe9abab6e",
+      "translations": {
+        "hi": {
+          "question": "फॉर्म में संबंधित तत्वों को समूहित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<group>",
+            "B": "<fieldset>",
+            "C": "<legend>",
+            "D": "<section>"
+          },
+          "explanation": "<fieldset> टैग का उपयोग फॉर्म में संबंधित डेटा को समूहित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-016",
+      "number": 16,
+      "question": "Which JavaScript method is used to convert a JSON string into a JavaScript object?",
+      "options": {
+        "A": "JSON.stringify()",
+        "B": "JSON.parse()",
+        "C": "JSON.convert()",
+        "D": "JSON.object()"
+      },
+      "answer": "B",
+      "explanation": "JSON.parse() takes a string and turns it into an object.",
+      "hash": "037ba849d3e5f557",
+      "translations": {
+        "hi": {
+          "question": "JSON स्ट्रिंग को जावास्क्रिप्ट ऑब्जेक्ट में बदलने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "JSON.stringify()",
+            "B": "JSON.parse()",
+            "C": "JSON.convert()",
+            "D": "JSON.object()"
+          },
+          "explanation": "JSON.parse() एक स्ट्रिंग लेता है और उसे एक ऑब्जेक्ट में बदल देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-017",
+      "number": 17,
+      "question": "In CSS, what does the 'em' unit represent?",
+      "options": {
+        "A": "Pixels",
+        "B": "Relative to the font-size of the element",
+        "C": "Percentage of the screen",
+        "D": "Empty pixels"
+      },
+      "answer": "B",
+      "explanation": "1em is equal to the current font size of the element or the parent element.",
+      "hash": "b2c3a159485d022d",
+      "translations": {
+        "hi": {
+          "question": "CSS में, 'em' इकाई किसका प्रतिनिधित्व करती है?",
+          "options": {
+            "A": "पिक्सल",
+            "B": "तत्व के फ़ॉन्ट-आकार के सापेक्ष",
+            "C": "स्क्रीन का प्रतिशत",
+            "D": "खाली पिक्सल"
+          },
+          "explanation": "1em तत्व या पैरेंट तत्व के वर्तमान फ़ॉन्ट आकार के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-018",
+      "number": 18,
+      "question": "Which CSS property is used to specify whether an element's box should be floating?",
+      "options": {
+        "A": "display",
+        "B": "float",
+        "C": "position",
+        "D": "flow"
+      },
+      "answer": "B",
+      "explanation": "The float property is used for positioning and layout on web pages.",
+      "hash": "c6da429cee7fde13",
+      "translations": {
+        "hi": {
+          "question": "यह निर्दिष्ट करने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है कि क्या किसी तत्व का बॉक्स फ्लोटिंग होना चाहिए?",
+          "options": {
+            "A": "display",
+            "B": "float",
+            "C": "position",
+            "D": "flow"
+          },
+          "explanation": "फ्लोट प्रॉपर्टी का उपयोग वेब पेजों पर पोजिशनिंग और लेआउट के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-019",
+      "number": 19,
+      "question": "Which event is fired when a user leaves an input field?",
+      "options": {
+        "A": "onfocus",
+        "B": "onblur",
+        "C": "onclick",
+        "D": "onsubmit"
+      },
+      "answer": "B",
+      "explanation": "The onblur event occurs when an object loses focus.",
+      "hash": "96dac5035dd64eec",
+      "translations": {
+        "hi": {
+          "question": "जब कोई उपयोगकर्ता इनपुट फ़ील्ड छोड़ता है तो कौन सा इवेंट सक्रिय होता है?",
+          "options": {
+            "A": "onfocus",
+            "B": "onblur",
+            "C": "onclick",
+            "D": "onsubmit"
+          },
+          "explanation": "onblur इवेंट तब होता है जब कोई ऑब्जेक्ट फोकस खो देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-020",
+      "number": 20,
+      "question": "Which HTML5 tag is used for self-contained content like photos, diagrams, or code?",
+      "options": {
+        "A": "<aside>",
+        "B": "<article>",
+        "C": "<figure>",
+        "D": "<section>"
+      },
+      "answer": "C",
+      "explanation": "The <figure> tag specifies self-contained content, often with a <figcaption>.",
+      "hash": "8d0894b376b2bb5d",
+      "translations": {
+        "hi": {
+          "question": "फोटो, आरेख या कोड जैसी स्व-निहित सामग्री के लिए किस HTML5 टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<aside>",
+            "B": "<article>",
+            "C": "<figure>",
+            "D": "<section>"
+          },
+          "explanation": "<figure> टैग स्व-निहित सामग्री को निर्दिष्ट करता है, अक्सर <figcaption> के साथ।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-021",
+      "number": 21,
+      "question": "What is the correct way to write an \"if\" statement in JavaScript?",
+      "options": {
+        "A": "if i = 5 then",
+        "B": "if (i == 5)",
+        "C": "if i == 5",
+        "D": "if i = 5"
+      },
+      "answer": "B",
+      "explanation": "Conditions in JavaScript must be wrapped in parentheses ().",
+      "hash": "d47b18f7a1517ecc",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में \"if\" स्टेटमेंट लिखने का सही तरीका क्या है?",
+          "options": {
+            "A": "if i = 5 then",
+            "B": "if (i == 5)",
+            "C": "if i == 5",
+            "D": "if i = 5"
+          },
+          "explanation": "जावास्क्रिप्ट में शर्तों को कोष्ठक () में लपेटा जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-022",
+      "number": 22,
+      "question": "Which attribute is used with the <script> tag to load it asynchronously?",
+      "options": {
+        "A": "sync",
+        "B": "defer",
+        "C": "async",
+        "D": "load"
+      },
+      "answer": "C",
+      "explanation": "The async attribute allows the script to be downloaded in the background while parsing continues.",
+      "hash": "d85f1204e2044076",
+      "translations": {
+        "hi": {
+          "question": "<script> टैग के साथ उसे एसिंक्रोनस रूप से लोड करने के लिए किस एट्रिब्यूट का उपयोग किया जाता है?",
+          "options": {
+            "A": "sync",
+            "B": "defer",
+            "C": "async",
+            "D": "load"
+          },
+          "explanation": "async एट्रिब्यूट स्क्रिप्ट को बैकग्राउंड में डाउनलोड करने की अनुमति देता है जबकि पार्सिंग जारी रहती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-023",
+      "number": 23,
+      "question": "Which property is used to change the list style to square in CSS?",
+      "options": {
+        "A": "list-type: square;",
+        "B": "type: square;",
+        "C": "list-style-type: square;",
+        "D": "bullet-style: square;"
+      },
+      "answer": "C",
+      "explanation": "list-style-type defines the type of list item marker.",
+      "hash": "d01dca2cf33d326a",
+      "translations": {
+        "hi": {
+          "question": "CSS में लिस्ट स्टाइल को स्क्वायर (वर्ग) में बदलने के लिए किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "list-type: square;",
+            "B": "type: square;",
+            "C": "list-style-type: square;",
+            "D": "bullet-style: square;"
+          },
+          "explanation": "list-style-type लिस्ट आइटम मार्कर के प्रकार को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-024",
+      "number": 24,
+      "question": "What does the 'vh' unit stand for in CSS?",
+      "options": {
+        "A": "Viewport Height",
+        "B": "Variable Height",
+        "C": "Vertical Height",
+        "D": "Visual Height"
+      },
+      "answer": "A",
+      "explanation": "1vh is equal to 1% of the height of the viewport (screen).",
+      "hash": "25ba0083c903fab9",
+      "translations": {
+        "hi": {
+          "question": "CSS में 'vh' इकाई का क्या अर्थ है?",
+          "options": {
+            "A": "व्यूपोर्ट हाइट",
+            "B": "वेरिएबल हाइट",
+            "C": "वर्टिकल हाइट",
+            "D": "विजुअल हाइट"
+          },
+          "explanation": "1vh व्यूपोर्ट (स्क्रीन) की ऊंचाई के 1% के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-025",
+      "number": 25,
+      "question": "Which JavaScript function is used to parse a string into an integer?",
+      "options": {
+        "A": "Integer.parse()",
+        "B": "parseInteger()",
+        "C": "parseInt()",
+        "D": "toInt()"
+      },
+      "answer": "C",
+      "explanation": "parseInt() parses a string argument and returns an integer.",
+      "hash": "a5a00dd326fe0777",
+      "translations": {
+        "hi": {
+          "question": "स्ट्रिंग को पूर्णांक (integer) में बदलने के लिए किस जावास्क्रिप्ट फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "Integer.parse()",
+            "B": "parseInteger()",
+            "C": "parseInt()",
+            "D": "toInt()"
+          },
+          "explanation": "parseInt() एक स्ट्रिंग तर्क को पार्स करता है और एक पूर्णांक देता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-026",
+      "number": 26,
+      "question": "Which HTML tag is used to define a client-side script?",
+      "options": {
+        "A": "<java>",
+        "B": "<script>",
+        "C": "<javascript>",
+        "D": "<code>"
+      },
+      "answer": "B",
+      "explanation": "The <script> tag is used to embed or reference executable code.",
+      "hash": "690c10f2ff323629",
+      "translations": {
+        "hi": {
+          "question": "क्लाइंट-साइड स्क्रिप्ट को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<java>",
+            "B": "<script>",
+            "C": "<javascript>",
+            "D": "<code>"
+          },
+          "explanation": "<script> टैग का उपयोग निष्पादन योग्य कोड को एम्बेड करने या संदर्भित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-027",
+      "number": 27,
+      "question": "Which HTML attribute is used to group elements together for styling with CSS classes?",
+      "options": {
+        "A": "id",
+        "B": "class",
+        "C": "group",
+        "D": "category"
+      },
+      "answer": "B",
+      "explanation": "Multiple elements can share the same class attribute for shared styling.",
+      "hash": "ba16847746d3a671",
+      "translations": {
+        "hi": {
+          "question": "CSS क्लास के साथ स्टाइलिंग के लिए तत्वों को एक साथ समूहित करने के लिए किस HTML एट्रिब्यूट का उपयोग किया जाता है?",
+          "options": {
+            "A": "id",
+            "B": "class",
+            "C": "group",
+            "D": "category"
+          },
+          "explanation": "साझा स्टाइलिंग के लिए कई तत्व एक ही क्लास एट्रिब्यूट साझा कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-028",
+      "number": 28,
+      "question": "Which operator is used to check if two values are not equal in JavaScript?",
+      "options": {
+        "A": "<>",
+        "B": "!=",
+        "C": "==!",
+        "D": "~"
+      },
+      "answer": "B",
+      "explanation": "The != operator checks for inequality between two values.",
+      "hash": "aae542e427d63456",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में यह जांचने के लिए कि दो मान बराबर नहीं हैं, किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "<>",
+            "B": "!=",
+            "C": "==!",
+            "D": "~"
+          },
+          "explanation": "!= ऑपरेटर दो मानों के बीच असमानता की जांच करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-029",
+      "number": 29,
+      "question": "Which CSS property is used to create space between the borders of adjacent cells in a table?",
+      "options": {
+        "A": "border-spacing",
+        "B": "cell-padding",
+        "C": "margin",
+        "D": "border-collapse"
+      },
+      "answer": "A",
+      "explanation": "border-spacing sets the distance between the borders of adjacent table cells.",
+      "hash": "5bb328bd3caa129b",
+      "translations": {
+        "hi": {
+          "question": "टेबल में आसन्न सेल (adjacent cells) के बॉर्डर के बीच जगह बनाने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "border-spacing",
+            "B": "cell-padding",
+            "C": "margin",
+            "D": "border-collapse"
+          },
+          "explanation": "border-spacing आसन्न टेबल सेल के बॉर्डर के बीच की दूरी निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-03-030",
+      "number": 30,
+      "question": "What is the purpose of the <noscript> tag?",
+      "options": {
+        "A": "To hide code from hackers",
+        "B": "To provide content for users with JavaScript disabled",
+        "C": "To stop a script from running",
+        "D": "To include non-standard scripts"
+      },
+      "answer": "B",
+      "explanation": "Content in <noscript> is only shown if the browser does not support or has disabled scripts.",
+      "hash": "3a3355c72b64d1f7",
+      "translations": {
+        "hi": {
+          "question": "<noscript> टैग का उद्देश्य क्या है?",
+          "options": {
+            "A": "हैकर्स से कोड छिपाने के लिए",
+            "B": "जावास्क्रिप्ट अक्षम करने वाले उपयोगकर्ताओं के लिए सामग्री प्रदान करना",
+            "C": "स्क्रिप्ट को चलने से रोकने के लिए",
+            "D": "गैर-मानक स्क्रिप्ट शामिल करने के लिए"
+          },
+          "explanation": "<noscript> की सामग्री केवल तभी दिखाई जाती है जब ब्राउज़र स्क्रिप्ट का समर्थन नहीं करता है या उसे अक्षम कर दिया है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Machine Learning",
+  "set": 5,
+  "title": "Machine Learning Mock Test 5",
+  "questions": [
+    {
+      "id": "machine-learning-05-001",
+      "number": 1,
+      "question": "Which technique is used to estimate the skill of a machine learning model on unseen data by splitting the data into 'k' groups?",
+      "options": {
+        "A": "Bootstrapping",
+        "B": "K-Fold Cross Validation",
+        "C": "Data Augmentation",
+        "D": "Normalization"
+      },
+      "answer": "B",
+      "explanation": "K-fold cross-validation involves partitioning the data into k subsets, training on k-1 and testing on the remaining one iteratively.",
+      "hash": "e22feaf22d37e413",
+      "translations": {
+        "hi": {
+          "question": "डेटा को 'k' समूहों में विभाजित करके अनदेखे डेटा पर मशीन लर्निंग मॉडल के कौशल का अनुमान लगाने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "बूटस्ट्रैपिंग",
+            "B": "K-फोल्ड क्रॉस वैलिडेशन",
+            "C": "डेटा ऑगमेंटेशन",
+            "D": "नॉर्मलाइजेशन"
+          },
+          "explanation": "K-फोल्ड क्रॉस वैलिडेशन में डेटा को k उपसमुच्चयों में विभाजित करना, k-1 पर प्रशिक्षण देना और शेष एक पर बार-बार परीक्षण करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-002",
+      "number": 2,
+      "question": "What is the primary purpose of a 'Pooling Layer' in a CNN?",
+      "options": {
+        "A": "To increase the number of parameters",
+        "B": "To reduce the spatial size of the representation and computation",
+        "C": "To apply the activation function",
+        "D": "To flatten the output"
+      },
+      "answer": "B",
+      "explanation": "Pooling layers downsample the feature maps to reduce the amount of parameters and computation in the network.",
+      "hash": "d630b788575fa1ca",
+      "translations": {
+        "hi": {
+          "question": "CNN में 'पूलिंग लेयर' का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "मापदंडों की संख्या बढ़ाना",
+            "B": "प्रतिनिधित्व और गणना के स्थानिक आकार को कम करना",
+            "C": "एक्टिवेशन फ़ंक्शन लागू करना",
+            "D": "आउटपुट को फ्लैटन (flatten) करना"
+          },
+          "explanation": "पूलिंग लेयर्स नेटवर्क में मापदंडों और गणना की मात्रा को कम करने के लिए फीचर मैप्स को डाउनसैंपल करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-003",
+      "number": 3,
+      "question": "Which evaluation metric is defined as the harmonic mean of Precision and Recall?",
+      "options": {
+        "A": "Accuracy",
+        "B": "F1-Score",
+        "C": "Specificity",
+        "D": "Root Mean Squared Error"
+      },
+      "answer": "B",
+      "explanation": "The F1-score provides a single score that balances both precision and recall, useful for imbalanced datasets.",
+      "hash": "0497eec15bf351e5",
+      "translations": {
+        "hi": {
+          "question": "किस मूल्यांकन मीट्रिक को प्रिसिजन और रिकॉल के हार्मोनिक मीन के रूप में परिभाषित किया गया है?",
+          "options": {
+            "A": "सटीकता",
+            "B": "F1-स्कोर",
+            "C": "विशिष्टता",
+            "D": "रूट मीन स्क्वेर्ड एरर"
+          },
+          "explanation": "F1-स्कोर एक एकल स्कोर प्रदान करता है जो प्रिसिजन और रिकॉल दोनों को संतुलित करता है, जो असंतुलित डेटासेट के लिए उपयोगी है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-004",
+      "number": 4,
+      "question": "Which type of clustering uses a 'Linkage' criterion to merge or split clusters?",
+      "options": {
+        "A": "K-Means",
+        "B": "Hierarchical Clustering",
+        "C": "DBSCAN",
+        "D": "PCA"
+      },
+      "answer": "B",
+      "explanation": "Agglomerative hierarchical clustering merges clusters based on linkage methods like single, complete, or average linkage.",
+      "hash": "72780f525f95ec11",
+      "translations": {
+        "hi": {
+          "question": "क्लस्टर्स को मर्ज या विभाजित करने के लिए किस प्रकार की क्लस्टरिंग 'लिंकेज' (Linkage) मानदंड का उपयोग करती है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "हायरार्किकल क्लस्टरिंग",
+            "C": "डीबीस्कैन",
+            "D": "पीसीए"
+          },
+          "explanation": "एग्लोमेरेटिव हायरार्किकल क्लस्टरिंग सिंगल, कम्प्लीट या एवरेज लिंकेज जैसे लिंकेज विधियों के आधार पर क्लस्टर्स को मर्ज करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-005",
+      "number": 5,
+      "question": "What happens to the 'Variance' when a model is overfitted?",
+      "options": {
+        "A": "It decreases",
+        "B": "It stays the same",
+        "C": "It increases",
+        "D": "It becomes zero"
+      },
+      "answer": "C",
+      "explanation": "Overfitting leads to high variance because the model becomes too sensitive to small fluctuations in the training data.",
+      "hash": "788c6be1e6169896",
+      "translations": {
+        "hi": {
+          "question": "जब कोई मॉडल ओवरफिट होता है तो 'वेरियंस' (Variance) का क्या होता है?",
+          "options": {
+            "A": "यह घटता है",
+            "B": "यह वही रहता है",
+            "C": "यह बढ़ता है",
+            "D": "यह शून्य हो जाता है"
+          },
+          "explanation": "ओवरफिटिंग से उच्च वेरियंस होता है क्योंकि मॉडल ट्रेनिंग डेटा में छोटे उतार-चढ़ाव के प्रति बहुत संवेदनशील हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-006",
+      "number": 6,
+      "question": "In Logistic Regression, the 'Log-Odds' is represented as a?",
+      "options": {
+        "A": "Nonlinear function of features",
+        "B": "Linear combination of features",
+        "C": "Probability between 0 and 1",
+        "D": "Constant value"
+      },
+      "answer": "B",
+      "explanation": "The logit function (log-odds) is modeled as a linear combination of the input features.",
+      "hash": "956f961d6fe7a7e6",
+      "translations": {
+        "hi": {
+          "question": "लॉजिस्टिक रिग्रेशन में, 'लॉग-ऑड्स' (Log-Odds) को किस रूप में दर्शाया जाता है?",
+          "options": {
+            "A": "फीचर्स का गैर-रेखीय फ़ंक्शन",
+            "B": "फीचर्स का लीनियर कॉम्बिनेशन",
+            "C": "0 और 1 के बीच की संभावना",
+            "D": "स्थिर मान"
+          },
+          "explanation": "लॉजिट फ़ंक्शन (लॉग-ऑड्स) को इनपुट फीचर्स के लीनियर कॉम्बिनेशन के रूप में मॉडल किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-007",
+      "number": 7,
+      "question": "What is 'Softmax' usually used for in Deep Learning?",
+      "options": {
+        "A": "Feature scaling",
+        "B": "Multi-class classification in the output layer",
+        "C": "Hidden layer activation",
+        "D": "Data augmentation"
+      },
+      "answer": "B",
+      "explanation": "Softmax turns a vector of numbers into a vector of probabilities that sum up to one, ideal for multi-class tasks.",
+      "hash": "1cfc2e5bf0007c07",
+      "translations": {
+        "hi": {
+          "question": "डीप लर्निंग में 'सॉफ्टमैक्स' का उपयोग आमतौर पर किसके लिए किया जाता है?",
+          "options": {
+            "A": "फीचर स्केलिंग",
+            "B": "आउटपुट लेयर में मल्टी-क्लास वर्गीकरण",
+            "C": "हिडन लेयर एक्टिवेशन",
+            "D": "डेटा ऑगमेंटेशन"
+          },
+          "explanation": "सॉफ्टमैक्स संख्याओं के एक वेक्टर को संभावनाओं के वेक्टर में बदल देता है जिनका योग एक होता है, जो मल्टी-क्लास कार्यों के लिए आदर्श है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-008",
+      "number": 8,
+      "question": "Which type of learning uses a teacher/labeled data to guide the model?",
+      "options": {
+        "A": "Unsupervised Learning",
+        "B": "Supervised Learning",
+        "C": "Reinforcement Learning",
+        "D": "Self-learning"
+      },
+      "answer": "B",
+      "explanation": "Supervised learning learns from paired input-output examples provided by a supervisor/teacher.",
+      "hash": "5daa26cf06dcae5d",
+      "translations": {
+        "hi": {
+          "question": "मॉडल का मार्गदर्शन करने के लिए किस प्रकार की लर्निंग शिक्षक/लेबल वाले डेटा का उपयोग करती है?",
+          "options": {
+            "A": "अनसुपरवाइज्ड लर्निंग",
+            "B": "सुपरवाइज्ड लर्निंग",
+            "C": "रीइन्फोर्समेंट लर्निंग",
+            "D": "सेल्फ-लर्निंग"
+          },
+          "explanation": "सुपरवाइज्ड लर्निंग एक सुपरवाइजर/शिक्षक द्वारा प्रदान किए गए इनपुट-आउटपुट उदाहरणों के जोड़े से सीखती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-009",
+      "number": 9,
+      "question": "Which algorithm uses the 'Maximum Likelihood Estimation' (MLE) to find parameter values?",
+      "options": {
+        "A": "K-Nearest Neighbors",
+        "B": "Logistic Regression",
+        "C": "Decision Trees",
+        "D": "Random Forest"
+      },
+      "answer": "B",
+      "explanation": "MLE is used in Logistic Regression to find the coefficients that maximize the probability of observing the given data.",
+      "hash": "e6d17fb60817026b",
+      "translations": {
+        "hi": {
+          "question": "पैरामीटर मान खोजने के लिए कौन सा एल्गोरिथ्म 'मैक्सिमम लाइकलीहुड एस्टीमेशन' (MLE) का उपयोग करता है?",
+          "options": {
+            "A": "के-नियरेस्ट नेबर्स",
+            "B": "लॉजिस्टिक रिग्रेशन",
+            "C": "डिसीजन ट्री",
+            "D": "रैंडम फ़ॉरेस्ट"
+          },
+          "explanation": "लॉजिस्टिक रिग्रेशन में MLE का उपयोग उन गुणांकों को खोजने के लिए किया जाता है जो दिए गए डेटा को देखने की संभावना को अधिकतम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-010",
+      "number": 10,
+      "question": "What is the main disadvantage of a very high 'K' in K-Nearest Neighbors?",
+      "options": {
+        "A": "The model overfits",
+        "B": "The decision boundaries become too distinct",
+        "C": "It might lead to underfitting by smoothing out local patterns",
+        "D": "Training time increases significantly"
+      },
+      "answer": "C",
+      "explanation": "A very large K smooths out the boundaries and may ignore smaller, important clusters of data.",
+      "hash": "3fd569ba5e2d816d",
+      "translations": {
+        "hi": {
+          "question": "के-नियरेस्ट नेबर्स में बहुत उच्च 'K' का मुख्य नुकसान क्या है?",
+          "options": {
+            "A": "मॉडल ओवरफिट हो जाता है",
+            "B": "निर्णय सीमाएं बहुत अलग हो जाती हैं",
+            "C": "यह स्थानीय पैटर्न को सुचारू करके अंडरफिटिंग का कारण बन सकता है",
+            "D": "ट्रेनिंग का समय काफी बढ़ जाता है"
+          },
+          "explanation": "एक बहुत बड़ा K सीमाओं को सुचारू (smooth) कर देता है और डेटा के छोटे, महत्वपूर्ण क्लस्टर्स को अनदेखा कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-011",
+      "number": 11,
+      "question": "Which component is necessary for a Support Vector Machine to handle non-linearly separable data?",
+      "options": {
+        "A": "Linear Kernel",
+        "B": "Kernel Trick",
+        "C": "Simple Perceptron",
+        "D": "Feature Scaling"
+      },
+      "answer": "B",
+      "explanation": "The kernel trick allows SVM to operate in a high-dimensional feature space without explicitly calculating coordinates.",
+      "hash": "968a576bc2cb3551",
+      "translations": {
+        "hi": {
+          "question": "गैर-रेखीय रूप से अलग होने वाले डेटा को संभालने के लिए सपोर्ट वेक्टर मशीन के लिए कौन सा घटक आवश्यक है?",
+          "options": {
+            "A": "लीनियर कर्नेल",
+            "B": "कर्नेल ट्रिक",
+            "C": "सिंपल परसेप्ट्रॉन",
+            "D": "फीचर स्केलिंग"
+          },
+          "explanation": "कर्नेल ट्रिक एसवीएम (SVM) को निर्देशांक की गणना किए बिना उच्च-आयामी फीचर स्थान में काम करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-012",
+      "number": 12,
+      "question": "In Random Forest, 'OOB Error' stands for?",
+      "options": {
+        "A": "Out-of-Batch Error",
+        "B": "Out-of-Bag Error",
+        "C": "Optimal-Order-Bias Error",
+        "D": "Object-Oriented-Boost Error"
+      },
+      "answer": "B",
+      "explanation": "Out-of-bag error is a method of measuring the prediction error of random forests using data not seen by a particular tree.",
+      "hash": "ee347b98e1c7bcd3",
+      "translations": {
+        "hi": {
+          "question": "रैंडम फ़ॉरेस्ट में, 'OOB Error' का क्या अर्थ है?",
+          "options": {
+            "A": "आउट-ऑफ-बैच एरर",
+            "B": "आउट-ऑफ-बैग एरर",
+            "C": "ऑप्टिमल-ऑर्डर-बायस एरर",
+            "D": "ऑब्जेक्ट-ओरिएंटेड-बूस्ट एरर"
+          },
+          "explanation": "आउट-ऑफ-बैग एरर रैंडम फ़ॉरेस्ट की भविष्यवाणी त्रुटि को मापने की एक विधि है, जिसमें उस डेटा का उपयोग किया जाता है जो किसी विशेष पेड़ द्वारा नहीं देखा गया है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-013",
+      "number": 13,
+      "question": "Which type of regression is used when the dependent variable is categorical?",
+      "options": {
+        "A": "Polynomial Regression",
+        "B": "Ridge Regression",
+        "C": "Logistic Regression",
+        "D": "Lasso Regression"
+      },
+      "answer": "C",
+      "explanation": "Despite the name, Logistic Regression is a classification algorithm used for categorical outcomes.",
+      "hash": "048dfcbc4b934ed3",
+      "translations": {
+        "hi": {
+          "question": "जब डिपेंडेंट वेरिएबल कैटेगोरिकल हो तो किस प्रकार के रिग्रेशन का उपयोग किया जाता है?",
+          "options": {
+            "A": "पॉलिनॉमियल रिग्रेशन",
+            "B": "रिज रिग्रेशन",
+            "C": "लॉजिस्टिक रिग्रेशन",
+            "D": "लासौ रिग्रेशन"
+          },
+          "explanation": "नाम के बावजूद, लॉजिस्टिक रिग्रेशन एक वर्गीकरण एल्गोरिथ्म है जिसका उपयोग कैटेगोरिकल परिणामों के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-014",
+      "number": 14,
+      "question": "In Decision Trees, the process of reducing the size of the tree is called?",
+      "options": {
+        "A": "Growing",
+        "B": "Pruning",
+        "C": "Splitting",
+        "D": "Scaling"
+      },
+      "answer": "B",
+      "explanation": "Pruning removes branches that provide little predictive power to simplify the model and reduce overfitting.",
+      "hash": "50bae21e580aa79d",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, पेड़ के आकार को कम करने की प्रक्रिया क्या कहलाती है?",
+          "options": {
+            "A": "ग्रोइंग",
+            "B": "प्रूनिंग",
+            "C": "स्प्लिटिंग",
+            "D": "स्केलिंग"
+          },
+          "explanation": "प्रूनिंग उन शाखाओं को हटा देती है जो मॉडल को सरल बनाने और ओवरफिटिंग को कम करने के लिए कम भविष्य कहनेवाला शक्ति प्रदान करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-015",
+      "number": 15,
+      "question": "What does 'Backpropagation' calculate in a Neural Network?",
+      "options": {
+        "A": "The final output",
+        "B": "The gradient of the loss function with respect to weights",
+        "C": "The initial weights",
+        "D": "The number of hidden layers"
+      },
+      "answer": "B",
+      "explanation": "Backpropagation uses the chain rule to compute the gradient needed for updating weights via gradient descent.",
+      "hash": "5db7a75562e7f95c",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में 'बैकप्रोपेगेशन' (Backpropagation) क्या गणना करता है?",
+          "options": {
+            "A": "अंतिम आउटपुट",
+            "B": "वेट्स के संबंध में लॉस फ़ंक्शन का ग्रेडिएंट",
+            "C": "प्रारंभिक वेट्स",
+            "D": "हिडन लेयर्स की संख्या"
+          },
+          "explanation": "बैकप्रोपेगेशन ग्रेडिएंट डिसेंट के माध्यम से वेट्स को अपडेट करने के लिए आवश्यक ग्रेडिएंट की गणना करने के लिए चेन रूल का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-016",
+      "number": 16,
+      "question": "What is a 'Support Vector' in SVM?",
+      "options": {
+        "A": "The center of the hyperplane",
+        "B": "The data points closest to the decision boundary",
+        "C": "The points with the highest error",
+        "D": "The labels of the classes"
+      },
+      "answer": "B",
+      "explanation": "Support vectors are the critical data points that define the position and orientation of the hyperplane.",
+      "hash": "11fea4dddf86b186",
+      "translations": {
+        "hi": {
+          "question": "SVM में 'सपोर्ट वेक्टर' क्या है?",
+          "options": {
+            "A": "हाइपरप्लेन का केंद्र",
+            "B": "निर्णय सीमा के सबसे करीब के डेटा बिंदु",
+            "C": "उच्चतम त्रुटि वाले बिंदु",
+            "D": "क्लास के लेबल"
+          },
+          "explanation": "सपोर्ट वेक्टर्स वे महत्वपूर्ण डेटा बिंदु हैं जो हाइपरप्लेन की स्थिति और अभिविन्यास (orientation) को परिभाषित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-017",
+      "number": 17,
+      "question": "Which of the following is an example of an 'Ensemble Learning' algorithm?",
+      "options": {
+        "A": "Simple Linear Regression",
+        "B": "Gradient Boosted Trees (XGBoost)",
+        "C": "Naive Bayes",
+        "D": "K-Means"
+      },
+      "answer": "B",
+      "explanation": "XGBoost is a powerful ensemble method that builds multiple trees sequentially to improve accuracy.",
+      "hash": "06bd50835a46804c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'एन्सेम्बल लर्निंग' एल्गोरिथ्म का एक उदाहरण है?",
+          "options": {
+            "A": "सिंपल लीनियर रिग्रेशन",
+            "B": "ग्रेडिएंट बूस्टेड ट्री (XGBoost)",
+            "C": "नैवे बायेस",
+            "D": "के-मीन्स"
+          },
+          "explanation": "XGBoost एक शक्तिशाली एन्सेम्बल विधि है जो सटीकता में सुधार के लिए क्रमिक रूप से कई पेड़ बनाती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-018",
+      "number": 18,
+      "question": "What is the 'Learning Rate' primarily responsible for in optimization?",
+      "options": {
+        "A": "Determining the direction of movement",
+        "B": "Determining the size of the steps toward the minimum",
+        "C": "Initializing the weights",
+        "D": "Choosing the activation function"
+      },
+      "answer": "B",
+      "explanation": "The learning rate determines how fast or slow we move towards the optimal weights in gradient descent.",
+      "hash": "4ad1adb3de4eac8a",
+      "translations": {
+        "hi": {
+          "question": "अनुकूलन (optimization) में 'लर्निंग रेट' मुख्य रूप से किसके लिए जिम्मेदार है?",
+          "options": {
+            "A": "गति की दिशा निर्धारित करना",
+            "B": "न्यूनतम मान की ओर कदमों का आकार निर्धारित करना",
+            "C": "वेट्स को इनिशियलाइज़ करना",
+            "D": "एक्टिवेशन फ़ंक्शन चुनना"
+          },
+          "explanation": "लर्निंग रेट यह निर्धारित करता है कि हम ग्रेडिएंट डिसेंट में इष्टतम वेट्स की ओर कितनी तेजी से या धीरे चलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-019",
+      "number": 19,
+      "question": "What is 'Standardization' of data?",
+      "options": {
+        "A": "Scaling data between 0 and 1",
+        "B": "Shifting data to have a mean of 0 and standard deviation of 1",
+        "C": "Removing all outliers",
+        "D": "Converting labels to integers"
+      },
+      "answer": "B",
+      "explanation": "Standardization (Z-score normalization) transforms features to follow a standard normal distribution.",
+      "hash": "80edcaffe951b30f",
+      "translations": {
+        "hi": {
+          "question": "डेटा का 'स्टैंडर्डाइजेशन' (Standardization) क्या है?",
+          "options": {
+            "A": "डेटा को 0 और 1 के बीच स्केल करना",
+            "B": "डेटा को 0 माध्य और 1 मानक विचलन के लिए स्थानांतरित करना",
+            "C": "सभी आउटलेर्स को हटाना",
+            "D": "लेबल को पूर्णांकों में बदलना"
+          },
+          "explanation": "स्टैंडर्डाइजेशन (Z-स्कोर नॉर्मलाइजेशन) फीचर्स को मानक सामान्य वितरण (standard normal distribution) का पालन करने के लिए बदल देता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-020",
+      "number": 20,
+      "question": "Which distance metric is best for high-dimensional text data?",
+      "options": {
+        "A": "Euclidean Distance",
+        "B": "Manhattan Distance",
+        "C": "Cosine Similarity",
+        "D": "Hamming Distance"
+      },
+      "answer": "C",
+      "explanation": "Cosine similarity measures the angle between vectors, which is more effective for text as it ignores document length.",
+      "hash": "85e320ab66adf597",
+      "translations": {
+        "hi": {
+          "question": "उच्च-आयामी टेक्स्ट डेटा के लिए कौन सा डिस्टेंस मीट्रिक सबसे अच्छा है?",
+          "options": {
+            "A": "यूक्लिडियन दूरी",
+            "B": "मैनहट्टन दूरी",
+            "C": "कोसाइन सिमिलैरिटी",
+            "D": "हैमिंग दूरी"
+          },
+          "explanation": "कोसाइन सिमिलैरिटी वेक्टर के बीच के कोण को मापती है, जो टेक्स्ट के लिए अधिक प्रभावी है क्योंकि यह दस्तावेज़ की लंबाई को अनदेखा करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-021",
+      "number": 21,
+      "question": "In Reinforcement Learning, 'Q-Learning' is based on which equation?",
+      "options": {
+        "A": "Bayes' Equation",
+        "B": "Bellman Equation",
+        "C": "Sigmoid Equation",
+        "D": "Linear Equation"
+      },
+      "answer": "B",
+      "explanation": "The Bellman Equation is used to update the Q-values based on the reward received and future expected rewards.",
+      "hash": "6153a49ca8fb804d",
+      "translations": {
+        "hi": {
+          "question": "रीइन्फोर्समेंट लर्निंग में, 'Q-लर्निंग' किस समीकरण पर आधारित है?",
+          "options": {
+            "A": "बायेस समीकरण",
+            "B": "बेलमैन समीकरण",
+            "C": "सिग्मॉइड समीकरण",
+            "D": "लीनियर समीकरण"
+          },
+          "explanation": "बेलमैन समीकरण का उपयोग प्राप्त पुरस्कार और भविष्य के अपेक्षित पुरस्कारों के आधार पर Q-मानों को अपडेट करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-022",
+      "number": 22,
+      "question": "Which loss function is most commonly used for binary classification?",
+      "options": {
+        "A": "Mean Squared Error",
+        "B": "Cross-Entropy (Log Loss)",
+        "C": "Mean Absolute Error",
+        "D": "Hinge Loss"
+      },
+      "answer": "B",
+      "explanation": "Binary Cross-Entropy loss penalizes confident wrong predictions, making it ideal for probability-based classification.",
+      "hash": "d314a619cd2e7d00",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी वर्गीकरण के लिए सबसे अधिक किस लॉस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "मीन स्क्वेर्ड एरर",
+            "B": "क्रॉस-एंट्रॉपी (लॉग लॉस)",
+            "C": "मीन एब्सोल्यूट एरर",
+            "D": "हिंज लॉस"
+          },
+          "explanation": "बाइनरी क्रॉस-एंट्रॉपी लॉस आश्वस्त गलत भविष्यवाणियों पर दंड लगाता है, जो इसे संभावना-आधारित वर्गीकरण के लिए आदर्श बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-023",
+      "number": 23,
+      "question": "What is the main objective of 'Regularization'?",
+      "options": {
+        "A": "To make the training faster",
+        "B": "To reduce the model complexity and prevent overfitting",
+        "C": "To increase the number of features",
+        "D": "To visualize the weights"
+      },
+      "answer": "B",
+      "explanation": "Regularization (L1/L2) adds a penalty for large weights to simplify the model and improve generalization.",
+      "hash": "6bfcd41ca012976b",
+      "translations": {
+        "hi": {
+          "question": "'रेगुलराइजेशन' (Regularization) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "ट्रेनिंग को तेज़ बनाना",
+            "B": "मॉडल की जटिलता को कम करना और ओवरफिटिंग को रोकना",
+            "C": "फीचर्स की संख्या बढ़ाना",
+            "D": "वेट्स को विजुअलाइज करना"
+          },
+          "explanation": "रेगुलराइजेशन (L1/L2) मॉडल को सरल बनाने और सामान्यीकरण में सुधार करने के लिए बड़े वेट्स पर पेनल्टी जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-024",
+      "number": 24,
+      "question": "Which algorithm is sensitive to the scale of the features?",
+      "options": {
+        "A": "Naive Bayes",
+        "B": "K-Nearest Neighbors",
+        "C": "Decision Trees",
+        "D": "Random Forest"
+      },
+      "answer": "B",
+      "explanation": "KNN calculates distances between points; if one feature has a much larger scale, it will dominate the distance calculation.",
+      "hash": "5a0471effa15406b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म फीचर्स के पैमाने (scale) के प्रति संवेदनशील है?",
+          "options": {
+            "A": "नैवे बायेस",
+            "B": "के-नियरेस्ट नेबर्स",
+            "C": "डिसीजन ट्री",
+            "D": "रैंडम फ़ॉरेस्ट"
+          },
+          "explanation": "KNN बिंदुओं के बीच की दूरी की गणना करता है; यदि एक फीचर का पैमाना बहुत बड़ा है, तो वह दूरी की गणना पर हावी हो जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-025",
+      "number": 25,
+      "question": "In a Decision Tree, which node has no incoming edges?",
+      "options": {
+        "A": "Leaf Node",
+        "B": "Internal Node",
+        "C": "Root Node",
+        "D": "Child Node"
+      },
+      "answer": "C",
+      "explanation": "The Root Node is the starting point of the tree and has no parents or incoming connections.",
+      "hash": "1177e04c93a16f26",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, किस नोड में कोई इनकमिंग एज (incoming edge) नहीं होती है?",
+          "options": {
+            "A": "लीफ नोड",
+            "B": "इंटरनल नोड",
+            "C": "रूट नोड",
+            "D": "चाइल्ड नोड"
+          },
+          "explanation": "रूट नोड पेड़ का शुरुआती बिंदु है और इसका कोई पैरेंट या इनकमिंग कनेक्शन नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-026",
+      "number": 26,
+      "question": "Which algorithm is preferred for detecting anomalies (outliers)?",
+      "options": {
+        "A": "Isolation Forest",
+        "B": "Linear Regression",
+        "C": "K-Means",
+        "D": "Support Vector Machine"
+      },
+      "answer": "A",
+      "explanation": "Isolation Forest isolates observations by randomly selecting a feature and split value, making outliers easier to isolate.",
+      "hash": "9214f615427a8c59",
+      "translations": {
+        "hi": {
+          "question": "विसंगतियों (outliers) का पता लगाने के लिए किस एल्गोरिथ्म को प्राथमिकता दी जाती है?",
+          "options": {
+            "A": "आइसोलेशन फ़ॉरेस्ट",
+            "B": "लीनियर रिग्रेशन",
+            "C": "के-मीन्स",
+            "D": "सपोर्ट वेक्टर मशीन"
+          },
+          "explanation": "आइसोलेशन फ़ॉरेस्ट रैंडम रूप से एक फीचर और स्प्लिट वैल्यू चुनकर टिप्पणियों को अलग करता है, जिससे आउटलेर्स को अलग करना आसान हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-027",
+      "number": 27,
+      "question": "What is 'Data Augmentation' in CNNs?",
+      "options": {
+        "A": "Deleting poor quality images",
+        "B": "Artificially increasing training data by transforming existing images",
+        "C": "Increasing the resolution of images",
+        "D": "Training on unlabeled images"
+      },
+      "answer": "B",
+      "explanation": "Transformations like rotation, flipping, and scaling help the model generalize better to different image orientations.",
+      "hash": "f1e30dc86c20207f",
+      "translations": {
+        "hi": {
+          "question": "CNN में 'डेटा ऑगमेंटेशन' (Data Augmentation) क्या है?",
+          "options": {
+            "A": "खराब गुणवत्ता वाली छवियों को हटाना",
+            "B": "मौजूदा छवियों को बदलकर कृत्रिम रूप से ट्रेनिंग डेटा बढ़ाना",
+            "C": "छवियों का रिज़ॉल्यूशन बढ़ाना",
+            "D": "बिना लेबल वाली छवियों पर प्रशिक्षण"
+          },
+          "explanation": "रोटेशन, फ्लिपिंग और स्केलिंग जैसे परिवर्तन मॉडल को विभिन्न छवियों के प्रति बेहतर ढंग से सामान्य बनाने में मदद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-028",
+      "number": 28,
+      "question": "'Boosting' works by combining?",
+      "options": {
+        "A": "High-variance models",
+        "B": "Weak learners sequentially",
+        "C": "Independent models in parallel",
+        "D": "Clustering and Regression"
+      },
+      "answer": "B",
+      "explanation": "Boosting algorithms build trees one after another, where each new tree attempts to correct the errors of the previous ones.",
+      "hash": "5ee4f8f7edb342e6",
+      "translations": {
+        "hi": {
+          "question": "'बूस्टिंग' (Boosting) किन चीजों को मिलाकर काम करती है?",
+          "options": {
+            "A": "हाई-वेरियंस मॉडल",
+            "B": "कमजोर लर्नर्स को क्रमिक रूप से",
+            "C": "समानांतर में स्वतंत्र मॉडल",
+            "D": "क्लस्टरिंग और रिग्रेशन"
+          },
+          "explanation": "बूस्टिंग एल्गोरिथ्म एक के बाद एक पेड़ बनाते हैं, जहाँ प्रत्येक नया पेड़ पिछले पेड़ों की गलतियों को सुधारने का प्रयास करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-029",
+      "number": 29,
+      "question": "What is the range of a 'Sigmoid' activation function?",
+      "options": {
+        "A": "[-1, 1]",
+        "B": "[0, 1]",
+        "C": "[0, infinity]",
+        "D": "[-infinity, infinity]"
+      },
+      "answer": "B",
+      "explanation": "The Sigmoid function squashes input values into a range between 0 and 1, representing a probability.",
+      "hash": "f49ec06b170cbfd5",
+      "translations": {
+        "hi": {
+          "question": "'सिग्मॉइड' एक्टिवेशन फ़ंक्शन की रेंज क्या है?",
+          "options": {
+            "A": "[-1, 1]",
+            "B": "[0, 1]",
+            "C": "[0, infinity]",
+            "D": "[-infinity, infinity]"
+          },
+          "explanation": "सिग्मॉइड फ़ंक्शन इनपुट मानों को 0 और 1 के बीच की सीमा में सिकोड़ देता है, जो एक संभावना का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-05-030",
+      "number": 30,
+      "question": "Which layer in a Neural Network is usually flattened before the final output?",
+      "options": {
+        "A": "Input Layer",
+        "B": "Convolutional Layer",
+        "C": "Pooling/Feature map Layer",
+        "D": "Softmax Layer"
+      },
+      "answer": "C",
+      "explanation": "Flattening converts a 2D matrix of features into a 1D vector to be processed by fully connected (dense) layers.",
+      "hash": "8727c01992f5c8d6",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में अंतिम आउटपुट से पहले आमतौर पर किस लेयर को फ्लैटन (flatten) किया जाता है?",
+          "options": {
+            "A": "इनपुट लेयर",
+            "B": "कनवल्शनल लेयर",
+            "C": "पूलिंग/फीचर मैप लेयर",
+            "D": "सॉफ्टमैक्स लेयर"
+          },
+          "explanation": "फ्लैटनिंग फीचर्स के 2D मैट्रिक्स को 1D वेक्टर में बदल देती है ताकि इसे फुली कनेक्टेड (डेंस) लेयर्स द्वारा प्रोसेस किया जा सके।"
+        }
+      }
+    }
+  ]
+}

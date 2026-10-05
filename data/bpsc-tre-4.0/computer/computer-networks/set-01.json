@@ -1,0 +1,787 @@
+{
+  "subject": "Computer Networks",
+  "set": 1,
+  "title": "Computer Networks Mock Test 1",
+  "questions": [
+    {
+      "id": "computer-networks-01-001",
+      "number": 1,
+      "question": "Which protocol is used to assign IP addresses automatically to devices?",
+      "options": {
+        "A": "DNS",
+        "B": "DHCP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) dynamically assigns IP addresses to devices on a network.",
+      "hash": "6e6fc6a16bbb4a15",
+      "translations": {
+        "hi": {
+          "question": "डिवाइसों को स्वचालित रूप से IP एड्रेस असाइन करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "डीएनएस",
+            "B": "डीएचसीपी",
+            "C": "एफटीपी",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "DHCP डायनामिक रूप से नेटवर्क पर डिवाइसों को IP एड्रेस असाइन करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-002",
+      "number": 2,
+      "question": "What is the full form of HTTP?",
+      "options": {
+        "A": "Hyperlink Text Transfer Protocol",
+        "B": "Hypertext Transfer Protocol",
+        "C": "High Transfer Text Protocol",
+        "D": "Hypertext Total Protocol"
+      },
+      "answer": "B",
+      "explanation": "HTTP is the foundation of data communication for the World Wide Web.",
+      "hash": "1e7c39b871103385",
+      "translations": {
+        "hi": {
+          "question": "HTTP का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "हाइपरलिंक टेक्स्ट ट्रांसफर प्रोटोकॉल",
+            "B": "हाइपरटेक्स्ट ट्रांसफर प्रोटोकॉल",
+            "C": "हाई ट्रांसफर टेक्स्ट प्रोटोकॉल",
+            "D": "हाइपरटेक्स्ट टोटल प्रोटोकॉल"
+          },
+          "explanation": "HTTP वर्ल्ड वाइड वेब के लिए डेटा संचार का आधार है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-003",
+      "number": 3,
+      "question": "Which layer of the OSI model is responsible for logical addressing and routing?",
+      "options": {
+        "A": "Physical Layer",
+        "B": "Data Link Layer",
+        "C": "Network Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "C",
+      "explanation": "The Network Layer handles IP addressing and determines the best path for data packets.",
+      "hash": "78404aca45007e88",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत लॉजिकल एड्रेसिंग और रूटिंग के लिए जिम्मेदार है?",
+          "options": {
+            "A": "फिजिकल लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "नेटवर्क लेयर",
+            "D": "ट्रांसपोर्ट लेयर"
+          },
+          "explanation": "नेटवर्क लेयर IP एड्रेसिंग को संभालती है और डेटा पैकेट के लिए सबसे अच्छा रास्ता तय करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-004",
+      "number": 4,
+      "question": "Which device operates at the Data Link Layer of the OSI model?",
+      "options": {
+        "A": "Hub",
+        "B": "Repeater",
+        "C": "Switch",
+        "D": "Router"
+      },
+      "answer": "C",
+      "explanation": "Switches operate at Layer 2 (Data Link) and use MAC addresses to forward data.",
+      "hash": "9347a440466448fc",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की डेटा लिंक लेयर पर कौन सा डिवाइस काम करता है?",
+          "options": {
+            "A": "हब",
+            "B": "रिपीटर",
+            "C": "स्विच",
+            "D": "राउटर"
+          },
+          "explanation": "स्विच लेयर 2 (डेटा लिंक) पर काम करते हैं और डेटा भेजने के लिए MAC एड्रेस का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-005",
+      "number": 5,
+      "question": "What is the size of an IPv4 address?",
+      "options": {
+        "A": "16 bits",
+        "B": "32 bits",
+        "C": "64 bits",
+        "D": "128 bits"
+      },
+      "answer": "B",
+      "explanation": "IPv4 addresses are 32-bit numeric addresses expressed in dot-decimal notation.",
+      "hash": "0940cd369ff4434d",
+      "translations": {
+        "hi": {
+          "question": "IPv4 एड्रेस का आकार क्या है?",
+          "options": {
+            "A": "16 बिट्स",
+            "B": "32 बिट्स",
+            "C": "64 बिट्स",
+            "D": "128 बिट्स"
+          },
+          "explanation": "IPv4 एड्रेस 32-बिट संख्यात्मक एड्रेस होते हैं जिन्हें डॉट-डेसिमल नोटेशन में व्यक्त किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-006",
+      "number": 6,
+      "question": "Which topology requires a central controller or hub?",
+      "options": {
+        "A": "Mesh Topology",
+        "B": "Star Topology",
+        "C": "Bus Topology",
+        "D": "Ring Topology"
+      },
+      "answer": "B",
+      "explanation": "In a Star topology, all nodes are connected to a central hub or switch.",
+      "hash": "a1b73627aa7b2cad",
+      "translations": {
+        "hi": {
+          "question": "किस टोपोलॉजी के लिए एक केंद्रीय नियंत्रक या हब की आवश्यकता होती है?",
+          "options": {
+            "A": "मेश टोपोलॉजी",
+            "B": "स्टार टोपोलॉजी",
+            "C": "बस टोपोलॉजी",
+            "D": "रिंग टोपोलॉजी"
+          },
+          "explanation": "स्टार टोपोलॉजी में, सभी नोड्स एक केंद्रीय हब या स्विच से जुड़े होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-007",
+      "number": 7,
+      "question": "What is the port number for HTTPS?",
+      "options": {
+        "A": "21",
+        "B": "80",
+        "C": "443",
+        "D": "25"
+      },
+      "answer": "C",
+      "explanation": "Port 443 is used for secure HTTP (HTTPS) communications.",
+      "hash": "85a595854ec118f4",
+      "translations": {
+        "hi": {
+          "question": "HTTPS के लिए पोर्ट नंबर क्या है?",
+          "options": {
+            "A": "21",
+            "B": "80",
+            "C": "443",
+            "D": "25"
+          },
+          "explanation": "पोर्ट 443 का उपयोग सुरक्षित HTTP (HTTPS) संचार के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-008",
+      "number": 8,
+      "question": "Which layer provides end-to-end communication and error recovery?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Transport Layer",
+        "C": "Session Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "B",
+      "explanation": "The Transport Layer ensures reliable delivery and flow control.",
+      "hash": "92ab0afd90910909",
+      "translations": {
+        "hi": {
+          "question": "कौन सी परत एंड-टू-एंड संचार और एरर रिकवरी प्रदान करती है?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "ट्रांसपोर्ट लेयर",
+            "C": "सेशन लेयर",
+            "D": "फिजिकल लेयर"
+          },
+          "explanation": "ट्रांसपोर्ट लेयर विश्वसनीय डिलीवरी और फ्लो कंट्रोल सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-009",
+      "number": 9,
+      "question": "Which protocol is used for sending emails?",
+      "options": {
+        "A": "POP3",
+        "B": "IMAP",
+        "C": "SMTP",
+        "D": "FTP"
+      },
+      "answer": "C",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for outgoing email transmission.",
+      "hash": "c1026a709e6f326e",
+      "translations": {
+        "hi": {
+          "question": "ईमेल भेजने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "पीओपी3",
+            "B": "आईएमएपी",
+            "C": "एसएमटीपी",
+            "D": "एफटीपी"
+          },
+          "explanation": "SMTP का उपयोग ईमेल भेजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-010",
+      "number": 10,
+      "question": "Which protocol is connectionless?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "HTTP",
+        "D": "FTP"
+      },
+      "answer": "B",
+      "explanation": "UDP (User Datagram Protocol) does not establish a dedicated connection before sending data.",
+      "hash": "bd45fd49997b0c43",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल कनेक्शनलेस है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "यूडीपी",
+            "C": "एचटीटीपी",
+            "D": "एफटीपी"
+          },
+          "explanation": "UDP डेटा भेजने से पहले एक समर्पित कनेक्शन स्थापित नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-011",
+      "number": 11,
+      "question": "Which of the following is a Class C IP address?",
+      "options": {
+        "A": "10.0.0.1",
+        "B": "172.16.0.1",
+        "C": "192.168.1.1",
+        "D": "224.0.0.1"
+      },
+      "answer": "C",
+      "explanation": "Class C IP addresses range from 192.0.0.0 to 223.255.255.255.",
+      "hash": "628d1b147fba63d8",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा क्लास C IP एड्रेस है?",
+          "options": {
+            "A": "10.0.0.1",
+            "B": "172.16.0.1",
+            "C": "192.168.1.1",
+            "D": "224.0.0.1"
+          },
+          "explanation": "क्लास C IP एड्रेस की रेंज 192.0.0.0 से 223.255.255.255 तक होती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-012",
+      "number": 12,
+      "question": "What does MAC stand for in networking?",
+      "options": {
+        "A": "Media Access Control",
+        "B": "Memory Access Control",
+        "C": "Media Address Control",
+        "D": "Multi Access Control"
+      },
+      "answer": "A",
+      "explanation": "MAC address is a unique identifier assigned to a network interface controller.",
+      "hash": "b820a63d741bb8e4",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में MAC का क्या अर्थ है?",
+          "options": {
+            "A": "मीडिया एक्सेस कंट्रोल",
+            "B": "मेमोरी एक्सेस कंट्रोल",
+            "C": "मीडिया एड्रेस कंट्रोल",
+            "D": "मल्टी एक्सेस कंट्रोल"
+          },
+          "explanation": "MAC एड्रेस नेटवर्क इंटरफेस कंट्रोलर को दिया गया एक विशिष्ट पहचानकर्ता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-013",
+      "number": 13,
+      "question": "What is the full form of DNS?",
+      "options": {
+        "A": "Data Name System",
+        "B": "Domain Name System",
+        "C": "Digital Name System",
+        "D": "Domain Network System"
+      },
+      "answer": "B",
+      "explanation": "DNS translates domain names like google.com into IP addresses.",
+      "hash": "b229e62af674964f",
+      "translations": {
+        "hi": {
+          "question": "DNS का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "डेटा नेम सिस्टम",
+            "B": "डोमेन नेम सिस्टम",
+            "C": "डिजिटल नेम सिस्टम",
+            "D": "डोमेन नेटवर्क सिस्टम"
+          },
+          "explanation": "DNS डोमेन नामों को IP एड्रेस में बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-014",
+      "number": 14,
+      "question": "What is the maximum data rate of a standard 802.11g wireless network?",
+      "options": {
+        "A": "11 Mbps",
+        "B": "54 Mbps",
+        "C": "100 Mbps",
+        "D": "600 Mbps"
+      },
+      "answer": "B",
+      "explanation": "802.11g provides a maximum theoretical data rate of 54 Mbps.",
+      "hash": "ea3f7cc2499691e5",
+      "translations": {
+        "hi": {
+          "question": "एक मानक 802.11g वायरलेस नेटवर्क की अधिकतम डेटा दर क्या है?",
+          "options": {
+            "A": "11 एमबीपीएस",
+            "B": "54 एमबीपीएस",
+            "C": "100 एमबीपीएस",
+            "D": "600 एमबीपीएस"
+          },
+          "explanation": "802.11g अधिकतम 54 एमबीपीएस की डेटा दर प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-015",
+      "number": 15,
+      "question": "Which device is used to connect two different networks?",
+      "options": {
+        "A": "Hub",
+        "B": "Bridge",
+        "C": "Switch",
+        "D": "Router"
+      },
+      "answer": "D",
+      "explanation": "Routers connect different network segments and route traffic between them.",
+      "hash": "fb11c1b186603b5e",
+      "translations": {
+        "hi": {
+          "question": "दो अलग-अलग नेटवर्क को जोड़ने के लिए किस डिवाइस का उपयोग किया जाता है?",
+          "options": {
+            "A": "हब",
+            "B": "ब्रिज",
+            "C": "स्विच",
+            "D": "राउटर"
+          },
+          "explanation": "राउटर विभिन्न नेटवर्क सेगमेंट को जोड़ते हैं और उनके बीच ट्रैफ़िक को रूट करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-016",
+      "number": 16,
+      "question": "Which layer is responsible for data encryption and compression?",
+      "options": {
+        "A": "Presentation Layer",
+        "B": "Application Layer",
+        "C": "Session Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "A",
+      "explanation": "The Presentation Layer ensures that data is in a readable format for the application.",
+      "hash": "1eb672a7be094210",
+      "translations": {
+        "hi": {
+          "question": "डेटा एन्क्रिप्शन और कंप्रेशन के लिए कौन सी परत जिम्मेदार है?",
+          "options": {
+            "A": "प्रेजेंटेशन लेयर",
+            "B": "एप्लीकेशन लेयर",
+            "C": "सेशन लेयर",
+            "D": "ट्रांसपोर्ट लेयर"
+          },
+          "explanation": "प्रेजेंटेशन लेयर यह सुनिश्चित करती है कि डेटा एप्लीकेशन के लिए पठनीय फॉर्मेट में हो।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-017",
+      "number": 17,
+      "question": "In which mode can data be sent in both directions simultaneously?",
+      "options": {
+        "A": "Simplex",
+        "B": "Half Duplex",
+        "C": "Full Duplex",
+        "D": "Semi Duplex"
+      },
+      "answer": "C",
+      "explanation": "Full Duplex allows simultaneous two-way communication.",
+      "hash": "346aad0e9b294383",
+      "translations": {
+        "hi": {
+          "question": "किस मोड में डेटा एक साथ दोनों दिशाओं में भेजा जा सकता है?",
+          "options": {
+            "A": "सिम्प्लेक्स",
+            "B": "हाफ डुप्लेक्स",
+            "C": "फुल डुप्लेक्स",
+            "D": "सेमी डुप्लेक्स"
+          },
+          "explanation": "फुल डुप्लेक्स एक साथ दोनों दिशाओं में संचार की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-018",
+      "number": 18,
+      "question": "What is the length of an IPv6 address?",
+      "options": {
+        "A": "32 bits",
+        "B": "64 bits",
+        "C": "128 bits",
+        "D": "256 bits"
+      },
+      "answer": "C",
+      "explanation": "IPv6 uses 128-bit addresses to provide a much larger address space than IPv4.",
+      "hash": "21846e632c073761",
+      "translations": {
+        "hi": {
+          "question": "IPv6 एड्रेस की लंबाई क्या है?",
+          "options": {
+            "A": "32 बिट्स",
+            "B": "64 बिट्स",
+            "C": "128 बिट्स",
+            "D": "256 बिट्स"
+          },
+          "explanation": "IPv6 में 128-बिट एड्रेस होते हैं जो IPv4 की तुलना में बहुत बड़ा एड्रेस स्पेस प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-019",
+      "number": 19,
+      "question": "Which error detection method uses a generator polynomial?",
+      "options": {
+        "A": "Checksum",
+        "B": "Parity bit",
+        "C": "CRC",
+        "D": "Hamming Code"
+      },
+      "answer": "C",
+      "explanation": "Cyclic Redundancy Check (CRC) uses binary division and polynomials for error checking.",
+      "hash": "1fc28040fefc9967",
+      "translations": {
+        "hi": {
+          "question": "कौन सी एरर डिटेक्शन विधि जेनरेटर पॉलिनॉमियल का उपयोग करती है?",
+          "options": {
+            "A": "चेकसम",
+            "B": "पैरिटी बिट",
+            "C": "सीआरसी",
+            "D": "हैमिंग कोड"
+          },
+          "explanation": "साइक्लिक रिडंडेंसी चेक (CRC) एरर चेकिंग के लिए बाइनरी डिवीजन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-020",
+      "number": 20,
+      "question": "What is the purpose of the ARP protocol?",
+      "options": {
+        "A": "Map IP to MAC address",
+        "B": "Map Domain to IP",
+        "C": "Transfer Files",
+        "D": "Secure Login"
+      },
+      "answer": "A",
+      "explanation": "ARP (Address Resolution Protocol) resolves a known IP address to a MAC address.",
+      "hash": "b1648cebb5016cad",
+      "translations": {
+        "hi": {
+          "question": "ARP प्रोटोकॉल का उद्देश्य क्या है?",
+          "options": {
+            "A": "IP को MAC एड्रेस में मैप करना",
+            "B": "डोमेन को IP में मैप करना",
+            "C": "फाइल ट्रांसफर करना",
+            "D": "सुरक्षित लॉगिन"
+          },
+          "explanation": "ARP एक ज्ञात IP एड्रेस को MAC एड्रेस में बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-021",
+      "number": 21,
+      "question": "Which command is used to check the reachability of a host on a network?",
+      "options": {
+        "A": "IPCONFIG",
+        "B": "PING",
+        "C": "TRACERT",
+        "D": "NETSTAT"
+      },
+      "answer": "B",
+      "explanation": "PING uses ICMP echo requests to test connectivity to a remote host.",
+      "hash": "558f30e7e96e20d4",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्क पर होस्ट की पहुंच की जांच करने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "IPCONFIG",
+            "B": "PING",
+            "C": "TRACERT",
+            "D": "NETSTAT"
+          },
+          "explanation": "PING रिमोट होस्ट से कनेक्टिविटी टेस्ट करने के लिए ICMP रिक्वेस्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-022",
+      "number": 22,
+      "question": "Which network type covers a small area like a room or a building?",
+      "options": {
+        "A": "WAN",
+        "B": "MAN",
+        "C": "LAN",
+        "D": "PAN"
+      },
+      "answer": "C",
+      "explanation": "Local Area Network (LAN) covers a limited geographical area.",
+      "hash": "53fe83dc2f6113d4",
+      "translations": {
+        "hi": {
+          "question": "कौन सा नेटवर्क प्रकार कमरे या इमारत जैसे छोटे क्षेत्र को कवर करता है?",
+          "options": {
+            "A": "वैन",
+            "B": "मैन",
+            "C": "लैन",
+            "D": "पैन"
+          },
+          "explanation": "लोकल एरिया नेटवर्क (LAN) एक सीमित भौगोलिक क्षेत्र को कवर करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-023",
+      "number": 23,
+      "question": "What is the transmission media for Fiber Optic cables?",
+      "options": {
+        "A": "Copper wires",
+        "B": "Radio waves",
+        "C": "Light pulses",
+        "D": "Sound waves"
+      },
+      "answer": "C",
+      "explanation": "Fiber optics transmit data as pulses of light through glass or plastic strands.",
+      "hash": "1ca320398178d8b2",
+      "translations": {
+        "hi": {
+          "question": "फाइबर ऑप्टिक केबल के लिए ट्रांसमिशन माध्यम क्या है?",
+          "options": {
+            "A": "कॉपर वायर",
+            "B": "रेडियो तरंगें",
+            "C": "प्रकाश की तरंगें",
+            "D": "ध्वनि तरंगें"
+          },
+          "explanation": "फाइबर ऑप्टिक्स कांच या प्लास्टिक के तारों के माध्यम से प्रकाश के रूप में डेटा संचारित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-024",
+      "number": 24,
+      "question": "Which layer of the OSI model does a Hub work on?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Physical Layer",
+        "C": "Data Link Layer",
+        "D": "Session Layer"
+      },
+      "answer": "B",
+      "explanation": "A Hub is a non-intelligent device that works at the Physical Layer (Layer 1).",
+      "hash": "ad4a09284ef3f009",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की किस परत पर हब काम करता है?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "फिजिकल लेयर",
+            "C": "डेटा लिंक लेयर",
+            "D": "सेशन लेयर"
+          },
+          "explanation": "हब एक नॉन-इंटेलिजेंट डिवाइस है जो फिजिकल लेयर पर काम करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-025",
+      "number": 25,
+      "question": "Which switching technique breaks data into small packets?",
+      "options": {
+        "A": "Circuit Switching",
+        "B": "Packet Switching",
+        "C": "Message Switching",
+        "D": "Data Switching"
+      },
+      "answer": "B",
+      "explanation": "Packet switching divides data into packets that can take different routes to the destination.",
+      "hash": "3f12090c4bf37825",
+      "translations": {
+        "hi": {
+          "question": "कौन सी स्विचिंग तकनीक डेटा को छोटे पैकेट में तोड़ती है?",
+          "options": {
+            "A": "सर्किट स्विचिंग",
+            "B": "पैकेट स्विचिंग",
+            "C": "मैसेज स्विचिंग",
+            "D": "डेटा स्विचिंग"
+          },
+          "explanation": "पैकेट स्विचिंग डेटा को पैकेट में विभाजित करती है जो गंतव्य तक पहुंचने के लिए अलग रास्ते ले सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-026",
+      "number": 26,
+      "question": "Which field in the IP header prevents packets from looping forever?",
+      "options": {
+        "A": "Source IP",
+        "B": "Time to Live (TTL)",
+        "C": "Header Checksum",
+        "D": "Flags"
+      },
+      "answer": "B",
+      "explanation": "TTL is decremented by each router; when it reaches zero, the packet is discarded.",
+      "hash": "4e31355df59121db",
+      "translations": {
+        "hi": {
+          "question": "IP हेडर में कौन सा फील्ड पैकेट को हमेशा के लिए लूप होने से रोकता है?",
+          "options": {
+            "A": "सोर्स आईपी",
+            "B": "टाइम टू लिव (टीटीएल)",
+            "C": "हेडर चेकसम",
+            "D": "फ्लैग्स"
+          },
+          "explanation": "प्रत्येक राउटर द्वारा TTL घटाया जाता है; शून्य होने पर पैकेट को हटा दिया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-027",
+      "number": 27,
+      "question": "What is the range of Class A IP addresses?",
+      "options": {
+        "A": "1-126",
+        "B": "128-191",
+        "C": "192-223",
+        "D": "224-239"
+      },
+      "answer": "A",
+      "explanation": "Class A addresses start with a first octet range of 1 to 126 (127 is reserved for loopback).",
+      "hash": "a38f69470d38a578",
+      "translations": {
+        "hi": {
+          "question": "क्लास A IP एड्रेस की रेंज क्या है?",
+          "options": {
+            "A": "1-126",
+            "B": "128-191",
+            "C": "192-223",
+            "D": "224-239"
+          },
+          "explanation": "क्लास A एड्रेस की पहली ऑक्टेट रेंज 1 से 126 तक होती है (127 लूपबैक के लिए है)।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-028",
+      "number": 28,
+      "question": "Which topology has the highest reliability but is most expensive?",
+      "options": {
+        "A": "Star",
+        "B": "Mesh",
+        "C": "Bus",
+        "D": "Ring"
+      },
+      "answer": "B",
+      "explanation": "Full Mesh topology provides multiple paths but requires the most cabling.",
+      "hash": "64dcb55e9ddcdcba",
+      "translations": {
+        "hi": {
+          "question": "किस टोपोलॉजी में विश्वसनीयता सबसे अधिक है लेकिन वह सबसे महंगी है?",
+          "options": {
+            "A": "स्टार",
+            "B": "मेश",
+            "C": "बस",
+            "D": "रिंग"
+          },
+          "explanation": "फुल मेश टोपोलॉजी कई रास्ते प्रदान करती है लेकिन इसमें सबसे अधिक केबलिंग की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-029",
+      "number": 29,
+      "question": "Which protocol provides reliable, ordered, and error-checked delivery of data?",
+      "options": {
+        "A": "UDP",
+        "B": "TCP",
+        "C": "ICMP",
+        "D": "IGMP"
+      },
+      "answer": "B",
+      "explanation": "TCP (Transmission Control Protocol) ensures data is received correctly and in order.",
+      "hash": "e900d593d035a165",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल विश्वसनीय और एरर-चेक्ड डेटा डिलीवरी प्रदान करता है?",
+          "options": {
+            "A": "यूडीपी",
+            "B": "टीसीपी",
+            "C": "आईसीएमपी",
+            "D": "आईजीएमपी"
+          },
+          "explanation": "TCP यह सुनिश्चित करता है कि डेटा सही ढंग से और क्रम में प्राप्त हो।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-01-030",
+      "number": 30,
+      "question": "What is the address used by the Data Link layer?",
+      "options": {
+        "A": "IP Address",
+        "B": "MAC Address",
+        "C": "Port Address",
+        "D": "Socket Address"
+      },
+      "answer": "B",
+      "explanation": "MAC addresses are used at the Data Link layer for local device communication.",
+      "hash": "20c47324eec408ed",
+      "translations": {
+        "hi": {
+          "question": "डेटा लिंक लेयर द्वारा किस एड्रेस का उपयोग किया जाता है?",
+          "options": {
+            "A": "आईपी एड्रेस",
+            "B": "मैक एड्रेस",
+            "C": "पोर्ट एड्रेस",
+            "D": "सॉकेट एड्रेस"
+          },
+          "explanation": "डेटा लिंक लेयर पर स्थानीय डिवाइस संचार के लिए MAC एड्रेस का उपयोग किया जाता है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "subject": "Operating Systems",
+  "set": 3,
+  "title": "Operating Systems Mock Test 3",
+  "questions": [
+    {
+      "id": "operating-systems-03-001",
+      "number": 1,
+      "question": "Which of the following is not a valid state of a process?",
+      "options": {
+        "A": "Running",
+        "B": "Blocked",
+        "C": "Ready",
+        "D": "Suspended-Ready"
+      },
+      "answer": "D",
+      "explanation": "While Suspended-Ready exists in some models, the five basic states are New, Ready, Running, Waiting, and Terminated.",
+      "hash": "db0f2fa4ea4eaddd",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी प्रक्रिया (process) की मान्य स्थिति नहीं है?",
+          "options": {
+            "A": "रनिंग",
+            "B": "ब्लॉक्ड",
+            "C": "रेडी",
+            "D": "सस्पेंडेड-रेडी"
+          },
+          "explanation": "हालांकि कुछ मॉडलों में सस्पेंडेड-रेडी मौजूद है, पांच बुनियादी स्थितियाँ न्यू, रेडी, रनिंग, वेटिंग और टर्मिनेटेड हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-002",
+      "number": 2,
+      "question": "A critical section is a program segment:",
+      "options": {
+        "A": "Where shared resources are accessed",
+        "B": "Which is executed by the CPU",
+        "C": "Which runs faster",
+        "D": "Where no process can enter"
+      },
+      "answer": "A",
+      "explanation": "Critical section is the part of code where processes access shared resources like variables or files.",
+      "hash": "85d1b6ecc054ddec",
+      "translations": {
+        "hi": {
+          "question": "क्रिटिकल सेक्शन एक प्रोग्राम सेगमेंट है:",
+          "options": {
+            "A": "जहाँ साझा संसाधनों तक पहुँचा जाता है",
+            "B": "जिसे CPU द्वारा निष्पादित किया जाता है",
+            "C": "जो तेजी से चलता है",
+            "D": "जहाँ कोई प्रक्रिया प्रवेश नहीं कर सकती"
+          },
+          "explanation": "क्रिटिकल सेक्शन कोड का वह हिस्सा है जहाँ प्रक्रियाएँ वेरिएबल या फ़ाइलों जैसे साझा संसाधनों तक पहुँचती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-003",
+      "number": 3,
+      "question": "The Bankers algorithm is used to:",
+      "options": {
+        "A": "Detect Deadlock",
+        "B": "Avoid Deadlock",
+        "C": "Solve Starvation",
+        "D": "Allocate CPU"
+      },
+      "answer": "B",
+      "explanation": "It is a deadlock avoidance algorithm that checks if resource allocation leaves the system in a safe state.",
+      "hash": "1d3219d003c4774d",
+      "translations": {
+        "hi": {
+          "question": "बैंकर्स एल्गोरिथम का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "डेडलॉक का पता लगाने के लिए",
+            "B": "डेडlock से बचने के लिए",
+            "C": "भुखमरी को हल करने के लिए",
+            "D": "CPU आवंटित करने के लिए"
+          },
+          "explanation": "यह एक डेडलॉक अवॉयडेंस एल्गोरिथम है जो जाँचता है कि क्या संसाधन आवंटन सिस्टम को सुरक्षित स्थिति में छोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-004",
+      "number": 4,
+      "question": "What is internal fragmentation?",
+      "options": {
+        "A": "Unused space within a fixed-size memory block",
+        "B": "Space between two processes",
+        "C": "Fragmentation caused by dynamic partitioning",
+        "D": "Overlapping of processes"
+      },
+      "answer": "A",
+      "explanation": "It occurs when memory is allocated in fixed blocks and the process is smaller than the block.",
+      "hash": "c51765db43a1b0ff",
+      "translations": {
+        "hi": {
+          "question": "आंतरिक विखंडन (internal fragmentation) क्या है?",
+          "options": {
+            "A": "एक निश्चित आकार के मेमोरी ब्लॉक के भीतर अप्रयुक्त स्थान",
+            "B": "दो प्रक्रियाओं के बीच का स्थान",
+            "C": "गतिशील विभाजन के कारण होने वाला विखंडन",
+            "D": "प्रक्रियाओं का ओवरलैपिंग"
+          },
+          "explanation": "यह तब होता है जब मेमोरी को निश्चित ब्लॉकों में आवंटित किया जाता है और प्रक्रिया ब्लॉक से छोटी होती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-005",
+      "number": 5,
+      "question": "Which scheduler is responsible for bringing processes into the Ready Queue from the disk?",
+      "options": {
+        "A": "Short-term scheduler",
+        "B": "Medium-term scheduler",
+        "C": "Long-term scheduler",
+        "D": "Dispatcher"
+      },
+      "answer": "C",
+      "explanation": "The long-term scheduler (job scheduler) selects processes from the pool and loads them into memory.",
+      "hash": "6ad09b26efd5e3ab",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शेड्यूलर प्रक्रियाओं को डिस्क से रेडी क्यू में लाने के लिए जिम्मेदार है?",
+          "options": {
+            "A": "शॉर्ट-टर्म शेड्यूलर",
+            "B": "मीडियम-टर्म शेड्यूलर",
+            "C": "लॉन्ग-टर्म शेड्यूलर",
+            "D": "डिस्पैचर"
+          },
+          "explanation": "लॉन्ग-टर्म शेड्यूलर (जॉब शेड्यूलर) पूल से प्रक्रियाओं का चयन करता है और उन्हें मेमोरी में लोड करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-006",
+      "number": 6,
+      "question": "The technique of keeping parts of a program in disk and loading them only when needed is:",
+      "options": {
+        "A": "Spooling",
+        "B": "Swapping",
+        "C": "Demand Paging",
+        "D": "Fragmentation"
+      },
+      "answer": "C",
+      "explanation": "Demand paging brings pages into memory only when they are referenced during execution.",
+      "hash": "3377aac2e986b938",
+      "translations": {
+        "hi": {
+          "question": "प्रोग्राम के हिस्सों को डिस्क में रखने और जरूरत पड़ने पर ही उन्हें लोड करने की तकनीक है:",
+          "options": {
+            "A": "स्पूलिंग",
+            "B": "स्वैपिंग",
+            "C": "डिमांड पेजिंग",
+            "D": "विखंडन"
+          },
+          "explanation": "डिमांड पेजिंग पेज को मेमोरी में तभी लाती है जब निष्पादन के दौरान उन्हें संदर्भित किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-007",
+      "number": 7,
+      "question": "Which disk scheduling algorithm is also known as the \"elevator algorithm\"?",
+      "options": {
+        "A": "FCFS",
+        "B": "SSTF",
+        "C": "SCAN",
+        "D": "C-LOOK"
+      },
+      "answer": "C",
+      "explanation": "SCAN scheduling moves the disk arm from one end to the other, just like an elevator.",
+      "hash": "96b8311d39d41bfa",
+      "translations": {
+        "hi": {
+          "question": "किस डिस्क शेड्यूलिंग एल्गोरिथम को \"एलेवेटर एल्गोरिथम\" के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "FCFS",
+            "B": "SSTF",
+            "C": "SCAN",
+            "D": "C-LOOK"
+          },
+          "explanation": "SCAN शेड्यूलिंग डिस्क आर्म को एक छोर से दूसरे छोर तक ले जाती है, बिल्कुल एलेवेटर की तरह।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-008",
+      "number": 8,
+      "question": "A system call is invoked by using:",
+      "options": {
+        "A": "Software interrupt",
+        "B": "Hardware interrupt",
+        "C": "Polling",
+        "D": "Direct jump"
+      },
+      "answer": "A",
+      "explanation": "System calls are implemented via traps or software interrupts to switch from user to kernel mode.",
+      "hash": "2e3464a172064dc1",
+      "translations": {
+        "hi": {
+          "question": "सिस्टम कॉल को किसके उपयोग से शुरू किया जाता है?",
+          "options": {
+            "A": "सॉफ्टवेयर इंटरप्ट",
+            "B": "हार्डवेयर इंटरप्ट",
+            "C": "पोलिंग",
+            "D": "डायरेक्ट जंप"
+          },
+          "explanation": "यूजर मोड से कर्नेल मोड में स्विच करने के लिए सिस्टम कॉल ट्रैप या सॉफ्टवेयर इंटरप्ट के माध्यम से कार्यान्वित किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-009",
+      "number": 9,
+      "question": "In memory management, \"Logical Address\" is also known as:",
+      "options": {
+        "A": "Physical address",
+        "B": "Virtual address",
+        "C": "Direct address",
+        "D": "Segment address"
+      },
+      "answer": "B",
+      "explanation": "Logical addresses are generated by the CPU and are also referred to as virtual addresses.",
+      "hash": "abd6c69b29536238",
+      "translations": {
+        "hi": {
+          "question": "मेमोरी प्रबंधन में, \"लॉजिकल एड्रेस\" को इस रूप में भी जाना जाता है:",
+          "options": {
+            "A": "फिजिकल एड्रेस",
+            "B": "वर्चुअल एड्रेस",
+            "C": "डायरेक्ट एड्रेस",
+            "D": "सेगमेंट एड्रेस"
+          },
+          "explanation": "लॉजिकल एड्रेस CPU द्वारा उत्पन्न किए जाते हैं और इन्हें वर्चुअल एड्रेस के रूप में भी जाना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-010",
+      "number": 10,
+      "question": "What is the main disadvantage of SJF (Shortest Job First) scheduling?",
+      "options": {
+        "A": "Poor response time",
+        "B": "Difficulty in knowing the length of the next CPU burst",
+        "C": "High overhead",
+        "D": "Cannot be used in single CPU systems"
+      },
+      "answer": "B",
+      "explanation": "It is difficult to predict exactly how long the next CPU burst will be.",
+      "hash": "aee368b52b8f3c4c",
+      "translations": {
+        "hi": {
+          "question": "SJF (शॉर्टेस्ट जॉब फर्स्ट) शेड्यूलिंग का मुख्य नुकसान क्या है?",
+          "options": {
+            "A": "खराब रिस्पांस टाइम",
+            "B": "अगले CPU बर्स्ट की लंबाई जानने में कठिनाई",
+            "C": "उच्च ओवरहेड",
+            "D": "सिंगल CPU सिस्टम में उपयोग नहीं किया जा सकता"
+          },
+          "explanation": "यह अनुमान लगाना कठिन है कि अगला CPU बर्स्ट वास्तव में कितना लंबा होगा।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-011",
+      "number": 11,
+      "question": "Belady's Anomaly occurs in which page replacement algorithm?",
+      "options": {
+        "A": "LRU",
+        "B": "Optimal",
+        "C": "FIFO",
+        "D": "LIFO"
+      },
+      "answer": "C",
+      "explanation": "In FIFO, page faults may increase even when the number of frames increases.",
+      "hash": "60767b2522c160de",
+      "translations": {
+        "hi": {
+          "question": "बेलेडी की विसंगति किस पेज रिप्लेसमेंट एल्गोरिथम में होती है?",
+          "options": {
+            "A": "एलआरयू",
+            "B": "ऑप्टिमल",
+            "C": "फीफो",
+            "D": "लीफो"
+          },
+          "explanation": "FIFO में, फ्रेम की संख्या बढ़ने पर भी पेज फॉल्ट बढ़ सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-012",
+      "number": 12,
+      "question": "Which file allocation method uses a disk block as an index for other blocks?",
+      "options": {
+        "A": "Contiguous allocation",
+        "B": "Linked allocation",
+        "C": "Indexed allocation",
+        "D": "Random allocation"
+      },
+      "answer": "C",
+      "explanation": "Indexed allocation brings all pointers together into one location called the index block.",
+      "hash": "87fa3c77e88ede83",
+      "translations": {
+        "hi": {
+          "question": "कौन सी फ़ाइल आवंटन विधि अन्य ब्लॉकों के लिए इंडेक्स के रूप में डिस्क ब्लॉक का उपयोग करती है?",
+          "options": {
+            "A": "सन्निहित आवंटन",
+            "B": "लिंक्ड आवंटन",
+            "C": "इंडेक्स्ड आवंटन",
+            "D": "रैंडम आवंटन"
+          },
+          "explanation": "इंडेक्स्ड आवंटन सभी पॉइंटर्स को एक स्थान पर एक साथ लाता है जिसे इंडेक्स ब्लॉक कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-013",
+      "number": 13,
+      "question": "What is a \"Trap\" in an operating system?",
+      "options": {
+        "A": "A hardware error",
+        "B": "A software-generated interrupt",
+        "C": "A virus attack",
+        "D": "A memory leak"
+      },
+      "answer": "B",
+      "explanation": "A trap is an interrupt caused by an error (e.g., division by zero) or a specific request from a user program.",
+      "hash": "90fbefd637704e66",
+      "translations": {
+        "hi": {
+          "question": "ऑपरेटिंग सिस्टम में \"ट्रैप\" क्या है?",
+          "options": {
+            "A": "एक हार्डवेयर त्रुटि",
+            "B": "एक सॉफ्टवेयर-जनित इंटरप्ट",
+            "C": "एक वायरस हमला",
+            "D": "एक मेमोरी लीक"
+          },
+          "explanation": "ट्रैप एक त्रुटि (जैसे, शून्य से विभाजन) या उपयोगकर्ता प्रोग्राम से विशिष्ट अनुरोध के कारण होने वाला इंटरप्ट है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-014",
+      "number": 14,
+      "question": "In Paging, the logical address is divided into:",
+      "options": {
+        "A": "Page number and Page offset",
+        "B": "Frame number and Page offset",
+        "C": "Segment number and Offset",
+        "D": "Directory and File name"
+      },
+      "answer": "A",
+      "explanation": "A logical address consists of a page number (p) and a page offset (d).",
+      "hash": "0c31f5db242605c3",
+      "translations": {
+        "hi": {
+          "question": "पेजिंग में, लॉजिकल एड्रेस को विभाजित किया जाता है:",
+          "options": {
+            "A": "पेज नंबर और पेज ऑफसेट",
+            "B": "फ्रेम नंबर और पेज ऑफसेट",
+            "C": "सेगमेंट नंबर और ऑफसेट",
+            "D": "डायरेक्टरी और फ़ाइल नाम"
+          },
+          "explanation": "एक लॉजिकल एड्रेस में एक पेज नंबर (p) और एक पेज ऑफसेट (d) होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-015",
+      "number": 15,
+      "question": "Which of the following is an example of a monolithic kernel?",
+      "options": {
+        "A": "Windows NT",
+        "B": "Linux",
+        "C": "L4",
+        "D": "Mach"
+      },
+      "answer": "B",
+      "explanation": "Linux is a monolithic kernel where all OS services run in the kernel space.",
+      "hash": "c64795fb8e4b3c7e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन मोनोलिथिक कर्नेल का एक उदाहरण है?",
+          "options": {
+            "A": "विंडोज एनटी",
+            "B": "लिनक्स",
+            "C": "L4",
+            "D": "मैक (Mach)"
+          },
+          "explanation": "लिनक्स एक मोनोलिथिक कर्नेल है जहाँ सभी OS सेवाएँ कर्नेल स्पेस में चलती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-016",
+      "number": 16,
+      "question": "A process is \"Throttled\" when:",
+      "options": {
+        "A": "It uses too much CPU",
+        "B": "Its execution speed is intentionally limited",
+        "C": "It causes a deadlock",
+        "D": "It is finished"
+      },
+      "answer": "B",
+      "explanation": "Throttling is used to limit the resource consumption of a process.",
+      "hash": "20ca305d98256800",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया \"थ्रॉटल्ड\" होती है जब:",
+          "options": {
+            "A": "यह बहुत अधिक CPU का उपयोग करती है",
+            "B": "इसकी निष्पादन गति जानबूझकर सीमित कर दी जाती है",
+            "C": "यह डेडलॉक का कारण बनती है",
+            "D": "यह समाप्त हो गई है"
+          },
+          "explanation": "थ्रॉटलिंग का उपयोग किसी प्रक्रिया के संसाधन खपत को सीमित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-017",
+      "number": 17,
+      "question": "What is the purpose of the \"Dirty Bit\" in paging?",
+      "options": {
+        "A": "To identify a corrupted page",
+        "B": "To indicate that a page has been modified",
+        "C": "To lock a page in memory",
+        "D": "To count the number of page faults"
+      },
+      "answer": "B",
+      "explanation": "It helps in deciding if a page needs to be written back to disk before being replaced.",
+      "hash": "8b94a0784e368f55",
+      "translations": {
+        "hi": {
+          "question": "पेजिंग में \"डर्टी बिट\" (Dirty Bit) का उद्देश्य क्या है?",
+          "options": {
+            "A": "दूषित पेज की पहचान करना",
+            "B": "यह इंगित करना कि पेज को संशोधित किया गया है",
+            "C": "मेमोरी में पेज लॉक करना",
+            "D": "पेज फॉल्ट की संख्या गिनना"
+          },
+          "explanation": "यह तय करने में मदद करता है कि क्या पेज को बदलने से पहले डिस्क पर वापस लिखने की आवश्यकता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-018",
+      "number": 18,
+      "question": "A \"Monitor\" is a high-level abstraction that provides:",
+      "options": {
+        "A": "Process scheduling",
+        "B": "Mutual exclusion",
+        "C": "Memory protection",
+        "D": "Error handling"
+      },
+      "answer": "B",
+      "explanation": "A monitor ensures that only one process at a time can be active within the monitor.",
+      "hash": "64ce733e9c61da8e",
+      "translations": {
+        "hi": {
+          "question": "एक \"मॉनिटर\" एक उच्च-स्तरीय अमूर्त (abstraction) है जो प्रदान करता है:",
+          "options": {
+            "A": "प्रोसेस शेड्यूलिंग",
+            "B": "म्यूचुअल एक्सक्लूजन",
+            "C": "मेमोरी सुरक्षा",
+            "D": "एरर हैंडलिंग"
+          },
+          "explanation": "मॉनिटर यह सुनिश्चित करता है कि मॉनिटर के भीतर एक समय में केवल एक ही प्रक्रिया सक्रिय हो सकती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-019",
+      "number": 19,
+      "question": "Which command is used in Linux to display the current working directory?",
+      "options": {
+        "A": "dir",
+        "B": "pwd",
+        "C": "cd",
+        "D": "path"
+      },
+      "answer": "B",
+      "explanation": "'pwd' stands for \"Print Working Directory\".",
+      "hash": "43710ead64db2dbe",
+      "translations": {
+        "hi": {
+          "question": "वर्तमान वर्किंग डायरेक्टरी प्रदर्शित करने के लिए लिनक्स में किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "dir",
+            "B": "pwd",
+            "C": "cd",
+            "D": "path"
+          },
+          "explanation": "'pwd' का अर्थ \"प्रिंट वर्किंग डायरेक्टरी\" है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-020",
+      "number": 20,
+      "question": "RAID Level 1 is commonly known as:",
+      "options": {
+        "A": "Striping",
+        "B": "Mirroring",
+        "C": "Hamming code",
+        "D": "Block parity"
+      },
+      "answer": "B",
+      "explanation": "RAID 1 provides redundancy by duplicating (mirroring) data across two disks.",
+      "hash": "b3ebb8542b3c210c",
+      "translations": {
+        "hi": {
+          "question": "RAID लेवल 1 को आमतौर पर किस रूप में जाना जाता है?",
+          "options": {
+            "A": "स्ट्रिपिंग",
+            "B": "मिररिंग",
+            "C": "हैमिंग कोड",
+            "D": "ब्लॉक पैरिटी"
+          },
+          "explanation": "RAID 1 दो डिस्क पर डेटा की नकल (मिररिंग) करके रिडंडेंसी प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-021",
+      "number": 21,
+      "question": "The degree of multiprogramming is controlled by:",
+      "options": {
+        "A": "Short-term scheduler",
+        "B": "Long-term scheduler",
+        "C": "CPU",
+        "D": "I/O devices"
+      },
+      "answer": "B",
+      "explanation": "The long-term scheduler decides how many processes stay in memory.",
+      "hash": "60c7be7f533d8508",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्रोग्रामिंग की डिग्री किसके द्वारा नियंत्रित की जाती है?",
+          "options": {
+            "A": "शॉर्ट-टर्म शेड्यूलर",
+            "B": "लॉन्ग-टर्म शेड्यूलर",
+            "C": "CPU",
+            "D": "I/O उपकरण"
+          },
+          "explanation": "लॉन्ग-टर्म शेड्यूलर तय करता है कि कितनी प्रक्रियाएँ मेमोरी में रहती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-022",
+      "number": 22,
+      "question": "What is a \"Kernel Thread\"?",
+      "options": {
+        "A": "A thread created by the user",
+        "B": "A thread supported and managed directly by the OS",
+        "C": "A thread that runs only in safe mode",
+        "D": "A thread with no stack"
+      },
+      "answer": "B",
+      "explanation": "Kernel threads are managed by the kernel, whereas user threads are managed by a thread library.",
+      "hash": "b5913e6d4a08582f",
+      "translations": {
+        "hi": {
+          "question": "\"कर्नेल थ्रेड\" क्या है?",
+          "options": {
+            "A": "उपयोगकर्ता द्वारा बनाया गया थ्रेड",
+            "B": "OS द्वारा सीधे समर्थित और प्रबंधित थ्रेड",
+            "C": "एक थ्रेड जो केवल सेफ मोड में चलता है",
+            "D": "बिना स्टैक वाला थ्रेड"
+          },
+          "explanation": "कर्नेल थ्रेड्स कर्नेल द्वारा प्रबंधित किए जाते हैं, जबकि यूजर थ्रेड्स थ्रेड लाइब्रेरी द्वारा प्रबंधित किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-023",
+      "number": 23,
+      "question": "Which scheduling algorithm is most suitable for time-sharing systems?",
+      "options": {
+        "A": "FCFS",
+        "B": "SJF",
+        "C": "Round Robin",
+        "D": "Priority"
+      },
+      "answer": "C",
+      "explanation": "Round Robin provides fair CPU time to all users, making it ideal for time-sharing.",
+      "hash": "fc5c05b321161250",
+      "translations": {
+        "hi": {
+          "question": "टाइम-शेयरिंग सिस्टम के लिए कौन सा शेड्यूलिंग एल्गोरिथम सबसे उपयुक्त है?",
+          "options": {
+            "A": "FCFS",
+            "B": "SJF",
+            "C": "राउंड रॉबिन",
+            "D": "प्रायोरिटी"
+          },
+          "explanation": "राउंड रॉबिन सभी उपयोगकर्ताओं को उचित CPU समय प्रदान करता है, जो इसे टाइम-शेयरिंग के लिए आदर्श बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-024",
+      "number": 24,
+      "question": "What is the purpose of a \"Translation Lookaside Buffer\" (TLB)?",
+      "options": {
+        "A": "To store recently used data",
+        "B": "To speed up virtual-to-physical address translation",
+        "C": "To handle interrupts",
+        "D": "To manage disk space"
+      },
+      "answer": "B",
+      "explanation": "TLB is a small, fast-access hardware cache that stores recent logical-to-physical mappings.",
+      "hash": "3fc0586d50583d37",
+      "translations": {
+        "hi": {
+          "question": "\"ट्रांसलेशन लुकासाइड बफर\" (TLB) का उद्देश्य क्या है?",
+          "options": {
+            "A": "हाल ही में उपयोग किए गए डेटा को स्टोर करना",
+            "B": "वर्चुअल-टू-फिजिकल एड्रेस ट्रांसलेशन को तेज करना",
+            "C": "इंटरप्ट को संभालना",
+            "D": "डिस्क स्थान प्रबंधित करना"
+          },
+          "explanation": "TLB एक छोटा, फास्ट-एक्सेस हार्डवेयर कैश है जो हाल ही के लॉजिकल-टू-फिजिकल मैपिंग को स्टोर करता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-025",
+      "number": 25,
+      "question": "Which situation leads to \"Starvation\" in priority scheduling?",
+      "options": {
+        "A": "Low priority tasks never getting the CPU",
+        "B": "High priority tasks finishing too fast",
+        "C": "Too many processes in the ready queue",
+        "D": "CPU failure"
+      },
+      "answer": "A",
+      "explanation": "If high-priority jobs keep arriving, low-priority jobs may wait indefinitely.",
+      "hash": "ef37f6138c66b874",
+      "translations": {
+        "hi": {
+          "question": "प्रायोरिटी शेड्यूलिंग में कौन सी स्थिति \"भुखमरी\" (Starvation) की ओर ले जाती है?",
+          "options": {
+            "A": "कम प्राथमिकता वाले कार्यों को कभी CPU न मिलना",
+            "B": "उच्च प्राथमिकता वाले कार्यों का बहुत तेज़ी से समाप्त होना",
+            "C": "रेडी क्यू में बहुत अधिक प्रक्रियाएँ होना",
+            "D": "CPU विफलता"
+          },
+          "explanation": "यदि उच्च-प्राथमिकता वाले कार्य आते रहते हैं, तो निम्न-प्राथमिकता वाले कार्य अनिश्चित काल तक प्रतीक्षा कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-026",
+      "number": 26,
+      "question": "A process is \"I/O Bound\" if:",
+      "options": {
+        "A": "It uses many CPU cycles",
+        "B": "It spends most of its time doing I/O",
+        "C": "It is waiting for a deadlock",
+        "D": "It is a very small process"
+      },
+      "answer": "B",
+      "explanation": "I/O bound processes perform more I/O operations than computations.",
+      "hash": "c39b871b7ccc1385",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्रिया \"I/O बाउंड\" है यदि:",
+          "options": {
+            "A": "यह कई CPU चक्रों का उपयोग करती है",
+            "B": "यह अपना अधिकांश समय I/O करने में बिताती है",
+            "C": "यह डेडलॉक की प्रतीक्षा कर रही है",
+            "D": "यह एक बहुत छोटी प्रक्रिया है"
+          },
+          "explanation": "I/O बाउंड प्रक्रियाएँ गणनाओं की तुलना में अधिक I/O ऑपरेशन करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-027",
+      "number": 27,
+      "question": "In a Unix file system, the \"inode\" stores:",
+      "options": {
+        "A": "File data",
+        "B": "File metadata (permissions, size, etc.)",
+        "C": "The file name",
+        "D": "The user password"
+      },
+      "answer": "B",
+      "explanation": "An inode contains information about the file but not the actual data or the file name.",
+      "hash": "1440bf934290dc5c",
+      "translations": {
+        "hi": {
+          "question": "यूनिक्स फ़ाइल सिस्टम में, \"inode\" स्टोर करता है:",
+          "options": {
+            "A": "फ़ाइल डेटा",
+            "B": "फ़ाइल मेटाडेटा (अनुमतियाँ, आकार, आदि)",
+            "C": "फ़ाइल का नाम",
+            "D": "उपयोगकर्ता पासवर्ड"
+          },
+          "explanation": "एक inode में फ़ाइल के बारे में जानकारी होती है लेकिन वास्तविक डेटा या फ़ाइल का नाम नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-028",
+      "number": 28,
+      "question": "What is the main objective of multiprogramming?",
+      "options": {
+        "A": "To reduce memory use",
+        "B": "To maximize CPU utilization",
+        "C": "To make the system faster",
+        "D": "To allow multiple users"
+      },
+      "answer": "B",
+      "explanation": "Multiprogramming keeps the CPU busy at all times by having multiple jobs ready for execution.",
+      "hash": "e978d13bf31b20d7",
+      "translations": {
+        "hi": {
+          "question": "मल्टीप्रोग्रामिंग का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "मेमोरी उपयोग कम करना",
+            "B": "CPU उपयोग को अधिकतम करना",
+            "C": "सिस्टम को तेज़ बनाना",
+            "D": "एकाधिक उपयोगकर्ताओं को अनुमति देना"
+          },
+          "explanation": "मल्टीप्रोग्रामिंग निष्पादन के लिए कई कार्यों को तैयार रखकर CPU को हर समय व्यस्त रखती है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-029",
+      "number": 29,
+      "question": "Which policy is most effective for a real-time system?",
+      "options": {
+        "A": "FCFS",
+        "B": "Preemptive scheduling",
+        "C": "Non-preemptive scheduling",
+        "D": "Best-fit allocation"
+      },
+      "answer": "B",
+      "explanation": "Preemption allows the system to interrupt a low-priority task for a critical real-time task.",
+      "hash": "94a7d69adc24830a",
+      "translations": {
+        "hi": {
+          "question": "रियल-टाइम सिस्टम के लिए कौन सी नीति सबसे प्रभावी है?",
+          "options": {
+            "A": "FCFS",
+            "B": "प्रीइम्पटिव शेड्यूलिंग",
+            "C": "नॉन-प्रीइम्पटिव शेड्यूलिंग",
+            "D": "बेस्ट-फिट एलोकेशन"
+          },
+          "explanation": "प्रीइम्पशन सिस्टम को एक महत्वपूर्ण रियल-टाइम कार्य के लिए कम प्राथमिकता वाले कार्य को बाधित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "operating-systems-03-030",
+      "number": 30,
+      "question": "The \"Context Switch\" time is:",
+      "options": {
+        "A": "Productive time",
+        "B": "Overhead time",
+        "C": "Execution time",
+        "D": "Response time"
+      },
+      "answer": "B",
+      "explanation": "Context switching is pure overhead because the system does no useful work while switching.",
+      "hash": "7c95d7ec25f1be77",
+      "translations": {
+        "hi": {
+          "question": "\"कॉन्टेक्स्ट स्विच\" समय है:",
+          "options": {
+            "A": "उत्पादक समय",
+            "B": "ओवरहेड समय",
+            "C": "निष्पादन समय",
+            "D": "रिस्पांस समय"
+          },
+          "explanation": "कॉन्टेक्स्ट स्विचिंग शुद्ध ओवरहेड है क्योंकि स्विच करते समय सिस्टम कोई उपयोगी कार्य नहीं करता है।"
+        }
+      }
+    }
+  ]
+}

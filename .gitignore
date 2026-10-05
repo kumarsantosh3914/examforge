@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+.local/
+.DS_Store
+# Platform-specific Impeccable binary; the launcher falls back to ~/.impeccable or PATH.
+.agents/skills/impeccable/scripts/bin/

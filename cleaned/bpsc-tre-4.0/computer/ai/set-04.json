@@ -1,0 +1,787 @@
+{
+  "subject": "AI",
+  "set": 4,
+  "title": "AI Mock Test 4",
+  "questions": [
+    {
+      "id": "ai-04-001",
+      "number": 1,
+      "question": "Which term describes the measure of how much a heuristic function underestimates the actual cost?",
+      "options": {
+        "A": "Admissibility",
+        "B": "Consistency",
+        "C": "Monotonicity",
+        "D": "Efficiency"
+      },
+      "answer": "A",
+      "explanation": "An admissible heuristic never overestimates the cost to reach the goal.",
+      "hash": "8527d62404155eea",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द इस बात के माप का वर्णन करता है कि एक ह्यूरिस्टिक फंक्शन वास्तविक लागत को कितना कम आंकता है?",
+          "options": {
+            "A": "एडमिसिबिलिटी",
+            "B": "कंसिस्टेंसी",
+            "C": "मोनोटोनिसिटी",
+            "D": "एफिशिएंसी"
+          },
+          "explanation": "एक एडमिसिबल ह्यूरिस्टिक लक्ष्य तक पहुँचने की लागत को कभी भी वास्तविक लागत से अधिक नहीं आंकता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-002",
+      "number": 2,
+      "question": "What is the main purpose of the 'Activation Function' in a neural network?",
+      "options": {
+        "A": "To weight the inputs",
+        "B": "To introduce non-linearity into the output",
+        "C": "To decrease the learning rate",
+        "D": "To normalize the data"
+      },
+      "answer": "B",
+      "explanation": "Activation functions like ReLU or Sigmoid allow the network to learn complex, non-linear relationships.",
+      "hash": "7cb201ace9dd666b",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में 'एक्टिवेशन फंक्शन' का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "इनपुट को वेट देने के लिए",
+            "B": "आउटपुट में नॉन-लिनियैरिटी लाने के लिए",
+            "C": "लर्निंग रेट को कम करने के लिए",
+            "D": "डेटा को सामान्य करने के लिए"
+          },
+          "explanation": "ReLU या सिग्मॉइड जैसे एक्टिवेशन फंक्शन नेटवर्क को जटिल, नॉन-लिनियर संबंधों को सीखने की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-003",
+      "number": 3,
+      "question": "What is 'One-Hot Encoding' used for in AI?",
+      "options": {
+        "A": "To encrypt passwords",
+        "B": "To convert categorical data into numerical format",
+        "C": "To compress images",
+        "D": "To speed up the CPU"
+      },
+      "answer": "B",
+      "explanation": "It creates binary columns for each category, allowing machine learning models to process non-numeric data.",
+      "hash": "6d3cec828fd0073a",
+      "translations": {
+        "hi": {
+          "question": "एआई में 'वन-हॉट एन्कोडिंग' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "पासवर्ड एन्क्रिप्ट करने के लिए",
+            "B": "श्रेणीबद्ध डेटा को संख्यात्मक प्रारूप में बदलने के लिए",
+            "C": "छवियों को संपीड़ित करने के लिए",
+            "D": "सीपीयू को तेज करने के लिए"
+          },
+          "explanation": "यह प्रत्येक श्रेणी के लिए बाइनरी कॉलम बनाता है, जिससे मशीन लर्निंग मॉडल गैर-संख्यात्मक डेटा को संसाधित कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-004",
+      "number": 4,
+      "question": "Which search algorithm uses a 'closed list' to keep track of visited nodes to avoid loops?",
+      "options": {
+        "A": "Depth First Search",
+        "B": "Breadth First Search",
+        "C": "A* Search",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "Both BFS and A* use a closed list (or explored set) to ensure they do not re-process the same node.",
+      "hash": "01fdb41411a16906",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च एल्गोरिथम लूप से बचने के लिए विज़िट किए गए नोड्स पर नज़र रखने के लिए 'क्लोज्ड लिस्ट' का उपयोग करता है?",
+          "options": {
+            "A": "डेप्थ फर्स्ट सर्च",
+            "B": "ब्रैड्थ फर्स्ट सर्च",
+            "C": "ए* सर्च",
+            "D": "B और C दोनों"
+          },
+          "explanation": "BFS और A* दोनों यह सुनिश्चित करने के लिए 'क्लोज्ड लिस्ट' का उपयोग करते हैं कि वे एक ही नोड को दोबारा प्रोसेस न करें।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-005",
+      "number": 5,
+      "question": "In Alpha-Beta Pruning, which parameter represents the best value that the Maximizer can currently guarantee?",
+      "options": {
+        "A": "Alpha",
+        "B": "Beta",
+        "C": "Gamma",
+        "D": "Delta"
+      },
+      "answer": "A",
+      "explanation": "Alpha is the best (highest-value) choice found so far at any choice point along the path for the Maximizer.",
+      "hash": "13bb6e1a6331c56a",
+      "translations": {
+        "hi": {
+          "question": "अल्फा-बीटा प्रूनिंग में, कौन सा पैरामीटर उस सर्वोत्तम मान का प्रतिनिधित्व करता है जिसकी मैक्सिमाइज़र वर्तमान में गारंटी दे सकता है?",
+          "options": {
+            "A": "अल्फा",
+            "B": "बीटा",
+            "C": "गामा",
+            "D": "डेल्टा"
+          },
+          "explanation": "अल्फा मैक्सिमाइज़र के लिए पथ के किसी भी विकल्प बिंदु पर अब तक पाया गया सबसे अच्छा (उच्चतम-मूल्य) विकल्प है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-006",
+      "number": 6,
+      "question": "What is the 'Kernel Trick' used in Support Vector Machines (SVM)?",
+      "options": {
+        "A": "To delete outliers",
+        "B": "To map data into a higher-dimensional space for linear separation",
+        "C": "To reduce the number of features",
+        "D": "To speed up data loading"
+      },
+      "answer": "B",
+      "explanation": "The kernel trick allows SVM to solve non-linear problems by projecting data into a higher dimension.",
+      "hash": "bf8e8ec26ea3c63b",
+      "translations": {
+        "hi": {
+          "question": "सपोर्ट वेक्टर मशीन (SVM) में उपयोग की जाने वाली 'कर्नेल ट्रिक' क्या है?",
+          "options": {
+            "A": "आउटलेर्स को हटाने के लिए",
+            "B": "लीनियर सेपरेशन के लिए डेटा को उच्च-आयामी स्थान में मैप करने के लिए",
+            "C": "फीचर्स की संख्या कम करने के लिए",
+            "D": "डेटा लोडिंग को तेज करने के लिए"
+          },
+          "explanation": "कर्नेल ट्रिक SVM को डेटा को उच्च आयाम में प्रोजेक्ट करके नॉन-लिनियर समस्याओं को हल करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-007",
+      "number": 7,
+      "question": "Which type of AI agent considers the consequences of its actions on future states to achieve a specific target?",
+      "options": {
+        "A": "Simple Reflex Agent",
+        "B": "Model-based Reflex Agent",
+        "C": "Goal-based Agent",
+        "D": "Utility-based Agent"
+      },
+      "answer": "C",
+      "explanation": "Goal-based agents use goal information to describe desirable situations and plan accordingly.",
+      "hash": "00ee4ab0c96c10d2",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का एआई एजेंट किसी विशिष्ट लक्ष्य को प्राप्त करने के लिए भविष्य की स्थितियों पर अपने कार्यों के परिणामों पर विचार करता है?",
+          "options": {
+            "A": "सिंपल रिफ्लेक्स एजेंट",
+            "B": "मॉडल-बेस्ड रिफ्लेक्स एजेंट",
+            "C": "गोल-बेस्ड एजेंट",
+            "D": "यूटिलिटी-बेस्ड एजेंट"
+          },
+          "explanation": "गोल-बेस्ड एजेंट वांछनीय स्थितियों का वर्णन करने और उसी के अनुसार योजना बनाने के लिए लक्ष्य जानकारी का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-008",
+      "number": 8,
+      "question": "In First-Order Logic, what does the 'Existential Quantifier' (∃) signify?",
+      "options": {
+        "A": "For all elements",
+        "B": "For at least one element",
+        "C": "For no elements",
+        "D": "Only for the first element"
+      },
+      "answer": "B",
+      "explanation": "The symbol ∃ means \"there exists at least one\" element in the domain that satisfies the condition.",
+      "hash": "32ecfc65c8a12f69",
+      "translations": {
+        "hi": {
+          "question": "फर्स्ट-ऑर्डर लॉजिक में, 'एक्ज़िस्टेंशियल क्वांटिफायर' (∃) क्या दर्शाता है?",
+          "options": {
+            "A": "सभी तत्वों के लिए",
+            "B": "कम से कम एक तत्व के लिए",
+            "C": "किसी भी तत्व के लिए नहीं",
+            "D": "केवल पहले तत्व के लिए"
+          },
+          "explanation": "प्रतीक ∃ का अर्थ है कि डोमेन में \"कम से कम एक\" ऐसा तत्व मौजूद है जो शर्त को पूरा करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-009",
+      "number": 9,
+      "question": "What is 'Natural Language Understanding' (NLU) focusing on?",
+      "options": {
+        "A": "Speech to text conversion",
+        "B": "Understanding the meaning and intent behind the text",
+        "C": "Generating random sentences",
+        "D": "Fixing grammar errors"
+      },
+      "answer": "B",
+      "explanation": "NLU is a subtopic of NLP that deals with reading comprehension and semantic analysis.",
+      "hash": "d59271569c0a3439",
+      "translations": {
+        "hi": {
+          "question": "'नेचुरल लैंग्वेज अंडरस्टैंडिंग' (NLU) किस पर ध्यान केंद्रित कर रही है?",
+          "options": {
+            "A": "स्पीच टू टेक्स्ट रूपांतरण",
+            "B": "टेक्स्ट के पीछे के अर्थ और इरादे को समझना",
+            "C": "रैंडम वाक्य बनाना",
+            "D": "व्याकरण की गलतियों को ठीक करना"
+          },
+          "explanation": "NLU, एनएलपी का एक उप-विषय है जो पढ़ने की समझ और सिमेंटिक विश्लेषण से संबंधित है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-010",
+      "number": 10,
+      "question": "In a Genetic Algorithm, what does 'Mutation' prevent?",
+      "options": {
+        "A": "Fast convergence",
+        "B": "Premature convergence to a local optimum",
+        "C": "The use of crossovers",
+        "D": "The selection of parents"
+      },
+      "answer": "B",
+      "explanation": "Mutation introduces random diversity to help the algorithm explore new areas of the search space.",
+      "hash": "2c3a15d45901e931",
+      "translations": {
+        "hi": {
+          "question": "जेनेटिक एल्गोरिथम में 'म्यूटेशन' क्या रोकता है?",
+          "options": {
+            "A": "तेज़ कन्वर्जेंस",
+            "B": "स्थानीय इष्टतम (local optimum) पर समय से पहले कन्वर्जेंस",
+            "C": "क्रॉसओवर का उपयोग",
+            "D": "माता-पिता का चयन"
+          },
+          "explanation": "म्यूटेशन रैंडम विविधता पेश करता है ताकि एल्गोरिथम को सर्च स्पेस के नए क्षेत्रों का पता लगाने में मदद मिल सके।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-011",
+      "number": 11,
+      "question": "What is the 'Inference Engine' in an expert system?",
+      "options": {
+        "A": "A storage for facts",
+        "B": "The processing unit that applies logical rules to knowledge",
+        "C": "The user input window",
+        "D": "The documentation manual"
+      },
+      "answer": "B",
+      "explanation": "The inference engine uses the knowledge base to derive new information or conclusions.",
+      "hash": "849c7c80480e3df0",
+      "translations": {
+        "hi": {
+          "question": "एक्सपर्ट सिस्टम में 'इंफरेंस इंजन' क्या है?",
+          "options": {
+            "A": "तथ्यों के लिए एक स्टोरेज",
+            "B": "वह प्रोसेसिंग यूनिट जो ज्ञान पर लॉजिक नियम लागू करती है",
+            "C": "यूजर इनपुट विंडो",
+            "D": "डॉक्यूमेंटेशन मैनुअल"
+          },
+          "explanation": "इंफरेंस इंजन नई जानकारी या निष्कर्ष निकालने के लिए नॉलेज बेस का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-012",
+      "number": 12,
+      "question": "Which term refers to the 'brain' of a robot in AI?",
+      "options": {
+        "A": "Actuator",
+        "B": "Controller",
+        "C": "Sensor",
+        "D": "End Effector"
+      },
+      "answer": "B",
+      "explanation": "The controller processes sensor data and sends commands to the actuators.",
+      "hash": "265375242ecbb9f3",
+      "translations": {
+        "hi": {
+          "question": "एआई में रोबोट के 'मस्तिष्क' को कौन सा शब्द संदर्भित करता है?",
+          "options": {
+            "A": "एक्चुएटर",
+            "B": "कंट्रोलर",
+            "C": "सेंसर",
+            "D": "एंड इफेक्टर"
+          },
+          "explanation": "कंट्रोलर सेंसर डेटा को प्रोसेस करता है और एक्चुएटर्स को कमांड भेजता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-013",
+      "number": 13,
+      "question": "What is 'Reinforcement Learning' primarily based on?",
+      "options": {
+        "A": "Labeled datasets",
+        "B": "Trial and error rewards",
+        "C": "Finding clusters",
+        "D": "Pre-defined logic rules"
+      },
+      "answer": "B",
+      "explanation": "An agent learns to behave in an environment by performing actions and seeing the results/rewards.",
+      "hash": "0ca1d5b314d07ad2",
+      "translations": {
+        "hi": {
+          "question": "'रीइन्फोर्समेंट लर्निंग' मुख्य रूप से किस पर आधारित है?",
+          "options": {
+            "A": "लेबल किए गए डेटासेट",
+            "B": "ट्रायल और एरर रिवॉर्ड्स",
+            "C": "क्लस्टर ढूँढना",
+            "D": "पूर्व-परिभाषित लॉजिक नियम"
+          },
+          "explanation": "एक एजेंट कार्यों को करके और परिणामों/पुरस्कारों को देखकर वातावरण में व्यवहार करना सीखता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-014",
+      "number": 14,
+      "question": "Which algorithm is commonly used to find the shortest path in a weighted graph with no heuristics?",
+      "options": {
+        "A": "Depth First Search",
+        "B": "Uniform Cost Search",
+        "C": "Hill Climbing",
+        "D": "Greedy Search"
+      },
+      "answer": "B",
+      "explanation": "UCS is equivalent to Dijkstra's algorithm and finds the optimal path by expanding the lowest-cost node.",
+      "hash": "584cd5a7aba2eb18",
+      "translations": {
+        "hi": {
+          "question": "बिना किसी ह्यूरिस्टिक वाले वेटेड ग्राफ में सबसे छोटा रास्ता खोजने के लिए आमतौर पर किस एल्गोरिथम का उपयोग किया जाता है?",
+          "options": {
+            "A": "डेप्थ फर्स्ट सर्च",
+            "B": "यूनिफॉर्म कॉस्ट सर्च",
+            "C": "हिल क्लाइंबिंग",
+            "D": "ग्रीडी सर्च"
+          },
+          "explanation": "UCS, डिज्कस्ट्रा (Dijkstra) के एल्गोरिथम के बराबर है और सबसे कम लागत वाले नोड का विस्तार करके इष्टतम पथ ढूंढता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-015",
+      "number": 15,
+      "question": "What is a 'Confusion Matrix' used for?",
+      "options": {
+        "A": "To confuse the model",
+        "B": "To evaluate the performance of a classification model",
+        "C": "To store large datasets",
+        "D": "To design neural networks"
+      },
+      "answer": "B",
+      "explanation": "It shows true positives, true negatives, false positives, and false negatives.",
+      "hash": "606ceef7204057fe",
+      "translations": {
+        "hi": {
+          "question": "'कन्फ्यूजन मैट्रिक्स' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "मॉडल को भ्रमित करने के लिए",
+            "B": "क्लासिफिकेशन मॉडल के प्रदर्शन का मूल्यांकन करने के लिए",
+            "C": "बड़े डेटासेट को स्टोर करने के लिए",
+            "D": "न्यूरल नेटवर्क डिजाइन करने के लिए"
+          },
+          "explanation": "यह ट्रू पॉजिटिव, ट्रू नेगेटिव, फॉल्स पॉजिटिव और फॉल्स नेगेटिव को दर्शाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-016",
+      "number": 16,
+      "question": "In logic, what is 'Resolution' used for?",
+      "options": {
+        "A": "Increasing image quality",
+        "B": "Proving theorems by contradiction",
+        "C": "Normalizing databases",
+        "D": "Sorting lists"
+      },
+      "answer": "B",
+      "explanation": "Resolution refutation is a powerful inference rule used in automated theorem proving.",
+      "hash": "9a8ef0c7313b0960",
+      "translations": {
+        "hi": {
+          "question": "तर्कशास्त्र में, 'रेजोल्यूशन' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "इमेज क्वालिटी बढ़ाने के लिए",
+            "B": "विरोधाभास (contradiction) द्वारा प्रमेयों को सिद्ध करने के लिए",
+            "C": "डेटाबेस को सामान्य करने के लिए",
+            "D": "सूचियों को सॉर्ट करने के लिए"
+          },
+          "explanation": "रेजोल्यूशन रिफ्यूटेशन एक शक्तिशाली इंफरेंस नियम है जिसका उपयोग ऑटोमेटेड थ्योरम प्रोविंग में किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-017",
+      "number": 17,
+      "question": "Which search is a combination of BFS and DFS?",
+      "options": {
+        "A": "Iterative Deepening Search",
+        "B": "Bidirectional Search",
+        "C": "A* Search",
+        "D": "Uniform Cost Search"
+      },
+      "answer": "A",
+      "explanation": "It performs DFS to a limited depth, gradually increasing the limit like BFS.",
+      "hash": "6777061622a5dd38",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च BFS और DFS का संयोजन है?",
+          "options": {
+            "A": "इटरेटिव डीपनिंग सर्च",
+            "B": "बाईडायरेक्शनल सर्च",
+            "C": "ए* सर्च",
+            "D": "यूनिफॉर्म कॉस्ट सर्च"
+          },
+          "explanation": "यह एक सीमित गहराई तक DFS करता है, धीरे-धीरे BFS की तरह सीमा बढ़ाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-018",
+      "number": 18,
+      "question": "Which search algorithm uses a 'Heuristic' but does not consider the path cost (g)?",
+      "options": {
+        "A": "A* Search",
+        "B": "Greedy Best-First Search",
+        "C": "Uniform Cost Search",
+        "D": "Dijkstra's Algorithm"
+      },
+      "answer": "B",
+      "explanation": "Greedy search only expands the node that appears closest to the goal based on h(n).",
+      "hash": "93dc0dd63524f762",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च एल्गोरिथम 'ह्यूरिस्टिक' का उपयोग करता है लेकिन पथ लागत (g) पर विचार नहीं करता है?",
+          "options": {
+            "A": "ए* सर्च",
+            "B": "ग्रीडी बेस्ट-फर्स्ट सर्च",
+            "C": "यूनिफॉर्म कॉस्ट सर्च",
+            "D": "डिज्कस्ट्रा का एल्गोरिथम"
+          },
+          "explanation": "ग्रीडी सर्च केवल उस नोड का विस्तार करती है जो h(n) के आधार पर लक्ष्य के सबसे करीब दिखाई देता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-019",
+      "number": 19,
+      "question": "What is the 'Utility Function' used for in AI agents?",
+      "options": {
+        "A": "To check hardware status",
+        "B": "To map states to a real number representing 'happiness' or 'preference'",
+        "C": "To calculate electricity cost",
+        "D": "To sort data"
+      },
+      "answer": "B",
+      "explanation": "Utility functions help agents choose actions that maximize their expected \"well-being\".",
+      "hash": "dac7882814a9e30e",
+      "translations": {
+        "hi": {
+          "question": "एआई एजेंटों में 'यूटिलिटी फंक्शन' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "हार्डवेयर की स्थिति जांचने के लिए",
+            "B": "स्थितियों को 'खुशी' या 'वरीयता' दर्शाने वाली वास्तविक संख्या में मैप करने के लिए",
+            "C": "बिजली की लागत की गणना करने के लिए",
+            "D": "डेटा सॉर्ट करने के लिए"
+          },
+          "explanation": "यूटिलिटी फंक्शन एजेंटों को उन कार्यों को चुनने में मदद करते हैं जो उनकी अपेक्षित \"भलाई\" को अधिकतम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-020",
+      "number": 20,
+      "question": "What does 'CNN' stand for in Computer Vision?",
+      "options": {
+        "A": "Computer Network Node",
+        "B": "Convolutional Neural Network",
+        "C": "Complex Neural Node",
+        "D": "Cyclic Network Node"
+      },
+      "answer": "B",
+      "explanation": "CNNs are deep learning models designed to process pixel data.",
+      "hash": "1b4879c5cf6ec66d",
+      "translations": {
+        "hi": {
+          "question": "कंप्यूटर विजन में 'CNN' का क्या अर्थ है?",
+          "options": {
+            "A": "कंप्यूटर नेटवर्क नोड",
+            "B": "कनवोल्यूशनल न्यूरल नेटवर्क",
+            "C": "कॉम्प्लेक्स न्यूरल नोड",
+            "D": "साइक्लिक नेटवर्क नोड"
+          },
+          "explanation": "CNN डीप लर्निंग मॉडल हैं जिन्हें पिक्सेल डेटा को प्रोसेस करने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-021",
+      "number": 21,
+      "question": "In a Knowledge Base, what is 'Fact'?",
+      "options": {
+        "A": "A variable that can change",
+        "B": "A basic statement that is always true in the domain",
+        "C": "A line of code",
+        "D": "A user's password"
+      },
+      "answer": "B",
+      "explanation": "Facts are the simplest form of knowledge used by inference engines.",
+      "hash": "0e331c51c698357f",
+      "translations": {
+        "hi": {
+          "question": "नॉलेज बेस में 'तथ्य' (Fact) क्या है?",
+          "options": {
+            "A": "एक वेरिएबल जो बदल सकता है",
+            "B": "एक बुनियादी कथन जो डोमेन में हमेशा सत्य होता है",
+            "C": "कोड की एक लाइन",
+            "D": "एक उपयोगकर्ता का पासवर्ड"
+          },
+          "explanation": "तथ्य ज्ञान का सबसे सरल रूप हैं जिसका उपयोग इंफरेंस इंजन द्वारा किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-022",
+      "number": 22,
+      "question": "What is 'Data Augmentation' in Deep Learning?",
+      "options": {
+        "A": "Deleting unnecessary data",
+        "B": "Creating new training samples by transforming existing ones",
+        "C": "Buying data from other companies",
+        "D": "Converting data to PDF"
+      },
+      "answer": "B",
+      "explanation": "Techniques like rotating or flipping images help increase the dataset size and variety.",
+      "hash": "12f8b276edc6c51c",
+      "translations": {
+        "hi": {
+          "question": "डीप लर्निंग में 'डेटा ऑगमेंटेशन' क्या है?",
+          "options": {
+            "A": "अनावश्यक डेटा को हटाना",
+            "B": "मौजूदा नमूनों को बदलकर नए ट्रेनिंग नमूने बनाना",
+            "C": "अन्य कंपनियों से डेटा खरीदना",
+            "D": "डेटा को PDF में बदलना"
+          },
+          "explanation": "इमेज को घुमाने या पलटने जैसी तकनीकें डेटासेट के आकार और विविधता को बढ़ाने में मदद करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-023",
+      "number": 23,
+      "question": "What is the 'Semantic Web'?",
+      "options": {
+        "A": "A web with only text",
+        "B": "A web where data is machine-understandable",
+        "C": "A high-speed internet",
+        "D": "A private network"
+      },
+      "answer": "B",
+      "explanation": "It aims to make web content meaningful for computers, not just humans.",
+      "hash": "1c3253364fde09a3",
+      "translations": {
+        "hi": {
+          "question": "'सिमेंटिक वेब' क्या है?",
+          "options": {
+            "A": "केवल टेक्स्ट वाला वेब",
+            "B": "एक वेब जहाँ डेटा मशीन द्वारा समझने योग्य है",
+            "C": "एक हाई-स्पीड इंटरनेट",
+            "D": "एक प्राइवेट नेटवर्क"
+          },
+          "explanation": "इसका लक्ष्य वेब सामग्री को केवल मनुष्यों के लिए ही नहीं, बल्कि कंप्यूटर के लिए भी सार्थक बनाना है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-024",
+      "number": 24,
+      "question": "In a Minimax tree, what does the 'Min' player aim to do?",
+      "options": {
+        "A": "Maximize the score",
+        "B": "Minimize the score",
+        "C": "Keep the score at zero",
+        "D": "Randomize the score"
+      },
+      "answer": "B",
+      "explanation": "The Min player chooses the action that leads to the lowest possible score for the Max player.",
+      "hash": "89c2c5bceefd5f7f",
+      "translations": {
+        "hi": {
+          "question": "मिनिमैक्स ट्री में, 'मिन' खिलाड़ी का लक्ष्य क्या होता है?",
+          "options": {
+            "A": "स्कोर को अधिकतम करना",
+            "B": "स्कोर को न्यूनतम करना",
+            "C": "स्कोर को शून्य पर रखना",
+            "D": "स्कोर को रैंडमाइज करना"
+          },
+          "explanation": "मिन खिलाड़ी उस क्रिया को चुनता है जो मैक्स खिलाड़ी के लिए न्यूनतम संभव स्कोर की ओर ले जाती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-025",
+      "number": 25,
+      "question": "Which logic handles statements that are either True, False, or Unknown?",
+      "options": {
+        "A": "Binary Logic",
+        "B": "Three-valued Logic",
+        "C": "Fuzzy Logic",
+        "D": "Boolean Logic"
+      },
+      "answer": "B",
+      "explanation": "Three-valued logic adds 'unknown' or 'neutral' to the standard true/false values.",
+      "hash": "8124377020f63bec",
+      "translations": {
+        "hi": {
+          "question": "कौन सा लॉजिक उन कथनों को संभालता है जो या तो सत्य, असत्य या अज्ञात हैं?",
+          "options": {
+            "A": "बाइनरी लॉजिक",
+            "B": "थ्री-वैल्यूड लॉजिक",
+            "C": "फजी लॉजिक",
+            "D": "बुलियन लॉजिक"
+          },
+          "explanation": "थ्री-वैल्यूड लॉजिक मानक सत्य/असत्य मानों में 'अज्ञात' या 'तटस्थ' जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-026",
+      "number": 26,
+      "question": "What is the 'Learning Rate' in optimization?",
+      "options": {
+        "A": "The speed of the internet",
+        "B": "The step size used to update weights during training",
+        "C": "The number of layers in a network",
+        "D": "The time taken to load data"
+      },
+      "answer": "B",
+      "explanation": "A high learning rate might overshoot the optimum, while a low one is very slow.",
+      "hash": "7a0c98eb7d46167e",
+      "translations": {
+        "hi": {
+          "question": "ऑप्टिमाइज़ेशन में 'लर्निंग रेट' क्या है?",
+          "options": {
+            "A": "इंटरनेट की गति",
+            "B": "ट्रेनिंग के दौरान वेट्स को अपडेट करने के लिए उपयोग किया जाने वाला स्टेप साइज",
+            "C": "नेटवर्क में परतों की संख्या",
+            "D": "डेटा लोड करने में लगने वाला समय"
+          },
+          "explanation": "एक हाई लर्निंग रेट इष्टतम (optimum) से आगे निकल सकता है, जबकि एक लो लर्निंग रेट बहुत धीमा होता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-027",
+      "number": 27,
+      "question": "What is 'Transfer Learning'?",
+      "options": {
+        "A": "Transferring data between computers",
+        "B": "Using a pre-trained model for a new, similar task",
+        "C": "Deleting a model after use",
+        "D": "Moving to a new office"
+      },
+      "answer": "B",
+      "explanation": "It allows models to leverage knowledge from previous tasks to learn faster.",
+      "hash": "369d70e80dc0c947",
+      "translations": {
+        "hi": {
+          "question": "'ट्रांसफर लर्निंग' क्या है?",
+          "options": {
+            "A": "कंप्यूटर के बीच डेटा ट्रांसफर करना",
+            "B": "एक नए, समान कार्य के लिए प्री-ट्रेंड मॉडल का उपयोग करना",
+            "C": "उपयोग के बाद मॉडल को हटाना",
+            "D": "नए ऑफिस में जाना"
+          },
+          "explanation": "यह मॉडल को तेजी से सीखने के लिए पिछले कार्यों के ज्ञान का लाभ उठाने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-028",
+      "number": 28,
+      "question": "Which of the following is a component of a 'Robot'?",
+      "options": {
+        "A": "Sensors",
+        "B": "Actuators",
+        "C": "Control System",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "A robot needs sensors to see, actuators to move, and a control system to think.",
+      "hash": "c3b68a18ff234d79",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन 'रोबोट' का एक घटक है?",
+          "options": {
+            "A": "सेंसर",
+            "B": "एक्चुएटर्स",
+            "C": "कंट्रोल सिस्टम",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "एक रोबोट को देखने के लिए सेंसर, चलने के लिए एक्चुएटर्स और सोचने के लिए कंट्रोल सिस्टम की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-029",
+      "number": 29,
+      "question": "Which algorithm is known for 'Branch and Bound' with an underestimate heuristic?",
+      "options": {
+        "A": "Depth First Search",
+        "B": "A* Search",
+        "C": "Hill Climbing",
+        "D": "Breadth First Search"
+      },
+      "answer": "B",
+      "explanation": "A* search is essentially branch-and-bound search with an admissible heuristic.",
+      "hash": "6948a98bde8dc305",
+      "translations": {
+        "hi": {
+          "question": "कम करके आंकने वाले (underestimate) ह्यूरिस्टिक के साथ 'ब्रांच एंड बाउंड' के लिए कौन सा एल्गोरिथम जाना जाता है?",
+          "options": {
+            "A": "डेप्थ फर्स्ट सर्च",
+            "B": "ए* सर्च",
+            "C": "हिल क्लाइंबिंग",
+            "D": "ब्रैड्थ फर्स्ट सर्च"
+          },
+          "explanation": "A* सर्च अनिवार्य रूप से एक एडमिसिबल ह्यूरिस्टिक के साथ ब्रांच-एंड-बाउंड सर्च है।"
+        }
+      }
+    },
+    {
+      "id": "ai-04-030",
+      "number": 30,
+      "question": "What is 'Natural Language Processing' (NLP) primarily used for?",
+      "options": {
+        "A": "Processing images",
+        "B": "Interaction between computers and human languages",
+        "C": "Developing hardware",
+        "D": "Database management"
+      },
+      "answer": "B",
+      "explanation": "NLP enables machines to read, understand, and derive meaning from human languages.",
+      "hash": "a4c940693019191e",
+      "translations": {
+        "hi": {
+          "question": "'नेचुरल लैंग्वेज प्रोसेसिंग' (NLP) का मुख्य रूप से उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "छवियों को संसाधित करने के लिए",
+            "B": "कंप्यूटर और मानव भाषाओं के बीच बातचीत के लिए",
+            "C": "हार्डवेयर विकसित करने के लिए",
+            "D": "डेटाबेस प्रबंधन के लिए"
+          },
+          "explanation": "एनएलपी मशीनों को मानव भाषाओं को पढ़ने, समझने और उनसे अर्थ निकालने में सक्षम बनाता है।"
+        }
+      }
+    }
+  ]
+}

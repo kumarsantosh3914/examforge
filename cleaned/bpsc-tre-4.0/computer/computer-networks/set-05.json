@@ -1,0 +1,787 @@
+{
+  "subject": "Computer Networks",
+  "set": 5,
+  "title": "Computer Networks Mock Test 5",
+  "questions": [
+    {
+      "id": "computer-networks-05-001",
+      "number": 1,
+      "question": "Which algorithm is used by the OSPF routing protocol?",
+      "options": {
+        "A": "Bellman-Ford",
+        "B": "Dijkstra's Algorithm",
+        "C": "Floyd-Warshall",
+        "D": "Prim's Algorithm"
+      },
+      "answer": "B",
+      "explanation": "OSPF (Open Shortest Path First) uses Dijkstra's algorithm to find the shortest path in a link-state database.",
+      "hash": "32db7abc16748f03",
+      "translations": {
+        "hi": {
+          "question": "OSPF रूटिंग प्रोटोकॉल द्वारा किस एल्गोरिदम का उपयोग किया जाता है?",
+          "options": {
+            "A": "बेलमैन-फोर्ड",
+            "B": "डिज्कस्ट्रा एल्गोरिदम",
+            "C": "फ्लॉयड-वर्शल",
+            "D": "प्रिम्स एल्गोरिदम"
+          },
+          "explanation": "OSPF लिंक-स्टेट डेटाबेस में सबसे छोटा रास्ता खोजने के लिए डिज्कस्ट्रा एल्गोरिदम का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-002",
+      "number": 2,
+      "question": "What is the size of the Offset field in the IPv4 header?",
+      "options": {
+        "A": "8 bits",
+        "B": "13 bits",
+        "C": "16 bits",
+        "D": "32 bits"
+      },
+      "answer": "B",
+      "explanation": "The 13-bit Fragmentation Offset field is used to reassemble fragmented packets.",
+      "hash": "8183554bcc30451a",
+      "translations": {
+        "hi": {
+          "question": "IPv4 हेडर में ऑफसेट (Offset) फील्ड का आकार क्या है?",
+          "options": {
+            "A": "8 बिट्स",
+            "B": "13 बिट्स",
+            "C": "16 बिट्स",
+            "D": "32 बिट्स"
+          },
+          "explanation": "13-बिट फ्रैगमेंटेशन ऑफसेट फील्ड का उपयोग फ्रैगमेंटेड पैकेटों को फिर से जोड़ने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-003",
+      "number": 3,
+      "question": "Which layer of the OSI model deals with dialogue control and synchronization?",
+      "options": {
+        "A": "Transport Layer",
+        "B": "Session Layer",
+        "C": "Presentation Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B",
+      "explanation": "The Session layer manages sessions, checkpoints, and dialogue between two applications.",
+      "hash": "f8b02461033d49e3",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत संवाद नियंत्रण (dialogue control) और सिंक्रोनाइजेशन से संबंधित है?",
+          "options": {
+            "A": "ट्रांसपोर्ट लेयर",
+            "B": "सेशन लेयर",
+            "C": "प्रेजेंटेशन लेयर",
+            "D": "एप्लीकेशन लेयर"
+          },
+          "explanation": "सेशन लेयर दो अनुप्रयोगों के बीच सत्र, चेकप्वाइंट और संवाद का प्रबंधन करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-004",
+      "number": 4,
+      "question": "What is the bit rate of a standard T1 carrier?",
+      "options": {
+        "A": "64 Kbps",
+        "B": "1.544 Mbps",
+        "C": "2.048 Mbps",
+        "D": "44.7 Mbps"
+      },
+      "answer": "B",
+      "explanation": "A T1 carrier consists of 24 DS0 channels and has a total speed of 1.544 Mbps.",
+      "hash": "138499df0a3df646",
+      "translations": {
+        "hi": {
+          "question": "एक मानक T1 कैरियर की बिट दर क्या है?",
+          "options": {
+            "A": "64 केबीपीएस",
+            "B": "1.544 एमबीपीएस",
+            "C": "2.048 एमबीपीएस",
+            "D": "44.7 एमबीपीएस"
+          },
+          "explanation": "एक T1 कैरियर में 24 DS0 चैनल होते हैं और इसकी कुल गति 1.544 एमबीपीएस होती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-005",
+      "number": 5,
+      "question": "Which protocol is used to map a MAC address to an IP address?",
+      "options": {
+        "A": "ARP",
+        "B": "RARP",
+        "C": "DHCP",
+        "D": "DNS"
+      },
+      "answer": "B",
+      "explanation": "Reverse ARP (RARP) is used by diskless workstations to find their IP address given their MAC address.",
+      "hash": "42a470130359f685",
+      "translations": {
+        "hi": {
+          "question": "MAC एड्रेस को IP एड्रेस में मैप करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एआरपी",
+            "B": "आरएआरपी",
+            "C": "डीएचसीपी",
+            "D": "डीएनएस"
+          },
+          "explanation": "रिवर्स एआरपी (RARP) का उपयोग डिस्कलेस वर्कस्टेशन द्वारा अपना मैक एड्रेस होने पर आईपी एड्रेस खोजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-006",
+      "number": 6,
+      "question": "In Go-Back-N ARQ, if the window size is 7, what is the range of sequence numbers?",
+      "options": {
+        "A": "0 to 6",
+        "B": "0 to 7",
+        "C": "0 to 8",
+        "D": "0 to 15"
+      },
+      "answer": "B",
+      "explanation": "In Go-Back-N, the sequence number range must be at least N+1 to avoid ambiguity.",
+      "hash": "b431059949df863c",
+      "translations": {
+        "hi": {
+          "question": "Go-Back-N ARQ में, यदि विंडो का आकार 7 है, तो सीक्वेंस नंबर की सीमा क्या होगी?",
+          "options": {
+            "A": "0 से 6",
+            "B": "0 से 7",
+            "C": "0 से 8",
+            "D": "0 से 15"
+          },
+          "explanation": "Go-Back-N में, अस्पष्टता से बचने के लिए सीक्वेंस नंबर की रेंज कम से कम N+1 होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-007",
+      "number": 7,
+      "question": "What is the maximum data rate of a 10Base-T Ethernet?",
+      "options": {
+        "A": "1 Mbps",
+        "B": "10 Mbps",
+        "C": "100 Mbps",
+        "D": "1000 Mbps"
+      },
+      "answer": "B",
+      "explanation": "10Base-T stands for 10 Mbps speed, Baseband transmission over Twisted pair.",
+      "hash": "31ac5123acc45244",
+      "translations": {
+        "hi": {
+          "question": "10Base-T ईथरनेट की अधिकतम डेटा दर क्या है?",
+          "options": {
+            "A": "1 एमबीपीएस",
+            "B": "10 एमबीपीएस",
+            "C": "100 एमबीपीएस",
+            "D": "1000 एमबीपीएस"
+          },
+          "explanation": "10Base-T का अर्थ है 10 एमबीपीएस की गति, ट्विस्टेड पेयर पर बेसबैंड ट्रांसमिशन।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-008",
+      "number": 8,
+      "question": "Which switching technique is used by the traditional telephone network?",
+      "options": {
+        "A": "Packet Switching",
+        "B": "Message Switching",
+        "C": "Circuit Switching",
+        "D": "Virtual Circuit Switching"
+      },
+      "answer": "C",
+      "explanation": "Circuit switching establishes a dedicated physical path for the duration of a call.",
+      "hash": "76402461a828e8b1",
+      "translations": {
+        "hi": {
+          "question": "पारंपरिक टेलीफोन नेटवर्क द्वारा किस स्विचिंग तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "पैकेट स्विचिंग",
+            "B": "मैसेज स्विचिंग",
+            "C": "सर्किट स्विचिंग",
+            "D": "वर्चुअल सर्किट स्विचिंग"
+          },
+          "explanation": "सर्किट स्विचिंग कॉल की अवधि के लिए एक समर्पित फिजिकल रास्ता स्थापित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-009",
+      "number": 9,
+      "question": "What does the \"TTL\" field in an IP packet represent?",
+      "options": {
+        "A": "Total Time Limit",
+        "B": "Time to Live",
+        "C": "Transmission Time Level",
+        "D": "Throughput Time Limit"
+      },
+      "answer": "B",
+      "explanation": "TTL prevents packets from looping infinitely by decrementing at each router.",
+      "hash": "b44504a76a2b446d",
+      "translations": {
+        "hi": {
+          "question": "IP पैकेट में \"TTL\" फील्ड क्या दर्शाता है?",
+          "options": {
+            "A": "टोटल टाइम लिमिट",
+            "B": "टाइम टू लिव",
+            "C": "ट्रांसमिशन टाइम लेवल",
+            "D": "थ्रूपुट टाइम लिमिट"
+          },
+          "explanation": "TTL प्रत्येक राउटर पर घटकर पैकेटों को अनिश्चित काल तक लूप होने से रोकता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-010",
+      "number": 10,
+      "question": "Which port is used for the Secure Shell (SSH) protocol?",
+      "options": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "Port 22 is the default port for secure remote login via SSH.",
+      "hash": "e6cdb4f59d9bf21b",
+      "translations": {
+        "hi": {
+          "question": "सिक्योर शेल (SSH) प्रोटोकॉल के लिए किस पोर्ट का उपयोग किया जाता है?",
+          "options": {
+            "A": "21",
+            "B": "22",
+            "C": "23",
+            "D": "25"
+          },
+          "explanation": "SSH के माध्यम से सुरक्षित रिमोट लॉगिन के लिए पोर्ट 22 डिफॉल्ट पोर्ट है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-011",
+      "number": 11,
+      "question": "Which sublayer of the Data Link Layer manages access to the shared medium?",
+      "options": {
+        "A": "Logical Link Control (LLC)",
+        "B": "Media Access Control (MAC)",
+        "C": "Framing Sublayer",
+        "D": "Error Control Sublayer"
+      },
+      "answer": "B",
+      "explanation": "The MAC sublayer is responsible for protocols like CSMA/CD and Token Passing.",
+      "hash": "697322b110b5b488",
+      "translations": {
+        "hi": {
+          "question": "डेटा लिंक लेयर की कौन सी सबलेयर साझा माध्यम (shared medium) तक पहुँच का प्रबंधन करती है?",
+          "options": {
+            "A": "लॉजिकल लिंक कंट्रोल",
+            "B": "मीडिया एक्सेस कंट्रोल",
+            "C": "फ्रेमिंग सबलेयर",
+            "D": "एरर कंट्रोल सबलेयर"
+          },
+          "explanation": "MAC सबलेयर CSMA/CD और टोकन पासिंग जैसे प्रोटोकॉल के लिए जिम्मेदार है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-012",
+      "number": 12,
+      "question": "Which error detection method uses binary division?",
+      "options": {
+        "A": "Simple Parity",
+        "B": "2D Parity",
+        "C": "Checksum",
+        "D": "CRC"
+      },
+      "answer": "D",
+      "explanation": "Cyclic Redundancy Check (CRC) uses a generator polynomial and binary division.",
+      "hash": "e19762098f6f5d7b",
+      "translations": {
+        "hi": {
+          "question": "कौन सी एरर डिटेक्शन विधि बाइनरी डिवीजन (binary division) का उपयोग करती है?",
+          "options": {
+            "A": "सिंपल पैरिटी",
+            "B": "2D पैरिटी",
+            "C": "चेकसम",
+            "D": "सीआरसी"
+          },
+          "explanation": "साइक्लिक रिडंडेंसी चेक (CRC) एक जनरेटर पॉलिनॉमियल और बाइनरी डिवीजन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-013",
+      "number": 13,
+      "question": "What is the default subnet mask for a Class C IP address?",
+      "options": {
+        "A": "255.0.0.0",
+        "B": "255.255.0.0",
+        "C": "255.255.255.0",
+        "D": "255.255.255.255"
+      },
+      "answer": "C",
+      "explanation": "Class C uses 24 bits for the network part and 8 bits for hosts.",
+      "hash": "fbfee2726dd352e7",
+      "translations": {
+        "hi": {
+          "question": "क्लास C IP एड्रेस के लिए डिफॉल्ट सबनेट मास्क क्या है?",
+          "options": {
+            "A": "255.0.0.0",
+            "B": "255.255.0.0",
+            "C": "255.255.255.0",
+            "D": "255.255.255.255"
+          },
+          "explanation": "क्लास C नेटवर्क भाग के लिए 24 बिट्स और होस्ट के लिए 8 बिट्स का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-014",
+      "number": 14,
+      "question": "Which device operates at the Physical Layer (Layer 1) only?",
+      "options": {
+        "A": "Switch",
+        "B": "Bridge",
+        "C": "Hub",
+        "D": "Router"
+      },
+      "answer": "C",
+      "explanation": "A hub is a layer 1 device that simply broadcasts electrical signals to all ports.",
+      "hash": "55864f14c498057a",
+      "translations": {
+        "hi": {
+          "question": "कौन सा डिवाइस केवल फिजिकल लेयर (लेयर 1) पर काम करता है?",
+          "options": {
+            "A": "स्विच",
+            "B": "ब्रिज",
+            "C": "हब",
+            "D": "राउटर"
+          },
+          "explanation": "हब एक लेयर 1 डिवाइस है जो केवल सभी पोर्ट पर इलेक्ट्रिकल सिग्नल ब्रॉडकास्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-015",
+      "number": 15,
+      "question": "Which IPv6 address type is equivalent to a private IPv4 address?",
+      "options": {
+        "A": "Global Unicast",
+        "B": "Link-Local",
+        "C": "Unique Local Address (ULA)",
+        "D": "Multicast"
+      },
+      "answer": "C",
+      "explanation": "Unique Local Addresses (ULA) are meant for use within an organization, like private IPv4.",
+      "hash": "38eaaa4594a85add",
+      "translations": {
+        "hi": {
+          "question": "कौन सा IPv6 एड्रेस प्रकार प्राइवेट IPv4 एड्रेस के बराबर है?",
+          "options": {
+            "A": "ग्लोबल यूनिकॉस्ट",
+            "B": "लिंक-लोकल",
+            "C": "यूनिक लोकल एड्रेस",
+            "D": "मल्टीकास्ट"
+          },
+          "explanation": "यूनिक लोकल एड्रेस (ULA) का उपयोग किसी संगठन के भीतर किया जाता है, जैसे प्राइवेट IPv4।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-016",
+      "number": 16,
+      "question": "Which type of cable consists of an inner core and a surrounding outer conductor?",
+      "options": {
+        "A": "UTP Cable",
+        "B": "STP Cable",
+        "C": "Coaxial Cable",
+        "D": "Fiber Optic"
+      },
+      "answer": "C",
+      "explanation": "Coaxial cables have a central conductor protected by an insulating layer and a shield.",
+      "hash": "eb9fac9bfccb6820",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के केबल में एक आंतरिक कोर और एक आसपास का बाहरी कंडक्टर होता है?",
+          "options": {
+            "A": "यूटीपी केबल",
+            "B": "एसटीपी केबल",
+            "C": "कोएक्सियल केबल",
+            "D": "फाइबर ऑप्टिक"
+          },
+          "explanation": "कोएक्सियल केबल में एक इंसुलेटिंग लेयर और शील्ड द्वारा सुरक्षित एक केंद्रीय कंडक्टर होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-017",
+      "number": 17,
+      "question": "What is the port number for the Simple Mail Transfer Protocol (SMTP)?",
+      "options": {
+        "A": "25",
+        "B": "80",
+        "C": "110",
+        "D": "443"
+      },
+      "answer": "A",
+      "explanation": "SMTP uses port 25 for the transfer of emails between mail servers.",
+      "hash": "8c376d3fcfabde97",
+      "translations": {
+        "hi": {
+          "question": "सिंपल मेल ट्रांसफर प्रोटोकॉल (SMTP) के लिए पोर्ट नंबर क्या है?",
+          "options": {
+            "A": "25",
+            "B": "80",
+            "C": "110",
+            "D": "443"
+          },
+          "explanation": "मेल सर्वरों के बीच ईमेल के ट्रांसफर के लिए SMTP पोर्ट 25 का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-018",
+      "number": 18,
+      "question": "Which flag in the TCP header is used to initiate a connection?",
+      "options": {
+        "A": "ACK",
+        "B": "FIN",
+        "C": "SYN",
+        "D": "RST"
+      },
+      "answer": "C",
+      "explanation": "The SYN (Synchronize) flag is the first step in the TCP three-way handshake.",
+      "hash": "941fd42df993255a",
+      "translations": {
+        "hi": {
+          "question": "कनेक्शन शुरू करने के लिए TCP हेडर में किस फ्लैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "एक्नॉलेजमेंट (ACK)",
+            "B": "फिनिश (FIN)",
+            "C": "सिंक्रोनाइज (SYN)",
+            "D": "रिसेट (RST)"
+          },
+          "explanation": "SYN फ्लैग TCP थ्री-वे हैंडशेक का पहला चरण है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-019",
+      "number": 19,
+      "question": "What is the range of a Class B IP address in decimal?",
+      "options": {
+        "A": "1 - 126",
+        "B": "128 - 191",
+        "C": "192 - 223",
+        "D": "224 - 239"
+      },
+      "answer": "B",
+      "explanation": "Class B addresses start with the first bit as '1' and the second as '0' (128 to 191).",
+      "hash": "df77011bdf9cf043",
+      "translations": {
+        "hi": {
+          "question": "दशमलव में क्लास B IP एड्रेस की रेंज क्या है?",
+          "options": {
+            "A": "1 - 126",
+            "B": "128 - 191",
+            "C": "192 - 223",
+            "D": "224 - 239"
+          },
+          "explanation": "क्लास B के पते पहले बिट '1' और दूसरे बिट '0' (128 से 191) से शुरू होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-020",
+      "number": 20,
+      "question": "In networking, what does the term \"Jitter\" mean?",
+      "options": {
+        "A": "High bandwidth",
+        "B": "Delay in packet arrival",
+        "C": "Variation in packet delay",
+        "D": "Number of packets lost"
+      },
+      "answer": "C",
+      "explanation": "Jitter is the variation in time between the arrival of individual packets in a stream.",
+      "hash": "5f8a6d97faba6d83",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में, \"जिटर\" (Jitter) शब्द का क्या अर्थ है?",
+          "options": {
+            "A": "हाई बैंडविड्थ",
+            "B": "पैकेट आने में देरी",
+            "C": "पैकेट की देरी में भिन्नता",
+            "D": "खोए हुए पैकेटों की संख्या"
+          },
+          "explanation": "जिटर एक स्ट्रीम में व्यक्तिगत पैकेटों के आगमन के बीच के समय में होने वाली भिन्नता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-021",
+      "number": 21,
+      "question": "What is the standard port number for HTTPS?",
+      "options": {
+        "A": "80",
+        "B": "443",
+        "C": "8080",
+        "D": "21"
+      },
+      "answer": "B",
+      "explanation": "HTTPS uses port 443 to transmit web data over a secure SSL/TLS connection.",
+      "hash": "eb57937e3865f01c",
+      "translations": {
+        "hi": {
+          "question": "HTTPS के लिए मानक पोर्ट नंबर क्या है?",
+          "options": {
+            "A": "80",
+            "B": "443",
+            "C": "8080",
+            "D": "21"
+          },
+          "explanation": "HTTPS सुरक्षित SSL/TLS कनेक्शन पर वेब डेटा संचारित करने के लिए पोर्ट 443 का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-022",
+      "number": 22,
+      "question": "Which layer is responsible for end-to-end flow control and error recovery?",
+      "options": {
+        "A": "Data Link Layer",
+        "B": "Network Layer",
+        "C": "Transport Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "C",
+      "explanation": "The Transport layer (TCP) ensures reliable delivery between source and destination.",
+      "hash": "93c025350dcdc459",
+      "translations": {
+        "hi": {
+          "question": "कौन सी परत एंड-टू-एंड फ्लो कंट्रोल और एरर रिकवरी के लिए जिम्मेदार है?",
+          "options": {
+            "A": "डेटा लिंक लेयर",
+            "B": "नेटवर्क लेयर",
+            "C": "ट्रांसपोर्ट लेयर",
+            "D": "फिजिकल लेयर"
+          },
+          "explanation": "ट्रांसपोर्ट लेयर (TCP) सोर्स और डेस्टिनेशन के बीच विश्वसनीय डिलीवरी सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-023",
+      "number": 23,
+      "question": "Which multiplexing technique is used specifically for optical fiber?",
+      "options": {
+        "A": "TDM",
+        "B": "FDM",
+        "C": "WDM",
+        "D": "CDM"
+      },
+      "answer": "C",
+      "explanation": "Wavelength Division Multiplexing (WDM) combines multiple light signals on one fiber.",
+      "hash": "cd3ecac0dba1ece6",
+      "translations": {
+        "hi": {
+          "question": "विशेष रूप से ऑप्टिकल फाइबर के लिए किस मल्टीप्लेक्सिंग तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "टीडीएम",
+            "B": "एफडीएम",
+            "C": "डब्ल्यूडीएम",
+            "D": "सीडीएम"
+          },
+          "explanation": "वेवलेंथ डिवीजन मल्टीप्लेक्सिंग (WDM) एक फाइबर पर कई प्रकाश संकेतों को जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-024",
+      "number": 24,
+      "question": "What is the size of the MAC address in bits?",
+      "options": {
+        "A": "32 bits",
+        "B": "48 bits",
+        "C": "64 bits",
+        "D": "128 bits"
+      },
+      "answer": "B",
+      "explanation": "A MAC address is a 48-bit unique hardware identifier burned into the NIC.",
+      "hash": "942072c9b377cea5",
+      "translations": {
+        "hi": {
+          "question": "बिट्स में MAC एड्रेस का आकार क्या है?",
+          "options": {
+            "A": "32 बिट्स",
+            "B": "48 बिट्स",
+            "C": "64 बिट्स",
+            "D": "128 बिट्स"
+          },
+          "explanation": "MAC एड्रेस एक 48-बिट विशिष्ट हार्डवेयर पहचानकर्ता है जो NIC में बर्न होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-025",
+      "number": 25,
+      "question": "Which protocol is used by 'ping' to report errors?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "ICMP",
+        "D": "SMTP"
+      },
+      "answer": "C",
+      "explanation": "ICMP (Internet Control Message Protocol) is used for diagnostic and error messages.",
+      "hash": "63db385ef3a5ea9c",
+      "translations": {
+        "hi": {
+          "question": "एरर रिपोर्ट करने के लिए 'ping' द्वारा किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "यूडीपी",
+            "C": "आईसीएमपी",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "ICMP का उपयोग डायग्नोस्टिक और एरर संदेशों के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-026",
+      "number": 26,
+      "question": "Which topology uses a central controller or Hub?",
+      "options": {
+        "A": "Bus",
+        "B": "Star",
+        "C": "Ring",
+        "D": "Mesh"
+      },
+      "answer": "B",
+      "explanation": "In a star topology, all devices connect to a central hub or switch.",
+      "hash": "9f510df18f18f37f",
+      "translations": {
+        "hi": {
+          "question": "कौन सी टोपोलॉजी एक केंद्रीय नियंत्रक या हब का उपयोग करती है?",
+          "options": {
+            "A": "बस",
+            "B": "स्टार",
+            "C": "रिंग",
+            "D": "मेश"
+          },
+          "explanation": "स्टार टोपोलॉजी में, सभी डिवाइस एक केंद्रीय हब या स्विच से जुड़ते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-027",
+      "number": 27,
+      "question": "What is the purpose of CSMA/CD?",
+      "options": {
+        "A": "Encryption",
+        "B": "Routing",
+        "C": "Collision Detection",
+        "D": "Flow control"
+      },
+      "answer": "C",
+      "explanation": "CSMA/CD is a media access control method used to detect collisions in wired Ethernet.",
+      "hash": "327ded5120e096b9",
+      "translations": {
+        "hi": {
+          "question": "CSMA/CD का उद्देश्य क्या है?",
+          "options": {
+            "A": "एन्क्रिप्शन",
+            "B": "रूटिंग",
+            "C": "कोलिजन डिटेक्शन",
+            "D": "फ्लो कंट्रोल"
+          },
+          "explanation": "CSMA/CD एक मीडिया एक्सेस कंट्रोल विधि है जिसका उपयोग वायर्ड ईथरनेट में टकराव का पता लगाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-028",
+      "number": 28,
+      "question": "Which layer handles data encryption and compression?",
+      "options": {
+        "A": "Session Layer",
+        "B": "Presentation Layer",
+        "C": "Application Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "B",
+      "explanation": "The Presentation layer ensures data is readable by the Application layer.",
+      "hash": "b43edc1b8045d843",
+      "translations": {
+        "hi": {
+          "question": "कौन सी परत डेटा एन्क्रिप्शन और कंप्रेशन को संभालती है?",
+          "options": {
+            "A": "सेशन लेयर",
+            "B": "प्रेजेंटेशन लेयर",
+            "C": "एप्लीकेशन लेयर",
+            "D": "ट्रांसपोर्ट लेयर"
+          },
+          "explanation": "प्रेजेंटेशन लेयर यह सुनिश्चित करती है कि डेटा एप्लीकेशन लेयर द्वारा पठनीय हो।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-029",
+      "number": 29,
+      "question": "Which Class of IP addresses is reserved for multicast?",
+      "options": {
+        "A": "Class A",
+        "B": "Class B",
+        "C": "Class D",
+        "D": "Class E"
+      },
+      "answer": "C",
+      "explanation": "Class D addresses (224.0.0.0 to 239.255.255.255) are used for multicasting.",
+      "hash": "b2454de50f76a277",
+      "translations": {
+        "hi": {
+          "question": "IP एड्रेस की कौन सी क्लास मल्टीकास्ट के लिए आरक्षित है?",
+          "options": {
+            "A": "क्लास A",
+            "B": "क्लास B",
+            "C": "क्लास D",
+            "D": "क्लास E"
+          },
+          "explanation": "क्लास D एड्रेस (224.0.0.0 से 239.255.255.255) का उपयोग मल्टीकास्टिंग के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-05-030",
+      "number": 30,
+      "question": "Which field in an Ethernet frame is used for error detection?",
+      "options": {
+        "A": "Preamble",
+        "B": "Source Address",
+        "C": "Payload",
+        "D": "FCS (Frame Check Sequence)"
+      },
+      "answer": "D",
+      "explanation": "The FCS field contains a CRC value to verify the integrity of the frame.",
+      "hash": "9b5768a5d7b1e77f",
+      "translations": {
+        "hi": {
+          "question": "ईथरनेट फ्रेम में एरर डिटेक्शन के लिए किस फील्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्रिअंबल",
+            "B": "सोर्स एड्रेस",
+            "C": "पेलोड",
+            "D": "एफसीएस"
+          },
+          "explanation": "FCS फील्ड में फ्रेम की अखंडता को सत्यापित करने के लिए CRC मान होता है।"
+        }
+      }
+    }
+  ]
+}

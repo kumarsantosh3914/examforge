@@ -1,0 +1,787 @@
+{
+  "subject": "Machine Learning",
+  "set": 2,
+  "title": "Machine Learning Mock Test 2",
+  "questions": [
+    {
+      "id": "machine-learning-02-001",
+      "number": 1,
+      "question": "Which algorithm is based on the Bayes' Theorem of conditional probability?",
+      "options": {
+        "A": "Random Forest",
+        "B": "Naive Bayes",
+        "C": "K-Nearest Neighbors",
+        "D": "Support Vector Machine"
+      },
+      "answer": "B",
+      "explanation": "Naive Bayes is a probabilistic classifier based on applying Bayes' theorem with strong independence assumptions.",
+      "hash": "c0df840e376fe24d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म कंडीशनल प्रोबेबिलिटी के बायेस प्रमेय पर आधारित है?",
+          "options": {
+            "A": "रैंडम फ़ॉरेस्ट",
+            "B": "नैवे बायेस",
+            "C": "के-नियरेस्ट नेबर्स",
+            "D": "सपोर्ट वेक्टर मशीन"
+          },
+          "explanation": "नैवे बायेस एक संभाव्यता आधारित क्लासिफायर है जो बायेस प्रमेय को स्वतंत्रता की मजबूत मान्यताओं के साथ लागू करने पर आधारित है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-002",
+      "number": 2,
+      "question": "In a neural network, which layer is responsible for extracting features from the input?",
+      "options": {
+        "A": "Output layer",
+        "B": "Hidden layer",
+        "C": "Input layer",
+        "D": "Fully connected layer"
+      },
+      "answer": "B",
+      "explanation": "Hidden layers perform intermediate computations and extract patterns/features from the data provided by the input layer.",
+      "hash": "9b7f24d2dcc3b107",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में, इनपुट से फीचर्स निकालने के लिए कौन सी लेयर जिम्मेदार होती है?",
+          "options": {
+            "A": "आउटपुट लेयर",
+            "B": "हिडन लेयर",
+            "C": "इनपुट लेयर",
+            "D": "फुली कनेक्टेड लेयर"
+          },
+          "explanation": "हिडन लेयर्स मध्यवर्ती गणना करती हैं और इनपुट लेयर द्वारा प्रदान किए गए डेटा से पैटर्न/फीचर्स निकालती हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-003",
+      "number": 3,
+      "question": "What is the primary purpose of 'One-Hot Encoding'?",
+      "options": {
+        "A": "Scaling numerical data",
+        "B": "Converting categorical data into a numerical format",
+        "C": "Reducing the size of the dataset",
+        "D": "Removing outliers"
+      },
+      "answer": "B",
+      "explanation": "One-hot encoding creates binary columns for each category, allowing algorithms to process non-numeric data.",
+      "hash": "4a67ce9eab20df81",
+      "translations": {
+        "hi": {
+          "question": "'वन-हॉट एनकोडिंग' का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "न्यूमेरिकल डेटा को स्केल करना",
+            "B": "कैटेगोरिकल डेटा को न्यूमेरिकल फॉर्मेट में बदलना",
+            "C": "डेटासेट के आकार को कम करना",
+            "D": "आउटलेर्स को हटाना"
+          },
+          "explanation": "वन-हॉट एनकोडिंग प्रत्येक श्रेणी के लिए बाइनरी कॉलम बनाती है, जिससे एल्गोरिदम को गैर-न्यूमेरिक डेटा को प्रोसेस करने की अनुमति मिलती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-004",
+      "number": 4,
+      "question": "In K-Means clustering, how is the 'Elbow Method' used?",
+      "options": {
+        "A": "To find the optimal learning rate",
+        "B": "To determine the optimal number of clusters (K)",
+        "C": "To calculate the distance between points",
+        "D": "To stop the training process"
+      },
+      "answer": "B",
+      "explanation": "The Elbow Method helps pick the value of K where adding more clusters doesn't significantly improve the within-cluster variance.",
+      "hash": "089d7e4845fdb57d",
+      "translations": {
+        "hi": {
+          "question": "के-मीन्स क्लस्टरिंग में, 'एल्बो मेथड' का उपयोग कैसे किया जाता है?",
+          "options": {
+            "A": "इष्टतम लर्निंग रेट खोजने के लिए",
+            "B": "क्लस्टर्स की इष्टतम संख्या (K) निर्धारित करने के लिए",
+            "C": "बिंदुओं के बीच की दूरी की गणना करने के लिए",
+            "D": "ट्रेनिंग प्रक्रिया को रोकने के लिए"
+          },
+          "explanation": "एल्बो मेथड K का वह मान चुनने में मदद करता है जहाँ अधिक क्लस्टर जोड़ने से क्लस्टर के भीतर वेरियंस में महत्वपूर्ण सुधार नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-005",
+      "number": 5,
+      "question": "Which of the following is a measure of the purity of a node in a Decision Tree?",
+      "options": {
+        "A": "Entropy",
+        "B": "Gradient",
+        "C": "Euclidean distance",
+        "D": "Silhouette score"
+      },
+      "answer": "A",
+      "explanation": "Entropy measures the level of impurity or randomness in a dataset; lower entropy means higher purity.",
+      "hash": "e69e364748dac060",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में नोड की शुद्धता (purity) का माप निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "एंट्रॉपी",
+            "B": "ग्रेडिएंट",
+            "C": "यूक्लिडियन दूरी",
+            "D": "सिल्हूट स्कोर"
+          },
+          "explanation": "एंट्रॉपी डेटासेट में अशुद्धता या यादृच्छिकता के स्तर को मापती है; कम एंट्रॉपी का अर्थ है उच्च शुद्धता।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-006",
+      "number": 6,
+      "question": "Which type of machine learning uses a 'Reward Function' to train models?",
+      "options": {
+        "A": "Supervised Learning",
+        "B": "Unsupervised Learning",
+        "C": "Reinforcement Learning",
+        "D": "Semi-supervised Learning"
+      },
+      "answer": "C",
+      "explanation": "Reinforcement Learning relies on feedback in the form of rewards or penalties based on the agent's actions.",
+      "hash": "3ce94f717ddbdc5c",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की मशीन लर्निंग मॉडल को प्रशिक्षित करने के लिए 'रिवॉर्ड फ़ंक्शन' का उपयोग करती है?",
+          "options": {
+            "A": "सुपरवाइज्ड लर्निंग",
+            "B": "अनसुपरवाइज्ड लर्निंग",
+            "C": "रीइन्फोर्समेंट लर्निंग",
+            "D": "सेमी-सुपरवाइज्ड लर्निंग"
+          },
+          "explanation": "रीइन्फोर्समेंट लर्निंग एजेंट के कार्यों के आधार पर पुरस्कार या दंड के रूप में फीडबैक पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-007",
+      "number": 7,
+      "question": "What does the term 'Hyperparameter' refer to?",
+      "options": {
+        "A": "Parameters learned during training",
+        "B": "Configuration settings set before the learning process starts",
+        "C": "The output of the cost function",
+        "D": "The number of rows in the dataset"
+      },
+      "answer": "B",
+      "explanation": "Hyperparameters are external configurations (like learning rate or number of trees) that guide the learning process.",
+      "hash": "ce7198e7555d33a6",
+      "translations": {
+        "hi": {
+          "question": "'हाइपरपैरामीटर' शब्द का तात्पर्य क्या है?",
+          "options": {
+            "A": "ट्रेनिंग के दौरान सीखे गए पैरामीटर्स",
+            "B": "लर्निंग प्रक्रिया शुरू होने से पहले सेट की गई कॉन्फ़िगरेशन सेटिंग्स",
+            "C": "लागत फ़ंक्शन का आउटपुट",
+            "D": "डेटासेट में पंक्तियों की संख्या"
+          },
+          "explanation": "हाइपरपैरामीटर बाहरी कॉन्फ़िगरेशन (जैसे लर्निंग रेट या पेड़ों की संख्या) होते हैं जो लर्निंग प्रक्रिया का मार्गदर्शन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-008",
+      "number": 8,
+      "question": "Which of the following algorithms is an example of an 'Ensemble' method?",
+      "options": {
+        "A": "Linear Regression",
+        "B": "AdaBoost",
+        "C": "PCA",
+        "D": "K-Means"
+      },
+      "answer": "B",
+      "explanation": "AdaBoost (Adaptive Boosting) is an ensemble technique that combines multiple weak classifiers to form a strong one.",
+      "hash": "7be83efc79242347",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एल्गोरिथ्म 'एन्सेम्बल' पद्धति का एक उदाहरण है?",
+          "options": {
+            "A": "लीनियर रिग्रेशन",
+            "B": "एडाबूस्ट",
+            "C": "पीसीए",
+            "D": "के-मीन्स"
+          },
+          "explanation": "एडाबूस्ट (एडाप्टिव बूस्टिंग) एक एन्सेम्बल तकनीक है जो एक मजबूत क्लासिफायर बनाने के लिए कई कमजोर क्लासिफायर्स को मिलाती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-009",
+      "number": 9,
+      "question": "The 'Sigmoid' activation function is most commonly used in which layer for binary classification?",
+      "options": {
+        "A": "Input layer",
+        "B": "Hidden layer",
+        "C": "Output layer",
+        "D": "Every layer"
+      },
+      "answer": "C",
+      "explanation": "For binary classification, the output layer uses Sigmoid to squash the output between 0 and 1, representing probability.",
+      "hash": "a7df1f52dc6919d2",
+      "translations": {
+        "hi": {
+          "question": "'सिग्मॉइड' एक्टिवेशन फ़ंक्शन आमतौर पर बाइनरी वर्गीकरण के लिए किस लेयर में उपयोग किया जाता है?",
+          "options": {
+            "A": "इनपुट लेयर",
+            "B": "हिडन लेयर",
+            "C": "आउटपुट लेयर",
+            "D": "प्रत्येक लेयर"
+          },
+          "explanation": "बाइनरी वर्गीकरण के लिए, आउटपुट लेयर आउटपुट को 0 और 1 के बीच सिकोड़ने के लिए सिग्मॉइड का उपयोग करती है, जो संभावना का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-010",
+      "number": 10,
+      "question": "What is 'Data Leakage' in machine learning?",
+      "options": {
+        "A": "Loss of data during transmission",
+        "B": "When information from outside the training dataset is used to create the model",
+        "C": "Unintentional deletion of target variables",
+        "D": "Encrypting the data for security"
+      },
+      "answer": "B",
+      "explanation": "Data leakage occurs when training data contains information that would not be available at the time of prediction, leading to over-optimistic results.",
+      "hash": "5a81920bb151942e",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में 'डेटा लीकेज' क्या है?",
+          "options": {
+            "A": "ट्रांसमिशन के दौरान डेटा की हानि",
+            "B": "जब मॉडल बनाने के लिए ट्रेनिंग डेटासेट के बाहर की जानकारी का उपयोग किया जाता है",
+            "C": "टारगेट वेरिएबल्स का अनजाने में विलोपन",
+            "D": "सुरक्षा के लिए डेटा को एनक्रिप्ट करना"
+          },
+          "explanation": "डेटा लीकेज तब होता है जब ट्रेनिंग डेटा में ऐसी जानकारी होती है जो भविष्यवाणी के समय उपलब्ध नहीं होगी, जिससे अत्यधिक आशावादी परिणाम मिलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-011",
+      "number": 11,
+      "question": "In machine learning, what does 'Recall' measure?",
+      "options": {
+        "A": "Proportion of actual positives correctly identified",
+        "B": "Proportion of positive identifications that were actually correct",
+        "C": "Overall accuracy of the model",
+        "D": "Time taken to retrieve data"
+      },
+      "answer": "A",
+      "explanation": "Recall (Sensitivity) measures the ability of a model to find all the relevant cases within a dataset.",
+      "hash": "56cb63fc6cb15fdf",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में, 'रिकॉल' क्या मापता है?",
+          "options": {
+            "A": "सही ढंग से पहचाने गए वास्तविक सकारात्मक का अनुपात",
+            "B": "सकारात्मक पहचान का अनुपात जो वास्तव में सही था",
+            "C": "मॉडल की समग्र सटीकता",
+            "D": "डेटा पुनर्प्राप्त करने में लगने वाला समय"
+          },
+          "explanation": "रिकॉल (संवेदनशीलता) डेटासेट के भीतर सभी प्रासंगिक मामलों को खोजने की मॉडल की क्षमता को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-012",
+      "number": 12,
+      "question": "What happens if the learning rate is too small in Gradient Descent?",
+      "options": {
+        "A": "The model will never converge",
+        "B": "The model will converge very slowly",
+        "C": "The model will overshoot the minimum",
+        "D": "The accuracy will be 100%"
+      },
+      "answer": "B",
+      "explanation": "A very small learning rate makes the training process extremely slow because the weights are updated by tiny amounts.",
+      "hash": "92f25d7ed689b0a9",
+      "translations": {
+        "hi": {
+          "question": "यदि ग्रेडिएंट डिसेंट में लर्निंग रेट बहुत कम है तो क्या होगा?",
+          "options": {
+            "A": "मॉडल कभी स्थिर (converge) नहीं होगा",
+            "B": "मॉडल बहुत धीरे-धीरे स्थिर होगा",
+            "C": "मॉडल न्यूनतम मान से आगे निकल जाएगा",
+            "D": "सटीकता 100% होगी"
+          },
+          "explanation": "बहुत कम लर्निंग रेट ट्रेनिंग प्रक्रिया को बहुत धीमा कर देता है क्योंकि वेट्स बहुत कम मात्रा में अपडेट होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-013",
+      "number": 13,
+      "question": "Which of the following is NOT a technique for dimensionality reduction?",
+      "options": {
+        "A": "PCA",
+        "B": "LDA (Linear Discriminant Analysis)",
+        "C": "t-SNE",
+        "D": "DBSCAN"
+      },
+      "answer": "D",
+      "explanation": "DBSCAN is a density-based clustering algorithm, not a dimensionality reduction technique.",
+      "hash": "bd42f578bb9ee768",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा डाइमेंशनलिटी रिडक्शन की तकनीक नहीं है?",
+          "options": {
+            "A": "पीसीए",
+            "B": "एलडीए",
+            "C": "टी-एसएनई",
+            "D": "डीबीस्कैन"
+          },
+          "explanation": "डीबीस्कैन (DBSCAN) एक डेंसिटी-आधारित क्लस्टरिंग एल्गोरिथ्म है, डाइमेंशनलिटी रिडक्शन तकनीक नहीं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-014",
+      "number": 14,
+      "question": "Which distance metric is default for K-Nearest Neighbors?",
+      "options": {
+        "A": "Manhattan distance",
+        "B": "Euclidean distance",
+        "C": "Minkowski distance",
+        "D": "Cosine similarity"
+      },
+      "answer": "B",
+      "explanation": "Euclidean distance (straight-line distance) is the most standard distance metric used in KNN.",
+      "hash": "70f55f0b34318c1e",
+      "translations": {
+        "hi": {
+          "question": "के-नियरेस्ट नेबर्स के लिए कौन सा डिस्टेंस मीट्रिक डिफॉल्ट है?",
+          "options": {
+            "A": "मैनहट्टन दूरी",
+            "B": "यूक्लिडियन दूरी",
+            "C": "मिन्कोव्स्की दूरी",
+            "D": "कोसाइन सिमिलैरिटी"
+          },
+          "explanation": "यूक्लिडियन दूरी (सीधी रेखा की दूरी) केएनएन (KNN) में उपयोग किया जाने वाला सबसे मानक डिस्टेंस मीट्रिक है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-015",
+      "number": 15,
+      "question": "What is the main objective of 'Lasso Regression' (L1 regularization)?",
+      "options": {
+        "A": "To make all weights zero",
+        "B": "To perform feature selection by shrinking some coefficients to zero",
+        "C": "To increase the complexity of the model",
+        "D": "To avoid using any training data"
+      },
+      "answer": "B",
+      "explanation": "Lasso can exclude irrelevant features by setting their coefficients to exactly zero, effectively performing feature selection.",
+      "hash": "5730dc0ea548b37c",
+      "translations": {
+        "hi": {
+          "question": "'लासौ रिग्रेशन' (L1 रेगुलराइजेशन) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "सभी वेट्स को शून्य बनाना",
+            "B": "कुछ गुणांकों को शून्य तक सिकोड़कर फीचर चयन करना",
+            "C": "मॉडल की जटिलता को बढ़ाना",
+            "D": "किसी भी ट्रेनिंग डेटा के उपयोग से बचना"
+          },
+          "explanation": "लासौ (Lasso) अप्रासंगिक फीचर्स के गुणांकों को ठीक शून्य पर सेट करके उन्हें बाहर कर सकता है, जिससे प्रभावी रूप से फीचर चयन होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-016",
+      "number": 16,
+      "question": "In a Decision Tree, what is the 'Root Node'?",
+      "options": {
+        "A": "The node at the very bottom",
+        "B": "The node that represents the entire population or sample",
+        "C": "A node that does not split further",
+        "D": "The node containing the final answer"
+      },
+      "answer": "B",
+      "explanation": "The root node is the topmost node in a decision tree where the first split occurs based on the most significant feature.",
+      "hash": "f78ac8709a216792",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, 'रूट नोड' क्या है?",
+          "options": {
+            "A": "सबसे नीचे वाला नोड",
+            "B": "वह नोड जो पूरी आबादी या नमूने का प्रतिनिधित्व करता है",
+            "C": "वह नोड जो आगे विभाजित नहीं होता",
+            "D": "अंतिम उत्तर वाला नोड"
+          },
+          "explanation": "रूट नोड डिसीजन ट्री में सबसे ऊपर का नोड होता है जहाँ सबसे महत्वपूर्ण फीचर के आधार पर पहला विभाजन होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-017",
+      "number": 17,
+      "question": "'Stochastic Gradient Descent' (SGD) updates weights after?",
+      "options": {
+        "A": "Every single training example",
+        "B": "The entire training set",
+        "C": "A small batch of examples",
+        "D": "Every 10 epochs"
+      },
+      "answer": "A",
+      "explanation": "Unlike Batch Gradient Descent, SGD updates parameters for each training example one by one, making it faster but noisier.",
+      "hash": "faac6d2d8a516634",
+      "translations": {
+        "hi": {
+          "question": "'स्टोकेस्टिक ग्रेडिएंट डिसेंट' (SGD) वेट्स को कब अपडेट करता है?",
+          "options": {
+            "A": "प्रत्येक ट्रेनिंग उदाहरण के बाद",
+            "B": "पूरे ट्रेनिंग सेट के बाद",
+            "C": "उदाहरणों के एक छोटे बैच के बाद",
+            "D": "प्रत्येक 10 इपोक के बाद"
+          },
+          "explanation": "बैच ग्रेडिएंट डिसेंट के विपरीत, SGD प्रत्येक ट्रेनिंग उदाहरण के लिए एक-एक करके मापदंडों को अपडेट करता है, जिससे यह तेज़ लेकिन अधिक शोर वाला होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-018",
+      "number": 18,
+      "question": "In Support Vector Machines, what is a 'Hyperplane'?",
+      "options": {
+        "A": "A circular boundary",
+        "B": "A decision boundary that separates different classes",
+        "C": "A data point closest to the margin",
+        "D": "The error rate of the model"
+      },
+      "answer": "B",
+      "explanation": "A hyperplane is a subspace of one dimension less than its ambient space that acts as a boundary for classification in SVM.",
+      "hash": "94b5490e1da9372e",
+      "translations": {
+        "hi": {
+          "question": "सपोर्ट वेक्टर मशीन में, 'हाइपरप्लेन' क्या है?",
+          "options": {
+            "A": "एक गोलाकार सीमा",
+            "B": "एक निर्णय सीमा जो विभिन्न वर्गों को अलग करती है",
+            "C": "मार्जिन के सबसे करीब का डेटा बिंदु",
+            "D": "मॉडल की त्रुटि दर"
+          },
+          "explanation": "हाइपरप्लेन अपने परिवेश स्थान से एक आयाम कम का उपसमूह है जो एसवीएम (SVM) में वर्गीकरण के लिए सीमा के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-019",
+      "number": 19,
+      "question": "What is the purpose of a 'Validation Set'?",
+      "options": {
+        "A": "To train the initial model",
+        "B": "To tune hyperparameters and prevent overfitting",
+        "C": "To test the model after it is completely finished",
+        "D": "To increase the size of the training set"
+      },
+      "answer": "B",
+      "explanation": "The validation set is used during training to evaluate the model's performance on unseen data and adjust hyperparameters.",
+      "hash": "4f1f90a531274e70",
+      "translations": {
+        "hi": {
+          "question": "'वैलिडेशन सेट' का उद्देश्य क्या है?",
+          "options": {
+            "A": "प्रारंभिक मॉडल को प्रशिक्षित करने के लिए",
+            "B": "हाइपरपैरामीटर को ट्यून करने और ओवरफिटिंग को रोकने के लिए",
+            "C": "मॉडल के पूरी तरह से तैयार होने के बाद उसका परीक्षण करने के लिए",
+            "D": "ट्रेनिंग सेट के आकार को बढ़ाने के लिए"
+          },
+          "explanation": "वैलिडेशन सेट का उपयोग ट्रेनिंग के दौरान अनदेखे डेटा पर मॉडल के प्रदर्शन का मूल्यांकन करने और हाइपरपैरामीटर को समायोजित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-020",
+      "number": 20,
+      "question": "Which of the following is a disadvantage of the K-Nearest Neighbors algorithm?",
+      "options": {
+        "A": "High training time",
+        "B": "High prediction time and memory usage",
+        "C": "Difficulty in understanding",
+        "D": "Inability to handle classification"
+      },
+      "answer": "B",
+      "explanation": "KNN is a 'lazy learner' that doesn't learn a model; it stores all data, making it slow and memory-intensive during prediction.",
+      "hash": "b2ef641e09c3168d",
+      "translations": {
+        "hi": {
+          "question": "के-नियरेस्ट नेबर्स एल्गोरिथ्म का नुकसान निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "उच्च ट्रेनिंग समय",
+            "B": "उच्च भविष्यवाणी समय और मेमोरी उपयोग",
+            "C": "समझने में कठिनाई",
+            "D": "वर्गीकरण करने में असमर्थता"
+          },
+          "explanation": "केएनएन एक 'लेजी लर्नर' है जो मॉडल नहीं सीखता; यह सभी डेटा को स्टोर करता है, जिससे यह भविष्यवाणी के दौरान धीमा और मेमोरी-गहन हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-021",
+      "number": 21,
+      "question": "What is 'Pruning' in the context of Decision Trees?",
+      "options": {
+        "A": "Adding more branches to the tree",
+        "B": "Removing unnecessary branches to reduce complexity",
+        "C": "Increasing the depth of the tree",
+        "D": "Changing the root node"
+      },
+      "answer": "B",
+      "explanation": "Pruning is used to simplify the tree and avoid overfitting by removing sections that provide little power to classify instances.",
+      "hash": "1b7811457cbb5d7d",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री के संदर्भ में 'प्रूनिंग' (Pruning) क्या है?",
+          "options": {
+            "A": "पेड़ में और शाखाएं जोड़ना",
+            "B": "जटिलता को कम करने के लिए अनावश्यक शाखाओं को हटाना",
+            "C": "पेड़ की गहराई बढ़ाना",
+            "D": "रूट नोड को बदलना"
+          },
+          "explanation": "प्रूनिंग का उपयोग पेड़ को सरल बनाने और उन हिस्सों को हटाकर ओवरफिटिंग से बचने के लिए किया जाता है जो वर्गीकरण में कम मदद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-022",
+      "number": 22,
+      "question": "Which of the following is a categorical variable?",
+      "options": {
+        "A": "Salary in Rupees",
+        "B": "Age in years",
+        "C": "Type of fruit (Apple, Orange, Banana)",
+        "D": "Temperature in Celsius"
+      },
+      "answer": "C",
+      "explanation": "Categorical variables represent types or groups rather than numerical measurements.",
+      "hash": "4fdd9e3eb00f8127",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक कैटेगोरिकल वेरिएबल है?",
+          "options": {
+            "A": "रुपये में वेतन",
+            "B": "वर्षों में आयु",
+            "C": "फल का प्रकार (सेब, संतरा, केला)",
+            "D": "सेल्सियस में तापमान"
+          },
+          "explanation": "कैटेगोरिकल वेरिएबल्स संख्यात्मक माप के बजाय प्रकारों या समूहों का प्रतिनिधित्व करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-023",
+      "number": 23,
+      "question": "Which evaluation metric is most sensitive to class imbalance?",
+      "options": {
+        "A": "Recall",
+        "B": "Precision",
+        "C": "Accuracy",
+        "D": "F1-Score"
+      },
+      "answer": "C",
+      "explanation": "Accuracy can be misleading if one class dominates; for example, if 99% of data is Class A, a model predicting only Class A will have 99% accuracy.",
+      "hash": "166f87c89af05e81",
+      "translations": {
+        "hi": {
+          "question": "वर्ग असंतुलन (class imbalance) के प्रति कौन सा मूल्यांकन मीट्रिक सबसे अधिक संवेदनशील है?",
+          "options": {
+            "A": "रिकॉल",
+            "B": "प्रिसिजन",
+            "C": "सटीकता",
+            "D": "F1-स्कोर"
+          },
+          "explanation": "सटीकता भ्रामक हो सकती है यदि एक वर्ग हावी हो; उदाहरण के लिए, यदि 99% डेटा क्लास A है, तो केवल क्लास A की भविष्यवाणी करने वाले मॉडल की सटीकता 99% होगी।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-024",
+      "number": 24,
+      "question": "What is the 'Kernel Trick' in SVM?",
+      "options": {
+        "A": "A method to speed up training",
+        "B": "Mapping low-dimensional data into a higher-dimensional space",
+        "C": "Removing outliers from the data",
+        "D": "Choosing the number of neighbors"
+      },
+      "answer": "B",
+      "explanation": "The kernel trick allows SVM to solve non-linear problems by projecting data into higher dimensions without actually calculating the coordinates.",
+      "hash": "4af9c542002dd566",
+      "translations": {
+        "hi": {
+          "question": "SVM में 'कर्नेल ट्रिक' क्या है?",
+          "options": {
+            "A": "ट्रेनिंग को तेज करने का एक तरीका",
+            "B": "निम्न-आयामी डेटा को उच्च-आयामी स्थान में मैप करना",
+            "C": "डेटा से आउटलेर्स को हटाना",
+            "D": "पड़ोसियों की संख्या चुनना"
+          },
+          "explanation": "कर्नेल ट्रिक एसवीएम (SVM) को वास्तव में निर्देशांक की गणना किए बिना डेटा को उच्च आयामों में प्रोजेक्ट करके गैर-रेखीय समस्याओं को हल करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-025",
+      "number": 25,
+      "question": "Underfitting is generally characterized by?",
+      "options": {
+        "A": "Low Bias and High Variance",
+        "B": "High Bias and Low Variance",
+        "C": "Low Bias and Low Variance",
+        "D": "High Bias and High Variance"
+      },
+      "answer": "B",
+      "explanation": "Underfitting occurs when the model is too simple to learn the data, leading to high training error (High Bias) and similar test error (Low Variance).",
+      "hash": "07db285f0f27163f",
+      "translations": {
+        "hi": {
+          "question": "अंडरफिटिंग को आमतौर पर किसके द्वारा पहचाना जाता है?",
+          "options": {
+            "A": "कम बायस और उच्च वेरियंस",
+            "B": "उच्च बायस और कम वेरियंस",
+            "C": "कम बायस और कम वेरियंस",
+            "D": "उच्च बायस और उच्च वेरियंस"
+          },
+          "explanation": "अंडरफिटिंग तब होती है जब मॉडल डेटा सीखने के लिए बहुत सरल होता है, जिससे उच्च ट्रेनिंग एरर (High Bias) और समान टेस्ट एरर (Low Variance) होता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-026",
+      "number": 26,
+      "question": "In a 'Random Forest', how are individual trees built?",
+      "options": {
+        "A": "Using the entire dataset for every tree",
+        "B": "Using a random subset of features and data (Bootstrapping)",
+        "C": "By following a sequential order",
+        "D": "By manually selecting the best features"
+      },
+      "answer": "B",
+      "explanation": "Random Forest uses bagging (bootstrapping) and random feature selection to ensure individual trees are diverse and uncorrelated.",
+      "hash": "6397bc1c066c497e",
+      "translations": {
+        "hi": {
+          "question": "'रैंडम फ़ॉरेस्ट' में, अलग-अलग पेड़ कैसे बनाए जाते हैं?",
+          "options": {
+            "A": "हर पेड़ के लिए पूरे डेटासेट का उपयोग करना",
+            "B": "फीचर्स और डेटा के एक रैंडम उपसमुच्चय का उपयोग करना (बूटस्ट्रैपिंग)",
+            "C": "एक अनुक्रमिक क्रम का पालन करके",
+            "D": "मैन्युअल रूप से सर्वश्रेष्ठ फीचर्स का चयन करके"
+          },
+          "explanation": "रैंडम फ़ॉरेस्ट व्यक्तिगत पेड़ों के विविध और असंबंधित होने को सुनिश्चित करने के लिए बैगिंग (बूटस्ट्रैपिंग) और रैंडम फीचर चयन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-027",
+      "number": 27,
+      "question": "Which of the following is a common loss function for Regression?",
+      "options": {
+        "A": "Cross-Entropy Loss",
+        "B": "Mean Absolute Error (MAE)",
+        "C": "Hinge Loss",
+        "D": "Zero-One Loss"
+      },
+      "answer": "B",
+      "explanation": "MAE calculates the average of absolute differences between predicted and actual values in regression tasks.",
+      "hash": "d626ec177ad42f65",
+      "translations": {
+        "hi": {
+          "question": "रिग्रेशन के लिए निम्नलिखित में से कौन सा एक सामान्य लॉस फ़ंक्शन है?",
+          "options": {
+            "A": "क्रॉस-एंट्रॉपी लॉस",
+            "B": "मीन एब्सोल्यूट एरर (MAE)",
+            "C": "हिंज लॉस",
+            "D": "जीरो-वन लॉस"
+          },
+          "explanation": "MAE रिग्रेशन कार्यों में अनुमानित और वास्तविक मूल्यों के बीच पूर्ण अंतर के औसत की गणना करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-028",
+      "number": 28,
+      "question": "What does 't-SNE' stand for in machine learning?",
+      "options": {
+        "A": "t-distributed Stochastic Neighbor Embedding",
+        "B": "Total Simple Network Estimator",
+        "C": "Time-Series Network Engineering",
+        "D": "True Synthetic Node Evaluation"
+      },
+      "answer": "A",
+      "explanation": "t-SNE is a non-linear dimensionality reduction technique well-suited for embedding high-dimensional data for visualization.",
+      "hash": "f7ba1a5f6fab06b7",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में 't-SNE' का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "टी-डिस्ट्रीब्यूटेड स्टोकेस्टिक नेबर एम्बेडिंग",
+            "B": "टोटल सिंपल नेटवर्क एस्टिमेटर",
+            "C": "टाइम-सीरीज नेटवर्क इंजीनियरिंग",
+            "D": "ट्रू सिंथेटिक नोड इवैल्यूएशन"
+          },
+          "explanation": "t-SNE एक गैर-रेखीय डाइमेंशनलिटी रिडक्शन तकनीक है जो विज़ुअलाइज़ेशन के लिए उच्च-आयामी डेटा को एम्बेड करने के लिए उपयुक्त है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-029",
+      "number": 29,
+      "question": "The process of adjusting model weights based on the error is called?",
+      "options": {
+        "A": "Forward Propagation",
+        "B": "Backpropagation",
+        "C": "Feature Selection",
+        "D": "Data Cleaning"
+      },
+      "answer": "B",
+      "explanation": "Backpropagation is the central mechanism by which neural networks learn by propagating error backwards through layers to update weights.",
+      "hash": "8d41754bd09b0cd3",
+      "translations": {
+        "hi": {
+          "question": "त्रुटि के आधार पर मॉडल के वेट्स को समायोजित करने की प्रक्रिया क्या कहलाती है?",
+          "options": {
+            "A": "फॉरवर्ड प्रोपेगेशन",
+            "B": "बैकप्रोपेगेशन",
+            "C": "फीचर चयन",
+            "D": "डेटा क्लीनिंग"
+          },
+          "explanation": "बैकप्रोपेगेशन वह केंद्रीय तंत्र है जिसके द्वारा न्यूरल नेटवर्क वेट्स को अपडेट करने के लिए परतों के माध्यम से त्रुटि को पीछे की ओर फैलाकर सीखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-02-030",
+      "number": 30,
+      "question": "Which algorithm is known as a 'Lazy Learner'?",
+      "options": {
+        "A": "Decision Tree",
+        "B": "Support Vector Machine",
+        "C": "K-Nearest Neighbors",
+        "D": "Neural Network"
+      },
+      "answer": "C",
+      "explanation": "KNN is called a lazy learner because it doesn't learn a discriminative function from the training data but stores the training dataset instead.",
+      "hash": "8d2f2504efb6a1ae",
+      "translations": {
+        "hi": {
+          "question": "किस एल्गोरिथ्म को 'लेजी लर्नर' के रूप में जाना जाता है?",
+          "options": {
+            "A": "डिसीजन ट्री",
+            "B": "सपोर्ट वेक्टर मशीन",
+            "C": "के-नियरेस्ट नेबर्स",
+            "D": "न्यूरल नेटवर्क"
+          },
+          "explanation": "KNN को लेजी लर्नर कहा जाता है क्योंकि यह ट्रेनिंग डेटा से विवेकात्मक फ़ंक्शन नहीं सीखता है बल्कि इसके बजाय ट्रेनिंग डेटासेट को स्टोर करता है।"
+        }
+      }
+    }
+  ]
+}

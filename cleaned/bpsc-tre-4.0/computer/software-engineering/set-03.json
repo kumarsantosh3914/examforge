@@ -1,0 +1,787 @@
+{
+  "subject": "Software Engineering",
+  "set": 3,
+  "title": "Software Engineering Mock Test 3",
+  "questions": [
+    {
+      "id": "software-engineering-03-001",
+      "number": 1,
+      "question": "In the Waterfall model, when can the testing phase begin?",
+      "options": {
+        "A": "Parallel to Coding",
+        "B": "After the Implementation phase",
+        "C": "Before the Design phase",
+        "D": "At any time"
+      },
+      "answer": "B",
+      "explanation": "Waterfall is a sequential model where each phase must be completed before the next begins.",
+      "hash": "f5b49e68eddf4af4",
+      "translations": {
+        "hi": {
+          "question": "वॉटरफॉल मॉडल में, टेस्टिंग चरण कब शुरू हो सकता है?",
+          "options": {
+            "A": "कोडिंग के समानांतर",
+            "B": "कार्यान्वयन चरण के बाद",
+            "C": "डिजाइन चरण से पहले",
+            "D": "किसी भी समय"
+          },
+          "explanation": "वॉटरफॉल एक अनुक्रमिक मॉडल है जहां अगले चरण के शुरू होने से पहले प्रत्येक चरण को पूरा किया जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-002",
+      "number": 2,
+      "question": "Which testing technique is based on the internal logic and structure of the code?",
+      "options": {
+        "A": "Black Box Testing",
+        "B": "White Box Testing",
+        "C": "Gray Box Testing",
+        "D": "Acceptance Testing"
+      },
+      "answer": "B",
+      "explanation": "White box testing involves testing the internal paths, logic, and implementation of the software.",
+      "hash": "3b903398787ce253",
+      "translations": {
+        "hi": {
+          "question": "कौन सी टेस्टिंग तकनीक कोड के आंतरिक तर्क और संरचना पर आधारित है?",
+          "options": {
+            "A": "ब्लैक बॉक्स टेस्टिंग",
+            "B": "व्हाइट बॉक्स टेस्टिंग",
+            "C": "ग्रे बॉक्स टेस्टिंग",
+            "D": "एक्सेप्टेंस टेस्टिंग"
+          },
+          "explanation": "व्हाइट बॉक्स टेस्टिंग में सॉफ्टवेयर के आंतरिक पथ, तर्क और कार्यान्वयन का परीक्षण करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-003",
+      "number": 3,
+      "question": "Which phase of the SDLC is the most expensive and time-consuming?",
+      "options": {
+        "A": "Requirement Analysis",
+        "B": "Design",
+        "C": "Maintenance",
+        "D": "Coding"
+      },
+      "answer": "C",
+      "explanation": "Maintenance covers the longest period of the software life cycle and incurs the most costs.",
+      "hash": "028ec118377b5151",
+      "translations": {
+        "hi": {
+          "question": "SDLC का कौन सा चरण सबसे महंगा और समय लेने वाला है?",
+          "options": {
+            "A": "आवश्यकता विश्लेषण",
+            "B": "डिजाइन",
+            "C": "रखरखाव",
+            "D": "कोडिंग"
+          },
+          "explanation": "रखरखाव सॉफ्टवेयर जीवन चक्र की सबसे लंबी अवधि को कवर करता है और इसमें सबसे अधिक लागत आती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-004",
+      "number": 4,
+      "question": "What is the primary purpose of a \"Feasibility Study\"?",
+      "options": {
+        "A": "To write the code",
+        "B": "To check if the project is worth investing in",
+        "C": "To design the UI",
+        "D": "To find bugs"
+      },
+      "answer": "B",
+      "explanation": "A feasibility study evaluates if the project is technically and financially viable.",
+      "hash": "bef919b0a5300a06",
+      "translations": {
+        "hi": {
+          "question": "\"व्यवहार्यता अध्ययन\" (Feasibility Study) का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "कोड लिखने के लिए",
+            "B": "यह जांचने के लिए कि क्या परियोजना निवेश के लायक है",
+            "C": "UI डिजाइन करने के लिए",
+            "D": "बग्स खोजने के लिए"
+          },
+          "explanation": "व्यवहार्यता अध्ययन यह मूल्यांकन करता है कि परियोजना तकनीकी और वित्तीय रूप से व्यवहार्य है या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-005",
+      "number": 5,
+      "question": "Which metric is used to measure the logical complexity of a program?",
+      "options": {
+        "A": "Lines of Code (LOC)",
+        "B": "Function Points",
+        "C": "Cyclomatic Complexity",
+        "D": "Productivity"
+      },
+      "answer": "C",
+      "explanation": "Cyclomatic complexity determines the number of independent paths through the source code.",
+      "hash": "a3b7bd77cedb4603",
+      "translations": {
+        "hi": {
+          "question": "प्रोग्राम की तार्किक जटिलता को मापने के लिए किस मेट्रिक का उपयोग किया जाता है?",
+          "options": {
+            "A": "लाइन्स ऑफ कोड (LOC)",
+            "B": "फंक्शन पॉइंट्स",
+            "C": "साइक्लोमैटिक कॉम्प्लेक्सिटी",
+            "D": "प्रोडक्टिविटी"
+          },
+          "explanation": "साइक्लोमैटिक कॉम्प्लेक्सिटी स्रोत कोड के माध्यम से स्वतंत्र पथों की संख्या निर्धारित करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-006",
+      "number": 6,
+      "question": "In UML, which diagram is used to show the static structure of a system?",
+      "options": {
+        "A": "Sequence Diagram",
+        "B": "Activity Diagram",
+        "C": "Class Diagram",
+        "D": "Use Case Diagram"
+      },
+      "answer": "C",
+      "explanation": "Class diagrams show classes, attributes, operations, and relationships between objects.",
+      "hash": "f009f8f8d4e5aff0",
+      "translations": {
+        "hi": {
+          "question": "UML में, सिस्टम की स्थिर संरचना दिखाने के लिए किस आरेख का उपयोग किया जाता है?",
+          "options": {
+            "A": "सीक्वेंस डायग्राम",
+            "B": "एक्टिविटी डायग्राम",
+            "C": "क्लास डायग्राम",
+            "D": "यूज केस डायग्राम"
+          },
+          "explanation": "क्लास डायग्राम क्लास, एट्रिब्यूट्स, ऑपरेशन्स और ऑब्जेक्ट्स के बीच संबंधों को दिखाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-007",
+      "number": 7,
+      "question": "What does the \"V\" represent in the V-Model?",
+      "options": {
+        "A": "Velocity",
+        "B": "Verification and Validation",
+        "C": "Variable",
+        "D": "Visual"
+      },
+      "answer": "B",
+      "explanation": "The V-model demonstrates the relationship between each development phase and its testing phase.",
+      "hash": "b2270f7ca0017d0c",
+      "translations": {
+        "hi": {
+          "question": "वी-मॉडल में \"V\" क्या दर्शाता है?",
+          "options": {
+            "A": "वेलोसिटी",
+            "B": "वेरिफिकेशन और वेलिडेशन",
+            "C": "वेरिएबल",
+            "D": "विजुअल"
+          },
+          "explanation": "वी-मॉडल प्रत्येक विकास चरण और उसके परीक्षण चरण के बीच संबंध को दर्शाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-008",
+      "number": 8,
+      "question": "Which coupling type is considered the most undesirable (worst)?",
+      "options": {
+        "A": "Data Coupling",
+        "B": "Control Coupling",
+        "C": "Content Coupling",
+        "D": "Stamp Coupling"
+      },
+      "answer": "C",
+      "explanation": "Content coupling occurs when one module modifies the internal data or code of another.",
+      "hash": "d16248c1f4212e94",
+      "translations": {
+        "hi": {
+          "question": "किस कपलिंग प्रकार को सबसे अवांछनीय (सबसे खराब) माना जाता है?",
+          "options": {
+            "A": "डेटा कपलिंग",
+            "B": "कंट्रोल कपलिंग",
+            "C": "कंटेंट कपलिंग",
+            "D": "स्टैम्प कपलिंग"
+          },
+          "explanation": "कंटेंट कपलिंग तब होती है जब एक मॉड्यूल दूसरे के आंतरिक डेटा या कोड को संशोधित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-009",
+      "number": 9,
+      "question": "Which of the following is an example of a \"Process Metric\"?",
+      "options": {
+        "A": "LOC",
+        "B": "Memory usage",
+        "C": "Defect removal efficiency",
+        "D": "Program size"
+      },
+      "answer": "C",
+      "explanation": "Process metrics measure the characteristics of the software development process.",
+      "hash": "4ee1bfad47aaa54e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में में से कौन सा \"प्रोसेस मेट्रिक\" का एक उदाहरण है?",
+          "options": {
+            "A": "एलओसी",
+            "B": "मेमोरी उपयोग",
+            "C": "डिफेक्ट रिमूवल एफिशिएंसी",
+            "D": "प्रोग्राम का आकार"
+          },
+          "explanation": "प्रोसेस मेट्रिक्स सॉफ्टवेयर विकास प्रक्रिया की विशेषताओं को मापते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-010",
+      "number": 10,
+      "question": "In SRS, \"Traceability\" means?",
+      "options": {
+        "A": "Ability to track code errors",
+        "B": "Mapping requirements to design and code",
+        "C": "Speed of development",
+        "D": "Number of test cases"
+      },
+      "answer": "B",
+      "explanation": "Traceability ensures that every requirement is linked to its implementation.",
+      "hash": "1c7b87aa9a7c40f9",
+      "translations": {
+        "hi": {
+          "question": "SRS में \"ट्रेसेबिलिटी\" (Traceability) का क्या अर्थ है?",
+          "options": {
+            "A": "कोड त्रुटियों को ट्रैक करने की क्षमता",
+            "B": "आवश्यकताओं को डिजाइन और कोड से मैप करना",
+            "C": "विकास की गति",
+            "D": "टेस्ट केस की संख्या"
+          },
+          "explanation": "ट्रेसेबिलिटी यह सुनिश्चित करती है कि प्रत्येक आवश्यकता उसके कार्यान्वयन से जुड़ी हो।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-011",
+      "number": 11,
+      "question": "Boundary Value Analysis belongs to which testing category?",
+      "options": {
+        "A": "White Box",
+        "B": "Black Box",
+        "C": "Static Testing",
+        "D": "Integration Testing"
+      },
+      "answer": "B",
+      "explanation": "BVA is a black box technique focusing on values at the boundaries of input ranges.",
+      "hash": "4546a7070a2a0616",
+      "translations": {
+        "hi": {
+          "question": "बाउंड्री वैल्यू एनालिसिस किस टेस्टिंग श्रेणी से संबंधित है?",
+          "options": {
+            "A": "व्हाइट बॉक्स",
+            "B": "ब्लैक बॉक्स",
+            "C": "स्टैटिक टेस्टिंग",
+            "D": "इंटीग्रेशन टेस्टिंग"
+          },
+          "explanation": "BVA एक ब्लैक बॉक्स तकनीक है जो इनपुट श्रेणियों की सीमाओं पर मानों पर ध्यान केंद्रित करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-012",
+      "number": 12,
+      "question": "Which maintenance is performed to protect software from future errors?",
+      "options": {
+        "A": "Adaptive",
+        "B": "Preventive",
+        "C": "Corrective",
+        "D": "Perfective"
+      },
+      "answer": "B",
+      "explanation": "Preventive maintenance improves maintainability or reliability to prevent future problems.",
+      "hash": "03adc291fcd03e47",
+      "translations": {
+        "hi": {
+          "question": "भविष्य की त्रुटियों से सॉफ्टवेयर को बचाने के लिए कौन सा रखरखाव किया जाता है?",
+          "options": {
+            "A": "एडेप्टिव",
+            "B": "प्रिवेंटिव",
+            "C": "करेक्टिव",
+            "D": "परफेक्टिव"
+          },
+          "explanation": "प्रिवेंटिव रखरखाव भविष्य की समस्याओं को रोकने के लिए मेंटेनेबिलिटी या रिलायबिलिटी में सुधार करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-013",
+      "number": 13,
+      "question": "What is the main characteristic of \"Agile\" development?",
+      "options": {
+        "A": "Detailed documentation",
+        "B": "Rigid planning",
+        "C": "Iterative and incremental progress",
+        "D": "No testing until the end"
+      },
+      "answer": "C",
+      "explanation": "Agile focuses on small, frequent releases and constant feedback.",
+      "hash": "7d38d99d9b6fe65c",
+      "translations": {
+        "hi": {
+          "question": "\"एजाइल\" विकास की मुख्य विशेषता क्या है?",
+          "options": {
+            "A": "विस्तृत दस्तावेज़ीकरण",
+            "B": "कठोर योजना",
+            "C": "इटरेटिव और इंक्रीमेंटल प्रगति",
+            "D": "अंत तक कोई परीक्षण नहीं"
+          },
+          "explanation": "एजाइल छोटे, बार-बार रिलीज और निरंतर फीडबैक पर ध्यान केंद्रित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-014",
+      "number": 14,
+      "question": "What is a \"Driver\" in Bottom-Up integration testing?",
+      "options": {
+        "A": "Hardware driver",
+        "B": "A module that calls the module being tested",
+        "C": "The main programmer",
+        "D": "A test script"
+      },
+      "answer": "B",
+      "explanation": "Drivers simulate high-level modules to test lower-level integrated components.",
+      "hash": "29f83262d589b6f2",
+      "translations": {
+        "hi": {
+          "question": "बॉटम-अप इंटीग्रेशन टेस्टिंग में \"ड्राइवर\" क्या है?",
+          "options": {
+            "A": "हार्डवेयर ड्राइवर",
+            "B": "एक मॉड्यूल जो परीक्षण किए जा रहे मॉड्यूल को कॉल करता है",
+            "C": "मुख्य प्रोग्रामर",
+            "D": "एक टेस्ट स्क्रिप्ट"
+          },
+          "explanation": "ड्राइवर निचले स्तर के एकीकृत घटकों का परीक्षण करने के लिए उच्च-स्तरीय मॉड्यूल का अनुकरण करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-015",
+      "number": 15,
+      "question": "Which life cycle model is best for large, complex, and high-risk projects?",
+      "options": {
+        "A": "Waterfall",
+        "B": "Spiral",
+        "C": "RAD",
+        "D": "Big Bang"
+      },
+      "answer": "B",
+      "explanation": "Spiral model includes explicit risk assessment in every iteration.",
+      "hash": "b339fc4114510ca7",
+      "translations": {
+        "hi": {
+          "question": "बड़े, जटिल और उच्च जोखिम वाले प्रोजेक्ट्स के लिए कौन सा जीवन चक्र मॉडल सबसे अच्छा है?",
+          "options": {
+            "A": "वॉटरफॉल",
+            "B": "स्पाइरल",
+            "C": "आरएडी",
+            "D": "बिग बैंग"
+          },
+          "explanation": "स्पाइरल मॉडल में प्रत्येक पुनरावृत्ति में स्पष्ट जोखिम मूल्यांकन शामिल होता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-016",
+      "number": 16,
+      "question": "What is a \"Stub\" in the context of integration testing?",
+      "options": {
+        "A": "A complete module",
+        "B": "A dummy module used in Top-Down testing",
+        "C": "A bug in the code",
+        "D": "A testing tool"
+      },
+      "answer": "B",
+      "explanation": "Stubs simulate lower-level modules that are not yet developed.",
+      "hash": "130139187c01a05f",
+      "translations": {
+        "hi": {
+          "question": "इंटीग्रेशन टेस्टिंग के संदर्भ में \"स्टब\" (Stub) क्या है?",
+          "options": {
+            "A": "एक पूर्ण मॉड्यूल",
+            "B": "टॉप-डाउन टेस्टिंग में उपयोग किया जाने वाला डमी मॉड्यूल",
+            "C": "कोड में एक बग",
+            "D": "एक टेस्टिंग टूल"
+          },
+          "explanation": "स्टब्स उन निचले स्तर के मॉड्यूल का अनुकरण करते हैं जो अभी तक विकसित नहीं हुए हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-017",
+      "number": 17,
+      "question": "What is the main goal of \"Software Design\"?",
+      "options": {
+        "A": "To write the source code",
+        "B": "To transform requirements into a system representation",
+        "C": "To install the software",
+        "D": "To gather user requirements"
+      },
+      "answer": "B",
+      "explanation": "Design provides a blueprint for how the requirements will be implemented.",
+      "hash": "a300fd96d24052cc",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर डिजाइन\" का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "स्रोत कोड लिखना",
+            "B": "आवश्यकताओं को सिस्टम प्रतिनिधित्व में बदलना",
+            "C": "सॉफ्टवेयर स्थापित करना",
+            "D": "उपयोगकर्ता की आवश्यकताएं एकत्र करना"
+          },
+          "explanation": "डिजाइन इस बात का खाका प्रदान करता है कि आवश्यकताओं को कैसे लागू किया जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-018",
+      "number": 18,
+      "question": "Which type of cohesion is where elements are grouped because they use the same data?",
+      "options": {
+        "A": "Procedural Cohesion",
+        "B": "Communicational Cohesion",
+        "C": "Temporal Cohesion",
+        "D": "Sequential Cohesion"
+      },
+      "answer": "B",
+      "explanation": "In communicational cohesion, parts of a module operate on the same input/output data.",
+      "hash": "d93a12106d5eb88b",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के कोहेशन में तत्वों को इसलिए समूहीकृत किया जाता है क्योंकि वे एक ही डेटा का उपयोग करते हैं?",
+          "options": {
+            "A": "प्रोसीजरल कोहेशन",
+            "B": "कम्युनिकेशनल कोहेशन",
+            "C": "टेम्पोरल कोहेशन",
+            "D": "सीक्वेंशियल कोहेशन"
+          },
+          "explanation": "कम्युनिकेशनल कोहेशन में, एक मॉड्यूल के हिस्से एक ही इनपुट/आउटपुट डेटा पर काम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-019",
+      "number": 19,
+      "question": "\"Productivity\" in software engineering is typically measured as?",
+      "options": {
+        "A": "LOC per person-month",
+        "B": "Bugs per line",
+        "C": "Cost per module",
+        "D": "Documentation pages"
+      },
+      "answer": "A",
+      "explanation": "It is often defined as the amount of output produced per unit of effort.",
+      "hash": "16449359e8bf772e",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग में \"प्रोडक्टिविटी\" को आमतौर पर कैसे मापा जाता है?",
+          "options": {
+            "A": "एलओसी प्रति व्यक्ति-माह",
+            "B": "बग्स प्रति लाइन",
+            "C": "लागत प्रति मॉड्यूल",
+            "D": "दस्तावेज़ीकरण पृष्ठ"
+          },
+          "explanation": "इसे अक्सर प्रति इकाई प्रयास में उत्पादित आउटपुट की मात्रा के रूप में परिभाषित किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-020",
+      "number": 20,
+      "question": "\"Decision Table Testing\" is a?",
+      "options": {
+        "A": "White Box technique",
+        "B": "Black Box technique",
+        "C": "Unit testing tool",
+        "D": "Structural testing"
+      },
+      "answer": "B",
+      "explanation": "It is used to test systems with complex business rules based on input combinations.",
+      "hash": "1e468d86106b972d",
+      "translations": {
+        "hi": {
+          "question": "\"डिसीजन टेबल टेस्टिंग\" एक क्या है?",
+          "options": {
+            "A": "व्हाइट बॉक्स तकनीक",
+            "B": "ब्लैक बॉक्स तकनीक",
+            "C": "यूनिट टेस्टिंग टूल",
+            "D": "स्ट्रक्चरल टेस्टिंग"
+          },
+          "explanation": "इसका उपयोग इनपुट संयोजनों के आधार पर जटिल व्यावसायिक नियमों वाले सिस्टम का परीक्षण करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-021",
+      "number": 21,
+      "question": "The \"Waterfall Model\" is also known as?",
+      "options": {
+        "A": "Iterative Model",
+        "B": "Classic Life Cycle",
+        "C": "Evolutionary Model",
+        "D": "Rapid Model"
+      },
+      "answer": "B",
+      "explanation": "It is the oldest and most traditional approach to software development.",
+      "hash": "df020087b11d1560",
+      "translations": {
+        "hi": {
+          "question": "\"वॉटरफॉल मॉडल\" को इस नाम से भी जाना जाता है?",
+          "options": {
+            "A": "इटरेटिव मॉडल",
+            "B": "क्लासिक लाइफ साइकिल",
+            "C": "इवोल्यूशनरी मॉडल",
+            "D": "रैपिड मॉडल"
+          },
+          "explanation": "यह सॉफ्टवेयर विकास का सबसे पुराना और सबसे पारंपरिक दृष्टिकोण है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-022",
+      "number": 22,
+      "question": "What is \"Software Configuration Management\" (SCM) responsible for?",
+      "options": {
+        "A": "Marketing",
+        "B": "Version control and change management",
+        "C": "Database backup",
+        "D": "Hardware setup"
+      },
+      "answer": "B",
+      "explanation": "SCM manages evolution and changes in software items during the development process.",
+      "hash": "1a1e66a4a8a23978",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर कॉन्फ़िगरेशन प्रबंधन\" (SCM) किसके लिए जिम्मेदार है?",
+          "options": {
+            "A": "मार्केटिंग",
+            "B": "वर्जन कंट्रोल और चेंज मैनेजमेंट",
+            "C": "डेटाबेस बैकअप",
+            "D": "हार्डवेयर सेटअप"
+          },
+          "explanation": "SCM विकास प्रक्रिया के दौरान सॉफ्टवेयर वस्तुओं में विकास और परिवर्तनों का प्रबंधन करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-023",
+      "number": 23,
+      "question": "Which diagram shows the flow of control between objects in a time sequence?",
+      "options": {
+        "A": "Class Diagram",
+        "B": "State Diagram",
+        "C": "Sequence Diagram",
+        "D": "Object Diagram"
+      },
+      "answer": "C",
+      "explanation": "Sequence diagrams are used to model the interaction between objects over time.",
+      "hash": "3826d2800c4d972d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा आरेख समय अनुक्रम में ऑब्जेक्ट्स के बीच नियंत्रण के प्रवाह को दिखाता है?",
+          "options": {
+            "A": "क्लास डायग्राम",
+            "B": "स्टेट डायग्राम",
+            "C": "सीक्वेंस डायग्राम",
+            "D": "ऑब्जेक्ट डायग्राम"
+          },
+          "explanation": "सीक्वेंस डायग्राम का उपयोग समय के साथ ऑब्जेक्ट्स के बीच बातचीत को मॉडल करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-024",
+      "number": 24,
+      "question": "The term \"Gantt Chart\" is associated with?",
+      "options": {
+        "A": "Coding",
+        "B": "Project Scheduling",
+        "C": "Testing",
+        "D": "Requirement gathering"
+      },
+      "answer": "B",
+      "explanation": "A Gantt chart shows the start and finish dates of project elements.",
+      "hash": "dbb1cc8b92f3066f",
+      "translations": {
+        "hi": {
+          "question": "\"गैंट चार्ट\" शब्द किससे जुड़ा है?",
+          "options": {
+            "A": "कोडिंग",
+            "B": "प्रोजेक्ट शेड्यूलिंग",
+            "C": "परीक्षण",
+            "D": "आवश्यकता संग्रहण"
+          },
+          "explanation": "एक गैंट चार्ट प्रोजेक्ट तत्वों के शुरू और खत्म होने की तारीखों को दिखाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-025",
+      "number": 25,
+      "question": "What does \"MTBF\" stand for?",
+      "options": {
+        "A": "Mean Time Between Failures",
+        "B": "Maximum Time Before Failure",
+        "C": "Minimal Time Between Functions",
+        "D": "Mean Time Before Fix"
+      },
+      "answer": "A",
+      "explanation": "MTBF is a measure of a system's reliability.",
+      "hash": "06e9dddf612e83d5",
+      "translations": {
+        "hi": {
+          "question": "\"MTBF\" का अर्थ क्या है?",
+          "options": {
+            "A": "मीन टाइम बिटवीन फेलियर्स",
+            "B": "मैक्सिमम टाइम बिफोर फेलियर",
+            "C": "मिनिमल टाइम बिटवीन फंक्शन्स",
+            "D": "मीन टाइम बिफोर फिक्स"
+          },
+          "explanation": "MTBF किसी सिस्टम की विश्वसनीयता (रिलायबिलिटी) का माप है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-026",
+      "number": 26,
+      "question": "Which testing type verifies the system against business requirements?",
+      "options": {
+        "A": "Unit Testing",
+        "B": "System Testing",
+        "C": "Integration Testing",
+        "D": "Acceptance Testing"
+      },
+      "answer": "D",
+      "explanation": "Acceptance testing determines if the system satisfies user needs and business criteria.",
+      "hash": "abfcf051d128082c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा टेस्टिंग प्रकार व्यावसायिक आवश्यकताओं के विरुद्ध सिस्टम को सत्यापित करता है?",
+          "options": {
+            "A": "यूनिट टेस्टिंग",
+            "B": "सिस्टम टेस्टिंग",
+            "C": "इंटीग्रेशन टेस्टिंग",
+            "D": "एक्सेप्टेंस टेस्टिंग"
+          },
+          "explanation": "एक्सेप्टेंस टेस्टिंग यह निर्धारित करती है कि सिस्टम उपयोगकर्ता की जरूरतों और व्यावसायिक मानदंडों को पूरा करता है या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-027",
+      "number": 27,
+      "question": "Which is a tool used for requirement management?",
+      "options": {
+        "A": "JIRA",
+        "B": "Photoshop",
+        "C": "Windows",
+        "D": "SQL"
+      },
+      "answer": "A",
+      "explanation": "JIRA is widely used for tracking requirements, tasks, and bugs.",
+      "hash": "7e0ba56c0d3dd335",
+      "translations": {
+        "hi": {
+          "question": "रिक्वायरमेंट मैनेजमेंट के लिए उपयोग किया जाने वाला टूल कौन सा है?",
+          "options": {
+            "A": "जीरा",
+            "B": "फोटोशॉप",
+            "C": "विंडोज",
+            "D": "एसक्यूएल"
+          },
+          "explanation": "जीरा का उपयोग आवश्यकताओं, कार्यों और बग्स को ट्रैक करने के लिए व्यापक रूप से किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-028",
+      "number": 28,
+      "question": "Software engineering aims to produce software that is?",
+      "options": {
+        "A": "High quality",
+        "B": "Within budget",
+        "C": "On time",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "The goal is to provide reliable and efficient software economically and on schedule.",
+      "hash": "77db9b1178704b29",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग का लक्ष्य ऐसा सॉफ्टवेयर तैयार करना है जो हो?",
+          "options": {
+            "A": "उच्च गुणवत्ता वाला",
+            "B": "बजट के भीतर",
+            "C": "समय पर",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "लक्ष्य आर्थिक रूप से और समय पर विश्वसनीय और कुशल सॉफ्टवेयर प्रदान करना है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-029",
+      "number": 29,
+      "question": "What is the primary focus of the \"V-Model\"?",
+      "options": {
+        "A": "Rapid development",
+        "B": "Relationship between development and testing",
+        "C": "Cost reduction",
+        "D": "High risk analysis"
+      },
+      "answer": "B",
+      "explanation": "It maps each development stage directly to a corresponding testing stage.",
+      "hash": "676c0ad51baa140b",
+      "translations": {
+        "hi": {
+          "question": "\"वी-मॉडल\" का प्राथमिक फोकस क्या है?",
+          "options": {
+            "A": "रैपिड डेवलपमेंट",
+            "B": "विकास और परीक्षण के बीच संबंध",
+            "C": "लागत में कमी",
+            "D": "उच्च जोखिम विश्लेषण"
+          },
+          "explanation": "यह प्रत्येक विकास चरण को सीधे संबंधित परीक्षण चरण से मैप करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-03-030",
+      "number": 30,
+      "question": "In the context of coding, what is \"Portability\"?",
+      "options": {
+        "A": "Ease of changing code",
+        "B": "Ease of transferring software to different environments",
+        "C": "Speed of execution",
+        "D": "Memory usage"
+      },
+      "answer": "B",
+      "explanation": "Portability means software can run on different hardware or operating systems.",
+      "hash": "8bf6122d60d8a74e",
+      "translations": {
+        "hi": {
+          "question": "कोडिंग के संदर्भ में, \"पोर्टेबिलिटी\" क्या है?",
+          "options": {
+            "A": "कोड बदलने में आसानी",
+            "B": "सॉफ्टवेयर को विभिन्न वातावरणों में स्थानांतरित करने में आसानी",
+            "C": "निष्पादन की गति",
+            "D": "मेमोरी उपयोग"
+          },
+          "explanation": "पोर्टेबिलिटी का अर्थ है कि सॉफ्टवेयर विभिन्न हार्डवेयर या ऑपरेटिंग सिस्टम पर चल सकता है।"
+        }
+      }
+    }
+  ]
+}

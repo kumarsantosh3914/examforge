@@ -1,0 +1,787 @@
+{
+  "subject": "Machine Learning",
+  "set": 3,
+  "title": "Machine Learning Mock Test 3",
+  "questions": [
+    {
+      "id": "machine-learning-03-001",
+      "number": 1,
+      "question": "Which type of bias occurs when the training data is not representative of the real-world population?",
+      "options": {
+        "A": "Selection Bias",
+        "B": "Algorithmic Bias",
+        "C": "Exclusion Bias",
+        "D": "Recall Bias"
+      },
+      "answer": "A",
+      "explanation": "Selection bias happens when the data collected for training does not accurately reflect the environment where the model will be deployed.",
+      "hash": "7630605399c6ba69",
+      "translations": {
+        "hi": {
+          "question": "जब ट्रेनिंग डेटा वास्तविक दुनिया की आबादी का प्रतिनिधित्व नहीं करता है, तो किस प्रकार का बायस होता है?",
+          "options": {
+            "A": "चयन बायस (Selection Bias)",
+            "B": "एल्गोरिथम बायस",
+            "C": "बहिष्करण बायस",
+            "D": "रिकॉल बायस"
+          },
+          "explanation": "चयन बायस तब होता है जब ट्रेनिंग के लिए एकत्र किया गया डेटा उस वातावरण को सटीक रूप से नहीं दर्शाता है जहाँ मॉडल तैनात किया जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-002",
+      "number": 2,
+      "question": "In an Artificial Neural Network, which parameter is adjusted during the 'Learning' phase?",
+      "options": {
+        "A": "Number of layers",
+        "B": "Weights and Biases",
+        "C": "Activation function type",
+        "D": "Input values"
+      },
+      "answer": "B",
+      "explanation": "Learning in neural networks involves the iterative adjustment of weights and biases to minimize the error.",
+      "hash": "441458609783d09f",
+      "translations": {
+        "hi": {
+          "question": "एक आर्टिफिशियल न्यूरल नेटवर्क में, 'लर्निंग' चरण के दौरान किस पैरामीटर को समायोजित किया जाता है?",
+          "options": {
+            "A": "परतों की संख्या",
+            "B": "वेट्स और बायस",
+            "C": "एक्टिवेशन फ़ंक्शन का प्रकार",
+            "D": "इनपुट मान"
+          },
+          "explanation": "न्यूरल नेटवर्क में सीखने की प्रक्रिया में त्रुटि को कम करने के लिए वेट्स और बायस का क्रमिक समायोजन शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-003",
+      "number": 3,
+      "question": "Which algorithm is primarily used for Market Basket Analysis?",
+      "options": {
+        "A": "K-Means",
+        "B": "Apriori Algorithm",
+        "C": "Linear Regression",
+        "D": "Gradient Boosting"
+      },
+      "answer": "B",
+      "explanation": "Apriori is used to find frequent itemsets and association rules, helping retailers understand customer buying habits.",
+      "hash": "351e00f7efab71f4",
+      "translations": {
+        "hi": {
+          "question": "मार्केट बास्केट एनालिसिस के लिए मुख्य रूप से किस एल्गोरिथ्म का उपयोग किया जाता है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "एप्रीयरी एल्गोरिथ्म",
+            "C": "लीनियर रिग्रेशन",
+            "D": "ग्रेडिएंट बूस्टिंग"
+          },
+          "explanation": "एप्रीयरी का उपयोग लगातार आइटमसेट और एसोसिएशन नियमों को खोजने के लिए किया जाता है, जिससे खुदरा विक्रेताओं को ग्राहकों की खरीदारी की आदतों को समझने में मदद मिलती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-004",
+      "number": 4,
+      "question": "What is the main goal of 'Dimensionality Reduction'?",
+      "options": {
+        "A": "To increase the number of features",
+        "B": "To simplify the model by reducing the number of random variables",
+        "C": "To increase the training time",
+        "D": "To make the data more complex"
+      },
+      "answer": "B",
+      "explanation": "It reduces the complexity of the data by removing redundant or less important features while retaining key information.",
+      "hash": "b25319976b34f898",
+      "translations": {
+        "hi": {
+          "question": "'डाइमेंशनलिटी रिडक्शन' का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "फीचर्स की संख्या बढ़ाना",
+            "B": "रैंडम वेरिएबल्स की संख्या कम करके मॉडल को सरल बनाना",
+            "C": "ट्रेनिंग का समय बढ़ाना",
+            "D": "डेटा को और अधिक जटिल बनाना"
+          },
+          "explanation": "यह मुख्य जानकारी को बनाए रखते हुए अनावश्यक या कम महत्वपूर्ण फीचर्स को हटाकर डेटा की जटिलता को कम करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-005",
+      "number": 5,
+      "question": "In a Support Vector Machine, what is the 'Margin'?",
+      "options": {
+        "A": "The total error of the model",
+        "B": "The distance between the hyperplane and the nearest data point from either class",
+        "C": "The number of features in the dataset",
+        "D": "The learning rate of the SVM"
+      },
+      "answer": "B",
+      "explanation": "SVM aims to maximize this margin to ensure better generalization and separation between classes.",
+      "hash": "cf93a8c91c97f9a8",
+      "translations": {
+        "hi": {
+          "question": "सपोर्ट वेक्टर मशीन में, 'मार्जिन' क्या है?",
+          "options": {
+            "A": "मॉडल की कुल त्रुटि",
+            "B": "हाइपरप्लेन और किसी भी वर्ग के निकटतम डेटा बिंदु के बीच की दूरी",
+            "C": "डेटासेट में फीचर्स की संख्या",
+            "D": "SVM की लर्निंग रेट"
+          },
+          "explanation": "SVM का उद्देश्य बेहतर सामान्यीकरण और वर्गों के बीच अलगाव सुनिश्चित करने के लिए इस मार्जिन को अधिकतम करना है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-006",
+      "number": 6,
+      "question": "Which metric is the ratio of correctly predicted positive observations to the total predicted positives?",
+      "options": {
+        "A": "Recall",
+        "B": "Precision",
+        "C": "F1-Score",
+        "D": "Accuracy"
+      },
+      "answer": "B",
+      "explanation": "Precision measures the accuracy of positive predictions made by the model.",
+      "hash": "932fe8888e314414",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मीट्रिक कुल अनुमानित सकारात्मकता के लिए सही ढंग से अनुमानित सकारात्मक टिप्पणियों का अनुपात है?",
+          "options": {
+            "A": "रिकॉल",
+            "B": "प्रिसिजन",
+            "C": "F1-स्कोर",
+            "D": "सटीकता"
+          },
+          "explanation": "प्रिसिजन मॉडल द्वारा की गई सकारात्मक भविष्यवाणियों की सटीकता को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-007",
+      "number": 7,
+      "question": "Which component of a Neuron decides whether it should be activated or not?",
+      "options": {
+        "A": "Weights",
+        "B": "Biases",
+        "C": "Activation Function",
+        "D": "Summing Junction"
+      },
+      "answer": "C",
+      "explanation": "The activation function determines the output of a neuron based on the weighted sum of its inputs.",
+      "hash": "1b036519f43c4061",
+      "translations": {
+        "hi": {
+          "question": "न्यूरॉन का कौन सा घटक यह तय करता है कि उसे सक्रिय किया जाना चाहिए या नहीं?",
+          "options": {
+            "A": "वेट्स",
+            "B": "बायस",
+            "C": "एक्टिवेशन फ़ंक्शन",
+            "D": "समिंग जंक्शन"
+          },
+          "explanation": "एक्टिवेशन फ़ंक्शन अपने इनपुट के भारित योग के आधार पर न्यूरॉन के आउटपुट को निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-008",
+      "number": 8,
+      "question": "In Random Forest, what is the purpose of 'Bootstrapping'?",
+      "options": {
+        "A": "To test the model",
+        "B": "To create multiple random subsets of the data with replacement",
+        "C": "To remove outliers",
+        "D": "To visualize the tree"
+      },
+      "answer": "B",
+      "explanation": "Bootstrapping ensures that each decision tree in the forest is trained on a slightly different version of the data.",
+      "hash": "5e2ae9a0ac4eeb04",
+      "translations": {
+        "hi": {
+          "question": "रैंडम फ़ॉरेस्ट में, 'बूटस्ट्रैपिंग' का उद्देश्य क्या है?",
+          "options": {
+            "A": "मॉडल का परीक्षण करना",
+            "B": "रिप्लेसमेंट के साथ डेटा के कई रैंडम उपसमुच्चय बनाना",
+            "C": "आउटलेर्स को हटाना",
+            "D": "ट्री को विजुअलाइज करना"
+          },
+          "explanation": "बूटस्ट्रैपिंग यह सुनिश्चित करता है कि फ़ॉरेस्ट में प्रत्येक डिसीजन ट्री को डेटा के थोड़े अलग संस्करण पर प्रशिक्षित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-009",
+      "number": 9,
+      "question": "What is the 'Vanishing Gradient Problem' commonly associated with?",
+      "options": {
+        "A": "Decision Trees",
+        "B": "Deep Neural Networks",
+        "C": "Linear Regression",
+        "D": "K-Means Clustering"
+      },
+      "answer": "B",
+      "explanation": "This occurs when gradients become extremely small during backpropagation, preventing weights in early layers from updating.",
+      "hash": "887d6c9f2574ff4b",
+      "translations": {
+        "hi": {
+          "question": "'वैनिशिंग ग्रेडिएंट समस्या' आमतौर पर किससे जुड़ी होती है?",
+          "options": {
+            "A": "डिसीजन ट्री",
+            "B": "डीप न्यूरल नेटवर्क",
+            "C": "लीनियर रिग्रेशन",
+            "D": "के-मीन्स क्लस्टरिंग"
+          },
+          "explanation": "यह तब होता है जब बैकप्रोपेगेशन के दौरान ग्रेडिएंट बहुत कम हो जाते हैं, जिससे शुरुआती परतों में वेट्स अपडेट नहीं हो पाते।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-010",
+      "number": 10,
+      "question": "Which of the following is an example of an 'Unsupervised Learning' task?",
+      "options": {
+        "A": "Spam detection",
+        "B": "Customer segmentation",
+        "C": "House price prediction",
+        "D": "Medical diagnosis"
+      },
+      "answer": "B",
+      "explanation": "Customer segmentation uses clustering to group customers based on similar traits without pre-labeled categories.",
+      "hash": "9eadabf1ebff2b7d",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'अनसुपरवाइज्ड लर्निंग' कार्य का एक उदाहरण है?",
+          "options": {
+            "A": "स्पैम डिटेक्शन",
+            "B": "ग्राहक विभाजन (Customer segmentation)",
+            "C": "घर की कीमत की भविष्यवाणी",
+            "D": "चिकित्सा निदान"
+          },
+          "explanation": "ग्राहक विभाजन बिना किसी पूर्व-लेबल वाली श्रेणियों के समान लक्षणों के आधार पर ग्राहकों को समूहबद्ध करने के लिए क्लस्टरिंग का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-011",
+      "number": 11,
+      "question": "What is the 'Learning Rate' in machine learning?",
+      "options": {
+        "A": "The time taken to train a model",
+        "B": "A hyperparameter that controls how much to change the model in response to the estimated error",
+        "C": "The percentage of data used for training",
+        "D": "The number of layers in a neural network"
+      },
+      "answer": "B",
+      "explanation": "It determines the step size taken during optimization towards the minimum of the loss function.",
+      "hash": "ae99fc9c9ec407fe",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में 'लर्निंग रेट' क्या है?",
+          "options": {
+            "A": "मॉडल को प्रशिक्षित करने में लगने वाला समय",
+            "B": "एक हाइपरपैरामीटर जो यह नियंत्रित करता है कि त्रुटि के जवाब में मॉडल को कितना बदलना है",
+            "C": "ट्रेनिंग के लिए उपयोग किए जाने वाले डेटा का प्रतिशत",
+            "D": "न्यूरल नेटवर्क में परतों की संख्या"
+          },
+          "explanation": "यह लॉस फ़ंक्शन के न्यूनतम मान की ओर अनुकूलन के दौरान उठाए गए कदम के आकार को निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-012",
+      "number": 12,
+      "question": "Which of the following handles non-linear relationships best without needing explicit transformations?",
+      "options": {
+        "A": "Linear Regression",
+        "B": "Logistic Regression",
+        "C": "Random Forest",
+        "D": "Perceptron"
+      },
+      "answer": "C",
+      "explanation": "Random Forest and Decision Trees can naturally model non-linear relationships through recursive partitioning.",
+      "hash": "e71b45bba5608ba2",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन स्पष्ट ट्रांसफॉर्मेशन की आवश्यकता के बिना गैर-रेखीय संबंधों को सबसे अच्छा संभालता है?",
+          "options": {
+            "A": "लीनियर रिग्रेशन",
+            "B": "लॉजिस्टिक रिग्रेशन",
+            "C": "रैंडम फ़ॉरेस्ट",
+            "D": "परसेप्ट्रॉन"
+          },
+          "explanation": "रैंडम फ़ॉरेस्ट और डिसीजन ट्री स्वाभाविक रूप से रिकर्सिव पार्टिशनिंग के माध्यम से गैर-रेखीय संबंधों को मॉडल कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-013",
+      "number": 13,
+      "question": "Which algorithm is best suited for time-series forecasting?",
+      "options": {
+        "A": "Logistic Regression",
+        "B": "Recurrent Neural Network (RNN)",
+        "C": "K-Means",
+        "D": "Naive Bayes"
+      },
+      "answer": "B",
+      "explanation": "RNNs are designed to handle sequential data where previous information impacts the current output.",
+      "hash": "216e6894cdcda110",
+      "translations": {
+        "hi": {
+          "question": "टाइम-सीरीज फोरकास्टिंग के लिए कौन सा एल्गोरिथ्म सबसे उपयुक्त है?",
+          "options": {
+            "A": "लॉजिस्टिक रिग्रेशन",
+            "B": "रिकरेंट न्यूरल नेटवर्क (RNN)",
+            "C": "के-मीन्स",
+            "D": "नैवे बायेस"
+          },
+          "explanation": "RNN को अनुक्रमिक डेटा को संभालने के लिए डिज़ाइन किया गया है जहाँ पिछली जानकारी वर्तमान आउटपुट को प्रभावित करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-014",
+      "number": 14,
+      "question": "In clustering, what is a 'Centroid'?",
+      "options": {
+        "A": "The distance between two clusters",
+        "B": "The center point of a cluster",
+        "C": "The most distant point in a cluster",
+        "D": "A point that doesn't belong to any cluster"
+      },
+      "answer": "B",
+      "explanation": "In K-Means, the centroid is the arithmetic mean position of all the points in a cluster.",
+      "hash": "c0f0056c81b3c0c0",
+      "translations": {
+        "hi": {
+          "question": "क्लस्टरिंग में, 'सेंट्रोइड' क्या है?",
+          "options": {
+            "A": "दो क्लस्टर्स के बीच की दूरी",
+            "B": "एक क्लस्टर का केंद्र बिंदु",
+            "C": "एक क्लस्टर में सबसे दूर का बिंदु",
+            "D": "वह बिंदु जो किसी क्लस्टर से संबंधित नहीं है"
+          },
+          "explanation": "के-मीन्स में, सेंट्रोइड एक क्लस्टर के सभी बिंदुओं की अंकगणितीय माध्य स्थिति है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-015",
+      "number": 15,
+      "question": "Which loss function is typically used for Logistic Regression?",
+      "options": {
+        "A": "Mean Squared Error",
+        "B": "Binary Cross-Entropy (Log Loss)",
+        "C": "Hinge Loss",
+        "D": "Absolute Error"
+      },
+      "answer": "B",
+      "explanation": "Log Loss measures the performance of a classification model where the prediction is a probability between 0 and 1.",
+      "hash": "3b62f2e3cad40595",
+      "translations": {
+        "hi": {
+          "question": "लॉजिस्टिक रिग्रेशन के लिए आमतौर पर किस लॉस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "मीन स्क्वेर्ड एरर",
+            "B": "बाइनरी क्रॉस-एंट्रॉपी (लॉग लॉस)",
+            "C": "हिंज लॉस",
+            "D": "एब्सोल्यूट एरर"
+          },
+          "explanation": "लॉग लॉस एक वर्गीकरण मॉडल के प्रदर्शन को मापता है जहाँ भविष्यवाणी 0 और 1 के बीच की संभावना होती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-016",
+      "number": 16,
+      "question": "What does 'PCA' primarily aim to preserve?",
+      "options": {
+        "A": "Mean of the data",
+        "B": "Variance of the data",
+        "C": "Outliers in the data",
+        "D": "Number of categories"
+      },
+      "answer": "B",
+      "explanation": "PCA transforms data into a new set of variables (Principal Components) that capture the maximum variance.",
+      "hash": "40d2e47c173e6f57",
+      "translations": {
+        "hi": {
+          "question": "'PCA' का प्राथमिक उद्देश्य किसे सुरक्षित रखना है?",
+          "options": {
+            "A": "डेटा का माध्य",
+            "B": "डेटा का वेरियंस",
+            "C": "डेटा में आउटलेर्स",
+            "D": "श्रेणियों की संख्या"
+          },
+          "explanation": "PCA डेटा को वेरिएबल्स के एक नए सेट (प्रिंसिपल कंपोनेंट्स) में बदल देता है जो अधिकतम वेरियंस को कैप्चर करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-017",
+      "number": 17,
+      "question": "Which technique is used to improve the performance of a weak learner by training it on the errors of its predecessor?",
+      "options": {
+        "A": "Bagging",
+        "B": "Boosting",
+        "C": "Clustering",
+        "D": "Dimensionality Reduction"
+      },
+      "answer": "B",
+      "explanation": "Boosting algorithms like AdaBoost and Gradient Boosting build models sequentially to correct previous errors.",
+      "hash": "17dfbca21c9c74d1",
+      "translations": {
+        "hi": {
+          "question": "अपने पूर्ववर्ती की त्रुटियों पर प्रशिक्षित करके कमजोर लर्नर के प्रदर्शन को बेहतर बनाने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "बैगिंग",
+            "B": "बूस्टिंग",
+            "C": "क्लस्टरिंग",
+            "D": "डाइमेंशनलिटी रिडक्शन"
+          },
+          "explanation": "एडाबूस्ट और ग्रेडिएंट बूस्टिंग जैसे बूस्टिंग एल्गोरिथ्म पिछली त्रुटियों को सुधारने के लिए क्रमिक रूप से मॉडल बनाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-018",
+      "number": 18,
+      "question": "Which term describes the ability of a model to perform well on new, unseen data?",
+      "options": {
+        "A": "Overfitting",
+        "B": "Generalization",
+        "C": "Optimization",
+        "D": "Regularization"
+      },
+      "answer": "B",
+      "explanation": "Generalization is the core objective of machine learning—ensuring the model isn't just memorizing training data.",
+      "hash": "3129fb950dab75f0",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द नए, अनदेखे डेटा पर अच्छा प्रदर्शन करने की मॉडल की क्षमता का वर्णन करता है?",
+          "options": {
+            "A": "ओवरफिटिंग",
+            "B": "सामान्यीकरण (Generalization)",
+            "C": "ऑप्टिमाइजेशन",
+            "D": "रेगुलराइजेशन"
+          },
+          "explanation": "सामान्यीकरण मशीन लर्निंग का मूल उद्देश्य है—यह सुनिश्चित करना कि मॉडल केवल ट्रेनिंग डेटा को याद नहीं कर रहा है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-019",
+      "number": 19,
+      "question": "What is the effect of increasing the 'K' value in K-Nearest Neighbors?",
+      "options": {
+        "A": "The decision boundary becomes more complex",
+        "B": "The decision boundary becomes smoother",
+        "C": "The training time decreases",
+        "D": "The model becomes more sensitive to noise"
+      },
+      "answer": "B",
+      "explanation": "A higher K value reduces the impact of noise but might lead to missing local patterns.",
+      "hash": "630d2de038979c92",
+      "translations": {
+        "hi": {
+          "question": "के-नियरेस्ट नेबर्स में 'K' मान बढ़ाने का क्या प्रभाव होता है?",
+          "options": {
+            "A": "निर्णय सीमा अधिक जटिल हो जाती है",
+            "B": "निर्णय सीमा अधिक सुचारू (smoother) हो जाती है",
+            "C": "ट्रेनिंग का समय कम हो जाता है",
+            "D": "मॉडल शोर के प्रति अधिक संवेदनशील हो जाता है"
+          },
+          "explanation": "उच्च K मान शोर के प्रभाव को कम करता है लेकिन स्थानीय पैटर्न के छूटने का कारण बन सकता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-020",
+      "number": 20,
+      "question": "Which of the following is a 'Hyperparameter' for a Support Vector Machine?",
+      "options": {
+        "A": "The weights of the hyperplane",
+        "B": "The support vectors",
+        "C": "The kernel type (Linear, RBF, etc.)",
+        "D": "The final classification accuracy"
+      },
+      "answer": "C",
+      "explanation": "The kernel and the regularization parameter (C) are hyperparameters set before training an SVM.",
+      "hash": "25ff6cc4ae266078",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सपोर्ट वेक्टर मशीन के लिए एक 'हाइपरपैरामीटर' है?",
+          "options": {
+            "A": "हाइपरप्लेन के वेट्स",
+            "B": "सपोर्ट वेक्टर्स",
+            "C": "कर्नेल प्रकार (लीनियर, RBF, आदि)",
+            "D": "अंतिम वर्गीकरण सटीकता"
+          },
+          "explanation": "कर्नेल और रेगुलराइजेशन पैरामीटर (C) SVM को प्रशिक्षित करने से पहले सेट किए गए हाइपरपैरामीटर हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-021",
+      "number": 21,
+      "question": "In a Decision Tree, 'Gini Impurity' is used for?",
+      "options": {
+        "A": "Pruning the tree",
+        "B": "Deciding the best split at a node",
+        "C": "Calculating the error rate",
+        "D": "Setting the maximum depth"
+      },
+      "answer": "B",
+      "explanation": "Gini Impurity measures how often a randomly chosen element would be incorrectly labeled; lower values indicate better splits.",
+      "hash": "fee42d9fff36d9f6",
+      "translations": {
+        "hi": {
+          "question": "डिसीजन ट्री में, 'गिनी इम्प्योरिटी' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "पेड़ की छंटाई करना",
+            "B": "एक नोड पर सर्वश्रेष्ठ विभाजन का निर्णय लेना",
+            "C": "त्रुटि दर की गणना करना",
+            "D": "अधिकतम गहराई निर्धारित करना"
+          },
+          "explanation": "गिनी इम्प्योरिटी यह मापती है कि कितनी बार यादृच्छिक रूप से चुना गया तत्व गलत तरीके से लेबल किया जाएगा; कम मान बेहतर विभाजन का संकेत देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-022",
+      "number": 22,
+      "question": "What does 'ReLU' stand for in neural networks?",
+      "options": {
+        "A": "Rectified Linear Unit",
+        "B": "Reduced Linear Unit",
+        "C": "Recursive Linear Unit",
+        "D": "Refined Linear Unit"
+      },
+      "answer": "A",
+      "explanation": "ReLU is a popular activation function that outputs the input directly if it is positive, otherwise it outputs zero.",
+      "hash": "fa4ffd1577c83471",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में 'ReLU' का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "रेक्टिफाइड लीनियर यूनिट",
+            "B": "रिड्यूस्ड लीनियर यूनिट",
+            "C": "रिकर्सिव लीनियर यूनिट",
+            "D": "रिफाइंड लीनियर यूनिट"
+          },
+          "explanation": "ReLU एक लोकप्रिय एक्टिवेशन फ़ंक्शन है जो इनपुट सकारात्मक होने पर उसे सीधे आउटपुट करता है, अन्यथा यह शून्य आउटपुट करता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-023",
+      "number": 23,
+      "question": "Which algorithm is known for being 'Embarrassingly Parallel' during training?",
+      "options": {
+        "A": "Logistic Regression",
+        "B": "Random Forest",
+        "C": "Gradient Boosting",
+        "D": "Recurrent Neural Networks"
+      },
+      "answer": "B",
+      "explanation": "In Random Forest, each tree can be built independently on different processors, making it highly parallelizable.",
+      "hash": "ca9f69ef1fdc91df",
+      "translations": {
+        "hi": {
+          "question": "ट्रेनिंग के दौरान 'एम्बैरेसिंगली पैरेलल' (Embarrassingly Parallel) होने के लिए कौन सा एल्गोरिथ्म जाना जाता है?",
+          "options": {
+            "A": "लॉजिस्टिक रिग्रेशन",
+            "B": "रैंडम फ़ॉरेस्ट",
+            "C": "ग्रेडिएंट बूस्टिंग",
+            "D": "रिकरेंट न्यूरल नेटवर्क"
+          },
+          "explanation": "रैंडम फ़ॉरेस्ट में, प्रत्येक पेड़ को अलग-अलग प्रोसेसर पर स्वतंत्र रूप से बनाया जा सकता है, जिससे यह अत्यधिक पैरेललाइजेबल हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-024",
+      "number": 24,
+      "question": "The 'Bias-Variance Tradeoff' states that?",
+      "options": {
+        "A": "High bias and high variance are ideal",
+        "B": "Reducing bias often increases variance, and vice-versa",
+        "C": "Bias and variance are independent of each other",
+        "D": "Bias is always better than variance"
+      },
+      "answer": "B",
+      "explanation": "To minimize total error, one must find a balance between bias (underfitting) and variance (overfitting).",
+      "hash": "8e9ae1a19eeeb55b",
+      "translations": {
+        "hi": {
+          "question": "'बायस-वेरियंस ट्रेडऑफ़' क्या कहता है?",
+          "options": {
+            "A": "उच्च बायस और उच्च वेरियंस आदर्श हैं",
+            "B": "बायस कम करने से अक्सर वेरियंस बढ़ता है, और इसके विपरीत",
+            "C": "बायस और वेरियंस एक दूसरे से स्वतंत्र हैं",
+            "D": "बायस हमेशा वेरियंस से बेहतर होता है"
+          },
+          "explanation": "कुल त्रुटि को कम करने के लिए, बायस (अंडरफिटिंग) और वेरियंस (ओवरफिटिंग) के बीच संतुलन बनाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-025",
+      "number": 25,
+      "question": "Which validation technique is best for small datasets?",
+      "options": {
+        "A": "Simple Hold-out",
+        "B": "K-Fold Cross Validation",
+        "C": "Training on the entire set only",
+        "D": "Leave-one-out Cross Validation (LOOCV)"
+      },
+      "answer": "D",
+      "explanation": "LOOCV uses every data point as a test set once, making the most out of small datasets.",
+      "hash": "ce97daae8acbe163",
+      "translations": {
+        "hi": {
+          "question": "छोटे डेटासेट के लिए कौन सी वैलिडेशन तकनीक सबसे अच्छी है?",
+          "options": {
+            "A": "सिंपल होल्ड-आउट",
+            "B": "K-फोल्ड क्रॉस वैलिडेशन",
+            "C": "केवल पूरे सेट पर ट्रेनिंग",
+            "D": "लीव-वन-आउट क्रॉस वैलिडेशन (LOOCV)"
+          },
+          "explanation": "LOOCV प्रत्येक डेटा बिंदु को एक बार टेस्ट सेट के रूप में उपयोग करता है, जिससे छोटे डेटासेट का अधिकतम लाभ मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-026",
+      "number": 26,
+      "question": "What is 'Feature Scaling' used for?",
+      "options": {
+        "A": "To increase the values of features",
+        "B": "To bring all features to a similar scale, improving optimization speed",
+        "C": "To remove categorical variables",
+        "D": "To make the dataset larger"
+      },
+      "answer": "B",
+      "explanation": "Scaling (like Min-Max or Standardization) helps algorithms like Gradient Descent converge faster.",
+      "hash": "d910214c7a4f7602",
+      "translations": {
+        "hi": {
+          "question": "'फीचर स्केलिंग' का उपयोग किस लिए किया जाता है?",
+          "options": {
+            "A": "फीचर्स के मान बढ़ाने के लिए",
+            "B": "अनुकूलन गति में सुधार के लिए सभी फीचर्स को एक समान पैमाने पर लाना",
+            "C": "कैटेगोरिकल वेरिएबल्स को हटाने के लिए",
+            "D": "डेटासेट को बड़ा बनाने के लिए"
+          },
+          "explanation": "स्केलिंग (जैसे मिन-मैक्स या स्टैंडर्डाइजेशन) ग्रेडिएंट डिसेंट जैसे एल्गोरिदम को तेजी से स्थिर होने में मदद करती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-027",
+      "number": 27,
+      "question": "In an MLP (Multi-Layer Perceptron), where does 'Dropout' typically occur?",
+      "options": {
+        "A": "At the input layer only",
+        "B": "During the testing phase",
+        "C": "In the hidden layers during training",
+        "D": "In the output layer only"
+      },
+      "answer": "C",
+      "explanation": "Dropout randomly 'drops' neurons during training to prevent neurons from co-adapting, which reduces overfitting.",
+      "hash": "9c2a69f9a20e7753",
+      "translations": {
+        "hi": {
+          "question": "एक MLP (मल्टी-लेयर परसेप्ट्रॉन) में, 'ड्रॉपआउट' (Dropout) आमतौर पर कहाँ होता है?",
+          "options": {
+            "A": "केवल इनपुट लेयर पर",
+            "B": "टेस्टिंग चरण के दौरान",
+            "C": "ट्रेनिंग के दौरान हिडन लेयर्स में",
+            "D": "केवल आउटपुट लेयर पर"
+          },
+          "explanation": "ड्रॉपआउट न्यूरॉन्स को सह-अनुकूलन (co-adapting) से रोकने के लिए ट्रेनिंग के दौरान न्यूरॉन्स को बेतरतीब ढंग से 'हटा' देता है, जिससे ओवरफिटिंग कम होती है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-028",
+      "number": 28,
+      "question": "Which type of clustering does not require specifying the number of clusters in advance?",
+      "options": {
+        "A": "K-Means",
+        "B": "DBSCAN",
+        "C": "K-Medoids",
+        "D": "Linear Clustering"
+      },
+      "answer": "B",
+      "explanation": "DBSCAN groups points based on density and can discover an arbitrary number of clusters.",
+      "hash": "8bbf888bc1c59b01",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की क्लस्टरिंग में पहले से क्लस्टर्स की संख्या निर्दिष्ट करने की आवश्यकता नहीं होती है?",
+          "options": {
+            "A": "के-मीन्स",
+            "B": "डीबीस्कैन (DBSCAN)",
+            "C": "के-मीडोड्स",
+            "D": "लीनियर क्लस्टरिंग"
+          },
+          "explanation": "डीबीस्कैन घनत्व के आधार पर बिंदुओं को समूहबद्ध करता है और क्लस्टर्स की किसी भी संख्या की खोज कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-029",
+      "number": 29,
+      "question": "'Elastic Net' regression is a combination of?",
+      "options": {
+        "A": "Linear and Logistic Regression",
+        "B": "L1 (Lasso) and L2 (Ridge) regularization",
+        "C": "PCA and LDA",
+        "D": "Boosting and Bagging"
+      },
+      "answer": "B",
+      "explanation": "Elastic Net combines the penalties of both L1 and L2 regularization to overcome the limitations of each.",
+      "hash": "c7fb2c13879b0706",
+      "translations": {
+        "hi": {
+          "question": "'इलास्टिक नेट' (Elastic Net) रिग्रेशन किसका संयोजन है?",
+          "options": {
+            "A": "लीनियर और लॉजिस्टिक रिग्रेशन",
+            "B": "L1 (लासौ) और L2 (रिज) रेगुलराइजेशन",
+            "C": "पीसीए और एलडीए",
+            "D": "बूस्टिंग और बैगिंग"
+          },
+          "explanation": "इलास्टिक नेट प्रत्येक की सीमाओं को दूर करने के लिए L1 और L2 रेगुलराइजेशन दोनों की पेनल्टी को जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "machine-learning-03-030",
+      "number": 30,
+      "question": "What is 'Gradient Clipping' used for?",
+      "options": {
+        "A": "To handle vanishing gradients",
+        "B": "To handle exploding gradients",
+        "C": "To speed up K-Means",
+        "D": "To select features"
+      },
+      "answer": "B",
+      "explanation": "Gradient clipping limits the size of gradients during training to prevent them from becoming too large and causing instability.",
+      "hash": "e42155353fcf6ff6",
+      "translations": {
+        "hi": {
+          "question": "'ग्रेडिएंट क्लिपिंग' का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "वैनिशिंग ग्रेडिएंट को संभालने के लिए",
+            "B": "एक्सप्लोडिंग ग्रेडिएंट को संभालने के लिए",
+            "C": "के-मीन्स को तेज करने के लिए",
+            "D": "फीचर्स का चयन करने के लिए"
+          },
+          "explanation": "ग्रेडिएंट क्लिपिंग ट्रेनिंग के दौरान ग्रेडिएंट के आकार को सीमित करती है ताकि उन्हें बहुत बड़ा होने और अस्थिरता पैदा करने से रोका जा सके।"
+        }
+      }
+    }
+  ]
+}

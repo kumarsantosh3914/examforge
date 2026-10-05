@@ -1,0 +1,787 @@
+{
+  "subject": "Programming Languages",
+  "set": 1,
+  "title": "Programming Languages Mock Test 1",
+  "questions": [
+    {
+      "id": "programming-languages-01-001",
+      "number": 1,
+      "question": "Which of the following is used to prevent any changes in the variable within a C program?",
+      "options": {
+        "A": "static",
+        "B": "volatile",
+        "C": "const",
+        "D": "mutable"
+      },
+      "answer": "C",
+      "explanation": "The const keyword makes a variable's value unmodifiable after initialization.",
+      "hash": "61e5d9fe0707899a",
+      "translations": {
+        "hi": {
+          "question": "C प्रोग्राम में वेरिएबल में किसी भी बदलाव को रोकने के लिए निम्न में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टैटिक",
+            "B": "वोलेटाइल",
+            "C": "कॉन्स्ट",
+            "D": "म्यूटेबल"
+          },
+          "explanation": "const कीवर्ड इनिशियलाइजेशन के बाद वेरिएबल के मान को अपरिवर्तनीय बना देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-002",
+      "number": 2,
+      "question": "What is the default access specifier for members of a class in C++?",
+      "options": {
+        "A": "public",
+        "B": "private",
+        "C": "protected",
+        "D": "internal"
+      },
+      "answer": "B",
+      "explanation": "In C++, class members are private by default, while struct members are public.",
+      "hash": "d9bb859c02854e89",
+      "translations": {
+        "hi": {
+          "question": "C++ में क्लास के सदस्यों के लिए डिफ़ॉल्ट एक्सेस स्पेसिफायर क्या है?",
+          "options": {
+            "A": "पब्लिक",
+            "B": "प्राइवेट",
+            "C": "प्रोटेक्टेड",
+            "D": "इंटरनल"
+          },
+          "explanation": "C++ में, क्लास के सदस्य डिफ़ॉल्ट रूप से प्राइवेट होते हैं, जबकि स्ट्रक्ट के सदस्य पब्लिक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-003",
+      "number": 3,
+      "question": "Which operator in C++ is used to deallocate memory dynamically?",
+      "options": {
+        "A": "remove",
+        "B": "free",
+        "C": "delete",
+        "D": "drop"
+      },
+      "answer": "C",
+      "explanation": "In C++, the delete operator is used to free memory allocated by the new operator.",
+      "hash": "4a6217a20df1f7dc",
+      "translations": {
+        "hi": {
+          "question": "C++ में मेमोरी को डायनामिक रूप से डीएलोकेट करने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "रिमूव",
+            "B": "फ्री",
+            "C": "डिलीट",
+            "D": "ड्रॉप"
+          },
+          "explanation": "C++ में, delete ऑपरेटर का उपयोग new ऑपरेटर द्वारा आवंटित मेमोरी को मुक्त करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-004",
+      "number": 4,
+      "question": "Which feature of Java makes it platform independent?",
+      "options": {
+        "A": "The use of pointers",
+        "B": "Compilation to Bytecode",
+        "C": "Memory management",
+        "D": "Multithreading"
+      },
+      "answer": "B",
+      "explanation": "Java compiles code into Bytecode which can run on any machine with a JVM.",
+      "hash": "8bdc65134fba8208",
+      "translations": {
+        "hi": {
+          "question": "जावा की कौन सी विशेषता इसे प्लेटफॉर्म स्वतंत्र बनाती है?",
+          "options": {
+            "A": "पॉइंटर्स का उपयोग",
+            "B": "बाइटकोड में कंपाइलेशन",
+            "C": "मेमोरी प्रबंधन",
+            "D": "मल्टीथ्रेडिंग"
+          },
+          "explanation": "जावा कोड को बाइटकोड में कंपाइल करता है जो JVM वाले किसी भी मशीन पर चल सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-005",
+      "number": 5,
+      "question": "In Python, which function is used to get the length of a list?",
+      "options": {
+        "A": "size()",
+        "B": "count()",
+        "C": "length()",
+        "D": "len()"
+      },
+      "answer": "D",
+      "explanation": "The len() function returns the number of items in an object like a list or string.",
+      "hash": "76b3af90392f95a8",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, लिस्ट की लंबाई प्राप्त करने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "साइज()",
+            "B": "काउंट()",
+            "C": "लेंथ()",
+            "D": "लेन()"
+          },
+          "explanation": "len() फ़ंक्शन लिस्ट या स्ट्रिंग जैसी ऑब्जेक्ट में आइटम की संख्या लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-006",
+      "number": 6,
+      "question": "What is the size of an 'int' data type in C on a 16-bit system?",
+      "options": {
+        "A": "2 bytes",
+        "B": "4 bytes",
+        "C": "8 bytes",
+        "D": "1 byte"
+      },
+      "answer": "A",
+      "explanation": "On older 16-bit systems, int is typically 2 bytes; on 32/64 bit it is 4 bytes.",
+      "hash": "08c1d47f464f978c",
+      "translations": {
+        "hi": {
+          "question": "16-बिट सिस्टम पर C में 'int' डेटा टाइप का आकार क्या है?",
+          "options": {
+            "A": "2 बाइट्स",
+            "B": "4 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "1 बाइट"
+          },
+          "explanation": "पुराने 16-बिट सिस्टम पर, int आमतौर पर 2 बाइट्स का होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-007",
+      "number": 7,
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "options": {
+        "A": "catch",
+        "B": "except",
+        "C": "throw",
+        "D": "error"
+      },
+      "answer": "B",
+      "explanation": "Python uses try and except blocks for exception handling.",
+      "hash": "84582956b6d8f2be",
+      "translations": {
+        "hi": {
+          "question": "पायथन में अपवादों (exceptions) को संभालने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "कैच",
+            "B": "एक्सेप्ट",
+            "C": "थ्रो",
+            "D": "एरर"
+          },
+          "explanation": "पायथन अपवाद प्रबंधन के लिए try और except ब्लॉक का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-008",
+      "number": 8,
+      "question": "Which of these is not a valid primitive data type in Java?",
+      "options": {
+        "A": "int",
+        "B": "float",
+        "C": "string",
+        "D": "boolean"
+      },
+      "answer": "C",
+      "explanation": "String is a class/object in Java, not a primitive data type.",
+      "hash": "c027b607db82fe5b",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सा जावा में मान्य प्रिमिटिव डेटा टाइप नहीं है?",
+          "options": {
+            "A": "इंट",
+            "B": "फ्लोट",
+            "C": "स्ट्रिंग",
+            "D": "बुलियन"
+          },
+          "explanation": "जावा में स्ट्रिंग एक क्लास/ऑब्जेक्ट है, प्रिमिटिव डेटा टाइप नहीं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-009",
+      "number": 9,
+      "question": "Which symbol is used for single-line comments in C++?",
+      "options": {
+        "A": "#",
+        "B": "/*",
+        "C": "//",
+        "D": "--"
+      },
+      "answer": "C",
+      "explanation": "Double forward slash // is used for single line comments in C++ and Java.",
+      "hash": "9c2c8a47bf2eef55",
+      "translations": {
+        "hi": {
+          "question": "C++ में सिंगल-लाइन कमेंट के लिए किस प्रतीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "#",
+            "B": "/*",
+            "C": "//",
+            "D": "--"
+          },
+          "explanation": "C++ और जावा में सिंगल लाइन कमेंट के लिए डबल फॉरवर्ड स्लैश // का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-010",
+      "number": 10,
+      "question": "What is the correct way to create a function in Python?",
+      "options": {
+        "A": "function myFunc():",
+        "B": "def myFunc():",
+        "C": "void myFunc():",
+        "D": "create myFunc():"
+      },
+      "answer": "B",
+      "explanation": "The def keyword is used to define a function in Python.",
+      "hash": "30818657db5d189f",
+      "translations": {
+        "hi": {
+          "question": "पायथन में फ़ंक्शन बनाने का सही तरीका क्या है?",
+          "options": {
+            "A": "फ़ंक्शन myFunc():",
+            "B": "डेफ़ myFunc():",
+            "C": "वॉइड myFunc():",
+            "D": "क्रिएट myFunc():"
+          },
+          "explanation": "पायथन में फ़ंक्शन को परिभाषित करने के लिए def कीवर्ड का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-011",
+      "number": 11,
+      "question": "Which of the following supports Method Overloading in Java?",
+      "options": {
+        "A": "Static polymorphism",
+        "B": "Dynamic polymorphism",
+        "C": "Encapsulation",
+        "D": "Abstraction"
+      },
+      "answer": "A",
+      "explanation": "Method overloading is a compile-time (static) polymorphism.",
+      "hash": "edb651006ada65f0",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन जावा में मेथड ओवरलोडिंग का समर्थन करता है?",
+          "options": {
+            "A": "स्टैटिक पॉलीमॉर्फिज्म",
+            "B": "डायनामिक पॉलीमॉर्फिज्म",
+            "C": "एनकैप्सुलेशन",
+            "D": "एब्स्ट्रैक्शन"
+          },
+          "explanation": "मेथड ओवरलोडिंग एक कंपाइल-टाइम (स्टैटिक) पॉलीमॉर्फिज्म है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-012",
+      "number": 12,
+      "question": "In C, what is the return type of the malloc() function?",
+      "options": {
+        "A": "int*",
+        "B": "char*",
+        "C": "void*",
+        "D": "float*"
+      },
+      "answer": "C",
+      "explanation": "malloc() returns a void pointer (void*) which can be cast to any type.",
+      "hash": "2e30652b9ffb5434",
+      "translations": {
+        "hi": {
+          "question": "C में, malloc() फ़ंक्शन का रिटर्न टाइप क्या है?",
+          "options": {
+            "A": "इंट*",
+            "B": "चार*",
+            "C": "वॉइड*",
+            "D": "फ्लोट*"
+          },
+          "explanation": "malloc() एक वॉइड पॉइंटर (void*) लौटाता है जिसे किसी भी टाइप में बदला जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-013",
+      "number": 13,
+      "question": "Which collection in Java does not allow duplicate elements?",
+      "options": {
+        "A": "List",
+        "B": "Set",
+        "C": "Array",
+        "D": "Vector"
+      },
+      "answer": "B",
+      "explanation": "The Set interface in Java represents a collection that contains no duplicate elements.",
+      "hash": "5f597d49e79721f4",
+      "translations": {
+        "hi": {
+          "question": "जावा में कौन सा कलेक्शन डुप्लिकेट तत्वों की अनुमति नहीं देता है?",
+          "options": {
+            "A": "लिस्ट",
+            "B": "सेट",
+            "C": "एरे",
+            "D": "वेक्टर"
+          },
+          "explanation": "जावा में सेट इंटरफेस उन कलेक्शन्स का प्रतिनिधित्व करता है जिनमें कोई डुप्लिकेट तत्व नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-014",
+      "number": 14,
+      "question": "What is 'Self' in Python class methods?",
+      "options": {
+        "A": "A reserved keyword",
+        "B": "Reference to the current instance of the class",
+        "C": "A static method",
+        "D": "The name of the class"
+      },
+      "answer": "B",
+      "explanation": "Self represents the instance of the object itself, allowing access to its attributes.",
+      "hash": "ec351121b33a964a",
+      "translations": {
+        "hi": {
+          "question": "पायथन क्लास मेथड्स में 'Self' क्या है?",
+          "options": {
+            "A": "एक आरक्षित कीवर्ड",
+            "B": "क्लास के वर्तमान इंस्टेंस का संदर्भ",
+            "C": "एक स्टैटिक मेथड",
+            "D": "क्लास का नाम"
+          },
+          "explanation": "Self ऑब्जेक्ट के इंस्टेंस का प्रतिनिधित्व करता है, जिससे उसके गुणों तक पहुँच मिलती है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-015",
+      "number": 15,
+      "question": "Which C++ feature allows a function to have the same name but different parameters?",
+      "options": {
+        "A": "Inheritance",
+        "B": "Overloading",
+        "C": "Overriding",
+        "D": "Template"
+      },
+      "answer": "B",
+      "explanation": "Function overloading allows multiple functions with the same name but different signatures.",
+      "hash": "ad49951501ab6799",
+      "translations": {
+        "hi": {
+          "question": "कौन सी C++ विशेषता एक फ़ंक्शन को समान नाम लेकिन अलग-अलग पैरामीटर रखने की अनुमति देती है?",
+          "options": {
+            "A": "इनहेरिटेंस",
+            "B": "ओवरलोडिंग",
+            "C": "ओवरराइडिंग",
+            "D": "टेम्पलेट"
+          },
+          "explanation": "फ़ंक्शन ओवरलोडिंग एक ही नाम लेकिन अलग-अलग सिग्नेचर वाले कई फ़ंक्शंस की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-016",
+      "number": 16,
+      "question": "What is the extension of a compiled Java class file?",
+      "options": {
+        "A": ".java",
+        "B": ".js",
+        "C": ".class",
+        "D": ".obj"
+      },
+      "answer": "C",
+      "explanation": "Java source files use .java, and compiled files use .class extension.",
+      "hash": "d7f83ce85a29a69b",
+      "translations": {
+        "hi": {
+          "question": "कंपाइल की गई जावा क्लास फाइल का एक्सटेंशन क्या है?",
+          "options": {
+            "A": ".java",
+            "B": ".js",
+            "C": ".class",
+            "D": ".obj"
+          },
+          "explanation": "जावा सोर्स फाइलें .java का उपयोग करती हैं, और कंपाइल फाइलें .class का।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-017",
+      "number": 17,
+      "question": "How do you start a block of code in Python?",
+      "options": {
+        "A": "Using curly braces {}",
+        "B": "Using indentation",
+        "C": "Using brackets []",
+        "D": "Using parentheses ()"
+      },
+      "answer": "B",
+      "explanation": "Python uses white space indentation to define blocks of code.",
+      "hash": "9186c654431066d8",
+      "translations": {
+        "hi": {
+          "question": "पायथन में कोड का ब्लॉक कैसे शुरू करते हैं?",
+          "options": {
+            "A": "कर्ली ब्रेसेस {} का उपयोग करके",
+            "B": "इंडेंटेशन का उपयोग करके",
+            "C": "ब्रैकेट्स [] का उपयोग करके",
+            "D": "कोष्ठक () का उपयोग करके"
+          },
+          "explanation": "पायथन कोड के ब्लॉक को परिभाषित करने के लिए व्हाइट स्पेस इंडेंटेशन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-018",
+      "number": 18,
+      "question": "Which Java keyword is used to inherit a class?",
+      "options": {
+        "A": "implements",
+        "B": "extends",
+        "C": "inherits",
+        "D": "using"
+      },
+      "answer": "B",
+      "explanation": "The extends keyword is used to create a subclass from a parent class.",
+      "hash": "0898845bc76d663a",
+      "translations": {
+        "hi": {
+          "question": "क्लास को इनहेरिट करने के लिए किस जावा कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "इम्प्लीमेंट्स",
+            "B": "एक्सटेंड्स",
+            "C": "इनहेरिट्स",
+            "D": "यूजिंग"
+          },
+          "explanation": "एक्सटेंड्स कीवर्ड का उपयोग पैरेंट क्लास से सबक्लास बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-019",
+      "number": 19,
+      "question": "In C++, what is a virtual function?",
+      "options": {
+        "A": "A function that does nothing",
+        "B": "A function defined in base class and overridden in derived class",
+        "C": "A private function",
+        "D": "A function that cannot be inherited"
+      },
+      "answer": "B",
+      "explanation": "Virtual functions enable dynamic/run-time polymorphism.",
+      "hash": "7456fa9df4f6818d",
+      "translations": {
+        "hi": {
+          "question": "C++ में, वर्चुअल फ़ंक्शन क्या है?",
+          "options": {
+            "A": "एक फ़ंक्शन जो कुछ नहीं करता",
+            "B": "बेस क्लास में परिभाषित और डिराइव्ड क्लास में ओवरराइड किया गया फ़ंक्शन",
+            "C": "एक प्राइवेट फ़ंक्शन",
+            "D": "एक फ़ंक्शन जिसे इनहेरिट नहीं किया जा सकता"
+          },
+          "explanation": "वर्चुअल फ़ंक्शंस डायनामिक/रन-टाइम पॉलीमॉर्फिज्म को सक्षम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-020",
+      "number": 20,
+      "question": "Which storage class in C has the longest lifetime?",
+      "options": {
+        "A": "auto",
+        "B": "register",
+        "C": "static",
+        "D": "extern"
+      },
+      "answer": "C",
+      "explanation": "Static and Extern variables persist for the entire duration of the program.",
+      "hash": "3d7e8bb039f266d3",
+      "translations": {
+        "hi": {
+          "question": "C में किस स्टोरेज क्लास का जीवनकाल सबसे लंबा होता है?",
+          "options": {
+            "A": "ऑटो",
+            "B": "रजिस्टर",
+            "C": "स्टैटिक",
+            "D": "एक्सटर्न"
+          },
+          "explanation": "स्टैटिक और एक्सटर्न वेरिएबल पूरे प्रोग्राम की अवधि तक बने रहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-021",
+      "number": 21,
+      "question": "Which of the following is an immutable data type in Python?",
+      "options": {
+        "A": "List",
+        "B": "Dictionary",
+        "C": "Set",
+        "D": "Tuple"
+      },
+      "answer": "D",
+      "explanation": "Tuples are immutable, meaning they cannot be changed after creation.",
+      "hash": "5d521469e8ac3e66",
+      "translations": {
+        "hi": {
+          "question": "पायथन में निम्नलिखित में से कौन सा एक इम्यूटेबल (अपरिवर्तनीय) डेटा टाइप है?",
+          "options": {
+            "A": "लिस्ट",
+            "B": "डिक्शनरी",
+            "C": "सेट",
+            "D": "टपल"
+          },
+          "explanation": "टपल इम्यूटेबल होते हैं, जिसका अर्थ है कि उन्हें बनाने के बाद बदला नहीं जा सकता।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-022",
+      "number": 22,
+      "question": "In Java, which operator is used to compare two objects for structural equality?",
+      "options": {
+        "A": "==",
+        "B": "equals()",
+        "C": "is",
+        "D": "==="
+      },
+      "answer": "B",
+      "explanation": "== compares references, while the equals() method compares actual values.",
+      "hash": "ae4bf7845ce02cd4",
+      "translations": {
+        "hi": {
+          "question": "जावा में, दो ऑब्जेक्ट्स की संरचनात्मक समानता की तुलना करने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "==",
+            "B": "equals()",
+            "C": "is",
+            "D": "==="
+          },
+          "explanation": "== रिफरेन्स की तुलना करता है, जबकि equals() मेथड वास्तविक मानों की तुलना करता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-023",
+      "number": 23,
+      "question": "Which header file is required for input/output in C?",
+      "options": {
+        "A": "iostream.h",
+        "B": "stdio.h",
+        "C": "conio.h",
+        "D": "stdlib.h"
+      },
+      "answer": "B",
+      "explanation": "stdio.h stands for Standard Input Output and contains printf/scanf.",
+      "hash": "8870c4c7c845dc5b",
+      "translations": {
+        "hi": {
+          "question": "C में इनपुट/आउटपुट के लिए कौन सी हेडर फाइल आवश्यक है?",
+          "options": {
+            "A": "iostream.h",
+            "B": "stdio.h",
+            "C": "conio.h",
+            "D": "stdlib.h"
+          },
+          "explanation": "stdio.h का अर्थ स्टैंडर्ड इनपुट आउटपुट है और इसमें printf/scanf होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-024",
+      "number": 24,
+      "question": "Which C++ operator is used to access members through a pointer?",
+      "options": {
+        "A": ".",
+        "B": "*",
+        "C": "->",
+        "D": "&"
+      },
+      "answer": "C",
+      "explanation": "The arrow operator (->) is used to access class/struct members via a pointer.",
+      "hash": "d9f77acf5533f2a8",
+      "translations": {
+        "hi": {
+          "question": "पॉइंटर के माध्यम से सदस्यों तक पहुँचने के लिए किस C++ ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": ".",
+            "B": "*",
+            "C": "->",
+            "D": "&"
+          },
+          "explanation": "एरो ऑपरेटर (->) का उपयोग पॉइंटर के माध्यम से क्लास के सदस्यों तक पहुँचने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-025",
+      "number": 25,
+      "question": "What does 'POJO' stand for in Java?",
+      "options": {
+        "A": "Plain Old Java Object",
+        "B": "Private Object Java Only",
+        "C": "Portable Object Java Oriented",
+        "D": "Public Object Java Output"
+      },
+      "answer": "A",
+      "explanation": "POJO refers to an ordinary Java object not bound by any special restrictions.",
+      "hash": "172466689a43d97a",
+      "translations": {
+        "hi": {
+          "question": "जावा में 'POJO' का क्या अर्थ है?",
+          "options": {
+            "A": "प्लेन ओल्ड जावा ऑब्जेक्ट",
+            "B": "प्राइवेट ऑब्जेक्ट जावा ओनली",
+            "C": "पोर्टेबल ऑब्जेक्ट जावा ओरिएंटेड",
+            "D": "पब्लिक ऑब्जेक्ट जावा आउटपुट"
+          },
+          "explanation": "POJO एक साधारण जावा ऑब्जेक्ट को संदर्भित करता है जो किसी विशेष प्रतिबंध से बंधा नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-026",
+      "number": 26,
+      "question": "In Python, how do you insert an element at a specific index in a list?",
+      "options": {
+        "A": "add()",
+        "B": "append()",
+        "C": "insert()",
+        "D": "push()"
+      },
+      "answer": "C",
+      "explanation": "insert(index, element) adds an item at the specified position.",
+      "hash": "9d297540fd2bd289",
+      "translations": {
+        "hi": {
+          "question": "पायथन में, लिस्ट में एक विशिष्ट इंडेक्स पर तत्व कैसे डालते हैं?",
+          "options": {
+            "A": "ऐड()",
+            "B": "अपेंड()",
+            "C": "इंसर्ट()",
+            "D": "पुश()"
+          },
+          "explanation": "insert(index, element) निर्दिष्ट स्थान पर एक आइटम जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-027",
+      "number": 27,
+      "question": "What is the size of a char in Java?",
+      "options": {
+        "A": "8 bits",
+        "B": "16 bits",
+        "C": "32 bits",
+        "D": "1 byte"
+      },
+      "answer": "B",
+      "explanation": "Java uses Unicode for characters, so char is 2 bytes (16 bits).",
+      "hash": "7fc4832a0bc926c2",
+      "translations": {
+        "hi": {
+          "question": "जावा में char का आकार क्या है?",
+          "options": {
+            "A": "8 बिट्स",
+            "B": "16 बिट्स",
+            "C": "32 बिट्स",
+            "D": "1 बाइट"
+          },
+          "explanation": "जावा कैरेक्टर्स के लिए यूनिकोड का उपयोग करता है, इसलिए char 2 बाइट्स का होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-028",
+      "number": 28,
+      "question": "Which keyword is used to prevent a class from being inherited in Java?",
+      "options": {
+        "A": "static",
+        "B": "abstract",
+        "C": "final",
+        "D": "private"
+      },
+      "answer": "C",
+      "explanation": "A final class cannot be subclassed or inherited.",
+      "hash": "7f2680315cf989b4",
+      "translations": {
+        "hi": {
+          "question": "जावा में क्लास को इनहेरिट होने से रोकने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टैटिक",
+            "B": "एब्स्ट्रैक्शन",
+            "C": "फाइनल",
+            "D": "प्राइवेट"
+          },
+          "explanation": "एक फाइनल क्लास को इनहेरिट नहीं किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-029",
+      "number": 29,
+      "question": "Which of the following is not a loop in Python?",
+      "options": {
+        "A": "for",
+        "B": "while",
+        "C": "do-while",
+        "D": "Nested for"
+      },
+      "answer": "C",
+      "explanation": "Python does not have a native do-while loop structure.",
+      "hash": "5ecb84f1634b67f8",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा पायथन में लूप नहीं है?",
+          "options": {
+            "A": "फॉर",
+            "B": "व्हाईल",
+            "C": "डू-व्हाईल",
+            "D": "नेस्टेड फॉर"
+          },
+          "explanation": "पायथन में मूल रूप से do-while लूप स्ट्रक्चर नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "programming-languages-01-030",
+      "number": 30,
+      "question": "In C, a string is terminated by which character?",
+      "options": {
+        "A": "\\n",
+        "B": "\\t",
+        "C": "\\0",
+        "D": "\\s"
+      },
+      "answer": "C",
+      "explanation": "Strings in C are null-terminated using the '\\0' character.",
+      "hash": "46c69279d45eec22",
+      "translations": {
+        "hi": {
+          "question": "C में, एक स्ट्रिंग किस कैरेक्टर द्वारा समाप्त होती है?",
+          "options": {
+            "A": "\\n",
+            "B": "\\t",
+            "C": "\\0",
+            "D": "\\s"
+          },
+          "explanation": "C में स्ट्रिंग को '\\0' कैरेक्टर का उपयोग करके समाप्त किया जाता है।"
+        }
+      }
+    }
+  ]
+}

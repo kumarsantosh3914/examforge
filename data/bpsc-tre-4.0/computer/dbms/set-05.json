@@ -1,0 +1,787 @@
+{
+  "subject": "DBMS",
+  "set": 5,
+  "title": "DBMS Mock Test 5",
+  "questions": [
+    {
+      "id": "dbms-05-001",
+      "number": 1,
+      "question": "Which of the following refers to the number of tuples in a relation?",
+      "options": {
+        "A": "Degree",
+        "B": "Cardinality",
+        "C": "Attribute",
+        "D": "Schema"
+      },
+      "answer": "B",
+      "explanation": "Cardinality is the total number of rows (tuples) in a table, whereas Degree is the number of columns.",
+      "hash": "f68736ac47b5e3b7",
+      "translations": {
+        "hi": {
+          "question": "किसी रिलेशन में टुपल्स (tuples) की संख्या को निम्नलिखित में से क्या कहा जाता है?",
+          "options": {
+            "A": "डिग्री",
+            "B": "कार्डिनैलिटी",
+            "C": "एट्रिब्यूट",
+            "D": "स्कीमा"
+          },
+          "explanation": "कार्डिनैलिटी एक टेबल में पंक्तियों (tuples) की कुल संख्या है, जबकि डिग्री कॉलम की संख्या होती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-002",
+      "number": 2,
+      "question": "Which command is used to remove a database object like a table permanently?",
+      "options": {
+        "A": "DELETE",
+        "B": "TRUNCATE",
+        "C": "DROP",
+        "D": "REMOVE"
+      },
+      "answer": "C",
+      "explanation": "DROP is a DDL command that deletes the table structure and all its data from the database.",
+      "hash": "90918fd9d37266aa",
+      "translations": {
+        "hi": {
+          "question": "टेबल जैसी डेटाबेस ऑब्जेक्ट को स्थायी रूप से हटाने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "डिलीट",
+            "B": "ट्रंकेट",
+            "C": "ड्रॉप",
+            "D": "रिमूव"
+          },
+          "explanation": "DROP एक DDL कमांड है जो डेटाबेस से टेबल संरचना और उसके सभी डेटा को हटा देता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-003",
+      "number": 3,
+      "question": "Which of the following is a conflict-serializable schedule?",
+      "options": {
+        "A": "If its precedence graph is cyclic",
+        "B": "If its precedence graph is acyclic",
+        "C": "If it has a deadlock",
+        "D": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A schedule is conflict-serializable if and only if its precedence graph contains no cycles.",
+      "hash": "5335913d0c5be489",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक कॉन्फ्लिक्ट-सीरियलाइज़ेबल शेड्यूल है?",
+          "options": {
+            "A": "यदि इसका प्रेसिडेंस ग्राफ चक्रीय है",
+            "B": "यदि इसका प्रेसिडेंस ग्राफ अचक्रीय है",
+            "C": "यदि इसमें डेडलॉक है",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "एक शेड्यूल कॉन्फ्लिक्ट-सीरियलाइज़ेबल होता है यदि और केवल यदि उसके प्रेसिडेंस ग्राफ में कोई चक्र (cycle) नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-004",
+      "number": 4,
+      "question": "A functional dependency is called 'Partial Dependency' if:",
+      "options": {
+        "A": "Non-prime attribute depends on part of a candidate key",
+        "B": "Non-prime attribute depends on another non-prime attribute",
+        "C": "Prime attribute depends on the primary key",
+        "D": "All of the above"
+      },
+      "answer": "A",
+      "explanation": "Partial dependency occurs when a non-key attribute is dependent on only a part of a composite primary key.",
+      "hash": "7891c102279df121",
+      "translations": {
+        "hi": {
+          "question": "एक फंक्शनल डिपेंडेंसी को 'पार्शियल डिपेंडेंसी' कहा जाता है यदि:",
+          "options": {
+            "A": "नॉन-प्राइम एट्रिब्यूट कैंडिडेट की के हिस्से पर निर्भर करता है",
+            "B": "नॉन-प्राइम एट्रिब्यूट दूसरे नॉन-प्राइम एट्रिब्यूट पर निर्भर करता है",
+            "C": "प्राइम एट्रिब्यूट प्राइमरी की पर निर्भर करता है",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "पार्शियल डिपेंडेंसी तब होती है जब एक नॉन-की एट्रिब्यूट केवल एक कम्पोजिट प्राइमरी की के हिस्से पर निर्भर होता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-005",
+      "number": 5,
+      "question": "What is the purpose of the 'REVOKE' command in SQL?",
+      "options": {
+        "A": "To grant privileges to a user",
+        "B": "To remove privileges from a user",
+        "C": "To delete a user account",
+        "D": "To change a user password"
+      },
+      "answer": "B",
+      "explanation": "REVOKE is a DCL command used to take back permissions previously granted with the GRANT command.",
+      "hash": "331c19bf12b0ce28",
+      "translations": {
+        "hi": {
+          "question": "SQL में 'REVOKE' कमांड का उद्देश्य क्या है?",
+          "options": {
+            "A": "उपयोगकर्ता को विशेषाधिकार देना",
+            "B": "उपयोगकर्ता से विशेषाधिकार वापस लेना",
+            "C": "उपयोगकर्ता खाता हटाना",
+            "D": "उपयोगकर्ता पासवर्ड बदलना"
+          },
+          "explanation": "REVOKE एक DCL कमांड है जिसका उपयोग GRANT कमांड के साथ पहले दी गई अनुमतियों को वापस लेने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-006",
+      "number": 6,
+      "question": "In a B-Tree of order m, every node except the root can have at most how many children?",
+      "options": {
+        "A": "m-1",
+        "B": "m",
+        "C": "m/2",
+        "D": "2m"
+      },
+      "answer": "B",
+      "explanation": "In a B-Tree of order m, each node can have a maximum of m children and m-1 keys.",
+      "hash": "6d20660e503f192e",
+      "translations": {
+        "hi": {
+          "question": "m ऑर्डर के B-ट्री में, रूट को छोड़कर प्रत्येक नोड के अधिकतम कितने बच्चे हो सकते हैं?",
+          "options": {
+            "A": "m-1",
+            "B": "m",
+            "C": "m/2",
+            "D": "2m"
+          },
+          "explanation": "m ऑर्डर के B-ट्री में, प्रत्येक नोड में अधिकतम m बच्चे और m-1 कुंजियाँ (keys) हो सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-007",
+      "number": 7,
+      "question": "Which join is also known as a 'Cartesian Product'?",
+      "options": {
+        "A": "Inner Join",
+        "B": "Natural Join",
+        "C": "Cross Join",
+        "D": "Outer Join"
+      },
+      "answer": "C",
+      "explanation": "A Cross Join returns the Cartesian product of the two tables, matching every row of the first table with every row of the second.",
+      "hash": "f3208029999a167f",
+      "translations": {
+        "hi": {
+          "question": "किस जॉइन को 'कार्टेशियन प्रोडक्ट' के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "इनर जॉइन",
+            "B": "नेचुरल जॉइन",
+            "C": "क्रॉस जॉइन",
+            "D": "आउटर जॉइन"
+          },
+          "explanation": "क्रॉस जॉइन दो टेबल का कार्टेशियन प्रोडक्ट लौटाता है, जो पहली टेबल की प्रत्येक पंक्ति को दूसरी टेबल की प्रत्येक पंक्ति से मिलाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-008",
+      "number": 8,
+      "question": "Which normal form is strictly defined for relational databases to remove transitive dependency?",
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "3NF",
+        "D": "BCNF"
+      },
+      "answer": "C",
+      "explanation": "3NF requires the relation to be in 2NF and ensures there is no transitive dependency for non-prime attributes.",
+      "hash": "fa48c2457afac7e9",
+      "translations": {
+        "hi": {
+          "question": "रिलेशनल डेटाबेस के लिए ट्रांजिटिव डिपेंडेंसी को हटाने के लिए कौन सा नॉर्मल फॉर्म स्पष्ट रूप से परिभाषित है?",
+          "options": {
+            "A": "1NF",
+            "B": "2NF",
+            "C": "3NF",
+            "D": "BCNF"
+          },
+          "explanation": "3NF के लिए रिलेशन का 2NF में होना आवश्यक है और यह सुनिश्चित करता है कि नॉन-प्राइम एट्रिब्यूट्स के लिए कोई ट्रांजिटिव डिपेंडेंसी न हो।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-009",
+      "number": 9,
+      "question": "The concept of 'Locking' is used to solve which problem in DBMS?",
+      "options": {
+        "A": "Data Redundancy",
+        "B": "Lost Update Problem",
+        "C": "Database Failure",
+        "D": "Unauthorized Access"
+      },
+      "answer": "B",
+      "explanation": "Locking ensures concurrency control and prevents problems like Lost Updates where two transactions modify the same data simultaneously.",
+      "hash": "cb57df3094f0c48d",
+      "translations": {
+        "hi": {
+          "question": "DBMS में 'लॉकिंग' की अवधारणा का उपयोग किस समस्या को हल करने के लिए किया जाता है?",
+          "options": {
+            "A": "डेटा रिडंडेंसी",
+            "B": "लॉस्ट अपडेट समस्या",
+            "C": "डेटाबेस विफलता",
+            "D": "अनधिकृत पहुँच"
+          },
+          "explanation": "लॉकिंग कॉन्करेंसी कंट्रोल सुनिश्चित करता है और लॉस्ट अपडेट जैसी समस्याओं को रोकता है जहाँ दो ट्रांजैक्शन एक साथ एक ही डेटा को संशोधित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-010",
+      "number": 10,
+      "question": "In ER-Diagrams, what is used to represent a derived attribute?",
+      "options": {
+        "A": "Ellipse",
+        "B": "Dashed Ellipse",
+        "C": "Double Ellipse",
+        "D": "Squared Box"
+      },
+      "answer": "B",
+      "explanation": "Derived attributes, whose values are calculated from other attributes, are shown using dashed ellipses.",
+      "hash": "5dfddf80564aff84",
+      "translations": {
+        "hi": {
+          "question": "ER-आरेख में, व्युत्पन्न एट्रिब्यूट (derived attribute) को दर्शाने के लिए किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "अंडाकार (एलिप्स)",
+            "B": "डैश वाला अंडाकार",
+            "C": "डबल अंडाकार",
+            "D": "चौकोर बॉक्स"
+          },
+          "explanation": "व्युत्पन्न एट्रिब्यूट, जिनके मान अन्य एट्रिब्यूट से गणना किए जाते हैं, डैश वाले अंडाकार का उपयोग करके दिखाए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-011",
+      "number": 11,
+      "question": "Which key is a minimal set of attributes that can uniquely identify a tuple?",
+      "options": {
+        "A": "Super Key",
+        "B": "Candidate Key",
+        "C": "Secondary Key",
+        "D": "Composite Key"
+      },
+      "answer": "B",
+      "explanation": "A candidate key is a minimal super key; no subset of a candidate key can be a super key.",
+      "hash": "b4d978f36cd8aae7",
+      "translations": {
+        "hi": {
+          "question": "कौन सी कुंजी एट्रिब्यूट्स का एक न्यूनतम सेट है जो एक टुपल को विशिष्ट रूप से पहचान सकती है?",
+          "options": {
+            "A": "सुपर की",
+            "B": "कैंडिडेट की",
+            "C": "सेकेंडरी की",
+            "D": "कम्पोजिट की"
+          },
+          "explanation": "कैंडिडेट की एक न्यूनतम सुपर की होती है; कैंडिडेट की का कोई भी सबसेट सुपर की नहीं हो सकता।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-012",
+      "number": 12,
+      "question": "What does the 'I' in ACID stand for?",
+      "options": {
+        "A": "Integrity",
+        "B": "Isolation",
+        "C": "Iteration",
+        "D": "Integration"
+      },
+      "answer": "B",
+      "explanation": "Isolation ensures that the concurrent execution of transactions leaves the database in the same state as if they were executed sequentially.",
+      "hash": "075eaeb7ba543128",
+      "translations": {
+        "hi": {
+          "question": "ACID में 'I' का क्या अर्थ है?",
+          "options": {
+            "A": "इंटीग्रिटी",
+            "B": "आइसोलेशन",
+            "C": "इटरेशन",
+            "D": "इंटीग्रेशन"
+          },
+          "explanation": "आइसोलेशन यह सुनिश्चित करता है कि ट्रांजैक्शन का समवर्ती निष्पादन डेटाबेस को उसी स्थिति में छोड़ता है जैसे कि वे क्रमिक रूप से निष्पादित किए गए हों।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-013",
+      "number": 13,
+      "question": "Which SQL clause is used to group rows that have the same values in specified columns?",
+      "options": {
+        "A": "ORDER BY",
+        "B": "GROUP BY",
+        "C": "HAVING",
+        "D": "SORT BY"
+      },
+      "answer": "B",
+      "explanation": "GROUP BY statement groups rows that have the same values into summary rows, like 'find the number of students in each city'.",
+      "hash": "9a91f6c714f9d109",
+      "translations": {
+        "hi": {
+          "question": "निर्दिष्ट कॉलम में समान मान वाली पंक्तियों को समूहित करने के लिए किस SQL क्लॉज का उपयोग किया जाता है?",
+          "options": {
+            "A": "ऑर्डर बाय",
+            "B": "ग्रुप बाय",
+            "C": "हैविंग",
+            "D": "सॉर्ट बाय"
+          },
+          "explanation": "GROUP BY स्टेटमेंट उन पंक्तियों को समूहित करता है जिनके मान समान होते हैं, जैसे 'प्रत्येक शहर में छात्रों की संख्या ज्ञात करें'।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-014",
+      "number": 14,
+      "question": "Which command is used to save the changes made by a transaction permanently?",
+      "options": {
+        "A": "ROLLBACK",
+        "B": "COMMIT",
+        "C": "SAVEPOINT",
+        "D": "GRANT"
+      },
+      "answer": "B",
+      "explanation": "COMMIT command marks the successful completion of a transaction and saves all changes to the disk.",
+      "hash": "b16d6fe0ae167d07",
+      "translations": {
+        "hi": {
+          "question": "ट्रांजैक्शन द्वारा किए गए परिवर्तनों को स्थायी रूप से सहेजने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "रोलबैक",
+            "B": "कमिट",
+            "C": "सेवपॉइंट",
+            "D": "ग्रांट"
+          },
+          "explanation": "COMMIT कमांड ट्रांजैक्शन के सफल समापन को चिह्नित करता है और सभी परिवर्तनों को डिस्क पर सहेजता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-015",
+      "number": 15,
+      "question": "What is a 'Deadlock' in a database?",
+      "options": {
+        "A": "Database server is down",
+        "B": "Two transactions are waiting for each other to release locks",
+        "C": "Data is deleted by mistake",
+        "D": "Multiple users accessing the same table"
+      },
+      "answer": "B",
+      "explanation": "A deadlock is a state where two or more transactions are stuck forever, each waiting for a resource held by the other.",
+      "hash": "bb4d33e06174b1bb",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस में 'डेडलॉक' क्या है?",
+          "options": {
+            "A": "डेटाबेस सर्वर डाउन है",
+            "B": "दो ट्रांजैक्शन एक-दूसरे द्वारा लॉक छोड़ने का इंतजार कर रहे हैं",
+            "C": "डेटा गलती से डिलीट हो गया है",
+            "D": "एक ही टेबल तक पहुँचने वाले कई उपयोगकर्ता"
+          },
+          "explanation": "डेडलॉक एक ऐसी स्थिति है जहाँ दो या दो से अधिक ट्रांजैक्शन हमेशा के लिए फंस जाते हैं, प्रत्येक दूसरे द्वारा रोके गए संसाधन की प्रतीक्षा करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-016",
+      "number": 16,
+      "question": "Which level of database architecture is also called the 'Community View'?",
+      "options": {
+        "A": "Internal level",
+        "B": "Conceptual level",
+        "C": "External level",
+        "D": "Physical level"
+      },
+      "answer": "B",
+      "explanation": "The Conceptual level represents the entire database's logical structure as seen by the DBA/Community.",
+      "hash": "ac5735e9899016ae",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस आर्किटेक्चर के किस स्तर को 'कम्युनिटी व्यू' भी कहा जाता है?",
+          "options": {
+            "A": "इंटरनल स्तर",
+            "B": "कॉन्सेप्चुअल स्तर",
+            "C": "एक्सटर्नल स्तर",
+            "D": "फिजिकल स्तर"
+          },
+          "explanation": "कॉन्सेप्चुअल स्तर संपूर्ण डेटाबेस की तार्किक संरचना का प्रतिनिधित्व करता है जैसा कि DBA/कम्युनिटी द्वारा देखा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-017",
+      "number": 17,
+      "question": "The 'GRANT' command belongs to which category of SQL?",
+      "options": {
+        "A": "DDL",
+        "B": "DML",
+        "C": "DCL",
+        "D": "TCL"
+      },
+      "answer": "C",
+      "explanation": "Data Control Language (DCL) includes commands like GRANT and REVOKE for security and permissions.",
+      "hash": "384dadafdb842432",
+      "translations": {
+        "hi": {
+          "question": "'GRANT' कमांड SQL की किस श्रेणी के अंतर्गत आता है?",
+          "options": {
+            "A": "DDL",
+            "B": "DML",
+            "C": "DCL",
+            "D": "TCL"
+          },
+          "explanation": "डेटा कंट्रोल लैंग्वेज (DCL) में सुरक्षा और अनुमतियों के लिए GRANT और REVOKE जैसे कमांड शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-018",
+      "number": 18,
+      "question": "Which of the following is a multi-valued attribute?",
+      "options": {
+        "A": "Date of Birth",
+        "B": "Phone Number",
+        "C": "Social Security Number",
+        "D": "Age"
+      },
+      "answer": "B",
+      "explanation": "A person can have more than one phone number, making it a multi-valued attribute. DOB is single-valued.",
+      "hash": "f031b9a36e9663fa",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक मल्टी-वैल्यूड एट्रिब्यूट है?",
+          "options": {
+            "A": "जन्म तिथि",
+            "B": "फोन नंबर",
+            "C": "सोशल सिक्योरिटी नंबर",
+            "D": "आयु"
+          },
+          "explanation": "एक व्यक्ति के पास एक से अधिक फोन नंबर हो सकते हैं, जो इसे मल्टी-वैल्यूड एट्रिब्यूट बनाता है। जन्म तिथि सिंगल-वैल्यूड होती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-019",
+      "number": 19,
+      "question": "Which normal form eliminates 'Join Dependency'?",
+      "options": {
+        "A": "3NF",
+        "B": "4NF",
+        "C": "5NF",
+        "D": "BCNF"
+      },
+      "answer": "C",
+      "explanation": "5NF, also known as Project-Join Normal Form (PJ/NF), deals with cases where information can be reconstructed from smaller pieces.",
+      "hash": "46d6f4ab47632846",
+      "translations": {
+        "hi": {
+          "question": "कौन सा नॉर्मल फॉर्म 'जॉइन डिपेंडेंसी' को समाप्त करता है?",
+          "options": {
+            "A": "3NF",
+            "B": "4NF",
+            "C": "5NF",
+            "D": "BCNF"
+          },
+          "explanation": "5NF, जिसे प्रोजेक्ट-जॉइन नॉर्मल फॉर्म (PJ/NF) के रूप में भी जाना जाता है, उन मामलों से संबंधित है जहाँ जानकारी को छोटे टुकड़ों से पुनर्गठित किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-020",
+      "number": 20,
+      "question": "In SQL, which function is used to return the largest value of the selected column?",
+      "options": {
+        "A": "TOP()",
+        "B": "MAX()",
+        "C": "LARGE()",
+        "D": "HIGH()"
+      },
+      "answer": "B",
+      "explanation": "The MAX() function returns the maximum value in a set of values.",
+      "hash": "5cc7914aa1b81991",
+      "translations": {
+        "hi": {
+          "question": "SQL में, चयनित कॉलम का सबसे बड़ा मान लौटाने के लिए किस फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "TOP()",
+            "B": "MAX()",
+            "C": "LARGE()",
+            "D": "HIGH()"
+          },
+          "explanation": "MAX() फ़ंक्शन मानों के सेट में अधिकतम मान लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-021",
+      "number": 21,
+      "question": "Which operator is used to find records that match a specific pattern in SQL?",
+      "options": {
+        "A": "MATCH",
+        "B": "LIKE",
+        "C": "EQUAL",
+        "D": "FIND"
+      },
+      "answer": "B",
+      "explanation": "The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.",
+      "hash": "5975120ec0f924b7",
+      "translations": {
+        "hi": {
+          "question": "SQL में विशिष्ट पैटर्न से मेल खाने वाले रिकॉर्ड खोजने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "MATCH",
+            "B": "LIKE",
+            "C": "EQUAL",
+            "D": "FIND"
+          },
+          "explanation": "LIKE ऑपरेटर का उपयोग WHERE क्लॉज में कॉलम में निर्दिष्ट पैटर्न खोजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-022",
+      "number": 22,
+      "question": "A table is in 2NF if it is in 1NF and:",
+      "options": {
+        "A": "It has no transitive dependency",
+        "B": "It has no partial dependency",
+        "C": "All attributes are atomic",
+        "D": "It has a primary key"
+      },
+      "answer": "B",
+      "explanation": "2NF requires that all non-prime attributes are fully functionally dependent on the entire primary key.",
+      "hash": "377fef22b39d962d",
+      "translations": {
+        "hi": {
+          "question": "एक टेबल 2NF में होती है यदि वह 1NF में हो और:",
+          "options": {
+            "A": "इसमें कोई ट्रांजिटिव डिपेंडेंसी न हो",
+            "B": "इसमें कोई पार्शियल डिपेंडेंसी न हो",
+            "C": "सभी एट्रिब्यूट एटॉमिक हों",
+            "D": "इसमें एक प्राइमरी की हो"
+          },
+          "explanation": "2NF के लिए आवश्यक है कि सभी नॉन-प्राइम एट्रिब्यूट पूरी तरह से संपूर्ण प्राइमरी की पर निर्भर हों।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-023",
+      "number": 23,
+      "question": "Which property ensures that all parts of a transaction are completed or none are?",
+      "options": {
+        "A": "Consistency",
+        "B": "Atomicity",
+        "C": "Isolation",
+        "D": "Durability"
+      },
+      "answer": "B",
+      "explanation": "Atomicity follows the \"all or nothing\" rule for transaction execution.",
+      "hash": "9577b684268b5a2b",
+      "translations": {
+        "hi": {
+          "question": "कौन सा गुण यह सुनिश्चित करता है कि ट्रांजैक्शन के सभी भाग पूरे हों या कोई भी नहीं?",
+          "options": {
+            "A": "कंसिस्टेंसी",
+            "B": "एटोमीसिटी",
+            "C": "आइसोलेशन",
+            "D": "ड्यूरेबिलिटी"
+          },
+          "explanation": "एटोमीसिटी ट्रांजैक्शन निष्पादन के लिए \"सब कुछ या कुछ भी नहीं\" नियम का पालन करती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-024",
+      "number": 24,
+      "question": "What is a 'Relational Schema'?",
+      "options": {
+        "A": "Collection of tuples",
+        "B": "Description of a relation",
+        "C": "Data stored in a table",
+        "D": "The query used to fetch data"
+      },
+      "answer": "B",
+      "explanation": "A schema is the design or description of the table, including attribute names and types.",
+      "hash": "9a3eb925c9cab406",
+      "translations": {
+        "hi": {
+          "question": "'रिलेशनल स्कीमा' क्या है?",
+          "options": {
+            "A": "टुपल्स का संग्रह",
+            "B": "एक रिलेशन का विवरण",
+            "C": "टेबल में संग्रहीत डेटा",
+            "D": "डेटा लाने के लिए उपयोग की जाने वाली क्वेरी"
+          },
+          "explanation": "स्कीमा टेबल का डिज़ाइन या विवरण है, जिसमें एट्रिब्यूट के नाम और प्रकार शामिल होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-025",
+      "number": 25,
+      "question": "Which of the following is used to define the logical structure of the database?",
+      "options": {
+        "A": "DML",
+        "B": "DDL",
+        "C": "Query Language",
+        "D": "DCL"
+      },
+      "answer": "B",
+      "explanation": "Data Definition Language (DDL) is used to create and modify the structure of database objects like tables, indexes, and schemas.",
+      "hash": "e838bd4b29207ef7",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस की तार्किक संरचना को परिभाषित करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "DML",
+            "B": "DDL",
+            "C": "क्वेरी लैंग्वेज",
+            "D": "DCL"
+          },
+          "explanation": "डेटा डेफिनिशन लैंग्वेज (DDL) का उपयोग टेबल, इंडेक्स और स्कीमा जैसे डेटाबेस ऑब्जेक्ट की संरचना बनाने और संशोधित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-026",
+      "number": 26,
+      "question": "Which of the following is a disadvantage of File Processing Systems compared to DBMS?",
+      "options": {
+        "A": "Data Redundancy",
+        "B": "Difficulty in accessing data",
+        "C": "Lack of Data Isolation",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "File systems suffer from redundancy, inconsistency, and poor security, which DBMS solves.",
+      "hash": "370d96320e5d4916",
+      "translations": {
+        "hi": {
+          "question": "DBMS की तुलना में फाइल प्रोसेसिंग सिस्टम का कौन सा नुकसान है?",
+          "options": {
+            "A": "डेटा रिडंडेंसी",
+            "B": "डेटा तक पहुँचने में कठिनाई",
+            "C": "डेटा आइसोलेशन की कमी",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "फाइल सिस्टम रिडंडेंसी, इनकंसिस्टेंसी और खराब सुरक्षा से ग्रस्त होते हैं, जिन्हें DBMS हल करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-027",
+      "number": 27,
+      "question": "'Metadata' is defined as:",
+      "options": {
+        "A": "Encrypted Data",
+        "B": "Data about data",
+        "C": "Large volume of data",
+        "D": "Obsolete data"
+      },
+      "answer": "B",
+      "explanation": "Metadata describes the structure, constraints, and properties of the actual data stored in the database.",
+      "hash": "7bdd2375df9a3d72",
+      "translations": {
+        "hi": {
+          "question": "'मेटाडेटा' को इस रूप में परिभाषित किया गया है:",
+          "options": {
+            "A": "एन्क्रिप्टेड डेटा",
+            "B": "डेटा के बारे में डेटा",
+            "C": "डेटा की बड़ी मात्रा",
+            "D": "पुराना डेटा"
+          },
+          "explanation": "मेटाडेटा डेटाबेस में संग्रहीत वास्तविक डेटा की संरचना, बाधाओं और गुणों का वर्णन करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-028",
+      "number": 28,
+      "question": "Which constraint ensures that a child table record must have a matching parent table record?",
+      "options": {
+        "A": "Primary Key",
+        "B": "Check Constraint",
+        "C": "Referential Integrity",
+        "D": "Unique Constraint"
+      },
+      "answer": "C",
+      "explanation": "Referential integrity is enforced via Foreign Keys to ensure consistency between related tables.",
+      "hash": "5cf094687a0e4c69",
+      "translations": {
+        "hi": {
+          "question": "कौन सा कंस्ट्रेंट यह सुनिश्चित करता है कि चाइल्ड टेबल रिकॉर्ड का पैरेंट टेबल रिकॉर्ड से मेल खाना चाहिए?",
+          "options": {
+            "A": "प्राइमरी की",
+            "B": "चेक कंस्ट्रेंट",
+            "C": "रेफरेंशियल इंटीग्रिटी",
+            "D": "यूनिक कंस्ट्रेंट"
+          },
+          "explanation": "रेफरेंशियल इंटीग्रिटी को संबंधित टेबल के बीच स्थिरता सुनिश्चित करने के लिए फॉरेन की के माध्यम से लागू किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-029",
+      "number": 29,
+      "question": "In SQL, which clause is used with aggregate functions to filter groups?",
+      "options": {
+        "A": "WHERE",
+        "B": "HAVING",
+        "C": "GROUP BY",
+        "D": "ORDER BY"
+      },
+      "answer": "B",
+      "explanation": "WHERE cannot be used with aggregate functions; HAVING is used for that purpose.",
+      "hash": "fcd63cb3230e6a6a",
+      "translations": {
+        "hi": {
+          "question": "SQL में, समूहों को फ़िल्टर करने के लिए एग्रीगेट फ़ंक्शंस के साथ किस क्लॉज का उपयोग किया जाता है?",
+          "options": {
+            "A": "वेयर",
+            "B": "हैविंग",
+            "C": "ग्रुप बाय",
+            "D": "ऑर्डर बाय"
+          },
+          "explanation": "WHERE का उपयोग एग्रीगेट फ़ंक्शंस के साथ नहीं किया जा सकता; उस उद्देश्य के लिए HAVING का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-05-030",
+      "number": 30,
+      "question": "The set of all attributes that can uniquely identify a tuple is called a:",
+      "options": {
+        "A": "Foreign Key",
+        "B": "Super Key",
+        "C": "Candidate Key",
+        "D": "Primary Key"
+      },
+      "answer": "B",
+      "explanation": "A super key is any set of one or more columns that can uniquely identify a row; candidate keys are minimal versions of super keys.",
+      "hash": "e1966320a61b1cca",
+      "translations": {
+        "hi": {
+          "question": "उन सभी एट्रिब्यूट्स के सेट को क्या कहा जाता है जो एक टुपल को विशिष्ट रूप से पहचान सकते हैं?",
+          "options": {
+            "A": "फॉरेन की",
+            "B": "सुपर की",
+            "C": "कैंडिडेट की",
+            "D": "प्राइमरी की"
+          },
+          "explanation": "सुपर की एक या अधिक कॉलम का कोई भी सेट है जो एक पंक्ति को विशिष्ट रूप से पहचान सकता है; कैंडिडेट की सुपर की का न्यूनतम संस्करण है।"
+        }
+      }
+    }
+  ]
+}

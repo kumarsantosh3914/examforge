@@ -1,0 +1,787 @@
+{
+  "subject": "IoT",
+  "set": 2,
+  "title": "IoT Mock Test 2",
+  "questions": [
+    {
+      "id": "iot-02-001",
+      "number": 1,
+      "question": "Which layer of the IoT architecture is responsible for collecting data directly from the environment?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Perception Layer",
+        "C": "Application Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "B",
+      "explanation": "The Perception layer (also called Sensing layer) consists of sensors that sense and collect physical information.",
+      "hash": "0fc9881463e96259",
+      "translations": {
+        "hi": {
+          "question": "IoT आर्किटेक्चर की कौन सी परत सीधे पर्यावरण से डेटा एकत्र करने के लिए जिम्मेदार है?",
+          "options": {
+            "A": "नेटवर्क परत",
+            "B": "धारणा (परसेप्शन) परत",
+            "C": "अनुप्रयोग (एप्लीकेशन) परत",
+            "D": "ट्रांसपोर्ट परत"
+          },
+          "explanation": "धारणा परत (जिसे सेंसिंग परत भी कहा जाता है) में सेंसर होते हैं जो भौतिक जानकारी को महसूस और एकत्र करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-002",
+      "number": 2,
+      "question": "Which microcontroller is primarily used in the Arduino UNO board?",
+      "options": {
+        "A": "ATmega328P",
+        "B": "ATmega2560",
+        "C": "ESP8266",
+        "D": "ARM Cortex-M3"
+      },
+      "answer": "A",
+      "explanation": "The Arduino UNO is based on the ATmega328P, which is a high-performance, low-power 8-bit AVR microcontroller.",
+      "hash": "b3a13407eeabcaf6",
+      "translations": {
+        "hi": {
+          "question": "Arduino UNO बोर्ड में मुख्य रूप से किस माइक्रोकंट्रोलर का उपयोग किया जाता है?",
+          "options": {
+            "A": "ATmega328P",
+            "B": "ATmega2560",
+            "C": "ESP8266",
+            "D": "ARM कोर्टेक्स-M3"
+          },
+          "explanation": "Arduino UNO ATmega328P पर आधारित है, जो एक उच्च-प्रदर्शन, कम-शक्ति वाला 8-बिट AVR माइक्रोकंट्रोलर है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-003",
+      "number": 3,
+      "question": "In the context of IoT, what does SDN stand for?",
+      "options": {
+        "A": "Secure Data Network",
+        "B": "Software Defined Networking",
+        "C": "System Data Node",
+        "D": "Standard Device Network"
+      },
+      "answer": "B",
+      "explanation": "Software Defined Networking (SDN) is a network architecture that decouples the control plane from the data plane.",
+      "hash": "7c4695d3470bbd62",
+      "translations": {
+        "hi": {
+          "question": "IoT के संदर्भ में, SDN का क्या अर्थ है?",
+          "options": {
+            "A": "सिक्योर डेटा नेटवर्क",
+            "B": "सॉफ्टवेयर डिफाइंड नेटवर्किंग",
+            "C": "सिस्टम डेटा नोड",
+            "D": "स्टैंडर्ड डिवाइस नेटवर्क"
+          },
+          "explanation": "सॉफ्टवेयर डिफाइंड नेटवर्किंग (SDN) एक नेटवर्क आर्किटेक्चर है जो कंट्रोल प्लेन को डेटा प्लेन से अलग करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-004",
+      "number": 4,
+      "question": "What is the bit length of an IPv6 address?",
+      "options": {
+        "A": "32 bits",
+        "B": "64 bits",
+        "C": "128 bits",
+        "D": "256 bits"
+      },
+      "answer": "C",
+      "explanation": "IPv6 uses a 128-bit address space to provide a much larger number of unique IP addresses compared to IPv4.",
+      "hash": "c7ffe81d6f6154e8",
+      "translations": {
+        "hi": {
+          "question": "IPv6 एड्रेस की बिट लंबाई कितनी होती है?",
+          "options": {
+            "A": "32 बिट्स",
+            "B": "64 बिट्स",
+            "C": "128 बिट्स",
+            "D": "256 बिट्स"
+          },
+          "explanation": "IPv6 128-बिट एड्रेस स्पेस का उपयोग करता है ताकि IPv4 की तुलना में बहुत बड़ी संख्या में अद्वितीय IP एड्रेस प्रदान किए जा सकें।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-005",
+      "number": 5,
+      "question": "Which of the following is a standard port number for secure MQTT (MQTTS)?",
+      "options": {
+        "A": "1883",
+        "B": "8080",
+        "C": "8883",
+        "D": "443"
+      },
+      "answer": "C",
+      "explanation": "Port 1883 is used for unencrypted MQTT, while port 8883 is the default for MQTT over TLS/SSL (Secure).",
+      "hash": "82e0d20b491466d1",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सुरक्षित MQTT (MQTTS) के लिए एक मानक पोर्ट नंबर है?",
+          "options": {
+            "A": "1883",
+            "B": "8080",
+            "C": "8883",
+            "D": "443"
+          },
+          "explanation": "पोर्ट 1883 का उपयोग अनएन्क्रिप्टेड MQTT के लिए किया जाता है, जबकि पोर्ट 8883 TLS/SSL (सुरक्षित) पर MQTT के लिए डिफॉल्ट है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-006",
+      "number": 6,
+      "question": "What is the main function of an Actuator in an IoT system?",
+      "options": {
+        "A": "To sense light",
+        "B": "To convert electrical signals into physical action",
+        "C": "To store sensor data",
+        "D": "To generate IP addresses"
+      },
+      "answer": "B",
+      "explanation": "Actuators receive signals from a controller and perform physical tasks like moving a motor or opening a valve.",
+      "hash": "6c194fd794c06858",
+      "translations": {
+        "hi": {
+          "question": "IoT सिस्टम में एक्चुएटर (Actuator) का मुख्य कार्य क्या है?",
+          "options": {
+            "A": "प्रकाश को महसूस करना",
+            "B": "विद्युत संकेतों को भौतिक क्रिया में बदलना",
+            "C": "सेंसर डेटा को स्टोर करना",
+            "D": "IP एड्रेस उत्पन्न करना"
+          },
+          "explanation": "एक्चुएटर एक कंट्रोलर से संकेत प्राप्त करते हैं और मोटर चलाने या वाल्व खोलने जैसे भौतिक कार्य करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-007",
+      "number": 7,
+      "question": "Which sensor is used to detect the presence or movement of an object without physical contact?",
+      "options": {
+        "A": "Humidity sensor",
+        "B": "Proximity sensor",
+        "C": "LDR sensor",
+        "D": "Temperature sensor"
+      },
+      "answer": "B",
+      "explanation": "A proximity sensor emits an electromagnetic field or beam and looks for changes in the return signal to detect nearby objects.",
+      "hash": "17ec23970a5a0567",
+      "translations": {
+        "hi": {
+          "question": "भौतिक संपर्क के बिना किसी वस्तु की उपस्थिति या गति का पता लगाने के लिए किस सेंसर का उपयोग किया जाता है?",
+          "options": {
+            "A": "आर्द्रता सेंसर",
+            "B": "प्रॉक्सिमिटी सेंसर",
+            "C": "LDR सेंसर",
+            "D": "तापमान सेंसर"
+          },
+          "explanation": "एक प्रॉक्सिमिटी सेंसर विद्युत चुम्बकीय क्षेत्र या बीम उत्सर्जित करता है और पास की वस्तुओं का पता लगाने के लिए रिटर्न सिग्नल में बदलाव देखता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-008",
+      "number": 8,
+      "question": "What is the standard length of a MAC address?",
+      "options": {
+        "A": "32 bits",
+        "B": "48 bits",
+        "C": "64 bits",
+        "D": "128 bits"
+      },
+      "answer": "B",
+      "explanation": "A MAC (Media Access Control) address is a unique 48-bit identifier assigned to a network interface controller.",
+      "hash": "51794a46faf2a99d",
+      "translations": {
+        "hi": {
+          "question": "MAC एड्रेस की मानक लंबाई कितनी होती है?",
+          "options": {
+            "A": "32 बिट्स",
+            "B": "48 बिट्स",
+            "C": "64 बिट्स",
+            "D": "128 बिट्स"
+          },
+          "explanation": "एक MAC (मीडिया एक्सेस कंट्रोल) एड्रेस एक विशिष्ट 48-बिट पहचानकर्ता है जो नेटवर्क इंटरफ़ेस कंट्रोलर को सौंपा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-009",
+      "number": 9,
+      "question": "What does M2M stand for in IoT communication?",
+      "options": {
+        "A": "Mobile to Mobile",
+        "B": "Machine to Machine",
+        "C": "Message to Message",
+        "D": "Management to Management"
+      },
+      "answer": "B",
+      "explanation": "Machine-to-Machine (M2M) refers to direct communication between devices using any communications channel.",
+      "hash": "da59e9339a9319ba",
+      "translations": {
+        "hi": {
+          "question": "IoT संचार में M2M का क्या अर्थ है?",
+          "options": {
+            "A": "मोबाइल टू मोबाइल",
+            "B": "मशीन टू मशीन",
+            "C": "मैसेज टू मैसेज",
+            "D": "मैनेजमेंट टू मैनेजमेंट"
+          },
+          "explanation": "मशीन-टू-मशीन (M2M) किसी भी संचार चैनल का उपयोग करके उपकरणों के बीच सीधे संचार को संदर्भित करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-010",
+      "number": 10,
+      "question": "Which protocol is used by the World Wide Web but is often too \"heavy\" for constrained IoT devices?",
+      "options": {
+        "A": "MQTT",
+        "B": "CoAP",
+        "C": "HTTP",
+        "D": "6LoWPAN"
+      },
+      "answer": "C",
+      "explanation": "HTTP is a text-based protocol with large headers, making it less efficient for low-power IoT devices compared to CoAP or MQTT.",
+      "hash": "a0a17b4eac4858d7",
+      "translations": {
+        "hi": {
+          "question": "वर्ल्ड वाइड वेब द्वारा किस प्रोटोकॉल का उपयोग किया जाता है लेकिन यह अक्सर बाधित IoT उपकरणों के लिए बहुत \"भारी\" होता है?",
+          "options": {
+            "A": "MQTT",
+            "B": "CoAP",
+            "C": "HTTP",
+            "D": "6LoWPAN"
+          },
+          "explanation": "HTTP एक टेक्स्ट-आधारित प्रोटोकॉल है जिसमें बड़े हेडर होते हैं, जो इसे CoAP या MQTT की तुलना में कम-शक्ति वाले IoT उपकरणों के लिए कम कुशल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-011",
+      "number": 11,
+      "question": "Which sensor acts as a variable resistor whose resistance changes with light intensity?",
+      "options": {
+        "A": "Thermistor",
+        "B": "LDR (Light Dependent Resistor)",
+        "C": "Accelerometer",
+        "D": "Pressure Sensor"
+      },
+      "answer": "B",
+      "explanation": "LDR resistance decreases when the light intensity increases.",
+      "hash": "3426bc9cb3cca95e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सेंसर एक परिवर्तनीय प्रतिरोधी (वेरिएबल रेसिस्टर) के रूप में कार्य करता है जिसका प्रतिरोध प्रकाश की तीव्रता के साथ बदलता है?",
+          "options": {
+            "A": "थर्मिस्टर",
+            "B": "LDR (लाइट डिपेंडेंट रेसिस्टर)",
+            "C": "एक्सेलेरोमीटर",
+            "D": "दबाव सेंसर"
+          },
+          "explanation": "जब प्रकाश की तीव्रता बढ़ती है तो LDR का प्रतिरोध कम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-012",
+      "number": 12,
+      "question": "What is the full form of IANA?",
+      "options": {
+        "A": "Internet Assigned Numbers Authority",
+        "B": "Internet Association of Network Automation",
+        "C": "International Agency for Network Access",
+        "D": "Internal Assessment of Network Architecture"
+      },
+      "answer": "A",
+      "explanation": "IANA is responsible for the global coordination of DNS Root, IP addressing, and other IP resources.",
+      "hash": "25c4950f3e4c6a1b",
+      "translations": {
+        "hi": {
+          "question": "IANA का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "इंटरनेट असाइन्ड नंबर्स अथॉरिटी",
+            "B": "इंटरनेट एसोसिएशन ऑफ नेटवर्क ऑटोमेशन",
+            "C": "इंटरनेशनल एजेंसी फॉर नेटवर्क एक्सेस",
+            "D": "इंटरनल असेसमेंट ऑफ नेटवर्क आर्किटेक्चर"
+          },
+          "explanation": "IANA DNS रूट, IP एड्रेसिंग और अन्य IP संसाधनों के वैश्विक समन्वय के लिए जिम्मेदार है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-013",
+      "number": 13,
+      "question": "Which communication model involves an IoT device sending data to a web application via a broker?",
+      "options": {
+        "A": "Device-to-Device",
+        "B": "Device-to-Cloud",
+        "C": "Device-to-Gateway",
+        "D": "Back-End Data Sharing"
+      },
+      "answer": "B",
+      "explanation": "In the Device-to-Cloud model, the device connects directly to an application service in the cloud.",
+      "hash": "fe09f57a87b4edb7",
+      "translations": {
+        "hi": {
+          "question": "किस संचार मॉडल में एक IoT डिवाइस ब्रोकर के माध्यम से वेब एप्लिकेशन को डेटा भेजता है?",
+          "options": {
+            "A": "डिवाइस-टू-डिवाइस",
+            "B": "डिवाइस-टू-क्लाउड",
+            "C": "डिवाइस-टू-गेटवे",
+            "D": "बैक-एंड डेटा शेयरिंग"
+          },
+          "explanation": "डिवाइस-टू-क्लाउड मॉडल में, डिवाइस सीधे क्लाउड में एक एप्लिकेशन सेवा से जुड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-014",
+      "number": 14,
+      "question": "What is the main purpose of \"Edge Computing\" in IoT?",
+      "options": {
+        "A": "To increase cloud storage",
+        "B": "To reduce latency by processing data locally",
+        "C": "To eliminate the need for sensors",
+        "D": "To provide internet to remote areas"
+      },
+      "answer": "B",
+      "explanation": "Edge computing performs data processing at the edge of the network, near the source of data, to speed up response times.",
+      "hash": "85ad6fa7c4acf25f",
+      "translations": {
+        "hi": {
+          "question": "IoT में \"एज कंप्यूटिंग\" का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "क्लाउड स्टोरेज बढ़ाना",
+            "B": "स्थानीय रूप से डेटा संसाधित करके विलंबता (लेटेंसी) कम करना",
+            "C": "सेंसर की आवश्यकता को समाप्त करना",
+            "D": "दूरस्थ क्षेत्रों में इंटरनेट प्रदान करना"
+          },
+          "explanation": "एज कंप्यूटिंग प्रतिक्रिया समय को तेज करने के लिए डेटा के स्रोत के पास, नेटवर्क के किनारे पर डेटा प्रोसेसिंग करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-015",
+      "number": 15,
+      "question": "Which of the following is NOT a fundamental component of an IoT system?",
+      "options": {
+        "A": "Sensors",
+        "B": "Connectivity",
+        "C": "User Interface",
+        "D": "Physical Wires"
+      },
+      "answer": "D",
+      "explanation": "While some IoT devices use wires, most rely on wireless connectivity; wires are not a \"fundamental\" defining component.",
+      "hash": "07c41b66f5ca2f16",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन IoT सिस्टम का एक मौलिक घटक नहीं है?",
+          "options": {
+            "A": "सेंसर",
+            "B": "कनेक्टिविटी",
+            "C": "यूजर इंटरफेस",
+            "D": "भौतिक तार"
+          },
+          "explanation": "हालांकि कुछ IoT डिवाइस तारों का उपयोग करते हैं, अधिकांश वायरलेस कनेक्टिविटी पर निर्भर करते हैं; तार एक \"मौलिक\" परिभाषित घटक नहीं हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-016",
+      "number": 16,
+      "question": "What is the role of the \"Middleware\" layer in IoT?",
+      "options": {
+        "A": "Physical sensing",
+        "B": "Data management and integration of heterogeneous devices",
+        "C": "Displaying data to users",
+        "D": "Power supply management"
+      },
+      "answer": "B",
+      "explanation": "Middleware provides a layer between the hardware and applications to manage data flow and device interoperability.",
+      "hash": "79520c3e4ffecf98",
+      "translations": {
+        "hi": {
+          "question": "IoT में \"मिडलवेयर\" परत की क्या भूमिका है?",
+          "options": {
+            "A": "भौतिक संवेदन",
+            "B": "डेटा प्रबंधन और विषम उपकरणों का एकीकरण",
+            "C": "उपयोगकर्ताओं को डेटा प्रदर्शित करना",
+            "D": "बिजली आपूर्ति प्रबंधन"
+          },
+          "explanation": "मिडलवेयर डेटा प्रवाह और डिवाइस इंटरऑपरेबिलिटी को प्रबंधित करने के लिए हार्डवेयर और अनुप्रयोगों के बीच एक परत प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-017",
+      "number": 17,
+      "question": "Which of the following is an open-source operating system for IoT devices?",
+      "options": {
+        "A": "Windows 10",
+        "B": "Contiki",
+        "C": "iOS",
+        "D": "MS-DOS"
+      },
+      "answer": "B",
+      "explanation": "Contiki is an open-source, highly portable operating system for memory-constrained networked systems and IoT.",
+      "hash": "0d6cceda99736024",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन IoT उपकरणों के लिए एक ओपन-सोर्स ऑपरेटिंग सिस्टम है?",
+          "options": {
+            "A": "विंडोज 10",
+            "B": "कॉन्टिकी (Contiki)",
+            "C": "iOS",
+            "D": "MS-DOS"
+          },
+          "explanation": "कॉन्टिकी मेमोरी-बाधित नेटवर्क सिस्टम और IoT के लिए एक ओपन-सोर्स, अत्यधिक पोर्टेबल ऑपरेटिंग सिस्टम है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-018",
+      "number": 18,
+      "question": "What does RFID stand for?",
+      "options": {
+        "A": "Radio Frequency Identification",
+        "B": "Remote Frequency Identification",
+        "C": "Radio Frequency Information",
+        "D": "Rapid Frequency Identification"
+      },
+      "answer": "A",
+      "explanation": "RFID uses radio waves to read and capture information stored on a tag attached to an object.",
+      "hash": "732fc921ed2cd19e",
+      "translations": {
+        "hi": {
+          "question": "RFID का क्या अर्थ है?",
+          "options": {
+            "A": "रेडियो फ्रीक्वेंसी आइडेंटिफिकेशन",
+            "B": "रिमोट फ्रीक्वेंसी आइडेंटिफिकेशन",
+            "C": "रेडियो फ्रीक्वेंसी इंफॉर्मेशन",
+            "D": "रैपिड फ्रीक्वेंसी आइडेंटिफिकेशन"
+          },
+          "explanation": "RFID किसी वस्तु से जुड़े टैग पर संग्रहीत जानकारी को पढ़ने और कैप्चर करने के लिए रेडियो तरंगों का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-019",
+      "number": 19,
+      "question": "Which technology is most suitable for very long-range, low-power IoT communication?",
+      "options": {
+        "A": "Bluetooth",
+        "B": "Wi-Fi",
+        "C": "LoRaWAN",
+        "D": "Zigbee"
+      },
+      "answer": "C",
+      "explanation": "LoRaWAN is a Low Power Wide Area Network (LPWAN) designed for long-range communication (kilometers).",
+      "hash": "17d7e9318e7c384d",
+      "translations": {
+        "hi": {
+          "question": "बहुत लंबी दूरी, कम-शक्ति वाले IoT संचार के लिए कौन सी तकनीक सबसे उपयुक्त है?",
+          "options": {
+            "A": "ब्लूटूथ",
+            "B": "वाई-फाई",
+            "C": "LoRaWAN",
+            "D": "ज़िगबी"
+          },
+          "explanation": "LoRaWAN एक लो पावर वाइड एरिया नेटवर्क (LPWAN) है जिसे लंबी दूरी के संचार (किलोमीटर) के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-020",
+      "number": 20,
+      "question": "What is the primary concern when millions of IoT devices are connected to the internet?",
+      "options": {
+        "A": "High data speed",
+        "B": "Cybersecurity and Privacy",
+        "C": "Device weight",
+        "D": "Screen size"
+      },
+      "answer": "B",
+      "explanation": "Large numbers of connected devices increase the attack surface for hackers, making security a top priority.",
+      "hash": "9fdfe975fe3a55b5",
+      "translations": {
+        "hi": {
+          "question": "जब लाखों IoT उपकरण इंटरनेट से जुड़े होते हैं तो प्राथमिक चिंता क्या होती है?",
+          "options": {
+            "A": "उच्च डेटा गति",
+            "B": "साइबर सुरक्षा और गोपनीयता",
+            "C": "डिवाइस का वजन",
+            "D": "स्क्रीन का आकार"
+          },
+          "explanation": "बड़ी संख्या में जुड़े उपकरण हैकर्स के लिए हमले के क्षेत्र को बढ़ाते हैं, जिससे सुरक्षा एक शीर्ष प्राथमिकता बन जाती है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-021",
+      "number": 21,
+      "question": "What is the full form of WSN?",
+      "options": {
+        "A": "Wired Sensor Network",
+        "B": "Wireless Sensor Network",
+        "C": "Web Service Network",
+        "D": "Wireless Security Node"
+      },
+      "answer": "B",
+      "explanation": "A Wireless Sensor Network consists of spatially distributed autonomous sensors to monitor physical conditions.",
+      "hash": "0d5a423f2dbc4382",
+      "translations": {
+        "hi": {
+          "question": "WSN का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "वायर्ड सेंसर नेटवर्क",
+            "B": "वायरलेस सेंसर नेटवर्क",
+            "C": "वेब सर्विस नेटवर्क",
+            "D": "वायरलेस सिक्योरिटी नोड"
+          },
+          "explanation": "वायरलेस सेंसर नेटवर्क में भौतिक स्थितियों की निगरानी के लिए स्थानिक रूप से वितरित स्वायत्त सेंसर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-022",
+      "number": 22,
+      "question": "Which sensor is typically used in a smartphone to rotate the screen automatically?",
+      "options": {
+        "A": "Proximity sensor",
+        "B": "Accelerometer",
+        "C": "Humidity sensor",
+        "D": "Barometer"
+      },
+      "answer": "B",
+      "explanation": "The accelerometer detects the orientation of the device by measuring the force of gravity.",
+      "hash": "24a002eeacfeb876",
+      "translations": {
+        "hi": {
+          "question": "स्क्रीन को स्वचालित रूप से घुमाने के लिए स्मार्टफोन में आमतौर पर किस सेंसर का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्रॉक्सिमिटी सेंसर",
+            "B": "एक्सेलेरोमीटर",
+            "C": "आर्द्रता सेंसर",
+            "D": "बैरोमीटर"
+          },
+          "explanation": "एक्सेलेरोमीटर गुरुत्वाकर्षण बल को मापकर डिवाइस के ओरिएंटेशन (स्थिति) का पता लगाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-023",
+      "number": 23,
+      "question": "What is the full form of AMQP?",
+      "options": {
+        "A": "Advanced Message Queuing Protocol",
+        "B": "Automated Message Query Protocol",
+        "C": "Advanced Mobile Query Protocol",
+        "D": "Automated Message Queuing Process"
+      },
+      "answer": "A",
+      "explanation": "AMQP is an open standard application layer protocol for message-oriented middleware.",
+      "hash": "6e96cb1343c2d1e3",
+      "translations": {
+        "hi": {
+          "question": "AMQP का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "एडवांस्ड मैसेज क्यूइंग प्रोटोकॉल",
+            "B": "ऑटोमेटेड मैसेज क्वेरी प्रोटोकॉल",
+            "C": "एडवांस्ड मोबाइल क्वेरी प्रोटोकॉल",
+            "D": "ऑटोमेटेड मैसेज क्यूइंग प्रोसेस"
+          },
+          "explanation": "AMQP मैसेज-ओरिएंटेड मिडलवेयर के लिए एक ओपन स्टैंडर्ड एप्लिकेशन लेयर प्रोटोकॉल है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-024",
+      "number": 24,
+      "question": "Which programming language is most commonly used for writing Arduino sketches?",
+      "options": {
+        "A": "Python",
+        "B": "Java",
+        "C": "C/C++",
+        "D": "HTML"
+      },
+      "answer": "C",
+      "explanation": "Arduino programs are written in C or C++ with a specific set of libraries.",
+      "hash": "1acbab8fb969079b",
+      "translations": {
+        "hi": {
+          "question": "Arduino स्केच लिखने के लिए आमतौर पर किस प्रोग्रामिंग भाषा का उपयोग किया जाता है?",
+          "options": {
+            "A": "पायथन",
+            "B": "जावा",
+            "C": "C/C++",
+            "D": "HTML"
+          },
+          "explanation": "Arduino प्रोग्राम C या C++ में विशिष्ट लाइब्रेरी के सेट के साथ लिखे जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-025",
+      "number": 25,
+      "question": "Which protocol is specifically used for the \"Web of Things\" (WoT)?",
+      "options": {
+        "A": "MQTT",
+        "B": "HTTP",
+        "C": "CoAP",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "WoT aims to use existing web standards like HTTP and CoAP to allow IoT devices to communicate over the web.",
+      "hash": "748cf1f2aed81d64",
+      "translations": {
+        "hi": {
+          "question": "\"वेब ऑफ थिंग्स\" (WoT) के लिए विशेष रूप से किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "MQTT",
+            "B": "HTTP",
+            "C": "CoAP",
+            "D": "B और C दोनों"
+          },
+          "explanation": "WoT का लक्ष्य HTTP और CoAP जैसे मौजूदा वेब मानकों का उपयोग करना है ताकि IoT डिवाइस वेब पर संचार कर सकें।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-026",
+      "number": 26,
+      "question": "Which communication technology uses \"Mesh Topology\" for high reliability in smart homes?",
+      "options": {
+        "A": "Bluetooth Classic",
+        "B": "Zigbee",
+        "C": "Wi-Fi",
+        "D": "Infrared"
+      },
+      "answer": "B",
+      "explanation": "Zigbee uses mesh networking, where each node can relay data for the network, increasing range and reliability.",
+      "hash": "488b787076c95f62",
+      "translations": {
+        "hi": {
+          "question": "स्मार्ट घरों में उच्च विश्वसनीयता के लिए कौन सी संचार तकनीक \"मेश टोपोलॉजी\" का उपयोग करती है?",
+          "options": {
+            "A": "ब्लूटूथ क्लासिक",
+            "B": "ज़िगबी",
+            "C": "वाई-फाई",
+            "D": "इन्फ्रारेड"
+          },
+          "explanation": "ज़िगबी मेश नेटवर्किंग का उपयोग करता है, जहाँ प्रत्येक नोड नेटवर्क के लिए डेटा रिले कर सकता है, जिससे रेंज और विश्वसनीयता बढ़ती है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-027",
+      "number": 27,
+      "question": "What is the function of the \"Network Layer\" in IoT architecture?",
+      "options": {
+        "A": "Data collection",
+        "B": "Data transmission and routing",
+        "C": "User interaction",
+        "D": "Physical movement"
+      },
+      "answer": "B",
+      "explanation": "The network layer is responsible for transferring data from the perception layer to the processing system.",
+      "hash": "5c2255a645c518bf",
+      "translations": {
+        "hi": {
+          "question": "IoT आर्किटेक्चर में \"नेटवर्क परत\" का कार्य क्या है?",
+          "options": {
+            "A": "डेटा संग्रह",
+            "B": "डेटा ट्रांसमिशन और रूटिंग",
+            "C": "यूजर इंटरैक्शन",
+            "D": "भौतिक हलचल"
+          },
+          "explanation": "नेटवर्क परत धारणा परत से प्रोसेसिंग सिस्टम तक डेटा स्थानांतरित करने के लिए जिम्मेदार है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-028",
+      "number": 28,
+      "question": "What is the \"Digital Twin\" concept in IoT?",
+      "options": {
+        "A": "Two identical physical devices",
+        "B": "A virtual representation of a physical object or system",
+        "C": "A backup of the cloud server",
+        "D": "A second user account"
+      },
+      "answer": "B",
+      "explanation": "A Digital Twin is a digital model that mirrors a physical device and is used for monitoring and simulation.",
+      "hash": "6472a23141bccae0",
+      "translations": {
+        "hi": {
+          "question": "IoT में \"डिजिटल ट्विन\" (Digital Twin) अवधारणा क्या है?",
+          "options": {
+            "A": "दो समान भौतिक उपकरण",
+            "B": "एक भौतिक वस्तु या प्रणाली का आभासी प्रतिनिधित्व",
+            "C": "क्लाउड सर्वर का बैकअप",
+            "D": "एक दूसरा उपयोगकर्ता खाता"
+          },
+          "explanation": "डिजिटल ट्विन एक डिजिटल मॉडल है जो एक भौतिक उपकरण को दर्शाता है और इसका उपयोग निगरानी और सिमुलेशन के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-029",
+      "number": 29,
+      "question": "Which sensor measures the atmospheric pressure?",
+      "options": {
+        "A": "Gyroscope",
+        "B": "Barometer",
+        "C": "Accelerometer",
+        "D": "Proximity sensor"
+      },
+      "answer": "B",
+      "explanation": "A barometer is used to measure air pressure, which can also help in determining altitude.",
+      "hash": "528d32f5b75f5e78",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सेंसर वायुमंडलीय दबाव को मापता है?",
+          "options": {
+            "A": "जाइरोस्कोप",
+            "B": "बैरोमीटर",
+            "C": "एक्सेलेरोमीटर",
+            "D": "प्रॉक्सिमिटी सेंसर"
+          },
+          "explanation": "बैरोमीटर का उपयोग हवा के दबाव को मापने के लिए किया जाता है, जो ऊंचाई निर्धारित करने में भी मदद कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "iot-02-030",
+      "number": 30,
+      "question": "In IoT, what does \"Interoperability\" mean?",
+      "options": {
+        "A": "The ability of devices to work only with the same manufacturer",
+        "B": "The ability of different systems and devices to work together",
+        "C": "The ability to operate without battery",
+        "D": "The ability to work without internet"
+      },
+      "answer": "B",
+      "explanation": "Interoperability allows diverse IoT devices from different vendors to exchange and use information.",
+      "hash": "d19083705507333d",
+      "translations": {
+        "hi": {
+          "question": "IoT में \"इंटरऑपरेबिलिटी\" (Interoperability) का क्या अर्थ है?",
+          "options": {
+            "A": "केवल एक ही निर्माता के उपकरणों के साथ काम करने की क्षमता",
+            "B": "विभिन्न प्रणालियों और उपकरणों की एक साथ काम करने की क्षमता",
+            "C": "बिना बैटरी के संचालित करने की क्षमता",
+            "D": "बिना इंटरनेट के काम करने की क्षमता"
+          },
+          "explanation": "इंटरऑपरेबिलिटी विभिन्न विक्रेताओं के विविध IoT उपकरणों को जानकारी का आदान-प्रदान और उपयोग करने की अनुमति देती है।"
+        }
+      }
+    }
+  ]
+}

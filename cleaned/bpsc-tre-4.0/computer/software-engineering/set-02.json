@@ -1,0 +1,787 @@
+{
+  "subject": "Software Engineering",
+  "set": 2,
+  "title": "Software Engineering Mock Test 2",
+  "questions": [
+    {
+      "id": "software-engineering-02-001",
+      "number": 1,
+      "question": "In software engineering, \"DRE\" stands for?",
+      "options": {
+        "A": "Defect Removal Efficiency",
+        "B": "Data Run Execution",
+        "C": "Design Reliability Entity",
+        "D": "Development Rate Estimate"
+      },
+      "answer": "A",
+      "explanation": "DRE is a measure of how effectively defects are found and fixed before release.",
+      "hash": "cb01464f5216539f",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग में, \"DRE\" का क्या अर्थ है?",
+          "options": {
+            "A": "डिफेक्ट रिमूवल एफिशिएंसी",
+            "B": "डेटा रन एक्ज़ीक्यूशन",
+            "C": "डिजाइन रिलायबिलिटी एंटिटी",
+            "D": "डेवलपमेंट रेट एस्टीमेट"
+          },
+          "explanation": "DRE इस बात का माप है कि रिलीज से पहले दोषों को कितनी प्रभावी ढंग से खोजा और ठीक किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-002",
+      "number": 2,
+      "question": "Which model is most suitable for projects where requirements are well-defined and stable?",
+      "options": {
+        "A": "Spiral Model",
+        "B": "Waterfall Model",
+        "C": "Agile Model",
+        "D": "Prototyping"
+      },
+      "answer": "B",
+      "explanation": "The Waterfall model is a linear sequential approach ideal for stable requirements.",
+      "hash": "88e8d2648ee96216",
+      "translations": {
+        "hi": {
+          "question": "उन परियोजनाओं के लिए कौन सा मॉडल सबसे उपयुक्त है जहाँ आवश्यकताएँ अच्छी तरह से परिभाषित और स्थिर हैं?",
+          "options": {
+            "A": "स्पाइरल मॉडल",
+            "B": "वॉटरफॉल मॉडल",
+            "C": "एजाइल मॉडल",
+            "D": "प्रोटोटाइपिंग"
+          },
+          "explanation": "वॉटरफॉल मॉडल एक रैखिक अनुक्रमिक दृष्टिकोण है जो स्थिर आवश्यकताओं के लिए आदर्श है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-003",
+      "number": 3,
+      "question": "Which testing level focuses on verifying the interaction between integrated modules?",
+      "options": {
+        "A": "Unit Testing",
+        "B": "System Testing",
+        "C": "Integration Testing",
+        "D": "Acceptance Testing"
+      },
+      "answer": "C",
+      "explanation": "Integration testing ensures that different modules work together correctly.",
+      "hash": "d38cfe0bc02c6909",
+      "translations": {
+        "hi": {
+          "question": "कौन सा टेस्टिंग लेवल एकीकृत मॉड्यूल के बीच बातचीत को सत्यापित करने पर केंद्रित है?",
+          "options": {
+            "A": "यूनिट टेस्टिंग",
+            "B": "सिस्टम टेस्टिंग",
+            "C": "इंटीग्रेशन टेस्टिंग",
+            "D": "एक्सेप्टेंस टेस्टिंग"
+          },
+          "explanation": "इंटीग्रेशन टेस्टिंग यह सुनिश्चित करती है कि विभिन्न मॉड्यूल एक साथ सही ढंग से काम करें।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-004",
+      "number": 4,
+      "question": "A Data Flow Diagram (DFD) does NOT typically show?",
+      "options": {
+        "A": "Data Stores",
+        "B": "Processes",
+        "C": "External Entities",
+        "D": "Decision Logic/Loops"
+      },
+      "answer": "D",
+      "explanation": "DFD shows the flow of data but not the internal procedural logic like loops or conditions.",
+      "hash": "77dadd9b6bd0403a",
+      "translations": {
+        "hi": {
+          "question": "एक डेटा फ्लो डायग्राम (DFD) आमतौर पर क्या नहीं दिखाता है?",
+          "options": {
+            "A": "डेटा स्टोर्स",
+            "B": "प्रोसेसेज",
+            "C": "बाहरी संस्थाएं (एंटिटी)",
+            "D": "डिसीजन लॉजिक/लूप्स"
+          },
+          "explanation": "DFD डेटा के प्रवाह को दिखाता है लेकिन लूप या शर्तों जैसे आंतरिक प्रक्रियात्मक तर्क को नहीं दिखाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-005",
+      "number": 5,
+      "question": "Which type of maintenance is used to improve software performance or maintainability?",
+      "options": {
+        "A": "Corrective Maintenance",
+        "B": "Perfective Maintenance",
+        "C": "Adaptive Maintenance",
+        "D": "Preventive Maintenance"
+      },
+      "answer": "B",
+      "explanation": "Perfective maintenance involves adding new features or enhancing performance.",
+      "hash": "86bc3e5a179b1f7c",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर प्रदर्शन या रखरखाव में सुधार के लिए किस प्रकार के रखरखाव का उपयोग किया जाता है?",
+          "options": {
+            "A": "करेक्टिव मेंटेनेंस",
+            "B": "परफेक्टिव मेंटेनेंस",
+            "C": "एडेप्टिव मेंटेनेंस",
+            "D": "प्रिवेंटिव मेंटेनेंस"
+          },
+          "explanation": "परफेक्टिव मेंटेनेंस में नई सुविधाएँ जोड़ना या प्रदर्शन को बढ़ाना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-006",
+      "number": 6,
+      "question": "The concept of \"Software Crisis\" was first discussed in which decade?",
+      "options": {
+        "A": "1950s",
+        "B": "1960s",
+        "C": "1980s",
+        "D": "1990s"
+      },
+      "answer": "B",
+      "explanation": "It was discussed in the late 1960s to address problems in software development.",
+      "hash": "54f357a4ac0d67b6",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर संकट\" की अवधारणा पर सबसे पहले किस दशक में चर्चा की गई थी?",
+          "options": {
+            "A": "1950 के दशक",
+            "B": "1960 के दशक",
+            "C": "1980 के दशक",
+            "D": "1990 के दशक"
+          },
+          "explanation": "सॉफ्टवेयर विकास की समस्याओं के समाधान के लिए 1960 के दशक के उत्तरार्ध में इस पर चर्चा की गई थी।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-007",
+      "number": 7,
+      "question": "\"Measures of a specific attribute of a software process or product\" is called?",
+      "options": {
+        "A": "Metric",
+        "B": "Logic",
+        "C": "Efficiency",
+        "D": "Quality"
+      },
+      "answer": "A",
+      "explanation": "A metric is a quantitative measure of the degree to which a system possesses an attribute.",
+      "hash": "1311d7cbcabc1f59",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर प्रक्रिया या उत्पाद की एक विशिष्ट विशेषता के माप\" को क्या कहा जाता है?",
+          "options": {
+            "A": "मेट्रिक",
+            "B": "लॉजिक",
+            "C": "एफिशिएंसी",
+            "D": "क्वालिटी"
+          },
+          "explanation": "मेट्रिक एक मात्रात्मक माप है कि एक सिस्टम में किस हद तक कोई विशेषता मौजूद है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-008",
+      "number": 8,
+      "question": "Which phase of the Spiral Model involves identifying alternative solutions?",
+      "options": {
+        "A": "Planning",
+        "B": "Risk Analysis",
+        "C": "Engineering",
+        "D": "Evaluation"
+      },
+      "answer": "A",
+      "explanation": "The objective setting/planning phase involves identifying constraints and alternatives.",
+      "hash": "c11f2c32d43496d8",
+      "translations": {
+        "hi": {
+          "question": "स्पाइरल मॉडल के किस चरण में वैकल्पिक समाधानों की पहचान करना शामिल है?",
+          "options": {
+            "A": "प्लानिंग",
+            "B": "रिस्क एनालिसिस",
+            "C": "इंजीनियरिंग",
+            "D": "इवैल्यूएशन"
+          },
+          "explanation": "उद्देश्य निर्धारण/योजना चरण में बाधाओं और विकल्पों की पहचान करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-009",
+      "number": 9,
+      "question": "Regression testing is primarily performed to?",
+      "options": {
+        "A": "Test new features",
+        "B": "Check if changes broke existing functionality",
+        "C": "Measure performance",
+        "D": "Design the database"
+      },
+      "answer": "B",
+      "explanation": "Regression testing ensures that recent code changes haven't adversely affected existing features.",
+      "hash": "0c66dfe2518ba07f",
+      "translations": {
+        "hi": {
+          "question": "रिग्रेशन टेस्टिंग मुख्य रूप से क्यों की जाती है?",
+          "options": {
+            "A": "नई सुविधाओं का परीक्षण करने के लिए",
+            "B": "यह जांचने के लिए कि क्या बदलावों ने मौजूदा कार्यक्षमता को खराब कर दिया है",
+            "C": "प्रदर्शन मापने के लिए",
+            "D": "डेटाबेस डिजाइन करने के लिए"
+          },
+          "explanation": "रिग्रेशन टेस्टिंग यह सुनिश्चित करती है कि हाल के कोड परिवर्तनों ने मौजूदा सुविधाओं पर प्रतिकूल प्रभाव नहीं डाला है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-010",
+      "number": 10,
+      "question": "Which is a cardinal rule of Software Engineering regarding Cohesion and Coupling?",
+      "options": {
+        "A": "High Cohesion, High Coupling",
+        "B": "Low Cohesion, Low Coupling",
+        "C": "High Cohesion, Low Coupling",
+        "D": "Low Cohesion, High Coupling"
+      },
+      "answer": "C",
+      "explanation": "Good software design aims for independent modules (low coupling) with focused tasks (high cohesion).",
+      "hash": "36057595367358d7",
+      "translations": {
+        "hi": {
+          "question": "कोहेशन और कपलिंग के संबंध में सॉफ्टवेयर इंजीनियरिंग का मुख्य नियम क्या है?",
+          "options": {
+            "A": "हाई कोहेशन, हाई कपलिंग",
+            "B": "लो कोहेशन, लो कपलिंग",
+            "C": "हाई कोहेशन, लो कपलिंग",
+            "D": "लो कोहेशन, हाई कपलिंग"
+          },
+          "explanation": "अच्छे सॉफ्टवेयर डिजाइन का लक्ष्य केंद्रित कार्यों (हाई कोहेशन) के साथ स्वतंत्र मॉड्यूल (लो कपलिंग) बनाना है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-011",
+      "number": 11,
+      "question": "What is the main disadvantage of the Waterfall model?",
+      "options": {
+        "A": "It is very complex",
+        "B": "High risk and uncertainty",
+        "C": "Difficult to accommodate changes late in the project",
+        "D": "Requires no documentation"
+      },
+      "answer": "C",
+      "explanation": "Once a phase is completed, going back to change requirements is very costly.",
+      "hash": "f15003a57e9e3d15",
+      "translations": {
+        "hi": {
+          "question": "वॉटरफॉल मॉडल का मुख्य नुकसान क्या है?",
+          "options": {
+            "A": "यह बहुत जटिल है",
+            "B": "उच्च जोखिम और अनिश्चितता",
+            "C": "परियोजना के अंत में बदलाव करना मुश्किल है",
+            "D": "किसी दस्तावेज़ीकरण की आवश्यकता नहीं है"
+          },
+          "explanation": "एक बार चरण पूरा हो जाने के बाद, आवश्यकताओं को बदलने के लिए वापस जाना बहुत महंगा होता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-012",
+      "number": 12,
+      "question": "In UML, which diagram is used to represent the behavior of a single object over time?",
+      "options": {
+        "A": "Class Diagram",
+        "B": "State Chart Diagram",
+        "C": "Use Case Diagram",
+        "D": "Deployment Diagram"
+      },
+      "answer": "B",
+      "explanation": "State diagrams show the sequence of states an object goes through during its life.",
+      "hash": "7992f75ff811f42d",
+      "translations": {
+        "hi": {
+          "question": "UML में, समय के साथ एकल ऑब्जेक्ट के व्यवहार को दर्शाने के लिए किस आरेख का उपयोग किया जाता है?",
+          "options": {
+            "A": "क्लास डायग्राम",
+            "B": "स्टेट चार्ट डायग्राम",
+            "C": "यूज केस डायग्राम",
+            "D": "डिप्लॉयमेंट डायग्राम"
+          },
+          "explanation": "स्टेट डायग्राम उन स्थितियों के क्रम को दिखाते हैं जिनसे एक ऑब्जेक्ट अपने जीवन के दौरान गुजरता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-013",
+      "number": 13,
+      "question": "\"Functional Requirements\" in SRS define?",
+      "options": {
+        "A": "System performance",
+        "B": "System services and behavior",
+        "C": "Hardware constraints",
+        "D": "Maintenance costs"
+      },
+      "answer": "B",
+      "explanation": "Functional requirements describe what the system should do.",
+      "hash": "5b661d0caea22b6e",
+      "translations": {
+        "hi": {
+          "question": "SRS में \"फंक्शनल रिक्वायरमेंट्स\" क्या परिभाषित करती हैं?",
+          "options": {
+            "A": "सिस्टम प्रदर्शन",
+            "B": "सिस्टम सेवाएं और व्यवहार",
+            "C": "हार्डवेयर बाधाएं",
+            "D": "रखरखाव लागत"
+          },
+          "explanation": "फंक्शनल रिक्वायरमेंट्स वर्णन करती हैं कि सिस्टम को क्या करना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-014",
+      "number": 14,
+      "question": "Which of the following is an Agile methodology?",
+      "options": {
+        "A": "Scrum",
+        "B": "V-Model",
+        "C": "Big Bang Model",
+        "D": "Iterative Model"
+      },
+      "answer": "A",
+      "explanation": "Scrum is a widely used agile framework for project management and software development.",
+      "hash": "b5570219e47354e6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक एजाइल पद्धति है?",
+          "options": {
+            "A": "स्क्रम",
+            "B": "वी-मॉडल",
+            "C": "बिग बैंग मॉडल",
+            "D": "इटरेटिव मॉडल"
+          },
+          "explanation": "स्क्रम प्रोजेक्ट मैनेजमेंट और सॉफ्टवेयर विकास के लिए व्यापक रूप से उपयोग किया जाने वाला एजाइल फ्रेमवर्क है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-015",
+      "number": 15,
+      "question": "The degree to which the design of a system can be understood is?",
+      "options": {
+        "A": "Portability",
+        "B": "Understandability",
+        "C": "Interoperability",
+        "D": "Robustness"
+      },
+      "answer": "B",
+      "explanation": "Understandability measures how easily a human can grasp the software's logic.",
+      "hash": "26c5c5d64e9b0edd",
+      "translations": {
+        "hi": {
+          "question": "जिस डिग्री तक सिस्टम के डिजाइन को समझा जा सकता है, उसे क्या कहते हैं?",
+          "options": {
+            "A": "पोर्टेबिलिटी",
+            "B": "अंडरस्टैंडेबिलिटी",
+            "C": "इंटरऑपरेबिलिटी",
+            "D": "रोबस्टनेस"
+          },
+          "explanation": "अंडरस्टैंडेबिलिटी यह मापती है कि कोई इंसान सॉफ्टवेयर के तर्क को कितनी आसानी से समझ सकता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-016",
+      "number": 16,
+      "question": "What is the main purpose of \"Unit Testing\"?",
+      "options": {
+        "A": "Testing the whole system",
+        "B": "Testing individual components/functions",
+        "C": "Testing user interface",
+        "D": "Testing database connectivity"
+      },
+      "answer": "B",
+      "explanation": "Unit testing validates that each smallest part of the software works correctly.",
+      "hash": "e7b3a06107c5f8ed",
+      "translations": {
+        "hi": {
+          "question": "\"यूनिट टेस्टिंग\" का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "पूरे सिस्टम का परीक्षण करना",
+            "B": "व्यक्तिगत घटकों/कार्यों का परीक्षण करना",
+            "C": "यूजर इंटरफेस का परीक्षण करना",
+            "D": "डेटाबेस कनेक्टिविटी का परीक्षण करना"
+          },
+          "explanation": "यूनिट टेस्टिंग यह सत्यापित करती है कि सॉफ्टवेयर का प्रत्येक सबसे छोटा हिस्सा सही ढंग से काम करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-017",
+      "number": 17,
+      "question": "Which model is also known as the \"Verification and Validation Model\"?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Spiral Model",
+        "C": "V-Model",
+        "D": "Incremental Model"
+      },
+      "answer": "C",
+      "explanation": "In the V-model, every development phase has a corresponding testing phase.",
+      "hash": "48c2a3c77d3823a6",
+      "translations": {
+        "hi": {
+          "question": "किस मॉडल को \"वेरिफिकेशन और वेलिडेशन मॉडल\" के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "वॉटरफॉल मॉडल",
+            "B": "स्पाइरल मॉडल",
+            "C": "वी-मॉडल",
+            "D": "इंक्रीमेंटल मॉडल"
+          },
+          "explanation": "वी-मॉडल में, प्रत्येक विकास चरण का एक संबंधित परीक्षण चरण होता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-018",
+      "number": 18,
+      "question": "Which chart is used to track the progress of a project against time?",
+      "options": {
+        "A": "Pie Chart",
+        "B": "Gantt Chart",
+        "C": "Flowchart",
+        "D": "Structure Chart"
+      },
+      "answer": "B",
+      "explanation": "Gantt charts are visual tools used for scheduling and monitoring project tasks.",
+      "hash": "957788a5efd41042",
+      "translations": {
+        "hi": {
+          "question": "समय के विरुद्ध किसी परियोजना की प्रगति को ट्रैक करने के लिए किस चार्ट का उपयोग किया जाता है?",
+          "options": {
+            "A": "पाई चार्ट",
+            "B": "गैंट चार्ट",
+            "C": "फ्लोचार्ट",
+            "D": "स्ट्रक्चर चार्ट"
+          },
+          "explanation": "गैंट चार्ट प्रोजेक्ट कार्यों के शेड्यूलिंग और निगरानी के लिए उपयोग किए जाने वाले विजुअल टूल हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-019",
+      "number": 19,
+      "question": "Which of the following is a non-functional requirement?",
+      "options": {
+        "A": "User login",
+        "B": "Generate report",
+        "C": "System security",
+        "D": "Data entry"
+      },
+      "answer": "C",
+      "explanation": "Security, performance, and usability are non-functional requirements.",
+      "hash": "058100ce8299637f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक गैर-कार्यात्मक (non-functional) आवश्यकता है?",
+          "options": {
+            "A": "यूजर लॉगिन",
+            "B": "रिपोर्ट तैयार करना",
+            "C": "सिस्टम सुरक्षा",
+            "D": "डेटा प्रविष्टि"
+          },
+          "explanation": "सुरक्षा, प्रदर्शन और उपयोगिता गैर-कार्यात्मक आवश्यकताएं हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-020",
+      "number": 20,
+      "question": "The \"Rule of 72\" in software estimation is related to?",
+      "options": {
+        "A": "Cost",
+        "B": "Documentation",
+        "C": "Project doubling time",
+        "D": "Bug density"
+      },
+      "answer": "C",
+      "explanation": "It is a simplified way to estimate how long it takes for a value to double at a fixed rate.",
+      "hash": "1b09fb6ba5e5121f",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर अनुमान में \"72 का नियम\" किससे संबंधित है?",
+          "options": {
+            "A": "लागत",
+            "B": "दस्तावेज़ीकरण",
+            "C": "प्रोजेक्ट दोगुना होने का समय",
+            "D": "बग डेंसिटी"
+          },
+          "explanation": "यह एक निश्चित दर पर किसी मूल्य को दोगुना होने में लगने वाले समय का अनुमान लगाने का एक सरल तरीका है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-021",
+      "number": 21,
+      "question": "Prototyping is used for?",
+      "options": {
+        "A": "Final deployment",
+        "B": "Clarifying requirements",
+        "C": "Coding only",
+        "D": "Database design"
+      },
+      "answer": "B",
+      "explanation": "Prototypes help users visualize the system and refine their requirements.",
+      "hash": "92721617d089ec84",
+      "translations": {
+        "hi": {
+          "question": "प्रोटोटाइपिंग का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "अंतिम परिनियोजन",
+            "B": "आवश्यकताओं को स्पष्ट करने के लिए",
+            "C": "केवल कोडिंग के लिए",
+            "D": "डेटाबेस डिजाइन के लिए"
+          },
+          "explanation": "प्रोटोटाइप उपयोगकर्ताओं को सिस्टम की कल्पना करने और अपनी आवश्यकताओं को परिष्कृत करने में मदद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-022",
+      "number": 22,
+      "question": "What is \"Software Configuration Management\" (SCM)?",
+      "options": {
+        "A": "Managing hardware",
+        "B": "Controlling changes in software",
+        "C": "Managing employees",
+        "D": "Setting up servers"
+      },
+      "answer": "B",
+      "explanation": "SCM tracks and controls changes in the software throughout its lifecycle.",
+      "hash": "6b766cd64b1aa991",
+      "translations": {
+        "hi": {
+          "question": "\"सॉफ्टवेयर कॉन्फ़िगरेशन प्रबंधन\" (SCM) क्या है?",
+          "options": {
+            "A": "हार्डवेयर का प्रबंधन करना",
+            "B": "सॉफ्टवेयर में बदलाव को नियंत्रित करना",
+            "C": "कर्मचारियों का प्रबंधन करना",
+            "D": "सर्वर सेटअप करना"
+          },
+          "explanation": "SCM सॉफ्टवेयर के पूरे जीवन चक्र में होने वाले बदलावों को ट्रैक और नियंत्रित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-023",
+      "number": 23,
+      "question": "\"White-box testing\" requires knowledge of?",
+      "options": {
+        "A": "User requirements",
+        "B": "Internal code structure",
+        "C": "Business logic only",
+        "D": "Market trends"
+      },
+      "answer": "B",
+      "explanation": "White-box testing examines the internal logic and structure of the code.",
+      "hash": "74c6c8d27f6cc3c7",
+      "translations": {
+        "hi": {
+          "question": "\"व्हाइट-बॉक्स टेस्टिंग\" के लिए किसका ज्ञान होना आवश्यक है?",
+          "options": {
+            "A": "यूजर रिक्वायरमेंट्स",
+            "B": "आंतरिक कोड संरचना",
+            "C": "केवल बिजनेस लॉजिक",
+            "D": "मार्केट ट्रेंड्स"
+          },
+          "explanation": "व्हाइट-बॉक्स टेस्टिंग कोड के आंतरिक तर्क और संरचना की जांच करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-024",
+      "number": 24,
+      "question": "Which attribute of software refers to its ease of use?",
+      "options": {
+        "A": "Efficiency",
+        "B": "Usability",
+        "C": "Maintainability",
+        "D": "Portability"
+      },
+      "answer": "B",
+      "explanation": "Usability measures how easily and effectively a user can interact with the software.",
+      "hash": "3466a9cb1da8b122",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर की कौन सी विशेषता उसके उपयोग में आसानी को संदर्भित करती है?",
+          "options": {
+            "A": "एफिशिएंसी",
+            "B": "यूसैबिलिटी",
+            "C": "मेंटेनेबिलिटी",
+            "D": "पोर्टेबिलिटी"
+          },
+          "explanation": "यूसैबिलिटी यह मापती है कि एक उपयोगकर्ता सॉफ्टवेयर के साथ कितनी आसानी और प्रभावी ढंग से बातचीत कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-025",
+      "number": 25,
+      "question": "Which tool is used for automated software testing?",
+      "options": {
+        "A": "Selenium",
+        "B": "MS Word",
+        "C": "Photoshop",
+        "D": "Notepad"
+      },
+      "answer": "A",
+      "explanation": "Selenium is a popular open-source tool for automating web browsers.",
+      "hash": "ab87b90001715874",
+      "translations": {
+        "hi": {
+          "question": "ऑटोमेटेड सॉफ्टवेयर टेस्टिंग के लिए किस टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "सेलेनियम",
+            "B": "एमएस वर्ड",
+            "C": "फोटोशॉप",
+            "D": "नोटपैड"
+          },
+          "explanation": "सेलेनियम वेब ब्राउज़र को ऑटोमेट करने के लिए एक लोकप्रिय ओपन-सोर्स टूल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-026",
+      "number": 26,
+      "question": "In the context of SQA, what does \"Audit\" mean?",
+      "options": {
+        "A": "Fixing bugs",
+        "B": "Official inspection of process/product",
+        "C": "Writing test cases",
+        "D": "Compiling code"
+      },
+      "answer": "B",
+      "explanation": "An audit is an independent examination to ensure compliance with standards.",
+      "hash": "06b24da5586aa04a",
+      "translations": {
+        "hi": {
+          "question": "SQA के संदर्भ में, \"ऑडिट\" का क्या अर्थ है?",
+          "options": {
+            "A": "बग्स को ठीक करना",
+            "B": "प्रक्रिया/उत्पाद का आधिकारिक निरीक्षण",
+            "C": "टेस्ट केस लिखना",
+            "D": "कोड संकलित करना"
+          },
+          "explanation": "ऑडिट मानकों के अनुपालन को सुनिश्चित करने के लिए एक स्वतंत्र परीक्षा है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-027",
+      "number": 27,
+      "question": "CASE tools stand for?",
+      "options": {
+        "A": "Computer Aided Software Engineering",
+        "B": "Control Aided System Engineering",
+        "C": "Common Application Software Engineering",
+        "D": "Computer Allied Software Entity"
+      },
+      "answer": "A",
+      "explanation": "CASE tools are software applications used to support SDLC activities.",
+      "hash": "8b25302794b5d4f2",
+      "translations": {
+        "hi": {
+          "question": "CASE टूल्स का अर्थ क्या है?",
+          "options": {
+            "A": "कंप्यूटर एडेड सॉफ्टवेयर इंजीनियरिंग",
+            "B": "कंट्रोल एडेड सिस्टम इंजीनियरिंग",
+            "C": "कॉमन एप्लीकेशन सॉफ्टवेयर इंजीनियरिंग",
+            "D": "कंप्यूटर अलाइड सॉफ्टवेयर एंटिटी"
+          },
+          "explanation": "CASE टूल्स SDLC गतिविधियों का समर्थन करने के लिए उपयोग किए जाने वाले सॉफ्टवेयर अनुप्रयोग हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-028",
+      "number": 28,
+      "question": "What is \"Refactoring\"?",
+      "options": {
+        "A": "Adding new functionality",
+        "B": "Improving internal code structure without changing behavior",
+        "C": "Re-installing software",
+        "D": "Deleting the project"
+      },
+      "answer": "B",
+      "explanation": "Refactoring makes code cleaner, more efficient, and easier to maintain.",
+      "hash": "c3825221484e8c87",
+      "translations": {
+        "hi": {
+          "question": "\"रिफैक्टरिंग\" क्या है?",
+          "options": {
+            "A": "नई कार्यक्षमता जोड़ना",
+            "B": "व्यवहार बदले बिना आंतरिक कोड संरचना में सुधार करना",
+            "C": "सॉफ्टवेयर को फिर से स्थापित करना",
+            "D": "प्रोजेक्ट हटाना"
+          },
+          "explanation": "रिफैक्टरिंग कोड को स्वच्छ, अधिक कुशल और बनाए रखने में आसान बनाती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-029",
+      "number": 29,
+      "question": "Which design principle focuses on hiding internal details?",
+      "options": {
+        "A": "Abstraction",
+        "B": "Encapsulation",
+        "C": "Inheritance",
+        "D": "Polymorphism"
+      },
+      "answer": "B",
+      "explanation": "Encapsulation wraps data and methods into a single unit and hides implementation.",
+      "hash": "a7a7aae7e985f810",
+      "translations": {
+        "hi": {
+          "question": "कौन सा डिजाइन सिद्धांत आंतरिक विवरणों को छिपाने पर केंद्रित है?",
+          "options": {
+            "A": "एब्स्ट्रैक्शन",
+            "B": "एनकैप्सुलेशन",
+            "C": "इनहेरिटेंस",
+            "D": "पॉलीमॉरफिज्म"
+          },
+          "explanation": "एनकैप्सुलेशन डेटा और विधियों को एक इकाई में लपेटता है और कार्यान्वयन को छिपाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-02-030",
+      "number": 30,
+      "question": "The spiral model has how many quadrants?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "answer": "C",
+      "explanation": "The spiral model typically moves through four quadrants: Planning, Risk Analysis, Engineering, and Evaluation.",
+      "hash": "ac226e8981c91c3b",
+      "translations": {
+        "hi": {
+          "question": "स्पाइरल मॉडल में कितने चतुर्थांश (quadrants) होते हैं?",
+          "options": {
+            "A": "दो",
+            "B": "तीन",
+            "C": "चार",
+            "D": "पांच"
+          },
+          "explanation": "स्पाइरल मॉडल आमतौर पर चार चरणों से गुजरता है: योजना, जोखिम विश्लेषण, इंजीनियरिंग और मूल्यांकन।"
+        }
+      }
+    }
+  ]
+}

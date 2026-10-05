@@ -1,0 +1,787 @@
+{
+  "subject": "DBMS",
+  "set": 3,
+  "title": "DBMS Mock Test 3",
+  "questions": [
+    {
+      "id": "dbms-03-001",
+      "number": 1,
+      "question": "Which of the following is not a property of a Transaction?",
+      "options": {
+        "A": "Atomicity",
+        "B": "Isolation",
+        "C": "Simplicity",
+        "D": "Durability"
+      },
+      "answer": "C",
+      "explanation": "The standard properties of a transaction are ACID (Atomicity, Consistency, Isolation, Durability). Simplicity is not one of them.",
+      "hash": "2edd09d5624af1bc",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ट्रांजैक्शन का गुण नहीं है?",
+          "options": {
+            "A": "एटोमीसिटी",
+            "B": "आइसोलेशन",
+            "C": "सादगी (सिम्प्लिसिटी)",
+            "D": "ड्यूरेबिलिटी"
+          },
+          "explanation": "ट्रांजैक्शन के मानक गुण ACID (एटोमीसिटी, कंसिस्टेंसी, आइसोलेशन, ड्यूरेबिलिटी) हैं। सादगी इनमें से एक नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-002",
+      "number": 2,
+      "question": "Which of the following is an example of a Schema-less database?",
+      "options": {
+        "A": "Oracle",
+        "B": "MySQL",
+        "C": "MongoDB",
+        "D": "MS Access"
+      },
+      "answer": "C",
+      "explanation": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, meaning fields can vary from document to document.",
+      "hash": "784de3b66b8ce71f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा स्कीमा-लेस डेटाबेस का उदाहरण है?",
+          "options": {
+            "A": "ओरेकल",
+            "B": "MySQL",
+            "C": "मोंगो डीबी",
+            "D": "एमएस एक्सेस"
+          },
+          "explanation": "मोंगो डीबी (MongoDB) एक NoSQL डेटाबेस है जो डेटा को लचीले, JSON-जैसे दस्तावेजों में संग्रहीत करता है, जिसका अर्थ है कि फ़ील्ड अलग-अलग दस्तावेजों में भिन्न हो सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-003",
+      "number": 3,
+      "question": "In an E-R model, what does a Diamond symbol represent?",
+      "options": {
+        "A": "Entity set",
+        "B": "Attribute",
+        "C": "Relationship set",
+        "D": "Key"
+      },
+      "answer": "C",
+      "explanation": "Diamond-shaped boxes are used to represent relationships between different entity sets in an E-R diagram.",
+      "hash": "5160d16401e87f24",
+      "translations": {
+        "hi": {
+          "question": "E-R मॉडल में, डायमंड (हीरा) प्रतीक क्या दर्शाता है?",
+          "options": {
+            "A": "एंटिटी सेट",
+            "B": "एट्रिब्यूट",
+            "C": "रिलेशनशिप सेट",
+            "D": "की (कुंजी)"
+          },
+          "explanation": "E-R आरेख में विभिन्न एंटिटी सेटों के बीच संबंधों को दर्शाने के लिए डायमंड के आकार के बॉक्स का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-004",
+      "number": 4,
+      "question": "Which SQL command is used to add a new column to an existing table?",
+      "options": {
+        "A": "UPDATE TABLE",
+        "B": "ALTER TABLE",
+        "C": "ADD COLUMN",
+        "D": "MODIFY TABLE"
+      },
+      "answer": "B",
+      "explanation": "The ALTER TABLE command is used to add, delete, or modify columns in an existing table structure.",
+      "hash": "b9c57c58fe04e080",
+      "translations": {
+        "hi": {
+          "question": "मौजूदा टेबल में नया कॉलम जोड़ने के लिए किस SQL कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "अपडेट टेबल",
+            "B": "आल्टर टेबल",
+            "C": "ऐड कॉलम",
+            "D": "मॉडिफाई टेबल"
+          },
+          "explanation": "ALTER TABLE कमांड का उपयोग मौजूदा टेबल संरचना में कॉलम जोड़ने, हटाने या संशोधित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-005",
+      "number": 5,
+      "question": "Which of the following is the highest level of normalization?",
+      "options": {
+        "A": "3NF",
+        "B": "BCNF",
+        "C": "4NF",
+        "D": "5NF"
+      },
+      "answer": "D",
+      "explanation": "Among the given options, 5NF (Fifth Normal Form) is the highest level. BCNF is stronger than 3NF but lower than 4NF and 5NF.",
+      "hash": "0153ddf27aadef3c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से नॉर्मलाइजेशन का उच्चतम स्तर कौन सा है?",
+          "options": {
+            "A": "3NF",
+            "B": "BCNF",
+            "C": "4NF",
+            "D": "5NF"
+          },
+          "explanation": "दिए गए विकल्पों में से, 5NF (पांचवां नॉर्मल फॉर्म) उच्चतम स्तर है। BCNF, 3NF से मजबूत है लेकिन 4NF और 5NF से नीचे है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-006",
+      "number": 6,
+      "question": "A Super Key that contains no extra attributes is called:",
+      "options": {
+        "A": "Foreign Key",
+        "B": "Candidate Key",
+        "C": "Primary Key",
+        "D": "Compound Key"
+      },
+      "answer": "B",
+      "explanation": "A Candidate Key is a minimal Super Key, meaning it has no redundant attributes for identifying a tuple.",
+      "hash": "aca271b4b686635b",
+      "translations": {
+        "hi": {
+          "question": "एक सुपर की जिसमें कोई अतिरिक्त एट्रिब्यूट नहीं होता, कहलाती है:",
+          "options": {
+            "A": "फॉरेन की",
+            "B": "कैंडिडेट की",
+            "C": "प्राइमरी की",
+            "D": "कंपाउंड की"
+          },
+          "explanation": "कैंडिडेट की एक न्यूनतम सुपर की है, जिसका अर्थ है कि इसमें टुपल की पहचान करने के लिए कोई अतिरिक्त एट्रिब्यूट नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-007",
+      "number": 7,
+      "question": "Which type of indexing has an index entry for every search key value in the data file?",
+      "options": {
+        "A": "Sparse Indexing",
+        "B": "Dense Indexing",
+        "C": "Multilevel Indexing",
+        "D": "Secondary Indexing"
+      },
+      "answer": "B",
+      "explanation": "In Dense Indexing, an index record is created for every search key value in the database.",
+      "hash": "262403c4b8071ab4",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की इंडेक्सिंग में डेटा फ़ाइल के प्रत्येक सर्च की वैल्यू के लिए एक इंडेक्स प्रविष्टि होती है?",
+          "options": {
+            "A": "स्पार्स इंडेक्सिंग",
+            "B": "डेंस इंडेक्सिंग",
+            "C": "मल्टीलेवल इंडेक्सिंग",
+            "D": "सेकेंडरी इंडेक्सिंग"
+          },
+          "explanation": "डेंस इंडेक्सिंग में, डेटाबेस के प्रत्येक सर्च की वैल्यू के लिए एक इंडेक्स रिकॉर्ड बनाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-008",
+      "number": 8,
+      "question": "In a Database, 'Redundancy' means:",
+      "options": {
+        "A": "Data Integrity",
+        "B": "Duplication of Data",
+        "C": "Data Security",
+        "D": "Data Consistency"
+      },
+      "answer": "B",
+      "explanation": "Redundancy refers to the unnecessary duplication of data within a database, which normalization aims to reduce.",
+      "hash": "adb69f71c110146e",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस में, 'रिडंडेंसी' का अर्थ है:",
+          "options": {
+            "A": "डेटा इंटीग्रिटी",
+            "B": "डेटा का दोहराव",
+            "C": "डेटा सुरक्षा",
+            "D": "डेटा कंसिस्टेंसी"
+          },
+          "explanation": "रिडंडेंसी का तात्पर्य डेटाबेस के भीतर डेटा के अनावश्यक दोहराव से है, जिसे नॉर्मलाइजेशन कम करने का प्रयास करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-009",
+      "number": 9,
+      "question": "The 'WHERE' clause in SQL is used with which of the following?",
+      "options": {
+        "A": "SELECT",
+        "B": "UPDATE",
+        "C": "DELETE",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "The WHERE clause is used to filter records in SELECT, UPDATE, and DELETE statements based on a condition.",
+      "hash": "aab394dd45a95831",
+      "translations": {
+        "hi": {
+          "question": "SQL में 'WHERE' क्लॉज का उपयोग निम्नलिखित में से किसके साथ किया जाता है?",
+          "options": {
+            "A": "सेलेक्ट",
+            "B": "अपडेट",
+            "C": "डिलीट",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "WHERE क्लॉज का उपयोग शर्त के आधार पर SELECT, UPDATE और DELETE स्टेटमेंट में रिकॉर्ड को फ़िल्टर करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-010",
+      "number": 10,
+      "question": "Which normal form deals with 'Multi-valued Dependency'?",
+      "options": {
+        "A": "2NF",
+        "B": "3NF",
+        "C": "4NF",
+        "D": "BCNF"
+      },
+      "answer": "C",
+      "explanation": "A relation is in 4NF if it is in BCNF and has no multi-valued dependencies.",
+      "hash": "70ebfdc083cf2278",
+      "translations": {
+        "hi": {
+          "question": "कौन सा नॉर्मल फॉर्म 'मल्टी-वैल्यूड डिपेंडेंसी' से संबंधित है?",
+          "options": {
+            "A": "2NF",
+            "B": "3NF",
+            "C": "4NF",
+            "D": "BCNF"
+          },
+          "explanation": "एक रिलेशन 4NF में होता है यदि वह BCNF में हो और उसमें कोई मल्टी-वैल्यूड डिपेंडेंसी न हो।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-011",
+      "number": 11,
+      "question": "Which level of the Three-Schema Architecture is closest to the users?",
+      "options": {
+        "A": "Physical Level",
+        "B": "Internal Level",
+        "C": "Conceptual Level",
+        "D": "External Level"
+      },
+      "answer": "D",
+      "explanation": "The External Level (or View Level) describes how users see the data and is the highest level of abstraction.",
+      "hash": "cda429fc13ff8f68",
+      "translations": {
+        "hi": {
+          "question": "थ्री-स्कीमा आर्किटेक्चर का कौन सा स्तर उपयोगकर्ताओं के सबसे करीब है?",
+          "options": {
+            "A": "फिजिकल स्तर",
+            "B": "इंटरनल स्तर",
+            "C": "कॉन्सेप्चुअल स्तर",
+            "D": "एक्सटर्नल स्तर"
+          },
+          "explanation": "एक्सटर्नल स्तर (या व्यू स्तर) बताता है कि उपयोगकर्ता डेटा को कैसे देखते हैं और यह एब्स्ट्रैक्शन का उच्चतम स्तर है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-012",
+      "number": 12,
+      "question": "Which SQL constraint is used to ensure that a column cannot have a NULL value?",
+      "options": {
+        "A": "UNIQUE",
+        "B": "NOT NULL",
+        "C": "CHECK",
+        "D": "PRIMARY KEY"
+      },
+      "answer": "B",
+      "explanation": "The NOT NULL constraint enforces a column to always contain a value, preventing null entries.",
+      "hash": "d8f1d2a81c78ecfc",
+      "translations": {
+        "hi": {
+          "question": "यह सुनिश्चित करने के लिए कि कॉलम का मान NULL नहीं हो सकता, किस SQL कंस्ट्रेंट का उपयोग किया जाता है?",
+          "options": {
+            "A": "यूनिक",
+            "B": "नॉट नल",
+            "C": "चेक",
+            "D": "प्राइमरी की"
+          },
+          "explanation": "NOT NULL कंस्ट्रेंट कॉलम को हमेशा एक मान रखने के लिए मजबूर करता है, जिससे नल प्रविष्टियों को रोका जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-013",
+      "number": 13,
+      "question": "A transaction is a _______ unit of work.",
+      "options": {
+        "A": "Physical",
+        "B": "Logical",
+        "C": "Mathematical",
+        "D": "Concurrent"
+      },
+      "answer": "B",
+      "explanation": "A transaction is a logical unit of database processing that includes one or more database access operations.",
+      "hash": "3bdded1fd3a79812",
+      "translations": {
+        "hi": {
+          "question": "ट्रांजैक्शन कार्य की एक _______ इकाई है।",
+          "options": {
+            "A": "भौतिक",
+            "B": "तार्किक (लॉजिकल)",
+            "C": "गणितीय",
+            "D": "समवर्ती"
+          },
+          "explanation": "ट्रांजैक्शन डेटाबेस प्रोसेसिंग की एक तार्किक (लॉजिकल) इकाई है जिसमें एक या अधिक डेटाबेस एक्सेस ऑपरेशन शामिल होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-014",
+      "number": 14,
+      "question": "Which of the following is a 'Data Manipulation Language' (DML) command?",
+      "options": {
+        "A": "CREATE",
+        "B": "ALTER",
+        "C": "UPDATE",
+        "D": "DROP"
+      },
+      "answer": "C",
+      "explanation": "UPDATE is used to modify existing data in a table, making it a DML command.",
+      "hash": "056a36ba82d2c027",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'डेटा मैनिपुलेशन लैंग्वेज' (DML) कमांड है?",
+          "options": {
+            "A": "क्रिएट",
+            "B": "आल्टर",
+            "C": "अपडेट",
+            "D": "ड्रॉप"
+          },
+          "explanation": "UPDATE का उपयोग टेबल में मौजूदा डेटा को संशोधित करने के लिए किया जाता है, जो इसे एक DML कमांड बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-015",
+      "number": 15,
+      "question": "Which operator in Relational Algebra is used to select specific columns from a relation?",
+      "options": {
+        "A": "Selection (σ)",
+        "B": "Projection (π)",
+        "C": "Join (⋈)",
+        "D": "Division (÷)"
+      },
+      "answer": "B",
+      "explanation": "The Projection operator (π) is used to select a subset of the attributes (columns) of a relation.",
+      "hash": "c9f8f35c2581c0b3",
+      "translations": {
+        "hi": {
+          "question": "रिलेशनल अलजेब्रा में कौन सा ऑपरेटर एक रिलेशन से विशिष्ट कॉलम चुनने के लिए उपयोग किया जाता है?",
+          "options": {
+            "A": "सिलेक्शन (σ)",
+            "B": "प्रोजेक्शन (π)",
+            "C": "जॉइन (⋈)",
+            "D": "डिवीजन (÷)"
+          },
+          "explanation": "प्रोजेक्शन ऑपरेटर (π) का उपयोग रिलेशन के एट्रिब्यूट्स (कॉलम) के सबसेट को चुनने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-016",
+      "number": 16,
+      "question": "The command to remove a relationship or a table from the database is:",
+      "options": {
+        "A": "DELETE",
+        "B": "REMOVE",
+        "C": "DROP",
+        "D": "PURGE"
+      },
+      "answer": "C",
+      "explanation": "The DROP command is used to remove an entire table structure and its data from the database.",
+      "hash": "3701c170f7f8b36d",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस से किसी संबंध या टेबल को हटाने के लिए कमांड है:",
+          "options": {
+            "A": "डिलीट",
+            "B": "रिमूव",
+            "C": "ड्रॉप",
+            "D": "पर्ज"
+          },
+          "explanation": "DROP कमांड का उपयोग डेटाबेस से पूरी टेबल संरचना और उसके डेटा को हटाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-017",
+      "number": 17,
+      "question": "What is the full form of BCNF?",
+      "options": {
+        "A": "Basic Combined Normal Form",
+        "B": "Boyce-Codd Normal Form",
+        "C": "Binary Coded Normal Form",
+        "D": "Business Core Normal Form"
+      },
+      "answer": "B",
+      "explanation": "BCNF stands for Boyce-Codd Normal Form, which is a stronger version of 3NF.",
+      "hash": "9e82f7923f333e70",
+      "translations": {
+        "hi": {
+          "question": "BCNF का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "बेसिक कंबाइंड नॉर्मल फॉर्म",
+            "B": "बॉयस-कॉड नॉर्मल फॉर्म",
+            "C": "बाइनरी कोडेड नॉर्मल फॉर्म",
+            "D": "बिजनेस कोर नॉर्मल फॉर्म"
+          },
+          "explanation": "BCNF का अर्थ बॉयस-कॉड नॉर्मल फॉर्म है, जो 3NF का एक मजबूत संस्करण है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-018",
+      "number": 18,
+      "question": "Which of the following provides the ability to modify the internal schema without changing the conceptual schema?",
+      "options": {
+        "A": "Physical Data Independence",
+        "B": "Logical Data Independence",
+        "C": "Data Integrity",
+        "D": "View Consistency"
+      },
+      "answer": "A",
+      "explanation": "Physical data independence is the ability to change the physical storage structures without affecting the conceptual schema.",
+      "hash": "8d043aa05601f988",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन कॉन्सेप्चुअल स्कीमा को बदले बिना इंटरनल स्कीमा को संशोधित करने की क्षमता प्रदान करता है?",
+          "options": {
+            "A": "फिजिकल डेटा इंडिपेंडेंस",
+            "B": "लॉजिकल डेटा इंडिपेंडेंस",
+            "C": "डेटा इंटीग्रिटी",
+            "D": "व्यू कंसिस्टेंसी"
+          },
+          "explanation": "फिजिकल डेटा इंडिपेंडेंस कॉन्सेप्चुअल स्कीमा को प्रभावित किए बिना फिजिकल स्टोरेज संरचनाओं को बदलने की क्षमता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-019",
+      "number": 19,
+      "question": "Which join returns only the matching rows from both tables?",
+      "options": {
+        "A": "Left Join",
+        "B": "Right Join",
+        "C": "Inner Join",
+        "D": "Full Join"
+      },
+      "answer": "C",
+      "explanation": "Inner Join retrieves records that have matching values in both tables being joined.",
+      "hash": "63dd65749138e275",
+      "translations": {
+        "hi": {
+          "question": "कौन सा जॉइन दोनों टेबल से केवल मेल खाने वाली पंक्तियाँ लौटाता है?",
+          "options": {
+            "A": "लेफ्ट जॉइन",
+            "B": "राइट जॉइन",
+            "C": "इनर जॉइन",
+            "D": "फुल जॉइन"
+          },
+          "explanation": "इनर जॉइन उन रिकॉर्ड्स को प्राप्त करता है जिनके मान दोनों टेबल में मेल खाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-020",
+      "number": 20,
+      "question": "A table in a relational database is also called a:",
+      "options": {
+        "A": "Attribute",
+        "B": "Relation",
+        "C": "Tuple",
+        "D": "Entity"
+      },
+      "answer": "B",
+      "explanation": "In the relational model, data is organized into tables, which are formally called relations.",
+      "hash": "fc37a5ace7970dbf",
+      "translations": {
+        "hi": {
+          "question": "रिलेशनल डेटाबेस में एक टेबल को यह भी कहा जाता है:",
+          "options": {
+            "A": "एट्रिब्यूट",
+            "B": "रिलेशन",
+            "C": "टुपल",
+            "D": "एंटिटी"
+          },
+          "explanation": "रिलेशनल मॉडल में, डेटा को टेबल में व्यवस्थित किया जाता है, जिन्हें औपचारिक रूप से रिलेशन कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-021",
+      "number": 21,
+      "question": "Which SQL function is used to calculate the average value of a numeric column?",
+      "options": {
+        "A": "AVG()",
+        "B": "MEAN()",
+        "C": "COUNT()",
+        "D": "SUM()"
+      },
+      "answer": "A",
+      "explanation": "The AVG() aggregate function returns the average value of a numeric column.",
+      "hash": "55a04260f8be3c9f",
+      "translations": {
+        "hi": {
+          "question": "न्यूमेरिक कॉलम के औसत मान की गणना करने के लिए किस SQL फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "AVG()",
+            "B": "MEAN()",
+            "C": "COUNT()",
+            "D": "SUM()"
+          },
+          "explanation": "AVG() एग्रीगेट फ़ंक्शन एक न्यूमेरिक कॉलम का औसत मान लौटाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-022",
+      "number": 22,
+      "question": "Which of the following is a TCL (Transaction Control Language) command?",
+      "options": {
+        "A": "COMMIT",
+        "B": "GRANT",
+        "C": "REVOKE",
+        "D": "ALTER"
+      },
+      "answer": "A",
+      "explanation": "COMMIT, ROLLBACK, and SAVEPOINT are common TCL commands used to manage transactions.",
+      "hash": "94cad0447a1e695c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा TCL (ट्रांजैक्शन कंट्रोल लैंग्वेज) कमांड है?",
+          "options": {
+            "A": "कमिट",
+            "B": "ग्रांट",
+            "C": "रिवोक",
+            "D": "आल्टर"
+          },
+          "explanation": "COMMIT, ROLLBACK और SAVEPOINT ट्रांजैक्शन को प्रबंधित करने के लिए उपयोग किए जाने वाले सामान्य TCL कमांड हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-023",
+      "number": 23,
+      "question": "The set of all possible values for an attribute is called its:",
+      "options": {
+        "A": "Set",
+        "B": "Domain",
+        "C": "Range",
+        "D": "Group"
+      },
+      "answer": "B",
+      "explanation": "A domain is the set of all atomic values that an attribute can legally take.",
+      "hash": "a6fccf8da69c05e9",
+      "translations": {
+        "hi": {
+          "question": "किसी एट्रिब्यूट के लिए सभी संभावित मानों के सेट को उसका क्या कहा जाता है?",
+          "options": {
+            "A": "सेट",
+            "B": "डोमेन",
+            "C": "रेंज",
+            "D": "ग्रुप"
+          },
+          "explanation": "डोमेन उन सभी परमाणु मानों का समूह है जो एक एट्रिब्यूट कानूनी रूप से ले सकता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-024",
+      "number": 24,
+      "question": "What is 'Data Independence'?",
+      "options": {
+        "A": "Data is not dependent on anyone",
+        "B": "Programs are independent of data",
+        "C": "Database is offline",
+        "D": "Security of data"
+      },
+      "answer": "B",
+      "explanation": "Data independence means that application programs are insulated from changes in the way data is structured and stored.",
+      "hash": "3f218a83c86cea30",
+      "translations": {
+        "hi": {
+          "question": "'डेटा इंडिपेंडेंस' क्या है?",
+          "options": {
+            "A": "डेटा किसी पर निर्भर नहीं है",
+            "B": "प्रोग्राम डेटा से स्वतंत्र हैं",
+            "C": "डेटाबेस ऑफलाइन है",
+            "D": "डेटा की सुरक्षा"
+          },
+          "explanation": "डेटा इंडिपेंडेंस का अर्थ है कि एप्लिकेशन प्रोग्राम डेटा की संरचना और भंडारण के तरीके में बदलाव से सुरक्षित हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-025",
+      "number": 25,
+      "question": "In a hierarchical database model, records are organized as a:",
+      "options": {
+        "A": "Table",
+        "B": "Graph",
+        "C": "Tree",
+        "D": "List"
+      },
+      "answer": "C",
+      "explanation": "The hierarchical model organizes data in a parent-child tree structure.",
+      "hash": "6db20b464dc99057",
+      "translations": {
+        "hi": {
+          "question": "एक पदानुक्रमित (हाइरार्किकल) डेटाबेस मॉडल में, रिकॉर्ड को इस रूप में व्यवस्थित किया जाता है:",
+          "options": {
+            "A": "टेबल",
+            "B": "ग्राफ",
+            "C": "ट्री",
+            "D": "लिस्ट"
+          },
+          "explanation": "हाइरार्किकल मॉडल डेटा को पैरेंट-चाइल्ड ट्री संरचना में व्यवस्थित करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-026",
+      "number": 26,
+      "question": "Which of the following ensures that data remains consistent after a system crash?",
+      "options": {
+        "A": "Isolation",
+        "B": "Durability",
+        "C": "Atomicity",
+        "D": "Consistency"
+      },
+      "answer": "B",
+      "explanation": "Durability ensures that once a transaction is committed, it will remain in the system even in the event of a system failure.",
+      "hash": "efeb8f85736b5537",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन यह सुनिश्चित करता है कि सिस्टम क्रैश होने के बाद डेटा सुसंगत बना रहे?",
+          "options": {
+            "A": "आइसोलेशन",
+            "B": "ड्यूरेबिलिटी",
+            "C": "एटोमीसिटी",
+            "D": "कंसिस्टेंसी"
+          },
+          "explanation": "ड्यूरेबिलिटी यह सुनिश्चित करती है कि एक बार ट्रांजैक्शन कमिट हो जाने के बाद, सिस्टम फेल होने की स्थिति में भी यह सिस्टम में बना रहेगा।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-027",
+      "number": 27,
+      "question": "Which of the following can be used to uniquely identify a row in a table?",
+      "options": {
+        "A": "Primary Key",
+        "B": "Super Key",
+        "C": "Candidate Key",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Super keys, candidate keys, and primary keys are all used for uniquely identifying rows, with primary key being the chosen one.",
+      "hash": "76396a86356a0019",
+      "translations": {
+        "hi": {
+          "question": "टेबल में एक पंक्ति को विशिष्ट रूप से पहचानने के लिए निम्नलिखित में से किसका उपयोग किया जा सकता है?",
+          "options": {
+            "A": "प्राइमरी की",
+            "B": "सुपर की",
+            "C": "कैंडिडेट की",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "सुपर की, कैंडिडेट की और प्राइमरी की सभी का उपयोग पंक्तियों को विशिष्ट रूप से पहचानने के लिए किया जाता है, जिसमें प्राइमरी की को मुख्य रूप से चुना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-028",
+      "number": 28,
+      "question": "Which SQL keyword is used to sort the result-set in ascending or descending order?",
+      "options": {
+        "A": "SORT BY",
+        "B": "ORDER BY",
+        "C": "GROUP BY",
+        "D": "ALIGN BY"
+      },
+      "answer": "B",
+      "explanation": "ORDER BY is used to sort the result-set of a query. By default, it sorts in ascending order.",
+      "hash": "f57a21a986d98e78",
+      "translations": {
+        "hi": {
+          "question": "परिणाम-सेट को आरोही या अवरोही क्रम में क्रमबद्ध करने के लिए किस SQL कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "सॉर्ट बाय",
+            "B": "ऑर्डर बाय",
+            "C": "ग्रुप बाय",
+            "D": "अलाइन बाय"
+          },
+          "explanation": "ORDER BY का उपयोग क्वेरी के परिणाम-सेट को क्रमबद्ध करने के लिए किया जाता है। डिफ़ॉल्ट रूप से, यह आरोही क्रम में सॉर्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-029",
+      "number": 29,
+      "question": "Which protocol ensures that a transaction is atomic across multiple database nodes?",
+      "options": {
+        "A": "Two-Phase Locking (2PL)",
+        "B": "Two-Phase Commit (2PC)",
+        "C": "Time-stamping",
+        "D": "Checkpointing"
+      },
+      "answer": "B",
+      "explanation": "Two-Phase Commit (2PC) is a distributed algorithm that coordinates all processes that participate in a distributed atomic transaction.",
+      "hash": "b66bc529549ebd8e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा प्रोटोकॉल यह सुनिश्चित करता है कि एक ट्रांजैक्शन कई डेटाबेस नोड्स में एटॉमिक हो?",
+          "options": {
+            "A": "टू-फेज लॉकिंग (2PL)",
+            "B": "टू-फेज कमिट (2PC)",
+            "C": "टाइम-स्टैम्पिंग",
+            "D": "चेकपॉइंटिंग"
+          },
+          "explanation": "टू-फेज कमिट (2PC) एक वितरित एल्गोरिदम है जो वितरित एटॉमिक ट्रांजैक्शन में भाग लेने वाली सभी प्रक्रियाओं का समन्वय करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-03-030",
+      "number": 30,
+      "question": "What is the cardinality of a relationship?",
+      "options": {
+        "A": "Number of attributes",
+        "B": "Number of entities participating in a relationship",
+        "C": "Number of rows in a table",
+        "D": "Number of tables in a database"
+      },
+      "answer": "B",
+      "explanation": "In the context of E-R diagrams, cardinality defines the numerical attributes of the relationship between two entities (e.g., 1:1, 1:N).",
+      "hash": "98332764f3813223",
+      "translations": {
+        "hi": {
+          "question": "एक संबंध की कार्डिनैलिटी क्या है?",
+          "options": {
+            "A": "एट्रिब्यूट्स की संख्या",
+            "B": "संबंध में भाग लेने वाली संस्थाओं की संख्या",
+            "C": "टेबल में पंक्तियों की संख्या",
+            "D": "डेटाबेस में टेबल की संख्या"
+          },
+          "explanation": "E-R आरेख के संदर्भ में, कार्डिनैलिटी दो संस्थाओं के बीच संबंध के संख्यात्मक गुणों को परिभाषित करती है (जैसे, 1:1, 1:N)।"
+        }
+      }
+    }
+  ]
+}

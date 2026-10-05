@@ -1,0 +1,787 @@
+{
+  "subject": "AI",
+  "set": 1,
+  "title": "AI Mock Test 1",
+  "questions": [
+    {
+      "id": "ai-01-001",
+      "number": 1,
+      "question": "Who is known as the father of Artificial Intelligence?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "John McCarthy",
+        "C": "Charles Babbage",
+        "D": "Marvin Minsky"
+      },
+      "answer": "B",
+      "explanation": "John McCarthy coined the term AI and organized the Dartmouth conference.",
+      "hash": "71f4effa35714b15",
+      "translations": {
+        "hi": {
+          "question": "आर्टिफिशियल इंटेलिजेंस के जनक के रूप में किसे जाना जाता है?",
+          "options": {
+            "A": "एलन ट्यूरिंग",
+            "B": "जॉन मैकार्थी",
+            "C": "चार्ल्स बैबेज",
+            "D": "मार्विन मिंस्की"
+          },
+          "explanation": "जॉन मैकार्थी ने एआई शब्द गढ़ा और डार्टमाउथ सम्मेलन का आयोजन किया।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-002",
+      "number": 2,
+      "question": "Which search algorithm uses a heuristic function to find the shortest path?",
+      "options": {
+        "A": "Breadth First Search",
+        "B": "Depth First Search",
+        "C": "A* Search",
+        "D": "Linear Search"
+      },
+      "answer": "C",
+      "explanation": "A* search uses both actual cost and heuristic cost to find the optimal path.",
+      "hash": "6c240b6b8b016161",
+      "translations": {
+        "hi": {
+          "question": "कौन सा सर्च एल्गोरिथम सबसे छोटा रास्ता खोजने के लिए ह्यूरिस्टिक फंक्शन का उपयोग करता है?",
+          "options": {
+            "A": "ब्रैड्थ फर्स्ट सर्च",
+            "B": "डेप्थ फर्स्ट सर्च",
+            "C": "ए* सर्च",
+            "D": "लीनियर सर्च"
+          },
+          "explanation": "ए* सर्च इष्टतम पथ खोजने के लिए वास्तविक लागत और ह्यूरिस्टिक लागत दोनों का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-003",
+      "number": 3,
+      "question": "What does NLP stand for in the context of AI?",
+      "options": {
+        "A": "Native Language Processing",
+        "B": "Natural Language Processing",
+        "C": "Neural Logical Programming",
+        "D": "Network Layer Protocol"
+      },
+      "answer": "B",
+      "explanation": "NLP is a branch of AI that deals with interaction between computers and human languages.",
+      "hash": "c2a3051a549a1900",
+      "translations": {
+        "hi": {
+          "question": "एआई के संदर्भ में एनएलपी (NLP) का क्या अर्थ है?",
+          "options": {
+            "A": "नेटिव लैंग्वेज प्रोसेसिंग",
+            "B": "नेचुरल लैंग्वेज प्रोसेसिंग",
+            "C": "न्यूरल लॉजिकल प्रोग्रामिंग",
+            "D": "नेटवर्क लेयर प्रोटोकॉल"
+          },
+          "explanation": "एनएलपी एआई की एक शाखा है जो कंप्यूटर और मानव भाषाओं के बीच बातचीत से संबंधित है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-004",
+      "number": 4,
+      "question": "In a neural network, which function introduces non-linearity?",
+      "options": {
+        "A": "Linear Function",
+        "B": "Activation Function",
+        "C": "Summation Function",
+        "D": "Error Function"
+      },
+      "answer": "B",
+      "explanation": "Activation functions like ReLU or Sigmoid allow networks to learn complex patterns.",
+      "hash": "507a93e57a51090d",
+      "translations": {
+        "hi": {
+          "question": "न्यूरल नेटवर्क में, कौन सा फंक्शन नॉन-लैनिएरिटी पेश करता है?",
+          "options": {
+            "A": "लीनियर फंक्शन",
+            "B": "एक्टिवेशन फंक्शन",
+            "C": "समेशन फंक्शन",
+            "D": "एरर फंक्शन"
+          },
+          "explanation": "ReLU या सिग्मॉइड जैसे एक्टिवेशन फंक्शन नेटवर्क को जटिल पैटर्न सीखने की अनुमति देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-005",
+      "number": 5,
+      "question": "Which of the following is an example of a Supervised Learning task?",
+      "options": {
+        "A": "Clustering",
+        "B": "Association Rules",
+        "C": "Classification",
+        "D": "Dimensionality Reduction"
+      },
+      "answer": "C",
+      "explanation": "Classification involves predicting labels for data based on training with labeled examples.",
+      "hash": "0f8166ae218c035e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा सुपरवाइज़्ड लर्निंग कार्य का उदाहरण है?",
+          "options": {
+            "A": "क्लस्टरिंग",
+            "B": "एसोसिएशन रूल्स",
+            "C": "क्लासिफिकेशन",
+            "D": "डायमेंशनलिटी रिडक्शन"
+          },
+          "explanation": "क्लासिफिकेशन में लेबल किए गए उदाहरणों के साथ प्रशिक्षण के आधार पर डेटा के लिए लेबल की भविष्यवाणी करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-006",
+      "number": 6,
+      "question": "Which test is used to determine if a machine can exhibit intelligent behavior equivalent to a human?",
+      "options": {
+        "A": "IQ Test",
+        "B": "Turing Test",
+        "C": "Voight-Kampff Test",
+        "D": "CAPTCHA Test"
+      },
+      "answer": "B",
+      "explanation": "The Turing Test, proposed by Alan Turing, measures a machine's ability to mimic human intelligence.",
+      "hash": "12b2ee58cf886e3b",
+      "translations": {
+        "hi": {
+          "question": "किस परीक्षण का उपयोग यह निर्धारित करने के लिए किया जाता है कि क्या कोई मशीन मनुष्य के बराबर बुद्धिमान व्यवहार प्रदर्शित कर सकती है?",
+          "options": {
+            "A": "आईक्यू टेस्ट",
+            "B": "ट्यूरिंग टेस्ट",
+            "C": "वोइट-कैम्पफ टेस्ट",
+            "D": "कैप्चा टेस्ट"
+          },
+          "explanation": "एलन ट्यूरिंग द्वारा प्रस्तावित ट्यूरिंग टेस्ट, मानव बुद्धि की नकल करने की मशीन की क्षमता को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-007",
+      "number": 7,
+      "question": "Which logic handles uncertainty by using degrees of truth rather than just true or false?",
+      "options": {
+        "A": "Boolean Logic",
+        "B": "Fuzzy Logic",
+        "C": "Predicate Logic",
+        "D": "Propositional Logic"
+      },
+      "answer": "B",
+      "explanation": "Fuzzy logic allows for values between 0 and 1, representing partial truth.",
+      "hash": "17b772494032854c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा तर्क केवल सत्य या असत्य के बजाय सत्य की डिग्री का उपयोग करके अनिश्चितता को संभालता है?",
+          "options": {
+            "A": "बुलियन लॉजिक",
+            "B": "फजी लॉजिक",
+            "C": "प्रेडिकेट लॉजिक",
+            "D": "प्रपोजिशनल लॉजिक"
+          },
+          "explanation": "फजी लॉजिक 0 और 1 के बीच के मानों की अनुमति देता है, जो आंशिक सत्य का प्रतिनिधित्व करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-008",
+      "number": 8,
+      "question": "What is the main goal of Reinforcement Learning?",
+      "options": {
+        "A": "To minimize the error",
+        "B": "To maximize the reward",
+        "C": "To group similar data",
+        "D": "To find hidden patterns"
+      },
+      "answer": "B",
+      "explanation": "Reinforcement learning agents learn to make decisions by maximizing cumulative rewards.",
+      "hash": "b4ce025df2edc8ff",
+      "translations": {
+        "hi": {
+          "question": "रीइन्फोर्समेंट लर्निंग का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "एरर को कम करना",
+            "B": "रिवॉर्ड को अधिकतम करना",
+            "C": "समान डेटा को समूहित करना",
+            "D": "छिपे हुए पैटर्न खोजना"
+          },
+          "explanation": "रीइन्फोर्समेंट लर्निंग एजेंट संचयी पुरस्कारों को अधिकतम करके निर्णय लेना सीखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-009",
+      "number": 9,
+      "question": "Which AI technique is inspired by the biological structure of the human brain?",
+      "options": {
+        "A": "Genetic Algorithms",
+        "B": "Decision Trees",
+        "C": "Artificial Neural Networks",
+        "D": "Rule-based Systems"
+      },
+      "answer": "C",
+      "explanation": "Neural networks consist of interconnected nodes similar to biological neurons.",
+      "hash": "9234af622e66f8c3",
+      "translations": {
+        "hi": {
+          "question": "कौन सी एआई तकनीक मानव मस्तिष्क की जैविक संरचना से प्रेरित है?",
+          "options": {
+            "A": "जेनेटिक एल्गोरिदम",
+            "B": "डिसीजन ट्री",
+            "C": "आर्टिफिशियल न्यूरल नेटवर्क",
+            "D": "रूल-बेस्ड सिस्टम"
+          },
+          "explanation": "न्यूरल नेटवर्क में जैविक न्यूरॉन्स के समान आपस में जुड़े नोड्स होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-010",
+      "number": 10,
+      "question": "In search algorithms, what is the 'State Space'?",
+      "options": {
+        "A": "The physical memory space",
+        "B": "The set of all possible states",
+        "C": "The destination node",
+        "D": "The path between two nodes"
+      },
+      "answer": "B",
+      "explanation": "State space is the complete set of configurations reachable in a problem.",
+      "hash": "43fc33303a520de4",
+      "translations": {
+        "hi": {
+          "question": "सर्च एल्गोरिदम में, 'स्टेट स्पेस' क्या है?",
+          "options": {
+            "A": "फिजिकल मेमोरी स्पेस",
+            "B": "सभी संभावित स्थितियों का सेट",
+            "C": "डेस्टिनेशन नोड",
+            "D": "दो नोड्स के बीच का रास्ता"
+          },
+          "explanation": "स्टेट स्पेस एक समस्या में पहुंचने योग्य कॉन्फ़िगरेशन का पूरा सेट है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-011",
+      "number": 11,
+      "question": "Which search strategy explores the deepest node in the search tree first?",
+      "options": {
+        "A": "Breadth First Search",
+        "B": "Depth First Search",
+        "C": "Best First Search",
+        "D": "Uniform Cost Search"
+      },
+      "answer": "B",
+      "explanation": "DFS uses a stack to explore a branch to its limit before backtracking.",
+      "hash": "a1f7662cb824a76c",
+      "translations": {
+        "hi": {
+          "question": "कौन सी सर्च स्ट्रेटेजी सर्च ट्री में सबसे गहरे नोड को पहले एक्सप्लोर करती है?",
+          "options": {
+            "A": "ब्रैड्थ फर्स्ट सर्च",
+            "B": "डेप्थ फर्स्ट सर्च",
+            "C": "बेस्ट फर्स्ट सर्च",
+            "D": "यूनिफॉर्म कॉस्ट सर्च"
+          },
+          "explanation": "DFS बैकट्रैकिंग से पहले एक शाखा को उसकी सीमा तक एक्सप्लोर करने के लिए स्टैक का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-012",
+      "number": 12,
+      "question": "What is 'Overfitting' in Machine Learning?",
+      "options": {
+        "A": "Model performs well on test data only",
+        "B": "Model performs well on training data but poorly on test data",
+        "C": "Model is too simple to learn",
+        "D": "Model has zero training error"
+      },
+      "answer": "B",
+      "explanation": "Overfitting occurs when a model learns noise in training data instead of the underlying pattern.",
+      "hash": "b47e62f846b2280f",
+      "translations": {
+        "hi": {
+          "question": "मशीन लर्निंग में 'ओवरफिटिंग' क्या है?",
+          "options": {
+            "A": "मॉडल केवल टेस्ट डेटा पर अच्छा प्रदर्शन करता है",
+            "B": "मॉडल ट्रेनिंग डेटा पर अच्छा प्रदर्शन करता है लेकिन टेस्ट डेटा पर खराब",
+            "C": "मॉडल सीखने के लिए बहुत सरल है",
+            "D": "मॉडल में शून्य ट्रेनिंग एरर है"
+          },
+          "explanation": "ओवरफिटिंग तब होती है जब एक मॉडल अंतर्निहित पैटर्न के बजाय ट्रेनिंग डेटा में शोर सीखता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-013",
+      "number": 13,
+      "question": "Which of the following is a component of an Expert System?",
+      "options": {
+        "A": "Compiler",
+        "B": "Inference Engine",
+        "C": "Assembler",
+        "D": "Browser"
+      },
+      "answer": "B",
+      "explanation": "The inference engine applies logical rules to the knowledge base to deduce new information.",
+      "hash": "d249af8a4e675b3a",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक्सपर्ट सिस्टम का एक घटक है?",
+          "options": {
+            "A": "कंपाइलर",
+            "B": "इंफरेंस इंजन",
+            "C": "असेंबलर",
+            "D": "ब्राउज़र"
+          },
+          "explanation": "इंफरेंस इंजन नई जानकारी प्राप्त करने के लिए नॉलेज बेस पर लॉजिकल नियमों को लागू करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-014",
+      "number": 14,
+      "question": "A computer program that mimics the decision-making ability of a human expert is called?",
+      "options": {
+        "A": "Expert System",
+        "B": "Operating System",
+        "C": "Database System",
+        "D": "Compilation System"
+      },
+      "answer": "A",
+      "explanation": "Expert systems use knowledge bases and inference engines to solve complex problems.",
+      "hash": "c1d8df21ecc69604",
+      "translations": {
+        "hi": {
+          "question": "मानव विशेषज्ञ की निर्णय लेने की क्षमता की नकल करने वाले कंप्यूटर प्रोग्राम को क्या कहा जाता है?",
+          "options": {
+            "A": "एक्सपर्ट सिस्टम",
+            "B": "ऑपरेटिंग सिस्टम",
+            "C": "डेटाबेस सिस्टम",
+            "D": "कम्पाइलेशन सिस्टम"
+          },
+          "explanation": "एक्सपर्ट सिस्टम जटिल समस्याओं को हल करने के लिए नॉलेज बेस और इंफरेंस इंजन का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-015",
+      "number": 15,
+      "question": "In AI, what does 'Heuristic' refer to?",
+      "options": {
+        "A": "A perfect solution",
+        "B": "A rule of thumb or shortcut",
+        "C": "A data storage type",
+        "D": "A hardware component"
+      },
+      "answer": "B",
+      "explanation": "Heuristics are practical strategies used to find solutions faster when optimal ones are too slow.",
+      "hash": "d121dce4483a6707",
+      "translations": {
+        "hi": {
+          "question": "एआई में, 'ह्यूरिस्टिक' किसे संदर्भित करता है?",
+          "options": {
+            "A": "एक सटीक समाधान",
+            "B": "एक व्यावहारिक नियम या शॉर्टकट",
+            "C": "एक डेटा स्टोरेज प्रकार",
+            "D": "एक हार्डवेयर घटक"
+          },
+          "explanation": "ह्यूरिस्टिक्स व्यावहारिक रणनीतियाँ हैं जिनका उपयोग समाधान तेजी से खोजने के लिए किया जाता है जब इष्टतम समाधान बहुत धीमे होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-016",
+      "number": 16,
+      "question": "What is the purpose of the 'Backpropagation' algorithm?",
+      "options": {
+        "A": "To initialize weights",
+        "B": "To update weights in neural networks",
+        "C": "To delete redundant data",
+        "D": "To stop the training process"
+      },
+      "answer": "B",
+      "explanation": "Backpropagation calculates gradients to adjust weights and minimize error.",
+      "hash": "f6362c5433ffec1f",
+      "translations": {
+        "hi": {
+          "question": "'बैकप्रोपेगेशन' एल्गोरिथम का उद्देश्य क्या है?",
+          "options": {
+            "A": "वेट्स को इनिशियलाइज़ करना",
+            "B": "न्यूरल नेटवर्क में वेट्स को अपडेट करना",
+            "C": "अनावश्यक डेटा को हटाना",
+            "D": "ट्रेनिंग प्रक्रिया को रोकना"
+          },
+          "explanation": "बैकप्रोपेगेशन वेट्स को एडजस्ट करने और एरर को कम करने के लिए ग्रेडिएंट की गणना करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-017",
+      "number": 17,
+      "question": "Which algorithm is commonly used for clustering in Unsupervised Learning?",
+      "options": {
+        "A": "K-Nearest Neighbors",
+        "B": "Support Vector Machines",
+        "C": "K-Means",
+        "D": "Linear Regression"
+      },
+      "answer": "C",
+      "explanation": "K-Means partitions data into K distinct clusters based on feature similarity.",
+      "hash": "b6c457be7dacebe6",
+      "translations": {
+        "hi": {
+          "question": "अनसुपरवाइज़्ड लर्निंग में क्लस्टरिंग के लिए आमतौर पर किस एल्गोरिथम का उपयोग किया जाता है?",
+          "options": {
+            "A": "के-नियरेस्ट नेबर्स",
+            "B": "सपोर्ट वेक्टर मशीन",
+            "C": "के-मीन्स",
+            "D": "लीनियर रिग्रेशन"
+          },
+          "explanation": "के-मीन्स फीचर समानता के आधार पर डेटा को K अलग-अलग क्लस्टर में विभाजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-018",
+      "number": 18,
+      "question": "Which language is widely used for AI development due to its rich libraries?",
+      "options": {
+        "A": "C",
+        "B": "Python",
+        "C": "HTML",
+        "D": "SQL"
+      },
+      "answer": "B",
+      "explanation": "Python has extensive libraries like NumPy, Pandas, and TensorFlow for AI/ML.",
+      "hash": "3171c53bb97117c4",
+      "translations": {
+        "hi": {
+          "question": "अपनी समृद्ध लाइब्रेरी के कारण एआई विकास के लिए कौन सी भाषा व्यापक रूप से उपयोग की जाती है?",
+          "options": {
+            "A": "सी",
+            "B": "पायथन",
+            "C": "एचटीएमएल",
+            "D": "एसक्यूएल"
+          },
+          "explanation": "पायथन में एआई/एमएल के लिए NumPy, Pandas और TensorFlow जैसी व्यापक लाइब्रेरी हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-019",
+      "number": 19,
+      "question": "What is a 'Perceptron' in AI?",
+      "options": {
+        "A": "A complex robot",
+        "B": "A single layer neural network",
+        "C": "A storage device",
+        "D": "A programming language"
+      },
+      "answer": "B",
+      "explanation": "A perceptron is the simplest form of a neural network used for binary classification.",
+      "hash": "ca7c4aba2a25c431",
+      "translations": {
+        "hi": {
+          "question": "एआई में 'परसेप्ट्रॉन' क्या है?",
+          "options": {
+            "A": "एक जटिल रोबोट",
+            "B": "एक सिंगल लेयर न्यूरल नेटवर्क",
+            "C": "एक स्टोरेज डिवाइस",
+            "D": "एक प्रोग्रामिंग भाषा"
+          },
+          "explanation": "परसेप्ट्रॉन बाइनरी क्लासिफिकेशन के लिए उपयोग किए जाने वाले न्यूरल नेटवर्क का सबसे सरल रूप है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-020",
+      "number": 20,
+      "question": "What is the 'Mini-Max' algorithm used for?",
+      "options": {
+        "A": "Image processing",
+        "B": "Game playing (like Chess)",
+        "C": "Sorting data",
+        "D": "Memory management"
+      },
+      "answer": "B",
+      "explanation": "Mini-Max is a decision-making algorithm used in two-player zero-sum games.",
+      "hash": "13ef67497771ff33",
+      "translations": {
+        "hi": {
+          "question": "'मिनी-मैक्स' एल्गोरिथम का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "इमेज प्रोसेसिंग",
+            "B": "गेम प्लेइंग (जैसे शतरंज)",
+            "C": "डेटा सॉर्टिंग",
+            "D": "मेमोरी मैनेजमेंट"
+          },
+          "explanation": "मिनी-मैक्स एक निर्णय लेने वाला एल्गोरिथम है जिसका उपयोग दो-खिलाड़ियों वाले जीरो-सम गेम में किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-021",
+      "number": 21,
+      "question": "Which of the following is a sub-field of AI that enables systems to learn from experience?",
+      "options": {
+        "A": "Cloud Computing",
+        "B": "Machine Learning",
+        "C": "Internet of Things",
+        "D": "Blockchain"
+      },
+      "answer": "B",
+      "explanation": "Machine Learning provides systems the ability to automatically learn and improve from data.",
+      "hash": "829e3ff5f1829631",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन एआई का एक उप-क्षेत्र है जो सिस्टम को अनुभव से सीखने में सक्षम बनाता है?",
+          "options": {
+            "A": "क्लाउड कंप्यूटिंग",
+            "B": "मशीन लर्निंग",
+            "C": "इंटरनेट ऑफ थिंग्स",
+            "D": "ब्लॉकचेन"
+          },
+          "explanation": "मशीन लर्निंग सिस्टम को डेटा से स्वचालित रूप से सीखने और सुधारने की क्षमता प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-022",
+      "number": 22,
+      "question": "Which AI agent acts on the current percept only, ignoring the history?",
+      "options": {
+        "A": "Model-based agent",
+        "B": "Simple Reflex agent",
+        "C": "Goal-based agent",
+        "D": "Utility-based agent"
+      },
+      "answer": "B",
+      "explanation": "Simple reflex agents select actions based only on the current percept.",
+      "hash": "c3cd4aec48947577",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एआई एजेंट इतिहास को अनदेखा करते हुए केवल वर्तमान धारणा पर कार्य करता है?",
+          "options": {
+            "A": "मॉडल-बेस्ड एजेंट",
+            "B": "सिंपल रिफ्लेक्स एजेंट",
+            "C": "गोल-बेस्ड एजेंट",
+            "D": "यूटिलिटी-बेस्ड एजेंट"
+          },
+          "explanation": "सिंपल रिफ्लेक्स एजेंट केवल वर्तमान धारणा (current percept) के आधार पर कार्यों का चयन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-023",
+      "number": 23,
+      "question": "Which technique is used to reduce the size of the search tree in Mini-Max?",
+      "options": {
+        "A": "Alpha-Beta Pruning",
+        "B": "Linear Regression",
+        "C": "Data Normalization",
+        "D": "Feature Selection"
+      },
+      "answer": "A",
+      "explanation": "Alpha-Beta pruning skips branches that cannot influence the final decision.",
+      "hash": "78916cd5bbd14733",
+      "translations": {
+        "hi": {
+          "question": "मिनी-मैक्स में सर्च ट्री के आकार को कम करने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "अल्फा-बीटा प्रूनिंग",
+            "B": "लीनियर रिग्रेशन",
+            "C": "डेटा नॉर्मलाइजेशन",
+            "D": "फीचर सिलेक्शन"
+          },
+          "explanation": "अल्फा-बीटा प्रूनिंग उन शाखाओं को छोड़ देता है जो अंतिम निर्णय को प्रभावित नहीं कर सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-024",
+      "number": 24,
+      "question": "Which term describes an AI's ability to perceive its environment?",
+      "options": {
+        "A": "Actuating",
+        "B": "Sensing",
+        "C": "Reasoning",
+        "D": "Planning"
+      },
+      "answer": "B",
+      "explanation": "Sensing involves gathering data from the environment using sensors or input.",
+      "hash": "fb01aa1d718b1d4d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द एआई की अपने पर्यावरण को समझने की क्षमता का वर्णन करता है?",
+          "options": {
+            "A": "एक्चुएटिंग",
+            "B": "सेंसिंग",
+            "C": "रीजनिंग",
+            "D": "प्लानिंग"
+          },
+          "explanation": "सेंसिंग में सेंसर या इनपुट का उपयोग करके पर्यावरण से डेटा एकत्र करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-025",
+      "number": 25,
+      "question": "What is the full form of CNN in Deep Learning?",
+      "options": {
+        "A": "Computerized Neural Network",
+        "B": "Convolutional Neural Network",
+        "C": "Cyclic Neural Network",
+        "D": "Constant Neural Network"
+      },
+      "answer": "B",
+      "explanation": "CNNs are primarily used for processing structured arrays of data like images.",
+      "hash": "bfd05dbeef897194",
+      "translations": {
+        "hi": {
+          "question": "डीप लर्निंग में CNN का फुल फॉर्म क्या है?",
+          "options": {
+            "A": "कंप्यूटराइज्ड न्यूरल नेटवर्क",
+            "B": "कनवोल्यूशनल न्यूरल नेटवर्क",
+            "C": "साइक्लिक न्यूरल नेटवर्क",
+            "D": "कॉन्स्टेंट न्यूरल नेटवर्क"
+          },
+          "explanation": "CNN का मुख्य रूप से छवियों जैसे डेटा के संरचित सरणियों को संसाधित करने के लिए उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-026",
+      "number": 26,
+      "question": "Which of the following is a 'Strong AI' characteristic?",
+      "options": {
+        "A": "Ability to perform a specific task",
+        "B": "Human-level consciousness and reasoning",
+        "C": "Limited to voice recognition",
+        "D": "Pattern matching only"
+      },
+      "answer": "B",
+      "explanation": "Strong AI (AGI) aims to match or exceed human intelligence across all cognitive tasks.",
+      "hash": "4b56b29c6db566f3",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन 'स्ट्रॉन्ग एआई' की विशेषता है?",
+          "options": {
+            "A": "एक विशिष्ट कार्य करने की क्षमता",
+            "B": "मानव-स्तर की चेतना और तर्क",
+            "C": "वॉयस रिकग्निशन तक सीमित",
+            "D": "केवल पैटर्न मिलान"
+          },
+          "explanation": "स्ट्रॉन्ग एआई (AGI) का लक्ष्य सभी संज्ञानात्मक कार्यों में मानव बुद्धि की बराबरी करना या उससे आगे निकलना है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-027",
+      "number": 27,
+      "question": "In logic, what is 'Modus Ponens'?",
+      "options": {
+        "A": "A type of sensor",
+        "B": "A rule of inference",
+        "C": "A search algorithm",
+        "D": "A programming error"
+      },
+      "answer": "B",
+      "explanation": "Modus Ponens is a logical rule: if P implies Q and P is true, then Q must be true.",
+      "hash": "e239257c0588bf87",
+      "translations": {
+        "hi": {
+          "question": "तर्कशास्त्र में, 'मोडस पोनेन्स' क्या है?",
+          "options": {
+            "A": "एक प्रकार का सेंसर",
+            "B": "इंफरेंस का एक नियम",
+            "C": "एक सर्च एल्गोरिथम",
+            "D": "एक प्रोग्रामिंग एरर"
+          },
+          "explanation": "मोडस पोनेन्स एक तार्किक नियम है: यदि P, Q को दर्शाता है और P सत्य है, तो Q भी सत्य होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-028",
+      "number": 28,
+      "question": "Which algorithm is used to find the optimal policy in Reinforcement Learning?",
+      "options": {
+        "A": "Q-Learning",
+        "B": "Binary Search",
+        "C": "Bubble Sort",
+        "D": "PageRank"
+      },
+      "answer": "A",
+      "explanation": "Q-Learning is a model-free reinforcement learning algorithm to find the best action.",
+      "hash": "cd176f1cecc8efe9",
+      "translations": {
+        "hi": {
+          "question": "रीइन्फोर्समेंट लर्निंग में इष्टतम नीति खोजने के लिए किस एल्गोरिथम का उपयोग किया जाता है?",
+          "options": {
+            "A": "क्यू-लर्निंग",
+            "B": "बाइनरी सर्च",
+            "C": "बबल सॉर्ट",
+            "D": "पेजरैंक"
+          },
+          "explanation": "क्यू-लर्निंग सर्वोत्तम क्रिया खोजने के लिए एक मॉडल-मुक्त रीइन्फोर्समेंट लर्निंग एल्गोरिथम है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-029",
+      "number": 29,
+      "question": "Which of the following is a limitation of a Depth First Search (DFS)?",
+      "options": {
+        "A": "It uses too much memory",
+        "B": "It may follow an infinite path and never return",
+        "C": "It is always optimal",
+        "D": "It is very slow for small trees"
+      },
+      "answer": "B",
+      "explanation": "DFS can get stuck in infinite loops if the state space is not finite and cycles are not handled.",
+      "hash": "5b395cfca78958f7",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन डेप्थ फर्स्ट सर्च (DFS) की सीमा है?",
+          "options": {
+            "A": "यह बहुत अधिक मेमोरी का उपयोग करता है",
+            "B": "यह एक अनंत पथ का अनुसरण कर सकता है और कभी वापस नहीं आ सकता",
+            "C": "यह हमेशा इष्टतम होता है",
+            "D": "यह छोटे पेड़ों के लिए बहुत धीमा है"
+          },
+          "explanation": "यदि स्टेट स्पेस परिमित नहीं है और चक्रों को संभाला नहीं जाता है, तो DFS अनंत लूप में फंस सकता है।"
+        }
+      }
+    },
+    {
+      "id": "ai-01-030",
+      "number": 30,
+      "question": "What is a 'Knowledge Base' in an Expert System?",
+      "options": {
+        "A": "A list of users",
+        "B": "A repository of facts and rules",
+        "C": "The hardware motherboard",
+        "D": "The input/output device"
+      },
+      "answer": "B",
+      "explanation": "The knowledge base stores the expert knowledge used for reasoning.",
+      "hash": "add343a6727b1cbd",
+      "translations": {
+        "hi": {
+          "question": "एक्सपर्ट सिस्टम में 'नॉलेज बेस' क्या है?",
+          "options": {
+            "A": "उपयोगकर्ताओं की सूची",
+            "B": "तथ्यों और नियमों का भंडार",
+            "C": "हार्डवेयर मदरबोर्ड",
+            "D": "इनपुट/आउटपुट डिवाइस"
+          },
+          "explanation": "नॉलेज बेस तर्क के लिए उपयोग किए जाने वाले विशेषज्ञ ज्ञान को संग्रहीत करता है।"
+        }
+      }
+    }
+  ]
+}

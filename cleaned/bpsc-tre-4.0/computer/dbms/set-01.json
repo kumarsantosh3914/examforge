@@ -1,0 +1,787 @@
+{
+  "subject": "DBMS",
+  "set": 1,
+  "title": "DBMS Mock Test 1",
+  "questions": [
+    {
+      "id": "dbms-01-001",
+      "number": 1,
+      "question": "Which level of abstraction describes how the data is actually stored in the database?",
+      "options": {
+        "A": "Logical Level",
+        "B": "Conceptual Level",
+        "C": "Physical Level",
+        "D": "View Level"
+      },
+      "answer": "C",
+      "explanation": "The physical level is the lowest level of abstraction that describes complex low-level data structures.",
+      "hash": "8e73e3326b60ad4b",
+      "translations": {
+        "hi": {
+          "question": "एब्स्ट्रैक्शन का कौन सा स्तर बताता है कि डेटा वास्तव में डेटाबेस में कैसे संग्रहीत है?",
+          "options": {
+            "A": "लॉजिकल स्तर",
+            "B": "कॉन्सेप्चुअल स्तर",
+            "C": "फिजिकल स्तर",
+            "D": "व्यू स्तर"
+          },
+          "explanation": "फिजिकल स्तर एब्स्ट्रैक्शन का सबसे निचला स्तर है जो जटिल निम्न-स्तरीय डेटा संरचनाओं का वर्णन करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-002",
+      "number": 2,
+      "question": "Which of the following is considered the father of Relational Database Management Systems?",
+      "options": {
+        "A": "Charles Bachman",
+        "B": "E.F. Codd",
+        "C": "James Gosling",
+        "D": "Donald Chamberlin"
+      },
+      "answer": "B",
+      "explanation": "E.F. Codd proposed the relational model for database management in 1970.",
+      "hash": "7db1f2790356f280",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किसे रिलेशनल डेटाबेस मैनेजमेंट सिस्टम का जनक माना जाता है?",
+          "options": {
+            "A": "चार्ल्स बैचमैन",
+            "B": "ई.एफ. कॉड",
+            "C": "जेम्स गोस्लिंग",
+            "D": "डोनाल्ड चैंबरलिन"
+          },
+          "explanation": "ई.एफ. कॉड ने 1970 में डेटाबेस प्रबंधन के लिए रिलेशनल मॉडल का प्रस्ताव दिया था।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-003",
+      "number": 3,
+      "question": "Which SQL command is used to remove all records from a table but keep the structure intact?",
+      "options": {
+        "A": "DELETE",
+        "B": "DROP",
+        "C": "TRUNCATE",
+        "D": "REMOVE"
+      },
+      "answer": "C",
+      "explanation": "TRUNCATE is a DDL command that removes all rows from a table without deleting the table definition.",
+      "hash": "2452b19be7ff5e52",
+      "translations": {
+        "hi": {
+          "question": "किसी टेबल से सभी रिकॉर्ड हटाने लेकिन संरचना को सुरक्षित रखने के लिए किस SQL कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "डिलीट",
+            "B": "ड्रॉप",
+            "C": "ट्रंकेट",
+            "D": "रिमूव"
+          },
+          "explanation": "TRUNCATE एक DDL कमांड है जो टेबल की परिभाषा को हटाए बिना टेबल से सभी पंक्तियों को हटा देता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-004",
+      "number": 4,
+      "question": "In an E-R diagram, double ellipses represent which of the following?",
+      "options": {
+        "A": "Derived Attribute",
+        "B": "Multivalued Attribute",
+        "C": "Weak Entity",
+        "D": "Key Attribute"
+      },
+      "answer": "B",
+      "explanation": "Multivalued attributes, which can have more than one value for an entity, are shown by double ellipses.",
+      "hash": "8159229df60bbc20",
+      "translations": {
+        "hi": {
+          "question": "E-R आरेख में, डबल एलिप्स (अंडाकार) निम्नलिखित में से किसे दर्शाते हैं?",
+          "options": {
+            "A": "व्युत्पन्न विशेषता",
+            "B": "बहु-मान विशेषता",
+            "C": "कमजोर इकाई",
+            "D": "कुंजी विशेषता"
+          },
+          "explanation": "बहु-मान विशेषताएँ, जिनमें एक इकाई के लिए एक से अधिक मान हो सकते हैं, डबल एलिप्स द्वारा दिखाई जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-005",
+      "number": 5,
+      "question": "The 'ACID' properties of a transaction stand for:",
+      "options": {
+        "A": "Atomicity, Consistency, Isolation, Durability",
+        "B": "Atomicity, Concurrency, Isolation, Durability",
+        "C": "Automatic, Consistency, Isolation, Durability",
+        "D": "Access, Control, Integrity, Direct"
+      },
+      "answer": "A",
+      "explanation": "These four properties ensure that database transactions are processed reliably.",
+      "hash": "a9060785865d6814",
+      "translations": {
+        "hi": {
+          "question": "ट्रांजेक्शन के 'ACID' गुणों का अर्थ है:",
+          "options": {
+            "A": "एटोमीसिटी, कंसिस्टेंसी, आइसोलेशन, ड्यूरेबिलिटी",
+            "B": "एटोमीसिटी, कॉन्करेंसी, आइसोलेशन, ड्यूरेबिलिटी",
+            "C": "ऑटोमैटिक, कंसिस्टेंसी, आइसोलेशन, ड्यूरेबिलिटी",
+            "D": "एक्सेस, कंट्रोल, इंटीग्रिटी, डायरेक्ट"
+          },
+          "explanation": "ये चार गुण यह सुनिश्चित करते हैं कि डेटाबेस ट्रांजेक्शन विश्वसनीय रूप से संसाधित हों।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-006",
+      "number": 6,
+      "question": "Which of the following is a 'Data Definition Language' (DDL) command?",
+      "options": {
+        "A": "SELECT",
+        "B": "UPDATE",
+        "C": "ALTER",
+        "D": "INSERT"
+      },
+      "answer": "C",
+      "explanation": "ALTER is used to modify the structure of an existing database object like a table.",
+      "hash": "f45a0a8134de583e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'डेटा डेफिनिशन लैंग्वेज' (DDL) कमांड है?",
+          "options": {
+            "A": "सेलेक्ट",
+            "B": "अपडेट",
+            "C": "आल्टर",
+            "D": "इंसर्ट"
+          },
+          "explanation": "ALTER का उपयोग टेबल जैसी मौजूदा डेटाबेस ऑब्जेक्ट की संरचना को संशोधित करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-007",
+      "number": 7,
+      "question": "Which normal form is based on the concept of 'Transitive Dependency'?",
+      "options": {
+        "A": "1NF",
+        "B": "2NF",
+        "C": "3NF",
+        "D": "BCNF"
+      },
+      "answer": "C",
+      "explanation": "A relation is in 3NF if it is in 2NF and no non-prime attribute is transitively dependent on the primary key.",
+      "hash": "e49d524b88b4a98f",
+      "translations": {
+        "hi": {
+          "question": "कौन सा नॉर्मल फॉर्म 'ट्रांजिटिव डिपेंडेंसी' की अवधारणा पर आधारित है?",
+          "options": {
+            "A": "1NF",
+            "B": "2NF",
+            "C": "3NF",
+            "D": "BCNF"
+          },
+          "explanation": "एक रिलेशन 3NF में होता है यदि वह 2NF में हो और कोई भी नॉन-प्राइम एट्रिब्यूट प्राइमरी की पर ट्रांजिटिव रूप से निर्भर न हो।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-008",
+      "number": 8,
+      "question": "A candidate key that is not chosen as the primary key is known as a:",
+      "options": {
+        "A": "Foreign Key",
+        "B": "Alternate Key",
+        "C": "Super Key",
+        "D": "Composite Key"
+      },
+      "answer": "B",
+      "explanation": "All candidate keys except the primary key are called alternate keys.",
+      "hash": "05f09afa65180bff",
+      "translations": {
+        "hi": {
+          "question": "एक कैंडिडेट की जिसे प्राइमरी की के रूप में नहीं चुना जाता है, उसे क्या कहा जाता है?",
+          "options": {
+            "A": "फॉरेन की",
+            "B": "अल्टरनेट की",
+            "C": "सुपर की",
+            "D": "कम्पोजिट की"
+          },
+          "explanation": "प्राइमरी की को छोड़कर सभी कैंडिडेट की को अल्टरनेट की कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-009",
+      "number": 9,
+      "question": "What is the maximum number of primary keys a table can have?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "Any number"
+      },
+      "answer": "B",
+      "explanation": "A table can have only one primary key to uniquely identify its records.",
+      "hash": "289934a608c281db",
+      "translations": {
+        "hi": {
+          "question": "एक टेबल में अधिकतम कितनी प्राइमरी की हो सकती हैं?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "कोई भी संख्या"
+          },
+          "explanation": "रिकॉर्ड्स की विशिष्ट पहचान के लिए एक टेबल में केवल एक प्राइमरी की हो सकती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-010",
+      "number": 10,
+      "question": "Which operation is used to combine rows from two or more tables based on a related column?",
+      "options": {
+        "A": "UNION",
+        "B": "JOIN",
+        "C": "INTERSECT",
+        "D": "PROJECT"
+      },
+      "answer": "B",
+      "explanation": "JOIN is used to query data from multiple tables based on logical relationships between them.",
+      "hash": "ac677f5454ea9a6d",
+      "translations": {
+        "hi": {
+          "question": "संबंधित कॉलम के आधार पर दो या दो से अधिक टेबल की पंक्तियों को जोड़ने के लिए किस ऑपरेशन का उपयोग किया जाता है?",
+          "options": {
+            "A": "यूनियन",
+            "B": "जॉइन",
+            "C": "इंटरसेक्ट",
+            "D": "प्रोजेक्ट"
+          },
+          "explanation": "JOIN का उपयोग टेबल के बीच लॉजिकल संबंधों के आधार पर कई टेबल से डेटा निकालने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-011",
+      "number": 11,
+      "question": "The process of minimizing redundancy and dependency by organizing fields and tables is called:",
+      "options": {
+        "A": "Data Mining",
+        "B": "Normalization",
+        "C": "Indexing",
+        "D": "Fragmentation"
+      },
+      "answer": "B",
+      "explanation": "Normalization is used to organize data to reduce data redundancy and improve data integrity.",
+      "hash": "c1dcc030fa44b7c7",
+      "translations": {
+        "hi": {
+          "question": "फील्ड और टेबल को व्यवस्थित करके रिडंडेंसी और डिपेंडेंसी को कम करने की प्रक्रिया कहलाती है:",
+          "options": {
+            "A": "डेटा माइनिंग",
+            "B": "नॉर्मलाइजेशन",
+            "C": "इंडेक्सिंग",
+            "D": "फ्रैगमेंटेशन"
+          },
+          "explanation": "नॉर्मलाइजेशन का उपयोग डेटा रिडंडेंसी को कम करने और डेटा अखंडता में सुधार के लिए डेटा को व्यवस्थित करने हेतु किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-012",
+      "number": 12,
+      "question": "Which key is used to represent the relationship between two tables?",
+      "options": {
+        "A": "Primary Key",
+        "B": "Secondary Key",
+        "C": "Foreign Key",
+        "D": "Candidate Key"
+      },
+      "answer": "C",
+      "explanation": "A foreign key is a field in one table that refers to the primary key in another table.",
+      "hash": "d0060376e9c9336b",
+      "translations": {
+        "hi": {
+          "question": "दो टेबल के बीच संबंध दर्शाने के लिए किस कुंजी का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्राइमरी की",
+            "B": "सेकेंडरी की",
+            "C": "फॉरेन की",
+            "D": "कैंडिडेट की"
+          },
+          "explanation": "फॉरेन की एक टेबल का वह फील्ड है जो दूसरी टेबल की प्राइमरी की को संदर्भित करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-013",
+      "number": 13,
+      "question": "In SQL, which wild card character is used to represent zero or more characters?",
+      "options": {
+        "A": "_ (Underscore)",
+        "B": "* (Asterisk)",
+        "C": "% (Percent)",
+        "D": "# (Hash)"
+      },
+      "answer": "C",
+      "explanation": "The % sign represents zero, one, or multiple characters in a LIKE clause.",
+      "hash": "3c310503a30a9a7c",
+      "translations": {
+        "hi": {
+          "question": "SQL में, शून्य या अधिक वर्णों का प्रतिनिधित्व करने के लिए किस वाइल्ड कार्ड वर्ण का उपयोग किया जाता है?",
+          "options": {
+            "A": "_ (अंडरस्कोर)",
+            "B": "* (एस्टेरिस्क)",
+            "C": "% (प्रतिशत)",
+            "D": "# (हैश)"
+          },
+          "explanation": "LIKE क्लॉज में % चिह्न शून्य, एक या कई वर्णों का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-014",
+      "number": 14,
+      "question": "In a B+ tree, where are the actual data pointers or records stored?",
+      "options": {
+        "A": "Root Node",
+        "B": "Internal Nodes",
+        "C": "Leaf Nodes",
+        "D": "All levels"
+      },
+      "answer": "C",
+      "explanation": "In B+ trees, all data/pointers are stored only in the leaf nodes.",
+      "hash": "faf8b2b92d739913",
+      "translations": {
+        "hi": {
+          "question": "B+ ट्री में, वास्तविक डेटा पॉइंटर्स या रिकॉर्ड कहां संग्रहीत होते हैं?",
+          "options": {
+            "A": "रूट नोड",
+            "B": "इंटरनल नोड्स",
+            "C": "लीफ नोड्स",
+            "D": "सभी स्तरों पर"
+          },
+          "explanation": "B+ ट्री में, सभी डेटा/पॉइंटर्स केवल लीफ नोड्स में संग्रहीत होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-015",
+      "number": 15,
+      "question": "Which SQL clause is used to filter the results of an aggregate function?",
+      "options": {
+        "A": "WHERE",
+        "B": "GROUP BY",
+        "C": "HAVING",
+        "D": "ORDER BY"
+      },
+      "answer": "C",
+      "explanation": "HAVING is used instead of WHERE when filtering groups created by aggregate functions.",
+      "hash": "33f867954b266ba8",
+      "translations": {
+        "hi": {
+          "question": "एग्रीगेट फंक्शन के परिणामों को फ़िल्टर करने के लिए किस SQL क्लॉज का उपयोग किया जाता है?",
+          "options": {
+            "A": "वेयर",
+            "B": "ग्रुप बाय",
+            "C": "हैविंग",
+            "D": "ऑर्डर बाय"
+          },
+          "explanation": "एग्रीगेट फंक्शन द्वारा बनाए गए समूहों को फ़िल्टर करते समय WHERE के बजाय HAVING का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-016",
+      "number": 16,
+      "question": "Which constraint ensures that all values in a column are different?",
+      "options": {
+        "A": "NOT NULL",
+        "B": "UNIQUE",
+        "C": "DEFAULT",
+        "D": "CHECK"
+      },
+      "answer": "B",
+      "explanation": "The UNIQUE constraint ensures that all values in a column are unique.",
+      "hash": "f8c5eec9fe1cc49c",
+      "translations": {
+        "hi": {
+          "question": "कौन सा कंस्ट्रेंट यह सुनिश्चित करता है कि कॉलम के सभी मान भिन्न हों?",
+          "options": {
+            "A": "नॉट नल",
+            "B": "यूनिक",
+            "C": "डिफॉल्ट",
+            "D": "चेक"
+          },
+          "explanation": "UNIQUE कंस्ट्रेंट यह सुनिश्चित करता है कि कॉलम के सभी मान अद्वितीय हों।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-017",
+      "number": 17,
+      "question": "What does 'Cardinality' refer to in a database?",
+      "options": {
+        "A": "Number of columns",
+        "B": "Number of rows",
+        "C": "Number of tables",
+        "D": "Number of constraints"
+      },
+      "answer": "B",
+      "explanation": "Cardinality refers to the number of tuples (rows) in a relation.",
+      "hash": "9fe9a905988b4f76",
+      "translations": {
+        "hi": {
+          "question": "डेटाबेस में 'कार्डिनैलिटी' का क्या अर्थ है?",
+          "options": {
+            "A": "कॉलम की संख्या",
+            "B": "पंक्तियों की संख्या",
+            "C": "टेबल की संख्या",
+            "D": "कंस्ट्रेंट की संख्या"
+          },
+          "explanation": "कार्डिनैलिटी एक रिलेशन में टुपल्स (पंक्तियों) की संख्या को संदर्भित करती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-018",
+      "number": 18,
+      "question": "Which of the following is an example of an Object-Oriented Database?",
+      "options": {
+        "A": "Oracle",
+        "B": "MySQL",
+        "C": "MongoDB",
+        "D": "ObjectStore"
+      },
+      "answer": "D",
+      "explanation": "ObjectStore is a well-known Object-Oriented Database Management System (OODBMS).",
+      "hash": "cb7141c512ee422e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ऑब्जेक्ट-ओरिएंटेड डेटाबेस का उदाहरण है?",
+          "options": {
+            "A": "ओरेकल",
+            "B": "MySQL",
+            "C": "मोंगो डीबी",
+            "D": "ऑब्जेक्ट स्टोर"
+          },
+          "explanation": "ऑब्जेक्ट स्टोर एक प्रसिद्ध ऑब्जेक्ट-ओरिएंटेड डेटाबेस मैनेजमेंट सिस्टम (OODBMS) है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-019",
+      "number": 19,
+      "question": "A transaction that completes successfully is said to be:",
+      "options": {
+        "A": "Aborted",
+        "B": "Committed",
+        "C": "Rolled back",
+        "D": "Terminated"
+      },
+      "answer": "B",
+      "explanation": "COMMIT command is used to permanently save changes made by a transaction.",
+      "hash": "96017d9499bdd650",
+      "translations": {
+        "hi": {
+          "question": "सफलतापूर्वक पूरा होने वाले ट्रांजेक्शन को क्या कहा जाता है?",
+          "options": {
+            "A": "एबॉर्टेड",
+            "B": "कमिटेड",
+            "C": "रोल्ड बैक",
+            "D": "टर्मिनेटेड"
+          },
+          "explanation": "COMMIT कमांड का उपयोग ट्रांजेक्शन द्वारा किए गए परिवर्तनों को स्थायी रूप से सहेजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-020",
+      "number": 20,
+      "question": "Which of the following is NOT a level of the Three-Schema Architecture?",
+      "options": {
+        "A": "External Schema",
+        "B": "Conceptual Schema",
+        "C": "Physical Schema",
+        "D": "Logical Schema"
+      },
+      "answer": "D",
+      "explanation": "The levels are External, Conceptual, and Internal (Physical). Logical is often used interchangeably with Conceptual but is not a distinct standard level in the 3-schema model.",
+      "hash": "6ceae41ba791b28f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा थ्री-स्कीमा आर्किटेक्चर का स्तर नहीं है?",
+          "options": {
+            "A": "एक्सटर्नल स्कीमा",
+            "B": "कॉन्सेप्चुअल स्कीमा",
+            "C": "फिजिकल स्कीमा",
+            "D": "लॉजिकल स्कीमा"
+          },
+          "explanation": "स्तर एक्सटर्नल, कॉन्सेप्चुअल और इंटरनल (फिजिकल) हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-021",
+      "number": 21,
+      "question": "An entity that does not have a primary key of its own is called:",
+      "options": {
+        "A": "Strong Entity",
+        "B": "Weak Entity",
+        "C": "Simple Entity",
+        "D": "Dependent Entity"
+      },
+      "answer": "B",
+      "explanation": "A weak entity depends on a strong entity for its identity and lacks a primary key.",
+      "hash": "ded59328fd7edd8a",
+      "translations": {
+        "hi": {
+          "question": "वह इकाई जिसकी अपनी कोई प्राइमरी की नहीं होती, कहलाती है:",
+          "options": {
+            "A": "स्ट्रॉन्ग एंटिटी",
+            "B": "वीक एंटिटी",
+            "C": "सिंपल एंटिटी",
+            "D": "डिपेंडेंट एंटिटी"
+          },
+          "explanation": "एक वीक एंटिटी अपनी पहचान के लिए स्ट्रॉन्ग एंटिटी पर निर्भर करती है और इसमें प्राइमरी की की कमी होती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-022",
+      "number": 22,
+      "question": "Which command is used to give permissions to a user?",
+      "options": {
+        "A": "REVOKE",
+        "B": "GRANT",
+        "C": "ASSIGN",
+        "D": "ALLOW"
+      },
+      "answer": "B",
+      "explanation": "GRANT is a DCL command used to provide access or privileges on database objects.",
+      "hash": "fefd11051b7dd22e",
+      "translations": {
+        "hi": {
+          "question": "किसी उपयोगकर्ता को अनुमति देने के लिए किस कमांड का उपयोग किया जाता है?",
+          "options": {
+            "A": "रिवोक",
+            "B": "ग्रांट",
+            "C": "असाइन",
+            "D": "अलाउ"
+          },
+          "explanation": "GRANT एक DCL कमांड है जिसका उपयोग डेटाबेस ऑब्जेक्ट्स पर एक्सेस या विशेषाधिकार प्रदान करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-023",
+      "number": 23,
+      "question": "What is the degree of a relation?",
+      "options": {
+        "A": "Number of tuples",
+        "B": "Number of attributes",
+        "C": "Number of constraints",
+        "D": "Number of keys"
+      },
+      "answer": "B",
+      "explanation": "The degree of a relation is the total number of columns or attributes it contains.",
+      "hash": "ac2b930283087cbb",
+      "translations": {
+        "hi": {
+          "question": "एक रिलेशन की डिग्री (Degree) क्या है?",
+          "options": {
+            "A": "टुपल्स की संख्या",
+            "B": "एट्रिब्यूट्स की संख्या",
+            "C": "कंस्ट्रेंट की संख्या",
+            "D": "कीज की संख्या"
+          },
+          "explanation": "एक रिलेशन की डिग्री उसमें मौजूद कॉलम या एट्रिब्यूट्स की कुल संख्या होती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-024",
+      "number": 24,
+      "question": "Which of the following is used to store unstructured data?",
+      "options": {
+        "A": "SQL",
+        "B": "NoSQL",
+        "C": "RDBMS",
+        "D": "Excel"
+      },
+      "answer": "B",
+      "explanation": "NoSQL databases are designed to handle unstructured and semi-structured data.",
+      "hash": "e8c9423ea7515e7e",
+      "translations": {
+        "hi": {
+          "question": "असंरचित डेटा को स्टोर करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "SQL",
+            "B": "NoSQL",
+            "C": "RDBMS",
+            "D": "एक्सेल"
+          },
+          "explanation": "NoSQL डेटाबेस को असंरचित और अर्ध-संरचित डेटा को संभालने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-025",
+      "number": 25,
+      "question": "In relational algebra, which operator is used to select a subset of tuples?",
+      "options": {
+        "A": "Projection (π)",
+        "B": "Selection (σ)",
+        "C": "Join (⋈)",
+        "D": "Intersection (∩)"
+      },
+      "answer": "B",
+      "explanation": "The Selection (sigma) operator filters rows based on a given condition.",
+      "hash": "30f3e35e97384869",
+      "translations": {
+        "hi": {
+          "question": "रिलेशनल अलजेब्रा में, टुपल्स के सबसेट का चयन करने के लिए किस ऑपरेटर का उपयोग किया जाता है?",
+          "options": {
+            "A": "प्रोजेक्शन (π)",
+            "B": "सिलेक्शन (σ)",
+            "C": "जॉइन (⋈)",
+            "D": "इंटरसेक्शन (∩)"
+          },
+          "explanation": "सिलेक्शन (सिग्मा) ऑपरेटर दी गई शर्त के आधार पर पंक्तियों को फ़िल्टर करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-026",
+      "number": 26,
+      "question": "Two-Phase Locking (2PL) protocol is used to ensure:",
+      "options": {
+        "A": "Durability",
+        "B": "Atomicity",
+        "C": "Serializability",
+        "D": "Availability"
+      },
+      "answer": "C",
+      "explanation": "2PL is a concurrency control method that guarantees serializability of schedules.",
+      "hash": "a26e56345cc2a904",
+      "translations": {
+        "hi": {
+          "question": "टू-फेज लॉकिंग (2PL) प्रोटोकॉल का उपयोग क्या सुनिश्चित करने के लिए किया जाता है?",
+          "options": {
+            "A": "ड्यूरेबिलिटी",
+            "B": "एटोमीसिटी",
+            "C": "सीरियलाइजेबिलिटी",
+            "D": "एवेलेबिलिटी"
+          },
+          "explanation": "2PL एक कॉन्करेंसी कंट्रोल विधि है जो शेड्यूल की सीरियलाइजेबिलिटी की गारंटी देती है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-027",
+      "number": 27,
+      "question": "Which SQL function is used to find the number of records in a table?",
+      "options": {
+        "A": "SUM()",
+        "B": "TOTAL()",
+        "C": "COUNT()",
+        "D": "NUMBER()"
+      },
+      "answer": "C",
+      "explanation": "COUNT() returns the number of rows that matches a specified criterion.",
+      "hash": "f70b0fd75d89154c",
+      "translations": {
+        "hi": {
+          "question": "टेबल में रिकॉर्ड की संख्या जानने के लिए किस SQL फ़ंक्शन का उपयोग किया जाता है?",
+          "options": {
+            "A": "SUM()",
+            "B": "TOTAL()",
+            "C": "COUNT()",
+            "D": "NUMBER()"
+          },
+          "explanation": "COUNT() उन पंक्तियों की संख्या लौटाता है जो एक निर्दिष्ट मानदंड से मेल खाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-028",
+      "number": 28,
+      "question": "Deadlock detection and recovery is a task of:",
+      "options": {
+        "A": "Query Processor",
+        "B": "Transaction Manager",
+        "C": "Database Administrator",
+        "D": "Storage Manager"
+      },
+      "answer": "B",
+      "explanation": "The Transaction Manager handles transaction states and ensures recovery from failures or deadlocks.",
+      "hash": "11a0e003e6c716d2",
+      "translations": {
+        "hi": {
+          "question": "डेडलॉक डिटेक्शन और रिकवरी किसका कार्य है?",
+          "options": {
+            "A": "क्वेरी प्रोसेसर",
+            "B": "ट्रांजैक्शन मैनेजर",
+            "C": "डेटाबेस एडमिनिस्ट्रेटर",
+            "D": "स्टोरेज मैनेजर"
+          },
+          "explanation": "ट्रांजैक्शन मैनेजर ट्रांजैक्शन स्थितियों को संभालता है और विफलताओं या डेडलॉक से रिकवरी सुनिश्चित करता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-029",
+      "number": 29,
+      "question": "Which type of join returns all records when there is a match in either left or right table?",
+      "options": {
+        "A": "INNER JOIN",
+        "B": "LEFT JOIN",
+        "C": "FULL OUTER JOIN",
+        "D": "CROSS JOIN"
+      },
+      "answer": "C",
+      "explanation": "FULL OUTER JOIN combines the results of both Left and Right joins.",
+      "hash": "2b115b6dcd65814d",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का जॉइन तब सभी रिकॉर्ड लौटाता है जब बाएं या दाएं किसी भी टेबल में मैच होता है?",
+          "options": {
+            "A": "इनर जॉइन",
+            "B": "लेफ्ट जॉइन",
+            "C": "फुल आउटर जॉइन",
+            "D": "क्रॉस जॉइन"
+          },
+          "explanation": "FULL OUTER JOIN लेफ्ट और राइट दोनों जॉइन के परिणामों को जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "dbms-01-030",
+      "number": 30,
+      "question": "A functional dependency X -> Y is trivial if:",
+      "options": {
+        "A": "Y is a subset of X",
+        "B": "X is a subset of Y",
+        "C": "X and Y are disjoint",
+        "D": "X is a primary key"
+      },
+      "answer": "A",
+      "explanation": "A dependency is trivial if the right-hand side is a subset of the left-hand side.",
+      "hash": "658cb9d00700a572",
+      "translations": {
+        "hi": {
+          "question": "एक फंक्शनल डिपेंडेंसी X -> Y ट्रिवियल (तुच्छ) है यदि:",
+          "options": {
+            "A": "Y, X का सबसेट है",
+            "B": "X, Y का सबसेट है",
+            "C": "X और Y डिसजॉइंट हैं",
+            "D": "X प्राइमरी की है"
+          },
+          "explanation": "एक डिपेंडेंसी ट्रिवियल होती है यदि दाहिना पक्ष बाएं पक्ष का सबसेट हो।"
+        }
+      }
+    }
+  ]
+}

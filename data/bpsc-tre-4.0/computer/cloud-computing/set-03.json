@@ -1,0 +1,785 @@
+{
+  "subject": "Cloud Computing",
+  "set": 3,
+  "title": "Cloud Computing Mock Test 3",
+  "questions": [
+    {
+      "id": "cloud-computing-03-001",
+      "number": 1,
+      "question": "Which cloud computing feature allows for the automatic distribution of incoming application traffic across multiple targets?",
+      "options": {
+        "A": "Auto-scaling",
+        "B": "Elastic Load Balancing",
+        "C": "Content Delivery",
+        "D": "Virtual Private Cloud"
+      },
+      "answer": "B",
+      "explanation": "Load balancing ensures high availability by distributing traffic so no single server is overloaded.",
+      "hash": "0abedc9a84309db4",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग की कौन सी विशेषता आने वाले एप्लिकेशन ट्रैफ़िक को कई लक्ष्यों (targets) में स्वचालित रूप से वितरित करने की अनुमति देती है?",
+          "options": {
+            "A": "ऑटो-स्केलिंग",
+            "B": "इलास्टिक लोड बैलेंसिंग",
+            "C": "कंटेंट डिलीवरी",
+            "D": "वर्चुअल प्राइवेट क्लाउड"
+          },
+          "explanation": "लोड बैलेंसिंग ट्रैफ़िक को वितरित करके उच्च उपलब्धता सुनिश्चित करता है ताकि कोई भी एकल सर्वर ओवरलोड न हो।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-002",
+      "number": 2,
+      "question": "Which concept allows for running a virtual machine on top of another virtual machine?",
+      "options": {
+        "A": "Full Virtualization",
+        "B": "Para-virtualization",
+        "C": "Nested Virtualization",
+        "D": "Hardware Emulation"
+      },
+      "answer": "C",
+      "explanation": "Nested virtualization is a feature where you can run a hypervisor inside of a virtualized virtual machine.",
+      "hash": "0f9952e93f5c2bfc",
+      "translations": {
+        "hi": {
+          "question": "कौन सी अवधारणा एक वर्चुअल मशीन के ऊपर दूसरी वर्चुअल मशीन चलाने की अनुमति देती है?",
+          "options": {
+            "A": "फुल वर्चुअलाइजेशन",
+            "B": "पैरा-वर्चुअलाइजेशन",
+            "C": "नेस्टेड वर्चुअलाइजेशन",
+            "D": "हार्डवेयर इम्यूलेशन"
+          },
+          "explanation": "नेस्टेड वर्चुअलाइजेशन एक ऐसी विशेषता है जहां आप वर्चुअलाइज्ड वर्चुअल मशीन के अंदर हाइपरवाइजर चला सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-003",
+      "number": 3,
+      "question": "In Cloud Computing, what does \"Cold Storage\" refer to?",
+      "options": {
+        "A": "RAM storage",
+        "B": "High-performance SSD storage",
+        "C": "Storage for data that is infrequently accessed and requires long-term retention",
+        "D": "Temporary cache storage"
+      },
+      "answer": "C",
+      "explanation": "Cold storage is a low-cost option for archiving data that doesn't need to be retrieved quickly.",
+      "hash": "fa63f430aa881343",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में, \"कोल्ड स्टोरेज\" (Cold Storage) किसे संदर्भित करता है?",
+          "options": {
+            "A": "रैम स्टोरेज",
+            "B": "उच्च-प्रदर्शन SSD स्टोरेज",
+            "C": "उस डेटा के लिए स्टोरेज जिसे कम बार एक्सेस किया जाता है और जिसे लंबे समय तक रखने की आवश्यकता होती है",
+            "D": "अस्थायी कैश स्टोरेज"
+          },
+          "explanation": "कोल्ड स्टोरेज उन डेटा को आर्काइव करने के लिए एक कम लागत वाला विकल्प है जिसे जल्दी से पुनर्प्राप्त करने की आवश्यकता नहीं होती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-004",
+      "number": 4,
+      "question": "What is the primary function of a Cloud Access Security Broker (CASB)?",
+      "options": {
+        "A": "To increase storage speed",
+        "B": "To provide a security policy enforcement point between users and cloud services",
+        "C": "To manage cloud billing",
+        "D": "To create virtual machines"
+      },
+      "answer": "B",
+      "explanation": "CASB acts as a gatekeeper, ensuring that communication between on-premises and cloud follows security policies.",
+      "hash": "5621bd98ce1d1545",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड एक्सेस सिक्योरिटी ब्रोकर (CASB) का प्राथमिक कार्य क्या है?",
+          "options": {
+            "A": "स्टोरेज की गति बढ़ाने के लिए",
+            "B": "उपयोगकर्ताओं और क्लाउड सेवाओं के बीच सुरक्षा नीति प्रवर्तन बिंदु प्रदान करने के लिए",
+            "C": "क्लाउड बिलिंग प्रबंधित करने के लिए",
+            "D": "वर्चुअल मशीन बनाने के लिए"
+          },
+          "explanation": "CASB एक द्वारपाल के रूप में कार्य करता है, यह सुनिश्चित करता है कि ऑन-प्रिमाइसेस और क्लाउड के बीच संचार सुरक्षा नीतियों का पालन करे।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-005",
+      "number": 5,
+      "question": "What is \"Serverless Computing\" primarily focused on?",
+      "options": {
+        "A": "Eliminating servers physically",
+        "B": "Moving responsibility of server management to the cloud provider",
+        "C": "Using servers without internet",
+        "D": "Building hardware at home"
+      },
+      "answer": "B",
+      "explanation": "In serverless, developers don't have to manage infrastructure; the provider automatically handles scaling and execution.",
+      "hash": "4b7dcfa67b84a423",
+      "translations": {
+        "hi": {
+          "question": "\"सर्वरलेस कंप्यूटिंग\" मुख्य रूप से किस पर केंद्रित है?",
+          "options": {
+            "A": "सर्वरों को भौतिक रूप से समाप्त करना",
+            "B": "सर्वर प्रबंधन की जिम्मेदारी क्लाउड प्रदाता को सौंपना",
+            "C": "बिना इंटरनेट के सर्वर का उपयोग करना",
+            "D": "घर पर हार्डवेयर बनाना"
+          },
+          "explanation": "सर्वरलेस में, डेवलपर्स को इंफ्रास्ट्रक्चर प्रबंधित करने की आवश्यकता नहीं होती है; प्रदाता स्वचालित रूप से स्केलिंग और निष्पादन को संभालता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-006",
+      "number": 6,
+      "question": "Which protocol is commonly used for secure communication between a client and a cloud-based web application?",
+      "options": {
+        "A": "HTTP",
+        "B": "HTTPS",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "HTTPS uses TLS/SSL to encrypt data transmitted over the network for security.",
+      "hash": "e35132e43a687468",
+      "translations": {
+        "hi": {
+          "question": "क्लाइंट और क्लाउड-आधारित वेब एप्लिकेशन के बीच सुरक्षित संचार के लिए आमतौर पर किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एचटीटीपी",
+            "B": "एचटीटीपीएस",
+            "C": "एफटीपी",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "सुरक्षा के लिए नेटवर्क पर प्रसारित डेटा को एन्क्रिप्ट करने के लिए HTTPS TLS/SSL का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-007",
+      "number": 7,
+      "question": "What is the \"Egress\" cost in cloud billing?",
+      "options": {
+        "A": "Cost for uploading data to the cloud",
+        "B": "Cost for data leaving the cloud network to the internet",
+        "C": "Cost for storing data",
+        "D": "Cost for creating an account"
+      },
+      "answer": "B",
+      "explanation": "Most cloud providers charge for data transferred out (Egress) of their network, while Ingress is often free.",
+      "hash": "60137b83e5c98a08",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड बिलिंग में \"इग्रेस\" (Egress) लागत क्या है?",
+          "options": {
+            "A": "क्लाउड पर डेटा अपलोड करने की लागत",
+            "B": "क्लाउड नेटवर्क से इंटरनेट पर जाने वाले डेटा की लागत",
+            "C": "डेटा स्टोर करने की लागत",
+            "D": "खाता बनाने की लागत"
+          },
+          "explanation": "अधिकांश क्लाउड प्रदाता अपने नेटवर्क से बाहर स्थानांतरित डेटा (Egress) के लिए शुल्क लेते हैं, जबकि Ingress अक्सर मुफ्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-008",
+      "number": 8,
+      "question": "What is a \"Region\" in cloud infrastructure?",
+      "options": {
+        "A": "A single server rack",
+        "B": "A specific office building",
+        "C": "A geographic area containing multiple Availability Zones",
+        "D": "A type of software license"
+      },
+      "answer": "C",
+      "explanation": "A Region is a physical location in the world where multiple data centers (Availability Zones) are grouped.",
+      "hash": "3aa515b80ab07e87",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड इंफ्रास्ट्रक्चर में \"रीजन\" (Region) क्या है?",
+          "options": {
+            "A": "एक एकल सर्वर रैक",
+            "B": "एक विशिष्ट कार्यालय भवन",
+            "C": "एक भौगोलिक क्षेत्र जिसमें कई उपलब्धता क्षेत्र (Availability Zones) होते हैं",
+            "D": "एक प्रकार का सॉफ्टवेयर लाइसेंस"
+          },
+          "explanation": "रीजन दुनिया में एक भौतिक स्थान है जहां कई डेटा सेंटर (उपलब्धता क्षेत्र) समूहीकृत होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-009",
+      "number": 9,
+      "question": "Which model describes a software distribution where applications are hosted by a vendor and made available over a network?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "SaaS",
+        "D": "HaaS"
+      },
+      "answer": "C",
+      "explanation": "SaaS provides ready-to-use software applications to users via a web browser.",
+      "hash": "110b3ddcbc2c8768",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मॉडल एक सॉफ्टवेयर वितरण का वर्णन करता है जहां एप्लिकेशन एक विक्रेता द्वारा होस्ट किए जाते हैं और नेटवर्क पर उपलब्ध कराए जाते हैं?",
+          "options": {
+            "A": "आईआस",
+            "B": "पास",
+            "C": "सास",
+            "D": "हास"
+          },
+          "explanation": "SaaS वेब ब्राउज़र के माध्यम से उपयोगकर्ताओं को उपयोग के लिए तैयार सॉफ्टवेयर एप्लिकेशन प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-010",
+      "number": 10,
+      "question": "Which cloud service is used to manage and secure \"Identities\" and access rights?",
+      "options": {
+        "A": "IAM",
+        "B": "CDN",
+        "C": "VPN",
+        "D": "DNS"
+      },
+      "answer": "A",
+      "explanation": "IAM (Identity and Access Management) ensures the right people have access to the right resources.",
+      "hash": "25d452492ffc0e60",
+      "translations": {
+        "hi": {
+          "question": "\"पहचान\" (Identities) और पहुंच अधिकारों को प्रबंधित और सुरक्षित करने के लिए किस क्लाउड सेवा का उपयोग किया जाता है?",
+          "options": {
+            "A": "आईएएम (IAM)",
+            "B": "सीडीएन",
+            "C": "वीपीएन",
+            "D": "डीएनएस"
+          },
+          "explanation": "IAM (पहचान और पहुंच प्रबंधन) यह सुनिश्चित करता है कि सही लोगों के पास सही संसाधनों तक पहुंच हो।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-011",
+      "number": 11,
+      "question": "Which cloud characteristic allows a provider to track resource usage for each tenant?",
+      "options": {
+        "A": "Rapid Elasticity",
+        "B": "Measured Service",
+        "C": "Broad Network Access",
+        "D": "On-demand self-service"
+      },
+      "answer": "B",
+      "explanation": "Measured service enables \"pay-as-you-go\" billing by monitoring resource consumption.",
+      "hash": "3be4b15a5436305e",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड विशेषता एक प्रदाता को प्रत्येक टेनेंट के लिए संसाधन उपयोग को ट्रैक करने की अनुमति देती है?",
+          "options": {
+            "A": "रैपिड इलास्टिसिटी",
+            "B": "मेजर्ड सर्विस",
+            "C": "ब्रॉड नेटवर्क एक्सेस",
+            "D": "ऑन-डिमांड सेल्फ-सर्विस"
+          },
+          "explanation": "मेजर्ड सर्विस संसाधन खपत की निगरानी करके \"पे-एज़-यू-गो\" बिलिंग को सक्षम बनाती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-012",
+      "number": 12,
+      "question": "What is \"Snapshot\" commonly used for in cloud computing?",
+      "options": {
+        "A": "To capture a photo of the user",
+        "B": "To provide a point-in-time backup of a disk or volume",
+        "C": "To increase the network bandwidth",
+        "D": "To shut down all servers"
+      },
+      "answer": "B",
+      "explanation": "Snapshots help in data recovery by saving the state of a virtual drive at a particular moment.",
+      "hash": "d852be3e8c5aa6fd",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"स्नैपशॉट\" का उपयोग आमतौर पर किसके लिए किया जाता है?",
+          "options": {
+            "A": "उपयोगकर्ता की फोटो खींचने के लिए",
+            "B": "डिस्क या वॉल्यूम का पॉइंट-इन-टाइम बैकअप प्रदान करने के लिए",
+            "C": "नेटवर्क बैंडविड्थ बढ़ाने के लिए",
+            "D": "सभी सर्वरों को बंद करने के लिए"
+          },
+          "explanation": "स्नैपशॉट एक विशेष क्षण में वर्चुअल ड्राइव की स्थिति को सहेजकर डेटा रिकवरी में मदद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-013",
+      "number": 13,
+      "question": "What is \"Resource Pooling\" in cloud computing?",
+      "options": {
+        "A": "Deleting unused resources ) Providers serving multiple consumers using a multi-tenant model with physical and virtual resources | प्रदाता भौतिक और वर्चुअल संसाधनों के साथ मल्टी-टेनेंट मॉडल का उपयोग करके कई उपभोक्ताओं की सेवा करते हैं",
+        "B": "Saving water in data centers",
+        "C": "Using a single server for a single user"
+      },
+      "answer": "B",
+      "explanation": "Resource pooling allows resources to be dynamically assigned according to consumer demand.",
+      "hash": "a5581a6298a1a7e1",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"रिसोर्स पूलिंग\" क्या है?",
+          "options": {
+            "A": "अप्रयुक्त संसाधनों को हटाना",
+            "B": "डेटा सेंटरों में पानी बचाना",
+            "C": "एक उपयोगकर्ता के लिए एक एकल सर्वर का उपयोग करना"
+          },
+          "explanation": "रिसोर्स पूलिंग संसाधनों को उपभोक्ता की मांग के अनुसार गतिशील रूप से सौंपने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-014",
+      "number": 14,
+      "question": "Which of the following is an example of an open-source cloud computing platform?",
+      "options": {
+        "A": "AWS",
+        "B": "Microsoft Azure",
+        "C": "OpenStack",
+        "D": "Google Cloud"
+      },
+      "answer": "C",
+      "explanation": "OpenStack is a free open-source software platform for cloud computing, mostly deployed as IaaS.",
+      "hash": "7ac026fe2ccf7e0e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक ओपन-सोर्स क्लाउड कंप्यूटिंग प्लेटफॉर्म का उदाहरण है?",
+          "options": {
+            "A": "एडब्ल्यूएस",
+            "B": "माइक्रोसॉफ्ट एज़्योर",
+            "C": "ओपनस्टैक",
+            "D": "गूगल क्लाउड"
+          },
+          "explanation": "ओपनस्टैक क्लाउड कंप्यूटिंग के लिए एक मुफ्त ओपन-सोर्स सॉफ्टवेयर प्लेटफॉर्म है, जो ज्यादातर IaaS के रूप में तैनात किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-015",
+      "number": 15,
+      "question": "What is \"Cloud Federation\"?",
+      "options": {
+        "A": "Merging two cloud companies",
+        "B": "The practice of interconnecting multiple cloud environments to share resources",
+        "C": "A government body for cloud",
+        "D": "Deleting cloud accounts"
+      },
+      "answer": "B",
+      "explanation": "Federation allows different cloud providers to collaborate and provide a unified service.",
+      "hash": "db2b5424f84201d7",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड फेडरेशन\" (Cloud Federation) क्या है?",
+          "options": {
+            "A": "दो क्लाउड कंपनियों का विलय",
+            "B": "संसाधनों को साझा करने के लिए कई क्लाउड वातावरणों को आपस में जोड़ने का अभ्यास",
+            "C": "क्लाउड के लिए एक सरकारी निकाय",
+            "D": "क्लाउड खाते हटाना"
+          },
+          "explanation": "फेडरेशन विभिन्न क्लाउड प्रदाताओं को सहयोग करने और एक एकीकृत सेवा प्रदान करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-016",
+      "number": 16,
+      "question": "In a \"Private Cloud\", who owns and manages the infrastructure?",
+      "options": {
+        "A": "The general public",
+        "B": "Multiple unrelated companies",
+        "C": "A single organization for its exclusive use",
+        "D": "The local government only"
+      },
+      "answer": "C",
+      "explanation": "Private clouds are dedicated to a single organization and are not shared with others.",
+      "hash": "31ef18ce0f262b45",
+      "translations": {
+        "hi": {
+          "question": "\"प्राइवेट क्लाउड\" में, इंफ्रास्ट्रक्चर का स्वामित्व और प्रबंधन कौन करता है?",
+          "options": {
+            "A": "आम जनता",
+            "B": "कई असंबंधित कंपनियां",
+            "C": "एक एकल संगठन अपने विशेष उपयोग के लिए",
+            "D": "केवल स्थानीय सरकार"
+          },
+          "explanation": "प्राइवेट क्लाउड एक ही संगठन के लिए समर्पित होते हैं और दूसरों के साथ साझा नहीं किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-017",
+      "number": 17,
+      "question": "What does \"Availability Zone\" (AZ) represent?",
+      "options": {
+        "A": "A country",
+        "B": "One or more discrete data centers with redundant power and networking",
+        "C": "A type of firewall",
+        "D": "A cloud user group"
+      },
+      "answer": "B",
+      "explanation": "AZs are physically isolated data centers within a region to ensure fault tolerance.",
+      "hash": "fd57933aea2440c9",
+      "translations": {
+        "hi": {
+          "question": "\"उपलब्धता क्षेत्र\" (AZ) क्या दर्शाता है?",
+          "options": {
+            "A": "एक देश",
+            "B": "शानदार बिजली और नेटवर्किंग के साथ एक या अधिक अलग डेटा सेंटर",
+            "C": "एक प्रकार का फ़ायरवॉल",
+            "D": "एक क्लाउड उपयोगकर्ता समूह"
+          },
+          "explanation": "AZs एक रीजन के भीतर भौतिक रूप से अलग डेटा सेंटर हैं ताकि फॉल्ट टॉलरेंस सुनिश्चित किया जा सके।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-018",
+      "number": 18,
+      "question": "What is the main benefit of \"Agility\" in cloud computing?",
+      "options": {
+        "A": "Slower response time",
+        "B": "The ability to rapidly develop, test and launch software applications",
+        "C": "Fixed hardware costs",
+        "D": "No security needed"
+      },
+      "answer": "B",
+      "explanation": "Cloud agility allows businesses to innovate faster by reducing the time to provision resources.",
+      "hash": "dc7ea629931a1927",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड कंप्यूटिंग में \"एजिलिटी\" (Agility) का मुख्य लाभ क्या है?",
+          "options": {
+            "A": "धीमी प्रतिक्रिया समय",
+            "B": "सॉफ्टवेयर अनुप्रयोगों को तेजी से विकसित करने, परीक्षण करने और लॉन्च करने की क्षमता",
+            "C": "निश्चित हार्डवेयर लागत",
+            "D": "किसी सुरक्षा की आवश्यकता नहीं"
+          },
+          "explanation": "क्लाउड एजिलिटी व्यवसायों को संसाधनों के प्रोविजनिंग समय को कम करके तेजी से नवाचार करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-019",
+      "number": 19,
+      "question": "Which service model is most appropriate for building a custom application without worrying about the server or OS?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "SaaS",
+        "D": "DBaaS"
+      },
+      "answer": "B",
+      "explanation": "PaaS provides the platform (runtime, libraries, tools) needed for application development.",
+      "hash": "e8fbedfefb96bd77",
+      "translations": {
+        "hi": {
+          "question": "सर्वर या ओएस की चिंता किए बिना कस्टम एप्लिकेशन बनाने के लिए कौन सा सेवा मॉडल सबसे उपयुक्त है?",
+          "options": {
+            "A": "आईआस",
+            "B": "पास",
+            "C": "सास",
+            "D": "डीबीआस"
+          },
+          "explanation": "PaaS एप्लिकेशन विकास के लिए आवश्यक प्लेटफॉर्म (रनटाइम, लाइब्रेरी, टूल्स) प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-020",
+      "number": 20,
+      "question": "Which technology allows multiple operating systems to run on a single physical host simultaneously?",
+      "options": {
+        "A": "Hard Drive",
+        "B": "Hypervisor",
+        "C": "RAM",
+        "D": "CPU Cache"
+      },
+      "answer": "B",
+      "explanation": "Hypervisors manage the physical resources and allocate them to different virtual machines.",
+      "hash": "a1de2e4b327f490f",
+      "translations": {
+        "hi": {
+          "question": "कौन सी तकनीक एक ही भौतिक होस्ट पर एक साथ कई ऑपरेटिंग सिस्टम चलाने की अनुमति देती है?",
+          "options": {
+            "A": "हार्ड ड्राइव",
+            "B": "हाइपरवाइजर",
+            "C": "रैम",
+            "D": "सीपीयू कैश"
+          },
+          "explanation": "हाइपरवाइजर भौतिक संसाधनों का प्रबंधन करते हैं और उन्हें विभिन्न वर्चुअल मशीनों को आवंटित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-021",
+      "number": 21,
+      "question": "What is \"Cloud Governance\"?",
+      "options": {
+        "A": "Government rules for cloud",
+        "B": "A framework for managing and controlling cloud resources and costs",
+        "C": "A cloud provider's office",
+        "D": "Deleting cloud data"
+      },
+      "answer": "B",
+      "explanation": "Governance ensures that cloud usage aligns with business goals and compliance requirements.",
+      "hash": "d88f8f79ad7bfac3",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड गवर्नेंस\" (Cloud Governance) क्या है?",
+          "options": {
+            "A": "क्लाउड के लिए सरकारी नियम",
+            "B": "क्लाउड संसाधनों और लागतों के प्रबंधन और नियंत्रण के लिए एक ढांचा",
+            "C": "एक क्लाउड प्रदाता का कार्यालय",
+            "D": "क्लाउड डेटा हटाना"
+          },
+          "explanation": "गवर्नेंस यह सुनिश्चित करता है कि क्लाउड उपयोग व्यावसायिक लक्ष्यों और अनुपालन आवश्यकताओं के अनुरूप हो।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-022",
+      "number": 22,
+      "question": "What is a \"Managed Service\" in cloud terms?",
+      "options": {
+        "A": "Service managed by the user",
+        "B": "Service where the cloud provider manages the maintenance and operations",
+        "C": "Service with no cost",
+        "D": "Offline service"
+      },
+      "answer": "B",
+      "explanation": "In managed services (like RDS or Managed Kubernetes), the provider handles patching and updates.",
+      "hash": "7be62f449bef676b",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड शब्दों में \"मैनेज्ड सर्विस\" (Managed Service) क्या है?",
+          "options": {
+            "A": "उपयोगकर्ता द्वारा प्रबंधित सेवा",
+            "B": "वह सेवा जहां क्लाउड प्रदाता रखरखाव और संचालन का प्रबंधन करता है",
+            "C": "बिना किसी लागत वाली सेवा",
+            "D": "ऑफलाइन सेवा"
+          },
+          "explanation": "मैनेज्ड सेवाओं (जैसे RDS या मैनेज्ड कुबेरनेट्स) में, प्रदाता पैचिंग और अपडेट को संभालता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-023",
+      "number": 23,
+      "question": "Which cloud concept relates to \"Disaster Recovery\"?",
+      "options": {
+        "A": "Deleting backups",
+        "B": "The process of restoring data and systems after a failure",
+        "C": "Creating viruses",
+        "D": "Buying new hardware"
+      },
+      "answer": "B",
+      "explanation": "Cloud's global infrastructure makes it an ideal place for storing backups and failover systems.",
+      "hash": "e461b6c66a41738f",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा \"डिजास्टर रिकवरी\" से संबंधित है?",
+          "options": {
+            "A": "बैकअप हटाना",
+            "B": "विफलता के बाद डेटा और सिस्टम को बहाल करने की प्रक्रिया",
+            "C": "वायरस बनाना",
+            "D": "नया हार्डवेयर खरीदना"
+          },
+          "explanation": "क्लाउड का वैश्विक इंफ्रास्ट्रक्चर इसे बैकअप और फेलओवर सिस्टम के भंडारण के लिए एक आदर्श स्थान बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-024",
+      "number": 24,
+      "question": "Which type of cloud is built exclusively for a specific industry, such as healthcare or finance?",
+      "options": {
+        "A": "Public Cloud",
+        "B": "Vertical Cloud",
+        "C": "General Cloud",
+        "D": "Local Cloud"
+      },
+      "answer": "B",
+      "explanation": "Vertical clouds are tailored to meet the specific regulatory and technical needs of a particular industry.",
+      "hash": "0f86fc341612adbf",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का क्लाउड विशेष रूप से स्वास्थ्य सेवा या वित्त जैसे विशिष्ट उद्योग के लिए बनाया गया है?",
+          "options": {
+            "A": "पब्लिक क्लाउड",
+            "B": "वर्टिकल क्लाउड (Vertical Cloud)",
+            "C": "जनरल क्लाउड",
+            "D": "लोकल क्लाउड"
+          },
+          "explanation": "वर्टिकल क्लाउड को किसी विशेष उद्योग की विशिष्ट नियामक और तकनीकी आवश्यकताओं को पूरा करने के लिए तैयार किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-025",
+      "number": 25,
+      "question": "What is the purpose of \"Cloud Migration\"?",
+      "options": {
+        "A": "To move from one city to another",
+        "B": "To move digital assets from on-premises to the cloud",
+        "C": "To shut down the internet",
+        "D": "To increase the price of software"
+      },
+      "answer": "B",
+      "explanation": "Migration involves moving apps, data, and IT processes into a cloud environment.",
+      "hash": "40c68c00f22b6fb5",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड माइग्रेशन\" का उद्देश्य क्या है?",
+          "options": {
+            "A": "एक शहर से दूसरे शहर जाने के लिए",
+            "B": "डिजिटल संपत्तियों को ऑन-प्रिमाइसेस से क्लाउड में ले जाने के लिए",
+            "C": "इंटरनेट बंद करने के लिए",
+            "D": "सॉफ्टवेयर की कीमत बढ़ाने के लिए"
+          },
+          "explanation": "माइग्रेशन में ऐप्स, डेटा और आईटी प्रक्रियाओं को क्लाउड वातावरण में ले जाना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-026",
+      "number": 26,
+      "question": "What is \"Serverless\" often referred to as in technical terms?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "BaaS or FaaS",
+        "D": "Hardware only"
+      },
+      "answer": "C",
+      "explanation": "Serverless typically covers Backend-as-a-Service and Function-as-a-Service.",
+      "hash": "6e9ef34293adc06f",
+      "translations": {
+        "hi": {
+          "question": "तकनीकी शब्दों में \"सर्वरलेस\" को अक्सर क्या कहा जाता है?",
+          "options": {
+            "A": "आईआस",
+            "B": "पास",
+            "C": "बास (BaaS) या फास (FaaS)",
+            "D": "केवल हार्डवेयर"
+          },
+          "explanation": "सर्वरलेस आमतौर पर बैकएंड-ए-ए-सर्विस और फंक्शन-ए-ए-सर्विस को कवर करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-027",
+      "number": 27,
+      "question": "Which cloud service is used to distribute static and dynamic content globally?",
+      "options": {
+        "A": "VPC",
+        "B": "CDN",
+        "C": "IAM",
+        "D": "RDS"
+      },
+      "answer": "B",
+      "explanation": "CDN (Content Delivery Network) uses edge locations to serve content faster to users worldwide.",
+      "hash": "2c39146583b950f8",
+      "translations": {
+        "hi": {
+          "question": "वैश्विक स्तर पर स्थिर और गतिशील सामग्री वितरित करने के लिए किस क्लाउड सेवा का उपयोग किया जाता है?",
+          "options": {
+            "A": "वीपीसी",
+            "B": "सीडीएन (CDN)",
+            "C": "आईएएम",
+            "D": "आरडीएस"
+          },
+          "explanation": "CDN (कंटेंट डिलीवरी नेटवर्क) दुनिया भर के उपयोगकर्ताओं को तेजी से सामग्री परोसने के लिए एज लोकेशन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-028",
+      "number": 28,
+      "question": "What is \"Over-provisioning\" in cloud contexts?",
+      "options": {
+        "A": "Not buying enough servers",
+        "B": "Assigning more resources than are actually needed",
+        "C": "Deleting important data",
+        "D": "Using the cheapest cloud"
+      },
+      "answer": "B",
+      "explanation": "Over-provisioning leads to wasted costs; cloud computing aims to solve this through elasticity.",
+      "hash": "7d148d312b96cb51",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड संदर्भों में \"ओवर-प्रोविजनिंग\" क्या है?",
+          "options": {
+            "A": "पर्याप्त सर्वर नहीं खरीदना",
+            "B": "वास्तव में आवश्यकता से अधिक संसाधन आवंटित करना",
+            "C": "महत्वपूर्ण डेटा हटाना",
+            "D": "सबसे सस्ते क्लाउड का उपयोग करना"
+          },
+          "explanation": "ओवर-प्रोविजनिंग से लागत बर्बाद होती है; क्लाउड कंप्यूटिंग का लक्ष्य इलास्टिसिटी के माध्यम से इसे हल करना है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-029",
+      "number": 29,
+      "question": "What is the primary benefit of using \"API Gateway\" in cloud architecture?",
+      "options": {
+        "A": "To manage and secure API calls",
+        "B": "To increase physical server weight",
+        "C": "To replace the database",
+        "D": "To browse the web"
+      },
+      "answer": "A",
+      "explanation": "API Gateway acts as a single entry point for defined APIs, handling security and throttling.",
+      "hash": "d069ca322c114bf0",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड आर्किटेक्चर में \"एपीआई गेटवे\" का उपयोग करने का प्राथमिक लाभ क्या है?",
+          "options": {
+            "A": "एपीआई कॉल को प्रबंधित और सुरक्षित करने के लिए",
+            "B": "भौतिक सर्वर का वजन बढ़ाने के लिए",
+            "C": "डेटाबेस को बदलने के लिए",
+            "D": "वेब ब्राउज़ करने के लिए"
+          },
+          "explanation": "एपीआई गेटवे परिभाषित एपीआई के लिए एक एकल प्रवेश बिंदु के रूप में कार्य करता है, जो सुरक्षा और थ्रॉटलिंग को संभालता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-03-030",
+      "number": 30,
+      "question": "Which cloud concept describes the ability to serve multiple customers from one software instance?",
+      "options": {
+        "A": "Single-tenancy",
+        "B": "Multi-tenancy",
+        "C": "Multi-cloud",
+        "D": "Hybrid cloud"
+      },
+      "answer": "B",
+      "explanation": "Multi-tenancy is a core SaaS concept where one application serves multiple users while keeping data separate.",
+      "hash": "abaff0f3403d4eb6",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा एक सॉफ्टवेयर इंस्टेंस से कई ग्राहकों की सेवा करने की क्षमता का वर्णन करती है?",
+          "options": {
+            "A": "सिंगल-टेनेंसी",
+            "B": "मल्टी-टेनेंसी",
+            "C": "मल्टी-क्लाउड",
+            "D": "हाइब्रिड क्लाउड"
+          },
+          "explanation": "मल्टी-टेनेंसी एक मुख्य SaaS अवधारणा है जहां एक एप्लिकेशन डेटा को अलग रखते हुए कई उपयोगकर्ताओं की सेवा करता है।"
+        }
+      }
+    }
+  ]
+}

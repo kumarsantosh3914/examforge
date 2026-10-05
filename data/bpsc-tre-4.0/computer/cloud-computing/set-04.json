@@ -1,0 +1,787 @@
+{
+  "subject": "Cloud Computing",
+  "set": 4,
+  "title": "Cloud Computing Mock Test 4",
+  "questions": [
+    {
+      "id": "cloud-computing-04-001",
+      "number": 1,
+      "question": "Which cloud storage type is most similar to a local hard drive connected to a server?",
+      "options": {
+        "A": "Object Storage",
+        "B": "Block Storage",
+        "C": "Cold Storage",
+        "D": "Archive Storage"
+      },
+      "answer": "B",
+      "explanation": "Block storage (like AWS EBS) provides raw storage volumes that can be formatted and used like a hard drive.",
+      "hash": "ef52aa5c0b9ffb63",
+      "translations": {
+        "hi": {
+          "question": "कौन सा क्लाउड स्टोरेज प्रकार सर्वर से जुड़े स्थानीय हार्ड ड्राइव के सबसे समान है?",
+          "options": {
+            "A": "ऑब्जेक्ट स्टोरेज",
+            "B": "ब्लॉक स्टोरेज",
+            "C": "कोल्ड स्टोरेज",
+            "D": "आर्काइव स्टोरेज"
+          },
+          "explanation": "ब्लॉक स्टोरेज (जैसे AWS EBS) रॉ स्टोरेज वॉल्यूम प्रदान करता है जिसे हार्ड ड्राइव की तरह फॉर्मेट और उपयोग किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-002",
+      "number": 2,
+      "question": "What is the main difference between Type-1 and Type-2 Hypervisors?",
+      "options": {
+        "A": "Type-1 runs on OS, Type-2 runs on hardware",
+        "B": "Type-1 runs directly on hardware, Type-2 runs on an OS",
+        "C": "Type-1 is for storage, Type-2 is for networking",
+        "D": "There is no difference"
+      },
+      "answer": "B",
+      "explanation": "Type-1 (Bare Metal) hypervisors sit directly on the hardware, while Type-2 (Hosted) require a host OS.",
+      "hash": "022b45115613b5b0",
+      "translations": {
+        "hi": {
+          "question": "टाइप-1 और टाइप-2 हाइपरवाइजर के बीच मुख्य अंतर क्या है?",
+          "options": {
+            "A": "टाइप-1 ओएस पर चलता है, टाइप-2 हार्डवेयर पर",
+            "B": "टाइप-1 सीधे हार्डवेयर पर चलता है, टाइप-2 एक ओएस पर चलता है",
+            "C": "टाइप-1 स्टोरेज के लिए है, टाइप-2 नेटवर्किंग के लिए",
+            "D": "कोई अंतर नहीं है"
+          },
+          "explanation": "टाइप-1 (बेयर मेटल) हाइपरवाइजर सीधे हार्डवेयर पर बैठते हैं, जबकि टाइप-2 (होस्टेड) को एक होस्ट ओएस की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-003",
+      "number": 3,
+      "question": "What does \"MTBF\" stand for in cloud reliability metrics?",
+      "options": {
+        "A": "Mean Time Between Failures",
+        "B": "Maximum Time Before Failure",
+        "C": "Managed Technical Backup Files",
+        "D": "Multi-Tenant Business Framework"
+      },
+      "answer": "A",
+      "explanation": "MTBF is a measure of the predicted elapsed time between inherent failures of a system during operation.",
+      "hash": "7c4883393edcd369",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड रिलायबिलिटी मेट्रिक्स में \"MTBF\" का क्या अर्थ है?",
+          "options": {
+            "A": "मीन टाइम बिटवीन फेल्योर्स",
+            "B": "मैक्सिमम टाइम बिफोर फेल्योर",
+            "C": "मैनेज्ड टेक्निकल बैकअप फाइल्स",
+            "D": "मल्टी-टेनेंट बिजनेस फ्रेमवर्क"
+          },
+          "explanation": "MTBF ऑपरेशन के दौरान सिस्टम की अंतर्निहित विफलताओं के बीच अनुमानित बीते हुए समय का एक माप है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-004",
+      "number": 4,
+      "question": "Which service allows you to connect your on-premises data center to a public cloud via a dedicated private connection?",
+      "options": {
+        "A": "Public Internet",
+        "B": "Direct Connect / ExpressRoute",
+        "C": "Dial-up",
+        "D": "FTP"
+      },
+      "answer": "B",
+      "explanation": "These services provide a dedicated network connection that bypasses the public internet for better speed and security.",
+      "hash": "6b2316dfe06f57a6",
+      "translations": {
+        "hi": {
+          "question": "कौन सी सेवा आपको एक समर्पित निजी कनेक्शन के माध्यम से अपने ऑन-प्रिमाइसेस डेटा सेंटर को सार्वजनिक क्लाउड से जोड़ने की अनुमति देती है?",
+          "options": {
+            "A": "पब्लिक इंटरनेट",
+            "B": "डायरेक्ट कनेक्ट / एक्सप्रेसरूट",
+            "C": "डायल-अप",
+            "D": "एफटीपी"
+          },
+          "explanation": "ये सेवाएँ एक समर्पित नेटवर्क कनेक्शन प्रदान करती हैं जो बेहतर गति और सुरक्षा के लिए सार्वजनिक इंटरनेट को बायपास करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-005",
+      "number": 5,
+      "question": "What is \"Data Remanence\" in cloud security?",
+      "options": {
+        "A": "Encrypting new data",
+        "B": "The residual representation of data that remains even after attempts have been made to erase it",
+        "C": "Backing up data twice",
+        "D": "Data stored in RAM"
+      },
+      "answer": "B",
+      "explanation": "Data remanence is a risk where deleted data might still be recoverable from the physical storage media.",
+      "hash": "43a1ba483c2aa252",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड सुरक्षा में \"डेटा रेमनेंस\" (Data Remanence) क्या है?",
+          "options": {
+            "A": "नए डेटा को एन्क्रिप्ट करना",
+            "B": "डेटा का अवशिष्ट प्रतिनिधित्व जो उसे मिटाने के प्रयासों के बाद भी बना रहता है",
+            "C": "डेटा को दो बार बैकअप करना",
+            "D": "रैम में स्टोर डेटा"
+          },
+          "explanation": "डेटा रेमनेंस एक जोखिम है जहाँ हटाए गए डेटा को अभी भी भौतिक स्टोरेज मीडिया से पुनर्प्राप्त किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-006",
+      "number": 6,
+      "question": "Which concept refers to a system's ability to remain operational even if some of its components fail?",
+      "options": {
+        "A": "Scalability",
+        "B": "Fault Tolerance",
+        "C": "Elasticity",
+        "D": "Portability"
+      },
+      "answer": "B",
+      "explanation": "Fault tolerance is achieved by having redundant components that take over when a primary component fails.",
+      "hash": "f1817053ffbf1ad7",
+      "translations": {
+        "hi": {
+          "question": "कौन सी अवधारणा सिस्टम की कार्यात्मक रहने की क्षमता को संदर्भित करती है, भले ही उसके कुछ घटक विफल हो जाएं?",
+          "options": {
+            "A": "स्केलेबिलिटी",
+            "B": "फॉल्ट टॉलरेंस",
+            "C": "इलास्टिसिटी",
+            "D": "पोर्टेबिलिटी"
+          },
+          "explanation": "फॉल्ट टॉलरेंस अनावश्यक (redundant) घटकों द्वारा प्राप्त किया जाता है जो प्राथमिक घटक के विफल होने पर कार्यभार संभाल लेते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-007",
+      "number": 7,
+      "question": "Which cloud role is responsible for overseeing the business plans and technical requirements of cloud integration?",
+      "options": {
+        "A": "Cloud Consumer",
+        "B": "Cloud Architect",
+        "C": "Cloud Auditor",
+        "D": "Cloud Broker"
+      },
+      "answer": "B",
+      "explanation": "A Cloud Architect designs the cloud environment and ensures it meets the organization's technical and business needs.",
+      "hash": "2dfed4381051df2a",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड एकीकरण की व्यावसायिक योजनाओं और तकनीकी आवश्यकताओं की देखरेख के लिए कौन सी क्लाउड भूमिका जिम्मेदार है?",
+          "options": {
+            "A": "क्लाउड कंज्यूमर",
+            "B": "क्लाउड आर्किटेक्ट",
+            "C": "क्लाउड ऑडिटर",
+            "D": "क्लाउड ब्रोकर"
+          },
+          "explanation": "एक क्लाउड आर्किटेक्ट क्लाउड वातावरण डिजाइन करता है और यह सुनिश्चित करता है कि यह संगठन की तकनीकी और व्यावसायिक आवश्यकताओं को पूरा करे।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-008",
+      "number": 8,
+      "question": "What is \"Infrastructure as Code\" (IaC)?",
+      "options": {
+        "A": "Writing software for the web",
+        "B": "Managing and provisioning infrastructure through machine-readable definition files",
+        "C": "Designing hardware circuits",
+        "D": "Using HTML for cloud"
+      },
+      "answer": "B",
+      "explanation": "IaC allows IT teams to automatically manage stacks through code (like Terraform or CloudFormation) instead of manual processes.",
+      "hash": "01c57a37b3563cfa",
+      "translations": {
+        "hi": {
+          "question": "\"इंफ्रास्ट्रक्चर एज़ कोड\" (IaC) क्या है?",
+          "options": {
+            "A": "वेब के लिए सॉफ्टवेयर लिखना",
+            "B": "मशीन-पठनीय परिभाषा फाइलों के माध्यम से इंफ्रास्ट्रक्चर का प्रबंधन और प्रोविजनिंग करना",
+            "C": "हार्डवेयर सर्किट डिजाइन करना",
+            "D": "क्लाउड के लिए HTML का उपयोग करना"
+          },
+          "explanation": "IaC आईटी टीमों को मैन्युअल प्रक्रियाओं के बजाय कोड (जैसे टेराफॉर्म) के माध्यम से स्टैक को स्वचालित रूप से प्रबंधित करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-009",
+      "number": 9,
+      "question": "In the cloud, what is a \"Service Level Agreement\" (SLA)?",
+      "options": {
+        "A": "A software license",
+        "B": "A contract between a provider and a customer that defines the level of service expected",
+        "C": "A type of database",
+        "D": "An encryption key"
+      },
+      "answer": "B",
+      "explanation": "SLAs specify metrics like uptime percentage (e.g., 99.9%) and penalties if the provider fails to meet them.",
+      "hash": "e483f839f8c06f02",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड में, \"सर्विस लेवल एग्रीमेंट\" (SLA) क्या है?",
+          "options": {
+            "A": "एक सॉफ्टवेयर लाइसेंस",
+            "B": "प्रदाता और ग्राहक के बीच एक अनुबंध जो अपेक्षित सेवा के स्तर को परिभाषित करता है",
+            "C": "एक प्रकार का डेटाबेस",
+            "D": "एक एन्क्रिप्शन की"
+          },
+          "explanation": "SLA अपटाइम प्रतिशत (जैसे 99.9%) जैसे मेट्रिक्स और प्रदाता द्वारा उन्हें पूरा न करने पर जुर्माने को निर्दिष्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-010",
+      "number": 10,
+      "question": "What does \"EaaS\" stand for in the broader cloud context?",
+      "options": {
+        "A": "Everything as a Service",
+        "B": "Easy as a Service",
+        "C": "Electronic as a Service",
+        "D": "Email as a Service"
+      },
+      "answer": "A",
+      "explanation": "EaaS (or XaaS) is a collective term for the delivery of anything as a service over the internet.",
+      "hash": "92f70af042e4862c",
+      "translations": {
+        "hi": {
+          "question": "व्यापक क्लाउड संदर्भ में \"EaaS\" का क्या अर्थ है?",
+          "options": {
+            "A": "एवरीथिंग एज़ अ सर्विस",
+            "B": "इजी एज़ अ सर्विस",
+            "C": "इलेक्ट्रॉनिक एज़ अ सर्विस",
+            "D": "ईमेल एज़ अ सर्विस"
+          },
+          "explanation": "EaaS (या XaaS) इंटरनेट पर सेवा के रूप में किसी भी चीज़ की डिलीवरी के लिए एक सामूहिक शब्द है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-011",
+      "number": 11,
+      "question": "What is the purpose of a \"Virtual Desktop Infrastructure\" (VDI)?",
+      "options": {
+        "A": "To host websites",
+        "B": "To host a desktop operating system within a virtual machine on a centralized server",
+        "C": "To increase RAM size",
+        "D": "To clean the physical monitor"
+      },
+      "answer": "B",
+      "explanation": "VDI allows users to access their work desktops remotely from any device.",
+      "hash": "b8be0e032d281ad5",
+      "translations": {
+        "hi": {
+          "question": "\"वर्चुअल डेस्कटॉप इंफ्रास्ट्रक्चर\" (VDI) का उद्देश्य क्या है?",
+          "options": {
+            "A": "वेबसाइटों को होस्ट करने के लिए",
+            "B": "एक केंद्रीकृत सर्वर पर वर्चुअल मशीन के भीतर डेस्कटॉप ऑपरेटिंग सिस्टम को होस्ट करने के लिए",
+            "C": "रैम साइज बढ़ाने के लिए",
+            "D": "फिजिकल मॉनिटर को साफ करने के लिए"
+          },
+          "explanation": "VDI उपयोगकर्ताओं को किसी भी डिवाइस से दूरस्थ रूप से अपने कार्य डेस्कटॉप तक पहुंचने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-012",
+      "number": 12,
+      "question": "Which of the following is an example of \"Storage as a Service\"?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon EC2",
+        "C": "Google App Engine",
+        "D": "AWS Lambda"
+      },
+      "answer": "A",
+      "explanation": "S3 (Simple Storage Service) provides scalable object storage accessible via the web.",
+      "hash": "c6dfb8d4a2b3a6e7",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा \"स्टोरेज एज़ अ सर्विस\" का उदाहरण है?",
+          "options": {
+            "A": "अमेज़न S3",
+            "B": "अमेज़न EC2",
+            "C": "गूगल ऐप इंजन",
+            "D": "एडब्ल्यूएस लैम्ब्डा"
+          },
+          "explanation": "S3 (सिंपल स्टोरेज सर्विस) वेब के माध्यम से सुलभ स्केलेबल ऑब्जेक्ट स्टोरेज प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-013",
+      "number": 13,
+      "question": "What is \"Cloud Auditing\"?",
+      "options": {
+        "A": "Buying cloud services",
+        "B": "The process of inspecting and verifying that cloud controls and security are effective",
+        "C": "Developing cloud apps",
+        "D": "Deleting user accounts"
+      },
+      "answer": "B",
+      "explanation": "Auditing ensures that the provider and customer are following security and compliance standards.",
+      "hash": "42726704ebae4a05",
+      "translations": {
+        "hi": {
+          "question": "\"क्लाउड ऑडिटिंग\" क्या है?",
+          "options": {
+            "A": "क्लाउड सेवाएं खरीदना",
+            "B": "क्लाउड नियंत्रण और सुरक्षा प्रभावी हैं, इसका निरीक्षण और सत्यापन करने की प्रक्रिया",
+            "C": "क्लाउड ऐप्स विकसित करना",
+            "D": "उपयोगकर्ता खाते हटाना"
+          },
+          "explanation": "ऑडिटिंग यह सुनिश्चित करता है कि प्रदाता और ग्राहक सुरक्षा और अनुपालन मानकों का पालन कर रहे हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-014",
+      "number": 14,
+      "question": "Which of the following is a key risk of using a \"Public Cloud\"?",
+      "options": {
+        "A": "High cost of hardware",
+        "B": "Lack of control over the underlying infrastructure",
+        "C": "Low availability",
+        "D": "No internet connection"
+      },
+      "answer": "B",
+      "explanation": "In public cloud, the physical hardware is managed by the provider, giving the customer less control.",
+      "hash": "a8583637fe4aa9af",
+      "translations": {
+        "hi": {
+          "question": "\"पब्लिक क्लाउड\" का उपयोग करने का एक प्रमुख जोखिम निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "हार्डवेयर की उच्च लागत",
+            "B": "अंतर्निहित इंफ्रास्ट्रक्चर पर नियंत्रण की कमी",
+            "C": "कम उपलब्धता",
+            "D": "कोई इंटरनेट कनेक्शन नहीं"
+          },
+          "explanation": "पब्लिक क्लाउड में, भौतिक हार्डवेयर प्रदाता द्वारा प्रबंधित किया जाता है, जिससे ग्राहक का नियंत्रण कम होता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-015",
+      "number": 15,
+      "question": "Which cloud concept relates to the ability to handle a growing amount of work by adding resources?",
+      "options": {
+        "A": "Security",
+        "B": "Scalability",
+        "C": "Availability",
+        "D": "Integrity"
+      },
+      "answer": "B",
+      "explanation": "Scalability is the ability of a system to increase or decrease in size or configuration to suit changing demands.",
+      "hash": "25bfeb53fd11d78d",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा संसाधनों को जोड़कर बढ़ते हुए कार्य को संभालने की क्षमता से संबंधित है?",
+          "options": {
+            "A": "सुरक्षा",
+            "B": "स्केलेबिलिटी",
+            "C": "उपलब्धता",
+            "D": "इंटीग्रिटी"
+          },
+          "explanation": "स्केलेबिलिटी बदलती मांगों के अनुरूप आकार या कॉन्फ़िगरेशन में वृद्धि या कमी करने की सिस्टम की क्षमता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-016",
+      "number": 16,
+      "question": "What is \"In-place upgrade\" in a cloud environment?",
+      "options": {
+        "A": "Deleting the server and making a new one",
+        "B": "Updating the OS or software on the existing running server",
+        "C": "Moving data to a different region",
+        "D": "Changing the cloud vendor"
+      },
+      "answer": "B",
+      "explanation": "In-place upgrades modify the existing environment instead of replacing it with a fresh installation.",
+      "hash": "e4786d7ad38e40c8",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड वातावरण में \"इन-प्लेस अपग्रेड\" (In-place upgrade) क्या है?",
+          "options": {
+            "A": "सर्वर को हटाना और नया बनाना",
+            "B": "मौजूदा चल रहे सर्वर पर ओएस या सॉफ्टवेयर को अपडेट करना",
+            "C": "डेटा को दूसरे रीजन में ले जाना",
+            "D": "क्लाउड वेंडर बदलना"
+          },
+          "explanation": "इन-प्लेस अपग्रेड मौजूदा वातावरण को नए इंस्टॉलेशन के साथ बदलने के बजाय उसे संशोधित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-017",
+      "number": 17,
+      "question": "What is the primary purpose of a \"Health Check\" in a load balancer?",
+      "options": {
+        "A": "To check the user's health",
+        "B": "To ensure the load balancer is sending traffic only to functional servers",
+        "C": "To scan for viruses",
+        "D": "To measure internet speed"
+      },
+      "answer": "B",
+      "explanation": "Health checks automatically detect failed servers and stop sending traffic to them until they are restored.",
+      "hash": "f2d04206715f77a7",
+      "translations": {
+        "hi": {
+          "question": "लोड बैलेंसर में \"हेल्थ चेक\" का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "उपयोगकर्ता के स्वास्थ्य की जांच करने के लिए",
+            "B": "यह सुनिश्चित करने के लिए कि लोड बैलेंसर केवल कार्यात्मक सर्वर पर ट्रैफ़िक भेज रहा है",
+            "C": "वायरस को स्कैन करने के लिए",
+            "D": "इंटरनेट की गति मापने के लिए"
+          },
+          "explanation": "हेल्थ चेक स्वचालित रूप से विफल सर्वरों का पता लगाते हैं और बहाल होने तक उन्हें ट्रैफ़िक भेजना बंद कर देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-018",
+      "number": 18,
+      "question": "Which cloud concept refers to the practice of keeping data within a specific legal jurisdiction?",
+      "options": {
+        "A": "Data Residency",
+        "B": "Data Replication",
+        "C": "Data Elasticity",
+        "D": "Data Pooling"
+      },
+      "answer": "A",
+      "explanation": "Data residency is the physical or geographic location of where an organization's data is stored.",
+      "hash": "bf9552d95b3e3e79",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड अवधारणा डेटा को एक विशिष्ट कानूनी क्षेत्राधिकार के भीतर रखने के अभ्यास को संदर्भित करती है?",
+          "options": {
+            "A": "डेटा रेजिडेंसी",
+            "B": "डेटा रेप्लीकेशन",
+            "C": "डेटा इलास्टिसिटी",
+            "D": "डेटा पूलिंग"
+          },
+          "explanation": "डेटा रेजिडेंसी वह भौतिक या भौगोलिक स्थान है जहाँ किसी संगठन का डेटा संग्रहीत किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-019",
+      "number": 19,
+      "question": "Which cloud service provides a scalable, managed search service for applications?",
+      "options": {
+        "A": "DBaaS",
+        "B": "Search as a Service",
+        "C": "IaaS",
+        "D": "SaaS"
+      },
+      "answer": "B",
+      "explanation": "Search as a Service (e.g., Azure Cognitive Search) allows developers to add search functionality without managing the index engine.",
+      "hash": "31947da9901633a5",
+      "translations": {
+        "hi": {
+          "question": "कौन सी क्लाउड सेवा अनुप्रयोगों के लिए एक स्केलेबल, प्रबंधित खोज सेवा प्रदान करती है?",
+          "options": {
+            "A": "डीबीआस",
+            "B": "सर्च एज़ अ सर्विस",
+            "C": "आईआस",
+            "D": "सास"
+          },
+          "explanation": "सर्च एज़ अ सर्विस डेवलपर्स को इंडेक्स इंजन प्रबंधित किए बिना खोज कार्यक्षमता जोड़ने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-020",
+      "number": 20,
+      "question": "\"Docker\" and \"Containerd\" are examples of:",
+      "options": {
+        "A": "Databases",
+        "B": "Container Runtimes",
+        "C": "Operating Systems",
+        "D": "Hardware"
+      },
+      "answer": "B",
+      "explanation": "Container runtimes are software that execute and manage containers on a host.",
+      "hash": "32a838ecb2d70c62",
+      "translations": {
+        "hi": {
+          "question": "\"डॉकर\" (Docker) और \"कंटेनरडी\" (Containerd) किसके उदाहरण हैं?",
+          "options": {
+            "A": "डेटाबेस",
+            "B": "कंटेनर रनटाइम",
+            "C": "ऑपरेटिंग सिस्टम",
+            "D": "हार्डवेयर"
+          },
+          "explanation": "कंटेनर रनटाइम वे सॉफ्टवेयर हैं जो होस्ट पर कंटेनरों को निष्पादित और प्रबंधित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-021",
+      "number": 21,
+      "question": "What is the main benefit of \"Pre-emptible Instances\" or \"Spot Instances\"?",
+      "options": {
+        "A": "Guaranteed uptime",
+        "B": "Significantly lower cost in exchange for potential interruption",
+        "C": "Faster CPU speed",
+        "D": "Unlimited storage"
+      },
+      "answer": "B",
+      "explanation": "Spot instances allow you to bid on spare cloud capacity at a discount, but they can be reclaimed by the provider.",
+      "hash": "88e239c7ad3533ab",
+      "translations": {
+        "hi": {
+          "question": "\"प्री-एम्प्टीबल इंस्टेंस\" या \"स्पॉट इंस्टेंस\" का मुख्य लाभ क्या है?",
+          "options": {
+            "A": "गारंटीकृत अपटाइम",
+            "B": "संभावित रुकावट के बदले में काफी कम लागत",
+            "C": "तेज सीपीयू गति",
+            "D": "असीमित स्टोरेज"
+          },
+          "explanation": "स्पॉट इंस्टेंस आपको छूट पर अतिरिक्त क्लाउड क्षमता पर बोली लगाने की अनुमति देते हैं, लेकिन प्रदाता द्वारा उन्हें वापस लिया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-022",
+      "number": 22,
+      "question": "What is \"Throttling\" in cloud services?",
+      "options": {
+        "A": "Deleting accounts",
+        "B": "Intentionally limiting the speed or resources available to a user or app",
+        "C": "Speeding up the server",
+        "D": "Buying more RAM"
+      },
+      "answer": "B",
+      "explanation": "Throttling is used to prevent a single user from consuming all available resources or to enforce service limits.",
+      "hash": "0c11c3c589782a0f",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड सेवाओं में \"थ्रॉटलिंग\" (Throttling) क्या है?",
+          "options": {
+            "A": "खाते हटाना",
+            "B": "उपयोगकर्ता या ऐप के लिए उपलब्ध गति या संसाधनों को जानबूझकर सीमित करना",
+            "C": "सर्वर को तेज करना",
+            "D": "अधिक रैम खरीदना"
+          },
+          "explanation": "थ्रॉटलिंग का उपयोग एक ही उपयोगकर्ता को सभी उपलब्ध संसाधनों का उपभोग करने से रोकने या सेवा सीमाओं को लागू करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-023",
+      "number": 23,
+      "question": "What is \"Warm Standby\" in disaster recovery?",
+      "options": {
+        "A": "A site that is turned off",
+        "B": "A scaled-down version of a fully functional environment that is always running",
+        "C": "A backup kept in a cupboard",
+        "D": "A physical server in a cold room"
+      },
+      "answer": "B",
+      "explanation": "Warm standby allows for faster recovery than cold standby because the core services are already running.",
+      "hash": "8e8689a21838f1b3",
+      "translations": {
+        "hi": {
+          "question": "डिजास्टर रिकवरी में \"वार्म स्टैंडबाय\" (Warm Standby) क्या है?",
+          "options": {
+            "A": "एक साइट जो बंद है",
+            "B": "पूरी तरह से कार्यात्मक वातावरण का एक छोटा संस्करण जो हमेशा चल रहा है",
+            "C": "अलमारी में रखा बैकअप",
+            "D": "ठंडे कमरे में एक भौतिक सर्वर"
+          },
+          "explanation": "वार्म स्टैंडबाय कोल्ड स्टैंडबाय की तुलना में तेजी से रिकवरी की अनुमति देता है क्योंकि मुख्य सेवाएं पहले से ही चल रही होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-024",
+      "number": 24,
+      "question": "Which technology is used to create a secure \"Tunnel\" over the public internet to access cloud resources?",
+      "options": {
+        "A": "HTTP",
+        "B": "VPN",
+        "C": "DNS",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "A VPN (Virtual Private Network) encrypts the connection between the user and the cloud.",
+      "hash": "5e3582bddaf3e8a9",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड संसाधनों तक पहुँचने के लिए सार्वजनिक इंटरनेट पर एक सुरक्षित \"टनल\" बनाने के लिए किस तकनीक का उपयोग किया जाता है?",
+          "options": {
+            "A": "एचटीटीपी",
+            "B": "वीपीएन (VPN)",
+            "C": "डीएनएस",
+            "D": "एसएमटीपी"
+          },
+          "explanation": "एक वीपीएन उपयोगकर्ता और क्लाउड के बीच कनेक्शन को एन्क्रिप्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-025",
+      "number": 25,
+      "question": "In a cloud environment, what is \"Orchestration\"?",
+      "options": {
+        "A": "Playing music",
+        "B": "The automated arrangement, coordination, and management of complex computer systems and services",
+        "C": "Manual server setup",
+        "D": "Physical cabling"
+      },
+      "answer": "B",
+      "explanation": "Orchestration automates workflows that involve multiple tasks across different systems.",
+      "hash": "a5d90d7f554849e6",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड वातावरण में, \"ऑर्केस्ट्रेशन\" (Orchestration) क्या है?",
+          "options": {
+            "A": "संगीत बजाना",
+            "B": "जटिल कंप्यूटर सिस्टम और सेवाओं की स्वचालित व्यवस्था, समन्वय और प्रबंधन",
+            "C": "मैन्युअल सर्वर सेटअप",
+            "D": "भौतिक केबलिंग"
+          },
+          "explanation": "ऑर्केस्ट्रेशन उन वर्कफ़्लोज़ को स्वचालित करता है जिनमें विभिन्न प्रणालियों में कई कार्य शामिल होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-026",
+      "number": 26,
+      "question": "What is \"Data Fragmentation\" in the cloud?",
+      "options": {
+        "A": "Splitting data across multiple storage locations for performance or security",
+        "B": "Losing data",
+        "C": "Compressing data",
+        "D": "Renaming files"
+      },
+      "answer": "A",
+      "explanation": "Fragmentation can be used to improve access speeds or ensure that no single server has the full data set.",
+      "hash": "22c090265bb09d5d",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड में \"डेटा विखंडन\" (Data Fragmentation) क्या है?",
+          "options": {
+            "A": "प्रदर्शन या सुरक्षा के लिए कई स्टोरेज स्थानों में डेटा को विभाजित करना",
+            "B": "डेटा खोना",
+            "C": "डेटा को कंप्रेस करना",
+            "D": "फाइलों का नाम बदलना"
+          },
+          "explanation": "विखंडन का उपयोग पहुंच गति में सुधार करने या यह सुनिश्चित करने के लिए किया जा सकता है कि किसी एकल सर्वर के पास पूरा डेटा सेट न हो।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-027",
+      "number": 27,
+      "question": "Which cloud model is best for temporary projects with very high processing needs?",
+      "options": {
+        "A": "Private Cloud",
+        "B": "Public Cloud",
+        "C": "Local Data Center",
+        "D": "Community Cloud"
+      },
+      "answer": "B",
+      "explanation": "Public cloud offers the \"on-demand\" and \"pay-as-you-go\" features needed for short-term heavy workloads.",
+      "hash": "8453ebf066298fc6",
+      "translations": {
+        "hi": {
+          "question": "बहुत उच्च प्रोसेसिंग आवश्यकताओं वाले अस्थायी प्रोजेक्ट्स के लिए कौन सा क्लाउड मॉडल सबसे अच्छा है?",
+          "options": {
+            "A": "प्राइवेट क्लाउड",
+            "B": "पब्लिक क्लाउड",
+            "C": "लोकल डेटा सेंटर",
+            "D": "कम्युनिटी क्लाउड"
+          },
+          "explanation": "पब्लिक क्लाउड अल्पकालिक भारी वर्कलोड के लिए आवश्यक \"ऑन-डिमांड\" और \"पे-एज़-यू-गो\" सुविधाएँ प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-028",
+      "number": 28,
+      "question": "What is the main purpose of \"Identity Federation\"?",
+      "options": {
+        "A": "To create a new ID",
+        "B": "To allow users to use the same credentials across different networks or providers",
+        "C": "To delete old passwords",
+        "D": "To hide the user's name"
+      },
+      "answer": "B",
+      "explanation": "Federation enables Single Sign-On (SSO) by trusting identities from other systems.",
+      "hash": "634452ad0b10bfb1",
+      "translations": {
+        "hi": {
+          "question": "\"पहचान फेडरेशन\" (Identity Federation) का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "एक नई आईडी बनाना",
+            "B": "उपयोगकर्ताओं को विभिन्न नेटवर्क या प्रदाताओं में समान क्रेडेंशियल्स का उपयोग करने की अनुमति देना",
+            "C": "पुराने पासवर्ड हटाना",
+            "D": "उपयोगकर्ता का नाम छिपाना"
+          },
+          "explanation": "फेडरेशन अन्य प्रणालियों की पहचान पर भरोसा करके सिंगल साइन-ऑन (SSO) को सक्षम बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-029",
+      "number": 29,
+      "question": "What does the term \"Blast Radius\" mean in cloud failures?",
+      "options": {
+        "A": "The physical explosion of a server",
+        "B": "The scope of impact when a component or service fails",
+        "C": "The price of a cloud service",
+        "D": "The number of CPUs in a server"
+      },
+      "answer": "B",
+      "explanation": "Architects try to minimize the blast radius so that a failure in one area doesn't crash the entire system.",
+      "hash": "2af7f72e302c0d52",
+      "translations": {
+        "hi": {
+          "question": "क्लाउड विफलताओं में \"ब्लास्ट रेडियस\" (Blast Radius) शब्द का क्या अर्थ है?",
+          "options": {
+            "A": "सर्वर का भौतिक विस्फोट",
+            "B": "जब कोई घटक या सेवा विफल हो जाती है तो प्रभाव का दायरा",
+            "C": "क्लाउड सेवा की कीमत",
+            "D": "सर्वर में सीपीयू की संख्या"
+          },
+          "explanation": "आर्किटेक्ट प्रभाव के दायरे को कम करने की कोशिश करते हैं ताकि एक क्षेत्र में विफलता पूरे सिस्टम को क्रैश न कर दे।"
+        }
+      }
+    },
+    {
+      "id": "cloud-computing-04-030",
+      "number": 30,
+      "question": "Which cloud service is used to create and manage \"Relational Databases\"?",
+      "options": {
+        "A": "S3",
+        "B": "RDS",
+        "C": "Lambda",
+        "D": "Route 53"
+      },
+      "answer": "B",
+      "explanation": "RDS (Relational Database Service) automates tasks like patching, backups, and setup for SQL databases.",
+      "hash": "91993d7511e9c75a",
+      "translations": {
+        "hi": {
+          "question": "\"रिलेशनल डेटाबेस\" बनाने और प्रबंधित करने के लिए किस क्लाउड सेवा का उपयोग किया जाता है?",
+          "options": {
+            "A": "एस3",
+            "B": "आरडीएस (RDS)",
+            "C": "लैम्ब्डा",
+            "D": "रूट 53"
+          },
+          "explanation": "RDS (रिलेशनल डेटाबेस सर्विस) SQL डेटाबेस के लिए पैचिंग, बैकअप और सेटअप जैसे कार्यों को स्वचालित करता है।"
+        }
+      }
+    }
+  ]
+}

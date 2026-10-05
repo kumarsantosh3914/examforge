@@ -1,0 +1,787 @@
+{
+  "subject": "Cyber Security",
+  "set": 3,
+  "title": "Cyber Security Mock Test 3",
+  "questions": [
+    {
+      "id": "cyber-security-03-001",
+      "number": 1,
+      "question": "What is the primary focus of 'Integrity' in the CIA triad?",
+      "options": {
+        "A": "Keeping data secret",
+        "B": "Ensuring data is available",
+        "C": "Preventing unauthorized modification",
+        "D": "Identifying the user"
+      },
+      "answer": "C",
+      "explanation": "Integrity ensures that information is accurate and has not been altered by unauthorized parties.",
+      "hash": "c5123aecafc66285",
+      "translations": {
+        "hi": {
+          "question": "CIA ट्रायड में 'अखंडता' (Integrity) का प्राथमिक फोकस क्या है?",
+          "options": {
+            "A": "डेटा को गुप्त रखना",
+            "B": "डेटा उपलब्ध कराना सुनिश्चित करना",
+            "C": "अनधिकृत संशोधन को रोकना",
+            "D": "उपयोगकर्ता की पहचान करना"
+          },
+          "explanation": "अखंडता यह सुनिश्चित करती है कि जानकारी सटीक है और अनधिकृत पक्षों द्वारा बदली नहीं गई है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-002",
+      "number": 2,
+      "question": "Which type of attack exploits the vulnerability of a web application to execute malicious scripts in the user's browser?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Cross-Site Scripting (XSS)",
+        "C": "Denial of Service",
+        "D": "Man-in-the-Middle"
+      },
+      "answer": "B",
+      "explanation": "XSS occurs when a web application includes untrusted data in a web page without proper validation.",
+      "hash": "d7693c7cc4a59df4",
+      "translations": {
+        "hi": {
+          "question": "वेब एप्लिकेशन की भेद्यता का फायदा उठाकर उपयोगकर्ता के ब्राउज़र में दुर्भावनापूर्ण स्क्रिप्ट चलाने वाले हमले को क्या कहा जाता है?",
+          "options": {
+            "A": "SQL इंजेक्शन",
+            "B": "क्रॉस-साइट स्क्रिप्टिंग (XSS)",
+            "C": "सेवा से इनकार",
+            "D": "मैन-इन-द-मिडल"
+          },
+          "explanation": "XSS तब होता है जब एक वेब एप्लिकेशन बिना उचित सत्यापन के वेब पेज में अविश्वसनीय डेटा शामिल करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-003",
+      "number": 3,
+      "question": "Which of the following is a 'Polymorphic' virus?",
+      "options": {
+        "A": "A virus that encrypts itself with different keys",
+        "B": "A virus that only attacks Windows",
+        "C": "A virus that destroys hardware",
+        "D": "A virus that stays in memory"
+      },
+      "answer": "A",
+      "explanation": "Polymorphic viruses change their code or signature each time they replicate to avoid detection.",
+      "hash": "50b2be2fad2718fa",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'पॉलीमॉर्फिक' (Polymorphic) वायरस है?",
+          "options": {
+            "A": "एक वायरस जो खुद को अलग-अलग कुंजियों के साथ एन्क्रिप्ट करता है",
+            "B": "एक वायरस जो केवल विंडोज पर हमला करता है",
+            "C": "एक वायरस जो हार्डवेयर को नष्ट कर देता है",
+            "D": "एक वायरस जो मेमोरी में रहता है"
+          },
+          "explanation": "पॉलीमॉर्फिक वायरस पहचान से बचने के लिए हर बार प्रतिकृति बनाते समय अपना कोड या हस्ताक्षर बदलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-004",
+      "number": 4,
+      "question": "In a 'Denial of Service' (DoS) attack, what is the attacker's main goal?",
+      "options": {
+        "A": "To steal passwords",
+        "B": "To make a service or resource unavailable",
+        "C": "To encrypt the database",
+        "D": "To record keystrokes"
+      },
+      "answer": "B",
+      "explanation": "DoS attacks overwhelm a system with traffic so that legitimate users cannot access it.",
+      "hash": "4a94966f32a96fea",
+      "translations": {
+        "hi": {
+          "question": "'डिनायल ऑफ सर्विस' (DoS) हमले में हमलावर का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "पासवर्ड चुराना",
+            "B": "किसी सेवा या संसाधन को अनुपलब्ध बनाना",
+            "C": "डेटाबेस को एन्क्रिप्ट करना",
+            "D": "कीस्ट्रोक्स रिकॉर्ड करना"
+          },
+          "explanation": "DoS हमले किसी सिस्टम को ट्रैफ़िक से भर देते हैं ताकि वैध उपयोगकर्ता उस तक पहुँच न सकें।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-005",
+      "number": 5,
+      "question": "What is 'Social Engineering'?",
+      "options": {
+        "A": "Building social media apps",
+        "B": "Manipulating individuals into divulging confidential information",
+        "C": "Connecting servers in a network",
+        "D": "Upgrading the OS"
+      },
+      "answer": "B",
+      "explanation": "Social engineering relies on psychological manipulation rather than technical hacking techniques.",
+      "hash": "b001f7f5bc40a402",
+      "translations": {
+        "hi": {
+          "question": "'सोशल इंजीनियरिंग' (Social Engineering) क्या है?",
+          "options": {
+            "A": "सोशल मीडिया ऐप्स बनाना",
+            "B": "व्यक्तियों को गोपनीय जानकारी प्रकट करने के लिए हेरफेर करना",
+            "C": "नेटवर्क में सर्वर को जोड़ना",
+            "D": "ओएस को अपग्रेड करना"
+          },
+          "explanation": "सोशल इंजीनियरिंग तकनीकी हैकिंग तकनीकों के बजाय मनोवैज्ञानिक हेरफेर पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-006",
+      "number": 6,
+      "question": "Which port is used for HTTPS traffic?",
+      "options": {
+        "A": "21",
+        "B": "80",
+        "C": "443",
+        "D": "110"
+      },
+      "answer": "C",
+      "explanation": "Port 443 is the standard port for secure web browsing using SSL/TLS.",
+      "hash": "39f5937abb64eccb",
+      "translations": {
+        "hi": {
+          "question": "HTTPS ट्रैफ़िक के लिए किस पोर्ट का उपयोग किया जाता है?",
+          "options": {
+            "A": "21",
+            "B": "80",
+            "C": "443",
+            "D": "110"
+          },
+          "explanation": "पोर्ट 443 SSL/TLS का उपयोग करके सुरक्षित वेब ब्राउज़िंग के लिए मानक पोर्ट है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-007",
+      "number": 7,
+      "question": "What is 'Pharming'?",
+      "options": {
+        "A": "Growing crops with technology",
+        "B": "Redirecting users to a fake website by poisoning DNS",
+        "C": "Sending bulk emails",
+        "D": "Cracking Wi-Fi passwords"
+      },
+      "answer": "B",
+      "explanation": "Pharming is more dangerous than phishing because it redirects even if the user types the correct URL.",
+      "hash": "fd945c4d92e96f0b",
+      "translations": {
+        "hi": {
+          "question": "'फार्मिंग' (Pharming) क्या है?",
+          "options": {
+            "A": "तकनीक के साथ फसलें उगाना",
+            "B": "DNS को दूषित करके उपयोगकर्ताओं को नकली वेबसाइट पर निर्देशित करना",
+            "C": "थोक ईमेल भेजना",
+            "D": "वाई-फाई पासवर्ड क्रैक करना"
+          },
+          "explanation": "फार्मिंग फिशिंग से अधिक खतरनाक है क्योंकि यह उपयोगकर्ता द्वारा सही URL टाइप करने पर भी रीडायरेक्ट करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-008",
+      "number": 8,
+      "question": "What is a 'Logic Bomb'?",
+      "options": {
+        "A": "A physical explosive",
+        "B": "Malicious code that triggers on a specific condition or date",
+        "C": "A fast-spreading worm",
+        "D": "A tool to clean registries"
+      },
+      "answer": "B",
+      "explanation": "A logic bomb stays dormant until a specific event, like a date or a user action, occurs.",
+      "hash": "aba8f215c86b48e3",
+      "translations": {
+        "hi": {
+          "question": "'लॉजिक बॉम्ब' (Logic Bomb) क्या है?",
+          "options": {
+            "A": "एक भौतिक विस्फोटक",
+            "B": "दुर्भावनापूर्ण कोड जो किसी विशिष्ट स्थिति या तिथि पर ट्रिगर होता है",
+            "C": "तेजी से फैलने वाला वॉर्म",
+            "D": "रजिस्ट्रियों को साफ करने का एक उपकरण"
+          },
+          "explanation": "लॉजिक बॉम्ब तब तक निष्क्रिय रहता है जब तक कि कोई विशिष्ट घटना, जैसे कोई तारीख या उपयोगकर्ता की कार्रवाई, न हो जाए।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-009",
+      "number": 9,
+      "question": "What does 'Least Privilege' principle mean?",
+      "options": {
+        "A": "Giving all users admin rights",
+        "B": "Providing only the minimum access necessary to perform a job",
+        "C": "Not giving any access to anyone",
+        "D": "Resetting passwords every day"
+      },
+      "answer": "B",
+      "explanation": "This principle limits the damage that can result from an accident or error by restricting user permissions.",
+      "hash": "a84c5282d1e0d41c",
+      "translations": {
+        "hi": {
+          "question": "'न्यूनतम विशेषाधिकार' (Least Privilege) सिद्धांत का क्या अर्थ है?",
+          "options": {
+            "A": "सभी उपयोगकर्ताओं को व्यवस्थापक अधिकार देना",
+            "B": "कार्य करने के लिए आवश्यक केवल न्यूनतम पहुंच प्रदान करना",
+            "C": "किसी को भी कोई पहुंच न देना",
+            "D": "हर दिन पासवर्ड रीसेट करना"
+          },
+          "explanation": "यह सिद्धांत उपयोगकर्ता की अनुमतियों को प्रतिबंधित करके किसी दुर्घटना या त्रुटि से होने वाले नुकसान को सीमित करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-010",
+      "number": 10,
+      "question": "Which algorithm is primarily used for 'Digital Signatures'?",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RSA",
+        "D": "MD5"
+      },
+      "answer": "C",
+      "explanation": "RSA is an asymmetric algorithm used widely for both encryption and digital signatures.",
+      "hash": "22a34d5bfc41d2c2",
+      "translations": {
+        "hi": {
+          "question": "'डिजिटल हस्ताक्षर' के लिए मुख्य रूप से किस एल्गोरिथ्म का उपयोग किया जाता है?",
+          "options": {
+            "A": "एईएस",
+            "B": "डीईएस",
+            "C": "आरएसए",
+            "D": "एमडी5"
+          },
+          "explanation": "RSA एक असममित एल्गोरिथ्म है जिसका उपयोग एन्क्रिप्शन और डिजिटल हस्ताक्षर दोनों के लिए व्यापक रूप से किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-011",
+      "number": 11,
+      "question": "What is 'Typoquatting'?",
+      "options": {
+        "A": "Writing code very fast",
+        "B": "Registering domains similar to popular ones with typos",
+        "C": "Monitoring network speed",
+        "D": "A type of keyboard virus"
+      },
+      "answer": "B",
+      "explanation": "Typosquatting targets users who accidentally mistype a website address (e.g., gogle.com instead of google.com).",
+      "hash": "f9e662e177fadf24",
+      "translations": {
+        "hi": {
+          "question": "'टाइपोक्वाटिंग' (Typosquatting) क्या है?",
+          "options": {
+            "A": "बहुत तेज़ कोड लिखना",
+            "B": "लोकप्रिय डोमेन के समान वर्तनी की गलतियों वाले डोमेन पंजीकृत करना",
+            "C": "नेटवर्क की गति की निगरानी करना",
+            "D": "एक प्रकार का कीबोर्ड वायरस"
+          },
+          "explanation": "टाइपोक्वाटिंग उन उपयोगकर्ताओं को लक्षित करता है जो गलती से वेबसाइट का पता गलत टाइप कर देते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-012",
+      "number": 12,
+      "question": "Which type of firewall filters traffic based on source/destination IP and ports?",
+      "options": {
+        "A": "Application Gateway",
+        "B": "Packet Filtering Firewall",
+        "C": "Proxy Server",
+        "D": "Stateful Inspection"
+      },
+      "answer": "B",
+      "explanation": "Packet filtering firewalls operate at the Network layer and examine each packet header.",
+      "hash": "a92a98343e33b0e4",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का फ़ायरवॉल स्रोत/गंतव्य आईपी और पोर्ट के आधार पर ट्रैफ़िक फ़िल्टर करता है?",
+          "options": {
+            "A": "एप्लीकेशन गेटवे",
+            "B": "पैकेट फ़िल्टरिंग फ़ायरवॉल",
+            "C": "प्रॉक्सी सर्वर",
+            "D": "स्टेटफुल इंस्पेक्शन"
+          },
+          "explanation": "पैकेट फ़िल्टरिंग फ़ायरवॉल नेटवर्क लेयर पर काम करते हैं और प्रत्येक पैकेट हेडर की जांच करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-013",
+      "number": 13,
+      "question": "'Sniffing' is associated with which activity?",
+      "options": {
+        "A": "Modifying data",
+        "B": "Capturing and monitoring network traffic",
+        "C": "Deleting log files",
+        "D": "Crashing the server"
+      },
+      "answer": "B",
+      "explanation": "Sniffing uses software (like Wireshark) to capture data packets flowing across a network.",
+      "hash": "fedfd90041873489",
+      "translations": {
+        "hi": {
+          "question": "'स्निफिंग' (Sniffing) किस गतिविधि से जुड़ी है?",
+          "options": {
+            "A": "डेटा को संशोधित करना",
+            "B": "नेटवर्क ट्रैफ़िक को कैप्चर करना और निगरानी करना",
+            "C": "लॉग फ़ाइलों को हटाना",
+            "D": "सर्वर को क्रैश करना"
+          },
+          "explanation": "स्निफिंग नेटवर्क पर बहने वाले डेटा पैकेट को कैप्चर करने के लिए सॉफ़्टवेयर का उपयोग करती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-014",
+      "number": 14,
+      "question": "Which layer of the OSI model does a 'WAF' (Web Application Firewall) protect?",
+      "options": {
+        "A": "Layer 3",
+        "B": "Layer 4",
+        "C": "Layer 7",
+        "D": "Layer 2"
+      },
+      "answer": "C",
+      "explanation": "WAFs are designed to protect web applications by filtering and monitoring HTTP traffic.",
+      "hash": "8fea7b663b446b76",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत 'WAF' (वेब एप्लीकेशन फ़ायरवॉल) की रक्षा करती है?",
+          "options": {
+            "A": "लेयर 3",
+            "B": "लेयर 4",
+            "C": "लेयर 7",
+            "D": "लेयर 2"
+          },
+          "explanation": "WAF को HTTP ट्रैफ़िक को फ़िल्टर और मॉनिटर करके वेब अनुप्रयोगों की सुरक्षा के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-015",
+      "number": 15,
+      "question": "What is the main characteristic of a 'Worm'?",
+      "options": {
+        "A": "It requires a host program",
+        "B": "It is self-replicating and spreads over networks",
+        "C": "It only infects boot sectors",
+        "D": "It can be removed by formatting the RAM"
+      },
+      "answer": "B",
+      "explanation": "Unlike a virus, a worm does not need to attach itself to an existing program to spread.",
+      "hash": "549beb82afcec4cb",
+      "translations": {
+        "hi": {
+          "question": "'वॉर्म' (Worm) की मुख्य विशेषता क्या है?",
+          "options": {
+            "A": "इसे एक होस्ट प्रोग्राम की आवश्यकता होती है",
+            "B": "यह स्वयं-प्रतिकृति है और नेटवर्क पर फैलता है",
+            "C": "यह केवल बूट सेक्टर को संक्रमित करता है",
+            "D": "इसे रैम को फॉर्मेट करके हटाया जा सकता है"
+          },
+          "explanation": "वायरस के विपरीत, वॉर्म को फैलने के लिए किसी मौजूदा प्रोग्राम से जुड़ने की आवश्यकता नहीं होती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-016",
+      "number": 16,
+      "question": "What is 'Zero-Day' vulnerability?",
+      "options": {
+        "A": "A bug that lasts for 0 days",
+        "B": "A vulnerability known to the developer but not patched",
+        "C": "A vulnerability that is exploited before the developer is aware or has a patch",
+        "D": "A virus created in 24 hours"
+      },
+      "answer": "C",
+      "explanation": "Zero-day refers to the fact that the developer has \"zero days\" to fix it because it is already being exploited.",
+      "hash": "a96c6e0f48b9c934",
+      "translations": {
+        "hi": {
+          "question": "'जीरो-डे' (Zero-Day) भेद्यता क्या है?",
+          "options": {
+            "A": "एक बग जो 0 दिनों तक रहता है",
+            "B": "डेवलपर को पता चली भेद्यता लेकिन पैच नहीं की गई",
+            "C": "एक भेद्यता जिसका फायदा डेवलपर के जागरूक होने या पैच होने से पहले उठाया जाता है",
+            "D": "24 घंटे में बनाया गया वायरस"
+          },
+          "explanation": "जीरो-डे इस तथ्य को संदर्भित करता है कि डेवलपर के पास इसे ठीक करने के लिए \"जीरो दिन\" हैं क्योंकि इसका पहले से ही शोषण किया जा रहा है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-017",
+      "number": 17,
+      "question": "'Honey Pot' in network security is used to:",
+      "options": {
+        "A": "Store data backups",
+        "B": "Entrap and study attackers",
+        "C": "Filter spam emails",
+        "D": "Speed up server response"
+      },
+      "answer": "B",
+      "explanation": "A Honey Pot is a decoy system designed to look like a vulnerable target to lure hackers.",
+      "hash": "f5470cdc7af3999d",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्क सुरक्षा में 'हनी पॉट' (Honey Pot) का उपयोग किसके लिए किया जाता है?",
+          "options": {
+            "A": "डेटा बैकअप स्टोर करना",
+            "B": "हमलावरों को फंसाना और उनका अध्ययन करना",
+            "C": "स्पैम ईमेल फ़िल्टर करना",
+            "D": "सर्वर प्रतिक्रिया को तेज़ करना"
+          },
+          "explanation": "हनी पॉट एक डिकॉय (धोखा देने वाला) सिस्टम है जिसे हैकर्स को लुभाने के लिए एक कमजोर लक्ष्य की तरह दिखने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-018",
+      "number": 18,
+      "question": "What is 'Shoulder Surfing'?",
+      "options": {
+        "A": "Surfing the web while traveling",
+        "B": "Looking over someone's shoulder to see their PIN/Password",
+        "C": "A high-speed data transfer technique",
+        "D": "Hacking into a shoulder-mounted device"
+      },
+      "answer": "B",
+      "explanation": "This is a physical social engineering technique used at ATMs or during login.",
+      "hash": "6c7d02db290aac7e",
+      "translations": {
+        "hi": {
+          "question": "'शोल्डर सर्फिंग' (Shoulder Surfing) क्या है?",
+          "options": {
+            "A": "यात्रा के दौरान वेब सर्फिंग करना",
+            "B": "किसी का पिन/पासवर्ड देखने के लिए उनके कंधे के ऊपर से देखना",
+            "C": "एक उच्च गति डेटा स्थानांतरण तकनीक",
+            "D": "कंधे पर लगे उपकरण को हैक करना"
+          },
+          "explanation": "यह एक भौतिक सोशल इंजीनियरिंग तकनीक है जिसका उपयोग एटीएम या लॉगिन के दौरान किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-019",
+      "number": 19,
+      "question": "Which type of encryption uses a Public and a Private key?",
+      "options": {
+        "A": "Symmetric",
+        "B": "Asymmetric",
+        "C": "Hashing",
+        "D": "Obfuscation"
+      },
+      "answer": "B",
+      "explanation": "In asymmetric encryption, the public key is for encryption and the private key is for decryption.",
+      "hash": "a87bb5126a2a35da",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के एन्क्रिप्शन में सार्वजनिक और निजी कुंजी का उपयोग किया जाता है?",
+          "options": {
+            "A": "सिमेट्रिक",
+            "B": "असिमेट्रिक",
+            "C": "हैशिंग",
+            "D": "ऑबफस्केशन"
+          },
+          "explanation": "असिमेट्रिक एन्क्रिप्शन में, सार्वजनिक कुंजी एन्क्रिप्शन के लिए होती है और निजी कुंजी डिक्रिप्शन के लिए।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-020",
+      "number": 20,
+      "question": "Which attack involves sending a fake email to steal bank details?",
+      "options": {
+        "A": "Spoofing",
+        "B": "Phishing",
+        "C": "Cracking",
+        "D": "Buffering"
+      },
+      "answer": "B",
+      "explanation": "Phishing is the practice of sending fraudulent communications that appear to come from a reputable source.",
+      "hash": "fa761da7846771db",
+      "translations": {
+        "hi": {
+          "question": "बैंक विवरण चुराने के लिए नकली ईमेल भेजने वाले हमले को क्या कहा जाता है?",
+          "options": {
+            "A": "स्पूफिंग",
+            "B": "फिशिंग",
+            "C": "क्रैकिंग",
+            "D": "बफरिंग"
+          },
+          "explanation": "फिशिंग धोखाधड़ी वाले संचार भेजने का अभ्यास है जो एक प्रतिष्ठित स्रोत से आते हुए प्रतीत होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-021",
+      "number": 21,
+      "question": "What is the full form of 'IDS'?",
+      "options": {
+        "A": "Internet Data Security",
+        "B": "Intrusion Detection System",
+        "C": "Integrated Digital System",
+        "D": "Information Delivery Service"
+      },
+      "answer": "B",
+      "explanation": "IDS is software or hardware that monitors a network for malicious activity or policy violations.",
+      "hash": "da76d45ae16d0753",
+      "translations": {
+        "hi": {
+          "question": "'IDS' का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "इंटरनेट डेटा सिक्योरिटी",
+            "B": "इंट्रूजन डिटेक्शन सिस्टम",
+            "C": "इंटीग्रेटेड डिजिटल सिस्टम",
+            "D": "इंफॉर्मेशन डिलीवरी सर्विस"
+          },
+          "explanation": "IDS वह सॉफ्टवेयर या हार्डवेयर है जो दुर्भावनापूर्ण गतिविधि या नीति उल्लंघनों के लिए नेटवर्क की निगरानी करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-022",
+      "number": 22,
+      "question": "Which algorithm is a 'Stream Cipher'?",
+      "options": {
+        "A": "AES",
+        "B": "DES",
+        "C": "RC4",
+        "D": "Blowfish"
+      },
+      "answer": "C",
+      "explanation": "A stream cipher encrypts digits one by one, unlike block ciphers which encrypt fixed-size chunks.",
+      "hash": "5bf0a2152524e772",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एल्गोरिथ्म 'स्ट्रीम सिफर' (Stream Cipher) है?",
+          "options": {
+            "A": "एईएस",
+            "B": "डीईएस",
+            "C": "आरसी4",
+            "D": "ब्लोफिश"
+          },
+          "explanation": "स्ट्रीम सिफर अंकों को एक-एक करके एन्क्रिप्ट करता है, ब्लॉक सिफर के विपरीत जो निश्चित आकार के टुकड़ों को एन्क्रिप्ट करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-023",
+      "number": 23,
+      "question": "What is 'Salting' in password storage?",
+      "options": {
+        "A": "Using salty characters in passwords",
+        "B": "Adding random data to a password before hashing",
+        "C": "Deleting unused passwords",
+        "D": "Encrypting the entire database"
+      },
+      "answer": "B",
+      "explanation": "Salting makes it much harder for attackers to use pre-computed tables (Rainbow Tables) to crack passwords.",
+      "hash": "247d2ae64e231990",
+      "translations": {
+        "hi": {
+          "question": "पासवर्ड स्टोरेज में 'साल्टिंग' (Salting) क्या है?",
+          "options": {
+            "A": "पासवर्ड में 'साल्टी' अक्षरों का उपयोग करना",
+            "B": "हैशिंग से पहले पासवर्ड में रैंडम डेटा जोड़ना",
+            "C": "अप्रयुक्त पासवर्ड हटाना",
+            "D": "पूरे डेटाबेस को एन्क्रिप्ट करना"
+          },
+          "explanation": "साल्टिंग हमलावरों के लिए पासवर्ड क्रैक करने के लिए पूर्व-गणना की गई तालिकाओं (रेनबो टेबल्स) का उपयोग करना बहुत कठिन बना देती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-024",
+      "number": 24,
+      "question": "What does a 'Trojan Horse' do?",
+      "options": {
+        "A": "Repairs your PC",
+        "B": "Appears as legitimate software but performs malicious actions",
+        "C": "Increases internet speed",
+        "D": "Connects your PC to a printer"
+      },
+      "answer": "B",
+      "explanation": "Trojans do not replicate themselves but rely on users to execute them under false pretenses.",
+      "hash": "b39427b5a0af3ba6",
+      "translations": {
+        "hi": {
+          "question": "'ट्रोजन हॉर्स' (Trojan Horse) क्या करता है?",
+          "options": {
+            "A": "आपके पीसी की मरम्मत करता है",
+            "B": "वैध सॉफ़्टवेयर के रूप में दिखाई देता है लेकिन दुर्भावनापूर्ण कार्य करता है",
+            "C": "इंटरनेट की गति बढ़ाता है",
+            "D": "आपके पीसी को प्रिंटर से जोड़ता है"
+          },
+          "explanation": "ट्रोजन खुद को दोहराते नहीं हैं बल्कि झूठे बहानों के तहत उन्हें निष्पादित करने के लिए उपयोगकर्ताओं पर भरोसा करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-025",
+      "number": 25,
+      "question": "What is 'Data Diddling'?",
+      "options": {
+        "A": "Moving data to the cloud",
+        "B": "Small, unauthorized changes to data before it is entered into a system",
+        "C": "Compressing data files",
+        "D": "Viewing data without permission"
+      },
+      "answer": "B",
+      "explanation": "Data diddling is the alteration of data at the entry point, which can be hard to detect.",
+      "hash": "400986aeb6f5a26c",
+      "translations": {
+        "hi": {
+          "question": "'डेटा डिडलिंग' (Data Diddling) क्या है?",
+          "options": {
+            "A": "डेटा को क्लाउड पर ले जाना",
+            "B": "सिस्टम में दर्ज होने से पहले डेटा में छोटे, अनधिकृत बदलाव",
+            "C": "डेटा फ़ाइलों को कंप्रेस करना",
+            "D": "बिना अनुमति के डेटा देखना"
+          },
+          "explanation": "डेटा डिडलिंग एंट्री पॉइंट पर डेटा का परिवर्तन है, जिसका पता लगाना कठिन हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-026",
+      "number": 26,
+      "question": "Which of these is a 'Biometric' authentication factor?",
+      "options": {
+        "A": "Password",
+        "B": "Fingerprint",
+        "C": "OTP",
+        "D": "Security Question"
+      },
+      "answer": "B",
+      "explanation": "Biometrics use unique physical or behavioral traits for identification.",
+      "hash": "68ab289fefe6a74e",
+      "translations": {
+        "hi": {
+          "question": "इनमें से कौन सा 'बायोमेट्रिक' (Biometric) प्रमाणीकरण कारक है?",
+          "options": {
+            "A": "पासवर्ड",
+            "B": "फिंगरप्रिंट",
+            "C": "ओटीपी",
+            "D": "सुरक्षा प्रश्न"
+          },
+          "explanation": "बायोमेट्रिक्स पहचान के लिए अद्वितीय शारीरिक या व्यवहारिक लक्षणों का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-027",
+      "number": 27,
+      "question": "What is a 'Keylogger'?",
+      "options": {
+        "A": "A person who makes keys",
+        "B": "Software that records every key pressed on a keyboard",
+        "C": "A tool to unlock files",
+        "D": "A type of secure keyboard"
+      },
+      "answer": "B",
+      "explanation": "Keyloggers are often used as spyware to steal sensitive info like passwords and credit card numbers.",
+      "hash": "8a3c12651b587bf7",
+      "translations": {
+        "hi": {
+          "question": "'कीलॉगर' (Keylogger) क्या है?",
+          "options": {
+            "A": "चाबियां बनाने वाला व्यक्ति",
+            "B": "सॉफ्टवेयर जो कीबोर्ड पर दबाई गई हर कुंजी को रिकॉर्ड करता है",
+            "C": "फ़ाइलों को अनलॉक करने का एक उपकरण",
+            "D": "एक प्रकार का सुरक्षित कीबोर्ड"
+          },
+          "explanation": "कीलॉगर्स का उपयोग अक्सर पासवर्ड और क्रेडिट कार्ड नंबर जैसी संवेदनशील जानकारी चुराने के लिए स्पाइवेयर के रूप में किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-028",
+      "number": 28,
+      "question": "Which term describes an attempt to crack a password by trying all possible combinations?",
+      "options": {
+        "A": "Dictionary Attack",
+        "B": "Brute Force Attack",
+        "C": "Rainbow Attack",
+        "D": "Phishing Attack"
+      },
+      "answer": "B",
+      "explanation": "Brute force attacks are guaranteed to succeed eventually but can take a very long time for complex passwords.",
+      "hash": "95b7f8006ec8f2dc",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द सभी संभावित संयोजनों को आजमाकर पासवर्ड क्रैक करने के प्रयास का वर्णन करता है?",
+          "options": {
+            "A": "डिक्शनरी अटैक",
+            "B": "ब्रूट फोर्स अटैक",
+            "C": "रेनबो अटैक",
+            "D": "फिशिंग अटैक"
+          },
+          "explanation": "ब्रूट फोर्स हमले अंततः सफल होने की गारंटी देते हैं लेकिन जटिल पासवर्ड के लिए बहुत लंबा समय ले सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-029",
+      "number": 29,
+      "question": "What is 'Bluesnarfing'?",
+      "options": {
+        "A": "Hacking into a Bluetooth device to steal info",
+        "B": "A virus that turns the screen blue",
+        "C": "Overloading a Bluetooth connection",
+        "D": "Using a blue-colored router"
+      },
+      "answer": "A",
+      "explanation": "Bluesnarfing allows unauthorized access to messages, contacts, and emails on a mobile device via Bluetooth.",
+      "hash": "4f4a63cf3e8d05cb",
+      "translations": {
+        "hi": {
+          "question": "'ब्लूस्नर्फिंग' (Bluesnarfing) क्या है?",
+          "options": {
+            "A": "जानकारी चुराने के लिए ब्लूटूथ डिवाइस को हैक करना",
+            "B": "एक वायरस जो स्क्रीन को नीला कर देता है",
+            "C": "ब्लूटूथ कनेक्शन को ओवरलोड करना",
+            "D": "नीले रंग के राउटर का उपयोग करना"
+          },
+          "explanation": "ब्लूस्नर्फिंग ब्लूटूथ के माध्यम से मोबाइल डिवाइस पर संदेशों, संपर्कों और ईमेल तक अनधिकृत पहुंच की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-03-030",
+      "number": 30,
+      "question": "What is 'SQL Injection' (SQLi)?",
+      "options": {
+        "A": "Injecting a virus into RAM",
+        "B": "Inserting malicious SQL queries into input fields to manipulate a database",
+        "C": "Crashing a SQL server",
+        "D": "Backing up a SQL database"
+      },
+      "answer": "B",
+      "explanation": "SQLi can allow attackers to view, modify, or delete sensitive data from a database.",
+      "hash": "e1bab8c722b3640a",
+      "translations": {
+        "hi": {
+          "question": "'SQL इंजेक्शन' (SQLi) क्या है?",
+          "options": {
+            "A": "रैम में वायरस इंजेक्ट करना",
+            "B": "डेटाबेस में हेरफेर करने के लिए इनपुट फ़ील्ड में दुर्भावनापूर्ण SQL क्वेरी डालना",
+            "C": "SQL सर्वर को क्रैश करना",
+            "D": "SQL डेटाबेस का बैकअप लेना"
+          },
+          "explanation": "SQLi हमलावरों को डेटाबेस से संवेदनशील डेटा देखने, संशोधित करने या हटाने की अनुमति दे सकता है।"
+        }
+      }
+    }
+  ]
+}

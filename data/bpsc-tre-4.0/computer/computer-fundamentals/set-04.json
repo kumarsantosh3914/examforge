@@ -1,0 +1,787 @@
+{
+  "subject": "Computer Fundamentals",
+  "set": 4,
+  "title": "Computer Fundamentals Mock Test 4",
+  "questions": [
+    {
+      "id": "computer-fundamentals-04-001",
+      "number": 1,
+      "question": "Which type of memory is used to store the appearance and settings of the BIOS, such as time and date?",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "CMOS",
+        "D": "Cache"
+      },
+      "answer": "C",
+      "explanation": "CMOS (Complementary Metal-Oxide-Semiconductor) memory is battery-powered to retain system settings.",
+      "hash": "cff70be7c6ea46b8",
+      "translations": {
+        "hi": {
+          "question": "BIOS की उपस्थिति और सेटिंग्स, जैसे समय और तारीख, को स्टोर करने के लिए किस प्रकार की मेमोरी का उपयोग किया जाता है?",
+          "options": {
+            "A": "रैम",
+            "B": "रोम",
+            "C": "सीमॉस",
+            "D": "कैश"
+          },
+          "explanation": "CMOS मेमोरी सिस्टम सेटिंग्स को बनाए रखने के लिए बैटरी चालित होती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-002",
+      "number": 2,
+      "question": "Which register in the CPU holds the address of the next instruction to be executed?",
+      "options": {
+        "A": "Accumulator",
+        "B": "Instruction Register",
+        "C": "Program Counter",
+        "D": "Memory Data Register"
+      },
+      "answer": "C",
+      "explanation": "The Program Counter (PC) points to the memory address of the next instruction in the sequence.",
+      "hash": "1507faabbb30d85c",
+      "translations": {
+        "hi": {
+          "question": "CPU में कौन सा रजिस्टर निष्पादित होने वाले अगले निर्देश का पता रखता है?",
+          "options": {
+            "A": "एक्यूमुलेटर",
+            "B": "इंस्ट्रक्शन रजिस्टर",
+            "C": "प्रोग्राम काउंटर",
+            "D": "मेमोरी डेटा रजिस्टर"
+          },
+          "explanation": "प्रोग्राम काउंटर (PC) अनुक्रम में अगले निर्देश के मेमोरी एड्रेस की ओर इशारा करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-003",
+      "number": 3,
+      "question": "What is the primary difference between a Warm Boot and a Cold Boot?",
+      "options": {
+        "A": "Warm boot uses a diskette",
+        "B": "Cold boot is a restart",
+        "C": "Cold boot starts from power-off state",
+        "D": "There is no difference"
+      },
+      "answer": "C",
+      "explanation": "A cold boot happens when the computer is turned on from a completely off state.",
+      "hash": "aaf88f4ee854ca52",
+      "translations": {
+        "hi": {
+          "question": "वॉर्म बूट और कोल्ड बूट के बीच प्राथमिक अंतर क्या है?",
+          "options": {
+            "A": "वॉर्म बूट डिस्केट का उपयोग करता है",
+            "B": "कोल्ड बूट एक पुनरारंभ है",
+            "C": "कोल्ड बूट पावर-ऑफ स्थिति से शुरू होता है",
+            "D": "कोई अंतर नहीं है"
+          },
+          "explanation": "कोल्ड बूट तब होता है जब कंप्यूटर पूरी तरह से बंद स्थिति से चालू किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-004",
+      "number": 4,
+      "question": "Which of the following is a high-speed data transmission port?",
+      "options": {
+        "A": "Serial Port",
+        "B": "Parallel Port",
+        "C": "FireWire",
+        "D": "PS/2 Port"
+      },
+      "answer": "C",
+      "explanation": "FireWire (IEEE 1394) is used for high-speed communication and is common for video devices.",
+      "hash": "7daa5e853f8ec08f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा हाई-स्पीड डेटा ट्रांसमिशन पोर्ट है?",
+          "options": {
+            "A": "सीरियल पोर्ट",
+            "B": "पैरेलल पोर्ट",
+            "C": "फायरवायर",
+            "D": "पीएस/2 पोर्ट"
+          },
+          "explanation": "फायरवायर (IEEE 1394) का उपयोग हाई-स्पीड संचार के लिए किया जाता है और यह वीडियो उपकरणों के लिए सामान्य है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-005",
+      "number": 5,
+      "question": "What is the decimal value of the binary number 1101?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "15"
+      },
+      "answer": "C",
+      "explanation": "Calculation: (1*2^3) + (1*2^2) + (0*2^1) + (1*2^0) = 8 + 4 + 0 + 1 = 13.",
+      "hash": "5f4bd26e1632e7be",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी संख्या 1101 का दशमलव मान क्या है?",
+          "options": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "15"
+          },
+          "explanation": "गणना: (1*2^3) + (1*2^2) + (0*2^1) + (1*2^0) = 8 + 4 + 0 + 1 = 13."
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-006",
+      "number": 6,
+      "question": "Which software utility is used to reduce the number of fragments in a file system?",
+      "options": {
+        "A": "Disk Cleanup",
+        "B": "Disk Defragmenter",
+        "C": "Backup",
+        "D": "Firewall"
+      },
+      "answer": "B",
+      "explanation": "Defragmentation reorganizes files so that they occupy contiguous storage space for faster access.",
+      "hash": "553b27416871aa4a",
+      "translations": {
+        "hi": {
+          "question": "फाइल सिस्टम में टुकड़ों (fragments) की संख्या कम करने के लिए किस सॉफ्टवेयर यूटिलिटी का उपयोग किया जाता है?",
+          "options": {
+            "A": "डिस्क क्लीनअप",
+            "B": "डिस्क डिफ्रैग्मेंटर",
+            "C": "बैकअप",
+            "D": "फ़ायरवॉल"
+          },
+          "explanation": "डिफ्रैग्मेंटेशन फाइलों को पुनर्गठित करता है ताकि वे तेजी से पहुंच के लिए निरंतर स्टोरेज स्थान घेरें।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-007",
+      "number": 7,
+      "question": "Which hardware architecture is based on the concept of \"Stored Program\"?",
+      "options": {
+        "A": "Harvard Architecture",
+        "B": "Von Neumann Architecture",
+        "C": "RISC Architecture",
+        "D": "CISC Architecture"
+      },
+      "answer": "B",
+      "explanation": "Von Neumann architecture uses a single storage for both instructions and data.",
+      "hash": "78d65c45aff3d6a4",
+      "translations": {
+        "hi": {
+          "question": "कौन सा हार्डवेयर आर्किटेक्चर \"स्टोर्ड प्रोग्राम\" की अवधारणा पर आधारित है?",
+          "options": {
+            "A": "हार्वर्ड आर्किटेक्चर",
+            "B": "वॉन न्यूमैन आर्किटेक्चर",
+            "C": "रिस्क आर्किटेक्चर",
+            "D": "सिस्क आर्किटेक्चर"
+          },
+          "explanation": "वॉन न्यूमैन आर्किटेक्चर निर्देशों और डेटा दोनों के लिए एक ही स्टोरेज का उपयोग करता है। [Image of Von Neumann architecture diagram]"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-008",
+      "number": 8,
+      "question": "What is the name of the first high-level programming language?",
+      "options": {
+        "A": "COBOL",
+        "B": "FORTRAN",
+        "C": "PASCAL",
+        "D": "BASIC"
+      },
+      "answer": "B",
+      "explanation": "FORTRAN (Formula Translation) was developed by IBM in the 1950s for scientific applications.",
+      "hash": "91a833d2ac16928f",
+      "translations": {
+        "hi": {
+          "question": "पहली उच्च-स्तरीय प्रोग्रामिंग भाषा का नाम क्या है?",
+          "options": {
+            "A": "कोबोल",
+            "B": "फोरट्रान",
+            "C": "पास्कल",
+            "D": "बेसिक"
+          },
+          "explanation": "FORTRAN (फॉर्मूला ट्रांसलेशन) को 1950 के दशक में IBM द्वारा वैज्ञानिक अनुप्रयोगों के लिए विकसित किया गया था।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-009",
+      "number": 9,
+      "question": "What is the full form of MIDI?",
+      "options": {
+        "A": "Musical Instrument Digital Interface",
+        "B": "Musical Internal Digital Input",
+        "C": "Multiple Instrument Data Interface",
+        "D": "Music Interface Digital Input"
+      },
+      "answer": "A",
+      "explanation": "MIDI is a protocol that allows electronic musical instruments and computers to communicate.",
+      "hash": "daa036e7163b9536",
+      "translations": {
+        "hi": {
+          "question": "MIDI का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "म्यूजिकल इंस्ट्रूमेंट डिजिटल इंटरफेस",
+            "B": "म्यूजिकल इंटरनल डिजिटल इनपुट",
+            "C": "मल्टीपल इंस्ट्रूमेंट डेटा इंटरफेस",
+            "D": "म्यूजिक इंटरफेस डिजिटल इनपुट"
+          },
+          "explanation": "MIDI एक प्रोटोकॉल है जो इलेक्ट्रॉनिक वाद्य यंत्रों और कंप्यूटरों को संवाद करने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-010",
+      "number": 10,
+      "question": "Which key on the keyboard is used to cancel a command or close a popup menu?",
+      "options": {
+        "A": "Alt",
+        "B": "Esc",
+        "C": "Enter",
+        "D": "Shift"
+      },
+      "answer": "B",
+      "explanation": "The Escape (Esc) key is used to abort or exit the current operation.",
+      "hash": "1e08431d9874e0f0",
+      "translations": {
+        "hi": {
+          "question": "कमांड को रद्द करने या पॉपअप मेनू को बंद करने के लिए कीबोर्ड पर किस कुंजी का उपयोग किया जाता है?",
+          "options": {
+            "A": "ऑल्ट",
+            "B": "एस्क",
+            "C": "एंटर",
+            "D": "शिफ्ट"
+          },
+          "explanation": "एस्केप (Esc) कुंजी का उपयोग वर्तमान ऑपरेशन को रद्द करने या बाहर निकलने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-011",
+      "number": 11,
+      "question": "What is the term for the set of instructions that tells the computer how to perform a task?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Data",
+        "D": "User"
+      },
+      "answer": "B",
+      "explanation": "Software refers to the collection of programs and data that operate the hardware.",
+      "hash": "15c89f379b7a5d57",
+      "translations": {
+        "hi": {
+          "question": "उन निर्देशों के समूह के लिए क्या शब्द है जो कंप्यूटर को बताते हैं कि कार्य कैसे करना है?",
+          "options": {
+            "A": "हार्डवेयर",
+            "B": "सॉफ्टवेयर",
+            "C": "डेटा",
+            "D": "उपयोगकर्ता"
+          },
+          "explanation": "सॉफ्टवेयर उन प्रोग्रामों और डेटा के संग्रह को संदर्भित करता है जो हार्डवेयर को संचालित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-012",
+      "number": 12,
+      "question": "Which of the following is an example of a hand-held computer?",
+      "options": {
+        "A": "Laptop",
+        "B": "PDA",
+        "C": "Desktop",
+        "D": "Mainframe"
+      },
+      "answer": "B",
+      "explanation": "PDA (Personal Digital Assistant) is a small mobile device that fits in the hand.",
+      "hash": "ff0d8f7bc28a7cc3",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा हैंड-हेल्ड कंप्यूटर का उदाहरण है?",
+          "options": {
+            "A": "लैपटॉप",
+            "B": "पीडीए",
+            "C": "डेस्कटॉप",
+            "D": "मेनफ्रेम"
+          },
+          "explanation": "PDA (पर्सनल डिजिटल असिस्टेंट) एक छोटा मोबाइल डिवाइस है जो हाथ में फिट हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-013",
+      "number": 13,
+      "question": "Which component of the CPU acts as a small, extremely fast temporary storage?",
+      "options": {
+        "A": "RAM",
+        "B": "Hard Drive",
+        "C": "Registers",
+        "D": "Bus"
+      },
+      "answer": "C",
+      "explanation": "Registers are located inside the CPU and provide the fastest data access.",
+      "hash": "c863f868b67ad7d4",
+      "translations": {
+        "hi": {
+          "question": "CPU का कौन सा घटक छोटे, अत्यंत तेज़ अस्थायी स्टोरेज के रूप में कार्य करता है?",
+          "options": {
+            "A": "रैम",
+            "B": "हार्ड ड्राइव",
+            "C": "रजिस्टर",
+            "D": "बस"
+          },
+          "explanation": "रजिस्टर सीपीयू के अंदर स्थित होते हैं और सबसे तेज़ डेटा एक्सेस प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-014",
+      "number": 14,
+      "question": "Which of the following is used to read handwritten or printed text and convert it into digital image?",
+      "options": {
+        "A": "MICR",
+        "B": "OMR",
+        "C": "OCR",
+        "D": "BCR"
+      },
+      "answer": "C",
+      "explanation": "Optical Character Recognition (OCR) technology translates scanned images of text into machine-encoded text.",
+      "hash": "c2f86d91061d0e26",
+      "translations": {
+        "hi": {
+          "question": "हस्तलिखित या मुद्रित टेक्स्ट को पढ़ने और उसे डिजिटल छवि में बदलने के लिए किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "एमआईसीआर",
+            "B": "ओएमआर",
+            "C": "ओसीआर",
+            "D": "बीसीआर"
+          },
+          "explanation": "ऑप्टिकल कैरेक्टर रिकग्निशन (OCR) तकनीक टेक्स्ट की स्कैन की गई छवियों को मशीन-एन्कोडेड टेक्स्ट में अनुवादित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-015",
+      "number": 15,
+      "question": "What is the maximum data storage capacity of a standard CD-ROM?",
+      "options": {
+        "A": "4.7 GB",
+        "B": "700 MB",
+        "C": "1.44 MB",
+        "D": "25 GB"
+      },
+      "answer": "B",
+      "explanation": "A standard compact disc can typically hold around 700 megabytes of data.",
+      "hash": "c0435b247da85ca4",
+      "translations": {
+        "hi": {
+          "question": "एक मानक CD-ROM की अधिकतम डेटा संग्रहण क्षमता क्या है?",
+          "options": {
+            "A": "4.7 जीबी",
+            "B": "700 एमबी",
+            "C": "1.44 एमबी",
+            "D": "25 जीबी"
+          },
+          "explanation": "एक मानक कॉम्पैक्ट डिस्क आमतौर पर लगभग 700 मेगाबाइट डेटा रख सकती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-016",
+      "number": 16,
+      "question": "What is the function of the \"Control\" key when used with the scroll wheel of a mouse in a browser?",
+      "options": {
+        "A": "Change Page",
+        "B": "Zoom In/Out",
+        "C": "Close Tab",
+        "D": "Scroll Faster"
+      },
+      "answer": "B",
+      "explanation": "Holding Ctrl while scrolling the mouse wheel adjusts the magnification of the page.",
+      "hash": "2b39e3baa97eeac9",
+      "translations": {
+        "hi": {
+          "question": "ब्राउज़र में माउस के स्क्रॉल व्हील के साथ उपयोग किए जाने पर \"कंट्रोल\" कुंजी का क्या कार्य है?",
+          "options": {
+            "A": "पेज बदलना",
+            "B": "ज़ूम इन/आउट",
+            "C": "टैब बंद करना",
+            "D": "तेजी से स्क्रॉल करना"
+          },
+          "explanation": "माउस व्हील को स्क्रॉल करते समय Ctrl दबाए रखने से पेज का मैग्निफिकेशन (ज़ूम) एडजस्ट होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-017",
+      "number": 17,
+      "question": "Which generation of computer introduced \"Time Sharing\" and \"Real-time\" operating systems?",
+      "options": {
+        "A": "First Generation",
+        "B": "Second Generation",
+        "C": "Third Generation",
+        "D": "Fourth Generation"
+      },
+      "answer": "C",
+      "explanation": "Time-sharing and multi-programming were key features of third-generation systems.",
+      "hash": "51e3beeb4d7c855a",
+      "translations": {
+        "hi": {
+          "question": "कंप्यूटर की किस पीढ़ी ने \"टाइम शेयरिंग\" और \"रियल-टाइम\" ऑपरेटिंग सिस्टम पेश किए?",
+          "options": {
+            "A": "पहली पीढ़ी",
+            "B": "दूसरी पीढ़ी",
+            "C": "तीसरी पीढ़ी",
+            "D": "चौथी पीढ़ी"
+          },
+          "explanation": "टाइम-शेयरिंग और मल्टी-प्रोग्रामिंग तीसरी पीढ़ी के सिस्टम की प्रमुख विशेषताएं थीं।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-018",
+      "number": 18,
+      "question": "What is \"Spooling\" in the context of computing?",
+      "options": {
+        "A": "A method of data encryption",
+        "B": "Sending data to a buffer for a slow device like a printer",
+        "C": "A type of virus",
+        "D": "Deleting junk files"
+      },
+      "answer": "B",
+      "explanation": "SPOOL stands for Simultaneous Peripheral Operations On-Line, often used for print jobs.",
+      "hash": "c79e559e15173a0d",
+      "translations": {
+        "hi": {
+          "question": "कंप्यूटिंग के संदर्भ में \"स्पूलिंग\" (Spooling) क्या है?",
+          "options": {
+            "A": "डेटा एन्क्रिप्शन की एक विधि",
+            "B": "प्रिंटर जैसे धीमे डिवाइस के लिए बफर को डेटा भेजना",
+            "C": "एक प्रकार का वायरस",
+            "D": "जंक फाइलों को हटाना"
+          },
+          "explanation": "SPOOL का अर्थ है साइमलटेनियस पेरिफेरल ऑपरेशन्स ऑन-लाइन, जिसका उपयोग अक्सर प्रिंट जॉब के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-019",
+      "number": 19,
+      "question": "Which logic gate returns 0 only when both inputs are 1?",
+      "options": {
+        "A": "AND",
+        "B": "NAND",
+        "C": "OR",
+        "D": "NOR"
+      },
+      "answer": "B",
+      "explanation": "NAND is the inverse of the AND gate (Not AND).",
+      "hash": "68c32d81b12e41f2",
+      "translations": {
+        "hi": {
+          "question": "कौन सा लॉजिक गेट केवल तभी 0 देता है जब दोनों इनपुट 1 हों?",
+          "options": {
+            "A": "एंड",
+            "B": "नैंड",
+            "C": "और",
+            "D": "नोर"
+          },
+          "explanation": "नैंड (NAND), एंड (AND) गेट का उल्टा (नॉट एंड) है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-020",
+      "number": 20,
+      "question": "What is the full form of DPI in printing technology?",
+      "options": {
+        "A": "Data Per Inch",
+        "B": "Dots Per Inch",
+        "C": "Digits Per Inch",
+        "D": "Density Per Inch"
+      },
+      "answer": "B",
+      "explanation": "DPI measures the resolution of a printed document or image.",
+      "hash": "3f89e5c20374a6b5",
+      "translations": {
+        "hi": {
+          "question": "प्रिंटिंग तकनीक में DPI का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "डेटा पर इंच",
+            "B": "डॉट्स पर इंच",
+            "C": "डिजिट्स पर इंच",
+            "D": "डेंसिटी पर इंच"
+          },
+          "explanation": "DPI किसी मुद्रित दस्तावेज़ या छवि के रिज़ॉल्यूशन को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-021",
+      "number": 21,
+      "question": "What is the purpose of the \"Sleep\" mode in Windows?",
+      "options": {
+        "A": "To shut down the computer",
+        "B": "To save power while keeping programs in RAM",
+        "C": "To restart the system",
+        "D": "To format the hard drive"
+      },
+      "answer": "B",
+      "explanation": "Sleep mode uses a small amount of power to keep open apps in memory for a quick resume.",
+      "hash": "93f49c2f2bb158d5",
+      "translations": {
+        "hi": {
+          "question": "विंडोज में \"स्लीप\" (Sleep) मोड का उद्देश्य क्या है?",
+          "options": {
+            "A": "कंप्यूटर को बंद करना",
+            "B": "रैम में प्रोग्राम रखते हुए बिजली बचाना",
+            "C": "सिस्टम को पुनरारंभ करना",
+            "D": "हार्ड ड्राइव को फॉर्मेट करना"
+          },
+          "explanation": "स्लीप मोड त्वरित बहाली के लिए ओपन ऐप्स को मेमोरी में रखने के लिए थोड़ी मात्रा में बिजली का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-022",
+      "number": 22,
+      "question": "Which bus is used to specify the memory location to read from or write to?",
+      "options": {
+        "A": "Data Bus",
+        "B": "Control Bus",
+        "C": "Address Bus",
+        "D": "Expansion Bus"
+      },
+      "answer": "C",
+      "explanation": "The Address Bus carries the physical address of the memory or I/O device.",
+      "hash": "2394837f218d3156",
+      "translations": {
+        "hi": {
+          "question": "पढ़ने या लिखने के लिए मेमोरी लोकेशन निर्दिष्ट करने के लिए किस बस का उपयोग किया जाता है?",
+          "options": {
+            "A": "डेटा बस",
+            "B": "कंट्रोल बस",
+            "C": "एड्रेस बस",
+            "D": "एक्सपेंशन बस"
+          },
+          "explanation": "एड्रेस बस मेमोरी या आई/ओ डिवाइस का भौतिक पता (physical address) ले जाती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-023",
+      "number": 23,
+      "question": "Which of the following is a non-volatile optical storage?",
+      "options": {
+        "A": "RAM",
+        "B": "Blue-ray Disc",
+        "C": "Hard Disk",
+        "D": "Cache"
+      },
+      "answer": "B",
+      "explanation": "Blue-ray discs are non-volatile and use laser technology for high-density storage.",
+      "hash": "7ddef94c82a26cd6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा नॉन-वोलाटाइल ऑप्टिकल स्टोरेज है?",
+          "options": {
+            "A": "रैम",
+            "B": "ब्लू-रे डिस्क",
+            "C": "हार्ड डिस्क",
+            "D": "कैश"
+          },
+          "explanation": "ब्लू-रे डिस्क नॉन-वोलाटाइल होती हैं और हाई-डेंसिटी स्टोरेज के लिए लेजर तकनीक का उपयोग करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-024",
+      "number": 24,
+      "question": "Which command-line tool is used to test the reachability of a host on a network?",
+      "options": {
+        "A": "ipconfig",
+        "B": "tracert",
+        "C": "ping",
+        "D": "nslookup"
+      },
+      "answer": "C",
+      "explanation": "Ping sends ICMP echo requests to verify if a destination is active.",
+      "hash": "9977615753caf6ab",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्क पर होस्ट की पहुंच (reachability) का परीक्षण करने के लिए किस कमांड-लाइन टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "आईपीकॉन्फ़िगर",
+            "B": "ट्रेसर्ट",
+            "C": "पिंग",
+            "D": "एनएसलुकअप"
+          },
+          "explanation": "पिंग यह सत्यापित करने के लिए ICMP प्रतिध्वनि अनुरोध भेजता है कि गंतव्य सक्रिय है या नहीं।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-025",
+      "number": 25,
+      "question": "What is the full form of ASCII?",
+      "options": {
+        "A": "American Standard Code for Information Interchange",
+        "B": "American Standard Control for Information Interchange",
+        "C": "Asian Standard Code for Information Interchange",
+        "D": "American Standard Code for International Interchange"
+      },
+      "answer": "A",
+      "explanation": "ASCII is a character encoding standard for electronic communication.",
+      "hash": "7f11bce98ad97e10",
+      "translations": {
+        "hi": {
+          "question": "ASCII का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "अमेरिकन स्टैंडर्ड कोड फॉर इंफॉर्मेशन इंटरचेंज",
+            "B": "अमेरिकन स्टैंडर्ड कंट्रोल फॉर इंफॉर्मेशन इंटरचेंज",
+            "C": "एशियन स्टैंडर्ड कोड फॉर इंफॉर्मेशन इंटरचेंज",
+            "D": "अमेरिकन स्टैंडर्ड कोड फॉर इंटरनेशनल इंटरचेंज"
+          },
+          "explanation": "ASCII इलेक्ट्रॉनिक संचार के लिए एक कैरेक्टर एन्कोडिंग मानक है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-026",
+      "number": 26,
+      "question": "Which type of RAM needs to be refreshed thousands of times per second?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "ROM",
+        "D": "EPROM"
+      },
+      "answer": "B",
+      "explanation": "Dynamic RAM uses capacitors to store bits, which lose charge and must be constantly refreshed.",
+      "hash": "9a48c8a767f47e38",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार की रैम को प्रति सेकंड हजारों बार रिफ्रेश करने की आवश्यकता होती है?",
+          "options": {
+            "A": "स्टैटिक रैम",
+            "B": "डायनेमिक रैम",
+            "C": "रोम",
+            "D": "ईपीरोम"
+          },
+          "explanation": "डायनेमिक रैम बिट्स को स्टोर करने के लिए कैपेसिटर का उपयोग करती है, जो चार्ज खो देते हैं और उन्हें लगातार रिफ्रेश किया जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-027",
+      "number": 27,
+      "question": "What is \"Firmware\" usually stored in?",
+      "options": {
+        "A": "RAM",
+        "B": "Hard Drive",
+        "C": "Flash ROM",
+        "D": "DVD"
+      },
+      "answer": "C",
+      "explanation": "Firmware provides the low-level control for hardware and is stored in non-volatile chips.",
+      "hash": "e946c6ea7474feae",
+      "translations": {
+        "hi": {
+          "question": "\"फर्मवेयर\" आमतौर पर किसमें स्टोर किया जाता है?",
+          "options": {
+            "A": "रैम",
+            "B": "हार्ड ड्राइव",
+            "C": "फ्लैश रोम",
+            "D": "डीवीडी"
+          },
+          "explanation": "फर्मवेयर हार्डवेयर के लिए लो-लेवल कंट्रोल प्रदान करता है और नॉन-वोलाटाइल चिप्स में स्टोर किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-028",
+      "number": 28,
+      "question": "Which logic gate is often referred to as an \"Inverter\"?",
+      "options": {
+        "A": "OR",
+        "B": "AND",
+        "C": "NOT",
+        "D": "XOR"
+      },
+      "answer": "C",
+      "explanation": "A NOT gate reverses the input; if input is 1, output is 0 and vice-versa.",
+      "hash": "78c1d6b8bc83739f",
+      "translations": {
+        "hi": {
+          "question": "किस लॉजिक गेट को अक्सर \"इनवर्टर\" कहा जाता है?",
+          "options": {
+            "A": "और",
+            "B": "एंड",
+            "C": "नॉट",
+            "D": "एक्स-ओर"
+          },
+          "explanation": "एक नॉट (NOT) गेट इनपुट को उलट देता है; यदि इनपुट 1 है, तो आउटपुट 0 है और इसके विपरीत।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-029",
+      "number": 29,
+      "question": "What is the base of the Octal number system?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "Octal uses 8 digits from 0 to 7.",
+      "hash": "f1fe996097a66c82",
+      "translations": {
+        "hi": {
+          "question": "ऑक्टल संख्या प्रणाली का आधार क्या है?",
+          "options": {
+            "A": "2",
+            "B": "8",
+            "C": "10",
+            "D": "16"
+          },
+          "explanation": "ऑक्टल 0 से 7 तक 8 अंकों का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-fundamentals-04-030",
+      "number": 30,
+      "question": "Which of the following is a sequence of bits that represents a single character?",
+      "options": {
+        "A": "Bit",
+        "B": "Byte",
+        "C": "Nibble",
+        "D": "Block"
+      },
+      "answer": "B",
+      "explanation": "A byte (8 bits) is the standard unit used to represent a letter, number, or symbol.",
+      "hash": "a025e61e2d8d1e70",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा बिट्स का एक अनुक्रम है जो एक एकल वर्ण (character) का प्रतिनिधित्व करता है?",
+          "options": {
+            "A": "बिट",
+            "B": "बाइट",
+            "C": "निबल",
+            "D": "ब्लॉक"
+          },
+          "explanation": "एक बाइट (8 बिट्स) एक अक्षर, संख्या या प्रतीक का प्रतिनिधित्व करने के लिए उपयोग की जाने वाली मानक इकाई है।"
+        }
+      }
+    }
+  ]
+}

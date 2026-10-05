@@ -1,0 +1,787 @@
+{
+  "subject": "Software Engineering",
+  "set": 1,
+  "title": "Software Engineering Mock Test 1",
+  "questions": [
+    {
+      "id": "software-engineering-01-001",
+      "number": 1,
+      "question": "What is the primary focus of the Spiral Model?",
+      "options": {
+        "A": "Rapid Prototyping",
+        "B": "Risk Analysis",
+        "C": "Cost Management",
+        "D": "Manual Testing"
+      },
+      "answer": "B",
+      "explanation": "The Spiral model is a risk-driven process model generator for software projects.",
+      "hash": "a1d66c9a0e49136c",
+      "translations": {
+        "hi": {
+          "question": "स्पाइरल मॉडल का प्राथमिक फोकस क्या है?",
+          "options": {
+            "A": "रैपिड प्रोटोटाइपिंग",
+            "B": "जोखिम विश्लेषण",
+            "C": "लागत प्रबंधन",
+            "D": "मैनुअल टेस्टिंग"
+          },
+          "explanation": "स्पाइरल मॉडल सॉफ्टवेयर प्रोजेक्ट्स के लिए एक जोखिम-संचालित प्रक्रिया मॉडल जनरेटर है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-002",
+      "number": 2,
+      "question": "Which model is also known as the Linear Sequential Model?",
+      "options": {
+        "A": "Spiral Model",
+        "B": "Waterfall Model",
+        "C": "Prototype Model",
+        "D": "Incremental Model"
+      },
+      "answer": "B",
+      "explanation": "The Waterfall model follows a systematic, sequential approach to software development.",
+      "hash": "9289c8310c3574cb",
+      "translations": {
+        "hi": {
+          "question": "किस मॉडल को लीनियर सीक्वेंशियल मॉडल के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "स्पाइरल मॉडल",
+            "B": "वॉटरफॉल मॉडल",
+            "C": "प्रोटोटाइप मॉडल",
+            "D": "इंक्रीमेंटल मॉडल"
+          },
+          "explanation": "वॉटरफॉल मॉडल सॉफ्टवेयर विकास के लिए एक व्यवस्थित, अनुक्रमिक दृष्टिकोण का पालन करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-003",
+      "number": 3,
+      "question": "Coupling is a measure of the degree of interdependence between?",
+      "options": {
+        "A": "Lines of code",
+        "B": "Modules",
+        "C": "Requirements",
+        "D": "Test cases"
+      },
+      "answer": "B",
+      "explanation": "Coupling represents the strength of the relationships between different modules.",
+      "hash": "3c9f69d8c28ac227",
+      "translations": {
+        "hi": {
+          "question": "कपलिंग किसके बीच परस्पर निर्भरता की डिग्री का माप है?",
+          "options": {
+            "A": "कोड की लाइनें",
+            "B": "मॉड्यूल",
+            "C": "आवश्यकताएं",
+            "D": "टेस्ट केस"
+          },
+          "explanation": "कपलिंग विभिन्न मॉड्यूल के बीच संबंधों की मजबूती का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-004",
+      "number": 4,
+      "question": "Which type of cohesion is considered the best or strongest?",
+      "options": {
+        "A": "Logical cohesion",
+        "B": "Temporal cohesion",
+        "C": "Functional cohesion",
+        "D": "Coincidental cohesion"
+      },
+      "answer": "C",
+      "explanation": "Functional cohesion occurs when all elements of a module contribute to a single task.",
+      "hash": "e5a70ab2fe3e2db2",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के सामंजस्य (कोहेशन) को सबसे अच्छा या सबसे मजबूत माना जाता है?",
+          "options": {
+            "A": "लॉजिकल कोहेशन",
+            "B": "टेम्पोरल कोहेशन",
+            "C": "फंक्शनल कोहेशन",
+            "D": "कोइंसीडेंटल कोहेशन"
+          },
+          "explanation": "फंक्शनल कोहेशन तब होता है जब एक मॉड्यूल के सभी तत्व एक ही कार्य में योगदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-005",
+      "number": 5,
+      "question": "Which phase of the SDLC involves identifying the system requirements?",
+      "options": {
+        "A": "Design",
+        "B": "Implementation",
+        "C": "Requirement Analysis",
+        "D": "Testing"
+      },
+      "answer": "C",
+      "explanation": "Requirement Analysis is the first step where user needs are gathered and documented.",
+      "hash": "7ad53e8891503f64",
+      "translations": {
+        "hi": {
+          "question": "SDLC के किस चरण में सिस्टम आवश्यकताओं की पहचान करना शामिल है?",
+          "options": {
+            "A": "डिजाइन",
+            "B": "कार्यान्वयन",
+            "C": "आवश्यकता विश्लेषण",
+            "D": "परीक्षण"
+          },
+          "explanation": "आवश्यकता विश्लेषण पहला कदम है जहां उपयोगकर्ता की जरूरतों को एकत्र और प्रलेखित किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-006",
+      "number": 6,
+      "question": "Black-box testing is also known as?",
+      "options": {
+        "A": "Structural testing",
+        "B": "Functional testing",
+        "C": "Glass box testing",
+        "D": "Unit testing"
+      },
+      "answer": "B",
+      "explanation": "Black-box testing focuses on the output based on given inputs without knowing internal code.",
+      "hash": "db8c78ad3a2b35da",
+      "translations": {
+        "hi": {
+          "question": "ब्लैक-बॉक्स टेस्टिंग को इस नाम से भी जाना जाता है?",
+          "options": {
+            "A": "स्ट्रक्चरल टेस्टिंग",
+            "B": "फंक्शनल टेस्टिंग",
+            "C": "ग्लास बॉक्स टेस्टिंग",
+            "D": "यूनिट टेस्टिंग"
+          },
+          "explanation": "ब्लैक-बॉक्स टेस्टिंग आंतरिक कोड को जाने बिना दिए गए इनपुट के आधार पर आउटपुट पर केंद्रित है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-007",
+      "number": 7,
+      "question": "SRS stands for?",
+      "options": {
+        "A": "Software Requirement Specification",
+        "B": "System Requirement Solution",
+        "C": "Software Resource Source",
+        "D": "Software Reliability System"
+      },
+      "answer": "A",
+      "explanation": "SRS is a document that describes what the software is expected to do.",
+      "hash": "9c032d9b0a6dd7e7",
+      "translations": {
+        "hi": {
+          "question": "SRS का अर्थ क्या है?",
+          "options": {
+            "A": "सॉफ्टवेयर रिक्वायरमेंट स्पेसिफिकेशन",
+            "B": "सिस्टम रिक्वायरमेंट सॉल्यूशन",
+            "C": "सॉफ्टवेयर रिसोर्स सोर्स",
+            "D": "सॉफ्टवेयर रिलायबिलिटी सिस्टम"
+          },
+          "explanation": "SRS एक दस्तावेज है जो वर्णन करता है कि सॉफ्टवेयर से क्या करने की अपेक्षा की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-008",
+      "number": 8,
+      "question": "Which of the following is NOT a size metric for software?",
+      "options": {
+        "A": "LOC",
+        "B": "Function Points",
+        "C": "Cyclomatic Complexity",
+        "D": "Object Points"
+      },
+      "answer": "C",
+      "explanation": "Cyclomatic complexity is a measure of logical complexity, not physical size.",
+      "hash": "388647c5d16ebf9f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सॉफ्टवेयर के लिए साइज मेट्रिक नहीं है?",
+          "options": {
+            "A": "एलओसी",
+            "B": "फंक्शन पॉइंट्स",
+            "C": "साइक्लोमैटिक कॉम्प्लेक्सिटी",
+            "D": "ऑब्जेक्ट पॉइंट्स"
+          },
+          "explanation": "साइक्लोमैटिक कॉम्प्लेक्सिटी तार्किक जटिलता का माप है, न कि भौतिक आकार का।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-009",
+      "number": 9,
+      "question": "In the context of software maintenance, what is 'Adaptive' maintenance?",
+      "options": {
+        "A": "Fixing bugs",
+        "B": "Improving performance",
+        "C": "Adjusting to changes in environment",
+        "D": "Adding new features"
+      },
+      "answer": "C",
+      "explanation": "Adaptive maintenance involves modifying software to interface with a changing environment.",
+      "hash": "c2462f0478e215aa",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर रखरखाव के संदर्भ में 'एडेप्टिव' रखरखाव क्या है?",
+          "options": {
+            "A": "बग्स को ठीक करना",
+            "B": "प्रदर्शन में सुधार",
+            "C": "वातावरण में बदलाव के लिए समायोजन",
+            "D": "नई सुविधाएँ जोड़ना"
+          },
+          "explanation": "एडेप्टिव रखरखाव में बदलते वातावरण के साथ इंटरफेस करने के लिए सॉफ्टवेयर को संशोधित करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-010",
+      "number": 10,
+      "question": "Which tool is used for visual representation of the system architecture?",
+      "options": {
+        "A": "DFD",
+        "B": "Compiler",
+        "C": "Debugger",
+        "D": "Linker"
+      },
+      "answer": "A",
+      "explanation": "Data Flow Diagrams (DFD) show how data moves through an information system.",
+      "hash": "104bea2def59dc5a",
+      "translations": {
+        "hi": {
+          "question": "सिस्टम आर्किटेक्चर के दृश्य प्रतिनिधित्व के लिए किस टूल का उपयोग किया जाता है?",
+          "options": {
+            "A": "डीएफडी",
+            "B": "कंपाइलर",
+            "C": "डिबगर",
+            "D": "लिंकर"
+          },
+          "explanation": "डेटा फ्लो डायग्राम (DFD) दिखाते हैं कि डेटा एक सूचना प्रणाली के माध्यम से कैसे चलता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-011",
+      "number": 11,
+      "question": "RAD stands for?",
+      "options": {
+        "A": "Relative Application Development",
+        "B": "Rapid Application Development",
+        "C": "Rapid Application Design",
+        "D": "Recent Application Development"
+      },
+      "answer": "B",
+      "explanation": "RAD is an adaptive software development model based on prototyping.",
+      "hash": "2ee4d929dd2d22c2",
+      "translations": {
+        "hi": {
+          "question": "RAD का अर्थ क्या है?",
+          "options": {
+            "A": "रिलेटिव एप्लीकेशन डेवलपमेंट",
+            "B": "रैपिड एप्लीकेशन डेवलपमेंट",
+            "C": "रैपिड एप्लीकेशन डिजाइन",
+            "D": "रिसेंट एप्लीकेशन डेवलपमेंट"
+          },
+          "explanation": "RAD प्रोटोटाइपिंग पर आधारित एक अनुकूलन योग्य सॉफ्टवेयर विकास मॉडल है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-012",
+      "number": 12,
+      "question": "Which of the following is a type of White-box testing?",
+      "options": {
+        "A": "Boundary Value Analysis",
+        "B": "Path Testing",
+        "C": "Equivalence Partitioning",
+        "D": "Error Guessing"
+      },
+      "answer": "B",
+      "explanation": "Path testing examines the logic and flow of the program code.",
+      "hash": "39bc42790a7f8f8d",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा व्हाइट-बॉक्स टेस्टिंग का एक प्रकार है?",
+          "options": {
+            "A": "बाउंड्री वैल्यू एनालिसिस",
+            "B": "पाथ टेस्टिंग",
+            "C": "इक्विवेलेंस पार्टिशनिंग",
+            "D": "एरर गेसिंग"
+          },
+          "explanation": "पाथ टेस्टिंग प्रोग्राम कोड के तर्क और प्रवाह की जांच करती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-013",
+      "number": 13,
+      "question": "Software Reliability is defined with respect to?",
+      "options": {
+        "A": "Size",
+        "B": "Time",
+        "C": "Cost",
+        "D": "Developer experience"
+      },
+      "answer": "B",
+      "explanation": "Reliability is the probability of failure-free operation for a specified time.",
+      "hash": "b848c1c08d56a070",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर विश्वसनीयता को किसके संबंध में परिभाषित किया गया है?",
+          "options": {
+            "A": "साइज",
+            "B": "समय",
+            "C": "लागत",
+            "D": "डेवलपर अनुभव"
+          },
+          "explanation": "विश्वसनीयता एक निर्दिष्ट समय के लिए विफलता-मुक्त संचालन की संभावना है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-014",
+      "number": 14,
+      "question": "Who proposed the Spiral Model?",
+      "options": {
+        "A": "Barry Boehm",
+        "B": "Roger Pressman",
+        "C": "Ian Sommerville",
+        "D": "Watts Humphrey"
+      },
+      "answer": "A",
+      "explanation": "Barry Boehm formally described the Spiral Model in 1986.",
+      "hash": "0e69b156cdc8839c",
+      "translations": {
+        "hi": {
+          "question": "स्पाइरल मॉडल का प्रस्ताव किसने दिया था?",
+          "options": {
+            "A": "बैरी बोहम",
+            "B": "रोजर प्रेसमैन",
+            "C": "इयान समरविले",
+            "D": "वाट्स हम्फ्रे"
+          },
+          "explanation": "बैरी बोहम ने 1986 में औपचारिक रूप से स्पाइरल मॉडल का वर्णन किया था।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-015",
+      "number": 15,
+      "question": "What is the main goal of Quality Assurance?",
+      "options": {
+        "A": "Finding bugs",
+        "B": "Preventing defects",
+        "C": "Writing code",
+        "D": "Hiring developers"
+      },
+      "answer": "B",
+      "explanation": "QA focuses on improving processes to prevent defects from occurring in the first place.",
+      "hash": "3aae1249dfc1c641",
+      "translations": {
+        "hi": {
+          "question": "गुणवत्ता आश्वासन (QA) का मुख्य लक्ष्य क्या है?",
+          "options": {
+            "A": "बग्स ढूंढना",
+            "B": "दोषों को रोकना",
+            "C": "कोड लिखना",
+            "D": "डेवलपर्स को काम पर रखना"
+          },
+          "explanation": "QA मुख्य रूप से दोषों को उत्पन्न होने से रोकने के लिए प्रक्रियाओं में सुधार करने पर ध्यान केंद्रित करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-016",
+      "number": 16,
+      "question": "What does 'Agile' software development emphasize?",
+      "options": {
+        "A": "Documentation",
+        "B": "Contract negotiation",
+        "C": "Iterative development and collaboration",
+        "D": "Following a fixed plan"
+      },
+      "answer": "C",
+      "explanation": "Agile promotes continuous iteration of development and testing throughout the SDLC.",
+      "hash": "9ad57a7202788034",
+      "translations": {
+        "hi": {
+          "question": "'एजाइल' सॉफ्टवेयर विकास किस पर जोर देता है?",
+          "options": {
+            "A": "प्रलेखन",
+            "B": "अनुबंध वार्ता",
+            "C": "पुनरावृत्त विकास और सहयोग",
+            "D": "एक निश्चित योजना का पालन करना"
+          },
+          "explanation": "एजाइल पूरे SDLC में विकास और परीक्षण के निरंतर पुनरावृत्ति को बढ़ावा देता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-017",
+      "number": 17,
+      "question": "Which diagram shows the relationship between classes in UML?",
+      "options": {
+        "A": "Sequence Diagram",
+        "B": "Class Diagram",
+        "C": "State Diagram",
+        "D": "Activity Diagram"
+      },
+      "answer": "B",
+      "explanation": "Class diagrams describe the structure of a system by showing its classes and their relationships.",
+      "hash": "2d93bc65c925ebae",
+      "translations": {
+        "hi": {
+          "question": "UML में क्लास के बीच संबंध कौन सा आरेख दिखाता है?",
+          "options": {
+            "A": "सीक्वेंस डायग्राम",
+            "B": "क्लास डायग्राम",
+            "C": "स्टेट डायग्राम",
+            "D": "एक्टिविटी डायग्राम"
+          },
+          "explanation": "क्लास डायग्राम सिस्टम की क्लास और उनके संबंधों को दिखाकर उसकी संरचना का वर्णन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-018",
+      "number": 18,
+      "question": "COCOMO stands for?",
+      "options": {
+        "A": "Common Cost Model",
+        "B": "Constructive Cost Model",
+        "C": "Computer Cost Model",
+        "D": "Composition Cost Model"
+      },
+      "answer": "B",
+      "explanation": "COCOMO is a regression model used to estimate software project cost and effort.",
+      "hash": "90a70bd6f9dbfa39",
+      "translations": {
+        "hi": {
+          "question": "COCOMO का अर्थ क्या है?",
+          "options": {
+            "A": "कॉमन कॉस्ट मॉडल",
+            "B": "कंस्ट्रक्टिव कॉस्ट मॉडल",
+            "C": "कंप्यूटर कॉस्ट मॉडल",
+            "D": "कंपोजिशन कॉस्ट मॉडल"
+          },
+          "explanation": "COCOMO एक रिग्रेशन मॉडल है जिसका उपयोग सॉफ्टवेयर प्रोजेक्ट लागत और प्रयास के अनुमान के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-019",
+      "number": 19,
+      "question": "The process of transforming a design into code is called?",
+      "options": {
+        "A": "Analysis",
+        "B": "Testing",
+        "C": "Implementation",
+        "D": "Maintenance"
+      },
+      "answer": "C",
+      "explanation": "Implementation or coding is the phase where the actual software is built.",
+      "hash": "d34578970f05838e",
+      "translations": {
+        "hi": {
+          "question": "डिजाइन को कोड में बदलने की प्रक्रिया क्या कहलाती है?",
+          "options": {
+            "A": "विश्लेषण",
+            "B": "परीक्षण",
+            "C": "कार्यान्वयन",
+            "D": "रखरखाव"
+          },
+          "explanation": "कार्यान्वयन या कोडिंग वह चरण है जहाँ वास्तविक सॉफ्टवेयर बनाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-020",
+      "number": 20,
+      "question": "Alpha testing is done by?",
+      "options": {
+        "A": "Customers",
+        "B": "Developers/In-house testers",
+        "C": "Independent agency",
+        "D": "Government"
+      },
+      "answer": "B",
+      "explanation": "Alpha testing is performed at the developer's site before releasing to customers.",
+      "hash": "d29a69c5b823a3ba",
+      "translations": {
+        "hi": {
+          "question": "अल्फा टेस्टिंग किसके द्वारा की जाती है?",
+          "options": {
+            "A": "ग्राहकों द्वारा",
+            "B": "डेवलपर्स/इन-हाउस टेस्टर्स द्वारा",
+            "C": "स्वतंत्र एजेंसी द्वारा",
+            "D": "सरकार द्वारा"
+          },
+          "explanation": "ग्राहकों को जारी करने से पहले डेवलपर की साइट पर अल्फा टेस्टिंग की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-021",
+      "number": 21,
+      "question": "Validation is?",
+      "options": {
+        "A": "Building the product right",
+        "B": "Building the right product",
+        "C": "Checking syntax",
+        "D": "Unit testing"
+      },
+      "answer": "B",
+      "explanation": "Validation ensures that the software meets the actual needs of the user.",
+      "hash": "085f02dd2024d243",
+      "translations": {
+        "hi": {
+          "question": "वेलिडेशन क्या है?",
+          "options": {
+            "A": "उत्पाद को सही तरीके से बनाना",
+            "B": "सही उत्पाद बनाना",
+            "C": "सिंटैक्स की जाँच करना",
+            "D": "यूनिट टेस्टिंग"
+          },
+          "explanation": "वेलिडेशन यह सुनिश्चित करता है कि सॉफ्टवेयर उपयोगकर्ता की वास्तविक जरूरतों को पूरा करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-022",
+      "number": 22,
+      "question": "Verification is?",
+      "options": {
+        "A": "Building the product right",
+        "B": "Building the right product",
+        "C": "Testing by users",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Verification ensures that the software meets specified requirements.",
+      "hash": "2cfbd8e93e7dbeef",
+      "translations": {
+        "hi": {
+          "question": "सत्यापन (वेरिफिकेशन) क्या है?",
+          "options": {
+            "A": "उत्पाद को सही तरीके से बनाना",
+            "B": "सही उत्पाद बनाना",
+            "C": "उपयोगकर्ताओं द्वारा परीक्षण",
+            "D": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "सत्यापन यह सुनिश्चित करता है कि सॉफ्टवेयर निर्दिष्ट आवश्यकताओं को पूरा करता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-023",
+      "number": 23,
+      "question": "Which model is suitable for small projects with clear requirements?",
+      "options": {
+        "A": "Waterfall Model",
+        "B": "Spiral Model",
+        "C": "Agile Model",
+        "D": "Prototyping"
+      },
+      "answer": "A",
+      "explanation": "Waterfall is best when requirements are well-understood and unlikely to change.",
+      "hash": "54278fadc3eb6277",
+      "translations": {
+        "hi": {
+          "question": "स्पष्ट आवश्यकताओं वाले छोटे प्रोजेक्ट्स के लिए कौन सा मॉडल उपयुक्त है?",
+          "options": {
+            "A": "वॉटरफॉल मॉडल",
+            "B": "स्पाइरल मॉडल",
+            "C": "एजाइल मॉडल",
+            "D": "प्रोटोटाइपिंग"
+          },
+          "explanation": "वॉटरफॉल सबसे अच्छा होता है जब आवश्यकताओं को अच्छी तरह से समझा जाता है और बदलाव की संभावना कम होती है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-024",
+      "number": 24,
+      "question": "Which maintenance type fixes errors discovered after release?",
+      "options": {
+        "A": "Perfective",
+        "B": "Corrective",
+        "C": "Adaptive",
+        "D": "Preventive"
+      },
+      "answer": "B",
+      "explanation": "Corrective maintenance is performed to fix bugs found during use.",
+      "hash": "f87f8a1427df498e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा रखरखाव प्रकार रिलीज के बाद खोजी गई त्रुटियों को ठीक करता है?",
+          "options": {
+            "A": "परफेक्टिव",
+            "B": "करेक्टिव",
+            "C": "एडेप्टिव",
+            "D": "प्रिवेंटिव"
+          },
+          "explanation": "उपयोग के दौरान पाए गए बग्स को ठीक करने के लिए करेक्टिव रखरखाव किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-025",
+      "number": 25,
+      "question": "A formal review of a software design or code is known as?",
+      "options": {
+        "A": "Inspection",
+        "B": "Debugging",
+        "C": "Compilation",
+        "D": "Refactoring"
+      },
+      "answer": "A",
+      "explanation": "Inspections are formal peer reviews intended to find defects.",
+      "hash": "4bb7baea87fa7db4",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर डिजाइन या कोड की औपचारिक समीक्षा को क्या कहा जाता है?",
+          "options": {
+            "A": "निरीक्षण",
+            "B": "डिबगिंग",
+            "C": "संकलन",
+            "D": "रिफैक्टरिंग"
+          },
+          "explanation": "निरीक्षण औपचारिक सहकर्मी समीक्षाएं हैं जिनका उद्देश्य दोषों को ढूंढना है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-026",
+      "number": 26,
+      "question": "Cyclomatic complexity is calculated using?",
+      "options": {
+        "A": "E-N+2P",
+        "B": "E+N-P",
+        "C": "E-N+P",
+        "D": "E+N+2P"
+      },
+      "answer": "A",
+      "explanation": "In a control flow graph, M = E - N + 2P where E is edges and N is nodes.",
+      "hash": "3cccd9d73cde51a8",
+      "translations": {
+        "hi": {
+          "question": "साइक्लोमैटिक कॉम्प्लेक्सिटी की गणना किसके द्वारा की जाती है?",
+          "options": {
+            "A": "E-N+2P",
+            "B": "E+N-P",
+            "C": "E-N+P",
+            "D": "E+N+2P"
+          },
+          "explanation": "कंट्रोल फ्लो ग्राफ में, M = E - N + 2P होता है जहाँ E किनारे हैं और N नोड्स हैं।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-027",
+      "number": 27,
+      "question": "Modularity in software engineering means?",
+      "options": {
+        "A": "Using many computers",
+        "B": "Dividing a system into smaller parts",
+        "C": "Increasing the cost",
+        "D": "Reducing the size of code"
+      },
+      "answer": "B",
+      "explanation": "Modularity is the degree to which a system's components may be separated and recombined.",
+      "hash": "f563cfb0b76599d0",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग में मॉड्युलैरिटी का क्या अर्थ है?",
+          "options": {
+            "A": "कई कंप्यूटरों का उपयोग करना",
+            "B": "सिस्टम को छोटे भागों में विभाजित करना",
+            "C": "लागत बढ़ाना",
+            "D": "कोड का आकार कम करना"
+          },
+          "explanation": "मॉड्युलैरिटी वह डिग्री है जिस तक सिस्टम के घटकों को अलग और पुनर्संयोजित किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-028",
+      "number": 28,
+      "question": "Beta testing is performed by?",
+      "options": {
+        "A": "Developers",
+        "B": "End users",
+        "C": "Compilers",
+        "D": "Managers"
+      },
+      "answer": "B",
+      "explanation": "Beta testing is the second phase of testing in which a sampling of the intended audience tries the product out.",
+      "hash": "7fec4b7cc3af44a8",
+      "translations": {
+        "hi": {
+          "question": "बीटा टेस्टिंग किसके द्वारा की जाती है?",
+          "options": {
+            "A": "डेवलपर्स द्वारा",
+            "B": "अंत उपयोगकर्ताओं द्वारा",
+            "C": "कंपाइलर्स द्वारा",
+            "D": "प्रबंधकों द्वारा"
+          },
+          "explanation": "बीटा टेस्टिंग परीक्षण का दूसरा चरण है जिसमें लक्षित दर्शकों का एक नमूना उत्पाद को आजमाता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-029",
+      "number": 29,
+      "question": "What is the first step in the software development life cycle?",
+      "options": {
+        "A": "Coding",
+        "B": "Testing",
+        "C": "Requirement Gathering",
+        "D": "Design"
+      },
+      "answer": "C",
+      "explanation": "The first step is always to understand and gather what the user wants.",
+      "hash": "0aab580cd2eca5c0",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर विकास जीवन चक्र में पहला कदम क्या है?",
+          "options": {
+            "A": "कोडिंग",
+            "B": "परीक्षण",
+            "C": "आवश्यकता संग्रहण",
+            "D": "डिजाइन"
+          },
+          "explanation": "पहला कदम हमेशा यह समझना और इकट्ठा करना होता है कि उपयोगकर्ता क्या चाहता है।"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-01-030",
+      "number": 30,
+      "question": "Software engineering is a/an?",
+      "options": {
+        "A": "Art",
+        "B": "Science",
+        "C": "Engineering discipline",
+        "D": "All of the above"
+      },
+      "answer": "C",
+      "explanation": "It is an engineering discipline concerned with all aspects of software production.",
+      "hash": "4fb3c4f29d146e4f",
+      "translations": {
+        "hi": {
+          "question": "सॉफ्टवेयर इंजीनियरिंग एक है?",
+          "options": {
+            "A": "कला",
+            "B": "विज्ञान",
+            "C": "इंजीनियरिंग अनुशासन",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "यह एक इंजीनियरिंग अनुशासन है जो सॉफ्टवेयर उत्पादन के सभी पहलुओं से संबंधित है।"
+        }
+      }
+    }
+  ]
+}

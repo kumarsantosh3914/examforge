@@ -1,0 +1,787 @@
+{
+  "subject": "Computer Networks",
+  "set": 2,
+  "title": "Computer Networks Mock Test 2",
+  "questions": [
+    {
+      "id": "computer-networks-02-001",
+      "number": 1,
+      "question": "Which layers of the OSI model are combined to form the Application layer in the TCP/IP model?",
+      "options": {
+        "A": "Application, Presentation, Session",
+        "B": "Application, Transport, Network",
+        "C": "Presentation, Session, Transport",
+        "D": "Physical, Data Link, Network"
+      },
+      "answer": "A",
+      "explanation": "The TCP/IP Application layer encompasses the functions of the top three OSI layers.",
+      "hash": "35b403af19d03287",
+      "translations": {
+        "hi": {
+          "question": "TCP/IP मॉडल में एप्लीकेशन लेयर बनाने के लिए OSI मॉडल की किन परतों को जोड़ा जाता है?",
+          "options": {
+            "A": "एप्लीकेशन, प्रेजेंटेशन, सेशन",
+            "B": "एप्लीकेशन, ट्रांसपोर्ट, नेटवर्क",
+            "C": "प्रेजेंटेशन, सेशन, ट्रांसपोर्ट",
+            "D": "फिजिकल, डेटा लिंक, नेटवर्क"
+          },
+          "explanation": "TCP/IP एप्लीकेशन लेयर में शीर्ष तीन OSI परतों के कार्य शामिल होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-002",
+      "number": 2,
+      "question": "What is the purpose of the Flow Control mechanism in networking?",
+      "options": {
+        "A": "To encrypt data",
+        "B": "To prevent the sender from overwhelming the receiver",
+        "C": "To find the shortest path",
+        "D": "To detect physical cable faults"
+      },
+      "answer": "B",
+      "explanation": "Flow control manages the rate of data transmission between two nodes to prevent buffer overflow.",
+      "hash": "579654e18cb7a8f7",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में फ्लो कंट्रोल मैकेनिज्म का उद्देश्य क्या है?",
+          "options": {
+            "A": "डेटा एन्क्रिप्ट करने के लिए",
+            "B": "सेंडर को रिसीवर पर हावी होने से रोकने के लिए",
+            "C": "सबसे छोटा रास्ता खोजने के लिए",
+            "D": "फिजिकल केबल दोषों का पता लगाने के लिए"
+          },
+          "explanation": "फ्लो कंट्रोल बफर ओवरफ्लो को रोकने के लिए दो नोड्स के बीच डेटा ट्रांसमिशन की दर को मैनेज करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-003",
+      "number": 3,
+      "question": "Which protocol is used by the 'traceroute' command to track the path of a packet?",
+      "options": {
+        "A": "TCP",
+        "B": "ICMP",
+        "C": "DHCP",
+        "D": "FTP"
+      },
+      "answer": "B",
+      "explanation": "Traceroute uses ICMP Echo Request packets with increasing TTL values.",
+      "hash": "fe9d9fcd91f4770d",
+      "translations": {
+        "hi": {
+          "question": "पैकेट के पथ को ट्रैक करने के लिए 'traceroute' कमांड द्वारा किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "आईसीएमपी",
+            "C": "डीएचसीपी",
+            "D": "एफटीपी"
+          },
+          "explanation": "Traceroute बढ़ते हुए TTL मानों के साथ ICMP इको रिक्वेस्ट पैकेट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-004",
+      "number": 4,
+      "question": "Which IP address is used for loopback testing?",
+      "options": {
+        "A": "127.0.0.1",
+        "B": "192.168.0.1",
+        "C": "255.255.255.255",
+        "D": "0.0.0.0"
+      },
+      "answer": "A",
+      "explanation": "127.0.0.1 is the standard loopback address to test the local network interface.",
+      "hash": "0a3bd791c169d48d",
+      "translations": {
+        "hi": {
+          "question": "लूपबैक टेस्टिंग के लिए किस IP एड्रेस का उपयोग किया जाता है?",
+          "options": {
+            "A": "127.0.0.1",
+            "B": "192.168.0.1",
+            "C": "255.255.255.255",
+            "D": "0.0.0.0"
+          },
+          "explanation": "127.0.0.1 लोकल नेटवर्क इंटरफेस का परीक्षण करने के लिए मानक लूपबैक एड्रेस है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-005",
+      "number": 5,
+      "question": "What is the size of the MAC address in bytes?",
+      "options": {
+        "A": "4 bytes",
+        "B": "6 bytes",
+        "C": "8 bytes",
+        "D": "16 bytes"
+      },
+      "answer": "B",
+      "explanation": "A MAC address is 48 bits long, which is equal to 6 bytes.",
+      "hash": "fdf60f64913c3fc3",
+      "translations": {
+        "hi": {
+          "question": "बाइट्स में MAC एड्रेस का आकार क्या है?",
+          "options": {
+            "A": "4 बाइट्स",
+            "B": "6 बाइट्स",
+            "C": "8 बाइट्स",
+            "D": "16 बाइट्स"
+          },
+          "explanation": "MAC एड्रेस 48 बिट लंबा होता है, जो 6 बाइट्स के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-006",
+      "number": 6,
+      "question": "In a CSMA/CD network, what happens when a collision is detected?",
+      "options": {
+        "A": "Data is lost forever",
+        "B": "Nodes stop transmitting and wait a random amount of time",
+        "C": "The hub deletes the packet",
+        "D": "The receiver sends a NACK"
+      },
+      "answer": "B",
+      "explanation": "CSMA/CD uses a back-off algorithm where stations wait a random time before retransmitting.",
+      "hash": "e45d9dfefb30d9ff",
+      "translations": {
+        "hi": {
+          "question": "CSMA/CD नेटवर्क में, टकराव (collision) का पता चलने पर क्या होता है?",
+          "options": {
+            "A": "डेटा हमेशा के लिए खो जाता है",
+            "B": "नोड्स ट्रांसमिट करना बंद कर देते हैं और रैंडम समय तक प्रतीक्षा करते हैं",
+            "C": "हब पैकेट को हटा देता है",
+            "D": "रिसीवर एक NACK भेजता है"
+          },
+          "explanation": "CSMA/CD बैक-ऑफ एल्गोरिदम का उपयोग करता है जहाँ स्टेशन दोबारा ट्रांसमिट करने से पहले रैंडम समय तक प्रतीक्षा करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-007",
+      "number": 7,
+      "question": "What is the function of a Gateway in networking?",
+      "options": {
+        "A": "To increase network speed",
+        "B": "To connect networks with different protocols",
+        "C": "To filter MAC addresses",
+        "D": "To assign IP addresses"
+      },
+      "answer": "B",
+      "explanation": "A Gateway acts as a protocol converter between two different network architectures.",
+      "hash": "70eef0409ed1916a",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में गेटवे का क्या कार्य है?",
+          "options": {
+            "A": "नेटवर्क की गति बढ़ाने के लिए",
+            "B": "विभिन्न प्रोटोकॉल वाले नेटवर्क को जोड़ने के लिए",
+            "C": "मैक एड्रेस को फिल्टर करने के लिए",
+            "D": "आईपी एड्रेस असाइन करने के लिए"
+          },
+          "explanation": "गेटवे दो अलग-अलग नेटवर्क आर्किटेक्चर के बीच प्रोटोकॉल कनवर्टर के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-008",
+      "number": 8,
+      "question": "Which of the following is a valid IPv6 address representation?",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+        "C": "10.0.0.256",
+        "D": "00-14-22-01-23-45"
+      },
+      "answer": "B",
+      "explanation": "IPv6 addresses are represented in hexadecimal format separated by colons.",
+      "hash": "f6b7bef0d514f5dc",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक वैध IPv6 एड्रेस प्रतिनिधित्व है?",
+          "options": {
+            "A": "192.168.1.1",
+            "B": "2001:0db8:85a3:0000:0000:8a2e:0370:7334",
+            "C": "10.0.0.256",
+            "D": "00-14-22-01-23-45"
+          },
+          "explanation": "IPv6 एड्रेस को कोलन द्वारा अलग किए गए हेक्साडेसिमल फॉर्मेट में दर्शाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-009",
+      "number": 9,
+      "question": "What is a \"Socket\" in network programming?",
+      "options": {
+        "A": "A physical hardware port",
+        "B": "Combination of IP Address and Port Number",
+        "C": "A type of network cable",
+        "D": "An encryption key"
+      },
+      "answer": "B",
+      "explanation": "A socket is the endpoint of a bidirectional communication flow, defined by IP + Port.",
+      "hash": "545ae911cdc5cd5c",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्क प्रोग्रामिंग में \"सॉकेट\" क्या है?",
+          "options": {
+            "A": "एक फिजिकल हार्डवेयर पोर्ट",
+            "B": "आईपी एड्रेस और पोर्ट नंबर का संयोजन",
+            "C": "एक प्रकार का नेटवर्क केबल",
+            "D": "एक एन्क्रिप्शन कुंजी"
+          },
+          "explanation": "सॉकेट द्वि-दिशात्मक संचार प्रवाह का समापन बिंदु है, जिसे IP + पोर्ट द्वारा परिभाषित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-010",
+      "number": 10,
+      "question": "Which layer is responsible for framing in the OSI model?",
+      "options": {
+        "A": "Physical Layer",
+        "B": "Data Link Layer",
+        "C": "Network Layer",
+        "D": "Transport Layer"
+      },
+      "answer": "B",
+      "explanation": "The Data Link layer organizes bits into frames for transmission.",
+      "hash": "02cf4bb58f4d11b8",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल में फ्रेमिंग के लिए कौन सी परत जिम्मेदार है?",
+          "options": {
+            "A": "फिजिकल लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "नेटवर्क लेयर",
+            "D": "ट्रांसपोर्ट लेयर"
+          },
+          "explanation": "डेटा लिंक लेयर ट्रांसमिशन के लिए बिट्स को फ्रेम में व्यवस्थित करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-011",
+      "number": 11,
+      "question": "What is the default subnet mask for a Class B IP address?",
+      "options": {
+        "A": "255.0.0.0",
+        "B": "255.255.0.0",
+        "C": "255.255.255.0",
+        "D": "255.255.255.255"
+      },
+      "answer": "B",
+      "explanation": "Class B uses the first two octets for the network ID, hence 255.255.0.0.",
+      "hash": "2cbf77d3eb4a1d3c",
+      "translations": {
+        "hi": {
+          "question": "क्लास B IP एड्रेस के लिए डिफॉल्ट सबनेट मास्क क्या है?",
+          "options": {
+            "A": "255.0.0.0",
+            "B": "255.255.0.0",
+            "C": "255.255.255.0",
+            "D": "255.255.255.255"
+          },
+          "explanation": "क्लास B नेटवर्क आईडी के लिए पहले दो ऑक्टेट का उपयोग करता है, इसलिए 255.255.0.0।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-012",
+      "number": 12,
+      "question": "Which protocol is used to fetch web pages from a server to a client?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SMTP",
+        "D": "SNMP"
+      },
+      "answer": "B",
+      "explanation": "HTTP (Hypertext Transfer Protocol) is used for transferring web data.",
+      "hash": "f8bddb01c5d85e31",
+      "translations": {
+        "hi": {
+          "question": "सर्वर से क्लाइंट तक वेब पेज लाने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एफटीपी",
+            "B": "एचटीटीपी",
+            "C": "एसएमटीपी",
+            "D": "एसएनएमपी"
+          },
+          "explanation": "HTTP का उपयोग वेब डेटा ट्रांसफर करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-013",
+      "number": 13,
+      "question": "Which routing algorithm builds a complete map of the network topology?",
+      "options": {
+        "A": "Distance Vector",
+        "B": "Link State",
+        "C": "Path Vector",
+        "D": "Static Routing"
+      },
+      "answer": "B",
+      "explanation": "Link State algorithms like OSPF maintain a global view of the network.",
+      "hash": "ebe93fbdd2d7a9cd",
+      "translations": {
+        "hi": {
+          "question": "कौन सा रूटिंग एल्गोरिदम नेटवर्क टोपोलॉजी का पूरा मैप बनाता है?",
+          "options": {
+            "A": "डिस्टेंस वेक्टर",
+            "B": "लिंक स्टेट",
+            "C": "पाथ वेक्टर",
+            "D": "स्टेटिक रूटिंग"
+          },
+          "explanation": "लिंक स्टेट एल्गोरिदम जैसे OSPF नेटवर्क का एक ग्लोबल दृश्य बनाए रखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-014",
+      "number": 14,
+      "question": "What does \"Bandwidth\" refer to in networking?",
+      "options": {
+        "A": "The physical length of the cable",
+        "B": "The maximum data transfer rate of a network",
+        "C": "The number of devices on a network",
+        "D": "The cost of the network"
+      },
+      "answer": "B",
+      "explanation": "Bandwidth is the capacity of a wired or wireless network to transmit data in a given time.",
+      "hash": "ee8f5220433de7bb",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में \"बैंडविड्थ\" का क्या अर्थ है?",
+          "options": {
+            "A": "केबल की फिजिकल लंबाई",
+            "B": "नेटवर्क की अधिकतम डेटा ट्रांसफर दर",
+            "C": "नेटवर्क पर डिवाइसों की संख्या",
+            "D": "नेटवर्क की लागत"
+          },
+          "explanation": "बैंडविड्थ एक निश्चित समय में डेटा संचारित करने के लिए वायर्ड या वायरलेस नेटवर्क की क्षमता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-015",
+      "number": 15,
+      "question": "What is \"Piggybacking\" in computer networks?",
+      "options": {
+        "A": "Hacking into a network",
+        "B": "Attaching an acknowledgment to an outgoing data frame",
+        "C": "Using someone else's Wi-Fi",
+        "D": "Overloading the network hub"
+      },
+      "answer": "B",
+      "explanation": "Piggybacking is an efficiency technique where ACKs are sent along with data.",
+      "hash": "d24bc78833e240a5",
+      "translations": {
+        "hi": {
+          "question": "कंप्यूटर नेटवर्क में \"पिगीबैकिंग\" क्या है?",
+          "options": {
+            "A": "नेटवर्क में हैकिंग करना",
+            "B": "बाहर जाने वाले डेटा फ्रेम के साथ पावती (acknowledgment) जोड़ना",
+            "C": "किसी और का वाई-फाई उपयोग करना",
+            "D": "नेटवर्क हब को ओवरलोड करना"
+          },
+          "explanation": "पिगीबैकिंग एक दक्षता तकनीक है जहाँ डेटा के साथ ACKs भेजे जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-016",
+      "number": 16,
+      "question": "Which protocol provides a secure shell for remote access?",
+      "options": {
+        "A": "Telnet",
+        "B": "SSH",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "SSH (Secure Shell) provides encrypted remote login, unlike Telnet which is plain text.",
+      "hash": "847f59752302be0f",
+      "translations": {
+        "hi": {
+          "question": "रिमोट एक्सेस के लिए कौन सा प्रोटोकॉल एक सुरक्षित शेल प्रदान करता है?",
+          "options": {
+            "A": "टेलनेट",
+            "B": "एसएसएच",
+            "C": "एफटीपी",
+            "D": "एचटीटीपी"
+          },
+          "explanation": "SSH एन्क्रिप्टेड रिमोट लॉगिन प्रदान करता है, जबकि टेलनेट प्लेन टेक्स्ट होता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-017",
+      "number": 17,
+      "question": "What is the range of a PAN (Personal Area Network)?",
+      "options": {
+        "A": "100 kilometers",
+        "B": "10 meters",
+        "C": "10 kilometers",
+        "D": "1000 meters"
+      },
+      "answer": "B",
+      "explanation": "PAN is used for very short-range communication, typically around 10 meters (e.g., Bluetooth).",
+      "hash": "9d6711ee3e1bfbdb",
+      "translations": {
+        "hi": {
+          "question": "PAN (पर्सनल एरिया नेटवर्क) की रेंज क्या है?",
+          "options": {
+            "A": "100 किलोमीटर",
+            "B": "10 मीटर",
+            "C": "10 किलोमीटर",
+            "D": "1000 मीटर"
+          },
+          "explanation": "PAN का उपयोग बहुत कम दूरी के संचार के लिए किया जाता है, आमतौर पर लगभग 10 मीटर (जैसे ब्लूटूथ)।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-018",
+      "number": 18,
+      "question": "Which layer of the OSI model handles Session Checkpoints?",
+      "options": {
+        "A": "Application Layer",
+        "B": "Session Layer",
+        "C": "Transport Layer",
+        "D": "Network Layer"
+      },
+      "answer": "B",
+      "explanation": "The Session layer allows dialogue control and synchronizes data with checkpoints.",
+      "hash": "3a258e089ce352db",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की कौन सी परत सेशन चेकप्वाइंट को संभालती है?",
+          "options": {
+            "A": "एप्लीकेशन लेयर",
+            "B": "सेशन लेयर",
+            "C": "ट्रांसपोर्ट लेयर",
+            "D": "नेटवर्क लेयर"
+          },
+          "explanation": "सेशन लेयर संवाद नियंत्रण की अनुमति देती है और चेकप्वाइंट के साथ डेटा को सिंक्रनाइज़ करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-019",
+      "number": 19,
+      "question": "What is the function of a Modem?",
+      "options": {
+        "A": "To filter packets",
+        "B": "Modulation and Demodulation",
+        "C": "To route data",
+        "D": "To amplify signals"
+      },
+      "answer": "B",
+      "explanation": "A Modem converts digital signals to analog for transmission and vice-versa.",
+      "hash": "6bb593b86b35d700",
+      "translations": {
+        "hi": {
+          "question": "मॉडम का कार्य क्या है?",
+          "options": {
+            "A": "पैकेट फिल्टर करना",
+            "B": "मॉड्यूलेशन और डिमॉड्यूलेशन",
+            "C": "डेटा रूट करना",
+            "D": "सिग्नल को एम्प्लीफाई करना"
+          },
+          "explanation": "मॉडम ट्रांसमिशन के लिए डिजिटल सिग्नल को एनालॉग में बदलता है और इसके विपरीत भी।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-020",
+      "number": 20,
+      "question": "Which cable type is least susceptible to Electromagnetic Interference (EMI)?",
+      "options": {
+        "A": "Twisted Pair",
+        "B": "Coaxial Cable",
+        "C": "Fiber Optic",
+        "D": "Shielded Twisted Pair"
+      },
+      "answer": "C",
+      "explanation": "Fiber optics use light pulses and are immune to electrical interference.",
+      "hash": "74471284021cec9e",
+      "translations": {
+        "hi": {
+          "question": "किस केबल प्रकार में इलेक्ट्रोमैग्नेटिक इंटरफेरेंस (EMI) होने की संभावना सबसे कम होती है?",
+          "options": {
+            "A": "ट्विस्टेड पेयर",
+            "B": "समाक्षीय केबल",
+            "C": "फाइबर ऑप्टिक",
+            "D": "शील्डेड ट्विस्टेड पेयर"
+          },
+          "explanation": "फाइबर ऑप्टिक्स प्रकाश की तरंगों का उपयोग करते हैं और विद्युत हस्तक्षेप से मुक्त होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-021",
+      "number": 21,
+      "question": "What is \"Jitter\" in networking?",
+      "options": {
+        "A": "Variation in packet delay",
+        "B": "Total time to reach destination",
+        "C": "Number of packets lost",
+        "D": "Speed of the network"
+      },
+      "answer": "A",
+      "explanation": "Jitter is the variation in the latency of received packets.",
+      "hash": "dd586f6386127b8a",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में \"जिटर\" क्या है?",
+          "options": {
+            "A": "पैकेट देरी में भिन्नता",
+            "B": "गंतव्य तक पहुंचने का कुल समय",
+            "C": "खोए हुए पैकेटों की संख्या",
+            "D": "नेटवर्क की गति"
+          },
+          "explanation": "जिटर प्राप्त पैकेटों की लेटेंसी (देरी) में होने वाली भिन्नता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-022",
+      "number": 22,
+      "question": "Which device is used to amplify the signal strength in a long-distance network?",
+      "options": {
+        "A": "Switch",
+        "B": "Router",
+        "C": "Repeater",
+        "D": "Hub"
+      },
+      "answer": "C",
+      "explanation": "Repeaters regenerate and amplify signals to extend the transmission distance.",
+      "hash": "b7c90256acb25b19",
+      "translations": {
+        "hi": {
+          "question": "लंबी दूरी के नेटवर्क में सिग्नल की ताकत बढ़ाने के लिए किस डिवाइस का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्विच",
+            "B": "राउटर",
+            "C": "रिपीटर",
+            "D": "हब"
+          },
+          "explanation": "रिपीटर ट्रांसमिशन दूरी बढ़ाने के लिए सिग्नल को पुन: उत्पन्न और एम्प्लीफाई करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-023",
+      "number": 23,
+      "question": "Which protocol is used to manage and monitor network devices?",
+      "options": {
+        "A": "SMTP",
+        "B": "SNMP",
+        "C": "POP3",
+        "D": "FTP"
+      },
+      "answer": "B",
+      "explanation": "SNMP (Simple Network Management Protocol) is used for managing devices on IP networks.",
+      "hash": "b9cac705cdcccd6a",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्क डिवाइसों को मैनेज और मॉनिटर करने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "एसएमटीपी",
+            "B": "एसएनएमपी",
+            "C": "पीओपी3",
+            "D": "एफटीपी"
+          },
+          "explanation": "SNMP का उपयोग IP नेटवर्क पर डिवाइसों को मैनेज करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-024",
+      "number": 24,
+      "question": "What does \"Half-Duplex\" transmission mean?",
+      "options": {
+        "A": "One-way communication only",
+        "B": "Two-way communication but not at the same time",
+        "C": "Two-way simultaneous communication",
+        "D": "Communication in groups"
+      },
+      "answer": "B",
+      "explanation": "In Half-Duplex, data can be sent or received, but only one action at a time (e.g., Walkie-Talkie).",
+      "hash": "c8e3d8620f2d7819",
+      "translations": {
+        "hi": {
+          "question": "\"हाफ-डुप्लेक्स\" ट्रांसमिशन का क्या अर्थ है?",
+          "options": {
+            "A": "केवल एक तरफा संचार",
+            "B": "दो-तरफा संचार लेकिन एक ही समय में नहीं",
+            "C": "दो-तरफा एक साथ संचार",
+            "D": "समूहों में संचार"
+          },
+          "explanation": "हाफ-डुप्लेक्स में, डेटा भेजा या प्राप्त किया जा सकता है, लेकिन एक समय में केवल एक ही कार्य (जैसे वॉकी-टॉकी)।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-025",
+      "number": 25,
+      "question": "What is the main purpose of \"Subnetting\"?",
+      "options": {
+        "A": "To speed up the internet",
+        "B": "To divide a large network into smaller, manageable sub-networks",
+        "C": "To hide the IP address",
+        "D": "To encrypt emails"
+      },
+      "answer": "B",
+      "explanation": "Subnetting improves network performance and security by creating smaller network segments.",
+      "hash": "fd4a1a6a11422588",
+      "translations": {
+        "hi": {
+          "question": "\"सबनेटिंग\" का मुख्य उद्देश्य क्या है?",
+          "options": {
+            "A": "इंटरनेट की गति बढ़ाने के लिए",
+            "B": "एक बड़े नेटवर्क को छोटे, प्रबंधनीय सब-नेटवर्क में विभाजित करने के लिए",
+            "C": "आईपी एड्रेस छुपाने के लिए",
+            "D": "ईमेल एन्क्रिप्ट करने के लिए"
+          },
+          "explanation": "सबनेटिंग छोटे नेटवर्क सेगमेंट बनाकर नेटवर्क के प्रदर्शन और सुरक्षा में सुधार करती है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-026",
+      "number": 26,
+      "question": "Which of the following is a private IP address?",
+      "options": {
+        "A": "8.8.8.8",
+        "B": "172.16.5.1",
+        "C": "123.45.67.89",
+        "D": "200.10.10.1"
+      },
+      "answer": "B",
+      "explanation": "The range 172.16.0.0 to 172.31.255.255 is reserved for private networks.",
+      "hash": "867828cc5a6221a6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक प्राइवेट IP एड्रेस है?",
+          "options": {
+            "A": "8.8.8.8",
+            "B": "172.16.5.1",
+            "C": "123.45.67.89",
+            "D": "200.10.10.1"
+          },
+          "explanation": "172.16.0.0 से 172.31.255.255 की रेंज प्राइवेट नेटवर्क के लिए आरक्षित है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-027",
+      "number": 27,
+      "question": "Which algorithm is used by the TCP protocol for congestion control?",
+      "options": {
+        "A": "Dijkstra's Algorithm",
+        "B": "Leaky Bucket Algorithm",
+        "C": "Binary Exponential Backoff",
+        "D": "Slow Start"
+      },
+      "answer": "D",
+      "explanation": "TCP uses algorithms like Slow Start and Congestion Avoidance to manage traffic.",
+      "hash": "50e22f35ea7c6095",
+      "translations": {
+        "hi": {
+          "question": "कंजेशन कंट्रोल के लिए TCP प्रोटोकॉल द्वारा किस एल्गोरिदम का उपयोग किया जाता है?",
+          "options": {
+            "A": "डिज्कस्ट्रा एल्गोरिदम",
+            "B": "लीकी बकेट एल्गोरिदम",
+            "C": "बाइनरी एक्सपोनेंशियल बैकऑफ़",
+            "D": "स्लो स्टार्ट"
+          },
+          "explanation": "TCP ट्रैफ़िक को मैनेज करने के लिए स्लो स्टार्ट और कंजेशन अवॉइडेंस जैसे एल्गोरिदम का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-028",
+      "number": 28,
+      "question": "What is the full form of ICMP?",
+      "options": {
+        "A": "Internet Control Message Protocol",
+        "B": "Internet Connection Message Protocol",
+        "C": "Internal Control Message Protocol",
+        "D": "Intercom Control Message Protocol"
+      },
+      "answer": "A",
+      "explanation": "ICMP is used by network devices to send error messages and operational information.",
+      "hash": "1cdb06e14eb4dcfb",
+      "translations": {
+        "hi": {
+          "question": "ICMP का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "इंटरनेट कंट्रोल मैसेज प्रोटोकॉल",
+            "B": "इंटरनेट कनेक्शन मैसेज प्रोटोकॉल",
+            "C": "इंटरनल कंट्रोल मैसेज प्रोटोकॉल",
+            "D": "इंटरकॉम कंट्रोल मैसेज प्रोटोकॉल"
+          },
+          "explanation": "ICMP का उपयोग नेटवर्क डिवाइस द्वारा एरर मैसेज और परिचालन जानकारी भेजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-029",
+      "number": 29,
+      "question": "What is the maximum number of hosts in a Class C network?",
+      "options": {
+        "A": "254",
+        "B": "256",
+        "C": "65534",
+        "D": "16.7 million"
+      },
+      "answer": "A",
+      "explanation": "2^8 - 2 = 254 usable hosts (excluding network and broadcast addresses).",
+      "hash": "bcd1ab6be0e08f22",
+      "translations": {
+        "hi": {
+          "question": "क्लास C नेटवर्क में होस्ट की अधिकतम संख्या क्या है?",
+          "options": {
+            "A": "254",
+            "B": "256",
+            "C": "65534",
+            "D": "16.7 मिलियन"
+          },
+          "explanation": "2^8 - 2 = 254 उपयोगी होस्ट (नेटवर्क और ब्रॉडकास्ट एड्रेस को छोड़कर)।"
+        }
+      }
+    },
+    {
+      "id": "computer-networks-02-030",
+      "number": 30,
+      "question": "Which layer of the OSI model does a Bridge operate on?",
+      "options": {
+        "A": "Network Layer",
+        "B": "Data Link Layer",
+        "C": "Transport Layer",
+        "D": "Physical Layer"
+      },
+      "answer": "B",
+      "explanation": "Bridges work at the Data Link layer to connect two LAN segments.",
+      "hash": "b9d1f4958c1be8f1",
+      "translations": {
+        "hi": {
+          "question": "OSI मॉडल की किस परत पर ब्रिज काम करता है?",
+          "options": {
+            "A": "नेटवर्क लेयर",
+            "B": "डेटा लिंक लेयर",
+            "C": "ट्रांसपोर्ट लेयर",
+            "D": "फिजिकल लेयर"
+          },
+          "explanation": "ब्रिज दो LAN सेगमेंट को जोड़ने के लिए डेटा लिंक लेयर पर काम करते हैं।"
+        }
+      }
+    }
+  ]
+}

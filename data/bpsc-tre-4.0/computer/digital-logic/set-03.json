@@ -1,0 +1,787 @@
+{
+  "subject": "Digital Logic",
+  "set": 3,
+  "title": "Digital Logic Mock Test 3",
+  "questions": [
+    {
+      "id": "digital-logic-03-001",
+      "number": 1,
+      "question": "Which gate produces a low output (0) only when all its inputs are high (1)?",
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "NAND",
+        "D": "NOR"
+      },
+      "answer": "C",
+      "explanation": "NAND gate is the complement of AND; it gives 0 only when all inputs are 1.",
+      "hash": "1316f9bff4733395",
+      "translations": {
+        "hi": {
+          "question": "कौन सा गेट केवल तभी लो आउटपुट (0) उत्पन्न करता है जब उसके सभी इनपुट हाई (1) होते हैं?",
+          "options": {
+            "A": "AND",
+            "B": "OR",
+            "C": "NAND",
+            "D": "NOR"
+          },
+          "explanation": "NAND गेट AND का पूरक है; यह केवल तभी 0 देता है जब सभी इनपुट 1 होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-002",
+      "number": 2,
+      "question": "The minimum number of selection lines for a 32-to-1 Multiplexer is:",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "32"
+      },
+      "answer": "B",
+      "explanation": "2^n = 32, so n = 5 lines are required.",
+      "hash": "f249811d62d94503",
+      "translations": {
+        "hi": {
+          "question": "32-से-1 मल्टीप्लेक्स के लिए चयन लाइनों (selection lines) की न्यूनतम संख्या है:",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "32"
+          },
+          "explanation": "2^n = 32, इसलिए n = 5 लाइनों की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-003",
+      "number": 3,
+      "question": "Which logic family is known for the highest speed of operation?",
+      "options": {
+        "A": "TTL",
+        "B": "CMOS",
+        "C": "ECL",
+        "D": "RTL"
+      },
+      "answer": "C",
+      "explanation": "Emitter-Coupled Logic (ECL) is the fastest logic family because its transistors operate in non-saturation region.",
+      "hash": "a892cdd781a198e2",
+      "translations": {
+        "hi": {
+          "question": "कौन सा लॉजिक परिवार सबसे तेज़ संचालन (speed) के लिए जाना जाता है?",
+          "options": {
+            "A": "TTL",
+            "B": "CMOS",
+            "C": "ECL",
+            "D": "RTL"
+          },
+          "explanation": "एमिटर-कपल लॉजिक (ECL) सबसे तेज़ लॉजिक परिवार है क्योंकि इसके ट्रांजिस्टर नॉन-सैचुरेशन क्षेत्र में काम करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-004",
+      "number": 4,
+      "question": "A Toggle (T) flip-flop can be constructed from a JK flip-flop by:",
+      "options": {
+        "A": "Connecting J and K together",
+        "B": "Setting J=0, K=1",
+        "C": "Setting J=1, K=0",
+        "D": "Leaving J and K open"
+      },
+      "answer": "A",
+      "explanation": "When J and K are tied together, it acts as a T flip-flop, toggling on every clock pulse if the input is 1.",
+      "hash": "c6ba892a5205919e",
+      "translations": {
+        "hi": {
+          "question": "एक टॉगल (T) फ्लिप-फ्लॉप को JK फ्लिप-फ्लॉप से कैसे बनाया जा सकता है?",
+          "options": {
+            "A": "J और K को एक साथ जोड़कर",
+            "B": "J=0, K=1 सेट करके",
+            "C": "J=1, K=0 सेट करके",
+            "D": "J और K को खुला छोड़कर"
+          },
+          "explanation": "जब J और K को एक साथ जोड़ दिया जाता है, तो यह T फ्लिप-फ्लॉप के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-005",
+      "number": 5,
+      "question": "The output of a Half Subtractor consists of:",
+      "options": {
+        "A": "Sum and Carry",
+        "B": "Difference and Borrow",
+        "C": "Difference and Carry",
+        "D": "Sum and Borrow"
+      },
+      "answer": "B",
+      "explanation": "A half subtractor produces two outputs: the Difference (D) and the Borrow (B).",
+      "hash": "988e57f0be4f653b",
+      "translations": {
+        "hi": {
+          "question": "एक हाफ सबट्रैक्टर के आउटपुट में शामिल होते हैं:",
+          "options": {
+            "A": "सम और कैरी",
+            "B": "डिफरेंस और बोरो",
+            "C": "डिफरेंस और कैरी",
+            "D": "सम और बोरो"
+          },
+          "explanation": "एक हाफ सबट्रैक्टर दो आउटपुट उत्पन्न करता है: डिफरेंस (D) और बोरो (B)।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-006",
+      "number": 6,
+      "question": "In a K-map, grouping of 8 adjacent cells is called a:",
+      "options": {
+        "A": "Pair",
+        "B": "Quad",
+        "C": "Octet",
+        "D": "Byte"
+      },
+      "answer": "C",
+      "explanation": "A group of 2 is a pair, 4 is a quad, and 8 is an octet.",
+      "hash": "a6be9ed11b8752fa",
+      "translations": {
+        "hi": {
+          "question": "K-मैप में, 8 आसन्न सेल के समूह को क्या कहा जाता है?",
+          "options": {
+            "A": "पेयर",
+            "B": "क्वाड",
+            "C": "ऑक्टेट",
+            "D": "बाइट"
+          },
+          "explanation": "2 के समूह को पेयर, 4 को क्वाड और 8 को ऑक्टेट कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-007",
+      "number": 7,
+      "question": "Which flip-flop is used to construct a binary ripple counter?",
+      "options": {
+        "A": "SR Flip-flop",
+        "B": "D Flip-flop",
+        "C": "T or JK Flip-flop",
+        "D": "Master-Slave SR"
+      },
+      "answer": "C",
+      "explanation": "T or JK flip-flops in toggle mode are used for counting.",
+      "hash": "bc76e952822a014f",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी रिपल काउंटर बनाने के लिए किस फ्लिप-फ्लॉप का उपयोग किया जाता है?",
+          "options": {
+            "A": "SR फ्लिप-फ्लॉप",
+            "B": "D फ्लिप-फ्लॉप",
+            "C": "T या JK फ्लिप-फ्लॉप",
+            "D": "मास्टर-स्लेव SR"
+          },
+          "explanation": "काउंटिंग के लिए टॉगल मोड में T या JK फ्लिप-फ्लॉप का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-008",
+      "number": 8,
+      "question": "How many bits are required to represent a decimal number 25 in binary?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "25 in binary is 11001, which requires 5 bits.",
+      "hash": "b42bfd9d839a7c0f",
+      "translations": {
+        "hi": {
+          "question": "दशमलव संख्या 25 को बाइनरी में दर्शाने के लिए कितने बिट्स की आवश्यकता होती है?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "explanation": "बाइनरी में 25, 11001 है, जिसके लिए 5 बिट्स की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-009",
+      "number": 9,
+      "question": "What is the Boolean expression for an XOR gate with inputs A and B?",
+      "options": {
+        "A": "AB + A'B'",
+        "B": "A'B + AB'",
+        "C": "A + B",
+        "D": "(A + B)'"
+      },
+      "answer": "B",
+      "explanation": "The XOR operation is defined as A'B + AB'.",
+      "hash": "3ea7949a3dafd6ed",
+      "translations": {
+        "hi": {
+          "question": "इनपुट A और B वाले XOR गेट के लिए बुलियन एक्सप्रेशन क्या है?",
+          "options": {
+            "A": "AB + A'B'",
+            "B": "A'B + AB'",
+            "C": "A + B",
+            "D": "(A + B)'"
+          },
+          "explanation": "XOR ऑपरेशन को A'B + AB' के रूप में परिभाषित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-010",
+      "number": 10,
+      "question": "Which register holds the address of the next instruction to be executed?",
+      "options": {
+        "A": "Accumulator",
+        "B": "Instruction Register",
+        "C": "Program Counter",
+        "D": "Data Register"
+      },
+      "answer": "C",
+      "explanation": "The Program Counter (PC) stores the memory address of the next instruction.",
+      "hash": "95566754ef688622",
+      "translations": {
+        "hi": {
+          "question": "कौन सा रजिस्टर निष्पादित होने वाली अगली इंस्ट्रक्शन का एड्रेस रखता है?",
+          "options": {
+            "A": "एक्यूमुलेटर",
+            "B": "इंस्ट्रक्शन रजिस्टर",
+            "C": "प्रोग्राम काउंटर",
+            "D": "डेटा रजिस्टर"
+          },
+          "explanation": "प्रोग्राम काउंटर (PC) अगली इंस्ट्रक्शन का मेमोरी एड्रेस स्टोर करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-011",
+      "number": 11,
+      "question": "Canonical Sum of Products (SOP) form contains:",
+      "options": {
+        "A": "Minterms",
+        "B": "Maxterms",
+        "C": "Only AND terms",
+        "D": "Only OR terms"
+      },
+      "answer": "A",
+      "explanation": "Standard or Canonical SOP is composed of minterms where each variable appears once.",
+      "hash": "9fd3b241f8ff0f96",
+      "translations": {
+        "hi": {
+          "question": "कैनोनिकल सम ऑफ प्रोडक्ट्स (SOP) फॉर्म में शामिल है:",
+          "options": {
+            "A": "मिनटरम्स",
+            "B": "मैक्सटरम्स",
+            "C": "केवल AND टर्म्स",
+            "D": "केवल OR टर्म्स"
+          },
+          "explanation": "मानक या कैनोनिकल SOP मिनटरम्स से बना होता है जहाँ प्रत्येक वेरिएबल एक बार दिखाई देता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-012",
+      "number": 12,
+      "question": "The Excess-3 code for decimal 5 is:",
+      "options": {
+        "A": "0101",
+        "B": "1000",
+        "C": "0111",
+        "D": "1011"
+      },
+      "answer": "B",
+      "explanation": "To get Excess-3, add 3 to the decimal (5+3=8). Binary of 8 is 1000.",
+      "hash": "3f29b721ddd4621a",
+      "translations": {
+        "hi": {
+          "question": "दशमलव 5 के लिए Excess-3 कोड है:",
+          "options": {
+            "A": "0101",
+            "B": "1000",
+            "C": "0111",
+            "D": "1011"
+          },
+          "explanation": "Excess-3 प्राप्त करने के लिए, दशमलव में 3 जोड़ें (5+3=8)। 8 का बाइनरी 1000 है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-013",
+      "number": 13,
+      "question": "A Decoder with 'n' input lines can have a maximum of how many output lines?",
+      "options": {
+        "A": "n",
+        "B": "2n",
+        "C": "2^n",
+        "D": "n^2"
+      },
+      "answer": "C",
+      "explanation": "A decoder generates 2^n minterms from n inputs.",
+      "hash": "cc7815d0b3b7ece1",
+      "translations": {
+        "hi": {
+          "question": "'n' इनपुट लाइनों वाले डिकोडर में अधिकतम कितनी आउटपुट लाइनें हो सकती हैं?",
+          "options": {
+            "A": "n",
+            "B": "2n",
+            "C": "2^n",
+            "D": "n^2"
+          },
+          "explanation": "एक डिकोडर n इनपुट से 2^n मिनटरम्स उत्पन्न करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-014",
+      "number": 14,
+      "question": "Which device has one input and many outputs?",
+      "options": {
+        "A": "Multiplexer",
+        "B": "Demultiplexer",
+        "C": "Encoder",
+        "D": "Decoder"
+      },
+      "answer": "B",
+      "explanation": "A Demultiplexer (DEMUX) takes 1 input and distributes it to one of many outputs.",
+      "hash": "bfd5b9222b64b5c2",
+      "translations": {
+        "hi": {
+          "question": "किस डिवाइस में एक इनपुट और कई आउटपुट होते हैं?",
+          "options": {
+            "A": "मल्टीप्लेक्स",
+            "B": "डिमल्टीप्लेक्स",
+            "C": "एनकोडर",
+            "D": "डिकोडर"
+          },
+          "explanation": "एक डिमल्टीप्लेक्स (DEMUX) 1 इनपुट लेता है और उसे कई आउटपुट में से एक पर वितरित करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-015",
+      "number": 15,
+      "question": "The 2's complement of 1101 is:",
+      "options": {
+        "A": "0010",
+        "B": "0011",
+        "C": "1110",
+        "D": "0101"
+      },
+      "answer": "B",
+      "explanation": "1's complement of 1101 is 0010. Adding 1 gives 0011.",
+      "hash": "3a46c44bee8f846e",
+      "translations": {
+        "hi": {
+          "question": "1101 का 2's कॉम्प्लीमेंट है:",
+          "options": {
+            "A": "0010",
+            "B": "0011",
+            "C": "1110",
+            "D": "0101"
+          },
+          "explanation": "1101 का 1's कॉम्प्लीमेंट 0010 है। 1 जोड़ने पर 0011 मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-016",
+      "number": 16,
+      "question": "Which flip-flop is free from the race-around problem?",
+      "options": {
+        "A": "Standard JK",
+        "B": "Master-Slave JK",
+        "C": "SR Flip-flop",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "The Master-Slave configuration triggers on clock edges, preventing racing.",
+      "hash": "c426eb4dbab34038",
+      "translations": {
+        "hi": {
+          "question": "कौन सा फ्लिप-फ्लॉप रेस-अराउंड समस्या से मुक्त है?",
+          "options": {
+            "A": "स्टैंडर्ड JK",
+            "B": "मास्टर-स्लेव JK",
+            "C": "SR फ्लिप-फ्लॉप",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "मास्टर-स्लेव कॉन्फ़िगरेशन क्लॉक एडजेस पर ट्रिगर होता है, जो रेसिंग को रोकता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-017",
+      "number": 17,
+      "question": "In gray code, how many bits change between two successive numbers?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "All bits",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Gray code is a unit-distance code where only one bit changes at a time.",
+      "hash": "5f88620598ffb39f",
+      "translations": {
+        "hi": {
+          "question": "ग्रे कोड में, दो क्रमिक संख्याओं के बीच कितने बिट्स बदलते हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "सभी बिट्स",
+            "D": "0"
+          },
+          "explanation": "ग्रे कोड एक यूनिट-डिस्टेंस कोड है जहाँ एक बार में केवल एक बिट बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-018",
+      "number": 18,
+      "question": "A Full Adder can be implemented using two half adders and:",
+      "options": {
+        "A": "One AND gate",
+        "B": "One OR gate",
+        "C": "One XOR gate",
+        "D": "One NAND gate"
+      },
+      "answer": "B",
+      "explanation": "A full adder uses 2 half adders and 1 OR gate to combine the carry outputs.",
+      "hash": "d28a8d442a09596b",
+      "translations": {
+        "hi": {
+          "question": "एक फुल एडर को दो हाफ एडर और किसके उपयोग से लागू किया जा सकता है?",
+          "options": {
+            "A": "एक AND गेट",
+            "B": "एक OR गेट",
+            "C": "एक XOR गेट",
+            "D": "एक NAND गेट"
+          },
+          "explanation": "एक फुल एडर 2 हाफ एडर और 1 OR गेट का उपयोग करके कैरी आउटपुट को जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-019",
+      "number": 19,
+      "question": "What is the output of an OR gate if one input is 1?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Depends on other input",
+        "D": "Always 0"
+      },
+      "answer": "B",
+      "explanation": "In an OR gate, if any input is high (1), the output is high.",
+      "hash": "c74e6b413c8ec357",
+      "translations": {
+        "hi": {
+          "question": "यदि एक इनपुट 1 है तो OR गेट का आउटपुट क्या होगा?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "दूसरे इनपुट पर निर्भर करता है",
+            "D": "हमेशा 0"
+          },
+          "explanation": "OR गेट में, यदि कोई भी इनपुट हाई (1) है, तो आउटपुट हाई होता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-020",
+      "number": 20,
+      "question": "Which circuit is used to perform parallel-to-serial conversion?",
+      "options": {
+        "A": "PISO Shift Register",
+        "B": "SIPO Shift Register",
+        "C": "Decoder",
+        "D": "Demultiplexer"
+      },
+      "answer": "A",
+      "explanation": "Parallel-In Serial-Out (PISO) registers convert parallel data to serial format.",
+      "hash": "ccf9a2ba27e8b21a",
+      "translations": {
+        "hi": {
+          "question": "पैरेलल-टू-सीरियल रूपांतरण करने के लिए किस सर्किट का उपयोग किया जाता है?",
+          "options": {
+            "A": "PISO शिफ्ट रजिस्टर",
+            "B": "SIPO शिफ्ट रजिस्टर",
+            "C": "डिकोडर",
+            "D": "डिमल्टीप्लेक्स"
+          },
+          "explanation": "पैरेलल-इन सीरियल-आउट (PISO) रजिस्टर पैरेलल डेटा को सीरियल फॉर्मेट में बदलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-021",
+      "number": 21,
+      "question": "A 4-bit synchronous counter uses how many flip-flops?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "For an n-bit counter, n flip-flops are required.",
+      "hash": "b324058139c14831",
+      "translations": {
+        "hi": {
+          "question": "4-बिट सिंक्रोनस काउंटर कितने फ्लिप-फ्लॉप का उपयोग करता है?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "n-बिट काउंटर के लिए, n फ्लिप-फ्लॉप की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-022",
+      "number": 22,
+      "question": "The base of the binary number system is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "Binary system uses only two digits, 0 and 1.",
+      "hash": "a8ccc3be3b5afc09",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी संख्या प्रणाली का आधार है:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "8",
+            "D": "10"
+          },
+          "explanation": "बाइनरी सिस्टम केवल दो अंकों, 0 और 1 का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-023",
+      "number": 23,
+      "question": "Which gate is equivalent to a bubbled AND gate?",
+      "options": {
+        "A": "NAND",
+        "B": "NOR",
+        "C": "XOR",
+        "D": "XNOR"
+      },
+      "answer": "B",
+      "explanation": "A bubbled AND gate (inputs inverted) is equivalent to a NOR gate by De Morgan's Law.",
+      "hash": "b599961cb02223ec",
+      "translations": {
+        "hi": {
+          "question": "कौन सा गेट बबल्ड (bubbled) AND गेट के बराबर है?",
+          "options": {
+            "A": "NAND",
+            "B": "NOR",
+            "C": "XOR",
+            "D": "XNOR"
+          },
+          "explanation": "एक बबल्ड AND गेट (इनपुट इनवर्टेड) डी मॉर्गन के नियम के अनुसार NOR गेट के बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-024",
+      "number": 24,
+      "question": "Which memory has the fastest access time?",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "Cache Memory",
+        "D": "Registers"
+      },
+      "answer": "D",
+      "explanation": "CPU registers are the fastest, followed by Cache and then RAM.",
+      "hash": "2224ccd596fa2e0d",
+      "translations": {
+        "hi": {
+          "question": "किस मेमोरी का एक्सेस टाइम सबसे तेज़ है?",
+          "options": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "कैश मेमोरी",
+            "D": "रजिस्टर्स"
+          },
+          "explanation": "CPU रजिस्टर्स सबसे तेज़ होते हैं, उसके बाद कैश और फिर RAM।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-025",
+      "number": 25,
+      "question": "In Boolean Algebra, A + A is equal to:",
+      "options": {
+        "A": "2A",
+        "B": "A^2",
+        "C": "A",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "According to Idempotent Law, A + A = A.",
+      "hash": "ee622ccfe607a9a6",
+      "translations": {
+        "hi": {
+          "question": "बुलियन बीजगणित में, A + A किसके बराबर है?",
+          "options": {
+            "A": "2A",
+            "B": "A^2",
+            "C": "A",
+            "D": "1"
+          },
+          "explanation": "इडेम्पोटेंट नियम के अनुसार, A + A = A।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-026",
+      "number": 26,
+      "question": "Which of the following is a universal gate?",
+      "options": {
+        "A": "NOR",
+        "B": "AND",
+        "C": "OR",
+        "D": "XOR"
+      },
+      "answer": "A",
+      "explanation": "NAND and NOR are universal gates.",
+      "hash": "e8dd7a451699ba44",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा यूनिवर्सल गेट है?",
+          "options": {
+            "A": "NOR",
+            "B": "AND",
+            "C": "OR",
+            "D": "XOR"
+          },
+          "explanation": "NAND और NOR यूनिवर्सल गेट हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-027",
+      "number": 27,
+      "question": "Binary 1011 is equal to decimal:",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "answer": "C",
+      "explanation": "(1*8) + (0*4) + (1*2) + (1*1) = 11.",
+      "hash": "eaf066840fe5acdb",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी 1011 दशमलव किसके बराबर है:",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "explanation": "(1*8) + (0*4) + (1*2) + (1*1) = 11।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-028",
+      "number": 28,
+      "question": "A digital circuit that converts n-bit binary code into 2^n unique output is:",
+      "options": {
+        "A": "Encoder",
+        "B": "Decoder",
+        "C": "Multiplexer",
+        "D": "Comparator"
+      },
+      "answer": "B",
+      "explanation": "This is the basic definition of a binary decoder.",
+      "hash": "35325c2445e0a84f",
+      "translations": {
+        "hi": {
+          "question": "वह डिजिटल सर्किट जो n-बिट बाइनरी कोड को 2^n अद्वितीय आउटपुट में बदलता है:",
+          "options": {
+            "A": "एनकोडर",
+            "B": "डिकोडर",
+            "C": "मल्टीप्लेक्स",
+            "D": "कम्पेरेटर"
+          },
+          "explanation": "यह बाइनरी डिकोडर की मूल परिभाषा है।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-029",
+      "number": 29,
+      "question": "The logic gate whose output is high only when all inputs are low is:",
+      "options": {
+        "A": "AND",
+        "B": "NAND",
+        "C": "NOR",
+        "D": "XOR"
+      },
+      "answer": "C",
+      "explanation": "NOR gate gives 1 only if all inputs are 0.",
+      "hash": "e105a89420b47f9f",
+      "translations": {
+        "hi": {
+          "question": "वह लॉजिक गेट जिसका आउटपुट केवल तभी हाई होता है जब सभी इनपुट लो होते हैं:",
+          "options": {
+            "A": "AND",
+            "B": "NAND",
+            "C": "NOR",
+            "D": "XOR"
+          },
+          "explanation": "NOR गेट केवल तभी 1 देता है जब सभी इनपुट 0 होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "digital-logic-03-030",
+      "number": 30,
+      "question": "How many NAND gates are required to implement a NOT gate?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Connecting both inputs of a NAND gate together creates a NOT gate.",
+      "hash": "6b750d8325828c5e",
+      "translations": {
+        "hi": {
+          "question": "NOT गेट को लागू करने के लिए कितने NAND गेटों की आवश्यकता होती है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "NAND गेट के दोनों इनपुट को एक साथ जोड़ने से एक NOT गेट बनता है।"
+        }
+      }
+    }
+  ]
+}

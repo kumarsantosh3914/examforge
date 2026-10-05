@@ -1,0 +1,787 @@
+{
+  "subject": "Web Technologies",
+  "set": 1,
+  "title": "Web Technologies Mock Test 1",
+  "questions": [
+    {
+      "id": "web-technologies-01-001",
+      "number": 1,
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": {
+        "A": "<link>",
+        "B": "<a>",
+        "C": "<href>",
+        "D": "<url>"
+      },
+      "answer": "B",
+      "explanation": "The <a> (anchor) tag is used with the href attribute to create links.",
+      "hash": "a199fcef9bfd514a",
+      "translations": {
+        "hi": {
+          "question": "हाइपरलिंक बनाने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<link>",
+            "B": "<a>",
+            "C": "<href>",
+            "D": "<url>"
+          },
+          "explanation": "<a> (एंकर) टैग का उपयोग href एट्रिब्यूट के साथ लिंक बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-002",
+      "number": 2,
+      "question": "What does CSS stand for?",
+      "options": {
+        "A": "Creative Style Sheets",
+        "B": "Computer Style Sheets",
+        "C": "Cascading Style Sheets",
+        "D": "Colorful Style Sheets"
+      },
+      "answer": "C",
+      "explanation": "CSS stands for Cascading Style Sheets, used for styling web pages.",
+      "hash": "71c1f16007d8ab2b",
+      "translations": {
+        "hi": {
+          "question": "CSS का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "क्रिएटिव स्टाइल शीट्स",
+            "B": "कंप्यूटर स्टाइल शीट्स",
+            "C": "कैस्केडिंग स्टाइल शीट्स",
+            "D": "कलरफुल स्टाइल शीट्स"
+          },
+          "explanation": "CSS का अर्थ कैस्केडिंग स्टाइल शीट्स है, जिसका उपयोग वेब पेजों को स्टाइल करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-003",
+      "number": 3,
+      "question": "Which property is used in CSS to change the background color?",
+      "options": {
+        "A": "color",
+        "B": "bgcolor",
+        "C": "background-color",
+        "D": "canvas-color"
+      },
+      "answer": "C",
+      "explanation": "background-color is the standard CSS property to set an element's background.",
+      "hash": "10ad5b701d202976",
+      "translations": {
+        "hi": {
+          "question": "बैकग्राउंड का रंग बदलने के लिए CSS में किस प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "color",
+            "B": "bgcolor",
+            "C": "background-color",
+            "D": "canvas-color"
+          },
+          "explanation": "background-color किसी एलिमेंट का बैकग्राउंड सेट करने के लिए मानक CSS प्रॉपर्टी है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-004",
+      "number": 4,
+      "question": "Which HTTP method is used to send data to a server to create/update a resource?",
+      "options": {
+        "A": "GET",
+        "B": "POST",
+        "C": "READ",
+        "D": "FETCH"
+      },
+      "answer": "B",
+      "explanation": "POST is used to send data to a server to create or update a resource.",
+      "hash": "d3808f8888511c26",
+      "translations": {
+        "hi": {
+          "question": "संसाधन बनाने/अपडेट करने के लिए सर्वर पर डेटा भेजने के लिए किस HTTP मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "GET",
+            "B": "POST",
+            "C": "READ",
+            "D": "FETCH"
+          },
+          "explanation": "POST का उपयोग संसाधन बनाने या अपडेट करने के लिए सर्वर पर डेटा भेजने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-005",
+      "number": 5,
+      "question": "In JavaScript, which keyword is used to declare a constant variable?",
+      "options": {
+        "A": "var",
+        "B": "let",
+        "C": "const",
+        "D": "define"
+      },
+      "answer": "C",
+      "explanation": "The const keyword creates variables that cannot be reassigned.",
+      "hash": "1fe1387993709f5a",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, निरंतर वेरिएबल (constant variable) घोषित करने के लिए किस कीवर्ड का उपयोग किया जाता है?",
+          "options": {
+            "A": "var",
+            "B": "let",
+            "C": "const",
+            "D": "define"
+          },
+          "explanation": "const कीवर्ड ऐसे वेरिएबल बनाता है जिन्हें फिर से असाइन नहीं किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-006",
+      "number": 6,
+      "question": "Which attribute is used to provide an alternative text for an image?",
+      "options": {
+        "A": "title",
+        "B": "alt",
+        "C": "src",
+        "D": "longdesc"
+      },
+      "answer": "B",
+      "explanation": "The alt attribute provides alternative text if the image cannot be displayed.",
+      "hash": "2247579367688067",
+      "translations": {
+        "hi": {
+          "question": "इमेज के लिए वैकल्पिक टेक्स्ट प्रदान करने के लिए किस एट्रिब्यूट का उपयोग किया जाता है?",
+          "options": {
+            "A": "title",
+            "B": "alt",
+            "C": "src",
+            "D": "longdesc"
+          },
+          "explanation": "alt एट्रिब्यूट वैकल्पिक टेक्स्ट प्रदान करता है यदि इमेज प्रदर्शित नहीं की जा सकती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-007",
+      "number": 7,
+      "question": "What is the correct HTML element for the largest heading?",
+      "options": {
+        "A": "<heading>",
+        "B": "<h6>",
+        "C": "<head>",
+        "D": "<h1>"
+      },
+      "answer": "D",
+      "explanation": "<h1> defines the most important and largest heading in HTML.",
+      "hash": "a5cc6d894d90e1a5",
+      "translations": {
+        "hi": {
+          "question": "सबसे बड़ी हेडिंग के लिए सही HTML तत्व कौन सा है?",
+          "options": {
+            "A": "<heading>",
+            "B": "<h6>",
+            "C": "<head>",
+            "D": "<h1>"
+          },
+          "explanation": "<h1> HTML में सबसे महत्वपूर्ण और सबसे बड़ी हेडिंग को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-008",
+      "number": 8,
+      "question": "Which of the following is a CSS framework?",
+      "options": {
+        "A": "Django",
+        "B": "Bootstrap",
+        "C": "Node.js",
+        "D": "PHP"
+      },
+      "answer": "B",
+      "explanation": "Bootstrap is a popular open-source CSS framework for responsive design.",
+      "hash": "1059cc5da1028b06",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा CSS फ्रेमवर्क है?",
+          "options": {
+            "A": "Django",
+            "B": "Bootstrap",
+            "C": "Node.js",
+            "D": "PHP"
+          },
+          "explanation": "बूटस्ट्रैप रिस्पॉन्सिव डिज़ाइन के लिए एक लोकप्रिय ओपन-सोर्स CSS फ्रेमवर्क है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-009",
+      "number": 9,
+      "question": "Which character is used to indicate an end tag in HTML?",
+      "options": {
+        "A": "<",
+        "B": "^",
+        "C": "/",
+        "D": "*"
+      },
+      "answer": "C",
+      "explanation": "A forward slash (/) is used before the tag name in an end tag.",
+      "hash": "5e3664989b4e5b71",
+      "translations": {
+        "hi": {
+          "question": "HTML में एंड टैग को इंगित करने के लिए किस कैरेक्टर का उपयोग किया जाता है?",
+          "options": {
+            "A": "<",
+            "B": "^",
+            "C": "/",
+            "D": "*"
+          },
+          "explanation": "एंड टैग में टैग नाम से पहले फॉरवर्ड स्लैश (/) का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-010",
+      "number": 10,
+      "question": "Which protocol is used for secure communication over a computer network?",
+      "options": {
+        "A": "HTTP",
+        "B": "HTTPS",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "HTTPS is the secure version of HTTP, encrypted using SSL/TLS.",
+      "hash": "28bd27dd4aa5249e",
+      "translations": {
+        "hi": {
+          "question": "कंप्यूटर नेटवर्क पर सुरक्षित संचार के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "HTTP",
+            "B": "HTTPS",
+            "C": "FTP",
+            "D": "SMTP"
+          },
+          "explanation": "HTTPS, HTTP का सुरक्षित संस्करण है, जो SSL/TLS का उपयोग करके एन्क्रिप्ट किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-011",
+      "number": 11,
+      "question": "What is the purpose of the <head> tag in HTML?",
+      "options": {
+        "A": "To display the main content",
+        "B": "To contain metadata and links to scripts/styles",
+        "C": "To create a header for the page",
+        "D": "To display images"
+      },
+      "answer": "B",
+      "explanation": "The <head> section contains machine-readable information (metadata).",
+      "hash": "f7631e41f60ed12a",
+      "translations": {
+        "hi": {
+          "question": "HTML में <head> टैग का उद्देश्य क्या है?",
+          "options": {
+            "A": "मुख्य सामग्री प्रदर्शित करने के लिए",
+            "B": "मेटाडेटा और स्क्रिप्ट/स्टाइल के लिंक रखने के लिए",
+            "C": "पेज के लिए हेडर बनाने के लिए",
+            "D": "चित्र प्रदर्शित करने के लिए"
+          },
+          "explanation": "<head> सेक्शन में मशीन-पठनीय जानकारी (मेटाडेटा) होती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-012",
+      "number": 12,
+      "question": "Which HTML tag is used to define an unordered list?",
+      "options": {
+        "A": "<ol>",
+        "B": "<li>",
+        "C": "<ul>",
+        "D": "<list>"
+      },
+      "answer": "C",
+      "explanation": "<ul> defines an unordered (bulleted) list.",
+      "hash": "4eaf18e9450dbb03",
+      "translations": {
+        "hi": {
+          "question": "अनऑर्डर लिस्ट को परिभाषित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<ol>",
+            "B": "<li>",
+            "C": "<ul>",
+            "D": "<list>"
+          },
+          "explanation": "<ul> एक अनऑर्डर (बुलेटेड) लिस्ट को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-013",
+      "number": 13,
+      "question": "Which JavaScript method is used to write into the browser console?",
+      "options": {
+        "A": "console.log()",
+        "B": "console.write()",
+        "C": "document.write()",
+        "D": "print()"
+      },
+      "answer": "A",
+      "explanation": "console.log() is used for debugging and printing data to the console.",
+      "hash": "182429b07d2196de",
+      "translations": {
+        "hi": {
+          "question": "ब्राउज़र कंसोल में लिखने के लिए किस जावास्क्रिप्ट मेथड का उपयोग किया जाता है?",
+          "options": {
+            "A": "console.log()",
+            "B": "console.write()",
+            "C": "document.write()",
+            "D": "print()"
+          },
+          "explanation": "console.log() का उपयोग डिबगिंग और कंसोल पर डेटा प्रिंट करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-014",
+      "number": 14,
+      "question": "What is the correct way to write a JavaScript array?",
+      "options": {
+        "A": "var colors = \"red\", \"green\", \"blue\"",
+        "B": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+        "C": "var colors = [\"red\", \"green\", \"blue\"]",
+        "D": "var colors = 1=(\"red\"), 2=(\"green\"), 3=(\"blue\")"
+      },
+      "answer": "C",
+      "explanation": "Arrays in JavaScript are written inside square brackets [].",
+      "hash": "8ddecf8a90a8a763",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट ऐरे लिखने का सही तरीका क्या है?",
+          "options": {
+            "A": "var colors = \"red\", \"green\", \"blue\"",
+            "B": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+            "C": "var colors = [\"red\", \"green\", \"blue\"]",
+            "D": "var colors = 1=(\"red\"), 2=(\"green\"), 3=(\"blue\")"
+          },
+          "explanation": "जावास्क्रिप्ट में ऐरे वर्गाकार कोष्ठक [] के अंदर लिखे जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-015",
+      "number": 15,
+      "question": "In CSS, how do you select an element with id \"demo\"?",
+      "options": {
+        "A": ".demo",
+        "B": "#demo",
+        "C": "*demo",
+        "D": "demo"
+      },
+      "answer": "B",
+      "explanation": "The \"#\" symbol is used as the ID selector in CSS.",
+      "hash": "682f07cd6499a5a1",
+      "translations": {
+        "hi": {
+          "question": "CSS में, \"demo\" आईडी वाले एलिमेंट को आप कैसे चुनते हैं?",
+          "options": {
+            "A": ".demo",
+            "B": "#demo",
+            "C": "*demo",
+            "D": "demo"
+          },
+          "explanation": "CSS में ID सेलेक्टर के रूप में \"#\" प्रतीक का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-016",
+      "number": 16,
+      "question": "Which HTML5 element is used to specify a footer for a document or section?",
+      "options": {
+        "A": "<bottom>",
+        "B": "<section>",
+        "C": "<footer>",
+        "D": "<foot>"
+      },
+      "answer": "C",
+      "explanation": "The <footer> tag defines a footer for a document or section.",
+      "hash": "a2ae6e2f16cdf547",
+      "translations": {
+        "hi": {
+          "question": "दस्तावेज़ या अनुभाग के लिए फुटर निर्दिष्ट करने के लिए किस HTML5 तत्व का उपयोग किया जाता है?",
+          "options": {
+            "A": "<bottom>",
+            "B": "<section>",
+            "C": "<footer>",
+            "D": "<foot>"
+          },
+          "explanation": "<footer> टैग दस्तावेज़ या अनुभाग के लिए फुटर को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-017",
+      "number": 17,
+      "question": "What does XML stand for?",
+      "options": {
+        "A": "eXtra Modern Link",
+        "B": "eXtensible Markup Language",
+        "C": "Example Markup Language",
+        "D": "eX-Markup Language"
+      },
+      "answer": "B",
+      "explanation": "XML stands for eXtensible Markup Language, designed to store and transport data.",
+      "hash": "6ec5f84eb74ba6da",
+      "translations": {
+        "hi": {
+          "question": "XML का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "एक्स्ट्रा मॉडर्न लिंक",
+            "B": "एक्सटेंसिबल मार्कअप लैंग्वेज",
+            "C": "एग्जांपल मार्कअप लैंग्वेज",
+            "D": "एक्स-मार्कअप लैंग्वेज"
+          },
+          "explanation": "XML का अर्थ एक्सटेंसिबल मार्कअप लैंग्वेज है, जिसे डेटा स्टोर और ट्रांसपोर्ट करने के लिए डिज़ाइन किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-018",
+      "number": 18,
+      "question": "Which CSS property controls the text size?",
+      "options": {
+        "A": "font-style",
+        "B": "text-size",
+        "C": "font-size",
+        "D": "text-style"
+      },
+      "answer": "C",
+      "explanation": "font-size is used to change the size of the font in CSS.",
+      "hash": "7f97bb19b1ae3c59",
+      "translations": {
+        "hi": {
+          "question": "कौन सी CSS प्रॉपर्टी टेक्स्ट के आकार को नियंत्रित करती है?",
+          "options": {
+            "A": "font-style",
+            "B": "text-size",
+            "C": "font-size",
+            "D": "text-style"
+          },
+          "explanation": "font-size का उपयोग CSS में फ़ॉन्ट का आकार बदलने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-019",
+      "number": 19,
+      "question": "Which sign is used for jQuery?",
+      "options": {
+        "A": "%",
+        "B": "&",
+        "C": "$",
+        "D": "#"
+      },
+      "answer": "C",
+      "explanation": "The $ sign is a shorthand for jQuery functions.",
+      "hash": "77c1eae133b59719",
+      "translations": {
+        "hi": {
+          "question": "jQuery के लिए किस चिन्ह का उपयोग किया जाता है?",
+          "options": {
+            "A": "%",
+            "B": "&",
+            "C": "$",
+            "D": "#"
+          },
+          "explanation": "$ चिन्ह jQuery फ़ंक्शंस के लिए एक शॉर्टहैंड है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-020",
+      "number": 20,
+      "question": "Which input type is used for a slider control in HTML5?",
+      "options": {
+        "A": "slider",
+        "B": "range",
+        "C": "control",
+        "D": "number"
+      },
+      "answer": "B",
+      "explanation": "<input type=\"range\"> creates a slider control.",
+      "hash": "5b26c18dbc5763a4",
+      "translations": {
+        "hi": {
+          "question": "HTML5 में स्लाइडर कंट्रोल के लिए किस इनपुट टाइप का उपयोग किया जाता है?",
+          "options": {
+            "A": "slider",
+            "B": "range",
+            "C": "control",
+            "D": "number"
+          },
+          "explanation": "<input type=\"range\"> एक स्लाइडर कंट्रोल बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-021",
+      "number": 21,
+      "question": "How can you make a numbered list in HTML?",
+      "options": {
+        "A": "<dl>",
+        "B": "<ul>",
+        "C": "<ol>",
+        "D": "<list>"
+      },
+      "answer": "C",
+      "explanation": "<ol> (ordered list) is used to create a numbered list.",
+      "hash": "bdd1d677795e98d9",
+      "translations": {
+        "hi": {
+          "question": "आप HTML में नंबर वाली लिस्ट कैसे बना सकते हैं?",
+          "options": {
+            "A": "<dl>",
+            "B": "<ul>",
+            "C": "<ol>",
+            "D": "<list>"
+          },
+          "explanation": "<ol> (ऑर्डर्ड लिस्ट) का उपयोग नंबर वाली लिस्ट बनाने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-022",
+      "number": 22,
+      "question": "Which CSS property is used to make the text bold?",
+      "options": {
+        "A": "font-weight",
+        "B": "text-style",
+        "C": "font-bold",
+        "D": "text-weight"
+      },
+      "answer": "A",
+      "explanation": "font-weight: bold; is used to make text thicker.",
+      "hash": "dddc33ada7d1a8a8",
+      "translations": {
+        "hi": {
+          "question": "टेक्स्ट को बोल्ड बनाने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "font-weight",
+            "B": "text-style",
+            "C": "font-bold",
+            "D": "text-weight"
+          },
+          "explanation": "टेक्स्ट को मोटा बनाने के लिए font-weight: bold; का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-023",
+      "number": 23,
+      "question": "In JavaScript, what is the result of 2 + \"2\"?",
+      "options": {
+        "A": "4",
+        "B": "\"22\"",
+        "C": "\"4\"",
+        "D": "NaN"
+      },
+      "answer": "B",
+      "explanation": "Adding a number and a string results in string concatenation.",
+      "hash": "ea87630880ed994d",
+      "translations": {
+        "hi": {
+          "question": "जावास्क्रिप्ट में, 2 + \"2\" का परिणाम क्या है?",
+          "options": {
+            "A": "4",
+            "B": "\"22\"",
+            "C": "\"4\"",
+            "D": "NaN"
+          },
+          "explanation": "एक संख्या और एक स्ट्रिंग को जोड़ने का परिणाम स्ट्रिंग संयोजन (concatenation) होता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-024",
+      "number": 24,
+      "question": "Which HTML tag is used to display a scalar measurement within a range?",
+      "options": {
+        "A": "<gauge>",
+        "B": "<range>",
+        "C": "<meter>",
+        "D": "<measure>"
+      },
+      "answer": "C",
+      "explanation": "The <meter> tag defines a scalar measurement within a known range.",
+      "hash": "9445d6cefd55ad60",
+      "translations": {
+        "hi": {
+          "question": "एक सीमा के भीतर स्केलर माप प्रदर्शित करने के लिए किस HTML टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<gauge>",
+            "B": "<range>",
+            "C": "<meter>",
+            "D": "<measure>"
+          },
+          "explanation": "<meter> टैग एक ज्ञात सीमा के भीतर स्केलर माप को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-025",
+      "number": 25,
+      "question": "What is the default value of the position property in CSS?",
+      "options": {
+        "A": "relative",
+        "B": "absolute",
+        "C": "static",
+        "D": "fixed"
+      },
+      "answer": "C",
+      "explanation": "The default position for all elements is static.",
+      "hash": "2cba6b4341faf00f",
+      "translations": {
+        "hi": {
+          "question": "CSS में पोजीशन प्रॉपर्टी का डिफॉल्ट मान क्या है?",
+          "options": {
+            "A": "relative",
+            "B": "absolute",
+            "C": "static",
+            "D": "fixed"
+          },
+          "explanation": "सभी एलिमेंट्स के लिए डिफॉल्ट पोजीशन static होती है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-026",
+      "number": 26,
+      "question": "What is the full form of AJAX?",
+      "options": {
+        "A": "Asynchronous JavaScript and XML",
+        "B": "Advanced JavaScript and XML",
+        "C": "Asynchronous JSON and XML",
+        "D": "All JavaScript and XML"
+      },
+      "answer": "A",
+      "explanation": "AJAX stands for Asynchronous JavaScript and XML.",
+      "hash": "5f64d9d23751e37f",
+      "translations": {
+        "hi": {
+          "question": "AJAX का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "एसिंक्रोनस जावास्क्रिप्ट एंड XML",
+            "B": "एडवांस्ड जावास्क्रिप्ट एंड XML",
+            "C": "एसिंक्रोनस JSON एंड XML",
+            "D": "ऑल जावास्क्रिप्ट एंड XML"
+          },
+          "explanation": "AJAX का अर्थ एसिंक्रोनस जावास्क्रिप्ट एंड XML है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-027",
+      "number": 27,
+      "question": "Which tag is used to embed a YouTube video in HTML?",
+      "options": {
+        "A": "<video>",
+        "B": "<frame>",
+        "C": "<iframe>",
+        "D": "<embed>"
+      },
+      "answer": "C",
+      "explanation": "<iframe> is commonly used to embed external content like YouTube videos.",
+      "hash": "53c5d19a96d46644",
+      "translations": {
+        "hi": {
+          "question": "HTML में YouTube वीडियो एम्बेड करने के लिए किस टैग का उपयोग किया जाता है?",
+          "options": {
+            "A": "<video>",
+            "B": "<frame>",
+            "C": "<iframe>",
+            "D": "<embed>"
+          },
+          "explanation": "<iframe> का उपयोग आमतौर पर YouTube वीडियो जैसी बाहरी सामग्री को एम्बेड करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-028",
+      "number": 28,
+      "question": "Which CSS property is used to add space inside an element's border?",
+      "options": {
+        "A": "margin",
+        "B": "spacing",
+        "C": "border-width",
+        "D": "padding"
+      },
+      "answer": "D",
+      "explanation": "Padding is the space between the content and the border.",
+      "hash": "1583574dfd329b9f",
+      "translations": {
+        "hi": {
+          "question": "किसी एलिमेंट के बॉर्डर के अंदर जगह जोड़ने के लिए किस CSS प्रॉपर्टी का उपयोग किया जाता है?",
+          "options": {
+            "A": "margin",
+            "B": "spacing",
+            "C": "border-width",
+            "D": "padding"
+          },
+          "explanation": "पैडिंग कंटेंट और बॉर्डर के बीच की जगह है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-029",
+      "number": 29,
+      "question": "Which of the following is used to store data on the client side in HTML5?",
+      "options": {
+        "A": "Web SQL",
+        "B": "Cookies",
+        "C": "localStorage",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "HTML5 supports various client-side storage options including localStorage, Web SQL, and cookies.",
+      "hash": "69c2cedefd9525b1",
+      "translations": {
+        "hi": {
+          "question": "HTML5 में क्लाइंट साइड पर डेटा स्टोर करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "Web SQL",
+            "B": "Cookies",
+            "C": "localStorage",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "HTML5 localStorage, Web SQL और कुकीज़ सहित विभिन्न क्लाइंट-साइड स्टोरेज विकल्पों का समर्थन करता है।"
+        }
+      }
+    },
+    {
+      "id": "web-technologies-01-030",
+      "number": 30,
+      "question": "Which event occurs when a user clicks on an HTML element?",
+      "options": {
+        "A": "onchange",
+        "B": "onclick",
+        "C": "onmouseclick",
+        "D": "onhover"
+      },
+      "answer": "B",
+      "explanation": "The onclick event handler is triggered when an element is clicked.",
+      "hash": "18d61aba81641cb1",
+      "translations": {
+        "hi": {
+          "question": "जब कोई उपयोगकर्ता किसी HTML तत्व पर क्लिक करता है तो कौन सी घटना (event) घटित होती है?",
+          "options": {
+            "A": "onchange",
+            "B": "onclick",
+            "C": "onmouseclick",
+            "D": "onhover"
+          },
+          "explanation": "जब किसी एलिमेंट पर क्लिक किया जाता है तो onclick इवेंट हैंडलर ट्रिगर होता है।"
+        }
+      }
+    }
+  ]
+}

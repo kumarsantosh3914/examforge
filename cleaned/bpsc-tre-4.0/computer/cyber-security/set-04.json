@@ -1,0 +1,787 @@
+{
+  "subject": "Cyber Security",
+  "set": 4,
+  "title": "Cyber Security Mock Test 4",
+  "questions": [
+    {
+      "id": "cyber-security-04-001",
+      "number": 1,
+      "question": "Which type of attack involves an attacker positioning themselves between two parties to intercept their communication?",
+      "options": {
+        "A": "Phishing",
+        "B": "Denial of Service",
+        "C": "Man-in-the-Middle (MitM)",
+        "D": "SQL Injection"
+      },
+      "answer": "C",
+      "explanation": "In a MitM attack, the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating.",
+      "hash": "169966057d315922",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के हमले में हमलावर दो पक्षों के बीच खुद को स्थापित करता है ताकि उनके संचार को रोका जा सके?",
+          "options": {
+            "A": "फिशिंग",
+            "B": "सेवा से इनकार",
+            "C": "मैन-इन-द-मिडल (MitM)",
+            "D": "SQL इंजेक्शन"
+          },
+          "explanation": "MitM हमले में, हमलावर गुप्त रूप से दो पक्षों के बीच संचार को रिले करता है और संभवतः उसे बदल देता है, जबकि वे दोनों पक्ष मानते हैं कि वे सीधे संवाद कर रहे हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-002",
+      "number": 2,
+      "question": "What is 'Clickjacking'?",
+      "options": {
+        "A": "Increasing the number of clicks on an ad",
+        "B": "Tricking a user into clicking on something different from what they perceive",
+        "C": "Stealing a user's mouse movements",
+        "D": "Speeding up a web browser"
+      },
+      "answer": "B",
+      "explanation": "Clickjacking uses transparent layers to trick users into clicking buttons or links on another page while they intended to click on the top-level page.",
+      "hash": "6c3c21eb0c92a5f8",
+      "translations": {
+        "hi": {
+          "question": "'क्लिकजैकिंग' (Clickjacking) क्या है?",
+          "options": {
+            "A": "किसी विज्ञापन पर क्लिक की संख्या बढ़ाना",
+            "B": "उपयोगकर्ता को उस चीज़ से अलग किसी चीज़ पर क्लिक करने के लिए धोखा देना जो उन्हें दिखाई दे रही है",
+            "C": "उपयोगकर्ता के माउस की गतिविधियों को चुराना",
+            "D": "वेब ब्राउज़र को तेज़ करना"
+          },
+          "explanation": "क्लिकजैकिंग पारदर्शी परतों का उपयोग करती है ताकि उपयोगकर्ताओं को किसी अन्य पेज के बटन या लिंक पर क्लिक करने के लिए धोखा दिया जा सके, जबकि वे शीर्ष-स्तरीय पेज पर क्लिक करना चाहते थे।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-003",
+      "number": 3,
+      "question": "Which of the following is a security mechanism used to prevent automated software from performing actions?",
+      "options": {
+        "A": "Firewall",
+        "B": "CAPTCHA",
+        "C": "Antivirus",
+        "D": "Encryption"
+      },
+      "answer": "B",
+      "explanation": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) distinguishes human users from bots.",
+      "hash": "b25cfbe87f7aa637",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक सुरक्षा तकनीक है जिसका उपयोग स्वचालित सॉफ्टवेयर को कार्रवाई करने से रोकने के लिए किया जाता है?",
+          "options": {
+            "A": "फ़ायरवॉल",
+            "B": "कैप्चा",
+            "C": "एंटीवायरस",
+            "D": "एन्क्रिप्शन"
+          },
+          "explanation": "कैप्चा (CAPTCHA) मानव उपयोगकर्ताओं और बॉट्स के बीच अंतर करने के लिए एक परीक्षण है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-004",
+      "number": 4,
+      "question": "What is 'Vulnerability Scanning'?",
+      "options": {
+        "A": "Cleaning a computer",
+        "B": "Automated process of identifying security weaknesses in a system",
+        "C": "Creating a virus",
+        "D": "Encrypting the hard drive"
+      },
+      "answer": "B",
+      "explanation": "Vulnerability scanners check systems against a database of known security flaws to identify potential entry points for attackers.",
+      "hash": "923f31f3e59ff264",
+      "translations": {
+        "hi": {
+          "question": "'वल्नरेबिलिटी स्कैनिंग' (Vulnerability Scanning) क्या है?",
+          "options": {
+            "A": "कंप्यूटर की सफाई करना",
+            "B": "सिस्टम में सुरक्षा कमजोरियों की पहचान करने की स्वचालित प्रक्रिया",
+            "C": "वायरस बनाना",
+            "D": "हार्ड ड्राइव को एन्क्रिप्ट करना"
+          },
+          "explanation": "वल्नरेबिलिटी स्कैनर हमलावरों के लिए संभावित प्रवेश बिंदुओं की पहचान करने के लिए ज्ञात सुरक्षा खामियों के डेटाबेस के विरुद्ध सिस्टम की जांच करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-005",
+      "number": 5,
+      "question": "Which of the following is an example of 'Something you know' in authentication?",
+      "options": {
+        "A": "Fingerprint",
+        "B": "Smart Card",
+        "C": "Password",
+        "D": "Voice Pattern"
+      },
+      "answer": "C",
+      "explanation": "Authentication factors include knowledge (password), possession (token), and inherence (biometrics).",
+      "hash": "d83b49f839a1bf02",
+      "translations": {
+        "hi": {
+          "question": "प्रमाणीकरण में 'कुछ ऐसा जो आप जानते हैं' का उदाहरण निम्नलिखित में से कौन सा है?",
+          "options": {
+            "A": "फिंगरप्रिंट",
+            "B": "स्मार्ट कार्ड",
+            "C": "पासवर्ड",
+            "D": "वॉयस पैटर्न"
+          },
+          "explanation": "प्रमाणीकरण कारकों में ज्ञान (पासवर्ड), कब्ज़ा (टोकन) और सहजता (बायोमेट्रिक्स) शामिल हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-006",
+      "number": 6,
+      "question": "In cryptography, what is 'Confusion'?",
+      "options": {
+        "A": "Hiding the relationship between the key and the ciphertext",
+        "B": "Making the code unreadable",
+        "C": "Spreading the plaintext statistics over the ciphertext",
+        "D": "Deleting the key after use"
+      },
+      "answer": "A",
+      "explanation": "Confusion is a technique to ensure that each binary digit of the ciphertext depends on several parts of the key, obscuring their relationship.",
+      "hash": "c55293bcdc375806",
+      "translations": {
+        "hi": {
+          "question": "क्रिप्टोग्राफी में 'कन्फ्यूजन' (Confusion) क्या है?",
+          "options": {
+            "A": "कुंजी और सिफरटेक्स्ट के बीच संबंध को छिपाना",
+            "B": "कोड को अपठनीय बनाना",
+            "C": "सिफरटेक्स्ट पर प्लेनटेक्स्ट के आंकड़ों को फैलाना",
+            "D": "उपयोग के बाद कुंजी को हटाना"
+          },
+          "explanation": "कन्फ्यूजन यह सुनिश्चित करने की एक तकनीक है कि सिफरटेक्स्ट का प्रत्येक बाइनरी अंक कुंजी के कई हिस्सों पर निर्भर करता है, जिससे उनके संबंध छिप जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-007",
+      "number": 7,
+      "question": "What is 'War Driving'?",
+      "options": {
+        "A": "Driving a tank",
+        "B": "Searching for Wi-Fi wireless networks while moving in a vehicle",
+        "C": "Hacking a car's GPS",
+        "D": "A type of online racing game"
+      },
+      "answer": "B",
+      "explanation": "War driving involves using a laptop or smartphone to locate open or vulnerable Wi-Fi networks in a specific area.",
+      "hash": "24f0edc9d93dc75f",
+      "translations": {
+        "hi": {
+          "question": "'वॉर ड्राइविंग' (War Driving) क्या है?",
+          "options": {
+            "A": "टैंक चलाना",
+            "B": "वाहन में चलते समय वाई-फाई वायरलेस नेटवर्क की खोज करना",
+            "C": "कार के जीपीएस को हैक करना",
+            "D": "एक प्रकार का ऑनलाइन रेसिंग गेम"
+          },
+          "explanation": "वॉर ड्राइविंग में किसी विशिष्ट क्षेत्र में खुले या असुरक्षित वाई-फाई नेटवर्क का पता लगाने के लिए लैपटॉप या स्मार्टफोन का उपयोग करना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-008",
+      "number": 8,
+      "question": "Which type of attack uses a predefined list of words to guess a password?",
+      "options": {
+        "A": "Brute Force Attack",
+        "B": "Dictionary Attack",
+        "C": "Rainbow Table Attack",
+        "D": "Replay Attack"
+      },
+      "answer": "B",
+      "explanation": "A dictionary attack tries every word in a large list (dictionary) to find a match for the user's password.",
+      "hash": "04930c504faf1391",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का हमला पासवर्ड का अनुमान लगाने के लिए शब्दों की पूर्वनिर्धारित सूची का उपयोग करता है?",
+          "options": {
+            "A": "ब्रूट फोर्स अटैक",
+            "B": "डिक्शनरी अटैक",
+            "C": "रेनबो टेबल अटैक",
+            "D": "रिप्ले अटैक"
+          },
+          "explanation": "डिक्शनरी अटैक उपयोगकर्ता के पासवर्ड के साथ मिलान खोजने के लिए एक बड़ी सूची (डिक्शनरी) के हर शब्द को आज़माता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-009",
+      "number": 9,
+      "question": "What is the primary purpose of an 'Air Gap' in security?",
+      "options": {
+        "A": "To cool down the server",
+        "B": "To physically isolate a secure network from unsecured networks like the internet",
+        "C": "To increase signal strength",
+        "D": "To prevent physical theft of a PC"
+      },
+      "answer": "B",
+      "explanation": "An air-gapped computer or network is one that has no physical or wireless connections to other networks.",
+      "hash": "e7ea0c09ff02be8f",
+      "translations": {
+        "hi": {
+          "question": "सुरक्षा में 'एयर गैप' (Air Gap) का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "सर्वर को ठंडा करना",
+            "B": "इंटरनेट जैसे असुरक्षित नेटवर्क से एक सुरक्षित नेटवर्क को भौतिक रूप से अलग करना",
+            "C": "सिग्नल की ताकत बढ़ाना",
+            "D": "पीसी की भौतिक चोरी को रोकना"
+          },
+          "explanation": "एक एयर-गैप्ड कंप्यूटर या नेटवर्क वह होता है जिसका अन्य नेटवर्क के साथ कोई भौतिक या वायरलेस कनेक्शन नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-010",
+      "number": 10,
+      "question": "What does 'SIEM' stand for?",
+      "options": {
+        "A": "System Information and Enterprise Management",
+        "B": "Security Information and Event Management",
+        "C": "Secure Internet and Email Monitoring",
+        "D": "Structured Intelligence and Error Management"
+      },
+      "answer": "B",
+      "explanation": "SIEM technology provides real-time analysis of security alerts generated by applications and network hardware.",
+      "hash": "bc00caf464713572",
+      "translations": {
+        "hi": {
+          "question": "'SIEM' का पूर्ण रूप क्या है?",
+          "options": {
+            "A": "सिस्टम इंफॉर्मेशन एंड एंटरप्राइज मैनेजमेंट",
+            "B": "सिक्योरिटी इंफॉर्मेशन एंड इवेंट मैनेजमेंट",
+            "C": "सिक्योर इंटरनेट एंड ईमेल मॉनिटरिंग",
+            "D": "स्ट्रक्चर्ड इंटेलिजेंस एंड एरर मैनेजमेंट"
+          },
+          "explanation": "SIEM तकनीक अनुप्रयोगों और नेटवर्क हार्डवेयर द्वारा उत्पन्न सुरक्षा अलर्ट का रीयल-टाइम विश्लेषण प्रदान करती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-011",
+      "number": 11,
+      "question": "In a 'SQL Injection' attack, what is often used to bypass a login page?",
+      "options": {
+        "A": "1=1",
+        "B": "<script>",
+        "C": "admin/admin",
+        "D": "Password123"
+      },
+      "answer": "A",
+      "explanation": "Attackers use \"OR 1=1\" because it is always true, forcing the database to grant access without a valid password.",
+      "hash": "6eb547a27f26f9ad",
+      "translations": {
+        "hi": {
+          "question": "'SQL इंजेक्शन' हमले में, अक्सर लॉगिन पेज को बायपास करने के लिए किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "1=1",
+            "B": "<script>",
+            "C": "admin/admin",
+            "D": "Password123"
+          },
+          "explanation": "हमलावर \"OR 1=1\" का उपयोग करते हैं क्योंकि यह हमेशा सत्य होता है, जिससे डेटाबेस बिना वैध पासवर्ड के पहुंच प्रदान करने के लिए मजबूर हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-012",
+      "number": 12,
+      "question": "Which of the following is an 'Inbound' firewall rule?",
+      "options": {
+        "A": "Blocking a local user from visiting Facebook",
+        "B": "Allowing a remote user to access the local web server",
+        "C": "Preventing a server from sending emails",
+        "D": "Updating the antivirus database"
+      },
+      "answer": "B",
+      "explanation": "Inbound rules control traffic coming from the outside (internet) into the internal network.",
+      "hash": "cd3658a5851c1350",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक 'इनबाउंड' (Inbound) फ़ायरवॉल नियम है?",
+          "options": {
+            "A": "स्थानीय उपयोगकर्ता को फेसबुक देखने से रोकना",
+            "B": "रिमोट उपयोगकर्ता को स्थानीय वेब सर्वर तक पहुँचने की अनुमति देना",
+            "C": "सर्वर को ईमेल भेजने से रोकना",
+            "D": "एंटीवायरस डेटाबेस को अपडेट करना"
+          },
+          "explanation": "इनबाउंड नियम बाहरी (इंटरनेट) से आंतरिक नेटवर्क में आने वाले ट्रैफ़िक को नियंत्रित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-013",
+      "number": 13,
+      "question": "What is a 'Rootkit'?",
+      "options": {
+        "A": "A tool to clean computer dust",
+        "B": "Software that allows an unauthorized user to gain control of a computer system without being detected",
+        "C": "The main folder of a website",
+        "D": "A hardware component for routers"
+      },
+      "answer": "B",
+      "explanation": "Rootkits hide their presence and give hackers administrative-level access to a system.",
+      "hash": "5f6c2fbcc7fdcf24",
+      "translations": {
+        "hi": {
+          "question": "'रूटकिट' (Rootkit) क्या है?",
+          "options": {
+            "A": "कंप्यूटर की धूल साफ करने का एक उपकरण",
+            "B": "सॉफ्टवेयर जो अनधिकृत उपयोगकर्ता को पता चले बिना कंप्यूटर सिस्टम का नियंत्रण प्राप्त करने की अनुमति देता है",
+            "C": "वेबसाइट का मुख्य फोल्डर",
+            "D": "राउटर के लिए एक हार्डवेयर घटक"
+          },
+          "explanation": "रूटकिट अपनी उपस्थिति छिपाते हैं और हैकर्स को सिस्टम तक प्रशासनिक स्तर की पहुंच प्रदान करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-014",
+      "number": 14,
+      "question": "What is 'Sandboxing'?",
+      "options": {
+        "A": "Playing with data",
+        "B": "Running programs in an isolated environment to prevent them from affecting the rest of the system",
+        "C": "Compressing files into a .zip format",
+        "D": "Encrypting the desktop background"
+      },
+      "answer": "B",
+      "explanation": "Sandboxing is a security mechanism for separating running programs, usually in order to execute untested or untrusted code.",
+      "hash": "e60014586cc86c32",
+      "translations": {
+        "hi": {
+          "question": "'सैंडबॉक्सिंग' (Sandboxing) क्या है?",
+          "options": {
+            "A": "डेटा के साथ खेलना",
+            "B": "सिस्टम के बाकी हिस्सों को प्रभावित करने से रोकने के लिए प्रोग्रामों को एक अलग वातावरण में चलाना",
+            "C": "फ़ाइलों को .zip प्रारूप में संपीड़ित करना",
+            "D": "डेस्कटॉप पृष्ठभूमि को एन्क्रिप्ट करना"
+          },
+          "explanation": "सैंडबॉक्सिंग चल रहे प्रोग्रामों को अलग करने के लिए एक सुरक्षा तंत्र है, आमतौर पर बिना परीक्षण किए गए या अविश्वसनीय कोड को निष्पादित करने के लिए।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-015",
+      "number": 15,
+      "question": "Which encryption mode treats each block of plaintext independently?",
+      "options": {
+        "A": "CBC (Cipher Block Chaining)",
+        "B": "ECB (Electronic Codebook)",
+        "C": "CFB (Cipher Feedback)",
+        "D": "OFB (Output Feedback)"
+      },
+      "answer": "B",
+      "explanation": "ECB is the simplest mode where each block is encrypted separately, but it is less secure because identical plaintext blocks result in identical ciphertext blocks.",
+      "hash": "5244755dcd8fe199",
+      "translations": {
+        "hi": {
+          "question": "कौन सा एन्क्रिप्शन मोड प्लेनटेक्स्ट के प्रत्येक ब्लॉक को स्वतंत्र रूप से मानता है?",
+          "options": {
+            "A": "CBC (सिफर ब्लॉक चेनिंग)",
+            "B": "ECB (इलेक्ट्रॉनिक कोडबुक)",
+            "C": "CFB (सिफर फीडबैक)",
+            "D": "OFB (आउटपुट फीडबैक)"
+          },
+          "explanation": "ECB सबसे सरल मोड है जहां प्रत्येक ब्लॉक को अलग से एन्क्रिप्ट किया जाता है, लेकिन यह कम सुरक्षित है क्योंकि समान प्लेनटेक्स्ट ब्लॉक के परिणामस्वरूप समान सिफरटेक्स्ट ब्लॉक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-016",
+      "number": 16,
+      "question": "What is 'Spear Phishing'?",
+      "options": {
+        "A": "Fishing with a spear",
+        "B": "A phishing attack targeted at a specific individual or organization",
+        "C": "Sending a billion emails at once",
+        "D": "Hacking a high-speed server"
+      },
+      "answer": "B",
+      "explanation": "Unlike general phishing, spear phishing is personalized and much more likely to deceive the victim.",
+      "hash": "665315d9f4dbe274",
+      "translations": {
+        "hi": {
+          "question": "'स्पियर फिशिंग' (Spear Phishing) क्या है?",
+          "options": {
+            "A": "भाले से मछली पकड़ना",
+            "B": "किसी विशिष्ट व्यक्ति या संगठन को लक्षित करने वाला फिशिंग हमला",
+            "C": "एक साथ एक अरब ईमेल भेजना",
+            "D": "हाई-स्पीड सर्वर को हैक करना"
+          },
+          "explanation": "सामान्य फिशिंग के विपरीत, स्पियर फिशिंग व्यक्तिगत होती है और पीड़ित को धोखा देने की संभावना बहुत अधिक होती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-017",
+      "number": 17,
+      "question": "Which of the following is used to verify the integrity of a downloaded file?",
+      "options": {
+        "A": "File extension",
+        "B": "Checksum/Hash value",
+        "C": "File size",
+        "D": "Date created"
+      },
+      "answer": "B",
+      "explanation": "Comparing the hash value of the downloaded file with the original ensures that the file was not corrupted or altered.",
+      "hash": "1b65103032c46e02",
+      "translations": {
+        "hi": {
+          "question": "डाउनलोड की गई फ़ाइल की अखंडता को सत्यापित करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "फ़ाइल एक्सटेंशन",
+            "B": "चेकसम/हैश मान",
+            "C": "फ़ाइल का आकार",
+            "D": "निर्माण की तिथि"
+          },
+          "explanation": "डाउनलोड की गई फ़ाइल के हैश मान की मूल के साथ तुलना करना यह सुनिश्चित करता है कि फ़ाइल दूषित या बदली नहीं गई थी।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-018",
+      "number": 18,
+      "question": "Which term refers to the practice of monitoring someone's data without their knowledge?",
+      "options": {
+        "A": "Eavesdropping",
+        "B": "Spoofing",
+        "C": "Cracking",
+        "D": "Formatting"
+      },
+      "answer": "A",
+      "explanation": "Eavesdropping is a passive attack where the attacker listens to private communication over a network.",
+      "hash": "9bdee7d59857980d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा शब्द किसी व्यक्ति के डेटा की उनकी जानकारी के बिना निगरानी करने के अभ्यास को संदर्भित करता है?",
+          "options": {
+            "A": "छिपकर सुनना (Eavesdropping)",
+            "B": "स्पूफिंग",
+            "C": "क्रैकिंग",
+            "D": "फॉर्मेटिंग"
+          },
+          "explanation": "ईव्सड्रॉपिंग एक पैसिव हमला है जहां हमलावर नेटवर्क पर निजी संचार को सुनता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-019",
+      "number": 19,
+      "question": "What is 'Steganography'?",
+      "options": {
+        "A": "Hiding a message inside another file (like an image)",
+        "B": "A type of encryption",
+        "C": "Cracking passwords",
+        "D": "Increasing hard drive speed"
+      },
+      "answer": "A",
+      "explanation": "Steganography focuses on hiding the existence of the message itself, rather than making it unreadable.",
+      "hash": "ee2b012d3cb6e67d",
+      "translations": {
+        "hi": {
+          "question": "'स्टेग्नोग्राफी' (Steganography) क्या है?",
+          "options": {
+            "A": "किसी अन्य फ़ाइल (जैसे छवि) के अंदर संदेश छिपाना",
+            "B": "एक प्रकार का एन्क्रिप्शन",
+            "C": "पासवर्ड क्रैक करना",
+            "D": "हार्ड ड्राइव की गति बढ़ाना"
+          },
+          "explanation": "स्टेग्नोग्राफी संदेश को अपठनीय बनाने के बजाय, संदेश के अस्तित्व को ही छिपाने पर ध्यान केंद्रित करती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-020",
+      "number": 20,
+      "question": "In networking, what does 'Stateful' inspection mean for a firewall?",
+      "options": {
+        "A": "Checking if the server is in a specific state of India",
+        "B": "Tracking the context of traffic and the state of active connections",
+        "C": "Recording the history of all visited sites",
+        "D": "Checking the hardware state of the firewall"
+      },
+      "answer": "B",
+      "explanation": "Stateful firewalls keep track of the state of network connections (e.g., TCP handshakes) to filter packets more intelligently.",
+      "hash": "4faf02b328921d05",
+      "translations": {
+        "hi": {
+          "question": "नेटवर्किंग में, फ़ायरवॉल के लिए 'स्टेटफुल' (Stateful) निरीक्षण का क्या अर्थ है?",
+          "options": {
+            "A": "यह जांचना कि क्या सर्वर भारत के किसी विशिष्ट राज्य में है",
+            "B": "ट्रैफ़िक के संदर्भ और सक्रिय कनेक्शन की स्थिति पर नज़र रखना",
+            "C": "सभी विज़िट की गई साइटों का इतिहास रिकॉर्ड करना",
+            "D": "फ़ायरवॉल की हार्डवेयर स्थिति की जांच करना"
+          },
+          "explanation": "स्टेटफुल फ़ायरवॉल पैकेट को अधिक समझदारी से फ़िल्टर करने के लिए नेटवर्क कनेक्शन (जैसे टीसीपी हैंडशेक) की स्थिति का ट्रैक रखते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-021",
+      "number": 21,
+      "question": "What is 'Bluejacking'?",
+      "options": {
+        "A": "Stealing a phone",
+        "B": "Sending unsolicited messages to Bluetooth-enabled devices",
+        "C": "Hacking a Wi-Fi router",
+        "D": "A blue screen of death error"
+      },
+      "answer": "B",
+      "explanation": "Bluejacking is relatively harmless compared to Bluesnarfing, as it only involves sending messages rather than stealing data.",
+      "hash": "8c499ca5ad37b7f7",
+      "translations": {
+        "hi": {
+          "question": "'ब्लूजैकिंग' (Bluejacking) क्या है?",
+          "options": {
+            "A": "फोन चुराना",
+            "B": "ब्लूटूथ-सक्षम उपकरणों पर अनचाहे संदेश भेजना",
+            "C": "वाई-फाई राउटर को हैक करना",
+            "D": "'ब्लू स्क्रीन ऑफ डेथ' त्रुटि"
+          },
+          "explanation": "ब्लूजैकिंग ब्लूस्नर्फिंग की तुलना में अपेक्षाकृत हानिरहित है, क्योंकि इसमें डेटा चुराने के बजाय केवल संदेश भेजना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-022",
+      "number": 22,
+      "question": "What is 'MAC Spoofing'?",
+      "options": {
+        "A": "Stealing an Apple computer",
+        "B": "Changing the hard-coded MAC address to mimic another device",
+        "C": "Increasing the internet speed of a Mac",
+        "D": "A type of computer virus"
+      },
+      "answer": "B",
+      "explanation": "Attackers use MAC spoofing to bypass MAC-based access control lists (ACLs) on a network.",
+      "hash": "3bf9e423a9d24342",
+      "translations": {
+        "hi": {
+          "question": "'MAC स्पूफिंग' (MAC Spoofing) क्या है?",
+          "options": {
+            "A": "एप्पल कंप्यूटर चुराना",
+            "B": "दूसरे डिवाइस की नकल करने के लिए हार्ड-कोडेड मैक एड्रेस को बदलना",
+            "C": "मैक की इंटरनेट स्पीड बढ़ाना",
+            "D": "एक प्रकार का कंप्यूटर वायरस"
+          },
+          "explanation": "हमलावर नेटवर्क पर मैक-आधारित एक्सेस कंट्रोल लिस्ट (ACL) को बायपास करने के लिए मैक स्पूफिंग का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-023",
+      "number": 23,
+      "question": "Which of the following is a 'Black Box' penetration test?",
+      "options": {
+        "A": "Testing with full knowledge of the internal system",
+        "B": "Testing with no prior knowledge of the target system",
+        "C": "Testing with partial knowledge of the system",
+        "D": "Testing only the hardware"
+      },
+      "answer": "B",
+      "explanation": "A black box test simulates an external attacker who has no insider information about the network.",
+      "hash": "4870482d1fc4c7b6",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 'ब्लैक बॉक्स' (Black Box) पेनिट्रेशन टेस्ट है?",
+          "options": {
+            "A": "आंतरिक सिस्टम के पूर्ण ज्ञान के साथ परीक्षण",
+            "B": "लक्षित सिस्टम के किसी पूर्व ज्ञान के बिना परीक्षण",
+            "C": "सिस्टम के आंशिक ज्ञान के साथ परीक्षण",
+            "D": "केवल हार्डवेयर का परीक्षण करना"
+          },
+          "explanation": "ब्लैक बॉक्स टेस्ट एक बाहरी हमलावर का अनुकरण करता है जिसके पास नेटवर्क के बारे में कोई आंतरिक जानकारी नहीं होती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-024",
+      "number": 24,
+      "question": "What is 'Juice Jacking'?",
+      "options": {
+        "A": "Stealing electricity",
+        "B": "Cyber attack that occurs when a user plugs into a compromised charging station",
+        "C": "Increasing mobile battery life",
+        "D": "Hacking a beverage dispenser"
+      },
+      "answer": "B",
+      "explanation": "Juice jacking can lead to data theft or malware installation through a public USB charging port.",
+      "hash": "084a23581351a654",
+      "translations": {
+        "hi": {
+          "question": "'जूस जैकिंग' (Juice Jacking) क्या है?",
+          "options": {
+            "A": "बिजली चुराना",
+            "B": "साइबर हमला जो तब होता है जब कोई उपयोगकर्ता समझौता किए गए चार्जिंग स्टेशन में प्लग करता है",
+            "C": "मोबाइल बैटरी लाइफ बढ़ाना",
+            "D": "पेय डिस्पेंसर को हैक करना"
+          },
+          "explanation": "जूस जैकिंग सार्वजनिक USB चार्जिंग पोर्ट के माध्यम से डेटा चोरी या मैलवेयर इंस्टॉलेशन का कारण बन सकती है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-025",
+      "number": 25,
+      "question": "Which protocol is used by the 'Ping' command?",
+      "options": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "ICMP",
+        "D": "HTTP"
+      },
+      "answer": "C",
+      "explanation": "Ping uses ICMP (Internet Control Message Protocol) Echo Request and Echo Reply packets to test connectivity.",
+      "hash": "04d740ef6e451524",
+      "translations": {
+        "hi": {
+          "question": "'पिंग' (Ping) कमांड द्वारा किस प्रोटोकॉल का उपयोग किया जाता है?",
+          "options": {
+            "A": "टीसीपी",
+            "B": "यूडीपी",
+            "C": "आईसीएमपी",
+            "D": "एचटीटीपी"
+          },
+          "explanation": "पिंग कनेक्टिविटी का परीक्षण करने के लिए ICMP इको रिक्वेस्ट और इको रिप्लाई पैकेट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-026",
+      "number": 26,
+      "question": "What is 'Data Emanation'?",
+      "options": {
+        "A": "Entering data into a system",
+        "B": "Unintentional electromagnetic signals emitted by hardware that can be intercepted",
+        "C": "Deleting temporary files",
+        "D": "Transferring data over Wi-Fi"
+      },
+      "answer": "B",
+      "explanation": "Data emanation poses a security risk because sensitive info can be reconstructed from these stray signals.",
+      "hash": "2b0124925be8356e",
+      "translations": {
+        "hi": {
+          "question": "'डेटा इमेनेशन' (Data Emanation) क्या है?",
+          "options": {
+            "A": "सिस्टम में डेटा दर्ज करना",
+            "B": "हार्डवेयर द्वारा उत्सर्जित अनजाने विद्युत चुम्बकीय संकेत जिन्हें रोका जा सकता है",
+            "C": "अस्थायी फ़ाइलों को हटाना",
+            "D": "वाई-फाई पर डेटा ट्रांसफर करना"
+          },
+          "explanation": "डेटा इमेनेशन एक सुरक्षा जोखिम पैदा करता है क्योंकि इन भटके हुए संकेतों से संवेदनशील जानकारी को फिर से बनाया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-027",
+      "number": 27,
+      "question": "Which malware is specifically designed to hide its presence from the OS?",
+      "options": {
+        "A": "Virus",
+        "B": "Rootkit",
+        "C": "Trojan",
+        "D": "Adware"
+      },
+      "answer": "B",
+      "explanation": "Rootkits modify system files to remain invisible to standard administrative tools.",
+      "hash": "22be37a67505c73d",
+      "translations": {
+        "hi": {
+          "question": "कौन सा मैलवेयर विशेष रूप से ओएस से अपनी उपस्थिति छिपाने के लिए डिज़ाइन किया गया है?",
+          "options": {
+            "A": "वायरस",
+            "B": "रूटकिट",
+            "C": "ट्रोजन",
+            "D": "एडवेयर"
+          },
+          "explanation": "रूटकिट मानक प्रशासनिक उपकरणों के लिए अदृश्य रहने के लिए सिस्टम फ़ाइलों को संशोधित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-028",
+      "number": 28,
+      "question": "What is the purpose of 'Network Access Control' (NAC)?",
+      "options": {
+        "A": "To increase bandwidth",
+        "B": "To enforce security policies on devices before they connect to the network",
+        "C": "To design network cables",
+        "D": "To format the server"
+      },
+      "answer": "B",
+      "explanation": "NAC ensures that only compliant and authorized devices can access network resources.",
+      "hash": "1ae1667d817b9299",
+      "translations": {
+        "hi": {
+          "question": "'नेटवर्क एक्सेस कंट्रोल' (NAC) का उद्देश्य क्या है?",
+          "options": {
+            "A": "बैंडविड्थ बढ़ाना",
+            "B": "नेटवर्क से जुड़ने से पहले उपकरणों पर सुरक्षा नीतियों को लागू करना",
+            "C": "नेटवर्क केबल डिजाइन करना",
+            "D": "सर्वर को फॉर्मेट करना"
+          },
+          "explanation": "NAC यह सुनिश्चित करता है कि केवल अनुपालन करने वाले और अधिकृत उपकरण ही नेटवर्क संसाधनों तक पहुँच सकें।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-029",
+      "number": 29,
+      "question": "Which type of attack exploits a website by injecting malicious scripts into trusted websites?",
+      "options": {
+        "A": "SQLi",
+        "B": "XSS (Cross-Site Scripting)",
+        "C": "CSRF",
+        "D": "DoS"
+      },
+      "answer": "B",
+      "explanation": "XSS attacks use the browser to execute scripts that can steal cookies or session tokens.",
+      "hash": "3032c657b85f2495",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार का हमला विश्वसनीय वेबसाइटों में दुर्भावनापूर्ण स्क्रिप्ट इंजेक्ट करके वेबसाइट का शोषण करता है?",
+          "options": {
+            "A": "SQLi",
+            "B": "XSS (क्रॉस-साइट स्क्रिप्टिंग)",
+            "C": "CSRF",
+            "D": "DoS"
+          },
+          "explanation": "XSS हमले स्क्रिप्ट चलाने के लिए ब्राउज़र का उपयोग करते हैं जो कुकीज़ या सेशन टोकन चुरा सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "cyber-security-04-030",
+      "number": 30,
+      "question": "What is 'Ransomware'?",
+      "options": {
+        "A": "Software that makes the computer faster",
+        "B": "Malware that encrypts a victim's files and demands payment for the decryption key",
+        "C": "A tool to recover lost passwords",
+        "D": "A type of free antivirus"
+      },
+      "answer": "B",
+      "explanation": "Ransomware often spreads through phishing emails or drive-by downloads.",
+      "hash": "8ba33b28b8f19dfe",
+      "translations": {
+        "hi": {
+          "question": "'रैंसमवेयर' (Ransomware) क्या है?",
+          "options": {
+            "A": "सॉफ्टवेयर जो कंप्यूटर को तेज बनाता है",
+            "B": "मैलवेयर जो पीड़ित की फ़ाइलों को एन्क्रिप्ट करता है और डिक्रिप्शन कुंजी के लिए भुगतान की मांग करता है",
+            "C": "खोए हुए पासवर्ड को रिकवर करने का एक उपकरण",
+            "D": "एक प्रकार का मुफ्त एंटीवायरस"
+          },
+          "explanation": "रैंसमवेयर अक्सर फिशिंग ईमेल या ड्राइव-बाय डाउनलोड के माध्यम से फैलता है।"
+        }
+      }
+    }
+  ]
+}
