@@ -10,3 +10,7 @@ playwright-report/
 .DS_Store
 # Platform-specific Impeccable binary; the launcher falls back to ~/.impeccable or PATH.
 .agents/skills/impeccable/scripts/bin/
+# Impeccable session artifacts (review captures, decision-page logs).
+.impeccable/review/
+.impeccable/questions/
+.impeccable/hook.cache.json

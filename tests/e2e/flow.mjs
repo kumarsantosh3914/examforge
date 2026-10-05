@@ -21,8 +21,23 @@ const step = async (name, fn) => { process.stdout.write(`• ${name} … `); awa
 const shot = (p, name) => p.screenshot({ path: `${OUT}${name}.png`, fullPage: true });
 const attemptId = () => page.url().split('/test/')[1];
 
-await step('library loads with seeded counts', async () => {
+await step('landing lists live and coming-soon exams with filters', async () => {
   await page.goto(BASE);
+  await page.locator('.exam-card.soon h3').nth(3).waitFor();
+  assert.equal(await page.locator('.exam-card.soon').count(), 4);
+  assert.equal(await page.locator('.exam-card.soon a').count(), 0, 'coming-soon exams must not be clickable');
+  await page.getByRole('button', { name: /^SSC/ }).click();
+  assert.equal(await page.locator('.exam-card').count(), 2);
+  await page.getByRole('button', { name: /^All exams/ }).click();
+  await page.keyboard.press('/');
+  await page.keyboard.type('bpsc');
+  assert.equal(await page.locator('.exam-card').count(), 1);
+  await shot(page, 'desktop-landing');
+});
+
+await step('exam library loads with seeded counts', async () => {
+  await page.getByRole('link', { name: /Explore all 14 subjects/ }).click();
+  await page.waitForURL(/\/exams\/bpsc-tre-4\.0\/computer$/);
   await page.getByText('3 of 3 free attempts available').waitFor();
   const strip = await page.locator('.stats-strip').innerText();
   assert.match(strip, /14[\s\S]*70[\s\S]*2,098/);
@@ -75,8 +90,8 @@ await step('second tab: stale revision conflict resyncs', async () => {
   await tab2.close();
 });
 
-await step('home shows resume banner while test is active', async () => {
-  await page.goto(BASE);
+await step('exam library shows resume banner while test is active', async () => {
+  await page.goto(`${BASE}/exams/bpsc-tre-4.0/computer`);
   await page.getByRole('link', { name: /Resume practice/ }).waitFor();
   await page.getByRole('link', { name: /Resume practice/ }).click();
   await page.waitForURL(/\/test\//);
@@ -155,7 +170,7 @@ await step('history includes claimed guest attempts', async () => {
 
 await step('logout hides account history', async () => {
   await page.getByRole('button', { name: 'Sign out' }).click();
-  await page.getByText('Guest workspace').waitFor();
+  await page.locator('.site-header').getByRole('link', { name: 'Sign in' }).waitFor();
   await page.goto(`${BASE}/attempts`);
   await page.getByText('Your first attempt starts here.').waitFor();
   const s = await page.evaluate(async () => (await fetch('/api/session')).json());
@@ -184,7 +199,7 @@ await step('cross-origin mutation is rejected', async () => {
 await step('mobile layouts render without horizontal scroll', async () => {
   const m = await browser.newContext({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
   const mp = await m.newPage();
-  for (const [path, name] of [['/', 'mobile-library'], ['/auth', 'mobile-auth'], [`/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`, 'mobile-subject']]) {
+  for (const [path, name] of [['/', 'mobile-landing'], ['/exams/bpsc-tre-4.0/computer', 'mobile-library'], ['/auth', 'mobile-auth'], [`/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`, 'mobile-subject']]) {
     await mp.goto(BASE + path); await mp.waitForLoadState('networkidle');
     const overflow = await mp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     assert.ok(overflow <= 0, `${path} overflows by ${overflow}px`);

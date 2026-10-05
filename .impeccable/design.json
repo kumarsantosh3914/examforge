@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T16:32:44+00:00",
+  "title": "Design System: ExamForge",
+  "extensions": {
+    "colorMeta": {
+      "forge-navy": {
+        "role": "secondary",
+        "displayName": "Forge Navy",
+        "canonical": "#132a34",
+        "oklch": "oklch(27.1% 0.034 228.3)",
+        "tonalRamp": [
+          "#000d15",
+          "#102731",
+          "#2c434e",
+          "#49626d",
+          "#68828e",
+          "#89a3b0",
+          "#aec9d6",
+          "#dbf3fe"
+        ],
+        "cssVar": "--navy"
+      },
+      "forge-navy-raised": {
+        "role": "secondary",
+        "displayName": "Navy Raised",
+        "canonical": "#21434e",
+        "oklch": "oklch(36.2% 0.044 221.2)",
+        "tonalRamp": [
+          "#000e13",
+          "#042933",
+          "#234550",
+          "#41646f",
+          "#608490",
+          "#81a5b2",
+          "#a6cbd8",
+          "#d7f4ff"
+        ]
+      },
+      "forge-green": {
+        "role": "primary",
+        "displayName": "Forge Green",
+        "canonical": "#11765b",
+        "oklch": "oklch(50.5% 0.097 169.0)",
+        "tonalRamp": [
+          "#000f09",
+          "#032c20",
+          "#0b4b39",
+          "#166d55",
+          "#359073",
+          "#5ab294",
+          "#81d9b9",
+          "#c1fee6"
+        ],
+        "cssVar": "--green"
+      },
+      "forge-green-deep": {
+        "role": "primary",
+        "displayName": "Forge Green Deep",
+        "canonical": "#085b45",
+        "oklch": "oklch(42.0% 0.082 168.7)",
+        "tonalRamp": [
+          "#000f09",
+          "#032b20",
+          "#0b4b39",
+          "#226c55",
+          "#468d75",
+          "#68af95",
+          "#8ed6bb",
+          "#c2fee6"
+        ],
+        "cssVar": "--green-dark"
+      },
+      "mint-signal": {
+        "role": "tertiary",
+        "displayName": "Mint Signal",
+        "canonical": "#7fd6ae",
+        "oklch": "oklch(81.0% 0.103 163.1)",
+        "tonalRamp": [
+          "#000f07",
+          "#032c1d",
+          "#004c33",
+          "#036f4d",
+          "#37906c",
+          "#5cb38c",
+          "#82d9b1",
+          "#c2ffe1"
+        ]
+      },
+      "spark-chip": {
+        "role": "tertiary",
+        "displayName": "Spark Chip",
+        "canonical": "#c8f0dc",
+        "oklch": "oklch(92.1% 0.050 163.6)",
+        "tonalRamp": [
+          "#000f07",
+          "#062b1d",
+          "#254838",
+          "#436756",
+          "#628775",
+          "#83a996",
+          "#a8cfbb",
+          "#d1fae5"
+        ]
+      },
+      "soft-mint": {
+        "role": "tertiary",
+        "displayName": "Soft Mint",
+        "canonical": "#eaf5ef",
+        "oklch": "oklch(96.0% 0.014 162.5)",
+        "tonalRamp": [
+          "#060d09",
+          "#1e2622",
+          "#39423d",
+          "#57605b",
+          "#76807b",
+          "#97a19c",
+          "#bcc7c1",
+          "#e7f2ec"
+        ],
+        "cssVar": "--soft"
+      },
+      "focus-teal": {
+        "role": "tertiary",
+        "displayName": "Focus Teal",
+        "canonical": "#289d85",
+        "oklch": "oklch(62.7% 0.107 175.4)",
+        "tonalRamp": [
+          "#000f0b",
+          "#032b23",
+          "#0a4b3e",
+          "#166d5b",
+          "#13927a",
+          "#46b49b",
+          "#70dbc1",
+          "#bdffec"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#182532",
+        "oklch": "oklch(25.9% 0.031 249.1)",
+        "tonalRamp": [
+          "#030c17",
+          "#182532",
+          "#33414f",
+          "#515f6e",
+          "#707f8f",
+          "#90a0b1",
+          "#b5c6d8",
+          "#e3f0fe"
+        ],
+        "cssVar": "--ink"
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#616d7b",
+        "oklch": "oklch(53.0% 0.026 252.3)",
+        "tonalRamp": [
+          "#040c16",
+          "#1b2531",
+          "#36414e",
+          "#535f6d",
+          "#727f8d",
+          "#93a0af",
+          "#b8c6d5",
+          "#e3f0ff"
+        ],
+        "cssVar": "--muted"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e4e9ed",
+        "oklch": "oklch(93.1% 0.008 241.7)",
+        "tonalRamp": [
+          "#080c0e",
+          "#212527",
+          "#3c4043",
+          "#5a5e62",
+          "#797e81",
+          "#9a9fa3",
+          "#c0c5c9",
+          "#eaeff3"
+        ],
+        "cssVar": "--line"
+      },
+      "cool-ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "canonical": "#f6f8fa",
+        "oklch": "oklch(97.8% 0.003 247.9)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3e4041",
+          "#5c5e5f",
+          "#7c7d7f",
+          "#9d9fa0",
+          "#c2c4c6",
+          "#edeff1"
+        ],
+        "cssVar": "--bg"
+      },
+      "sheet-white": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ],
+        "cssVar": "--white"
+      },
+      "error-red": {
+        "role": "error",
+        "displayName": "Error Red",
+        "canonical": "#b33d49",
+        "oklch": "oklch(53.1% 0.153 18.2)",
+        "tonalRamp": [
+          "#1f0003",
+          "#490210",
+          "#790a21",
+          "#a22c3b",
+          "#c7505a",
+          "#ee727a",
+          "#ffaaab",
+          "#ffe8e8"
+        ],
+        "cssVar": "--red"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero question only; balanced wrapping, font-stretch 94%."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Landing section heads (shelf head 1.5rem/620, practice flow 1.6rem/630)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Exam card titles."
+      },
+      "title-featured": {
+        "displayName": "Featured Title",
+        "purpose": "The featured live exam card title."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "ExamForge beside the mark; 1.28rem under 760px; font-stretch 92%."
+      },
+      "fact": {
+        "displayName": "Fact",
+        "purpose": "Counts in the live card fact list."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text in the system stack."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Card bodies and metadata."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status pills and badges, sentence case."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet-lift",
+        "value": "0 1px 2px rgba(16,40,52,.05), 0 10px 26px -18px rgba(16,40,52,.35)",
+        "purpose": "Live exam cards on the landing shelf."
+      },
+      {
+        "name": "search-float",
+        "value": "0 14px 34px -14px rgba(0,0,0,.55)",
+        "purpose": "Hero search on navy."
+      },
+      {
+        "name": "hover-lift",
+        "value": "0 5px 20px #153f3010",
+        "purpose": "Subject cards on hover."
+      },
+      {
+        "name": "dialog",
+        "value": "0 25px 90px #0a241d40",
+        "purpose": "Submit dialog over a #0e242cb0 backdrop with 3px blur."
+      },
+      {
+        "name": "press-hint",
+        "value": "0 2px 3px #073e2710",
+        "purpose": "Primary buttons."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "150ms ease",
+        "purpose": "Button, chip and border state changes (120-180ms range in source)."
+      },
+      {
+        "name": "shelf-in",
+        "value": "320ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Exam cards rise 8px from 0.3 opacity, staggered 30ms per card."
+      },
+      {
+        "name": "progress",
+        "value": "200ms transform",
+        "purpose": "Test progress track."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "prefers-reduced-motion disables all animation, transition and smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width 1500px"
+      },
+      {
+        "name": "laptop",
+        "value": "1150px"
+      },
+      {
+        "name": "shelf-2col",
+        "value": "980px"
+      },
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "760px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      }
+    ],
+    "layout": {
+      "page": "1240px",
+      "headerHeight": "68px (60px mobile)",
+      "heroColumn": "860px",
+      "shelfOverlap": "-122px"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Every start, sign-in and explore action; forge green, deepens on hover.",
+      "html": "<button class=\"ds-btn-primary\">Explore all 14 subjects <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:9px;min-height:46px;padding:12px 20px;border:1px solid transparent;border-radius:7px;background:var(--green,#11765b);color:#fff;font:600 .9rem/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;box-shadow:0 2px 3px #073e2710;cursor:pointer;transition:background .15s,box-shadow .15s}.ds-btn-primary:hover{background:var(--green-dark,#085b45)}.ds-btn-primary:focus-visible{outline:3px solid #289d85;outline-offset:4px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary and cancel actions, Sign out.",
+      "html": "<button class=\"ds-btn-secondary\">View results</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:9px;min-height:46px;padding:12px 20px;border:1px solid #dce3e7;border-radius:7px;background:#fff;color:#35434e;font:600 .9rem/1.2 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;cursor:pointer;transition:background .15s}.ds-btn-secondary:hover{background:#f2f7f5;border-color:#b6c9c0}.ds-btn-secondary:focus-visible{outline:3px solid #289d85;outline-offset:4px}"
+    },
+    {
+      "name": "Top Navbar",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky white bar: mark and wordmark, Exams and My attempts, account at right.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg width=\"34\" height=\"34\" viewBox=\"0 0 40 40\" aria-hidden=\"true\"><rect width=\"40\" height=\"40\" rx=\"11\" fill=\"#132a34\"/><path d=\"M10.5 21.5 17 28l11.5-14\" fill=\"none\" stroke=\"#7fd6ae\" stroke-width=\"4.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"29.6\" y=\"6.1\" width=\"5.2\" height=\"5.2\" rx=\"1.2\" transform=\"rotate(45 32.2 8.7)\" fill=\"#c8f0dc\"/></svg><span class=\"ds-wordmark\">Exam<span>Forge</span></span></a><nav class=\"ds-nav-links\"><a href=\"#\" aria-current=\"page\">Exams</a><a href=\"#\">My attempts</a></nav><div class=\"ds-nav-account\"><span>3 of 3 free sets left</span><a class=\"ds-nav-signin\" href=\"#\">Sign in</a></div></header>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:32px;height:68px;padding:0 24px;background:#fff;border-bottom:1px solid var(--line,#e4e9ed);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none}.ds-wordmark{font-family:var(--font-display),system-ui,sans-serif;font-size:1.45rem;font-weight:650;font-stretch:92%;letter-spacing:-.02em;line-height:1;color:#132a34;padding-top:3px}.ds-wordmark span{color:#11765b}.ds-nav-links{display:flex;gap:4px}.ds-nav-links a{padding:8px 13px;border-radius:7px;font-size:.92rem;font-weight:560;color:#3b4855;text-decoration:none}.ds-nav-links a:hover{background:#f0f4f3;color:#182532}.ds-nav-links a[aria-current=page]{background:#eaf5ef;color:#085b45}.ds-nav-links a:focus-visible,.ds-nav-signin:focus-visible{outline:3px solid #289d85;outline-offset:4px}.ds-nav-account{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:.84rem;color:#616d7b;font-variant-numeric:tabular-nums}.ds-nav-signin{display:inline-flex;align-items:center;min-height:38px;padding:8px 15px;border-radius:7px;background:#11765b;color:#fff;font-weight:600;font-size:.875rem;text-decoration:none}.ds-nav-signin:hover{background:#085b45}"
+    },
+    {
+      "name": "Hero Search",
+      "kind": "input",
+      "refersTo": "search-hero",
+      "description": "The wide search field floating on the navy hero band; '/' focuses it.",
+      "html": "<div class=\"ds-hero\"><form class=\"ds-search\" role=\"search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" placeholder=\"Search exams, e.g. BPSC, SSC, CTET\" aria-label=\"Search exams\"><kbd>/</kbd></form></div>",
+      "css": ".ds-hero{background:#132a34;padding:32px 20px}.ds-search{max-width:680px;margin:0 auto;height:60px;display:flex;align-items:center;gap:12px;background:#fff;border-radius:12px;padding:0 14px 0 20px;color:#5c6975;box-shadow:0 14px 34px -14px rgba(0,0,0,.55)}.ds-search:focus-within{outline:3px solid #7fd6ae;outline-offset:3px}.ds-search input{flex:1;min-width:0;height:100%;border:0;outline:0;background:transparent;font:1.05rem -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#182532;caret-color:#11765b}.ds-search input::placeholder{color:#6b7783}.ds-search kbd{font:.78rem/1 -apple-system,BlinkMacSystemFont,sans-serif;border:1px solid #d5dde2;border-bottom-width:2px;border-radius:5px;padding:4px 8px;color:#56626e}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Form inputs on the auth page.",
+      "html": "<label class=\"ds-field\">Email address<input type=\"email\" placeholder=\"you@example.com\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:9px;max-width:360px;font:600 .85rem -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#182532}.ds-field input{padding:13px 14px;border:1px solid #d8e1e5;border-radius:6px;font:400 .93rem -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#182532;caret-color:#11765b}.ds-field input:hover{border-color:#b6c9c0}.ds-field input:focus-visible{outline:3px solid #289d85;outline-offset:4px}"
+    },
+    {
+      "name": "Family Tabs",
+      "kind": "chip",
+      "refersTo": "family-tab",
+      "description": "Outlined pill filters with live counts on the navy band; pressed tab turns white.",
+      "html": "<div class=\"ds-tabs\"><button aria-pressed=\"true\">All exams<span>5</span></button><button aria-pressed=\"false\">Teaching<span>2</span></button><button aria-pressed=\"false\">SSC<span>2</span></button><button aria-pressed=\"false\">Railway<span>1</span></button></div>",
+      "css": ".ds-tabs{display:flex;flex-wrap:wrap;gap:8px;background:#132a34;padding:20px}.ds-tabs button{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:8px 15px;border-radius:999px;border:1px solid #ffffff38;background:transparent;color:#dce8eb;font:560 .9rem -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;cursor:pointer;transition:background .18s,border-color .18s,color .18s}.ds-tabs button span{font-size:.76rem;color:#a9c1c7;font-variant-numeric:tabular-nums}.ds-tabs button:hover{border-color:#ffffff80}.ds-tabs button:focus-visible{outline:3px solid #7fd6ae;outline-offset:4px}.ds-tabs button[aria-pressed=true]{background:#fff;border-color:#fff;color:#132a34}.ds-tabs button[aria-pressed=true] span{color:#085b45}"
+    },
+    {
+      "name": "Status Pills and Subject Chips",
+      "kind": "chip",
+      "refersTo": "status-live",
+      "description": "Live and coming-soon status; subject chips link into a live exam.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-status ds-live\">Ready to practise</span><span class=\"ds-status ds-soon\">Coming soon</span><a class=\"ds-chip\" href=\"#\">Computer Fundamentals</a><a class=\"ds-chip ds-more\" href=\"#\">+8 more</a></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-status{display:inline-flex;align-items:center;gap:7px;font-size:.75rem;font-weight:650;padding:5px 11px;border-radius:999px}.ds-live{background:#eaf5ef;color:#085b45}.ds-live:before{content:'';width:7px;height:7px;border-radius:50%;background:#11765b}.ds-soon{background:#eff2f5;color:#4d5964}.ds-chip{display:inline-flex;align-items:center;min-height:34px;padding:6px 13px;border:1px solid #d6e0dd;border-radius:999px;background:#fafcfb;font-size:.84rem;color:#2c3a46;text-decoration:none;transition:border-color .15s,color .15s}.ds-chip:hover{border-color:#11765b;color:#085b45}.ds-chip:focus-visible{outline:3px solid #289d85;outline-offset:4px}.ds-more{color:#085b45;font-weight:620;background:transparent;border-style:dashed}"
+    },
+    {
+      "name": "Live Exam Card",
+      "kind": "card",
+      "refersTo": "exam-card",
+      "description": "White sheet with hairline and sheet lift; display-face title and facts.",
+      "html": "<article class=\"ds-exam\"><div class=\"ds-exam-top\"><h3>BPSC TRE 4.0 Computer Science</h3><span class=\"ds-pill\">Ready to practise</span></div><p class=\"ds-exam-body\">Teaching · Bihar teacher recruitment</p><dl class=\"ds-facts\"><div><dt>Subjects</dt><dd>14</dd></div><div><dt>Practice sets</dt><dd>70</dd></div><div><dt>Questions</dt><dd>2,098</dd></div><div><dt>Language</dt><dd>EN · <span lang=\"hi\">हिं</span></dd></div></dl></article>",
+      "css": ".ds-exam{display:flex;flex-direction:column;gap:10px;max-width:520px;background:#fff;border:1px solid #e4e9ed;border-radius:14px;padding:24px;box-shadow:0 1px 2px rgba(16,40,52,.05),0 10px 26px -18px rgba(16,40,52,.35);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-exam-top{display:flex;align-items:baseline;justify-content:space-between;gap:14px}.ds-exam h3{margin:0;font-family:var(--font-display),system-ui,sans-serif;font-size:1.32rem;font-weight:640;letter-spacing:-.015em;line-height:1.15;color:#132a34}.ds-pill{flex-shrink:0;font-size:.75rem;font-weight:650;padding:5px 11px;border-radius:999px;background:#eaf5ef;color:#085b45}.ds-exam-body{margin:0;font-size:.86rem;color:#616d7b}.ds-facts{display:grid;grid-template-columns:1fr 1fr;margin:0;border-block:1px solid #e4e9ed}.ds-facts div{padding:12px 16px 12px 0}.ds-facts div:nth-child(n+3){border-top:1px solid #e4e9ed}.ds-facts dt{font-size:.76rem;color:#616d7b}.ds-facts dd{margin:2px 0 0;font-family:var(--font-display),system-ui,sans-serif;font-size:1.22rem;font-weight:640;color:#132a34;font-variant-numeric:tabular-nums}.ds-facts [lang=hi]{font-weight:560}"
+    },
+    {
+      "name": "Coming-soon Card",
+      "kind": "card",
+      "refersTo": "exam-card-soon",
+      "description": "Flat, quiet, never a link.",
+      "html": "<article class=\"ds-soon-card\"><div class=\"ds-exam-top\"><h3>SSC GD Constable</h3><span class=\"ds-pill-soon\">Coming soon</span></div><p>SSC · General Duty constables</p><p class=\"ds-soon-note\">Question bank in preparation</p></article>",
+      "css": ".ds-soon-card{display:flex;flex-direction:column;gap:10px;max-width:280px;background:#fbfcfd;border:1px solid #e4e9ed;border-radius:14px;padding:24px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ds-soon-card .ds-exam-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px}.ds-soon-card h3{margin:0;font-family:var(--font-display),system-ui,sans-serif;font-size:1.32rem;font-weight:640;letter-spacing:-.015em;line-height:1.15;color:#33414e}.ds-pill-soon{font-size:.75rem;font-weight:650;padding:5px 11px;border-radius:999px;background:#eff2f5;color:#4d5964}.ds-soon-card p{margin:0;font-size:.86rem;color:#616d7b}.ds-soon-note{margin-top:auto;padding-top:12px;border-top:1px dashed #dbe2e7;font-size:.8rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Exam Hall Noticeboard",
+    "overview": "**Creative North Star: \"The Exam Hall Noticeboard\"**\n\nExamForge looks like a well-kept notice board in a quiet exam hall: a deep navy field that holds the one question that matters, and clean white sheets pinned against a cool grey ground, each carrying exactly the facts a candidate needs. Nothing shouts. Green appears where something can be done or has been done: start, live, saved, correct, current.\n\nThe density is practical rather than airy. Cards are white sheets with one hairline border, information is set in short facts and tabular numbers, and the test screen strips the shell back to a focus header so the question owns the page. Hindi is set in the same display family as English (Anek Devanagari carries both scripts), so bilingual text reads as one voice rather than a translation bolted on.\n\nThe system refuses the portal default of ad-dense banners over identical tile grids: the landing answers one question with a filterable shelf, and planned exams sit visibly quieter than live ones.",
+    "keyCharacteristics": [
+      "Navy owns large fields (hero band, auth story panel, logo tile); white sheets carry content on a cool grey ground.",
+      "Green is meaning, not decoration: actions, live and saved state, correct answers, the current item.",
+      "One display family, Anek Devanagari, for Latin and Devanagari display text; system UI for body.",
+      "Hairline borders first, soft low-contrast shadows second; no hard edges or offsets.",
+      "Live things look raised; planned things look flat and quiet."
+    ],
+    "rules": [
+      {
+        "name": "The Green Means Go Rule",
+        "body": "Forge green marks something actionable or a positive state (live, saved, correct, current). It is never a background field, an illustration fill, or a heading colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Brand Exception",
+        "body": "The wordmark's \"Forge\" is set in forge green (mint signal on dark), and the logo mark uses mint signal and spark chip. This is a deliberate, declared exception to the Green Means Go Rule and applies to the logo and wordmark only; it does not license green type elsewhere.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Field Rule",
+        "body": "Only navy fills a full-width band. Pale tints may back a state (active nav, status pill, selected option) but never a whole section on new surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Voice, Two Scripts Rule",
+        "body": "Hindi display text uses the display family at weight 560 (`[lang=hi]`), never a second Devanagari face. Long Devanagari must wrap (`overflow-wrap:anywhere` on question and option text).",
+        "section": "typography"
+      },
+      {
+        "name": "The Display Face Is For Display Rule",
+        "body": "Anything set at display or headline size uses Anek Devanagari. Body, labels and form controls stay in the system stack.",
+        "section": "typography"
+      },
+      {
+        "name": "The Live Things Rise Rule",
+        "body": "Elevation signals availability. Coming-soon cards drop their shadow and take a slightly off-white sheet (#fbfcfd); live cards keep the sheet lift.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep forge green for actions and positive state; use forge green deep for green text on tints.",
+      "**Do** fill full-width bands with forge navy only, and switch focus rings to mint signal on navy.",
+      "**Do** set every display and headline size in Anek Devanagari, including Hindi spans, and keep body in the system stack.",
+      "**Do** give every card one hairline border; add the sheet lift only to live, actionable cards.",
+      "**Do** show planned exams flat, with a \"Coming soon\" pill and no link.",
+      "**Do** use tabular figures for counts, timers and scores.",
+      "**Do** keep text at 4.5:1 or better; reuse muted slate rather than inventing lighter greys."
+    ],
+    "donts": [
+      "**Don't** use green as a section background, illustration fill or heading colour; the wordmark and logo mark are the only brand exception.",
+      "**Don't** put uppercase tracked labels (eyebrows or kickers) above headings; the heading carries its own context.",
+      "**Don't** set display-size headings in the system font.",
+      "**Don't** use hard or offset shadows; depth is soft and tinted toward navy.",
+      "**Don't** make a coming-soon exam look or behave as available.",
+      "**Don't** introduce a second display family or a separate Devanagari face."
+    ]
+  }
+}

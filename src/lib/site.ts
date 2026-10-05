@@ -1,0 +1,5 @@
+export const siteName = 'ExamForge';
+export const siteDescription = 'Timed mock tests for government exams with answers saved as you go and explanations in English and Hindi. Starting with BPSC TRE 4.0 Computer Science; your first three sets need no signup.';
+// Canonical origin for metadata, sitemap and structured data.
+export const siteUrl = new URL(process.env.APP_ORIGIN || 'http://localhost:3000');
+export const absolute = (path: string) => new URL(path, siteUrl).toString();

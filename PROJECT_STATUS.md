@@ -1,6 +1,6 @@
 # Project Status and Completion Plan
 
-**Status:** Feature-complete and verified against a real database and browser (2026-10-05). The code is ready to deploy. What remains is operator work that needs production infrastructure and secrets (see *Remaining Work*).
+**Status:** Live at https://examforge.bevritti.in (deployed 2026-10-05; see `docs/DEPLOYMENT.md`). Production database seeded (14 / 70 / 2,098), HTTPS with auto-renewing Let's Encrypt certificate, per-minute expiry timer, and a production browser smoke test passed.
 
 ## Implemented
 
@@ -61,13 +61,16 @@ The end-to-end flow covers guest practice, autosave, refresh/resume, answer-key 
 
 New concurrency coverage: simultaneous starts from two tabs reserve one attempt; answer saves racing duplicate submissions always score exactly the stored answers.
 
-## Remaining Work (operator, needs production access)
+## Landing page, navbar and search readiness (2026-10-05)
 
-1. **Rotate the MongoDB credential** in `.env.local` (it has been shared) and create a separate production database user.
-2. **Production environment:** HTTPS host, `APP_ORIGIN` set to the public origin, a newly generated `SESSION_SECRET`, `MONGODB_URI`/`MONGODB_DB` for the production database, and `TRUST_PROXY=true` behind the platform's proxy (otherwise IP limits share one global bucket).
-3. **Seed production:** `npm run seed` with production secrets; expect 14 / 70 / 2,098 active.
-4. **Scheduler:** run `npm run expire` every minute. Lazy expiry stays authoritative without it.
-5. **Operations:** database backups, uptime/error monitoring, and a post-deploy smoke run (`E2E_BASE_URL=https://… npm run test:e2e` against a staging database, since the script edits deadlines in the DB).
+- Exam catalogue landing at `/` (search, family filters, live exam card, coming-soon exams), global top navbar and new logo; the BPSC library moved to `/exams/bpsc-tre-4.0/computer`. Design records: `PRODUCT.md`, `DESIGN.md`.
+- Search readiness: indexing enabled, `robots.txt`, database-driven `sitemap.xml`, server-rendered exam and subject pages with per-page metadata and canonical URLs, Open Graph/Twitter images, web manifest, WebSite/Organization structured data, `noindex` on personal pages, real 404s. Search Console steps are in `docs/DEPLOYMENT.md`.
+
+## Remaining Work
+
+1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.
+2. **Operations:** Atlas backups, uptime/error monitoring, and log retention.
+3. **Optional hardening:** restrict SSH (port 22) to known IPs; restrict Atlas network access to the Elastic IP `52.66.13.189`.
 
 ## Known Constraints
 

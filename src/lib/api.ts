@@ -4,6 +4,7 @@ import { collections, ensureIndexes, getClient, getDb } from './db';
 import { authenticate, createGuest, resolveIdentity } from './auth';
 import { AppError } from './errors';
 import { rateLimit } from './security';
+import { readCatalog } from './catalog';
 import { finalizeAttempt, getAttempt, getResult, ownerFilter, saveAnswer, startAttempt, submitAttempt } from './attempts';
 import type { Identity, SessionView } from './types';
 
@@ -53,12 +54,7 @@ export async function handleApi(request: NextRequest) {
       return identity;
     };
     if (path.join('/') === 'catalog' && method === 'GET') {
-      const [exams, subjects, sets] = await Promise.all([
-        c.exams.find({ active: true }, { projection: { digest: 0 } }).toArray(),
-        c.subjects.find({ active: true }, { projection: { digest: 0 } }).sort({ order: 1 }).toArray(),
-        c.sets.find({ active: true }, { projection: { digest: 0 } }).sort({ number: 1 }).toArray(),
-      ]);
-      return respond({ exams, subjects, sets });
+      return respond(await readCatalog(db));
     }
     if (path.join('/') === 'session' && method === 'GET') {
       if (!identity) {
