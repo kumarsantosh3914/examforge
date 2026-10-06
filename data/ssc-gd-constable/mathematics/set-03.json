@@ -1,0 +1,527 @@
+{
+  "subject": "Mathematics",
+  "set": 3,
+  "title": "Mathematics Mock Test 3",
+  "questions": [
+    {
+      "id": "mathematics-03-001",
+      "number": 1,
+      "question": "The product of two numbers is 216. If their HCF is 6, what will be their LCM?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "40",
+        "D": "42"
+      },
+      "answer": "B",
+      "explanation": "First Number × Second Number = HCF × LCM => 216 = 6 × LCM => LCM = 36",
+      "hash": "e397e9183f4d4773",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का गुणनफल 216 है। यदि उनका म.स.प. (HCF) 6 है, तो उनका ल.स.प. (LCM) क्या होगा?",
+          "options": {
+            "A": "30",
+            "B": "36",
+            "C": "40",
+            "D": "42"
+          },
+          "explanation": "पहली संख्या × दूसरी संख्या = HCF × LCM => 216 = 6 × LCM => LCM = 36"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-002",
+      "number": 2,
+      "question": "What is the difference between the Place Value and Face Value of 7 in the number 4732?",
+      "options": {
+        "A": "693",
+        "B": "700",
+        "C": "7",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Place Value = 700, Face Value = 7. Difference = 700 - 7 = 693",
+      "hash": "93542d09a0abe76d",
+      "translations": {
+        "hi": {
+          "question": "संख्या 4732 में 7 के स्थानीय मान (Place Value) और अंकित मान (Face Value) का अंतर क्या है?",
+          "options": {
+            "A": "693",
+            "B": "700",
+            "C": "7",
+            "D": "0"
+          },
+          "explanation": "स्थानीय मान = 700, अंकित मान = 7। अंतर = 700 - 7 = 693"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-003",
+      "number": 3,
+      "question": "What is the square of 0.03?",
+      "options": {
+        "A": "0.9",
+        "B": "0.09",
+        "C": "0.009",
+        "D": "0.0009"
+      },
+      "answer": "D",
+      "explanation": "0.03 × 0.03 = 0.0009 (There must be 4 digits after decimal)",
+      "hash": "7785864095d2679a",
+      "translations": {
+        "hi": {
+          "question": "0.03 का वर्ग (square) क्या है?",
+          "options": {
+            "A": "0.9",
+            "B": "0.09",
+            "C": "0.009",
+            "D": "0.0009"
+          },
+          "explanation": "0.03 × 0.03 = 0.0009 (दशमलव के बाद 4 अंक होने चाहिए)"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-004",
+      "number": 4,
+      "question": "There are 40 students in a class. If the number of students increases by 20%, how many students are there now?",
+      "options": {
+        "A": "45",
+        "B": "48",
+        "C": "50",
+        "D": "60"
+      },
+      "answer": "B",
+      "explanation": "Increase = 20% of 40 = 8. Total = 40 + 8 = 48",
+      "hash": "2b692f8d02c85e38",
+      "translations": {
+        "hi": {
+          "question": "एक कक्षा में 40 छात्र हैं। यदि छात्रों की संख्या 20% बढ़ जाती है, तो अब कक्षा में कितने छात्र हैं?",
+          "options": {
+            "A": "45",
+            "B": "48",
+            "C": "50",
+            "D": "60"
+          },
+          "explanation": "वृद्धि = 40 का 20% = 8। कुल = 40 + 8 = 48"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-005",
+      "number": 5,
+      "question": "The perimeter of a rectangle is 50 cm. If its length is 15 cm, what is its breadth?",
+      "options": {
+        "A": "10 cm",
+        "B": "15 cm",
+        "C": "20 cm",
+        "D": "25 cm"
+      },
+      "answer": "A",
+      "explanation": "2(L + B) = 50 => 15 + B = 25 => B = 10",
+      "hash": "13241efa0870cd06",
+      "translations": {
+        "hi": {
+          "question": "एक आयत की परिधि 50 सेमी है। यदि इसकी लंबाई 15 सेमी है, तो इसकी चौड़ाई क्या है?",
+          "options": {
+            "A": "10 सेमी",
+            "B": "15 सेमी",
+            "C": "20 सेमी",
+            "D": "25 सेमी"
+          },
+          "explanation": "2(L + B) = 50 => 15 + B = 25 => B = 10"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-006",
+      "number": 6,
+      "question": "Ram works twice as fast as Shyam. If Shyam can do a work alone in 12 days, in how many days will Ram do it?",
+      "options": {
+        "A": "6 days",
+        "B": "12 days",
+        "C": "24 days",
+        "D": "3 days"
+      },
+      "answer": "A",
+      "explanation": "Ram's efficiency is double, so he takes half the time. 12 / 2 = 6 days.",
+      "hash": "f335d30cd2f3c5c1",
+      "translations": {
+        "hi": {
+          "question": "राम श्याम से दोगुना तेज काम करता है। यदि श्याम अकेले किसी काम को 12 दिनों में कर सकता है, तो राम उसे कितने दिनों में करेगा?",
+          "options": {
+            "A": "6 दिन",
+            "B": "12 दिन",
+            "C": "24 दिन",
+            "D": "3 दिन"
+          },
+          "explanation": "राम की दक्षता दोगुनी है, इसलिए उसे आधा समय लगेगा। 12 / 2 = 6 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-007",
+      "number": 7,
+      "question": "What is the sum of the first 10 whole numbers?",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "First 10 whole numbers are 0 to 9. Sum = (9 × 10) / 2 = 45",
+      "hash": "802cbcf161563a65",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 पूर्ण संख्याओं (whole numbers) का योग क्या है?",
+          "options": {
+            "A": "45",
+            "B": "50",
+            "C": "55",
+            "D": "40"
+          },
+          "explanation": "प्रथम 10 पूर्ण संख्याएं 0 से 9 तक हैं। योग = (9 × 10) / 2 = 45"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-008",
+      "number": 8,
+      "question": "A shopkeeper allows a discount of 10% on his goods. If the Marked Price of an article is Rs 500, what is the Selling Price?",
+      "options": {
+        "A": "400",
+        "B": "450",
+        "C": "480",
+        "D": "490"
+      },
+      "answer": "B",
+      "explanation": "Discount = 10% of 500 = 50. Selling Price = 500 - 50 = 450",
+      "hash": "4e28c94bf67659dc",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपनी वस्तुओं पर 10% की छूट देता है। यदि किसी वस्तु का अंकित मूल्य 500 रुपये है, तो विक्रय मूल्य क्या है?",
+          "options": {
+            "A": "400",
+            "B": "450",
+            "C": "480",
+            "D": "490"
+          },
+          "explanation": "छूट = 500 का 10% = 50। विक्रय मूल्य = 500 - 50 = 450"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-009",
+      "number": 9,
+      "question": "If a person runs at a speed of 10 km/hr, how much distance will he cover in 15 minutes?",
+      "options": {
+        "A": "1.5 km",
+        "B": "2.5 km",
+        "C": "3.5 km",
+        "D": "2 km"
+      },
+      "answer": "B",
+      "explanation": "Distance = Speed × Time = 10 × (15/60) = 10 × (1/4) = 2.5 km",
+      "hash": "26813e3f01e14aac",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई व्यक्ति 10 किमी/घंटा की गति से दौड़ता है, तो वह 15 मिनट में कितनी दूरी तय करेगा?",
+          "options": {
+            "A": "1.5 किमी",
+            "B": "2.5 किमी",
+            "C": "3.5 किमी",
+            "D": "2 किमी"
+          },
+          "explanation": "दूरी = गति × समय = 10 × (15/60) = 10 × (1/4) = 2.5 किमी"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-010",
+      "number": 10,
+      "question": "Find the fourth proportional to 4, 8, and 12.",
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "24",
+        "D": "32"
+      },
+      "answer": "C",
+      "explanation": "4:8 :: 12:x => 4x = 8 × 12 => x = 96 / 4 = 24",
+      "hash": "d117e80f694c95ce",
+      "translations": {
+        "hi": {
+          "question": "4, 8 और 12 का चौथा समानुपाती (fourth proportional) ज्ञात करें।",
+          "options": {
+            "A": "16",
+            "B": "20",
+            "C": "24",
+            "D": "32"
+          },
+          "explanation": "4:8 :: 12:x => 4x = 8 × 12 => x = 96 / 4 = 24"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-011",
+      "number": 11,
+      "question": "Simplify: 3/4 + 1/2 - 1/8",
+      "options": {
+        "A": "7/8",
+        "B": "9/8",
+        "C": "5/8",
+        "D": "11/8"
+      },
+      "answer": "D",
+      "explanation": "LCM = 8. (6 + 4 - 1)/8 = 9/8",
+      "hash": "e8b72726124db14b",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: 3/4 + 1/2 - 1/8",
+          "options": {
+            "A": "7/8",
+            "B": "9/8",
+            "C": "5/8",
+            "D": "11/8"
+          },
+          "explanation": "LCM = 8। (6 + 4 - 1)/8 = 9/8"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-012",
+      "number": 12,
+      "question": "By selling an article for Rs 200, there is a loss of 20%. What is the Cost Price of the article?",
+      "options": {
+        "A": "220",
+        "B": "240",
+        "C": "250",
+        "D": "260"
+      },
+      "answer": "C",
+      "explanation": "80% = 200. 100% = (200/80) × 100 = Rs 250",
+      "hash": "b6dee3821cc55dee",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु को 200 रुपये में बेचने पर 20% की हानि होती है। वस्तु का क्रय मूल्य क्या है?",
+          "options": {
+            "A": "220",
+            "B": "240",
+            "C": "250",
+            "D": "260"
+          },
+          "explanation": "80% = 200। 100% = (200/80) × 100 = 250 रुपये"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-013",
+      "number": 13,
+      "question": "The average of three numbers is 15. If the sum of the first two numbers is 25, what is the third number?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": "B",
+      "explanation": "Sum of three = 15 × 3 = 45. Third number = 45 - 25 = 20",
+      "hash": "04cc996e36044248",
+      "translations": {
+        "hi": {
+          "question": "तीन संख्याओं का औसत 15 है। यदि पहली दो संख्याओं का योग 25 है, तो तीसरी संख्या क्या है?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+          },
+          "explanation": "तीनों का योग = 15 × 3 = 45। तीसरी संख्या = 45 - 25 = 20"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-014",
+      "number": 14,
+      "question": "What is the difference between CI and SI on Rs 7500 at 4% per annum for 2 years?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "20"
+      },
+      "answer": "B",
+      "explanation": "Difference = P(R/100)² = 7500 × (4/100) × (4/100) = 7500 × (16/10000) = 12",
+      "hash": "fc421447273a3cab",
+      "translations": {
+        "hi": {
+          "question": "7500 रुपये का 4% वार्षिक दर से 2 साल का चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर क्या है?",
+          "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "20"
+          },
+          "explanation": "अंतर = P(R/100)² = 7500 × (4/100) × (4/100) = 7500 × (16/10000) = 12"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-015",
+      "number": 15,
+      "question": "A train is running at 90 km/hr. It crosses a pole in 10 seconds. Find the length of the train.",
+      "options": {
+        "A": "200 m",
+        "B": "250 m",
+        "C": "300 m",
+        "D": "150 m"
+      },
+      "answer": "B",
+      "explanation": "Speed (m/s) = 90 × (5/18) = 25 m/s. Distance = 25 × 10 = 250 m",
+      "hash": "73823fc1454b060c",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 90 किमी/घंटा की गति से चल रही है। वह एक खंभे को 10 सेकंड में पार करती है। ट्रेन की लंबाई ज्ञात करें।",
+          "options": {
+            "A": "200 मीटर",
+            "B": "250 मीटर",
+            "C": "300 मीटर",
+            "D": "150 मीटर"
+          },
+          "explanation": "गति (मी/से) = 90 × (5/18) = 25 मी/से। दूरी = 25 × 10 = 250 मीटर"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-016",
+      "number": 16,
+      "question": "The base of a right-angled triangle is 3 cm and height is 4 cm. What will be its hypotenuse?",
+      "options": {
+        "A": "5 cm",
+        "B": "6 cm",
+        "C": "7 cm",
+        "D": "8 cm"
+      },
+      "answer": "A",
+      "explanation": "Pythagoras theorem: √(3² + 4²) = √(9 + 16) = √25 = 5",
+      "hash": "636d4fbf70d71180",
+      "translations": {
+        "hi": {
+          "question": "एक समकोण त्रिभुज का आधार 3 सेमी और ऊंचाई 4 सेमी है। इसका कर्ण (hypotenuse) क्या होगा?",
+          "options": {
+            "A": "5 सेमी",
+            "B": "6 सेमी",
+            "C": "7 सेमी",
+            "D": "8 सेमी"
+          },
+          "explanation": "पाइथागोरस प्रमेय: √(3² + 4²) = √(9 + 16) = √25 = 5"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-017",
+      "number": 17,
+      "question": "Two numbers are in the ratio 3:5 and their sum is 80. Find the larger number.",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "50",
+        "D": "60"
+      },
+      "answer": "C",
+      "explanation": "3x + 5x = 80 => 8x = 80 => x = 10. Larger number = 5 × 10 = 50",
+      "hash": "49710c016abfcf88",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3:5 है और उनका योग 80 है। बड़ी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "30",
+            "B": "40",
+            "C": "50",
+            "D": "60"
+          },
+          "explanation": "3x + 5x = 80 => 8x = 80 => x = 10। बड़ी संख्या = 5 × 10 = 50"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-018",
+      "number": 18,
+      "question": "Which of the following numbers is NOT a perfect square?",
+      "options": {
+        "A": "625",
+        "B": "900",
+        "C": "1000",
+        "D": "1225"
+      },
+      "answer": "C",
+      "explanation": "1000 is not a square of any integer. (31² = 961, 32² = 1024)",
+      "hash": "6d522a7636587930",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या एक पूर्ण वर्ग (perfect square) नहीं है?",
+          "options": {
+            "A": "625",
+            "B": "900",
+            "C": "1000",
+            "D": "1225"
+          },
+          "explanation": "1000 किसी पूर्णांक का वर्ग नहीं है। (31² = 961, 32² = 1024)"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-019",
+      "number": 19,
+      "question": "Simplify: 0.1 × 0.1 × 0.1",
+      "options": {
+        "A": "0.1",
+        "B": "0.01",
+        "C": "0.001",
+        "D": "0.0001"
+      },
+      "answer": "C",
+      "explanation": "1 × 1 × 1 = 1. Total 3 decimal places needed. Answer 0.001",
+      "hash": "e9b55fd65f82a150",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: 0.1 × 0.1 × 0.1",
+          "options": {
+            "A": "0.1",
+            "B": "0.01",
+            "C": "0.001",
+            "D": "0.0001"
+          },
+          "explanation": "1 × 1 × 1 = 1। दशमलव के बाद कुल 3 अंक होने चाहिए। उत्तर 0.001"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-020",
+      "number": 20,
+      "question": "The radius of the base of a cylinder is 7 cm and height is 10 cm. What is its Curved Surface Area?",
+      "options": {
+        "A": "220",
+        "B": "440",
+        "C": "660",
+        "D": "880"
+      },
+      "answer": "B",
+      "explanation": "CSA = 2πrh = 2 × (22/7) × 7 × 10 = 440 sq cm",
+      "hash": "ebf910f3e0cd3217",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन (cylinder) के आधार की त्रिज्या 7 सेमी और ऊंचाई 10 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल (Curved Surface Area) क्या है?",
+          "options": {
+            "A": "220",
+            "B": "440",
+            "C": "660",
+            "D": "880"
+          },
+          "explanation": "CSA = 2πrh = 2 × (22/7) × 7 × 10 = 440 वर्ग सेमी"
+        }
+      }
+    }
+  ]
+}

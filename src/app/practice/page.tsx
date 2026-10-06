@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { notFound, redirect } from 'next/navigation';
 import { Library } from '@/components/library';
 import { getCatalogOrNull } from '@/lib/catalog';
-import { liveExamMeta } from '@/lib/exam-directory';
+import { examShortTitle } from '@/lib/exam-directory';
 
 export const dynamic = 'force-dynamic';
 type Props = { searchParams: Promise<{ subject?: string | string[] }> };
@@ -14,7 +14,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const subject = catalog?.subjects.find(s => s._id === subjectId);
   if (!subject) return { title: 'Subject not found', robots: { index: false } };
   const exam = catalog!.exams.find(e => e._id === subject.examId);
-  const examTitle = liveExamMeta[subject.examId]?.title ?? (exam ? `${exam.name} ${exam.category}` : '');
+  const examTitle = exam ? examShortTitle(exam) : '';
   const title = `${subject.name} practice sets${examTitle ? ` · ${examTitle}` : ''}`;
   const description = `${subject.setCount} timed ${subject.name} mock tests with ${subject.questionCount} questions${examTitle ? ` for ${examTitle}` : ''}. Answers save as you go; every question is explained in English and Hindi.`;
   const url = `/practice?subject=${encodeURIComponent(subject._id)}`;

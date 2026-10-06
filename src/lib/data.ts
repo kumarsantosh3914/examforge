@@ -12,12 +12,14 @@ export const questionSchema = z.object({
   question: text, options, answer: z.enum(['A', 'B', 'C', 'D']),
   explanation: z.string().optional(), hash: z.string().optional(),
   translations: z.object({ hi: z.object({ question: text, options, explanation: z.string().optional() }).optional() }).optional(),
-}).refine(q => Boolean(q.options[q.answer]), 'Answer must reference a nonempty option');
-const rootSchema = z.object({ exam: text, category: text, subjects: z.array(z.object({ name: text, slug, setCount: z.number().int().nonnegative() })) });
+}).refine(q => Boolean(q.options[q.answer]), 'Answer must reference a nonempty option')
+  .refine(q => Object.entries(q.options).every(([key, value]) => key === q.answer || value?.trim() !== q.options[q.answer]?.trim()), 'Another option repeats the answer text');
+const rootSchema = z.object({ exam: text, category: text.nullable(), subjects: z.array(z.object({ name: text, slug, setCount: z.number().int().nonnegative() })) });
 const indexSchema = z.object({ subject: text, slug, sets: z.array(z.object({ set: z.number().int().positive(), title: text, questionCount: z.number().int().nonnegative(), file: z.string().regex(/^set-\d+\.json$/) })) });
 const setSchema = z.object({ subject: text, set: z.number().int().positive(), title: text, questions: z.array(z.unknown()) });
 // Explicit quarantine: source is preserved; new invalid records fail validation.
-const quarantined = new Set(['programming-languages-05-027']);
+// Keyed by `<exam id>/<question id>` so question IDs reused across exams cannot collide.
+const quarantined = new Set(['bpsc-tre-4.0/computer/programming-languages-05-027', 'ssc-gd-constable/reasoning-02-002', 'ssc-gd-constable/hindi-05-003']);
 export const digest = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export interface Bank { exams: Exam[]; subjects: Subject[]; sets: PracticeSet[]; questions: StoredQuestion[]; excluded: { id: string; file: string; reason: string }[]; sourceQuestions: number }
 async function json(file: string) { return JSON.parse(await readFile(file, 'utf8')) as unknown; }
@@ -27,13 +29,17 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
   for (const examDir of await readdir(directory, { withFileTypes: true })) {
     if (!examDir.isDirectory()) continue;
     slug.parse(examDir.name);
-    for (const categoryDir of await readdir(path.join(directory, examDir.name), { withFileTypes: true })) {
-      if (!categoryDir.isDirectory()) continue;
-      slug.parse(categoryDir.name);
-      const root = path.join(directory, examDir.name, categoryDir.name);
+    const examRoot = path.join(directory, examDir.name);
+    // An exam is either split into categories (`<exam>/<category>/index.json`) or holds its subjects directly (`<exam>/index.json`).
+    const flat = (await readdir(examRoot)).includes('index.json');
+    const categories = flat ? [null] : (await readdir(examRoot, { withFileTypes: true })).filter(d => d.isDirectory()).map(d => d.name);
+    for (const categorySlug of categories) {
+      if (categorySlug) slug.parse(categorySlug);
+      const root = categorySlug ? path.join(examRoot, categorySlug) : examRoot;
       const index = rootSchema.parse(await json(path.join(root, 'index.json')));
-      const examId = `${examDir.name}/${categoryDir.name}`;
-      bank.exams.push({ _id: examId, name: index.exam, category: index.category, slug: examDir.name, categorySlug: categoryDir.name, active: true });
+      if (Boolean(index.category) !== Boolean(categorySlug)) throw new Error(`Category does not match folder layout: ${root}`);
+      const examId = categorySlug ? `${examDir.name}/${categorySlug}` : examDir.name;
+      bank.exams.push({ _id: examId, name: index.exam, category: index.category, slug: examDir.name, categorySlug, active: true });
       const dirs = (await readdir(root, { withFileTypes: true })).filter(d => d.isDirectory()).map(d => d.name).sort();
       if (JSON.stringify(dirs) !== JSON.stringify(index.subjects.map(s => s.slug).sort())) throw new Error(`Subject index mismatch: ${root}`);
       for (const [order, subject] of index.subjects.entries()) {
@@ -57,7 +63,7 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
             const parsed = questionSchema.safeParse(raw);
             if (!parsed.success) {
               const id = z.object({ id: z.string() }).parse(raw).id;
-              if (!quarantined.has(id)) throw new Error(`Invalid question ${id}: ${parsed.error.message}`);
+              if (!quarantined.has(`${examId}/${id}`)) throw new Error(`Invalid question ${id}: ${parsed.error.message}`);
               bank.excluded.push({ id, file, reason: parsed.error.issues.map(i => `${i.path.join('.')}: ${i.message}`).join('; ') });
               continue;
             }

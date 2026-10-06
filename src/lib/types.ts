@@ -6,7 +6,7 @@ export interface Question {
   translations?: { hi?: { question: string; options: Options; explanation?: string } };
 }
 export interface Stored { _id: string; active: boolean; digest?: string }
-export interface Exam extends Stored { name: string; category: string; slug: string; categorySlug: string }
+export interface Exam extends Stored { name: string; category: string | null; slug: string; categorySlug: string | null }
 export interface Subject extends Stored { examId: string; name: string; slug: string; setCount: number; questionCount: number; order: number }
 export interface PracticeSet extends Stored { examId: string; subjectId: string; subject: string; number: number; title: string; questionCount: number; durationSeconds: number }
 export interface StoredQuestion extends Question, Stored { setId: string; order: number }

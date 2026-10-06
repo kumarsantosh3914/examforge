@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, Clock3, Languages, Search, ShieldCheck, X } from 'lucide-react';
 import type { Catalog } from '@/lib/types';
 import { api } from '@/lib/client';
-import { examHref, families, liveExamMeta, plannedExams, type FamilyId } from '@/lib/exam-directory';
+import { examHref, examTitle, families, liveExamMeta, plannedExams, type FamilyId } from '@/lib/exam-directory';
 import { useSession } from './session';
 import { ErrorMessage, Shell } from './ui';
 
@@ -33,7 +33,7 @@ export function Landing({ initialCatalog = null }: { initialCatalog?: Catalog | 
     const live: LiveCard[] = (catalog?.exams ?? []).map(exam => {
       const meta = liveExamMeta[exam._id];
       const subjects = catalog!.subjects.filter(s => s.examId === exam._id);
-      return { kind: 'live', id: exam._id, family: meta?.family ?? 'other', title: meta?.title ?? `${exam.name} ${exam.category}`, body: meta?.body ?? exam.name, blurb: meta?.blurb ?? '',
+      return { kind: 'live', id: exam._id, family: meta?.family ?? 'other', title: examTitle(exam), body: meta?.body ?? exam.name, blurb: meta?.blurb ?? '',
         subjects: subjects.map(s => ({ id: s._id, name: s.name })), sets: catalog!.sets.filter(s => s.examId === exam._id).length, questions: subjects.reduce((n, s) => n + s.questionCount, 0) };
     });
     return [...live, ...plannedExams.map(p => ({ kind: 'soon' as const, ...p }))];

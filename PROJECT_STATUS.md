@@ -66,6 +66,14 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Exam catalogue landing at `/` (search, family filters, live exam card, coming-soon exams), global top navbar and new logo; the BPSC library moved to `/exams/bpsc-tre-4.0/computer`. Design records: `PRODUCT.md`, `DESIGN.md`.
 - Search readiness: indexing enabled, `robots.txt`, database-driven `sitemap.xml`, server-rendered exam and subject pages with per-page metadata and canonical URLs, Open Graph/Twitter images, web manifest, WebSite/Organization structured data, `noindex` on personal pages, real 404s. Search Console steps are in `docs/DEPLOYMENT.md`.
 
+## SSC GD Constable (2026-10-06)
+
+- Second live exam at `/exams/ssc-gd-constable`. The importer now also accepts exams without a category level (`<exam>/index.json`, `"category": null`).
+- Seed source `cleaned/ssc-gd-constable/` is copied from raw `data/ssc-gd-constable/` with three changes: the English subject is left out (all 100 questions have an empty question text in English and Hindi), mock-test titles read `Mock Test N` instead of `Mock Test Mock Test N`, and nothing else is edited.
+- New validation rule: a question fails if another option repeats the answer text exactly. `reasoning-02-002` and `hindi-05-003` fail it and are quarantined; BPSC is unaffected.
+- Totals: 2 exams, 19 subjects, 100 sets, 3,296 usable questions (3 quarantined). SSC GD: 5 subjects, 30 sets, 1,198 questions.
+- Exam guides: long-form "about this exam" content (pattern, syllabus, selection, tips) lives in `src/lib/exam-guides.ts` and renders server-side under the subject list via `src/components/exam-guide.tsx`. BPSC TRE 4.0 Computer Science and SSC GD both have one (with an FAQ); exams without an entry show nothing. The BPSC guide follows the official TRE 4.0 Advertisement 15/2026 (22 Sep 2026) and its 29 Sep 2026 corrigendum: 1/3 negative marking with an Option E, merit on Parts II + III, Computer Science only for Classes 11–12 (407 posts). Exam date not yet announced; update `facts` in `src/lib/exam-guides.ts` when it is.
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

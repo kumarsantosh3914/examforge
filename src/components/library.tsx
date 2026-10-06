@@ -1,19 +1,20 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { ArrowUpRight, BookOpen, Check, CheckCircle2, Clock3, Code2, Database, Layers3, Search, ShieldCheck, Terminal, Cpu, Network, Play, ChevronRight, Monitor } from 'lucide-react';
 import type { Catalog, AttemptView } from '@/lib/types';
 import { api, ApiError, post } from '@/lib/client';
 import { useSession } from './session';
-import { examHref, liveExamMeta } from '@/lib/exam-directory';
+import { examHref, examTitle, liveExamMeta } from '@/lib/exam-directory';
 import { Shell, ErrorMessage, Loading } from './ui';
 
 const icons = [Database, Cpu, Layers3, Code2, Monitor, Network, Terminal, BookOpen];
-export function Library({ detail = false, examId, initialCatalog = null }: { detail?: boolean; examId?: string; initialCatalog?: Catalog | null }) {
-  return <Shell><LibraryContent detail={detail} examId={examId} initialCatalog={initialCatalog} /></Shell>;
+// `children` (exam page only) renders below the subject list, e.g. the server-rendered exam guide.
+export function Library({ detail = false, examId, initialCatalog = null, children }: { detail?: boolean; examId?: string; initialCatalog?: Catalog | null; children?: ReactNode }) {
+  return <Shell><LibraryContent detail={detail} examId={examId} initialCatalog={initialCatalog}>{children}</LibraryContent></Shell>;
 }
-function LibraryContent({ detail, examId, initialCatalog }: { detail: boolean; examId?: string; initialCatalog: Catalog | null }) {
+function LibraryContent({ detail, examId, initialCatalog, children }: { detail: boolean; examId?: string; initialCatalog: Catalog | null; children?: ReactNode }) {
   const [catalog, setCatalog] = useState<Catalog | null>(initialCatalog); const [error, setError] = useState('');
   const [search, setSearch] = useState(''); const [busy, setBusy] = useState('');
   const { session, error: sessionError, refresh } = useSession(); const router = useRouter(); const query = useSearchParams();
@@ -37,7 +38,7 @@ function LibraryContent({ detail, examId, initialCatalog }: { detail: boolean; e
     <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Exams</Link><ChevronRight size={14} aria-hidden="true" />{detail ? <Link href={examHref(selectedExam._id)}>{selectedExam.name}</Link> : <span aria-current="page">{selectedExam.name}</span>}</nav>
     {error && <ErrorMessage message={error} />}{sessionError && <ErrorMessage message={sessionError} retry={() => void refresh()} />}
     {detail ? <SubjectSets catalog={catalog} start={start} busy={busy} ready={!!session} /> : <>
-      <div className="page-heading"><div><h1>{liveExamMeta[selectedExam._id]?.title ?? `${selectedExam.name} ${selectedExam.category}`}</h1><p>{liveExamMeta[selectedExam._id]?.body ? `${liveExamMeta[selectedExam._id].body}. ` : ''}Build your understanding, one focused test at a time.</p></div><span className="heading-icon"><GraduationIcon /></span></div>
+      <div className="page-heading"><div><h1>{examTitle(selectedExam)}</h1><p>{liveExamMeta[selectedExam._id]?.body ? `${liveExamMeta[selectedExam._id].body}. ` : ''}Build your understanding, one focused test at a time.</p></div><span className="heading-icon"><GraduationIcon /></span></div>
       <div className="practice-banner"><div className="banner-main"><h2>{session?.activeAttempt ? 'Pick up where you left off.' : 'Ready when you are.'}</h2><p>{session?.activeAttempt ? session.activeAttempt.title : session?.email ? 'Choose a subject and give your preparation a focused boost.' : 'Your first 3 practice sets are on us. No signup needed.'}</p>
         {session?.activeAttempt ? <Link className="button primary" href={`/test/${session.activeAttempt.id}`}><Play size={16} />Resume practice</Link> : <button className="button primary" disabled={!sets.length || !session || !!busy} onClick={() => start(sets[0]._id)}><Play size={16} />{busy ? 'Preparing your test…' : session && !session.email && session.remaining === 0 ? 'Sign in to continue' : 'Start practicing'}</button>}
       </div><div className="banner-aside"><div className="mini-stack"><span><Clock3 size={18} /></span><div><strong>At your pace, on the clock</strong><small>Timed sets that build exam confidence</small></div></div><div className="mini-stack"><span><CheckCircle2 size={18} /></span><div><strong>Learn from every answer</strong><small>Detailed results and explanations</small></div></div><div className="mini-stack"><span><ShieldCheck size={18} /></span><div><strong>Your progress stays with you</strong><small>Answers save as you practice</small></div></div></div></div>
@@ -46,6 +47,7 @@ function LibraryContent({ detail, examId, initialCatalog }: { detail: boolean; e
       <div className="subject-grid">{subjects.filter(s => s.name.toLowerCase().includes(search.toLowerCase())).map((subject, i) => { const Icon = icons[i % icons.length]; return <Link href={`/practice?subject=${encodeURIComponent(subject._id)}`} className="subject-card" key={subject._id}><div className="card-top"><span className={`subject-icon color-${i % 5}`}><Icon size={23} strokeWidth={1.7} /></span><ArrowUpRight className="card-arrow" size={19} /></div><h3>{subject.name}</h3><p>{subject.questionCount} questions <span>·</span> English & Hindi</p><div className="card-bottom"><span><Layers3 size={15} />{subject.setCount} practice sets</span><span>Explore sets</span></div></Link>; })}</div>
       {!subjects.filter(s => s.name.toLowerCase().includes(search.toLowerCase())).length && <div className="empty-state"><Search /><h2>{subjects.length ? 'No matching subjects' : 'Practice sets are on their way'}</h2><p>{subjects.length ? 'Try a different subject name.' : 'Check back soon for new practice material.'}</p></div>}
       {!session?.email && <div className="allowance-note"><span><ShieldCheck size={19} /><strong>{session?.remaining ?? 3} of 3 free attempts available</strong></span><span>Continue with a free account when you’re ready. <Link href="/auth?mode=register">Create account</Link></span></div>}
+      {children}
     </>}
   </>;
 }

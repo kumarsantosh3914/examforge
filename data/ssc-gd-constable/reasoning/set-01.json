@@ -1,0 +1,527 @@
+{
+  "subject": "Reasoning",
+  "set": 1,
+  "title": "Reasoning Mock Test 1",
+  "questions": [
+    {
+      "id": "reasoning-01-001",
+      "number": 1,
+      "question": "Find the odd one out.",
+      "options": {
+        "A": "Car",
+        "B": "Bicycle",
+        "C": "Truck",
+        "D": "Bus"
+      },
+      "answer": "B",
+      "explanation": "Except for Bicycle, all others run on fuel.",
+      "hash": "5b74ee658ecceb45",
+      "translations": {
+        "hi": {
+          "question": "बेजोड़ (Odd one out) ज्ञात कीजिए।",
+          "options": {
+            "A": "कार",
+            "B": "साइकिल",
+            "C": "ट्रक",
+            "D": "बस"
+          },
+          "explanation": "साइकिल को छोड़कर अन्य सभी ईंधन (fuel) से चलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-002",
+      "number": 2,
+      "question": "As 'Bird' is related to 'Wings', in the same way 'Fish' is related to?",
+      "options": {
+        "A": "Gills",
+        "B": "Head",
+        "C": "Fins",
+        "D": "Legs"
+      },
+      "answer": "C",
+      "explanation": "Birds fly with the help of wings, and fish swim with the help of fins.",
+      "hash": "38d25d7744414c60",
+      "translations": {
+        "hi": {
+          "question": "जिस प्रकार 'पक्षी' का संबंध 'पंख' से है, उसी प्रकार 'मछली' का संबंध किससे है?",
+          "options": {
+            "A": "गलफड़े (Gills)",
+            "B": "सिर",
+            "C": "मीनपंख (Fins)",
+            "D": "पैर"
+          },
+          "explanation": "पक्षी पंखों की मदद से उड़ते हैं, और मछलियां मीनपंख (fins) की मदद से तैरती हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-003",
+      "number": 3,
+      "question": "Complete the series: 4, 9, 16, 25, ?",
+      "options": {
+        "A": "30",
+        "B": "32",
+        "C": "36",
+        "D": "49"
+      },
+      "answer": "C",
+      "explanation": "These are squares of natural numbers: 2², 3², 4², 5². Next is 6² = 36.",
+      "hash": "2145784b1f1c0e60",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला पूरी करें: 4, 9, 16, 25, ?",
+          "options": {
+            "A": "30",
+            "B": "32",
+            "C": "36",
+            "D": "49"
+          },
+          "explanation": "ये प्राकृत संख्याओं के वर्ग हैं: 2², 3², 4², 5²। अगला 6² = 36 होगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-004",
+      "number": 4,
+      "question": "If 'APPLE' is coded as 'BQQMF', how will 'GRAPE' be coded?",
+      "options": {
+        "A": "HSBQF",
+        "B": "HSBQE",
+        "C": "HQBQF",
+        "D": "ISBQF"
+      },
+      "answer": "A",
+      "explanation": "Each letter is replaced by the next letter (+1). G->H, R->S, A->B, P->Q, E->F.",
+      "hash": "fd5c19fcc8f11128",
+      "translations": {
+        "hi": {
+          "question": "यदि 'APPLE' को 'BQQMF' के रूप में कोडित किया जाता है, तो 'GRAPE' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "HSBQF",
+            "B": "HSBQE",
+            "C": "HQBQF",
+            "D": "ISBQF"
+          },
+          "explanation": "प्रत्येक अक्षर को अगले अक्षर (+1) से बदल दिया गया है। G->H, R->S, A->B, P->Q, E->F."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-005",
+      "number": 5,
+      "question": "A person walks 4 km North, then turns right and walks 3 km. How far is he from his starting point?",
+      "options": {
+        "A": "5 km",
+        "B": "7 km",
+        "C": "12 km",
+        "D": "1 km"
+      },
+      "answer": "A",
+      "explanation": "Use Pythagoras theorem: √(4² + 3²) = √(16 + 9) = √25 = 5 km.",
+      "hash": "ff461b2e54f76437",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति उत्तर की ओर 4 किमी चलता है, फिर दाएं मुड़ता है और 3 किमी चलता है। वह अपने प्रारंभिक बिंदु से कितनी दूर है?",
+          "options": {
+            "A": "5 किमी",
+            "B": "7 किमी",
+            "C": "12 किमी",
+            "D": "1 किमी"
+          },
+          "explanation": "पाइथागोरस प्रमेय का प्रयोग करें: √(4² + 3²) = √(16 + 9) = √25 = 5 किमी।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-006",
+      "number": 6,
+      "question": "If '+' means '×', '-' means '+', '×' means '÷' and '÷' means '-', then 6 - 9 + 8 × 3 ÷ 20 = ?",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "12",
+        "D": "-2"
+      },
+      "answer": "B",
+      "explanation": "Equation becomes: 6 + (9 × 8) / 3 - 20 = 6 + 24 - 20 = 10",
+      "hash": "7797cde50748c5eb",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '×', '-' का अर्थ '+', '×' का अर्थ '÷' और '÷' का अर्थ '-' है, तो 6 - 9 + 8 × 3 ÷ 20 = ?",
+          "options": {
+            "A": "6",
+            "B": "10",
+            "C": "12",
+            "D": "-2"
+          },
+          "explanation": "समीकरण बन जाता है: 6 + 9 × (8 ÷ 3) ... क्षमा करें, प्रश्न के अनुसार सटीक मान: 6 + (9 × 8) / 3 - 20 = 6 + 72/3 - 20 = 6 + 24 - 20 = 10"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-007",
+      "number": 7,
+      "question": "Pointing to a photograph, Ram said, 'She is the only daughter of my brother's father.' Who is in the photograph?",
+      "options": {
+        "A": "Ram's wife",
+        "B": "Ram's sister",
+        "C": "Ram's mother",
+        "D": "Ram's aunt"
+      },
+      "answer": "B",
+      "explanation": "Brother's father = Father. Father's only daughter = Sister.",
+      "hash": "8a9bbb9ce5f2ac60",
+      "translations": {
+        "hi": {
+          "question": "एक तस्वीर की ओर इशारा करते हुए, राम ने कहा, 'वह मेरे भाई के पिता की इकलौती बेटी है।' तस्वीर में कौन है?",
+          "options": {
+            "A": "राम की पत्नी",
+            "B": "राम की बहन",
+            "C": "राम की मां",
+            "D": "राम की चाची"
+          },
+          "explanation": "भाई के पिता = पिता। पिता की इकलौती बेटी = बहन।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-008",
+      "number": 8,
+      "question": "Arrange the following words in Dictionary order: 1. Scenery 2. Science 3. Scandal 4. School",
+      "options": {
+        "A": "3, 1, 4, 2",
+        "B": "3, 1, 2, 4",
+        "C": "3, 4, 1, 2",
+        "D": "1, 3, 4, 2"
+      },
+      "answer": "A",
+      "explanation": "Correct order: Scandal (Sca...), Scenery (Sce...), School (Sch...), Science (Sci...)",
+      "hash": "264323a70745475c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित शब्दों को शब्दकोश (dictionary) के क्रम में व्यवस्थित करें: 1. Scenery 2. Science 3. Scandal 4. School",
+          "options": {
+            "A": "3, 1, 4, 2",
+            "B": "3, 1, 2, 4",
+            "C": "3, 4, 1, 2",
+            "D": "1, 3, 4, 2"
+          },
+          "explanation": "सही क्रम: Scandal (Sca...), Scenery (Sce...), School (Sch...), Science (Sci...)"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-009",
+      "number": 9,
+      "question": "Dog : Bark :: Goat : ?",
+      "options": {
+        "A": "Roar",
+        "B": "Bleat",
+        "C": "Neigh",
+        "D": "Trumpet"
+      },
+      "answer": "B",
+      "explanation": "Just as a dog barks, a goat bleats.",
+      "hash": "bc1a7e4dddf8e42f",
+      "translations": {
+        "hi": {
+          "question": "कुत्ता : भौंकना :: बकरी : ?",
+          "options": {
+            "A": "दहाड़ना",
+            "B": "मिमियाना (Bleat)",
+            "C": "हिनहिनाना",
+            "D": "चिंगाड़ना"
+          },
+          "explanation": "जिस प्रकार कुत्ता भौंकता है, उसी प्रकार बकरी मिमियाती है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-010",
+      "number": 10,
+      "question": "Find the missing number: 3, 5, 8, 12, 17, ?",
+      "options": {
+        "A": "22",
+        "B": "23",
+        "C": "24",
+        "D": "21"
+      },
+      "answer": "B",
+      "explanation": "Difference is increasing: +2, +3, +4, +5. Next is +6. 17 + 6 = 23",
+      "hash": "2722109c47debec4",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: 3, 5, 8, 12, 17, ?",
+          "options": {
+            "A": "22",
+            "B": "23",
+            "C": "24",
+            "D": "21"
+          },
+          "explanation": "अंतर बढ़ रहा है: +2, +3, +4, +5. अगला +6 होगा। 17 + 6 = 23"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-011",
+      "number": 11,
+      "question": "If South-East becomes North, North-East becomes West, then what will West become?",
+      "options": {
+        "A": "South-East",
+        "B": "North-East",
+        "C": "South-West",
+        "D": "North-West"
+      },
+      "answer": "A",
+      "explanation": "Each direction is rotated 135 degrees anti-clockwise. West rotated 135 degrees becomes South-East.",
+      "hash": "2789ab19abc6eca2",
+      "translations": {
+        "hi": {
+          "question": "यदि दक्षिण-पूर्व (South-East), उत्तर (North) बन जाता है, उत्तर-पूर्व (North-East), पश्चिम (West) बन जाता है, तो पश्चिम क्या बनेगा?",
+          "options": {
+            "A": "दक्षिण-पूर्व",
+            "B": "उत्तर-पूर्व",
+            "C": "दक्षिण-पश्चिम",
+            "D": "उत्तर-पश्चिम"
+          },
+          "explanation": "प्रत्येक दिशा 135 डिग्री वामावर्त (anti-clockwise) घूम रही है। पश्चिम 135 डिग्री घूमने पर दक्षिण-पूर्व बन जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-012",
+      "number": 12,
+      "question": "In a standard dice, which number is opposite to '5'?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "In a standard dice, sum of opposite faces is 7. 7 - 5 = 2",
+      "hash": "f23e29bd7bdc7354",
+      "translations": {
+        "hi": {
+          "question": "एक मानक पासे (standard dice) में, '5' के विपरीत कौन सा अंक होता है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "6"
+          },
+          "explanation": "मानक पासे में विपरीत फलकों का योग 7 होता है। 7 - 5 = 2"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-013",
+      "number": 13,
+      "question": "Some flowers are red. All red things are beautiful. Conclusion: I. Some flowers are beautiful. II. All beautiful things are flowers.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both follow",
+        "D": "None follows"
+      },
+      "answer": "A",
+      "explanation": "Since some flowers are red and all red are beautiful, the flowers that are red are also beautiful. So I follows.",
+      "hash": "c2dccc15717a7cf5",
+      "translations": {
+        "hi": {
+          "question": "कुछ फूल लाल हैं। सभी लाल वस्तुएं सुंदर हैं। निष्कर्ष: I. कुछ फूल सुंदर हैं। II. सभी सुंदर वस्तुएं फूल हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "चूंकि कुछ फूल लाल हैं और सभी लाल सुंदर हैं, तो वे फूल जो लाल हैं, वे सुंदर भी हैं। अतः I सही है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-014",
+      "number": 14,
+      "question": "Which letter is 7th to the left of the 18th letter from the left in the English alphabet?",
+      "options": {
+        "A": "K",
+        "B": "J",
+        "C": "L",
+        "D": "M"
+      },
+      "answer": "A",
+      "explanation": "18 - 7 = 11th letter. 11th letter is 'K'.",
+      "hash": "a67dd5475f7d3ee0",
+      "translations": {
+        "hi": {
+          "question": "अंग्रेजी वर्णमाला में बाएं से 18वें अक्षर के बाएं 7वां अक्षर कौन सा है?",
+          "options": {
+            "A": "K",
+            "B": "J",
+            "C": "L",
+            "D": "M"
+          },
+          "explanation": "18 - 7 = 11वां अक्षर। 11वां अक्षर 'K' है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-015",
+      "number": 15,
+      "question": "Choose the odd number pair.",
+      "options": {
+        "A": "2-8",
+        "B": "3-27",
+        "C": "4-64",
+        "D": "5-120"
+      },
+      "answer": "D",
+      "explanation": "In first three, 2nd number is cube of 1st (2³=8, 3³=27, 4³=64). But 5³=125, not 120.",
+      "hash": "c02a3e50a160b9de",
+      "translations": {
+        "hi": {
+          "question": "बेजोड़ संख्या युग्म (number pair) चुनें।",
+          "options": {
+            "A": "2-8",
+            "B": "3-27",
+            "C": "4-64",
+            "D": "5-120"
+          },
+          "explanation": "पहले तीन विकल्पों में दूसरी संख्या पहली का घन (cube) है (2³=8, 3³=27, 4³=64)। लेकिन 5³=125 होता है, 120 नहीं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-016",
+      "number": 16,
+      "question": "In a class of 50 students, Ram is 20th from the top. What is his rank from the bottom?",
+      "options": {
+        "A": "30",
+        "B": "31",
+        "C": "32",
+        "D": "29"
+      },
+      "answer": "B",
+      "explanation": "Formula: Total = Top + Bottom - 1. => 50 = 20 + Bottom - 1 => Bottom = 50 - 19 = 31",
+      "hash": "56be82807b0924a1",
+      "translations": {
+        "hi": {
+          "question": "50 छात्रों की एक कक्षा में, राम ऊपर से 20वें स्थान पर है। नीचे से उसका स्थान क्या है?",
+          "options": {
+            "A": "30",
+            "B": "31",
+            "C": "32",
+            "D": "29"
+          },
+          "explanation": "सूत्र: कुल = ऊपर + नीचे - 1. => 50 = 20 + नीचे - 1 => नीचे = 50 - 19 = 31"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-017",
+      "number": 17,
+      "question": "What will be the meaningful order of the given words? 1. Seed 2. Fruit 3. Plant 4. Flower",
+      "options": {
+        "A": "1, 3, 4, 2",
+        "B": "1, 3, 2, 4",
+        "C": "1, 4, 3, 2",
+        "D": "3, 1, 4, 2"
+      },
+      "answer": "A",
+      "explanation": "Order: Seed -> Plant -> Flower -> Fruit.",
+      "hash": "9798b88098d7e81d",
+      "translations": {
+        "hi": {
+          "question": "दिए गए शब्दों का सार्थक क्रम क्या होगा? 1. बीज 2. फल 3. पौधा 4. फूल",
+          "options": {
+            "A": "1, 3, 4, 2",
+            "B": "1, 3, 2, 4",
+            "C": "1, 4, 3, 2",
+            "D": "3, 1, 4, 2"
+          },
+          "explanation": "क्रम: बीज -> पौधा -> फूल -> फल।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-018",
+      "number": 18,
+      "question": "3 : 243 :: 5 : ?",
+      "options": {
+        "A": "405",
+        "B": "465",
+        "C": "3125",
+        "D": "625"
+      },
+      "answer": "C",
+      "explanation": "3⁵ = 243. Similarly, 5⁵ = 3125.",
+      "hash": "26f138d36ee81b39",
+      "translations": {
+        "hi": {
+          "question": "3 : 243 :: 5 : ?",
+          "options": {
+            "A": "405",
+            "B": "465",
+            "C": "3125",
+            "D": "625"
+          },
+          "explanation": "3⁵ = 243। इसी प्रकार, 5⁵ = 3125।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-019",
+      "number": 19,
+      "question": "If 'sky' is called 'star', 'star' is called 'cloud', 'cloud' is called 'earth', where do birds fly?",
+      "options": {
+        "A": "Cloud",
+        "B": "Sky",
+        "C": "Star",
+        "D": "Earth"
+      },
+      "answer": "C",
+      "explanation": "Birds fly in 'sky', and 'sky' is called 'star'. So answer is 'star'.",
+      "hash": "190aec8f402f0c3e",
+      "translations": {
+        "hi": {
+          "question": "यदि 'sky' को 'star' कहा जाए, 'star' को 'cloud', 'cloud' को 'earth', तो पक्षी कहाँ उड़ते हैं?",
+          "options": {
+            "A": "Cloud",
+            "B": "Sky",
+            "C": "Star",
+            "D": "Earth"
+          },
+          "explanation": "पक्षी 'sky' में उड़ते हैं, और 'sky' को 'star' कहा गया है। अतः उत्तर 'star' है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-020",
+      "number": 20,
+      "question": "A clock shows 3:00 when seen through a mirror. What is the actual time?",
+      "options": {
+        "A": "9:00",
+        "B": "3:00",
+        "C": "12:00",
+        "D": "6:00"
+      },
+      "answer": "A",
+      "explanation": "Subtract from 12:00 (or 11:60). 12:00 - 3:00 = 9:00.",
+      "hash": "02af693437bcf5b3",
+      "translations": {
+        "hi": {
+          "question": "दर्पण में देखने पर एक घड़ी 3:00 बजे का समय दिखाती है। वास्तविक समय क्या है?",
+          "options": {
+            "A": "9:00",
+            "B": "3:00",
+            "C": "12:00",
+            "D": "6:00"
+          },
+          "explanation": "12:00 (या 11:60) से घटाएं। 12:00 - 3:00 = 9:00।"
+        }
+      }
+    }
+  ]
+}

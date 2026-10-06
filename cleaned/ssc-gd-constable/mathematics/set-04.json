@@ -1,0 +1,527 @@
+{
+  "subject": "Mathematics",
+  "set": 4,
+  "title": "Mathematics Mock Test 4",
+  "questions": [
+    {
+      "id": "mathematics-04-001",
+      "number": 1,
+      "question": "Find the value of 5005 - 5000 ÷ 10.",
+      "options": {
+        "A": "4505",
+        "B": "5000",
+        "C": "0.5",
+        "D": "500"
+      },
+      "answer": "A",
+      "explanation": "According to BODMAS, divide first: 5000/10 = 500. Then subtract: 5005 - 500 = 4505",
+      "hash": "0e0b4f13157a6758",
+      "translations": {
+        "hi": {
+          "question": "5005 - 5000 ÷ 10 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "4505",
+            "B": "5000",
+            "C": "0.5",
+            "D": "500"
+          },
+          "explanation": "BODMAS नियम के अनुसार, पहले भाग करें: 5000/10 = 500. फिर घटाएं: 5005 - 500 = 4505"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-002",
+      "number": 2,
+      "question": "What is the sum of the first 20 natural numbers?",
+      "options": {
+        "A": "200",
+        "B": "210",
+        "C": "400",
+        "D": "420"
+      },
+      "answer": "B",
+      "explanation": "Formula: n(n+1)/2 = 20(21)/2 = 10 × 21 = 210",
+      "hash": "7318c840bcf62e7d",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 20 प्राकृत संख्याओं (natural numbers) का योग क्या है?",
+          "options": {
+            "A": "200",
+            "B": "210",
+            "C": "400",
+            "D": "420"
+          },
+          "explanation": "सूत्र: n(n+1)/2 = 20(21)/2 = 10 × 21 = 210"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-003",
+      "number": 3,
+      "question": "If A's salary is 25% more than B's, then by what percentage is B's salary less than A's?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "33.33%"
+      },
+      "answer": "A",
+      "explanation": "Formula: [r / (100+r)] × 100 = [25 / 125] × 100 = (1/5) × 100 = 20%",
+      "hash": "0f4e749ec2a98657",
+      "translations": {
+        "hi": {
+          "question": "यदि A का वेतन B से 25% अधिक है, तो B का वेतन A से कितना प्रतिशत कम है?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "33.33%"
+          },
+          "explanation": "सूत्र: [r / (100+r)] × 100 = [25 / 125] × 100 = (1/5) × 100 = 20%"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-004",
+      "number": 4,
+      "question": "The length, breadth, and height of a cuboid are 10 cm, 8 cm, and 6 cm respectively. What is its volume?",
+      "options": {
+        "A": "480 cm³",
+        "B": "240 cm³",
+        "C": "600 cm³",
+        "D": "360 cm³"
+      },
+      "answer": "A",
+      "explanation": "Volume = L × B × H = 10 × 8 × 6 = 480 cm³",
+      "hash": "a2345725aa9e1d36",
+      "translations": {
+        "hi": {
+          "question": "एक घनाभ (cuboid) की लंबाई, चौड़ाई और ऊंचाई क्रमशः 10 सेमी, 8 सेमी और 6 सेमी है। इसका आयतन क्या है?",
+          "options": {
+            "A": "480 सेमी³",
+            "B": "240 सेमी³",
+            "C": "600 सेमी³",
+            "D": "360 सेमी³"
+          },
+          "explanation": "आयतन = L × B × H = 10 × 8 × 6 = 480 घन सेमी"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-005",
+      "number": 5,
+      "question": "If a sum of money doubles in 5 years at simple interest, in how much time will it become 4 times?",
+      "options": {
+        "A": "10 years",
+        "B": "15 years",
+        "C": "20 years",
+        "D": "12 years"
+      },
+      "answer": "B",
+      "explanation": "(n1 - 1)/T1 = (n2 - 1)/T2 => (2-1)/5 = (4-1)/T2 => 1/5 = 3/T2 => T2 = 15 years",
+      "hash": "212fc07cdbb94084",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई धनराशि 5 वर्षों में साधारण ब्याज पर दोगुनी हो जाती है, तो उसे चौगुनी (4 गुना) होने में कितना समय लगेगा?",
+          "options": {
+            "A": "10 वर्ष",
+            "B": "15 वर्ष",
+            "C": "20 वर्ष",
+            "D": "12 वर्ष"
+          },
+          "explanation": "(n1 - 1)/T1 = (n2 - 1)/T2 => (2-1)/5 = (4-1)/T2 => 1/5 = 3/T2 => T2 = 15 वर्ष"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-006",
+      "number": 6,
+      "question": "A, B and C can do a work individually in 12, 15 and 20 days respectively. If they work together, in how many days will the work be completed?",
+      "options": {
+        "A": "4 days",
+        "B": "5 days",
+        "C": "6 days",
+        "D": "10 days"
+      },
+      "answer": "B",
+      "explanation": "1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5. So, 5 days.",
+      "hash": "b57680b6591101d2",
+      "translations": {
+        "hi": {
+          "question": "12, 15 और 20 दिनों में A, B और C अलग-अलग एक काम कर सकते हैं। यदि वे तीनों मिलकर काम करें, तो काम कितने दिनों में पूरा होगा?",
+          "options": {
+            "A": "4 दिन",
+            "B": "5 दिन",
+            "C": "6 दिन",
+            "D": "10 दिन"
+          },
+          "explanation": "1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5. अतः 5 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-007",
+      "number": 7,
+      "question": "A car is traveling at a speed of 54 km/hr. What distance will it cover in 1 minute?",
+      "options": {
+        "A": "600 m",
+        "B": "900 m",
+        "C": "1000 m",
+        "D": "1200 m"
+      },
+      "answer": "B",
+      "explanation": "54 km/hr = 54 × (5/18) = 15 m/s. 1 min = 60 sec. Distance = 15 × 60 = 900 m.",
+      "hash": "dd9449ff5a0a97c7",
+      "translations": {
+        "hi": {
+          "question": "एक कार 54 किमी/घंटा की गति से चल रही है। 1 मिनट में वह कितनी दूरी तय करेगी?",
+          "options": {
+            "A": "600 मीटर",
+            "B": "900 मीटर",
+            "C": "1000 मीटर",
+            "D": "1200 मीटर"
+          },
+          "explanation": "54 किमी/घंटा = 54 × (5/18) = 15 मी/से। 1 मिनट = 60 सेकंड। दूरी = 15 × 60 = 900 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-008",
+      "number": 8,
+      "question": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?",
+      "options": {
+        "A": "25",
+        "B": "27",
+        "C": "30",
+        "D": "35"
+      },
+      "answer": "D",
+      "explanation": "Total sum = 27×5 = 135. New sum = 25×4 = 100. Excluded number = 135 - 100 = 35",
+      "hash": "728434b72786c850",
+      "translations": {
+        "hi": {
+          "question": "5 संख्याओं का औसत 27 है। यदि उनमें से एक संख्या हटा दी जाए, तो औसत 25 हो जाता है। हटाई गई संख्या क्या है?",
+          "options": {
+            "A": "25",
+            "B": "27",
+            "C": "30",
+            "D": "35"
+          },
+          "explanation": "कुल योग = 27×5 = 135. नया योग = 25×4 = 100. हटाई गई संख्या = 135 - 100 = 35"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-009",
+      "number": 9,
+      "question": "What is the area of a circle with radius 14 cm?",
+      "options": {
+        "A": "154",
+        "B": "308",
+        "C": "616",
+        "D": "440"
+      },
+      "answer": "C",
+      "explanation": "Area = πr² = (22/7) × 14 × 14 = 22 × 2 × 14 = 616",
+      "hash": "3f7b72af2a109895",
+      "translations": {
+        "hi": {
+          "question": "14 सेमी त्रिज्या वाले एक वृत्त का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "154",
+            "B": "308",
+            "C": "616",
+            "D": "440"
+          },
+          "explanation": "Area = πr² = (22/7) × 14 × 14 = 22 × 2 × 14 = 616"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-010",
+      "number": 10,
+      "question": "Convert 0.45 into a vulgar fraction.",
+      "options": {
+        "A": "9/20",
+        "B": "4/5",
+        "C": "3/4",
+        "D": "7/20"
+      },
+      "answer": "A",
+      "explanation": "0.45 = 45/100. Dividing by 5 = 9/20",
+      "hash": "5b31ab850dd8dc89",
+      "translations": {
+        "hi": {
+          "question": "0.45 को साधारण भिन्न (vulgar fraction) में बदलें।",
+          "options": {
+            "A": "9/20",
+            "B": "4/5",
+            "C": "3/4",
+            "D": "7/20"
+          },
+          "explanation": "0.45 = 45/100. 5 से विभाजित करने पर = 9/20"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-011",
+      "number": 11,
+      "question": "Find the HCF of 42, 63, and 140.",
+      "options": {
+        "A": "14",
+        "B": "9",
+        "C": "21",
+        "D": "7"
+      },
+      "answer": "D",
+      "explanation": "7 is the largest number that divides all three (42, 63, 140).",
+      "hash": "4f4c99273511b39e",
+      "translations": {
+        "hi": {
+          "question": "42, 63 और 140 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+          "options": {
+            "A": "14",
+            "B": "9",
+            "C": "21",
+            "D": "7"
+          },
+          "explanation": "7 वह सबसे बड़ी संख्या है जो तीनों (42, 63, 140) को विभाजित करती है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-012",
+      "number": 12,
+      "question": "A man crosses a bridge in 15 minutes by walking at a speed of 5 km/hr. What is the length of the bridge (in meters)?",
+      "options": {
+        "A": "600",
+        "B": "750",
+        "C": "1000",
+        "D": "1250"
+      },
+      "answer": "D",
+      "explanation": "Speed = 5 × (5/18) m/s. Time = 15×60 = 900 sec. Distance = (25/18) × 900 = 25 × 50 = 1250 m",
+      "hash": "9cb9aea4ac03468f",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 5 किमी/घंटा की गति से चलकर एक पुल को 15 मिनट में पार करता है। पुल की लंबाई (मीटर में) क्या है?",
+          "options": {
+            "A": "600",
+            "B": "750",
+            "C": "1000",
+            "D": "1250"
+          },
+          "explanation": "गति = 5 × (5/18) मी/से. समय = 15×60 = 900 सेकंड. दूरी = (25/18) × 900 = 25 × 50 = 1250 मीटर"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-013",
+      "number": 13,
+      "question": "If an article worth Rs 800 is sold for Rs 720, what is the discount percentage?",
+      "options": {
+        "A": "8%",
+        "B": "10%",
+        "C": "12%",
+        "D": "15%"
+      },
+      "answer": "B",
+      "explanation": "Discount = 80. % Discount = (80/800) × 100 = 10%",
+      "hash": "563a4a4bd9d2ebe3",
+      "translations": {
+        "hi": {
+          "question": "यदि 800 रुपये की वस्तु को 720 रुपये में बेचा जाता है, तो छूट प्रतिशत क्या है?",
+          "options": {
+            "A": "8%",
+            "B": "10%",
+            "C": "12%",
+            "D": "15%"
+          },
+          "explanation": "छूट = 80। % छूट = (80/800) × 100 = 10%"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-014",
+      "number": 14,
+      "question": "Divide Rs 2600 among A, B and C in the ratio 1/2 : 1/3 : 1/4. Find the share of C.",
+      "options": {
+        "A": "600",
+        "B": "800",
+        "C": "1200",
+        "D": "900"
+      },
+      "answer": "A",
+      "explanation": "Multiply by 12 (LCM) to simplify ratio: 6:4:3. Total = 13. C = (3/13) × 2600 = 600",
+      "hash": "f621222bfcfe80c1",
+      "translations": {
+        "hi": {
+          "question": "2600 रुपये को 1/2 : 1/3 : 1/4 के अनुपात में A, B और C के बीच विभाजित करें। C का हिस्सा ज्ञात करें।",
+          "options": {
+            "A": "600",
+            "B": "800",
+            "C": "1200",
+            "D": "900"
+          },
+          "explanation": "अनुपात को सरल बनाने के लिए 12 (LCM) से गुणा करें: 6:4:3. कुल = 13. C = (3/13) × 2600 = 600"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-015",
+      "number": 15,
+      "question": "The sides of a triangle are in the ratio 3:4:5. If its perimeter is 24 cm, what is its area?",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "30",
+        "D": "48"
+      },
+      "answer": "B",
+      "explanation": "Sides are 6, 8, 10 (3x+4x+5x=24 => 12x=24 => x=2). It's a right triangle. Area = (1/2)×6×8 = 24",
+      "hash": "b94514c34c07bc5c",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज की भुजाएं 3:4:5 के अनुपात में हैं। यदि इसका परिमाप 24 सेमी है, तो इसका क्षेत्रफल क्या है?",
+          "options": {
+            "A": "12",
+            "B": "24",
+            "C": "30",
+            "D": "48"
+          },
+          "explanation": "भुजाएं 6, 8, 10 हैं (3x+4x+5x=24 => 12x=24 => x=2)। यह समकोण त्रिभुज है। क्षेत्रफल = (1/2)×6×8 = 24"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-016",
+      "number": 16,
+      "question": "What is the Simple Interest on Rs 1000 at 10% per annum for 3 years?",
+      "options": {
+        "A": "100",
+        "B": "200",
+        "C": "300",
+        "D": "331"
+      },
+      "answer": "C",
+      "explanation": "SI = (1000 × 10 × 3) / 100 = 300",
+      "hash": "38307fa27ea2941d",
+      "translations": {
+        "hi": {
+          "question": "1000 रुपये पर 10% वार्षिक दर से 3 वर्षों का साधारण ब्याज क्या है?",
+          "options": {
+            "A": "100",
+            "B": "200",
+            "C": "300",
+            "D": "331"
+          },
+          "explanation": "SI = (1000 × 10 × 3) / 100 = 300"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-017",
+      "number": 17,
+      "question": "In what time will a 150 m long train crossing a pole at a speed of 54 km/hr pass it?",
+      "options": {
+        "A": "8 sec",
+        "B": "10 sec",
+        "C": "12 sec",
+        "D": "15 sec"
+      },
+      "answer": "B",
+      "explanation": "Speed = 54 × (5/18) = 15 m/s. Time = 150 / 15 = 10 seconds",
+      "hash": "ba745c38c4741473",
+      "translations": {
+        "hi": {
+          "question": "एक 150 मीटर लंबी ट्रेन 54 किमी/घंटा की गति से चलते हुए एक खंभे को कितने समय में पार करेगी?",
+          "options": {
+            "A": "8 सेकंड",
+            "B": "10 सेकंड",
+            "C": "12 सेकंड",
+            "D": "15 सेकंड"
+          },
+          "explanation": "गति = 54 × (5/18) = 15 मी/से. समय = 150 / 15 = 10 सेकंड"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-018",
+      "number": 18,
+      "question": "What is the mean proportional of 0.02 and 0.32?",
+      "options": {
+        "A": "0.3",
+        "B": "0.34",
+        "C": "0.08",
+        "D": "0.16"
+      },
+      "answer": "C",
+      "explanation": "√(0.02 × 0.32) = √0.0064 = 0.08",
+      "hash": "bbc40a9badfe34d0",
+      "translations": {
+        "hi": {
+          "question": "0.02 और 0.32 का मध्यानुपाती (mean proportional) क्या है?",
+          "options": {
+            "A": "0.3",
+            "B": "0.34",
+            "C": "0.08",
+            "D": "0.16"
+          },
+          "explanation": "√(0.02 × 0.32) = √0.0064 = 0.08"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-019",
+      "number": 19,
+      "question": "A shopkeeper earns 20% profit on cost price. If the selling price is Rs 720, what is the cost price?",
+      "options": {
+        "A": "500",
+        "B": "600",
+        "C": "550",
+        "D": "620"
+      },
+      "answer": "B",
+      "explanation": "120% = 720. 100% = (720/120) × 100 = 600",
+      "hash": "99f2b8958a434155",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार लागत मूल्य पर 20% लाभ कमाता है। यदि विक्रय मूल्य 720 रुपये है, तो लागत मूल्य क्या है?",
+          "options": {
+            "A": "500",
+            "B": "600",
+            "C": "550",
+            "D": "620"
+          },
+          "explanation": "120% = 720. 100% = (720/120) × 100 = 600"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-020",
+      "number": 20,
+      "question": "What is the (2/5)th power of 243?",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "27",
+        "D": "81"
+      },
+      "answer": "B",
+      "explanation": "243 = 3^5. (3^5)^(2/5) = 3^(5×2/5) = 3^2 = 9",
+      "hash": "f69140a408f9fba1",
+      "translations": {
+        "hi": {
+          "question": "243 का (2/5) वां घात (power) क्या है?",
+          "options": {
+            "A": "3",
+            "B": "9",
+            "C": "27",
+            "D": "81"
+          },
+          "explanation": "243 = 3^5. (3^5)^(2/5) = 3^(5×2/5) = 3^2 = 9"
+        }
+      }
+    }
+  ]
+}
