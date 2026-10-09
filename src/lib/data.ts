@@ -14,8 +14,9 @@ export const questionSchema = z.object({
   translations: z.object({ hi: z.object({ question: text, options, explanation: z.string().optional() }).optional() }).optional(),
 }).refine(q => Boolean(q.options[q.answer]), 'Answer must reference a nonempty option')
   .refine(q => Object.entries(q.options).every(([key, value]) => key === q.answer || value?.trim() !== q.options[q.answer]?.trim()), 'Another option repeats the answer text');
-const rootSchema = z.object({ exam: text, category: text.nullable(), subjects: z.array(z.object({ name: text, slug, setCount: z.number().int().nonnegative() })) });
-const indexSchema = z.object({ subject: text, slug, sets: z.array(z.object({ set: z.number().int().positive(), title: text, questionCount: z.number().int().nonnegative(), file: z.string().regex(/^set-\d+\.json$/) })) });
+// `negativeMarking`: marks deducted per wrong answer for every set of the exam (omit for none).
+const rootSchema = z.object({ exam: text, category: text.nullable(), negativeMarking: z.number().positive().max(1).optional(), subjects: z.array(z.object({ name: text, slug, setCount: z.number().int().nonnegative() })) });
+const indexSchema = z.object({ subject: text, slug, sets: z.array(z.object({ set: z.number().int().positive(), title: text, questionCount: z.number().int().nonnegative(), durationMinutes: z.number().int().positive().optional(), file: z.string().regex(/^set-\d+\.json$/) })) });
 const setSchema = z.object({ subject: text, set: z.number().int().positive(), title: text, questions: z.array(z.unknown()) });
 // Explicit quarantine: source is preserved; new invalid records fail validation.
 // Keyed by `<exam id>/<question id>` so question IDs reused across exams cannot collide.
@@ -75,7 +76,8 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
           }
           if (!count) throw new Error(`Empty usable set: ${file}`);
           subjectCount += count;
-          bank.sets.push({ _id: setId, examId, subjectId, subject: subject.name, number: set.set, title: set.title, questionCount: count, durationSeconds: count * 60, active: true });
+          // Sets allow one minute per question unless the subject index fixes a time limit.
+          bank.sets.push({ _id: setId, examId, subjectId, subject: subject.name, number: set.set, title: set.title, questionCount: count, durationSeconds: (set.durationMinutes ?? count) * 60, ...(index.negativeMarking ? { negativeMarking: index.negativeMarking } : {}), active: true });
         }
         bank.subjects.push({ _id: subjectId, examId, name: subject.name, slug: subject.slug, setCount: subjectIndex.sets.length, questionCount: subjectCount, order, active: true });
       }

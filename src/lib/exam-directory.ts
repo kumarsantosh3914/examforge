@@ -28,6 +28,13 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series. Master General Intelligence, Reasoning, General Knowledge, Elementary Mathematics, English & Hindi - Start your SSC GD 2026 preparation FREE!',
     description: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series.',
   },
+  'dsssb-tgt/computer-science': {
+    family: 'teaching',
+    title: 'DSSSB TGT Computer Science',
+    body: 'Delhi Subordinate Services Selection Board',
+    blurb: 'Delhi teacher recruitment, TGT Computer Science. 30-question, 10-minute mock tests built from previous papers, with the real −0.25 negative marking.',
+    description: 'Free DSSSB TGT Computer Science mock tests from previous year papers: 30 questions in 10 minutes, with 0.25 marks deducted for each wrong answer like the real exam, and explanations in English and Hindi.',
+  },
 };
 
 export interface PlannedExam { id: string; family: FamilyId; title: string; body: string; blurb: string }

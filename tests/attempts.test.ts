@@ -13,6 +13,19 @@ test('server score accounts for correct, wrong, and unanswered questions', () =>
   assert.deepEqual(scoreAttempt(questions, ['A', 'A', null]), { total: 3, attempted: 2, correct: 1, wrong: 1, unanswered: 1, score: 1, percentage: 33.33 });
 });
 
+test('negative marking deducts for wrong answers only and can take the score below zero', () => {
+  assert.deepEqual(scoreAttempt(questions, ['A', 'A', null], 0.25), { total: 3, attempted: 2, correct: 1, wrong: 1, unanswered: 1, score: 0.75, percentage: 25, negativeMarking: 0.25 });
+  assert.deepEqual(scoreAttempt(questions, [null, null, null], 0.25), { total: 3, attempted: 0, correct: 0, wrong: 0, unanswered: 3, score: 0, percentage: 0, negativeMarking: 0.25 });
+  const allWrong = scoreAttempt(questions, ['B', 'A', 'A'], 0.25);
+  assert.deepEqual([allWrong.score, allWrong.percentage], [-0.75, -25]);
+});
+
+test('an attempt view carries the set negative marking so the test page can show it', () => {
+  const base: Attempt = { _id: '00000000-0000-4000-8000-000000000002', ownerId: 'guest', setId: 'set', subject: 'Subject', title: 'Set', status: 'IN_PROGRESS', questions, answers: [null, null, null], revision: 0, startedAt: new Date(), endsAt: new Date(Date.now() + 60_000) };
+  assert.equal(publicAttempt({ ...base, negativeMarking: 0.25 }).negativeMarking, 0.25);
+  assert.equal('negativeMarking' in publicAttempt(base), false);
+});
+
 test('three guest completions are allowed and the fourth start is denied', () => {
   assert.equal(canGuestStart(0), true);
   assert.equal(canGuestStart(2), true);

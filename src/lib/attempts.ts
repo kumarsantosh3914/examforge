@@ -4,11 +4,14 @@ import { collections } from './db';
 import { AppError } from './errors';
 import type { Attempt, AttemptView, Identity, OptionKey, Question, ResultView, Score } from './types';
 
-export function scoreAttempt(questions: Question[], answers: (OptionKey | null)[]): Score {
+const round2 = (n: number) => Math.round(n * 100) / 100;
+// One mark per correct answer, minus `negativeMarking` per wrong one. Unanswered questions cost nothing,
+// so the score (and percentage) can fall below zero, as on the real paper.
+export function scoreAttempt(questions: Question[], answers: (OptionKey | null)[], negativeMarking = 0): Score {
   let correct = 0, attempted = 0;
   questions.forEach((q, i) => { if (answers[i]) { attempted++; if (answers[i] === q.answer) correct++; } });
-  const total = questions.length;
-  return { total, attempted, correct, wrong: attempted - correct, unanswered: total - attempted, score: correct, percentage: total ? Math.round(correct / total * 10000) / 100 : 0 };
+  const total = questions.length, wrong = attempted - correct, score = round2(correct - wrong * negativeMarking);
+  return { total, attempted, correct, wrong, unanswered: total - attempted, score, percentage: total ? round2(score / total * 100) : 0, ...(negativeMarking ? { negativeMarking } : {}) };
 }
 export function canGuestStart(completed: number) { return completed < 3; }
 export function completionState(expired: boolean, attempted: number) {
@@ -16,7 +19,7 @@ export function completionState(expired: boolean, attempted: number) {
   return { eligible, status: eligible ? expired ? 'EXPIRED' as const : 'SUBMITTED' as const : 'ABANDONED' as const };
 }
 export function publicAttempt(a: Attempt): AttemptView {
-  return { id: a._id, setId: a.setId, subject: a.subject, title: a.title, status: a.status, answers: a.answers, revision: a.revision, startedAt: a.startedAt.toISOString(), endsAt: a.endsAt.toISOString(), serverNow: new Date().toISOString(),
+  return { id: a._id, setId: a.setId, subject: a.subject, title: a.title, status: a.status, answers: a.answers, revision: a.revision, ...(a.negativeMarking ? { negativeMarking: a.negativeMarking } : {}), startedAt: a.startedAt.toISOString(), endsAt: a.endsAt.toISOString(), serverNow: new Date().toISOString(),
     questions: a.questions.map(q => ({ id: q.id, number: q.number, question: q.question, options: q.options, ...(q.translations?.hi ? { translations: { hi: { question: q.translations.hi.question, options: q.translations.hi.options } } } : {}) })) };
 }
 export function ownerFilter(identity: Identity): Filter<Attempt> {
@@ -35,7 +38,7 @@ async function finalizeWithin(db: Db, id: string, session: ClientSession, manual
   if (a.status !== 'IN_PROGRESS') return a;
   const now = new Date(); const expired = a.endsAt <= now;
   if (!manual && !expired) return a;
-  const result = scoreAttempt(a.questions, a.answers);
+  const result = scoreAttempt(a.questions, a.answers, a.negativeMarking);
   // A manual submission consumes a slot, including blank submissions. A timed-out
   // attempt with no saved answers is abandoned and never reveals its answer key.
   const { eligible, status } = completionState(expired, result.attempted);
@@ -67,7 +70,7 @@ export async function startAttempt(client: MongoClient, db: Db, identity: Identi
     if (!stored.length || stored.length !== set.questionCount) throw new AppError(503, 'SET_UNAVAILABLE', 'This set is being updated. Please try another set.');
     const questions: Question[] = stored.map(q => ({ id: q.id, number: q.number, question: q.question, options: q.options, answer: q.answer, explanation: q.explanation, translations: q.translations }));
     const startedAt = new Date();
-    const attempt: Attempt = { _id: randomUUID(), ownerId: actor._id, ...(identity.userId ? { userId: identity.userId } : {}), setId: set._id, subject: set.subject, title: set.title, status: 'IN_PROGRESS', questions, answers: questions.map(() => null), revision: 0, startedAt, endsAt: new Date(startedAt.getTime() + set.durationSeconds * 1000) };
+    const attempt: Attempt = { _id: randomUUID(), ownerId: actor._id, ...(identity.userId ? { userId: identity.userId } : {}), setId: set._id, subject: set.subject, title: set.title, status: 'IN_PROGRESS', questions, answers: questions.map(() => null), revision: 0, ...(set.negativeMarking ? { negativeMarking: set.negativeMarking } : {}), startedAt, endsAt: new Date(startedAt.getTime() + set.durationSeconds * 1000) };
     await c.attempts.insertOne(attempt, { session });
     await c.actors.updateOne({ _id: actor._id }, { $set: { activeAttempt: attempt._id } }, { session });
     return publicAttempt(attempt);

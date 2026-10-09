@@ -21,8 +21,8 @@ Practice-first: no signup for the first three sets, answers save to the server a
 ## Operating Context
 
 - Exam families planned: Teaching (BPSC TRE, CTET, STET), SSC, Railway, Banking, and State PSC.
-- Live today: BPSC TRE 4.0 Computer Science — 14 subjects, 70 sets, 2,098 questions.
-- Announced as "coming soon" (not yet live, no questions): SSC GD Constable, SSC MTS, RRB NTPC, CTET. These must never be clickable or presented as available.
+- Live today: BPSC TRE 4.0 Computer Science — 14 subjects, 70 sets, 2,098 questions; SSC GD Constable — 5 subjects, 30 sets, 1,198 questions; DSSSB TGT Computer Science — 5 mock tests of 30 questions in 10 minutes, with 0.25 marks deducted per wrong answer.
+- Announced as "coming soon" (not yet live, no questions): SSC MTS, RRB NTPC, CTET. These must never be clickable or presented as available.
 - Exams, categories, subjects and sets are discovered from the question bank and the `exams` collection; the landing page must list live exams from data, not hard-coded copies.
 
 ## Capabilities and Constraints
@@ -40,7 +40,7 @@ Practice-first: no signup for the first three sets, answers save to the server a
 
 ## Evidence on Hand
 
-- Real question bank in `cleaned/bpsc-tre-4.0/computer/`.
+- Real question banks in `cleaned/` (BPSC TRE 4.0 Computer Science, SSC GD Constable, DSSSB TGT Computer Science).
 - No testimonials, user counts, pass rates, partner logos or press. Do not invent any.
 
 ## Product Principles

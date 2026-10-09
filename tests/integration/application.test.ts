@@ -29,7 +29,10 @@ if (!client) {
   const subject: Subject = { _id: 'exam/computer/core', examId: exam._id, name: 'Core', slug: 'core', setCount: 4, questionCount: 4, order: 0, active: true };
   const sets: PracticeSet[] = Array.from({ length: 4 }, (_, i) => ({ _id: `${subject._id}/set-0${i + 1}`, examId: exam._id, subjectId: subject._id, subject: subject.name, number: i + 1, title: `Core Set ${i + 1}`, questionCount: 1, durationSeconds: 60, active: true }));
   const questions: StoredQuestion[] = sets.map((set, i) => ({ _id: `${exam._id}/core-0${i + 1}-001`, id: `core-0${i + 1}-001`, setId: set._id, order: 0, number: 1, question: `Question ${i + 1}?`, options: { A: 'Correct', B: 'Wrong', C: 'Other', D: 'None' }, answer: 'A', explanation: 'A is correct.', active: true }));
-  const bank: Bank = { exams: [exam], subjects: [subject], sets, questions, excluded: [], sourceQuestions: 4 };
+  // A set with a fixed 10-minute limit and 0.25 marks off per wrong answer, as the importer builds for DSSSB.
+  const penaltySet: PracticeSet = { ...sets[0], _id: `${subject._id}/set-05`, number: 5, title: 'Core Set 5', questionCount: 2, durationSeconds: 600, negativeMarking: 0.25 };
+  const penaltyQuestions: StoredQuestion[] = [1, 2].map(n => ({ ...questions[0], _id: `${exam._id}/core-05-00${n}`, id: `core-05-00${n}`, setId: penaltySet._id, order: n - 1, number: n }));
+  const bank: Bank = { exams: [exam], subjects: [subject], sets: [...sets, penaltySet], questions: [...questions, ...penaltyQuestions], excluded: [], sourceQuestions: 6 };
 
   test.before(async () => { await ensureIndexes(db); await seedBank(db, bank); });
   test.after(async () => { try { await db.dropDatabase(); } finally { await client!.close(); } });
@@ -37,7 +40,19 @@ if (!client) {
   test('seed is repeatable against MongoDB', async () => {
     const second = await seedBank(db, bank);
     assert.equal(second.inserted, 0);
-    assert.equal(await db.collection('questions').countDocuments(), 4);
+    assert.equal(await db.collection('questions').countDocuments(), 6);
+  });
+
+  test('a negative-marking set keeps its time limit and deducts for wrong answers', async () => {
+    const guest = await createGuest(db); const identity = { actorId: guest.actorId, guestId: guest.actorId };
+    const attempt = await startAttempt(client!, db, identity, penaltySet._id);
+    assert.equal(attempt.negativeMarking, 0.25);
+    assert.equal(new Date(attempt.endsAt).getTime() - new Date(attempt.startedAt).getTime(), 600_000);
+    const first = await saveAnswer(client!, db, identity, attempt.id, { index: 0, option: 'A', revision: attempt.revision });
+    await saveAnswer(client!, db, identity, attempt.id, { index: 1, option: 'B', revision: first.revision });
+    await submitAttempt(client!, db, identity, attempt.id);
+    const result = await getResult(client!, db, identity, attempt.id);
+    assert.deepEqual(result.result, { total: 2, attempted: 2, correct: 1, wrong: 1, unanswered: 0, score: 0.75, percentage: 37.5, negativeMarking: 0.25 });
   });
 
   test('guest can answer, submit, and retrieve a server-calculated result', async () => {
