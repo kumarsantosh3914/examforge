@@ -160,6 +160,15 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, stages, tips, FAQ). It cites CEN 06/2025 (graduate level) and CEN 07/2025 (undergraduate level) but states no post counts, cut-offs or dates, which could not be checked against the official notices; pattern figures come from freetesthub and third-party summaries, so check them against the current RRB notice. CBT-2 is described but not covered.
 - Totals: 12 exams, 80 subjects, 527 sets, 20,546 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12 (commit `ec7929b`). Production catalog verified: 12 exams, 80 subjects, 527 sets, 20,546 questions; `/exams/rrb-ntpc-cbt-1` returns 200 and is in the sitemap.
 
+## SEO and Search Console (2026-10-12)
+
+- Search Console (Domain property `examforge.bevritti.in`) showed 3 indexed and 19 "Discovered - currently not indexed" pages, mostly `/practice?subject=...`; the sitemap last read on Oct 8 listed 22 URLs against 93 now. The site had 25 impressions and 3 clicks, all for "bihar computer teacher ... mock test" queries.
+- Changes (commit `5981393`): keyword title and description for `/exams/bpsc-tre-4.0/computer` (new optional `metaTitle` in `liveExamMeta`); site description covers all live exams; BreadcrumbList and ItemList JSON-LD on exam pages and BreadcrumbList on practice pages; a footer on every page linking all exams; a "Share score" button on the results page that shares the public subject page, not the private result.
+- Deployed to production 2026-10-12 and checked live: new title, description, JSON-LD and footer links render on the exam, home and practice pages. The share button is not yet tried on production.
+- `sitemap.xml` was resubmitted in Search Console on 2026-10-12 ("Sitemap submitted successfully").
+- Backlinks: not measurable yet. Search Console's Links report was still processing and the domain is not in the Common Crawl graph. Add a Moz API key and verify the site in Bing Webmaster Tools to get data.
+- Not done: the `/practice?subject=` query-string URLs may be why those pages are stuck; moving them to path URLs is a larger change to revisit once exam pages are indexed. The sitemap has no `lastmod` because the catalog stores no update dates.
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.
