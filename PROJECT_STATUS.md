@@ -139,7 +139,7 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
   - Source `hash` values are unchanged.
 - Known source quirks, left as supplied: Reasoning sets 2–5 and General Awareness sets 1–2 have numbering gaps and keep their source numbers; a few reasoning questions describe a figure in words (Venn diagrams, mirror images, triangle counting) and stay because they are answerable as text; there is no full 100-question mock test; and answer keys rarely use D (6%, against 47% B).
 - Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, PET standards, merit, tips, FAQ). Facts cite CEN 09/2025 (22,195 posts) and point to rrbapply.gov.in; no exam dates are stated because reports conflict. RRB NTPC stays the only planned exam.
-- Totals: 9 exams, 68 subjects, 425 sets, 15,886 usable questions (7 quarantined, none new). Dev database (`examforge_dev`) seeded; production not yet.
+- Totals: 9 exams, 68 subjects, 425 sets, 15,886 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12.
 
 ## Remaining Work
 
