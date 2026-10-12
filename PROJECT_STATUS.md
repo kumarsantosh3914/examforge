@@ -107,7 +107,7 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Seed source `cleaned/bpsc-tre-4.0/physics-11-12/` follows the freetesthub.com/bpsc-tre-4.0-physics-11-12 structure and has no raw copy in `data/`. Two changes on import: Electronic Devices set 4 held 30 questions whose 11–20 repeated 1–10 in a shuffled order, so the repeats are dropped and 21–30 renumbered `electronic-devices-04-011`…`020`; and the 30 questions in Atoms & Nuclei set 1 and Dual Nature of Matter set 5 that were written in LaTeX (`$^{56}_{26}Fe$`, `\frac`, `\lambda`), which the app does not render, now use plain Unicode (`⁵⁶₂₆Fe`, `λ = h/√(2mK)`) like the rest of the bank, in English and Hindi.
 - Known source quirks, left as supplied: four 19-question sets keep their original numbering, so each has one gap (Physical World set 5 has no `004`, Oscillations set 4 no `007`, Current Electricity set 5 no `002`, Magnetism set 5 no `003`); 37 questions repeat across sets; and answer keys rarely use D (3%, against 44% B).
 - Exam guide in `src/lib/exam-guides.ts`, sharing the TRE 4.0 pattern, marking, age and merit rules with Computer Science. Physics has 1,758 Class 11–12 posts; the qualification is a postgraduate degree in Physics with 50% and a B.Ed. (or an integrated alternative) plus STET Paper-II.
-- Totals: 6 exams, 55 subjects, 355 sets, 13,538 usable questions (7 quarantined, none new). Dev database (`examforge_dev`) seeded; production not yet.
+- Totals: 6 exams, 55 subjects, 355 sets, 13,538 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12.
 
 ## Bihar Police Constable (2026-10-12)
 
@@ -115,7 +115,7 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Seed source `cleaned/bihar-police-constable/` follows the freetesthub.com/Bihar-Police-Constable structure and has no raw copy in `data/`. Changes on import: subjects renamed from "Bihar Police Constable Mock Test", "GK" and "GS" to Mock Test (`mock-test`), General Knowledge (`general-knowledge`) and General Science (`general-science`), with set titles and question IDs to match (`mock-test-01-001`); three Hindi sandhi questions whose romanised English options repeated each other now spell them apart from the Hindi (`mock-test-03-100` B "Vidy + Arthi", `mock-test-04-014` D "Paa + Van", `mock-test-05-060` A–D "Mahaa/Mahee/Mahi + Indra/Eendra"); and `general-knowledge-03-001` now gives Bihar's state animal as the Gaur (Indian bison), not "Ox (Gaur)", in English and Hindi.
 - Known source quirks, left as supplied: 42 questions repeat across sets (mostly mock-test questions that reappear in the GK and GS sets); a few questions are pinned to 2024 ("Chief Election Commissioner (as of 2024)"); and answer keys rarely use D (3%, against 54% B).
 - Exam guide in `src/lib/exam-guides.ts`: written exam of 100 one-mark questions in 2 hours, qualifying at 30%, with merit decided by PET marks (running 50, shot put 25, high jump 25). Facts cite CSBC Advertisement 01/2025 (19,838 posts); no current advertisement is assumed.
-- Totals: 7 exams, 58 subjects, 370 sets, 14,213 usable questions (7 quarantined, none new). Dev database (`examforge_dev`) seeded; production not yet.
+- Totals: 7 exams, 58 subjects, 370 sets, 14,213 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12.
 
 ## Remaining Work
 
