@@ -1,0 +1,657 @@
+{
+  "subject": "Mathematics",
+  "set": 1,
+  "title": "Mathematics Mock Test 1",
+  "questions": [
+    {
+      "id": "mathematics-01-001",
+      "number": 1,
+      "question": "Which is the smallest Prime Number?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "C",
+      "explanation": "A prime number has exactly two factors, 1 and itself. 0 and 1 are not prime, so the smallest prime is 2.",
+      "hash": "f011cec17010c44b",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटी अभाज्य संख्या (Prime Number) कौन सी है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "अभाज्य संख्या के ठीक दो गुणनखंड होते हैं, 1 और वह स्वयं। 0 और 1 अभाज्य नहीं हैं, इसलिए सबसे छोटी अभाज्य संख्या 2 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-002",
+      "number": 2,
+      "question": "If 20% of a number is 40, then what is that number?",
+      "options": {
+        "A": "200",
+        "B": "150",
+        "C": "300",
+        "D": "250"
+      },
+      "answer": "A",
+      "explanation": "20% of x = 40 ⇒ x = 40 × 100/20 = 200.",
+      "hash": "76734641ab80b24b",
+      "translations": {
+        "hi": {
+          "question": "यदि एक संख्या का 20% 40 है, तो वह संख्या क्या है?",
+          "options": {
+            "A": "200",
+            "B": "150",
+            "C": "300",
+            "D": "250"
+          },
+          "explanation": "x का 20% = 40 ⇒ x = 40 × 100/20 = 200।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-003",
+      "number": 3,
+      "question": "Solve: 15 + 5 × 3 - 10 = ?",
+      "options": {
+        "A": "50",
+        "B": "20",
+        "C": "30",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "BODMAS: multiply first. 15 + 15 − 10 = 20.",
+      "hash": "8c6507274a201cdc",
+      "translations": {
+        "hi": {
+          "question": "हल करें: 15 + 5 × 3 - 10 = ?",
+          "options": {
+            "A": "50",
+            "B": "20",
+            "C": "30",
+            "D": "10"
+          },
+          "explanation": "BODMAS: पहले गुणा। 15 + 15 − 10 = 20।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-004",
+      "number": 4,
+      "question": "What is the sum of all three angles of a triangle?",
+      "options": {
+        "A": "90°",
+        "B": "180°",
+        "C": "360°",
+        "D": "270°"
+      },
+      "answer": "B",
+      "explanation": "The three angles of any triangle add up to 180°.",
+      "hash": "ffeeafe81f81a87a",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज के तीनों कोणों का योग कितना होता है?",
+          "options": {
+            "A": "90°",
+            "B": "180°",
+            "C": "360°",
+            "D": "270°"
+          },
+          "explanation": "किसी भी त्रिभुज के तीनों कोणों का योग 180° होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-005",
+      "number": 5,
+      "question": "What is the average of the first 10 natural numbers?",
+      "options": {
+        "A": "5",
+        "B": "5.5",
+        "C": "6",
+        "D": "4.5"
+      },
+      "answer": "B",
+      "explanation": "Sum of 1 to 10 = 10 × 11/2 = 55; average = 55/10 = 5.5. (Average of first n natural numbers = (n + 1)/2.)",
+      "hash": "55027a6dfaf9ac3a",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 प्राकृतिक संख्याओं का औसत (Average) क्या है?",
+          "options": {
+            "A": "5",
+            "B": "5.5",
+            "C": "6",
+            "D": "4.5"
+          },
+          "explanation": "1 से 10 का योग = 10 × 11/2 = 55; औसत = 55/10 = 5.5। (प्रथम n प्राकृतिक संख्याओं का औसत = (n + 1)/2)"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-006",
+      "number": 6,
+      "question": "Convert 72 km/h into m/s.",
+      "options": {
+        "A": "20 m/s",
+        "B": "25 m/s",
+        "C": "15 m/s",
+        "D": "10 m/s"
+      },
+      "answer": "A",
+      "explanation": "To convert km/h to m/s, multiply by 5/18: 72 × 5/18 = 20 m/s.",
+      "hash": "c4d6c2d5d3f11d77",
+      "translations": {
+        "hi": {
+          "question": "72 किमी/घंटा को मीटर/सेकंड में बदलें।",
+          "options": {
+            "A": "20 m/s",
+            "B": "25 m/s",
+            "C": "15 m/s",
+            "D": "10 m/s"
+          },
+          "explanation": "किमी/घंटा को मी/से में बदलने के लिए 5/18 से गुणा करें: 72 × 5/18 = 20 मी/से।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-007",
+      "number": 7,
+      "question": "A can do a work in 10 days and B in 15 days. In how many days will they finish the work together?",
+      "options": {
+        "A": "5 days",
+        "B": "6 days",
+        "C": "8 days",
+        "D": "12 days"
+      },
+      "answer": "B",
+      "explanation": "Together = (10 × 15)/(10 + 15) = 150/25 = 6 days.",
+      "hash": "e04692a46872e7a3",
+      "translations": {
+        "hi": {
+          "question": "A किसी काम को 10 दिन में और B उसी काम को 15 दिन में कर सकता है। दोनों मिलकर उस काम को कितने दिन में करेंगे?",
+          "options": {
+            "A": "5 दिन",
+            "B": "6 दिन",
+            "C": "8 दिन",
+            "D": "12 दिन"
+          },
+          "explanation": "दोनों मिलकर = (10 × 15)/(10 + 15) = 150/25 = 6 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-008",
+      "number": 8,
+      "question": "What is the formula to find the Area of a Circle?",
+      "options": {
+        "A": "2πr",
+        "B": "πr²",
+        "C": "2πr²",
+        "D": "πd"
+      },
+      "answer": "B",
+      "explanation": "Area of a circle = πr². 2πr is its circumference.",
+      "hash": "85f846b74ebe0ea4",
+      "translations": {
+        "hi": {
+          "question": "वृत्त (Circle) का क्षेत्रफल ज्ञात करने का सूत्र क्या है?",
+          "options": {
+            "A": "2πr",
+            "B": "πr²",
+            "C": "2πr²",
+            "D": "πd"
+          },
+          "explanation": "वृत्त का क्षेत्रफल = πr²। 2πr उसकी परिधि है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-009",
+      "number": 9,
+      "question": "What is the value of √625?",
+      "options": {
+        "A": "15",
+        "B": "25",
+        "C": "35",
+        "D": "45"
+      },
+      "answer": "B",
+      "explanation": "25 × 25 = 625, so √625 = 25.",
+      "hash": "77b6b70bcdce8b70",
+      "translations": {
+        "hi": {
+          "question": "√625 का मान क्या होगा?",
+          "options": {
+            "A": "15",
+            "B": "25",
+            "C": "35",
+            "D": "45"
+          },
+          "explanation": "25 × 25 = 625, इसलिए √625 = 25।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-010",
+      "number": 10,
+      "question": "If a : b = 2 : 3 and b : c = 4 : 5, then what is a : b : c?",
+      "options": {
+        "A": "8:12:15",
+        "B": "2:3:5",
+        "C": "8:15:12",
+        "D": "6:12:15"
+      },
+      "answer": "A",
+      "explanation": "Make b equal: a : b = 2 : 3 = 8 : 12 and b : c = 4 : 5 = 12 : 15. So a : b : c = 8 : 12 : 15.",
+      "hash": "17b19535b49604e0",
+      "translations": {
+        "hi": {
+          "question": "यदि a : b = 2 : 3 और b : c = 4 : 5 है, तो a : b : c क्या होगा?",
+          "options": {
+            "A": "8:12:15",
+            "B": "2:3:5",
+            "C": "8:15:12",
+            "D": "6:12:15"
+          },
+          "explanation": "b को बराबर करें: a : b = 2 : 3 = 8 : 12 और b : c = 4 : 5 = 12 : 15। अतः a : b : c = 8 : 12 : 15।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-011",
+      "number": 11,
+      "question": "What will be the Simple Interest on ₹5000 at 10% per annum for 2 years?",
+      "options": {
+        "A": "₹500",
+        "B": "₹1000",
+        "C": "₹1500",
+        "D": "₹1200"
+      },
+      "answer": "B",
+      "explanation": "SI = P × R × T/100 = 5000 × 10 × 2/100 = ₹1000.",
+      "hash": "cb02012acdb75f68",
+      "translations": {
+        "hi": {
+          "question": "₹5000 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज (Simple Interest) क्या होगा?",
+          "options": {
+            "A": "₹500",
+            "B": "₹1000",
+            "C": "₹1500",
+            "D": "₹1200"
+          },
+          "explanation": "साधारण ब्याज = P × R × T/100 = 5000 × 10 × 2/100 = ₹1000।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-012",
+      "number": 12,
+      "question": "The side of a cube is 4 cm, what will be its volume?",
+      "options": {
+        "A": "16 cm³",
+        "B": "64 cm³",
+        "C": "32 cm³",
+        "D": "12 cm³"
+      },
+      "answer": "B",
+      "explanation": "Volume of a cube = side³ = 4³ = 64 cm³.",
+      "hash": "559a2b16b0383016",
+      "translations": {
+        "hi": {
+          "question": "एक घन (Cube) की भुजा 4 सेमी है, उसका आयतन (Volume) क्या होगा?",
+          "options": {
+            "A": "16 cm³",
+            "B": "64 cm³",
+            "C": "32 cm³",
+            "D": "12 cm³"
+          },
+          "explanation": "घन का आयतन = भुजा³ = 4³ = 64 cm³।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-013",
+      "number": 13,
+      "question": "What is the value of sin 30°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "√3/2"
+      },
+      "answer": "C",
+      "explanation": "sin 30° = 1/2. (sin 0° = 0, sin 60° = √3/2, sin 90° = 1.)",
+      "hash": "98451652d8914364",
+      "translations": {
+        "hi": {
+          "question": "sin 30° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "√3/2"
+          },
+          "explanation": "sin 30° = 1/2। (sin 0° = 0, sin 60° = √3/2, sin 90° = 1)"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-014",
+      "number": 14,
+      "question": "What is the LCM of 12 and 18?",
+      "options": {
+        "A": "36",
+        "B": "72",
+        "C": "18",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36.",
+      "hash": "8ace2c9e3440173e",
+      "translations": {
+        "hi": {
+          "question": "12 और 18 का लघुत्तम समापवर्त्य (LCM) क्या है?",
+          "options": {
+            "A": "36",
+            "B": "72",
+            "C": "18",
+            "D": "6"
+          },
+          "explanation": "12 = 2² × 3 और 18 = 2 × 3²। LCM = 2² × 3² = 36।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-015",
+      "number": 15,
+      "question": "What is the Place Value of 5 in the number 35721?",
+      "options": {
+        "A": "5",
+        "B": "50",
+        "C": "500",
+        "D": "5000"
+      },
+      "answer": "D",
+      "explanation": "In 35721, 5 is in the thousands place, so its place value is 5 × 1000 = 5000.",
+      "hash": "6b84fa4604957d38",
+      "translations": {
+        "hi": {
+          "question": "संख्या 35721 में 5 का स्थानीय मान (Place Value) क्या है?",
+          "options": {
+            "A": "5",
+            "B": "50",
+            "C": "500",
+            "D": "5000"
+          },
+          "explanation": "35721 में 5 हजार के स्थान पर है, इसलिए इसका स्थानीय मान 5 × 1000 = 5000 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-016",
+      "number": 16,
+      "question": "An item was bought for ₹500 and sold for ₹600. Find the profit percentage.",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "25%",
+        "D": "15%"
+      },
+      "answer": "B",
+      "explanation": "Profit = 600 − 500 = ₹100. Profit % = 100/500 × 100 = 20%.",
+      "hash": "1b3e1467ac3ddc58",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु को ₹500 में खरीदा गया और ₹600 में बेचा गया। लाभ प्रतिशत ज्ञात करें।",
+          "options": {
+            "A": "10%",
+            "B": "20%",
+            "C": "25%",
+            "D": "15%"
+          },
+          "explanation": "लाभ = 600 − 500 = ₹100। लाभ % = 100/500 × 100 = 20%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-017",
+      "number": 17,
+      "question": "What is the expansion of (a + b)²?",
+      "options": {
+        "A": "a² + b²",
+        "B": "a² - b²",
+        "C": "a² + b² + 2ab",
+        "D": "a² + b² - 2ab"
+      },
+      "answer": "C",
+      "explanation": "(a + b)² = a² + 2ab + b².",
+      "hash": "793bbcff1451d0b8",
+      "translations": {
+        "hi": {
+          "question": "(a + b)² का विस्तार क्या है?",
+          "options": {
+            "A": "a² + b²",
+            "B": "a² - b²",
+            "C": "a² + b² + 2ab",
+            "D": "a² + b² - 2ab"
+          },
+          "explanation": "(a + b)² = a² + 2ab + b²।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-018",
+      "number": 18,
+      "question": "What is the Pythagoras theorem in a Right Angled Triangle?",
+      "options": {
+        "A": "H² = P² + B²",
+        "B": "H = P + B",
+        "C": "H² = P² - B²",
+        "D": "H = P² + B²"
+      },
+      "answer": "A",
+      "explanation": "In a right-angled triangle, hypotenuse² = perpendicular² + base², i.e. H² = P² + B².",
+      "hash": "688d394652a9b443",
+      "translations": {
+        "hi": {
+          "question": "समकोण त्रिभुज (Right Angled Triangle) में पाइथागोरस प्रमेय क्या है?",
+          "options": {
+            "A": "H² = P² + B²",
+            "B": "H = P + B",
+            "C": "H² = P² - B²",
+            "D": "H = P² + B²"
+          },
+          "explanation": "समकोण त्रिभुज में, कर्ण² = लम्ब² + आधार², अर्थात H² = P² + B²।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-019",
+      "number": 19,
+      "question": "If x + 1/x = 4, then find the value of x² + 1/x².",
+      "options": {
+        "A": "16",
+        "B": "14",
+        "C": "12",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "Square both sides: x² + 2 + 1/x² = 16 ⇒ x² + 1/x² = 14.",
+      "hash": "0fbdb7a922b3502f",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 4 है, तो x² + 1/x² का मान ज्ञात करें।",
+          "options": {
+            "A": "16",
+            "B": "14",
+            "C": "12",
+            "D": "18"
+          },
+          "explanation": "दोनों ओर वर्ग करें: x² + 2 + 1/x² = 16 ⇒ x² + 1/x² = 14।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-020",
+      "number": 20,
+      "question": "Which of the following numbers is completely divisible by 3?",
+      "options": {
+        "A": "124",
+        "B": "235",
+        "C": "321",
+        "D": "412"
+      },
+      "answer": "C",
+      "explanation": "A number is divisible by 3 if its digit sum is. 3 + 2 + 1 = 6, so 321 is divisible by 3.",
+      "hash": "ea569d454339dbbd",
+      "translations": {
+        "hi": {
+          "question": "निम्न में से कौन सी संख्या 3 से पूर्णतः विभाज्य (Divisible) है?",
+          "options": {
+            "A": "124",
+            "B": "235",
+            "C": "321",
+            "D": "412"
+          },
+          "explanation": "यदि अंकों का योग 3 से विभाज्य हो तो संख्या 3 से विभाज्य होती है। 3 + 2 + 1 = 6, इसलिए 321 विभाज्य है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-021",
+      "number": 21,
+      "question": "Length of a rectangle is 10 m and breadth is 8 m, what will be its perimeter?",
+      "options": {
+        "A": "36 m",
+        "B": "80 m",
+        "C": "40 m",
+        "D": "18 m"
+      },
+      "answer": "A",
+      "explanation": "Perimeter of a rectangle = 2(l + b) = 2(10 + 8) = 36 m.",
+      "hash": "0a4467106eeb5724",
+      "translations": {
+        "hi": {
+          "question": "एक आयत (Rectangle) की लंबाई 10 मी और चौड़ाई 8 मी है, उसका परिमाप (Perimeter) क्या होगा?",
+          "options": {
+            "A": "36 मी",
+            "B": "80 मी",
+            "C": "40 मी",
+            "D": "18 मी"
+          },
+          "explanation": "आयत का परिमाप = 2(l + b) = 2(10 + 8) = 36 मी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-022",
+      "number": 22,
+      "question": "What is the value of tan 45°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "∞",
+        "D": "1/√3"
+      },
+      "answer": "B",
+      "explanation": "tan 45° = sin 45°/cos 45° = 1.",
+      "hash": "af7f25dd63d1387d",
+      "translations": {
+        "hi": {
+          "question": "tan 45° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "∞",
+            "D": "1/√3"
+          },
+          "explanation": "tan 45° = sin 45°/cos 45° = 1।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-023",
+      "number": 23,
+      "question": "Ram's age is twice that of Shyam. If Shyam is 10 years old, what is Ram's age?",
+      "options": {
+        "A": "10 years",
+        "B": "15 years",
+        "C": "20 years",
+        "D": "25 years"
+      },
+      "answer": "C",
+      "explanation": "Ram = 2 × Shyam = 2 × 10 = 20 years.",
+      "hash": "5b0665a0eb30d4af",
+      "translations": {
+        "hi": {
+          "question": "राम की आयु श्याम से दोगुनी है। यदि श्याम 10 वर्ष का है, तो राम की आयु क्या है?",
+          "options": {
+            "A": "10 वर्ष",
+            "B": "15 वर्ष",
+            "C": "20 वर्ष",
+            "D": "25 वर्ष"
+          },
+          "explanation": "राम = 2 × श्याम = 2 × 10 = 20 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-024",
+      "number": 24,
+      "question": "What is the value of 2⁴?",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "32",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16.",
+      "hash": "775fe6325fca63f0",
+      "translations": {
+        "hi": {
+          "question": "2⁴ का मान क्या है?",
+          "options": {
+            "A": "8",
+            "B": "16",
+            "C": "32",
+            "D": "12"
+          },
+          "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-025",
+      "number": 25,
+      "question": "What is the probability of getting a '4' on throwing a dice?",
+      "options": {
+        "A": "1/2",
+        "B": "1/6",
+        "C": "1/4",
+        "D": "1/3"
+      },
+      "answer": "B",
+      "explanation": "A die has 6 equally likely faces and one of them is 4, so P = 1/6.",
+      "hash": "fc222600f4b6f637",
+      "translations": {
+        "hi": {
+          "question": "एक पासा (Dice) फेंकने पर '4' आने की प्रायिकता (Probability) क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "1/6",
+            "C": "1/4",
+            "D": "1/3"
+          },
+          "explanation": "पासे के 6 समान संभावित फलक हैं और उनमें से एक 4 है, इसलिए प्रायिकता = 1/6।"
+        }
+      }
+    }
+  ]
+}

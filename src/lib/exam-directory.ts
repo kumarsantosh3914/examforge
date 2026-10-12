@@ -51,6 +51,13 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'CSBC constable (sipahi) written exam. Full 100-question, 2-hour mock tests, plus sets for Bihar GK and General Science.',
     description: 'Free Bihar Police Constable mock tests for the CSBC written exam: full 100-question, 2-hour papers covering Hindi, English, Mathematics, Science, Social Science and Bihar GK, plus General Knowledge and General Science sets, with explanations in English and Hindi.',
   },
+  'rrb-group-d': {
+    family: 'railway',
+    title: 'RRB Group D',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Level 1 posts in Indian Railways, such as track maintainer and assistant. Timed sets for all four CBT sections: Science, Mathematics, Reasoning and General Awareness.',
+    description: 'Free RRB Group D mock tests for the Level 1 CBT: timed sets for General Science, Mathematics, Reasoning and General Awareness & Current Affairs, with explanations in English and Hindi.',
+  },
   'dsssb-tgt/computer-science': {
     family: 'teaching',
     title: 'DSSSB TGT Computer Science',

@@ -33,9 +33,9 @@ test('seed is idempotent and does not duplicate imported records', async () => {
   const first = await seedBank(db as unknown as Db, bank);
   const counts = Object.fromEntries(['exams', 'subjects', 'sets', 'questions'].map(name => [name, db.collection(name).docs.size]));
   const second = await seedBank(db as unknown as Db, bank);
-  assert.deepEqual(counts, { exams: 8, subjects: 64, sets: 406, questions: 15416 });
-  assert.equal(first.inserted, 15894);
+  assert.deepEqual(counts, { exams: 9, subjects: 68, sets: 425, questions: 15886 });
+  assert.equal(first.inserted, 16388);
   assert.equal(second.inserted, 0);
   assert.equal(second.updated, 0);
-  assert.equal(second.skipped, 15894);
+  assert.equal(second.skipped, 16388);
 });

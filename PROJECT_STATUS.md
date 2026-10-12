@@ -125,6 +125,22 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, stages including the Havaldar PET/PST, merit, tips, FAQ). It does not state dates or vacancies because reports of the 2026 cycle conflict; it points to ssc.gov.in. The "SSC MTS" coming-soon card is removed; RRB NTPC is the only planned exam left.
 - Totals: 8 exams, 64 subjects, 406 sets, 15,416 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12.
 
+## RRB Group D (2026-10-12)
+
+- Ninth live exam at `/exams/rrb-group-d`, the first in the **Railway** family: 4 subjects, 19 sets, 470 questions in English and Hindi with explanations. General Science (5 sets) and Mathematics (5) have 25 questions, Reasoning (5) 27–30 and General Awareness and Current Affairs (4) 19–20, matching the CBT's sections (25, 25, 30 and 20 of 100 questions in 90 minutes). One minute per question and no deduction in the app; the real CBT deducts 1/3 mark per wrong answer, and the guide tells candidates to score by hand, as for BPSC and SSC MTS.
+- Seed source `cleaned/rrb-group-d/` follows the freetesthub.com/RRB-Group-D structure and has no raw copy in `data/`. Every question arrived with a `null` explanation in English and Hindi, which the importer rejects. All 470 now have explanations written on import, and every answer key was checked while writing them. Other changes on import:
+  - `general-awareness-and-current-affairs-01-016` asked for the "current" Chief Minister of Bihar with Nitish Kumar as the key. Samrat Choudhary has held the post since 15 April 2026, so the question now reads "(as of 2026)", option C is Samrat Choudhary (was Sushil Modi) and the key is C.
+  - `reasoning-01-030` ("rain is water, water is road, road is cloud") had no correct option under the usual reading. It now renames cloud to road, so the key, B (Road), holds.
+  - `reasoning-02-022` said 5 friends but placed 4, so the extreme right was unknowable; it now says four.
+  - `reasoning-03-023`'s Hindi question contained abandoned working ("यह गलत है"); both languages now state the rule once.
+  - `reasoning-04-030`'s Hindi gave away the working that the English hides.
+  - `mathematics-04-015`'s Hindi question was garbled.
+  - Spelling fixes: "Robert Hooke" (three options); "Goods and Services Tax" (`general-awareness-and-current-affairs-01-019` B); Hindi रतौंधी, यकृत, क्लोरीन, स्याही and निद्रा रोग.
+  - Source `hash` values are unchanged.
+- Known source quirks, left as supplied: Reasoning sets 2–5 and General Awareness sets 1–2 have numbering gaps and keep their source numbers; a few reasoning questions describe a figure in words (Venn diagrams, mirror images, triangle counting) and stay because they are answerable as text; there is no full 100-question mock test; and answer keys rarely use D (6%, against 47% B).
+- Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, PET standards, merit, tips, FAQ). Facts cite CEN 09/2025 (22,195 posts) and point to rrbapply.gov.in; no exam dates are stated because reports conflict. RRB NTPC stays the only planned exam.
+- Totals: 9 exams, 68 subjects, 425 sets, 15,886 usable questions (7 quarantined, none new). Dev database (`examforge_dev`) seeded; production not yet.
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

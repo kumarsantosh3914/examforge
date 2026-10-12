@@ -520,6 +520,103 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'rrb-group-d': {
+    heading: 'About the RRB Group D exam',
+    intro: [
+      'The Railway Recruitment Boards recruit for Level 1 posts in Indian Railways, such as track maintainer, assistant (in workshops, signal and telecom, electrical and other departments) and pointsman. It needs only a Class 10 pass or an ITI, and drives are among the largest in the country: the CEN 09/2025 notice was for 22,195 posts. Selection starts with a computer-based test (CBT) of 100 questions in 90 minutes.',
+      'ExamForge gives you free, timed practice for every CBT section: 5 sets each for General Science, Mathematics and Reasoning, and 4 for General Awareness and Current Affairs, sized like the real sections. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The CBT deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RRB Group D at a glance',
+      source: 'From RRB CEN 09/2025 (Level 1 posts). Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Last recruitment', value: '22,195 posts (CEN 09/2025)' },
+        { label: 'Qualification', value: 'Class 10 pass, ITI or National Apprenticeship Certificate' },
+        { label: 'Exam', value: '100 questions, 100 marks, 90 minutes' },
+        { label: 'Pay', value: 'Level 1 of the 7th Pay Commission (₹18,000 basic)' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The CBT is a single objective paper at Class 10 level. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RRB Group D Computer Based Test',
+      sections: [
+        { part: 'Part A', subject: 'General Science', questions: 25, marks: 25 },
+        { part: 'Part B', subject: 'Mathematics', questions: 25, marks: 25 },
+        { part: 'Part C', subject: 'General Intelligence and Reasoning', questions: 30, marks: 30 },
+        { part: 'Part D', subject: 'General Awareness and Current Affairs', questions: 20, marks: 20 },
+      ],
+      duration: '90 minutes (120 minutes for eligible PwBD candidates using a scribe)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'There are no sectional time limits; you can move between sections freely. Scores are normalised across shifts, and you need at least 40% (unreserved and EWS) or 30% (OBC and SC) to be considered; check the notice for ST and PwBD relaxations.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level. Each ExamForge subject matches one CBT section.',
+      areas: [
+        {
+          title: 'General Science', subjects: ['general-science'],
+          summary: 'Physics, Chemistry and Life Sciences up to Class 10, a quarter of the paper.',
+          topics: ['Units, motion, force, work and energy', 'Light, sound, electricity and magnetism', 'Acids, bases, metals, alloys and everyday chemicals', 'Human body, vitamins, diseases and nutrition', 'Cells, plants and photosynthesis', 'Scientists, discoveries and instruments'],
+        },
+        {
+          title: 'Mathematics', subjects: ['mathematics'],
+          summary: 'Arithmetic, algebra, geometry and trigonometry basics, a quarter of the paper.',
+          topics: ['Number system, HCF and LCM, BODMAS, square roots', 'Percentage, ratio, average, profit and loss', 'Simple and compound interest, time and work, speed and distance', 'Algebraic identities and simple equations', 'Mensuration and geometry', 'Trigonometric values, statistics and probability'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: 'The largest section, with 30 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and statement–conclusion', 'Calendar, clock, dice and dictionary order', 'Venn diagrams and mirror images'],
+        },
+        {
+          title: 'General Awareness and Current Affairs', subjects: ['general-awareness-and-current-affairs'],
+          summary: 'Static GK and recent events, 20 questions.',
+          topics: ['Indian history and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'Art, culture, dances and festivals', 'Sports, books, awards and important days', 'Current office holders and recent events'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the exact cut-off dates, relaxations and medical standards for each post.',
+      items: [
+        { title: 'Qualification', detail: 'Class 10 pass, or an ITI from an NCVT/SCVT-recognised institution, or a National Apprenticeship Certificate (NAC) granted by NCVT.' },
+        { title: 'Age', detail: '18 to 33 under CEN 09/2025 (as on 1 January 2026), with the usual relaxation for SC, ST, OBC, PwBD and ex-servicemen candidates.' },
+        { title: 'Medical standard', detail: 'Each post has a medical category (for example A2 or B1) with its own vision standard, checked before appointment.' },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'Computer Based Test (CBT)', detail: 'The 100-question paper above, offered in English, Hindi and several regional languages.' },
+        { title: 'Physical Efficiency Test (PET)', detail: 'A qualifying test. Men carry 35 kg for 100 metres in 2 minutes and run 1,000 metres in 4 minutes 15 seconds; women carry 20 kg for 100 metres in 2 minutes and run 1,000 metres in 5 minutes 40 seconds.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination confirms you meet the standard of the post you are offered.' },
+      ],
+    },
+    merit: [
+      { title: 'CBT decides rank', detail: 'The merit list is drawn up on normalised CBT marks. PET only has to be passed; it carries no marks.' },
+      { title: 'PET shortlist', detail: 'Candidates are called to the PET in order of CBT merit, about three times the number of vacancies in each category.' },
+      { title: 'Choice of post', detail: 'Posts are allotted by merit and the preferences you give in the application, subject to the medical standard you meet.' },
+    ],
+    tips: [
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Bank the Science marks', detail: 'General Science questions come straight from Class 9 and 10 textbooks. Revise units, instruments, vitamins and everyday chemicals; they repeat often.' },
+      { title: 'Make Reasoning your strongest section', detail: 'With 30 questions it carries the most marks, and series, coding, directions and dictionary order are quick once you know the method.' },
+      { title: 'Rehearse the full paper', detail: 'Take one set from each subject back to back and aim to finish in 90 minutes, the real time for 100 questions.' },
+      { title: 'Train for the PET early', detail: 'Practise the 1,000-metre run and carrying weight alongside your written preparation, so the physical test is not a last-minute worry.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in RRB Group D?', answer: 'Yes. One-third of a mark is deducted for each wrong answer. ExamForge sets do not deduct marks, so take a third off for each wrong answer yourself for the exact result.' },
+      { question: 'Do PET marks count in the final merit?', answer: 'No. The PET is qualifying. The merit list is drawn up on normalised CBT marks.' },
+      { question: 'How are the ExamForge sets structured?', answer: 'There are 5 General Science sets and 5 Mathematics sets of 25 questions, 5 Reasoning sets of 27 to 30 questions, and 4 General Awareness and Current Affairs sets of 19 or 20 questions, each with one minute per question. Together they mirror the CBT’s four sections.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
   'dsssb-tgt/computer-science': {
     heading: 'About the DSSSB TGT Computer Science exam',
     intro: [

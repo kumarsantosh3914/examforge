@@ -21,7 +21,7 @@ Practice-first: no signup for the first three sets, answers save to the server a
 ## Operating Context
 
 - Exam families planned: Teaching (BPSC TRE, CTET, STET), SSC, Police, Railway, Banking, and State PSC.
-- Live today: BPSC TRE 4.0 Computer Science — 14 subjects, 70 sets, 2,098 questions; BPSC TRE 4.0 Physics (Classes 11–12) — 20 subjects, 100 sets, 1,996 questions; SSC GD Constable — 5 subjects, 30 sets, 1,198 questions; SSC MTS — 6 subjects, 36 sets (19 full 45-minute Session I and Session II mock tests), 1,203 questions; DSSSB TGT Computer Science — 5 mock tests of 30 questions in 10 minutes, with 0.25 marks deducted per wrong answer; CTET Paper 2 (Classes 6–8) — 9 subjects, 90 sets (20 full 150-question mock tests), 5,098 questions; CTET Paper 1 (Classes 1–5) — 6 subjects, 60 sets (10 full 150-question mock tests), 2,998 questions; Bihar Police Constable — 3 subjects, 15 sets (5 full 100-question, 2-hour mock tests), 675 questions.
+- Live today: BPSC TRE 4.0 Computer Science — 14 subjects, 70 sets, 2,098 questions; BPSC TRE 4.0 Physics (Classes 11–12) — 20 subjects, 100 sets, 1,996 questions; SSC GD Constable — 5 subjects, 30 sets, 1,198 questions; SSC MTS — 6 subjects, 36 sets (19 full 45-minute Session I and Session II mock tests), 1,203 questions; DSSSB TGT Computer Science — 5 mock tests of 30 questions in 10 minutes, with 0.25 marks deducted per wrong answer; CTET Paper 2 (Classes 6–8) — 9 subjects, 90 sets (20 full 150-question mock tests), 5,098 questions; CTET Paper 1 (Classes 1–5) — 6 subjects, 60 sets (10 full 150-question mock tests), 2,998 questions; Bihar Police Constable — 3 subjects, 15 sets (5 full 100-question, 2-hour mock tests), 675 questions; RRB Group D — 4 subjects, 19 sectional sets, 470 questions.
 - Announced as "coming soon" (not yet live, no questions): RRB NTPC. This must never be clickable or presented as available.
 - Exams, categories, subjects and sets are discovered from the question bank and the `exams` collection; the landing page must list live exams from data, not hard-coded copies.
 
@@ -40,7 +40,7 @@ Practice-first: no signup for the first three sets, answers save to the server a
 
 ## Evidence on Hand
 
-- Real question banks in `cleaned/` (BPSC TRE 4.0 Computer Science, BPSC TRE 4.0 Physics, SSC GD Constable, SSC MTS, DSSSB TGT Computer Science, CTET Paper 1, CTET Paper 2, Bihar Police Constable).
+- Real question banks in `cleaned/` (BPSC TRE 4.0 Computer Science, BPSC TRE 4.0 Physics, SSC GD Constable, SSC MTS, DSSSB TGT Computer Science, CTET Paper 1, CTET Paper 2, Bihar Police Constable, RRB Group D).
 - No testimonials, user counts, pass rates, partner logos or press. Do not invent any.
 
 ## Product Principles
