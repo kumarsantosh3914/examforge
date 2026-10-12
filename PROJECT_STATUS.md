@@ -158,7 +158,7 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Change on import: three `explanation: null` values (`reasoning-04-024` in English and Hindi, `reasoning-04-028` in Hindi) failed validation, so those keys were removed. The Hindi review for `-028` falls back to the English explanation; `-024` has none. Nothing else was edited and source `hash` values are unchanged.
 - Known source quirks, left as supplied: question numbers have gaps (Mathematics 3 and Reasoning 1–5); a few reasoning questions describe a figure in words (Venn diagrams, mirror images, dice, triangle counting) and stay because they are answerable as text; answer keys rarely use D (4%).
 - Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, stages, tips, FAQ). It cites CEN 06/2025 (graduate level) and CEN 07/2025 (undergraduate level) but states no post counts, cut-offs or dates, which could not be checked against the official notices; pattern figures come from freetesthub and third-party summaries, so check them against the current RRB notice. CBT-2 is described but not covered.
-- Totals: 12 exams, 80 subjects, 527 sets, 20,546 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`); production not yet.
+- Totals: 12 exams, 80 subjects, 527 sets, 20,546 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12 (commit `ec7929b`). Production catalog verified: 12 exams, 80 subjects, 527 sets, 20,546 questions; `/exams/rrb-ntpc-cbt-1` returns 200 and is in the sitemap.
 
 ## Remaining Work
 
