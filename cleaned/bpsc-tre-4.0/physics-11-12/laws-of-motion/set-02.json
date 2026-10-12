@@ -1,0 +1,527 @@
+{
+  "subject": "Laws of Motion",
+  "set": 2,
+  "title": "Laws of Motion Mock Test 2",
+  "questions": [
+    {
+      "id": "laws-of-motion-02-001",
+      "number": 1,
+      "question": "A block of mass 5 kg is lying on a rough horizontal surface. The coefficient of static friction is 0.4. What is the minimum horizontal force required to move the block? (Take g = 10 m/s^2)",
+      "options": {
+        "A": "10 N",
+        "B": "20 N",
+        "C": "25 N",
+        "D": "50 N"
+      },
+      "answer": "B",
+      "explanation": "Limiting friction fs = mu * R = mu * m * g = 0.4 * 5 * 10 = 20 N.",
+      "hash": "671f7f24070e2df8",
+      "translations": {
+        "hi": {
+          "question": "5 किग्रा द्रव्यमान का एक ब्लॉक एक खुरदरी क्षैतिज सतह पर पड़ा है। स्थैतिक घर्षण गुणांक 0.4 है। ब्लॉक को हिलाने के लिए आवश्यक न्यूनतम क्षैतिज बल क्या है? (g = 10 m/s^2 लें)",
+          "options": {
+            "A": "10 N",
+            "B": "20 N",
+            "C": "25 N",
+            "D": "50 N"
+          },
+          "explanation": "सीमांत घर्षण fs = mu * R = mu * m * g = 0.4 * 5 * 10 = 20 N."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-002",
+      "number": 2,
+      "question": "A bomb at rest explodes into two pieces of masses 1 kg and 2 kg. If the velocity of the 1 kg piece is 10 m/s, the velocity of the 2 kg piece is:",
+      "options": {
+        "A": "5 m/s",
+        "B": "10 m/s",
+        "C": "20 m/s",
+        "D": "2.5 m/s"
+      },
+      "answer": "A",
+      "explanation": "By conservation of linear momentum: m1v1 + m2v2 = 0. (1 * 10) + (2 * v2) = 0 => v2 = -5 m/s.",
+      "hash": "3d5867ba465022d7",
+      "translations": {
+        "hi": {
+          "question": "विराम अवस्था में एक बम 1 किग्रा और 2 किग्रा द्रव्यमान के दो टुकड़ों में फट जाता है। यदि 1 किग्रा के टुकड़े का वेग 10 मी/से है, तो 2 किग्रा के टुकड़े का वेग है:",
+          "options": {
+            "A": "5 m/s",
+            "B": "10 m/s",
+            "C": "20 m/s",
+            "D": "2.5 m/s"
+          },
+          "explanation": "रेखीय संवेग के संरक्षण द्वारा: m1v1 + m2v2 = 0. (1 * 10) + (2 * v2) = 0 => v2 = -5 मी/से."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-003",
+      "number": 3,
+      "question": "When a constant force acts on a body of mass m, which of the following is constant?",
+      "options": {
+        "A": "Velocity",
+        "B": "Momentum",
+        "C": "Acceleration",
+        "D": "Kinetic energy"
+      },
+      "answer": "C",
+      "explanation": "According to F = ma, if F and m are constant, acceleration (a) must be constant.",
+      "hash": "a73836f80ed3a4f4",
+      "translations": {
+        "hi": {
+          "question": "जब m द्रव्यमान के पिंड पर एक नियत बल कार्य करता है, तो निम्नलिखित में से कौन स्थिर रहता है?",
+          "options": {
+            "A": "वेग",
+            "B": "संवेग",
+            "C": "त्वरण",
+            "D": "गतिज ऊर्जा"
+          },
+          "explanation": "F = ma के अनुसार, यदि F और m स्थिर हैं, तो त्वरण (a) स्थिर होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-004",
+      "number": 4,
+      "question": "The apparent weight of a man in a lift is less than the real weight when:",
+      "options": {
+        "A": "Lift goes up with uniform speed",
+        "B": "Lift goes down with uniform speed",
+        "C": "Lift goes up with an acceleration",
+        "D": "Lift goes down with an acceleration"
+      },
+      "answer": "D",
+      "explanation": "Apparent weight R = m(g - a). Since a is subtracted from g, R is less than mg.",
+      "hash": "002d1b4f523bedf0",
+      "translations": {
+        "hi": {
+          "question": "लिफ्ट में एक व्यक्ति का आभासी भार वास्तविक भार से कम होता है जब:",
+          "options": {
+            "A": "लिफ्ट एकसमान गति से ऊपर जाती है",
+            "B": "लिफ्ट एकसमान गति से नीचे जाती है",
+            "C": "लिफ्ट त्वरण के साथ ऊपर जाती है",
+            "D": "लिफ्ट त्वरण के साथ नीचे जाती है"
+          },
+          "explanation": "आभासी भार R = m(g - a). चूंकि g में से a घटाया जाता है, इसलिए R, mg से कम होता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-005",
+      "number": 5,
+      "question": "Friction is a non-conservative force because:",
+      "options": {
+        "A": "It depends on path",
+        "B": "It produces heat",
+        "C": "Work done by it over a closed loop is not zero",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Friction dissipates energy as heat, depends on the path taken, and work done over a closed loop is non-zero.",
+      "hash": "265943eda1132fa3",
+      "translations": {
+        "hi": {
+          "question": "घर्षण एक गैर-संरक्षी बल है क्योंकि:",
+          "options": {
+            "A": "यह पथ पर निर्भर करता है",
+            "B": "यह गर्मी पैदा करता है",
+            "C": "एक बंद लूप में इसके द्वारा किया गया कार्य शून्य नहीं है",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "घर्षण गर्मी के रूप में ऊर्जा का क्षय करता है, तय किए गए पथ पर निर्भर करता है, और बंद लूप में किया गया कार्य गैर-शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-006",
+      "number": 6,
+      "question": "A bullet of mass m and velocity v is fired into a large block of mass M at rest. After impact, the velocity of the system is:",
+      "options": {
+        "A": "mv / M",
+        "B": "mv / (m + M)",
+        "C": "(m + M)v / m",
+        "D": "Mv / m"
+      },
+      "answer": "B",
+      "explanation": "Conservation of momentum: mv = (m + M)V. So V = mv / (m + M).",
+      "hash": "760d7cdf1374e099",
+      "translations": {
+        "hi": {
+          "question": "m द्रव्यमान और v वेग की एक गोली विराम अवस्था में M द्रव्यमान के एक बड़े ब्लॉक में दागी जाती है। प्रभाव के बाद, प्रणाली का वेग है:",
+          "options": {
+            "A": "mv / M",
+            "B": "mv / (m + M)",
+            "C": "(m + M)v / m",
+            "D": "Mv / m"
+          },
+          "explanation": "संवेग का संरक्षण: mv = (m + M)V. इसलिए V = mv / (m + M)."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-007",
+      "number": 7,
+      "question": "Lubricants are used to:",
+      "options": {
+        "A": "Increase friction",
+        "B": "Decrease friction",
+        "C": "Keep the machine cool",
+        "D": "Increase the speed"
+      },
+      "answer": "B",
+      "explanation": "Lubricants reduce the irregularities between surfaces in contact, thereby reducing friction.",
+      "hash": "8bbbb443995623e7",
+      "translations": {
+        "hi": {
+          "question": "स्नेहक (Lubricants) का उपयोग किसके लिए किया जाता है:",
+          "options": {
+            "A": "घर्षण बढ़ाने",
+            "B": "घर्षण कम करने",
+            "C": "मशीन को ठंडा रखने",
+            "D": "गति बढ़ाने"
+          },
+          "explanation": "स्नेहक संपर्क में आने वाली सतहों के बीच अनियमितताओं को कम करते हैं, जिससे घर्षण कम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-008",
+      "number": 8,
+      "question": "If the string of a revolving stone is suddenly cut, the stone flies off:",
+      "options": {
+        "A": "Tangentially",
+        "B": "Radially outwards",
+        "C": "Radially inwards",
+        "D": "In any direction"
+      },
+      "answer": "A",
+      "explanation": "At any point, the instantaneous velocity of the stone is along the tangent to the circular path.",
+      "hash": "99a85fe0dd4e80d5",
+      "translations": {
+        "hi": {
+          "question": "यदि घूमते हुए पत्थर की रस्सी अचानक काट दी जाए, तो पत्थर दूर उड़ जाता है:",
+          "options": {
+            "A": "स्पर्शरेखीय रूप से",
+            "B": "रेडियल रूप से बाहर की ओर",
+            "C": "रेडियल रूप से अंदर की ओर",
+            "D": "किसी भी दिशा में"
+          },
+          "explanation": "किसी भी बिंदु पर, पत्थर का तात्कालिक वेग वृत्ताकार पथ की स्पर्शरेखा के अनुदिश होता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-009",
+      "number": 9,
+      "question": "The angle of repose is equal to:",
+      "options": {
+        "A": "Angle of friction",
+        "B": "Angle of banking",
+        "C": "Twice the angle of friction",
+        "D": "Half the angle of friction"
+      },
+      "answer": "A",
+      "explanation": "For an inclined plane, the angle of repose is equal to the angle of friction (tan alpha = mu).",
+      "hash": "378db3b3e5cb8a7d",
+      "translations": {
+        "hi": {
+          "question": "विश्राम कोण (Angle of repose) किसके बराबर होता है:",
+          "options": {
+            "A": "घर्षण कोण",
+            "B": "बैंकिंग कोण",
+            "C": "घर्षण कोण का दोगुना",
+            "D": "घर्षण कोण का आधा"
+          },
+          "explanation": "एक झुके हुए समतल के लिए, विश्राम कोण घर्षण कोण के बराबर होता है (tan alpha = mu)."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-010",
+      "number": 10,
+      "question": "A light string passing over a smooth pulley connects two blocks of masses m1 and m2 (m1 > m2). The acceleration of the system is:",
+      "options": {
+        "A": "(m1 - m2)g / (m1 + m2)",
+        "B": "(m1 + m2)g / (m1 - m2)",
+        "C": "m1g / (m1 + m2)",
+        "D": "m2g / (m1 + m2)"
+      },
+      "answer": "A",
+      "explanation": "From Atwood machine formula: a = (Difference in masses / Sum of masses) * g.",
+      "hash": "5aa055e2475ec937",
+      "translations": {
+        "hi": {
+          "question": "एक चिकनी चरखी से गुजरने वाली एक हल्की रस्सी m1 और m2 (m1 > m2) द्रव्यमान के दो ब्लॉकों को जोड़ती है। प्रणाली का त्वरण है:",
+          "options": {
+            "A": "(m1 - m2)g / (m1 + m2)",
+            "B": "(m1 + m2)g / (m1 - m2)",
+            "C": "m1g / (m1 + m2)",
+            "D": "m2g / (m1 + m2)"
+          },
+          "explanation": "एटवुड मशीन सूत्र से: a = (द्रव्यमानों का अंतर / द्रव्यमानों का योग) * g."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-011",
+      "number": 11,
+      "question": "The action and reaction forces:",
+      "options": {
+        "A": "Act on the same body",
+        "B": "Act on different bodies",
+        "C": "Are not equal",
+        "D": "Act at different times"
+      },
+      "answer": "B",
+      "explanation": "Newton's third law states action and reaction are equal and opposite but act on two different bodies.",
+      "hash": "a6f7ab0b34213e5f",
+      "translations": {
+        "hi": {
+          "question": "क्रिया और प्रतिक्रिया बल:",
+          "options": {
+            "A": "एक ही पिंड पर कार्य करते हैं",
+            "B": "विभिन्न पिंडों पर कार्य करते हैं",
+            "C": "बराबर नहीं होते हैं",
+            "D": "अलग-अलग समय पर कार्य करते हैं"
+          },
+          "explanation": "न्यूटन का तीसरा नियम कहता है कि क्रिया और प्रतिक्रिया समान और विपरीत होती हैं लेकिन दो अलग-अलग पिंडों पर कार्य करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-012",
+      "number": 12,
+      "question": "Inertia is that property of a body by virtue of which it:",
+      "options": {
+        "A": "Opposes any change in its state",
+        "B": "Increases its velocity",
+        "C": "Always comes to rest",
+        "D": "Changes its mass"
+      },
+      "answer": "A",
+      "explanation": "Inertia is the inherent property of a body to resist changes in its state of rest or uniform motion.",
+      "hash": "6d06db938dbc6d5b",
+      "translations": {
+        "hi": {
+          "question": "जड़त्व किसी पिंड का वह गुण है जिसके आधार पर वह:",
+          "options": {
+            "A": "अपनी अवस्था में किसी भी परिवर्तन का विरोध करता है",
+            "B": "अपना वेग बढ़ाता है",
+            "C": "हमेशा विराम अवस्था में आता है",
+            "D": "अपना द्रव्यमान बदलता है"
+          },
+          "explanation": "जड़त्व किसी पिंड का अपनी विराम अवस्था या एकसमान गति की अवस्था में परिवर्तन का विरोध करने का अंतर्निहित गुण है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-013",
+      "number": 13,
+      "question": "A block of mass 10 kg is pushed by a force of 50 N. If the coefficient of kinetic friction is 0.2, the acceleration is:",
+      "options": {
+        "A": "2 m/s^2",
+        "B": "3 m/s^2",
+        "C": "5 m/s^2",
+        "D": "7 m/s^2"
+      },
+      "answer": "B",
+      "explanation": "Kinetic friction fk = mu * m * g = 0.2 * 10 * 10 = 20 N. Net Force = 50 - 20 = 30 N. a = 30 / 10 = 3 m/s^2.",
+      "hash": "a7140b88770a5449",
+      "translations": {
+        "hi": {
+          "question": "10 किग्रा द्रव्यमान के एक ब्लॉक को 50 N के बल से धकेला जाता है। यदि गतिज घर्षण गुणांक 0.2 है, तो त्वरण है:",
+          "options": {
+            "A": "2 m/s^2",
+            "B": "3 m/s^2",
+            "C": "5 m/s^2",
+            "D": "7 m/s^2"
+          },
+          "explanation": "गतिज घर्षण fk = mu * m * g = 0.2 * 10 * 10 = 20 N. शुद्ध बल = 50 - 20 = 30 N. a = 30 / 10 = 3 मी/से^2."
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-014",
+      "number": 14,
+      "question": "A stone is dropped in a still pond. The waves moving towards the bank are an example of:",
+      "options": {
+        "A": "Particle motion",
+        "B": "Wave motion",
+        "C": "Constant force",
+        "D": "Impulse"
+      },
+      "answer": "B",
+      "explanation": "The disturbance travels through the medium without the actual transport of matter.",
+      "hash": "0b5f085fdaddab5c",
+      "translations": {
+        "hi": {
+          "question": "एक शांत तालाब में एक पत्थर गिराया जाता है। किनारे की ओर बढ़ने वाली लहरें किसका उदाहरण हैं:",
+          "options": {
+            "A": "कण गति",
+            "B": "तरंग गति",
+            "C": "निरंतर बल",
+            "D": "आवेग"
+          },
+          "explanation": "विक्षोभ (disturbance) पदार्थ के वास्तविक परिवहन के बिना माध्यम से यात्रा करता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-015",
+      "number": 15,
+      "question": "Momentum is a:",
+      "options": {
+        "A": "Scalar quantity",
+        "B": "Vector quantity",
+        "C": "Dimensionless quantity",
+        "D": "Unitless quantity"
+      },
+      "answer": "B",
+      "explanation": "Momentum P = mv, where velocity (v) is a vector, making momentum a vector.",
+      "hash": "b3db5adaa3624a26",
+      "translations": {
+        "hi": {
+          "question": "संवेग एक है:",
+          "options": {
+            "A": "अदिश राशि",
+            "B": "सदिश राशि",
+            "C": "विमाहीन राशि",
+            "D": "इकाई रहित राशि"
+          },
+          "explanation": "संवेग P = mv, जहाँ वेग (v) एक सदिश है, जो संवेग को सदिश बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-016",
+      "number": 16,
+      "question": "Sand is dusted on tracks during rain to:",
+      "options": {
+        "A": "Increase friction",
+        "B": "Decrease friction",
+        "C": "Clean the tracks",
+        "D": "Increase mass"
+      },
+      "answer": "A",
+      "explanation": "Rain makes tracks slippery (low friction); sand increases the roughness to restore traction.",
+      "hash": "7b459351d5b760fb",
+      "translations": {
+        "hi": {
+          "question": "बारिश के दौरान पटरियों पर रेत क्यों डाली जाती है:",
+          "options": {
+            "A": "घर्षण बढ़ाने के लिए",
+            "B": "घर्षण कम करने के लिए",
+            "C": "पटरियों को साफ करने के लिए",
+            "D": "द्रव्यमान बढ़ाने के लिए"
+          },
+          "explanation": "बारिश पटरियों को फिसलन भरा बना देती है (कम घर्षण); रेत घर्षण (traction) को बहाल करने के लिए खुरदरापन बढ़ाती है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-017",
+      "number": 17,
+      "question": "The maximum force of static friction is called:",
+      "options": {
+        "A": "Sliding friction",
+        "B": "Rolling friction",
+        "C": "Limiting friction",
+        "D": "Kinetic friction"
+      },
+      "answer": "C",
+      "explanation": "The maximum value of static friction just before a body starts to slide is limiting friction.",
+      "hash": "8f0eeac7ed949e28",
+      "translations": {
+        "hi": {
+          "question": "स्थैतिक घर्षण के अधिकतम बल को कहा जाता है:",
+          "options": {
+            "A": "विसर्पी घर्षण",
+            "B": "लोटनिक घर्षण",
+            "C": "सीमांत घर्षण",
+            "D": "गतिज घर्षण"
+          },
+          "explanation": "पिंड के फिसलने से ठीक पहले स्थैतिक घर्षण के अधिकतम मान को सीमांत घर्षण कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-018",
+      "number": 18,
+      "question": "Which is the correct order of friction forces?",
+      "options": {
+        "A": "Static > Kinetic > Rolling",
+        "B": "Rolling > Kinetic > Static",
+        "C": "Kinetic > Static > Rolling",
+        "D": "Static > Rolling > Kinetic"
+      },
+      "answer": "A",
+      "explanation": "Generally, static friction is the highest, followed by kinetic, and rolling friction is the lowest.",
+      "hash": "ab64c0895b22fc06",
+      "translations": {
+        "hi": {
+          "question": "घर्षण बलों का सही क्रम कौन सा है?",
+          "options": {
+            "A": "स्थैतिक > गतिज > लोटनिक",
+            "B": "लोटनिक > गतिज > स्थैतिक",
+            "C": "गतिज > स्थैतिक > लोटनिक",
+            "D": "स्थैतिक > लोटनिक > गतिज"
+          },
+          "explanation": "आम तौर पर, स्थैतिक घर्षण सबसे अधिक होता है, उसके बाद गतिज, और लोटनिक घर्षण सबसे कम होता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-019",
+      "number": 19,
+      "question": "Newton's second law gives a measure of:",
+      "options": {
+        "A": "Acceleration",
+        "B": "Force",
+        "C": "Momentum",
+        "D": "Impulse"
+      },
+      "answer": "B",
+      "explanation": "F = dp/dt = ma. It provides the quantitative formula to calculate force.",
+      "hash": "66cbfc2db4696891",
+      "translations": {
+        "hi": {
+          "question": "न्यूटन का दूसरा नियम किसका माप देता है:",
+          "options": {
+            "A": "त्वरण",
+            "B": "बल",
+            "C": "संवेग",
+            "D": "आवेग"
+          },
+          "explanation": "F = dp/dt = ma. यह बल की गणना करने के लिए मात्रात्मक सूत्र प्रदान करता है।"
+        }
+      }
+    },
+    {
+      "id": "laws-of-motion-02-020",
+      "number": 20,
+      "question": "A force of 100 N is applied on a body of mass 20 kg. The acceleration is:",
+      "options": {
+        "A": "5 m/s^2",
+        "B": "2000 m/s^2",
+        "C": "0.2 m/s^2",
+        "D": "80 m/s^2"
+      },
+      "answer": "A",
+      "explanation": "a = F / m = 100 / 20 = 5 m/s^2.",
+      "hash": "c7ab36948e223861",
+      "translations": {
+        "hi": {
+          "question": "20 किग्रा द्रव्यमान के एक पिंड पर 100 N का बल लगाया जाता है। त्वरण है:",
+          "options": {
+            "A": "5 m/s^2",
+            "B": "2000 m/s^2",
+            "C": "0.2 m/s^2",
+            "D": "80 m/s^2"
+          },
+          "explanation": "a = F / m = 100 / 20 = 5 मी/से^2."
+        }
+      }
+    }
+  ]
+}

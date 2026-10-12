@@ -1,0 +1,527 @@
+{
+  "subject": "Communication Systems",
+  "set": 3,
+  "title": "Communication Systems Mock Test 3",
+  "questions": [
+    {
+      "id": "communication-systems-03-001",
+      "number": 1,
+      "question": "Which of the following frequencies will be suitable for beyond-the-horizon communication using sky waves?",
+      "options": {
+        "A": "10 kHz",
+        "B": "10 MHz",
+        "C": "1 GHz",
+        "D": "1000 GHz"
+      },
+      "answer": "B",
+      "explanation": "Sky wave propagation is effective for the frequency range of 3 MHz to 30 MHz.",
+      "hash": "6cd875fdf83d5ee8",
+      "translations": {
+        "hi": {
+          "question": "आकाश तरंगों का उपयोग करके क्षितिज के पार संचार के लिए निम्नलिखित में से कौन सी आवृत्ति उपयुक्त होगी?",
+          "options": {
+            "A": "10 kHz",
+            "B": "10 MHz",
+            "C": "1 GHz",
+            "D": "1000 GHz"
+          },
+          "explanation": "आकाश तरंग संचरण 3 MHz से 30 MHz की आवृत्ति सीमा के लिए प्रभावी है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-002",
+      "number": 2,
+      "question": "In a communication system, the process of increasing the strength of a signal is called:",
+      "options": {
+        "A": "Modulation",
+        "B": "Attenuation",
+        "C": "Amplification",
+        "D": "Demodulation"
+      },
+      "answer": "C",
+      "explanation": "Amplification compensates for the loss of signal strength (attenuation) during transmission.",
+      "hash": "d1788e7818b34b9d",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली में, संकेत की शक्ति बढ़ाने की प्रक्रिया को क्या कहा जाता है?",
+          "options": {
+            "A": "मॉड्यूलेशन",
+            "B": "एटेन्यूएशन",
+            "C": "प्रवर्धन (Amplification)",
+            "D": "डिमॉड्यूलेशन"
+          },
+          "explanation": "प्रवर्धन संचरण के दौरान संकेत शक्ति की हानि (क्षीणन) की भरपाई करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-003",
+      "number": 3,
+      "question": "The modulation index in Amplitude Modulation is kept less than or equal to 1 to:",
+      "options": {
+        "A": "Increase the range",
+        "B": "Avoid distortion",
+        "C": "Save power",
+        "D": "Increase frequency"
+      },
+      "answer": "B",
+      "explanation": "If the modulation index exceeds 1, over-modulation occurs, leading to distortion in the recovered signal.",
+      "hash": "b37a32b7055421df",
+      "translations": {
+        "hi": {
+          "question": "आयाम मॉड्यूलेशन में मॉड्यूलेशन सूचकांक को 1 के बराबर या उससे कम रखा जाता है ताकि:",
+          "options": {
+            "A": "सीमा बढ़ाई जा सके",
+            "B": "विकृति से बचा जा सके",
+            "C": "शक्ति बचाई जा सके",
+            "D": "आवृत्ति बढ़ाई जा सके"
+          },
+          "explanation": "यदि मॉड्यूलेशन सूचकांक 1 से अधिक हो जाता है, तो ओवर-मॉड्यूलेशन होता है, जिससे रिकवर किए गए संकेत में विकृति आती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-004",
+      "number": 4,
+      "question": "What is the bandwidth of a video signal in a television transmission?",
+      "options": {
+        "A": "4.2 MHz",
+        "B": "20 kHz",
+        "C": "100 MHz",
+        "D": "300 Hz"
+      },
+      "answer": "A",
+      "explanation": "Video signals require a much larger bandwidth (around 4.2 MHz) compared to voice signals (around 3 kHz).",
+      "hash": "3a0ddc210ffa6dd9",
+      "translations": {
+        "hi": {
+          "question": "टेलीविजन प्रसारण में वीडियो संकेत की बैंडविड्थ क्या है?",
+          "options": {
+            "A": "4.2 MHz",
+            "B": "20 kHz",
+            "C": "100 MHz",
+            "D": "300 Hz"
+          },
+          "explanation": "वीडियो संकेतों को ध्वनि संकेतों (लगभग 3 kHz) की तुलना में बहुत अधिक बैंडविड्थ (लगभग 4.2 MHz) की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-005",
+      "number": 5,
+      "question": "Which of the following is an example of a point-to-point communication mode?",
+      "options": {
+        "A": "Radio",
+        "B": "Television",
+        "C": "Telephony",
+        "D": "Public address system"
+      },
+      "answer": "C",
+      "explanation": "Telephony involves communication between a single transmitter and a single receiver.",
+      "hash": "ec15775d097b09fb",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन पॉइंट-टू-पॉइंट संचार मोड का एक उदाहरण है?",
+          "options": {
+            "A": "रेडियो",
+            "B": "टेलीविजन",
+            "C": "टेलीफोनी",
+            "D": "सार्वजनिक संबोधन प्रणाली"
+          },
+          "explanation": "टेलीफोनी में एक एकल ट्रांसमीटर और एक एकल रिसीवर के बीच संचार शामिल होता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-006",
+      "number": 6,
+      "question": "The maximum distance up to which TV transmission can be received depends on:",
+      "options": {
+        "A": "Height of transmitting antenna",
+        "B": "Height of receiving antenna",
+        "C": "Both A and B",
+        "D": "Only on the power of the transmitter"
+      },
+      "answer": "C",
+      "explanation": "Range d is proportional to the square root of the heights of both transmitting and receiving antennas.",
+      "hash": "d3d3016ee58433cc",
+      "translations": {
+        "hi": {
+          "question": "टीवी प्रसारण प्राप्त करने की अधिकतम दूरी किस पर निर्भर करती है?",
+          "options": {
+            "A": "प्रेषण एंटीना की ऊंचाई पर",
+            "B": "प्राप्त एंटीना की ऊंचाई पर",
+            "C": "A और B दोनों पर",
+            "D": "केवल ट्रांसमीटर की शक्ति पर"
+          },
+          "explanation": "परास d प्रेषण और प्राप्त करने वाले दोनों एंटेना की ऊंचाई के वर्गमूल के समानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-007",
+      "number": 7,
+      "question": "Which range of the electromagnetic spectrum is used for satellite communication?",
+      "options": {
+        "A": "Radio waves",
+        "B": "Microwaves",
+        "C": "Ultraviolet rays",
+        "D": "X-rays"
+      },
+      "answer": "B",
+      "explanation": "Microwaves (1 GHz to 300 GHz) are used because they can penetrate the ionosphere without reflection.",
+      "hash": "9043fbed7a9da2c4",
+      "translations": {
+        "hi": {
+          "question": "उपग्रह संचार के लिए विद्युत चुंबकीय स्पेक्ट्रम की किस सीमा का उपयोग किया जाता है?",
+          "options": {
+            "A": "रेडियो तरंगें",
+            "B": "सूक्ष्म तरंगें (Microwaves)",
+            "C": "पराबैंगनी किरणें",
+            "D": "एक्स-रे"
+          },
+          "explanation": "सूक्ष्म तरंगों (1 GHz से 300 GHz) का उपयोग किया जाता है क्योंकि वे बिना परावर्तन के आयन मंडल को भेद सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-008",
+      "number": 8,
+      "question": "In frequency modulation, when the modulating voltage is zero, the carrier frequency is called:",
+      "options": {
+        "A": "Center frequency",
+        "B": "Peak frequency",
+        "C": "Low frequency",
+        "D": "High frequency"
+      },
+      "answer": "A",
+      "explanation": "When no signal is applied, the FM transmitter radiates the unmodulated carrier frequency, known as center frequency.",
+      "hash": "ab15fc686acc1bde",
+      "translations": {
+        "hi": {
+          "question": "आवृत्ति मॉड्यूलेशन में, जब मॉड्यूलेटिंग वोल्टेज शून्य होता है, तो वाहक आवृत्ति को क्या कहा जाता है?",
+          "options": {
+            "A": "केंद्र आवृत्ति",
+            "B": "शिखर आवृत्ति",
+            "C": "निम्न आवृत्ति",
+            "D": "उच्च आवृत्ति"
+          },
+          "explanation": "जब कोई संकेत नहीं लगाया जाता है, तो FM ट्रांसमीटर अनमॉड्यूलेटेड वाहक आवृत्ति प्रसारित करता है, जिसे केंद्र आवृत्ति कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-009",
+      "number": 9,
+      "question": "The process of changing some characteristic of a carrier wave in accordance with the message signal is:",
+      "options": {
+        "A": "Rectification",
+        "B": "Modulation",
+        "C": "Amplification",
+        "D": "Propagation"
+      },
+      "answer": "B",
+      "explanation": "Modulation translates the baseband signal to a higher frequency for efficient transmission.",
+      "hash": "49d64cc0900adbd8",
+      "translations": {
+        "hi": {
+          "question": "संदेश संकेत के अनुसार वाहक तरंग की कुछ विशेषता को बदलने की प्रक्रिया क्या है?",
+          "options": {
+            "A": "दिष्टकरण",
+            "B": "मॉड्यूलेशन",
+            "C": "प्रवर्धन",
+            "D": "संचरण"
+          },
+          "explanation": "मॉड्यूलेशन कुशल संचरण के लिए बेसबैंड संकेत को उच्च आवृत्ति में स्थानांतरित करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-010",
+      "number": 10,
+      "question": "Which layer of the atmosphere is also known as the Kennelly-Heaviside layer?",
+      "options": {
+        "A": "E-layer of ionosphere",
+        "B": "F-layer of ionosphere",
+        "C": "Troposphere",
+        "D": "Stratosphere"
+      },
+      "answer": "A",
+      "explanation": "The E-layer (90-130 km) reflects medium frequency radio waves and is named after its discoverers.",
+      "hash": "1e07c8e13a8b67c2",
+      "translations": {
+        "hi": {
+          "question": "वायुमंडल की किस परत को केनेली-हीविसाइड परत के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "आयन मंडल की E-परत",
+            "B": "आयन मंडल की F-परत",
+            "C": "क्षोभ मंडल",
+            "D": "समताप मंडल"
+          },
+          "explanation": "E-परत (90-130 किमी) मध्यम आवृत्ति रेडियो तरंगों को परावर्तित करती है और इसका नाम इसके खोजकर्ताओं के नाम पर रखा गया है। [Image of layers of the ionosphere]"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-011",
+      "number": 11,
+      "question": "A modem is a device that performs:",
+      "options": {
+        "A": "Only modulation",
+        "B": "Only demodulation",
+        "C": "Both modulation and demodulation",
+        "D": "Only amplification"
+      },
+      "answer": "C",
+      "explanation": "MO-DEM stands for MOdulator-DEModulator, used to interface digital computers with analog lines.",
+      "hash": "b9b13887cd88d3a6",
+      "translations": {
+        "hi": {
+          "question": "मॉडेम (Modem) एक उपकरण है जो करता है:",
+          "options": {
+            "A": "केवल मॉड्यूलेशन",
+            "B": "केवल डिमॉड्यूलेशन",
+            "C": "मॉड्यूलेशन और डिमॉड्यूलेशन दोनों",
+            "D": "केवल प्रवर्धन"
+          },
+          "explanation": "MO-DEM का अर्थ है मॉड्यूलेटर-डिमॉड्यूलेटर, जिसका उपयोग डिजिटल कंप्यूटरों को एनालॉग लाइनों के साथ जोड़ने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-012",
+      "number": 12,
+      "question": "In digital communication, a 'Bit' stands for:",
+      "options": {
+        "A": "Binary Digit",
+        "B": "Basic Information Term",
+        "C": "Binary Information Technology",
+        "D": "Bipolar Integrated Terminal"
+      },
+      "answer": "A",
+      "explanation": "A bit is the smallest unit of data in digital communication, representing either 0 or 1.",
+      "hash": "f9891f6db685ca30",
+      "translations": {
+        "hi": {
+          "question": "डिजिटल संचार में, 'बिट' (Bit) का अर्थ है:",
+          "options": {
+            "A": "बाइनरी डिजिट",
+            "B": "बेसिक इंफॉर्मेशन टर्म",
+            "C": "बाइनरी इंफॉर्मेशन टेक्नोलॉजी",
+            "D": "बाइपोलर इंटीग्रेटेड टर्मिनल"
+          },
+          "explanation": "बिट डिजिटल संचार में डेटा की सबसे छोटी इकाई है, जो 0 या 1 का प्रतिनिधित्व करती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-013",
+      "number": 13,
+      "question": "What is the bandwidth of a typical AM radio station?",
+      "options": {
+        "A": "10 kHz",
+        "B": "200 kHz",
+        "C": "1 MHz",
+        "D": "5 kHz"
+      },
+      "answer": "A",
+      "explanation": "In AM broadcasting, the signal is typically limited to 5 kHz, requiring a 10 kHz bandwidth (2 * fm).",
+      "hash": "450dbe2a1f6f6d8b",
+      "translations": {
+        "hi": {
+          "question": "एक विशिष्ट AM रेडियो स्टेशन की बैंडविड्थ क्या है?",
+          "options": {
+            "A": "10 kHz",
+            "B": "200 kHz",
+            "C": "1 MHz",
+            "D": "5 kHz"
+          },
+          "explanation": "AM प्रसारण में, संकेत आमतौर पर 5 kHz तक सीमित होता है, जिसके लिए 10 kHz बैंडविड्थ (2 * fm) की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-014",
+      "number": 14,
+      "question": "Space waves are generally restricted to the:",
+      "options": {
+        "A": "Ionosphere",
+        "B": "Stratosphere",
+        "C": "Troposphere",
+        "D": "Mesosphere"
+      },
+      "answer": "C",
+      "explanation": "Space wave communication (VHF/UHF) occurs within the lowest layer of the atmosphere.",
+      "hash": "6ddc911618b0c884",
+      "translations": {
+        "hi": {
+          "question": "अंतरिक्ष तरंगें आमतौर पर कहाँ तक प्रतिबंधित होती हैं?",
+          "options": {
+            "A": "आयन मंडल",
+            "B": "समताप मंडल",
+            "C": "क्षोभ मंडल (Troposphere)",
+            "D": "मध्य मंडल"
+          },
+          "explanation": "अंतरिक्ष तरंग संचार (VHF/UHF) वायुमंडल की सबसे निचली परत के भीतर होता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-015",
+      "number": 15,
+      "question": "Ground wave propagation is also known as:",
+      "options": {
+        "A": "Sky wave propagation",
+        "B": "Surface wave propagation",
+        "C": "Space wave propagation",
+        "D": "Ionospheric propagation"
+      },
+      "answer": "B",
+      "explanation": "Ground waves travel along the surface of the earth and induce currents in the ground.",
+      "hash": "acb9847af3eac286",
+      "translations": {
+        "hi": {
+          "question": "भू-तरंग संचरण को इस नाम से भी जाना जाता है:",
+          "options": {
+            "A": "आकाश तरंग संचरण",
+            "B": "सतह तरंग संचरण (Surface wave)",
+            "C": "अंतरिक्ष तरंग संचरण",
+            "D": "आयनमंडलीय संचरण"
+          },
+          "explanation": "भू-तरंगें पृथ्वी की सतह के साथ यात्रा करती हैं और जमीन में धाराएं प्रेरित करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-016",
+      "number": 16,
+      "question": "What type of wave propagation is used for mobile phone communication?",
+      "options": {
+        "A": "Ground wave",
+        "B": "Sky wave",
+        "C": "Space wave",
+        "D": "All of the above"
+      },
+      "answer": "C",
+      "explanation": "Mobile telephony uses UHF/Microwaves that propagate via space waves (line of sight).",
+      "hash": "3970a29550e8d75a",
+      "translations": {
+        "hi": {
+          "question": "मोबाइल फोन संचार के लिए किस प्रकार के तरंग संचरण का उपयोग किया जाता है?",
+          "options": {
+            "A": "भू-तरंग",
+            "B": "आकाश तरंग",
+            "C": "अंतरिक्ष तरंग",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "मोबाइल टेलीफोनी UHF/सूक्ष्म तरंगों का उपयोग करती है जो अंतरिक्ष तरंगों (दृष्टि रेखा) के माध्यम से संचरित होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-017",
+      "number": 17,
+      "question": "Which component in the communication system removes unwanted high-frequency components after demodulation?",
+      "options": {
+        "A": "Rectifier",
+        "B": "Low pass filter",
+        "C": "High pass filter",
+        "D": "Amplifier"
+      },
+      "answer": "B",
+      "explanation": "A low pass filter allows the original message frequency to pass while blocking the carrier frequency.",
+      "hash": "58d3f265e20a954e",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली में कौन सा घटक डिमॉड्यूलेशन के बाद अवांछित उच्च-आवृत्ति घटकों को हटा देता है?",
+          "options": {
+            "A": "दिष्टकारी",
+            "B": "लो पास फिल्टर",
+            "C": "हाई पास फिल्टर",
+            "D": "एम्पलीफायर"
+          },
+          "explanation": "लो पास फिल्टर मूल संदेश आवृत्ति को गुजरने देता है जबकि वाहक आवृत्ति को रोकता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-018",
+      "number": 18,
+      "question": "If the audio signal frequency is 3 kHz and carrier frequency is 1 MHz, the bandwidth of the AM signal is:",
+      "options": {
+        "A": "1003 kHz",
+        "B": "6 kHz",
+        "C": "3 kHz",
+        "D": "2 MHz"
+      },
+      "answer": "B",
+      "explanation": "Bandwidth = 2 * message frequency = 2 * 3 kHz = 6 kHz.",
+      "hash": "af9b7b914fd99b03",
+      "translations": {
+        "hi": {
+          "question": "यदि ऑडियो संकेत आवृत्ति 3 kHz है और वाहक आवृत्ति 1 MHz है, तो AM संकेत की बैंडविड्थ है:",
+          "options": {
+            "A": "1003 kHz",
+            "B": "6 kHz",
+            "C": "3 kHz",
+            "D": "2 MHz"
+          },
+          "explanation": "बैंडविड्थ = 2 * संदेश आवृत्ति = 2 * 3 kHz = 6 kHz।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-019",
+      "number": 19,
+      "question": "Critical frequency is the maximum frequency that:",
+      "options": {
+        "A": "Is absorbed by ionosphere",
+        "B": "Can be reflected back by ionosphere",
+        "C": "Penetrates the ionosphere",
+        "D": "Travels along the ground"
+      },
+      "answer": "B",
+      "explanation": "Above the critical frequency, waves penetrate the ionosphere and are not reflected back.",
+      "hash": "89b6d05066022a3b",
+      "translations": {
+        "hi": {
+          "question": "क्रांतिक आवृत्ति वह अधिकतम आवृत्ति है जो:",
+          "options": {
+            "A": "आयन मंडल द्वारा अवशोषित की जाती है",
+            "B": "आयन मंडल द्वारा वापस परावर्तित की जा सकती है",
+            "C": "आयन मंडल को भेदती है",
+            "D": "जमीन के साथ चलती है"
+          },
+          "explanation": "क्रांतिक आवृत्ति से ऊपर, तरंगें आयन मंडल को भेदती हैं और वापस परावर्तित नहीं होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-03-020",
+      "number": 20,
+      "question": "In amplitude modulation, the power in sidebands depends on:",
+      "options": {
+        "A": "Carrier frequency",
+        "B": "Modulation index",
+        "C": "Antenna height",
+        "D": "Signal speed"
+      },
+      "answer": "B",
+      "explanation": "Sideband power is proportional to the square of the modulation index (m^2 / 2).",
+      "hash": "d1c4ad5556b71292",
+      "translations": {
+        "hi": {
+          "question": "आयाम मॉड्यूलेशन में, साइडबैंड में शक्ति किस पर निर्भर करती है?",
+          "options": {
+            "A": "वाहक आवृत्ति पर",
+            "B": "मॉड्यूलेशन सूचकांक पर",
+            "C": "एंटीना की ऊंचाई पर",
+            "D": "संकेत गति पर"
+          },
+          "explanation": "साइडबैंड शक्ति मॉड्यूलेशन सूचकांक के वर्ग (m^2 / 2) के समानुपाती होती है।"
+        }
+      }
+    }
+  ]
+}

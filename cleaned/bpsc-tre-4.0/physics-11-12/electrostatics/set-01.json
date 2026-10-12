@@ -1,0 +1,527 @@
+{
+  "subject": "Electrostatics",
+  "set": 1,
+  "title": "Electrostatics Mock Test 1",
+  "questions": [
+    {
+      "id": "electrostatics-01-001",
+      "number": 1,
+      "question": "Two point charges +2μC and +6μC repel each other with a force of 12 N. If a charge of -4μC is added to each, the new force between them will be:",
+      "options": {
+        "A": "4 N (Attractive)",
+        "B": "4 N (Repulsive)",
+        "C": "8 N (Attractive)",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Initial product q1q2 = 2 * 6 = 12. New charges: (2-4)=-2μC and (6-4)=+2μC. New product q1'q2' = -4. Force is proportional to the product of charges. F'/12 = |-4| / 12 = 1/3. F' = 4 N. Since charges are opposite, the force is attractive.",
+      "hash": "5b7e45ad9efa1dbe",
+      "translations": {
+        "hi": {
+          "question": "दो बिंदु आवेश +2μC और +6μC एक-दूसरे को 12 N के बल से प्रतिकर्षित करते हैं। यदि प्रत्येक में -4μC का आवेश जोड़ दिया जाए, तो उनके बीच नया बल होगा:",
+          "options": {
+            "A": "4 N (आकर्षक)",
+            "B": "4 N (प्रतिकर्षक)",
+            "C": "8 N (आकर्षक)",
+            "D": "शून्य"
+          },
+          "explanation": "प्रारंभिक गुणनफल q1q2 = 2 * 6 = 12। नए आवेश: (2-4)=-2μC और (6-4)=+2μC। नया गुणनफल q1'q2' = -4। बल आवेशों के गुणनफल के समानुपाती होता है। F'/12 = |-4| / 12 = 1/3। F' = 4 N। चूंकि आवेश विपरीत हैं, इसलिए बल आकर्षक है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-002",
+      "number": 2,
+      "question": "The work done in rotating an electric dipole of dipole moment 'p' in a uniform electric field 'E' from θ = 0° to θ = 180° is:",
+      "options": {
+        "A": "pE",
+        "B": "2pE",
+        "C": "Zero",
+        "D": "-pE"
+      },
+      "answer": "B",
+      "explanation": "Work W = pE(cosθ1 - cosθ2) = pE(cos 0° - cos 180°) = pE(1 - (-1)) = 2pE.",
+      "hash": "3ed8ef462658bcc4",
+      "translations": {
+        "hi": {
+          "question": "एक समान विद्युत क्षेत्र 'E' में द्विध्रुव आघूर्ण 'p' के एक विद्युत द्विध्रुव को θ = 0° से θ = 180° तक घुमाने में किया गया कार्य है:",
+          "options": {
+            "A": "pE",
+            "B": "2pE",
+            "C": "शून्य",
+            "D": "-pE"
+          },
+          "explanation": "कार्य W = pE(cosθ1 - cosθ2) = pE(cos 0° - cos 180°) = pE(1 - (-1)) = 2pE।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-003",
+      "number": 3,
+      "question": "The electric field intensity at a distance 'r' from an infinitely long straight charged wire is proportional to:",
+      "options": {
+        "A": "r",
+        "B": "1/r",
+        "C": "1/r²",
+        "D": "r²"
+      },
+      "answer": "B",
+      "explanation": "According to Gauss's Law, for an infinite line charge, E = λ / (2πε₀r). Thus, E ∝ 1/r.",
+      "hash": "1fefb256fbbbd643",
+      "translations": {
+        "hi": {
+          "question": "एक अनंत लंबे सीधे आवेशित तार से 'r' दूरी पर विद्युत क्षेत्र की तीव्रता किसके समानुपाती होती है?",
+          "options": {
+            "A": "r",
+            "B": "1/r",
+            "C": "1/r²",
+            "D": "r²"
+          },
+          "explanation": "गॉस के नियम के अनुसार, एक अनंत रेखीय आवेश के लिए, E = λ / (2πε₀r)। अतः, E ∝ 1/r।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-004",
+      "number": 4,
+      "question": "A dielectric slab is introduced between the plates of a parallel plate capacitor which is disconnected from the battery. The potential difference between the plates will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "B",
+      "explanation": "When disconnected, charge Q remains constant. Capacitance C increases (C' = KC). Since V = Q/C, the potential difference V decreases.",
+      "hash": "319316f1232024c7",
+      "translations": {
+        "hi": {
+          "question": "बैटरी से अलग किए गए एक समांतर प्लेट संधारित्र की प्लेटों के बीच एक परावैद्युत स्लैब (dielectric slab) रखा जाता है। प्लेटों के बीच विभवांतर:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "बैटरी हटाए जाने पर, आवेश Q स्थिर रहता है। धारिता C बढ़ जाती है (C' = KC)। चूंकि V = Q/C, इसलिए विभवांतर V घट जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-005",
+      "number": 5,
+      "question": "Electric potential at a point on the equatorial line of an electric dipole is:",
+      "options": {
+        "A": "p / (4πε₀r²)",
+        "B": "Zero",
+        "C": "Maximum",
+        "D": "Negative"
+      },
+      "answer": "B",
+      "explanation": "At any point on the equatorial plane, the distances from both charges (+q and -q) are equal, so the net potential (V = V1 + V2) is zero.",
+      "hash": "3d5f8fdc1b8e0e2e",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव की निरक्षीय रेखा (equatorial line) पर स्थित बिंदु पर विद्युत विभव होता है:",
+          "options": {
+            "A": "p / (4πε₀r²)",
+            "B": "शून्य",
+            "C": "अधिकतम",
+            "D": "ऋणात्मक"
+          },
+          "explanation": "निरक्षीय तल के किसी भी बिंदु पर, दोनों आवेशों (+q और -q) से दूरियाँ समान होती हैं, इसलिए शुद्ध विभव (V = V1 + V2) शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-006",
+      "number": 6,
+      "question": "If the distance between the plates of a parallel plate capacitor is doubled, its capacitance becomes:",
+      "options": {
+        "A": "Double",
+        "B": "Half",
+        "C": "Four times",
+        "D": "Unchanged"
+      },
+      "answer": "B",
+      "explanation": "C = ε₀A/d. If distance d becomes 2d, C' = ε₀A/2d = C/2.",
+      "hash": "3e689c709aa01a31",
+      "translations": {
+        "hi": {
+          "question": "यदि एक समांतर प्लेट संधारित्र की प्लेटों के बीच की दूरी दोगुनी कर दी जाए, तो इसकी धारिता हो जाएगी:",
+          "options": {
+            "A": "दोगुनी",
+            "B": "आधी",
+            "C": "चार गुनी",
+            "D": "अपरिवर्तित"
+          },
+          "explanation": "C = ε₀A/d। यदि दूरी d, 2d हो जाती है, तो C' = ε₀A/2d = C/2।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-007",
+      "number": 7,
+      "question": "Gaussian surface for a point charge is:",
+      "options": {
+        "A": "Cylindrical",
+        "B": "Spherical",
+        "C": "Cubical",
+        "D": "Elliptical"
+      },
+      "answer": "B",
+      "explanation": "Due to the spherical symmetry of the electric field around a point charge, a sphere centered at the charge is chosen as the Gaussian surface.",
+      "hash": "e4155c9772438ffc",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु आवेश के लिए गॉसियन सतह होती है:",
+          "options": {
+            "A": "बेलनाकार",
+            "B": "गोलाकार",
+            "C": "घन के आकार की",
+            "D": "दीर्घवृत्ताकार"
+          },
+          "explanation": "बिंदु आवेश के चारों ओर विद्युत क्षेत्र की गोलाकार सममिति के कारण, आवेश पर केंद्रित एक गोले को गॉसियन सतह के रूप में चुना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-008",
+      "number": 8,
+      "question": "The SI unit of electric flux is:",
+      "options": {
+        "A": "Weber",
+        "B": "Newton/Coulomb",
+        "C": "Volt-meter",
+        "D": "Tesla"
+      },
+      "answer": "C",
+      "explanation": "Flux Φ = E * A. Units are (V/m) * m² = V-m. Alternatively, (N/C) * m².",
+      "hash": "50913033a0f38390",
+      "translations": {
+        "hi": {
+          "question": "विद्युत फ्लक्स की SI इकाई है:",
+          "options": {
+            "A": "वेबर",
+            "B": "न्यूटन/कूलम्ब",
+            "C": "वोल्ट-मीटर",
+            "D": "टेस्ला"
+          },
+          "explanation": "फ्लक्स Φ = E * A। इकाइयाँ (V/m) * m² = वोल्ट-मीटर हैं। वैकल्पिक रूप से, (N/C) * m²।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-009",
+      "number": 9,
+      "question": "Surface charge density is defined as:",
+      "options": {
+        "A": "Charge / Volume",
+        "B": "Charge / Area",
+        "C": "Charge / Length",
+        "D": "Potential / Area"
+      },
+      "answer": "B",
+      "explanation": "Surface charge density (σ) is the amount of charge per unit surface area.",
+      "hash": "189eeac8b8907359",
+      "translations": {
+        "hi": {
+          "question": "पृष्ठीय आवेश घनत्व (Surface charge density) को किस रूप में परिभाषित किया गया है?",
+          "options": {
+            "A": "आवेश / आयतन",
+            "B": "आवेश / क्षेत्रफल",
+            "C": "आवेश / लंबाई",
+            "D": "विभव / क्षेत्रफल"
+          },
+          "explanation": "पृष्ठीय आवेश घनत्व (σ) प्रति इकाई सतह क्षेत्रफल पर आवेश की मात्रा है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-010",
+      "number": 10,
+      "question": "One Volt is equivalent to:",
+      "options": {
+        "A": "1 Joule/Coulomb",
+        "B": "1 Coulomb/Joule",
+        "C": "1 Newton/Coulomb",
+        "D": "1 Joule-Coulomb"
+      },
+      "answer": "A",
+      "explanation": "Electric potential is defined as work done per unit charge (V = W/q). Hence, 1 V = 1 J/C.",
+      "hash": "37f324e95f5c450e",
+      "translations": {
+        "hi": {
+          "question": "एक वोल्ट किसके बराबर है?",
+          "options": {
+            "A": "1 जूल/कूलम्ब",
+            "B": "1 कूलम्ब/जूल",
+            "C": "1 न्यूटन/कूलम्ब",
+            "D": "1 जूल-कूलम्ब"
+          },
+          "explanation": "विद्युत विभव को प्रति इकाई आवेश पर किए गए कार्य (V = W/q) के रूप में परिभाषित किया जाता है। अतः, 1 V = 1 J/C।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-011",
+      "number": 11,
+      "question": "Three capacitors each of capacitance C are connected in series. Their equivalent capacitance will be:",
+      "options": {
+        "A": "3C",
+        "B": "C/3",
+        "C": "3/C",
+        "D": "C³"
+      },
+      "answer": "B",
+      "explanation": "For series connection, 1/Cs = 1/C1 + 1/C2 + 1/C3. For three equal capacitors, 1/Cs = 3/C, so Cs = C/3.",
+      "hash": "e897e5880ac6b5c8",
+      "translations": {
+        "hi": {
+          "question": "धारिता C वाले तीन संधारित्र श्रेणीक्रम में जुड़े हुए हैं। उनकी समतुल्य धारिता होगी:",
+          "options": {
+            "A": "3C",
+            "B": "C/3",
+            "C": "3/C",
+            "D": "C³"
+          },
+          "explanation": "श्रेणीक्रम संयोजन के लिए, 1/Cs = 1/C1 + 1/C2 + 1/C3। तीन समान संधारित्रों के लिए, 1/Cs = 3/C, इसलिए Cs = C/3।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-012",
+      "number": 12,
+      "question": "Torque acting on a dipole in a uniform electric field is maximum when the angle between p and E is:",
+      "options": {
+        "A": "0°",
+        "B": "45°",
+        "C": "90°",
+        "D": "180°"
+      },
+      "answer": "C",
+      "explanation": "Torque τ = pE sinθ. Sinθ is maximum (1) at θ = 90°.",
+      "hash": "6640533037a45b90",
+      "translations": {
+        "hi": {
+          "question": "एक समान विद्युत क्षेत्र में द्विध्रुव पर लगने वाला टॉर्क अधिकतम होता है जब p और E के बीच का कोण होता है:",
+          "options": {
+            "A": "0°",
+            "B": "45°",
+            "C": "90°",
+            "D": "180°"
+          },
+          "explanation": "टॉर्क τ = pE sinθ। Sinθ का मान θ = 90° पर अधिकतम (1) होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-013",
+      "number": 13,
+      "question": "The capacity of a spherical conductor of radius 'R' is:",
+      "options": {
+        "A": "4πε₀R",
+        "B": "4πε₀/R",
+        "C": "R / 4πε₀",
+        "D": "4πε₀R²"
+      },
+      "answer": "A",
+      "explanation": "For an isolated spherical conductor, C = Q/V. Since V = Q / (4πε₀R), C = 4πε₀R.",
+      "hash": "fc7d61196f0f11e4",
+      "translations": {
+        "hi": {
+          "question": "'R' त्रिज्या के एक गोलाकार चालक की क्षमता है:",
+          "options": {
+            "A": "4πε₀R",
+            "B": "4πε₀/R",
+            "C": "R / 4πε₀",
+            "D": "4πε₀R²"
+          },
+          "explanation": "एक विलगित गोलाकार चालक के लिए, C = Q/V। चूंकि V = Q / (4πε₀R), C = 4πε₀R।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-014",
+      "number": 14,
+      "question": "Energy stored in a capacitor of capacitance C and potential V is:",
+      "options": {
+        "A": "CV²",
+        "B": "1/2 CV²",
+        "C": "1/2 C²V",
+        "D": "CV"
+      },
+      "answer": "B",
+      "explanation": "The energy stored in a capacitor is U = 1/2 CV² = 1/2 QV = Q²/2C.",
+      "hash": "64f0fffaaa9a4a20",
+      "translations": {
+        "hi": {
+          "question": "धारिता C और विभव V वाले संधारित्र में संचित ऊर्जा है:",
+          "options": {
+            "A": "CV²",
+            "B": "1/2 CV²",
+            "C": "1/2 C²V",
+            "D": "CV"
+          },
+          "explanation": "संधारित्र में संचित ऊर्जा U = 1/2 CV² = 1/2 QV = Q²/2C होती है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-015",
+      "number": 15,
+      "question": "The unit of permittivity of free space (ε₀) is:",
+      "options": {
+        "A": "C² N⁻¹ m⁻²",
+        "B": "N m² C⁻²",
+        "C": "C N m",
+        "D": "C² N m²"
+      },
+      "answer": "A",
+      "explanation": "From Coulomb's Law, ε₀ = q1q2 / (4πFr²). Units: C² / (N m²).",
+      "hash": "c3ef6a6bf9b75c4e",
+      "translations": {
+        "hi": {
+          "question": "निर्वात की विद्युतशीलता (ε₀) की इकाई है:",
+          "options": {
+            "A": "C² N⁻¹ m⁻²",
+            "B": "N m² C⁻²",
+            "C": "C N m",
+            "D": "C² N m²"
+          },
+          "explanation": "कूलम्ब के नियम से, ε₀ = q1q2 / (4πFr²)। इकाइयाँ: C² / (N m²)।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-016",
+      "number": 16,
+      "question": "Which of the following is a vector quantity?",
+      "options": {
+        "A": "Electric charge",
+        "B": "Electric potential",
+        "C": "Electric field intensity",
+        "D": "Capacitance"
+      },
+      "answer": "C",
+      "explanation": "Electric field intensity has both magnitude and direction. Charge, potential, and capacitance are scalar quantities.",
+      "hash": "59f5025e68e4ca6f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक सदिश राशि है?",
+          "options": {
+            "A": "विद्युत आवेश",
+            "B": "विद्युत विभव",
+            "C": "विद्युत क्षेत्र की तीव्रता",
+            "D": "धारिता"
+          },
+          "explanation": "विद्युत क्षेत्र की तीव्रता में परिमाण और दिशा दोनों होते हैं। आवेश, विभव और धारिता अदिश राशियाँ हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-017",
+      "number": 17,
+      "question": "The ratio of electric force to gravitational force between two protons is of the order of:",
+      "options": {
+        "A": "10³⁶",
+        "B": "10³⁸",
+        "C": "10⁻³⁸",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "For protons, the electrostatic force is much stronger than the gravitational force, roughly 10^36 times.",
+      "hash": "f18d9bd4daf6a91a",
+      "translations": {
+        "hi": {
+          "question": "दो प्रोटॉन के बीच विद्युत बल और गुरुत्वाकर्षण बल का अनुपात किस कोटि (order) का होता है?",
+          "options": {
+            "A": "10³⁶",
+            "B": "10³⁸",
+            "C": "10⁻³⁸",
+            "D": "1"
+          },
+          "explanation": "प्रोटॉन के लिए, स्थिरवैद्युत बल गुरुत्वाकर्षण बल की तुलना में बहुत अधिक शक्तिशाली होता है, लगभग 10^36 गुना।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-018",
+      "number": 18,
+      "question": "A soap bubble is given a negative charge. Its radius will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain unchanged",
+        "D": "Vanish"
+      },
+      "answer": "A",
+      "explanation": "Like charges on the surface repel each other, creating an outward pressure that increases the radius.",
+      "hash": "8c20240c7243f4ee",
+      "translations": {
+        "hi": {
+          "question": "एक साबुन के बुलबुले को ऋणात्मक आवेश दिया जाता है। इसकी त्रिज्या:",
+          "options": {
+            "A": "बढ़ेगी",
+            "B": "घटेगा",
+            "C": "अपरिवर्तित रहेगी",
+            "D": "समाप्त हो जाएगी"
+          },
+          "explanation": "सतह पर मौजूद समान आवेश एक-दूसरे को प्रतिकर्षित करते हैं, जिससे एक बाहरी दाब उत्पन्न होता है जो त्रिज्या को बढ़ा देता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-019",
+      "number": 19,
+      "question": "Electric lines of force:",
+      "options": {
+        "A": "Intersect at 90°",
+        "B": "Never intersect each other",
+        "C": "Are always parallel",
+        "D": "Form closed loops"
+      },
+      "answer": "B",
+      "explanation": "If they intersected, there would be two directions of electric field at the point of intersection, which is impossible.",
+      "hash": "cb8fee337c2d9d79",
+      "translations": {
+        "hi": {
+          "question": "विद्युत बल रेखाएँ:",
+          "options": {
+            "A": "90° पर एक-दूसरे को काटती हैं",
+            "B": "कभी एक-दूसरे को नहीं काटती हैं",
+            "C": "हमेशा समांतर होती हैं",
+            "D": "बंद लूप बनाती हैं"
+          },
+          "explanation": "यदि वे काटती हैं, तो प्रतिच्छेदन बिंदु पर विद्युत क्षेत्र की दो दिशाएं होंगी, जो असंभव है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-01-020",
+      "number": 20,
+      "question": "If a charge Q is placed at the center of a cube, the flux through one face is:",
+      "options": {
+        "A": "Q / ε₀",
+        "B": "Q / 6ε₀",
+        "C": "6Q / ε₀",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Total flux through the cube is Q/ε₀. Since a cube has 6 equal faces, flux through one face is (1/6) * (Q/ε₀).",
+      "hash": "4456e014a9608914",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आवेश Q को एक घन के केंद्र में रखा जाता है, तो एक फलक (face) से गुजरने वाला फ्लक्स है:",
+          "options": {
+            "A": "Q / ε₀",
+            "B": "Q / 6ε₀",
+            "C": "6Q / ε₀",
+            "D": "शून्य"
+          },
+          "explanation": "घन के माध्यम से कुल फ्लक्स Q/ε₀ है। चूंकि एक घन में 6 समान फलक होते हैं, इसलिए एक फलक के माध्यम से फ्लक्स (1/6) * (Q/ε₀) होता है।"
+        }
+      }
+    }
+  ]
+}

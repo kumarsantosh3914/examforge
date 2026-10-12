@@ -3,6 +3,7 @@
 export const families = [
   { id: 'teaching', label: 'Teaching' },
   { id: 'ssc', label: 'SSC' },
+  { id: 'police', label: 'Police' },
   { id: 'railway', label: 'Railway' },
 ] as const;
 import type { Exam } from './types';
@@ -20,6 +21,14 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     body: 'Bihar Public Service Commission',
     blurb: 'Teacher recruitment, Computer Science paper. Timed sets across DBMS, networks, programming, AI and more.',
   },
+  'bpsc-tre-4.0/physics-11-12': {
+    family: 'teaching',
+    title: 'BPSC TRE 4.0 Physics (Classes 11–12)',
+    shortTitle: 'BPSC TRE 4.0 Physics',
+    body: 'Bihar Public Service Commission',
+    blurb: 'Teacher recruitment, Physics paper for higher secondary. Timed sets across all 20 Class 11–12 units, from kinematics to semiconductors.',
+    description: 'Free BPSC TRE 4.0 Physics mock tests for Class 11–12 teachers: 100 timed sets across 20 units, from measurement and mechanics to optics, modern physics and electronic devices, with explanations in English and Hindi.',
+  },
   'ssc-gd-constable': {
     family: 'ssc',
     title: 'SSC GD Constable Free Mock Tests & Previous Year Papers - General Duty Exam',
@@ -27,6 +36,13 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     body: 'Staff Selection Commission',
     blurb: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series. Master General Intelligence, Reasoning, General Knowledge, Elementary Mathematics, English & Hindi - Start your SSC GD 2026 preparation FREE!',
     description: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series.',
+  },
+  'bihar-police-constable': {
+    family: 'police',
+    title: 'Bihar Police Constable',
+    body: 'Central Selection Board of Constables, Bihar',
+    blurb: 'CSBC constable (sipahi) written exam. Full 100-question, 2-hour mock tests, plus sets for Bihar GK and General Science.',
+    description: 'Free Bihar Police Constable mock tests for the CSBC written exam: full 100-question, 2-hour papers covering Hindi, English, Mathematics, Science, Social Science and Bihar GK, plus General Knowledge and General Science sets, with explanations in English and Hindi.',
   },
   'dsssb-tgt/computer-science': {
     family: 'teaching',

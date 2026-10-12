@@ -1,0 +1,527 @@
+{
+  "subject": "Kinetic Theory of Gases",
+  "set": 5,
+  "title": "Kinetic Theory of Gases Mock Test 5",
+  "questions": [
+    {
+      "id": "kinetic-theory-of-gases-05-001",
+      "number": 1,
+      "question": "The pressure of a gas is doubled isothermally. The root mean square (rms) speed of the gas molecules will:",
+      "options": {
+        "A": "Be doubled",
+        "B": "Be halved",
+        "C": "Remain unchanged",
+        "D": "Become four times"
+      },
+      "answer": "C",
+      "explanation": "The rms speed of gas molecules depends only on the absolute temperature (v_rms ∝ sqrt(T)). If temperature is constant, rms speed remains unchanged regardless of pressure.",
+      "hash": "5f204c3ab6aaf9a4",
+      "translations": {
+        "hi": {
+          "question": "एक गैस के दाब को समतापी रूप से दोगुना कर दिया जाता है। गैस के अणुओं की वर्ग माध्य मूल (rms) गति:",
+          "options": {
+            "A": "दोगुनी हो जाएगी",
+            "B": "आधी हो जाएगी",
+            "C": "अपरिवर्तित रहेगी",
+            "D": "चार गुना हो जाएगी"
+          },
+          "explanation": "गैस के अणुओं की rms गति केवल परम तापमान पर निर्भर करती है (v_rms ∝ sqrt(T))। यदि तापमान स्थिर है, तो दाब चाहे जो भी हो, rms गति अपरिवर्तित रहती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-002",
+      "number": 2,
+      "question": "According to the Law of Equipartition of Energy, the total internal energy of 1 mole of a diatomic gas (rigid) at temperature T is:",
+      "options": {
+        "A": "3/2 RT",
+        "B": "5/2 RT",
+        "C": "7/2 RT",
+        "D": "1/2 RT"
+      },
+      "answer": "B",
+      "explanation": "A rigid diatomic gas has 5 degrees of freedom (3 translational + 2 rotational). Since each degree of freedom contributes 1/2 RT per mole, the total energy is 5/2 RT.",
+      "hash": "ae2751e692b3cc9f",
+      "translations": {
+        "hi": {
+          "question": "ऊर्जा के समविभाजन के नियम के अनुसार, तापमान T पर 1 मोल द्विपरमाणुक गैस (दृढ़) की कुल आंतरिक ऊर्जा है:",
+          "options": {
+            "A": "3/2 RT",
+            "B": "5/2 RT",
+            "C": "7/2 RT",
+            "D": "1/2 RT"
+          },
+          "explanation": "एक दृढ़ द्विपरमाणुक गैस में 5 स्वतंत्रता की कोटि (3 स्थानान्तरण + 2 घूर्णन) होती हैं। चूंकि प्रत्येक कोटि प्रति मोल 1/2 RT का योगदान देती है, कुल ऊर्जा 5/2 RT होती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-003",
+      "number": 3,
+      "question": "The root mean square speed of molecules of a given mass of gas is v at 27°C and 1.0 atm pressure. What will be the rms speed at 127°C and 2.0 atm pressure?",
+      "options": {
+        "A": "v * sqrt(4/3)",
+        "B": "v * sqrt(3/4)",
+        "C": "2v",
+        "D": "v"
+      },
+      "answer": "A",
+      "explanation": "rms speed depends only on temperature (v ∝ sqrt(T)). T1 = 300 K, T2 = 400 K. Ratio v2/v1 = sqrt(400/300) = sqrt(4/3). Pressure has no effect.",
+      "hash": "3017ea0a831933f7",
+      "translations": {
+        "hi": {
+          "question": "27°C और 1.0 atm दाब पर गैस के एक निश्चित द्रव्यमान के अणुओं की rms गति v है। 127°C और 2.0 atm दाब पर rms गति क्या होगी?",
+          "options": {
+            "A": "v * sqrt(4/3)",
+            "B": "v * sqrt(3/4)",
+            "C": "2v",
+            "D": "v"
+          },
+          "explanation": "rms गति केवल तापमान पर निर्भर करती है (v ∝ sqrt(T))। T1 = 300 K, T2 = 400 K। अनुपात v2/v1 = sqrt(400/300) = sqrt(4/3)। दाब का कोई प्रभाव नहीं पड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-004",
+      "number": 4,
+      "question": "The mean free path of gas molecules at constant temperature is inversely proportional to:",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Temperature",
+        "D": "Square root of mass"
+      },
+      "answer": "A",
+      "explanation": "λ = 1 / (sqrt(2) * n * π * d^2). Since number density n ∝ P at constant T, the mean free path λ is inversely proportional to pressure.",
+      "hash": "6215e151022a5db0",
+      "translations": {
+        "hi": {
+          "question": "स्थिर तापमान पर गैस के अणुओं का माध्य मुक्त पथ किसके व्युत्क्रमानुपाती होता है?",
+          "options": {
+            "A": "दाब के",
+            "B": "आयतन के",
+            "C": "तापमान के",
+            "D": "द्रव्यमान के वर्गमूल के"
+          },
+          "explanation": "λ = 1 / (sqrt(2) * n * π * d^2)। चूंकि स्थिर T पर संख्या घनत्व n ∝ P होता है, इसलिए माध्य मुक्त पथ λ दाब के व्युत्क्रमानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-005",
+      "number": 5,
+      "question": "For a polyatomic gas with f degrees of freedom, the ratio of molar specific heats γ is given by:",
+      "options": {
+        "A": "1 + f/2",
+        "B": "1 + 2/f",
+        "C": "f/2 + 1",
+        "D": "f/2"
+      },
+      "answer": "B",
+      "explanation": "Cv = f/2 R and Cp = (f/2 + 1)R. γ = Cp/Cv = (f+2)/f = 1 + 2/f.",
+      "hash": "43ad60f686b67c50",
+      "translations": {
+        "hi": {
+          "question": "f स्वतंत्रता की कोटि वाली एक बहुपरमाणुक गैस के लिए, मोलर विशिष्ट ऊष्माओं का अनुपात γ किसके द्वारा दिया जाता है?",
+          "options": {
+            "A": "1 + f/2",
+            "B": "1 + 2/f",
+            "C": "f/2 + 1",
+            "D": "f/2"
+          },
+          "explanation": "Cv = f/2 R और Cp = (f/2 + 1)R। γ = Cp/Cv = (f+2)/f = 1 + 2/f।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-006",
+      "number": 6,
+      "question": "Boyle's Law is valid for which of the following processes?",
+      "options": {
+        "A": "Isothermal",
+        "B": "Adiabatic",
+        "C": "Isobaric",
+        "D": "Isochoric"
+      },
+      "answer": "A",
+      "explanation": "Boyle's Law states that PV = constant for a fixed mass of gas, which is the definition of an isothermal process where T remains constant.",
+      "hash": "14ae957c3eb5e10c",
+      "translations": {
+        "hi": {
+          "question": "बॉयल का नियम निम्नलिखित में से किस प्रक्रम के लिए मान्य है?",
+          "options": {
+            "A": "समतापी",
+            "B": "रुद्धोष्म",
+            "C": "समदाबी",
+            "D": "समआयतनिक"
+          },
+          "explanation": "बॉयल का नियम बताता है कि गैस के एक निश्चित द्रव्यमान के लिए PV = नियतांक होता है, जो कि एक समतापी प्रक्रम की परिभाषा है जहाँ T स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-007",
+      "number": 7,
+      "question": "The degrees of freedom for a non-linear triatomic molecule (like H2O) are:",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "C",
+      "explanation": "A non-linear triatomic molecule has 3 translational and 3 rotational degrees of freedom, making a total of 6.",
+      "hash": "cbbc5cfaf4403a18",
+      "translations": {
+        "hi": {
+          "question": "एक गैर-रैखिक त्रिपरमाणुक अणु (जैसे H2O) के लिए स्वतंत्रता की कोटि हैं:",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "explanation": "एक गैर-रैखिक त्रिपरमाणुक अणु में 3 स्थानान्तरण और 3 घूर्णन स्वतंत्रता की कोटि होती हैं, जिससे कुल 6 हो जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-008",
+      "number": 8,
+      "question": "The constant 'a' in Van der Waals equation [P + a/V^2][V - b] = RT represents:",
+      "options": {
+        "A": "Correction for molecular volume",
+        "B": "Intermolecular attraction",
+        "C": "Kinetic energy",
+        "D": "Average speed"
+      },
+      "answer": "B",
+      "explanation": "The term a/V^2 accounts for the attractive forces between real gas molecules, which is neglected in ideal gas theory.",
+      "hash": "cffa774d35507b34",
+      "translations": {
+        "hi": {
+          "question": "वान डर वाल्स समीकरण [P + a/V^2][V - b] = RT में नियतांक 'a' क्या दर्शाता है?",
+          "options": {
+            "A": "आणविक आयतन के लिए संशोधन",
+            "B": "अंतर-आणविक आकर्षण",
+            "C": "गतिज ऊर्जा",
+            "D": "औसत गति"
+          },
+          "explanation": "a/V^2 पद वास्तविक गैस अणुओं के बीच आकर्षक बलों का हिसाब रखता है, जिसे आदर्श गैस सिद्धांत में नजरअंदाज कर दिया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-009",
+      "number": 9,
+      "question": "The pressure of a gas is P. If the average translational kinetic energy of its molecules is doubled at constant volume, the new pressure will be:",
+      "options": {
+        "A": "P",
+        "B": "2P",
+        "C": "4P",
+        "D": "P/2"
+      },
+      "answer": "B",
+      "explanation": "Since kinetic energy is proportional to temperature (KE ∝ T) and P ∝ T at constant volume, doubling KE doubles the pressure.",
+      "hash": "953e6b8919521ec3",
+      "translations": {
+        "hi": {
+          "question": "एक गैस का दाब P है। यदि स्थिर आयतन पर इसके अणुओं की औसत स्थानान्तरण गतिज ऊर्जा दोगुनी कर दी जाए, तो नया दाब होगा:",
+          "options": {
+            "A": "P",
+            "B": "2P",
+            "C": "4P",
+            "D": "P/2"
+          },
+          "explanation": "चूंकि गतिज ऊर्जा तापमान के समानुपाती होती है (KE ∝ T) और स्थिर आयतन पर P ∝ T होता है, इसलिए KE को दोगुना करने से दाब दोगुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-010",
+      "number": 10,
+      "question": "What is the kinetic energy of 1 gram mole of a monatomic gas at temperature T?",
+      "options": {
+        "A": "3/2 RT",
+        "B": "1/2 RT",
+        "C": "5/2 RT",
+        "D": "3 RT"
+      },
+      "answer": "A",
+      "explanation": "A monatomic gas has 3 degrees of freedom. Energy per mole = 3 * (1/2 RT) = 3/2 RT.",
+      "hash": "31259446ec8b4163",
+      "translations": {
+        "hi": {
+          "question": "तापमान T पर एकपरमाणुक गैस के 1 ग्राम मोल की गतिज ऊर्जा क्या है?",
+          "options": {
+            "A": "3/2 RT",
+            "B": "1/2 RT",
+            "C": "5/2 RT",
+            "D": "3 RT"
+          },
+          "explanation": "एकपरमाणुक गैस में 3 स्वतंत्रता की कोटि होती हैं। प्रति मोल ऊर्जा = 3 * (1/2 RT) = 3/2 RT।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-011",
+      "number": 11,
+      "question": "Average speed of molecules (v_avg), most probable speed (v_mp) and rms speed (v_rms) follow the order:",
+      "options": {
+        "A": "v_mp < v_avg < v_rms",
+        "B": "v_rms < v_avg < v_mp",
+        "C": "v_avg < v_rms < v_mp",
+        "D": "v_mp = v_avg = v_rms"
+      },
+      "answer": "A",
+      "explanation": "numerically v_mp = 1.41 * sqrt(RT/M), v_avg = 1.60 * sqrt(RT/M), and v_rms = 1.73 * sqrt(RT/M).",
+      "hash": "bc8232c755ce80d3",
+      "translations": {
+        "hi": {
+          "question": "अणुओं की औसत गति (v_avg), सबसे संभावित गति (v_mp) और rms गति (v_rms) किस क्रम का पालन करती हैं?",
+          "options": {
+            "A": "v_mp < v_avg < v_rms",
+            "B": "v_rms < v_avg < v_mp",
+            "C": "v_avg < v_rms < v_mp",
+            "D": "v_mp = v_avg = v_rms"
+          },
+          "explanation": "संख्यात्मक रूप से v_mp = 1.41 * sqrt(RT/M), v_avg = 1.60 * sqrt(RT/M), और v_rms = 1.73 * sqrt(RT/M) होता है। [Image of Maxwell-Boltzmann distribution of speeds]"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-012",
+      "number": 12,
+      "question": "The root mean square speed of molecules of a gas is v. If the pressure is doubled keeping volume constant, the new rms speed will be:",
+      "options": {
+        "A": "v",
+        "B": "2v",
+        "C": "v * sqrt(2)",
+        "D": "v/2"
+      },
+      "answer": "C",
+      "explanation": "For constant volume, P ∝ T. If P doubles, T doubles. Since v ∝ sqrt(T), speed becomes sqrt(2) * v.",
+      "hash": "342dd376b8dad4d1",
+      "translations": {
+        "hi": {
+          "question": "एक गैस के अणुओं की वर्ग माध्य मूल गति v है। यदि आयतन स्थिर रखते हुए दाब दोगुना कर दिया जाए, तो नई rms गति होगी:",
+          "options": {
+            "A": "v",
+            "B": "2v",
+            "C": "v * sqrt(2)",
+            "D": "v/2"
+          },
+          "explanation": "स्थिर आयतन के लिए, P ∝ T। यदि P दोगुना होता है, तो T दोगुना होता है। चूंकि v ∝ sqrt(T), गति sqrt(2) * v हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-013",
+      "number": 13,
+      "question": "Dalton's Law of partial pressures is valid for a mixture of:",
+      "options": {
+        "A": "Non-reacting gases",
+        "B": "Reacting gases",
+        "C": "Both A and B",
+        "D": "Only liquids"
+      },
+      "answer": "A",
+      "explanation": "Dalton's Law applies only to non-reacting ideal gases where the total pressure is the sum of partial pressures.",
+      "hash": "5a53684a7dd4eb8e",
+      "translations": {
+        "hi": {
+          "question": "डाल्टन का आंशिक दाब का नियम किसके मिश्रण के लिए मान्य है?",
+          "options": {
+            "A": "प्रतिक्रिया न करने वाली गैसों के",
+            "B": "प्रतिक्रिया करने वाली गैसों के",
+            "C": "A और B दोनों",
+            "D": "केवल द्रवों के"
+          },
+          "explanation": "डाल्टन का नियम केवल प्रतिक्रिया न करने वाली आदर्श गैसों पर लागू होता है जहाँ कुल दाब आंशिक दाबों का योग होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-014",
+      "number": 14,
+      "question": "The value of universal gas constant R in cal/mol-K is approximately:",
+      "options": {
+        "A": "8.314",
+        "B": "1.987",
+        "C": "0.0821",
+        "D": "24.8"
+      },
+      "answer": "B",
+      "explanation": "R = 8.314 J/mol-K. Since 1 calorie ≈ 4.184 J, R ≈ 1.987 cal/mol-K (often taken as 2 for calculations).",
+      "hash": "4f44a54c19eda3b4",
+      "translations": {
+        "hi": {
+          "question": "cal/mol-K में सार्वत्रिक गैस नियतांक R का मान लगभग है:",
+          "options": {
+            "A": "8.314",
+            "B": "1.987",
+            "C": "0.0821",
+            "D": "24.8"
+          },
+          "explanation": "R = 8.314 J/mol-K। चूंकि 1 कैलोरी ≈ 4.184 J, इसलिए R ≈ 1.987 cal/mol-K (अक्सर गणना के लिए 2 लिया जाता है)।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-015",
+      "number": 15,
+      "question": "Kinetic theory of gases assumes that the volume of gas molecules is:",
+      "options": {
+        "A": "Equal to the volume of container",
+        "B": "Negligible compared to volume of container",
+        "C": "Twice the volume of container",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "One of the basic postulates of the kinetic theory of ideal gases is that the actual volume of molecules is negligible compared to the total volume of the gas.",
+      "hash": "8f8c9c2d2032d076",
+      "translations": {
+        "hi": {
+          "question": "गैसों का अणुगति सिद्धांत मानता है कि गैस अणुओं का आयतन है:",
+          "options": {
+            "A": "बर्तन के आयतन के बराबर",
+            "B": "बर्तन के आयतन की तुलना में नगण्य",
+            "C": "बर्तन के आयतन का दोगुना",
+            "D": "अनंत"
+          },
+          "explanation": "आदर्श गैसों के अणुगति सिद्धांत की मूल धारणाओं में से एक यह है कि अणुओं का वास्तविक आयतन गैस के कुल आयतन की तुलना में नगण्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-016",
+      "number": 16,
+      "question": "If Boltzmann constant is k and absolute temperature is T, the average kinetic energy per molecule per degree of freedom is:",
+      "options": {
+        "A": "kT",
+        "B": "1/2 kT",
+        "C": "3/2 kT",
+        "D": "5/2 kT"
+      },
+      "answer": "B",
+      "explanation": "The Law of Equipartition of Energy states that average energy is 1/2 kT for each degree of freedom.",
+      "hash": "bbe4b842887e89cc",
+      "translations": {
+        "hi": {
+          "question": "यदि बोल्ट्ज़मैन नियतांक k है और परम तापमान T है, तो प्रति अणु प्रति स्वतंत्रता की कोटि औसत गतिज ऊर्जा है:",
+          "options": {
+            "A": "kT",
+            "B": "1/2 kT",
+            "C": "3/2 kT",
+            "D": "5/2 kT"
+          },
+          "explanation": "ऊर्जा के समविभाजन का नियम बताता है कि प्रत्येक स्वतंत्रता की कोटि के लिए औसत ऊर्जा 1/2 kT होती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-017",
+      "number": 17,
+      "question": "The number of degrees of freedom for a triatomic linear molecule (like CO2) is:",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "Linear molecules, regardless of number of atoms, have 3 translational and 2 rotational degrees of freedom (ignoring vibrations).",
+      "hash": "a1a7c79995e24a75",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिपरमाणुक रैखिक अणु (जैसे CO2) के लिए स्वतंत्रता की कोटि की संख्या है:",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "explanation": "रैखिक अणुओं में, परमाणुओं की संख्या चाहे जो भी हो, 3 स्थानान्तरण और 2 घूर्णन स्वतंत्रता की कोटि होती हैं (कंपन को छोड़कर)।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-018",
+      "number": 18,
+      "question": "Brownian motion is evidence of:",
+      "options": {
+        "A": "Discrete nature of matter",
+        "B": "Continuous nature of matter",
+        "C": "Attracting forces between molecules",
+        "D": "Absence of molecular motion"
+      },
+      "answer": "A",
+      "explanation": "Brownian motion results from the constant bombardment of particles by invisible molecules, proving that matter is made of discrete particles.",
+      "hash": "aac64eb8c9c33f84",
+      "translations": {
+        "hi": {
+          "question": "ब्राउनियन गति किसका प्रमाण है?",
+          "options": {
+            "A": "पदार्थ की असंतत प्रकृति का",
+            "B": "पदार्थ की निरंतर प्रकृति का",
+            "C": "अणुओं के बीच आकर्षक बलों का",
+            "D": "आणविक गति की अनुपस्थिति का"
+          },
+          "explanation": "ब्राउनियन गति अदृश्य अणुओं द्वारा कणों की निरंतर बमबारी का परिणाम है, जो यह साबित करती है कि पदार्थ असंतत कणों से बना है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-019",
+      "number": 19,
+      "question": "At what temperature does the rms speed of oxygen molecules become equal to that of nitrogen molecules at 27°C?",
+      "options": {
+        "A": "27°C",
+        "B": "69.8°C",
+        "C": "127°C",
+        "D": "0°C"
+      },
+      "answer": "B",
+      "explanation": "v1 = v2 => T1/M1 = T2/M2. 300/28 = T_oxy/32. T_oxy = (300 * 32) / 28 ≈ 342.8 K = 69.8°C.",
+      "hash": "2b19230aad38b3b6",
+      "translations": {
+        "hi": {
+          "question": "किस तापमान पर ऑक्सीजन अणुओं की rms गति 27°C पर नाइट्रोजन अणुओं की गति के बराबर हो जाती है?",
+          "options": {
+            "A": "27°C",
+            "B": "69.8°C",
+            "C": "127°C",
+            "D": "0°C"
+          },
+          "explanation": "v1 = v2 => T1/M1 = T2/M2। 300/28 = T_oxy/32। T_oxy = (300 * 32) / 28 ≈ 342.8 K = 69.8°C।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-05-020",
+      "number": 20,
+      "question": "Which parameter remains constant in Charles's Law?",
+      "options": {
+        "A": "Temperature",
+        "B": "Pressure",
+        "C": "Volume",
+        "D": "Mass only"
+      },
+      "answer": "B",
+      "explanation": "Charles's Law states that V ∝ T when pressure P remains constant.",
+      "hash": "63068bea228db48d",
+      "translations": {
+        "hi": {
+          "question": "चार्ल्स के नियम में कौन सा पैरामीटर स्थिर रहता है?",
+          "options": {
+            "A": "तापमान",
+            "B": "दाब",
+            "C": "आयतन",
+            "D": "केवल द्रव्यमान"
+          },
+          "explanation": "चार्ल्स का नियम बताता है कि जब दाब P स्थिर रहता है तो V ∝ T होता है।"
+        }
+      }
+    }
+  ]
+}

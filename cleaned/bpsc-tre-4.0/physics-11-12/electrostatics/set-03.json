@@ -1,0 +1,527 @@
+{
+  "subject": "Electrostatics",
+  "set": 3,
+  "title": "Electrostatics Mock Test 3",
+  "questions": [
+    {
+      "id": "electrostatics-03-001",
+      "number": 1,
+      "question": "The electric potential energy of a system of two point charges q1 and q2 separated by a distance r is:",
+      "options": {
+        "A": "(1/4πε₀) (q1q2 / r)",
+        "B": "(1/4πε₀) (q1q2 / r²)",
+        "C": "Zero",
+        "D": "(1/4πε₀) (q1q2 / r³)"
+      },
+      "answer": "A",
+      "explanation": "Potential energy is the work done in bringing the charges from infinity to their positions. It is proportional to 1/r.",
+      "hash": "c1487c1474deab61",
+      "translations": {
+        "hi": {
+          "question": "दूरी r द्वारा अलग किए गए दो बिंदु आवेशों q1 और q2 के निकाय की विद्युत स्थितिज ऊर्जा है:",
+          "options": {
+            "A": "(1/4πε₀) (q1q2 / r)",
+            "B": "(1/4πε₀) (q1q2 / r²)",
+            "C": "शून्य",
+            "D": "(1/4πε₀) (q1q2 / r³)"
+          },
+          "explanation": "स्थितिज ऊर्जा आवेशों को अनंत से उनके स्थान तक लाने में किया गया कार्य है। यह 1/r के समानुपाती होती है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-002",
+      "number": 2,
+      "question": "A point charge q is placed at the corner of a cube of side 'a'. The electric flux through the entire cube is:",
+      "options": {
+        "A": "q / ε₀",
+        "B": "q / 8ε₀",
+        "C": "q / 6ε₀",
+        "D": "q / 4ε₀"
+      },
+      "answer": "B",
+      "explanation": "To enclose the charge placed at a corner, we need 8 such cubes. By Gauss's Law, the flux through each cube is 1/8th of the total flux (q/ε₀).",
+      "hash": "5b695c93cfd27382",
+      "translations": {
+        "hi": {
+          "question": "भुजा 'a' वाले एक घन के कोने पर एक बिंदु आवेश q रखा गया है। पूरे घन से गुजरने वाला विद्युत फ्लक्स है:",
+          "options": {
+            "A": "q / ε₀",
+            "B": "q / 8ε₀",
+            "C": "q / 6ε₀",
+            "D": "q / 4ε₀"
+          },
+          "explanation": "कोने पर रखे आवेश को घेरने के लिए हमें ऐसे 8 घनों की आवश्यकता होती है। गॉस के नियम के अनुसार, प्रत्येक घन से गुजरने वाला फ्लक्स कुल फ्लक्स (q/ε₀) का 1/8वां हिस्सा होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-003",
+      "number": 3,
+      "question": "When a dielectric medium of constant K is filled between the plates of a charged capacitor, its capacitance:",
+      "options": {
+        "A": "Increases K times",
+        "B": "Decreases K times",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Capacitance C' = KC₀. The presence of a dielectric reduces the electric field, allowing more charge to be stored for the same potential.",
+      "hash": "f284e83a4dce59c1",
+      "translations": {
+        "hi": {
+          "question": "जब एक आवेशित संधारित्र की प्लेटों के बीच K नियतांक वाला परावैद्युत माध्यम भरा जाता है, तो इसकी धारिता:",
+          "options": {
+            "A": "K गुना बढ़ जाती है",
+            "B": "K गुना कम हो जाती है",
+            "C": "समान रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "धारिता C' = KC₀। परावैद्युत की उपस्थिति विद्युत क्षेत्र को कम करती है, जिससे समान विभव के लिए अधिक आवेश संचित किया जा सकता है। [Image of a parallel plate capacitor with a dielectric slab]"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-004",
+      "number": 4,
+      "question": "The ratio of the electric field at an axial point to that at an equatorial point for a short dipole at the same distance r is:",
+      "options": {
+        "A": "1 : 1",
+        "B": "2 : 1",
+        "C": "1 : 2",
+        "D": "4 : 1"
+      },
+      "answer": "B",
+      "explanation": "E_axial = (1/4πε₀) (2p/r³) and E_equatorial = (1/4πε₀) (p/r³). The ratio is 2.",
+      "hash": "3dbf25f75722085e",
+      "translations": {
+        "hi": {
+          "question": "समान दूरी r पर एक छोटे द्विध्रुव के लिए अक्षीय बिंदु और निरक्षीय बिंदु पर विद्युत क्षेत्र का अनुपात है:",
+          "options": {
+            "A": "1 : 1",
+            "B": "2 : 1",
+            "C": "1 : 2",
+            "D": "4 : 1"
+          },
+          "explanation": "E_अक्षीय = (1/4πε₀) (2p/r³) और E_निरक्षीय = (1/4πε₀) (p/r³) है। इनका अनुपात 2 है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-005",
+      "number": 5,
+      "question": "A parallel plate capacitor is charged and then the battery is removed. If the plates are moved further apart, the energy stored in the capacitor:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Charge Q is constant. Energy U = Q² / 2C. As distance increases, C decreases (C ∝ 1/d), hence U increases.",
+      "hash": "60620191cc6fd72f",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर प्लेट संधारित्र को आवेशित किया जाता है और फिर बैटरी हटा दी जाती है। यदि प्लेटों को और दूर ले जाया जाता है, तो संधारित्र में संचित ऊर्जा:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "समान रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "आवेश Q स्थिर है। ऊर्जा U = Q² / 2C। जैसे-जैसे दूरी बढ़ती है, C घटता है (C ∝ 1/d), इसलिए U बढ़ता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-006",
+      "number": 6,
+      "question": "If a charge is placed outside a closed Gaussian surface, the net electric flux through the surface is:",
+      "options": {
+        "A": "Q / ε₀",
+        "B": "Zero",
+        "C": "2Q / ε₀",
+        "D": "Dependent on distance"
+      },
+      "answer": "B",
+      "explanation": "According to Gauss's Law, only the charge enclosed within the surface contributes to the net flux.",
+      "hash": "3e6019858d92f5b5",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आवेश को बंद गॉसियन सतह के बाहर रखा जाता है, तो सतह से गुजरने वाला शुद्ध विद्युत फ्लक्स है:",
+          "options": {
+            "A": "Q / ε₀",
+            "B": "शून्य",
+            "C": "2Q / ε₀",
+            "D": "दूरी पर निर्भर"
+          },
+          "explanation": "गॉस के नियम के अनुसार, केवल सतह के भीतर बंद आवेश ही शुद्ध फ्लक्स में योगदान देता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-007",
+      "number": 7,
+      "question": "The unit of electric field intensity is equivalent to:",
+      "options": {
+        "A": "Volt/meter",
+        "B": "Newton/meter",
+        "C": "Joule/Coulomb",
+        "D": "Ohm-meter"
+      },
+      "answer": "A",
+      "explanation": "E = F/q (N/C) and also E = -dV/dx (V/m). Both are standard units.",
+      "hash": "3e4300ef16d8cec8",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र की तीव्रता की इकाई किसके समतुल्य है?",
+          "options": {
+            "A": "वोल्ट/मीटर",
+            "B": "न्यूटन/मीटर",
+            "C": "जूल/कूलम्ब",
+            "D": "ओम-मीटर"
+          },
+          "explanation": "E = F/q (N/C) और E = -dV/dx (V/m) भी होता है। दोनों मानक इकाइयाँ हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-008",
+      "number": 8,
+      "question": "Two identical metallic spheres A and B have charges +Q and -Q. A third uncharged sphere C is first touched with A, then with B, and finally removed. The new charge on B is:",
+      "options": {
+        "A": "-Q/2",
+        "B": "-Q/4",
+        "C": "-3Q/4",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "C touches A: Q_A = Q/2, Q_C = Q/2. Then C touches B: Q_B = (Q_C + Q_B)/2 = (Q/2 - Q)/2 = -Q/4.",
+      "hash": "31a07fbe77962ed6",
+      "translations": {
+        "hi": {
+          "question": "दो समान धातु के गोलों A और B पर +Q और -Q आवेश हैं। एक तीसरा अनावेशित गोला C पहले A से, फिर B से छुआ जाता है और अंत में हटा दिया जाता है। B पर नया आवेश है:",
+          "options": {
+            "A": "-Q/2",
+            "B": "-Q/4",
+            "C": "-3Q/4",
+            "D": "शून्य"
+          },
+          "explanation": "C, A को छूता है: Q_A = Q/2, Q_C = Q/2। फिर C, B को छूता है: Q_B = (Q_C + Q_B)/2 = (Q/2 - Q)/2 = -Q/4।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-009",
+      "number": 9,
+      "question": "The electric potential at any point on the surface of a charged conductor is:",
+      "options": {
+        "A": "Constant",
+        "B": "Zero",
+        "C": "Maximum at corners",
+        "D": "Minimum at corners"
+      },
+      "answer": "A",
+      "explanation": "The surface of a conductor is always an equipotential surface under electrostatic conditions.",
+      "hash": "7926536e4b170c5c",
+      "translations": {
+        "hi": {
+          "question": "एक आवेशित चालक की सतह के किसी भी बिंदु पर विद्युत विभव होता है:",
+          "options": {
+            "A": "स्थिर",
+            "B": "शून्य",
+            "C": "कोनों पर अधिकतम",
+            "D": "कोनों पर न्यूनतम"
+          },
+          "explanation": "स्थिरवैद्युत स्थितियों में चालक की सतह हमेशा एक समविभव सतह होती है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-010",
+      "number": 10,
+      "question": "In a parallel plate capacitor, the electric field between the plates is E. If the distance between the plates is halved, the electric field will be:",
+      "options": {
+        "A": "E",
+        "B": "2E",
+        "C": "E/2",
+        "D": "4E"
+      },
+      "answer": "A",
+      "explanation": "Electric field E = σ/ε₀. For a given charge, it is independent of the distance between the plates (provided distance is small).",
+      "hash": "546bee468040cce6",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर प्लेट संधारित्र में, प्लेटों के बीच विद्युत क्षेत्र E है। यदि प्लेटों के बीच की दूरी आधी कर दी जाए, तो विद्युत क्षेत्र होगा:",
+          "options": {
+            "A": "E",
+            "B": "2E",
+            "C": "E/2",
+            "D": "4E"
+          },
+          "explanation": "विद्युत क्षेत्र E = σ/ε₀। दिए गए आवेश के लिए, यह प्लेटों के बीच की दूरी से स्वतंत्र है (बशर्ते दूरी कम हो)।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-011",
+      "number": 11,
+      "question": "Kinetic energy gained by an electron accelerated through a potential difference of 1 Volt is:",
+      "options": {
+        "A": "1.6 x 10⁻¹⁹ J",
+        "B": "1 J",
+        "C": "1.6 x 10⁻³¹ J",
+        "D": "9.1 x 10⁻³¹ J"
+      },
+      "answer": "A",
+      "explanation": "This energy is defined as 1 electron-volt (eV). KE = qV = (1.6 x 10⁻¹⁹ C) * (1 V).",
+      "hash": "2efbadcbb3753a3e",
+      "translations": {
+        "hi": {
+          "question": "1 वोल्ट के विभवांतर से त्वरित इलेक्ट्रॉन द्वारा प्राप्त गतिज ऊर्जा है:",
+          "options": {
+            "A": "1.6 x 10⁻¹⁹ J",
+            "B": "1 J",
+            "C": "1.6 x 10⁻³¹ J",
+            "D": "9.1 x 10⁻³¹ J"
+          },
+          "explanation": "इस ऊर्जा को 1 इलेक्ट्रॉन-वोल्ट (eV) के रूप में परिभाषित किया गया है। KE = qV = (1.6 x 10⁻¹⁹ C) * (1 V)।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-012",
+      "number": 12,
+      "question": "The SI unit of surface charge density is:",
+      "options": {
+        "A": "C/m²",
+        "B": "C/m",
+        "C": "C-m",
+        "D": "C/m³"
+      },
+      "answer": "A",
+      "explanation": "σ = Charge / Area. Units are Coulombs per square meter.",
+      "hash": "97eeaa3b780af14c",
+      "translations": {
+        "hi": {
+          "question": "पृष्ठीय आवेश घनत्व की SI इकाई है:",
+          "options": {
+            "A": "C/m²",
+            "B": "C/m",
+            "C": "C-m",
+            "D": "C/m³"
+          },
+          "explanation": "σ = आवेश / क्षेत्रफल। इसकी इकाई कूलम्ब प्रति वर्ग मीटर है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-013",
+      "number": 13,
+      "question": "Two point charges separated by distance 'd' exert a force 'F' on each other. At what distance will they exert a force 'F/4'?",
+      "options": {
+        "A": "2d",
+        "B": "d/2",
+        "C": "4d",
+        "D": "d/4"
+      },
+      "answer": "A",
+      "explanation": "F ∝ 1/r². If force becomes 1/4th, the distance r must be squared root of 4, which is 2 times.",
+      "hash": "e177c113bf0c6a89",
+      "translations": {
+        "hi": {
+          "question": "दूरी 'd' से अलग किए गए दो बिंदु आवेश एक-दूसरे पर 'F' बल लगाते हैं। किस दूरी पर वे 'F/4' बल लगाएंगे?",
+          "options": {
+            "A": "2d",
+            "B": "d/2",
+            "C": "4d",
+            "D": "d/4"
+          },
+          "explanation": "F ∝ 1/r²। यदि बल 1/4 हो जाता है, तो दूरी r, 4 का वर्गमूल यानी 2 गुना होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-014",
+      "number": 14,
+      "question": "An electric dipole of moment 'p' is placed in a uniform electric field 'E'. The potential energy of the dipole is minimum when the angle between p and E is:",
+      "options": {
+        "A": "0°",
+        "B": "90°",
+        "C": "180°",
+        "D": "45°"
+      },
+      "answer": "A",
+      "explanation": "Potential energy U = -pE cosθ. For θ = 0°, U = -pE (minimum). For θ = 180°, U = +pE (maximum).",
+      "hash": "cd960fb03544dc9e",
+      "translations": {
+        "hi": {
+          "question": "आघूर्ण 'p' के एक विद्युत द्विध्रुव को एक समान विद्युत क्षेत्र 'E' में रखा गया है। द्विध्रुव की स्थितिज ऊर्जा न्यूनतम होती है जब p और E के बीच का कोण होता है:",
+          "options": {
+            "A": "0°",
+            "B": "90°",
+            "C": "180°",
+            "D": "45°"
+          },
+          "explanation": "स्थितिज ऊर्जा U = -pE cosθ। θ = 0° के लिए, U = -pE (न्यूनतम) है। θ = 180° के लिए, U = +pE (अधिकतम) है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-015",
+      "number": 15,
+      "question": "The magnitude of electric field intensity inside a charged solid non-conducting sphere of radius R at a distance r (r < R) is proportional to:",
+      "options": {
+        "A": "r",
+        "B": "1/r",
+        "C": "r²",
+        "D": "1/r²"
+      },
+      "answer": "A",
+      "explanation": "E = (1/4πε₀) (Qr/R³). Inside a uniform volume charge distribution, the field increases linearly from the center.",
+      "hash": "5665d1a4bb4e4b15",
+      "translations": {
+        "hi": {
+          "question": "त्रिज्या R के एक आवेशित ठोस अचालक गोले के अंदर दूरी r (r < R) पर विद्युत क्षेत्र की तीव्रता किसके समानुपाती होती है?",
+          "options": {
+            "A": "r",
+            "B": "1/r",
+            "C": "r²",
+            "D": "1/r²"
+          },
+          "explanation": "E = (1/4πε₀) (Qr/R³)। एक समान आयतन आवेश वितरण के अंदर, क्षेत्र केंद्र से रैखिक रूप से बढ़ता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-016",
+      "number": 16,
+      "question": "A capacitor of 10μF is charged to 100V. The energy stored in it is:",
+      "options": {
+        "A": "0.05 J",
+        "B": "0.5 J",
+        "C": "5 J",
+        "D": "50 J"
+      },
+      "answer": "A",
+      "explanation": "U = 1/2 CV² = 0.5 * (10 x 10⁻⁶) * (100)² = 0.5 * 10⁻⁵ * 10000 = 0.05 J.",
+      "hash": "33bcfd3f76d0cdad",
+      "translations": {
+        "hi": {
+          "question": "10μF के संधारित्र को 100V तक आवेशित किया जाता है। इसमें संचित ऊर्जा है:",
+          "options": {
+            "A": "0.05 J",
+            "B": "0.5 J",
+            "C": "5 J",
+            "D": "50 J"
+          },
+          "explanation": "U = 1/2 CV² = 0.5 * (10 x 10⁻⁶) * (100)² = 0.5 * 10⁻⁵ * 10000 = 0.05 J।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-017",
+      "number": 17,
+      "question": "Which of the following is NOT true for electric field lines?",
+      "options": {
+        "A": "They form closed loops",
+        "B": "They are continuous curves",
+        "C": "They do not intersect",
+        "D": "They start from positive and end at negative charge"
+      },
+      "answer": "A",
+      "explanation": "Electric field lines do not form closed loops; magnetic field lines do.",
+      "hash": "62a277fbc25f1c44",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र रेखाओं के लिए निम्नलिखित में से कौन सा सत्य नहीं है?",
+          "options": {
+            "A": "वे बंद लूप बनाती हैं",
+            "B": "वे निरंतर वक्र हैं",
+            "C": "वे प्रतिच्छेद नहीं करती हैं",
+            "D": "वे धनात्मक से शुरू होकर ऋणात्मक आवेश पर समाप्त होती हैं"
+          },
+          "explanation": "विद्युत क्षेत्र रेखाएं बंद लूप नहीं बनाती हैं; चुंबकीय क्षेत्र रेखाएं बनाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-018",
+      "number": 18,
+      "question": "Equipotential surfaces due to a point charge are:",
+      "options": {
+        "A": "Concentric spheres",
+        "B": "Parallel planes",
+        "C": "Cylindrical",
+        "D": "Cubical"
+      },
+      "answer": "A",
+      "explanation": "For a point charge, potential depends only on distance r. Surfaces of constant r are spheres centered on the charge.",
+      "hash": "fbc0cbfe2c533ddc",
+      "translations": {
+        "hi": {
+          "question": "बिंदु आवेश के कारण समविभव सतहें होती हैं:",
+          "options": {
+            "A": "संकेंद्रित गोले",
+            "B": "समांतर तल",
+            "C": "बेलनाकार",
+            "D": "घन के आकार की"
+          },
+          "explanation": "बिंदु आवेश के लिए, विभव केवल दूरी r पर निर्भर करता है। स्थिर r की सतहें आवेश पर केंद्रित गोले होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-019",
+      "number": 19,
+      "question": "If εᵣ is the relative permittivity and ε₀ is the permittivity of free space, then the force between charges in a medium is:",
+      "options": {
+        "A": "F_vacuum / εᵣ",
+        "B": "F_vacuum * εᵣ",
+        "C": "F_vacuum / (ε₀εᵣ)",
+        "D": "Independent of medium"
+      },
+      "answer": "A",
+      "explanation": "The force decreases in a medium because of polarization, F_medium = F_air / K, where K = εᵣ.",
+      "hash": "ec523ddff58bf298",
+      "translations": {
+        "hi": {
+          "question": "यदि εᵣ सापेक्ष विद्युतशीलता है और ε₀ निर्वात की विद्युतशीलता है, तो माध्यम में आवेशों के बीच का बल है:",
+          "options": {
+            "A": "F_vacuum / εᵣ",
+            "B": "F_vacuum * εᵣ",
+            "C": "F_vacuum / (ε₀εᵣ)",
+            "D": "माध्यम से स्वतंत्र"
+          },
+          "explanation": "ध्रुवीकरण के कारण माध्यम में बल कम हो जाता है, F_medium = F_air / K, जहाँ K = εᵣ है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-03-020",
+      "number": 20,
+      "question": "A charge Q is divided into two parts q and (Q-q). What is the value of q for maximum electrostatic repulsion between them?",
+      "options": {
+        "A": "Q/2",
+        "B": "Q/4",
+        "C": "Q/3",
+        "D": "Q"
+      },
+      "answer": "A",
+      "explanation": "Repulsion F ∝ q(Q-q). Differentiating with respect to q and equating to zero gives q = Q/2.",
+      "hash": "8dbf6735b699a736",
+      "translations": {
+        "hi": {
+          "question": "एक आवेश Q को दो भागों q और (Q-q) में विभाजित किया गया है। उनके बीच अधिकतम स्थिरवैद्युत प्रतिकर्षण के लिए q का मान क्या है?",
+          "options": {
+            "A": "Q/2",
+            "B": "Q/4",
+            "C": "Q/3",
+            "D": "Q"
+          },
+          "explanation": "प्रतिकर्षण F ∝ q(Q-q)। q के सापेक्ष अवकलन करने और शून्य के बराबर रखने पर q = Q/2 प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

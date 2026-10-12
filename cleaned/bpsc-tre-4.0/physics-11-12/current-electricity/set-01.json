@@ -1,0 +1,527 @@
+{
+  "subject": "Current Electricity",
+  "set": 1,
+  "title": "Current Electricity Mock Test 1",
+  "questions": [
+    {
+      "id": "current-electricity-01-001",
+      "number": 1,
+      "question": "What is the drift velocity of electrons in a copper wire of cross-sectional area A carrying current I?",
+      "options": {
+        "A": "I/nAe",
+        "B": "nAe/I",
+        "C": "Ie/nA",
+        "D": "IA/ne"
+      },
+      "answer": "A",
+      "explanation": "Drift velocity is given by the relation I = nAeVd, hence Vd = I/nAe.",
+      "hash": "9fae9910cc2a4e7c",
+      "translations": {
+        "hi": {
+          "question": "धारा I प्रवाहित करने वाले अनुप्रस्थ काट क्षेत्रफल A के तांबे के तार में इलेक्ट्रॉनों का अपवाह वेग क्या है?",
+          "options": {
+            "A": "I/nAe",
+            "B": "nAe/I",
+            "C": "Ie/nA",
+            "D": "IA/ne"
+          },
+          "explanation": "अपवाह वेग संबंध I = nAeVd द्वारा दिया जाता है, इसलिए Vd = I/nAe।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-002",
+      "number": 2,
+      "question": "What is the SI unit of electrical conductivity?",
+      "options": {
+        "A": "Ohm-meter",
+        "B": "Siemens per meter",
+        "C": "Ohm",
+        "D": "Mho-meter"
+      },
+      "answer": "B",
+      "explanation": "Conductivity is the reciprocal of resistivity, measured in S/m or (ohm-m)^-1.",
+      "hash": "89f7e53f949008dd",
+      "translations": {
+        "hi": {
+          "question": "विद्युत चालकता की SI इकाई क्या है?",
+          "options": {
+            "A": "ओम-मीटर",
+            "B": "सीमेंस प्रति मीटर",
+            "C": "ओम",
+            "D": "म्हो-मीटर"
+          },
+          "explanation": "चालकता प्रतिरोधकता का व्युत्क्रम है, जिसे S/m या (ohm-m)^-1 में मापा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-003",
+      "number": 3,
+      "question": "Kirchhoff's First Law (junction rule) is based on the conservation of which physical quantity?",
+      "options": {
+        "A": "Energy",
+        "B": "Momentum",
+        "C": "Charge",
+        "D": "Mass"
+      },
+      "answer": "C",
+      "explanation": "The sum of currents entering a junction equals the sum of currents leaving it, representing charge conservation.",
+      "hash": "f8a2b498dde7809d",
+      "translations": {
+        "hi": {
+          "question": "किरचॉफ का प्रथम नियम (संधि नियम) किस भौतिक राशि के संरक्षण पर आधारित है?",
+          "options": {
+            "A": "ऊर्जा",
+            "B": "संवेग",
+            "C": "आवेश",
+            "D": "द्रव्यमान"
+          },
+          "explanation": "संधि में प्रवेश करने वाली धाराओं का योग बाहर निकलने वाली धाराओं के योग के बराबर होता है, जो आवेश संरक्षण को दर्शाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-004",
+      "number": 4,
+      "question": "How does the resistance of a semiconductor change with an increase in temperature?",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "First increases then decreases"
+      },
+      "answer": "B",
+      "explanation": "Semiconductors have a negative temperature coefficient of resistance.",
+      "hash": "725e987a3847ad83",
+      "translations": {
+        "hi": {
+          "question": "तापमान में वृद्धि के साथ अर्धचालक का प्रतिरोध कैसे बदलता है?",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "स्थिर रहता है",
+            "D": "पहले बढ़ता है फिर घटता है"
+          },
+          "explanation": "अर्धचालकों में प्रतिरोध का ऋणात्मक तापमान गुणांक होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-005",
+      "number": 5,
+      "question": "In a Wheatstone bridge, the bridge is said to be balanced when the current through the galvanometer is:",
+      "options": {
+        "A": "Maximum",
+        "B": "Half of total current",
+        "C": "Zero",
+        "D": "Dependent on the battery"
+      },
+      "answer": "C",
+      "explanation": "A balanced Wheatstone bridge means the potential difference across the galvanometer is zero.",
+      "hash": "1f666f3b58fdcb8f",
+      "translations": {
+        "hi": {
+          "question": "व्हीटस्टोन ब्रिज में, ब्रिज को संतुलित तब कहा जाता है जब गैल्वेनोमीटर से प्रवाहित धारा होती है:",
+          "options": {
+            "A": "अधिकतम",
+            "B": "कुल धारा का आधा",
+            "C": "शून्य",
+            "D": "बैटरी पर निर्भर"
+          },
+          "explanation": "एक संतुलित व्हीटस्टोन ब्रिज का अर्थ है कि गैल्वेनोमीटर के सिरों पर विभवांतर शून्य है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-006",
+      "number": 6,
+      "question": "Which material is commonly used for making standard resistors due to its low temperature coefficient of resistance?",
+      "options": {
+        "A": "Copper",
+        "B": "Aluminum",
+        "C": "Manganin",
+        "D": "Silicon"
+      },
+      "answer": "C",
+      "explanation": "Manganin and Constantan are used because their resistance changes very little with temperature.",
+      "hash": "b27dfc373fa49054",
+      "translations": {
+        "hi": {
+          "question": "कम तापमान प्रतिरोध गुणांक के कारण मानक प्रतिरोधक बनाने के लिए आमतौर पर किस सामग्री का उपयोग किया जाता है?",
+          "options": {
+            "A": "तांबा",
+            "B": "एल्यूमीनियम",
+            "C": "मैंगनीन",
+            "D": "सिलिकॉन"
+          },
+          "explanation": "मैंगनीन और कॉन्स्टेंटन का उपयोग किया जाता है क्योंकि तापमान के साथ उनका प्रतिरोध बहुत कम बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-007",
+      "number": 7,
+      "question": "A wire of resistance R is stretched to double its length. What will be its new resistance?",
+      "options": {
+        "A": "2R",
+        "B": "4R",
+        "C": "R/2",
+        "D": "R/4"
+      },
+      "answer": "B",
+      "explanation": "When stretched to n times, new resistance R' = n^2 * R. Here n=2, so R' = 4R.",
+      "hash": "a7417cc611d9c441",
+      "translations": {
+        "hi": {
+          "question": "प्रतिरोध R के एक तार को उसकी लंबाई से दोगुना खींचा जाता है। इसका नया प्रतिरोध क्या होगा?",
+          "options": {
+            "A": "2R",
+            "B": "4R",
+            "C": "R/2",
+            "D": "R/4"
+          },
+          "explanation": "जब n गुना खींचा जाता है, तो नया प्रतिरोध R' = n^2 * R होता है। यहाँ n=2 है, इसलिए R' = 4R।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-008",
+      "number": 8,
+      "question": "The terminal voltage of a cell is greater than its EMF when:",
+      "options": {
+        "A": "The cell is discharging",
+        "B": "The cell is being charged",
+        "C": "The cell is in open circuit",
+        "D": "It is never possible"
+      },
+      "answer": "B",
+      "explanation": "During charging, V = E + Ir, where V is terminal voltage and E is EMF.",
+      "hash": "8107e5fde9443206",
+      "translations": {
+        "hi": {
+          "question": "एक सेल का टर्मिनल वोल्टेज इसके EMF से अधिक होता है जब:",
+          "options": {
+            "A": "सेल डिस्चार्ज हो रहा हो",
+            "B": "सेल को चार्ज किया जा रहा हो",
+            "C": "सेल ओपन सर्किट में हो",
+            "D": "यह कभी संभव नहीं है"
+          },
+          "explanation": "चार्जिंग के दौरान, V = E + Ir, जहाँ V टर्मिनल वोल्टेज है और E EMF है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-009",
+      "number": 9,
+      "question": "What is the equivalent resistance of three resistors of 3 ohms each connected in parallel?",
+      "options": {
+        "A": "9 ohms",
+        "B": "3 ohms",
+        "C": "1 ohm",
+        "D": "0.33 ohms"
+      },
+      "answer": "C",
+      "explanation": "1/Req = 1/3 + 1/3 + 1/3 = 1. So Req = 1 ohm.",
+      "hash": "1cff6d1c25d8c92d",
+      "translations": {
+        "hi": {
+          "question": "समानांतर में जुड़े प्रत्येक 3 ओम के तीन प्रतिरोधों का तुल्य प्रतिरोध क्या है?",
+          "options": {
+            "A": "9 ओम",
+            "B": "3 ओम",
+            "C": "1 ओम",
+            "D": "0.33 ओम"
+          },
+          "explanation": "1/Req = 1/3 + 1/3 + 1/3 = 1। इसलिए Req = 1 ओम।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-010",
+      "number": 10,
+      "question": "The internal resistance of an ideal voltmeter should be:",
+      "options": {
+        "A": "Zero",
+        "B": "Very low",
+        "C": "Very high",
+        "D": "Infinite"
+      },
+      "answer": "D",
+      "explanation": "An ideal voltmeter should not draw any current from the circuit.",
+      "hash": "a6bb0d9130e5b68e",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श वोल्टमीटर का आंतरिक प्रतिरोध होना चाहिए:",
+          "options": {
+            "A": "शून्य",
+            "B": "बहुत कम",
+            "C": "बहुत अधिक",
+            "D": "अनंत"
+          },
+          "explanation": "एक आदर्श वोल्टमीटर को परिपथ से कोई धारा नहीं लेनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-011",
+      "number": 11,
+      "question": "Ohms law is valid for which of the following?",
+      "options": {
+        "A": "Diodes",
+        "B": "Transistors",
+        "C": "Metallic conductors",
+        "D": "Electrolytes"
+      },
+      "answer": "C",
+      "explanation": "Ohm's law applies to ohmic conductors like metals at constant temperature.",
+      "hash": "42fdf8c970cfe0b7",
+      "translations": {
+        "hi": {
+          "question": "ओम का नियम निम्नलिखित में से किसके लिए मान्य है?",
+          "options": {
+            "A": "डायोड",
+            "B": "ट्रांजिस्टर",
+            "C": "धात्विक चालक",
+            "D": "इलेक्ट्रोलाइट्स"
+          },
+          "explanation": "ओम का नियम स्थिर तापमान पर धातुओं जैसे ओमीय चालकों पर लागू होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-012",
+      "number": 12,
+      "question": "Potential gradient of a potentiometer wire can be decreased by:",
+      "options": {
+        "A": "Increasing current in main circuit",
+        "B": "Decreasing the length of wire",
+        "C": "Increasing the length of wire",
+        "D": "Increasing the EMF of the battery"
+      },
+      "answer": "C",
+      "explanation": "Potential gradient K = V/L. Increasing length L decreases K.",
+      "hash": "985e8eb8e4ed2b97",
+      "translations": {
+        "hi": {
+          "question": "पोटेंशियोमीटर तार की विभव प्रवणता को किसके द्वारा कम किया जा सकता है?",
+          "options": {
+            "A": "मुख्य परिपथ में धारा बढ़ाकर",
+            "B": "तार की लंबाई घटाकर",
+            "C": "तार की लंबाई बढ़ाकर",
+            "D": "बैटरी का EMF बढ़ाकर"
+          },
+          "explanation": "विभव प्रवणता K = V/L। लंबाई L बढ़ाने से K घट जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-013",
+      "number": 13,
+      "question": "What is the relationship between electric field E and drift velocity Vd?",
+      "options": {
+        "A": "Vd is proportional to E",
+        "B": "Vd is proportional to 1/E",
+        "C": "Vd is proportional to E^2",
+        "D": "Independent of E"
+      },
+      "answer": "A",
+      "explanation": "Vd = (eE/m) * tau, where tau is relaxation time.",
+      "hash": "2861f686c0efca42",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र E और अपवाह वेग Vd के बीच क्या संबंध है?",
+          "options": {
+            "A": "Vd, E के समानुपाती है",
+            "B": "Vd, 1/E के समानुपाती है",
+            "C": "Vd, E^2 के समानुपाती है",
+            "D": "E से स्वतंत्र"
+          },
+          "explanation": "Vd = (eE/m) * tau, जहाँ tau विश्रांति काल है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-014",
+      "number": 14,
+      "question": "One kilowatt-hour (kWh) is equal to how many Joules?",
+      "options": {
+        "A": "3.6 x 10^5 J",
+        "B": "3.6 x 10^6 J",
+        "C": "10^3 J",
+        "D": "3600 J"
+      },
+      "answer": "B",
+      "explanation": "1 kWh = 1000W * 3600s = 3.6 x 10^6 Joules.",
+      "hash": "c8a7d9a61dae229b",
+      "translations": {
+        "hi": {
+          "question": "एक किलोवाट-घंटा (kWh) कितने जूल के बराबर होता है?",
+          "options": {
+            "A": "3.6 x 10^5 J",
+            "B": "3.6 x 10^6 J",
+            "C": "10^3 J",
+            "D": "3600 J"
+          },
+          "explanation": "1 kWh = 1000W * 3600s = 3.6 x 10^6 जूल।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-015",
+      "number": 15,
+      "question": "Two bulbs of 40W and 60W are connected in series. Which bulb will glow brighter?",
+      "options": {
+        "A": "40W bulb",
+        "B": "60W bulb",
+        "C": "Both equally",
+        "D": "Neither will glow"
+      },
+      "answer": "A",
+      "explanation": "In series, the bulb with higher resistance (lower wattage rating) dissipates more power (P = I^2*R).",
+      "hash": "2bb6ce679b9ac7ff",
+      "translations": {
+        "hi": {
+          "question": "40W और 60W के दो बल्ब श्रेणीक्रम में जुड़े हुए हैं। कौन सा बल्ब अधिक चमकीला जलेगा?",
+          "options": {
+            "A": "40W का बल्ब",
+            "B": "60W का बल्ब",
+            "C": "दोनों समान रूप से",
+            "D": "कोई भी नहीं जलेगा"
+          },
+          "explanation": "श्रेणीक्रम में, उच्च प्रतिरोध (कम वाट क्षमता) वाला बल्ब अधिक शक्ति (P = I^2*R) खर्च करता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-016",
+      "number": 16,
+      "question": "A meter bridge works on the principle of:",
+      "options": {
+        "A": "Faraday's Law",
+        "B": "Wheatstone Bridge",
+        "C": "Joule's Law",
+        "D": "Ampere's Law"
+      },
+      "answer": "B",
+      "explanation": "Meter bridge is a practical form of Wheatstone bridge used to measure unknown resistance.",
+      "hash": "71fbbced3d5fe196",
+      "translations": {
+        "hi": {
+          "question": "मीटर ब्रिज किस सिद्धांत पर कार्य करता है?",
+          "options": {
+            "A": "फैराडे का नियम",
+            "B": "व्हीटस्टोन ब्रिज",
+            "C": "जूल का नियम",
+            "D": "एम्पीयर का नियम"
+          },
+          "explanation": "मीटर ब्रिज व्हीटस्टोन ब्रिज का एक व्यावहारिक रूप है जिसका उपयोग अज्ञात प्रतिरोध को मापने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-017",
+      "number": 17,
+      "question": "The relaxation time in a conductor ______ with an increase in temperature.",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Fluctuates"
+      },
+      "answer": "B",
+      "explanation": "Higher temperature leads to more frequent collisions, reducing relaxation time.",
+      "hash": "4eb33800ad6c09d0",
+      "translations": {
+        "hi": {
+          "question": "एक चालक में विश्रांति काल तापमान में वृद्धि के साथ ______ है।",
+          "options": {
+            "A": "बढ़ता",
+            "B": "घटता",
+            "C": "वही रहता",
+            "D": "उतार-चढ़ाव होता"
+          },
+          "explanation": "उच्च तापमान के कारण अधिक बार टक्करें होती हैं, जिससे विश्रांति काल कम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-018",
+      "number": 18,
+      "question": "If the current through a resistor is doubled, the power dissipated becomes:",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "1/2 times",
+        "D": "Remains same"
+      },
+      "answer": "B",
+      "explanation": "Power P = I^2*R. If I becomes 2I, P becomes (2I)^2*R = 4P.",
+      "hash": "9641e4e5825eac18",
+      "translations": {
+        "hi": {
+          "question": "यदि एक प्रतिरोधक के माध्यम से धारा को दोगुना कर दिया जाए, तो व्यय होने वाली शक्ति हो जाती है:",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "1/2 गुना",
+            "D": "वही रहती है"
+          },
+          "explanation": "शक्ति P = I^2*R। यदि I, 2I हो जाता है, तो P, (2I)^2*R = 4P हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-019",
+      "number": 19,
+      "question": "For which of the following substances is the resistance temperature coefficient negative?",
+      "options": {
+        "A": "Carbon",
+        "B": "Silver",
+        "C": "Copper",
+        "D": "Iron"
+      },
+      "answer": "A",
+      "explanation": "Carbon is a semiconductor/non-metal where resistance decreases with temperature.",
+      "hash": "046a6965bf54104e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किस पदार्थ के लिए प्रतिरोध तापमान गुणांक ऋणात्मक है?",
+          "options": {
+            "A": "कार्बन",
+            "B": "चांदी",
+            "C": "तांबा",
+            "D": "लोहा"
+          },
+          "explanation": "कार्बन एक अर्धचालक/अधातु है जहाँ तापमान के साथ प्रतिरोध कम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-01-020",
+      "number": 20,
+      "question": "The resistance of an ideal ammeter is:",
+      "options": {
+        "A": "Infinite",
+        "B": "Zero",
+        "C": "1 Ohm",
+        "D": "High"
+      },
+      "answer": "B",
+      "explanation": "An ideal ammeter should have zero resistance so it doesn't affect the circuit current.",
+      "hash": "f0c24a01c49f3e66",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श एमीटर का प्रतिरोध होता है:",
+          "options": {
+            "A": "अनंत",
+            "B": "शून्य",
+            "C": "1 ओम",
+            "D": "उच्च"
+          },
+          "explanation": "एक आदर्श एमीटर का प्रतिरोध शून्य होना चाहिए ताकि यह परिपथ की धारा को प्रभावित न करे।"
+        }
+      }
+    }
+  ]
+}

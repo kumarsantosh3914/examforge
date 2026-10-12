@@ -1,0 +1,527 @@
+{
+  "subject": "Gravitation",
+  "set": 3,
+  "title": "Gravitation Mock Test 3",
+  "questions": [
+    {
+      "id": "gravitation-03-001",
+      "number": 1,
+      "question": "If the orbital radius of a satellite is doubled, its orbital period becomes:",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "2.828 times",
+        "D": "8 times"
+      },
+      "answer": "C",
+      "explanation": "According to Kepler's Third Law (T^2 ∝ R^3), T ∝ R^(3/2). (2)^(1.5) = 2√2 ≈ 2.828.",
+      "hash": "edac0ac662a0b05c",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी उपग्रह की कक्षीय त्रिज्या दोगुनी कर दी जाए, तो उसका आवर्तकाल हो जाता है:",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "2.828 गुना",
+            "D": "8 गुना"
+          },
+          "explanation": "केप्लर के तीसरे नियम (T^2 ∝ R^3) के अनुसार, T ∝ R^(3/2)। (2)^(1.5) = 2√2 ≈ 2.828।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-002",
+      "number": 2,
+      "question": "The gravitational potential energy of a body of mass m at the surface of Earth is:",
+      "options": {
+        "A": "mgh",
+        "B": "-GMm/R",
+        "C": "GMm/R^2",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Potential energy is negative because work must be done against gravity to move the mass to infinity.",
+      "hash": "9e449d45a230bb3f",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह पर m द्रव्यमान की वस्तु की गुरुत्वीय स्थितिज ऊर्जा है:",
+          "options": {
+            "A": "mgh",
+            "B": "-GMm/R",
+            "C": "GMm/R^2",
+            "D": "शून्य"
+          },
+          "explanation": "स्थितिज ऊर्जा ऋणात्मक होती है क्योंकि द्रव्यमान को अनंत तक ले जाने के लिए गुरुत्वाकर्षण के विरुद्ध कार्य करना पड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-003",
+      "number": 3,
+      "question": "Two spheres of mass m and M are situated in air and the gravitational force between them is F. If the space around them is filled with a liquid of density ρ, the force will be:",
+      "options": {
+        "A": "F",
+        "B": "F/ρ",
+        "C": "Fρ",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Gravitational force is independent of the properties of the intervening medium.",
+      "hash": "7a11a2c5067991f2",
+      "translations": {
+        "hi": {
+          "question": "m और M द्रव्यमान के दो गोले हवा में स्थित हैं और उनके बीच गुरुत्वाकर्षण बल F है। यदि उनके चारों ओर के स्थान को घनत्व ρ के तरल से भर दिया जाए, तो बल होगा:",
+          "options": {
+            "A": "F",
+            "B": "F/ρ",
+            "C": "Fρ",
+            "D": "शून्य"
+          },
+          "explanation": "गुरुत्वाकर्षण बल बीच के माध्यम के गुणों से स्वतंत्र होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-004",
+      "number": 4,
+      "question": "The value of g at height h above the Earth's surface (where h << R) is given by:",
+      "options": {
+        "A": "g(1 - h/R)",
+        "B": "g(1 - 2h/R)",
+        "C": "g(1 - h^2/R^2)",
+        "D": "g(1 + 2h/R)"
+      },
+      "answer": "B",
+      "explanation": "Using binomial expansion for h << R, g' = g(1 + h/R)^-2 ≈ g(1 - 2h/R).",
+      "hash": "30682a34375b7d80",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह से h ऊँचाई पर (जहाँ h << R) g का मान किसके द्वारा दिया जाता है?",
+          "options": {
+            "A": "g(1 - h/R)",
+            "B": "g(1 - 2h/R)",
+            "C": "g(1 - h^2/R^2)",
+            "D": "g(1 + 2h/R)"
+          },
+          "explanation": "h << R के लिए द्विपद प्रसार का उपयोग करते हुए, g' = g(1 + h/R)^-2 ≈ g(1 - 2h/R)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-005",
+      "number": 5,
+      "question": "What is the ratio of escape velocity to orbital velocity for a satellite orbiting close to Earth's surface?",
+      "options": {
+        "A": "1:1",
+        "B": "√2:1",
+        "C": "2:1",
+        "D": "1:√2"
+      },
+      "answer": "B",
+      "explanation": "Escape velocity Ve = √2gR and Orbital velocity Vo = √gR. Ratio Ve/Vo = √2.",
+      "hash": "24f7b9908d4c5c59",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह के करीब परिक्रमा कर रहे उपग्रह के लिए पलायन वेग और कक्षीय वेग का अनुपात क्या है?",
+          "options": {
+            "A": "1:1",
+            "B": "√2:1",
+            "C": "2:1",
+            "D": "1:√2"
+          },
+          "explanation": "पलायन वेग Ve = √2gR और कक्षीय वेग Vo = √gR। अनुपात Ve/Vo = √2।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-006",
+      "number": 6,
+      "question": "A point mass m is placed inside a uniform spherical shell of mass M and radius R. The force on the point mass is:",
+      "options": {
+        "A": "GMm/R^2",
+        "B": "GMm/r^2",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "C",
+      "explanation": "Inside a uniform spherical shell, the gravitational field and thus the force on any interior mass is zero.",
+      "hash": "930f524d167a1ff1",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R के एक समान गोलाकार शेल के अंदर एक बिंदु द्रव्यमान m रखा गया है। बिंदु द्रव्यमान पर बल है:",
+          "options": {
+            "A": "GMm/R^2",
+            "B": "GMm/r^2",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "एक समान गोलाकार शेल के अंदर, गुरुत्वाकर्षण क्षेत्र और इस प्रकार किसी भी आंतरिक द्रव्यमान पर बल शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-007",
+      "number": 7,
+      "question": "The areal velocity of a planet revolving around the sun is constant. This is a statement of:",
+      "options": {
+        "A": "Kepler's First Law",
+        "B": "Kepler's Second Law",
+        "C": "Kepler's Third Law",
+        "D": "Newton's Law of Gravitation"
+      },
+      "answer": "B",
+      "explanation": "Kepler's Second Law states that a line joining a planet and the Sun sweeps out equal areas during equal intervals of time.",
+      "hash": "8a22c4c8eecb7732",
+      "translations": {
+        "hi": {
+          "question": "सूर्य के चारों ओर घूमने वाले ग्रह का क्षेत्रीय वेग स्थिर रहता है। यह किसका कथन है?",
+          "options": {
+            "A": "केप्लर का प्रथम नियम",
+            "B": "केप्लर का द्वितीय नियम",
+            "C": "केप्लर का तृतीय नियम",
+            "D": "न्यूटन का गुरुत्वाकर्षण नियम"
+          },
+          "explanation": "केप्लर का दूसरा नियम बताता है कि ग्रह और सूर्य को जोड़ने वाली रेखा समान समय अंतराल में समान क्षेत्रफल तय करती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-008",
+      "number": 8,
+      "question": "Gravitational potential (V) at a distance r from a point mass M is:",
+      "options": {
+        "A": "GM/r",
+        "B": "-GM/r",
+        "C": "-GM/r^2",
+        "D": "GM/r^2"
+      },
+      "answer": "B",
+      "explanation": "Potential is the work done by external agent in bringing unit mass from infinity; it is scalar and negative.",
+      "hash": "9632aade2a0ae55c",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु द्रव्यमान M से r दूरी पर गुरुत्वीय विभव (V) है:",
+          "options": {
+            "A": "GM/r",
+            "B": "-GM/r",
+            "C": "-GM/r^2",
+            "D": "GM/r^2"
+          },
+          "explanation": "विभव इकाई द्रव्यमान को अनंत से लाने में बाहरी एजेंट द्वारा किया गया कार्य है; यह अदिश और ऋणात्मक है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-009",
+      "number": 9,
+      "question": "The height of a geostationary satellite from the center of the Earth is approximately:",
+      "options": {
+        "A": "6,400 km",
+        "B": "36,000 km",
+        "C": "42,400 km",
+        "D": "11,200 km"
+      },
+      "answer": "C",
+      "explanation": "Height from surface is 36,000 km. Radius of Earth is 6,400 km. Distance from center = 36,000 + 6,400 = 42,400 km.",
+      "hash": "a587744a8fe777fc",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी के केंद्र से भू-स्थिर उपग्रह की ऊँचाई लगभग है:",
+          "options": {
+            "A": "6,400 किमी",
+            "B": "36,000 किमी",
+            "C": "42,400 किमी",
+            "D": "11,200 किमी"
+          },
+          "explanation": "सतह से ऊँचाई 36,000 किमी है। पृथ्वी की त्रिज्या 6,400 किमी है। केंद्र से दूरी = 36,000 + 6,400 = 42,400 किमी।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-010",
+      "number": 10,
+      "question": "If a body is taken from the equator to the poles, its weight:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Acceleration due to gravity is higher at the poles due to Earth's shape and lack of centrifugal effect.",
+      "hash": "be69d3e080ebd74e",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु को भूमध्य रेखा से ध्रुवों पर ले जाया जाए, तो उसका भार:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "समान रहता है",
+            "D": "शून्य हो जाता है"
+          },
+          "explanation": "पृथ्वी के आकार और अपकेंद्रीय प्रभाव की कमी के कारण ध्रुवों पर गुरुत्वीय त्वरण अधिक होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-011",
+      "number": 11,
+      "question": "If the Earth's radius increases by 2% without changing its mass, the value of g will:",
+      "options": {
+        "A": "Increase by 2%",
+        "B": "Decrease by 2%",
+        "C": "Increase by 4%",
+        "D": "Decrease by 4%"
+      },
+      "answer": "D",
+      "explanation": "g = GM/R^2. If R increases by 2%, g decreases by 2 * 2% = 4%.",
+      "hash": "431bdea90a096b29",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी की त्रिज्या बिना द्रव्यमान बदले 2% बढ़ जाती है, तो g का मान:",
+          "options": {
+            "A": "2% बढ़ेगा",
+            "B": "2% घटेगा",
+            "C": "4% बढ़ेगा",
+            "D": "4% घटेगा"
+          },
+          "explanation": "g = GM/R^2। यदि R 2% बढ़ता है, तो g 2 * 2% = 4% घटता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-012",
+      "number": 12,
+      "question": "The binding energy of a satellite of mass m orbiting at height h is:",
+      "options": {
+        "A": "GMm / 2(R+h)",
+        "B": "-GMm / 2(R+h)",
+        "C": "GMm / (R+h)",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Binding energy is the energy required to remove the satellite to infinity, which is the negative of its total energy.",
+      "hash": "ff18df4b27a61314",
+      "translations": {
+        "hi": {
+          "question": "ऊँचाई h पर परिक्रमा कर रहे द्रव्यमान m के उपग्रह की बंधन ऊर्जा है:",
+          "options": {
+            "A": "GMm / 2(R+h)",
+            "B": "-GMm / 2(R+h)",
+            "C": "GMm / (R+h)",
+            "D": "शून्य"
+          },
+          "explanation": "बंधन ऊर्जा उपग्रह को अनंत तक हटाने के लिए आवश्यक ऊर्जा है, जो उसकी कुल ऊर्जा का ऋणात्मक होती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-013",
+      "number": 13,
+      "question": "The gravitational force between two objects is F. If mass of both objects is doubled and distance remains same, the new force is:",
+      "options": {
+        "A": "F",
+        "B": "2F",
+        "C": "4F",
+        "D": "F/4"
+      },
+      "answer": "C",
+      "explanation": "F = G(m1*m2)/r^2. If both masses are doubled, F' = G(2m1*2m2)/r^2 = 4F.",
+      "hash": "72ad06dda53e1dbd",
+      "translations": {
+        "hi": {
+          "question": "दो वस्तुओं के बीच गुरुत्वाकर्षण बल F है। यदि दोनों वस्तुओं का द्रव्यमान दोगुना कर दिया जाए और दूरी समान रहे, तो नया बल है:",
+          "options": {
+            "A": "F",
+            "B": "2F",
+            "C": "4F",
+            "D": "F/4"
+          },
+          "explanation": "F = G(m1*m2)/r^2। यदि दोनों द्रव्यमान दोगुने हो जाते हैं, तो F' = G(2m1*2m2)/r^2 = 4F।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-014",
+      "number": 14,
+      "question": "Weightlessness in a satellite is due to:",
+      "options": {
+        "A": "Zero gravity",
+        "B": "Infinite gravity",
+        "C": "Normal reaction being zero",
+        "D": "No atmosphere"
+      },
+      "answer": "C",
+      "explanation": "The satellite and observer fall with the same acceleration g, so there is no relative force between them.",
+      "hash": "a044ddc54c6d237f",
+      "translations": {
+        "hi": {
+          "question": "उपग्रह में भारहीनता का कारण है:",
+          "options": {
+            "A": "शून्य गुरुत्वाकर्षण",
+            "B": "अनंत गुरुत्वाकर्षण",
+            "C": "सामान्य प्रतिक्रिया शून्य होना",
+            "D": "कोई वायुमंडल नहीं होना"
+          },
+          "explanation": "उपग्रह और प्रेक्षक एक ही त्वरण g के साथ गिरते हैं, इसलिए उनके बीच कोई सापेक्ष बल नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-015",
+      "number": 15,
+      "question": "The intensity of gravitational field (E) and acceleration due to gravity (g) at a point are:",
+      "options": {
+        "A": "Numerically equal",
+        "B": "Different in units",
+        "C": "Scalar quantities",
+        "D": "Perpendicular to each other"
+      },
+      "answer": "A",
+      "explanation": "Both E and g represent the force per unit mass and have the same numerical value and units (m/s^2).",
+      "hash": "59ff502cee8da3c8",
+      "translations": {
+        "hi": {
+          "question": "किसी बिंदु पर गुरुत्वाकर्षण क्षेत्र की तीव्रता (E) और गुरुत्वीय त्वरण (g):",
+          "options": {
+            "A": "संख्यात्मक रूप से समान हैं",
+            "B": "इकाइयों में भिन्न हैं",
+            "C": "अदिश राशियाँ हैं",
+            "D": "एक-दूसरे के लंबवत हैं"
+          },
+          "explanation": "E और g दोनों प्रति इकाई द्रव्यमान बल का प्रतिनिधित्व करते हैं और उनका संख्यात्मक मान और इकाइयाँ (मी/से^2) समान हैं।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-016",
+      "number": 16,
+      "question": "Which planet has the highest surface gravity in the solar system?",
+      "options": {
+        "A": "Earth",
+        "B": "Mars",
+        "C": "Jupiter",
+        "D": "Venus"
+      },
+      "answer": "C",
+      "explanation": "Due to its massive size and mass, Jupiter has the highest gravitational acceleration at its \"surface\" (cloud tops).",
+      "hash": "057c7df6a93885da",
+      "translations": {
+        "hi": {
+          "question": "सौरमंडल में किस ग्रह का सतही गुरुत्वाकर्षण सबसे अधिक है?",
+          "options": {
+            "A": "पृथ्वी",
+            "B": "मंगल",
+            "C": "बृहस्पति",
+            "D": "शुक्र"
+          },
+          "explanation": "अपने विशाल आकार और द्रव्यमान के कारण, बृहस्पति के \"सतह\" (बादलों के शीर्ष) पर गुरुत्वीय त्वरण सबसे अधिक है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-017",
+      "number": 17,
+      "question": "In an elliptical orbit, the point closest to the Sun is called:",
+      "options": {
+        "A": "Aphelion",
+        "B": "Perihelion",
+        "C": "Perigee",
+        "D": "Apogee"
+      },
+      "answer": "B",
+      "explanation": "Perihelion is the closest point to the Sun; Aphelion is the farthest.",
+      "hash": "9f031e29b542eca4",
+      "translations": {
+        "hi": {
+          "question": "एक दीर्घवृत्ताकार कक्षा में, सूर्य के सबसे निकट के बिंदु को कहा जाता है:",
+          "options": {
+            "A": "अपसौर (Aphelion)",
+            "B": "उपसौर (Perihelion)",
+            "C": "भू-समीपक (Perigee)",
+            "D": "भू-दूरक (Apogee)"
+          },
+          "explanation": "उपसौर (Perihelion) सूर्य के सबसे निकट का बिंदु है; अपसौर (Aphelion) सबसे दूर का बिंदु है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-018",
+      "number": 18,
+      "question": "The work done in lifting a mass m from Earth's surface to a height h = R is:",
+      "options": {
+        "A": "mgR",
+        "B": "1/2 mgR",
+        "C": "2mgR",
+        "D": "1/4 mgR"
+      },
+      "answer": "B",
+      "explanation": "W = ΔU = -GMm/2R - (-GMm/R) = GMm/2R. Since g = GM/R^2, W = 1/2 mgR.",
+      "hash": "b8c68e0fca35d51c",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह से h = R ऊँचाई तक द्रव्यमान m उठाने में किया गया कार्य है:",
+          "options": {
+            "A": "mgR",
+            "B": "1/2 mgR",
+            "C": "2mgR",
+            "D": "1/4 mgR"
+          },
+          "explanation": "W = ΔU = -GMm/2R - (-GMm/R) = GMm/2R। चूंकि g = GM/R^2, W = 1/2 mgR।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-019",
+      "number": 19,
+      "question": "For a geostationary satellite, the sense of rotation must be:",
+      "options": {
+        "A": "East to West",
+        "B": "West to East",
+        "C": "North to South",
+        "D": "South to North"
+      },
+      "answer": "B",
+      "explanation": "It must rotate in the same direction as Earth to remain stationary over a fixed point.",
+      "hash": "d789f8c80c5e51b4",
+      "translations": {
+        "hi": {
+          "question": "एक भू-स्थिर उपग्रह के लिए, घूर्णन की दिशा होनी चाहिए:",
+          "options": {
+            "A": "पूर्व से पश्चिम",
+            "B": "पश्चिम से पूर्व",
+            "C": "उत्तर से दक्षिण",
+            "D": "दक्षिण से उत्तर"
+          },
+          "explanation": "एक निश्चित बिंदु पर स्थिर रहने के लिए इसे पृथ्वी की तरह ही दिशा में घूमना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-03-020",
+      "number": 20,
+      "question": "If a body is thrown vertically upwards with a velocity equal to 1/2 of escape velocity, the maximum height reached is:",
+      "options": {
+        "A": "R/2",
+        "B": "R/3",
+        "C": "R",
+        "D": "2R"
+      },
+      "answer": "B",
+      "explanation": "Using conservation of energy, -GMm/R + 1/2 m(Ve/2)^2 = -GMm/(R+h). Solving gives h = R/3.",
+      "hash": "4a0941c6c7e32923",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु को पलायन वेग के 1/2 के बराबर वेग से लंबवत ऊपर की ओर फेंका जाता है, तो प्राप्त अधिकतम ऊँचाई है:",
+          "options": {
+            "A": "R/2",
+            "B": "R/3",
+            "C": "R",
+            "D": "2R"
+          },
+          "explanation": "ऊर्जा संरक्षण का उपयोग करते हुए, -GMm/R + 1/2 m(Ve/2)^2 = -GMm/(R+h)। हल करने पर h = R/3 प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

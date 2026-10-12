@@ -1,0 +1,527 @@
+{
+  "subject": "Kinematics",
+  "set": 2,
+  "title": "Kinematics Mock Test 2",
+  "questions": [
+    {
+      "id": "kinematics-02-001",
+      "number": 1,
+      "question": "A particle moves in a straight line with a constant acceleration. If it covers 10 m in the 2nd second and 15 m in the 3rd second, its initial velocity is:",
+      "options": {
+        "A": "2.5 m/s",
+        "B": "5.0 m/s",
+        "C": "7.5 m/s",
+        "D": "1.5 m/s"
+      },
+      "answer": "A",
+      "explanation": "Using Sn = u + a/2(2n-1). For n=2, 10 = u + 1.5a. For n=3, 15 = u + 2.5a. Solving gives a = 5 and u = 2.5 m/s.",
+      "hash": "cc461d77ddee59e1",
+      "translations": {
+        "hi": {
+          "question": "एक कण निरंतर त्वरण के साथ एक सीधी रेखा में चलता है। यदि यह दूसरे सेकंड में 10 मीटर और तीसरे सेकंड में 15 मीटर की दूरी तय करता है, तो इसका प्रारंभिक वेग है:",
+          "options": {
+            "A": "2.5 m/s",
+            "B": "5.0 m/s",
+            "C": "7.5 m/s",
+            "D": "1.5 m/s"
+          },
+          "explanation": "Sn = u + a/2(2n-1) का उपयोग करते हुए। n=2 के लिए, 10 = u + 1.5a। n=3 के लिए, 15 = u + 2.5a। हल करने पर a = 5 और u = 2.5 m/s प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-002",
+      "number": 2,
+      "question": "A body is projected at such an angle that the horizontal range is three times the greatest height. The angle of projection is:",
+      "options": {
+        "A": "tan^-1(4/3)",
+        "B": "tan^-1(3/4)",
+        "C": "45 degrees",
+        "D": "30 degrees"
+      },
+      "answer": "A",
+      "explanation": "R = 3H. (u^2 sin2theta)/g = 3(u^2 sin^2theta)/2g. Solving gives tan theta = 4/3.",
+      "hash": "ffbdf69b172737f6",
+      "translations": {
+        "hi": {
+          "question": "एक पिंड को ऐसे कोण पर प्रक्षेपित किया जाता है कि क्षैतिज परास अधिकतम ऊंचाई का तीन गुना होता है। प्रक्षेपण का कोण है:",
+          "options": {
+            "A": "tan^-1(4/3)",
+            "B": "tan^-1(3/4)",
+            "C": "45 डिग्री",
+            "D": "30 डिग्री"
+          },
+          "explanation": "R = 3H. (u^2 sin2theta)/g = 3(u^2 sin^2theta)/2g. हल करने पर tan theta = 4/3 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-003",
+      "number": 3,
+      "question": "The ratio of the angular speed of a second's hand to the minute's hand of a watch is:",
+      "options": {
+        "A": "60 : 1",
+        "B": "1 : 60",
+        "C": "3600 : 1",
+        "D": "12 : 1"
+      },
+      "answer": "A",
+      "explanation": "Angular speed omega = 2pi/T. Ts = 60s, Tm = 3600s. Ratio = Tm / Ts = 3600 / 60 = 60.",
+      "hash": "d91507fac1cf47f4",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी की सेकंड वाली सुई और मिनट वाली सुई की कोणीय गति का अनुपात है:",
+          "options": {
+            "A": "60 : 1",
+            "B": "1 : 60",
+            "C": "3600 : 1",
+            "D": "12 : 1"
+          },
+          "explanation": "कोणीय गति ओमेगा = 2pi/T. Ts = 60s, Tm = 3600s. अनुपात = Tm / Ts = 3600 / 60 = 60."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-004",
+      "number": 4,
+      "question": "A ball is dropped from a bridge 122.5 m above a river. After the ball has been falling for 2s, a second ball is thrown straight down after it. What must its initial velocity be so both hit the water at the same time?",
+      "options": {
+        "A": "26.1 m/s",
+        "B": "40 m/s",
+        "C": "9.8 m/s",
+        "D": "55.5 m/s"
+      },
+      "answer": "A",
+      "explanation": "Time for first ball t1 = sqrt(2h/g) = 5s. Second ball must travel 122.5m in (5-2)=3s. 122.5 = u(3) + 0.5(9.8)(3^2). u = 26.1 m/s.",
+      "hash": "28922572b0e94173",
+      "translations": {
+        "hi": {
+          "question": "एक नदी से 122.5 मीटर ऊपर एक पुल से एक गेंद गिराई जाती है। गेंद के 2 सेकंड तक गिरने के बाद, उसके पीछे दूसरी गेंद सीधे नीचे फेंकी जाती है। उसका प्रारंभिक वेग क्या होना चाहिए ताकि दोनों एक ही समय में पानी से टकराएं?",
+          "options": {
+            "A": "26.1 m/s",
+            "B": "40 m/s",
+            "C": "9.8 m/s",
+            "D": "55.5 m/s"
+          },
+          "explanation": "पहली गेंद के लिए समय t1 = sqrt(2h/g) = 5s. दूसरी गेंद को (5-2)=3s में 122.5m की यात्रा करनी चाहिए। 122.5 = u(3) + 0.5(9.8)(3^2). u = 26.1 m/s."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-005",
+      "number": 5,
+      "question": "If the displacement of a particle is zero, the distance covered:",
+      "options": {
+        "A": "Must be zero",
+        "B": "May or may not be zero",
+        "C": "Cannot be zero",
+        "D": "Is negative"
+      },
+      "answer": "B",
+      "explanation": "If the particle stays at rest, distance is zero. If it returns to the starting point, distance is non-zero.",
+      "hash": "d2b39ff990c105e8",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी कण का विस्थापन शून्य है, तो तय की गई दूरी:",
+          "options": {
+            "A": "शून्य होनी चाहिए",
+            "B": "शून्य हो भी सकती है और नहीं भी",
+            "C": "शून्य नहीं हो सकती",
+            "D": "ऋणात्मक है"
+          },
+          "explanation": "यदि कण विराम अवस्था में रहता है, तो दूरी शून्य होती है। यदि यह शुरुआती बिंदु पर लौटता है, तो दूरी गैर-शून्य होती है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-006",
+      "number": 6,
+      "question": "A projectile is thrown with velocity u making an angle theta with the horizontal. At the highest point, its velocity is:",
+      "options": {
+        "A": "u cos theta",
+        "B": "u sin theta",
+        "C": "Zero",
+        "D": "u"
+      },
+      "answer": "A",
+      "explanation": "At the highest point, vertical velocity is zero, only horizontal component (u cos theta) remains.",
+      "hash": "9c8ccfe3bfc0c28a",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य को क्षैतिज के साथ थीटा कोण बनाते हुए वेग u के साथ फेंका जाता है। उच्चतम बिंदु पर, इसका वेग होता है:",
+          "options": {
+            "A": "u cos theta",
+            "B": "u sin theta",
+            "C": "शून्य",
+            "D": "u"
+          },
+          "explanation": "उच्चतम बिंदु पर, ऊर्ध्वाधर वेग शून्य होता है, केवल क्षैतिज घटक (u cos theta) बचता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-007",
+      "number": 7,
+      "question": "The relative velocity of two bodies moving in the same direction with velocities v1 and v2 is:",
+      "options": {
+        "A": "v1 + v2",
+        "B": "v1 - v2",
+        "C": "sqrt(v1^2 + v2^2)",
+        "D": "v1 / v2"
+      },
+      "answer": "B",
+      "explanation": "For motion in the same direction, relative velocity is the difference of velocities.",
+      "hash": "27f766be35ab3f7c",
+      "translations": {
+        "hi": {
+          "question": "एक ही दिशा में v1 और v2 वेगों से चलने वाले दो पिंडों का सापेक्ष वेग है:",
+          "options": {
+            "A": "v1 + v2",
+            "B": "v1 - v2",
+            "C": "sqrt(v1^2 + v2^2)",
+            "D": "v1 / v2"
+          },
+          "explanation": "एक ही दिशा में गति के लिए, सापेक्ष वेग वेगों का अंतर होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-008",
+      "number": 8,
+      "question": "A stone tied to the end of a string 1m long is whirled in a horizontal circle with a constant speed. If the stone makes 22 revolutions in 44s, what is the magnitude of acceleration?",
+      "options": {
+        "A": "pi^2 m/s^2",
+        "B": "pi m/s^2",
+        "C": "2 pi^2 m/s^2",
+        "D": "4 pi^2 m/s^2"
+      },
+      "answer": "A",
+      "explanation": "Frequency n = 22/44 = 0.5 Hz. omega = 2 pi n = pi rad/s. a = omega^2 r = (pi^2) * 1 = pi^2.",
+      "hash": "c6683ccb35d24537",
+      "translations": {
+        "hi": {
+          "question": "1 मीटर लंबी रस्सी के सिरे से बंधे एक पत्थर को एकसमान गति के साथ क्षैतिज वृत्त में घुमाया जाता है। यदि पत्थर 44 सेकंड में 22 चक्कर लगाता है, तो त्वरण का परिमाण क्या है?",
+          "options": {
+            "A": "pi^2 m/s^2",
+            "B": "pi m/s^2",
+            "C": "2 pi^2 m/s^2",
+            "D": "4 pi^2 m/s^2"
+          },
+          "explanation": "आवृत्ति n = 22/44 = 0.5 Hz. ओमेगा = 2 pi n = pi rad/s. a = ओमेगा^2 r = (pi^2) * 1 = pi^2."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-009",
+      "number": 9,
+      "question": "A bullet fired into a wooden block loses half of its velocity after penetrating 3 cm. How much further will it penetrate before coming to rest?",
+      "options": {
+        "A": "1 cm",
+        "B": "2 cm",
+        "C": "3 cm",
+        "D": "4 cm"
+      },
+      "answer": "A",
+      "explanation": "Using v^2 = u^2 + 2as. (u/2)^2 = u^2 + 2a(3). Then 0 = (u/2)^2 + 2as'. Solving gives s' = 1 cm.",
+      "hash": "69d5b92c23d16efb",
+      "translations": {
+        "hi": {
+          "question": "एक लकड़ी के ब्लॉक में दागी गई गोली 3 सेमी प्रवेश करने के बाद अपना आधा वेग खो देती है। रुकने से पहले यह और कितना प्रवेश करेगी?",
+          "options": {
+            "A": "1 cm",
+            "B": "2 cm",
+            "C": "3 cm",
+            "D": "4 cm"
+          },
+          "explanation": "v^2 = u^2 + 2as का उपयोग करते हुए। (u/2)^2 = u^2 + 2a(3). फिर 0 = (u/2)^2 + 2as'. हल करने पर s' = 1 सेमी प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-010",
+      "number": 10,
+      "question": "A person aiming a rifle at a target in the same horizontal level must aim:",
+      "options": {
+        "A": "Exactly at the target",
+        "B": "Slightly above the target",
+        "C": "Slightly below the target",
+        "D": "Anywhere"
+      },
+      "answer": "B",
+      "explanation": "Due to gravity, the bullet follows a parabolic path and falls below the line of sight.",
+      "hash": "1ae0ff9b4ddd4736",
+      "translations": {
+        "hi": {
+          "question": "समान क्षैतिज स्तर पर लक्ष्य पर राइफल तानने वाले व्यक्ति को निशाना साधना चाहिए:",
+          "options": {
+            "A": "बिल्कुल लक्ष्य पर",
+            "B": "लक्ष्य से थोड़ा ऊपर",
+            "C": "लक्ष्य से थोड़ा नीचे",
+            "D": "कहीं भी"
+          },
+          "explanation": "गुरुत्वाकर्षण के कारण, गोली एक परवलयिक पथ का अनुसरण करती है और दृष्टि रेखा से नीचे गिरती है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-011",
+      "number": 11,
+      "question": "The displacement x of a particle varies with time t as x = ae^(-alpha t) + be^(beta t). The velocity of the particle will:",
+      "options": {
+        "A": "Go on decreasing with time",
+        "B": "Be independent of alpha and beta",
+        "C": "Drop to zero when alpha = beta",
+        "D": "Go on increasing with time"
+      },
+      "answer": "D",
+      "explanation": "v = dx/dt = -a(alpha)e^(-alpha t) + b(beta)e^(beta t). As t increases, the second term dominates and grows.",
+      "hash": "564a953206b8ebf8",
+      "translations": {
+        "hi": {
+          "question": "एक कण का विस्थापन x समय t के साथ x = ae^(-alpha t) + be^(beta t) के रूप में बदलता है। कण का वेग:",
+          "options": {
+            "A": "समय के साथ घटता जाएगा",
+            "B": "अल्फा और बीटा से स्वतंत्र होगा",
+            "C": "अल्फा = बीटा होने पर शून्य हो जाएगा",
+            "D": "समय के साथ बढ़ता जाएगा"
+          },
+          "explanation": "v = dx/dt = -a(alpha)e^(-alpha t) + b(beta)e^(beta t). जैसे-जैसे t बढ़ता है, दूसरा पद प्रभावी होता है और बढ़ता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-012",
+      "number": 12,
+      "question": "The coordinates of a moving particle at any time t are given by x = ct^2 and y = bt^2. The speed of the particle is:",
+      "options": {
+        "A": "2t sqrt(c^2 + b^2)",
+        "B": "2t (c + b)",
+        "C": "t^2 sqrt(c^2 + b^2)",
+        "D": "sqrt(c^2 + b^2)"
+      },
+      "answer": "A",
+      "explanation": "vx = 2ct, vy = 2bt. Speed v = sqrt(vx^2 + vy^2) = 2t sqrt(c^2 + b^2).",
+      "hash": "b7e2fbc5e0934e60",
+      "translations": {
+        "hi": {
+          "question": "किसी भी समय t पर एक गतिशील कण के निर्देशांक x = ct^2 और y = bt^2 द्वारा दिए गए हैं। कण की गति है:",
+          "options": {
+            "A": "2t sqrt(c^2 + b^2)",
+            "B": "2t (c + b)",
+            "C": "t^2 sqrt(c^2 + b^2)",
+            "D": "sqrt(c^2 + b^2)"
+          },
+          "explanation": "vx = 2ct, vy = 2bt. गति v = sqrt(vx^2 + vy^2) = 2t sqrt(c^2 + b^2)."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-013",
+      "number": 13,
+      "question": "When a particle moves with uniform velocity, which of the following is zero?",
+      "options": {
+        "A": "Speed",
+        "B": "Displacement",
+        "C": "Acceleration",
+        "D": "Distance"
+      },
+      "answer": "C",
+      "explanation": "Uniform velocity means no change in velocity, hence acceleration is zero.",
+      "hash": "09af365b8c0c0501",
+      "translations": {
+        "hi": {
+          "question": "जब कोई कण एकसमान वेग से चलता है, तो निम्नलिखित में से क्या शून्य होता है?",
+          "options": {
+            "A": "गति",
+            "B": "विस्थापन",
+            "C": "त्वरण",
+            "D": "दूरी"
+          },
+          "explanation": "एकसमान वेग का अर्थ है वेग में कोई परिवर्तन नहीं, इसलिए त्वरण शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-014",
+      "number": 14,
+      "question": "For a projectile, the ratio of maximum height to the square of time of flight is:",
+      "options": {
+        "A": "g / 8",
+        "B": "g / 4",
+        "C": "g / 2",
+        "D": "g / 1"
+      },
+      "answer": "A",
+      "explanation": "H = (u^2 sin^2theta)/2g and T = (2u sintheta)/g. H/T^2 = (u^2 sin^2theta / 2g) / (4u^2 sin^2theta / g^2) = g/8.",
+      "hash": "2e39d48f5aa8f2ad",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य के लिए, अधिकतम ऊंचाई और उड़ान के समय के वर्ग का अनुपात है:",
+          "options": {
+            "A": "g / 8",
+            "B": "g / 4",
+            "C": "g / 2",
+            "D": "g / 1"
+          },
+          "explanation": "H = (u^2 sin^2theta)/2g और T = (2u sintheta)/g. H/T^2 = (u^2 sin^2theta / 2g) / (4u^2 sin^2theta / g^2) = g/8."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-015",
+      "number": 15,
+      "question": "A motor car covers 1/3 part of total distance with v1 = 10 km/h, second 1/3 part with v2 = 20 km/h and rest 1/3 part with v3 = 60 km/h. What is the average speed?",
+      "options": {
+        "A": "18 km/h",
+        "B": "30 km/h",
+        "C": "20 km/h",
+        "D": "25 km/h"
+      },
+      "answer": "A",
+      "explanation": "Vavg = 3 / (1/v1 + 1/v2 + 1/v3) = 3 / (1/10 + 1/20 + 1/60) = 3 / (10/60) = 18 km/h.",
+      "hash": "341d35713fd5d383",
+      "translations": {
+        "hi": {
+          "question": "एक मोटर कार कुल दूरी का 1/3 भाग v1 = 10 किमी/घंटा के साथ, दूसरा 1/3 भाग v2 = 20 किमी/घंटा के साथ और शेष 1/3 भाग v3 = 60 किमी/घंटा के साथ तय करती है। औसत गति क्या है?",
+          "options": {
+            "A": "18 किमी/घंटा",
+            "B": "30 किमी/घंटा",
+            "C": "20 किमी/घंटा",
+            "D": "25 किमी/घंटा"
+          },
+          "explanation": "Vavg = 3 / (1/v1 + 1/v2 + 1/v3) = 3 / (1/10 + 1/20 + 1/60) = 3 / (10/60) = 18 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-016",
+      "number": 16,
+      "question": "If a body is thrown vertically upwards with velocity u, the distance traveled by it in the last second of its upward journey is:",
+      "options": {
+        "A": "g / 2",
+        "B": "u - g / 2",
+        "C": "g",
+        "D": "u"
+      },
+      "answer": "A",
+      "explanation": "Distance in last second of ascent = Distance in first second of descent = 0 + 1/2 g(1)^2 = g/2.",
+      "hash": "2e014f735689238e",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी पिंड को u वेग के साथ लंबवत ऊपर की ओर फेंका जाता है, तो उसकी ऊपर की यात्रा के अंतिम सेकंड में उसके द्वारा तय की गई दूरी है:",
+          "options": {
+            "A": "g / 2",
+            "B": "u - g / 2",
+            "C": "g",
+            "D": "u"
+          },
+          "explanation": "चढ़ाई के अंतिम सेकंड में दूरी = उतरने के पहले सेकंड में दूरी = 0 + 1/2 g(1)^2 = g/2."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-017",
+      "number": 17,
+      "question": "A projectile is thrown at 30 degrees to the horizontal. Its path is:",
+      "options": {
+        "A": "Circular",
+        "B": "Parabolic",
+        "C": "Linear",
+        "D": "Elliptical"
+      },
+      "answer": "B",
+      "explanation": "The trajectory of any projectile under gravity (neglecting air resistance) is a parabola.",
+      "hash": "53d7775d45f04060",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य को क्षैतिज से 30 डिग्री पर फेंका जाता है। इसका पथ है:",
+          "options": {
+            "A": "वृत्ताकार",
+            "B": "परवलयिक",
+            "C": "रैखिक",
+            "D": "दीर्घवृत्ताकार"
+          },
+          "explanation": "गुरुत्वाकर्षण के तहत किसी भी प्रक्षेप्य का प्रक्षेप पथ (वायु प्रतिरोध को नगण्य मानते हुए) एक परवलय होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-018",
+      "number": 18,
+      "question": "Which of the following can be zero when a particle is in motion?",
+      "options": {
+        "A": "Distance",
+        "B": "Speed",
+        "C": "Average velocity",
+        "D": "Displacement (instantaneous)"
+      },
+      "answer": "C",
+      "explanation": "If a particle returns to its starting point, total displacement is zero, so average velocity is zero.",
+      "hash": "9d0066d7c5ffd760",
+      "translations": {
+        "hi": {
+          "question": "जब कोई कण गति में हो तो निम्नलिखित में से क्या शून्य हो सकता है?",
+          "options": {
+            "A": "दूरी",
+            "B": "गति",
+            "C": "औसत वेग",
+            "D": "विस्थापन (तात्कालिक)"
+          },
+          "explanation": "यदि कोई कण अपने शुरुआती बिंदु पर लौटता है, तो कुल विस्थापन शून्य होता है, इसलिए औसत वेग शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-019",
+      "number": 19,
+      "question": "A particle moves with a velocity v = 5i + 2j. The angle it makes with the x-axis is:",
+      "options": {
+        "A": "tan^-1(2/5)",
+        "B": "tan^-1(5/2)",
+        "C": "sin^-1(2/5)",
+        "D": "cos^-1(2/5)"
+      },
+      "answer": "A",
+      "explanation": "tan theta = vy / vx = 2 / 5. So theta = tan^-1(2/5).",
+      "hash": "e5ce50ee41af7ce7",
+      "translations": {
+        "hi": {
+          "question": "एक कण v = 5i + 2j वेग से चलता है। यह x-अक्ष के साथ जो कोण बनाता है वह है:",
+          "options": {
+            "A": "tan^-1(2/5)",
+            "B": "tan^-1(5/2)",
+            "C": "sin^-1(2/5)",
+            "D": "cos^-1(2/5)"
+          },
+          "explanation": "tan थीटा = vy / vx = 2 / 5. इसलिए थीटा = tan^-1(2/5)."
+        }
+      }
+    },
+    {
+      "id": "kinematics-02-020",
+      "number": 20,
+      "question": "A bullet is fired horizontally from a height of 5 m. If its horizontal velocity is 100 m/s, how far will it travel horizontally before hitting the ground? (g = 10 m/s^2)",
+      "options": {
+        "A": "100 m",
+        "B": "200 m",
+        "C": "50 m",
+        "D": "10 m"
+      },
+      "answer": "A",
+      "explanation": "Time to fall t = sqrt(2h/g) = sqrt(2*5/10) = 1s. Horizontal distance = v * t = 100 * 1 = 100 m.",
+      "hash": "5032790f16e77238",
+      "translations": {
+        "hi": {
+          "question": "5 मीटर की ऊंचाई से एक गोली क्षैतिज रूप से दागी जाती है। यदि इसका क्षैतिज वेग 100 m/s है, तो जमीन पर गिरने से पहले यह क्षैतिज रूप से कितनी दूर तक जाएगी? (g = 10 m/s^2)",
+          "options": {
+            "A": "100 m",
+            "B": "200 m",
+            "C": "50 m",
+            "D": "10 m"
+          },
+          "explanation": "गिरने का समय t = sqrt(2h/g) = sqrt(2*5/10) = 1s. क्षैतिज दूरी = v * t = 100 * 1 = 100 m."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "subject": "Motion of System of Particles & Rigid Body",
+  "set": 5,
+  "title": "Motion of System of Particles & Rigid Body Mock Test 5",
+  "questions": [
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-001",
+      "number": 1,
+      "question": "The center of mass of a system of particles depends on:",
+      "options": {
+        "A": "Only the masses of particles",
+        "B": "Only the relative spacing of particles",
+        "C": "Both masses and relative spacing",
+        "D": "The nature of internal forces"
+      },
+      "answer": "C",
+      "explanation": "The position of the center of mass is the weighted average of the positions of the individual masses.",
+      "hash": "d97b821828489e0b",
+      "translations": {
+        "hi": {
+          "question": "कणों के एक निकाय का द्रव्यमान केंद्र किस पर निर्भर करता है?",
+          "options": {
+            "A": "केवल कणों के द्रव्यमान पर",
+            "B": "केवल कणों के सापेक्ष अंतराल पर",
+            "C": "द्रव्यमान और सापेक्ष अंतराल दोनों पर",
+            "D": "आंतरिक बलों की प्रकृति पर"
+          },
+          "explanation": "द्रव्यमान केंद्र की स्थिति अलग-अलग द्रव्यमानों की स्थितियों का भारित औसत (weighted average) होती है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-002",
+      "number": 2,
+      "question": "The moment of inertia of a solid sphere of mass M and radius R about a tangent to its surface is:",
+      "options": {
+        "A": "2/5 MR²",
+        "B": "7/5 MR²",
+        "C": "3/2 MR²",
+        "D": "5/3 MR²"
+      },
+      "answer": "B",
+      "explanation": "By parallel axis theorem: I = Icm + Md². I = 2/5 MR² + MR² = 7/5 MR².",
+      "hash": "185d0c3299fefd43",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R के एक ठोस गोले का उसकी सतह की स्पर्श रेखा के परतः जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "2/5 MR²",
+            "B": "7/5 MR²",
+            "C": "3/2 MR²",
+            "D": "5/3 MR²"
+          },
+          "explanation": "समांतर अक्ष प्रमेय द्वारा: I = Icm + Md²| I = 2/5 MR² + MR² = 7/5 MR²|"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-003",
+      "number": 3,
+      "question": "A thin circular ring of mass M and radius R is rotating about its axis with angular speed ω. If two identical particles of mass m are attached to opposite ends of a diameter, the new angular speed is:",
+      "options": {
+        "A": "Mω / (M + m)",
+        "B": "Mω / (M + 2m)",
+        "C": "(M - 2m)ω / M",
+        "D": "ω"
+      },
+      "answer": "B",
+      "explanation": "Conservation of angular momentum: I1ω1 = I2ω2. (MR²)ω = (MR² + 2mR²)ω'. Solving gives ω' = Mω/(M + 2m).",
+      "hash": "b0381ccd30add232",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R की एक पतली वृत्ताकार वलय कोणीय गति ω के साथ अपने अक्ष के परतः घूम रही है। यदि द्रव्यमान m के दो समान कण एक व्यास के विपरीत सिरों पर जोड़े जाते हैं, तो नई कोणीय गति है:",
+          "options": {
+            "A": "Mω / (M + m)",
+            "B": "Mω / (M + 2m)",
+            "C": "(M - 2m)ω / M",
+            "D": "ω"
+          },
+          "explanation": "कोणीय संवेग का संरक्षण: I1ω1 = I2ω2। (MR²)ω = (MR² + 2mR²)ω'| हल करने पर ω' = Mω/(M + 2m) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-004",
+      "number": 4,
+      "question": "For a rigid body rotating about a fixed axis, the angular momentum is:",
+      "options": {
+        "A": "Always parallel to the angular velocity",
+        "B": "Parallel to angular velocity only if the axis is an axis of symmetry",
+        "C": "Always perpendicular to the angular velocity",
+        "D": "Independent of the mass distribution"
+      },
+      "answer": "B",
+      "explanation": "Angular momentum L and angular velocity ω are parallel only when rotating about a principal axis of symmetry.",
+      "hash": "b262482d8ac91328",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित अक्ष के परतः घूमने वाली दृढ़ वस्तु के लिए, कोणीय संवेग होता है:",
+          "options": {
+            "A": "हमेशा कोणीय वेग के समांतर",
+            "B": "कोणीय वेग के समांतर केवल तभी जब अक्ष सममिति का अक्ष हो",
+            "C": "हमेशा कोणीय वेग के लंबवत",
+            "D": "द्रव्यमान वितरण से स्वतंत्र"
+          },
+          "explanation": "कोणीय संवेग L और कोणीय वेग ω केवल तभी समांतर होते हैं जब घूर्णन सममिति के मुख्य अक्ष के परतः हो।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-005",
+      "number": 5,
+      "question": "The ratio of radii of gyration of a circular ring and a circular disc of the same radius about their respective axes passing through their centers and perpendicular to their planes is:",
+      "options": {
+        "A": "1 : 1",
+        "B": "sqrt(2) : 1",
+        "C": "1 : sqrt(2)",
+        "D": "2 : 1"
+      },
+      "answer": "B",
+      "explanation": "k_ring = R, k_disc = R/sqrt(2). Ratio = R / (R/sqrt(2)) = sqrt(2) : 1.",
+      "hash": "e3e963688a877efd",
+      "translations": {
+        "hi": {
+          "question": "समान त्रिज्या वाली एक वृत्ताकार वलय और एक वृत्ताकार चकती की उनके केंद्रों से गुजरने वाले और उनके तल के लंबवत अक्षों के परतः परिभ्रमण त्रिज्याओं का अनुपात है:",
+          "options": {
+            "A": "1 : 1",
+            "B": "sqrt(2) : 1",
+            "C": "1 : sqrt(2)",
+            "D": "2 : 1"
+          },
+          "explanation": "k_वलय = R, k_चकती = R/sqrt(2)। अनुपात = R / (R/sqrt(2)) = sqrt(2) : 1।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-006",
+      "number": 6,
+      "question": "A cylinder of mass M and radius R rolls without slipping down an inclined plane of height h. Its linear velocity at the bottom is:",
+      "options": {
+        "A": "sqrt(2gh)",
+        "B": "sqrt(gh)",
+        "C": "sqrt(4gh/3)",
+        "D": "sqrt(3gh/4)"
+      },
+      "answer": "C",
+      "explanation": "Using energy conservation: mgh = 1/2 mv² + 1/2 Iω². For a cylinder I = 1/2 mR². Solving gives v = sqrt(4gh/3).",
+      "hash": "ac1b27f3d7959ebf",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R का एक बेलन ऊंचाई h के झुके हुए तल से बिना फिसले लुढ़कता है। नीचे इसका रैखिक वेग है:",
+          "options": {
+            "A": "sqrt(2gh)",
+            "B": "sqrt(gh)",
+            "C": "sqrt(4gh/3)",
+            "D": "sqrt(3gh/4)"
+          },
+          "explanation": "ऊर्जा संरक्षण का उपयोग करते हुए: mgh = 1/2 mv² + 1/2 Iω²। बेलन के लिए I = 1/2 mR²। हल करने पर v = sqrt(4gh/3) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-007",
+      "number": 7,
+      "question": "When a torque acting on a system is zero, which quantity is conserved?",
+      "options": {
+        "A": "Force",
+        "B": "Linear Momentum",
+        "C": "Angular Momentum",
+        "D": "Kinetic Energy"
+      },
+      "answer": "C",
+      "explanation": "Torque is the rate of change of angular momentum (τ = dL/dt). If τ = 0, L is constant.",
+      "hash": "529a2a9f8061d403",
+      "translations": {
+        "hi": {
+          "question": "जब किसी निकाय पर लगने वाला टॉर्क शून्य होता है, तो कौन सी मात्रा संरक्षित रहती है?",
+          "options": {
+            "A": "बल",
+            "B": "रैखिक संवेग",
+            "C": "कोणीय संवेग",
+            "D": "गतिज ऊर्जा"
+          },
+          "explanation": "टॉर्क कोणीय संवेग के परिवर्तन की दर है (τ = dL/dt)। यदि τ = 0, तो L स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-008",
+      "number": 8,
+      "question": "The direction of the torque vector is:",
+      "options": {
+        "A": "Along the direction of force",
+        "B": "Along the direction of radius vector",
+        "C": "Perpendicular to both radius and force vectors",
+        "D": "Opposite to the direction of motion"
+      },
+      "answer": "C",
+      "explanation": "Torque is the cross product of radius and force (τ = r x F), which is perpendicular to the plane containing r and F.",
+      "hash": "dad05beb2becc65c",
+      "translations": {
+        "hi": {
+          "question": "टॉर्क सदिश की दिशा होती है:",
+          "options": {
+            "A": "बल की दिशा के अनुदिश",
+            "B": "त्रिज्या सदिश की दिशा के अनुदिश",
+            "C": "त्रिज्या और बल सदिश दोनों के लंबवत",
+            "D": "गति की दिशा के विपरीत"
+          },
+          "explanation": "टॉर्क त्रिज्या और बल का क्रॉस उत्पाद है (τ = r x F), जो r और F वाले तल के लंबवत होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-009",
+      "number": 9,
+      "question": "A solid sphere is rolling on a horizontal surface without slipping. The fraction of its total kinetic energy that is rotational is:",
+      "options": {
+        "A": "2/5",
+        "B": "2/7",
+        "C": "5/7",
+        "D": "3/7"
+      },
+      "answer": "B",
+      "explanation": "K_rot = 1/2 Iω² = 1/5 mv². K_total = 7/10 mv². Fraction = (1/5) / (7/10) = 2/7.",
+      "hash": "2dc75a312d886ab8",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस गोला बिना फिसले क्षैतिज सतह पर लुढ़क रहा है। इसकी कुल गतिज ऊर्जा का वह अंश जो घूर्णी है, होगा:",
+          "options": {
+            "A": "2/5",
+            "B": "2/7",
+            "C": "5/7",
+            "D": "3/7"
+          },
+          "explanation": "K_घूर्णी = 1/2 Iω² = 1/5 mv²| K_कुल = 7/10 mv²| अंश = (1/5) / (7/10) = 2/7|"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-010",
+      "number": 10,
+      "question": "A constant torque of 31.4 Nm is exerted on a pivoted wheel. If the angular acceleration of the wheel is 4π rad/s², the moment of inertia of the wheel is:",
+      "options": {
+        "A": "2.5 kg m²",
+        "B": "3.5 kg m²",
+        "C": "4.5 kg m²",
+        "D": "5.5 kg m²"
+      },
+      "answer": "A",
+      "explanation": "τ = Iα. I = τ / α = 31.4 / (4 * 3.14) = 31.4 / 12.56 = 2.5 kg m².",
+      "hash": "49a50f1bfa01d9a6",
+      "translations": {
+        "hi": {
+          "question": "एक धुरी पर लगे पहिये पर 31.4 Nm का स्थिर टॉर्क लगाया जाता है। यदि पहिये का कोणीय त्वरण 4π rad/s² है, तो पहिये का जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "2.5 kg m²",
+            "B": "3.5 kg m²",
+            "C": "4.5 kg m²",
+            "D": "5.5 kg m²"
+          },
+          "explanation": "τ = Iα। I = τ / α = 31.4 / (4 * 3.14) = 31.4 / 12.56 = 2.5 kg m²।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-011",
+      "number": 11,
+      "question": "A disc is rotating with angular velocity ω. If a child sits on it, which of the following is conserved?",
+      "options": {
+        "A": "Kinetic Energy",
+        "B": "Moment of Inertia",
+        "C": "Angular Momentum",
+        "D": "Linear Momentum"
+      },
+      "answer": "C",
+      "explanation": "No external torque acts on the system (disc + child), so angular momentum is conserved.",
+      "hash": "27c1b2db34c3be49",
+      "translations": {
+        "hi": {
+          "question": "एक चकती कोणीय वेग ω से घूम रही है। यदि एक बच्चा इस पर बैठता है, तो निम्नलिखित में से क्या संरक्षित रहता है?",
+          "options": {
+            "A": "गतिज ऊर्जा",
+            "B": "जड़त्व आघूर्ण",
+            "C": "कोणीय संवेग",
+            "D": "रैखिक संवेग"
+          },
+          "explanation": "निकाय (चकती + बच्चा) पर कोई बाहरी टॉर्क कार्य नहीं करता है, इसलिए कोणीय संवेग संरक्षित रहता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-012",
+      "number": 12,
+      "question": "For a particle moving in a circle with constant angular velocity, its angular momentum about the center is L. If the radius is doubled and angular velocity is halved, the new angular momentum is:",
+      "options": {
+        "A": "L",
+        "B": "2L",
+        "C": "4L",
+        "D": "L/2"
+      },
+      "answer": "B",
+      "explanation": "L = mr²ω. New L' = m(2r)²(ω/2) = m(4r²)(ω/2) = 2mr²ω = 2L.",
+      "hash": "8f47acb1a658406a",
+      "translations": {
+        "hi": {
+          "question": "निरंतर कोणीय वेग के साथ एक वृत्त में गति करने वाले कण का केंद्र के परतः कोणीय संवेग L है। यदि त्रिज्या दोगुनी कर दी जाए और कोणीय वेग आधा कर दिया जाए, तो नया कोणीय संवेग है:",
+          "options": {
+            "A": "L",
+            "B": "2L",
+            "C": "4L",
+            "D": "L/2"
+          },
+          "explanation": "L = mr²ω। नया L' = m(2r)²(ω/2) = m(4r²)(ω/2) = 2mr²ω = 2L।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-013",
+      "number": 13,
+      "question": "The theorem of perpendicular axes is applicable for:",
+      "options": {
+        "A": "Only laminar bodies",
+        "B": "Only spherical bodies",
+        "C": "Any rigid body",
+        "D": "Only cylindrical bodies"
+      },
+      "answer": "A",
+      "explanation": "The perpendicular axis theorem applies specifically to planar (2D) objects.",
+      "hash": "89f9f4b5d8ab46e9",
+      "translations": {
+        "hi": {
+          "question": "लंबवत अक्षों का प्रमेय किसके लिए लागू होता है?",
+          "options": {
+            "A": "केवल लैमिनार (समतलीय) वस्तुओं के लिए",
+            "B": "केवल गोलाकार वस्तुओं के लिए",
+            "C": "किसी भी दृढ़ वस्तु के लिए",
+            "D": "केवल बेलनाकार वस्तुओं के लिए"
+          },
+          "explanation": "लंबवत अक्ष प्रमेय विशेष रूप से समतलीय (2D) वस्तुओं पर लागू होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-014",
+      "number": 14,
+      "question": "Torque is the rotational analogue of:",
+      "options": {
+        "A": "Mass",
+        "B": "Force",
+        "C": "Momentum",
+        "D": "Energy"
+      },
+      "answer": "B",
+      "explanation": "Just as force causes linear acceleration, torque causes angular acceleration.",
+      "hash": "0b28061a7782d181",
+      "translations": {
+        "hi": {
+          "question": "टॉर्क किसका घूर्णी एनालॉग (घूर्णन अनुरूप) है?",
+          "options": {
+            "A": "द्रव्यमान",
+            "B": "बल",
+            "C": "संवेग",
+            "D": "ऊर्जा"
+          },
+          "explanation": "जिस प्रकार बल रैखिक त्वरण का कारण बनता है, उसी प्रकार टॉर्क कोणीय त्वरण का कारण बनता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-015",
+      "number": 15,
+      "question": "The position of center of mass of a system of particles is independent of:",
+      "options": {
+        "A": "Mass of particles",
+        "B": "Position of particles",
+        "C": "Internal forces between particles",
+        "D": "Relative distance between particles"
+      },
+      "answer": "C",
+      "explanation": "Center of mass depends only on mass distribution and coordinates; internal forces do not change its position.",
+      "hash": "458104fd30200bfe",
+      "translations": {
+        "hi": {
+          "question": "कणों के एक निकाय के द्रव्यमान केंद्र की स्थिति किस पर निर्भर नहीं करती है?",
+          "options": {
+            "A": "कणों के द्रव्यमान पर",
+            "B": "कणों की स्थिति पर",
+            "C": "कणों के बीच आंतरिक बलों पर",
+            "D": "कणों के बीच की सापेक्ष दूरी पर"
+          },
+          "explanation": "द्रव्यमान केंद्र केवल द्रव्यमान वितरण और निर्देशांक पर निर्भर करता है; आंतरिक बल इसकी स्थिति नहीं बदलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-016",
+      "number": 16,
+      "question": "If a body is in pure rolling, the velocity of the point of contact is:",
+      "options": {
+        "A": "Equal to the velocity of center of mass",
+        "B": "Twice the velocity of center of mass",
+        "C": "Zero",
+        "D": "Half the velocity of center of mass"
+      },
+      "answer": "C",
+      "explanation": "In pure rolling (without slipping), the instantaneous velocity of the point in contact with the ground is zero.",
+      "hash": "8b76c5c930afa501",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई वस्तु शुद्ध लोटनिक गति में है, तो संपर्क बिंदु का वेग होता है:",
+          "options": {
+            "A": "द्रव्यमान केंद्र के वेग के बराबर",
+            "B": "द्रव्यमान केंद्र के वेग का दोगुना",
+            "C": "शून्य",
+            "D": "द्रव्यमान केंद्र के वेग का आधा"
+          },
+          "explanation": "शुद्ध लोटनिक गति (बिना फिसले) में, जमीन के संपर्क में रहने वाले बिंदु का तात्कालिक वेग शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-017",
+      "number": 17,
+      "question": "A couple acting on a body produces:",
+      "options": {
+        "A": "Purely translational motion",
+        "B": "Purely rotational motion",
+        "C": "Both translational and rotational motion",
+        "D": "No motion"
+      },
+      "answer": "B",
+      "explanation": "A couple consists of two equal and opposite forces whose net force is zero, resulting only in torque and rotation.",
+      "hash": "d2cdd6049523f748",
+      "translations": {
+        "hi": {
+          "question": "किसी वस्तु पर कार्य करने वाला बल-युग्म (couple) उत्पन्न करता है:",
+          "options": {
+            "A": "विशुद्ध रूप से स्थानान्तरण गति",
+            "B": "विशुद्ध रूप से घूर्णन गति",
+            "C": "स्थानान्तरण और घूर्णन दोनों गति",
+            "D": "कोई गति नहीं"
+          },
+          "explanation": "एक बल-युग्म में दो समान और विपरीत बल होते हैं जिनका कुल बल शून्य होता है, जिसके परिणामस्वरूप केवल टॉर्क और घूर्णन होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-018",
+      "number": 18,
+      "question": "The moment of inertia of a circular disc about an axis passing through its center and perpendicular to its plane is I. Its moment of inertia about its diameter is:",
+      "options": {
+        "A": "I",
+        "B": "I/2",
+        "C": "2I",
+        "D": "I/4"
+      },
+      "answer": "B",
+      "explanation": "Perpendicular axis theorem: Iz = Ix + Iy. For a disc Ix = Iy (diameters), so I = 2 * Idia, meaning Idia = I/2.",
+      "hash": "3f5a9b30805d7562",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्ताकार चकती का उसके केंद्र से गुजरने वाले और उसके तल के लंबवत अक्ष के परतः जड़त्व आघूर्ण I है। इसके व्यास के परतः इसका जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "I",
+            "B": "I/2",
+            "C": "2I",
+            "D": "I/4"
+          },
+          "explanation": "लंबवत अक्ष प्रमेय: Iz = Ix + Iy। चकती के लिए Ix = Iy (व्यास), इसलिए I = 2 * Idia, जिसका अर्थ है Idia = I/2।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-019",
+      "number": 19,
+      "question": "The radius of gyration of a solid sphere of radius R about its diameter is:",
+      "options": {
+        "A": "R",
+        "B": "R * sqrt(2/5)",
+        "C": "R * sqrt(3/5)",
+        "D": "R * sqrt(2/3)"
+      },
+      "answer": "B",
+      "explanation": "I = 2/5 MR² = Mk². Therefore k = R * sqrt(2/5).",
+      "hash": "815d933b2183a639",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस गोले की उसके व्यास के परतः परिभ्रमण त्रिज्या (radius of gyration) क्या है?",
+          "options": {
+            "A": "R",
+            "B": "R * sqrt(2/5)",
+            "C": "R * sqrt(3/5)",
+            "D": "R * sqrt(2/3)"
+          },
+          "explanation": "I = 2/5 MR² = Mk²| इसलिए k = R * sqrt(2/5)|"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-05-020",
+      "number": 20,
+      "question": "If the earth shrinks to half its radius without change in mass, the duration of the day will be:",
+      "options": {
+        "A": "6 hours",
+        "B": "12 hours",
+        "C": "24 hours",
+        "D": "48 hours"
+      },
+      "answer": "A",
+      "explanation": "L is conserved. I1ω1 = I2ω2. (2/5 MR²) (2π/24) = (2/5 M(R/2)²) (2π/T2). Solving gives T2 = 6 hours.",
+      "hash": "ef97cce26c0f4a95",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी द्रव्यमान में परिवर्तन के बिना अपनी त्रिज्या की आधी सिकुड़ जाती है, तो दिन की अवधि होगी:",
+          "options": {
+            "A": "6 घंटे",
+            "B": "12 घंटे",
+            "C": "24 घंटे",
+            "D": "48 घंटे"
+          },
+          "explanation": "L संरक्षित है। I1ω1 = I2ω2| (2/5 MR²) (2π/24) = (2/5 M(R/2)²) (2π/T2)| हल करने पर T2 = 6 घंटे प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

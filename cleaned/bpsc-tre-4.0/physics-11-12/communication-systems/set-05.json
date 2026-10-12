@@ -1,0 +1,527 @@
+{
+  "subject": "Communication Systems",
+  "set": 5,
+  "title": "Communication Systems Mock Test 5",
+  "questions": [
+    {
+      "id": "communication-systems-05-001",
+      "number": 1,
+      "question": "What is the bandwidth of an AM wave if the frequency of the carrier is 100 kHz and the message signal is 5 kHz?",
+      "options": {
+        "A": "5 kHz",
+        "B": "10 kHz",
+        "C": "100 kHz",
+        "D": "105 kHz"
+      },
+      "answer": "B",
+      "explanation": "Bandwidth of an AM wave is 2 times the frequency of the modulating signal (2 * fm).",
+      "hash": "6ac444d654b19acf",
+      "translations": {
+        "hi": {
+          "question": "यदि वाहक की आवृत्ति 100 kHz है और संदेश संकेत 5 kHz है, तो AM तरंग की बैंडविड्थ क्या है?",
+          "options": {
+            "A": "5 kHz",
+            "B": "10 kHz",
+            "C": "100 kHz",
+            "D": "105 kHz"
+          },
+          "explanation": "AM तरंग की बैंडविड्थ मॉड्यूलेटिंग सिग्नल की आवृत्ति का 2 गुना (2 * fm) होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-002",
+      "number": 2,
+      "question": "Which of the following is the correct expression for the range of a space wave for a transmission tower of height h? (R is Earth radius)",
+      "options": {
+        "A": "Square root of (Rh)",
+        "B": "Square root of (2Rh)",
+        "C": "2Rh",
+        "D": "R/h"
+      },
+      "answer": "B",
+      "explanation": "The line-of-sight distance or range d is calculated as the square root of 2 times the radius of Earth times the height of the antenna.",
+      "hash": "93313f913b9b2908",
+      "translations": {
+        "hi": {
+          "question": "ऊंचाई h के प्रेषण टावर के लिए अंतरिक्ष तरंग की परास के लिए निम्नलिखित में से कौन सा सही व्यंजक है? (R पृथ्वी की त्रिज्या है)",
+          "options": {
+            "A": "sqrt(Rh)",
+            "B": "sqrt(2Rh)",
+            "C": "2Rh",
+            "D": "R/h"
+          },
+          "explanation": "दृष्टि रेखा दूरी या परास d की गणना 2 गुणा पृथ्वी की त्रिज्या गुणा एंटीना की ऊंचाई के वर्गमूल के रूप में की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-003",
+      "number": 3,
+      "question": "In a communication system, the term 'Baseband' refers to:",
+      "options": {
+        "A": "The high frequency carrier wave",
+        "B": "The original frequency range of the information signal",
+        "C": "The noise signal",
+        "D": "The transmitted wave after modulation"
+      },
+      "answer": "B",
+      "explanation": "Baseband represents the actual signal frequencies produced by the source before any modulation takes place.",
+      "hash": "3ea9776fd31cfc01",
+      "translations": {
+        "hi": {
+          "question": "एक संचार प्रणाली में, 'बेसबैंड' (Baseband) शब्द का तात्पर्य है:",
+          "options": {
+            "A": "उच्च आवृत्ति वाहक तरंग",
+            "B": "सूचना संकेत की मूल आवृत्ति सीमा",
+            "C": "शोर संकेत",
+            "D": "मॉड्यूलेशन के बाद प्रेषित तरंग"
+          },
+          "explanation": "बेसबैंड मॉड्यूलेशन होने से पहले स्रोत द्वारा उत्पादित वास्तविक सिग्नल आवृत्तियों का प्रतिनिधित्व करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-004",
+      "number": 4,
+      "question": "Which of the following frequencies is reflected back by the ionosphere?",
+      "options": {
+        "A": "2 MHz to 30 MHz",
+        "B": "100 MHz to 200 MHz",
+        "C": "1 GHz to 10 GHz",
+        "D": "500 Hz to 1000 Hz"
+      },
+      "answer": "A",
+      "explanation": "Sky waves in the HF (High Frequency) band are reflected by the ionosphere for long-distance communication.",
+      "hash": "f8361dc8076ba44f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी आवृत्ति आयन मंडल द्वारा वापस परावर्तित होती है?",
+          "options": {
+            "A": "2 MHz से 30 MHz",
+            "B": "100 MHz से 200 MHz",
+            "C": "1 GHz से 10 GHz",
+            "D": "500 Hz से 1000 Hz"
+          },
+          "explanation": "लंबी दूरी के संचार के लिए HF (उच्च आवृत्ति) बैंड में आकाश तरंगें आयन मंडल द्वारा परावर्तित होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-005",
+      "number": 5,
+      "question": "The process of recovering the information signal from the modulated carrier wave is:",
+      "options": {
+        "A": "Modulation",
+        "B": "Demodulation",
+        "C": "Attenuation",
+        "D": "Amplification"
+      },
+      "answer": "B",
+      "explanation": "Demodulation or detection is the process performed at the receiver to extract the message signal.",
+      "hash": "6c3853995c46e98e",
+      "translations": {
+        "hi": {
+          "question": "मॉड्यूलेटेड वाहक तरंग से सूचना संकेत प्राप्त करने की प्रक्रिया क्या है?",
+          "options": {
+            "A": "मॉड्यूलेशन",
+            "B": "डिमॉड्यूलेशन",
+            "C": "एटेन्यूएशन",
+            "D": "प्रवर्धन"
+          },
+          "explanation": "डिमॉड्यूलेशन या डिटेक्शन वह प्रक्रिया है जो संदेश संकेत निकालने के लिए रिसीवर पर की जाती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-006",
+      "number": 6,
+      "question": "In frequency modulation (FM), when the frequency of the carrier increases, the amplitude of the carrier:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "C",
+      "explanation": "In FM, only the frequency of the carrier changes with the message signal; the amplitude remains constant.",
+      "hash": "a9d9aa3dbc38e9af",
+      "translations": {
+        "hi": {
+          "question": "आवृत्ति मॉड्यूलेशन (FM) में, जब वाहक की आवृत्ति बढ़ती है, तो वाहक का आयाम:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "स्थिर रहता है",
+            "D": "शून्य हो जाता है"
+          },
+          "explanation": "FM में, संदेश संकेत के साथ केवल वाहक की आवृत्ति बदलती है; आयाम स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-007",
+      "number": 7,
+      "question": "If the modulation index of an AM wave is 0.5, the ratio of the sideband power to the total power is:",
+      "options": {
+        "A": "1/9",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "1/3"
+      },
+      "answer": "A",
+      "explanation": "Total Power Pt = Pc (1 + m^2 / 2). Ratio of total sideband power to total power is (m^2 / 2) / (1 + m^2 / 2). For m=0.5, it is 1/9.",
+      "hash": "511459f5f2e64f8d",
+      "translations": {
+        "hi": {
+          "question": "यदि एक AM तरंग का मॉड्यूलेशन सूचकांक 0.5 है, तो साइडबैंड शक्ति का कुल शक्ति से अनुपात क्या है?",
+          "options": {
+            "A": "1/9",
+            "B": "1/2",
+            "C": "1/4",
+            "D": "1/3"
+          },
+          "explanation": "कुल शक्ति Pt = Pc (1 + m^2 / 2) होती है। कुल साइडबैंड शक्ति का कुल शक्ति से अनुपात (m^2 / 2) / (1 + m^2 / 2) होता है। m=0.5 के लिए, यह 1/9 है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-008",
+      "number": 8,
+      "question": "Which device acts as both a receiver and a transmitter to extend the range of signals?",
+      "options": {
+        "A": "Transducer",
+        "B": "Repeater",
+        "C": "Modulator",
+        "D": "Antenna"
+      },
+      "answer": "B",
+      "explanation": "A repeater receives a signal, amplifies/reprocesses it, and retransmits it to cover greater distances.",
+      "hash": "90137d7161f01ace",
+      "translations": {
+        "hi": {
+          "question": "संकेतों की सीमा बढ़ाने के लिए कौन सा उपकरण रिसीवर और ट्रांसमीटर दोनों के रूप में कार्य करता है?",
+          "options": {
+            "A": "ट्रांसड्यूसर",
+            "B": "रिपीटर",
+            "C": "मॉड्यूलेटर",
+            "D": "एंटीना"
+          },
+          "explanation": "एक रिपीटर सिग्नल प्राप्त करता है, उसे प्रवर्धित/पुनः संसाधित करता है, और अधिक दूरी तय करने के लिए उसे पुन: प्रसारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-009",
+      "number": 9,
+      "question": "Ground wave propagation is not suitable for high frequencies because:",
+      "options": {
+        "A": "The signal is absorbed by the ionosphere",
+        "B": "Attenuation increases with frequency",
+        "C": "It requires very small antennas",
+        "D": "High frequencies travel faster than light"
+      },
+      "answer": "B",
+      "explanation": "Energy loss in the ground increases significantly as the frequency of the signal increases.",
+      "hash": "24592084eefa11f5",
+      "translations": {
+        "hi": {
+          "question": "उच्च आवृत्तियों के लिए भू-तरंग संचरण उपयुक्त नहीं है क्योंकि:",
+          "options": {
+            "A": "सिग्नल आयन मंडल द्वारा अवशोषित हो जाता है",
+            "B": "आवृत्ति के साथ क्षीणन बढ़ता है",
+            "C": "इसके लिए बहुत छोटे एंटेना की आवश्यकता होती है",
+            "D": "उच्च आवृत्तियाँ प्रकाश से तेज़ चलती हैं"
+          },
+          "explanation": "सिग्नल की आवृत्ति बढ़ने पर जमीन में ऊर्जा की हानि महत्वपूर्ण रूप से बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-010",
+      "number": 10,
+      "question": "For a 100 percent modulation in AM, the value of the modulation index is:",
+      "options": {
+        "A": "0",
+        "B": "0.5",
+        "C": "1",
+        "D": "100"
+      },
+      "answer": "C",
+      "explanation": "100% modulation means the amplitude of the message signal equals the amplitude of the carrier wave (m = 1).",
+      "hash": "a14a18c4f8f06c82",
+      "translations": {
+        "hi": {
+          "question": "AM में 100 प्रतिशत मॉड्यूलेशन के लिए, मॉड्यूलेशन सूचकांक का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "0.5",
+            "C": "1",
+            "D": "100"
+          },
+          "explanation": "100% मॉड्यूलेशन का अर्थ है कि संदेश संकेत का आयाम वाहक तरंग के आयाम के बराबर है (m = 1)।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-011",
+      "number": 11,
+      "question": "The minimum height of an antenna for efficient transmission of a signal of wavelength lambda is:",
+      "options": {
+        "A": "lambda",
+        "B": "lambda / 2",
+        "C": "lambda / 4",
+        "D": "lambda / 8"
+      },
+      "answer": "C",
+      "explanation": "For effective radiation, the length of the antenna should be at least one-fourth of the wavelength.",
+      "hash": "4fcfd66244b1febd",
+      "translations": {
+        "hi": {
+          "question": "तरंगदैर्ध्य लैम्ब्डा के संकेत के कुशल संचरण के लिए एंटीना की न्यूनतम ऊंचाई होनी चाहिए:",
+          "options": {
+            "A": "lambda",
+            "B": "lambda / 2",
+            "C": "lambda / 4",
+            "D": "lambda / 8"
+          },
+          "explanation": "प्रभावी विकिरण के लिए, एंटीना की लंबाई तरंगदैर्ध्य का कम से कम एक-चौथाई होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-012",
+      "number": 12,
+      "question": "Which component in a communication system converts a physical message into an electrical signal?",
+      "options": {
+        "A": "Transmitter",
+        "B": "Input Transducer",
+        "C": "Communication Channel",
+        "D": "Receiver"
+      },
+      "answer": "B",
+      "explanation": "A microphone is an example of an input transducer that converts sound into an electrical voltage.",
+      "hash": "eeb4ad002a36bdfe",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली में कौन सा घटक भौतिक संदेश को विद्युत संकेत में परिवर्तित करता है?",
+          "options": {
+            "A": "ट्रांसमीटर",
+            "B": "इनपुट ट्रांसड्यूसर",
+            "C": "संचार चैनल",
+            "D": "रिसीवर"
+          },
+          "explanation": "माइक्रोफोन इनपुट ट्रांसड्यूसर का एक उदाहरण है जो ध्वनि को विद्युत वोल्टेज में परिवर्तित करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-013",
+      "number": 13,
+      "question": "The frequency range of VHF (Very High Frequency) is:",
+      "options": {
+        "A": "3 to 30 kHz",
+        "B": "30 to 300 kHz",
+        "C": "30 to 300 MHz",
+        "D": "300 to 3000 MHz"
+      },
+      "answer": "C",
+      "explanation": "VHF band ranges from 30 MHz to 300 MHz and is used for FM radio and TV.",
+      "hash": "5b7ab6ac77fcd869",
+      "translations": {
+        "hi": {
+          "question": "VHF (वेरी हाई फ्रीक्वेंसी) की आवृत्ति सीमा क्या है?",
+          "options": {
+            "A": "3 से 30 kHz",
+            "B": "30 से 300 kHz",
+            "C": "30 से 300 MHz",
+            "D": "300 से 3000 MHz"
+          },
+          "explanation": "VHF बैंड 30 MHz से 300 MHz तक होता है और इसका उपयोग FM रेडियो और टीवी के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-014",
+      "number": 14,
+      "question": "Which type of modulation is used for the sound part of a TV broadcast?",
+      "options": {
+        "A": "Amplitude Modulation",
+        "B": "Frequency Modulation",
+        "C": "Pulse Width Modulation",
+        "D": "Phase Modulation"
+      },
+      "answer": "B",
+      "explanation": "Television uses AM for video signals and FM for audio signals to provide high-quality sound.",
+      "hash": "a96d6f2e388df22b",
+      "translations": {
+        "hi": {
+          "question": "टीवी प्रसारण के ध्वनि भाग के लिए किस प्रकार के मॉड्यूलेशन का उपयोग किया जाता है?",
+          "options": {
+            "A": "आयाम मॉड्यूलेशन",
+            "B": "आवृत्ति मॉड्यूलेशन",
+            "C": "पल्स विड्थ मॉड्यूलेशन",
+            "D": "फेज मॉड्यूलेशन"
+          },
+          "explanation": "टेलीविजन वीडियो संकेतों के लिए AM और ऑडियो संकेतों के लिए FM का उपयोग करता है ताकि उच्च गुणवत्ता वाली ध्वनि प्रदान की जा सके।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-015",
+      "number": 15,
+      "question": "In Space wave propagation, the distance of the horizon from the top of an antenna is proportional to:",
+      "options": {
+        "A": "h",
+        "B": "Square of h",
+        "C": "Square root of h",
+        "D": "1 / h"
+      },
+      "answer": "C",
+      "explanation": "The horizon distance is given by d = sqrt(2Rh), making it proportional to the square root of height h.",
+      "hash": "4d444cea2446ab91",
+      "translations": {
+        "hi": {
+          "question": "अंतरिक्ष तरंग संचरण में, एंटीना के शीर्ष से क्षितिज की दूरी किसके समानुपाती होती है?",
+          "options": {
+            "A": "h",
+            "B": "h के वर्ग",
+            "C": "h के वर्गमूल",
+            "D": "1 / h"
+          },
+          "explanation": "क्षितिज दूरी d = sqrt(2Rh) द्वारा दी गई है, जो इसे ऊंचाई h के वर्गमूल के समानुपाती बनाती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-016",
+      "number": 16,
+      "question": "The maximum number of channels in an AM system is limited by:",
+      "options": {
+        "A": "Carrier frequency",
+        "B": "Bandwidth of the medium",
+        "C": "Height of the antenna",
+        "D": "Shape of the transducer"
+      },
+      "answer": "B",
+      "explanation": "Bandwidth is a finite resource; more bandwidth allows for more signals or channels to be transmitted.",
+      "hash": "6a104d59638b98c5",
+      "translations": {
+        "hi": {
+          "question": "AM सिस्टम में चैनलों की अधिकतम संख्या किसके द्वारा सीमित होती है?",
+          "options": {
+            "A": "वाहक आवृत्ति",
+            "B": "माध्यम की बैंडविड्थ",
+            "C": "एंटीना की ऊंचाई",
+            "D": "ट्रांसड्यूसर का आकार"
+          },
+          "explanation": "बैंडविड्थ एक सीमित संसाधन है; अधिक बैंडविड्थ अधिक संकेतों या चैनलों को प्रसारित करने की अनुमति देती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-017",
+      "number": 17,
+      "question": "Which of the following is an example of a guided transmission medium?",
+      "options": {
+        "A": "Atmosphere",
+        "B": "Free Space",
+        "C": "Optical Fiber",
+        "D": "Vacuum"
+      },
+      "answer": "C",
+      "explanation": "Guided media are physical paths like wires or fibers; unguided media are wireless like free space.",
+      "hash": "142ef1748a3cbb4c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन निर्देशित संचरण माध्यम (guided transmission medium) का एक उदाहरण है?",
+          "options": {
+            "A": "वायुमंडल",
+            "B": "मुक्त स्थान",
+            "C": "ऑप्टिकल फाइबर",
+            "D": "निर्वात"
+          },
+          "explanation": "निर्देशित माध्यम तार या फाइबर जैसे भौतिक पथ हैं; अनिर्देशित माध्यम मुक्त स्थान की तरह वायरलेस होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-018",
+      "number": 18,
+      "question": "What is the purpose of modulation in a communication system?",
+      "options": {
+        "A": "To translate the message signal to high frequency",
+        "B": "To reduce the noise",
+        "C": "To make signal audible",
+        "D": "To stop the signal"
+      },
+      "answer": "A",
+      "explanation": "Modulation translates low-frequency baseband signals to higher frequencies suitable for antenna transmission.",
+      "hash": "17fd6c623688a26b",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली में मॉड्यूलेशन का उद्देश्य क्या है?",
+          "options": {
+            "A": "संदेश संकेत को उच्च आवृत्ति में अनुवाद करना",
+            "B": "शोर कम करना",
+            "C": "सिग्नल को श्रव्य बनाना",
+            "D": "सिग्नल रोकना"
+          },
+          "explanation": "मॉड्यूलेशन कम आवृत्ति वाले बेसबैंड संकेतों को एंटीना संचरण के लिए उपयुक्त उच्च आवृत्तियों में अनुवादित करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-019",
+      "number": 19,
+      "question": "Noise interferes with the signal primarily during:",
+      "options": {
+        "A": "Input stage",
+        "B": "Modulation",
+        "C": "Propagation through the channel",
+        "D": "Output stage"
+      },
+      "answer": "C",
+      "explanation": "While signals travel through the medium (channel), external unwanted signals (noise) get added to them.",
+      "hash": "e42029bc1fe0077a",
+      "translations": {
+        "hi": {
+          "question": "शोर मुख्य रूप से संकेत में हस्तक्षेप करता है:",
+          "options": {
+            "A": "इनपुट चरण में",
+            "B": "मॉड्यूलेशन के दौरान",
+            "C": "चैनल के माध्यम से संचरण के दौरान",
+            "D": "आउटपुट चरण में"
+          },
+          "explanation": "जब सिग्नल माध्यम (चैनल) के माध्यम से यात्रा करते हैं, तो उनमें बाहरी अवांछित सिग्नल (शोर) जुड़ जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-05-020",
+      "number": 20,
+      "question": "If the audio signal has a frequency of 10 kHz, what is the frequency of the Upper Sideband in an AM wave with 1 MHz carrier?",
+      "options": {
+        "A": "1010 kHz",
+        "B": "990 kHz",
+        "C": "10 kHz",
+        "D": "1000 kHz"
+      },
+      "answer": "A",
+      "explanation": "Upper Sideband (USB) frequency is fc + fm = 1000 kHz + 10 kHz = 1010 kHz.",
+      "hash": "caeb3d77e7f02baa",
+      "translations": {
+        "hi": {
+          "question": "यदि ऑडियो सिग्नल की आवृत्ति 10 kHz है, तो 1 MHz वाहक वाली AM तरंग में ऊपरी साइडबैंड (Upper Sideband) की आवृत्ति क्या है?",
+          "options": {
+            "A": "1010 kHz",
+            "B": "990 kHz",
+            "C": "10 kHz",
+            "D": "1000 kHz"
+          },
+          "explanation": "ऊपरी साइडबैंड (USB) आवृत्ति fc + fm = 1000 kHz + 10 kHz = 1010 kHz होती है।"
+        }
+      }
+    }
+  ]
+}

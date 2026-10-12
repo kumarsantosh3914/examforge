@@ -1,0 +1,527 @@
+{
+  "subject": "Gravitation",
+  "set": 5,
+  "title": "Gravitation Mock Test 5",
+  "questions": [
+    {
+      "id": "gravitation-05-001",
+      "number": 1,
+      "question": "If the gravitational mass of an object is doubled, the gravitational force acting on it:",
+      "options": {
+        "A": "Remains same",
+        "B": "Doubles",
+        "C": "Becomes four times",
+        "D": "Becomes half"
+      },
+      "answer": "B",
+      "explanation": "Gravitational force is directly proportional to the mass of the object (F = mg).",
+      "hash": "15be639a5c208839",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु का गुरुत्वीय द्रव्यमान दोगुना कर दिया जाए, तो उस पर लगने वाला गुरुत्वाकर्षण बल:",
+          "options": {
+            "A": "समान रहता है",
+            "B": "दोगुना हो जाता है",
+            "C": "चार गुना हो जाता है",
+            "D": "आधा हो जाता है"
+          },
+          "explanation": "गुरुत्वाकर्षण बल वस्तु के द्रव्यमान के सीधे समानुपाती होता है (F = mg)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-002",
+      "number": 2,
+      "question": "The ratio of the energy required to raise a satellite to a height h above Earth to the energy required to put it into orbit is:",
+      "options": {
+        "A": "h : R",
+        "B": "2h : R",
+        "C": "R : h",
+        "D": "R : 2h"
+      },
+      "answer": "B",
+      "explanation": "Energy to raise = mgh/(1+h/R). Energy for orbit = GMm/2(R+h). For small h, ratio is 2h/R.",
+      "hash": "e613208168cca787",
+      "translations": {
+        "hi": {
+          "question": "किसी उपग्रह को पृथ्वी से h ऊँचाई तक उठाने के लिए आवश्यक ऊर्जा और उसे कक्षा में स्थापित करने के लिए आवश्यक ऊर्जा का अनुपात है:",
+          "options": {
+            "A": "h : R",
+            "B": "2h : R",
+            "C": "R : h",
+            "D": "R : 2h"
+          },
+          "explanation": "उठाने के लिए ऊर्जा = mgh/(1+h/R)। कक्षा के लिए ऊर्जा = GMm/2(R+h)। छोटे h के लिए, अनुपात 2h/R होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-003",
+      "number": 3,
+      "question": "The escape velocity of a planet is Ve. If a body is projected with velocity 2Ve, its speed in interstellar space will be:",
+      "options": {
+        "A": "Ve",
+        "B": "√3 Ve",
+        "C": "√5 Ve",
+        "D": "2 Ve"
+      },
+      "answer": "B",
+      "explanation": "Using V^2 = V_proj^2 - Ve^2. V = sqrt((2Ve)^2 - Ve^2) = sqrt(3)Ve.",
+      "hash": "0346fcbae227f7a3",
+      "translations": {
+        "hi": {
+          "question": "किसी ग्रह का पलायन वेग Ve है। यदि किसी वस्तु को 2Ve वेग से प्रक्षेपित किया जाता है, तो अंतरतारकीय अंतरिक्ष में उसकी गति होगी:",
+          "options": {
+            "A": "Ve",
+            "B": "√3 Ve",
+            "C": "√5 Ve",
+            "D": "2 Ve"
+          },
+          "explanation": "V^2 = V_proj^2 - Ve^2 का उपयोग करने पर। V = sqrt((2Ve)^2 - Ve^2) = sqrt(3)Ve।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-004",
+      "number": 4,
+      "question": "If the gravitational potential at a point is zero, the gravitational field at that point:",
+      "options": {
+        "A": "Must be zero",
+        "B": "May or may not be zero",
+        "C": "Cannot be zero",
+        "D": "Is infinite"
+      },
+      "answer": "B",
+      "explanation": "Field is the derivative of potential. A zero potential doesn't guarantee a zero derivative.",
+      "hash": "ce2c2a2df8104faf",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी बिंदु पर गुरुत्वीय विभव शून्य है, तो उस बिंदु पर गुरुत्वाकर्षण क्षेत्र:",
+          "options": {
+            "A": "शून्य होना ही चाहिए",
+            "B": "शून्य हो भी सकता है और नहीं भी",
+            "C": "शून्य नहीं हो सकता",
+            "D": "अनंत है"
+          },
+          "explanation": "क्षेत्र विभव का व्युत्पन्न (derivative) है। शून्य विभव शून्य व्युत्पन्न की गारंटी नहीं देता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-005",
+      "number": 5,
+      "question": "Which of the following is independent of mass of the satellite?",
+      "options": {
+        "A": "Potential energy",
+        "B": "Kinetic energy",
+        "C": "Orbital velocity",
+        "D": "Binding energy"
+      },
+      "answer": "C",
+      "explanation": "Orbital velocity Vo = sqrt(GM/R) depends only on the planet's mass and orbit radius.",
+      "hash": "4766f8de840515f4",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से क्या उपग्रह के द्रव्यमान से स्वतंत्र है?",
+          "options": {
+            "A": "स्थितिज ऊर्जा",
+            "B": "गतिज ऊर्जा",
+            "C": "कक्षीय वेग",
+            "D": "बंधन ऊर्जा"
+          },
+          "explanation": "कक्षीय वेग Vo = sqrt(GM/R) केवल ग्रह के द्रव्यमान और कक्षा की त्रिज्या पर निर्भर करता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-006",
+      "number": 6,
+      "question": "Two satellites are orbiting Earth in circular orbits of radii r and 4r. The ratio of their kinetic energies is:",
+      "options": {
+        "A": "4 : 1",
+        "B": "1 : 4",
+        "C": "2 : 1",
+        "D": "1 : 2"
+      },
+      "answer": "A",
+      "explanation": "Kinetic energy K = GMm/2r. Therefore, K is inversely proportional to r. K1/K2 = 4r/r = 4.",
+      "hash": "821e1072052845e5",
+      "translations": {
+        "hi": {
+          "question": "दो उपग्रह r और 4r त्रिज्या की वृत्ताकार कक्षाओं में पृथ्वी की परिक्रमा कर रहे हैं। उनकी गतिज ऊर्जाओं का अनुपात है:",
+          "options": {
+            "A": "4 : 1",
+            "B": "1 : 4",
+            "C": "2 : 1",
+            "D": "1 : 2"
+          },
+          "explanation": "गतिज ऊर्जा K = GMm/2r। इसलिए, K, r के व्युत्क्रमानुपाती है। K1/K2 = 4r/r = 4।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-007",
+      "number": 7,
+      "question": "The escape velocity from a planet is Ve. A tunnel is dug along the diameter of the planet. A body is dropped into the tunnel. Its speed at the center will be:",
+      "options": {
+        "A": "Ve",
+        "B": "Ve / √2",
+        "C": "Ve / 2",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Speed at center v = sqrt(gR). Since Ve = sqrt(2gR), v = Ve/√2.",
+      "hash": "51b8b13c9fdff4b9",
+      "translations": {
+        "hi": {
+          "question": "किसी ग्रह से पलायन वेग Ve है। ग्रह के व्यास के अनुदिश एक सुरंग खोदी गई है। सुरंग में एक वस्तु गिराई जाती है। केंद्र पर इसकी गति होगी:",
+          "options": {
+            "A": "Ve",
+            "B": "Ve / √2",
+            "C": "Ve / 2",
+            "D": "शून्य"
+          },
+          "explanation": "केंद्र पर गति v = sqrt(gR)। चूंकि Ve = sqrt(2gR), v = Ve/√2।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-008",
+      "number": 8,
+      "question": "A satellite is shifting from a lower orbit to a higher orbit. Which of the following increases?",
+      "options": {
+        "A": "Kinetic Energy",
+        "B": "Orbital Velocity",
+        "C": "Potential Energy",
+        "D": "None of these"
+      },
+      "answer": "C",
+      "explanation": "Potential energy U = -GMm/r. As r increases, U becomes less negative (increases).",
+      "hash": "c649838da2b46114",
+      "translations": {
+        "hi": {
+          "question": "एक उपग्रह निचली कक्षा से ऊँची कक्षा में जा रहा है। निम्नलिखित में से क्या बढ़ता है?",
+          "options": {
+            "A": "गतिज ऊर्जा",
+            "B": "कक्षीय वेग",
+            "C": "स्थितिज ऊर्जा",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "स्थितिज ऊर्जा U = -GMm/r। जैसे-जैसे r बढ़ता है, U कम ऋणात्मक होता जाता है (अर्थात बढ़ता है)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-009",
+      "number": 9,
+      "question": "The change in the value of g at a height h above Earth is same as at a depth d below Earth. If both h and d are small, then:",
+      "options": {
+        "A": "d = h",
+        "B": "d = 2h",
+        "C": "h = 2d",
+        "D": "d = h^2"
+      },
+      "answer": "B",
+      "explanation": "Δg_height = 2hg/R and Δg_depth = dg/R. Equating them gives d = 2h.",
+      "hash": "0b93fae963d288f8",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी से h ऊँचाई पर g के मान में परिवर्तन पृथ्वी के नीचे d गहराई के समान है। यदि h और d दोनों छोटे हैं, तो:",
+          "options": {
+            "A": "d = h",
+            "B": "d = 2h",
+            "C": "h = 2d",
+            "D": "d = h^2"
+          },
+          "explanation": "Δg_ऊँचाई = 2hg/R और Δg_गहराई = dg/R। उन्हें बराबर करने पर d = 2h प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-010",
+      "number": 10,
+      "question": "A planet revolves in an elliptical orbit. Its speed is maximum at:",
+      "options": {
+        "A": "Aphelion",
+        "B": "Perihelion",
+        "C": "Any point",
+        "D": "Center of ellipse"
+      },
+      "answer": "B",
+      "explanation": "By conservation of angular momentum (mvr), speed is highest where distance r is smallest (Perihelion).",
+      "hash": "83bcc7da288387f3",
+      "translations": {
+        "hi": {
+          "question": "एक ग्रह दीर्घवृत्ताकार कक्षा में घूमता है। इसकी गति अधिकतम कहाँ होती है?",
+          "options": {
+            "A": "अपसौर (Aphelion)",
+            "B": "उपसौर (Perihelion)",
+            "C": "किसी भी बिंदु पर",
+            "D": "दीर्घवृत्त के केंद्र पर"
+          },
+          "explanation": "कोणीय संवेग संरक्षण (mvr) के अनुसार, गति वहाँ सबसे अधिक होती है जहाँ दूरी r सबसे कम होती है (उपसौर)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-011",
+      "number": 11,
+      "question": "The ratio of Earth's orbital angular momentum about the Sun to its mass is:",
+      "options": {
+        "A": "Proportional to R^2",
+        "B": "Proportional to √R",
+        "C": "Constant",
+        "D": "Proportional to R"
+      },
+      "answer": "B",
+      "explanation": "L = mvr. L/m = vr = sqrt(GM/R) * R = sqrt(GMR). Thus L/m ∝ √R.",
+      "hash": "322920c7a1130f97",
+      "translations": {
+        "hi": {
+          "question": "सूर्य के चारों ओर पृथ्वी के कक्षीय कोणीय संवेग और उसके द्रव्यमान का अनुपात है:",
+          "options": {
+            "A": "R^2 के समानुपाती",
+            "B": "√R के समानुपाती",
+            "C": "स्थिर",
+            "D": "R के समानुपाती"
+          },
+          "explanation": "L = mvr. L/m = vr = sqrt(GM/R) * R = sqrt(GMR)। अतः L/m ∝ √R।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-012",
+      "number": 12,
+      "question": "Gravitational force is a long-range force that follows:",
+      "options": {
+        "A": "Inverse cube law",
+        "B": "Inverse square law",
+        "C": "Linear law",
+        "D": "Constant law"
+      },
+      "answer": "B",
+      "explanation": "Newton's law states F is inversely proportional to the square of the distance (1/r^2).",
+      "hash": "228e2eeb514e1fc9",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वाकर्षण बल एक लंबी दूरी का बल है जो पालन करता है:",
+          "options": {
+            "A": "व्युत्क्रम घन नियम",
+            "B": "व्युत्क्रम वर्ग नियम",
+            "C": "रैखिक नियम",
+            "D": "स्थिर नियम"
+          },
+          "explanation": "न्यूटन का नियम बताता है कि F दूरी के वर्ग (1/r^2) के व्युत्क्रमानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-013",
+      "number": 13,
+      "question": "If the distance between two masses is reduced to half, the gravitational force:",
+      "options": {
+        "A": "Reduces to half",
+        "B": "Doubles",
+        "C": "Becomes four times",
+        "D": "Remains same"
+      },
+      "answer": "C",
+      "explanation": "Force ∝ 1/r^2. If r becomes r/2, F becomes 4F.",
+      "hash": "f11f5f73e978fb30",
+      "translations": {
+        "hi": {
+          "question": "यदि दो द्रव्यमानों के बीच की दूरी आधी कर दी जाए, तो गुरुत्वाकर्षण बल:",
+          "options": {
+            "A": "आधा रह जाता है",
+            "B": "दोगुना हो जाता है",
+            "C": "चार गुना हो जाता है",
+            "D": "समान रहता है"
+          },
+          "explanation": "बल ∝ 1/r^2। यदि r, r/2 हो जाता है, तो F, 4F हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-014",
+      "number": 14,
+      "question": "The orbital velocity of a satellite is independent of:",
+      "options": {
+        "A": "Mass of Earth",
+        "B": "Radius of orbit",
+        "C": "Mass of satellite",
+        "D": "Gravitational constant"
+      },
+      "answer": "C",
+      "explanation": "Vo = sqrt(GM/r). The mass of the orbiting object (m) does not appear in the formula.",
+      "hash": "8fb57eca6c148600",
+      "translations": {
+        "hi": {
+          "question": "उपग्रह का कक्षीय वेग किससे स्वतंत्र है?",
+          "options": {
+            "A": "पृथ्वी के द्रव्यमान से",
+            "B": "कक्षा की त्रिज्या से",
+            "C": "उपग्रह के द्रव्यमान से",
+            "D": "गुरुत्वाकर्षण नियतांक से"
+          },
+          "explanation": "Vo = sqrt(GM/r)। परिक्रमा करने वाली वस्तु का द्रव्यमान (m) सूत्र में नहीं आता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-015",
+      "number": 15,
+      "question": "Two planets have radii R1 and R2 and densities ρ1 and ρ2. The ratio of g on their surfaces is:",
+      "options": {
+        "A": "R1ρ1 : R2ρ2",
+        "B": "R1ρ2 : R2ρ1",
+        "C": "R1^2ρ1 : R2^2ρ2",
+        "D": "ρ1 : ρ2"
+      },
+      "answer": "A",
+      "explanation": "g = (4/3)πGρR. Therefore, g is proportional to the product of radius and density.",
+      "hash": "ea1cb084bbb625f9",
+      "translations": {
+        "hi": {
+          "question": "दो ग्रहों की त्रिज्याएँ R1 और R2 और घनत्व ρ1 और ρ2 हैं। उनकी सतहों पर g का अनुपात है:",
+          "options": {
+            "A": "R1ρ1 : R2ρ2",
+            "B": "R1ρ2 : R2ρ1",
+            "C": "R1^2ρ1 : R2^2ρ2",
+            "D": "ρ1 : ρ2"
+          },
+          "explanation": "g = (4/3)πGρR। इसलिए, g त्रिज्या और घनत्व के गुणनफल के समानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-016",
+      "number": 16,
+      "question": "The value of G was first determined by:",
+      "options": {
+        "A": "Newton",
+        "B": "Cavendish",
+        "C": "Kepler",
+        "D": "Galileo"
+      },
+      "answer": "B",
+      "explanation": "Henry Cavendish determined the universal gravitational constant using a torsion balance.",
+      "hash": "7d85bab584177764",
+      "translations": {
+        "hi": {
+          "question": "G का मान सबसे पहले किसके द्वारा निर्धारित किया गया था?",
+          "options": {
+            "A": "न्यूटन",
+            "B": "कैवेंडिश",
+            "C": "केप्लर",
+            "D": "गैलीलियो"
+          },
+          "explanation": "हेनरी कैवेंडिश ने टॉर्शन बैलेंस का उपयोग करके सार्वत्रिक गुरुत्वाकर्षण नियतांक का निर्धारण किया।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-017",
+      "number": 17,
+      "question": "The time period of a satellite in a circular orbit of radius R is T. The period of another satellite in radius 4R is:",
+      "options": {
+        "A": "4T",
+        "B": "8T",
+        "C": "16T",
+        "D": "2T"
+      },
+      "answer": "B",
+      "explanation": "T^2 ∝ R^3. (T2/T1)^2 = (4R/R)^3 = 64. T2 = 8T.",
+      "hash": "566524b0db370884",
+      "translations": {
+        "hi": {
+          "question": "R त्रिज्या की वृत्ताकार कक्षा में एक उपग्रह का आवर्तकाल T है। 4R त्रिज्या में दूसरे उपग्रह का आवर्तकाल है:",
+          "options": {
+            "A": "4T",
+            "B": "8T",
+            "C": "16T",
+            "D": "2T"
+          },
+          "explanation": "T^2 ∝ R^3। (T2/T1)^2 = (4R/R)^3 = 64। T2 = 8T।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-018",
+      "number": 18,
+      "question": "A body is weightless in a satellite because:",
+      "options": {
+        "A": "g = 0",
+        "B": "The satellite is in free fall",
+        "C": "There is no atmosphere",
+        "D": "The mass becomes zero"
+      },
+      "answer": "B",
+      "explanation": "In orbit, both the satellite and the body fall with the same acceleration, so the normal force is zero.",
+      "hash": "e8d3e521079d435e",
+      "translations": {
+        "hi": {
+          "question": "उपग्रह में वस्तु भारहीन होती है क्योंकि:",
+          "options": {
+            "A": "g = 0",
+            "B": "उपग्रह मुक्त पतन में है",
+            "C": "वहाँ कोई वायुमंडल नहीं है",
+            "D": "द्रव्यमान शून्य हो जाता है"
+          },
+          "explanation": "कक्षा में, उपग्रह और वस्तु दोनों एक ही त्वरण के साथ गिरते हैं, इसलिए अभिलंब बल शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-019",
+      "number": 19,
+      "question": "If a body of mass m is moved from Earth's surface to infinity, the change in PE is:",
+      "options": {
+        "A": "GMm/R",
+        "B": "-GMm/R",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "A",
+      "explanation": "ΔU = U_final - U_initial = 0 - (-GMm/R) = GMm/R.",
+      "hash": "efa3e1501cf8b431",
+      "translations": {
+        "hi": {
+          "question": "यदि m द्रव्यमान की वस्तु को पृथ्वी की सतह से अनंत तक ले जाया जाए, तो PE में परिवर्तन है:",
+          "options": {
+            "A": "GMm/R",
+            "B": "-GMm/R",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "ΔU = U_अंतिम - U_प्रारंभिक = 0 - (-GMm/R) = GMm/R।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-05-020",
+      "number": 20,
+      "question": "Gravitational intensity at a distance r (r > R) from the center of a solid sphere of mass M is:",
+      "options": {
+        "A": "GM/r",
+        "B": "GM/r^2",
+        "C": "GMr/R^3",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "For points outside, the sphere behaves like a point mass at its center.",
+      "hash": "4757d9cc78c36dcc",
+      "translations": {
+        "hi": {
+          "question": "M द्रव्यमान के एक ठोस गोले के केंद्र से r (r > R) दूरी पर गुरुत्वाकर्षण तीव्रता है:",
+          "options": {
+            "A": "GM/r",
+            "B": "GM/r^2",
+            "C": "GMr/R^3",
+            "D": "शून्य"
+          },
+          "explanation": "बाहरी बिंदुओं के लिए, गोला अपने केंद्र पर एक बिंदु द्रव्यमान की तरह व्यवहार करता है।"
+        }
+      }
+    }
+  ]
+}

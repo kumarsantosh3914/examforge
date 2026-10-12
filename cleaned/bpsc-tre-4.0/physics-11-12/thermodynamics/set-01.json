@@ -1,0 +1,527 @@
+{
+  "subject": "Thermodynamics",
+  "set": 1,
+  "title": "Thermodynamics Mock Test 1",
+  "questions": [
+    {
+      "id": "thermodynamics-01-001",
+      "number": 1,
+      "question": "According to the Zeroth Law of Thermodynamics, if two systems are in thermal equilibrium with a third system, then:",
+      "options": {
+        "A": "They are in thermal equilibrium with each other",
+        "B": "Their temperatures are different",
+        "C": "No work is done",
+        "D": "Heat flows between them"
+      },
+      "answer": "A",
+      "explanation": "The Zeroth Law defines the concept of temperature and establishes that thermal equilibrium is a transitive property.",
+      "hash": "e15ddbca11785764",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी के शून्यवें नियम के अनुसार, यदि दो निकाय किसी तीसरे निकाय के साथ तापीय साम्यावस्था में हैं, तो:",
+          "options": {
+            "A": "वे एक-दूसरे के साथ तापीय साम्यावस्था में होते हैं",
+            "B": "उनके तापमान भिन्न होते हैं",
+            "C": "कोई कार्य नहीं किया जाता है",
+            "D": "उनके बीच ऊष्मा का प्रवाह होता है"
+          },
+          "explanation": "शून्यवाँ नियम तापमान की अवधारणा को परिभाषित करता है और यह स्थापित करता है कि तापीय साम्यावस्था एक संक्रामक गुण है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-002",
+      "number": 2,
+      "question": "In a cyclic process, the change in internal energy of the system is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "C",
+      "explanation": "Since internal energy is a state function, its change over a complete cycle (returning to the same state) is zero.",
+      "hash": "9d88dced9356e86b",
+      "translations": {
+        "hi": {
+          "question": "एक चक्रीय प्रक्रम में, निकाय की आंतरिक ऊर्जा में परिवर्तन होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "चूँकि आंतरिक ऊर्जा एक अवस्था फलन है, इसलिए एक पूर्ण चक्र (उसी अवस्था में लौटने) पर इसमें परिवर्तन शून्य होता है। [Image of P-V diagram of a cyclic process]"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-003",
+      "number": 3,
+      "question": "For an ideal gas, the difference between molar specific heats (Cp - Cv) is equal to:",
+      "options": {
+        "A": "J",
+        "B": "R",
+        "C": "R/J",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "This is known as Mayer's relation. For one mole of an ideal gas, Cp - Cv = R.",
+      "hash": "c439935ed1d49e06",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, मोलर विशिष्ट ऊष्माओं का अंतर (Cp - Cv) किसके बराबर होता है?",
+          "options": {
+            "A": "J",
+            "B": "R",
+            "C": "R/J",
+            "D": "शून्य"
+          },
+          "explanation": "इसे मेयर के संबंध के रूप में जाना जाता है। आदर्श गैस के एक मोल के लिए, Cp - Cv = R।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-004",
+      "number": 4,
+      "question": "During an adiabatic expansion, the temperature of the gas:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "In adiabatic expansion, the gas does work at the expense of its internal energy, leading to a fall in temperature.",
+      "hash": "e2aba95e553612f9",
+      "translations": {
+        "hi": {
+          "question": "एक रुद्धोष्म विस्तार के दौरान, गैस का तापमान:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "स्थिर रहता है",
+            "D": "शून्य हो जाता है"
+          },
+          "explanation": "रुद्धोष्म विस्तार में, गैस अपनी आंतरिक ऊर्जा की कीमत पर कार्य करती है, जिससे तापमान में गिरावट आती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-005",
+      "number": 5,
+      "question": "The efficiency of a Carnot engine depends only on:",
+      "options": {
+        "A": "Nature of working substance",
+        "B": "Temperature of source and sink",
+        "C": "Volume of the cylinder",
+        "D": "Pressure of the gas"
+      },
+      "answer": "B",
+      "explanation": "Efficiency η = 1 - (T_low / T_high). It is independent of the working material.",
+      "hash": "affd5c1791db7862",
+      "translations": {
+        "hi": {
+          "question": "कार्नोट इंजन की दक्षता केवल किस पर निर्भर करती है?",
+          "options": {
+            "A": "कार्यकारी पदार्थ की प्रकृति पर",
+            "B": "स्रोत और सिंक के तापमान पर",
+            "C": "सिलेंडर के आयतन पर",
+            "D": "गैस के दाब पर"
+          },
+          "explanation": "दक्षता η = 1 - (T_low / T_high)। यह कार्यकारी पदार्थ से स्वतंत्र होती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-006",
+      "number": 6,
+      "question": "The second law of thermodynamics leads to the concept of:",
+      "options": {
+        "A": "Temperature",
+        "B": "Internal energy",
+        "C": "Enthalpy",
+        "D": "Entropy"
+      },
+      "answer": "D",
+      "explanation": "The second law states that the entropy of an isolated system always increases over time.",
+      "hash": "b596ba4b699df462",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी का दूसरा नियम किस अवधारणा को जन्म देता है?",
+          "options": {
+            "A": "तापमान",
+            "B": "आंतरिक ऊर्जा",
+            "C": "एन्थैल्पी",
+            "D": "एन्ट्रॉपी"
+          },
+          "explanation": "दूसरा नियम बताता है कि एक विलगित निकाय की एन्ट्रॉपी समय के साथ हमेशा बढ़ती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-007",
+      "number": 7,
+      "question": "In an isothermal process, which of the following remains constant?",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Temperature",
+        "D": "Entropy"
+      },
+      "answer": "C",
+      "explanation": "Isothermal means \"constant temperature\" (ΔT = 0).",
+      "hash": "8290bd3ddb1ba902",
+      "translations": {
+        "hi": {
+          "question": "एक समतापी प्रक्रम में, निम्नलिखित में से क्या स्थिर रहता है?",
+          "options": {
+            "A": "दाब",
+            "B": "आयतन",
+            "C": "तापमान",
+            "D": "एन्ट्रॉपी"
+          },
+          "explanation": "समतापी का अर्थ है \"स्थिर तापमान\" (ΔT = 0)।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-008",
+      "number": 8,
+      "question": "Which of the following is a state function?",
+      "options": {
+        "A": "Work",
+        "B": "Heat",
+        "C": "Internal energy",
+        "D": "All of the above"
+      },
+      "answer": "C",
+      "explanation": "Internal energy depends only on the initial and final states, not the path. Work and heat are path functions.",
+      "hash": "39c79d6dcce8d50d",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक अवस्था फलन (state function) है?",
+          "options": {
+            "A": "कार्य",
+            "B": "ऊष्मा",
+            "C": "आंतरिक ऊर्जा",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "आंतरिक ऊर्जा केवल प्रारंभिक और अंतिम अवस्थाओं पर निर्भर करती है, पथ पर नहीं। कार्य और ऊष्मा पथ फलन हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-009",
+      "number": 9,
+      "question": "A refrigerator works on the principle of:",
+      "options": {
+        "A": "Carnot engine in forward direction",
+        "B": "Carnot engine in reverse direction",
+        "C": "First law of thermodynamics",
+        "D": "Newton's law of cooling"
+      },
+      "answer": "B",
+      "explanation": "A refrigerator is a heat pump that transfers heat from a cold body to a hot body by doing external work.",
+      "hash": "7041b90dd4588e43",
+      "translations": {
+        "hi": {
+          "question": "एक रेफ्रिजरेटर किस सिद्धांत पर कार्य करता है?",
+          "options": {
+            "A": "आगे की दिशा में कार्नोट इंजन",
+            "B": "विपरीत दिशा में कार्नोट इंजन",
+            "C": "ऊष्मागतिकी का प्रथम नियम",
+            "D": "न्यूटन का शीतलन नियम"
+          },
+          "explanation": "रेफ्रिजरेटर एक हीट पंप है जो बाहरी कार्य करके ठंडी वस्तु से गर्म वस्तु में ऊष्मा स्थानांतरित करता है। [Image of schematic diagram of a refrigerator cycle]"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-010",
+      "number": 10,
+      "question": "For a monatomic gas, the value of the adiabatic exponent (γ) is:",
+      "options": {
+        "A": "1.67",
+        "B": "1.40",
+        "C": "1.33",
+        "D": "1.00"
+      },
+      "answer": "A",
+      "explanation": "γ = Cp/Cv. For monatomic gases, Cp = 5R/2 and Cv = 3R/2, so γ = 5/3 ≈ 1.67.",
+      "hash": "8615ec9130da4674",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस के लिए, रुद्धोष्म घातांक (γ) का मान होता है:",
+          "options": {
+            "A": "1.67",
+            "B": "1.40",
+            "C": "1.33",
+            "D": "1.00"
+          },
+          "explanation": "γ = Cp/Cv। एकपरमाणुक गैसों के लिए, Cp = 5R/2 और Cv = 3R/2, इसलिए γ = 5/3 ≈ 1.67।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-011",
+      "number": 11,
+      "question": "The coefficient of performance (COP) of a refrigerator can be:",
+      "options": {
+        "A": "Always less than 1",
+        "B": "Always equal to 1",
+        "C": "Greater than 1",
+        "D": "Always zero"
+      },
+      "answer": "C",
+      "explanation": "Unlike efficiency, COP can be significantly greater than 1 (often 2 to 5 in domestic units).",
+      "hash": "8b49707b5c095566",
+      "translations": {
+        "hi": {
+          "question": "एक रेफ्रिजरेटर का कार्य गुणांक (COP) हो सकता है:",
+          "options": {
+            "A": "हमेशा 1 से कम",
+            "B": "हमेशा 1 के बराबर",
+            "C": "1 से अधिक",
+            "D": "हमेशा शून्य"
+          },
+          "explanation": "दक्षता के विपरीत, COP 1 से काफी अधिक हो सकता है (घरेलू इकाइयों में अक्सर 2 से 5 तक)।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-012",
+      "number": 12,
+      "question": "In which process is there no exchange of heat between the system and surroundings?",
+      "options": {
+        "A": "Isothermal",
+        "B": "Isobaric",
+        "C": "Isochoric",
+        "D": "Adiabatic"
+      },
+      "answer": "D",
+      "explanation": "Adiabatic process occurs in an insulated system where dQ = 0.",
+      "hash": "428a4bf0adf7856e",
+      "translations": {
+        "hi": {
+          "question": "किस प्रक्रम में निकाय और परिवेश के बीच ऊष्मा का कोई आदान-प्रदान नहीं होता है?",
+          "options": {
+            "A": "समतापी",
+            "B": "समदाबी",
+            "C": "समआयतनिक",
+            "D": "रुद्धोष्म"
+          },
+          "explanation": "रुद्धोष्म प्रक्रम एक विलगित निकाय में होता है जहाँ dQ = 0 होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-013",
+      "number": 13,
+      "question": "The area under a P-V diagram represents:",
+      "options": {
+        "A": "Temperature",
+        "B": "Internal energy",
+        "C": "Work done",
+        "D": "Heat absorbed"
+      },
+      "answer": "C",
+      "explanation": "Work done W = ∫ P dV, which is the area under the curve in a pressure-volume graph.",
+      "hash": "7df9c1f8125b4317",
+      "translations": {
+        "hi": {
+          "question": "P-V आरेख के अंतर्गत आने वाला क्षेत्रफल दर्शाता है:",
+          "options": {
+            "A": "तापमान",
+            "B": "आंतरिक ऊर्जा",
+            "C": "किया गया कार्य",
+            "D": "अवशोषित ऊष्मा"
+          },
+          "explanation": "किया गया कार्य W = ∫ P dV, जो दाब-आयतन ग्राफ में वक्र के नीचे का क्षेत्रफल होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-014",
+      "number": 14,
+      "question": "The molar specific heat at constant pressure (Cp) is always:",
+      "options": {
+        "A": "Less than Cv",
+        "B": "Equal to Cv",
+        "C": "Greater than Cv",
+        "D": "Half of Cv"
+      },
+      "answer": "C",
+      "explanation": "At constant pressure, heat is used for both increasing internal energy and doing expansion work, so Cp > Cv.",
+      "hash": "3c445bb9ad1fe8a9",
+      "translations": {
+        "hi": {
+          "question": "स्थिर दाब पर मोलर विशिष्ट ऊष्मा (Cp) हमेशा होती है:",
+          "options": {
+            "A": "Cv से कम",
+            "B": "Cv के बराबर",
+            "C": "Cv से अधिक",
+            "D": "Cv की आधी"
+          },
+          "explanation": "स्थिर दाब पर, ऊष्मा का उपयोग आंतरिक ऊर्जा बढ़ाने और विस्तार कार्य करने दोनों के लिए किया जाता है, इसलिए Cp > Cv।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-015",
+      "number": 15,
+      "question": "Clausius statement is related to:",
+      "options": {
+        "A": "First law of thermodynamics",
+        "B": "Second law of thermodynamics",
+        "C": "Third law of thermodynamics",
+        "D": "Zeroth law of thermodynamics"
+      },
+      "answer": "B",
+      "explanation": "Clausius statement deals with the impossibility of heat flowing from cold to hot without work.",
+      "hash": "181287f40046ae1e",
+      "translations": {
+        "hi": {
+          "question": "क्लॉसियस का कथन किससे संबंधित है?",
+          "options": {
+            "A": "ऊष्मागतिकी का प्रथम नियम",
+            "B": "ऊष्मागतिकी का द्वितीय नियम",
+            "C": "ऊष्मागतिकी का तृतीय नियम",
+            "D": "ऊष्मागतिकी का शून्यवाँ नियम"
+          },
+          "explanation": "क्लॉसियस का कथन कार्य के बिना ठंडे से गर्म की ओर ऊष्मा के प्रवाह की असंभवता से संबंधित है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-016",
+      "number": 16,
+      "question": "For an isochoric process, the work done by the gas is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Maximum"
+      },
+      "answer": "C",
+      "explanation": "In an isochoric process, volume is constant (dV = 0). Since W = P dV, work done is zero.",
+      "hash": "69216e465a4e3182",
+      "translations": {
+        "hi": {
+          "question": "एक समआयतनिक प्रक्रम के लिए, गैस द्वारा किया गया कार्य होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अधिकतम"
+          },
+          "explanation": "समआयतनिक प्रक्रम में, आयतन स्थिर रहता है (dV = 0)। चूंकि W = P dV, इसलिए किया गया कार्य शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-017",
+      "number": 17,
+      "question": "If a system absorbs 500 J of heat and does 200 J of work, the change in internal energy is:",
+      "options": {
+        "A": "700 J",
+        "B": "300 J",
+        "C": "-300 J",
+        "D": "500 J"
+      },
+      "answer": "B",
+      "explanation": "ΔU = Q - W = 500 - 200 = 300 J.",
+      "hash": "45dce5e18358c7c4",
+      "translations": {
+        "hi": {
+          "question": "यदि एक निकाय 500 J ऊष्मा अवशोषित करता है और 200 J कार्य करता है, तो आंतरिक ऊर्जा में परिवर्तन है:",
+          "options": {
+            "A": "700 J",
+            "B": "300 J",
+            "C": "-300 J",
+            "D": "500 J"
+          },
+          "explanation": "ΔU = Q - W = 500 - 200 = 300 J।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-018",
+      "number": 18,
+      "question": "A diatomic gas has how many degrees of freedom at moderate temperature?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "3 translational and 2 rotational degrees of freedom. Vibrational modes only activate at high temperatures.",
+      "hash": "6f09da7ea5014ac1",
+      "translations": {
+        "hi": {
+          "question": "मध्यम तापमान पर एक द्विपरमाणुक गैस की कितनी स्वतंत्रता की कोटि (degrees of freedom) होती हैं?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "explanation": "3 स्थानान्तरण और 2 घूर्णन स्वतंत्रता की कोटि। कंपन मोड केवल उच्च तापमान पर सक्रिय होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-019",
+      "number": 19,
+      "question": "In an isobaric process, which quantity remains constant?",
+      "options": {
+        "A": "Temperature",
+        "B": "Volume",
+        "C": "Pressure",
+        "D": "Heat"
+      },
+      "answer": "C",
+      "explanation": "Isobaric means constant pressure (ΔP = 0).",
+      "hash": "0e9cc0d485b45f51",
+      "translations": {
+        "hi": {
+          "question": "एक समदाबी प्रक्रम में, कौन सी राशि स्थिर रहती है?",
+          "options": {
+            "A": "तापमान",
+            "B": "आयतन",
+            "C": "दाब",
+            "D": "ऊष्मा"
+          },
+          "explanation": "समदाबी का अर्थ है स्थिर दाब (ΔP = 0)।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-01-020",
+      "number": 20,
+      "question": "Kelvin-Planck statement defines the limitation of:",
+      "options": {
+        "A": "Heat pumps",
+        "B": "Heat engines",
+        "C": "Refrigerators",
+        "D": "Gas thermometers"
+      },
+      "answer": "B",
+      "explanation": "It states that no heat engine can be 100% efficient by converting all absorbed heat into work.",
+      "hash": "99327c503d6de144",
+      "translations": {
+        "hi": {
+          "question": "केल्विन-प्लैंक कथन किसकी सीमा को परिभाषित करता है?",
+          "options": {
+            "A": "हीट पंप",
+            "B": "ऊष्मीय इंजन",
+            "C": "रेफ्रिजरेटर",
+            "D": "गैस थर्मामीटर"
+          },
+          "explanation": "यह बताता है कि कोई भी ऊष्मीय इंजन सभी अवशोषित ऊष्मा को कार्य में बदलकर 100% कुशल नहीं हो सकता।"
+        }
+      }
+    }
+  ]
+}

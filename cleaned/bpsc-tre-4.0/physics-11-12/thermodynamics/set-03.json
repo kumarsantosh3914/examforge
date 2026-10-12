@@ -1,0 +1,527 @@
+{
+  "subject": "Thermodynamics",
+  "set": 3,
+  "title": "Thermodynamics Mock Test 3",
+  "questions": [
+    {
+      "id": "thermodynamics-03-001",
+      "number": 1,
+      "question": "The change in entropy when heat Q is added reversibly to a system at constant temperature T is:",
+      "options": {
+        "A": "Q * T",
+        "B": "Q / T",
+        "C": "T / Q",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Change in entropy (ΔS) is defined as the ratio of reversible heat exchange to the absolute temperature.",
+      "hash": "95f04bd8a2b44e19",
+      "translations": {
+        "hi": {
+          "question": "जब नियत तापमान T पर किसी निकाय में उत्क्रमणीय रूप से Q ऊष्मा जोड़ी जाती है, तो एन्ट्रॉपी में परिवर्तन होता है:",
+          "options": {
+            "A": "Q * T",
+            "B": "Q / T",
+            "C": "T / Q",
+            "D": "शून्य"
+          },
+          "explanation": "एन्ट्रॉपी में परिवर्तन (ΔS) को परम तापमान और उत्क्रमणीय ऊष्मा विनिमय के अनुपात के रूप में परिभाषित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-002",
+      "number": 2,
+      "question": "In a p-V diagram, the work done during an adiabatic process is represented by the area under the curve between:",
+      "options": {
+        "A": "The pressure axis",
+        "B": "The volume axis",
+        "C": "The temperature axis",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "Work done in any thermodynamic process is the integral of P with respect to V, which is the area under the curve on the V-axis.",
+      "hash": "944f9635aa0c531e",
+      "translations": {
+        "hi": {
+          "question": "p-V आरेख में, रुद्धोष्म प्रक्रम के दौरान किया गया कार्य वक्र के नीचे के क्षेत्र द्वारा दर्शाया जाता है:",
+          "options": {
+            "A": "दाब अक्ष के बीच",
+            "B": "आयतन अक्ष के बीच",
+            "C": "तापमान अक्ष के बीच",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "किसी भी ऊष्मागतिकी प्रक्रम में किया गया कार्य V के सापेक्ष P का समाकलन होता है, जो V-अक्ष पर वक्र के नीचे का क्षेत्रफल होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-003",
+      "number": 3,
+      "question": "A heat engine operates with an efficiency of 0.4. If it absorbs 1000 J of heat from the source, the work done is:",
+      "options": {
+        "A": "400 J",
+        "B": "600 J",
+        "C": "1000 J",
+        "D": "2500 J"
+      },
+      "answer": "A",
+      "explanation": "Efficiency η = Work / Heat absorbed. Work = 0.4 * 1000 = 400 J.",
+      "hash": "da48ea1fe3d6bead",
+      "translations": {
+        "hi": {
+          "question": "एक ऊष्मीय इंजन 0.4 की दक्षता के साथ कार्य करता है। यदि यह स्रोत से 1000 J ऊष्मा अवशोषित करता है, तो किया गया कार्य है:",
+          "options": {
+            "A": "400 J",
+            "B": "600 J",
+            "C": "1000 J",
+            "D": "2500 J"
+          },
+          "explanation": "दक्षता η = कार्य / अवशोषित ऊष्मा। कार्य = 0.4 * 1000 = 400 J।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-004",
+      "number": 4,
+      "question": "For an ideal gas, the slope of the T-S (Temperature-Entropy) diagram for a reversible adiabatic process is:",
+      "options": {
+        "A": "Zero",
+        "B": "Infinite",
+        "C": "Positive",
+        "D": "Negative"
+      },
+      "answer": "B",
+      "explanation": "A reversible adiabatic process is isentropic (ΔS = 0). On a T-S diagram, this is a vertical line, implying an infinite slope.",
+      "hash": "ab5090f937d65902",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, एक उत्क्रमणीय रुद्धोष्म प्रक्रम के लिए T-S (तापमान-एन्ट्रॉपी) आरेख का ढलान होता है:",
+          "options": {
+            "A": "शून्य",
+            "B": "अनंत",
+            "C": "धनात्मक",
+            "D": "ऋणात्मक"
+          },
+          "explanation": "एक उत्क्रमणीय रुद्धोष्म प्रक्रम आइसेंट्रोपिक (ΔS = 0) होता है। T-S आरेख पर, यह एक ऊर्ध्वाधर रेखा है, जिसका अर्थ है अनंत ढलान।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-005",
+      "number": 5,
+      "question": "The work done in an isothermal expansion of an ideal gas from volume V1 to V2 is:",
+      "options": {
+        "A": "P(V2 - V1)",
+        "B": "nRT ln(V2 / V1)",
+        "C": "nRT (V2 / V1)",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "For isothermal processes, integration of P dV where P = nRT/V results in nRT ln(V2/V1).",
+      "hash": "14c8a0dfd7f460f3",
+      "translations": {
+        "hi": {
+          "question": "आदर्श गैस के आयतन V1 से V2 तक समतापी विस्तार में किया गया कार्य है:",
+          "options": {
+            "A": "P(V2 - V1)",
+            "B": "nRT ln(V2 / V1)",
+            "C": "nRT (V2 / V1)",
+            "D": "शून्य"
+          },
+          "explanation": "समतापी प्रक्रमों के लिए, P dV का समाकलन जहाँ P = nRT/V है, nRT ln(V2/V1) के रूप में प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-006",
+      "number": 6,
+      "question": "If the temperature of the source is increased, the efficiency of a Carnot engine:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "η = 1 - (T_sink / T_source). Increasing T_source decreases the fraction (T_sink / T_source), thus increasing η.",
+      "hash": "0ee71dc976cfe6fd",
+      "translations": {
+        "hi": {
+          "question": "यदि स्रोत का तापमान बढ़ा दिया जाए, तो कार्नोट इंजन की दक्षता:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "η = 1 - (T_sink / T_source)। T_source बढ़ाने से भिन्न (T_sink / T_source) कम हो जाता है, जिससे η बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-007",
+      "number": 7,
+      "question": "Which law of thermodynamics defines the concept of absolute zero temperature?",
+      "options": {
+        "A": "First Law",
+        "B": "Second Law",
+        "C": "Third Law",
+        "D": "Zeroth Law"
+      },
+      "answer": "C",
+      "explanation": "The Third Law states that the entropy of a perfect crystal approaches zero as the temperature approaches absolute zero.",
+      "hash": "09c1c164453acf1a",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी का कौन सा नियम परम शून्य तापमान की अवधारणा को परिभाषित करता है?",
+          "options": {
+            "A": "प्रथम नियम",
+            "B": "द्वितीय नियम",
+            "C": "तृतीय नियम",
+            "D": "शून्यवाँ नियम"
+          },
+          "explanation": "तृतीय नियम बताता है कि जैसे-जैसे तापमान परम शून्य की ओर बढ़ता है, एक पूर्ण क्रिस्टल की एन्ट्रॉपी शून्य की ओर पहुँचती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-008",
+      "number": 8,
+      "question": "A reversible engine converts one-sixth of the heat input into work. When the temperature of the sink is reduced by 62 K, its efficiency is doubled. The temperature of the source is:",
+      "options": {
+        "A": "372 K",
+        "B": "310 K",
+        "C": "400 K",
+        "D": "500 K"
+      },
+      "answer": "A",
+      "explanation": "Initial η = 1/6. New η = 1/3. Using η = 1 - T2/T1 and solving the two equations gives T1 = 372 K.",
+      "hash": "d273d195bcce60d9",
+      "translations": {
+        "hi": {
+          "question": "एक उत्क्रमणीय इंजन ऊष्मा इनपुट के छठे हिस्से को कार्य में बदलता है। जब सिंक का तापमान 62 K कम हो जाता है, तो इसकी दक्षता दोगुनी हो जाती है। स्रोत का तापमान है:",
+          "options": {
+            "A": "372 K",
+            "B": "310 K",
+            "C": "400 K",
+            "D": "500 K"
+          },
+          "explanation": "प्रारंभिक η = 1/6। नई η = 1/3। η = 1 - T2/T1 का उपयोग करने और दो समीकरणों को हल करने पर T1 = 372 K प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-009",
+      "number": 9,
+      "question": "When a gas is heated at constant volume, the heat supplied is equal to the:",
+      "options": {
+        "A": "Work done",
+        "B": "Change in enthalpy",
+        "C": "Change in internal energy",
+        "D": "Change in entropy"
+      },
+      "answer": "C",
+      "explanation": "At constant volume, dV = 0, so dW = 0. From the first law, dQ = dU.",
+      "hash": "1ceecf5f05916e21",
+      "translations": {
+        "hi": {
+          "question": "जब किसी गैस को स्थिर आयतन पर गर्म किया जाता है, तो दी गई ऊष्मा किसके बराबर होती है?",
+          "options": {
+            "A": "किए गए कार्य के",
+            "B": "एन्थैल्पी में परिवर्तन के",
+            "C": "आंतरिक ऊर्जा में परिवर्तन के",
+            "D": "एन्ट्रॉपी में परिवर्तन के"
+          },
+          "explanation": "स्थिर आयतन पर, dV = 0, इसलिए dW = 0। प्रथम नियम से, dQ = dU।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-010",
+      "number": 10,
+      "question": "In an adiabatic process, the quantity PV^γ is constant. The value of γ for a diatomic gas is:",
+      "options": {
+        "A": "1.67",
+        "B": "1.40",
+        "C": "1.33",
+        "D": "1.50"
+      },
+      "answer": "B",
+      "explanation": "For diatomic gases (like O2, N2), degrees of freedom f = 5. γ = 1 + 2/f = 1.40.",
+      "hash": "c11685eb5598f62f",
+      "translations": {
+        "hi": {
+          "question": "एक रुद्धोष्म प्रक्रम में, राशि PV^γ स्थिर रहती है। द्विपरमाणुक गैस के लिए γ का मान है:",
+          "options": {
+            "A": "1.67",
+            "B": "1.40",
+            "C": "1.33",
+            "D": "1.50"
+          },
+          "explanation": "द्विपरमाणुक गैसों (जैसे O2, N2) के लिए, स्वतंत्रता की कोटि f = 5। γ = 1 + 2/f = 1.40।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-011",
+      "number": 11,
+      "question": "In a refrigerator, heat is rejected to the surroundings at:",
+      "options": {
+        "A": "Lower temperature",
+        "B": "Higher temperature",
+        "C": "Same temperature",
+        "D": "Zero temperature"
+      },
+      "answer": "B",
+      "explanation": "A refrigerator extracts heat from a cold body and rejects it to the hotter surroundings (room).",
+      "hash": "d4bd095d62123224",
+      "translations": {
+        "hi": {
+          "question": "एक रेफ्रिजरेटर में, परिवेश को ऊष्मा किस पर अस्वीकार की जाती है?",
+          "options": {
+            "A": "कम तापमान पर",
+            "B": "उच्च तापमान पर",
+            "C": "समान तापमान पर",
+            "D": "शून्य तापमान पर"
+          },
+          "explanation": "एक रेफ्रिजरेटर ठंडी वस्तु से ऊष्मा निकालता है और उसे गर्म परिवेश (कमरे) में अस्वीकार कर देता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-012",
+      "number": 12,
+      "question": "For a cyclic process, the net heat absorbed is equal to:",
+      "options": {
+        "A": "Net work done",
+        "B": "Net change in internal energy",
+        "C": "Zero",
+        "D": "Enthalpy"
+      },
+      "answer": "A",
+      "explanation": "Since ΔU = 0 for a cycle, Q_net = W_net according to the First Law.",
+      "hash": "54c81f437cde8f5d",
+      "translations": {
+        "hi": {
+          "question": "एक चक्रीय प्रक्रम के लिए, अवशोषित शुद्ध ऊष्मा किसके बराबर होती है?",
+          "options": {
+            "A": "शुद्ध किए गए कार्य के",
+            "B": "आंतरिक ऊर्जा में शुद्ध परिवर्तन के",
+            "C": "शून्य",
+            "D": "एन्थैल्पी के"
+          },
+          "explanation": "चूंकि एक चक्र के लिए ΔU = 0 है, इसलिए प्रथम नियम के अनुसार Q_net = W_net।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-013",
+      "number": 13,
+      "question": "The internal energy of a real gas depends on:",
+      "options": {
+        "A": "Temperature only",
+        "B": "Volume only",
+        "C": "Both temperature and volume",
+        "D": "Pressure only"
+      },
+      "answer": "C",
+      "explanation": "For real gases, intermolecular forces exist, so internal energy depends on both kinetic (T) and potential (V) energy.",
+      "hash": "83101a01e6be6475",
+      "translations": {
+        "hi": {
+          "question": "एक वास्तविक गैस की आंतरिक ऊर्जा किस पर निर्भर करती है?",
+          "options": {
+            "A": "केवल तापमान पर",
+            "B": "केवल आयतन पर",
+            "C": "तापमान और आयतन दोनों पर",
+            "D": "केवल दाब पर"
+          },
+          "explanation": "वास्तविक गैसों के लिए, अंतर-आणविक बल मौजूद होते हैं, इसलिए आंतरिक ऊर्जा गतिज (T) और स्थितिज (V) ऊर्जा दोनों पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-014",
+      "number": 14,
+      "question": "The change in entropy is negative when:",
+      "options": {
+        "A": "Heat is added",
+        "B": "Heat is removed",
+        "C": "Work is done on the system",
+        "D": "The process is adiabatic"
+      },
+      "answer": "B",
+      "explanation": "ΔS = dQ/T. If heat is removed, dQ is negative, so ΔS is negative.",
+      "hash": "b1db62e00c94beb2",
+      "translations": {
+        "hi": {
+          "question": "एन्ट्रॉपी में परिवर्तन ऋणात्मक होता है जब:",
+          "options": {
+            "A": "ऊष्मा जोड़ी जाती है",
+            "B": "ऊष्मा निकाली जाती है",
+            "C": "निकाय पर कार्य किया जाता है",
+            "D": "प्रक्रम रुद्धोष्म हो"
+          },
+          "explanation": "ΔS = dQ/T। यदि ऊष्मा निकाली जाती है, तो dQ ऋणात्मक होता है, इसलिए ΔS ऋणात्मक होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-015",
+      "number": 15,
+      "question": "In an isobaric process, the work done is:",
+      "options": {
+        "A": "P(V2 - V1)",
+        "B": "nR(T2 - T1)",
+        "C": "Both A and B",
+        "D": "Zero"
+      },
+      "answer": "C",
+      "explanation": "W = PΔV. From PV=nRT, PΔV = nRΔT for an isobaric process.",
+      "hash": "a87a8a840f02ec60",
+      "translations": {
+        "hi": {
+          "question": "एक समदाबी प्रक्रम में, किया गया कार्य होता है:",
+          "options": {
+            "A": "P(V2 - V1)",
+            "B": "nR(T2 - T1)",
+            "C": "A और B दोनों",
+            "D": "शून्य"
+          },
+          "explanation": "W = PΔV। PV=nRT से, समदाबी प्रक्रम के लिए PΔV = nRΔT।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-016",
+      "number": 16,
+      "question": "Which of the following is not a thermodynamic coordinate?",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Temperature",
+        "D": "Mass"
+      },
+      "answer": "D",
+      "explanation": "P, V, and T are intensive/extensive coordinates that define the state. Mass is usually kept constant for a given system.",
+      "hash": "c20bb33b85112e1f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा ऊष्मागतिकी निर्देशांक नहीं है?",
+          "options": {
+            "A": "दाब",
+            "B": "आयतन",
+            "C": "तापमान",
+            "D": "द्रव्यमान"
+          },
+          "explanation": "P, V, और T गहन/विस्तृत निर्देशांक हैं जो अवस्था को परिभाषित करते हैं। द्रव्यमान आमतौर पर एक निश्चित निकाय के लिए स्थिर रखा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-017",
+      "number": 17,
+      "question": "For an ideal gas, the enthalpy H is related to internal energy U as:",
+      "options": {
+        "A": "H = U + PV",
+        "B": "H = U - PV",
+        "C": "H = U + nRT",
+        "D": "Both A and C"
+      },
+      "answer": "D",
+      "explanation": "H = U + PV by definition. Since PV = nRT for an ideal gas, H = U + nRT also holds.",
+      "hash": "27e6927ed61c022f",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, एन्थैल्पी H आंतरिक ऊर्जा U से किस प्रकार संबंधित है?",
+          "options": {
+            "A": "H = U + PV",
+            "B": "H = U - PV",
+            "C": "H = U + nRT",
+            "D": "A और C दोनों"
+          },
+          "explanation": "परिभाषा के अनुसार H = U + PV। चूंकि आदर्श गैस के लिए PV = nRT है, इसलिए H = U + nRT भी मान्य है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-018",
+      "number": 18,
+      "question": "The ratio of the slopes of adiabatic and isothermal curves for a monatomic gas is:",
+      "options": {
+        "A": "1.40",
+        "B": "1.67",
+        "C": "1.33",
+        "D": "1.50"
+      },
+      "answer": "B",
+      "explanation": "The ratio is γ. For monatomic gas, γ = 5/3 = 1.67.",
+      "hash": "89047fa77ec037b6",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस के लिए रुद्धोष्म और समतापी वक्रों के ढलानों का अनुपात है:",
+          "options": {
+            "A": "1.40",
+            "B": "1.67",
+            "C": "1.33",
+            "D": "1.50"
+          },
+          "explanation": "अनुपात γ है। एकपरमाणुक गैस के लिए, γ = 5/3 = 1.67।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-019",
+      "number": 19,
+      "question": "A gas performs 300 J of work during an adiabatic expansion. Its internal energy:",
+      "options": {
+        "A": "Increases by 300 J",
+        "B": "Decreases by 300 J",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "In adiabatic, dQ=0. dU = -dW. Since dW = +300 J (expansion), dU = -300 J.",
+      "hash": "fdd0c0e0f22826db",
+      "translations": {
+        "hi": {
+          "question": "एक गैस रुद्धोष्म विस्तार के दौरान 300 J कार्य करती है। इसकी आंतरिक ऊर्जा:",
+          "options": {
+            "A": "300 J बढ़ती है",
+            "B": "300 J घटती है",
+            "C": "समान रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "रुद्धोष्म में, dQ=0। dU = -dW। चूंकि dW = +300 J (विस्तार) है, इसलिए dU = -300 J।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-03-020",
+      "number": 20,
+      "question": "Thermodynamic equilibrium implies:",
+      "options": {
+        "A": "Thermal equilibrium only",
+        "B": "Mechanical equilibrium only",
+        "C": "Chemical equilibrium only",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "A system is in thermodynamic equilibrium if it simultaneously satisfies thermal, mechanical, and chemical equilibrium.",
+      "hash": "2f406b3117d41bc5",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी साम्यावस्था का तात्पर्य है:",
+          "options": {
+            "A": "केवल तापीय साम्यावस्था",
+            "B": "केवल यांत्रिक साम्यावस्था",
+            "C": "केवल रासायनिक साम्यावस्था",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "एक निकाय ऊष्मागतिकी साम्यावस्था में होता है यदि वह एक साथ तापीय, यांत्रिक और रासायनिक साम्यावस्था को संतुष्ट करता है।"
+        }
+      }
+    }
+  ]
+}

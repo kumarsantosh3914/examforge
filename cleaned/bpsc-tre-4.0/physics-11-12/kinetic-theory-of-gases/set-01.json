@@ -1,0 +1,527 @@
+{
+  "subject": "Kinetic Theory of Gases",
+  "set": 1,
+  "title": "Kinetic Theory of Gases Mock Test 1",
+  "questions": [
+    {
+      "id": "kinetic-theory-of-gases-01-001",
+      "number": 1,
+      "question": "According to the kinetic theory of gases, the pressure exerted by a gas is due to:",
+      "options": {
+        "A": "Intermolecular attraction",
+        "B": "Collision of molecules with the walls of the container",
+        "C": "Potential energy of molecules",
+        "D": "Gravity acting on the gas"
+      },
+      "answer": "B",
+      "explanation": "Pressure is defined as the average force per unit area exerted by gas molecules as they undergo elastic collisions with the container walls.",
+      "hash": "552b53bdad6e72d8",
+      "translations": {
+        "hi": {
+          "question": "गैसों के अणुगति सिद्धांत के अनुसार, गैस द्वारा डाला गया दाब किसके कारण होता है?",
+          "options": {
+            "A": "अंतर-आणविक आकर्षण के कारण",
+            "B": "बर्तन की दीवारों के साथ अणुओं की टक्कर के कारण",
+            "C": "अणुओं की स्थितिज ऊर्जा के कारण",
+            "D": "गैस पर कार्य करने वाले गुरुत्वाकर्षण के कारण"
+          },
+          "explanation": "दाब को गैस के अणुओं द्वारा बर्तन की दीवारों के साथ होने वाली प्रत्यास्थ टक्करों के दौरान प्रति इकाई क्षेत्रफल पर लगने वाले औसत बल के रूप में परिभाषित किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-002",
+      "number": 2,
+      "question": "At what temperature is the rms speed of hydrogen molecules twice its value at 27°C?",
+      "options": {
+        "A": "54°C",
+        "B": "108°C",
+        "C": "927°C",
+        "D": "600°C"
+      },
+      "answer": "C",
+      "explanation": "Since v ∝ sqrt(T), to double the speed, T must become 4 times. T1 = 27 + 273 = 300 K. T2 = 4 * 300 = 1200 K. In Celsius: 1200 - 273 = 927°C.",
+      "hash": "876d72605adec4db",
+      "translations": {
+        "hi": {
+          "question": "किस तापमान पर हाइड्रोजन अणुओं की rms गति 27°C पर इसके मान की दोगुनी होगी?",
+          "options": {
+            "A": "54°C",
+            "B": "108°C",
+            "C": "927°C",
+            "D": "600°C"
+          },
+          "explanation": "चूंकि v ∝ sqrt(T), गति को दोगुना करने के लिए, T को 4 गुना होना चाहिए। T1 = 27 + 273 = 300 K। T2 = 4 * 300 = 1200 K। सेल्सियस में: 1200 - 273 = 927°C।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-003",
+      "number": 3,
+      "question": "The root mean square (rms) speed of gas molecules at a temperature T is proportional to:",
+      "options": {
+        "A": "T",
+        "B": "T^2",
+        "C": "sqrt(T)",
+        "D": "1/T"
+      },
+      "answer": "C",
+      "explanation": "The formula for rms speed is v_rms = sqrt(3RT/M), showing that v_rms is proportional to the square root of the absolute temperature.",
+      "hash": "33293086fb23380a",
+      "translations": {
+        "hi": {
+          "question": "तापमान T पर गैस के अणुओं की वर्ग माध्य मूल (rms) गति किसके समानुपाती होती है?",
+          "options": {
+            "A": "T",
+            "B": "T^2",
+            "C": "sqrt(T)",
+            "D": "1/T"
+          },
+          "explanation": "rms गति का सूत्र v_rms = sqrt(3RT/M) है, जो दर्शाता है कि v_rms परम तापमान के वर्गमूल के समानुपाती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-004",
+      "number": 4,
+      "question": "According to the law of equipartition of energy, the energy associated with each degree of freedom per molecule is:",
+      "options": {
+        "A": "kT",
+        "B": "1/2 kT",
+        "C": "3/2 kT",
+        "D": "2 kT"
+      },
+      "answer": "B",
+      "explanation": "The law states that total energy is distributed equally among all degrees of freedom, each contributing 1/2 kT.",
+      "hash": "1fdf79dd27129604",
+      "translations": {
+        "hi": {
+          "question": "ऊर्जा के समविभाजन के नियम के अनुसार, प्रति अणु प्रत्येक स्वतंत्रता की कोटि से जुड़ी ऊर्जा होती है:",
+          "options": {
+            "A": "kT",
+            "B": "1/2 kT",
+            "C": "3/2 kT",
+            "D": "2 kT"
+          },
+          "explanation": "नियम बताता है कि कुल ऊर्जा सभी स्वतंत्रता की कोटि के बीच समान रूप से वितरित की जाती है, जिसमें प्रत्येक का योगदान 1/2 kT होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-005",
+      "number": 5,
+      "question": "The degrees of freedom for a monatomic gas molecule is:",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "A monatomic molecule (like Helium) can move in three independent directions (x, y, z), so it has 3 translational degrees of freedom.",
+      "hash": "0db78e442de2cc2d",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस अणु के लिए स्वतंत्रता की कोटि (degrees of freedom) कितनी होती है?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "explanation": "एकपरमाणुक अणु (जैसे हीलियम) तीन स्वतंत्र दिशाओं (x, y, z) में गति कर सकता है, इसलिए इसमें 3 स्थानान्तरण स्वतंत्रता की कोटि होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-006",
+      "number": 6,
+      "question": "If the volume of a gas is halved and its temperature is doubled, the new pressure will be:",
+      "options": {
+        "A": "Same",
+        "B": "2 times",
+        "C": "4 times",
+        "D": "8 times"
+      },
+      "answer": "C",
+      "explanation": "From PV = nRT, P = nRT/V. New P' = nR(2T)/(V/2) = 4(nRT/V) = 4P.",
+      "hash": "dba3a1d246cf399f",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी गैस का आयतन आधा कर दिया जाए और उसका तापमान दोगुना कर दिया जाए, तो नया दाब होगा:",
+          "options": {
+            "A": "समान",
+            "B": "2 गुना",
+            "C": "4 गुना",
+            "D": "8 गुना"
+          },
+          "explanation": "PV = nRT से, P = nRT/V। नया P' = nR(2T)/(V/2) = 4(nRT/V) = 4P।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-007",
+      "number": 7,
+      "question": "The mean free path of gas molecules is inversely proportional to:",
+      "options": {
+        "A": "Temperature",
+        "B": "Volume",
+        "C": "Square of the molecular diameter",
+        "D": "Number of moles"
+      },
+      "answer": "C",
+      "explanation": "Mean free path λ = 1 / (sqrt(2) * n * π * d^2), where d is the diameter of the molecule.",
+      "hash": "e9882722144f03e6",
+      "translations": {
+        "hi": {
+          "question": "गैस के अणुओं का माध्य मुक्त पथ किसके व्युत्क्रमानुपाती होता है?",
+          "options": {
+            "A": "तापमान के",
+            "B": "आयतन के",
+            "C": "आणविक व्यास के वर्ग के",
+            "D": "मोलों की संख्या के"
+          },
+          "explanation": "माध्य मुक्त पथ λ = 1 / (sqrt(2) * n * π * d^2), जहाँ d अणु का व्यास है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-008",
+      "number": 8,
+      "question": "For an ideal gas, the value of the compressibility factor (Z) is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Infinity",
+        "D": "Greater than 1"
+      },
+      "answer": "B",
+      "explanation": "For an ideal gas, PV = nRT, so Z = PV/nRT = 1.",
+      "hash": "59169b836c397324",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, संपीड्यता कारक (compressibility factor, Z) का मान होता है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "अनंत",
+            "D": "1 से अधिक"
+          },
+          "explanation": "एक आदर्श गैस के लिए, PV = nRT, इसलिए Z = PV/nRT = 1।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-009",
+      "number": 9,
+      "question": "The ratio of the average speed to the rms speed of gas molecules is:",
+      "options": {
+        "A": "sqrt(8/3π)",
+        "B": "sqrt(3π/8)",
+        "C": "1 : 1",
+        "D": "sqrt(2/3)"
+      },
+      "answer": "A",
+      "explanation": "v_avg = sqrt(8RT/πM) and v_rms = sqrt(3RT/M). Ratio = sqrt(8/π) / sqrt(3) = sqrt(8/3π).",
+      "hash": "32797422c1ebec9d",
+      "translations": {
+        "hi": {
+          "question": "गैस के अणुओं की औसत गति और rms गति का अनुपात है:",
+          "options": {
+            "A": "sqrt(8/3π)",
+            "B": "sqrt(3π/8)",
+            "C": "1 : 1",
+            "D": "sqrt(2/3)"
+          },
+          "explanation": "v_avg = sqrt(8RT/πM) और v_rms = sqrt(3RT/M)। अनुपात = sqrt(8/π) / sqrt(3) = sqrt(8/3π)।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-010",
+      "number": 10,
+      "question": "Which of the following gas molecules will have the highest rms speed at a given temperature?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Hydrogen",
+        "D": "Helium"
+      },
+      "answer": "C",
+      "explanation": "v_rms ∝ 1/sqrt(M). Hydrogen has the smallest molar mass (2 g/mol), so it has the highest speed.",
+      "hash": "5deb776130b33d33",
+      "translations": {
+        "hi": {
+          "question": "दिए गए तापमान पर निम्नलिखित में से किस गैस के अणुओं की rms गति उच्चतम होगी?",
+          "options": {
+            "A": "ऑक्सीजन",
+            "B": "नाइट्रोजन",
+            "C": "हाइड्रोजन",
+            "D": "हीलियम"
+          },
+          "explanation": "v_rms ∝ 1/sqrt(M)। हाइड्रोजन का मोलर द्रव्यमान सबसे कम (2 g/mol) है, इसलिए इसकी गति सबसे अधिक होती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-011",
+      "number": 11,
+      "question": "The average translational kinetic energy of a gas molecule depends only on its:",
+      "options": {
+        "A": "Mass",
+        "B": "Pressure",
+        "C": "Temperature",
+        "D": "Nature of the gas"
+      },
+      "answer": "C",
+      "explanation": "Average KE = 3/2 kT. It is independent of the mass or type of gas, depending only on absolute temperature.",
+      "hash": "4ef03da867160085",
+      "translations": {
+        "hi": {
+          "question": "एक गैस अणु की औसत स्थानान्तरण गतिज ऊर्जा केवल किस पर निर्भर करती है?",
+          "options": {
+            "A": "द्रव्यमान पर",
+            "B": "दाब पर",
+            "C": "तापमान पर",
+            "D": "गैस की प्रकृति पर"
+          },
+          "explanation": "औसत KE = 3/2 kT। यह गैस के द्रव्यमान या प्रकार से स्वतंत्र है, केवल परम तापमान पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-012",
+      "number": 12,
+      "question": "Vander Waals' equation for a real gas accounts for:",
+      "options": {
+        "A": "Finite size of molecules",
+        "B": "Intermolecular forces",
+        "C": "Both A and B",
+        "D": "Perfect elastic collisions"
+      },
+      "answer": "C",
+      "explanation": "The equation [P + a/V^2][V - b] = RT corrects for attractive forces (a) and volume of molecules (b).",
+      "hash": "39adbba3f0fbfcf4",
+      "translations": {
+        "hi": {
+          "question": "वास्तविक गैस के लिए वांडर वाल्स समीकरण किसका ध्यान रखता है?",
+          "options": {
+            "A": "अणुओं का परिमित आकार",
+            "B": "अंतर-आणविक बल",
+            "C": "A और B दोनों",
+            "D": "पूर्णतः प्रत्यास्थ टक्करें"
+          },
+          "explanation": "समीकरण [P + a/V^2][V - b] = RT आकर्षक बलों (a) और अणुओं के आयतन (b) के लिए संशोधन करता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-013",
+      "number": 13,
+      "question": "At what temperature does the rms speed of oxygen molecules become equal to that of nitrogen molecules at 27°C?",
+      "options": {
+        "A": "27°C",
+        "B": "69.8°C",
+        "C": "34.3°C",
+        "D": "100°C"
+      },
+      "answer": "B",
+      "explanation": "(v_rms)_O2 = (v_rms)_N2 => T_O2/M_O2 = T_N2/M_N2. T_O2/32 = 300/28. T_O2 = 342.8 K. In Celsius: 342.8 - 273 = 69.8°C.",
+      "hash": "6c8e4a665c9e4c60",
+      "translations": {
+        "hi": {
+          "question": "किस तापमान पर ऑक्सीजन अणुओं की rms गति 27°C पर नाइट्रोजन अणुओं की गति के बराबर हो जाती है?",
+          "options": {
+            "A": "27°C",
+            "B": "69.8°C",
+            "C": "34.3°C",
+            "D": "100°C"
+          },
+          "explanation": "(v_rms)_O2 = (v_rms)_N2 => T_O2/M_O2 = T_N2/M_N2। T_O2/32 = 300/28। T_O2 = 342.8 K। सेल्सियस में: 342.8 - 273 = 69.8°C।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-014",
+      "number": 14,
+      "question": "A diatomic gas molecule has how many rotational degrees of freedom?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "B",
+      "explanation": "A diatomic molecule can rotate about two axes perpendicular to the line joining the atoms.",
+      "hash": "b84e7ebb98ab4aed",
+      "translations": {
+        "hi": {
+          "question": "एक द्विपरमाणुक गैस अणु में घूर्णन स्वतंत्रता की कितनी कोटि होती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+          },
+          "explanation": "एक द्विपरमाणुक अणु परमाणुओं को जोड़ने वाली रेखा के लंबवत दो अक्षों के परतः घूम सकता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-015",
+      "number": 15,
+      "question": "The relation between pressure P and kinetic energy per unit volume E of a gas is:",
+      "options": {
+        "A": "P = E",
+        "B": "P = 2/3 E",
+        "C": "P = 3/2 E",
+        "D": "P = 1/2 E"
+      },
+      "answer": "B",
+      "explanation": "P = 1/3 (M/V) v_rms^2 and E = 1/2 (M/V) v_rms^2. Solving gives P = 2/3 E.",
+      "hash": "2cf5b5c65baa4333",
+      "translations": {
+        "hi": {
+          "question": "गैस के दाब P और प्रति इकाई आयतन गतिज ऊर्जा E के बीच संबंध है:",
+          "options": {
+            "A": "P = E",
+            "B": "P = 2/3 E",
+            "C": "P = 3/2 E",
+            "D": "P = 1/2 E"
+          },
+          "explanation": "P = 1/3 (M/V) v_rms^2 और E = 1/2 (M/V) v_rms^2। हल करने पर P = 2/3 E प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-016",
+      "number": 16,
+      "question": "The internal energy of a polyatomic gas molecule with 'f' degrees of freedom at temperature T is:",
+      "options": {
+        "A": "1/2 fkT",
+        "B": "fkT",
+        "C": "3/2 fkT",
+        "D": "(f+1)kT"
+      },
+      "answer": "A",
+      "explanation": "According to equipartition, each degree of freedom contributes 1/2 kT, so 'f' degrees contribute 1/2 fkT.",
+      "hash": "d3ff0e9be251f718",
+      "translations": {
+        "hi": {
+          "question": "तापमान T पर 'f' स्वतंत्रता की कोटि वाले बहुपरमाणुक गैस अणु की आंतरिक ऊर्जा है:",
+          "options": {
+            "A": "1/2 fkT",
+            "B": "fkT",
+            "C": "3/2 fkT",
+            "D": "(f+1)kT"
+          },
+          "explanation": "समविभाजन के अनुसार, प्रत्येक स्वतंत्रता की कोटि 1/2 kT का योगदान देती है, इसलिए 'f' कोटियाँ 1/2 fkT का योगदान देती हैं।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-017",
+      "number": 17,
+      "question": "Boyle's Law is valid for an:",
+      "options": {
+        "A": "Adiabatic process",
+        "B": "Isothermal process",
+        "C": "Isobaric process",
+        "D": "Isochoric process"
+      },
+      "answer": "B",
+      "explanation": "Boyle's Law states PV = constant, which occurs only when temperature remains constant (Isothermal).",
+      "hash": "d830f666146598f4",
+      "translations": {
+        "hi": {
+          "question": "बॉयल का नियम किसके लिए मान्य है?",
+          "options": {
+            "A": "रुद्धोष्म प्रक्रम के लिए",
+            "B": "समतापी प्रक्रम के लिए",
+            "C": "समदाबी प्रक्रम के लिए",
+            "D": "समआयतनिक प्रक्रम के लिए"
+          },
+          "explanation": "बॉयल का नियम बताता है कि PV = नियतांक, जो केवल तभी होता है जब तापमान स्थिर रहता है (समतापी)।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-018",
+      "number": 18,
+      "question": "For a gas with γ = 1.4, the gas is likely:",
+      "options": {
+        "A": "Monatomic",
+        "B": "Diatomic",
+        "C": "Triatomic",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "For diatomic gases, γ = Cp/Cv = (7/2 R) / (5/2 R) = 1.4.",
+      "hash": "c9f73936cfccf9cd",
+      "translations": {
+        "hi": {
+          "question": "γ = 1.4 वाली गैस के लिए, गैस होने की संभावना है:",
+          "options": {
+            "A": "एकपरमाणुक",
+            "B": "द्विपरमाणुक",
+            "C": "त्रिपरमाणुक",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "द्विपरमाणुक गैसों के लिए, γ = Cp/Cv = (7/2 R) / (5/2 R) = 1.4।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-019",
+      "number": 19,
+      "question": "Dalton's Law of partial pressures applies to:",
+      "options": {
+        "A": "Non-reacting gases",
+        "B": "Reacting gases",
+        "C": "Solids only",
+        "D": "Liquids only"
+      },
+      "answer": "A",
+      "explanation": "Total pressure of a mixture of non-reacting ideal gases is the sum of their individual partial pressures.",
+      "hash": "0175b20ed547f297",
+      "translations": {
+        "hi": {
+          "question": "डाल्टन का आंशिक दाब का नियम किस पर लागू होता है?",
+          "options": {
+            "A": "अ-रिएक्टिंग गैसों पर",
+            "B": "रिएक्टिंग गैसों पर",
+            "C": "केवल ठोसों पर",
+            "D": "केवल द्रवों पर"
+          },
+          "explanation": "अ-रिएक्टिंग आदर्श गैसों के मिश्रण का कुल दाब उनके व्यक्तिगत आंशिक दाबों का योग होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinetic-theory-of-gases-01-020",
+      "number": 20,
+      "question": "Real gases behave like ideal gases at:",
+      "options": {
+        "A": "Low pressure and high temperature",
+        "B": "High pressure and low temperature",
+        "C": "Low pressure and low temperature",
+        "D": "High pressure and high temperature"
+      },
+      "answer": "A",
+      "explanation": "At low pressure and high temperature, molecules are far apart and moving fast, minimizing intermolecular forces and finite volume effects.",
+      "hash": "345e8fe411af3d7d",
+      "translations": {
+        "hi": {
+          "question": "वास्तविक गैसें आदर्श गैसों की तरह व्यवहार करती हैं:",
+          "options": {
+            "A": "कम दाब और उच्च तापमान पर",
+            "B": "उच्च दाब और कम तापमान पर",
+            "C": "कम दाब और कम तापमान पर",
+            "D": "उच्च दाब और उच्च तापमान पर"
+          },
+          "explanation": "कम दाब और उच्च तापमान पर, अणु एक-दूसरे से दूर होते हैं और तेजी से चलते हैं, जिससे अंतर-आणविक बल और परिमित आयतन प्रभाव न्यूनतम हो जाते हैं।"
+        }
+      }
+    }
+  ]
+}

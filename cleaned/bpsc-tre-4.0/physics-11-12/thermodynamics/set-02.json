@@ -1,0 +1,527 @@
+{
+  "subject": "Thermodynamics",
+  "set": 2,
+  "title": "Thermodynamics Mock Test 2",
+  "questions": [
+    {
+      "id": "thermodynamics-02-001",
+      "number": 1,
+      "question": "For a monatomic gas, the ratio Cp/Cv is:",
+      "options": {
+        "A": "1.40",
+        "B": "1.67",
+        "C": "1.33",
+        "D": "1.50"
+      },
+      "answer": "B",
+      "explanation": "For monatomic gas, Cv=3R/2 and Cp=5R/2. Thus, γ = 5/3 = 1.67.",
+      "hash": "b1d68fa7ed5bf6c7",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस के लिए, Cp/Cv का अनुपात होता है:",
+          "options": {
+            "A": "1.40",
+            "B": "1.67",
+            "C": "1.33",
+            "D": "1.50"
+          },
+          "explanation": "एकपरमाणुक गैस के लिए, Cv=3R/2 और Cp=5R/2। अतः, γ = 5/3 = 1.67।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-002",
+      "number": 2,
+      "question": "The slope of an adiabatic P-V curve is how many times the slope of an isothermal P-V curve?",
+      "options": {
+        "A": "γ times",
+        "B": "1/γ times",
+        "C": "Zero",
+        "D": "Equal"
+      },
+      "answer": "A",
+      "explanation": "The slope of an adiabatic curve is -γ(P/V), while for isothermal it is -(P/V).",
+      "hash": "b8653ca45e5de0c8",
+      "translations": {
+        "hi": {
+          "question": "एक रुद्धोष्म P-V वक्र का ढलान एक समतापी P-V वक्र के ढलान का कितना गुना होता है?",
+          "options": {
+            "A": "γ गुना",
+            "B": "1/γ गुना",
+            "C": "शून्य",
+            "D": "बराबर"
+          },
+          "explanation": "रुद्धोष्म वक्र का ढलान -γ(P/V) होता है, जबकि समतापी के लिए यह -(P/V) होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-003",
+      "number": 3,
+      "question": "Which of the following parameters remains constant during a throttling process (Joule-Thomson expansion)?",
+      "options": {
+        "A": "Entropy",
+        "B": "Internal energy",
+        "C": "Enthalpy",
+        "D": "Volume"
+      },
+      "answer": "C",
+      "explanation": "Throttling is an isenthalpic process, meaning the initial enthalpy equals the final enthalpy.",
+      "hash": "6f3d521f337ee929",
+      "translations": {
+        "hi": {
+          "question": "थ्रॉटलिंग प्रक्रम (जूल-थॉमसन विस्तार) के दौरान निम्नलिखित में से कौन सा पैरामीटर स्थिर रहता है?",
+          "options": {
+            "A": "एन्ट्रॉपी",
+            "B": "आंतरिक ऊर्जा",
+            "C": "एन्थैल्पी",
+            "D": "आयतन"
+          },
+          "explanation": "थ्रॉटलिंग एक सम-एन्थैल्पी (isenthalpic) प्रक्रम है, जिसका अर्थ है कि प्रारंभिक एन्थैल्पी अंतिम एन्थैल्पी के बराबर होती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-004",
+      "number": 4,
+      "question": "Heat cannot by itself flow from a body at lower temperature to a body at higher temperature. This is the statement of:",
+      "options": {
+        "A": "Kelvin-Planck",
+        "B": "Clausius",
+        "C": "Joule",
+        "D": "Newton"
+      },
+      "answer": "B",
+      "explanation": "The Clausius statement of the second law prohibits spontaneous heat transfer from cold to hot.",
+      "hash": "44d570f6559b37f1",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मा स्वयं कम तापमान वाली वस्तु से उच्च तापमान वाली वस्तु की ओर प्रवाहित नहीं हो सकती। यह किसका कथन है?",
+          "options": {
+            "A": "केल्विन-प्लैंक",
+            "B": "क्लॉसियस",
+            "C": "जूल",
+            "D": "न्यूटन"
+          },
+          "explanation": "द्वितीय नियम का क्लॉसियस कथन ठंडे से गर्म की ओर स्वतः ऊष्मा स्थानांतरण को प्रतिबंधित करता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-005",
+      "number": 5,
+      "question": "During a phase change (like melting of ice), the process is:",
+      "options": {
+        "A": "Isothermal",
+        "B": "Isobaric",
+        "C": "Both A and B",
+        "D": "Adiabatic"
+      },
+      "answer": "C",
+      "explanation": "Phase changes occur at constant temperature and constant pressure.",
+      "hash": "f3a4dfa8b1cdc0aa",
+      "translations": {
+        "hi": {
+          "question": "अवस्था परिवर्तन के दौरान (जैसे बर्फ का पिघलना), प्रक्रम होता है:",
+          "options": {
+            "A": "समतापी",
+            "B": "समदाबी",
+            "C": "A और B दोनों",
+            "D": "रुद्धोष्म"
+          },
+          "explanation": "अवस्था परिवर्तन स्थिर तापमान और स्थिर दाब पर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-006",
+      "number": 6,
+      "question": "The efficiency of a Carnot engine working between 300 K and 600 K is:",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "answer": "B",
+      "explanation": "η = 1 - (T2/T1) = 1 - (300/600) = 0.5 or 50%.",
+      "hash": "a82e77e88d9d8f41",
+      "translations": {
+        "hi": {
+          "question": "300 K और 600 K के बीच कार्य करने वाले कार्नोट इंजन की दक्षता है:",
+          "options": {
+            "A": "25%",
+            "B": "50%",
+            "C": "75%",
+            "D": "100%"
+          },
+          "explanation": "η = 1 - (T2/T1) = 1 - (300/600) = 0.5 या 50%।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-007",
+      "number": 7,
+      "question": "In an isochoric process, the heat supplied to the gas is used entirely to change its:",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Internal energy",
+        "D": "Entropy"
+      },
+      "answer": "C",
+      "explanation": "Since dV=0, work W=0. According to the first law, dQ = dU.",
+      "hash": "5e8305853d7b87e1",
+      "translations": {
+        "hi": {
+          "question": "एक समआयतनिक प्रक्रम में, गैस को दी गई ऊष्मा पूरी तरह से किसके परिवर्तन के लिए उपयोग की जाती है?",
+          "options": {
+            "A": "दाब",
+            "B": "आयतन",
+            "C": "आंतरिक ऊर्जा",
+            "D": "एन्ट्रॉपी"
+          },
+          "explanation": "चूँकि dV=0, कार्य W=0। प्रथम नियम के अनुसार, dQ = dU।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-008",
+      "number": 8,
+      "question": "Internal energy of an ideal gas depends only on:",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Temperature",
+        "D": "Density"
+      },
+      "answer": "C",
+      "explanation": "Joule's law states that for an ideal gas, U is a function of T only.",
+      "hash": "4b3d5d1f899ce7c5",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस की आंतरिक ऊर्जा केवल किस पर निर्भर करती है?",
+          "options": {
+            "A": "दाब",
+            "B": "आयतन",
+            "C": "तापमान",
+            "D": "घनत्व"
+          },
+          "explanation": "जूल का नियम बताता है कि आदर्श गैस के लिए, U केवल T का फलन है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-009",
+      "number": 9,
+      "question": "An ideal refrigerator has a freezer at -13°C and a surroundings at 27°C. Its COP is:",
+      "options": {
+        "A": "6.5",
+        "B": "10",
+        "C": "5",
+        "D": "13"
+      },
+      "answer": "A",
+      "explanation": "COP = T2 / (T1 - T2) = 260 / (300 - 260) = 260 / 40 = 6.5.",
+      "hash": "b42ebb61d149b6ce",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श रेफ्रिजरेटर में फ्रीज़र -13°C पर है और परिवेश 27°C पर है। इसका COP है:",
+          "options": {
+            "A": "6.5",
+            "B": "10",
+            "C": "5",
+            "D": "13"
+          },
+          "explanation": "COP = T2 / (T1 - T2) = 260 / (300 - 260) = 260 / 40 = 6.5।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-010",
+      "number": 10,
+      "question": "The change in entropy for a reversible adiabatic process is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "C",
+      "explanation": "Reversible adiabatic processes are isentropic (constant entropy).",
+      "hash": "5e6f221dd3023dd2",
+      "translations": {
+        "hi": {
+          "question": "एक उत्क्रमणीय रुद्धोष्म प्रक्रम के लिए एन्ट्रॉपी में परिवर्तन होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "उत्क्रमणीय रुद्धोष्म प्रक्रम आइसेंट्रोपिक (स्थिर एन्ट्रॉपी) होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-011",
+      "number": 11,
+      "question": "The molar specific heat of a gas at constant volume is Cv = 3R/2. The gas is:",
+      "options": {
+        "A": "Monatomic",
+        "B": "Diatomic",
+        "C": "Triatomic",
+        "D": "Polyatomic"
+      },
+      "answer": "A",
+      "explanation": "Monatomic gases have 3 degrees of freedom, so Cv = (3/2)R.",
+      "hash": "a65273f5703f55be",
+      "translations": {
+        "hi": {
+          "question": "स्थिर आयतन पर गैस की मोलर विशिष्ट ऊष्मा Cv = 3R/2 है। गैस है:",
+          "options": {
+            "A": "एकपरमाणुक",
+            "B": "द्विपरमाणुक",
+            "C": "त्रिपरमाणुक",
+            "D": "बहुपरमाणुक"
+          },
+          "explanation": "एकपरमाणुक गैसों में स्वतंत्रता की 3 कोटि होती हैं, इसलिए Cv = (3/2)R।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-012",
+      "number": 12,
+      "question": "Which of the following processes is reversible?",
+      "options": {
+        "A": "Friction",
+        "B": "Heat transfer through finite temperature difference",
+        "C": "Quasi-static isothermal expansion",
+        "D": "Diffusion"
+      },
+      "answer": "C",
+      "explanation": "A process is reversible only if it is quasi-static and involves no dissipative forces.",
+      "hash": "b5c7f1d66a7c8bef",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा प्रक्रम उत्क्रमणीय (reversible) है?",
+          "options": {
+            "A": "घर्षण",
+            "B": "परिमित तापमान अंतर के माध्यम से ऊष्मा स्थानांतरण",
+            "C": "क्वासी-स्टैटिक समतापी विस्तार",
+            "D": "विसरण"
+          },
+          "explanation": "एक प्रक्रम केवल तभी उत्क्रमणीय होता है जब वह क्वासी-स्टैटिक हो और उसमें कोई क्षयकारी बल शामिल न हो।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-013",
+      "number": 13,
+      "question": "The triple point of water is at:",
+      "options": {
+        "A": "273.16 K",
+        "B": "273.15 K",
+        "C": "100 K",
+        "D": "0 K"
+      },
+      "answer": "A",
+      "explanation": "The triple point of water occurs at exactly 273.16 K and 611.65 Pa.",
+      "hash": "3466cd9eda8f2dd9",
+      "translations": {
+        "hi": {
+          "question": "जल का त्रिक बिंदु (triple point) होता है:",
+          "options": {
+            "A": "273.16 K",
+            "B": "273.15 K",
+            "C": "100 K",
+            "D": "0 K"
+          },
+          "explanation": "जल का त्रिक बिंदु बिल्कुल 273.16 K और 611.65 Pa पर होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-014",
+      "number": 14,
+      "question": "One mole of an ideal gas expands from volume V to 2V isothermally. The work done is:",
+      "options": {
+        "A": "RT",
+        "B": "RT ln(2)",
+        "C": "2RT",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "W = nRT ln(V2/V1) = (1)RT ln(2).",
+      "hash": "0c691f4b23b69775",
+      "translations": {
+        "hi": {
+          "question": "आदर्श गैस का एक मोल आयतन V से 2V तक समतापी रूप से विस्तारित होता है। किया गया कार्य है:",
+          "options": {
+            "A": "RT",
+            "B": "RT ln(2)",
+            "C": "2RT",
+            "D": "शून्य"
+          },
+          "explanation": "W = nRT ln(V2/V1) = (1)RT ln(2)।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-015",
+      "number": 15,
+      "question": "For a gas obeying PV^γ = constant, the process is:",
+      "options": {
+        "A": "Isothermal",
+        "B": "Isobaric",
+        "C": "Adiabatic",
+        "D": "Isochoric"
+      },
+      "answer": "C",
+      "explanation": "This is the equation for a reversible adiabatic process.",
+      "hash": "cf0a9cf051dcb893",
+      "translations": {
+        "hi": {
+          "question": "PV^γ = नियतांक का पालन करने वाली गैस के लिए, प्रक्रम है:",
+          "options": {
+            "A": "समतापी",
+            "B": "समदाबी",
+            "C": "रुद्धोष्म",
+            "D": "समआयतनिक"
+          },
+          "explanation": "यह एक उत्क्रमणीय रुद्धोष्म प्रक्रम का समीकरण है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-016",
+      "number": 16,
+      "question": "The work done in an isochoric process is zero because:",
+      "options": {
+        "A": "Temperature is constant",
+        "B": "Pressure is constant",
+        "C": "Volume displacement is zero",
+        "D": "Internal energy is zero"
+      },
+      "answer": "C",
+      "explanation": "Work is PΔV. In isochoric, ΔV = 0.",
+      "hash": "d879f26c5bb90332",
+      "translations": {
+        "hi": {
+          "question": "एक समआयतनिक प्रक्रम में किया गया कार्य शून्य होता है क्योंकि:",
+          "options": {
+            "A": "तापमान स्थिर है",
+            "B": "दाब स्थिर है",
+            "C": "आयतन विस्थापन शून्य है",
+            "D": "आंतरिक ऊर्जा शून्य है"
+          },
+          "explanation": "कार्य PΔV है। समआयतनिक में, ΔV = 0।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-017",
+      "number": 17,
+      "question": "If heat is added to a system at constant pressure, the enthalpy:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "For constant pressure processes, dQ = dH.",
+      "hash": "69163476493c1660",
+      "translations": {
+        "hi": {
+          "question": "यदि स्थिर दाब पर निकाय में ऊष्मा जोड़ी जाती है, तो एन्थैल्पी:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "स्थिर दाब प्रक्रमों के लिए, dQ = dH।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-018",
+      "number": 18,
+      "question": "In a heat engine, the heat rejected to the sink:",
+      "options": {
+        "A": "Cannot be zero",
+        "B": "Can be zero for an ideal engine",
+        "C": "Is always equal to heat absorbed",
+        "D": "Is zero for Carnot engine"
+      },
+      "answer": "A",
+      "explanation": "The Second Law (Kelvin-Planck) implies that some heat must always be rejected to a sink.",
+      "hash": "5b607f269a3241d7",
+      "translations": {
+        "hi": {
+          "question": "एक ऊष्मीय इंजन में, सिंक को अस्वीकार की गई ऊष्मा:",
+          "options": {
+            "A": "शून्य नहीं हो सकती",
+            "B": "एक आदर्श इंजन के लिए शून्य हो सकती है",
+            "C": "हमेशा अवशोषित ऊष्मा के बराबर होती है",
+            "D": "कार्नोट इंजन के लिए शून्य होती है"
+          },
+          "explanation": "द्वितीय नियम (केल्विन-प्लैंक) का तात्पर्य है कि कुछ ऊष्मा हमेशा सिंक को अस्वीकार की जानी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-019",
+      "number": 19,
+      "question": "The P-V graph for an isobaric process is a:",
+      "options": {
+        "A": "Horizontal line",
+        "B": "Vertical line",
+        "C": "Parabola",
+        "D": "Hyperbola"
+      },
+      "answer": "A",
+      "explanation": "Isobaric means constant pressure, represented by a line parallel to the V-axis.",
+      "hash": "503dc73c53d7bd2e",
+      "translations": {
+        "hi": {
+          "question": "समदाबी प्रक्रम के लिए P-V ग्राफ होता है:",
+          "options": {
+            "A": "क्षैतिज रेखा",
+            "B": "ऊर्ध्वाधर रेखा",
+            "C": "परवलय",
+            "D": "अतिपरवलय"
+          },
+          "explanation": "समदाबी का अर्थ है स्थिर दाब, जिसे V-अक्ष के समांतर रेखा द्वारा दर्शाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-02-020",
+      "number": 20,
+      "question": "Which thermodynamic law defines the direction of time?",
+      "options": {
+        "A": "Zeroth Law",
+        "B": "First Law",
+        "C": "Second Law",
+        "D": "Third Law"
+      },
+      "answer": "C",
+      "explanation": "The Second Law (Entropy increase) provides a direction to spontaneous processes.",
+      "hash": "51caa89faaade276",
+      "translations": {
+        "hi": {
+          "question": "कौन सा ऊष्मागतिकी नियम समय की दिशा को परिभाषित करता है?",
+          "options": {
+            "A": "शून्यवाँ नियम",
+            "B": "प्रथम नियम",
+            "C": "द्वितीय नियम",
+            "D": "तृतीय नियम"
+          },
+          "explanation": "द्वितीय नियम (एन्ट्रॉपी वृद्धि) स्वतः स्फूर्त प्रक्रमों को एक दिशा प्रदान करता है।"
+        }
+      }
+    }
+  ]
+}

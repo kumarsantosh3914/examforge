@@ -1,0 +1,527 @@
+{
+  "subject": "Thermodynamics",
+  "set": 5,
+  "title": "Thermodynamics Mock Test 5",
+  "questions": [
+    {
+      "id": "thermodynamics-05-001",
+      "number": 1,
+      "question": "In a throttling process, which thermodynamic property remains conserved?",
+      "options": {
+        "A": "Entropy",
+        "B": "Enthalpy",
+        "C": "Internal Energy",
+        "D": "Temperature"
+      },
+      "answer": "B",
+      "explanation": "A throttling process (like flow through a porous plug) is an isenthalpic process, where h1 = h2.",
+      "hash": "923bf30848fe0dcf",
+      "translations": {
+        "hi": {
+          "question": "थ्रॉटलिंग प्रक्रम (throttling process) में कौन सा ऊष्मागतिकी गुण संरक्षित रहता है?",
+          "options": {
+            "A": "एन्ट्रॉपी",
+            "B": "एन्थैल्पी",
+            "C": "आंतरिक ऊर्जा",
+            "D": "तापमान"
+          },
+          "explanation": "थ्रॉटलिंग प्रक्रम (जैसे सरंध्र प्लग के माध्यम से प्रवाह) एक सम-एन्थैल्पी प्रक्रम है, जहाँ h1 = h2 होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-002",
+      "number": 2,
+      "question": "The P-V diagram of a gas undergoing an adiabatic process is steeper than that of an isothermal process because:",
+      "options": {
+        "A": "γ is always greater than 1",
+        "B": "γ is always less than 1",
+        "C": "Temperature remains constant",
+        "D": "No work is done"
+      },
+      "answer": "A",
+      "explanation": "The slope of an adiabatic curve is γ times the slope of an isothermal curve. Since γ > 1, the adiabatic curve is steeper.",
+      "hash": "78cf28a32d6cc98d",
+      "translations": {
+        "hi": {
+          "question": "रुद्धोष्म प्रक्रम से गुजरने वाली गैस का P-V आरेख समतापी प्रक्रम की तुलना में अधिक तीव्र (steeper) होता है क्योंकि:",
+          "options": {
+            "A": "γ हमेशा 1 से बड़ा होता है",
+            "B": "γ हमेशा 1 से छोटा होता है",
+            "C": "तापमान स्थिर रहता है",
+            "D": "कोई कार्य नहीं किया जाता है"
+          },
+          "explanation": "रुद्धोष्म वक्र का ढाल समतापी वक्र के ढाल का γ गुना होता है। चूंकि γ > 1 है, इसलिए रुद्धोष्म वक्र अधिक तीव्र होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-003",
+      "number": 3,
+      "question": "For an ideal gas, the change in internal energy (ΔU) for any process depends only on:",
+      "options": {
+        "A": "Final Pressure",
+        "B": "Change in Volume",
+        "C": "Change in Temperature",
+        "D": "Path of the process"
+      },
+      "answer": "C",
+      "explanation": "For an ideal gas, ΔU = nCvΔT. It is a state function depending only on temperature.",
+      "hash": "d2a74a525bc520c0",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, किसी भी प्रक्रम के लिए आंतरिक ऊर्जा में परिवर्तन (ΔU) केवल किस पर निर्भर करता है?",
+          "options": {
+            "A": "अंतिम दाब पर",
+            "B": "आयतन में परिवर्तन पर",
+            "C": "तापमान में परिवर्तन पर",
+            "D": "प्रक्रम के पथ पर"
+          },
+          "explanation": "एक आदर्श गैस के लिए, ΔU = nCvΔT। यह एक अवस्था फलन है जो केवल तापमान पर निर्भर करता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-004",
+      "number": 4,
+      "question": "When heat is added to a system at constant pressure, the process is:",
+      "options": {
+        "A": "Isochoric",
+        "B": "Isobaric",
+        "C": "Isothermal",
+        "D": "Adiabatic"
+      },
+      "answer": "B",
+      "explanation": "An isobaric process is one in which the pressure remains constant throughout the process.",
+      "hash": "95907d889e5eb981",
+      "translations": {
+        "hi": {
+          "question": "जब स्थिर दाब पर किसी निकाय में ऊष्मा जोड़ी जाती है, तो प्रक्रम होता है:",
+          "options": {
+            "A": "समआयतनिक",
+            "B": "समदाबी",
+            "C": "समतापी",
+            "D": "रुद्धोष्म"
+          },
+          "explanation": "समदाबी प्रक्रम वह है जिसमें पूरे प्रक्रम के दौरान दाब स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-005",
+      "number": 5,
+      "question": "The ratio of work done to heat absorbed (W/Q) for a Carnot engine is 1/4. If the temperature of the sink is 300 K, the temperature of the source is:",
+      "options": {
+        "A": "400 K",
+        "B": "600 K",
+        "C": "1200 K",
+        "D": "500 K"
+      },
+      "answer": "A",
+      "explanation": "Efficiency η = W/Q = 1 - T2/T1. 1/4 = 1 - 300/T1 => 300/T1 = 3/4 => T1 = 400 K.",
+      "hash": "5cdd2c33bc0659f9",
+      "translations": {
+        "hi": {
+          "question": "एक कार्नोट इंजन के लिए किए गए कार्य और अवशोषित ऊष्मा (W/Q) का अनुपात 1/4 है। यदि सिंक का तापमान 300 K है, तो स्रोत का तापमान है:",
+          "options": {
+            "A": "400 K",
+            "B": "600 K",
+            "C": "1200 K",
+            "D": "500 K"
+          },
+          "explanation": "दक्षता η = W/Q = 1 - T2/T1। 1/4 = 1 - 300/T1 => 300/T1 = 3/4 => T1 = 400 K।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-006",
+      "number": 6,
+      "question": "A monatomic gas has how many degrees of freedom?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Monatomic gases (like He, Ar) have 3 translational degrees of freedom and no rotational or vibrational modes at normal temperatures.",
+      "hash": "b3282bb7275c3256",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस की स्वतंत्रता की कितनी कोटि (degrees of freedom) होती हैं?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "2"
+          },
+          "explanation": "एकपरमाणुक गैसों (जैसे He, Ar) में 3 स्थानान्तरण स्वतंत्रता की कोटि होती हैं और सामान्य तापमान पर कोई घूर्णन या कंपन मोड नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-007",
+      "number": 7,
+      "question": "For an ideal gas, Cp - Cv = R. This relation is known as:",
+      "options": {
+        "A": "Joule's Relation",
+        "B": "Mayer's Relation",
+        "C": "Carnot's Theorem",
+        "D": "Dalton's Law"
+      },
+      "answer": "B",
+      "explanation": "Mayer's relation states that the difference between molar specific heats at constant pressure and volume is the gas constant R.",
+      "hash": "ae27d1d4cbff8780",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, Cp - Cv = R। इस संबंध को किस रूप में जाना जाता है?",
+          "options": {
+            "A": "जूल का संबंध",
+            "B": "मेयर का संबंध",
+            "C": "कार्नोट का प्रमेय",
+            "D": "डाल्टन का नियम"
+          },
+          "explanation": "मेयर का संबंध बताता है कि स्थिर दाब और आयतन पर मोलर विशिष्ट ऊष्माओं के बीच का अंतर गैस नियतांक R होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-008",
+      "number": 8,
+      "question": "The entropy of the universe is:",
+      "options": {
+        "A": "Constantly increasing",
+        "B": "Constantly decreasing",
+        "C": "Constant",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "According to the Second Law of Thermodynamics, the entropy of an isolated system (like the universe) always tends to increase.",
+      "hash": "4e10e0cdf0f922cf",
+      "translations": {
+        "hi": {
+          "question": "ब्रह्मांड की एन्ट्रॉपी:",
+          "options": {
+            "A": "निरंतर बढ़ रही है",
+            "B": "निरंतर घट रही है",
+            "C": "स्थिर है",
+            "D": "शून्य है"
+          },
+          "explanation": "ऊष्मागतिकी के दूसरे नियम के अनुसार, एक विलगित निकाय (जैसे ब्रह्मांड) की एन्ट्रॉपी हमेशा बढ़ने की प्रवृत्ति रखती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-009",
+      "number": 9,
+      "question": "Clausius-Clapeyron equation describes the change in:",
+      "options": {
+        "A": "Internal energy with volume",
+        "B": "Entropy with pressure",
+        "C": "Boiling/Melting point with pressure",
+        "D": "Temperature with enthalpy"
+      },
+      "answer": "C",
+      "explanation": "It relates the change in phase transition temperature to the change in pressure (dP/dT = L / TΔV).",
+      "hash": "f89d932f2d975ae7",
+      "translations": {
+        "hi": {
+          "question": "क्लॉसियस-क्लापेरॉन समीकरण किसमें परिवर्तन का वर्णन करता है?",
+          "options": {
+            "A": "आयतन के साथ आंतरिक ऊर्जा में",
+            "B": "दाब के साथ एन्ट्रॉपी में",
+            "C": "दाब के साथ क्वथनांक/गलनांक में",
+            "D": "एन्थैल्पी के साथ तापमान में"
+          },
+          "explanation": "यह दाब में परिवर्तन के साथ अवस्था परिवर्तन तापमान में परिवर्तन को जोड़ता है (dP/dT = L / TΔV)।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-010",
+      "number": 10,
+      "question": "During an adiabatic compression, the temperature of the gas:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Work is done on the gas (dW < 0) and dQ = 0, so dU = -dW. Internal energy and temperature increase.",
+      "hash": "f5905c81857a6f2e",
+      "translations": {
+        "hi": {
+          "question": "रुद्धोष्म संपीड़न के दौरान, गैस का तापमान:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "समान रहता है",
+            "D": "शून्य हो जाता है"
+          },
+          "explanation": "गैस पर कार्य किया जाता है (dW < 0) और dQ = 0, इसलिए dU = -dW। आंतरिक ऊर्जा और तापमान बढ़ते हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-011",
+      "number": 11,
+      "question": "The area enclosed by a cyclic process on a T-S diagram represents:",
+      "options": {
+        "A": "Work done",
+        "B": "Net heat exchange",
+        "C": "Change in internal energy",
+        "D": "Initial temperature"
+      },
+      "answer": "B",
+      "explanation": "For a cycle, ∫T dS = Q_net. In a reversible cycle, this is also equal to the net work done.",
+      "hash": "6020f9c9aa825621",
+      "translations": {
+        "hi": {
+          "question": "T-S आरेख पर एक चक्रीय प्रक्रम द्वारा घेरा गया क्षेत्रफल दर्शाता है:",
+          "options": {
+            "A": "किया गया कार्य",
+            "B": "शुद्ध ऊष्मा विनिमय",
+            "C": "आंतरिक ऊर्जा में परिवर्तन",
+            "D": "प्रारंभिक तापमान"
+          },
+          "explanation": "एक चक्र के लिए, ∫T dS = Q_net। एक उत्क्रमणीय चक्र में, यह शुद्ध किए गए कार्य के भी बराबर होता है। [Image of Temperature-Entropy diagram of a Carnot cycle]"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-012",
+      "number": 12,
+      "question": "A diatomic gas molecules have how many vibrational degrees of freedom at very high temperatures?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "B",
+      "explanation": "At high temperatures, the vibration contributes 2 degrees of freedom (1 kinetic + 1 potential).",
+      "hash": "a8d07cb85270454d",
+      "translations": {
+        "hi": {
+          "question": "बहुत उच्च तापमान पर एक द्विपरमाणुक गैस अणुओं में कितनी कंपन स्वतंत्रता की कोटि होती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+          },
+          "explanation": "उच्च तापमान पर, कंपन स्वतंत्रता की 2 कोटि (1 गतिज + 1 स्थितिज) का योगदान देता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-013",
+      "number": 13,
+      "question": "The work done by an ideal gas in an isothermal expansion from V to 3V is W. If it expands from V to 9V, the work done is:",
+      "options": {
+        "A": "2W",
+        "B": "3W",
+        "C": "9W",
+        "D": "W^2"
+      },
+      "answer": "A",
+      "explanation": "W = nRT ln(V2/V1). W1 = nRT ln(3). W2 = nRT ln(9) = nRT ln(3^2) = 2 nRT ln(3) = 2W.",
+      "hash": "17930524dbd054f2",
+      "translations": {
+        "hi": {
+          "question": "V से 3V तक समतापी विस्तार में एक आदर्श गैस द्वारा किया गया कार्य W है। यदि यह V से 9V तक विस्तारित होती है, तो किया गया कार्य है:",
+          "options": {
+            "A": "2W",
+            "B": "3W",
+            "C": "9W",
+            "D": "W^2"
+          },
+          "explanation": "W = nRT ln(V2/V1)। W1 = nRT ln(3)। W2 = nRT ln(9) = nRT ln(3^2) = 2 nRT ln(3) = 2W।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-014",
+      "number": 14,
+      "question": "Which thermodynamic law is violated by a perpetual motion machine of the second kind?",
+      "options": {
+        "A": "First Law",
+        "B": "Second Law",
+        "C": "Third Law",
+        "D": "Zeroth Law"
+      },
+      "answer": "B",
+      "explanation": "A PMM-2 would convert all heat from a single reservoir into work with 100% efficiency, violating the Kelvin-Planck statement.",
+      "hash": "1a37b36b1e21d593",
+      "translations": {
+        "hi": {
+          "question": "द्वितीय प्रकार की सतत गति मशीन (perpetual motion machine) द्वारा किस ऊष्मागतिकी नियम का उल्लंघन किया जाता है?",
+          "options": {
+            "A": "प्रथम नियम",
+            "B": "द्वितीय नियम",
+            "C": "तृतीय नियम",
+            "D": "शून्यवाँ नियम"
+          },
+          "explanation": "एक PMM-2 100% दक्षता के साथ एक ही जलाशय से सभी ऊष्मा को कार्य में बदल देगी, जो केल्विं-प्लैंक कथन का उल्लंघन है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-015",
+      "number": 15,
+      "question": "In a refrigerator, the compressor:",
+      "options": {
+        "A": "Decreases the temperature of refrigerant",
+        "B": "Increases the pressure of refrigerant",
+        "C": "Absorbs heat from the freezer",
+        "D": "Rejects heat to the surroundings"
+      },
+      "answer": "B",
+      "explanation": "The compressor increases the pressure (and temperature) of the refrigerant vapor before it goes to the condenser.",
+      "hash": "9a1bf73573090a88",
+      "translations": {
+        "hi": {
+          "question": "एक रेफ्रिजरेटर में, कंप्रेसर:",
+          "options": {
+            "A": "रेफ्रिजरेंट का तापमान कम करता है",
+            "B": "रेफ्रिजरेंट का दाब बढ़ाता है",
+            "C": "फ्रीजर से ऊष्मा अवशोषित करता है",
+            "D": "परिवेश को ऊष्मा छोड़ता है"
+          },
+          "explanation": "कंप्रेसर कंडेनसर में जाने से पहले रेफ्रिजरेंट वाष्प के दाब (और तापमान) को बढ़ाता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-016",
+      "number": 16,
+      "question": "Specific heat of a gas in an adiabatic process is:",
+      "options": {
+        "A": "Zero",
+        "B": "Infinite",
+        "C": "Positive",
+        "D": "Negative"
+      },
+      "answer": "A",
+      "explanation": "C = dQ / (m dT). In an adiabatic process, dQ = 0, so C = 0.",
+      "hash": "b32ac58bff3cd992",
+      "translations": {
+        "hi": {
+          "question": "रुद्धोष्म प्रक्रम में गैस की विशिष्ट ऊष्मा होती है:",
+          "options": {
+            "A": "शून्य",
+            "B": "अनंत",
+            "C": "धनात्मक",
+            "D": "ऋणात्मक"
+          },
+          "explanation": "C = dQ / (m dT)। रुद्धोष्म प्रक्रम में, dQ = 0, इसलिए C = 0।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-017",
+      "number": 17,
+      "question": "For an ideal gas, the slope of an isobaric curve on a V-T diagram is:",
+      "options": {
+        "A": "nR/P",
+        "B": "P/nR",
+        "C": "Zero",
+        "D": "Negative"
+      },
+      "answer": "A",
+      "explanation": "From V = (nR/P)T, the slope dV/dT = nR/P.",
+      "hash": "125c84e904ff0f0b",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस के लिए, V-T आरेख पर एक समदाबी वक्र का ढाल होता है:",
+          "options": {
+            "A": "nR/P",
+            "B": "P/nR",
+            "C": "शून्य",
+            "D": "ऋणात्मक"
+          },
+          "explanation": "V = (nR/P)T से, ढाल dV/dT = nR/P।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-018",
+      "number": 18,
+      "question": "The efficiency of a heat engine can never be 1 because:",
+      "options": {
+        "A": "Friction is present",
+        "B": "Heat must be rejected to a sink",
+        "C": "Perfect insulation is impossible",
+        "D": "Working substance is not ideal"
+      },
+      "answer": "B",
+      "explanation": "The Second Law requires a sink to receive rejected heat; T2 cannot be 0 K.",
+      "hash": "e5fb1849908cbb1a",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मीय इंजन की दक्षता कभी भी 1 नहीं हो सकती क्योंकि:",
+          "options": {
+            "A": "घर्षण मौजूद है",
+            "B": "ऊष्मा को सिंक में अस्वीकार किया जाना चाहिए",
+            "C": "पूर्ण इन्सुलेशन असंभव है",
+            "D": "कार्यकारी पदार्थ आदर्श नहीं है"
+          },
+          "explanation": "द्वितीय नियम के लिए अस्वीकृत ऊष्मा प्राप्त करने हेतु सिंक की आवश्यकता होती है; T2, 0 K नहीं हो सकता।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-019",
+      "number": 19,
+      "question": "If a system is taken from state A to B isothermally and then from B to A adiabatically, the net work done is:",
+      "options": {
+        "A": "Zero",
+        "B": "Positive",
+        "C": "Negative",
+        "D": "Dependent on mass"
+      },
+      "answer": "C",
+      "explanation": "The area enclosed by the cycle (Adiabatic is steeper) results in a net negative work (work done on the gas).",
+      "hash": "bac88ed3ef225251",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी निकाय को समतापी रूप से अवस्था A से B तक और फिर रुद्धोष्म रूप से B से A तक ले जाया जाता है, तो शुद्ध किया गया कार्य है:",
+          "options": {
+            "A": "शून्य",
+            "B": "धनात्मक",
+            "C": "ऋणात्मक",
+            "D": "द्रव्यमान पर निर्भर"
+          },
+          "explanation": "चक्र द्वारा घेरा गया क्षेत्रफल (रुद्धोष्म अधिक तीव्र है) शुद्ध ऋणात्मक कार्य (गैस पर किया गया कार्य) के रूप में प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-05-020",
+      "number": 20,
+      "question": "A gas is compressed at constant temperature. Its entropy:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "Compression at constant T requires rejection of heat (dQ < 0), so ΔS < 0.",
+      "hash": "0cd1ff7015e89278",
+      "translations": {
+        "hi": {
+          "question": "एक गैस को स्थिर तापमान पर संपीड़ित किया जाता है। इसकी एन्ट्रॉपी:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "समान रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "स्थिर T पर संपीड़न के लिए ऊष्मा की अस्वीकृति (dQ < 0) आवश्यक है, इसलिए ΔS < 0।"
+        }
+      }
+    }
+  ]
+}

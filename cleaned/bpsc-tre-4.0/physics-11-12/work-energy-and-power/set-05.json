@@ -1,0 +1,527 @@
+{
+  "subject": "Work, Energy, and Power",
+  "set": 5,
+  "title": "Work, Energy, and Power Mock Test 5",
+  "questions": [
+    {
+      "id": "work-energy-and-power-05-001",
+      "number": 1,
+      "question": "A body of mass 10 kg is moving with a constant velocity of 10 m/s. The net work done on it is:",
+      "options": {
+        "A": "100 J",
+        "B": "500 J",
+        "C": "1000 J",
+        "D": "Zero"
+      },
+      "answer": "D",
+      "explanation": "Since velocity is constant, there is no change in kinetic energy. According to work-energy theorem, W = ΔK = 0.",
+      "hash": "49135dce6bf747a6",
+      "translations": {
+        "hi": {
+          "question": "10 किग्रा द्रव्यमान की एक वस्तु 10 मी/से के स्थिर वेग से गति कर रही है। इस पर किया गया कुल कार्य है:",
+          "options": {
+            "A": "100 जूल",
+            "B": "500 जूल",
+            "C": "1000 जूल",
+            "D": "शून्य"
+          },
+          "explanation": "चूंकि वेग स्थिर है, इसलिए गतिज ऊर्जा में कोई परिवर्तन नहीं होता है। कार्य-ऊर्जा प्रमेय के अनुसार, W = ΔK = 0।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-002",
+      "number": 2,
+      "question": "The potential energy of a particle is given by U(x) = x^3/3 - x^2/2. The force is zero at:",
+      "options": {
+        "A": "x = 0 and x = 1",
+        "B": "x = 1/3 and x = 1/2",
+        "C": "x = 0 only",
+        "D": "x = 1 only"
+      },
+      "answer": "A",
+      "explanation": "F = -dU/dx = -(x^2 - x). Setting F = 0 gives x(x-1) = 0, so x = 0 or 1.",
+      "hash": "19dd1b780f06c505",
+      "translations": {
+        "hi": {
+          "question": "एक कण की स्थितिज ऊर्जा U(x) = x^3/3 - x^2/2 द्वारा दी गई है। बल शून्य होगा:",
+          "options": {
+            "A": "x = 0 और x = 1",
+            "B": "x = 1/3 और x = 1/2",
+            "C": "केवल x = 0 पर",
+            "D": "केवल x = 1 पर"
+          },
+          "explanation": "F = -dU/dx = -(x^2 - x)। F = 0 रखने पर x(x-1) = 0 प्राप्त होता है, इसलिए x = 0 या 1।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-003",
+      "number": 3,
+      "question": "If the kinetic energy of a body becomes 256 times its initial value, the new linear momentum will be:",
+      "options": {
+        "A": "16 times",
+        "B": "256 times",
+        "C": "512 times",
+        "D": "64 times"
+      },
+      "answer": "A",
+      "explanation": "Momentum p is proportional to the square root of kinetic energy (p ∝ √K). √256 = 16.",
+      "hash": "b5ca6431fbb1061b",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु की गतिज ऊर्जा उसके प्रारंभिक मान का 256 गुना हो जाती है, तो नया रैखिक संवेग होगा:",
+          "options": {
+            "A": "16 गुना",
+            "B": "256 गुना",
+            "C": "512 गुना",
+            "D": "64 गुना"
+          },
+          "explanation": "संवेग p गतिज ऊर्जा के वर्गमूल के समानुपाती होता है (p ∝ √K)। √256 = 16।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-004",
+      "number": 4,
+      "question": "A spring of force constant k is cut into three equal parts. The force constant of each part will be:",
+      "options": {
+        "A": "k/3",
+        "B": "k",
+        "C": "3k",
+        "D": "9k"
+      },
+      "answer": "C",
+      "explanation": "Spring constant is inversely proportional to length (k ∝ 1/L). Reducing length to 1/3 increases k by 3.",
+      "hash": "614d04f491d40579",
+      "translations": {
+        "hi": {
+          "question": "बल नियतांक k वाले एक स्प्रिंग को तीन बराबर भागों में काटा जाता है। प्रत्येक भाग का बल नियतांक होगा:",
+          "options": {
+            "A": "k/3",
+            "B": "k",
+            "C": "3k",
+            "D": "9k"
+          },
+          "explanation": "स्प्रिंग नियतांक लंबाई के व्युत्क्रमानुपाती होता है (k ∝ 1/L)। लंबाई को 1/3 करने पर k 3 गुना बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-005",
+      "number": 5,
+      "question": "A particle moves from r1 = (2i + 3j) to r2 = (4i + 6j) under force F = (5i + 2j). Work done is:",
+      "options": {
+        "A": "10 J",
+        "B": "16 J",
+        "C": "20 J",
+        "D": "26 J"
+      },
+      "answer": "B",
+      "explanation": "Displacement d = r2 - r1 = 2i + 3j. Work = F ⋅ d = (5*2) + (2*3) = 10 + 6 = 16 J.",
+      "hash": "b92e85af697d3421",
+      "translations": {
+        "hi": {
+          "question": "एक कण बल F = (5i + 2j) के तहत r1 = (2i + 3j) से r2 = (4i + 6j) तक चलता है। किया गया कार्य है:",
+          "options": {
+            "A": "10 जूल",
+            "B": "16 जूल",
+            "C": "20 जूल",
+            "D": "26 जूल"
+          },
+          "explanation": "विस्थापन d = r2 - r1 = 2i + 3j। कार्य = F ⋅ d = (5*2) + (2*3) = 10 + 6 = 16 जूल।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-006",
+      "number": 6,
+      "question": "A body is falling through a viscous medium. The work done by the viscous force is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Depends on the density"
+      },
+      "answer": "B",
+      "explanation": "Viscous force (friction in fluids) always acts opposite to the direction of motion.",
+      "hash": "20c4aa87da744d6d",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु एक श्यान माध्यम (viscous medium) से गिर रही है। श्यान बल द्वारा किया गया कार्य है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "घनत्व पर निर्भर करता है"
+          },
+          "explanation": "श्यान बल (तरल पदार्थों में घर्षण) हमेशा गति की दिशा के विपरीत कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-007",
+      "number": 7,
+      "question": "When a person walks on a rough road, the work done by the frictional force of the road on the person is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "C",
+      "explanation": "The point of application of static friction does not move relative to the road; hence no work is done.",
+      "hash": "721e13a1f2011e16",
+      "translations": {
+        "hi": {
+          "question": "जब कोई व्यक्ति खुरदरी सड़क पर चलता है, तो व्यक्ति पर सड़क के घर्षण बल द्वारा किया गया कार्य होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "स्थैतिक घर्षण के अनुप्रयोग का बिंदु सड़क के सापेक्ष नहीं चलता है; इसलिए कोई कार्य नहीं किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-008",
+      "number": 8,
+      "question": "The power of a pump which can lift 100 kg of water to a height of 100 m in 10 s is: (g=10)",
+      "options": {
+        "A": "1 kW",
+        "B": "10 kW",
+        "C": "100 kW",
+        "D": "0.1 kW"
+      },
+      "answer": "B",
+      "explanation": "Power = mgh/t = (100 * 10 * 100) / 10 = 10000 W = 10 kW.",
+      "hash": "559f24c1d60afaf7",
+      "translations": {
+        "hi": {
+          "question": "एक पंप की शक्ति क्या है जो 10 सेकंड में 100 किग्रा पानी को 100 मीटर की ऊंचाई तक उठा सकता है? (g=10)",
+          "options": {
+            "A": "1 किलोवाट",
+            "B": "10 किलोवाट",
+            "C": "100 किलोवाट",
+            "D": "0.1 किलोवाट"
+          },
+          "explanation": "शक्ति = mgh/t = (100 * 10 * 100) / 10 = 10000 वाट = 10 किलोवाट।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-009",
+      "number": 9,
+      "question": "In a perfectly inelastic collision, which is correct?",
+      "options": {
+        "A": "KE is conserved",
+        "B": "Final KE is zero",
+        "C": "Maximum KE is lost",
+        "D": "Objects bounce back"
+      },
+      "answer": "C",
+      "explanation": "In perfectly inelastic collisions, the maximum possible kinetic energy is lost as the bodies stick.",
+      "hash": "6a5222cc819c11ed",
+      "translations": {
+        "hi": {
+          "question": "एक पूर्णतः अप्रत्यास्थ टक्कर में, क्या सही है?",
+          "options": {
+            "A": "KE संरक्षित है",
+            "B": "अंतिम KE शून्य है",
+            "C": "अधिकतम KE की हानि होती है",
+            "D": "वस्तुएं वापस उछलती हैं"
+          },
+          "explanation": "पूर्णतः अप्रत्यास्थ टक्करों में, वस्तुओं के चिपकने के कारण अधिकतम संभव गतिज ऊर्जा की हानि होती है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-010",
+      "number": 10,
+      "question": "A mass m is attached to a vertical spring and lowered slowly. The work done by the external agent is:",
+      "options": {
+        "A": "mgh",
+        "B": "-1/2 kx^2",
+        "C": "1/2 kx^2 - mgx",
+        "D": "Zero"
+      },
+      "answer": "C",
+      "explanation": "Total work = ΔK. Since it's lowered slowly (v≈0), W_ext + W_grav + W_spring = 0.",
+      "hash": "c2c51f5f2bcb8e02",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान m को एक ऊर्ध्वाधर स्प्रिंग से जोड़ा जाता है और धीरे-धीरे नीचे उतारा जाता है। बाहरी एजेंट द्वारा किया गया कार्य है:",
+          "options": {
+            "A": "mgh",
+            "B": "-1/2 kx^2",
+            "C": "1/2 kx^2 - mgx",
+            "D": "शून्य"
+          },
+          "explanation": "कुल कार्य = ΔK। चूंकि इसे धीरे-धीरे नीचे उतारा जाता है, इसलिए W_ext + W_grav + W_spring = 0।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-011",
+      "number": 11,
+      "question": "If a heart does 1.5 J of work in every beat, how many beats are required to do 1500 J of work?",
+      "options": {
+        "A": "100",
+        "B": "1000",
+        "C": "1500",
+        "D": "2250"
+      },
+      "answer": "B",
+      "explanation": "Number of beats = Total Work / Work per beat = 1500 / 1.5 = 1000.",
+      "hash": "6ddda3d6f1ac990e",
+      "translations": {
+        "hi": {
+          "question": "यदि एक हृदय प्रत्येक धड़कन में 1.5 जूल कार्य करता है, तो 1500 जूल कार्य करने के लिए कितनी धड़कनों की आवश्यकता होगी?",
+          "options": {
+            "A": "100",
+            "B": "1000",
+            "C": "1500",
+            "D": "2250"
+          },
+          "explanation": "धड़कनों की संख्या = कुल कार्य / प्रति धड़कन कार्य = 1500 / 1.5 = 1000।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-012",
+      "number": 12,
+      "question": "A force F = (5 + 2x) acts on a particle. The work done to move it from x=0 to x=2 is:",
+      "options": {
+        "A": "10 J",
+        "B": "12 J",
+        "C": "14 J",
+        "D": "16 J"
+      },
+      "answer": "C",
+      "explanation": "Integrate (5 + 2x) dx from 0 to 2 = [5x + x²] from 0 to 2 = (10 + 4) - 0 = 14 J.",
+      "hash": "656beb94d7d0298b",
+      "translations": {
+        "hi": {
+          "question": "एक बल F = (5 + 2x) एक कण पर कार्य करता है। इसे x=0 से x=2 तक ले जाने में किया गया कार्य है:",
+          "options": {
+            "A": "10 जूल",
+            "B": "12 जूल",
+            "C": "14 जूल",
+            "D": "16 जूल"
+          },
+          "explanation": "0 से 2 तक (5 + 2x) dx का समाकलन = [5x + x²] 0 से 2 = (10 + 4) - 0 = 14 जूल।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-013",
+      "number": 13,
+      "question": "The kinetic energy of a projectile at its maximum height (angle of projection θ) is:",
+      "options": {
+        "A": "Zero",
+        "B": "K cos²θ",
+        "C": "K sin²θ",
+        "D": "K"
+      },
+      "answer": "B",
+      "explanation": "At max height, only horizontal velocity (v cosθ) remains. K_new = 1/2 m(v cosθ)² = K cos²θ.",
+      "hash": "c5c96ff35bcbd4c5",
+      "translations": {
+        "hi": {
+          "question": "अपनी अधिकतम ऊंचाई पर एक प्रक्षेप्य की गतिज ऊर्जा (प्रक्षेप कोण θ) होती है:",
+          "options": {
+            "A": "शून्य",
+            "B": "K cos²θ",
+            "C": "K sin²θ",
+            "D": "K"
+          },
+          "explanation": "अधिकतम ऊंचाई पर, केवल क्षैतिज वेग (v cosθ) बचता है। K_new = 1/2 m(v cosθ)² = K cos²θ।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-014",
+      "number": 14,
+      "question": "A bullet fired into a target loses half of its KE after penetrating 3 cm. How much further will it penetrate?",
+      "options": {
+        "A": "1 cm",
+        "B": "2 cm",
+        "C": "3 cm",
+        "D": "6 cm"
+      },
+      "answer": "C",
+      "explanation": "Work done by resisting force (F*d) = Loss in KE. F*3 = K/2. For remaining K/2, it needs another 3 cm.",
+      "hash": "57fd08a4caca4875",
+      "translations": {
+        "hi": {
+          "question": "एक लक्ष्य पर दागी गई गोली 3 सेमी घुसने के बाद अपनी आधी KE खो देती है। यह और कितना आगे घुसेगी?",
+          "options": {
+            "A": "1 सेमी",
+            "B": "2 सेमी",
+            "C": "3 सेमी",
+            "D": "6 सेमी"
+          },
+          "explanation": "प्रतिरोधी बल द्वारा किया गया कार्य (F*d) = KE में हानि। F*3 = K/2। शेष K/2 के लिए, इसे और 3 सेमी की आवश्यकता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-015",
+      "number": 15,
+      "question": "The unit of energy \"electron volt\" (eV) is equal to:",
+      "options": {
+        "A": "1.6 x 10^-19 J",
+        "B": "1.6 x 10^-13 J",
+        "C": "9.1 x 10^-31 J",
+        "D": "1 J"
+      },
+      "answer": "A",
+      "explanation": "1 eV is the energy gained by an electron accelerating through 1 Volt.",
+      "hash": "13c3ffdf8bde1d80",
+      "translations": {
+        "hi": {
+          "question": "ऊर्जा की इकाई \"इलेक्ट्रॉन वोल्ट\" (eV) किसके बराबर है?",
+          "options": {
+            "A": "1.6 x 10^-19 जूल",
+            "B": "1.6 x 10^-13 जूल",
+            "C": "9.1 x 10^-31 जूल",
+            "D": "1 जूल"
+          },
+          "explanation": "1 eV एक इलेक्ट्रॉन द्वारा 1 वोल्ट के माध्यम से त्वरित होने पर प्राप्त ऊर्जा है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-016",
+      "number": 16,
+      "question": "An object is moved along path A and path B in a non-conservative field. The work done:",
+      "options": {
+        "A": "Is same for both",
+        "B": "Is different for both",
+        "C": "Is zero for both",
+        "D": "Depends only on start and end points"
+      },
+      "answer": "B",
+      "explanation": "For non-conservative forces (like friction), work done depends on the actual path taken.",
+      "hash": "52f492c38e6f53ad",
+      "translations": {
+        "hi": {
+          "question": "एक गैर-संरक्षी क्षेत्र में एक वस्तु को पथ A और पथ B के साथ ले जाया जाता है। किया गया कार्य:",
+          "options": {
+            "A": "दोनों के लिए समान है",
+            "B": "दोनों के लिए अलग है",
+            "C": "दोनों के लिए शून्य है",
+            "D": "केवल प्रारंभ और अंत बिंदुओं पर निर्भर करता है"
+          },
+          "explanation": "गैर-संरक्षी बलों (जैसे घर्षण) के लिए, किया गया कार्य तय किए गए वास्तविक पथ पर निर्भर करता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-017",
+      "number": 17,
+      "question": "For a collision between two bodies, the total linear momentum is conserved:",
+      "options": {
+        "A": "Only in elastic collisions",
+        "B": "Only in inelastic collisions",
+        "C": "In all types of collisions",
+        "D": "Only when KE is conserved"
+      },
+      "answer": "C",
+      "explanation": "Linear momentum is conserved in all collisions as long as no external net force acts.",
+      "hash": "4f7126687db523cd",
+      "translations": {
+        "hi": {
+          "question": "दो वस्तुओं के बीच टक्कर के लिए, कुल रैखिक संवेग संरक्षित रहता है:",
+          "options": {
+            "A": "केवल प्रत्यास्थ टक्करों में",
+            "B": "केवल अप्रत्यास्थ टक्करों में",
+            "C": "सभी प्रकार की टक्करों में",
+            "D": "केवल जब KE संरक्षित हो"
+          },
+          "explanation": "रैखिक संवेग सभी टक्करों में संरक्षित रहता है जब तक कि कोई बाहरी कुल बल कार्य न करे।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-018",
+      "number": 18,
+      "question": "When a negative work is done on a body, its kinetic energy:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "First increases then decreases"
+      },
+      "answer": "B",
+      "explanation": "According to work-energy theorem, ΔK = W. If W is negative, ΔK is negative (KE decreases).",
+      "hash": "6a13e12d432282f7",
+      "translations": {
+        "hi": {
+          "question": "जब किसी वस्तु पर ऋणात्मक कार्य किया जाता है, तो उसकी गतिज ऊर्जा:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "समान रहती है",
+            "D": "पहले बढ़ती है फिर घटती है"
+          },
+          "explanation": "कार्य-ऊर्जा प्रमेय के अनुसार, ΔK = W। यदि W ऋणात्मक है, तो ΔK ऋणात्मक है (KE घटती है)।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-019",
+      "number": 19,
+      "question": "A force of 5N acting on a mass of 2kg for 2s gives it a KE of:",
+      "options": {
+        "A": "10 J",
+        "B": "25 J",
+        "C": "50 J",
+        "D": "100 J"
+      },
+      "answer": "B",
+      "explanation": "Impulse = F*t = 10. Change in momentum Δp = 10. KE = p²/2m = 100/4 = 25 J.",
+      "hash": "6b3c0abf58521471",
+      "translations": {
+        "hi": {
+          "question": "2 किग्रा के द्रव्यमान पर 2 सेकंड के लिए लगने वाला 5N का बल उसे कितनी KE देता है?",
+          "options": {
+            "A": "10 जूल",
+            "B": "25 जूल",
+            "C": "50 जूल",
+            "D": "100 जूल"
+          },
+          "explanation": "आवेग = F*t = 10। संवेग में परिवर्तन Δp = 10। KE = p²/2m = 100/4 = 25 जूल।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-05-020",
+      "number": 20,
+      "question": "A body of mass 1 kg is thrown upwards with 20 m/s. Its PE at the highest point is: (g=10)",
+      "options": {
+        "A": "20 J",
+        "B": "200 J",
+        "C": "400 J",
+        "D": "100 J"
+      },
+      "answer": "B",
+      "explanation": "Initial KE = 1/2 * 1 * 20^2 = 200 J. At the highest point, all KE is converted to PE.",
+      "hash": "ad89f96130f6b948",
+      "translations": {
+        "hi": {
+          "question": "1 किग्रा की वस्तु को 20 मी/से के साथ ऊपर की ओर फेंका जाता है। उच्चतम बिंदु पर इसकी PE है: (g=10)",
+          "options": {
+            "A": "20 जूल",
+            "B": "200 जूल",
+            "C": "400 जूल",
+            "D": "100 जूल"
+          },
+          "explanation": "प्रारंभिक KE = 1/2 * 1 * 20^2 = 200 जूल। उच्चतम बिंदु पर, सभी KE, PE में परिवर्तित हो जाती है।"
+        }
+      }
+    }
+  ]
+}

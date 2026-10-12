@@ -1,0 +1,527 @@
+{
+  "subject": "Electromagnetic Induction & AC",
+  "set": 3,
+  "title": "Electromagnetic Induction & AC Mock Test 3",
+  "questions": [
+    {
+      "id": "electromagnetic-induction-ac-03-001",
+      "number": 1,
+      "question": "The current in a coil changes from 5A to 2A in 0.1 seconds. If the average EMF induced is 150V, the self-inductance of the coil is:",
+      "options": {
+        "A": "5 H",
+        "B": "0.5 H",
+        "C": "50 H",
+        "D": "10 H"
+      },
+      "answer": "A",
+      "explanation": "e = L(di/dt). 150 = L(3/0.1) => 150 = 30L => L = 5 H.",
+      "hash": "ca4b89e5a3465fcb",
+      "translations": {
+        "hi": {
+          "question": "एक कुंडली में धारा 0.1 सेकंड में 5A से 2A में बदल जाती है। यदि औसत प्रेरित EMF 150V है, तो कुंडली का स्व-प्रेरकत्व है:",
+          "options": {
+            "A": "5 H",
+            "B": "0.5 H",
+            "C": "50 H",
+            "D": "10 H"
+          },
+          "explanation": "e = L(di/dt)। 150 = L(3/0.1) => 150 = 30L => L = 5 H।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-002",
+      "number": 2,
+      "question": "If the number of turns in a coil is doubled without changing its length and area, its self-inductance becomes:",
+      "options": {
+        "A": "Two times",
+        "B": "Four times",
+        "C": "Half",
+        "D": "Remains same"
+      },
+      "answer": "B",
+      "explanation": "Self-inductance L is proportional to the square of the number of turns (N^2).",
+      "hash": "87ef02eba4c65733",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी कुंडली की लंबाई और क्षेत्रफल बदले बिना उसमें फेरों की संख्या दोगुनी कर दी जाए, तो इसका स्व-प्रेरकत्व हो जाता है:",
+          "options": {
+            "A": "दो गुना",
+            "B": "चार गुना",
+            "C": "आधा",
+            "D": "वही रहता है"
+          },
+          "explanation": "स्व-प्रेरकत्व L फेरों की संख्या के वर्ग (N^2) के समानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-003",
+      "number": 3,
+      "question": "In a series LCR circuit, the potential difference across the inductor and capacitor are 400V and 400V. The total voltage across the combination is:",
+      "options": {
+        "A": "800 V",
+        "B": "0 V",
+        "C": "Equal to voltage across Resistor",
+        "D": "400 V"
+      },
+      "answer": "C",
+      "explanation": "Total V = sqrt(Vr^2 + (Vl-Vc)^2). Since Vl = Vc, V = Vr.",
+      "hash": "5d6b0f279fb9e725",
+      "translations": {
+        "hi": {
+          "question": "एक श्रेणी LCR परिपथ में, प्रेरक और संधारित्र के सिरों पर विभवांतर 400V और 400V हैं। संयोजन में कुल वोल्टेज है:",
+          "options": {
+            "A": "800 V",
+            "B": "0 V",
+            "C": "प्रतिरोधक के वोल्टेज के बराबर",
+            "D": "400 V"
+          },
+          "explanation": "कुल V = sqrt(Vr^2 + (Vl-Vc)^2)। चूंकि Vl = Vc है, इसलिए V = Vr।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-004",
+      "number": 4,
+      "question": "The inductive reactance of a coil is 100 ohms. If the frequency of AC and the inductance are both doubled, the new reactance is:",
+      "options": {
+        "A": "100 ohms",
+        "B": "200 ohms",
+        "C": "400 ohms",
+        "D": "50 ohms"
+      },
+      "answer": "C",
+      "explanation": "Xl = 2 * pi * f * L. If both f and L are doubled, Xl increases by 4 times.",
+      "hash": "d473eb8c27272b51",
+      "translations": {
+        "hi": {
+          "question": "एक कुंडली का प्रेरकीय प्रतिघात 100 ओम है। यदि AC की आवृत्ति और प्रेरकत्व दोनों को दोगुना कर दिया जाए, तो नया प्रतिघात है:",
+          "options": {
+            "A": "100 ओम",
+            "B": "200 ओम",
+            "C": "400 ओम",
+            "D": "50 ओम"
+          },
+          "explanation": "Xl = 2 * pi * f * L। यदि f और L दोनों को दोगुना कर दिया जाए, तो Xl 4 गुना बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-005",
+      "number": 5,
+      "question": "A rectangular loop and a circular loop are moving out of a uniform magnetic field with constant velocity. In which loop will the induced EMF be constant?",
+      "options": {
+        "A": "Circular loop",
+        "B": "Rectangular loop",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "answer": "B",
+      "explanation": "In a rectangular loop, the rate of change of area is constant, unlike a circular loop where it varies.",
+      "hash": "cd73e9807c03bcc4",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार लूप और एक वृत्ताकार लूप एकसमान वेग से एकसमान चुंबकीय क्षेत्र से बाहर निकल रहे हैं। किस लूप में प्रेरित EMF स्थिर रहेगा?",
+          "options": {
+            "A": "वृत्ताकार लूप",
+            "B": "आयताकार लूप",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "आयताकार लूप में, क्षेत्रफल के परिवर्तन की दर स्थिर होती है, जबकि वृत्ताकार लूप में यह बदलती रहती है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-006",
+      "number": 6,
+      "question": "The time constant of an L-R circuit is:",
+      "options": {
+        "A": "L/R",
+        "B": "R/L",
+        "C": "LR",
+        "D": "1/LR"
+      },
+      "answer": "A",
+      "explanation": "The time constant tau = L/R represents the time taken for current to reach 63% of its peak value.",
+      "hash": "826ab068dd7b5da4",
+      "translations": {
+        "hi": {
+          "question": "एक L-R परिपथ का समय स्थिरांक (time constant) है:",
+          "options": {
+            "A": "L/R",
+            "B": "R/L",
+            "C": "LR",
+            "D": "1/LR"
+          },
+          "explanation": "समय स्थिरांक tau = L/R उस समय को दर्शाता है जो धारा को अपने शिखर मान के 63% तक पहुँचने में लगता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-007",
+      "number": 7,
+      "question": "The mutual inductance between two coils is 2.5 H. If the current in the primary changes at 10 A/s, the EMF induced in the secondary is:",
+      "options": {
+        "A": "25 V",
+        "B": "2.5 V",
+        "C": "0.25 V",
+        "D": "10 V"
+      },
+      "answer": "A",
+      "explanation": "e = M(di/dt) = 2.5 * 10 = 25 V.",
+      "hash": "ed40280722f78225",
+      "translations": {
+        "hi": {
+          "question": "दो कुंडलियों के बीच पारस्परिक प्रेरकत्व 2.5 H है। यदि प्राथमिक में धारा 10 A/s की दर से बदलती है, तो द्वितीयक में प्रेरित EMF है:",
+          "options": {
+            "A": "25 V",
+            "B": "2.5 V",
+            "C": "0.25 V",
+            "D": "10 V"
+          },
+          "explanation": "e = M(di/dt) = 2.5 * 10 = 25 V।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-008",
+      "number": 8,
+      "question": "A step-up transformer has a turn ratio of 1:10. If the secondary current is 2A, the primary current is:",
+      "options": {
+        "A": "20 A",
+        "B": "0.2 A",
+        "C": "2 A",
+        "D": "10 A"
+      },
+      "answer": "A",
+      "explanation": "Ip/Is = Ns/Np. Ip/2 = 10/1 => Ip = 20 A.",
+      "hash": "43ea265c46099ebf",
+      "translations": {
+        "hi": {
+          "question": "एक स्टेप-अप ट्रांसफार्मर का फेरा अनुपात 1:10 है। यदि द्वितीयक धारा 2A है, तो प्राथमिक धारा है:",
+          "options": {
+            "A": "20 A",
+            "B": "0.2 A",
+            "C": "2 A",
+            "D": "10 A"
+          },
+          "explanation": "Ip/Is = Ns/Np। Ip/2 = 10/1 => Ip = 20 A।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-009",
+      "number": 9,
+      "question": "What is the ratio of capacitive reactance to frequency?",
+      "options": {
+        "A": "Directly proportional",
+        "B": "Inversely proportional to frequency squared",
+        "C": "Independent of frequency",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Xc = 1/(2*pi*f*C). Thus Xc/f = 1/(2*pi*f^2*C).",
+      "hash": "f9800146b5cab423",
+      "translations": {
+        "hi": {
+          "question": "धारितीय प्रतिघात और आवृत्ति का अनुपात क्या है?",
+          "options": {
+            "A": "सीधे समानुपाती",
+            "B": "आवृत्ति के वर्ग के व्युत्क्रमानुपाती",
+            "C": "आवृत्ति से स्वतंत्र",
+            "D": "शून्य"
+          },
+          "explanation": "Xc = 1/(2*pi*f*C)। अतः Xc/f = 1/(2*pi*f^2*C)।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-010",
+      "number": 10,
+      "question": "Which of the following is responsible for the working of an induction furnace?",
+      "options": {
+        "A": "Self induction",
+        "B": "Mutual induction",
+        "C": "Eddy currents",
+        "D": "Seebeck effect"
+      },
+      "answer": "C",
+      "explanation": "Rapidly changing magnetic fields induce eddy currents in metal, which produce high heat.",
+      "hash": "f0eb59be502ea858",
+      "translations": {
+        "hi": {
+          "question": "इंडक्शन फर्नेस के कार्य करने के लिए निम्नलिखित में से कौन जिम्मेदार है?",
+          "options": {
+            "A": "स्व-प्रेरण",
+            "B": "पारस्परिक प्रेरण",
+            "C": "भंवर धाराएं",
+            "D": "सीबेक प्रभाव"
+          },
+          "explanation": "तेजी से बदलते चुंबकीय क्षेत्र धातु में भंवर धाराएं प्रेरित करते हैं, जो उच्च ताप उत्पन्न करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-011",
+      "number": 11,
+      "question": "When an AC voltage is applied to a purely resistive circuit, the average power dissipated is:",
+      "options": {
+        "A": "Vrms * Irms",
+        "B": "Vpeak * Ipeak",
+        "C": "Zero",
+        "D": "Vrms * Irms / 2"
+      },
+      "answer": "A",
+      "explanation": "P_avg = Vrms * Irms * cos(0) = Vrms * Irms.",
+      "hash": "1a12ba6872ba283e",
+      "translations": {
+        "hi": {
+          "question": "जब शुद्ध प्रतिरोधी परिपथ में AC वोल्टेज लगाया जाता है, तो व्यय होने वाली औसत शक्ति होती है:",
+          "options": {
+            "A": "Vrms * Irms",
+            "B": "Vpeak * Ipeak",
+            "C": "शून्य",
+            "D": "Vrms * Irms / 2"
+          },
+          "explanation": "P_avg = Vrms * Irms * cos(0) = Vrms * Irms।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-012",
+      "number": 12,
+      "question": "A generator converts:",
+      "options": {
+        "A": "Electrical energy to Mechanical energy",
+        "B": "Mechanical energy to Electrical energy",
+        "C": "AC to DC",
+        "D": "Heat to Electricity"
+      },
+      "answer": "B",
+      "explanation": "An AC generator uses mechanical rotation to induce electrical EMF via Faraday's Law.",
+      "hash": "c64eb3a17db49e4e",
+      "translations": {
+        "hi": {
+          "question": "एक जनरेटर बदलता है:",
+          "options": {
+            "A": "विद्युत ऊर्जा को यांत्रिक ऊर्जा में",
+            "B": "यांत्रिक ऊर्जा को विद्युत ऊर्जा में",
+            "C": "AC को DC में",
+            "D": "ताप को बिजली में"
+          },
+          "explanation": "एक AC जनरेटर फैराडे के नियम के माध्यम से विद्युत EMF प्रेरित करने के लिए यांत्रिक घूर्णन का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-013",
+      "number": 13,
+      "question": "Displacement current exists only when:",
+      "options": {
+        "A": "Electric field is changing with time",
+        "B": "Magnetic field is constant",
+        "C": "Electrons are flowing through a wire",
+        "D": "DC battery is connected to a resistor"
+      },
+      "answer": "A",
+      "explanation": "Displacement current is caused by a time-varying electric flux.",
+      "hash": "b255435685842862",
+      "translations": {
+        "hi": {
+          "question": "विस्थापन धारा (Displacement current) केवल तभी मौजूद होती है जब:",
+          "options": {
+            "A": "विद्युत क्षेत्र समय के साथ बदल रहा हो",
+            "B": "चुंबकीय क्षेत्र स्थिर हो",
+            "C": "इलेक्ट्रॉन तार के माध्यम से बह रहे हों",
+            "D": "DC बैटरी एक प्रतिरोधक से जुड़ी हो"
+          },
+          "explanation": "विस्थापन धारा समय के साथ बदलने वाले विद्युत फ्लक्स के कारण होती है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-014",
+      "number": 14,
+      "question": "The peak voltage in a 220V AC household supply is approximately:",
+      "options": {
+        "A": "220 V",
+        "B": "311 V",
+        "C": "440 V",
+        "D": "110 V"
+      },
+      "answer": "B",
+      "explanation": "Vpeak = Vrms * sqrt(2) = 220 * 1.414 = 311 V.",
+      "hash": "623ea38dbee9f758",
+      "translations": {
+        "hi": {
+          "question": "220V AC घरेलू आपूर्ति में शिखर वोल्टेज लगभग है:",
+          "options": {
+            "A": "220 V",
+            "B": "311 V",
+            "C": "440 V",
+            "D": "110 V"
+          },
+          "explanation": "Vpeak = Vrms * sqrt(2) = 220 * 1.414 = 311 V।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-015",
+      "number": 15,
+      "question": "Resonance occurs in an LCR circuit when:",
+      "options": {
+        "A": "R = L + C",
+        "B": "Xl = Xc",
+        "C": "Z = 0",
+        "D": "Voltage is maximum"
+      },
+      "answer": "B",
+      "explanation": "At resonance, inductive reactance equals capacitive reactance.",
+      "hash": "b167421980f4a73a",
+      "translations": {
+        "hi": {
+          "question": "LCR परिपथ में अनुनाद तब होता है जब:",
+          "options": {
+            "A": "R = L + C",
+            "B": "Xl = Xc",
+            "C": "Z = 0",
+            "D": "वोल्टेज अधिकतम हो"
+          },
+          "explanation": "अनुनाद पर, प्रेरकीय प्रतिघात धारितीय प्रतिघात के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-016",
+      "number": 16,
+      "question": "What is the power factor of a circuit having only an inductor?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "0.5",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "cos(90) = 0.",
+      "hash": "98cad8b821a69d8a",
+      "translations": {
+        "hi": {
+          "question": "केवल एक प्रेरक वाले परिपथ का शक्ति गुणांक (power factor) क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "0.5",
+            "D": "-1"
+          },
+          "explanation": "cos(90) = 0।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-017",
+      "number": 17,
+      "question": "The frequency of oscillation in an LC circuit is:",
+      "options": {
+        "A": "1 / (2 * pi * sqrt(LC))",
+        "B": "sqrt(LC) / (2 * pi)",
+        "C": "1 / (LC)",
+        "D": "2 * pi * sqrt(LC)"
+      },
+      "answer": "A",
+      "explanation": "Energy oscillates between the inductor and capacitor at this natural frequency.",
+      "hash": "0f0e16a59cca1ff2",
+      "translations": {
+        "hi": {
+          "question": "एक LC परिपथ में दोलन की आवृत्ति होती है:",
+          "options": {
+            "A": "1 / (2 * pi * sqrt(LC))",
+            "B": "sqrt(LC) / (2 * pi)",
+            "C": "1 / (LC)",
+            "D": "2 * pi * sqrt(LC)"
+          },
+          "explanation": "इस प्राकृतिक आवृत्ति पर प्रेरक और संधारित्र के बीच ऊर्जा दोलन करती है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-018",
+      "number": 18,
+      "question": "A coil of self-inductance 50 mH carries a current of 2A. The energy stored in it is:",
+      "options": {
+        "A": "0.1 J",
+        "B": "1 J",
+        "C": "0.05 J",
+        "D": "0.2 J"
+      },
+      "answer": "A",
+      "explanation": "U = 1/2 L I^2 = 0.5 * 50e-3 * (2)^2 = 0.1 J.",
+      "hash": "f7c59862acb70bbb",
+      "translations": {
+        "hi": {
+          "question": "50 mH स्व-प्रेरकत्व वाली एक कुंडली में 2A की धारा प्रवाहित होती है। इसमें संचित ऊर्जा है:",
+          "options": {
+            "A": "0.1 J",
+            "B": "1 J",
+            "C": "0.05 J",
+            "D": "0.2 J"
+          },
+          "explanation": "U = 1/2 L I^2 = 0.5 * 50e-3 * (2)^2 = 0.1 J।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-019",
+      "number": 19,
+      "question": "If the speed of rotation of a generator coil is doubled, the peak EMF becomes:",
+      "options": {
+        "A": "Half",
+        "B": "Same",
+        "C": "Double",
+        "D": "Four times"
+      },
+      "answer": "C",
+      "explanation": "e_max = NBA omega. If omega is doubled, e_max is doubled.",
+      "hash": "567a1faddb4bffef",
+      "translations": {
+        "hi": {
+          "question": "यदि जनरेटर कुंडली के घूर्णन की गति दोगुनी कर दी जाए, तो शिखर EMF हो जाता है:",
+          "options": {
+            "A": "आधा",
+            "B": "वही",
+            "C": "दोगुना",
+            "D": "चार गुना"
+          },
+          "explanation": "e_max = NBA omega। यदि omega को दोगुना किया जाता है, तो e_max दोगुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electromagnetic-induction-ac-03-020",
+      "number": 20,
+      "question": "The phasor of current in a purely capacitive circuit lags the voltage phasor by:",
+      "options": {
+        "A": "pi/2",
+        "B": "-pi/2",
+        "C": "0",
+        "D": "pi"
+      },
+      "answer": "B",
+      "explanation": "In a capacitor, current leads voltage by 90. Thus voltage lags current, or current lags by -90 relative to voltage.",
+      "hash": "92f49e30189e0d77",
+      "translations": {
+        "hi": {
+          "question": "शुद्ध धारितीय परिपथ में धारा का फेजर वोल्टेज फेजर से कितना पीछे रहता है?",
+          "options": {
+            "A": "pi/2",
+            "B": "-pi/2",
+            "C": "0",
+            "D": "pi"
+          },
+          "explanation": "संधारित्र में, धारा वोल्टेज से 90 आगे होती है। अतः वोल्टेज धारा से पीछे रहता है, या धारा वोल्टेज के सापेक्ष -90 से पीछे रहती है।"
+        }
+      }
+    }
+  ]
+}

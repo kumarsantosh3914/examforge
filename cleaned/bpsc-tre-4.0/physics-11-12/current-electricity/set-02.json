@@ -1,0 +1,527 @@
+{
+  "subject": "Current Electricity",
+  "set": 2,
+  "title": "Current Electricity Mock Test 2",
+  "questions": [
+    {
+      "id": "current-electricity-02-001",
+      "number": 1,
+      "question": "The resistivity of a wire depends on its:",
+      "options": {
+        "A": "Length",
+        "B": "Area of cross-section",
+        "C": "Material",
+        "D": "Shape"
+      },
+      "answer": "C",
+      "explanation": "Resistivity is an intrinsic property of the material and does not depend on dimensions.",
+      "hash": "b7d92a26223ca21a",
+      "translations": {
+        "hi": {
+          "question": "एक तार की प्रतिरोधकता किस पर निर्भर करती है?",
+          "options": {
+            "A": "लंबाई",
+            "B": "अनुप्रस्थ काट का क्षेत्रफल",
+            "C": "पदार्थ",
+            "D": "आकार"
+          },
+          "explanation": "प्रतिरोधकता पदार्थ का एक आंतरिक गुण है और यह विमाओं (लंबाई या क्षेत्रफल) पर निर्भर नहीं करती है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-002",
+      "number": 2,
+      "question": "Which instrument is used for the accurate measurement of the EMF of a cell?",
+      "options": {
+        "A": "Voltmeter",
+        "B": "Ammeter",
+        "C": "Potentiometer",
+        "D": "Galvanometer"
+      },
+      "answer": "C",
+      "explanation": "A potentiometer measures EMF in an open circuit condition, drawing no current, thus giving an accurate value.",
+      "hash": "f46c2744d3efbe33",
+      "translations": {
+        "hi": {
+          "question": "सेल के EMF के सटीक मापन के लिए किस उपकरण का उपयोग किया जाता है?",
+          "options": {
+            "A": "वोल्टमीटर",
+            "B": "एमीटर",
+            "C": "पोटेंशियोमीटर",
+            "D": "गैल्वेनोमीटर"
+          },
+          "explanation": "पोटेंशियोमीटर ओपन सर्किट स्थिति में EMF मापता है, कोई धारा नहीं लेता है, जिससे सटीक मान मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-003",
+      "number": 3,
+      "question": "Two wires of same material have lengths in ratio 1:2 and diameters in ratio 2:1. The ratio of their resistances is:",
+      "options": {
+        "A": "1:4",
+        "B": "1:8",
+        "C": "8:1",
+        "D": "4:1"
+      },
+      "answer": "B",
+      "explanation": "R = rho * L / A. Ratio R1/R2 = (L1/L2) * (d2/d1)^2 = (1/2) * (1/2)^2 = 1/8.",
+      "hash": "5ec4f6bda0966325",
+      "translations": {
+        "hi": {
+          "question": "एक ही पदार्थ के दो तारों की लंबाई 1:2 और व्यास 2:1 के अनुपात में है। उनके प्रतिरोधों का अनुपात है:",
+          "options": {
+            "A": "1:4",
+            "B": "1:8",
+            "C": "8:1",
+            "D": "4:1"
+          },
+          "explanation": "R = rho * L / A। अनुपात R1/R2 = (L1/L2) * (d2/d1)^2 = (1/2) * (1/2)^2 = 1/8।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-004",
+      "number": 4,
+      "question": "Superconductors are materials that have:",
+      "options": {
+        "A": "Very high resistance",
+        "B": "Zero resistance",
+        "C": "Infinite resistance",
+        "D": "Zero conductivity"
+      },
+      "answer": "B",
+      "explanation": "Below a critical temperature, superconductors offer zero resistance to the flow of electric current.",
+      "hash": "075b7872c27e99da",
+      "translations": {
+        "hi": {
+          "question": "अतिचालक वे पदार्थ होते हैं जिनमें होता है:",
+          "options": {
+            "A": "बहुत उच्च प्रतिरोध",
+            "B": "शून्य प्रतिरोध",
+            "C": "अनंत प्रतिरोध",
+            "D": "शून्य चालकता"
+          },
+          "explanation": "एक क्रांतिक तापमान के नीचे, अतिचालक विद्युत धारा के प्रवाह में शून्य प्रतिरोध उत्पन्न करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-005",
+      "number": 5,
+      "question": "What is the effect on the balance point of a meter bridge if the radius of the bridge wire is doubled?",
+      "options": {
+        "A": "Remains unchanged",
+        "B": "Becomes double",
+        "C": "Becomes half",
+        "D": "Becomes four times"
+      },
+      "answer": "A",
+      "explanation": "The balance point depends on the ratio of resistances, which is independent of the wire's radius as long as it is uniform.",
+      "hash": "d15965db8568c109",
+      "translations": {
+        "hi": {
+          "question": "यदि मीटर ब्रिज के तार की त्रिज्या दोगुनी कर दी जाए तो इसके संतुलन बिंदु पर क्या प्रभाव पड़ेगा?",
+          "options": {
+            "A": "अपरिवर्तित रहता है",
+            "B": "दोगुना हो जाता है",
+            "C": "आधा हो जाता है",
+            "D": "चार गुना हो जाता है"
+          },
+          "explanation": "संतुलन बिंदु प्रतिरोधों के अनुपात पर निर्भर करता है, जो तार की त्रिज्या से स्वतंत्र होता है जब तक कि वह एकसमान हो।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-006",
+      "number": 6,
+      "question": "Which of the following is an example of a non-ohmic conductor?",
+      "options": {
+        "A": "Copper wire",
+        "B": "Constantan wire",
+        "C": "P-N junction diode",
+        "D": "Silver wire"
+      },
+      "answer": "C",
+      "explanation": "Non-ohmic conductors do not show a linear relationship between V and I; diodes are non-linear.",
+      "hash": "751660844a0f807a",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन एक अन-ओमीय चालक का उदाहरण है?",
+          "options": {
+            "A": "तांबे का तार",
+            "B": "कॉन्स्टेंटन तार",
+            "C": "P-N जंक्शन डायोड",
+            "D": "चांदी का तार"
+          },
+          "explanation": "अन-ओमीय चालक V और I के बीच रैखिक संबंध नहीं दिखाते हैं; डायोड गैर-रैखिक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-007",
+      "number": 7,
+      "question": "If a copper wire is heated, its specific resistance will:",
+      "options": {
+        "A": "Decrease",
+        "B": "Increase",
+        "C": "Remain constant",
+        "D": "First increase then decrease"
+      },
+      "answer": "B",
+      "explanation": "Specific resistance (resistivity) of metals increases with temperature due to increased collisions.",
+      "hash": "fcf199e059f2ae39",
+      "translations": {
+        "hi": {
+          "question": "यदि तांबे के तार को गर्म किया जाता है, तो उसका विशिष्ट प्रतिरोध:",
+          "options": {
+            "A": "घटेगा",
+            "B": "बढ़ेगा",
+            "C": "स्थिर रहेगा",
+            "D": "पहले बढ़ेगा फिर घटेगा"
+          },
+          "explanation": "धातुओं का विशिष्ट प्रतिरोध (प्रतिरोधकता) बढ़ती टक्करों के कारण तापमान के साथ बढ़ता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-008",
+      "number": 8,
+      "question": "The heat produced in a conductor is proportional to the square of:",
+      "options": {
+        "A": "Resistance",
+        "B": "Time",
+        "C": "Current",
+        "D": "Potential difference"
+      },
+      "answer": "C",
+      "explanation": "According to Joule's law, H = I^2*R*t, so heat is proportional to the square of current.",
+      "hash": "2cc978fd5b1aaf5b",
+      "translations": {
+        "hi": {
+          "question": "एक चालक में उत्पन्न ऊष्मा किसके वर्ग के समानुपाती होती है?",
+          "options": {
+            "A": "प्रतिरोध",
+            "B": "समय",
+            "C": "धारा",
+            "D": "विभवांतर"
+          },
+          "explanation": "जूल के नियम के अनुसार, H = I^2*R*t, इसलिए ऊष्मा धारा के वर्ग के समानुपाती होती है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-009",
+      "number": 9,
+      "question": "Kirchhoff's Second Law (loop rule) is based on the conservation of:",
+      "options": {
+        "A": "Charge",
+        "B": "Mass",
+        "C": "Energy",
+        "D": "Momentum"
+      },
+      "answer": "C",
+      "explanation": "The sum of potential changes around any closed loop is zero, representing energy conservation.",
+      "hash": "a67e0f8a1139b3ce",
+      "translations": {
+        "hi": {
+          "question": "किरचॉफ का दूसरा नियम (लूप नियम) किसके संरक्षण पर आधारित है?",
+          "options": {
+            "A": "आवेश",
+            "B": "द्रव्यमान",
+            "C": "ऊर्जा",
+            "D": "संवेग"
+          },
+          "explanation": "किसी भी बंद लूप के चारों ओर विभव परिवर्तनों का योग शून्य होता है, जो ऊर्जा संरक्षण को दर्शाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-010",
+      "number": 10,
+      "question": "The sensitivity of a potentiometer can be increased by:",
+      "options": {
+        "A": "Decreasing its length",
+        "B": "Increasing its length",
+        "C": "Increasing the EMF of the cell",
+        "D": "Increasing the current"
+      },
+      "answer": "B",
+      "explanation": "Increasing length decreases the potential gradient, which increases sensitivity.",
+      "hash": "7f1e1f7c7d9fba88",
+      "translations": {
+        "hi": {
+          "question": "पोटेंशियोमीटर की संवेदनशीलता को किसके द्वारा बढ़ाया जा सकता है?",
+          "options": {
+            "A": "इसकी लंबाई घटाकर",
+            "B": "इसकी लंबाई बढ़ाकर",
+            "C": "सेल का EMF बढ़ाकर",
+            "D": "धारा बढ़ाकर"
+          },
+          "explanation": "लंबाई बढ़ाने से विभव प्रवणता कम हो जाती है, जिससे संवेदनशीलता बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-011",
+      "number": 11,
+      "question": "A fuse wire should have:",
+      "options": {
+        "A": "High resistance and high melting point",
+        "B": "Low resistance and low melting point",
+        "C": "High resistance and low melting point",
+        "D": "Low resistance and high melting point"
+      },
+      "answer": "C",
+      "explanation": "High resistance helps in heating quickly, and low melting point ensures it breaks during overload.",
+      "hash": "855f833a5c8898d9",
+      "translations": {
+        "hi": {
+          "question": "एक फ्यूज तार में होना चाहिए:",
+          "options": {
+            "A": "उच्च प्रतिरोध और उच्च गलनांक",
+            "B": "कम प्रतिरोध और कम गलनांक",
+            "C": "उच्च प्रतिरोध और कम गलनांक",
+            "D": "कम प्रतिरोध और उच्च गलनांक"
+          },
+          "explanation": "उच्च प्रतिरोध जल्दी गर्म होने में मदद करता है, और कम गलनांक यह सुनिश्चित करता है कि यह ओवरलोड के दौरान टूट जाए।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-012",
+      "number": 12,
+      "question": "When two unequal resistances are connected in parallel:",
+      "options": {
+        "A": "Current is same in both",
+        "B": "Potential difference is same across both",
+        "C": "Larger resistance has larger current",
+        "D": "Smaller resistance has smaller current"
+      },
+      "answer": "B",
+      "explanation": "In parallel connection, the potential difference across each component remains constant.",
+      "hash": "b0b03659e5014394",
+      "translations": {
+        "hi": {
+          "question": "जब दो असमान प्रतिरोधों को समानांतर में जोड़ा जाता है:",
+          "options": {
+            "A": "दोनों में धारा समान होती है",
+            "B": "दोनों में विभवांतर समान होता है",
+            "C": "बड़े प्रतिरोध में बड़ी धारा होती है",
+            "D": "छोटे प्रतिरोध में छोटी धारा होती है"
+          },
+          "explanation": "समानांतर कनेक्शन में, प्रत्येक घटक में विभवांतर स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-013",
+      "number": 13,
+      "question": "The unit of mobility of charge carriers is:",
+      "options": {
+        "A": "m^2 / (V s)",
+        "B": "V m / s",
+        "C": "m / (V s)",
+        "D": "V s / m^2"
+      },
+      "answer": "A",
+      "explanation": "Mobility mu = Vd / E. Units are (m/s) / (V/m) = m^2 V^-1 s^-1.",
+      "hash": "d63ddceac1897f02",
+      "translations": {
+        "hi": {
+          "question": "आवेश वाहकों की गतिशीलता की इकाई है:",
+          "options": {
+            "A": "m^2 / (V s)",
+            "B": "V m / s",
+            "C": "m / (V s)",
+            "D": "V s / m^2"
+          },
+          "explanation": "गतिशीलता mu = Vd / E। इकाइयाँ (m/s) / (V/m) = m^2 V^-1 s^-1 हैं।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-014",
+      "number": 14,
+      "question": "If n identical cells each of EMF E and internal resistance r are connected in series, net EMF is:",
+      "options": {
+        "A": "E",
+        "B": "nE",
+        "C": "E/n",
+        "D": "n^2E"
+      },
+      "answer": "B",
+      "explanation": "In series, the EMFs of the cells add up: E + E + ... (n times) = nE.",
+      "hash": "139fda0ea1ec0ea2",
+      "translations": {
+        "hi": {
+          "question": "यदि n समान सेल जिनमें प्रत्येक का EMF E और आंतरिक प्रतिरोध r है, श्रेणीक्रम में जुड़े हैं, तो शुद्ध EMF है:",
+          "options": {
+            "A": "E",
+            "B": "nE",
+            "C": "E/n",
+            "D": "n^2E"
+          },
+          "explanation": "श्रेणीक्रम में, सेलों के EMF जुड़ जाते हैं: E + E + ... (n बार) = nE।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-015",
+      "number": 15,
+      "question": "Current density is a:",
+      "options": {
+        "A": "Scalar quantity",
+        "B": "Vector quantity",
+        "C": "Dimensionless quantity",
+        "D": "Unitless quantity"
+      },
+      "answer": "B",
+      "explanation": "Current density J has a direction (direction of flow of positive charge) and magnitude.",
+      "hash": "5d02163d05cc82c6",
+      "translations": {
+        "hi": {
+          "question": "धारा घनत्व एक है:",
+          "options": {
+            "A": "अदिश राशि",
+            "B": "सदिश राशि",
+            "C": "विमाहीन राशि",
+            "D": "इकाई रहित राशि"
+          },
+          "explanation": "धारा घनत्व J की एक दिशा (धनावेश के प्रवाह की दिशा) और परिमाण होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-016",
+      "number": 16,
+      "question": "In a circuit, the ammeter is always connected in:",
+      "options": {
+        "A": "Series",
+        "B": "Parallel",
+        "C": "Both series and parallel",
+        "D": "None of these"
+      },
+      "answer": "A",
+      "explanation": "To measure the total current flowing through a branch, an ammeter must be in series.",
+      "hash": "072ec196efbedc08",
+      "translations": {
+        "hi": {
+          "question": "एक परिपथ में, एमीटर हमेशा किस क्रम में जुड़ा होता है?",
+          "options": {
+            "A": "श्रेणीक्रम",
+            "B": "समानांतर",
+            "C": "श्रेणी और समानांतर दोनों",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "किसी शाखा से बहने वाली कुल धारा को मापने के लिए, एमीटर श्रेणीक्रम में होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-017",
+      "number": 17,
+      "question": "If the temperature of a metallic conductor increases, the product of its resistivity and conductivity:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "First increases then decreases"
+      },
+      "answer": "C",
+      "explanation": "Resistivity (rho) and conductivity (sigma) are reciprocals. Their product rho * sigma = 1.",
+      "hash": "f8c7a098af8d58ed",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी धात्विक चालक का तापमान बढ़ता है, तो इसकी प्रतिरोधकता और चालकता का गुणनफल:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "स्थिर रहता है",
+            "D": "पहले बढ़ता है फिर घटता है"
+          },
+          "explanation": "प्रतिरोधकता (rho) और चालकता (sigma) एक दूसरे के व्युत्क्रम हैं। उनका गुणनफल rho * sigma = 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-018",
+      "number": 18,
+      "question": "How much work is done in moving a charge of 2C across two points having a potential difference of 10V?",
+      "options": {
+        "A": "5 J",
+        "B": "20 J",
+        "C": "0.2 J",
+        "D": "12 J"
+      },
+      "answer": "B",
+      "explanation": "Work W = Q * V = 2C * 10V = 20 Joules.",
+      "hash": "8a72d151c86c60ba",
+      "translations": {
+        "hi": {
+          "question": "10V के विभवांतर वाले दो बिंदुओं पर 2C के आवेश को ले जाने में कितना कार्य किया जाता है?",
+          "options": {
+            "A": "5 J",
+            "B": "20 J",
+            "C": "0.2 J",
+            "D": "12 J"
+          },
+          "explanation": "कार्य W = Q * V = 2C * 10V = 20 जूल।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-019",
+      "number": 19,
+      "question": "Internal resistance of a cell depends on:",
+      "options": {
+        "A": "Concentration of electrolyte",
+        "B": "Distance between electrodes",
+        "C": "Nature of electrolyte",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Internal resistance depends on distance, area of electrodes, nature and concentration of electrolyte.",
+      "hash": "981c9a3ae076f813",
+      "translations": {
+        "hi": {
+          "question": "सेल का आंतरिक प्रतिरोध किस पर निर्भर करता है?",
+          "options": {
+            "A": "इलेक्ट्रोलाइट की सांद्रता",
+            "B": "इलेक्ट्रोड के बीच की दूरी",
+            "C": "इलेक्ट्रोलाइट की प्रकृति",
+            "D": "उपरोक्त सभी"
+          },
+          "explanation": "आंतरिक प्रतिरोध इलेक्ट्रोड की दूरी, क्षेत्रफल, प्रकृति और इलेक्ट्रोलाइट की सांद्रता पर निर्भर करता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-02-020",
+      "number": 20,
+      "question": "In the absence of an external electric field, the average velocity of free electrons in a conductor is:",
+      "options": {
+        "A": "Zero",
+        "B": "Very high",
+        "C": "Constant",
+        "D": "Infinite"
+      },
+      "answer": "A",
+      "explanation": "Without a field, electrons move randomly in all directions, so the net average velocity is zero.",
+      "hash": "6a0c887f95d9fbec",
+      "translations": {
+        "hi": {
+          "question": "बाहरी विद्युत क्षेत्र की अनुपस्थिति में, एक चालक में मुक्त इलेक्ट्रॉनों का औसत वेग होता है:",
+          "options": {
+            "A": "शून्य",
+            "B": "बहुत उच्च",
+            "C": "स्थिर",
+            "D": "अनंत"
+          },
+          "explanation": "बिना क्षेत्र के, इलेक्ट्रॉन सभी दिशाओं में यादृच्छिक रूप से गति करते हैं, इसलिए शुद्ध औसत वेग शून्य होता है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "subject": "Electrostatics",
+  "set": 5,
+  "title": "Electrostatics Mock Test 5",
+  "questions": [
+    {
+      "id": "electrostatics-05-001",
+      "number": 1,
+      "question": "The electric potential at a point (r, θ) due to an electric dipole is proportional to:",
+      "options": {
+        "A": "1 / r",
+        "B": "1 / r²",
+        "C": "1 / r³",
+        "D": "r²"
+      },
+      "answer": "B",
+      "explanation": "The potential due to a dipole is V = (1/4πε₀) (p cosθ / r²). Unlike a point charge (1/r), it falls off more rapidly as 1/r².",
+      "hash": "c0d8d7824871ee15",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव के कारण किसी बिंदु (r, θ) पर विद्युत विभव किसके समानुपाती होता है?",
+          "options": {
+            "A": "1 / r",
+            "B": "1 / r²",
+            "C": "1 / r³",
+            "D": "r²"
+          },
+          "explanation": "द्विध्रुव के कारण विभव V = (1/4πε₀) (p cosθ / r²) होता है। बिंदु आवेश (1/r) के विपरीत, यह 1/r² के रूप में अधिक तेजी से घटता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-002",
+      "number": 2,
+      "question": "A point charge q is placed inside a cube of side 'L'. The total electric flux through the cube is:",
+      "options": {
+        "A": "q / ε₀",
+        "B": "q / 6ε₀",
+        "C": "6qL² / ε₀",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "According to Gauss's Law, the total flux through any closed surface is 1/ε₀ times the net charge enclosed, regardless of the shape or size of the surface.",
+      "hash": "e08e2236f72d2c1c",
+      "translations": {
+        "hi": {
+          "question": "भुजा 'L' वाले एक घन के भीतर एक बिंदु आवेश q रखा गया है। घन से गुजरने वाला कुल विद्युत फ्लक्स है:",
+          "options": {
+            "A": "q / ε₀",
+            "B": "q / 6ε₀",
+            "C": "6qL² / ε₀",
+            "D": "शून्य"
+          },
+          "explanation": "गॉस के नियम के अनुसार, किसी भी बंद सतह से गुजरने वाला कुल फ्लक्स सतह के आकार या माप की परवाह किए बिना, उसके अंदर बंद शुद्ध आवेश का 1/ε₀ गुना होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-003",
+      "number": 3,
+      "question": "Work done in moving a charge of 2 C across a potential difference of 5 V is:",
+      "options": {
+        "A": "2.5 J",
+        "B": "10 J",
+        "C": "0.4 J",
+        "D": "7 J"
+      },
+      "answer": "B",
+      "explanation": "Work W = qV = 2 C * 5 V = 10 Joules.",
+      "hash": "892e2cd438e05e82",
+      "translations": {
+        "hi": {
+          "question": "5 V के विभवांतर पर 2 C के आवेश को ले जाने में किया गया कार्य है:",
+          "options": {
+            "A": "2.5 J",
+            "B": "10 J",
+            "C": "0.4 J",
+            "D": "7 J"
+          },
+          "explanation": "कार्य W = qV = 2 C * 5 V = 10 जूल।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-004",
+      "number": 4,
+      "question": "Capacitance of a parallel plate capacitor increases when:",
+      "options": {
+        "A": "Area of plates is decreased",
+        "B": "Distance between plates is increased",
+        "C": "A dielectric constant K > 1 is inserted",
+        "D": "Potential difference is increased"
+      },
+      "answer": "C",
+      "explanation": "C = Kε₀A/d. Inserting a dielectric (K) increases the capacitance by a factor of K.",
+      "hash": "6cff87e4cf82be93",
+      "translations": {
+        "hi": {
+          "question": "समांतर प्लेट संधारित्र की धारिता कब बढ़ती है?",
+          "options": {
+            "A": "प्लेटों का क्षेत्रफल कम करने पर",
+            "B": "प्लेटों के बीच की दूरी बढ़ाने पर",
+            "C": "परावैद्युतांक K > 1 डालने पर",
+            "D": "विभवांतर बढ़ाने पर"
+          },
+          "explanation": "C = Kε₀A/d। परावैद्युत (K) डालने से धारिता K के कारक से बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-005",
+      "number": 5,
+      "question": "The torque acting on an electric dipole in a uniform electric field is zero when the angle between p and E is:",
+      "options": {
+        "A": "0° or 180°",
+        "B": "90°",
+        "C": "45°",
+        "D": "270°"
+      },
+      "answer": "A",
+      "explanation": "Torque τ = pE sinθ. It is zero when θ = 0° (stable equilibrium) or θ = 180° (unstable equilibrium).",
+      "hash": "03f6cde08b9ed6a2",
+      "translations": {
+        "hi": {
+          "question": "एक समान विद्युत क्षेत्र में विद्युत द्विध्रुव पर लगने वाला टॉर्क शून्य होता है जब p और E के बीच का कोण होता है:",
+          "options": {
+            "A": "0° या 180°",
+            "B": "90°",
+            "C": "45°",
+            "D": "270°"
+          },
+          "explanation": "टॉर्क τ = pE sinθ। यह तब शून्य होता है जब θ = 0° (स्थायी साम्यावस्था) या θ = 180° (अस्थायी साम्यावस्था) हो।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-006",
+      "number": 6,
+      "question": "If a charge Q is distributed uniformly on a spherical shell of radius R, the electric field at a distance r < R is:",
+      "options": {
+        "A": "kQ / r²",
+        "B": "kQ / R²",
+        "C": "Zero",
+        "D": "kQ / R"
+      },
+      "answer": "C",
+      "explanation": "Inside a charged conducting shell or hollow sphere, the net electric field is zero because no charge is enclosed.",
+      "hash": "4c0b7a7b3b5f68d1",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आवेश Q को R त्रिज्या के गोलाकार कोश (shell) पर समान रूप से वितरित किया जाता है, तो r < R दूरी पर विद्युत क्षेत्र है:",
+          "options": {
+            "A": "kQ / r²",
+            "B": "kQ / R²",
+            "C": "शून्य",
+            "D": "kQ / R"
+          },
+          "explanation": "एक आवेशित चालक कोश या खोखले गोले के अंदर, शुद्ध विद्युत क्षेत्र शून्य होता है क्योंकि कोई आवेश बंद नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-007",
+      "number": 7,
+      "question": "The effective capacitance of two capacitors C1 and C2 in parallel is:",
+      "options": {
+        "A": "C1 + C2",
+        "B": "C1C2 / (C1 + C2)",
+        "C": "(C1 + C2) / C1C2",
+        "D": "1/C1 + 1/C2"
+      },
+      "answer": "A",
+      "explanation": "In parallel, the potential is same across capacitors and charges add up, hence Cp = C1 + C2.",
+      "hash": "ed65a7190d7ca3d3",
+      "translations": {
+        "hi": {
+          "question": "समांतर क्रम में दो संधारित्रों C1 और C2 की प्रभावी धारिता है:",
+          "options": {
+            "A": "C1 + C2",
+            "B": "C1C2 / (C1 + C2)",
+            "C": "(C1 + C2) / C1C2",
+            "D": "1/C1 + 1/C2"
+          },
+          "explanation": "समांतर क्रम में, संधारित्रों में विभव समान होता है और आवेश जुड़ जाते हैं, इसलिए Cp = C1 + C2।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-008",
+      "number": 8,
+      "question": "Dimensional formula for electric flux is:",
+      "options": {
+        "A": "[ML²T⁻³A⁻¹]",
+        "B": "[ML³T⁻³A⁻¹]",
+        "C": "[ML³T⁻²A⁻¹]",
+        "D": "[M⁻¹L⁻³T³A]"
+      },
+      "answer": "B",
+      "explanation": "Flux Φ = E * A. [E] = [MLT⁻³A⁻¹] and [A] = [L²]. Product gives [ML³T⁻³A⁻¹].",
+      "hash": "d210e3368eea71a8",
+      "translations": {
+        "hi": {
+          "question": "विद्युत फ्लक्स का विमीय सूत्र है:",
+          "options": {
+            "A": "[ML²T⁻³A⁻¹]",
+            "B": "[ML³T⁻³A⁻¹]",
+            "C": "[ML³T⁻²A⁻¹]",
+            "D": "[M⁻¹L⁻³T³A]"
+          },
+          "explanation": "फ्लक्स Φ = E * A। [E] = [MLT⁻³A⁻¹] और [A] = [L²]। इनका गुणनफल [ML³T⁻³A⁻¹] देता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-009",
+      "number": 9,
+      "question": "The SI unit of permittivity of free space (ε₀) is:",
+      "options": {
+        "A": "C² N⁻¹ m⁻²",
+        "B": "N m² C⁻²",
+        "C": "C² N m²",
+        "D": "N C⁻¹ m⁻²"
+      },
+      "answer": "A",
+      "explanation": "From Coulomb's Law F = (1/4πε₀) (q1q2/r²), ε₀ = q1q2 / (4πFr²).",
+      "hash": "666bd0deee04f99c",
+      "translations": {
+        "hi": {
+          "question": "निर्वात की विद्युतशीलता (ε₀) की SI इकाई है:",
+          "options": {
+            "A": "C² N⁻¹ m⁻²",
+            "B": "N m² C⁻²",
+            "C": "C² N m²",
+            "D": "N C⁻¹ m⁻²"
+          },
+          "explanation": "कूलम्ब के नियम F = (1/4πε₀) (q1q2/r²) से, ε₀ = q1q2 / (4πFr²)।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-010",
+      "number": 10,
+      "question": "When a glass rod is rubbed with silk, the glass rod:",
+      "options": {
+        "A": "Gains electrons",
+        "B": "Loses electrons",
+        "C": "Gains protons",
+        "D": "Becomes neutral"
+      },
+      "answer": "B",
+      "explanation": "Friction causes transfer of electrons. Glass loses electrons to silk, becoming positively charged.",
+      "hash": "59d4bac6a7aa7311",
+      "translations": {
+        "hi": {
+          "question": "जब कांच की छड़ को रेशम से रगड़ा जाता है, तो कांच की छड़:",
+          "options": {
+            "A": "इलेक्ट्रॉन प्राप्त करती है",
+            "B": "इलेक्ट्रॉन खो देती है",
+            "C": "प्रोटॉन प्राप्त करती है",
+            "D": "उदासीन हो जाती है"
+          },
+          "explanation": "घर्षण के कारण इलेक्ट्रॉनों का स्थानांतरण होता है। कांच रेशम को इलेक्ट्रॉन दे देता है, जिससे वह धनावेशित हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-011",
+      "number": 11,
+      "question": "An electric dipole consists of two charges ±3.2 x 10⁻¹⁹ C separated by 2.4 x 10⁻¹⁰ m. The dipole moment is:",
+      "options": {
+        "A": "7.68 x 10⁻²⁹ C-m",
+        "B": "1.33 x 10⁻⁹ C-m",
+        "C": "7.68 x 10⁻¹⁹ C-m",
+        "D": "0.8 x 10⁻²⁹ C-m"
+      },
+      "answer": "A",
+      "explanation": "p = q * d = (3.2 x 10⁻¹⁹) * (2.4 x 10⁻¹⁰) = 7.68 x 10⁻²⁹ C-m.",
+      "hash": "cc0403fcf0ebe354",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव में 2.4 x 10⁻¹⁰ m की दूरी पर दो आवेश ±3.2 x 10⁻¹⁹ C होते हैं। द्विध्रुव आघूर्ण है:",
+          "options": {
+            "A": "7.68 x 10⁻²⁹ C-m",
+            "B": "1.33 x 10⁻⁹ C-m",
+            "C": "7.68 x 10⁻¹⁹ C-m",
+            "D": "0.8 x 10⁻²⁹ C-m"
+          },
+          "explanation": "p = q * d = (3.2 x 10⁻¹⁹) * (2.4 x 10⁻¹⁰) = 7.68 x 10⁻²⁹ C-m।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-012",
+      "number": 12,
+      "question": "A soap bubble is charged. Its radius:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Repulsion between like charges on the surface creates an outward pressure, causing the bubble to expand.",
+      "hash": "b0339df4e9c1de71",
+      "translations": {
+        "hi": {
+          "question": "एक साबुन का बुलबुला आवेशित किया जाता है। इसकी त्रिज्या:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "समान रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "सतह पर समान आवेशों के बीच प्रतिकर्षण एक बाहरी दबाव बनाता है, जिससे बुलबुला फैलता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-013",
+      "number": 13,
+      "question": "The electric field E and potential V are related as:",
+      "options": {
+        "A": "E = -dV/dr",
+        "B": "V = -dE/dr",
+        "C": "E = ∫ V dr",
+        "D": "E = V² / r"
+      },
+      "answer": "A",
+      "explanation": "Electric field is the negative gradient of the electric potential.",
+      "hash": "4e052b26df639149",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र E और विभव V किस प्रकार संबंधित हैं?",
+          "options": {
+            "A": "E = -dV/dr",
+            "B": "V = -dE/dr",
+            "C": "E = ∫ V dr",
+            "D": "E = V² / r"
+          },
+          "explanation": "विद्युत क्षेत्र विद्युत विभव की ऋणात्मक प्रवणता (gradient) है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-014",
+      "number": 14,
+      "question": "Potential at a point due to a point charge Q is 10 V. If distance is doubled, potential becomes:",
+      "options": {
+        "A": "20 V",
+        "B": "5 V",
+        "C": "2.5 V",
+        "D": "10 V"
+      },
+      "answer": "B",
+      "explanation": "V ∝ 1/r. If r becomes 2r, V becomes V/2 = 10/2 = 5 V.",
+      "hash": "b83000344f13b11f",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु आवेश Q के कारण किसी बिंदु पर विभव 10 V है। यदि दूरी दोगुनी कर दी जाए, तो विभव हो जाएगा:",
+          "options": {
+            "A": "20 V",
+            "B": "5 V",
+            "C": "2.5 V",
+            "D": "10 V"
+          },
+          "explanation": "V ∝ 1/r। यदि r, 2r हो जाता है, तो V, V/2 = 10/2 = 5 V हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-015",
+      "number": 15,
+      "question": "SI unit of electric potential energy is:",
+      "options": {
+        "A": "Volt",
+        "B": "Joule",
+        "C": "Coulomb",
+        "D": "Watt"
+      },
+      "answer": "B",
+      "explanation": "Like all forms of energy, electric potential energy is measured in Joules (J).",
+      "hash": "ebec1ad298d19e4f",
+      "translations": {
+        "hi": {
+          "question": "विद्युत स्थितिज ऊर्जा की SI इकाई है:",
+          "options": {
+            "A": "वोल्ट",
+            "B": "जूल",
+            "C": "कूलम्ब",
+            "D": "वाट"
+          },
+          "explanation": "ऊर्जा के सभी रूपों की तरह, विद्युत स्थितिज ऊर्जा को जूल (J) में मापा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-016",
+      "number": 16,
+      "question": "In a parallel plate capacitor, if the potential difference is doubled, the energy stored:",
+      "options": {
+        "A": "Doubles",
+        "B": "Quadruples",
+        "C": "Remains same",
+        "D": "Is halved"
+      },
+      "answer": "B",
+      "explanation": "Energy U = 1/2 CV². Since U ∝ V², doubling V makes U become (2)² = 4 times.",
+      "hash": "fc7abc3f9d2ad43a",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर प्लेट संधारित्र में, यदि विभवांतर दोगुना कर दिया जाए, तो संचित ऊर्जा:",
+          "options": {
+            "A": "दोगुनी हो जाएगी",
+            "B": "चार गुनी हो जाएगी",
+            "C": "समान रहेगी",
+            "D": "आधी हो जाएगी"
+          },
+          "explanation": "ऊर्जा U = 1/2 CV²। चूंकि U ∝ V², V को दोगुना करने से U (2)² = 4 गुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-017",
+      "number": 17,
+      "question": "One microfarad (μF) is equal to:",
+      "options": {
+        "A": "10⁻³ F",
+        "B": "10⁻⁶ F",
+        "C": "10⁻⁹ F",
+        "D": "10⁻¹² F"
+      },
+      "answer": "B",
+      "explanation": "The prefix 'micro' stands for 10⁻⁶.",
+      "hash": "a1127f7686e33442",
+      "translations": {
+        "hi": {
+          "question": "एक माइक्रोफैराड (μF) किसके बराबर है?",
+          "options": {
+            "A": "10⁻³ F",
+            "B": "10⁻⁶ F",
+            "C": "10⁻⁹ F",
+            "D": "10⁻¹² F"
+          },
+          "explanation": "उपसर्ग 'माइक्रो' का अर्थ 10⁻⁶ है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-018",
+      "number": 18,
+      "question": "If the distance between two charges is halved, the electrostatic force between them becomes:",
+      "options": {
+        "A": "Half",
+        "B": "Double",
+        "C": "Four times",
+        "D": "One-fourth"
+      },
+      "answer": "C",
+      "explanation": "F ∝ 1/r². If r becomes r/2, F becomes F/(1/2)² = 4F.",
+      "hash": "215c32c090ea19b4",
+      "translations": {
+        "hi": {
+          "question": "यदि दो आवेशों के बीच की दूरी आधी कर दी जाए, तो उनके बीच का स्थिरवैद्युत बल हो जाता है:",
+          "options": {
+            "A": "आधा",
+            "B": "दोगुना",
+            "C": "चार गुना",
+            "D": "एक-चौथाई"
+          },
+          "explanation": "F ∝ 1/r²। यदि r, r/2 हो जाता है, तो F, F/(1/2)² = 4F हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-019",
+      "number": 19,
+      "question": "The polar molecules have:",
+      "options": {
+        "A": "Zero dipole moment",
+        "B": "Permanent dipole moment",
+        "C": "Induced dipole moment only",
+        "D": "No charge"
+      },
+      "answer": "B",
+      "explanation": "Polar molecules have a separation between centers of positive and negative charges even without an external field.",
+      "hash": "c9520776fd4eb0b8",
+      "translations": {
+        "hi": {
+          "question": "ध्रुवीय अणुओं में होता है:",
+          "options": {
+            "A": "शून्य द्विध्रुव आघूर्ण",
+            "B": "स्थायी द्विध्रुव आघूर्ण",
+            "C": "केवल प्रेरित द्विध्रुव आघूर्ण",
+            "D": "कोई आवेश नहीं"
+          },
+          "explanation": "ध्रुवीय अणुओं में बाहरी क्षेत्र के बिना भी धनात्मक और ऋणात्मक आवेशों के केंद्रों के बीच अलगाव होता है। --- Would you like to continue with more **Electrostatics** or move on to **Current Electricity**? Would you like me to ..."
+        }
+      }
+    },
+    {
+      "id": "electrostatics-05-020",
+      "number": 20,
+      "question": "Electric lines of force always enter or leave a conductor surface:",
+      "options": {
+        "A": "Tangentially",
+        "B": "At 45°",
+        "C": "Normally (90°)",
+        "D": "At any angle"
+      },
+      "answer": "C",
+      "explanation": "The surface of a conductor is an equipotential surface; therefore, electric field lines must be perpendicular to it.",
+      "hash": "0f182f5472583104",
+      "translations": {
+        "hi": {
+          "question": "विद्युत बल रेखाएं हमेशा चालक की सतह में प्रवेश करती हैं या निकलती हैं:",
+          "options": {
+            "A": "स्पर्शरेखीय रूप से",
+            "B": "45° पर",
+            "C": "अभिलंबवत (90°)",
+            "D": "किसी भी कोण पर"
+          },
+          "explanation": "चालक की सतह एक समविभव सतह होती है; इसलिए, विद्युत क्षेत्र रेखाएं इसके लंबवत होनी चाहिए।"
+        }
+      }
+    }
+  ]
+}

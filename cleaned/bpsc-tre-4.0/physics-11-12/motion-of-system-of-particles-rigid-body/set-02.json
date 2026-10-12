@@ -1,0 +1,527 @@
+{
+  "subject": "Motion of System of Particles & Rigid Body",
+  "set": 2,
+  "title": "Motion of System of Particles & Rigid Body Mock Test 2",
+  "questions": [
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-001",
+      "number": 1,
+      "question": "The relation between linear acceleration (a) and angular acceleration (α) in pure rolling is:",
+      "options": {
+        "A": "a = α / R",
+        "B": "a = Rα",
+        "C": "a = R²α",
+        "D": "α = Ra"
+      },
+      "answer": "B",
+      "explanation": "For rolling without slipping, the condition a = Rα must be satisfied.",
+      "hash": "923f64fb4058cb5c",
+      "translations": {
+        "hi": {
+          "question": "शुद्ध लोटनिक गति में रैखिक त्वरण (a) और कोणीय त्वरण (α) के बीच संबंध है:",
+          "options": {
+            "A": "a = α / R",
+            "B": "a = Rα",
+            "C": "a = R²α",
+            "D": "α = Ra"
+          },
+          "explanation": "बिना फिसले लुढ़कने (rolling without slipping) के लिए, a = Rα की स्थिति संतुष्ट होनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-002",
+      "number": 2,
+      "question": "A solid sphere, a disc, and a ring, all of same mass and radius, are rotating with same angular velocity. Which one has the highest kinetic energy?",
+      "options": {
+        "A": "Solid sphere",
+        "B": "Disc",
+        "C": "Ring",
+        "D": "All have same KE"
+      },
+      "answer": "C",
+      "explanation": "KE = 1/2 Iω². Since ω is same, KE depends on I. Ring has the highest I (MR²).",
+      "hash": "d6ae9bc0870b9763",
+      "translations": {
+        "hi": {
+          "question": "समान द्रव्यमान और त्रिज्या वाले एक ठोस गोले, एक चकती और एक वलय समान कोणीय वेग से घूम रहे हैं। किसकी गतिज ऊर्जा सबसे अधिक है?",
+          "options": {
+            "A": "ठोस गोला",
+            "B": "चकती",
+            "C": "वलय",
+            "D": "सभी की KE समान है"
+          },
+          "explanation": "KE = 1/2 Iω²। चूंकि ω समान है, KE, I पर निर्भर करती है। वलय का I (MR²) सबसे अधिक होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-003",
+      "number": 3,
+      "question": "The center of mass of a uniform L-shaped rod with sides of equal length L lies:",
+      "options": {
+        "A": "At the junction",
+        "B": "Inside the rod material",
+        "C": "Outside the rod material",
+        "D": "At one of the ends"
+      },
+      "answer": "C",
+      "explanation": "For an L-shaped object, the center of mass lies on the bisector of the angle but outside the physical body.",
+      "hash": "d7d54f75819497af",
+      "translations": {
+        "hi": {
+          "question": "समान लंबाई L वाली एक समान L-आकार की छड़ का द्रव्यमान केंद्र कहाँ स्थित होता है?",
+          "options": {
+            "A": "जंक्शन पर",
+            "B": "छड़ के पदार्थ के अंदर",
+            "C": "छड़ के पदार्थ के बाहर",
+            "D": "सिरों में से एक पर"
+          },
+          "explanation": "L-आकार की वस्तु के लिए, द्रव्यमान केंद्र कोण के समद्विभाजक पर लेकिन भौतिक शरीर के बाहर स्थित होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-004",
+      "number": 4,
+      "question": "The moment of inertia of a solid cylinder of mass M and radius R about its own axis is:",
+      "options": {
+        "A": "MR²",
+        "B": "1/2 MR²",
+        "C": "2/5 MR²",
+        "D": "1/4 MR²"
+      },
+      "answer": "B",
+      "explanation": "A solid cylinder behaves like a stack of discs; its moment of inertia about its longitudinal axis is 1/2 MR².",
+      "hash": "d5e4bc5ac912cc81",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R के एक ठोस बेलन का उसके अपने अक्ष के परतः जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "MR²",
+            "B": "1/2 MR²",
+            "C": "2/5 MR²",
+            "D": "1/4 MR²"
+          },
+          "explanation": "एक ठोस बेलन चकतियों के ढेर की तरह व्यवहार करता है; इसके अनुदैर्ध्य अक्ष के परतः इसका जड़त्व आघूर्ण 1/2 MR² होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-005",
+      "number": 5,
+      "question": "A rigid body is in mechanical equilibrium if:",
+      "options": {
+        "A": "Net external force is zero",
+        "B": "Net external torque is zero",
+        "C": "Both net force and torque are zero",
+        "D": "It is moving with constant velocity"
+      },
+      "answer": "C",
+      "explanation": "Mechanical equilibrium requires both translational (ΣF=0) and rotational (Στ=0) equilibrium.",
+      "hash": "2d7bd0910e66e9f8",
+      "translations": {
+        "hi": {
+          "question": "एक दृढ़ वस्तु यांत्रिक संतुलन में होती है यदि:",
+          "options": {
+            "A": "कुल बाहरी बल शून्य हो",
+            "B": "कुल बाहरी टॉर्क शून्य हो",
+            "C": "कुल बल और टॉर्क दोनों शून्य हों",
+            "D": "यह स्थिर वेग से चल रही हो"
+          },
+          "explanation": "यांत्रिक संतुलन के लिए स्थानान्तरण (ΣF=0) और घूर्णन (Στ=0) दोनों संतुलन की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-006",
+      "number": 6,
+      "question": "If the distance of a point particle from the axis of rotation is doubled, its moment of inertia:",
+      "options": {
+        "A": "Doubles",
+        "B": "Becomes four times",
+        "C": "Remains same",
+        "D": "Becomes half"
+      },
+      "answer": "B",
+      "explanation": "Moment of inertia I = mr². If r becomes 2r, I becomes 4 times.",
+      "hash": "b28192b7c6af9b19",
+      "translations": {
+        "hi": {
+          "question": "यदि घूर्णन अक्ष से किसी बिंदु कण की दूरी दोगुनी कर दी जाए, तो उसका जड़त्व आघूर्ण:",
+          "options": {
+            "A": "दोगुना हो जाता है",
+            "B": "चार गुना हो जाता है",
+            "C": "समान रहता है",
+            "D": "आधा हो जाता है"
+          },
+          "explanation": "जड़त्व आघूर्ण I = mr²। यदि r, 2r हो जाता है, तो I 4 गुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-007",
+      "number": 7,
+      "question": "The motion of the center of mass of a system depends only on:",
+      "options": {
+        "A": "Internal forces",
+        "B": "External forces",
+        "C": "Both internal and external forces",
+        "D": "Neither internal nor external forces"
+      },
+      "answer": "B",
+      "explanation": "Internal forces cancel out in pairs due to Newton's third law; only external forces affect CM motion.",
+      "hash": "eb7416a59e7dc9b9",
+      "translations": {
+        "hi": {
+          "question": "किसी निकाय के द्रव्यमान केंद्र की गति केवल किस पर निर्भर करती है?",
+          "options": {
+            "A": "आंतरिक बलों पर",
+            "B": "बाहरी बलों पर",
+            "C": "आंतरिक और बाहरी दोनों बलों पर",
+            "D": "न तो आंतरिक और न ही बाहरी बलों पर"
+          },
+          "explanation": "न्यूटन के तीसरे नियम के कारण आंतरिक बल जोड़ों में एक-दूसरे को समाप्त कर देते हैं; केवल बाहरी बल CM की गति को प्रभावित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-008",
+      "number": 8,
+      "question": "When a torque acting on a system is zero, the rate of change of angular momentum is:",
+      "options": {
+        "A": "Constant",
+        "B": "Zero",
+        "C": "Maximum",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "τ = dL/dt. If τ = 0, then dL/dt = 0.",
+      "hash": "9b6c095b28e8045d",
+      "translations": {
+        "hi": {
+          "question": "जब किसी निकाय पर लगने वाला टॉर्क शून्य होता है, तो कोणीय संवेग के परिवर्तन की दर होती है:",
+          "options": {
+            "A": "स्थिर",
+            "B": "शून्य",
+            "C": "अधिकतम",
+            "D": "अनंत"
+          },
+          "explanation": "τ = dL/dt। यदि τ = 0 है, तो dL/dt = 0 होगा।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-009",
+      "number": 9,
+      "question": "Radius of gyration of a thin ring of radius R about a tangent in its plane is:",
+      "options": {
+        "A": "R",
+        "B": "R / sqrt(2)",
+        "C": "R * sqrt(3/2)",
+        "D": "R * sqrt(2)"
+      },
+      "answer": "C",
+      "explanation": "I_tan = I_dia + MR² = 1/2 MR² + MR² = 3/2 MR². k = sqrt(I/M) = R * sqrt(3/2).",
+      "hash": "a82da45a56c9a300",
+      "translations": {
+        "hi": {
+          "question": "त्रिज्या R की एक पतली वलय की उसके तल में एक स्पर्श रेखा के परतः परिभ्रमण त्रिज्या है:",
+          "options": {
+            "A": "R",
+            "B": "R / sqrt(2)",
+            "C": "R * sqrt(3/2)",
+            "D": "R * sqrt(2)"
+          },
+          "explanation": "I_tan = I_dia + MR² = 1/2 MR² + MR² = 3/2 MR²। k = sqrt(I/M) = R * sqrt(3/2)।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-010",
+      "number": 10,
+      "question": "A small object of mass m is tied to a string and whirled in a circle. If the string is pulled in to half its length, the new KE is:",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "8 times",
+        "D": "Remains same"
+      },
+      "answer": "B",
+      "explanation": "L = mvr is constant. If r becomes r/2, v becomes 2v. KE = 1/2 m(2v)² = 4 times.",
+      "hash": "9b5fc0ac454d43b6",
+      "translations": {
+        "hi": {
+          "question": "m द्रव्यमान की एक छोटी वस्तु को एक धागे से बांधकर वृत्त में घुमाया जाता है। यदि धागे को उसकी आधी लंबाई तक खींच लिया जाए, तो नई KE होगी:",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "8 गुना",
+            "D": "समान रहेगी"
+          },
+          "explanation": "L = mvr स्थिर है। यदि r, r/2 हो जाता है, तो v, 2v हो जाता है। KE = 1/2 m(2v)² = 4 गुना।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-011",
+      "number": 11,
+      "question": "The angular momentum vector is directed along:",
+      "options": {
+        "A": "The radius vector",
+        "B": "The linear momentum vector",
+        "C": "The axis of rotation",
+        "D": "The tangent to the path"
+      },
+      "answer": "C",
+      "explanation": "Angular momentum is an axial vector, directed along the axis of rotation according to the right-hand thumb rule.",
+      "hash": "c87c62147ef05a46",
+      "translations": {
+        "hi": {
+          "question": "कोणीय संवेग सदिश किसके अनुदिश निर्देशित होता है?",
+          "options": {
+            "A": "त्रिज्या सदिश के",
+            "B": "रैखिक संवेग सदिश के",
+            "C": "घूर्णन अक्ष के",
+            "D": "पथ की स्पर्श रेखा के"
+          },
+          "explanation": "कोणीय संवेग एक अक्षीय सदिश (axial vector) है, जो दाएं हाथ के अंगूठे के नियम के अनुसार घूर्णन अक्ष के अनुदिश निर्देशित होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-012",
+      "number": 12,
+      "question": "In pure rolling motion of a sphere, the ratio of translational KE to rotational KE is:",
+      "options": {
+        "A": "2:5",
+        "B": "5:2",
+        "C": "1:1",
+        "D": "7:2"
+      },
+      "answer": "B",
+      "explanation": "Trans KE = 1/2 mv², Rot KE = 1/2 Iω² = 1/2 (2/5 MR²)(v/R)² = 1/5 mv². Ratio = (1/2) / (1/5) = 5:2.",
+      "hash": "4f077558b9dfb4d9",
+      "translations": {
+        "hi": {
+          "question": "एक गोले की शुद्ध लोटनिक गति में, स्थानान्तरण KE का घूर्णी KE से अनुपात है:",
+          "options": {
+            "A": "2:5",
+            "B": "5:2",
+            "C": "1:1",
+            "D": "7:2"
+          },
+          "explanation": "Trans KE = 1/2 mv², Rot KE = 1/5 mv²। अनुपात = (1/2) / (1/5) = 5:2।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-013",
+      "number": 13,
+      "question": "A disc is rotating with angular velocity ω. If a child sits on it, which quantity is conserved?",
+      "options": {
+        "A": "Kinetic Energy",
+        "B": "Angular Momentum",
+        "C": "Angular Velocity",
+        "D": "Moment of Inertia"
+      },
+      "answer": "B",
+      "explanation": "No external torque is applied by the child sitting, so angular momentum remains conserved.",
+      "hash": "992b6d5584628d56",
+      "translations": {
+        "hi": {
+          "question": "एक चकती कोणीय वेग ω से घूम रही है। यदि एक बच्चा इस पर बैठता है, तो कौन सी मात्रा संरक्षित रहती है?",
+          "options": {
+            "A": "गतिज ऊर्जा",
+            "B": "कोणीय संवेग",
+            "C": "कोणीय वेग",
+            "D": "जड़त्व आघूर्ण"
+          },
+          "explanation": "बच्चे के बैठने से कोई बाहरी टॉर्क नहीं लगाया जाता है, इसलिए कोणीय संवेग संरक्षित रहता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-014",
+      "number": 14,
+      "question": "The instantaneous axis of rotation for a body in pure rolling on a stationary surface passes through:",
+      "options": {
+        "A": "The center of mass",
+        "B": "The top-most point",
+        "C": "The point of contact",
+        "D": "Infinity"
+      },
+      "answer": "C",
+      "explanation": "In pure rolling, the point of contact is momentarily at rest, making it the instantaneous axis of rotation.",
+      "hash": "7f8127049ae08313",
+      "translations": {
+        "hi": {
+          "question": "एक स्थिर सतह पर शुद्ध लोटनिक गति करने वाली वस्तु के लिए घूर्णन का तात्कालिक अक्ष कहाँ से गुजरता है?",
+          "options": {
+            "A": "द्रव्यमान केंद्र से",
+            "B": "उच्चतम बिंदु से",
+            "C": "संपर्क बिंदु से",
+            "D": "अनंत से"
+          },
+          "explanation": "शुद्ध लोटनिक गति में, संपर्क बिंदु क्षण भर के लिए विराम में होता है, जिससे यह घूर्णन का तात्कालिक अक्ष बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-015",
+      "number": 15,
+      "question": "For a given mass and length, the moment of inertia is maximum when the mass is:",
+      "options": {
+        "A": "Distributed near the axis",
+        "B": "Distributed far from the axis",
+        "C": "Uniformly distributed",
+        "D": "Concentrated at the center"
+      },
+      "answer": "B",
+      "explanation": "Moment of inertia (I = Σmr²) increases as the distance of mass from the axis increases.",
+      "hash": "a8e056daf73d9d24",
+      "translations": {
+        "hi": {
+          "question": "दिए गए द्रव्यमान और लंबाई के लिए, जड़त्व आघूर्ण अधिकतम तब होता है जब द्रव्यमान:",
+          "options": {
+            "A": "अक्ष के पास वितरित हो",
+            "B": "अक्ष से दूर वितरित हो",
+            "C": "समान रूप से वितरित हो",
+            "D": "केंद्र में केंद्रित हो"
+          },
+          "explanation": "जैसे-जैसे अक्ष से द्रव्यमान की दूरी बढ़ती है, जड़त्व आघूर्ण (I = Σmr²) बढ़ता जाता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-016",
+      "number": 16,
+      "question": "The direction of the torque vector is given by:",
+      "options": {
+        "A": "Fleming's Left Hand Rule",
+        "B": "Right Hand Screw Rule",
+        "C": "Newton's Second Law",
+        "D": "Parallelogram Law"
+      },
+      "answer": "B",
+      "explanation": "Torque τ = r x F. Its direction is found using the right-hand rule (perpendicular to both r and F).",
+      "hash": "00b95f8ca72e0207",
+      "translations": {
+        "hi": {
+          "question": "टॉर्क सदिश की दिशा किसके द्वारा दी जाती है?",
+          "options": {
+            "A": "फ्लेमिंग के बाएं हाथ के नियम से",
+            "B": "दाएं हाथ के स्क्रू नियम से",
+            "C": "न्यूटन के दूसरे नियम से",
+            "D": "समांतर चतुर्भुज नियम से"
+          },
+          "explanation": "टॉर्क τ = r x F। इसकी दिशा दाएं हाथ के नियम का उपयोग करके पाई जाती है (r और F दोनों के लंबवत)।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-017",
+      "number": 17,
+      "question": "If a solid sphere and a hollow sphere of same mass and radius are given the same torque, which one will have higher angular acceleration?",
+      "options": {
+        "A": "Solid sphere",
+        "B": "Hollow sphere",
+        "C": "Both will have same",
+        "D": "Depends on the material"
+      },
+      "answer": "A",
+      "explanation": "α = τ / I. Solid sphere has smaller I (2/5 MR²) compared to hollow sphere (2/3 MR²), so it has higher α.",
+      "hash": "37411b90d8a0d284",
+      "translations": {
+        "hi": {
+          "question": "यदि समान द्रव्यमान और त्रिज्या वाले एक ठोस गोले और एक खोखले गोले को समान टॉर्क दिया जाता है, तो किसका कोणीय त्वरण अधिक होगा?",
+          "options": {
+            "A": "ठोस गोला",
+            "B": "खोखला गोला",
+            "C": "दोनों का समान होगा",
+            "D": "सामग्री पर निर्भर करता है"
+          },
+          "explanation": "α = τ / I। ठोस गोले का I (2/5 MR²) खोखले गोले (2/3 MR²) की तुलना में कम होता है, इसलिए इसका α अधिक होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-018",
+      "number": 18,
+      "question": "The moment of inertia of a circular disc about its diameter is I. Its moment of inertia about an axis passing through center and perpendicular to its plane is:",
+      "options": {
+        "A": "I",
+        "B": "2I",
+        "C": "I / 2",
+        "D": "4I"
+      },
+      "answer": "B",
+      "explanation": "By perpendicular axis theorem, Iz = Ix + Iy. For a disc, Ix = Iy = I (diameter). So Iz = I + I = 2I.",
+      "hash": "6c0137642d44a7e2",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्ताकार चकती का उसके व्यास के परतः जड़त्व आघूर्ण I है। इसके केंद्र से गुजरने वाले और इसके तल के लंबवत अक्ष के परतः इसका जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "I",
+            "B": "2I",
+            "C": "I / 2",
+            "D": "4I"
+          },
+          "explanation": "लंबवत अक्ष प्रमेय के अनुसार, Iz = Ix + Iy। चकती के लिए, Ix = Iy = I (व्यास)। इसलिए Iz = I + I = 2I।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-019",
+      "number": 19,
+      "question": "A disc rolls without slipping. The ratio of its translational KE to total KE is:",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "3/4",
+        "D": "1/3"
+      },
+      "answer": "B",
+      "explanation": "Trans KE = 1/2 mv². Rot KE = 1/4 mv². Total = 3/4 mv². Ratio = (1/2) / (3/4) = 2/3.",
+      "hash": "e7dd4c4d77d3e747",
+      "translations": {
+        "hi": {
+          "question": "एक चकती बिना फिसले लुढ़कती है। इसकी स्थानान्तरण KE का कुल KE से अनुपात है:",
+          "options": {
+            "A": "1/2",
+            "B": "2/3",
+            "C": "3/4",
+            "D": "1/3"
+          },
+          "explanation": "Trans KE = 1/2 mv²। Rot KE = 1/4 mv²। कुल = 3/4 mv²। अनुपात = (1/2) / (3/4) = 2/3।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-02-020",
+      "number": 20,
+      "question": "A point P is at distance r from the axis of rotation. If the angular velocity of the body is ω, the linear velocity of P is:",
+      "options": {
+        "A": "ω / r",
+        "B": "ωr",
+        "C": "ωr²",
+        "D": "r / ω"
+      },
+      "answer": "B",
+      "explanation": "Linear velocity v is related to angular velocity ω by the relation v = rω.",
+      "hash": "cb4b517c5dbcf89f",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु P घूर्णन अक्ष से r दूरी पर है। यदि वस्तु का कोणीय वेग ω है, तो P का रैखिक वेग है:",
+          "options": {
+            "A": "ω / r",
+            "B": "ωr",
+            "C": "ωr²",
+            "D": "r / ω"
+          },
+          "explanation": "रैखिक वेग v और कोणीय वेग ω संबंध v = rω द्वारा संबंधित हैं।"
+        }
+      }
+    }
+  ]
+}

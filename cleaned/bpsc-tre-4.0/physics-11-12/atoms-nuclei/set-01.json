@@ -1,0 +1,527 @@
+{
+  "subject": "Atoms & Nuclei",
+  "set": 1,
+  "title": "Atoms & Nuclei Mock Test 1",
+  "questions": [
+    {
+      "id": "atoms-nuclei-01-001",
+      "number": 1,
+      "question": "In Bohr's model of the hydrogen atom, the radius of the nth orbit is proportional to:",
+      "options": {
+        "A": "n",
+        "B": "n²",
+        "C": "1/n",
+        "D": "1/n²"
+      },
+      "answer": "B",
+      "explanation": "According to Bohr's quantization, the radius rₙ = (n² h² ε₀)/(π m e² Z), so rₙ ∝ n².",
+      "hash": "75358a9ffcb67cdd",
+      "translations": {
+        "hi": {
+          "question": "हाइड्रोजन परमाणु के बोहर मॉडल में, nवीं कक्षा की त्रिज्या किसके समानुपाती होती है?",
+          "options": {
+            "A": "n",
+            "B": "n²",
+            "C": "1/n",
+            "D": "1/n²"
+          },
+          "explanation": "बोहर के परिमाणीकरण के अनुसार, त्रिज्या rₙ = (n² h² ε₀)/(π m e² Z) होती है, इसलिए rₙ ∝ n²।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-002",
+      "number": 2,
+      "question": "The spectral line of the Lyman series of the hydrogen spectrum lies in which region?",
+      "options": {
+        "A": "Visible",
+        "B": "Infrared",
+        "C": "Ultraviolet",
+        "D": "X-ray"
+      },
+      "answer": "C",
+      "explanation": "The Lyman series corresponds to transitions to the n=1 level, resulting in high energy photons in the UV region.",
+      "hash": "6dc561b8d2bab14a",
+      "translations": {
+        "hi": {
+          "question": "हाइड्रोजन स्पेक्ट्रम की लाइमैन श्रेणी (Lyman series) की स्पेक्ट्रमी रेखा किस क्षेत्र में स्थित होती है?",
+          "options": {
+            "A": "दृश्य",
+            "B": "अवरक्त",
+            "C": "पराबैंगनी",
+            "D": "एक्स-रे"
+          },
+          "explanation": "लाइमैन श्रेणी n=1 स्तर पर होने वाले संक्रमणों के अनुरूप होती है, जिसके परिणामस्वरूप UV क्षेत्र में उच्च ऊर्जा वाले फोटॉन प्राप्त होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-003",
+      "number": 3,
+      "question": "The ratio of the volumes of two nuclei with mass numbers 1 and 27 is:",
+      "options": {
+        "A": "1 : 3",
+        "B": "1 : 9",
+        "C": "1 : 27",
+        "D": "1 : 1"
+      },
+      "answer": "C",
+      "explanation": "Volume V ∝ R³. Since R = R₀ A^(1/3), then V ∝ A. The ratio of volumes is 1:27.",
+      "hash": "796a9e21738266ba",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान संख्या 1 और 27 वाले दो नाभिकों के आयतनों का अनुपात है:",
+          "options": {
+            "A": "1 : 3",
+            "B": "1 : 9",
+            "C": "1 : 27",
+            "D": "1 : 1"
+          },
+          "explanation": "आयतन V ∝ R³ होता है। चूंकि R = R₀ A^(1/3), इसलिए V ∝ A। आयतनों का अनुपात 1:27 है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-004",
+      "number": 4,
+      "question": "The binding energy per nucleon is maximum for which of the following nuclei?",
+      "options": {
+        "A": "⁴₂He",
+        "B": "⁵⁶₂₆Fe",
+        "C": "²³⁵₉₂U",
+        "D": "²₁H"
+      },
+      "answer": "B",
+      "explanation": "Iron (⁵⁶Fe) has the highest binding energy per nucleon (approx 8.8 MeV), making it the most stable nucleus.",
+      "hash": "fa86e4abecf6af34",
+      "translations": {
+        "hi": {
+          "question": "प्रति न्यूक्लियॉन बंधन ऊर्जा निम्नलिखित में से किस नाभिक के लिए अधिकतम होती है?",
+          "options": {
+            "A": "⁴₂He",
+            "B": "⁵⁶₂₆Fe",
+            "C": "²³⁵₉₂U",
+            "D": "²₁H"
+          },
+          "explanation": "आयरन (⁵⁶Fe) में प्रति न्यूक्लियॉन उच्चतम बंधन ऊर्जा (लगभग 8.8 MeV) होती है, जो इसे सबसे स्थिर नाभिक बनाती है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-005",
+      "number": 5,
+      "question": "Which of the following is used as a moderator in a nuclear reactor?",
+      "options": {
+        "A": "Uranium",
+        "B": "Cadmium",
+        "C": "Heavy water",
+        "D": "Lead"
+      },
+      "answer": "C",
+      "explanation": "Moderators like heavy water or graphite are used to slow down fast-moving neutrons to thermal speeds.",
+      "hash": "49853bb9bfa8c34e",
+      "translations": {
+        "hi": {
+          "question": "परमाणु रिएक्टर में मंदक (moderator) के रूप में निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "यूरेनियम",
+            "B": "कैडमियम",
+            "C": "भारी जल",
+            "D": "लेड"
+          },
+          "explanation": "भारी जल या ग्रेफाइट जैसे मंदकों का उपयोग तेज गति वाले न्यूट्रॉन को तापीय गति तक धीमा करने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-006",
+      "number": 6,
+      "question": "The half-life of a radioactive substance is 10 days. The fraction of the substance left after 30 days is:",
+      "options": {
+        "A": "1/3",
+        "B": "1/4",
+        "C": "1/8",
+        "D": "1/16"
+      },
+      "answer": "C",
+      "explanation": "n = 30/10 = 3 half-lives. Fraction left = (1/2)³ = 1/8.",
+      "hash": "01e322ed735f8181",
+      "translations": {
+        "hi": {
+          "question": "एक रेडियोधर्मी पदार्थ की अर्ध-आयु 10 दिन है। 30 दिनों के बाद बचे हुए पदार्थ का अंश है:",
+          "options": {
+            "A": "1/3",
+            "B": "1/4",
+            "C": "1/8",
+            "D": "1/16"
+          },
+          "explanation": "n = 30/10 = 3 अर्ध-आयु। शेष अंश = (1/2)³ = 1/8।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-007",
+      "number": 7,
+      "question": "One Atomic Mass Unit (1 amu) is equivalent to how much energy?",
+      "options": {
+        "A": "931.5 MeV",
+        "B": "93.15 MeV",
+        "C": "1.6 x 10⁻¹⁹ J",
+        "D": "1 MeV"
+      },
+      "answer": "A",
+      "explanation": "According to E=mc², 1 amu mass is equivalent to 931.5 MeV of energy.",
+      "hash": "28a50ebdc4598c37",
+      "translations": {
+        "hi": {
+          "question": "एक परमाणु द्रव्यमान इकाई (1 amu) कितनी ऊर्जा के तुल्य है?",
+          "options": {
+            "A": "931.5 MeV",
+            "B": "93.15 MeV",
+            "C": "1.6 x 10⁻¹⁹ J",
+            "D": "1 MeV"
+          },
+          "explanation": "E=mc² के अनुसार, 1 amu द्रव्यमान 931.5 MeV ऊर्जा के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-008",
+      "number": 8,
+      "question": "In the reaction ¹⁴₇N + ⁴₂He → ¹⁷₈O + X, the particle X is:",
+      "options": {
+        "A": "Neutron",
+        "B": "Proton",
+        "C": "Electron",
+        "D": "Alpha particle"
+      },
+      "answer": "B",
+      "explanation": "Balancing mass and atomic numbers: (14+4=17+1) and (7+2=8+1). X has A=1, Z=1, which is a proton.",
+      "hash": "ea1edf99817e96de",
+      "translations": {
+        "hi": {
+          "question": "अभिक्रिया ¹⁴₇N + ⁴₂He → ¹⁷₈O + X में, कण X है:",
+          "options": {
+            "A": "न्यूट्रॉन",
+            "B": "प्रोटॉन",
+            "C": "इलेक्ट्रॉन",
+            "D": "अल्फा कण"
+          },
+          "explanation": "द्रव्यमान और परमाणु क्रमांक को संतुलित करने पर: (14+4=17+1) और (7+2=8+1)। X का A=1, Z=1 है, जो एक प्रोटॉन है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-009",
+      "number": 9,
+      "question": "If the speed of an electron in the first Bohr orbit is v, then its speed in the third orbit is:",
+      "options": {
+        "A": "3v",
+        "B": "9v",
+        "C": "v/3",
+        "D": "v/9"
+      },
+      "answer": "C",
+      "explanation": "In Bohr's model, the velocity of the electron vₙ ∝ 1/n. So v₃ = v₁/3.",
+      "hash": "0d3304cc528a9909",
+      "translations": {
+        "hi": {
+          "question": "यदि पहली बोहर कक्षा में इलेक्ट्रॉन की चाल v है, तो तीसरी कक्षा में इसकी चाल है:",
+          "options": {
+            "A": "3v",
+            "B": "9v",
+            "C": "v/3",
+            "D": "v/9"
+          },
+          "explanation": "बोहर मॉडल में, इलेक्ट्रॉन का वेग vₙ ∝ 1/n होता है। इसलिए v₃ = v₁/3।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-010",
+      "number": 10,
+      "question": "Rutherford's alpha-particle scattering experiment led to the discovery of:",
+      "options": {
+        "A": "Electron",
+        "B": "Proton",
+        "C": "Atomic Nucleus",
+        "D": "Neutron"
+      },
+      "answer": "C",
+      "explanation": "The scattering of alpha particles at large angles indicated a small, dense, positively charged core called the nucleus.",
+      "hash": "b650430cf1287ac4",
+      "translations": {
+        "hi": {
+          "question": "रदरफोर्ड के अल्फा-कण प्रकीर्णन प्रयोग से किसकी खोज हुई?",
+          "options": {
+            "A": "इलेक्ट्रॉन",
+            "B": "प्रोटॉन",
+            "C": "परमाणु नाभिक",
+            "D": "न्यूट्रॉन"
+          },
+          "explanation": "बड़े कोणों पर अल्फा कणों के प्रकीर्णन ने एक छोटे, घने, धनावेशित कोर का संकेत दिया जिसे नाभिक कहा जाता है। [Image of Rutherford gold foil experiment diagram]"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-011",
+      "number": 11,
+      "question": "The force that keeps nucleons together inside a nucleus is:",
+      "options": {
+        "A": "Gravitational force",
+        "B": "Electrostatic force",
+        "C": "Strong Nuclear force",
+        "D": "Magnetic force"
+      },
+      "answer": "C",
+      "explanation": "The strong nuclear force is short-ranged and strong enough to overcome the electrostatic repulsion between protons.",
+      "hash": "512ace86bb9dc01b",
+      "translations": {
+        "hi": {
+          "question": "वह बल जो न्यूक्लियॉन को नाभिक के अंदर एक साथ रखता है, वह है:",
+          "options": {
+            "A": "गुरुत्वाकर्षण बल",
+            "B": "स्थिरवैद्युत बल",
+            "C": "प्रबल नाभिकीय बल",
+            "D": "चुंबकीय बल"
+          },
+          "explanation": "प्रबल नाभिकीय बल अल्प-परासी होता है और प्रोटॉन के बीच स्थिरवैद्युत प्रतिकर्षण को दूर करने के लिए पर्याप्त शक्तिशाली होता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-012",
+      "number": 12,
+      "question": "Nuclear fission is possible because the binding energy per nucleon:",
+      "options": {
+        "A": "Increases for heavier nuclei",
+        "B": "Decreases for heavier nuclei",
+        "C": "Remains constant for all nuclei",
+        "D": "Is zero for all nuclei"
+      },
+      "answer": "B",
+      "explanation": "For very heavy nuclei, the binding energy per nucleon decreases, making them less stable and prone to splitting.",
+      "hash": "a3e5e49dbc23a0db",
+      "translations": {
+        "hi": {
+          "question": "परमाणु विखंडन (Nuclear fission) संभव है क्योंकि प्रति न्यूक्लियॉन बंधन ऊर्जा:",
+          "options": {
+            "A": "भारी नाभिकों के लिए बढ़ती है",
+            "B": "भारी नाभिकों के लिए घटती है",
+            "C": "सभी नाभिकों के लिए स्थिर रहती है",
+            "D": "सभी नाभिकों के लिए शून्य है"
+          },
+          "explanation": "बहुत भारी नाभिकों के लिए, प्रति न्यूक्लियॉन बंधन ऊर्जा कम हो जाती है, जिससे वे कम स्थिर हो जाते हैं और टूटने की संभावना बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-013",
+      "number": 13,
+      "question": "The decay constant λ and half-life T½ are related as:",
+      "options": {
+        "A": "λ = 0.693 / T½",
+        "B": "λ = T½ / 0.693",
+        "C": "λ = 0.693 × T½",
+        "D": "λ = 1 / T½"
+      },
+      "answer": "A",
+      "explanation": "T½ = ln(2) / λ ≈ 0.693 / λ.",
+      "hash": "364db4910cce3dc3",
+      "translations": {
+        "hi": {
+          "question": "क्षय स्थिरांक λ और अर्ध-आयु T½ किस प्रकार संबंधित हैं?",
+          "options": {
+            "A": "λ = 0.693 / T½",
+            "B": "λ = T½ / 0.693",
+            "C": "λ = 0.693 × T½",
+            "D": "λ = 1 / T½"
+          },
+          "explanation": "T½ = ln(2) / λ ≈ 0.693 / λ।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-014",
+      "number": 14,
+      "question": "Which series of the hydrogen spectrum lies in the visible region?",
+      "options": {
+        "A": "Lyman",
+        "B": "Balmer",
+        "C": "Paschen",
+        "D": "Brackett"
+      },
+      "answer": "B",
+      "explanation": "The Balmer series (n → 2) produces spectral lines in the visible wavelength range.",
+      "hash": "7c5f22b4e215129e",
+      "translations": {
+        "hi": {
+          "question": "हाइड्रोजन स्पेक्ट्रम की कौन सी श्रेणी दृश्य क्षेत्र में स्थित होती है?",
+          "options": {
+            "A": "लाइमैन",
+            "B": "बाल्मर",
+            "C": "पाश्चन",
+            "D": "ब्रैकेट"
+          },
+          "explanation": "बाल्मर श्रेणी (n → 2) दृश्य तरंगदैर्ध्य रेंज में स्पेक्ट्रमी रेखाएं उत्पन्न करती है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-015",
+      "number": 15,
+      "question": "During a β⁻ (beta-minus) decay, which of the following is emitted?",
+      "options": {
+        "A": "Alpha particle",
+        "B": "Positron",
+        "C": "Electron and Antineutrino",
+        "D": "Only Neutron"
+      },
+      "answer": "C",
+      "explanation": "In β⁻ decay, a neutron transforms into a proton, emitting an electron and an antineutrino.",
+      "hash": "396ca6484a9491bf",
+      "translations": {
+        "hi": {
+          "question": "β⁻ (बीटा-माइनस) क्षय के दौरान, निम्नलिखित में से क्या उत्सर्जित होता है?",
+          "options": {
+            "A": "अल्फा कण",
+            "B": "पॉजिट्रॉन",
+            "C": "इलेक्ट्रॉन और एंटीन्यूट्रिनो",
+            "D": "केवल न्यूट्रॉन"
+          },
+          "explanation": "β⁻ क्षय में, एक न्यूट्रॉन प्रोटॉन में बदल जाता है, जिससे एक इलेक्ट्रॉन और एक एंटीन्यूट्रिनो उत्सर्जित होता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-016",
+      "number": 16,
+      "question": "The density of nuclear matter is approximately:",
+      "options": {
+        "A": "10³ kg/m³",
+        "B": "10¹⁰ kg/m³",
+        "C": "10¹⁷ kg/m³",
+        "D": "10²⁷ kg/m³"
+      },
+      "answer": "C",
+      "explanation": "Nuclear density is independent of mass number and is extremely high, around 2.3 × 10¹⁷ kg/m³.",
+      "hash": "ed6b1b7da75de1d8",
+      "translations": {
+        "hi": {
+          "question": "नाभिकीय द्रव्य का घनत्व लगभग होता है:",
+          "options": {
+            "A": "10³ kg/m³",
+            "B": "10¹⁰ kg/m³",
+            "C": "10¹⁷ kg/m³",
+            "D": "10²⁷ kg/m³"
+          },
+          "explanation": "नाभिकीय घनत्व द्रव्यमान संख्या से स्वतंत्र होता है और अत्यधिक उच्च होता है, लगभग 2.3 × 10¹⁷ kg/m³।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-017",
+      "number": 17,
+      "question": "What is the energy required to remove an electron from the n=2 state of a hydrogen atom?",
+      "options": {
+        "A": "13.6 eV",
+        "B": "3.4 eV",
+        "C": "1.51 eV",
+        "D": "10.2 eV"
+      },
+      "answer": "B",
+      "explanation": "Energy in n=2 is E₂ = -13.6 / 2² = -3.4 eV. To remove it, +3.4 eV is needed.",
+      "hash": "e979925823237452",
+      "translations": {
+        "hi": {
+          "question": "हाइड्रोजन परमाणु की n=2 अवस्था से एक इलेक्ट्रॉन को निकालने के लिए आवश्यक ऊर्जा क्या है?",
+          "options": {
+            "A": "13.6 eV",
+            "B": "3.4 eV",
+            "C": "1.51 eV",
+            "D": "10.2 eV"
+          },
+          "explanation": "n=2 में ऊर्जा E₂ = -13.6 / 2² = -3.4 eV है। इसे निकालने के लिए +3.4 eV की आवश्यकता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-018",
+      "number": 18,
+      "question": "When a nucleus emits an alpha particle, its mass number (A) and atomic number (Z) change as:",
+      "options": {
+        "A": "A decreases by 2, Z decreases by 2",
+        "B": "A decreases by 4, Z decreases by 2",
+        "C": "A decreases by 4, Z decreases by 4",
+        "D": "A remains same, Z decreases by 2"
+      },
+      "answer": "B",
+      "explanation": "An alpha particle is a helium nucleus (⁴₂He), so loss of it reduces A by 4 and Z by 2.",
+      "hash": "3a44bb7a91e5d778",
+      "translations": {
+        "hi": {
+          "question": "जब एक नाभिक अल्फा कण उत्सर्जित करता है, तो इसकी द्रव्यमान संख्या (A) और परमाणु क्रमांक (Z) इस प्रकार बदलते हैं:",
+          "options": {
+            "A": "A, 2 से घटता है, Z, 2 से घटता है",
+            "B": "A, 4 से घटता है, Z, 2 से घटता है",
+            "C": "A, 4 से घटता है, Z, 4 से घटता है",
+            "D": "A वही रहता है, Z, 2 से घटता है"
+          },
+          "explanation": "अल्फा कण एक हीलियम नाभिक (⁴₂He) है, इसलिए इसकी हानि से A, 4 से और Z, 2 से कम हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-019",
+      "number": 19,
+      "question": "Which of the following shows the correct order of penetrating power?",
+      "options": {
+        "A": "α > β > γ",
+        "B": "γ > β > α",
+        "C": "β > γ > α",
+        "D": "γ > α > β"
+      },
+      "answer": "B",
+      "explanation": "Gamma rays have no charge and mass, allowing them to penetrate the deepest, while alpha particles are easily blocked.",
+      "hash": "9ca58b70718d64c1",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन भेदन क्षमता (penetrating power) का सही क्रम दर्शाता है?",
+          "options": {
+            "A": "α > β > γ",
+            "B": "γ > β > α",
+            "C": "β > γ > α",
+            "D": "γ > α > β"
+          },
+          "explanation": "गामा किरणों का कोई आवेश और द्रव्यमान नहीं होता है, जिससे वे सबसे गहराई तक प्रवेश कर सकती हैं, जबकि अल्फा कणों को आसानी से रोका जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "atoms-nuclei-01-020",
+      "number": 20,
+      "question": "The ionization potential of the hydrogen atom is:",
+      "options": {
+        "A": "13.6 V",
+        "B": "-13.6 V",
+        "C": "10.2 V",
+        "D": "3.4 V"
+      },
+      "answer": "A",
+      "explanation": "Ionization energy is 13.6 eV, so the potential required is 13.6 V.",
+      "hash": "cff087728f59e407",
+      "translations": {
+        "hi": {
+          "question": "हाइड्रोजन परमाणु का आयनीकरण विभव (ionization potential) है:",
+          "options": {
+            "A": "13.6 V",
+            "B": "-13.6 V",
+            "C": "10.2 V",
+            "D": "3.4 V"
+          },
+          "explanation": "आयनीकरण ऊर्जा 13.6 eV है, इसलिए आवश्यक विभव 13.6 V है।"
+        }
+      }
+    }
+  ]
+}

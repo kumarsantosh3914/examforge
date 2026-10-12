@@ -1,0 +1,527 @@
+{
+  "subject": "Communication Systems",
+  "set": 4,
+  "title": "Communication Systems Mock Test 4",
+  "questions": [
+    {
+      "id": "communication-systems-04-001",
+      "number": 1,
+      "question": "Which of the following is the most suitable frequency for satellite communication?",
+      "options": {
+        "A": "2 MHz",
+        "B": "20 MHz",
+        "C": "3 GHz",
+        "D": "30 kHz"
+      },
+      "answer": "C",
+      "explanation": "Microwaves in the GHz range are used for satellite communication as they can penetrate the ionosphere.",
+      "hash": "01d650d121cf56ff",
+      "translations": {
+        "hi": {
+          "question": "उपग्रह संचार के लिए निम्नलिखित में से कौन सी आवृत्ति सबसे उपयुक्त है?",
+          "options": {
+            "A": "2 MHz",
+            "B": "20 MHz",
+            "C": "3 GHz",
+            "D": "30 kHz"
+          },
+          "explanation": "GHz रेंज की सूक्ष्म तरंगों का उपयोग उपग्रह संचार के लिए किया जाता है क्योंकि वे आयनमंडल को भेद सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-002",
+      "number": 2,
+      "question": "The process of varying the phase of the carrier signal in accordance with the message signal is:",
+      "options": {
+        "A": "Amplitude Modulation",
+        "B": "Frequency Modulation",
+        "C": "Phase Modulation",
+        "D": "Pulse Modulation"
+      },
+      "answer": "C",
+      "explanation": "In Phase Modulation (PM), the phase of the carrier wave is varied linearly with the modulating signal.",
+      "hash": "e8d397f6719ee164",
+      "translations": {
+        "hi": {
+          "question": "संदेश संकेत के अनुसार वाहक संकेत की कला (phase) को बदलने की प्रक्रिया क्या है?",
+          "options": {
+            "A": "आयाम मॉड्यूलेशन",
+            "B": "आवृत्ति मॉड्यूलेशन",
+            "C": "फेज मॉड्यूलेशन",
+            "D": "पल्स मॉड्यूलेशन"
+          },
+          "explanation": "फेज मॉड्यूलेशन (PM) में, वाहक तरंग की कला को मॉड्यूलेटिंग सिग्नल के साथ रैखिक रूप से बदला जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-003",
+      "number": 3,
+      "question": "What is the primary purpose of a 'transducer' in a communication system?",
+      "options": {
+        "A": "To amplify the signal",
+        "B": "To convert a physical quantity into an electrical signal",
+        "C": "To remove noise",
+        "D": "To select a specific frequency"
+      },
+      "answer": "B",
+      "explanation": "Transducers like microphones convert sound waves into electrical voltages for transmission.",
+      "hash": "0d5299da4a7764f2",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली में 'ट्रांसड्यूसर' का प्राथमिक उद्देश्य क्या है?",
+          "options": {
+            "A": "सिग्नल को प्रवर्धित करना",
+            "B": "भौतिक राशि को विद्युत सिग्नल में बदलना",
+            "C": "शोर को दूर करना",
+            "D": "एक विशिष्ट आवृत्ति का चयन करना"
+          },
+          "explanation": "माइक्रोफोन जैसे ट्रांसड्यूसर संचरण के लिए ध्वनि तरंगों को विद्युत वोल्टेज में परिवर्तित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-004",
+      "number": 4,
+      "question": "The maximum amplitude of an AM wave is 15 V and the minimum amplitude is 3 V. The modulation index is:",
+      "options": {
+        "A": "0.5",
+        "B": "0.6",
+        "C": "0.67",
+        "D": "0.8"
+      },
+      "answer": "C",
+      "explanation": "m = (Amax - Amin) / (Amax + Amin) = (15 - 3) / (15 + 3) = 12 / 18 = 0.666...",
+      "hash": "328d97a1afa073f5",
+      "translations": {
+        "hi": {
+          "question": "एक AM तरंग का अधिकतम आयाम 15 V है और न्यूनतम आयाम 3 V है। मॉड्यूलेशन सूचकांक क्या है?",
+          "options": {
+            "A": "0.5",
+            "B": "0.6",
+            "C": "0.67",
+            "D": "0.8"
+          },
+          "explanation": "m = (Amax - Amin) / (Amax + Amin) = (15 - 3) / (15 + 3) = 12 / 18 = 0.67 लगभग।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-005",
+      "number": 5,
+      "question": "Which propagation mode is primarily used for AM radio broadcasting during the day?",
+      "options": {
+        "A": "Sky wave",
+        "B": "Ground wave",
+        "C": "Space wave",
+        "D": "Satellite wave"
+      },
+      "answer": "B",
+      "explanation": "AM radio uses ground waves for local coverage; sky waves are often absorbed by the D-layer of the ionosphere during the day.",
+      "hash": "518283f3fe06f9e6",
+      "translations": {
+        "hi": {
+          "question": "दिन के दौरान AM रेडियो प्रसारण के लिए मुख्य रूप से किस संचरण मोड का उपयोग किया जाता है?",
+          "options": {
+            "A": "आकाश तरंग",
+            "B": "भू-तरंग",
+            "C": "अंतरिक्ष तरंग",
+            "D": "उपग्रह तरंग"
+          },
+          "explanation": "AM रेडियो स्थानीय कवरेज के लिए भू-तरंगों का उपयोग करता है; आकाश तरंगें अक्सर दिन के दौरान आयनमंडल की D-परत द्वारा अवशोषित कर ली जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-006",
+      "number": 6,
+      "question": "In communication, the term 'Baseband signal' refers to:",
+      "options": {
+        "A": "The modulated signal",
+        "B": "The high-frequency carrier",
+        "C": "The original information signal",
+        "D": "The noise signal"
+      },
+      "answer": "C",
+      "explanation": "Baseband signals are the original frequency-domain signals produced by a source before modulation.",
+      "hash": "d6a5d565d0950ce4",
+      "translations": {
+        "hi": {
+          "question": "संचार में, 'बेसबैंड सिग्नल' (Baseband signal) शब्द का तात्पर्य है:",
+          "options": {
+            "A": "मॉड्यूलेटेड सिग्नल",
+            "B": "उच्च आवृत्ति वाहक",
+            "C": "मूल सूचना सिग्नल",
+            "D": "शोर सिग्नल"
+          },
+          "explanation": "बेसबैंड सिग्नल मॉड्यूलेशन से पहले स्रोत द्वारा निर्मित मूल फ्रीक्वेंसी-डोमेन सिग्नल होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-007",
+      "number": 7,
+      "question": "The modulation index for an FM wave is defined as the ratio of:",
+      "options": {
+        "A": "Frequency deviation to modulating frequency",
+        "B": "Modulating frequency to frequency deviation",
+        "C": "Carrier amplitude to signal amplitude",
+        "D": "Signal amplitude to carrier amplitude"
+      },
+      "answer": "A",
+      "explanation": "Modulation index in FM = (delta f) / fm, where delta f is the frequency deviation.",
+      "hash": "7a76c45495e7bf15",
+      "translations": {
+        "hi": {
+          "question": "एक FM तरंग के लिए मॉड्यूलेशन सूचकांक को किसके अनुपात के रूप में परिभाषित किया गया है?",
+          "options": {
+            "A": "आवृत्ति विचलन और मॉड्यूलेटिंग आवृत्ति",
+            "B": "मॉड्यूलेटिंग आवृत्ति और आवृत्ति विचलन",
+            "C": "वाहक आयाम और सिग्नल आयाम",
+            "D": "सिग्नल आयाम और वाहक आयाम"
+          },
+          "explanation": "FM में मॉड्यूलेशन सूचकांक = (delta f) / fm, जहाँ delta f आवृत्ति विचलन है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-008",
+      "number": 8,
+      "question": "A wave is reflected back to the earth by the ionosphere. This type of propagation is:",
+      "options": {
+        "A": "Ground wave propagation",
+        "B": "Space wave propagation",
+        "C": "Sky wave propagation",
+        "D": "Line of sight propagation"
+      },
+      "answer": "C",
+      "explanation": "Sky wave propagation uses the ionosphere as a reflector for long-distance communication.",
+      "hash": "ec1adb476a92a132",
+      "translations": {
+        "hi": {
+          "question": "एक तरंग आयनमंडल द्वारा वापस पृथ्वी पर परावर्तित होती है। इस प्रकार का संचरण है:",
+          "options": {
+            "A": "भू-तरंग संचरण",
+            "B": "अंतरिक्ष तरंग संचरण",
+            "C": "आकाश तरंग संचरण",
+            "D": "दृष्टि रेखा संचरण"
+          },
+          "explanation": "आकाश तरंग संचरण लंबी दूरी के संचार के लिए आयनमंडल को परावर्तक के रूप में उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-009",
+      "number": 9,
+      "question": "Which of the following digital modulation techniques varies the frequency of the carrier?",
+      "options": {
+        "A": "ASK (Amplitude Shift Keying)",
+        "B": "FSK (Frequency Shift Keying)",
+        "C": "PSK (Phase Shift Keying)",
+        "D": "QAM (Quadrature Amplitude Modulation)"
+      },
+      "answer": "B",
+      "explanation": "Frequency Shift Keying (FSK) switches between two frequencies to represent binary 0 and 1.",
+      "hash": "c5241185d69f21c9",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी डिजिटल मॉड्यूलेशन तकनीक वाहक की आवृत्ति को बदलती है?",
+          "options": {
+            "A": "ASK",
+            "B": "FSK",
+            "C": "PSK",
+            "D": "QAM"
+          },
+          "explanation": "फ्रीक्वेंसी शिफ्ट कीइंग (FSK) बाइनरी 0 और 1 को दर्शाने के लिए दो आवृत्तियों के बीच स्विच करती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-010",
+      "number": 10,
+      "question": "The bandwidth of an optical fiber is typically in the range of:",
+      "options": {
+        "A": "kHz",
+        "B": "MHz",
+        "C": "GHz to THz",
+        "D": "Hz"
+      },
+      "answer": "C",
+      "explanation": "Optical fibers provide extremely high bandwidth, allowing for very high data transmission rates.",
+      "hash": "26d14f275c7b2e91",
+      "translations": {
+        "hi": {
+          "question": "ऑप्टिकल फाइबर की बैंडविड्थ आमतौर पर किस सीमा में होती है?",
+          "options": {
+            "A": "kHz",
+            "B": "MHz",
+            "C": "GHz से THz",
+            "D": "Hz"
+          },
+          "explanation": "ऑप्टिकल फाइबर अत्यधिक उच्च बैंडविड्थ प्रदान करते हैं, जिससे बहुत उच्च डेटा संचरण दर संभव होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-011",
+      "number": 11,
+      "question": "In a communication system, 'Attenuation' is measured in:",
+      "options": {
+        "A": "Watts",
+        "B": "Volts",
+        "C": "Decibels (dB)",
+        "D": "Ohms"
+      },
+      "answer": "C",
+      "explanation": "Attenuation is a measure of the reduction in signal strength, expressed on a logarithmic scale in dB.",
+      "hash": "dcc7d8e2253be8b0",
+      "translations": {
+        "hi": {
+          "question": "एक संचार प्रणाली में, 'क्षीणन' (Attenuation) किसमें मापा जाता है?",
+          "options": {
+            "A": "वाट",
+            "B": "वोल्ट",
+            "C": "डेसीबल (dB)",
+            "D": "ओम"
+          },
+          "explanation": "क्षीणन सिग्नल की शक्ति में कमी का माप है, जिसे dB में लघुगणकीय पैमाने पर व्यक्त किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-012",
+      "number": 12,
+      "question": "Why is the sky wave not used for TV transmission?",
+      "options": {
+        "A": "TV signals are high frequency and penetrate the ionosphere",
+        "B": "TV signals are low frequency",
+        "C": "TV signals are analog",
+        "D": "Antennas are too small"
+      },
+      "answer": "A",
+      "explanation": "TV transmission uses VHF/UHF frequencies which are too high to be reflected by the ionosphere.",
+      "hash": "9380d991791f8763",
+      "translations": {
+        "hi": {
+          "question": "टीवी प्रसारण के लिए आकाश तरंग का उपयोग क्यों नहीं किया जाता है?",
+          "options": {
+            "A": "टीवी सिग्नल उच्च आवृत्ति के होते हैं और आयनमंडल को भेद देते हैं",
+            "B": "टीवी सिग्नल कम आवृत्ति के होते हैं",
+            "C": "टीवी सिग्नल एनालॉग होते हैं",
+            "D": "एंटीना बहुत छोटे होते हैं"
+          },
+          "explanation": "टीवी प्रसारण VHF/UHF आवृत्तियों का उपयोग करता है जो आयनमंडल द्वारा परावर्तित होने के लिए बहुत उच्च हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-013",
+      "number": 13,
+      "question": "In space wave propagation, the signal travels from transmitter to receiver via:",
+      "options": {
+        "A": "Reflection from the ground",
+        "B": "Straight line (Line of Sight)",
+        "C": "Reflection from ionosphere",
+        "D": "Curvature of the earth"
+      },
+      "answer": "B",
+      "explanation": "Space waves travel directly through the troposphere in a straight line.",
+      "hash": "3b7dc2b63e60a425",
+      "translations": {
+        "hi": {
+          "question": "अंतरिक्ष तरंग संचरण में, सिग्नल ट्रांसमीटर से रिसीवर तक किसके माध्यम से यात्रा करता है?",
+          "options": {
+            "A": "जमीन से परावर्तन",
+            "B": "सीधी रेखा (दृष्टि रेखा)",
+            "C": "आयनमंडल से परावर्तन",
+            "D": "पृथ्वी की वक्रता"
+          },
+          "explanation": "अंतरिक्ष तरंगें सीधे क्षोभमंडल के माध्यम से एक सीधी रेखा में यात्रा करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-014",
+      "number": 14,
+      "question": "What is the purpose of 'Modulation' in communication?",
+      "options": {
+        "A": "To make the signal audible",
+        "B": "To transmit low-frequency signals over long distances",
+        "C": "To reduce signal speed",
+        "D": "To increase the wavelength"
+      },
+      "answer": "B",
+      "explanation": "Modulation shifts the baseband signal to a higher frequency band suitable for transmission.",
+      "hash": "0eef486f517ab2e0",
+      "translations": {
+        "hi": {
+          "question": "संचार में 'मॉड्यूलेशन' का उद्देश्य क्या है?",
+          "options": {
+            "A": "सिग्नल को श्रव्य बनाना",
+            "B": "लंबी दूरी पर कम आवृत्ति वाले सिग्नल भेजना",
+            "C": "सिग्नल की गति कम करना",
+            "D": "तरंगदैर्ध्य बढ़ाना"
+          },
+          "explanation": "मॉड्यूलेशन बेसबैंड सिग्नल को संचरण के लिए उपयुक्त उच्च आवृत्ति बैंड में स्थानांतरित करता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-015",
+      "number": 15,
+      "question": "The 'Sidebands' in an AM wave contain:",
+      "options": {
+        "A": "Only carrier frequency",
+        "B": "Only noise",
+        "C": "The message information",
+        "D": "No information"
+      },
+      "answer": "C",
+      "explanation": "In AM, the power and information of the signal are distributed in the sidebands.",
+      "hash": "958e820629db0923",
+      "translations": {
+        "hi": {
+          "question": "एक AM तरंग के 'साइडबैंड' (Sidebands) में क्या होता है?",
+          "options": {
+            "A": "केवल वाहक आवृत्ति",
+            "B": "केवल शोर",
+            "C": "संदेश की जानकारी",
+            "D": "कोई जानकारी नहीं"
+          },
+          "explanation": "AM में, सिग्नल की शक्ति और जानकारी साइडबैंड में वितरित होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-016",
+      "number": 16,
+      "question": "The frequency deviation in an FM system is 50 kHz and the modulating frequency is 5 kHz. The modulation index is:",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "0.1",
+        "D": "250"
+      },
+      "answer": "A",
+      "explanation": "Modulation Index (m) = delta f / fm = 50 / 5 = 10.",
+      "hash": "ac4b462551fb0eb5",
+      "translations": {
+        "hi": {
+          "question": "एक FM सिस्टम में आवृत्ति विचलन 50 kHz है और मॉड्यूलेटिंग आवृत्ति 5 kHz है। मॉड्यूलेशन सूचकांक क्या है?",
+          "options": {
+            "A": "10",
+            "B": "5",
+            "C": "0.1",
+            "D": "250"
+          },
+          "explanation": "मॉड्यूलेशन सूचकांक (m) = delta f / fm = 50 / 5 = 10।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-017",
+      "number": 17,
+      "question": "If a signal has a power of 100 mW at the transmitter and 1 mW at the receiver, the loss in dB is:",
+      "options": {
+        "A": "10 dB",
+        "B": "20 dB",
+        "C": "30 dB",
+        "D": "100 dB"
+      },
+      "answer": "B",
+      "explanation": "Loss (dB) = 10 * log10(P1/P2) = 10 * log10(100/1) = 10 * 2 = 20 dB.",
+      "hash": "3a5907ec2ab1d525",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी सिग्नल की शक्ति ट्रांसमीटर पर 100 mW और रिसीवर पर 1 mW है, तो dB में हानि है:",
+          "options": {
+            "A": "10 dB",
+            "B": "20 dB",
+            "C": "30 dB",
+            "D": "100 dB"
+          },
+          "explanation": "हानि (dB) = 10 * log10(P1/P2) = 10 * log10(100/1) = 10 * 2 = 20 dB।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-018",
+      "number": 18,
+      "question": "Which part of the receiver selects the desired signal from many received signals?",
+      "options": {
+        "A": "Amplifier",
+        "B": "Tuner",
+        "C": "Detector",
+        "D": "Speaker"
+      },
+      "answer": "B",
+      "explanation": "The tuner is a resonant circuit that can be adjusted to select a specific frequency.",
+      "hash": "d89e0c50ad2404eb",
+      "translations": {
+        "hi": {
+          "question": "रिसीवर का कौन सा भाग कई प्राप्त संकेतों में से वांछित संकेत का चयन करता है?",
+          "options": {
+            "A": "एम्पलीफायर",
+            "B": "ट्यूनर",
+            "C": "डिटेक्टर",
+            "D": "स्पीकर"
+          },
+          "explanation": "ट्यूनर एक अनुनादी परिपथ है जिसे एक विशिष्ट आवृत्ति का चयन करने के लिए समायोजित किया जा सकता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-019",
+      "number": 19,
+      "question": "Which type of channel is used in mobile telephony?",
+      "options": {
+        "A": "Guided medium",
+        "B": "Free space",
+        "C": "Copper wire",
+        "D": "Coaxial cable"
+      },
+      "answer": "B",
+      "explanation": "Mobile phones use wireless communication via electromagnetic waves in free space.",
+      "hash": "41fb699209fab06a",
+      "translations": {
+        "hi": {
+          "question": "मोबाइल टेलीफोनी में किस प्रकार के चैनल का उपयोग किया जाता है?",
+          "options": {
+            "A": "गाइडेड मीडियम (निर्देशित माध्यम)",
+            "B": "मुक्त स्थान (Free space)",
+            "C": "तांबे का तार",
+            "D": "समाक्षीय केबल"
+          },
+          "explanation": "मोबाइल फोन मुक्त स्थान में विद्युत चुंबकीय तरंगों के माध्यम से वायरलेस संचार का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-04-020",
+      "number": 20,
+      "question": "For a frequency of 30 MHz, the wavelength is:",
+      "options": {
+        "A": "1 m",
+        "B": "10 m",
+        "C": "100 m",
+        "D": "3 m"
+      },
+      "answer": "B",
+      "explanation": "lambda = c / f = (3 * 10^8) / (30 * 10^6) = 10 m.",
+      "hash": "ed0a2da3c552da2c",
+      "translations": {
+        "hi": {
+          "question": "30 MHz की आवृत्ति के लिए, तरंगदैर्ध्य क्या है?",
+          "options": {
+            "A": "1 m",
+            "B": "10 m",
+            "C": "100 m",
+            "D": "3 m"
+          },
+          "explanation": "तरंगदैर्ध्य lambda = c / f = (3 * 10^8) / (30 * 10^6) = 10 मीटर।"
+        }
+      }
+    }
+  ]
+}

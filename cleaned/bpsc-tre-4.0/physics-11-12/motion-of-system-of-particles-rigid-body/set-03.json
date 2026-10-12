@@ -1,0 +1,527 @@
+{
+  "subject": "Motion of System of Particles & Rigid Body",
+  "set": 3,
+  "title": "Motion of System of Particles & Rigid Body Mock Test 3",
+  "questions": [
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-001",
+      "number": 1,
+      "question": "A ladder is leaning against a smooth vertical wall and resting on a rough floor. The nature of the force exerted by the floor on the ladder is:",
+      "options": {
+        "A": "Only vertical",
+        "B": "Only horizontal",
+        "C": "Both vertical and horizontal",
+        "D": "Zero"
+      },
+      "answer": "C",
+      "explanation": "The floor exerts a vertical normal reaction to support the weight and a horizontal frictional force to prevent slipping.",
+      "hash": "d9cec01d1252e7fb",
+      "translations": {
+        "hi": {
+          "question": "एक सीढ़ी एक चिकनी ऊर्ध्वाधर दीवार के सहारे टिकी है और एक खुरदुरे फर्श पर रखी है। फर्श द्वारा सीढ़ी पर लगाए गए बल की प्रकृति है:",
+          "options": {
+            "A": "केवल ऊर्ध्वाधर",
+            "B": "केवल क्षैतिज",
+            "C": "ऊर्ध्वाधर और क्षैतिज दोनों",
+            "D": "शून्य"
+          },
+          "explanation": "फर्श वजन को सहारा देने के लिए एक ऊर्ध्वाधर सामान्य प्रतिक्रिया और फिसलने से रोकने के लिए एक क्षैतिज घर्षण बल लगाता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-002",
+      "number": 2,
+      "question": "The angular velocity of the second hand of a clock is:",
+      "options": {
+        "A": "π/30 rad/s",
+        "B": "π/60 rad/s",
+        "C": "2π rad/s",
+        "D": "π/120 rad/s"
+      },
+      "answer": "A",
+      "explanation": "ω = 2π / T. For a second hand, T = 60 s. ω = 2π / 60 = π/30 rad/s.",
+      "hash": "bdec3eaa32db0cf8",
+      "translations": {
+        "hi": {
+          "question": "घड़ी की सेकंड वाली सुई का कोणीय वेग होता है:",
+          "options": {
+            "A": "π/30 rad/s",
+            "B": "π/60 rad/s",
+            "C": "2π rad/s",
+            "D": "π/120 rad/s"
+          },
+          "explanation": "ω = 2π / T। सेकंड वाली सुई के लिए, T = 60 s। ω = 2π / 60 = π/30 rad/s।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-003",
+      "number": 3,
+      "question": "A solid sphere and a hollow sphere have the same mass and same moment of inertia about their diameters. The ratio of their radii is:",
+      "options": {
+        "A": "sqrt(3) : sqrt(5)",
+        "B": "sqrt(5) : sqrt(3)",
+        "C": "3 : 5",
+        "D": "5 : 3"
+      },
+      "answer": "B",
+      "explanation": "2/5 M(R_solid)^2 = 2/3 M(R_hollow)^2. (R_solid / R_hollow)^2 = 5/3. Ratio is sqrt(5) : sqrt(3).",
+      "hash": "c958d93a2b86144b",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस गोले और एक खोखले गोले का द्रव्यमान और उनके व्यास के परतः जड़त्व आघूर्ण समान है। उनकी त्रिज्याओं का अनुपात है:",
+          "options": {
+            "A": "sqrt(3) : sqrt(5)",
+            "B": "sqrt(5) : sqrt(3)",
+            "C": "3 : 5",
+            "D": "5 : 3"
+          },
+          "explanation": "2/5 M(R_solid)^2 = 2/3 M(R_hollow)^2। (R_solid / R_hollow)^2 = 5/3। अनुपात sqrt(5) : sqrt(3) है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-004",
+      "number": 4,
+      "question": "The center of mass of a system of two particles of masses 1 kg and 2 kg is located at a distance of 3 m from the 1 kg mass. The distance between the two particles is:",
+      "options": {
+        "A": "4 m",
+        "B": "4.5 m",
+        "C": "6 m",
+        "D": "9 m"
+      },
+      "answer": "B",
+      "explanation": "r_cm = (m2 * d) / (m1 + m2). 3 = (2 * d) / 3. Solving gives d = 4.5 m.",
+      "hash": "ccff0cf3b4d95b0d",
+      "translations": {
+        "hi": {
+          "question": "1 किग्रा और 2 किग्रा द्रव्यमान वाले दो कणों के निकाय का द्रव्यमान केंद्र 1 किग्रा द्रव्यमान से 3 मीटर की दूरी पर स्थित है। दोनों कणों के बीच की दूरी है:",
+          "options": {
+            "A": "4 मीटर",
+            "B": "4.5 मीटर",
+            "C": "6 मीटर",
+            "D": "9 मीटर"
+          },
+          "explanation": "r_cm = (m2 * d) / (m1 + m2)। 3 = (2 * d) / 3। हल करने पर d = 4.5 मीटर प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-005",
+      "number": 5,
+      "question": "A thin circular ring of mass M and radius R is rotating about its axis with an angular speed ω. Two particles of mass m are attached gently to opposite ends of a diameter. The new angular speed is:",
+      "options": {
+        "A": "Mω / (M + m)",
+        "B": "Mω / (M + 2m)",
+        "C": "(M + 2m)ω / M",
+        "D": "Mω / 2m"
+      },
+      "answer": "B",
+      "explanation": "Initial L = MR^2 * ω. Final L = (MR^2 + 2mR^2) * ω'. By conservation, ω' = Mω / (M + 2m).",
+      "hash": "1d9949784ae94375",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R की एक पतली वृत्ताकार वलय कोणीय गति ω के साथ अपने अक्ष के परतः घूम रही है। द्रव्यमान m के दो कण एक व्यास के विपरीत सिरों पर धीरे से जोड़े जाते हैं। नई कोणीय गति है:",
+          "options": {
+            "A": "Mω / (M + m)",
+            "B": "Mω / (M + 2m)",
+            "C": "(M + 2m)ω / M",
+            "D": "Mω / 2m"
+          },
+          "explanation": "प्रारंभिक L = MR^2 * ω। अंतिम L = (MR^2 + 2mR^2) * ω'। संरक्षण द्वारा, ω' = Mω / (M + 2m)।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-006",
+      "number": 6,
+      "question": "A disc is rolling on a horizontal surface. If v is the velocity of the center of mass, the velocity of the highest point is:",
+      "options": {
+        "A": "v",
+        "B": "2v",
+        "C": "Zero",
+        "D": "v/2"
+      },
+      "answer": "B",
+      "explanation": "Velocity at highest point = v_cm + Rω. In pure rolling v_cm = Rω, so velocity = v + v = 2v.",
+      "hash": "550d015969b1a375",
+      "translations": {
+        "hi": {
+          "question": "एक चकती क्षैतिज सतह पर लुढ़क रही है। यदि v द्रव्यमान केंद्र का वेग है, तो उच्चतम बिंदु का वेग है:",
+          "options": {
+            "A": "v",
+            "B": "2v",
+            "C": "शून्य",
+            "D": "v/2"
+          },
+          "explanation": "उच्चतम बिंदु पर वेग = v_cm + Rω। शुद्ध लोटनिक गति में v_cm = Rω, इसलिए वेग = v + v = 2v।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-007",
+      "number": 7,
+      "question": "Which of the following quantities is represented by the area under the torque-angular displacement graph?",
+      "options": {
+        "A": "Angular momentum",
+        "B": "Rotational kinetic energy",
+        "C": "Work done",
+        "D": "Power"
+      },
+      "answer": "C",
+      "explanation": "Similar to force-displacement graph giving work, torque-angular displacement area gives work done.",
+      "hash": "4471471536876435",
+      "translations": {
+        "hi": {
+          "question": "टॉर्क-कोणीय विस्थापन ग्राफ के अंतर्गत आने वाला क्षेत्र निम्नलिखित में से किस मात्रा को दर्शाता है?",
+          "options": {
+            "A": "कोणीय संवेग",
+            "B": "घूर्णी गतिज ऊर्जा",
+            "C": "किया गया कार्य",
+            "D": "शक्ति"
+          },
+          "explanation": "जिस प्रकार बल-विस्थापन ग्राफ कार्य देता है, उसी प्रकार टॉर्क-कोणीय विस्थापन क्षेत्र किया गया कार्य देता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-008",
+      "number": 8,
+      "question": "The moment of inertia of a uniform circular disc of mass M and radius R about an axis tangent to the edge and perpendicular to the plane of the disc is:",
+      "options": {
+        "A": "1/2 MR^2",
+        "B": "3/2 MR^2",
+        "C": "5/2 MR^2",
+        "D": "2 MR^2"
+      },
+      "answer": "B",
+      "explanation": "By parallel axis theorem, I = I_cm + MR^2 = 1/2 MR^2 + MR^2 = 3/2 MR^2.",
+      "hash": "62a75536e3c055cd",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R की एक समान वृत्ताकार चकती का किनारे की स्पर्श रेखा और चकती के तल के लंबवत अक्ष के परतः जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "1/2 MR^2",
+            "B": "3/2 MR^2",
+            "C": "5/2 MR^2",
+            "D": "2 MR^2"
+          },
+          "explanation": "समांतर अक्ष प्रमेय के अनुसार, I = I_cm + MR^2 = 1/2 MR^2 + MR^2 = 3/2 MR^2।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-009",
+      "number": 9,
+      "question": "The position vector of center of mass of a system of three particles of equal mass at (0,0), (a,0) and (0,a) is:",
+      "options": {
+        "A": "(a/2, a/2)",
+        "B": "(a/3, a/3)",
+        "C": "(a, a)",
+        "D": "(2a/3, 2a/3)"
+      },
+      "answer": "B",
+      "explanation": "X_cm = (0+a+0)/3 = a/3. Y_cm = (0+0+a)/3 = a/3.",
+      "hash": "138dfe52be969e6c",
+      "translations": {
+        "hi": {
+          "question": "(0,0), (a,0) और (0,a) पर समान द्रव्यमान वाले तीन कणों के निकाय का द्रव्यमान केंद्र सदिश है:",
+          "options": {
+            "A": "(a/2, a/2)",
+            "B": "(a/3, a/3)",
+            "C": "(a, a)",
+            "D": "(2a/3, 2a/3)"
+          },
+          "explanation": "X_cm = (0+a+0)/3 = a/3। Y_cm = (0+0+a)/3 = a/3।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-010",
+      "number": 10,
+      "question": "If a body is rotating about a fixed axis, then all particles of the body:",
+      "options": {
+        "A": "Have same linear velocity",
+        "B": "Have same angular velocity",
+        "C": "Have same linear acceleration",
+        "D": "Move in straight lines"
+      },
+      "answer": "B",
+      "explanation": "In a rigid body rotation, every particle covers the same angle in the same time, so ω is identical for all.",
+      "hash": "88e13a8b1e714ae6",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई वस्तु एक निश्चित अक्ष के परतः घूम रही है, तो वस्तु के सभी कण:",
+          "options": {
+            "A": "समान रैखिक वेग रखते हैं",
+            "B": "समान कोणीय वेग रखते हैं",
+            "C": "समान रैखिक त्वरण रखते हैं",
+            "D": "सीधी रेखाओं में चलते हैं"
+          },
+          "explanation": "एक दृढ़ वस्तु के घूर्णन में, प्रत्येक कण समान समय में समान कोण तय करता है, इसलिए ω सभी के लिए समान होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-011",
+      "number": 11,
+      "question": "A solid sphere of mass M and radius R rolls without slipping down an inclined plane of length L and height h. The speed of its center of mass at the bottom is:",
+      "options": {
+        "A": "sqrt(2gh)",
+        "B": "sqrt(10gh/7)",
+        "C": "sqrt(4gh/3)",
+        "D": "sqrt(gh)"
+      },
+      "answer": "B",
+      "explanation": "Mgh = 1/2 Mv^2 + 1/2 Iω^2. For solid sphere, I = 2/5 MR^2. Solving for v gives sqrt(10gh/7).",
+      "hash": "21208b5cdbd3e03c",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R का एक ठोस गोला बिना फिसले लंबाई L और ऊंचाई h के झुके हुए तल से नीचे लुढ़कता है। नीचे इसके द्रव्यमान केंद्र की गति है:",
+          "options": {
+            "A": "sqrt(2gh)",
+            "B": "sqrt(10gh/7)",
+            "C": "sqrt(4gh/3)",
+            "D": "sqrt(gh)"
+          },
+          "explanation": "Mgh = 1/2 Mv^2 + 1/2 Iω^2। ठोस गोले के लिए, I = 2/5 MR^2। v के लिए हल करने पर sqrt(10gh/7) प्राप्त होता है। [Image of sphere rolling down an inclined plane]"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-012",
+      "number": 12,
+      "question": "Angular momentum of a system of particles is conserved when:",
+      "options": {
+        "A": "Net external force is zero",
+        "B": "Net external torque is zero",
+        "C": "Kinetic energy is constant",
+        "D": "Potential energy is zero"
+      },
+      "answer": "B",
+      "explanation": "The time rate of change of angular momentum is equal to the external torque. If torque is zero, L is constant.",
+      "hash": "f17b34ad09151acb",
+      "translations": {
+        "hi": {
+          "question": "कणों के एक निकाय का कोणीय संवेग तब संरक्षित रहता है जब:",
+          "options": {
+            "A": "कुल बाहरी बल शून्य हो",
+            "B": "कुल बाहरी टॉर्क शून्य हो",
+            "C": "गतिज ऊर्जा स्थिर हो",
+            "D": "स्थितिज ऊर्जा शून्य हो"
+          },
+          "explanation": "कोणीय संवेग के परिवर्तन की समय दर बाहरी टॉर्क के बराबर होती है। यदि टॉर्क शून्य है, तो L स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-013",
+      "number": 13,
+      "question": "The direction of angular acceleration (α) for a rigid body rotating about a fixed axis is:",
+      "options": {
+        "A": "Along the radius",
+        "B": "Tangential to the path",
+        "C": "Along the axis of rotation",
+        "D": "Towards the center"
+      },
+      "answer": "C",
+      "explanation": "Like angular velocity, angular acceleration is an axial vector directed along the axis.",
+      "hash": "31bedc13bc73a49c",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित अक्ष के परतः घूमने वाली दृढ़ वस्तु के लिए कोणीय त्वरण (α) की दिशा होती है:",
+          "options": {
+            "A": "त्रिज्या के अनुदिश",
+            "B": "पथ के स्पर्शरेखीय",
+            "C": "घूर्णन अक्ष के अनुदिश",
+            "D": "केंद्र की ओर"
+          },
+          "explanation": "कोणीय वेग की तरह, कोणीय त्वरण एक अक्षीय सदिश है जो अक्ष के अनुदिश निर्देशित होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-014",
+      "number": 14,
+      "question": "A force F = (i + 2j + 3k) N acts at a point r = (i - j + k) m. The torque about the origin is:",
+      "options": {
+        "A": "(-5i - 2j + 3k) Nm",
+        "B": "(i - j + k) Nm",
+        "C": "(5i + 2j - 3k) Nm",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Torque τ = r x F. Calculating the cross product gives (-5i - 2j + 3k).",
+      "hash": "36fe94047bbadfd3",
+      "translations": {
+        "hi": {
+          "question": "एक बल F = (i + 2j + 3k) N एक बिंदु r = (i - j + k) m पर कार्य करता है। मूल बिंदु के परतः टॉर्क है:",
+          "options": {
+            "A": "(-5i - 2j + 3k) Nm",
+            "B": "(i - j + k) Nm",
+            "C": "(5i + 2j - 3k) Nm",
+            "D": "शून्य"
+          },
+          "explanation": "टॉर्क τ = r x F। क्रॉस उत्पाद की गणना करने पर (-5i - 2j + 3k) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-015",
+      "number": 15,
+      "question": "Two particles of masses m and 2m are moving toward each other with speeds 2v and v respectively. The velocity of their center of mass is:",
+      "options": {
+        "A": "v",
+        "B": "v/3",
+        "C": "Zero",
+        "D": "2v"
+      },
+      "answer": "C",
+      "explanation": "V_cm = (m*2v + 2m*(-v)) / (3m) = (2mv - 2mv) / 3m = 0.",
+      "hash": "cbbde9769848d002",
+      "translations": {
+        "hi": {
+          "question": "m और 2m द्रव्यमान वाले दो कण क्रमशः 2v और v की गति से एक-दूसरे की ओर बढ़ रहे हैं। उनके द्रव्यमान केंद्र का वेग है:",
+          "options": {
+            "A": "v",
+            "B": "v/3",
+            "C": "शून्य",
+            "D": "2v"
+          },
+          "explanation": "V_cm = (m*2v + 2m*(-v)) / (3m) = (2mv - 2mv) / 3m = 0।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-016",
+      "number": 16,
+      "question": "The moment of inertia of a square plate of mass M and side 'a' about an axis passing through its center and perpendicular to its plane is:",
+      "options": {
+        "A": "Ma^2 / 6",
+        "B": "Ma^2 / 12",
+        "C": "Ma^2 / 3",
+        "D": "2Ma^2 / 3"
+      },
+      "answer": "A",
+      "explanation": "I_x = Ma^2/12, I_y = Ma^2/12. By perpendicular axis theorem, I_z = I_x + I_y = Ma^2/6.",
+      "hash": "9f0c5d3190513ba1",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और भुजा 'a' वाली एक वर्गाकार प्लेट का उसके केंद्र से गुजरने वाले और उसके तल के लंबवत अक्ष के परतः जड़त्व आघूर्ण है:",
+          "options": {
+            "A": "Ma^2 / 6",
+            "B": "Ma^2 / 12",
+            "C": "Ma^2 / 3",
+            "D": "2Ma^2 / 3"
+          },
+          "explanation": "I_x = Ma^2/12, I_y = Ma^2/12। लंबवत अक्ष प्रमेय के अनुसार, I_z = I_x + I_y = Ma^2/6।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-017",
+      "number": 17,
+      "question": "The period of rotation of a body is doubled. Its rotational kinetic energy:",
+      "options": {
+        "A": "Becomes double",
+        "B": "Becomes half",
+        "C": "Becomes four times",
+        "D": "Becomes one-fourth"
+      },
+      "answer": "D",
+      "explanation": "KE_rot = 1/2 Iω^2. Since ω = 2π/T, if T is doubled, ω becomes half. Thus KE becomes (1/2)^2 = 1/4th.",
+      "hash": "d0f4d63712ceafd3",
+      "translations": {
+        "hi": {
+          "question": "किसी वस्तु का घूर्णन काल दोगुना कर दिया जाता है। इसकी घूर्णी गतिज ऊर्जा:",
+          "options": {
+            "A": "दोगुनी हो जाती है",
+            "B": "आधी हो जाती है",
+            "C": "चार गुना हो जाती है",
+            "D": "एक-चौथाई हो जाती है"
+          },
+          "explanation": "KE_rot = 1/2 Iω^2। चूंकि ω = 2π/T, यदि T दोगुना हो जाता है, तो ω आधा हो जाता है। इस प्रकार KE (1/2)^2 = एक-चौथाई हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-018",
+      "number": 18,
+      "question": "A hoop and a solid cylinder of same mass and radius roll without slipping. The ratio of their accelerations down an incline is:",
+      "options": {
+        "A": "2 : 3",
+        "B": "3 : 4",
+        "C": "1 : 1",
+        "D": "4 : 3"
+      },
+      "answer": "B",
+      "explanation": "a = g sinθ / (1 + I/MR^2). For hoop, a1 = g sinθ / 2. For cylinder, a2 = 2g sinθ / 3. Ratio a1/a2 = 3/4.",
+      "hash": "fb276e14b8b8b403",
+      "translations": {
+        "hi": {
+          "question": "समान द्रव्यमान और त्रिज्या वाली एक हूप (वलय) और एक ठोस बेलन बिना फिसले लुढ़कते हैं। ढलान पर उनके त्वरणों का अनुपात है:",
+          "options": {
+            "A": "2 : 3",
+            "B": "3 : 4",
+            "C": "1 : 1",
+            "D": "4 : 3"
+          },
+          "explanation": "a = g sinθ / (1 + I/MR^2)। हूप के लिए, a1 = g sinθ / 2। बेलन के लिए, a2 = 2g sinθ / 3। अनुपात a1/a2 = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-019",
+      "number": 19,
+      "question": "The center of mass of a system of particles coincides with the center of gravity:",
+      "options": {
+        "A": "Always",
+        "B": "Only in a uniform gravitational field",
+        "C": "Never",
+        "D": "Only for spherical bodies"
+      },
+      "answer": "B",
+      "explanation": "Center of gravity is the point where the net weight acts. In a uniform field, g is constant, making CG and CM identical.",
+      "hash": "cb08e1b69b6ca756",
+      "translations": {
+        "hi": {
+          "question": "कणों के एक निकाय का द्रव्यमान केंद्र गुरुत्व केंद्र के साथ मेल खाता है:",
+          "options": {
+            "A": "हमेशा",
+            "B": "केवल एकसमान गुरुत्वाकर्षण क्षेत्र में",
+            "C": "कभी नहीं",
+            "D": "केवल गोलाकार वस्तुओं के लिए"
+          },
+          "explanation": "गुरुत्व केंद्र वह बिंदु है जहाँ कुल वजन कार्य करता है। एकसमान क्षेत्र में, g स्थिर होता है, जिससे CG और CM समान हो जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "motion-of-system-of-particles-rigid-body-03-020",
+      "number": 20,
+      "question": "A rigid body rotates about a fixed axis with a constant angular acceleration. The graph of angular velocity (ω) versus time (t) is:",
+      "options": {
+        "A": "Parabola",
+        "B": "Straight line",
+        "C": "Hyperbola",
+        "D": "Circle"
+      },
+      "answer": "B",
+      "explanation": "ω = ω0 + αt. This is a linear equation in the form y = mx + c, representing a straight line.",
+      "hash": "480698e0dc7fe690",
+      "translations": {
+        "hi": {
+          "question": "एक दृढ़ वस्तु एक निश्चित अक्ष के परतः स्थिर कोणीय त्वरण के साथ घूमती है। कोणीय वेग (ω) बनाम समय (t) का ग्राफ है:",
+          "options": {
+            "A": "परवलय",
+            "B": "सरल रेखा",
+            "C": "अतिपरवलय",
+            "D": "वृत्त"
+          },
+          "explanation": "ω = ω0 + αt। यह y = mx + c के रूप में एक रैखिक समीकरण है, जो एक सरल रेखा को दर्शाता है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "subject": "Kinematics",
+  "set": 4,
+  "title": "Kinematics Mock Test 4",
+  "questions": [
+    {
+      "id": "kinematics-04-001",
+      "number": 1,
+      "question": "A ball is thrown vertically upwards. Which of the following graphs represents the velocity-time relationship during its flight?",
+      "options": {
+        "A": "A straight line with negative slope",
+        "B": "A straight line with positive slope",
+        "C": "A parabola opening upwards",
+        "D": "A horizontal straight line"
+      },
+      "answer": "A",
+      "explanation": "Velocity decreases linearly until it reaches zero at the peak and then increases in the opposite direction.",
+      "hash": "4799faf086eb446d",
+      "translations": {
+        "hi": {
+          "question": "एक गेंद को लंबवत ऊपर की ओर फेंका जाता है। निम्नलिखित में से कौन सा ग्राफ उसकी उड़ान के दौरान वेग-समय संबंध को दर्शाता है?",
+          "options": {
+            "A": "ऋणात्मक ढलान वाली एक सीधी रेखा",
+            "B": "धनात्मक ढलान वाली एक सीधी रेखा",
+            "C": "ऊपर की ओर खुलने वाला एक परवलय",
+            "D": "एक क्षैतिज सीधी रेखा"
+          },
+          "explanation": "वेग रैखिक रूप से तब तक घटता है जब तक कि वह शिखर पर शून्य न हो जाए और फिर विपरीत दिशा में बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-002",
+      "number": 2,
+      "question": "The ratio of displacement to distance for a moving particle is always:",
+      "options": {
+        "A": "Less than 1",
+        "B": "Equal to 1",
+        "C": "Less than or equal to 1",
+        "D": "Greater than 1"
+      },
+      "answer": "C",
+      "explanation": "Displacement is the shortest path, so it can be equal to or less than the actual distance covered.",
+      "hash": "08926030edb26c49",
+      "translations": {
+        "hi": {
+          "question": "एक गतिशील कण के लिए विस्थापन और दूरी का अनुपात हमेशा होता है:",
+          "options": {
+            "A": "1 से कम",
+            "B": "1 के बराबर",
+            "C": "1 से कम या उसके बराबर",
+            "D": "1 से अधिक"
+          },
+          "explanation": "विस्थापन सबसे छोटा पथ है, इसलिए यह तय की गई वास्तविक दूरी के बराबर या उससे कम हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-003",
+      "number": 3,
+      "question": "If the velocity of a particle is given by v = sqrt(180 - 16x), its acceleration is:",
+      "options": {
+        "A": "-8 m/s^2",
+        "B": "-16 m/s^2",
+        "C": "8 m/s^2",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Squaring gives v^2 = 180 - 16x. Comparing with v^2 = u^2 + 2ax, 2a = -16, so a = -8 m/s^2.",
+      "hash": "3ea1c00c5dfa9900",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी कण का वेग v = sqrt(180 - 16x) द्वारा दिया गया है, तो इसका त्वरण है:",
+          "options": {
+            "A": "-8 m/s^2",
+            "B": "-16 m/s^2",
+            "C": "8 m/s^2",
+            "D": "शून्य"
+          },
+          "explanation": "वर्ग करने पर v^2 = 180 - 16x प्राप्त होता है। v^2 = u^2 + 2ax के साथ तुलना करने पर, 2a = -16, इसलिए a = -8 m/s^2."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-004",
+      "number": 4,
+      "question": "A projectile is thrown with an initial velocity of (6i + 8j) m/s. Its horizontal range is (g = 10 m/s^2):",
+      "options": {
+        "A": "4.8 m",
+        "B": "9.6 m",
+        "C": "12.0 m",
+        "D": "8.4 m"
+      },
+      "answer": "B",
+      "explanation": "ux = 6, uy = 8. Range R = 2 * ux * uy / g = 2 * 6 * 8 / 10 = 9.6 m.",
+      "hash": "d8b5290cf4623601",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य को (6i + 8j) m/s के प्रारंभिक वेग के साथ फेंका जाता है। इसकी क्षैतिज परास है (g = 10 m/s^2):",
+          "options": {
+            "A": "4.8 m",
+            "B": "9.6 m",
+            "C": "12.0 m",
+            "D": "8.4 m"
+          },
+          "explanation": "ux = 6, uy = 8. परास R = 2 * ux * uy / g = 2 * 6 * 8 / 10 = 9.6 m."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-005",
+      "number": 5,
+      "question": "A particle moves in a circle of radius R. In half a revolution, the displacement and distance are respectively:",
+      "options": {
+        "A": "2R, pi R",
+        "B": "pi R, 2R",
+        "C": "0, 2 pi R",
+        "D": "2R, 2 pi R"
+      },
+      "answer": "A",
+      "explanation": "Displacement is the diameter (2R) and distance is half the circumference (pi R).",
+      "hash": "d1e569aedb5265f9",
+      "translations": {
+        "hi": {
+          "question": "एक कण R त्रिज्या के वृत्त में गति करता है। आधे चक्कर में, विस्थापन और दूरी क्रमशः हैं:",
+          "options": {
+            "A": "2R, pi R",
+            "B": "pi R, 2R",
+            "C": "0, 2 pi R",
+            "D": "2R, 2 pi R"
+          },
+          "explanation": "विस्थापन व्यास (2R) है और दूरी आधी परिधि (pi R) है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-006",
+      "number": 6,
+      "question": "A person moves 30m north, then 20m east and finally 30 sqrt(2) m south-west. His displacement from origin is:",
+      "options": {
+        "A": "10 m West",
+        "B": "10 m East",
+        "C": "60 m South",
+        "D": "20 m North"
+      },
+      "answer": "A",
+      "explanation": "Net X = 20 - 30 = -10. Net Y = 30 - 30 = 0. Displacement is 10 m West.",
+      "hash": "d7fbd648973eca68",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 30 मीटर उत्तर, फिर 20 मीटर पूर्व और अंत में 30 sqrt(2) मीटर दक्षिण-पश्चिम की ओर चलता है। मूल बिंदु से उसका विस्थापन है:",
+          "options": {
+            "A": "10 m पश्चिम",
+            "B": "10 m पूर्व",
+            "C": "60 m दक्षिण",
+            "D": "20 m उत्तर"
+          },
+          "explanation": "कुल X = 20 - 30 = -10. कुल Y = 30 - 30 = 0. विस्थापन 10 मीटर पश्चिम है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-007",
+      "number": 7,
+      "question": "Two particles are projected with same speed but at angles 30 and 60 degrees. The ratio of their maximum heights is:",
+      "options": {
+        "A": "1 : 3",
+        "B": "3 : 1",
+        "C": "1 : sqrt(3)",
+        "D": "1 : 1"
+      },
+      "answer": "A",
+      "explanation": "H is proportional to sin^2(theta). Ratio = sin^2(30)/sin^2(60) = (1/4) / (3/4) = 1/3.",
+      "hash": "2f8e00d9f411f4cf",
+      "translations": {
+        "hi": {
+          "question": "दो कणों को समान गति से लेकिन 30 और 60 डिग्री के कोण पर प्रक्षेपित किया जाता है। उनकी अधिकतम ऊंचाइयों का अनुपात है:",
+          "options": {
+            "A": "1 : 3",
+            "B": "3 : 1",
+            "C": "1 : sqrt(3)",
+            "D": "1 : 1"
+          },
+          "explanation": "H, sin^2(theta) के समानुपाती है। अनुपात = sin^2(30)/sin^2(60) = (1/4) / (3/4) = 1/3."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-008",
+      "number": 8,
+      "question": "The displacement of a particle is given by y = a + bt + ct^2 - dt^4. The initial velocity and acceleration are:",
+      "options": {
+        "A": "b, 2c",
+        "B": "b, c",
+        "C": "b, -4d",
+        "D": "a, 2c"
+      },
+      "answer": "A",
+      "explanation": "v = dy/dt = b + 2ct - 4dt^3. At t=0, v=b. a = dv/dt = 2c - 12dt^2. At t=0, a=2c.",
+      "hash": "ce10e2979313e700",
+      "translations": {
+        "hi": {
+          "question": "एक कण का विस्थापन y = a + bt + ct^2 - dt^4 द्वारा दिया गया है। प्रारंभिक वेग और त्वरण हैं:",
+          "options": {
+            "A": "b, 2c",
+            "B": "b, c",
+            "C": "b, -4d",
+            "D": "a, 2c"
+          },
+          "explanation": "v = dy/dt = b + 2ct - 4dt^3. t=0 पर, v=b. a = dv/dt = 2c - 12dt^2. t=0 पर, a=2c."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-009",
+      "number": 9,
+      "question": "The velocity of a projectile at the initial point A is (2i + 3j) m/s. Its velocity at point B where it hits the ground is:",
+      "options": {
+        "A": "2i - 3j",
+        "B": "-2i + 3j",
+        "C": "-2i - 3j",
+        "D": "2i + 3j"
+      },
+      "answer": "A",
+      "explanation": "Horizontal velocity remains same (2i), vertical velocity reverses direction (-3j).",
+      "hash": "588f52d5536c86d6",
+      "translations": {
+        "hi": {
+          "question": "प्रारंभिक बिंदु A पर एक प्रक्षेप्य का वेग (2i + 3j) m/s है। बिंदु B पर इसका वेग क्या होगा जहाँ यह जमीन से टकराता है?",
+          "options": {
+            "A": "2i - 3j",
+            "B": "-2i + 3j",
+            "C": "-2i - 3j",
+            "D": "2i + 3j"
+          },
+          "explanation": "क्षैतिज वेग समान रहता है (2i), ऊर्ध्वाधर वेग की दिशा उलट जाती है (-3j)।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-010",
+      "number": 10,
+      "question": "A stone is dropped from a height h. It hits the ground with a velocity v. If it is thrown down with velocity v, its velocity at ground is:",
+      "options": {
+        "A": "v sqrt(2)",
+        "B": "2v",
+        "C": "v sqrt(3)",
+        "D": "4v"
+      },
+      "answer": "A",
+      "explanation": "v^2 = 2gh. New V^2 = v^2 + 2gh = v^2 + v^2 = 2v^2. V = v sqrt(2).",
+      "hash": "a686d2f2d73cf146",
+      "translations": {
+        "hi": {
+          "question": "एक पत्थर h ऊंचाई से गिराया जाता है। यह v वेग के साथ जमीन से टकराता है। यदि इसे v वेग से नीचे फेंका जाए, तो जमीन पर इसका वेग होगा:",
+          "options": {
+            "A": "v sqrt(2)",
+            "B": "2v",
+            "C": "v sqrt(3)",
+            "D": "4v"
+          },
+          "explanation": "v^2 = 2gh. नया V^2 = v^2 + 2gh = v^2 + v^2 = 2v^2. V = v sqrt(2)."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-011",
+      "number": 11,
+      "question": "A particle starts from origin with velocity 5i m/s and moves in x-y plane with acceleration (3i + 2j) m/s^2. Its y-coordinate when x is 84m:",
+      "options": {
+        "A": "36 m",
+        "B": "24 m",
+        "C": "48 m",
+        "D": "12 m"
+      },
+      "answer": "A",
+      "explanation": "x = 5t + 1.5t^2 = 84 => t = 6s. y = 0.5 * 2 * t^2 = 6^2 = 36 m.",
+      "hash": "163441134ac27564",
+      "translations": {
+        "hi": {
+          "question": "एक कण मूल बिंदु से 5i m/s के वेग से शुरू होता है और (3i + 2j) m/s^2 के त्वरण के साथ x-y समतल में चलता है। जब x 84m है तो इसका y-निर्देशांक क्या होगा?",
+          "options": {
+            "A": "36 m",
+            "B": "24 m",
+            "C": "48 m",
+            "D": "12 m"
+          },
+          "explanation": "x = 5t + 1.5t^2 = 84 => t = 6s. y = 0.5 * 2 * t^2 = 6^2 = 36 m."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-012",
+      "number": 12,
+      "question": "For a projectile, the time of flight T and horizontal range R are related as gT^2 = 2R tan(theta). The angle of projection is:",
+      "options": {
+        "A": "theta",
+        "B": "theta / 2",
+        "C": "2 theta",
+        "D": "45 degrees"
+      },
+      "answer": "A",
+      "explanation": "Substituting T = 2u sin(theta)/g and R = u^2 sin(2theta)/g confirms the identity.",
+      "hash": "cbbf3c3ec5a540b3",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य के लिए, उड़ान का समय T और क्षैतिज परास R इस प्रकार संबंधित हैं: gT^2 = 2R tan(theta)। प्रक्षेपण का कोण है:",
+          "options": {
+            "A": "theta",
+            "B": "theta / 2",
+            "C": "2 theta",
+            "D": "45 डिग्री"
+          },
+          "explanation": "T = 2u sin(theta)/g और R = u^2 sin(2theta)/g को प्रतिस्थापित करने पर पहचान की पुष्टि होती है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-013",
+      "number": 13,
+      "question": "A body is moving with velocity 30 m/s towards East. After 10s its velocity becomes 40 m/s towards North. The average acceleration is:",
+      "options": {
+        "A": "5 m/s^2",
+        "B": "1 m/s^2",
+        "C": "7 m/s^2",
+        "D": "10 m/s^2"
+      },
+      "answer": "A",
+      "explanation": "Change in velocity = sqrt(40^2 + 30^2) = 50. Acceleration = 50 / 10 = 5 m/s^2.",
+      "hash": "46e96c01335332f3",
+      "translations": {
+        "hi": {
+          "question": "एक पिंड पूर्व की ओर 30 m/s के वेग से चल रहा है। 10 सेकंड के बाद इसका वेग उत्तर की ओर 40 m/s हो जाता है। औसत त्वरण है:",
+          "options": {
+            "A": "5 m/s^2",
+            "B": "1 m/s^2",
+            "C": "7 m/s^2",
+            "D": "10 m/s^2"
+          },
+          "explanation": "वेग में परिवर्तन = sqrt(40^2 + 30^2) = 50. त्वरण = 50 / 10 = 5 m/s^2."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-014",
+      "number": 14,
+      "question": "A bullet is to be fired with a speed of 2000 m/s to hit a target 200m away. How high above the target must the gun be aimed?",
+      "options": {
+        "A": "5 cm",
+        "B": "10 cm",
+        "C": "2 cm",
+        "D": "20 cm"
+      },
+      "answer": "A",
+      "explanation": "t = 200/2000 = 0.1s. h = 0.5 * 10 * (0.1)^2 = 0.05 m = 5 cm.",
+      "hash": "bc6e17a50207d69b",
+      "translations": {
+        "hi": {
+          "question": "200 मीटर दूर लक्ष्य को भेदने के लिए 2000 m/s की गति से एक गोली चलानी है। लक्ष्य से कितना ऊपर बंदूक तानी जानी चाहिए?",
+          "options": {
+            "A": "5 cm",
+            "B": "10 cm",
+            "C": "2 cm",
+            "D": "20 cm"
+          },
+          "explanation": "t = 200/2000 = 0.1s. h = 0.5 * 10 * (0.1)^2 = 0.05 m = 5 cm."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-015",
+      "number": 15,
+      "question": "Which of the following does not change during a projectile motion?",
+      "options": {
+        "A": "Vertical component of velocity",
+        "B": "Momentum",
+        "C": "Acceleration",
+        "D": "Kinetic Energy"
+      },
+      "answer": "C",
+      "explanation": "Acceleration is constant at g (downwards) throughout the motion.",
+      "hash": "e3f2ec996813e7bd",
+      "translations": {
+        "hi": {
+          "question": "प्रक्षेप्य गति के दौरान निम्नलिखित में से क्या नहीं बदलता है?",
+          "options": {
+            "A": "वेग का ऊर्ध्वाधर घटक",
+            "B": "संवेग",
+            "C": "त्वरण",
+            "D": "गतिज ऊर्जा"
+          },
+          "explanation": "पूरी गति के दौरान त्वरण g (नीचे की ओर) पर स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-016",
+      "number": 16,
+      "question": "The position of a particle is x = 2 - 5t + 6t^2. The initial velocity is:",
+      "options": {
+        "A": "-5 m/s",
+        "B": "2 m/s",
+        "C": "6 m/s",
+        "D": "12 m/s"
+      },
+      "answer": "A",
+      "explanation": "v = dx/dt = -5 + 12t. At t=0, v = -5 m/s.",
+      "hash": "0bf079a8814467bc",
+      "translations": {
+        "hi": {
+          "question": "एक कण की स्थिति x = 2 - 5t + 6t^2 है। प्रारंभिक वेग है:",
+          "options": {
+            "A": "-5 m/s",
+            "B": "2 m/s",
+            "C": "6 m/s",
+            "D": "12 m/s"
+          },
+          "explanation": "v = dx/dt = -5 + 12t. t=0 पर, v = -5 m/s."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-017",
+      "number": 17,
+      "question": "If the horizontal range and maximum height of a projectile are equal, the angle of projection is:",
+      "options": {
+        "A": "tan^-1(4)",
+        "B": "45 degrees",
+        "C": "60 degrees",
+        "D": "tan^-1(2)"
+      },
+      "answer": "A",
+      "explanation": "R = H => (u^2 sin2theta)/g = (u^2 sin^2theta)/2g => tan theta = 4.",
+      "hash": "1360428872f1c6ff",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी प्रक्षेप्य की क्षैतिज परास और अधिकतम ऊंचाई बराबर है, तो प्रक्षेपण का कोण है:",
+          "options": {
+            "A": "tan^-1(4)",
+            "B": "45 डिग्री",
+            "C": "60 डिग्री",
+            "D": "tan^-1(2)"
+          },
+          "explanation": "R = H => (u^2 sin2theta)/g = (u^2 sin^2theta)/2g => tan theta = 4."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-018",
+      "number": 18,
+      "question": "A body falling from rest has a velocity v after it falls through a distance h. The distance it has to fall down further for its velocity to become 2v is:",
+      "options": {
+        "A": "3h",
+        "B": "4h",
+        "C": "2h",
+        "D": "h"
+      },
+      "answer": "A",
+      "explanation": "v^2 = 2gh. (2v)^2 = 2gH => 4v^2 = 2gH => H = 4h. Extra distance = 4h - h = 3h.",
+      "hash": "2d771cdc69f366af",
+      "translations": {
+        "hi": {
+          "question": "विराम अवस्था से गिरने वाले पिंड का वेग h दूरी गिरने के बाद v हो जाता है। वेग 2v होने के लिए उसे और कितनी दूरी तक गिरना होगा?",
+          "options": {
+            "A": "3h",
+            "B": "4h",
+            "C": "2h",
+            "D": "h"
+          },
+          "explanation": "v^2 = 2gh. (2v)^2 = 2gH => 4v^2 = 2gH => H = 4h. अतिरिक्त दूरी = 4h - h = 3h."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-019",
+      "number": 19,
+      "question": "A wheel of radius 1m rolls forward half a revolution on a horizontal ground. The magnitude of the displacement of the point of the wheel initially in contact with the ground is:",
+      "options": {
+        "A": "sqrt(pi^2 + 4)",
+        "B": "pi + 2",
+        "C": "pi",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Horizontal distance = pi * r, vertical distance = 2r. Displacement = sqrt((pi*r)^2 + (2r)^2).",
+      "hash": "5e3445bda12a7307",
+      "translations": {
+        "hi": {
+          "question": "1 मीटर त्रिज्या का एक पहिया क्षैतिज जमीन पर आधा चक्कर आगे लुढ़कता है। पहिये के उस बिंदु के विस्थापन का परिमाण क्या है जो शुरू में जमीन के संपर्क में था?",
+          "options": {
+            "A": "sqrt(pi^2 + 4)",
+            "B": "pi + 2",
+            "C": "pi",
+            "D": "2"
+          },
+          "explanation": "क्षैतिज दूरी = pi * r, ऊर्ध्वाधर दूरी = 2r. विस्थापन = sqrt((pi*r)^2 + (2r)^2)."
+        }
+      }
+    },
+    {
+      "id": "kinematics-04-020",
+      "number": 20,
+      "question": "The maximum range of a gun on horizontal terrain is 16 km. If g = 10 m/s^2, what must be the muzzle velocity?",
+      "options": {
+        "A": "400 m/s",
+        "B": "200 m/s",
+        "C": "160 m/s",
+        "D": "800 m/s"
+      },
+      "answer": "A",
+      "explanation": "Rmax = u^2/g => 16000 = u^2/10 => u = 400 m/s.",
+      "hash": "45b4ff942543b980",
+      "translations": {
+        "hi": {
+          "question": "क्षैतिज इलाके में एक बंदूक की अधिकतम परास 16 किमी है। यदि g = 10 m/s^2 है, तो मज़ल वेग क्या होना चाहिए?",
+          "options": {
+            "A": "400 m/s",
+            "B": "200 m/s",
+            "C": "160 m/s",
+            "D": "800 m/s"
+          },
+          "explanation": "Rmax = u^2/g => 16000 = u^2/10 => u = 400 m/s."
+        }
+      }
+    }
+  ]
+}

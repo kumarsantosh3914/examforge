@@ -1,0 +1,527 @@
+{
+  "subject": "Oscillations & Waves",
+  "set": 5,
+  "title": "Oscillations & Waves Mock Test 5",
+  "questions": [
+    {
+      "id": "oscillations-waves-05-001",
+      "number": 1,
+      "question": "The restoring force acting on a particle executing SHM is F = -kx. The potential energy is minimum at:",
+      "options": {
+        "A": "x = A",
+        "B": "x = -A",
+        "C": "x = 0",
+        "D": "At any point"
+      },
+      "answer": "C",
+      "explanation": "Potential energy U = 1/2 kx². At the mean position (x = 0), U is zero (minimum) and kinetic energy is maximum.",
+      "hash": "fff237d8a3256ee1",
+      "translations": {
+        "hi": {
+          "question": "SHM कर रहे एक कण पर कार्य करने वाला प्रत्यानयन बल F = -kx है। स्थितिज ऊर्जा न्यूनतम कहाँ होती है?",
+          "options": {
+            "A": "x = A",
+            "B": "x = -A",
+            "C": "x = 0",
+            "D": "किसी भी बिंदु पर"
+          },
+          "explanation": "स्थितिज ऊर्जा U = 1/2 kx² होती है। माध्य स्थिति (x = 0) पर, U शून्य (न्यूनतम) होती है और गतिज ऊर्जा अधिकतम होती है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-002",
+      "number": 2,
+      "question": "A simple harmonic oscillator has a time period T. The time taken by it to travel from the mean position to half of its amplitude is:",
+      "options": {
+        "A": "T/6",
+        "B": "T/12",
+        "C": "T/8",
+        "D": "T/4"
+      },
+      "answer": "B",
+      "explanation": "Using x = A sin(ωt), for x = A/2, we get sin(ωt) = 1/2. Thus, ωt = π/6. Substituting ω = 2π/T, we get (2π/T)t = π/6, which gives t = T/12.",
+      "hash": "064eeca0e4e53148",
+      "translations": {
+        "hi": {
+          "question": "एक सरल आवर्त दोलक का आवर्तकाल T है। इसके द्वारा माध्य स्थिति से अपने आयाम के आधे तक जाने में लिया गया समय है:",
+          "options": {
+            "A": "T/6",
+            "B": "T/12",
+            "C": "T/8",
+            "D": "T/4"
+          },
+          "explanation": "x = A sin(ωt) का उपयोग करते हुए, x = A/2 के लिए, हमें sin(ωt) = 1/2 प्राप्त होता है। अतः, ωt = π/6। ω = 2π/T रखने पर, हमें (2π/T)t = π/6 प्राप्त होता है, जिससे t = T/12 मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-003",
+      "number": 3,
+      "question": "Longitudinal waves can be polarized. This statement is:",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "True only for sound",
+        "D": "True only in solids"
+      },
+      "answer": "B",
+      "explanation": "Only transverse waves can be polarized because their oscillations are perpendicular to the direction of propagation. Longitudinal waves oscillate along the direction of travel.",
+      "hash": "17e6dde72299b4f4",
+      "translations": {
+        "hi": {
+          "question": "अनुदैर्ध्य तरंगों को ध्रुवित किया जा सकता है। यह कथन है:",
+          "options": {
+            "A": "सत्य",
+            "B": "असत्य",
+            "C": "केवल ध्वनि के लिए सत्य",
+            "D": "केवल ठोसों में सत्य"
+          },
+          "explanation": "केवल अनुप्रस्थ तरंगों को ध्रुवित किया जा सकता है क्योंकि उनके दोलन संचरण की दिशा के लंबवत होते हैं। अनुदैर्ध्य तरंगें यात्रा की दिशा में ही दोलन करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-004",
+      "number": 4,
+      "question": "If the earth stops rotating, the time period of a simple pendulum at the equator will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become infinite"
+      },
+      "answer": "B",
+      "explanation": "Rotation reduces effective g at the equator (g' = g - Rω²). If rotation stops, g' increases to g. Since T is proportional to 1/sqrt(g), T will decrease.",
+      "hash": "924a7306360a7961",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी घूमना बंद कर दे, तो भूमध्य रेखा पर एक सरल लोलक का आवर्तकाल:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "अनंत हो जाएगा"
+          },
+          "explanation": "घूर्णन भूमध्य रेखा पर प्रभावी g को कम कर देता है (g' = g - Rω²)। यदि घूर्णन रुक जाता है, तो g' बढ़कर g हो जाता है। चूंकि T, 1/sqrt(g) के समानुपाती होता है, इसलिए T घट जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-005",
+      "number": 5,
+      "question": "The equation of a stationary wave is y = 10 sin(πx/4) cos(20πt). The distance between two consecutive antinodes is:",
+      "options": {
+        "A": "2 units",
+        "B": "4 units",
+        "C": "8 units",
+        "D": "1 unit"
+      },
+      "answer": "B",
+      "explanation": "k = π/4. Wavelength λ = 2π/k = 2π / (π/4) = 8 units. Distance between consecutive antinodes = λ/2 = 4 units.",
+      "hash": "676989ff8b5f894f",
+      "translations": {
+        "hi": {
+          "question": "एक अप्रगामी तरंग का समीकरण y = 10 sin(πx/4) cos(20πt) है। दो क्रमिक प्रस्पंदों के बीच की दूरी है:",
+          "options": {
+            "A": "2 इकाई",
+            "B": "4 इकाई",
+            "C": "8 इकाई",
+            "D": "1 इकाई"
+          },
+          "explanation": "k = π/4। तरंगदैर्ध्य λ = 2π/k = 2π / (π/4) = 8 इकाई। क्रमिक प्रस्पंदों के बीच की दूरी = λ/2 = 4 इकाई।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-006",
+      "number": 6,
+      "question": "At what temperature will the speed of sound in air be double its value at 0°C?",
+      "options": {
+        "A": "546°C",
+        "B": "819°C",
+        "C": "273°C",
+        "D": "1092°C"
+      },
+      "answer": "B",
+      "explanation": "v is proportional to sqrt(T). To double the speed, T must become 4 times. T1 = 273 K. T2 = 4 * 273 = 1092 K. In Celsius: 1092 - 273 = 819°C.",
+      "hash": "3672db06748bf653",
+      "translations": {
+        "hi": {
+          "question": "किस तापमान पर हवा में ध्वनि की गति 0°C पर इसके मान की दोगुनी होगी?",
+          "options": {
+            "A": "546°C",
+            "B": "819°C",
+            "C": "273°C",
+            "D": "1092°C"
+          },
+          "explanation": "v, sqrt(T) के समानुपाती होता है। गति को दोगुना करने के लिए, T को 4 गुना होना चाहिए। T1 = 273 K। T2 = 4 * 273 = 1092 K। सेल्सियस में: 1092 - 273 = 819°C।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-007",
+      "number": 7,
+      "question": "The frequency of a whistle of an engine is 600 Hz. It is moving towards a stationary observer with velocity 30 m/s. The apparent frequency is: (v = 330 m/s)",
+      "options": {
+        "A": "600 Hz",
+        "B": "660 Hz",
+        "C": "540 Hz",
+        "D": "630 Hz"
+      },
+      "answer": "B",
+      "explanation": "f' = f * [v / (v - vs)] = 600 * [330 / (330 - 30)] = 600 * (330 / 300) = 660 Hz.",
+      "hash": "1eabe08b94cc5e9c",
+      "translations": {
+        "hi": {
+          "question": "एक इंजन की सीटी की आवृत्ति 600 Hz है। यह 30 m/s के वेग से एक स्थिर श्रोता की ओर बढ़ रहा है। आभासी आवृत्ति है: (v = 330 m/s)",
+          "options": {
+            "A": "600 Hz",
+            "B": "660 Hz",
+            "C": "540 Hz",
+            "D": "630 Hz"
+          },
+          "explanation": "f' = f * [v / (v - vs)] = 600 * [330 / (330 - 30)] = 600 * (330 / 300) = 660 Hz।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-008",
+      "number": 8,
+      "question": "The fundamental frequency of an open organ pipe is 300 Hz. The frequency of the second harmonic is:",
+      "options": {
+        "A": "300 Hz",
+        "B": "600 Hz",
+        "C": "900 Hz",
+        "D": "150 Hz"
+      },
+      "answer": "B",
+      "explanation": "Open pipes produce all harmonics. The second harmonic is 2 * f_fundamental = 2 * 300 = 600 Hz.",
+      "hash": "8e975429a9096699",
+      "translations": {
+        "hi": {
+          "question": "एक खुले ऑर्गन पाइप की मूल आवृत्ति 300 Hz है। द्वितीय हारमोनिक की आवृत्ति है:",
+          "options": {
+            "A": "300 Hz",
+            "B": "600 Hz",
+            "C": "900 Hz",
+            "D": "150 Hz"
+          },
+          "explanation": "खुले पाइप सभी हारमोनिक्स उत्पन्न करते हैं। द्वितीय हारमोनिक 2 * f_मूल = 2 * 300 = 600 Hz होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-009",
+      "number": 9,
+      "question": "If a wave is traveling in a positive x-direction, the general form of the wave equation is:",
+      "options": {
+        "A": "y = f(ax + bt)",
+        "B": "y = f(ax - bt)",
+        "C": "y = f(ax² - bt²)",
+        "D": "y = f(x) + f(t)"
+      },
+      "answer": "B",
+      "explanation": "For motion in the positive direction, the argument must be in the form (kx - ωt) or (x - vt).",
+      "hash": "cecdf74de3eef1ad",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई तरंग धनात्मक x-दिशा में यात्रा कर रही है, तो तरंग समीकरण का सामान्य रूप है:",
+          "options": {
+            "A": "y = f(ax + bt)",
+            "B": "y = f(ax - bt)",
+            "C": "y = f(ax² - bt²)",
+            "D": "y = f(x) + f(t)"
+          },
+          "explanation": "धनात्मक दिशा में गति के लिए, तर्क (argument) (kx - ωt) या (x - vt) के रूप में होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-010",
+      "number": 10,
+      "question": "Which of the following is an example of a heavily damped motion?",
+      "options": {
+        "A": "Motion of a simple pendulum in air",
+        "B": "Motion of a needle in a galvanometer",
+        "C": "A shock absorber in a car",
+        "D": "Tuning fork vibrations"
+      },
+      "answer": "C",
+      "explanation": "Heavily damped (overdamped) systems, like car shock absorbers, do not oscillate but return to equilibrium slowly to prevent bouncing.",
+      "hash": "d3f45a7fc8350ebf",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा अत्यधिक अवमंदित गति (heavily damped motion) का उदाहरण है?",
+          "options": {
+            "A": "हवा में एक सरल लोलक की गति",
+            "B": "एक गैल्वेनोमीटर में सुई की गति",
+            "C": "कार में एक शॉक एब्जॉर्बर",
+            "D": "स्वरित्र के कंपन"
+          },
+          "explanation": "अत्यधिक अवमंदित सिस्टम, जैसे कार के शॉक एब्जॉर्बर, दोलन नहीं करते हैं बल्कि उछाल को रोकने के लिए धीरे-धीरे साम्यावस्था में लौटते हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-011",
+      "number": 11,
+      "question": "A spring has a force constant k. If it is stretched by a distance x, the work done is:",
+      "options": {
+        "A": "kx",
+        "B": "1/2 kx²",
+        "C": "2kx²",
+        "D": "1/2 k²x"
+      },
+      "answer": "B",
+      "explanation": "The work done in stretching or compressing a spring is stored as elastic potential energy, given by 1/2 kx².",
+      "hash": "e0344a0de390b70d",
+      "translations": {
+        "hi": {
+          "question": "एक स्प्रिंग का बल नियतांक k है। यदि इसे x दूरी तक खींचा जाता है, तो किया गया कार्य है:",
+          "options": {
+            "A": "kx",
+            "B": "1/2 kx²",
+            "C": "2kx²",
+            "D": "1/2 k²x"
+          },
+          "explanation": "स्प्रिंग को खींचने या संपीड़ित करने में किया गया कार्य प्रत्यास्थ स्थितिज ऊर्जा के रूप में संचित होता है, जो 1/2 kx² द्वारा दिया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-012",
+      "number": 12,
+      "question": "In a sonometer experiment, the frequency n of the vibrating string is inversely proportional to:",
+      "options": {
+        "A": "Square root of tension",
+        "B": "Length of the string",
+        "C": "Density of the material",
+        "D": "Radius of the string"
+      },
+      "answer": "B",
+      "explanation": "n = (1/2L) * sqrt(T/μ). This shows n is inversely proportional to L (n ∝ 1/L).",
+      "hash": "ec5aa6afcf9f54bc",
+      "translations": {
+        "hi": {
+          "question": "सोनोमीटर प्रयोग में, कंपन करने वाली डोरी की आवृत्ति n किसके व्युत्क्रमानुपाती होती है?",
+          "options": {
+            "A": "तनाव के वर्गमूल के",
+            "B": "डोरी की लंबाई के",
+            "C": "पदार्थ के घनत्व के",
+            "D": "डोरी की त्रिज्या के"
+          },
+          "explanation": "n = (1/2L) * sqrt(T/μ)। यह दर्शाता है कि n, L के व्युत्क्रमानुपाती है (n ∝ 1/L)।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-013",
+      "number": 13,
+      "question": "The ratio of the speed of an aircraft to the speed of sound is called:",
+      "options": {
+        "A": "Laplace number",
+        "B": "Mach number",
+        "C": "Reynolds number",
+        "D": "Doppler ratio"
+      },
+      "answer": "B",
+      "explanation": "Mach number = Velocity of object / Velocity of sound in the same medium.",
+      "hash": "3fbf2d19f2f84c61",
+      "translations": {
+        "hi": {
+          "question": "एक विमान की गति और ध्वनि की गति के अनुपात को कहा जाता है:",
+          "options": {
+            "A": "लाप्लास संख्या",
+            "B": "मैक संख्या (Mach number)",
+            "C": "रेनॉल्ड्स संख्या",
+            "D": "डॉप्लर अनुपात"
+          },
+          "explanation": "मैक संख्या = वस्तु का वेग / उसी माध्यम में ध्वनि का वेग।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-014",
+      "number": 14,
+      "question": "The frequency of the first overtone of a closed organ pipe is the same as the fundamental frequency of an open organ pipe. The ratio of their lengths is:",
+      "options": {
+        "A": "3 : 2",
+        "B": "2 : 3",
+        "C": "1 : 2",
+        "D": "1 : 3"
+      },
+      "answer": "A",
+      "explanation": "f_closed_1st_overtone = 3v / 4L1. f_open_fundamental = v / 2L2. Setting them equal: 3v / 4L1 = v / 2L2 => 3/2L1 = 1/L2 => L1/L2 = 3/2.",
+      "hash": "d6a82d295e6057a1",
+      "translations": {
+        "hi": {
+          "question": "एक बंद ऑर्गन पाइप के पहले अधिसवरक की आवृत्ति एक खुले ऑर्गन पाइप की मूल आवृत्ति के समान है। उनकी लंबाई का अनुपात है:",
+          "options": {
+            "A": "3 : 2",
+            "B": "2 : 3",
+            "C": "1 : 2",
+            "D": "1 : 3"
+          },
+          "explanation": "f_बंद_पहला_अधिसवरक = 3v / 4L1। f_खुला_मूल = v / 2L2। उन्हें बराबर रखने पर: 3v / 4L1 = v / 2L2 => 3/2L1 = 1/L2 => L1/L2 = 3/2।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-015",
+      "number": 15,
+      "question": "The distance between a node and the next node in a standing wave is λ/2. This distance corresponds to a phase difference of:",
+      "options": {
+        "A": "π/2",
+        "B": "π",
+        "C": "2π",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "Phase difference Δφ = (2π/λ) * Δx. For Δx = λ/2, Δφ = (2π/λ) * (λ/2) = π.",
+      "hash": "051675b65cb07365",
+      "translations": {
+        "hi": {
+          "question": "एक अप्रगामी तरंग में एक निस्पंद और अगले निस्पंद के बीच की दूरी λ/2 है। यह दूरी किस कलांतर के अनुरूप है?",
+          "options": {
+            "A": "π/2",
+            "B": "π",
+            "C": "2π",
+            "D": "0"
+          },
+          "explanation": "कलांतर Δφ = (2π/λ) * Δx। Δx = λ/2 के लिए, Δφ = (2π/λ) * (λ/2) = π।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-016",
+      "number": 16,
+      "question": "When sound travels from air to water, which of the following increases?",
+      "options": {
+        "A": "Frequency",
+        "B": "Wavelength",
+        "C": "Intensity",
+        "D": "Period"
+      },
+      "answer": "B",
+      "explanation": "Speed of sound in water is higher than in air. Since f is constant, v = fλ implies that λ must increase when v increases.",
+      "hash": "140547a7ee903ce1",
+      "translations": {
+        "hi": {
+          "question": "जब ध्वनि हवा से पानी में जाती है, तो निम्नलिखित में से क्या बढ़ जाता है?",
+          "options": {
+            "A": "आवृत्ति",
+            "B": "तरंगदैर्ध्य",
+            "C": "तीव्रता",
+            "D": "आवर्तकाल"
+          },
+          "explanation": "पानी में ध्वनि की गति हवा की तुलना में अधिक होती है। चूंकि f स्थिर है, v = fλ का तात्पर्य है कि v बढ़ने पर λ भी बढ़ना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-017",
+      "number": 17,
+      "question": "The unit of loudness is:",
+      "options": {
+        "A": "Hertz",
+        "B": "Decibel",
+        "C": "Meter",
+        "D": "Pascal"
+      },
+      "answer": "B",
+      "explanation": "Loudness is measured on a logarithmic scale in decibels (dB).",
+      "hash": "173c6dbbcb2d0952",
+      "translations": {
+        "hi": {
+          "question": "प्रबलता (loudness) की इकाई है:",
+          "options": {
+            "A": "हर्ट्ज़",
+            "B": "डेसीबल (Decibel)",
+            "C": "मीटर",
+            "D": "पास्कल"
+          },
+          "explanation": "प्रबलता को डेसीबल (dB) में लघुगणकीय पैमाने पर मापा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-018",
+      "number": 18,
+      "question": "In SHM, the phase difference between velocity and acceleration is:",
+      "options": {
+        "A": "0",
+        "B": "π/2",
+        "C": "π",
+        "D": "2π"
+      },
+      "answer": "B",
+      "explanation": "Velocity leads displacement by π/2, and acceleration leads displacement by π. Thus, acceleration leads velocity by π/2.",
+      "hash": "9230b8a718ba88cb",
+      "translations": {
+        "hi": {
+          "question": "SHM में, वेग और त्वरण के बीच कलांतर होता है:",
+          "options": {
+            "A": "0",
+            "B": "π/2",
+            "C": "π",
+            "D": "2π"
+          },
+          "explanation": "वेग विस्थापन से π/2 आगे होता है, और त्वरण विस्थापन से π आगे होता है। अतः, त्वरण वेग से π/2 आगे होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-019",
+      "number": 19,
+      "question": "A wave undergoes reflection at a free boundary. The phase change is:",
+      "options": {
+        "A": "π",
+        "B": "0",
+        "C": "π/2",
+        "D": "2π"
+      },
+      "answer": "B",
+      "explanation": "Reflection at a free boundary (rarer medium) occurs without any phase change.",
+      "hash": "cfa6801499b388cf",
+      "translations": {
+        "hi": {
+          "question": "एक तरंग एक मुक्त सीमा (free boundary) पर परावर्तित होती है। कला परिवर्तन है:",
+          "options": {
+            "A": "π",
+            "B": "0",
+            "C": "π/2",
+            "D": "2π"
+          },
+          "explanation": "एक मुक्त सीमा (विरल माध्यम) पर परावर्तन बिना किसी कला परिवर्तन के होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-05-020",
+      "number": 20,
+      "question": "If the length of a simple pendulum is made 9 times, its time period becomes:",
+      "options": {
+        "A": "9 times",
+        "B": "3 times",
+        "C": "81 times",
+        "D": "1/3 times"
+      },
+      "answer": "B",
+      "explanation": "T ∝ sqrt(L). If L becomes 9L, T becomes sqrt(9) = 3 times.",
+      "hash": "a54099523f1329b2",
+      "translations": {
+        "hi": {
+          "question": "यदि एक सरल लोलक की लंबाई 9 गुना कर दी जाए, तो इसका आवर्तकाल हो जाएगा:",
+          "options": {
+            "A": "9 गुना",
+            "B": "3 गुना",
+            "C": "81 गुना",
+            "D": "1/3 गुना"
+          },
+          "explanation": "T ∝ sqrt(L)। यदि L, 9L हो जाता है, तो T, sqrt(9) = 3 गुना हो जाता है।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "subject": "Physical World & Measurement",
+  "set": 1,
+  "title": "Physical World & Measurement Mock Test 1",
+  "questions": [
+    {
+      "id": "physical-world-measurement-01-001",
+      "number": 1,
+      "question": "Which of the following is not a fundamental physical quantity in the SI system?",
+      "options": {
+        "A": "Luminous intensity",
+        "B": "Amount of substance",
+        "C": "Angle",
+        "D": "Electric current"
+      },
+      "answer": "C",
+      "explanation": "Angle is a supplementary physical quantity, not one of the seven fundamental quantities.",
+      "hash": "7c42bf8a6c73be68",
+      "translations": {
+        "hi": {
+          "question": "SI प्रणाली में निम्नलिखित में से कौन सी एक मूल भौतिक राशि नहीं है?",
+          "options": {
+            "A": "ज्योति तीव्रता",
+            "B": "पदार्थ की मात्रा",
+            "C": "कोण",
+            "D": "विद्युत धारा"
+          },
+          "explanation": "कोण एक पूरक भौतिक राशि है, न कि सात मूल राशियों में से एक।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-002",
+      "number": 2,
+      "question": "The dimensional formula for the Universal Gravitational Constant (G) is:",
+      "options": {
+        "A": "[M-1 L3 T-2]",
+        "B": "[M1 L3 T-2]",
+        "C": "[M-1 L2 T-2]",
+        "D": "[M1 L2 T-1]"
+      },
+      "answer": "A",
+      "explanation": "Derived from F = Gmm/r^2, G has dimensions [M-1 L3 T-2].",
+      "hash": "657ada2e93f5e55a",
+      "translations": {
+        "hi": {
+          "question": "सार्वत्रिक गुरुत्वाकर्षण नियतांक (G) का विमीय सूत्र है:",
+          "options": {
+            "A": "[M-1 L3 T-2]",
+            "B": "[M1 L3 T-2]",
+            "C": "[M-1 L2 T-2]",
+            "D": "[M1 L2 T-1]"
+          },
+          "explanation": "F = Gmm/r^2 से व्युत्पन्न, G की विमा [M-1 L3 T-2] है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-003",
+      "number": 3,
+      "question": "If the error in the measurement of radius of a sphere is 2%, then the error in the determination of its volume will be:",
+      "options": {
+        "A": "2%",
+        "B": "4%",
+        "C": "6%",
+        "D": "8%"
+      },
+      "answer": "C",
+      "explanation": "Volume V = (4/3)πr^3. Percentage error in V = 3 * (percentage error in r) = 3 * 2% = 6%.",
+      "hash": "5e798753be29a75a",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी गोले की त्रिज्या के मापन में त्रुटि 2% है, तो उसके आयतन के निर्धारण में त्रुटि होगी:",
+          "options": {
+            "A": "2%",
+            "B": "4%",
+            "C": "6%",
+            "D": "8%"
+          },
+          "explanation": "आयतन V = (4/3)πr^3। V में प्रतिशत त्रुटि = 3 * (r में प्रतिशत त्रुटि) = 3 * 2% = 6%।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-004",
+      "number": 4,
+      "question": "Which of the following pairs have the same dimensions?",
+      "options": {
+        "A": "Force and Power",
+        "B": "Torque and Energy",
+        "C": "Momentum and Force",
+        "D": "Stress and Strain"
+      },
+      "answer": "B",
+      "explanation": "Both Torque and Energy have the dimensional formula [M1 L2 T-2].",
+      "hash": "168faed86a3d2869",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किस जोड़े की विमाएँ समान हैं?",
+          "options": {
+            "A": "बल और शक्ति",
+            "B": "टॉर्क और ऊर्जा",
+            "C": "संवेग और बल",
+            "D": "प्रतिबल और विकृति"
+          },
+          "explanation": "टॉर्क और ऊर्जा दोनों का विमीय सूत्र [M1 L2 T-2] है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-005",
+      "number": 5,
+      "question": "Light year is a unit of which physical quantity?",
+      "options": {
+        "A": "Time",
+        "B": "Distance",
+        "C": "Velocity",
+        "D": "Intensity of light"
+      },
+      "answer": "B",
+      "explanation": "Light year is the distance traveled by light in vacuum in one year.",
+      "hash": "37d8ae802fa66d84",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश वर्ष किस भौतिक राशि की इकाई है?",
+          "options": {
+            "A": "समय",
+            "B": "दूरी",
+            "C": "वेग",
+            "D": "प्रकाश की तीव्रता"
+          },
+          "explanation": "प्रकाश वर्ष एक वर्ष में निर्वात में प्रकाश द्वारा तय की गई दूरी है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-006",
+      "number": 6,
+      "question": "How many significant figures are there in 0.007 m^2?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Leading zeros are not significant; only the digit 7 is significant.",
+      "hash": "9480cf4bb2dd663e",
+      "translations": {
+        "hi": {
+          "question": "0.007 m^2 में कितने सार्थक अंक हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "अग्रणी शून्य सार्थक नहीं होते हैं; केवल अंक 7 सार्थक है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-007",
+      "number": 7,
+      "question": "A student measures the thickness of a wire using a screw gauge of least count 0.001 cm. Which of the following is the correct measurement?",
+      "options": {
+        "A": "5.3 cm",
+        "B": "5.32 cm",
+        "C": "5.320 cm",
+        "D": "5.3200 cm"
+      },
+      "answer": "C",
+      "explanation": "The measurement must be reported up to the precision of the least count (three decimal places).",
+      "hash": "4a2c8625dcff0df2",
+      "translations": {
+        "hi": {
+          "question": "एक छात्र 0.001 सेमी के अल्पतमांक वाले स्क्रू गेज का उपयोग करके एक तार की मोटाई मापता है। निम्नलिखित में से कौन सा सही माप है?",
+          "options": {
+            "A": "5.3 cm",
+            "B": "5.32 cm",
+            "C": "5.320 cm",
+            "D": "5.3200 cm"
+          },
+          "explanation": "माप को अल्पतमांक की सटीकता (तीन दशमलव स्थानों) तक सूचित किया जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-008",
+      "number": 8,
+      "question": "The dimensional formula for Planck constant is the same as that of:",
+      "options": {
+        "A": "Force",
+        "B": "Linear momentum",
+        "C": "Angular momentum",
+        "D": "Energy"
+      },
+      "answer": "C",
+      "explanation": "Both Planck constant (h) and angular momentum (L) have dimensions [M1 L2 T-1].",
+      "hash": "8e7ae989fbeef9e0",
+      "translations": {
+        "hi": {
+          "question": "प्लांक नियतांक का विमीय सूत्र किसके समान है?",
+          "options": {
+            "A": "बल",
+            "B": "रेखीय संवेग",
+            "C": "कोणीय संवेग",
+            "D": "ऊर्जा"
+          },
+          "explanation": "प्लांक नियतांक (h) और कोणीय संवेग (L) दोनों की विमाएँ [M1 L2 T-1] हैं।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-009",
+      "number": 9,
+      "question": "Parsec is the unit of:",
+      "options": {
+        "A": "Time",
+        "B": "Distance",
+        "C": "Frequency",
+        "D": "Angular acceleration"
+      },
+      "answer": "B",
+      "explanation": "Parsec (parallax second) is a large unit of distance used in astronomy.",
+      "hash": "ce0155626785179c",
+      "translations": {
+        "hi": {
+          "question": "पारसेक किसकी इकाई है?",
+          "options": {
+            "A": "समय",
+            "B": "दूरी",
+            "C": "आवृत्ति",
+            "D": "कोणीय त्वरण"
+          },
+          "explanation": "पारसेक (पैरालैक्स सेकंड) खगोल विज्ञान में प्रयुक्त दूरी की एक बड़ी इकाई है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-010",
+      "number": 10,
+      "question": "The dimensions of impulse are the same as that of:",
+      "options": {
+        "A": "Pressure",
+        "B": "Linear momentum",
+        "C": "Force",
+        "D": "Acceleration"
+      },
+      "answer": "B",
+      "explanation": "Impulse = Change in momentum, so both have dimensions [M1 L1 T-1].",
+      "hash": "fe1a39c02d20b104",
+      "translations": {
+        "hi": {
+          "question": "आवेग की विमाएँ किसके समान हैं?",
+          "options": {
+            "A": "दबाव",
+            "B": "रेखीय संवेग",
+            "C": "बल",
+            "D": "त्वरण"
+          },
+          "explanation": "आवेग = संवेग में परिवर्तन, इसलिए दोनों की विमाएँ [M1 L1 T-1] हैं।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-011",
+      "number": 11,
+      "question": "The unit of Stefan-Boltzmann constant is:",
+      "options": {
+        "A": "W m-2 K-1",
+        "B": "W m-2 K-4",
+        "C": "W m-1 K-4",
+        "D": "W m2 K-4"
+      },
+      "answer": "B",
+      "explanation": "From E = σT^4, where E is power per unit area, σ = E/T^4.",
+      "hash": "81cb3bb6fa2a8bb3",
+      "translations": {
+        "hi": {
+          "question": "स्टीफन-बोल्ट्ज़मैन नियतांक की इकाई है:",
+          "options": {
+            "A": "W m-2 K-1",
+            "B": "W m-2 K-4",
+            "C": "W m-1 K-4",
+            "D": "W m2 K-4"
+          },
+          "explanation": "E = σT^4 से, जहाँ E प्रति इकाई क्षेत्रफल शक्ति है, σ = E/T^4."
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-012",
+      "number": 12,
+      "question": "The number of significant figures in 6.022 x 10^23 is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "23"
+      },
+      "answer": "C",
+      "explanation": "In scientific notation, only the decimal part determines significant figures.",
+      "hash": "c36829b7f8812e9b",
+      "translations": {
+        "hi": {
+          "question": "6.022 x 10^23 में सार्थक अंकों की संख्या है:",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "23"
+          },
+          "explanation": "वैज्ञानिक संकेतन में, केवल दशमलव भाग ही सार्थक अंकों को निर्धारित करता है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-013",
+      "number": 13,
+      "question": "The dimensions of 1/(μ₀ε₀) are:",
+      "options": {
+        "A": "[L T-1]",
+        "B": "[L2 T-2]",
+        "C": "[L-1 T]",
+        "D": "[L-2 T2]"
+      },
+      "answer": "B",
+      "explanation": "Since c = 1/√(μ₀ε₀), then 1/(μ₀ε₀) = c^2, which has dimensions [L2 T-2].",
+      "hash": "b1590d4b5da5b902",
+      "translations": {
+        "hi": {
+          "question": "1/(μ₀ε₀) की विमाएँ हैं:",
+          "options": {
+            "A": "[L T-1]",
+            "B": "[L2 T-2]",
+            "C": "[L-1 T]",
+            "D": "[L-2 T2]"
+          },
+          "explanation": "चूँकि c = 1/√(μ₀ε₀), इसलिए 1/(μ₀ε₀) = c^2, जिसकी विमा [L2 T-2] है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-014",
+      "number": 14,
+      "question": "Which of the following is a dimensionless quantity?",
+      "options": {
+        "A": "Strain",
+        "B": "Stress",
+        "C": "Specific heat",
+        "D": "Gravitational constant"
+      },
+      "answer": "A",
+      "explanation": "Strain is the ratio of change in dimension to original dimension, hence dimensionless.",
+      "hash": "a153a69870f9a972",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक विमाहीन राशि है?",
+          "options": {
+            "A": "विकृति",
+            "B": "प्रतिबल",
+            "C": "विशिष्ट ऊष्मा",
+            "D": "गुरुत्वाकर्षण नियतांक"
+          },
+          "explanation": "विकृति आयाम में परिवर्तन और मूल आयाम का अनुपात है, इसलिए यह विमाहीन है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-015",
+      "number": 15,
+      "question": "Which device is used to measure the internal diameter of a tube?",
+      "options": {
+        "A": "Screw Gauge",
+        "B": "Vernier Callipers",
+        "C": "Spherometer",
+        "D": "Meter Scale"
+      },
+      "answer": "B",
+      "explanation": "Vernier callipers have internal jaws specifically for measuring internal diameters.",
+      "hash": "0ca7720eb7fc8677",
+      "translations": {
+        "hi": {
+          "question": "ट्यूब के आंतरिक व्यास को मापने के लिए किस उपकरण का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्क्रू गेज",
+            "B": "वर्नियर कैलिपर्स",
+            "C": "स्फेरोमीटर",
+            "D": "मीटर स्केल"
+          },
+          "explanation": "वर्नियर कैलिपर्स में आंतरिक व्यास मापने के लिए विशेष रूप से आंतरिक जबड़े होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-016",
+      "number": 16,
+      "question": "The dimension of coefficient of viscosity is:",
+      "options": {
+        "A": "[ML-1T-1]",
+        "B": "[MLT-1]",
+        "C": "[ML-1T-2]",
+        "D": "[ML-2T-1]"
+      },
+      "answer": "A",
+      "explanation": "Using F = ηA(dv/dx), η has dimensions [M1 L-1 T-1].",
+      "hash": "f9e6ff5288ce8fae",
+      "translations": {
+        "hi": {
+          "question": "श्यानता गुणांक की विमा है:",
+          "options": {
+            "A": "[ML-1T-1]",
+            "B": "[MLT-1]",
+            "C": "[ML-1T-2]",
+            "D": "[ML-2T-1]"
+          },
+          "explanation": "F = ηA(dv/dx) का उपयोग करते हुए, η की विमाएँ [M1 L-1 T-1] हैं।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-017",
+      "number": 17,
+      "question": "Pressure is defined as Force per unit Area. Its dimensional formula is:",
+      "options": {
+        "A": "[ML-1T-2]",
+        "B": "[ML-2T-2]",
+        "C": "[MLT-2]",
+        "D": "[ML-1T-1]"
+      },
+      "answer": "A",
+      "explanation": "Pressure = Force/Area = [MLT-2]/[L2] = [ML-1T-2].",
+      "hash": "4269f89eb5a1eea1",
+      "translations": {
+        "hi": {
+          "question": "दबाव को प्रति इकाई क्षेत्रफल बल के रूप में परिभाषित किया गया है। इसका विमीय सूत्र है:",
+          "options": {
+            "A": "[ML-1T-2]",
+            "B": "[ML-2T-2]",
+            "C": "[MLT-2]",
+            "D": "[ML-1T-1]"
+          },
+          "explanation": "दबाव = बल/क्षेत्रफल = [MLT-2]/[L2] = [ML-1T-2]।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-018",
+      "number": 18,
+      "question": "The dimensions of surface tension are:",
+      "options": {
+        "A": "[MT-2]",
+        "B": "[MLT-2]",
+        "C": "[ML-1T-2]",
+        "D": "[MT-1]"
+      },
+      "answer": "A",
+      "explanation": "Surface tension is Force/Length, so [MLT-2]/[L] = [MT-2].",
+      "hash": "ad013ec93d846af7",
+      "translations": {
+        "hi": {
+          "question": "पृष्ठ तनाव की विमाएँ हैं:",
+          "options": {
+            "A": "[MT-2]",
+            "B": "[MLT-2]",
+            "C": "[ML-1T-2]",
+            "D": "[MT-1]"
+          },
+          "explanation": "पृष्ठ तनाव बल/लंबाई है, इसलिए [MLT-2]/[L] = [MT-2]."
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-019",
+      "number": 19,
+      "question": "Random errors can be reduced by:",
+      "options": {
+        "A": "Using better instruments",
+        "B": "Taking large number of observations",
+        "C": "Changing the person performing the experiment",
+        "D": "Using a different formula"
+      },
+      "answer": "B",
+      "explanation": "Taking the arithmetic mean of a large number of observations reduces random error.",
+      "hash": "22d7918c087bc21f",
+      "translations": {
+        "hi": {
+          "question": "यादृच्छिक त्रुटियों को किसके द्वारा कम किया जा सकता है?",
+          "options": {
+            "A": "बेहतर उपकरणों का उपयोग करके",
+            "B": "बड़ी संख्या में अवलोकन लेकर",
+            "C": "प्रयोग करने वाले व्यक्ति को बदलकर",
+            "D": "एक अलग सूत्र का उपयोग करके"
+          },
+          "explanation": "बड़ी संख्या में अवलोकनों का अंकगणितीय माध्य लेने से यादृच्छिक त्रुटि कम हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "physical-world-measurement-01-020",
+      "number": 20,
+      "question": "Which of the following is not a unit of time?",
+      "options": {
+        "A": "Microsecond",
+        "B": "Leap year",
+        "C": "Lunar month",
+        "D": "Parallactic second"
+      },
+      "answer": "D",
+      "explanation": "Parallactic second (Parsec) is a unit of length/distance.",
+      "hash": "d040343280b82420",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन समय की इकाई नहीं है?",
+          "options": {
+            "A": "माइक्रोसेकंड",
+            "B": "लीप वर्ष",
+            "C": "चंद्र मास",
+            "D": "पैरालैक्टिक सेकंड"
+          },
+          "explanation": "पैरालैक्टिक सेकंड (पारसेक) लंबाई/दूरी की एक इकाई है।"
+        }
+      }
+    }
+  ]
+}

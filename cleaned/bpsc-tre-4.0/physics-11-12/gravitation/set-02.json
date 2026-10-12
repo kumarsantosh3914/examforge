@@ -1,0 +1,527 @@
+{
+  "subject": "Gravitation",
+  "set": 2,
+  "title": "Gravitation Mock Test 2",
+  "questions": [
+    {
+      "id": "gravitation-02-001",
+      "number": 1,
+      "question": "The gravitational force between two point masses is F. If the medium between them is replaced by water, the force will:",
+      "options": {
+        "A": "Decrease",
+        "B": "Increase",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "C",
+      "explanation": "Gravitational force is independent of the intervening medium between the masses.",
+      "hash": "aa3a5899e32bcebf",
+      "translations": {
+        "hi": {
+          "question": "दो बिंदु द्रव्यमानों के बीच गुरुत्वाकर्षण बल F है। यदि उनके बीच के माध्यम को पानी से बदल दिया जाए, तो बल:",
+          "options": {
+            "A": "घटेगा",
+            "B": "बढ़ेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "गुरुत्वाकर्षण बल द्रव्यमानों के बीच के माध्यम पर निर्भर नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-002",
+      "number": 2,
+      "question": "At what height from the surface of Earth will the value of g become g/4? (R is Earth's radius)",
+      "options": {
+        "A": "R",
+        "B": "2R",
+        "C": "R/2",
+        "D": "4R"
+      },
+      "answer": "A",
+      "explanation": "g' = g / (1 + h/R)^2. For g' = g/4, (1 + h/R) = 2, so h = R.",
+      "hash": "5774586aeadc010e",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह से किस ऊंचाई पर g का मान g/4 हो जाएगा? (R पृथ्वी की त्रिज्या है)",
+          "options": {
+            "A": "R",
+            "B": "2R",
+            "C": "R/2",
+            "D": "4R"
+          },
+          "explanation": "g' = g / (1 + h/R)^2। g' = g/4 के लिए, (1 + h/R) = 2, इसलिए h = R।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-003",
+      "number": 3,
+      "question": "The escape velocity of a body from the Earth depends on its mass (m) as:",
+      "options": {
+        "A": "m^0",
+        "B": "m^1",
+        "C": "m^2",
+        "D": "m^-1"
+      },
+      "answer": "A",
+      "explanation": "Escape velocity is given by sqrt(2GM/R); it is independent of the mass of the escaping body.",
+      "hash": "c7fe7c62b11aac12",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी से किसी वस्तु का पलायन वेग उसके द्रव्यमान (m) पर किस प्रकार निर्भर करता है?",
+          "options": {
+            "A": "m^0",
+            "B": "m^1",
+            "C": "m^2",
+            "D": "m^-1"
+          },
+          "explanation": "पलायन वेग sqrt(2GM/R) द्वारा दिया जाता है; यह पलायन करने वाली वस्तु के द्रव्यमान पर निर्भर नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-004",
+      "number": 4,
+      "question": "If the distance of a planet from the Sun is 4 times that of Earth, its period of revolution around the Sun is:",
+      "options": {
+        "A": "4 years",
+        "B": "8 years",
+        "C": "16 years",
+        "D": "64 years"
+      },
+      "answer": "B",
+      "explanation": "T^2 ∝ R^3. T' = T * (4/1)^(3/2) = 1 * 8 = 8 years.",
+      "hash": "b3dccac5fa0f18d3",
+      "translations": {
+        "hi": {
+          "question": "यदि सूर्य से किसी ग्रह की दूरी पृथ्वी की तुलना में 4 गुना है, तो सूर्य के चारों ओर उसका परिक्रमण काल है:",
+          "options": {
+            "A": "4 वर्ष",
+            "B": "8 वर्ष",
+            "C": "16 वर्ष",
+            "D": "64 वर्ष"
+          },
+          "explanation": "T^2 ∝ R^3। T' = T * (4/1)^(3/2) = 1 * 8 = 8 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-005",
+      "number": 5,
+      "question": "Two satellites of masses m1 and m2 (m1 > m2) are in the same circular orbit. Which is true?",
+      "options": {
+        "A": "Both have same speed",
+        "B": "m1 has higher speed",
+        "C": "m2 has higher speed",
+        "D": "Both have same KE"
+      },
+      "answer": "A",
+      "explanation": "Orbital speed v = sqrt(GM/R) depends only on the orbit radius, not on the satellite mass.",
+      "hash": "a4d38c1ca6d508f2",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान m1 और m2 (m1 > m2) वाले दो उपग्रह एक ही वृत्ताकार कक्षा में हैं। कौन सा सत्य है?",
+          "options": {
+            "A": "दोनों की गति समान है",
+            "B": "m1 की गति अधिक है",
+            "C": "m2 की गति अधिक है",
+            "D": "दोनों की KE समान है"
+          },
+          "explanation": "कक्षीय गति v = sqrt(GM/R) केवल कक्षा की त्रिज्या पर निर्भर करती है, उपग्रह के द्रव्यमान पर नहीं।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-006",
+      "number": 6,
+      "question": "The gravitational potential at the center of a hollow spherical shell of mass M and radius R is:",
+      "options": {
+        "A": "Zero",
+        "B": "-GM/R",
+        "C": "-3GM/2R",
+        "D": "-GM/2R"
+      },
+      "answer": "B",
+      "explanation": "Inside a hollow shell, the potential is constant and equal to its value at the surface (-GM/R).",
+      "hash": "9621edb251fb50f5",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R के एक खोखले गोलाकार शेल के केंद्र पर गुरुत्वीय विभव है:",
+          "options": {
+            "A": "शून्य",
+            "B": "-GM/R",
+            "C": "-3GM/2R",
+            "D": "-GM/2R"
+          },
+          "explanation": "एक खोखले शेल के अंदर, विभव स्थिर होता है और इसकी सतह पर इसके मान (-GM/R) के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-007",
+      "number": 7,
+      "question": "Gravitational intensity (E) and gravitational potential (V) are related as:",
+      "options": {
+        "A": "E = dV/dr",
+        "B": "E = -dV/dr",
+        "C": "V = -dE/dr",
+        "D": "E = V/r"
+      },
+      "answer": "B",
+      "explanation": "Gravitational field is the negative gradient of the gravitational potential.",
+      "hash": "06e8931adbc603fd",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वीय तीव्रता (E) और गुरुत्वीय विभव (V) किस प्रकार संबंधित हैं?",
+          "options": {
+            "A": "E = dV/dr",
+            "B": "E = -dV/dr",
+            "C": "V = -dE/dr",
+            "D": "E = V/r"
+          },
+          "explanation": "गुरुत्वाकर्षण क्षेत्र गुरुत्वीय विभव का ऋणात्मक प्रवणता (negative gradient) है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-008",
+      "number": 8,
+      "question": "If a body is taken from Earth to the Moon, its:",
+      "options": {
+        "A": "Mass changes",
+        "B": "Weight remains same",
+        "C": "Mass remains same, weight changes",
+        "D": "Both mass and weight change"
+      },
+      "answer": "C",
+      "explanation": "Mass is intrinsic; weight depends on local gravity, which is 1/6th on the Moon.",
+      "hash": "47050cc2b9759b5b",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु को पृथ्वी से चंद्रमा पर ले जाया जाता है, तो उसकी:",
+          "options": {
+            "A": "द्रव्यमान बदलता है",
+            "B": "भार समान रहता है",
+            "C": "द्रव्यमान समान रहता है, भार बदलता है",
+            "D": "द्रव्यमान और भार दोनों बदलते हैं"
+          },
+          "explanation": "द्रव्यमान आंतरिक है; भार स्थानीय गुरुत्वाकर्षण पर निर्भर करता है, जो चंद्रमा पर 1/6 होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-009",
+      "number": 9,
+      "question": "The intensity of gravitational field at a point inside a uniform spherical shell is:",
+      "options": {
+        "A": "Maximum",
+        "B": "Minimum but not zero",
+        "C": "Zero",
+        "D": "Variable"
+      },
+      "answer": "C",
+      "explanation": "The gravitational field intensity inside a hollow spherical shell is zero everywhere.",
+      "hash": "325951fb86818bf2",
+      "translations": {
+        "hi": {
+          "question": "एक समान गोलाकार शेल के अंदर किसी बिंदु पर गुरुत्वाकर्षण क्षेत्र की तीव्रता होती है:",
+          "options": {
+            "A": "अधिकतम",
+            "B": "न्यूनतम लेकिन शून्य नहीं",
+            "C": "शून्य",
+            "D": "परिवर्तनशील"
+          },
+          "explanation": "एक खोखले गोलाकार शेल के अंदर गुरुत्वाकर्षण क्षेत्र की तीव्रता हर जगह शून्य होती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-010",
+      "number": 10,
+      "question": "A geostationary satellite orbits Earth in which plane?",
+      "options": {
+        "A": "Polar plane",
+        "B": "Equatorial plane",
+        "C": "Any plane passing through center",
+        "D": "Depends on launching site"
+      },
+      "answer": "B",
+      "explanation": "For a satellite to stay fixed over a point on Earth, it must orbit in the equatorial plane.",
+      "hash": "b270aa284c45f57a",
+      "translations": {
+        "hi": {
+          "question": "एक भू-स्थिर उपग्रह किस तल में पृथ्वी की परिक्रमा करता है?",
+          "options": {
+            "A": "ध्रुवीय तल",
+            "B": "भूमध्यरेखीय तल",
+            "C": "केंद्र से गुजरने वाला कोई भी तल",
+            "D": "लॉन्चिंग साइट पर निर्भर करता है"
+          },
+          "explanation": "पृथ्वी पर एक बिंदु के ऊपर स्थिर रहने के लिए, उपग्रह को भूमध्यरेखीय तल में परिक्रमा करनी चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-011",
+      "number": 11,
+      "question": "If a body is projected at 45 degrees to the horizontal, the escape velocity will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "C",
+      "explanation": "Escape velocity is independent of the angle of projection.",
+      "hash": "0562506ad173847f",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु को क्षैतिज से 45 डिग्री पर प्रक्षेपित किया जाता है, तो पलायन वेग:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "पलायन वेग प्रक्षेपण के कोण से स्वतंत्र होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-012",
+      "number": 12,
+      "question": "The work done in bringing a unit mass from infinity to a point in gravitational field is:",
+      "options": {
+        "A": "Gravitational Potential",
+        "B": "Gravitational Force",
+        "C": "Gravitational Intensity",
+        "D": "Escape Velocity"
+      },
+      "answer": "A",
+      "explanation": "Work done per unit mass in bringing it from infinity is the definition of potential.",
+      "hash": "9f7084f9afe2b912",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वाकर्षण क्षेत्र में अनंत से एक इकाई द्रव्यमान को एक बिंदु तक लाने में किया गया कार्य है:",
+          "options": {
+            "A": "गुरुत्वीय विभव",
+            "B": "गुरुत्वाकर्षण बल",
+            "C": "गुरुत्वीय तीव्रता",
+            "D": "पलायन वेग"
+          },
+          "explanation": "इकाई द्रव्यमान को अनंत से लाने में किया गया कार्य विभव की परिभाषा है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-013",
+      "number": 13,
+      "question": "Total mechanical energy of a satellite orbiting at height h is:",
+      "options": {
+        "A": "-GMm / (R+h)",
+        "B": "-GMm / 2(R+h)",
+        "C": "GMm / 2(R+h)",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "Total energy E = PE + KE = -GMm/(R+h) + GMm/2(R+h) = -GMm/2(R+h).",
+      "hash": "4fd79e452955fb2f",
+      "translations": {
+        "hi": {
+          "question": "ऊंचाई h पर परिक्रमा कर रहे उपग्रह की कुल यांत्रिक ऊर्जा है:",
+          "options": {
+            "A": "-GMm / (R+h)",
+            "B": "-GMm / 2(R+h)",
+            "C": "GMm / 2(R+h)",
+            "D": "शून्य"
+          },
+          "explanation": "कुल ऊर्जा E = PE + KE = -GMm/(R+h) + GMm/2(R+h) = -GMm/2(R+h)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-014",
+      "number": 14,
+      "question": "The graph of 'g' vs distance 'r' from the center of Earth (r < R) is a:",
+      "options": {
+        "A": "Straight line",
+        "B": "Parabola",
+        "C": "Hyperbola",
+        "D": "Horizontal line"
+      },
+      "answer": "A",
+      "explanation": "Inside Earth, g ∝ r, so the graph is a straight line passing through the origin.",
+      "hash": "8d0b15baf6b1673c",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी के केंद्र से दूरी 'r' (r < R) के साथ 'g' का ग्राफ है:",
+          "options": {
+            "A": "सरल रेखा",
+            "B": "परवलय",
+            "C": "अतिपरवलय",
+            "D": "क्षैतिज रेखा"
+          },
+          "explanation": "पृथ्वी के अंदर, g ∝ r, इसलिए ग्राफ मूल बिंदु से गुजरने वाली एक सरल रेखा है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-015",
+      "number": 15,
+      "question": "Which quantity is NOT conserved for a planet moving in an elliptical orbit?",
+      "options": {
+        "A": "Angular Momentum",
+        "B": "Total Energy",
+        "C": "Linear Momentum",
+        "D": "Areal Velocity"
+      },
+      "answer": "C",
+      "explanation": "Linear momentum changes as the planet's speed and direction change during the orbit.",
+      "hash": "f54e3d8a87f9759b",
+      "translations": {
+        "hi": {
+          "question": "दीर्घवृत्ताकार कक्षा में घूमने वाले ग्रह के लिए कौन सी मात्रा संरक्षित नहीं है?",
+          "options": {
+            "A": "कोणीय संवेग",
+            "B": "कुल ऊर्जा",
+            "C": "रैखिक संवेग",
+            "D": "क्षेत्रीय वेग"
+          },
+          "explanation": "रैखिक संवेग बदलता है क्योंकि कक्षा के दौरान ग्रह की गति और दिशा बदलती रहती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-016",
+      "number": 16,
+      "question": "The escape velocity on Moon is less than Earth because Moon has:",
+      "options": {
+        "A": "No atmosphere",
+        "B": "Smaller radius and mass",
+        "C": "Larger distance from Sun",
+        "D": "Cold surface"
+      },
+      "answer": "B",
+      "explanation": "Ve = sqrt(2GM/R). Smaller M and R result in a lower escape velocity.",
+      "hash": "c386cbc39c749897",
+      "translations": {
+        "hi": {
+          "question": "चंद्रमा पर पलायन वेग पृथ्वी से कम है क्योंकि चंद्रमा की:",
+          "options": {
+            "A": "कोई वायुमंडल नहीं है",
+            "B": "त्रिज्या और द्रव्यमान कम है",
+            "C": "सूर्य से दूरी अधिक है",
+            "D": "सतह ठंडी है"
+          },
+          "explanation": "Ve = sqrt(2GM/R)। कम M और R के परिणामस्वरूप पलायन वेग कम होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-017",
+      "number": 17,
+      "question": "The binding energy of a satellite of mass m in an orbit of radius r is:",
+      "options": {
+        "A": "GMm / r",
+        "B": "GMm / 2r",
+        "C": "-GMm / 2r",
+        "D": "GMm / r²"
+      },
+      "answer": "B",
+      "explanation": "Binding energy is the positive of total energy. BE = -(-GMm/2r) = GMm/2r.",
+      "hash": "a0e7c39180cb2831",
+      "translations": {
+        "hi": {
+          "question": "त्रिज्या r की कक्षा में द्रव्यमान m के उपग्रह की बंधन ऊर्जा (binding energy) है:",
+          "options": {
+            "A": "GMm / r",
+            "B": "GMm / 2r",
+            "C": "-GMm / 2r",
+            "D": "GMm / r²"
+          },
+          "explanation": "बंधन ऊर्जा कुल ऊर्जा का धनात्मक मान है। BE = -(-GMm/2r) = GMm/2r।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-018",
+      "number": 18,
+      "question": "If rotational speed of Earth increases, the weight of a body at the equator will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "B",
+      "explanation": "Effective g' = g - ω²R cos²φ. As ω increases, g' at the equator (φ=0) decreases.",
+      "hash": "22d7e47b71ed52f9",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी की घूर्णन गति बढ़ती है, तो भूमध्य रेखा पर किसी वस्तु का भार:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "प्रभावी g' = g - ω²R cos²φ। जैसे-जैसे ω बढ़ता है, भूमध्य रेखा (φ=0) पर g' घटता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-019",
+      "number": 19,
+      "question": "According to Kepler's Third Law, T² is proportional to:",
+      "options": {
+        "A": "R",
+        "B": "R²",
+        "C": "R³",
+        "D": "sqrt(R)"
+      },
+      "answer": "C",
+      "explanation": "Kepler's Law of Periods states T² ∝ R³, where R is the semi-major axis.",
+      "hash": "f002746f5abad274",
+      "translations": {
+        "hi": {
+          "question": "केप्लर के तीसरे नियम के अनुसार, T² किसके समानुपाती होता है?",
+          "options": {
+            "A": "R",
+            "B": "R²",
+            "C": "R³",
+            "D": "sqrt(R)"
+          },
+          "explanation": "केप्लर का आवर्तकाल नियम बताता है कि T² ∝ R³, जहाँ R अर्ध-दीर्घ अक्ष (semi-major axis) है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-02-020",
+      "number": 20,
+      "question": "The period of a polar satellite is approximately:",
+      "options": {
+        "A": "24 hours",
+        "B": "100 minutes",
+        "C": "12 hours",
+        "D": "6 hours"
+      },
+      "answer": "B",
+      "explanation": "Polar satellites are low altitude satellites; their period is around 100 minutes.",
+      "hash": "8cd3a9b1c434b21d",
+      "translations": {
+        "hi": {
+          "question": "ध्रुवीय उपग्रह का आवर्तकाल लगभग होता है:",
+          "options": {
+            "A": "24 घंटे",
+            "B": "100 मिनट",
+            "C": "12 घंटे",
+            "D": "6 घंटे"
+          },
+          "explanation": "ध्रुवीय उपग्रह कम ऊंचाई वाले उपग्रह होते हैं; उनका आवर्तकाल लगभग 100 मिनट होता है।"
+        }
+      }
+    }
+  ]
+}

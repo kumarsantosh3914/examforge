@@ -1,0 +1,527 @@
+{
+  "subject": "Gravitation",
+  "set": 4,
+  "title": "Gravitation Mock Test 4",
+  "questions": [
+    {
+      "id": "gravitation-04-001",
+      "number": 1,
+      "question": "If the acceleration due to gravity on the surface of a planet is same as that on Earth and its density is four times that of Earth, the radius of the planet is:",
+      "options": {
+        "A": "4R",
+        "B": "R/4",
+        "C": "R/2",
+        "D": "16R"
+      },
+      "answer": "B",
+      "explanation": "Since g = (4/3)πGρR, if g is constant, R is inversely proportional to density ρ.",
+      "hash": "ec7b1d1edaf6d497",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी ग्रह की सतह पर गुरुत्वीय त्वरण पृथ्वी के समान है और उसका घनत्व पृथ्वी के घनत्व का चार गुना है, तो ग्रह की त्रिज्या है:",
+          "options": {
+            "A": "4R",
+            "B": "R/4",
+            "C": "R/2",
+            "D": "16R"
+          },
+          "explanation": "चूंकि g = (4/3)πGρR, यदि g स्थिर है, तो R घनत्व ρ के व्युत्क्रमानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-002",
+      "number": 2,
+      "question": "Two planets A and B have same density but radii R and 2R respectively. The ratio of escape velocities from their surfaces is:",
+      "options": {
+        "A": "1:2",
+        "B": "1:4",
+        "C": "1:√2",
+        "D": "2:1"
+      },
+      "answer": "A",
+      "explanation": "Escape velocity Ve = R * sqrt(8πGρ/3). Since ρ is same, Ve ∝ R.",
+      "hash": "84735678b5b614df",
+      "translations": {
+        "hi": {
+          "question": "दो ग्रहों A और B का घनत्व समान है लेकिन त्रिज्याएँ क्रमशः R और 2R हैं। उनकी सतहों से पलायन वेगों का अनुपात है:",
+          "options": {
+            "A": "1:2",
+            "B": "1:4",
+            "C": "1:√2",
+            "D": "2:1"
+          },
+          "explanation": "पलायन वेग Ve = R * sqrt(8πGρ/3)। चूंकि ρ समान है, इसलिए Ve ∝ R।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-003",
+      "number": 3,
+      "question": "The change in potential energy when a body of mass m is raised to height h = R/2 from Earth's surface is:",
+      "options": {
+        "A": "mgR/2",
+        "B": "mgR/3",
+        "C": "2mgR/3",
+        "D": "3mgR/2"
+      },
+      "answer": "B",
+      "explanation": "ΔU = mgh / (1 + h/R) = mg(R/2) / (1 + 0.5) = mgR/3.",
+      "hash": "883a5c809decbf4a",
+      "translations": {
+        "hi": {
+          "question": "जब m द्रव्यमान की वस्तु को पृथ्वी की सतह से h = R/2 ऊँचाई तक उठाया जाता है, तो स्थितिज ऊर्जा में परिवर्तन होता है:",
+          "options": {
+            "A": "mgR/2",
+            "B": "mgR/3",
+            "C": "2mgR/3",
+            "D": "3mgR/2"
+          },
+          "explanation": "ΔU = mgh / (1 + h/R) = mg(R/2) / (1 + 0.5) = mgR/3।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-004",
+      "number": 4,
+      "question": "The gravitational potential at a distance r from the center of a solid sphere of radius R (r < R) is proportional to:",
+      "options": {
+        "A": "1/r",
+        "B": "r",
+        "C": "(3R^2 - r^2)",
+        "D": "r^2"
+      },
+      "answer": "C",
+      "explanation": "Inside a solid sphere, V = -GM(3R^2 - r^2) / 2R^3.",
+      "hash": "6f5b74491ce6c23e",
+      "translations": {
+        "hi": {
+          "question": "त्रिज्या R के एक ठोस गोले के केंद्र से r दूरी (r < R) पर गुरुत्वीय विभव किसके समानुपाती होता है?",
+          "options": {
+            "A": "1/r",
+            "B": "r",
+            "C": "(3R^2 - r^2)",
+            "D": "r^2"
+          },
+          "explanation": "एक ठोस गोले के अंदर, V = -GM(3R^2 - r^2) / 2R^3 होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-005",
+      "number": 5,
+      "question": "The condition for a satellite to be in a circular orbit is that its velocity v must be:",
+      "options": {
+        "A": "v < Vo",
+        "B": "v = Vo",
+        "C": "Vo < v < Ve",
+        "D": "v = Ve"
+      },
+      "answer": "B",
+      "explanation": "For a circular orbit, the satellite must move exactly at the orbital velocity (Vo).",
+      "hash": "725158fe54c8732d",
+      "translations": {
+        "hi": {
+          "question": "किसी उपग्रह के वृत्ताकार कक्षा में होने की शर्त यह है कि उसका वेग v होना चाहिए:",
+          "options": {
+            "A": "v < Vo",
+            "B": "v = Vo",
+            "C": "Vo < v < Ve",
+            "D": "v = Ve"
+          },
+          "explanation": "वृत्ताकार कक्षा के लिए, उपग्रह को बिल्कुल कक्षीय वेग (Vo) पर चलना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-006",
+      "number": 6,
+      "question": "A satellite is orbiting very close to Earth's surface. Its time period is approximately:",
+      "options": {
+        "A": "24 hours",
+        "B": "84.6 minutes",
+        "C": "100 minutes",
+        "D": "42 minutes"
+      },
+      "answer": "B",
+      "explanation": "T = 2π * sqrt(R/g) ≈ 84.6 minutes for a satellite near the surface.",
+      "hash": "22ed393829f5b615",
+      "translations": {
+        "hi": {
+          "question": "एक उपग्रह पृथ्वी की सतह के बहुत करीब परिक्रमा कर रहा है। इसका आवर्तकाल लगभग है:",
+          "options": {
+            "A": "24 घंटे",
+            "B": "84.6 मिनट",
+            "C": "100 मिनट",
+            "D": "42 मिनट"
+          },
+          "explanation": "सतह के निकट उपग्रह के लिए T = 2π * sqrt(R/g) ≈ 84.6 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-007",
+      "number": 7,
+      "question": "If the Earth's orbit around the sun were to double in size, the year would be:",
+      "options": {
+        "A": "2 years",
+        "B": "4 years",
+        "C": "2.83 years",
+        "D": "8 years"
+      },
+      "answer": "C",
+      "explanation": "T^2 ∝ R^3. If R' = 2R, T' = T * (2)^1.5 = 1 * 2√2 ≈ 2.83 years.",
+      "hash": "37b00b862fda7d27",
+      "translations": {
+        "hi": {
+          "question": "यदि सूर्य के चारों ओर पृथ्वी की कक्षा का आकार दोगुना हो जाए, तो वर्ष होगा:",
+          "options": {
+            "A": "2 वर्ष",
+            "B": "4 वर्ष",
+            "C": "2.83 वर्ष",
+            "D": "8 वर्ष"
+          },
+          "explanation": "T^2 ∝ R^3। यदि R' = 2R, तो T' = T * (2)^1.5 = 1 * 2√2 ≈ 2.83 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-008",
+      "number": 8,
+      "question": "Gravitational potential is a:",
+      "options": {
+        "A": "Scalar quantity",
+        "B": "Vector quantity",
+        "C": "Tensor quantity",
+        "D": "Dimensionless quantity"
+      },
+      "answer": "A",
+      "explanation": "Potential is defined as work done per unit mass, which is a scalar.",
+      "hash": "80703e0d5b7fbe2a",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वीय विभव एक है:",
+          "options": {
+            "A": "अदिश राशि",
+            "B": "सदिश राशि",
+            "C": "टेंसर राशि",
+            "D": "विमलेस राशि"
+          },
+          "explanation": "विभव को प्रति इकाई द्रव्यमान किए गए कार्य के रूप में परिभाषित किया गया है, जो एक अदिश है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-009",
+      "number": 9,
+      "question": "Inertial mass is measured using:",
+      "options": {
+        "A": "Spring balance",
+        "B": "Physical balance",
+        "C": "Inertial balance",
+        "D": "Hydrometer"
+      },
+      "answer": "C",
+      "explanation": "Inertial mass is measured by the body's resistance to acceleration using an inertial balance.",
+      "hash": "0f0b958eb9aed6bb",
+      "translations": {
+        "hi": {
+          "question": "जड़त्वीय द्रव्यमान किसके उपयोग से मापा जाता है?",
+          "options": {
+            "A": "कमानीदार तुला",
+            "B": "भौतिक तुला",
+            "C": "जड़त्वीय तुला",
+            "D": "हाइड्रोमीटर"
+          },
+          "explanation": "जड़त्वीय द्रव्यमान को जड़त्वीय तुला का उपयोग करके त्वरण के प्रति वस्तु के प्रतिरोध द्वारा मापा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-010",
+      "number": 10,
+      "question": "The kinetic energy of a satellite orbiting at height h is K. Its potential energy is:",
+      "options": {
+        "A": "-K",
+        "B": "-2K",
+        "C": "K/2",
+        "D": "2K"
+      },
+      "answer": "B",
+      "explanation": "In a stable orbit, PE = -2 * KE.",
+      "hash": "e7ba92a088e9d87a",
+      "translations": {
+        "hi": {
+          "question": "ऊँचाई h पर परिक्रमा कर रहे उपग्रह की गतिज ऊर्जा K है। इसकी स्थितिज ऊर्जा है:",
+          "options": {
+            "A": "-K",
+            "B": "-2K",
+            "C": "K/2",
+            "D": "2K"
+          },
+          "explanation": "एक स्थिर कक्षा में, PE = -2 * KE होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-011",
+      "number": 11,
+      "question": "The distance of a geostationary satellite from the center of Earth is R_g. The distance of a satellite with period 3 hours is:",
+      "options": {
+        "A": "R_g/2",
+        "B": "R_g/4",
+        "C": "R_g/8",
+        "D": "R_g/16"
+      },
+      "answer": "B",
+      "explanation": "(T1/T2)^2 = (R1/R2)^3. (24/3)^2 = (R_g/R2)^3. 64 = (R_g/R2)^3. R2 = R_g/4.",
+      "hash": "c6d0e083f54cd796",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी के केंद्र से भू-स्थिर उपग्रह की दूरी R_g है। 3 घंटे के आवर्तकाल वाले उपग्रह की दूरी है:",
+          "options": {
+            "A": "R_g/2",
+            "B": "R_g/4",
+            "C": "R_g/8",
+            "D": "R_g/16"
+          },
+          "explanation": "(T1/T2)^2 = (R1/R2)^3। (24/3)^2 = (R_g/R2)^3। 64 = (R_g/R2)^3। R2 = R_g/4।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-012",
+      "number": 12,
+      "question": "A body weighs 72 N on Earth's surface. Its weight at height h = R/2 is:",
+      "options": {
+        "A": "36 N",
+        "B": "32 N",
+        "C": "18 N",
+        "D": "16 N"
+      },
+      "answer": "B",
+      "explanation": "w' = w / (1 + h/R)^2 = 72 / (1 + 0.5)^2 = 72 / 2.25 = 32 N.",
+      "hash": "61579f5fa2f8101c",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह पर एक वस्तु का भार 72 N है। h = R/2 ऊँचाई पर इसका भार है:",
+          "options": {
+            "A": "36 N",
+            "B": "32 N",
+            "C": "18 N",
+            "D": "16 N"
+          },
+          "explanation": "w' = w / (1 + h/R)^2 = 72 / (1 + 0.5)^2 = 72 / 2.25 = 32 N।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-013",
+      "number": 13,
+      "question": "The escape velocity from the surface of a planet of mass M and radius R is Ve. If both M and R are doubled, the escape velocity will:",
+      "options": {
+        "A": "Remain same",
+        "B": "Become 2Ve",
+        "C": "Become √2Ve",
+        "D": "Become Ve/2"
+      },
+      "answer": "A",
+      "explanation": "Ve = sqrt(2GM/R). If both M and R are doubled, the ratio M/R remains constant.",
+      "hash": "16b9e4a65c84ec16",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान M और त्रिज्या R के ग्रह की सतह से पलायन वेग Ve है। यदि M और R दोनों को दोगुना कर दिया जाए, तो पलायन वेग:",
+          "options": {
+            "A": "समान रहेगा",
+            "B": "2Ve हो जाएगा",
+            "C": "√2Ve हो जाएगा",
+            "D": "Ve/2 हो जाएगा"
+          },
+          "explanation": "Ve = sqrt(2GM/R)। यदि M और R दोनों को दोगुना कर दिया जाए, तो अनुपात M/R स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-014",
+      "number": 14,
+      "question": "According to Newton's law of gravitation, the force between two masses is:",
+      "options": {
+        "A": "Always attractive",
+        "B": "Always repulsive",
+        "C": "Attractive or repulsive",
+        "D": "Depends on temperature"
+      },
+      "answer": "A",
+      "explanation": "Gravitational force is always an attractive force.",
+      "hash": "d071cd15780bb20a",
+      "translations": {
+        "hi": {
+          "question": "न्यूटन के गुरुत्वाकर्षण नियम के अनुसार, दो द्रव्यमानों के बीच बल है:",
+          "options": {
+            "A": "हमेशा आकर्षक",
+            "B": "हमेशा प्रतिकारक",
+            "C": "आकर्षक या प्रतिकारक",
+            "D": "तापमान पर निर्भर करता है"
+          },
+          "explanation": "गुरुत्वाकर्षण बल हमेशा एक आकर्षक बल होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-015",
+      "number": 15,
+      "question": "The gravitational field intensity is zero at:",
+      "options": {
+        "A": "The poles",
+        "B": "The equator",
+        "C": "The center of Earth",
+        "D": "The surface of Earth"
+      },
+      "answer": "C",
+      "explanation": "At the center of a symmetric mass distribution, the net field intensity is zero.",
+      "hash": "67ed3427b30d5337",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वाकर्षण क्षेत्र की तीव्रता कहाँ शून्य होती है?",
+          "options": {
+            "A": "ध्रुवों पर",
+            "B": "भूमध्य रेखा पर",
+            "C": "पृथ्वी के केंद्र पर",
+            "D": "पृथ्वी की सतह पर"
+          },
+          "explanation": "एक सममित द्रव्यमान वितरण के केंद्र पर, शुद्ध क्षेत्र की तीव्रता शून्य होती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-016",
+      "number": 16,
+      "question": "If the sun's mass were 10 times smaller and gravitational constant G were 10 times larger:",
+      "options": {
+        "A": "g would remain same",
+        "B": "Raindrops would fall faster",
+        "C": "Walking on ground would be easier",
+        "D": "Time period of simple pendulum increases"
+      },
+      "answer": "B",
+      "explanation": "Since G' = 10G, the local g on Earth would increase significantly (assuming Earth mass stays same), making objects fall faster.",
+      "hash": "0bf6904e03908d9d",
+      "translations": {
+        "hi": {
+          "question": "यदि सूर्य का द्रव्यमान 10 गुना छोटा होता और गुरुत्वाकर्षण नियतांक G 10 गुना बड़ा होता:",
+          "options": {
+            "A": "g समान रहता",
+            "B": "बारिश की बूंदें तेजी से गिरतीं",
+            "C": "जमीन पर चलना आसान होता",
+            "D": "सरल लोलक का आवर्तकाल बढ़ जाता"
+          },
+          "explanation": "चूंकि G' = 10G, पृथ्वी पर स्थानीय g काफी बढ़ जाएगा (यह मानते हुए कि पृथ्वी का द्रव्यमान समान रहता है), जिससे वस्तुएं तेजी से गिरेंगी।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-017",
+      "number": 17,
+      "question": "Which Kepler's law is known as the Law of Orbits?",
+      "options": {
+        "A": "First Law",
+        "B": "Second Law",
+        "C": "Third Law",
+        "D": "Fourth Law"
+      },
+      "answer": "A",
+      "explanation": "Kepler's first law states that planets move in elliptical orbits with the Sun at one focus.",
+      "hash": "dfab416265c3899a",
+      "translations": {
+        "hi": {
+          "question": "केप्लर के किस नियम को कक्षाओं के नियम (Law of Orbits) के रूप में जाना जाता है?",
+          "options": {
+            "A": "प्रथम नियम",
+            "B": "द्वितीय नियम",
+            "C": "तृतीय नियम",
+            "D": "चतुर्थ नियम"
+          },
+          "explanation": "केप्लर का पहला नियम बताता है कि ग्रह सूर्य के साथ एक फोकस पर दीर्घवृत्ताकार कक्षाओं में चलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-018",
+      "number": 18,
+      "question": "The ratio of gravitational potential at the center to that on the surface of a solid sphere is:",
+      "options": {
+        "A": "1 : 1",
+        "B": "2 : 3",
+        "C": "3 : 2",
+        "D": "1 : 2"
+      },
+      "answer": "C",
+      "explanation": "V_center = 1.5 * V_surface for a uniform solid sphere.",
+      "hash": "2ab8baeafcc59797",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस गोले के केंद्र और सतह पर गुरुत्वीय विभव का अनुपात है:",
+          "options": {
+            "A": "1 : 1",
+            "B": "2 : 3",
+            "C": "3 : 2",
+            "D": "1 : 2"
+          },
+          "explanation": "एक समान ठोस गोले के लिए V_center = 1.5 * V_surface होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-019",
+      "number": 19,
+      "question": "In a satellite, the energy required to double its orbital radius is:",
+      "options": {
+        "A": "-E/2",
+        "B": "E/2",
+        "C": "E",
+        "D": "2E"
+      },
+      "answer": "B",
+      "explanation": "Total energy E = -GMm/2r. To move from r to 2r, ΔE = -GMm/4r - (-GMm/2r) = GMm/4r = E/2 (magnitude).",
+      "hash": "43f3f550f1e87a9d",
+      "translations": {
+        "hi": {
+          "question": "एक उपग्रह में, इसकी कक्षीय त्रिज्या को दोगुना करने के लिए आवश्यक ऊर्जा है:",
+          "options": {
+            "A": "-E/2",
+            "B": "E/2",
+            "C": "E",
+            "D": "2E"
+          },
+          "explanation": "कुल ऊर्जा E = -GMm/2r। r से 2r तक जाने के लिए, ΔE = -GMm/4r - (-GMm/2r) = GMm/4r = E/2 (परिमाण)।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-04-020",
+      "number": 20,
+      "question": "If a body is thrown with 1.5 times the escape velocity, its speed at infinity will be:",
+      "options": {
+        "A": "0.5 Ve",
+        "B": "1.12 Ve",
+        "C": "1.5 Ve",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "v_inf = sqrt(v^2 - Ve^2) = sqrt(1.5^2 - 1^2)Ve = sqrt(1.25)Ve ≈ 1.118 Ve.",
+      "hash": "a743ec734e15af32",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु को पलायन वेग के 1.5 गुना वेग से फेंका जाता है, तो अनंत पर उसकी गति होगी:",
+          "options": {
+            "A": "0.5 Ve",
+            "B": "1.12 Ve",
+            "C": "1.5 Ve",
+            "D": "शून्य"
+          },
+          "explanation": "v_inf = sqrt(v^2 - Ve^2) = sqrt(1.5^2 - 1^2)Ve = sqrt(1.25)Ve ≈ 1.118 Ve।"
+        }
+      }
+    }
+  ]
+}

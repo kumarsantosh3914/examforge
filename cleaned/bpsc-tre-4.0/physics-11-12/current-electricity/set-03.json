@@ -1,0 +1,527 @@
+{
+  "subject": "Current Electricity",
+  "set": 3,
+  "title": "Current Electricity Mock Test 3",
+  "questions": [
+    {
+      "id": "current-electricity-03-001",
+      "number": 1,
+      "question": "A cell of EMF E and internal resistance r is connected across an external resistance R. The condition for maximum power delivery to R is:",
+      "options": {
+        "A": "R = r",
+        "B": "R > r",
+        "C": "R < r",
+        "D": "R = 0"
+      },
+      "answer": "A",
+      "explanation": "According to the Maximum Power Transfer Theorem, power in the load is maximum when load resistance equals internal resistance.",
+      "hash": "f80b14dc34428dc1",
+      "translations": {
+        "hi": {
+          "question": "EMF E और आंतरिक प्रतिरोध r वाला एक सेल बाहरी प्रतिरोध R से जुड़ा है। R को अधिकतम शक्ति वितरण की शर्त क्या है?",
+          "options": {
+            "A": "R = r",
+            "B": "R > r",
+            "C": "R < r",
+            "D": "R = 0"
+          },
+          "explanation": "अधिकतम शक्ति हस्तांतरण प्रमेय के अनुसार, लोड में शक्ति तब अधिकतम होती है जब लोड प्रतिरोध आंतरिक प्रतिरोध के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-002",
+      "number": 2,
+      "question": "The measurement of potential difference using a potentiometer is more accurate than a voltmeter because:",
+      "options": {
+        "A": "Potentiometer has high resistance",
+        "B": "It does not draw any current from the circuit",
+        "C": "It uses a very long wire",
+        "D": "It is based on Joule's heating effect"
+      },
+      "answer": "B",
+      "explanation": "Since it works on the null deflection method, it measures the EMF/Voltage without altering the circuit's original state.",
+      "hash": "47c25fec122874a4",
+      "translations": {
+        "hi": {
+          "question": "वोल्टमीटर की तुलना में पोटेंशियोमीटर का उपयोग करके विभवांतर का मापन अधिक सटीक होता है क्योंकि:",
+          "options": {
+            "A": "पोटेंशियोमीटर का प्रतिरोध उच्च होता है",
+            "B": "यह परिपथ से कोई धारा नहीं लेता है",
+            "C": "यह बहुत लंबे तार का उपयोग करता है",
+            "D": "यह जूल के तापन प्रभाव पर आधारित है"
+          },
+          "explanation": "चूंकि यह शून्य विक्षेप विधि पर कार्य करता है, यह परिपथ की मूल स्थिति को बदले बिना EMF/वोल्टेज को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-003",
+      "number": 3,
+      "question": "What is the current flowing through a 10 ohm resistor when a potential difference of 5V is applied?",
+      "options": {
+        "A": "2 A",
+        "B": "0.5 A",
+        "C": "50 A",
+        "D": "1.5 A"
+      },
+      "answer": "B",
+      "explanation": "Using Ohm's law, I = V/R = 5/10 = 0.5 A.",
+      "hash": "bc44e4c50d42b661",
+      "translations": {
+        "hi": {
+          "question": "5V का विभवांतर लागू होने पर 10 ओम के प्रतिरोधक से कितनी धारा प्रवाहित होती है?",
+          "options": {
+            "A": "2 A",
+            "B": "0.5 A",
+            "C": "50 A",
+            "D": "1.5 A"
+          },
+          "explanation": "ओम के नियम का उपयोग करते हुए, I = V/R = 5/10 = 0.5 A।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-004",
+      "number": 4,
+      "question": "If three identical resistors are connected in series, the equivalent resistance is S. If they are connected in parallel, the equivalent resistance is P. The ratio S/P is:",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "For n resistors, S = nR and P = R/n. Ratio S/P = n^2. Here n=3, so 3^2 = 9.",
+      "hash": "e7a83f4e7df8142b",
+      "translations": {
+        "hi": {
+          "question": "यदि तीन समान प्रतिरोधक श्रेणीक्रम में जुड़े हैं, तो तुल्य प्रतिरोध S है। यदि वे समानांतर में जुड़े हैं, तो तुल्य प्रतिरोध P है। S/P का अनुपात है:",
+          "options": {
+            "A": "3",
+            "B": "6",
+            "C": "9",
+            "D": "1"
+          },
+          "explanation": "n प्रतिरोधों के लिए, S = nR और P = R/n। अनुपात S/P = n^2। यहाँ n=3 है, इसलिए 3^2 = 9।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-005",
+      "number": 5,
+      "question": "The color code of a carbon resistor is Yellow, Violet, Brown, and Gold. Its resistance is:",
+      "options": {
+        "A": "470 ohms ± 5%",
+        "B": "47 ohms ± 10%",
+        "C": "4700 ohms ± 5%",
+        "D": "4.7 ohms ± 5%"
+      },
+      "answer": "A",
+      "explanation": "Yellow=4, Violet=7, Brown=x10^1, Gold=±5%. So, 47 x 10 = 470 ohms.",
+      "hash": "7d2bef56a16d1d63",
+      "translations": {
+        "hi": {
+          "question": "एक कार्बन प्रतिरोधक का रंग कोड पीला, बैंगनी, भूरा और सुनहरा है। इसका प्रतिरोध है:",
+          "options": {
+            "A": "470 ओम ± 5%",
+            "B": "47 ओम ± 10%",
+            "C": "4700 ओम ± 5%",
+            "D": "4.7 ओम ± 5%"
+          },
+          "explanation": "पीला=4, बैंगनी=7, भूरा=x10^1, सुनहरा=±5%। तो, 47 x 10 = 470 ओम।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-006",
+      "number": 6,
+      "question": "When n cells are connected in parallel, the net EMF of the combination is:",
+      "options": {
+        "A": "nE",
+        "B": "E/n",
+        "C": "E",
+        "D": "(n-1)E"
+      },
+      "answer": "C",
+      "explanation": "In a parallel combination of identical cells, the net EMF remains equal to the EMF of a single cell.",
+      "hash": "0bfdbae6ed792da8",
+      "translations": {
+        "hi": {
+          "question": "जब n सेल समानांतर में जुड़े होते हैं, तो संयोजन का शुद्ध EMF होता है:",
+          "options": {
+            "A": "nE",
+            "B": "E/n",
+            "C": "E",
+            "D": "(n-1)E"
+          },
+          "explanation": "समान सेलों के समानांतर संयोजन में, शुद्ध EMF एक सेल के EMF के बराबर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-007",
+      "number": 7,
+      "question": "Electric work done per unit time is called:",
+      "options": {
+        "A": "Electric potential",
+        "B": "Electric current",
+        "C": "Electric power",
+        "D": "Electric energy"
+      },
+      "answer": "C",
+      "explanation": "Power is defined as the rate of doing work or consuming energy. P = W/t.",
+      "hash": "c49ee9adab940eab",
+      "translations": {
+        "hi": {
+          "question": "प्रति इकाई समय में किया गया विद्युत कार्य कहलाता है:",
+          "options": {
+            "A": "विद्युत विभव",
+            "B": "विद्युत धारा",
+            "C": "विद्युत शक्ति",
+            "D": "विद्युत ऊर्जा"
+          },
+          "explanation": "शक्ति को कार्य करने या ऊर्जा खपत की दर के रूप में परिभाषित किया गया है। P = W/t।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-008",
+      "number": 8,
+      "question": "The material of a potentiometer wire should possess:",
+      "options": {
+        "A": "High resistivity and low temperature coefficient",
+        "B": "Low resistivity and high temperature coefficient",
+        "C": "Low resistivity and low temperature coefficient",
+        "D": "High resistivity and high temperature coefficient"
+      },
+      "answer": "A",
+      "explanation": "This ensures that the resistance of the wire does not change significantly with heat during the experiment.",
+      "hash": "3c212e8ca331fab4",
+      "translations": {
+        "hi": {
+          "question": "पोटेंशियोमीटर के तार के पदार्थ में होना चाहिए:",
+          "options": {
+            "A": "उच्च प्रतिरोधकता और निम्न तापमान गुणांक",
+            "B": "निम्न प्रतिरोधकता और उच्च तापमान गुणांक",
+            "C": "निम्न प्रतिरोधकता और निम्न तापमान गुणांक",
+            "D": "उच्च प्रतिरोधकता और उच्च तापमान गुणांक"
+          },
+          "explanation": "यह सुनिश्चित करता है कि प्रयोग के दौरान गर्मी के साथ तार का प्रतिरोध महत्वपूर्ण रूप से न बदले।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-009",
+      "number": 9,
+      "question": "A wire has a resistance of 12 ohms. It is bent in the form of a circle. The effective resistance between two points on any diameter is:",
+      "options": {
+        "A": "12 ohms",
+        "B": "6 ohms",
+        "C": "3 ohms",
+        "D": "24 ohms"
+      },
+      "answer": "C",
+      "explanation": "The circle divides into two semi-circles of 6 ohms each in parallel. Req = (6*6)/(6+6) = 3 ohms.",
+      "hash": "8e46576a7d152b44",
+      "translations": {
+        "hi": {
+          "question": "एक तार का प्रतिरोध 12 ओम है। इसे एक वृत्त के रूप में मोड़ा गया है। किसी भी व्यास के दो बिंदुओं के बीच प्रभावी प्रतिरोध है:",
+          "options": {
+            "A": "12 ओम",
+            "B": "6 ओम",
+            "C": "3 ओम",
+            "D": "24 ओम"
+          },
+          "explanation": "वृत्त 6 ओम के दो अर्ध-वृत्तों में समानांतर में विभाजित होता है। Req = (6*6)/(6+6) = 3 ओम।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-010",
+      "number": 10,
+      "question": "Two copper wires have lengths in ratio 2:3 and radii in ratio 1:2. The ratio of their specific resistances is:",
+      "options": {
+        "A": "2:3",
+        "B": "1:1",
+        "C": "8:3",
+        "D": "1:4"
+      },
+      "answer": "B",
+      "explanation": "Specific resistance (resistivity) depends only on the material, which is copper for both.",
+      "hash": "a1c952da2edcd29e",
+      "translations": {
+        "hi": {
+          "question": "दो तांबे के तारों की लंबाई 2:3 और त्रिज्या 1:2 के अनुपात में है। उनके विशिष्ट प्रतिरोधों का अनुपात है:",
+          "options": {
+            "A": "2:3",
+            "B": "1:1",
+            "C": "8:3",
+            "D": "1:4"
+          },
+          "explanation": "विशिष्ट प्रतिरोध (प्रतिरोधकता) केवल पदार्थ पर निर्भर करता है, जो दोनों के लिए तांबा है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-011",
+      "number": 11,
+      "question": "The drift velocity Vd varies with the relaxation time (tau) as:",
+      "options": {
+        "A": "Vd is proportional to tau",
+        "B": "Vd is proportional to 1/tau",
+        "C": "Vd is proportional to tau^2",
+        "D": "Independent of tau"
+      },
+      "answer": "A",
+      "explanation": "Drift velocity is given by Vd = (eE/m) * tau.",
+      "hash": "79afd6253365fe16",
+      "translations": {
+        "hi": {
+          "question": "अपवाह वेग Vd विश्रांति काल (tau) के साथ कैसे बदलता है?",
+          "options": {
+            "A": "Vd, tau के समानुपाती है",
+            "B": "Vd, 1/tau के समानुपाती है",
+            "C": "Vd, tau^2 के समानुपाती है",
+            "D": "tau से स्वतंत्र"
+          },
+          "explanation": "अपवाह वेग Vd = (eE/m) * tau द्वारा दिया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-012",
+      "number": 12,
+      "question": "For a cell of EMF E and internal resistance r, the graph of terminal voltage V vs current I is a:",
+      "options": {
+        "A": "Straight line with positive slope",
+        "B": "Straight line with negative slope",
+        "C": "Parabola",
+        "D": "Hyperbola"
+      },
+      "answer": "B",
+      "explanation": "V = E - Ir is in the form y = mx + c where slope is -r.",
+      "hash": "7084ab26abe94c06",
+      "translations": {
+        "hi": {
+          "question": "EMF E और आंतरिक प्रतिरोध r वाले सेल के लिए, टर्मिनल वोल्टेज V बनाम धारा I का ग्राफ है:",
+          "options": {
+            "A": "धनात्मक ढाल वाली सीधी रेखा",
+            "B": "ऋणात्मक ढाल वाली सीधी रेखा",
+            "C": "परवलय",
+            "D": "अतिपरवलय"
+          },
+          "explanation": "V = E - Ir, y = mx + c के रूप में है जहाँ ढाल -r है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-013",
+      "number": 13,
+      "question": "The current through a branch in a circuit is determined using:",
+      "options": {
+        "A": "Ampere's Law",
+        "B": "Kirchhoff's Rules",
+        "C": "Coulomb's Law",
+        "D": "Gauss's Law"
+      },
+      "answer": "B",
+      "explanation": "Kirchhoff's laws (Loop and Junction) are used for complex circuit analysis.",
+      "hash": "a839886e66d5b05f",
+      "translations": {
+        "hi": {
+          "question": "परिपथ में किसी शाखा के माध्यम से धारा का निर्धारण किसके उपयोग से किया जाता है?",
+          "options": {
+            "A": "एम्पीयर का नियम",
+            "B": "किरचॉफ के नियम",
+            "C": "कूलम्ब का नियम",
+            "D": "गॉस का नियम"
+          },
+          "explanation": "जटिल परिपथ विश्लेषण के लिए किरचॉफ के नियमों (लूप और संधि) का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-014",
+      "number": 14,
+      "question": "Which of the following is correct for a balanced Wheatstone bridge with resistors P, Q, R, S?",
+      "options": {
+        "A": "P+Q = R+S",
+        "B": "P/Q = R/S",
+        "C": "PR = QS",
+        "D": "P/R = S/Q"
+      },
+      "answer": "B",
+      "explanation": "At balance, the ratio of the arms' resistances are equal, P/Q = R/S.",
+      "hash": "f1a0cca2a54fb485",
+      "translations": {
+        "hi": {
+          "question": "प्रतिरोधों P, Q, R, S वाले संतुलित व्हीटस्टोन ब्रिज के लिए निम्नलिखित में से कौन सा सही है?",
+          "options": {
+            "A": "P+Q = R+S",
+            "B": "P/Q = R/S",
+            "C": "PR = QS",
+            "D": "P/R = S/Q"
+          },
+          "explanation": "संतुलन पर, भुजाओं के प्रतिरोधों का अनुपात बराबर होता है, P/Q = R/S।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-015",
+      "number": 15,
+      "question": "In a heating element, the material should have:",
+      "options": {
+        "A": "High melting point and high resistivity",
+        "B": "Low melting point and low resistivity",
+        "C": "Low melting point and high resistivity",
+        "D": "High melting point and low resistivity"
+      },
+      "answer": "A",
+      "explanation": "High resistivity produces more heat, and a high melting point prevents the wire from melting.",
+      "hash": "8d2621fa4f7cfe55",
+      "translations": {
+        "hi": {
+          "question": "एक हीटिंग तत्व में, पदार्थ में होना चाहिए:",
+          "options": {
+            "A": "उच्च गलनांक और उच्च प्रतिरोधकता",
+            "B": "कम गलनांक और कम प्रतिरोधकता",
+            "C": "कम गलनांक और उच्च प्रतिरोधकता",
+            "D": "उच्च गलनांक और कम प्रतिरोधकता"
+          },
+          "explanation": "उच्च प्रतिरोधकता अधिक ऊष्मा उत्पन्न करती है, और उच्च गलनांक तार को पिघलने से रोकता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-016",
+      "number": 16,
+      "question": "When a battery is short-circuited, the current is:",
+      "options": {
+        "A": "Zero",
+        "B": "E/r",
+        "C": "E/R",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "Short circuit means external resistance R = 0, so I = E / (R + r) becomes I = E/r.",
+      "hash": "b43d35694486cdba",
+      "translations": {
+        "hi": {
+          "question": "जब एक बैटरी शॉर्ट-सर्किट होती है, तो धारा होती है:",
+          "options": {
+            "A": "शून्य",
+            "B": "E/r",
+            "C": "E/R",
+            "D": "अनंत"
+          },
+          "explanation": "शॉर्ट सर्किट का अर्थ है बाहरी प्रतिरोध R = 0, इसलिए I = E / (R + r), I = E/r बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-017",
+      "number": 17,
+      "question": "The resistance of a conductor is 5 ohms at 0°C and 6 ohms at 100°C. Its temperature coefficient of resistance is:",
+      "options": {
+        "A": "0.002 /°C",
+        "B": "0.02 /°C",
+        "C": "0.01 /°C",
+        "D": "0.005 /°C"
+      },
+      "answer": "A",
+      "explanation": "alpha = (R2 - R1) / (R1 * delta_T) = (6 - 5) / (5 * 100) = 1/500 = 0.002.",
+      "hash": "f9a4263cce7233dc",
+      "translations": {
+        "hi": {
+          "question": "एक चालक का प्रतिरोध 0°C पर 5 ओम और 100°C पर 6 ओम है। इसका प्रतिरोध तापमान गुणांक है:",
+          "options": {
+            "A": "0.002 /°C",
+            "B": "0.02 /°C",
+            "C": "0.01 /°C",
+            "D": "0.005 /°C"
+          },
+          "explanation": "alpha = (R2 - R1) / (R1 * delta_T) = (6 - 5) / (5 * 100) = 1/500 = 0.002।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-018",
+      "number": 18,
+      "question": "Conductance is the reciprocal of:",
+      "options": {
+        "A": "Resistivity",
+        "B": "Resistance",
+        "C": "Conductivity",
+        "D": "Current density"
+      },
+      "answer": "B",
+      "explanation": "Conductance (G) = 1/R. Its unit is Siemens (S).",
+      "hash": "e761154412b819c3",
+      "translations": {
+        "hi": {
+          "question": "चालकत्व किसका व्युत्क्रम है?",
+          "options": {
+            "A": "प्रतिरोधकता",
+            "B": "प्रतिरोध",
+            "C": "चालकता",
+            "D": "धारा घनत्व"
+          },
+          "explanation": "चालकत्व (G) = 1/R। इसकी इकाई सीमेंस (S) है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-019",
+      "number": 19,
+      "question": "The drift velocity is of the order of:",
+      "options": {
+        "A": "10^8 m/s",
+        "B": "10^-4 m/s",
+        "C": "10^2 m/s",
+        "D": "1 m/s"
+      },
+      "answer": "B",
+      "explanation": "Drift velocity is very small (approx 10^-4 m/s) compared to the thermal speed of electrons.",
+      "hash": "bc86afbc76b6c224",
+      "translations": {
+        "hi": {
+          "question": "अपवाह वेग किस कोटि का होता है?",
+          "options": {
+            "A": "10^8 m/s",
+            "B": "10^-4 m/s",
+            "C": "10^2 m/s",
+            "D": "1 m/s"
+          },
+          "explanation": "इलेक्ट्रॉनों की तापीय गति की तुलना में अपवाह वेग बहुत कम (लगभग 10^-4 m/s) होता है।"
+        }
+      }
+    },
+    {
+      "id": "current-electricity-03-020",
+      "number": 20,
+      "question": "In a potentiometer experiment, the balancing length is found to be 250 cm for a cell. If a shunt is connected across the cell, the balancing length:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "Shunting a cell measures terminal voltage (V) instead of EMF (E). Since V < E, the balance length decreases.",
+      "hash": "1f811f37ce70b292",
+      "translations": {
+        "hi": {
+          "question": "एक पोटेंशियोमीटर प्रयोग में, एक सेल के लिए संतुलन लंबाई 250 सेमी पाई जाती है। यदि सेल के पार एक शंट जोड़ा जाता है, तो संतुलन लंबाई:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "वही रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "सेल को शंट करने से EMF (E) के बजाय टर्मिनल वोल्टेज (V) मापा जाता है। चूंकि V < E, संतुलन लंबाई घट जाती है।"
+        }
+      }
+    }
+  ]
+}

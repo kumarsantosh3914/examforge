@@ -1,0 +1,527 @@
+{
+  "subject": "Kinematics",
+  "set": 3,
+  "title": "Kinematics Mock Test 3",
+  "questions": [
+    {
+      "id": "kinematics-03-001",
+      "number": 1,
+      "question": "A particle moves along a straight line such that its displacement at any time t is given by s = t^3 - 6t^2 + 3t + 4. What is the velocity when the acceleration is zero?",
+      "options": {
+        "A": "3 m/s",
+        "B": "-12 m/s",
+        "C": "42 m/s",
+        "D": "-9 m/s"
+      },
+      "answer": "D",
+      "explanation": "v = ds/dt = 3t^2 - 12t + 3. a = dv/dt = 6t - 12. a = 0 at t = 2s. v(2) = 3(4) - 12(2) + 3 = -9 m/s.",
+      "hash": "4a673fafb8fea068",
+      "translations": {
+        "hi": {
+          "question": "एक कण एक सीधी रेखा में इस प्रकार चलता है कि किसी भी समय t पर उसका विस्थापन s = t^3 - 6t^2 + 3t + 4 द्वारा दिया जाता है। जब त्वरण शून्य हो तब वेग क्या होगा?",
+          "options": {
+            "A": "3 m/s",
+            "B": "-12 m/s",
+            "C": "42 m/s",
+            "D": "-9 m/s"
+          },
+          "explanation": "v = ds/dt = 3t^2 - 12t + 3. a = dv/dt = 6t - 12. t = 2s पर a = 0. v(2) = 3(4) - 12(2) + 3 = -9 m/s."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-002",
+      "number": 2,
+      "question": "The ratio of the ranges of two projectiles fired with the same velocity at angles of 15 degrees and 75 degrees is:",
+      "options": {
+        "A": "1 : 1",
+        "B": "1 : 2",
+        "C": "1 : 3",
+        "D": "1 : sqrt(3)"
+      },
+      "answer": "A",
+      "explanation": "Complementary angles (theta and 90-theta) have the same range for the same initial velocity.",
+      "hash": "34050ba469e8d620",
+      "translations": {
+        "hi": {
+          "question": "समान वेग से 15 डिग्री और 75 डिग्री के कोणों पर दागे गए दो प्रक्षेप्यों के परास का अनुपात है:",
+          "options": {
+            "A": "1 : 1",
+            "B": "1 : 2",
+            "C": "1 : 3",
+            "D": "1 : sqrt(3)"
+          },
+          "explanation": "समान प्रारंभिक वेग के लिए पूरक कोणों (theta और 90-theta) का परास समान होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-003",
+      "number": 3,
+      "question": "The displacement of a particle is proportional to the cube of time. Then its acceleration is:",
+      "options": {
+        "A": "Constant",
+        "B": "Proportional to time",
+        "C": "Proportional to sqrt(time)",
+        "D": "Proportional to square of time"
+      },
+      "answer": "B",
+      "explanation": "s proportional to t^3. v proportional to t^2. a proportional to t.",
+      "hash": "9c1f0f50d63e4b03",
+      "translations": {
+        "hi": {
+          "question": "एक कण का विस्थापन समय के घन के समानुपाती होता है। तब इसका त्वरण है:",
+          "options": {
+            "A": "स्थिर",
+            "B": "समय के समानुपाती",
+            "C": "समय के वर्गमूल के समानुपाती",
+            "D": "समय के वर्ग के समानुपाती"
+          },
+          "explanation": "s, t^3 के समानुपाती है। v, t^2 के समानुपाती है। a, t के समानुपाती है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-004",
+      "number": 4,
+      "question": "A body travels 200 cm in the first 2s and 220 cm in the next 4s. What is the velocity at the end of the 7th second?",
+      "options": {
+        "A": "10 cm/s",
+        "B": "20 cm/s",
+        "C": "15 cm/s",
+        "D": "5 cm/s"
+      },
+      "answer": "A",
+      "explanation": "Solve equations s = ut + 0.5at^2 for two cases to find u and a, then use v = u + at.",
+      "hash": "1b41f5ac46ca58db",
+      "translations": {
+        "hi": {
+          "question": "एक पिंड पहले 2s में 200 सेमी और अगले 4s में 220 सेमी की यात्रा करता है। 7वें सेकंड के अंत में वेग क्या है?",
+          "options": {
+            "A": "10 cm/s",
+            "B": "20 cm/s",
+            "C": "15 cm/s",
+            "D": "5 cm/s"
+          },
+          "explanation": "u और a खोजने के लिए दो मामलों के लिए s = ut + 0.5at^2 समीकरणों को हल करें, फिर v = u + at का उपयोग करें।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-005",
+      "number": 5,
+      "question": "A stone is dropped from a rising balloon. The stone will have:",
+      "options": {
+        "A": "Zero initial velocity",
+        "B": "An initial velocity in the upward direction",
+        "C": "An initial velocity in the downward direction",
+        "D": "Acceleration greater than g"
+      },
+      "answer": "B",
+      "explanation": "Due to inertia of motion, the stone acquires the velocity of the balloon at the moment of release.",
+      "hash": "b751547b5798935e",
+      "translations": {
+        "hi": {
+          "question": "एक बढ़ते हुए गुब्बारे से एक पत्थर गिराया जाता है। पत्थर में होगा:",
+          "options": {
+            "A": "शून्य प्रारंभिक वेग",
+            "B": "ऊपर की दिशा में एक प्रारंभिक वेग",
+            "C": "नीचे की दिशा में एक प्रारंभिक वेग",
+            "D": "g से अधिक त्वरण"
+          },
+          "explanation": "गति की जड़ता के कारण, पत्थर छूटने के क्षण में गुब्बारे का वेग प्राप्त कर लेता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-006",
+      "number": 6,
+      "question": "The angle between velocity and acceleration of a particle in uniform circular motion is:",
+      "options": {
+        "A": "0 degrees",
+        "B": "45 degrees",
+        "C": "90 degrees",
+        "D": "180 degrees"
+      },
+      "answer": "C",
+      "explanation": "In uniform circular motion, velocity is tangential and acceleration is centripetal (towards center).",
+      "hash": "19fcf40a63577d92",
+      "translations": {
+        "hi": {
+          "question": "एकसमान वृत्तीय गति में एक कण के वेग और त्वरण के बीच का कोण होता है:",
+          "options": {
+            "A": "0 डिग्री",
+            "B": "45 डिग्री",
+            "C": "90 डिग्री",
+            "D": "180 डिग्री"
+          },
+          "explanation": "एकसमान वृत्तीय गति में, वेग स्पर्शरेखीय होता है और त्वरण अभिकेंद्री (केंद्र की ओर) होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-007",
+      "number": 7,
+      "question": "A bullet fired into a target loses half its velocity after traveling 30 cm. It will come to rest after traveling a further distance of:",
+      "options": {
+        "A": "30 cm",
+        "B": "20 cm",
+        "C": "10 cm",
+        "D": "15 cm"
+      },
+      "answer": "C",
+      "explanation": "Using v^2 - u^2 = 2as. (u/2)^2 - u^2 = 2a(30). Then 0 - (u/2)^2 = 2as'. Ratio gives s' = 10 cm.",
+      "hash": "e031c20d429d2aca",
+      "translations": {
+        "hi": {
+          "question": "एक लक्ष्य में दागी गई गोली 30 सेमी की यात्रा करने के बाद अपना आधा वेग खो देती है। यह कितनी और दूरी तय करने के बाद रुक जाएगी?",
+          "options": {
+            "A": "30 सेमी",
+            "B": "20 सेमी",
+            "C": "10 सेमी",
+            "D": "15 सेमी"
+          },
+          "explanation": "v^2 - u^2 = 2as का उपयोग करते हुए। (u/2)^2 - u^2 = 2a(30). फिर 0 - (u/2)^2 = 2as'. अनुपात s' = 10 सेमी देता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-008",
+      "number": 8,
+      "question": "If the speed of a projectile is doubled, its maximum range will:",
+      "options": {
+        "A": "Double",
+        "B": "Triple",
+        "C": "Become four times",
+        "D": "Remain same"
+      },
+      "answer": "C",
+      "explanation": "Range R is proportional to u^2. Doubling u makes R four times larger.",
+      "hash": "425cc9f964cd6189",
+      "translations": {
+        "hi": {
+          "question": "यदि एक प्रक्षेप्य की गति को दोगुना कर दिया जाए, तो इसकी अधिकतम परास होगी:",
+          "options": {
+            "A": "दोगुनी",
+            "B": "तीन गुनी",
+            "C": "चार गुनी हो जाएगी",
+            "D": "समान रहेगी"
+          },
+          "explanation": "परास R, u^2 के समानुपाती है। u को दोगुना करने से R चार गुना बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-009",
+      "number": 9,
+      "question": "A bomb is dropped from an aeroplane flying horizontally with a constant velocity. The path of the bomb as seen by the pilot is:",
+      "options": {
+        "A": "A straight line vertically down",
+        "B": "A parabola",
+        "C": "An arc of a circle",
+        "D": "A zig-zag path"
+      },
+      "answer": "A",
+      "explanation": "Both pilot and bomb have the same horizontal velocity, so it appears to fall vertically below the plane.",
+      "hash": "406376ec08dea162",
+      "translations": {
+        "hi": {
+          "question": "निरंतर वेग के साथ क्षैतिज रूप से उड़ रहे एक हवाई जहाज से एक बम गिराया जाता है। पायलट द्वारा देखा गया बम का पथ है:",
+          "options": {
+            "A": "लंबवत नीचे की ओर एक सीधी रेखा",
+            "B": "एक परवलय",
+            "C": "वृत्त का एक चाप",
+            "D": "एक टेढ़ा-मेढ़ा रास्ता"
+          },
+          "explanation": "पायलट और बम दोनों का क्षैतिज वेग समान होता है, इसलिए यह विमान के नीचे लंबवत गिरता हुआ दिखाई देता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-010",
+      "number": 10,
+      "question": "The position x of a particle varies with time t as x = at^2 - bt^3. At what time will the acceleration of the particle be zero?",
+      "options": {
+        "A": "a / b",
+        "B": "a / 3b",
+        "C": "2a / 3b",
+        "D": "zero"
+      },
+      "answer": "B",
+      "explanation": "v = 2at - 3bt^2. a = 2a - 6bt. For a = 0, t = 2a / 6b = a / 3b.",
+      "hash": "00300c0534c192cb",
+      "translations": {
+        "hi": {
+          "question": "एक कण की स्थिति x समय t के साथ x = at^2 - bt^3 के रूप में बदलती है। किस समय कण का त्वरण शून्य होगा?",
+          "options": {
+            "A": "a / b",
+            "B": "a / 3b",
+            "C": "2a / 3b",
+            "D": "शून्य"
+          },
+          "explanation": "v = 2at - 3bt^2. a = 2a - 6bt. a = 0 के लिए, t = 2a / 6b = a / 3b."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-011",
+      "number": 11,
+      "question": "A train of 150 m length is going towards north at a speed of 10 m/s. A parrot flies at a speed of 5 m/s towards south parallel to the railway track. The time taken by the parrot to cross the train is:",
+      "options": {
+        "A": "12 s",
+        "B": "8 s",
+        "C": "15 s",
+        "D": "10 s"
+      },
+      "answer": "D",
+      "explanation": "Relative velocity = 10 + 5 = 15 m/s. Time = Length / Rel. Velocity = 150 / 15 = 10 s.",
+      "hash": "340cb0137672abcb",
+      "translations": {
+        "hi": {
+          "question": "150 मीटर लंबी एक ट्रेन 10 m/s की गति से उत्तर की ओर जा रही है। एक तोता रेलवे ट्रैक के समानांतर दक्षिण की ओर 5 m/s की गति से उड़ता है। तोते द्वारा ट्रेन को पार करने में लिया गया समय है:",
+          "options": {
+            "A": "12 s",
+            "B": "8 s",
+            "C": "15 s",
+            "D": "10 s"
+          },
+          "explanation": "सापेक्ष वेग = 10 + 5 = 15 m/s. समय = लंबाई / सापेक्ष वेग = 150 / 15 = 10 s."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-012",
+      "number": 12,
+      "question": "For a projectile, the angle between the velocity and the horizontal at the maximum height is:",
+      "options": {
+        "A": "90 degrees",
+        "B": "0 degrees",
+        "C": "45 degrees",
+        "D": "Theta"
+      },
+      "answer": "B",
+      "explanation": "At maximum height, only the horizontal component of velocity exists.",
+      "hash": "8af43f91e1e7cc80",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य के लिए, अधिकतम ऊंचाई पर वेग और क्षैतिज के बीच का कोण है:",
+          "options": {
+            "A": "90 डिग्री",
+            "B": "0 डिग्री",
+            "C": "45 डिग्री",
+            "D": "थीटा"
+          },
+          "explanation": "अधिकतम ऊंचाई पर, केवल वेग का क्षैतिज घटक मौजूद होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-013",
+      "number": 13,
+      "question": "The displacement-time graph of a moving particle is a parabola. The particle is moving with:",
+      "options": {
+        "A": "Constant velocity",
+        "B": "Constant acceleration",
+        "C": "Variable acceleration",
+        "D": "Zero velocity"
+      },
+      "answer": "B",
+      "explanation": "A parabolic x-t graph implies x is proportional to t^2, which corresponds to constant acceleration.",
+      "hash": "75d729649e661fcb",
+      "translations": {
+        "hi": {
+          "question": "एक गतिशील कण का विस्थापन-समय ग्राफ एक परवलय है। कण चल रहा है:",
+          "options": {
+            "A": "निरंतर वेग के साथ",
+            "B": "निरंतर त्वरण के साथ",
+            "C": "परिवर्तनशील त्वरण के साथ",
+            "D": "शून्य वेग के साथ"
+          },
+          "explanation": "एक परवलयिक x-t ग्राफ का तात्पर्य है कि x, t^2 के समानुपाती है, जो निरंतर त्वरण के अनुरूप है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-014",
+      "number": 14,
+      "question": "A man can row a boat with 4 km/h in still water. He crosses a river 2 km wide that flows at 2 km/h. To reach the point directly opposite to starting point, in what direction should he row?",
+      "options": {
+        "A": "30 degrees upstream",
+        "B": "60 degrees upstream",
+        "C": "90 degrees upstream",
+        "D": "120 degrees upstream"
+      },
+      "answer": "A",
+      "explanation": "sin theta = v_river / v_boat = 2 / 4 = 1/2. theta = 30 degrees with the normal to the bank.",
+      "hash": "45f8b153b742c4fd",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति शांत जल में 4 किमी/घंटा की गति से नाव चला सकता है। वह 2 किमी चौड़ी नदी को पार करता है जो 2 किमी/घंटा की गति से बहती है। शुरुआती बिंदु के ठीक विपरीत बिंदु पर पहुंचने के लिए, उसे किस दिशा में नाव चलानी चाहिए?",
+          "options": {
+            "A": "धारा के प्रतिकूल 30 डिग्री",
+            "B": "धारा के प्रतिकूल 60 डिग्री",
+            "C": "धारा के प्रतिकूल 90 डिग्री",
+            "D": "धारा के प्रतिकूल 120 डिग्री"
+          },
+          "explanation": "sin theta = v_नदी / v_नाव = 2 / 4 = 1/2. theta = किनारे के लंबवत से 30 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-015",
+      "number": 15,
+      "question": "The maximum height reached by a projectile is 4 times its range. The angle of projection is:",
+      "options": {
+        "A": "tan^-1(16)",
+        "B": "tan^-1(8)",
+        "C": "tan^-1(4)",
+        "D": "45 degrees"
+      },
+      "answer": "A",
+      "explanation": "H = 4R. (u^2 sin^2theta / 2g) = 4 (u^2 sin2theta / g). tan theta / 4 = 4 => tan theta = 16.",
+      "hash": "ce74c341cd8cf1a4",
+      "translations": {
+        "hi": {
+          "question": "एक प्रक्षेप्य द्वारा प्राप्त अधिकतम ऊंचाई इसकी परास की 4 गुनी है। प्रक्षेपण का कोण है:",
+          "options": {
+            "A": "tan^-1(16)",
+            "B": "tan^-1(8)",
+            "C": "tan^-1(4)",
+            "D": "45 डिग्री"
+          },
+          "explanation": "H = 4R. (u^2 sin^2theta / 2g) = 4 (u^2 sin2theta / g). tan theta / 4 = 4 => tan theta = 16."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-016",
+      "number": 16,
+      "question": "A vector is not changed if:",
+      "options": {
+        "A": "It is rotated through an arbitrary angle",
+        "B": "It is multiplied by a scalar",
+        "C": "It is cross multiplied by a unit vector",
+        "D": "It is slid parallel to itself"
+      },
+      "answer": "D",
+      "explanation": "Parallel translation of a vector does not change its magnitude or direction.",
+      "hash": "90c418073cfc5315",
+      "translations": {
+        "hi": {
+          "question": "एक सदिश नहीं बदलता है यदि:",
+          "options": {
+            "A": "इसे एक मनमाने कोण के माध्यम से घुमाया जाता है",
+            "B": "इसे एक अदिश से गुणा किया जाता है",
+            "C": "इसे एक इकाई सदिश द्वारा क्रॉस गुणा किया जाता है",
+            "D": "इसे अपने समानांतर सरकाया जाता है"
+          },
+          "explanation": "एक सदिश के समानांतर अनुवाद से उसका परिमाण या दिशा नहीं बदलती है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-017",
+      "number": 17,
+      "question": "If a particle is at rest, its acceleration:",
+      "options": {
+        "A": "Must be zero",
+        "B": "May be non-zero",
+        "C": "Must be non-zero",
+        "D": "Is always negative"
+      },
+      "answer": "B",
+      "explanation": "For example, at the maximum height of a vertical throw, velocity is zero but acceleration is g.",
+      "hash": "a41d1770f8b11dce",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई कण विराम अवस्था में है, तो उसका त्वरण:",
+          "options": {
+            "A": "शून्य होना चाहिए",
+            "B": "गैर-शून्य हो सकता है",
+            "C": "गैर-शून्य होना चाहिए",
+            "D": "हमेशा ऋणात्मक होता है"
+          },
+          "explanation": "उदाहरण के लिए, ऊर्ध्वाधर फेंक की अधिकतम ऊंचाई पर, वेग शून्य होता है लेकिन त्वरण g होता है।"
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-018",
+      "number": 18,
+      "question": "A body is thrown at an angle of 30 degrees to the horizontal with kinetic energy K. What is the kinetic energy at the highest point?",
+      "options": {
+        "A": "Zero",
+        "B": "K / 4",
+        "C": "3K / 4",
+        "D": "K / 2"
+      },
+      "answer": "C",
+      "explanation": "At highest point v' = u cos 30 = u * sqrt(3)/2. KE' = 0.5 m (v')^2 = 0.5 m u^2 (3/4) = 3K / 4.",
+      "hash": "d2f04dd9fc2eda7a",
+      "translations": {
+        "hi": {
+          "question": "एक पिंड को गतिज ऊर्जा K के साथ क्षैतिज से 30 डिग्री के कोण पर फेंका जाता है। उच्चतम बिंदु पर गतिज ऊर्जा क्या है?",
+          "options": {
+            "A": "शून्य",
+            "B": "K / 4",
+            "C": "3K / 4",
+            "D": "K / 2"
+          },
+          "explanation": "उच्चतम बिंदु पर v' = u cos 30 = u * sqrt(3)/2. KE' = 0.5 m (v')^2 = 0.5 m u^2 (3/4) = 3K / 4."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-019",
+      "number": 19,
+      "question": "The velocity of a particle at any time t is v = 2t + 5. The distance traveled in the first 3 seconds is:",
+      "options": {
+        "A": "24 m",
+        "B": "15 m",
+        "C": "21 m",
+        "D": "18 m"
+      },
+      "answer": "A",
+      "explanation": "Distance = Integral of v dt from 0 to 3. Integral(2t+5) = t^2 + 5t. For t=3, 9 + 15 = 24 m.",
+      "hash": "0d92322c21dcd610",
+      "translations": {
+        "hi": {
+          "question": "किसी भी समय t पर एक कण का वेग v = 2t + 5 है। पहले 3 सेकंड में तय की गई दूरी है:",
+          "options": {
+            "A": "24 m",
+            "B": "15 m",
+            "C": "21 m",
+            "D": "18 m"
+          },
+          "explanation": "दूरी = 0 से 3 तक v dt का समाकलन। Integral(2t+5) = t^2 + 5t. t=3 के लिए, 9 + 15 = 24 m."
+        }
+      }
+    },
+    {
+      "id": "kinematics-03-020",
+      "number": 20,
+      "question": "A particle moves in a circle of radius 25 cm at two revolutions per second. The acceleration of the particle in m/s^2 is:",
+      "options": {
+        "A": "pi^2",
+        "B": "8 pi^2",
+        "C": "4 pi^2",
+        "D": "2 pi^2"
+      },
+      "answer": "C",
+      "explanation": "r = 0.25 m, frequency f = 2 Hz. omega = 2 pi f = 4 pi. a = omega^2 r = (16 pi^2) * 0.25 = 4 pi^2.",
+      "hash": "6c12b9e0387fe93d",
+      "translations": {
+        "hi": {
+          "question": "एक कण दो चक्कर प्रति सेकंड की दर से 25 सेमी त्रिज्या के वृत्त में घूमता है। m/s^2 में कण का त्वरण है:",
+          "options": {
+            "A": "pi^2",
+            "B": "8 pi^2",
+            "C": "4 pi^2",
+            "D": "2 pi^2"
+          },
+          "explanation": "r = 0.25 m, आवृत्ति f = 2 Hz. ओमेगा = 2 pi f = 4 pi. a = ओमेगा^2 r = (16 pi^2) * 0.25 = 4 pi^2."
+        }
+      }
+    }
+  ]
+}

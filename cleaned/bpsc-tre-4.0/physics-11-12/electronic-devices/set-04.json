@@ -1,0 +1,527 @@
+{
+  "subject": "Electronic Devices",
+  "set": 4,
+  "title": "Electronic Devices Mock Test 4",
+  "questions": [
+    {
+      "id": "electronic-devices-04-001",
+      "number": 1,
+      "question": "What is the output of a XOR gate if both inputs are 1?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "A XOR gate gives a high output (1) only when the inputs are different. For 1 and 1, the output is 0.",
+      "hash": "1fc3bb1ad64b3235",
+      "translations": {
+        "hi": {
+          "question": "यदि दोनों इनपुट 1 हैं, तो XOR गेट का आउटपुट क्या होगा?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "10"
+          },
+          "explanation": "XOR गेट केवल तभी उच्च आउटपुट (1) देता है जब इनपुट भिन्न होते हैं। 1 और 1 के लिए, आउटपुट 0 होता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-002",
+      "number": 2,
+      "question": "In a P-type semiconductor, the Fermi level lies:",
+      "options": {
+        "A": "Just above the valence band",
+        "B": "Just below the conduction band",
+        "C": "Exactly at the center of the gap",
+        "D": "Inside the conduction band"
+      },
+      "answer": "A",
+      "explanation": "Acceptor impurities create energy levels near the valence band, shifting the Fermi level downward.",
+      "hash": "b2e37a317c8357e1",
+      "translations": {
+        "hi": {
+          "question": "P-प्रकार के अर्धचालक में, फर्मी स्तर कहाँ स्थित होता है?",
+          "options": {
+            "A": "संयोजकता बैंड के ठीक ऊपर",
+            "B": "चालन बैंड के ठीक नीचे",
+            "C": "अंतराल के बिल्कुल केंद्र में",
+            "D": "चालन बैंड के अंदर"
+          },
+          "explanation": "ग्राही अशुद्धियाँ संयोजकता बैंड के पास ऊर्जा स्तर बनाती हैं, जिससे फर्मी स्तर नीचे की ओर खिसक जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-003",
+      "number": 3,
+      "question": "Which of the following depicts the correct biasing for a PNP transistor to operate in the active region?",
+      "options": {
+        "A": "Emitter-Base forward, Collector-Base reverse",
+        "B": "Emitter-Base reverse, Collector-Base forward",
+        "C": "Both forward biased",
+        "D": "Both reverse biased"
+      },
+      "answer": "A",
+      "explanation": "For the active region, the input junction must be forward biased and the output junction must be reverse biased.",
+      "hash": "0a77109414e3413a",
+      "translations": {
+        "hi": {
+          "question": "सक्रिय क्षेत्र में कार्य करने के लिए PNP ट्रांजिस्टर के लिए निम्नलिखित में से कौन सा सही अभिनति (biasing) दर्शाता है?",
+          "options": {
+            "A": "एमीटर-बेस अग्र, कलेक्टर-बेस उत्क्रम",
+            "B": "एमीटर-बेस उत्क्रम, कलेक्टर-बेस अग्र",
+            "C": "दोनों अग्र अभिनत",
+            "D": "दोनों उत्क्रम अभिनत"
+          },
+          "explanation": "सक्रिय क्षेत्र के लिए, इनपुट जंक्शन अग्र अभिनत और आउटपुट जंक्शन उत्क्रम अभिनत होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-004",
+      "number": 4,
+      "question": "In a common base (CB) transistor amplifier, the current gain (alpha) is:",
+      "options": {
+        "A": "Always greater than 1",
+        "B": "Always less than 1",
+        "C": "Equal to 1",
+        "D": "Equal to beta"
+      },
+      "answer": "B",
+      "explanation": "Since IC is slightly less than IE due to base recombination, alpha (IC/IE) is always less than 1.",
+      "hash": "d3d3082663dd5fb0",
+      "translations": {
+        "hi": {
+          "question": "कॉमन बेस (CB) ट्रांजिस्टर एम्पलीफायर में, करंट गेन (अल्फा) होता है:",
+          "options": {
+            "A": "हमेशा 1 से अधिक",
+            "B": "हमेशा 1 से कम",
+            "C": "1 के बराबर",
+            "D": "बीटा के बराबर"
+          },
+          "explanation": "चूँकि बेस पुनर्संयोजन के कारण IC, IE से थोड़ा कम होता है, इसलिए अल्फा (IC/IE) हमेशा 1 से कम होता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-005",
+      "number": 5,
+      "question": "The conductivity of an intrinsic semiconductor at absolute zero temperature is:",
+      "options": {
+        "A": "Infinite",
+        "B": "Very high",
+        "C": "Zero",
+        "D": "Same as room temperature"
+      },
+      "answer": "C",
+      "explanation": "At 0 K, all electrons are in the valence band and no carriers are available for conduction, making it an insulator.",
+      "hash": "b9f66da059215a7e",
+      "translations": {
+        "hi": {
+          "question": "परम शून्य तापमान पर एक निज अर्धचालक की चालकता होती है:",
+          "options": {
+            "A": "अनंत",
+            "B": "बहुत उच्च",
+            "C": "शून्य",
+            "D": "कमरे के तापमान के समान"
+          },
+          "explanation": "0 K पर, सभी इलेक्ट्रॉन संयोजकता बैंड में होते हैं और चालन के लिए कोई वाहक उपलब्ध नहीं होता है, जिससे यह कुचालक बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-006",
+      "number": 6,
+      "question": "Which of the following is used in the manufacture of Integrated Circuits (ICs)?",
+      "options": {
+        "A": "Copper",
+        "B": "Aluminum",
+        "C": "Silicon",
+        "D": "Iron"
+      },
+      "answer": "C",
+      "explanation": "Silicon is the primary semiconductor material used for fabricating ICs due to its abundance and oxide properties.",
+      "hash": "5c186ee13dd10164",
+      "translations": {
+        "hi": {
+          "question": "इंटीग्रेटेड सर्किट (IC) के निर्माण में निम्नलिखित में से किसका उपयोग किया जाता है?",
+          "options": {
+            "A": "तांबा",
+            "B": "एल्युमीनियम",
+            "C": "सिलिकॉन",
+            "D": "लोहा"
+          },
+          "explanation": "सिलिकॉन अपनी प्रचुरता और ऑक्साइड गुणों के कारण IC बनाने के लिए उपयोग की जाने वाली प्राथमिक अर्धचालक सामग्री है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-007",
+      "number": 7,
+      "question": "A bridge rectifier uses how many diodes?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "D",
+      "explanation": "A full-wave bridge rectifier requires four diodes arranged in a bridge configuration.",
+      "hash": "a68cd95fd5804ff7",
+      "translations": {
+        "hi": {
+          "question": "एक ब्रिज दिष्टकारी कितने डायोड का उपयोग करता है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "एक पूर्ण-तरंग ब्रिज दिष्टकारी को ब्रिज विन्यास में व्यवस्थित चार डायोड की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-008",
+      "number": 8,
+      "question": "Which logic gate is represented by the Boolean expression Y = NOT A?",
+      "options": {
+        "A": "AND gate",
+        "B": "OR gate",
+        "C": "NOT gate",
+        "D": "NAND gate"
+      },
+      "answer": "C",
+      "explanation": "The NOT gate performs inversion, producing the complement of the input.",
+      "hash": "65e77f87542f0e3d",
+      "translations": {
+        "hi": {
+          "question": "व्यंजक Y = NOT A द्वारा किस लॉजिक गेट को दर्शाया जाता है?",
+          "options": {
+            "A": "AND गेट",
+            "B": "OR गेट",
+            "C": "NOT गेट",
+            "D": "NAND गेट"
+          },
+          "explanation": "NOT गेट इनवर्जन करता है, जिससे इनपुट का पूरक प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-009",
+      "number": 9,
+      "question": "The current in a reverse-biased P-N junction is of the order of:",
+      "options": {
+        "A": "Amperes",
+        "B": "Milliamperes",
+        "C": "Microamperes",
+        "D": "Kiloamperes"
+      },
+      "answer": "C",
+      "explanation": "Reverse current is very small as it is carried only by minority carriers.",
+      "hash": "30c285a7f23886e8",
+      "translations": {
+        "hi": {
+          "question": "उत्क्रम अभिनत P-N जंक्शन में धारा किस क्रम की होती है?",
+          "options": {
+            "A": "एम्पियर",
+            "B": "मिलीएम्पियर",
+            "C": "माइक्रोएम्पियर",
+            "D": "किलोएम्पियर"
+          },
+          "explanation": "उत्क्रम धारा बहुत कम होती है क्योंकि यह केवल अल्पसंख्यक वाहकों द्वारा ले जाई जाती है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-010",
+      "number": 10,
+      "question": "If the doping level in a Zener diode is increased, the breakdown voltage:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "Higher doping leads to a thinner depletion layer, allowing breakdown to occur at a lower voltage.",
+      "hash": "02f6a8e41451253d",
+      "translations": {
+        "hi": {
+          "question": "यदि जेनर डायोड में डोपिंग स्तर बढ़ा दिया जाए, तो ब्रेकडाउन वोल्टेज:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "स्थिर रहता है",
+            "D": "शून्य हो जाता है"
+          },
+          "explanation": "उच्च डोपिंग से ह्रासी परत पतली हो जाती है, जिससे कम वोल्टेज पर ही ब्रेकडाउन हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-011",
+      "number": 11,
+      "question": "In the output characteristics of a CE transistor, the region where both junctions are reverse biased is:",
+      "options": {
+        "A": "Saturation region",
+        "B": "Active region",
+        "C": "Cut-off region",
+        "D": "Linear region"
+      },
+      "answer": "C",
+      "explanation": "In the cut-off region, no significant current flows because the transistor is effectively \"off\".",
+      "hash": "d8413f395d259e95",
+      "translations": {
+        "hi": {
+          "question": "CE ट्रांजिस्टर के आउटपुट अभिलक्षणों में, वह क्षेत्र जहाँ दोनों जंक्शन उत्क्रम अभिनत होते हैं:",
+          "options": {
+            "A": "संतृप्ति क्षेत्र",
+            "B": "सक्रिय क्षेत्र",
+            "C": "कट-ऑफ क्षेत्र",
+            "D": "रेखीय क्षेत्र"
+          },
+          "explanation": "कट-ऑफ क्षेत्र में, कोई महत्वपूर्ण धारा प्रवाहित नहीं होती है क्योंकि ट्रांजिस्टर प्रभावी रूप से \"बंद\" होता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-012",
+      "number": 12,
+      "question": "The majority carriers in a P-type semiconductor are:",
+      "options": {
+        "A": "Electrons",
+        "B": "Holes",
+        "C": "Protons",
+        "D": "Neutrons"
+      },
+      "answer": "B",
+      "explanation": "P-type (positive type) semiconductors have holes as the primary charge carriers.",
+      "hash": "55fa009fb0fe8854",
+      "translations": {
+        "hi": {
+          "question": "P-प्रकार के अर्धचालक में बहुसंख्यक वाहक होते हैं:",
+          "options": {
+            "A": "इलेक्ट्रॉन",
+            "B": "होल",
+            "C": "प्रोटॉन",
+            "D": "न्यूट्रॉन"
+          },
+          "explanation": "P-प्रकार के अर्धचालकों में होल प्राथमिक आवेश वाहक के रूप में होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-013",
+      "number": 13,
+      "question": "The decimal value of the binary number (1010) is:",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": "B",
+      "explanation": "(1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0) = 8 + 0 + 2 + 0 = 10.",
+      "hash": "574a32b67fa85fd2",
+      "translations": {
+        "hi": {
+          "question": "बाइनरी नंबर (1010) का दशमलव मान है:",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "12",
+            "D": "15"
+          },
+          "explanation": "(1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0) = 8 + 0 + 2 + 0 = 10."
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-014",
+      "number": 14,
+      "question": "Which semiconductor device can be used as an electronic oscillator?",
+      "options": {
+        "A": "Diode",
+        "B": "Transistor",
+        "C": "Solar Cell",
+        "D": "Zener Diode"
+      },
+      "answer": "B",
+      "explanation": "A transistor with positive feedback can sustain oscillations.",
+      "hash": "a3b3527ec8bb2589",
+      "translations": {
+        "hi": {
+          "question": "किस अर्धचालक उपकरण का उपयोग इलेक्ट्रॉनिक दोलित्र के रूप में किया जा सकता है?",
+          "options": {
+            "A": "डायोड",
+            "B": "ट्रांजिस्टर",
+            "C": "सोलर सेल",
+            "D": "जेनर डायोड"
+          },
+          "explanation": "धनात्मक फीडबैक वाला ट्रांजिस्टर दोलन बनाए रख सकता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-015",
+      "number": 15,
+      "question": "In a half-wave rectifier, the efficiency is approximately:",
+      "options": {
+        "A": "40.6%",
+        "B": "81.2%",
+        "C": "100%",
+        "D": "50%"
+      },
+      "answer": "A",
+      "explanation": "Only one half of the AC cycle is used, limiting the theoretical maximum efficiency to 40.6%.",
+      "hash": "c52b27c14ad69f33",
+      "translations": {
+        "hi": {
+          "question": "एक अर्ध-तरंग दिष्टकारी में, दक्षता लगभग होती है:",
+          "options": {
+            "A": "40.6%",
+            "B": "81.2%",
+            "C": "100%",
+            "D": "50%"
+          },
+          "explanation": "AC चक्र के केवल एक आधे भाग का उपयोग किया जाता है, जिससे सैद्धांतिक अधिकतम दक्षता 40.6% तक सीमित हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-016",
+      "number": 16,
+      "question": "The base of a transistor is made thin to:",
+      "options": {
+        "A": "Increase the recombination",
+        "B": "Decrease the recombination",
+        "C": "Increase the base current",
+        "D": "Resist heat"
+      },
+      "answer": "B",
+      "explanation": "A thin base ensures that most charge carriers from the emitter reach the collector without recombining.",
+      "hash": "c7da9d293958f7ec",
+      "translations": {
+        "hi": {
+          "question": "ट्रांजिस्टर के बेस को पतला बनाया जाता है ताकि:",
+          "options": {
+            "A": "पुनर्संयोजन बढ़ाने के लिए",
+            "B": "पुनर्संयोजन कम करने के लिए",
+            "C": "बेस करंट बढ़ाने के लिए",
+            "D": "गर्मी का प्रतिरोध करने के लिए"
+          },
+          "explanation": "एक पतला बेस यह सुनिश्चित करता है कि एमीटर से अधिकांश आवेश वाहक बिना पुनर्संयोजित हुए कलेक्टर तक पहुँचें।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-017",
+      "number": 17,
+      "question": "For a transistor working as an amplifier, if alpha = 0.98, what is the value of beta?",
+      "options": {
+        "A": "49",
+        "B": "50",
+        "C": "98",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "beta = alpha / (1 - alpha) = 0.98 / (1 - 0.98) = 0.98 / 0.02 = 49.",
+      "hash": "351624c1d06c4aa3",
+      "translations": {
+        "hi": {
+          "question": "एम्पलीफायर के रूप में कार्य करने वाले ट्रांजिस्टर के लिए, यदि अल्फा = 0.98 है, तो बीटा का मान क्या है?",
+          "options": {
+            "A": "49",
+            "B": "50",
+            "C": "98",
+            "D": "100"
+          },
+          "explanation": "beta = alpha / (1 - alpha) = 0.98 / 0.02 = 49."
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-018",
+      "number": 18,
+      "question": "Which gate is represented by the symbol of a triangle with a circle at the tip?",
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "NOT",
+        "D": "XOR"
+      },
+      "answer": "C",
+      "explanation": "The triangle represents a buffer and the bubble (circle) represents inversion, making it a NOT gate.",
+      "hash": "fefbc95b239f212f",
+      "translations": {
+        "hi": {
+          "question": "किस गेट को टिप पर एक वृत्त के साथ त्रिभुज के प्रतीक द्वारा दर्शाया जाता है?",
+          "options": {
+            "A": "AND",
+            "B": "OR",
+            "C": "NOT",
+            "D": "XOR"
+          },
+          "explanation": "त्रिभुज बफर को दर्शाता है और बबल (वृत्त) व्युत्क्रमण को दर्शाता है, जिससे यह NOT गेट बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-019",
+      "number": 19,
+      "question": "LED emits light because of:",
+      "options": {
+        "A": "Heating of filament",
+        "B": "Recombination of electrons and holes",
+        "C": "Reflection of light",
+        "D": "Refraction of light"
+      },
+      "answer": "B",
+      "explanation": "When electrons fall from the conduction band to the valence band (recombine with holes), they release energy as photons.",
+      "hash": "f8f0442d9579bcb1",
+      "translations": {
+        "hi": {
+          "question": "LED किसके कारण प्रकाश उत्सर्जित करता है?",
+          "options": {
+            "A": "फिलामेंट के गर्म होने से",
+            "B": "इलेक्ट्रॉनों और होलों के पुनर्संयोजन से",
+            "C": "प्रकाश के परावर्तन से",
+            "D": "प्रकाश के अपवर्तन से"
+          },
+          "explanation": "जब इलेक्ट्रॉन चालन बैंड से संयोजकता बैंड में गिरते हैं (होल के साथ पुनर्संयोजन करते हैं), तो वे फोटॉन के रूप में ऊर्जा मुक्त करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "electronic-devices-04-020",
+      "number": 20,
+      "question": "The truth table for a NAND gate is the exact opposite of:",
+      "options": {
+        "A": "OR gate",
+        "B": "AND gate",
+        "C": "NOT gate",
+        "D": "NOR gate"
+      },
+      "answer": "B",
+      "explanation": "NAND stands for NOT-AND; its output is the inverse of the AND gate output.",
+      "hash": "1772866c85b3a443",
+      "translations": {
+        "hi": {
+          "question": "NAND गेट की सत्यता सारणी (truth table) किसके बिल्कुल विपरीत है?",
+          "options": {
+            "A": "OR गेट",
+            "B": "AND गेट",
+            "C": "NOT गेट",
+            "D": "NOR गेट"
+          },
+          "explanation": "NAND का अर्थ NOT-AND है; इसका आउटपुट AND गेट आउटपुट का व्युत्क्रम होता है।"
+        }
+      }
+    }
+  ]
+}

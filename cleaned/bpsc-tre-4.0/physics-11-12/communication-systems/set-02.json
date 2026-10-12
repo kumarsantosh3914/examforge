@@ -1,0 +1,527 @@
+{
+  "subject": "Communication Systems",
+  "set": 2,
+  "title": "Communication Systems Mock Test 2",
+  "questions": [
+    {
+      "id": "communication-systems-02-001",
+      "number": 1,
+      "question": "What is the primary reason for using high-frequency carrier waves in modulation?",
+      "options": {
+        "A": "To increase noise",
+        "B": "To reduce the size of antenna",
+        "C": "To decrease signal speed",
+        "D": "To make the signal audible"
+      },
+      "answer": "B",
+      "explanation": "The required antenna length is proportional to the wavelength. Higher frequency means shorter wavelength and smaller antenna.",
+      "hash": "92c4c2d47634c739",
+      "translations": {
+        "hi": {
+          "question": "मॉड्यूलेशन में उच्च आवृत्ति वाहक तरंगों का उपयोग करने का प्राथमिक कारण क्या है?",
+          "options": {
+            "A": "शोर बढ़ाने के लिए",
+            "B": "एंटीना के आकार को कम करने के लिए",
+            "C": "सिग्नल की गति को कम करने के लिए",
+            "D": "सिग्नल को श्रव्य बनाने के लिए"
+          },
+          "explanation": "आवश्यक एंटीना की लंबाई तरंगदैर्ध्य के समानुपाती होती है। उच्च आवृत्ति का अर्थ है छोटी तरंगदैर्ध्य और छोटा एंटीना।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-002",
+      "number": 2,
+      "question": "The maximum frequency of a message signal is 5 kHz. What is the bandwidth required for an AM transmission?",
+      "options": {
+        "A": "5 kHz",
+        "B": "10 kHz",
+        "C": "2.5 kHz",
+        "D": "20 kHz"
+      },
+      "answer": "B",
+      "explanation": "In Amplitude Modulation, the bandwidth is twice the maximum frequency of the modulating signal (2 * fm).",
+      "hash": "3dc0e7bec5fe44be",
+      "translations": {
+        "hi": {
+          "question": "एक संदेश संकेत की अधिकतम आवृत्ति 5 kHz है। AM संचरण के लिए आवश्यक बैंडविड्थ क्या है?",
+          "options": {
+            "A": "5 kHz",
+            "B": "10 kHz",
+            "C": "2.5 kHz",
+            "D": "20 kHz"
+          },
+          "explanation": "आयाम मॉड्यूलेशन में, बैंडविड्थ मॉड्यूलेटिंग सिग्नल की अधिकतम आवृत्ति की दोगुनी (2 * fm) होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-003",
+      "number": 3,
+      "question": "In frequency modulation (FM), which property of the carrier wave changes with the message signal?",
+      "options": {
+        "A": "Amplitude",
+        "B": "Phase only",
+        "C": "Frequency",
+        "D": "Velocity"
+      },
+      "answer": "C",
+      "explanation": "In FM, the frequency of the carrier is varied according to the instantaneous voltage of the modulating signal.",
+      "hash": "b0c3712aff5ac64c",
+      "translations": {
+        "hi": {
+          "question": "आवृत्ति मॉड्यूलेशन (FM) में, संदेश संकेत के साथ वाहक तरंग का कौन सा गुण बदलता है?",
+          "options": {
+            "A": "आयाम",
+            "B": "केवल कला",
+            "C": "आवृत्ति",
+            "D": "वेग"
+          },
+          "explanation": "FM में, वाहक की आवृत्ति को मॉड्यूलेटिंग सिग्नल के तात्कालिक वोल्टेज के अनुसार बदला जाता है। [Image of frequency modulation waveform]"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-004",
+      "number": 4,
+      "question": "Which type of signal is represented by a sequence of discrete steps or pulses?",
+      "options": {
+        "A": "Analog signal",
+        "B": "Digital signal",
+        "C": "Continuous signal",
+        "D": "Sound wave"
+      },
+      "answer": "B",
+      "explanation": "Digital signals consist of discrete values (usually 0 and 1) rather than a continuous range of values.",
+      "hash": "dbe2919f1e417565",
+      "translations": {
+        "hi": {
+          "question": "किस प्रकार के सिग्नल को अलग-अलग चरणों या स्पंदों के अनुक्रम द्वारा दर्शाया जाता है?",
+          "options": {
+            "A": "एनालॉग सिग्नल",
+            "B": "डिजिटल सिग्नल",
+            "C": "निरंतर सिग्नल",
+            "D": "ध्वनि तरंग"
+          },
+          "explanation": "डिजिटल सिग्नल में मानों की निरंतर सीमा के बजाय अलग-अलग मान (आमतौर पर 0 और 1) होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-005",
+      "number": 5,
+      "question": "Critical frequency of an ionospheric layer depends on:",
+      "options": {
+        "A": "Temperature of the earth",
+        "B": "Electron density of the layer",
+        "C": "Height of the antenna",
+        "D": "Color of the sky"
+      },
+      "answer": "B",
+      "explanation": "The critical frequency is proportional to the square root of the maximum electron density in the layer.",
+      "hash": "87052d7d9bc30f06",
+      "translations": {
+        "hi": {
+          "question": "आयनमंडलीय परत की क्रांतिक आवृत्ति (critical frequency) किस पर निर्भर करती है?",
+          "options": {
+            "A": "पृथ्वी के तापमान पर",
+            "B": "परत के इलेक्ट्रॉन घनत्व पर",
+            "C": "एंटीना की ऊंचाई पर",
+            "D": "आकाश के रंग पर"
+          },
+          "explanation": "क्रांतिक आवृत्ति परत में अधिकतम इलेक्ट्रॉन घनत्व के वर्गमूल के समानुपाती होती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-006",
+      "number": 6,
+      "question": "The process of overlapping a low-frequency signal onto a high-frequency carrier wave is:",
+      "options": {
+        "A": "Demodulation",
+        "B": "Modulation",
+        "C": "Rectification",
+        "D": "Filtration"
+      },
+      "answer": "B",
+      "explanation": "Modulation allows low-frequency information to be carried over long distances via high-frequency waves.",
+      "hash": "db75f677159e2e8d",
+      "translations": {
+        "hi": {
+          "question": "कम आवृत्ति वाले सिग्नल को उच्च आवृत्ति वाली वाहक तरंग पर आरोपित करने की प्रक्रिया क्या है?",
+          "options": {
+            "A": "डिमॉड्यूलेशन",
+            "B": "मॉड्यूलेशन",
+            "C": "दिष्टकरण",
+            "D": "निस्यंदन"
+          },
+          "explanation": "मॉड्यूलेशन कम आवृत्ति वाली सूचनाओं को उच्च आवृत्ति तरंगों के माध्यम से लंबी दूरी तक ले जाने की अनुमति देता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-007",
+      "number": 7,
+      "question": "What is the value of the modulation index (m) for over-modulation?",
+      "options": {
+        "A": "m < 1",
+        "B": "m = 1",
+        "C": "m > 1",
+        "D": "m = 0"
+      },
+      "answer": "C",
+      "explanation": "When m > 1, the signal is over-modulated, leading to distortion in the received information.",
+      "hash": "c0e04a87c41f61b0",
+      "translations": {
+        "hi": {
+          "question": "ओवर-मॉड्यूलेशन (over-modulation) के लिए मॉड्यूलेशन सूचकांक (m) का मान क्या है?",
+          "options": {
+            "A": "m < 1",
+            "B": "m = 1",
+            "C": "m > 1",
+            "D": "m = 0"
+          },
+          "explanation": "जब m > 1 होता है, तो सिग्नल ओवर-मॉड्यूलेटेड होता है, जिससे प्राप्त जानकारी में विकृति आ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-008",
+      "number": 8,
+      "question": "A wave that travels along the surface of the earth following its curvature is:",
+      "options": {
+        "A": "Sky wave",
+        "B": "Ground wave",
+        "C": "Space wave",
+        "D": "Micro wave"
+      },
+      "answer": "B",
+      "explanation": "Ground waves or surface waves glide over the earth's surface and are used for low-frequency AM radio.",
+      "hash": "6fcbfb72d635c671",
+      "translations": {
+        "hi": {
+          "question": "वह तरंग जो पृथ्वी की वक्रता का अनुसरण करते हुए उसकी सतह के साथ चलती है:",
+          "options": {
+            "A": "आकाश तरंग",
+            "B": "भू-तरंग",
+            "C": "अंतरिक्ष तरंग",
+            "D": "सूक्ष्म तरंग"
+          },
+          "explanation": "भू-तरंगें या सतह तरंगें पृथ्वी की सतह पर सरकती हैं और कम आवृत्ति वाले AM रेडियो के लिए उपयोग की जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-009",
+      "number": 9,
+      "question": "Optical fiber communication works on the principle of:",
+      "options": {
+        "A": "Refraction",
+        "B": "Total Internal Reflection",
+        "C": "Interference",
+        "D": "Diffraction"
+      },
+      "answer": "B",
+      "explanation": "Light signals travel through the fiber by reflecting repeatedly off the inner walls at specific angles.",
+      "hash": "2c31aacdc02e0c25",
+      "translations": {
+        "hi": {
+          "question": "ऑप्टिकल फाइबर संचार किस सिद्धांत पर कार्य करता है?",
+          "options": {
+            "A": "अपवर्तन",
+            "B": "पूर्ण आंतरिक परावर्तन",
+            "C": "व्यतिकरण",
+            "D": "विवर्तन"
+          },
+          "explanation": "प्रकाश संकेत विशिष्ट कोणों पर आंतरिक दीवारों से बार-बार परावर्तित होकर फाइबर के माध्यम से यात्रा करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-010",
+      "number": 10,
+      "question": "The frequency range of 3 MHz to 30 MHz is generally used for:",
+      "options": {
+        "A": "Ground wave propagation",
+        "B": "Sky wave propagation",
+        "C": "Space wave propagation",
+        "D": "Line of sight communication"
+      },
+      "answer": "B",
+      "explanation": "This HF (High Frequency) band is reflected by the ionosphere, making long-distance sky wave communication possible.",
+      "hash": "55bd8b2a8765d2fb",
+      "translations": {
+        "hi": {
+          "question": "3 MHz से 30 MHz की आवृत्ति सीमा का उपयोग आमतौर पर किसके लिए किया जाता है?",
+          "options": {
+            "A": "भू-तरंग संचरण",
+            "B": "आकाश तरंग संचरण",
+            "C": "अंतरिक्ष तरंग संचरण",
+            "D": "दृष्टि रेखा संचार"
+          },
+          "explanation": "यह HF (उच्च आवृत्ति) बैंड आयनमंडल द्वारा परावर्तित होता है, जिससे लंबी दूरी का आकाश तरंग संचार संभव होता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-011",
+      "number": 11,
+      "question": "In a communication system, the 'Channel' is:",
+      "options": {
+        "A": "The source of info",
+        "B": "The medium that carries the signal",
+        "C": "The output device",
+        "D": "The person receiving the message"
+      },
+      "answer": "B",
+      "explanation": "The channel can be a physical wire, an optical fiber, or free space (air/vacuum).",
+      "hash": "31e3b854a6407d8e",
+      "translations": {
+        "hi": {
+          "question": "एक संचार प्रणाली में, 'चैनल' (Channel) है:",
+          "options": {
+            "A": "जानकारी का स्रोत",
+            "B": "वह माध्यम जो सिग्नल ले जाता है",
+            "C": "आउटपुट डिवाइस",
+            "D": "संदेश प्राप्त करने वाला व्यक्ति"
+          },
+          "explanation": "चैनल एक भौतिक तार, एक ऑप्टिकल फाइबर, या मुक्त स्थान (हवा/निर्वात) हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-012",
+      "number": 12,
+      "question": "Which part of the communication system converts information into an electrical signal?",
+      "options": {
+        "A": "Receiving antenna",
+        "B": "Input transducer",
+        "C": "Amplifier",
+        "D": "Modulator"
+      },
+      "answer": "B",
+      "explanation": "Transducers like microphones convert sound energy into electrical energy for transmission.",
+      "hash": "2b6745c3f9ffb2d3",
+      "translations": {
+        "hi": {
+          "question": "संचार प्रणाली का कौन सा भाग सूचना को विद्युत सिग्नल में परिवर्तित करता है?",
+          "options": {
+            "A": "प्राप्त करने वाला एंटीना",
+            "B": "इनपुट ट्रांसड्यूसर",
+            "C": "एम्पलीफायर",
+            "D": "मॉड्यूलेटर"
+          },
+          "explanation": "माइक्रोफोन जैसे ट्रांसड्यूसर संचरण के लिए ध्वनि ऊर्जा को विद्युत ऊर्जा में परिवर्तित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-013",
+      "number": 13,
+      "question": "Space wave propagation is used for:",
+      "options": {
+        "A": "Medium wave radio",
+        "B": "Satellite communication",
+        "C": "Short wave radio",
+        "D": "Submarine communication"
+      },
+      "answer": "B",
+      "explanation": "Space waves are used for VHF, UHF, and satellite communication where signals travel in a line-of-sight path.",
+      "hash": "ac5453e39f4963f2",
+      "translations": {
+        "hi": {
+          "question": "अंतरिक्ष तरंग संचरण (Space wave propagation) का उपयोग किया जाता है:",
+          "options": {
+            "A": "मध्यम तरंग रेडियो के लिए",
+            "B": "उपग्रह संचार के लिए",
+            "C": "लघु तरंग रेडियो के लिए",
+            "D": "पनडुब्बी संचार के लिए"
+          },
+          "explanation": "अंतरिक्ष तरंगों का उपयोग VHF, UHF और उपग्रह संचार के लिए किया जाता है जहाँ सिग्नल दृष्टि रेखा पथ में यात्रा करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-014",
+      "number": 14,
+      "question": "The range of a signal can be increased by:",
+      "options": {
+        "A": "Increasing attenuation",
+        "B": "Using a repeater",
+        "C": "Reducing antenna height",
+        "D": "Adding more noise"
+      },
+      "answer": "B",
+      "explanation": "Repeaters boost the signal strength at intervals to overcome attenuation over long distances.",
+      "hash": "5c2583c185bee657",
+      "translations": {
+        "hi": {
+          "question": "सिग्नल की सीमा (range) को किसके द्वारा बढ़ाया जा सकता है?",
+          "options": {
+            "A": "क्षीणन बढ़ाकर",
+            "B": "रिपीटर का उपयोग करके",
+            "C": "एंटीना की ऊंचाई कम करके",
+            "D": "अधिक शोर जोड़कर"
+          },
+          "explanation": "रिपीटर लंबी दूरी पर क्षीणन को दूर करने के लिए अंतराल पर सिग्नल की शक्ति को बढ़ाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-015",
+      "number": 15,
+      "question": "For a carrier wave of frequency fc and message signal of fm, the sideband frequencies in AM are:",
+      "options": {
+        "A": "fc and fm",
+        "B": "fc+fm and fc-fm",
+        "C": "2fc and 2fm",
+        "D": "fc/fm"
+      },
+      "answer": "B",
+      "explanation": "Amplitude modulation creates two sidebands: the Upper Sideband (fc + fm) and the Lower Sideband (fc - fm).",
+      "hash": "89dad1aef4ed69cc",
+      "translations": {
+        "hi": {
+          "question": "आवृत्ति fc की वाहक तरंग और fm के संदेश सिग्नल के लिए, AM में साइडबैंड आवृत्तियाँ हैं:",
+          "options": {
+            "A": "fc और fm",
+            "B": "fc+fm और fc-fm",
+            "C": "2fc और 2fm",
+            "D": "fc/fm"
+          },
+          "explanation": "आयाम मॉड्यूलेशन दो साइडबैंड बनाता है: ऊपरी साइडबैंड (fc + fm) और निचला साइडबैंड (fc - fm)।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-016",
+      "number": 16,
+      "question": "A geostationary satellite has a period of revolution of:",
+      "options": {
+        "A": "12 hours",
+        "B": "24 hours",
+        "C": "48 hours",
+        "D": "365 days"
+      },
+      "answer": "B",
+      "explanation": "Its period matches Earth's rotation, making it appear stationary relative to a point on the ground.",
+      "hash": "611d12f39eb1d7ee",
+      "translations": {
+        "hi": {
+          "question": "एक भू-स्थिर उपग्रह का परिक्रमण काल होता है:",
+          "options": {
+            "A": "12 घंटे",
+            "B": "24 घंटे",
+            "C": "48 घंटे",
+            "D": "365 दिन"
+          },
+          "explanation": "इसकी अवधि पृथ्वी के घूर्णन से मेल खाती है, जिससे यह जमीन पर एक बिंदु के सापेक्ष स्थिर दिखाई देता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-017",
+      "number": 17,
+      "question": "Pulse Position Modulation (PPM) is a type of:",
+      "options": {
+        "A": "Analog modulation",
+        "B": "Pulse modulation",
+        "C": "Frequency modulation",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "PPM varies the position of pulses in a sequence according to the modulating signal.",
+      "hash": "c327892bb60561d2",
+      "translations": {
+        "hi": {
+          "question": "पल्स पोजीशन मॉड्यूलेशन (PPM) किसका एक प्रकार है?",
+          "options": {
+            "A": "एनालॉग मॉड्यूलेशन",
+            "B": "पल्स मॉड्यूलेशन",
+            "C": "आवृत्ति मॉड्यूलेशन",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "PPM संदेश सिग्नल के अनुसार एक अनुक्रम में स्पंदों की स्थिति को बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-018",
+      "number": 18,
+      "question": "Fax is used for the transmission of:",
+      "options": {
+        "A": "Only voice",
+        "B": "Static documents and images",
+        "C": "Live video",
+        "D": "High frequency sound"
+      },
+      "answer": "B",
+      "explanation": "Facsimile (Fax) scans a document and transmits the data over a telephone line to be printed at the receiver.",
+      "hash": "0042fa68c8e9d4f8",
+      "translations": {
+        "hi": {
+          "question": "फैक्स (Fax) का उपयोग किसके संचरण के लिए किया जाता है?",
+          "options": {
+            "A": "केवल आवाज",
+            "B": "स्थिर दस्तावेज और चित्र",
+            "C": "लाइव वीडियो",
+            "D": "उच्च आवृत्ति ध्वनि"
+          },
+          "explanation": "फैक्स एक दस्तावेज को स्कैन करता है और डेटा को टेलीफोन लाइन पर प्रसारित करता है जिसे रिसीवर पर प्रिंट किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-019",
+      "number": 19,
+      "question": "The 'Skip Distance' in communication refers to:",
+      "options": {
+        "A": "Distance between two antennas",
+        "B": "Minimum distance from the transmitter where sky wave is received",
+        "C": "Height of the ionosphere",
+        "D": "Wavelength of the signal"
+      },
+      "answer": "B",
+      "explanation": "It is the gap between where the ground wave ends and the first sky wave returns to earth.",
+      "hash": "eba62a7886e77518",
+      "translations": {
+        "hi": {
+          "question": "संचार में 'स्किप डिस्टेंस' (Skip Distance) का तात्पर्य है:",
+          "options": {
+            "A": "दो एंटीना के बीच की दूरी",
+            "B": "ट्रांसमीटर से वह न्यूनतम दूरी जहाँ आकाश तरंग प्राप्त होती है",
+            "C": "आयनमंडल की ऊंचाई",
+            "D": "सिग्नल की तरंगदैर्ध्य"
+          },
+          "explanation": "यह वह अंतराल है जहाँ भू-तरंग समाप्त होती है और पहली आकाश तरंग पृथ्वी पर वापस आती है।"
+        }
+      }
+    },
+    {
+      "id": "communication-systems-02-020",
+      "number": 20,
+      "question": "Why is coax cable shielded?",
+      "options": {
+        "A": "To make it flexible",
+        "B": "To reduce electromagnetic interference",
+        "C": "To increase its weight",
+        "D": "To make it look attractive"
+      },
+      "answer": "B",
+      "explanation": "The outer metallic braid prevents external noise from interfering with the internal signal.",
+      "hash": "590ed42faaf5c1cb",
+      "translations": {
+        "hi": {
+          "question": "समाक्षीय केबल (coax cable) को शील्डेड (shielded) क्यों किया जाता है?",
+          "options": {
+            "A": "इसे लचीला बनाने के लिए",
+            "B": "विद्युत चुंबकीय हस्तक्षेप को कम करने के लिए",
+            "C": "इसका वजन बढ़ाने के लिए",
+            "D": "इसे आकर्षक बनाने के लिए"
+          },
+          "explanation": "बाहरी धात्विक चोटी बाहरी शोर को आंतरिक सिग्नल में हस्तक्षेप करने से रोकती है।"
+        }
+      }
+    }
+  ]
+}

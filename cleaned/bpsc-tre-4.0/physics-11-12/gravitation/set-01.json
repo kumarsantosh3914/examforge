@@ -1,0 +1,527 @@
+{
+  "subject": "Gravitation",
+  "set": 1,
+  "title": "Gravitation Mock Test 1",
+  "questions": [
+    {
+      "id": "gravitation-01-001",
+      "number": 1,
+      "question": "The value of gravitational constant G depends on:",
+      "options": {
+        "A": "Nature of the medium",
+        "B": "Mass of the bodies",
+        "C": "Distance between bodies",
+        "D": "None of these"
+      },
+      "answer": "D",
+      "explanation": "G is a universal constant and does not depend on medium, mass, or distance.",
+      "hash": "c7f5b7d382bcb97c",
+      "translations": {
+        "hi": {
+          "question": "गुरुत्वाकर्षण नियतांक G का मान किस पर निर्भर करता है?",
+          "options": {
+            "A": "माध्यम की प्रकृति पर",
+            "B": "वस्तुओं के द्रव्यमान पर",
+            "C": "वस्तुओं के बीच की दूरी पर",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "G एक सार्वत्रिक नियतांक है और यह माध्यम, द्रव्यमान या दूरी पर निर्भर नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-002",
+      "number": 2,
+      "question": "If the distance between two masses is doubled, the gravitational force between them becomes:",
+      "options": {
+        "A": "Double",
+        "B": "Half",
+        "C": "One-fourth",
+        "D": "Four times"
+      },
+      "answer": "C",
+      "explanation": "Force follows the inverse square law (F ∝ 1/r²). Doubling r makes F 1/4th.",
+      "hash": "93a7d54a2af1ecda",
+      "translations": {
+        "hi": {
+          "question": "यदि दो द्रव्यमानों के बीच की दूरी दोगुनी कर दी जाए, तो उनके बीच गुरुत्वाकर्षण बल हो जाता है:",
+          "options": {
+            "A": "दोगुना",
+            "B": "आधा",
+            "C": "एक-चौथाई",
+            "D": "चार गुना"
+          },
+          "explanation": "बल व्युत्क्रम वर्ग नियम (F ∝ 1/r²) का पालन करता है। r को दोगुना करने पर F एक-चौथाई हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-003",
+      "number": 3,
+      "question": "The acceleration due to gravity g at the center of the Earth is:",
+      "options": {
+        "A": "9.8 m/s²",
+        "B": "Infinite",
+        "C": "Zero",
+        "D": "Same as on surface"
+      },
+      "answer": "C",
+      "explanation": "At the center, the mass of Earth pulls from all sides equally, making net g zero.",
+      "hash": "6fec76ccc5578584",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी के केंद्र पर गुरुत्वीय त्वरण g का मान है:",
+          "options": {
+            "A": "9.8 मी/से²",
+            "B": "अनंत",
+            "C": "शून्य",
+            "D": "सतह के समान"
+          },
+          "explanation": "केंद्र पर, पृथ्वी का द्रव्यमान सभी दिशाओं से समान रूप से खींचता है, जिससे कुल g शून्य हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-004",
+      "number": 4,
+      "question": "Where will a body weigh maximum?",
+      "options": {
+        "A": "At the Equator",
+        "B": "At the Poles",
+        "C": "At the center of Earth",
+        "D": "At a height equal to radius"
+      },
+      "answer": "B",
+      "explanation": "Earth is flattened at poles, so radius is minimum and g is maximum at poles.",
+      "hash": "0f9c55802fa00964",
+      "translations": {
+        "hi": {
+          "question": "किसी वस्तु का भार अधिकतम कहाँ होगा?",
+          "options": {
+            "A": "भूमध्य रेखा पर",
+            "B": "ध्रुवों पर",
+            "C": "पृथ्वी के केंद्र पर",
+            "D": "त्रिज्या के बराबर ऊंचाई पर"
+          },
+          "explanation": "पृथ्वी ध्रुवों पर चपटी है, इसलिए ध्रुवों पर त्रिज्या न्यूनतम और g अधिकतम होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-005",
+      "number": 5,
+      "question": "The escape velocity from the surface of Earth is approximately:",
+      "options": {
+        "A": "9.8 km/s",
+        "B": "11.2 km/s",
+        "C": "7.9 km/s",
+        "D": "42 km/s"
+      },
+      "answer": "B",
+      "explanation": "Escape velocity Ve = sqrt(2gR) ≈ 11.2 km/s for Earth.",
+      "hash": "0b1f5f776358dd89",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह से पलायन वेग लगभग है:",
+          "options": {
+            "A": "9.8 किमी/से",
+            "B": "11.2 किमी/से",
+            "C": "7.9 किमी/से",
+            "D": "42 किमी/से"
+          },
+          "explanation": "पृथ्वी के लिए पलायन वेग Ve = sqrt(2gR) ≈ 11.2 किमी/से है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-006",
+      "number": 6,
+      "question": "The time period of a geostationary satellite is:",
+      "options": {
+        "A": "12 hours",
+        "B": "24 hours",
+        "C": "48 hours",
+        "D": "Depends on its mass"
+      },
+      "answer": "B",
+      "explanation": "Geostationary satellites rotate with the same angular velocity as Earth (24 hours).",
+      "hash": "0edabee3f9973752",
+      "translations": {
+        "hi": {
+          "question": "एक भू-स्थिर उपग्रह का आवर्तकाल होता है:",
+          "options": {
+            "A": "12 घंटे",
+            "B": "24 घंटे",
+            "C": "48 घंटे",
+            "D": "इसके द्रव्यमान पर निर्भर करता है"
+          },
+          "explanation": "भू-स्थिर उपग्रह पृथ्वी के समान कोणीय वेग (24 घंटे) से घूमते हैं।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-007",
+      "number": 7,
+      "question": "Kepler's Second Law (Law of Areas) is a consequence of the conservation of:",
+      "options": {
+        "A": "Linear momentum",
+        "B": "Energy",
+        "C": "Angular momentum",
+        "D": "Mass"
+      },
+      "answer": "C",
+      "explanation": "A central force (gravity) exerts no torque, so angular momentum remains constant.",
+      "hash": "fb54ee968d5a9b71",
+      "translations": {
+        "hi": {
+          "question": "केप्लर का द्वितीय नियम (क्षेत्रफल का नियम) किसके संरक्षण का परिणाम है?",
+          "options": {
+            "A": "रैखिक संवेग",
+            "B": "ऊर्जा",
+            "C": "कोणीय संवेग",
+            "D": "द्रव्यमान"
+          },
+          "explanation": "एक केंद्रीय बल (गुरुत्वाकर्षण) कोई टॉर्क नहीं लगाता है, इसलिए कोणीय संवेग स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-008",
+      "number": 8,
+      "question": "Gravitational potential energy of a system of two masses is always:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Infinity"
+      },
+      "answer": "B",
+      "explanation": "Gravity is attractive; work must be done to separate masses to infinity.",
+      "hash": "09172f6d2c08c2a4",
+      "translations": {
+        "hi": {
+          "question": "दो द्रव्यमानों के निकाय की गुरुत्वीय स्थितिज ऊर्जा हमेशा होती है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "गुरुत्वाकर्षण आकर्षक है; द्रव्यमानों को अनंत तक अलग करने के लिए कार्य किया जाना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-009",
+      "number": 9,
+      "question": "If the Earth stops rotating, the value of g at the equator will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "A",
+      "explanation": "Centrifugal force at the equator reduces g; if rotation stops, g increases.",
+      "hash": "7e8218e6c0f79acf",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी घूमना बंद कर दे, तो भूमध्य रेखा पर g का मान:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "भूमध्य रेखा पर अपकेंद्रीय बल g को कम कर देता है; यदि घूर्णन रुक जाता है, तो g बढ़ जाता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-010",
+      "number": 10,
+      "question": "The weight of an object in a satellite orbiting Earth is:",
+      "options": {
+        "A": "Same as on Earth",
+        "B": "Zero",
+        "C": "Greater than on Earth",
+        "D": "Less but non-zero"
+      },
+      "answer": "B",
+      "explanation": "Objects in orbit are in a state of continuous free fall, leading to weightlessness.",
+      "hash": "e564f789b0c0251b",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की परिक्रमा कर रहे उपग्रह में किसी वस्तु का भार होता है:",
+          "options": {
+            "A": "पृथ्वी के समान",
+            "B": "शून्य",
+            "C": "पृथ्वी से अधिक",
+            "D": "कम लेकिन गैर-शून्य"
+          },
+          "explanation": "कक्षा में वस्तुएं निरंतर मुक्त पतन की स्थिति में होती हैं, जिससे भारहीनता आती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-011",
+      "number": 11,
+      "question": "The ratio of inertial mass to gravitational mass is:",
+      "options": {
+        "A": "1 : 2",
+        "B": "2 : 1",
+        "C": "1 : 1",
+        "D": "Variable"
+      },
+      "answer": "C",
+      "explanation": "According to the principle of equivalence, inertial and gravitational masses are equal.",
+      "hash": "3a869a8d07c5a60e",
+      "translations": {
+        "hi": {
+          "question": "जड़त्वीय द्रव्यमान का गुरुत्वीय द्रव्यमान से अनुपात है:",
+          "options": {
+            "A": "1 : 2",
+            "B": "2 : 1",
+            "C": "1 : 1",
+            "D": "परिवर्तनशील"
+          },
+          "explanation": "तुल्यता के सिद्धांत के अनुसार, जड़त्वीय और गुरुत्वीय द्रव्यमान बराबर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-012",
+      "number": 12,
+      "question": "If Earth's radius shrinks by 1% while mass remains constant, g on surface will:",
+      "options": {
+        "A": "Increase by 1%",
+        "B": "Increase by 2%",
+        "C": "Decrease by 1%",
+        "D": "Decrease by 2%"
+      },
+      "answer": "B",
+      "explanation": "g = GM/R². For small changes, Δg/g = -2 ΔR/R. So -2(-1%) = +2%.",
+      "hash": "94630a109a5431ca",
+      "translations": {
+        "hi": {
+          "question": "यदि पृथ्वी की त्रिज्या 1% सिकुड़ जाए जबकि द्रव्यमान स्थिर रहे, तो सतह पर g:",
+          "options": {
+            "A": "1% बढ़ेगा",
+            "B": "2% बढ़ेगा",
+            "C": "1% घटेगा",
+            "D": "2% घटेगा"
+          },
+          "explanation": "g = GM/R²। छोटे परिवर्तनों के लिए, Δg/g = -2 ΔR/R। अतः -2(-1%) = +2%।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-013",
+      "number": 13,
+      "question": "A missile is launched with velocity less than escape velocity. Sum of its KE and PE is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "First positive then negative"
+      },
+      "answer": "B",
+      "explanation": "If total energy is negative, the object is \"bound\" to the Earth's gravity.",
+      "hash": "d763aa9d80bc3cbe",
+      "translations": {
+        "hi": {
+          "question": "एक मिसाइल पलायन वेग से कम वेग से छोड़ी जाती है। इसकी KE और PE का योग है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "पहले धनात्मक फिर ऋणात्मक"
+          },
+          "explanation": "यदि कुल ऊर्जा ऋणात्मक है, तो वस्तु पृथ्वी के गुरुत्वाकर्षण से \"बंधी\" होती है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-014",
+      "number": 14,
+      "question": "The value of G was first experimentally determined by:",
+      "options": {
+        "A": "Newton",
+        "B": "Kepler",
+        "C": "Cavendish",
+        "D": "Galileo"
+      },
+      "answer": "C",
+      "explanation": "Henry Cavendish determined the value of G using a torsion balance.",
+      "hash": "6290b7e8146340a5",
+      "translations": {
+        "hi": {
+          "question": "G का मान सबसे पहले प्रयोगात्मक रूप से किसके द्वारा निर्धारित किया गया था?",
+          "options": {
+            "A": "न्यूटन",
+            "B": "केप्लर",
+            "C": "कैवेंडिश",
+            "D": "गैलीलियो"
+          },
+          "explanation": "हेनरी कैवेंडिश ने टॉर्शन बैलेंस का उपयोग करके G का मान निर्धारित किया था।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-015",
+      "number": 15,
+      "question": "As we go down below the Earth's surface, the value of g:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "First increases then decreases"
+      },
+      "answer": "B",
+      "explanation": "Inside Earth, g decreases linearly with depth (g' = g(1 - d/R)).",
+      "hash": "24c04c663f25e32d",
+      "translations": {
+        "hi": {
+          "question": "जैसे-जैसे हम पृथ्वी की सतह के नीचे जाते हैं, g का मान:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "समान रहता है",
+            "D": "पहले बढ़ता है फिर घटती है"
+          },
+          "explanation": "पृथ्वी के अंदर, गहराई के साथ g रैखिक रूप से घटता है (g' = g(1 - d/R))।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-016",
+      "number": 16,
+      "question": "The orbital velocity of a satellite near Earth's surface is approximately:",
+      "options": {
+        "A": "11.2 km/s",
+        "B": "8 km/s",
+        "C": "5 km/s",
+        "D": "1 km/s"
+      },
+      "answer": "B",
+      "explanation": "Vo = sqrt(gR) ≈ 7.9 or 8 km/s.",
+      "hash": "11c5a006d1bf5a2d",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी की सतह के निकट एक उपग्रह का कक्षीय वेग लगभग है:",
+          "options": {
+            "A": "11.2 किमी/से",
+            "B": "8 किमी/से",
+            "C": "5 किमी/से",
+            "D": "1 किमी/से"
+          },
+          "explanation": "Vo = sqrt(gR) ≈ 7.9 या 8 किमी/से।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-017",
+      "number": 17,
+      "question": "If a satellite's orbit radius is increased by 4 times, its time period becomes:",
+      "options": {
+        "A": "4 times",
+        "B": "8 times",
+        "C": "2 times",
+        "D": "16 times"
+      },
+      "answer": "B",
+      "explanation": "Kepler's Third Law (T² ∝ R³). T ∝ R^(3/2). 4^(3/2) = (sqrt(4))³ = 2³ = 8.",
+      "hash": "b3deccfef8371e9a",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी उपग्रह की कक्षा की त्रिज्या 4 गुना बढ़ा दी जाए, तो उसका आवर्तकाल हो जाता है:",
+          "options": {
+            "A": "4 गुना",
+            "B": "8 गुना",
+            "C": "2 गुना",
+            "D": "16 गुना"
+          },
+          "explanation": "केप्लर का तीसरा नियम (T² ∝ R³)। T ∝ R^(3/2)। 4^(3/2) = (sqrt(4))³ = 2³ = 8।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-018",
+      "number": 18,
+      "question": "Potential at a point due to a point mass M at distance r is:",
+      "options": {
+        "A": "GM/r",
+        "B": "-GM/r",
+        "C": "-GM/r²",
+        "D": "GM/r²"
+      },
+      "answer": "B",
+      "explanation": "Gravitational potential is work done per unit mass, V = -GM/r.",
+      "hash": "5fd610bc49c9f8f4",
+      "translations": {
+        "hi": {
+          "question": "दूरी r पर एक बिंदु द्रव्यमान M के कारण किसी बिंदु पर विभव है:",
+          "options": {
+            "A": "GM/r",
+            "B": "-GM/r",
+            "C": "-GM/r²",
+            "D": "GM/r²"
+          },
+          "explanation": "गुरुत्वीय विभव प्रति इकाई द्रव्यमान पर किया गया कार्य है, V = -GM/r।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-019",
+      "number": 19,
+      "question": "Which planet has the largest escape velocity in our solar system?",
+      "options": {
+        "A": "Earth",
+        "B": "Jupiter",
+        "C": "Mars",
+        "D": "Saturn"
+      },
+      "answer": "B",
+      "explanation": "Jupiter has the largest mass, resulting in the highest gravitational pull and escape velocity.",
+      "hash": "bed4440c6aacf008",
+      "translations": {
+        "hi": {
+          "question": "हमारे सौरमंडल में किस ग्रह का पलायन वेग सबसे अधिक है?",
+          "options": {
+            "A": "पृथ्वी",
+            "B": "बृहस्पति",
+            "C": "मंगल",
+            "D": "शनि"
+          },
+          "explanation": "बृहस्पति का द्रव्यमान सबसे अधिक है, जिसके परिणामस्वरूप उच्चतम गुरुत्वाकर्षण खिंचाव और पलायन वेग होता है।"
+        }
+      }
+    },
+    {
+      "id": "gravitation-01-020",
+      "number": 20,
+      "question": "Atmospheric air is held to the Earth by:",
+      "options": {
+        "A": "Winds",
+        "B": "Gravity",
+        "C": "Clouds",
+        "D": "Rotation"
+      },
+      "answer": "B",
+      "explanation": "Earth's gravity prevents gas molecules from escaping into space.",
+      "hash": "e4ea22bd089c39d3",
+      "translations": {
+        "hi": {
+          "question": "वायुमंडलीय हवा पृथ्वी द्वारा किसके कारण रुकी हुई है?",
+          "options": {
+            "A": "हवाओं",
+            "B": "गुरुत्वाकर्षण",
+            "C": "बादलों",
+            "D": "घूर्णन"
+          },
+          "explanation": "पृथ्वी का गुरुत्वाकर्षण गैस के अणुओं को अंतरिक्ष में जाने से रोकता है।"
+        }
+      }
+    }
+  ]
+}

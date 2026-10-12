@@ -1,0 +1,527 @@
+{
+  "subject": "Electrostatics",
+  "set": 2,
+  "title": "Electrostatics Mock Test 2",
+  "questions": [
+    {
+      "id": "electrostatics-02-001",
+      "number": 1,
+      "question": "When a body is charged by induction, the body:",
+      "options": {
+        "A": "Loses some charge",
+        "B": "Gains some charge",
+        "C": "Neither gains nor loses charge",
+        "D": "Becomes a conductor"
+      },
+      "answer": "C",
+      "explanation": "In induction, there is only a redistribution of charges within the body due to a nearby charged object; the net charge remains zero until grounded.",
+      "hash": "6aa820fa0adf524d",
+      "translations": {
+        "hi": {
+          "question": "जब किसी वस्तु को प्रेरण (induction) द्वारा आवेशित किया जाता है, तो वस्तु:",
+          "options": {
+            "A": "कुछ आवेश खो देती है",
+            "B": "कुछ आवेश प्राप्त करती है",
+            "C": "न तो आवेश प्राप्त करती है और न ही खोती है",
+            "D": "चालक बन जाती है"
+          },
+          "explanation": "प्रेरण में, पास की आवेशित वस्तु के कारण वस्तु के भीतर केवल आवेशों का पुनर्वितरण होता है; ग्राउंडिंग होने तक शुद्ध आवेश शून्य रहता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-002",
+      "number": 2,
+      "question": "The minimum amount of charge that can exist independently in nature is:",
+      "options": {
+        "A": "1.6 x 10⁻¹⁹ C",
+        "B": "1 C",
+        "C": "1.6 x 10⁻³¹ C",
+        "D": "9.1 x 10⁻³¹ C"
+      },
+      "answer": "A",
+      "explanation": "This is the elementary charge (e), which is the magnitude of the charge on a single electron or proton.",
+      "hash": "950e4d9704fc3539",
+      "translations": {
+        "hi": {
+          "question": "प्रकृति में स्वतंत्र रूप से मौजूद रहने वाले आवेश की न्यूनतम मात्रा है:",
+          "options": {
+            "A": "1.6 x 10⁻¹⁹ C",
+            "B": "1 C",
+            "C": "1.6 x 10⁻³¹ C",
+            "D": "9.1 x 10⁻³¹ C"
+          },
+          "explanation": "यह प्रारंभिक आवेश (e) है, जो एक इलेक्ट्रॉन या प्रोटॉन पर आवेश का परिमाण है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-003",
+      "number": 3,
+      "question": "Electric field intensity at a point on the axis of an electric dipole is given by:",
+      "options": {
+        "A": "(1/4πε₀) (p/r²)",
+        "B": "(1/4πε₀) (2p/r³)",
+        "C": "(1/4πε₀) (p/r³)",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "At an axial point, E = (1/4πε₀) (2pr / (r²-a²)²). For r >> a, it simplifies to (1/4πε₀) (2p/r³).",
+      "hash": "5fd4261f4c9aed52",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव के अक्ष पर स्थित बिंदु पर विद्युत क्षेत्र की तीव्रता किसके द्वारा दी जाती है?",
+          "options": {
+            "A": "(1/4πε₀) (p/r²)",
+            "B": "(1/4πε₀) (2p/r³)",
+            "C": "(1/4πε₀) (p/r³)",
+            "D": "शून्य"
+          },
+          "explanation": "अक्षीय बिंदु पर, E = (1/4πε₀) (2pr / (r²-a²)²) होता है। r >> a के लिए, यह (1/4πε₀) (2p/r³) हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-004",
+      "number": 4,
+      "question": "A hollow metal sphere of radius 5 cm is charged such that the potential on its surface is 10 V. The potential at the center of the sphere is:",
+      "options": {
+        "A": "0 V",
+        "B": "10 V",
+        "C": "5 V",
+        "D": "2 V"
+      },
+      "answer": "B",
+      "explanation": "Inside a hollow charged conductor, the electric field is zero, which means the potential is constant and equal to the value on its surface.",
+      "hash": "86ebc509d2b9dcaa",
+      "translations": {
+        "hi": {
+          "question": "5 सेमी त्रिज्या वाले एक खोखले धातु के गोले को इस प्रकार आवेशित किया जाता है कि उसकी सतह पर विभव 10 V है। गोले के केंद्र पर विभव है:",
+          "options": {
+            "A": "0 V",
+            "B": "10 V",
+            "C": "5 V",
+            "D": "2 V"
+          },
+          "explanation": "एक खोखले आवेशित चालक के अंदर विद्युत क्षेत्र शून्य होता है, जिसका अर्थ है कि विभव स्थिर रहता है और उसकी सतह पर मौजूद मान के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-005",
+      "number": 5,
+      "question": "Dielectric constant for a metal is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Infinite",
+        "D": "10"
+      },
+      "answer": "C",
+      "explanation": "Metals are perfect conductors; they neutralize any internal electric field, implying an infinite dielectric constant.",
+      "hash": "7a460b45ec61ece3",
+      "translations": {
+        "hi": {
+          "question": "एक धातु के लिए परावैद्युतांक (dielectric constant) है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "अनंत",
+            "D": "10"
+          },
+          "explanation": "धातुएं पूर्ण चालक होती हैं; वे किसी भी आंतरिक विद्युत क्षेत्र को बेअसर कर देती हैं, जिसका अर्थ है कि उनका परावैद्युतांक अनंत होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-006",
+      "number": 6,
+      "question": "The SI unit of electric dipole moment is:",
+      "options": {
+        "A": "Coulomb-meter",
+        "B": "Coulomb/meter",
+        "C": "Newton-meter",
+        "D": "Joule-meter"
+      },
+      "answer": "A",
+      "explanation": "Dipole moment p = q * 2a. The units are charge (Coulomb) times distance (meter).",
+      "hash": "390a6662335b1c0a",
+      "translations": {
+        "hi": {
+          "question": "विद्युत द्विध्रुव आघूर्ण की SI इकाई है:",
+          "options": {
+            "A": "कूलम्ब-मीटर",
+            "B": "कूलम्ब/मीटर",
+            "C": "न्यूटन-मीटर",
+            "D": "जूल-मीटर"
+          },
+          "explanation": "द्विध्रुव आघूर्ण p = q * 2a है। इसकी इकाई आवेश (कूलम्ब) और दूरी (मीटर) का गुणनफल है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-007",
+      "number": 7,
+      "question": "The work done in bringing a unit positive charge from infinity to a point is called:",
+      "options": {
+        "A": "Electric field",
+        "B": "Electric flux",
+        "C": "Electric potential",
+        "D": "Capacitance"
+      },
+      "answer": "C",
+      "explanation": "Electric potential at a point is defined as the work done in moving a unit positive charge from infinity to that point against the electrostatic force.",
+      "hash": "a49a59ced6aa779e",
+      "translations": {
+        "hi": {
+          "question": "एक इकाई धनात्मक आवेश को अनंत से किसी बिंदु तक लाने में किया गया कार्य कहलाता है:",
+          "options": {
+            "A": "विद्युत क्षेत्र",
+            "B": "विद्युत फ्लक्स",
+            "C": "विद्युत विभव",
+            "D": "धारिता"
+          },
+          "explanation": "किसी बिंदु पर विद्युत विभव को स्थिरवैद्युत बल के विरुद्ध इकाई धनात्मक आवेश को अनंत से उस बिंदु तक ले जाने में किए गए कार्य के रूप में परिभाषित किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-008",
+      "number": 8,
+      "question": "If an electric dipole is kept in a non-uniform electric field, it experiences:",
+      "options": {
+        "A": "Only a force",
+        "B": "Only a torque",
+        "C": "Both a force and a torque",
+        "D": "Neither force nor torque"
+      },
+      "answer": "C",
+      "explanation": "In non-uniform fields, the net force is not zero because the field at the two charges is different. Torque also acts due to the alignment tendency.",
+      "hash": "18d9bb6f6f5539f4",
+      "translations": {
+        "hi": {
+          "question": "यदि एक विद्युत द्विध्रुव को एक असमान विद्युत क्षेत्र में रखा जाता है, तो वह अनुभव करता है:",
+          "options": {
+            "A": "केवल एक बल",
+            "B": "केवल एक टॉर्क",
+            "C": "बल और टॉर्क दोनों",
+            "D": "न तो बल और न ही टॉर्क"
+          },
+          "explanation": "असमान क्षेत्रों में, शुद्ध बल शून्य नहीं होता क्योंकि दोनों आवेशों पर क्षेत्र अलग-अलग होता है। संरेखण की प्रवृत्ति के कारण टॉर्क भी कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-009",
+      "number": 9,
+      "question": "The capacitance of a parallel plate capacitor does NOT depend on:",
+      "options": {
+        "A": "Area of the plates",
+        "B": "Distance between the plates",
+        "C": "Nature of the material of the plates",
+        "D": "Medium between the plates"
+      },
+      "answer": "C",
+      "explanation": "C = ε₀A/d. It depends on geometry (A, d) and the medium (ε₀), but not on what the conducting plates are made of.",
+      "hash": "9c4fe3d71ee5a11d",
+      "translations": {
+        "hi": {
+          "question": "समांतर प्लेट संधारित्र की धारिता किस पर निर्भर नहीं करती है?",
+          "options": {
+            "A": "प्लेटों के क्षेत्रफल पर",
+            "B": "प्लेटों के बीच की दूरी पर",
+            "C": "प्लेटों के पदार्थ की प्रकृति पर",
+            "D": "प्लेटों के बीच के माध्यम पर"
+          },
+          "explanation": "C = ε₀A/d। यह ज्यामिति (A, d) और माध्यम (ε₀) पर निर्भर करती है, लेकिन इस पर नहीं कि चालक प्लेटें किस पदार्थ की बनी हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-010",
+      "number": 10,
+      "question": "Two capacitors 2μF and 4μF are connected in parallel. Their equivalent capacitance is:",
+      "options": {
+        "A": "6μF",
+        "B": "1.33μF",
+        "C": "2μF",
+        "D": "8μF"
+      },
+      "answer": "A",
+      "explanation": "For parallel connection, Cp = C1 + C2 = 2 + 4 = 6μF.",
+      "hash": "4f6d505cf8cf3196",
+      "translations": {
+        "hi": {
+          "question": "दो संधारित्र 2μF और 4μF समांतर क्रम में जुड़े हुए हैं। उनकी समतुल्य धारिता है:",
+          "options": {
+            "A": "6μF",
+            "B": "1.33μF",
+            "C": "2μF",
+            "D": "8μF"
+          },
+          "explanation": "समांतर संयोजन के लिए, Cp = C1 + C2 = 2 + 4 = 6μF।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-011",
+      "number": 11,
+      "question": "Quantization of charge implies:",
+      "options": {
+        "A": "Charge is a vector",
+        "B": "Total charge is conserved",
+        "C": "Charge exists in discrete packets of 'e'",
+        "D": "Charge cannot be destroyed"
+      },
+      "answer": "C",
+      "explanation": "Q = ±ne, where n is an integer. Charge cannot take any arbitrary value; it must be a multiple of the electron's charge.",
+      "hash": "48a42d822fb69f7a",
+      "translations": {
+        "hi": {
+          "question": "आवेश के क्वांटीकरण का तात्पर्य है:",
+          "options": {
+            "A": "आवेश एक सदिश है",
+            "B": "कुल आवेश संरक्षित है",
+            "C": "आवेश 'e' के असंतत पैकेटों में मौजूद है",
+            "D": "आवेश को नष्ट नहीं किया जा सकता"
+          },
+          "explanation": "Q = ±ne, जहाँ n एक पूर्णांक है। आवेश कोई भी मनमाना मान नहीं ले सकता; यह इलेक्ट्रॉन के आवेश का गुणज होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-012",
+      "number": 12,
+      "question": "The direction of electric field intensity (E) at a point due to a positive charge is:",
+      "options": {
+        "A": "Towards the charge",
+        "B": "Away from the charge",
+        "C": "Circular",
+        "D": "Tangential"
+      },
+      "answer": "B",
+      "explanation": "Electric field lines originate from positive charges and point radially outwards.",
+      "hash": "89ec6785fc389731",
+      "translations": {
+        "hi": {
+          "question": "धनात्मक आवेश के कारण किसी बिंदु पर विद्युत क्षेत्र की तीव्रता (E) की दिशा होती है:",
+          "options": {
+            "A": "आवेश की ओर",
+            "B": "आवेश से दूर",
+            "C": "वृत्ताकार",
+            "D": "स्पर्शरेखीय"
+          },
+          "explanation": "विद्युत क्षेत्र रेखाएं धनात्मक आवेशों से उत्पन्न होती हैं और त्रिज्यीय रूप से बाहर की ओर इशारा करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-013",
+      "number": 13,
+      "question": "The value of 1 / (4πε₀) is:",
+      "options": {
+        "A": "9 x 10⁹ N m² C⁻²",
+        "B": "8.85 x 10⁻¹² N m² C⁻²",
+        "C": "1.6 x 10⁻¹⁹ N m² C⁻²",
+        "D": "9 x 10⁻⁹ N m² C⁻²"
+      },
+      "answer": "A",
+      "explanation": "This is the proportionality constant (k) used in Coulomb's Law.",
+      "hash": "168546e076446a18",
+      "translations": {
+        "hi": {
+          "question": "1 / (4πε₀) का मान है:",
+          "options": {
+            "A": "9 x 10⁹ N m² C⁻²",
+            "B": "8.85 x 10⁻¹² N m² C⁻²",
+            "C": "1.6 x 10⁻¹⁹ N m² C⁻²",
+            "D": "9 x 10⁻⁹ N m² C⁻²"
+          },
+          "explanation": "यह कूलम्ब के नियम में उपयोग किया जाने वाला आनुपातिकता नियतांक (k) है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-014",
+      "number": 14,
+      "question": "Electric flux through a closed surface depends on:",
+      "options": {
+        "A": "Shape of the surface",
+        "B": "Size of the surface",
+        "C": "Net charge enclosed",
+        "D": "Position of charge inside"
+      },
+      "answer": "C",
+      "explanation": "According to Gauss's Law, Φ = Q_enclosed / ε₀. It is independent of shape, size, or charge position.",
+      "hash": "e98d7a0d239b1e08",
+      "translations": {
+        "hi": {
+          "question": "एक बंद सतह से गुजरने वाला विद्युत फ्लक्स किस पर निर्भर करता है?",
+          "options": {
+            "A": "सतह के आकार पर",
+            "B": "सतह के माप पर",
+            "C": "अंदर बंद शुद्ध आवेश पर",
+            "D": "अंदर आवेश की स्थिति पर"
+          },
+          "explanation": "गॉस के नियम के अनुसार, Φ = Q_enclosed / ε₀। यह आकार, माप या आवेश की स्थिति से स्वतंत्र है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-015",
+      "number": 15,
+      "question": "Van de Graaff generator is used to produce:",
+      "options": {
+        "A": "High current",
+        "B": "High voltage",
+        "C": "Low voltage",
+        "D": "Magnetic field"
+      },
+      "answer": "B",
+      "explanation": "It is an electrostatic generator which uses a moving belt to accumulate very high amounts of electrical potential on a hollow metal globe.",
+      "hash": "31caccca20137e52",
+      "translations": {
+        "hi": {
+          "question": "वान डी ग्राफ जनरेटर का उपयोग क्या उत्पन्न करने के लिए किया जाता है?",
+          "options": {
+            "A": "उच्च धारा",
+            "B": "उच्च वोल्टेज",
+            "C": "कम वोल्टेज",
+            "D": "चुंबकीय क्षेत्र"
+          },
+          "explanation": "यह एक स्थिरवैद्युत जनरेटर है जो एक खोखले धातु के गोले पर बहुत अधिक मात्रा में विद्युत विभव जमा करने के लिए चलती बेल्ट का उपयोग करता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-016",
+      "number": 16,
+      "question": "When two charged conductors are connected by a wire, the flow of charge is determined by their:",
+      "options": {
+        "A": "Charge",
+        "B": "Capacitance",
+        "C": "Potential",
+        "D": "Energy"
+      },
+      "answer": "C",
+      "explanation": "Charge flows from a higher potential conductor to a lower potential conductor until both reach a common potential.",
+      "hash": "d39250125bd09996",
+      "translations": {
+        "hi": {
+          "question": "जब दो आवेशित चालकों को एक तार से जोड़ा जाता है, तो आवेश का प्रवाह किसके द्वारा निर्धारित होता है?",
+          "options": {
+            "A": "आवेश",
+            "B": "धारिता",
+            "C": "विभव",
+            "D": "ऊर्जा"
+          },
+          "explanation": "आवेश उच्च विभव वाले चालक से निम्न विभव वाले चालक की ओर तब तक प्रवाहित होता है जब तक कि दोनों एक सामान्य विभव तक न पहुँच जाएँ।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-017",
+      "number": 17,
+      "question": "The electric field inside a current carrying conductor is:",
+      "options": {
+        "A": "Zero",
+        "B": "Non-zero",
+        "C": "Infinite",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "For a steady current to flow, an electric field must exist inside to push the electrons (E = V/L). Note: In static conditions, E is zero inside.",
+      "hash": "7167e2f4a44b6716",
+      "translations": {
+        "hi": {
+          "question": "धारावाही चालक के अंदर विद्युत क्षेत्र होता है:",
+          "options": {
+            "A": "शून्य",
+            "B": "गैर-शून्य",
+            "C": "अनंत",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "निरंतर धारा प्रवाहित होने के लिए, इलेक्ट्रॉनों को धक्का देने के लिए अंदर एक विद्युत क्षेत्र होना चाहिए (E = V/L)। ध्यान दें: स्थिर (static) स्थितियों में, अंदर E शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-018",
+      "number": 18,
+      "question": "A point charge q is rotated around another charge Q in a circle of radius r. The work done is:",
+      "options": {
+        "A": "qQ / (4πε₀r)",
+        "B": "Zero",
+        "C": "qQ / r²",
+        "D": "Infinity"
+      },
+      "answer": "B",
+      "explanation": "The displacement is always perpendicular to the electrostatic force (radially), and the potential on the circular path is constant (equipotential).",
+      "hash": "fb10fd8ad67211ab",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु आवेश q को त्रिज्या r के वृत्त में दूसरे आवेश Q के चारों ओर घुमाया जाता है। किया गया कार्य है:",
+          "options": {
+            "A": "qQ / (4πε₀r)",
+            "B": "शून्य",
+            "C": "qQ / r²",
+            "D": "अनंत"
+          },
+          "explanation": "विस्थापन हमेशा स्थिरवैद्युत बल (त्रिज्यीय) के लंबवत होता है, और वृत्ताकार पथ पर विभव स्थिर (समविभव) रहता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-019",
+      "number": 19,
+      "question": "Relation between electric field E and potential V is:",
+      "options": {
+        "A": "E = -dV/dx",
+        "B": "V = -dE/dx",
+        "C": "E = V / x²",
+        "D": "E = dV/dx"
+      },
+      "answer": "A",
+      "explanation": "Electric field is the negative gradient of electric potential.",
+      "hash": "e3ed9b12ab7a29ec",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र E और विभव V के बीच संबंध है:",
+          "options": {
+            "A": "E = -dV/dx",
+            "B": "V = -dE/dx",
+            "C": "E = V / x²",
+            "D": "E = dV/dx"
+          },
+          "explanation": "विद्युत क्षेत्र विद्युत विभव की ऋणात्मक प्रवणता (gradient) है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-02-020",
+      "number": 20,
+      "question": "Dimensional formula of capacitance is:",
+      "options": {
+        "A": "[M⁻¹ L⁻² T⁴ A²]",
+        "B": "[M L² T⁻³ A⁻¹]",
+        "C": "[M L² T⁻²]",
+        "D": "[M L⁻¹ T⁻²]"
+      },
+      "answer": "A",
+      "explanation": "C = Q/V. [Q] = [AT], [V] = [ML²T⁻³A⁻¹]. Solving gives [M⁻¹ L⁻² T⁴ A²].",
+      "hash": "8f5e974eb17621d7",
+      "translations": {
+        "hi": {
+          "question": "धारिता का विमीय सूत्र है:",
+          "options": {
+            "A": "[M⁻¹ L⁻² T⁴ A²]",
+            "B": "[M L² T⁻³ A⁻¹]",
+            "C": "[M L² T⁻²]",
+            "D": "[M L⁻¹ T⁻²]"
+          },
+          "explanation": "C = Q/V। [Q] = [AT], [V] = [ML²T⁻³A⁻¹]। हल करने पर [M⁻¹ L⁻² T⁴ A²] प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

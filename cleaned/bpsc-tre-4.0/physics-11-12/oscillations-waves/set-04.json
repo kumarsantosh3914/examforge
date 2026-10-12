@@ -1,0 +1,501 @@
+{
+  "subject": "Oscillations & Waves",
+  "set": 4,
+  "title": "Oscillations & Waves Mock Test 4",
+  "questions": [
+    {
+      "id": "oscillations-waves-04-001",
+      "number": 1,
+      "question": "The time period of a simple pendulum of infinite length is approximately:",
+      "options": {
+        "A": "Infinite",
+        "B": "2π sqrt(R/g) ≈ 84.6 minutes",
+        "C": "24 hours",
+        "D": "100 minutes"
+      },
+      "answer": "B",
+      "explanation": "For a pendulum whose length is comparable to Earth's radius R, the formula becomes T = 2π sqrt[1 / (g(1/L + 1/R))]. As L → ∞, T = 2π sqrt(R/g).",
+      "hash": "94c37949cd03c739",
+      "translations": {
+        "hi": {
+          "question": "अनंत लंबाई के एक सरल लोलक का आवर्तकाल लगभग होता है:",
+          "options": {
+            "A": "अनंत",
+            "B": "2π sqrt(R/g) ≈ 84.6 मिनट",
+            "C": "24 घंटे",
+            "D": "100 मिनट"
+          },
+          "explanation": "एक लोलक जिसकी लंबाई पृथ्वी की त्रिज्या R के तुलनीय है, उसके लिए सूत्र T = 2π sqrt[1 / (g(1/L + 1/R))] हो जाता है। जैसे ही L → ∞, T = 2π sqrt(R/g) होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-002",
+      "number": 2,
+      "question": "A particle executes SHM with an amplitude A. At what displacement from the mean position is its energy half kinetic and half potential?",
+      "options": {
+        "A": "A/2",
+        "B": "A/sqrt(2)",
+        "C": "A/sqrt(3)",
+        "D": "A * sqrt(3/2)"
+      },
+      "answer": "B",
+      "explanation": "Total energy E = 1/2 kA². Potential energy U = 1/2 kx². For U = E/2, 1/2 kx² = 1/4 kA², which gives x² = A²/2 or x = A/sqrt(2).",
+      "hash": "0654f4bd2e8993c8",
+      "translations": {
+        "hi": {
+          "question": "एक कण आयाम A के साथ SHM करता है। माध्य स्थिति से किस विस्थापन पर इसकी ऊर्जा आधी गतिज और आधी स्थितिज होती है?",
+          "options": {
+            "A": "A/2",
+            "B": "A/sqrt(2)",
+            "C": "A/sqrt(3)",
+            "D": "A * sqrt(3/2)"
+          },
+          "explanation": "कुल ऊर्जा E = 1/2 kA²। स्थितिज ऊर्जा U = 1/2 kx²। U = E/2 के लिए, 1/2 kx² = 1/4 kA², जिससे x² = A²/2 या x = A/sqrt(2) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-003",
+      "number": 3,
+      "question": "If the length of a simple pendulum is increased by 44%, the percentage increase in its time period will be:",
+      "options": {
+        "A": "44%",
+        "B": "22%",
+        "C": "20%",
+        "D": "10%"
+      },
+      "answer": "C",
+      "explanation": "T ∝ sqrt(L). If L becomes 1.44L, T becomes sqrt(1.44)T = 1.2T. This is an increase of 0.2 or 20%.",
+      "hash": "d07e88bae2ecaf17",
+      "translations": {
+        "hi": {
+          "question": "यदि एक सरल लोलक की लंबाई 44% बढ़ा दी जाए, तो इसके आवर्तकाल में प्रतिशत वृद्धि होगी:",
+          "options": {
+            "A": "44%",
+            "B": "22%",
+            "C": "20%",
+            "D": "10%"
+          },
+          "explanation": "T ∝ sqrt(L)। यदि L, 1.44L हो जाता है, तो T, sqrt(1.44)T = 1.2T हो जाता है। यह 0.2 या 20% की वृद्धि है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-004",
+      "number": 4,
+      "question": "The velocity of sound in a gas is v. If the pressure of the gas is tripled at constant temperature, the new velocity will be:",
+      "options": {
+        "A": "v",
+        "B": "3v",
+        "C": "v * sqrt(3)",
+        "D": "v/3"
+      },
+      "answer": "A",
+      "explanation": "Speed of sound v = sqrt(γP/ρ). At constant temperature, if P increases, ρ also increases in the same ratio (P/ρ = constant), so v remains unchanged.",
+      "hash": "c415be7737a88f5c",
+      "translations": {
+        "hi": {
+          "question": "एक गैस में ध्वनि का वेग v है। यदि स्थिर तापमान पर गैस का दाब तीन गुना कर दिया जाए, तो नया वेग होगा:",
+          "options": {
+            "A": "v",
+            "B": "3v",
+            "C": "v * sqrt(3)",
+            "D": "v/3"
+          },
+          "explanation": "ध्वनि की गति v = sqrt(γP/ρ)। स्थिर तापमान पर, यदि P बढ़ता है, तो ρ भी उसी अनुपात में बढ़ता है (P/ρ = नियतांक), इसलिए v अपरिवर्तित रहता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-005",
+      "number": 5,
+      "question": "In a longitudinal wave, the distance between a compression and the next adjacent rarefaction is:",
+      "options": {
+        "A": "λ",
+        "B": "λ/2",
+        "C": "λ/4",
+        "D": "2λ"
+      },
+      "answer": "B",
+      "explanation": "One full wavelength λ is the distance between two consecutive compressions. The distance from a compression to the immediate next rarefaction is half of that.",
+      "hash": "238f035f7a73b269",
+      "translations": {
+        "hi": {
+          "question": "एक अनुदैर्ध्य तरंग में, एक संपीड़न और अगले निकटवर्ती विरलन के बीच की दूरी होती है:",
+          "options": {
+            "A": "λ",
+            "B": "λ/2",
+            "C": "λ/4",
+            "D": "2λ"
+          },
+          "explanation": "एक पूर्ण तरंगदैर्ध्य λ दो क्रमिक संपीड़नों के बीच की दूरी है। एक संपीड़न से तुरंत अगले विरलन तक की दूरी उसकी आधी होती है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-006",
+      "number": 6,
+      "question": "The fundamental frequency of a stretched string is 100 Hz. To make it 200 Hz, the tension must be increased to:",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "sqrt(2) times",
+        "D": "8 times"
+      },
+      "answer": "B",
+      "explanation": "frequency n ∝ sqrt(T). To double the frequency (100 to 200), the tension T must be increased (2)² = 4 times.",
+      "hash": "40ce5cd5203f3d88",
+      "translations": {
+        "hi": {
+          "question": "एक तनी हुई डोरी की मूल आवृत्ति 100 Hz है। इसे 200 Hz बनाने के लिए, तनाव को कितना बढ़ाना होगा?",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "sqrt(2) गुना",
+            "D": "8 गुना"
+          },
+          "explanation": "आवृत्ति n ∝ sqrt(T)। आवृत्ति को दोगुना (100 से 200) करने के लिए, तनाव T को (2)² = 4 गुना बढ़ाना होगा।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-008",
+      "number": 8,
+      "question": "A resonance tube experiment is used to determine:",
+      "options": {
+        "A": "Speed of light",
+        "B": "Speed of sound in air",
+        "C": "Frequency of a tuning fork",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "Using a fork of known frequency, we find v. If v is known, we can find the frequency of an unknown fork.",
+      "hash": "71c8f64e6cd7b7f0",
+      "translations": {
+        "hi": {
+          "question": "एक अनुनाद नली प्रयोग (resonance tube experiment) का उपयोग क्या निर्धारित करने के लिए किया जाता है?",
+          "options": {
+            "A": "प्रकाश की गति",
+            "B": "हवा में ध्वनि की गति",
+            "C": "एक स्वरित्र की आवृत्ति",
+            "D": "B और C दोनों"
+          },
+          "explanation": "ज्ञात आवृत्ति के स्वरित्र का उपयोग करके, हम v ज्ञात करते हैं। यदि v ज्ञात है, तो हम एक अज्ञात स्वरित्र की आवृत्ति ज्ञात कर सकते हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-009",
+      "number": 9,
+      "question": "In a stationary wave, the points of maximum displacement are called:",
+      "options": {
+        "A": "Nodes",
+        "B": "Antinodes",
+        "C": "Peaks",
+        "D": "Troughs"
+      },
+      "answer": "B",
+      "explanation": "Nodes are points of zero displacement; Antinodes are points where particles vibrate with maximum amplitude.",
+      "hash": "5aef9cf07b7a4245",
+      "translations": {
+        "hi": {
+          "question": "एक अप्रगामी तरंग में, अधिकतम विस्थापन के बिंदुओं को कहा जाता है:",
+          "options": {
+            "A": "निस्पंद",
+            "B": "प्रस्पंद",
+            "C": "शिखर",
+            "D": "गर्त"
+          },
+          "explanation": "निस्पंद शून्य विस्थापन के बिंदु हैं; प्रस्पंद वे बिंदु हैं जहाँ कण अधिकतम आयाम के साथ कंपन करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-010",
+      "number": 10,
+      "question": "The phase of a particle in SHM at time t is π/2. This means the particle is at:",
+      "options": {
+        "A": "Mean position",
+        "B": "Positive extreme position",
+        "C": "Negative extreme position",
+        "D": "Halfway between mean and extreme"
+      },
+      "answer": "B",
+      "explanation": "x = A sin(φ). If φ = π/2, x = A sin(π/2) = +A, which is the positive extreme.",
+      "hash": "265271a56da9195e",
+      "translations": {
+        "hi": {
+          "question": "समय t पर SHM में एक कण की कला π/2 है। इसका अर्थ है कि कण कहाँ है?",
+          "options": {
+            "A": "माध्य स्थिति पर",
+            "B": "धनात्मक चरम स्थिति पर",
+            "C": "ऋणात्मक चरम स्थिति पर",
+            "D": "माध्य और चरम के बीच में"
+          },
+          "explanation": "x = A sin(φ)। यदि φ = π/2, x = A sin(π/2) = +A, जो धनात्मक चरम स्थिति है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-011",
+      "number": 11,
+      "question": "For a wave traveling in a medium, the velocity of the wave depends on:",
+      "options": {
+        "A": "Amplitude of the wave",
+        "B": "Frequency of the wave",
+        "C": "Properties of the medium (Elasticity and Density)",
+        "D": "Phase of the wave"
+      },
+      "answer": "C",
+      "explanation": "Wave velocity is a characteristic of the medium. For mechanical waves, v = sqrt(Elasticity/Density).",
+      "hash": "05fee79a4387022f",
+      "translations": {
+        "hi": {
+          "question": "एक माध्यम में यात्रा करने वाली तरंग के लिए, तरंग का वेग किस पर निर्भर करता है?",
+          "options": {
+            "A": "तरंग के आयाम पर",
+            "B": "तरंग की आवृत्ति पर",
+            "C": "माध्यम के गुणों (प्रत्यास्थता और घनत्व) पर",
+            "D": "तरंग की कला पर"
+          },
+          "explanation": "तरंग वेग माध्यम की एक विशेषता है। यांत्रिक तरंगों के लिए, v = sqrt(प्रत्यास्थता/घनत्व) होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-012",
+      "number": 12,
+      "question": "When a source of sound moves away from a stationary observer, the apparent wavelength:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "As the source moves away, the wavefronts are \"stretched\" out, resulting in a larger wavelength (Red Shift).",
+      "hash": "c78be8f6b85ce11d",
+      "translations": {
+        "hi": {
+          "question": "जब ध्वनि का एक स्रोत स्थिर श्रोता से दूर जाता है, तो आभासी तरंगदैर्ध्य:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "जैसे-जैसे स्रोत दूर जाता है, तरंगग्र \"खिंच\" जाते हैं, जिससे तरंगदैर्ध्य (रेड शिफ्ट) बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-013",
+      "number": 13,
+      "question": "The frequency of a second's pendulum is:",
+      "options": {
+        "A": "2 Hz",
+        "B": "1 Hz",
+        "C": "0.5 Hz",
+        "D": "0.25 Hz"
+      },
+      "answer": "C",
+      "explanation": "A second's pendulum has a time period T = 2 seconds. Frequency f = 1/T = 1/2 = 0.5 Hz.",
+      "hash": "381f75a3f484b943",
+      "translations": {
+        "hi": {
+          "question": "सेकंड लोलक की आवृत्ति है:",
+          "options": {
+            "A": "2 Hz",
+            "B": "1 Hz",
+            "C": "0.5 Hz",
+            "D": "0.25 Hz"
+          },
+          "explanation": "सेकंड लोलक का आवर्तकाल T = 2 सेकंड होता है। आवृत्ति f = 1/T = 1/2 = 0.5 Hz।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-014",
+      "number": 14,
+      "question": "A pipe open at both ends contains:",
+      "options": {
+        "A": "Only odd harmonics",
+        "B": "Only even harmonics",
+        "C": "All harmonics",
+        "D": "No harmonics"
+      },
+      "answer": "C",
+      "explanation": "An open organ pipe produces fundamental, 2nd, 3rd, 4th... harmonics (all integer multiples).",
+      "hash": "48b1b3ce8dece394",
+      "translations": {
+        "hi": {
+          "question": "दोनों सिरों पर खुले पाइप में होता है:",
+          "options": {
+            "A": "केवल विषम हारमोनिक्स",
+            "B": "केवल सम हारमोनिक्स",
+            "C": "सभी हारमोनिक्स",
+            "D": "कोई हारमोनिक्स नहीं"
+          },
+          "explanation": "एक खुला ऑर्गन पाइप मूल, दूसरा, तीसरा, चौथा... हारमोनिक्स (सभी पूर्णांक गुणज) उत्पन्न करता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-015",
+      "number": 15,
+      "question": "Which of the following is NOT a characteristic of a musical sound?",
+      "options": {
+        "A": "Pitch",
+        "B": "Quality (Timbre)",
+        "C": "Loudness",
+        "D": "Wavelength"
+      },
+      "answer": "D",
+      "explanation": "Musical sounds are characterized by pitch (frequency), loudness (intensity/amplitude), and quality (harmonics). Wavelength depends on velocity.",
+      "hash": "2f55b0903d7b8347",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा संगीत ध्वनि (musical sound) की विशेषता नहीं है?",
+          "options": {
+            "A": "तारत्व (Pitch)",
+            "B": "गुण (Timbre)",
+            "C": "प्रबलता (Loudness)",
+            "D": "तरंगदैर्ध्य"
+          },
+          "explanation": "संगीत ध्वनियों की विशेषता तारत्व (आवृत्ति), प्रबलता (तीव्रता/आयाम) और गुण (हारमोनिक्स) से होती है। तरंगदैर्ध्य वेग पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-016",
+      "number": 16,
+      "question": "A wave traveling on a string is reflected from a fixed end. The reflected wave will have a phase change of:",
+      "options": {
+        "A": "0",
+        "B": "π/2",
+        "C": "π",
+        "D": "2π"
+      },
+      "answer": "C",
+      "explanation": "Reflection from a rigid (denser) boundary causes a phase reversal of 180° or π radians.",
+      "hash": "81eb713150a699c3",
+      "translations": {
+        "hi": {
+          "question": "एक डोरी पर चलने वाली तरंग एक स्थिर सिरे से परावर्तित होती है। परावर्तित तरंग में कितना कला परिवर्तन होगा?",
+          "options": {
+            "A": "0",
+            "B": "π/2",
+            "C": "π",
+            "D": "2π"
+          },
+          "explanation": "एक कठोर (सघन) सीमा से परावर्तन के कारण 180° या π रेडियन का कला उत्क्रमण होता है। [Image showing wave reflection at a fixed boundary versus a free boundary]"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-017",
+      "number": 17,
+      "question": "If the intensity of sound is increased by 100 times, the increase in sound level (in dB) is:",
+      "options": {
+        "A": "10 dB",
+        "B": "20 dB",
+        "C": "100 dB",
+        "D": "2 dB"
+      },
+      "answer": "B",
+      "explanation": "ΔL = 10 log(I2/I1) = 10 log(100) = 10 * 2 = 20 dB.",
+      "hash": "a8d29e961ffc9fa3",
+      "translations": {
+        "hi": {
+          "question": "यदि ध्वनि की तीव्रता 100 गुना बढ़ा दी जाए, तो ध्वनि स्तर (dB में) में वृद्धि होगी:",
+          "options": {
+            "A": "10 dB",
+            "B": "20 dB",
+            "C": "100 dB",
+            "D": "2 dB"
+          },
+          "explanation": "ΔL = 10 log(I2/I1) = 10 log(100) = 10 * 2 = 20 dB।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-018",
+      "number": 18,
+      "question": "Beats are not heard if the difference in frequencies of two sounding bodies is more than:",
+      "options": {
+        "A": "2 Hz",
+        "B": "10 Hz",
+        "C": "20 Hz",
+        "D": "100 Hz"
+      },
+      "answer": "B",
+      "explanation": "Due to persistence of hearing (0.1s), humans cannot distinguish individual beats if they occur more than 10 times per second.",
+      "hash": "8dce10ca586304f7",
+      "translations": {
+        "hi": {
+          "question": "यदि दो ध्वनि निकायों की आवृत्तियों में अंतर किससे अधिक हो, तो विस्पंद नहीं सुनाई देते हैं?",
+          "options": {
+            "A": "2 Hz",
+            "B": "10 Hz",
+            "C": "20 Hz",
+            "D": "100 Hz"
+          },
+          "explanation": "श्रवण की निरंतरता (0.1s) के कारण, यदि विस्पंद प्रति सेकंड 10 से अधिक बार होते हैं, तो मनुष्य उन्हें अलग-अलग नहीं पहचान सकते।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-019",
+      "number": 19,
+      "question": "In forced vibrations, the amplitude of the system at resonance depends on:",
+      "options": {
+        "A": "Natural frequency",
+        "B": "Damping constant",
+        "C": "Applied frequency",
+        "D": "Mass of the system"
+      },
+      "answer": "B",
+      "explanation": "At resonance, the amplitude is limited solely by the damping (frictional) forces present in the system.",
+      "hash": "ed8c2598fce915b1",
+      "translations": {
+        "hi": {
+          "question": "प्रणोदित कंपन में, अनुनाद पर निकाय का आयाम किस पर निर्भर करता है?",
+          "options": {
+            "A": "प्राकृतिक आवृत्ति पर",
+            "B": "अवमंदन नियतांक पर",
+            "C": "लागू आवृत्ति पर",
+            "D": "निकाय के द्रव्यमान पर"
+          },
+          "explanation": "अनुनाद पर, आयाम पूरी तरह से निकाय में मौजूद अवमंदन (घर्षण) बलों द्वारा सीमित होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-04-020",
+      "number": 20,
+      "question": "The distance between two consecutive nodes in a standing wave is 15 cm. If the speed of the wave is 300 m/s, the frequency is:",
+      "options": {
+        "A": "1000 Hz",
+        "B": "2000 Hz",
+        "C": "500 Hz",
+        "D": "100 Hz"
+      },
+      "answer": "A",
+      "explanation": "λ/2 = 15 cm => λ = 30 cm = 0.3 m. Frequency f = v/λ = 300 / 0.3 = 1000 Hz.",
+      "hash": "454074bf0e91f463",
+      "translations": {
+        "hi": {
+          "question": "एक अप्रगामी तरंग में दो क्रमिक निस्पंदों के बीच की दूरी 15 cm है। यदि तरंग की गति 300 m/s है, तो आवृत्ति है:",
+          "options": {
+            "A": "1000 Hz",
+            "B": "2000 Hz",
+            "C": "500 Hz",
+            "D": "100 Hz"
+          },
+          "explanation": "λ/2 = 15 cm => λ = 30 cm = 0.3 m। आवृत्ति f = v/λ = 300 / 0.3 = 1000 Hz।"
+        }
+      }
+    }
+  ]
+}

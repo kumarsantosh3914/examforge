@@ -1,0 +1,527 @@
+{
+  "subject": "Optics",
+  "set": 1,
+  "title": "Optics Mock Test 1",
+  "questions": [
+    {
+      "id": "optics-01-001",
+      "number": 1,
+      "question": "A ray of light passes from vacuum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence is:",
+      "options": {
+        "A": "cos⁻¹(n/2)",
+        "B": "sin⁻¹(n/2)",
+        "C": "2 cos⁻¹(n/2)",
+        "D": "2 sin⁻¹(n/2)"
+      },
+      "answer": "C",
+      "explanation": "n = sin(i)/sin(r). Given i = 2r, so n = sin(2r)/sin(r) = 2cos(r). Thus r = cos⁻¹(n/2) and i = 2 cos⁻¹(n/2).",
+      "hash": "866c3b605c12c443",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश की एक किरण निर्वात से अपवर्तनांक n वाले माध्यम में प्रवेश करती है। यदि आपतन कोण अपवर्तन कोण का दोगुना है, तो आपतन कोण है:",
+          "options": {
+            "A": "cos⁻¹(n/2)",
+            "B": "sin⁻¹(n/2)",
+            "C": "2 cos⁻¹(n/2)",
+            "D": "2 sin⁻¹(n/2)"
+          },
+          "explanation": "n = sin(i)/sin(r)। दिया गया है i = 2r, इसलिए n = sin(2r)/sin(r) = 2cos(r)। अतः r = cos⁻¹(n/2) और i = 2 cos⁻¹(n/2)।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-002",
+      "number": 2,
+      "question": "The magnifying power of an astronomical telescope in normal adjustment is:",
+      "options": {
+        "A": "fo / fe",
+        "B": "-fo / fe",
+        "C": "fo * fe",
+        "D": "fe / fo"
+      },
+      "answer": "B",
+      "explanation": "For normal adjustment (final image at infinity), m = -fo/fe and length of tube L = fo + fe.",
+      "hash": "29032815672ade79",
+      "translations": {
+        "hi": {
+          "question": "सामान्य समायोजन में एक खगोलीय दूरबीन की आवर्धन क्षमता होती है:",
+          "options": {
+            "A": "fo / fe",
+            "B": "-fo / fe",
+            "C": "fo * fe",
+            "D": "fe / fo"
+          },
+          "explanation": "सामान्य समायोजन (अंतिम प्रतिबिंब अनंत पर) के लिए, m = -fo/fe और ट्यूब की लंबाई L = fo + fe।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-003",
+      "number": 3,
+      "question": "Critical angle for a light ray passing from a denser medium to a rarer medium is least for:",
+      "options": {
+        "A": "Red light",
+        "B": "Blue light",
+        "C": "Yellow light",
+        "D": "Violet light"
+      },
+      "answer": "D",
+      "explanation": "sin C = 1/n. Since refractive index n is maximum for violet light, the critical angle C is minimum for it.",
+      "hash": "6df354c97e4497dd",
+      "translations": {
+        "hi": {
+          "question": "सघन माध्यम से विरल माध्यम में जाने वाली प्रकाश किरण के लिए क्रांतिक कोण (critical angle) किसके लिए न्यूनतम होता है?",
+          "options": {
+            "A": "लाल प्रकाश",
+            "B": "नीला प्रकाश",
+            "C": "पीला प्रकाश",
+            "D": "बैंगनी प्रकाश"
+          },
+          "explanation": "sin C = 1/n। चूंकि बैंगनी प्रकाश के लिए अपवर्तनांक n अधिकतम होता है, इसलिए इसके लिए क्रांतिक कोण C न्यूनतम होता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-004",
+      "number": 4,
+      "question": "A convex lens of focal length f is immersed in water. Its focal length will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "A",
+      "explanation": "According to Lens Maker's Formula, when the relative refractive index decreases, the focal length increases.",
+      "hash": "ae4a1aa4aad3e423",
+      "translations": {
+        "hi": {
+          "question": "फोकस दूरी f के एक उत्तल लेंस को पानी में डुबोया जाता है। इसकी फोकस दूरी:",
+          "options": {
+            "A": "बढ़ेगी",
+            "B": "घटेगी",
+            "C": "वही रहेगी",
+            "D": "शून्य हो जाएगी"
+          },
+          "explanation": "लेंस मेकर सूत्र के अनुसार, जब सापेक्ष अपवर्तनांक घटता है, तो फोकस दूरी बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-005",
+      "number": 5,
+      "question": "Two thin lenses of power +12D and -2D are placed in contact. What is the focal length of the combination?",
+      "options": {
+        "A": "10 cm",
+        "B": "20 cm",
+        "C": "12.5 cm",
+        "D": "8.33 cm"
+      },
+      "answer": "A",
+      "explanation": "P = P1 + P2 = 12 - 2 = 10D. f = 1/P = 1/10 m = 10 cm.",
+      "hash": "ff00c7da4c8b2f62",
+      "translations": {
+        "hi": {
+          "question": "+12D और -2D शक्ति के दो पतले लेंस संपर्क में रखे गए हैं। संयोजन की फोकस दूरी क्या है?",
+          "options": {
+            "A": "10 cm",
+            "B": "20 cm",
+            "C": "12.5 cm",
+            "D": "8.33 cm"
+          },
+          "explanation": "P = P1 + P2 = 12 - 2 = 10D। f = 1/P = 1/10 m = 10 cm।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-006",
+      "number": 6,
+      "question": "Which phenomenon of light is responsible for the working of optical fibers?",
+      "options": {
+        "A": "Refraction",
+        "B": "Interference",
+        "C": "Total Internal Reflection",
+        "D": "Diffraction"
+      },
+      "answer": "C",
+      "explanation": "Light undergoes repeated total internal reflections at the core-cladding interface.",
+      "hash": "17fd799fa49eeea8",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश की कौन सी घटना ऑप्टिकल फाइबर के कार्य करने के लिए जिम्मेदार है?",
+          "options": {
+            "A": "अपवर्तन",
+            "B": "व्यतिकरण",
+            "C": "पूर्ण आंतरिक परावर्तन",
+            "D": "विवर्तन"
+          },
+          "explanation": "प्रकाश कोर-क्लैडिंग इंटरफेस पर बार-बार पूर्ण आंतरिक परावर्तन से गुजरता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-007",
+      "number": 7,
+      "question": "The refractive index of a prism is n = cot(A/2). The angle of minimum deviation is:",
+      "options": {
+        "A": "180 - A",
+        "B": "180 - 2A",
+        "C": "90 - A",
+        "D": "A"
+      },
+      "answer": "B",
+      "explanation": "n = sin((A+Dm)/2) / sin(A/2). Substituting n = cos(A/2)/sin(A/2), we get sin((A+Dm)/2) = cos(A/2) = sin(90 - A/2). Hence Dm = 180 - 2A.",
+      "hash": "30d7aebd30caa44a",
+      "translations": {
+        "hi": {
+          "question": "एक प्रिज्म का अपवर्तनांक n = cot(A/2) है। न्यूनतम विचलन कोण है:",
+          "options": {
+            "A": "180 - A",
+            "B": "180 - 2A",
+            "C": "90 - A",
+            "D": "A"
+          },
+          "explanation": "n = sin((A+Dm)/2) / sin(A/2)। n = cos(A/2)/sin(A/2) रखने पर, हमें Dm = 180 - 2A प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-008",
+      "number": 8,
+      "question": "The speed of light in a medium is 1.5 x 10⁸ m/s. Its refractive index is:",
+      "options": {
+        "A": "1.5",
+        "B": "2.0",
+        "C": "1.33",
+        "D": "0.5"
+      },
+      "answer": "B",
+      "explanation": "n = c / v = (3 x 10⁸) / (1.5 x 10⁸) = 2.0.",
+      "hash": "401a59d065aef871",
+      "translations": {
+        "hi": {
+          "question": "एक माध्यम में प्रकाश की गति 1.5 x 10⁸ m/s है। इसका अपवर्तनांक है:",
+          "options": {
+            "A": "1.5",
+            "B": "2.0",
+            "C": "1.33",
+            "D": "0.5"
+          },
+          "explanation": "n = c / v = (3 x 10⁸) / (1.5 x 10⁸) = 2.0।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-009",
+      "number": 9,
+      "question": "In Young's double slit experiment, if the distance between the slits is halved, the fringe width becomes:",
+      "options": {
+        "A": "Half",
+        "B": "Double",
+        "C": "Four times",
+        "D": "Unchanged"
+      },
+      "answer": "B",
+      "explanation": "Fringe width beta = lambda * D / d. If d is halved, beta is doubled.",
+      "hash": "fffdd218a6036f37",
+      "translations": {
+        "hi": {
+          "question": "यंग के द्वि-स्लिट प्रयोग में, यदि स्लिट्स के बीच की दूरी आधी कर दी जाए, तो फ्रिंज की चौड़ाई:",
+          "options": {
+            "A": "आधी हो जाती है",
+            "B": "दोगुनी हो जाती है",
+            "C": "चार गुना हो जाती है",
+            "D": "अपरिवर्तित रहती है"
+          },
+          "explanation": "फ्रिंज चौड़ाई beta = lambda * D / d। यदि d को आधा किया जाता है, तो beta दोगुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-010",
+      "number": 10,
+      "question": "A person cannot see objects clearly beyond 50 cm. The power of the lens required to correct this vision is:",
+      "options": {
+        "A": "+2.0 D",
+        "B": "-2.0 D",
+        "C": "+0.5 D",
+        "D": "-0.5 D"
+      },
+      "answer": "B",
+      "explanation": "For myopia, f = -distance of far point = -50 cm = -0.5 m. Power P = 1/f = -2.0 D.",
+      "hash": "28b2d33d0d3f9a0b",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 50 सेमी से अधिक दूर की वस्तुओं को स्पष्ट नहीं देख सकता है। इस दृष्टि को ठीक करने के लिए आवश्यक लेंस की शक्ति है:",
+          "options": {
+            "A": "+2.0 D",
+            "B": "-2.0 D",
+            "C": "+0.5 D",
+            "D": "-0.5 D"
+          },
+          "explanation": "निकट दृष्टि दोष के लिए, f = -दूर बिंदु की दूरी = -50 cm = -0.5 m। शक्ति P = 1/f = -2.0 D।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-011",
+      "number": 11,
+      "question": "Which color of light deviates the most when passing through a prism?",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Green",
+        "D": "Violet"
+      },
+      "answer": "D",
+      "explanation": "Violet light has the shortest wavelength and highest refractive index, hence deviates the most.",
+      "hash": "a43e1ebe28e8a90c",
+      "translations": {
+        "hi": {
+          "question": "प्रिज्म से गुजरते समय प्रकाश का कौन सा रंग सबसे अधिक विचलित होता है?",
+          "options": {
+            "A": "लाल",
+            "B": "पीला",
+            "C": "हरा",
+            "D": "बैंगनी"
+          },
+          "explanation": "बैंगनी प्रकाश की तरंगदैर्ध्य सबसे छोटी और अपवर्तनांक सबसे अधिक होता है, इसलिए यह सबसे अधिक विचलित होता है। [Image of dispersion of light through a prism]"
+        }
+      }
+    },
+    {
+      "id": "optics-01-012",
+      "number": 12,
+      "question": "The wave front due to a point source at a very large distance is:",
+      "options": {
+        "A": "Spherical",
+        "B": "Cylindrical",
+        "C": "Plane",
+        "D": "Circular"
+      },
+      "answer": "C",
+      "explanation": "As the distance increases, the curvature of the spherical wavefront decreases, becoming plane at infinity.",
+      "hash": "82328350f2ed8570",
+      "translations": {
+        "hi": {
+          "question": "बहुत अधिक दूरी पर स्थित बिंदु स्रोत के कारण तरंगाग्र (wave front) होता है:",
+          "options": {
+            "A": "गोलाकार",
+            "B": "बेलनाकार",
+            "C": "समतल",
+            "D": "वृत्ताकार"
+          },
+          "explanation": "जैसे-जैसे दूरी बढ़ती है, गोलाकार तरंगाग्र की वक्रता घटती जाती है, और अनंत पर वह समतल हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-013",
+      "number": 13,
+      "question": "According to Brewster's Law, the relation between refractive index n and polarizing angle ip is:",
+      "options": {
+        "A": "n = sin(ip)",
+        "B": "n = cos(ip)",
+        "C": "n = tan(ip)",
+        "D": "n = cot(ip)"
+      },
+      "answer": "C",
+      "explanation": "Brewster's Law states that at the polarizing angle, the reflected ray is completely polarized and n = tan(ip).",
+      "hash": "40a5372feb149be8",
+      "translations": {
+        "hi": {
+          "question": "ब्रूस्टर के नियम के अनुसार, अपवर्तनांक n और ध्रुवण कोण ip के बीच संबंध है:",
+          "options": {
+            "A": "n = sin(ip)",
+            "B": "n = cos(ip)",
+            "C": "n = tan(ip)",
+            "D": "n = cot(ip)"
+          },
+          "explanation": "ब्रूस्टर का नियम कहता है कि ध्रुवण कोण पर, परावर्तित किरण पूरी तरह से ध्रुवित होती है और n = tan(ip) होता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-014",
+      "number": 14,
+      "question": "The phenomenon of diffraction of light is best observed when the size of the obstacle is:",
+      "options": {
+        "A": "Very large",
+        "B": "Comparable to the wavelength of light",
+        "C": "Smaller than the size of atom",
+        "D": "Independent of size"
+      },
+      "answer": "B",
+      "explanation": "Diffraction occurs significantly when the obstacle size is of the same order as the wavelength.",
+      "hash": "66c67cfecdd40e9f",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश के विवर्तन की घटना तब सबसे अच्छी तरह देखी जाती है जब अवरोध का आकार होता है:",
+          "options": {
+            "A": "बहुत बड़ा",
+            "B": "प्रकाश की तरंगदैर्ध्य के तुलनीय",
+            "C": "परमाणु के आकार से छोटा",
+            "D": "आकार से स्वतंत्र"
+          },
+          "explanation": "विवर्तन तब महत्वपूर्ण रूप से होता है जब अवरोध का आकार तरंगदैर्ध्य के समान कोटि का होता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-015",
+      "number": 15,
+      "question": "If the focal length of a objective lens of a microscope is increased, its magnifying power:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes infinite"
+      },
+      "answer": "B",
+      "explanation": "For a microscope, m ≈ (L/fo) * (D/fe). Increasing fo decreases magnifying power.",
+      "hash": "58e375b30a10437b",
+      "translations": {
+        "hi": {
+          "question": "यदि सूक्ष्मदर्शी के अभिदृश्यक (objective) लेंस की फोकस दूरी बढ़ा दी जाए, तो इसकी आवर्धन क्षमता:",
+          "options": {
+            "A": "बढ़ेगी",
+            "B": "घटेगी",
+            "C": "वही रहेगी",
+            "D": "अनंत हो जाएगी"
+          },
+          "explanation": "सूक्ष्मदर्शी के लिए, m ≈ (L/fo) * (D/fe)। fo बढ़ाने से आवर्धन क्षमता घट जाती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-016",
+      "number": 16,
+      "question": "For a given medium, the polarizing angle is 60°. What is the refractive index?",
+      "options": {
+        "A": "1.732",
+        "B": "1.414",
+        "C": "1.5",
+        "D": "1.33"
+      },
+      "answer": "A",
+      "explanation": "n = tan(60°) = √3 ≈ 1.732.",
+      "hash": "477274d28f3f7f23",
+      "translations": {
+        "hi": {
+          "question": "किसी दिए गए माध्यम के लिए ध्रुवण कोण 60° है। अपवर्तनांक क्या है?",
+          "options": {
+            "A": "1.732",
+            "B": "1.414",
+            "C": "1.5",
+            "D": "1.33"
+          },
+          "explanation": "n = tan(60°) = √3 ≈ 1.732।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-017",
+      "number": 17,
+      "question": "A point object is placed at a distance of 10 cm from a convex mirror of focal length 10 cm. The image is formed at:",
+      "options": {
+        "A": "Infinity",
+        "B": "5 cm behind the mirror",
+        "C": "10 cm in front of the mirror",
+        "D": "At the focus"
+      },
+      "answer": "B",
+      "explanation": "1/v + 1/u = 1/f. 1/v + 1/(-10) = 1/10 => 1/v = 2/10 => v = 5 cm.",
+      "hash": "85605ec97371ac08",
+      "translations": {
+        "hi": {
+          "question": "10 सेमी फोकस दूरी के उत्तल दर्पण से 10 सेमी की दूरी पर एक बिंदु वस्तु रखी गई है। प्रतिबिंब बनेगा:",
+          "options": {
+            "A": "अनंत पर",
+            "B": "दर्पण के पीछे 5 सेमी पर",
+            "C": "दर्पण के सामने 10 सेमी पर",
+            "D": "फोकस पर"
+          },
+          "explanation": "1/v + 1/u = 1/f। 1/v + 1/(-10) = 1/10 => 1/v = 2/10 => v = 5 cm।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-018",
+      "number": 18,
+      "question": "When a light wave travels from air to glass, which quantity remains constant?",
+      "options": {
+        "A": "Wavelength",
+        "B": "Speed",
+        "C": "Frequency",
+        "D": "Amplitude"
+      },
+      "answer": "C",
+      "explanation": "Frequency is a property of the source and does not change when light enters a different medium.",
+      "hash": "9cced9749eca907e",
+      "translations": {
+        "hi": {
+          "question": "जब प्रकाश की तरंग हवा से कांच में जाती है, तो कौन सी राशि स्थिर रहती है?",
+          "options": {
+            "A": "तरंगदैर्ध्य",
+            "B": "गति",
+            "C": "आवृत्ति",
+            "D": "आयाम"
+          },
+          "explanation": "आवृत्ति स्रोत का एक गुण है और प्रकाश के दूसरे माध्यम में प्रवेश करने पर नहीं बदलती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-019",
+      "number": 19,
+      "question": "To increase the resolving power of a telescope, one should:",
+      "options": {
+        "A": "Increase focal length of objective",
+        "B": "Decrease focal length of objective",
+        "C": "Increase aperture of objective",
+        "D": "Decrease aperture of objective"
+      },
+      "answer": "C",
+      "explanation": "Resolving power = D / (1.22 * lambda). Increasing diameter (aperture) D increases resolving power.",
+      "hash": "fdffe6abfff32eb5",
+      "translations": {
+        "hi": {
+          "question": "दूरबीन की विभेदन क्षमता (resolving power) बढ़ाने के लिए, क्या करना चाहिए?",
+          "options": {
+            "A": "अभिदृश्यक की फोकस दूरी बढ़ाएं",
+            "B": "अभिदृश्यक की फोकस दूरी घटाएं",
+            "C": "अभिदृश्यक का द्वारक बढ़ाएं",
+            "D": "अभिदृश्यक का द्वारक घटाएं"
+          },
+          "explanation": "विभेदन क्षमता = D / (1.22 * lambda)। व्यास (द्वारक) D बढ़ाने से विभेदन क्षमता बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-01-020",
+      "number": 20,
+      "question": "Malus's Law is given by:",
+      "options": {
+        "A": "I = I₀ cos θ",
+        "B": "I = I₀ sin² θ",
+        "C": "I = I₀ cos² θ",
+        "D": "I = I₀ tan θ"
+      },
+      "answer": "C",
+      "explanation": "The intensity of polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between them.",
+      "hash": "d9cb85f142fa5a5a",
+      "translations": {
+        "hi": {
+          "question": "मैलस का नियम (Malus's Law) किसके द्वारा दिया गया है?",
+          "options": {
+            "A": "I = I₀ cos θ",
+            "B": "I = I₀ sin² θ",
+            "C": "I = I₀ cos² θ",
+            "D": "I = I₀ tan θ"
+          },
+          "explanation": "एक एनालाइजर के माध्यम से प्रसारित ध्रुवित प्रकाश की तीव्रता उनके बीच के कोण के कोसाइन के वर्ग के समानुपाती होती है।"
+        }
+      }
+    }
+  ]
+}

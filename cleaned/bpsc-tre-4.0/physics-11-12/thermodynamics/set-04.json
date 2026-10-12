@@ -1,0 +1,527 @@
+{
+  "subject": "Thermodynamics",
+  "set": 4,
+  "title": "Thermodynamics Mock Test 4",
+  "questions": [
+    {
+      "id": "thermodynamics-04-001",
+      "number": 1,
+      "question": "The internal energy of an ideal gas is a function of:",
+      "options": {
+        "A": "Pressure only",
+        "B": "Volume only",
+        "C": "Temperature only",
+        "D": "Both Pressure and Volume"
+      },
+      "answer": "C",
+      "explanation": "According to Joule's law, the internal energy of an ideal gas depends only on its absolute temperature.",
+      "hash": "30f697db3195f3f5",
+      "translations": {
+        "hi": {
+          "question": "एक आदर्श गैस की आंतरिक ऊर्जा किसका फलन है?",
+          "options": {
+            "A": "केवल दाब का",
+            "B": "केवल आयतन का",
+            "C": "केवल तापमान का",
+            "D": "दाब और आयतन दोनों का"
+          },
+          "explanation": "जूल के नियम के अनुसार, एक आदर्श गैस की आंतरिक ऊर्जा केवल उसके परम तापमान पर निर्भर करती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-002",
+      "number": 2,
+      "question": "In a refrigerator, the heat is extracted from the freezer at temperature T2 and rejected to the atmosphere at T1. The coefficient of performance (COP) is:",
+      "options": {
+        "A": "T2 / (T1 - T2)",
+        "B": "T1 / (T1 - T2)",
+        "C": "(T1 - T2) / T2",
+        "D": "(T1 - T2) / T1"
+      },
+      "answer": "A",
+      "explanation": "COP is the ratio of heat extracted from the cold reservoir (Q2) to the work done (W). For an ideal cycle, it is T2 / (T1 - T2).",
+      "hash": "8fffda1795958983",
+      "translations": {
+        "hi": {
+          "question": "एक रेफ्रिजरेटर में, ऊष्मा को T2 तापमान पर फ्रीजर से निकाला जाता है और T1 पर वातावरण में छोड़ दिया जाता है। प्रदर्शन गुणांक (COP) है:",
+          "options": {
+            "A": "T2 / (T1 - T2)",
+            "B": "T1 / (T1 - T2)",
+            "C": "(T1 - T2) / T2",
+            "D": "(T1 - T2) / T1"
+          },
+          "explanation": "COP ठंडे जलाशय से निकाली गई ऊष्मा (Q2) और किए गए कार्य (W) का अनुपात है। एक आदर्श चक्र के लिए, यह T2 / (T1 - T2) है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-003",
+      "number": 3,
+      "question": "When an ideal gas undergoes an isothermal expansion, the change in its entropy is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Depends on the pressure"
+      },
+      "answer": "A",
+      "explanation": "During isothermal expansion, heat is absorbed by the system (dQ > 0). Since dS = dQ/T, entropy increases.",
+      "hash": "6b6a70d970ac20e3",
+      "translations": {
+        "hi": {
+          "question": "जब एक आदर्श गैस समतापी विस्तार से गुजरती है, तो इसकी एन्ट्रॉपी में परिवर्तन होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "दाब पर निर्भर करता है"
+          },
+          "explanation": "समतापी विस्तार के दौरान, निकाय द्वारा ऊष्मा अवशोषित की जाती है (dQ > 0)। चूंकि dS = dQ/T है, इसलिए एन्ट्रॉपी बढ़ती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-004",
+      "number": 4,
+      "question": "The work done in an isochoric process is:",
+      "options": {
+        "A": "P(V2 - V1)",
+        "B": "Zero",
+        "C": "nRT ln(V2/V1)",
+        "D": "nCv(T2 - T1)"
+      },
+      "answer": "B",
+      "explanation": "In an isochoric process, volume is constant (dV = 0), so W = ∫P dV = 0.",
+      "hash": "f77a1f40f6d95f4e",
+      "translations": {
+        "hi": {
+          "question": "एक समआयतनिक प्रक्रम में किया गया कार्य होता है:",
+          "options": {
+            "A": "P(V2 - V1)",
+            "B": "शून्य",
+            "C": "nRT ln(V2/V1)",
+            "D": "nCv(T2 - T1)"
+          },
+          "explanation": "समआयतनिक प्रक्रम में, आयतन स्थिर रहता है (dV = 0), इसलिए W = ∫P dV = 0।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-005",
+      "number": 5,
+      "question": "A diatomic gas (γ = 1.4) does 200 J of work during an adiabatic expansion. The change in its internal energy is:",
+      "options": {
+        "A": "200 J",
+        "B": "-200 J",
+        "C": "500 J",
+        "D": "-500 J"
+      },
+      "answer": "B",
+      "explanation": "In an adiabatic process, dQ = 0. From the first law, dU = -dW. Since dW = +200 J, dU = -200 J.",
+      "hash": "4ca9752ec2da52f0",
+      "translations": {
+        "hi": {
+          "question": "एक द्विपरमाणुक गैस (γ = 1.4) रुद्धोष्म विस्तार के दौरान 200 J कार्य करती है। इसकी आंतरिक ऊर्जा में परिवर्तन है:",
+          "options": {
+            "A": "200 J",
+            "B": "-200 J",
+            "C": "500 J",
+            "D": "-500 J"
+          },
+          "explanation": "रुद्धोष्म प्रक्रम में, dQ = 0। प्रथम नियम से, dU = -dW। चूंकि dW = +200 J है, इसलिए dU = -200 J है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-006",
+      "number": 6,
+      "question": "Which of the following is the correct expression for the First Law of Thermodynamics?",
+      "options": {
+        "A": "dQ = dU + dW",
+        "B": "dQ = dU - dW",
+        "C": "dU = dQ + dW",
+        "D": "dW = dQ + dU"
+      },
+      "answer": "A",
+      "explanation": "The heat supplied to a system (dQ) is equal to the sum of the increase in its internal energy (dU) and the work done by the system (dW).",
+      "hash": "1276c4ead28faa65",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी के प्रथम नियम के लिए निम्नलिखित में से कौन सा सही व्यंजक है?",
+          "options": {
+            "A": "dQ = dU + dW",
+            "B": "dQ = dU - dW",
+            "C": "dU = dQ + dW",
+            "D": "dW = dQ + dU"
+          },
+          "explanation": "किसी निकाय को दी गई ऊष्मा (dQ) उसकी आंतरिक ऊर्जा में वृद्धि (dU) और निकाय द्वारा किए गए कार्य (dW) के योग के बराबर होती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-007",
+      "number": 7,
+      "question": "The slope of an adiabatic P-V curve at any point is:",
+      "options": {
+        "A": "-P/V",
+        "B": "-γ(P/V)",
+        "C": "γ(P/V)",
+        "D": "P/V"
+      },
+      "answer": "B",
+      "explanation": "Differentiating PV^γ = constant gives dP/dV = -γ(P/V).",
+      "hash": "57e6a85990cc712e",
+      "translations": {
+        "hi": {
+          "question": "किसी भी बिंदु पर रुद्धोष्म P-V वक्र का ढाल होता है:",
+          "options": {
+            "A": "-P/V",
+            "B": "-γ(P/V)",
+            "C": "γ(P/V)",
+            "D": "P/V"
+          },
+          "explanation": "PV^γ = नियतांक का अवकलन करने पर dP/dV = -γ(P/V) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-008",
+      "number": 8,
+      "question": "In a Carnot engine, the temperature of the source is 500 K and the sink is 300 K. The efficiency is:",
+      "options": {
+        "A": "40%",
+        "B": "60%",
+        "C": "20%",
+        "D": "80%"
+      },
+      "answer": "A",
+      "explanation": "Efficiency η = 1 - (T_sink / T_source) = 1 - (300/500) = 0.4 or 40%.",
+      "hash": "a0c0a445bb0c6843",
+      "translations": {
+        "hi": {
+          "question": "एक कार्नोट इंजन में, स्रोत का तापमान 500 K और सिंक का तापमान 300 K है। दक्षता है:",
+          "options": {
+            "A": "40%",
+            "B": "60%",
+            "C": "20%",
+            "D": "80%"
+          },
+          "explanation": "दक्षता η = 1 - (T_sink / T_source) = 1 - (300/500) = 0.4 या 40%। [Image of PV diagram of Carnot cycle]"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-009",
+      "number": 9,
+      "question": "For a monatomic gas, the value of Cv (molar specific heat at constant volume) is:",
+      "options": {
+        "A": "5/2 R",
+        "B": "3/2 R",
+        "C": "1/2 R",
+        "D": "7/2 R"
+      },
+      "answer": "B",
+      "explanation": "Monatomic gases have 3 translational degrees of freedom, so Cv = (f/2)R = 3/2 R.",
+      "hash": "23f773323c12dea2",
+      "translations": {
+        "hi": {
+          "question": "एकपरमाणुक गैस के लिए, Cv (स्थिर आयतन पर मोलर विशिष्ट ऊष्मा) का मान है:",
+          "options": {
+            "A": "5/2 R",
+            "B": "3/2 R",
+            "C": "1/2 R",
+            "D": "7/2 R"
+          },
+          "explanation": "एकपरमाणुक गैसों में 3 स्थानान्तरण स्वतंत्रता की कोटि होती है, इसलिए Cv = (f/2)R = 3/2 R।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-010",
+      "number": 10,
+      "question": "Which thermodynamic process is also known as an isenthalpic process?",
+      "options": {
+        "A": "Isothermal",
+        "B": "Adiabatic",
+        "C": "Throttling",
+        "D": "Isobaric"
+      },
+      "answer": "C",
+      "explanation": "During a throttling process (like flow through a porous plug), the enthalpy of the fluid remains constant.",
+      "hash": "845bfa3dd027cfb5",
+      "translations": {
+        "hi": {
+          "question": "किस ऊष्मागतिकी प्रक्रम को सम-एन्थैल्पी (isenthalpic) प्रक्रम के रूप में भी जाना जाता है?",
+          "options": {
+            "A": "समतापी",
+            "B": "रुद्धोष्म",
+            "C": "थ्रॉटलिंग",
+            "D": "समदाबी"
+          },
+          "explanation": "थ्रॉटलिंग प्रक्रम के दौरान (जैसे सरंध्र प्लग के माध्यम से प्रवाह), तरल की एन्थैल्पी स्थिर रहती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-011",
+      "number": 11,
+      "question": "A system goes from A to B via path 1 and returns via path 2. For the whole cycle:",
+      "options": {
+        "A": "ΔU = 0",
+        "B": "ΔQ = 0",
+        "C": "ΔW = 0",
+        "D": "None of these"
+      },
+      "answer": "A",
+      "explanation": "Internal energy is a state function; for any cyclic process, the net change in internal energy is zero.",
+      "hash": "1814579a26e3cb50",
+      "translations": {
+        "hi": {
+          "question": "एक निकाय पथ 1 के माध्यम से A से B तक जाता है और पथ 2 के माध्यम से वापस आता है। पूरे चक्र के लिए:",
+          "options": {
+            "A": "ΔU = 0",
+            "B": "ΔQ = 0",
+            "C": "ΔW = 0",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "आंतरिक ऊर्जा एक अवस्था फलन है; किसी भी चक्रीय प्रक्रम के लिए, आंतरिक ऊर्जा में शुद्ध परिवर्तन शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-012",
+      "number": 12,
+      "question": "In which of the following processes is the work done maximum for the same initial and final volumes?",
+      "options": {
+        "A": "Isothermal",
+        "B": "Adiabatic",
+        "C": "Isobaric",
+        "D": "Isochoric"
+      },
+      "answer": "C",
+      "explanation": "For the same expansion, the area under the P-V curve is largest for the isobaric process as pressure remains constant.",
+      "hash": "5f835367ea1c9721",
+      "translations": {
+        "hi": {
+          "question": "समान प्रारंभिक और अंतिम आयतनों के लिए निम्नलिखित में से किस प्रक्रम में किया गया कार्य अधिकतम होता है?",
+          "options": {
+            "A": "समतापी",
+            "B": "रुद्धोष्म",
+            "C": "समदाबी",
+            "D": "समआयतनिक"
+          },
+          "explanation": "समान विस्तार के लिए, P-V वक्र के नीचे का क्षेत्रफल समदाबी प्रक्रम के लिए सबसे बड़ा होता है क्योंकि दाब स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-013",
+      "number": 13,
+      "question": "The second law of thermodynamics implies that:",
+      "options": {
+        "A": "Heat cannot be converted to work",
+        "B": "No engine can be 100% efficient",
+        "C": "Total energy is conserved",
+        "D": "Entropy always decreases"
+      },
+      "answer": "B",
+      "explanation": "Kelvin-Planck statement states it's impossible to convert all heat from a single reservoir into work without rejecting some heat.",
+      "hash": "bf11bc449865b61f",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी के दूसरे नियम का तात्पर्य है कि:",
+          "options": {
+            "A": "ऊष्मा को कार्य में नहीं बदला जा सकता",
+            "B": "कोई भी इंजन 100% कुशल नहीं हो सकता",
+            "C": "कुल ऊर्जा संरक्षित है",
+            "D": "एन्ट्रॉपी हमेशा घटती है"
+          },
+          "explanation": "केल्विन-प्लैंक कथन बताता है कि बिना कुछ ऊष्मा छोड़े एक ही जलाशय से सभी ऊष्मा को कार्य में बदलना असंभव है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-014",
+      "number": 14,
+      "question": "For an ideal gas undergoing an adiabatic process, the relation between T and V is:",
+      "options": {
+        "A": "TV^γ = constant",
+        "B": "TV^(γ-1) = constant",
+        "C": "T^γ V = constant",
+        "D": "T/V = constant"
+      },
+      "answer": "B",
+      "explanation": "Using PV^γ = C and PV = nRT, we get TV^(γ-1) = constant.",
+      "hash": "2fbd88227e4e4baa",
+      "translations": {
+        "hi": {
+          "question": "रुद्धोष्म प्रक्रम से गुजरने वाली एक आदर्श गैस के लिए, T और V के बीच संबंध है:",
+          "options": {
+            "A": "TV^γ = नियतांक",
+            "B": "TV^(γ-1) = नियतांक",
+            "C": "T^γ V = नियतांक",
+            "D": "T/V = नियतांक"
+          },
+          "explanation": "PV^γ = C और PV = nRT का उपयोग करते हुए, हमें TV^(γ-1) = नियतांक प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-015",
+      "number": 15,
+      "question": "The molar specific heat of a gas at constant pressure (Cp) is greater than that at constant volume (Cv) because:",
+      "options": {
+        "A": "Gas expands at constant pressure",
+        "B": "Internal energy increases more",
+        "C": "Pressure energy is high",
+        "D": "None of these"
+      },
+      "answer": "A",
+      "explanation": "At constant pressure, heat is used to increase internal energy AND do expansion work.",
+      "hash": "66018eb098eb362d",
+      "translations": {
+        "hi": {
+          "question": "स्थिर दाब पर गैस की मोलर विशिष्ट ऊष्मा (Cp) स्थिर आयतन (Cv) की तुलना में अधिक होती है क्योंकि:",
+          "options": {
+            "A": "गैस स्थिर दाब पर विस्तारित होती है",
+            "B": "आंतरिक ऊर्जा अधिक बढ़ती है",
+            "C": "दाब ऊर्जा उच्च होती है",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "स्थिर दाब पर, ऊष्मा का उपयोग आंतरिक ऊर्जा बढ़ाने और विस्तार कार्य करने दोनों के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-016",
+      "number": 16,
+      "question": "Which of the following is not a state function?",
+      "options": {
+        "A": "Enthalpy",
+        "B": "Entropy",
+        "C": "Heat",
+        "D": "Internal Energy"
+      },
+      "answer": "C",
+      "explanation": "Heat (Q) and Work (W) are path functions; they depend on the process followed.",
+      "hash": "fe7d92de40f3248b",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा अवस्था फलन नहीं है?",
+          "options": {
+            "A": "एन्थैल्पी",
+            "B": "एन्ट्रॉपी",
+            "C": "ऊष्मा",
+            "D": "आंतरिक ऊर्जा"
+          },
+          "explanation": "ऊष्मा (Q) और कार्य (W) पथ फलन हैं; वे अपनाई गई प्रक्रिया पर निर्भर करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-017",
+      "number": 17,
+      "question": "If a gas is heated at constant pressure, the fraction of heat used to increase internal energy is:",
+      "options": {
+        "A": "1/γ",
+        "B": "γ",
+        "C": "1 - 1/γ",
+        "D": "γ - 1"
+      },
+      "answer": "A",
+      "explanation": "Fraction = dU/dQ = (nCv dT) / (nCp dT) = Cv/Cp = 1/γ.",
+      "hash": "94390a309e35db2a",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी गैस को स्थिर दाब पर गर्म किया जाता है, तो आंतरिक ऊर्जा बढ़ाने के लिए उपयोग की जाने वाली ऊष्मा का अंश है:",
+          "options": {
+            "A": "1/γ",
+            "B": "γ",
+            "C": "1 - 1/γ",
+            "D": "γ - 1"
+          },
+          "explanation": "अंश = dU/dQ = (nCv dT) / (nCp dT) = Cv/Cp = 1/γ।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-018",
+      "number": 18,
+      "question": "According to the Zeroth Law of Thermodynamics, which property is used to define thermal equilibrium?",
+      "options": {
+        "A": "Pressure",
+        "B": "Volume",
+        "C": "Temperature",
+        "D": "Entropy"
+      },
+      "answer": "C",
+      "explanation": "The Zeroth law states if two systems are in equilibrium with a third, they are in equilibrium with each other, defining temperature.",
+      "hash": "8319e55094c472b8",
+      "translations": {
+        "hi": {
+          "question": "ऊष्मागतिकी के शून्यवें नियम के अनुसार, तापीय साम्यावस्था को परिभाषित करने के लिए किस गुण का उपयोग किया जाता है?",
+          "options": {
+            "A": "दाब",
+            "B": "आयतन",
+            "C": "तापमान",
+            "D": "एन्ट्रॉपी"
+          },
+          "explanation": "शून्यवाँ नियम बताता है कि यदि दो निकाय तीसरे के साथ साम्यावस्था में हैं, तो वे एक-दूसरे के साथ साम्यावस्था में हैं, जो तापमान को परिभाषित करता है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-019",
+      "number": 19,
+      "question": "If a piece of ice at 0°C melts into water at 0°C, the entropy:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "Melting involves absorption of heat (latent heat), so dQ > 0, leading to an increase in entropy.",
+      "hash": "d37978df58d5a4c5",
+      "translations": {
+        "hi": {
+          "question": "यदि 0°C पर बर्फ का एक टुकड़ा 0°C पर पानी में पिघलता है, तो एन्ट्रॉपी:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "पिघलने में ऊष्मा (गुप्त ऊष्मा) का अवशोषण शामिल होता है, इसलिए dQ > 0, जिससे एन्ट्रॉपी में वृद्धि होती है।"
+        }
+      }
+    },
+    {
+      "id": "thermodynamics-04-020",
+      "number": 20,
+      "question": "The change in entropy of a system in a reversible adiabatic process is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Infinite"
+      },
+      "answer": "C",
+      "explanation": "Reversible adiabatic processes are isentropic, meaning ΔS = 0.",
+      "hash": "aa98623b05c39034",
+      "translations": {
+        "hi": {
+          "question": "एक उत्क्रमणीय रुद्धोष्म प्रक्रम में निकाय की एन्ट्रॉपी में परिवर्तन होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "अनंत"
+          },
+          "explanation": "उत्क्रमणीय रुद्धोष्म प्रक्रम आइसेंट्रोपिक होते हैं, जिसका अर्थ है ΔS = 0।"
+        }
+      }
+    }
+  ]
+}

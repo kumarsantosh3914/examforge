@@ -1,0 +1,501 @@
+{
+  "subject": "Magnetic Effects & Magnetism",
+  "set": 5,
+  "title": "Magnetic Effects & Magnetism Mock Test 5",
+  "questions": [
+    {
+      "id": "magnetic-effects-magnetism-05-001",
+      "number": 1,
+      "question": "A wire of length L is bent into a circular loop of a single turn. If the same wire is bent into a circular loop of two turns, the magnetic field at the center for the same current will be:",
+      "options": {
+        "A": "Two times",
+        "B": "Four times",
+        "C": "Half",
+        "D": "One-fourth"
+      },
+      "answer": "B",
+      "explanation": "B = n * (mu0 * I / 2r). When n=2, the radius r becomes r/2. Thus, B' = 2 * (mu0 * I / 2(r/2)) = 4B.",
+      "hash": "b96cf4299f221847",
+      "translations": {
+        "hi": {
+          "question": "लंबाई L के एक तार को एक फेरे के वृत्ताकार लूप में मोड़ा जाता है। यदि उसी तार को दो फेरों के वृत्ताकार लूप में मोड़ा जाता है, तो समान धारा के लिए केंद्र पर चुंबकीय क्षेत्र होगा:",
+          "options": {
+            "A": "दो गुना",
+            "B": "चार गुना",
+            "C": "आधा",
+            "D": "एक-चौथाई"
+          },
+          "explanation": "B = n * (mu0 * I / 2r)। जब n=2 होता है, तो त्रिज्या r, r/2 हो जाती है। अतः, B' = 4B।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-002",
+      "number": 2,
+      "question": "The magnetic field at a distance R/2 from the axis of a long straight wire of radius R (carrying uniform current) is B. The field at distance 2R is:",
+      "options": {
+        "A": "B",
+        "B": "B/2",
+        "C": "2B",
+        "D": "B/4"
+      },
+      "answer": "A",
+      "explanation": "Inside (r < R), B_in is proportional to r. At R/2, B = k(R/2). At surface, B_s = kR = 2B. Outside (r > R), B_out is proportional to 1/r. At 2R, field is B_s/2 = (2B)/2 = B.",
+      "hash": "6206d547bad5acfa",
+      "translations": {
+        "hi": {
+          "question": "त्रिज्या R के एक लंबे सीधे तार (समान धारा ले जाने वाले) के अक्ष से R/2 दूरी पर चुंबकीय क्षेत्र B है। 2R दूरी पर क्षेत्र है:",
+          "options": {
+            "A": "B",
+            "B": "B/2",
+            "C": "2B",
+            "D": "B/4"
+          },
+          "explanation": "अंदर (r < R), B, r के समानुपाती होता है। अक्ष से R/2 पर B है, तो सतह पर 2B होगा। बाहर (r > R), B, 1/r के समानुपाती होता है। 2R पर क्षेत्र (2B)/2 = B होगा।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-004",
+      "number": 4,
+      "question": "A current carrying loop is placed in a uniform magnetic field. The net magnetic force on the loop is:",
+      "options": {
+        "A": "Always zero",
+        "B": "Never zero",
+        "C": "Zero only if loop is circular",
+        "D": "Dependent on the area"
+      },
+      "answer": "A",
+      "explanation": "For any closed loop in a uniform magnetic field, the vector sum of forces on all elements is zero.",
+      "hash": "88a950d16c86f6bd",
+      "translations": {
+        "hi": {
+          "question": "एक धारावाही लूप को एकसमान चुंबकीय क्षेत्र में रखा गया है। लूप पर शुद्ध चुंबकीय बल है:",
+          "options": {
+            "A": "हमेशा शून्य",
+            "B": "कभी शून्य नहीं",
+            "C": "शून्य केवल तभी जब लूप वृत्ताकार हो",
+            "D": "क्षेत्रफल पर निर्भर"
+          },
+          "explanation": "एकसमान चुंबकीय क्षेत्र में किसी भी बंद लूप के लिए, सभी तत्वों पर बलों का सदिश योग शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-005",
+      "number": 5,
+      "question": "The vertical component of Earth's magnetic field is zero at:",
+      "options": {
+        "A": "Magnetic poles",
+        "B": "Magnetic equator",
+        "C": "Latitude 45 degrees",
+        "D": "Everywhere"
+      },
+      "answer": "B",
+      "explanation": "At the magnetic equator, the magnetic field lines are parallel to the Earth's surface, so V = 0.",
+      "hash": "3dae131853c562ed",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी के चुंबकीय क्षेत्र का ऊर्ध्वाधर घटक कहाँ शून्य होता है?",
+          "options": {
+            "A": "चुंबकीय ध्रुव",
+            "B": "चुंबकीय भूमध्य रेखा",
+            "C": "45 डिग्री अक्षांश",
+            "D": "हर जगह"
+          },
+          "explanation": "चुंबकीय भूमध्य रेखा पर, चुंबकीय क्षेत्र रेखाएं पृथ्वी की सतह के समानांतर होती हैं, इसलिए V = 0 होता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-006",
+      "number": 6,
+      "question": "The magnetic field produced by a solenoid can be increased by inserting a core of:",
+      "options": {
+        "A": "Aluminium",
+        "B": "Soft iron",
+        "C": "Copper",
+        "D": "Wood"
+      },
+      "answer": "B",
+      "explanation": "Soft iron has high permeability, which concentrates the magnetic flux lines, increasing the field strength.",
+      "hash": "b8e2b057727be89e",
+      "translations": {
+        "hi": {
+          "question": "परिनालिका द्वारा उत्पन्न चुंबकीय क्षेत्र को किसके कोर को डालकर बढ़ाया जा सकता है?",
+          "options": {
+            "A": "एल्युमीनियम",
+            "B": "नरम लोहा",
+            "C": "तांबा",
+            "D": "लकड़ी"
+          },
+          "explanation": "नरम लोहे में उच्च पारगम्यता होती है, जो चुंबकीय फ्लक्स रेखाओं को केंद्रित करती है, जिससे क्षेत्र की ताकत बढ़ जाती है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-007",
+      "number": 7,
+      "question": "What is the magnetic field at the point of intersection of the diagonals of a square loop of side 'a' carrying current I?",
+      "options": {
+        "A": "2√2 μ₀I / πa",
+        "B": "4√2 μ₀I / πa",
+        "C": "√2 μ₀I / πa",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "Field due to one side is (mu0*I / 4*pi*(a/2)) * (sin45 + sin45). Total field B = 4 * B_side = 2√2 μ₀I / πa.",
+      "hash": "d1f3960df8beaf3c",
+      "translations": {
+        "hi": {
+          "question": "धारा I प्रवाहित करने वाले भुजा 'a' के एक वर्गाकार लूप के विकर्णों के प्रतिच्छेदन बिंदु पर चुंबकीय क्षेत्र क्या है?",
+          "options": {
+            "A": "2√2 μ₀I / πa",
+            "B": "4√2 μ₀I / πa",
+            "C": "√2 μ₀I / πa",
+            "D": "शून्य"
+          },
+          "explanation": "एक भुजा के कारण क्षेत्र (mu0*I / 4*pi*(a/2)) * (sin45 + sin45) होता है। कुल क्षेत्र B = 4 * B_side = 2√2 μ₀I / πa।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-008",
+      "number": 8,
+      "question": "A dip circle is at right angles to the magnetic meridian. The apparent dip shown by it will be:",
+      "options": {
+        "A": "0°",
+        "B": "45°",
+        "C": "90°",
+        "D": "180°"
+      },
+      "answer": "C",
+      "explanation": "When the dip circle is perpendicular to the meridian, the horizontal component becomes zero effectively, making the needle vertical.",
+      "hash": "9e18f4462eb0ef01",
+      "translations": {
+        "hi": {
+          "question": "एक नमन वृत्त (dip circle) चुंबकीय याम्योत्तर के समकोण पर है। इसके द्वारा दिखाया गया आभासी नमन होगा:",
+          "options": {
+            "A": "0°",
+            "B": "45°",
+            "C": "90°",
+            "D": "180°"
+          },
+          "explanation": "जब नमन वृत्त याम्योत्तर के लंबवत होता है, तो प्रभावी क्षैतिज घटक शून्य हो जाता है, जिससे सुई लंबवत हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-009",
+      "number": 9,
+      "question": "The path of a charged particle in a magnetic field when it enters at an angle of 30 degrees to the field is:",
+      "options": {
+        "A": "Circular",
+        "B": "Straight line",
+        "C": "Helical",
+        "D": "Elliptical"
+      },
+      "answer": "C",
+      "explanation": "The component perpendicular to B causes circular motion, and the parallel component causes linear motion, resulting in a helix.",
+      "hash": "375f8e565eb9acce",
+      "translations": {
+        "hi": {
+          "question": "चुंबकीय क्षेत्र में एक आवेशित कण का पथ क्या होता है जब वह क्षेत्र से 30 डिग्री के कोण पर प्रवेश करता है?",
+          "options": {
+            "A": "वृत्ताकार",
+            "B": "सीधी रेखा",
+            "C": "हेलिक्स (सर्पिल)",
+            "D": "दीर्घवृत्ताकार"
+          },
+          "explanation": "B के लंबवत घटक वृत्तीय गति का कारण बनता है, और समानांतर घटक रैखिक गति का कारण बनता है, जिससे हेलिक्स बनता है। [Image of helical path of a charged particle in a magnetic field]"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-010",
+      "number": 10,
+      "question": "In a cyclotron, if the magnetic field is increased, the maximum kinetic energy of the accelerated particles:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes zero"
+      },
+      "answer": "A",
+      "explanation": "K.E_max = (q^2 * B^2 * R^2) / 2m. Thus, K.E is proportional to B^2.",
+      "hash": "a0c5dc033c0e36ff",
+      "translations": {
+        "hi": {
+          "question": "एक साइक्लोट्रॉन में, यदि चुंबकीय क्षेत्र बढ़ाया जाता है, तो त्वरित कणों की अधिकतम गतिज ऊर्जा:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "वही रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "K.E_max = (q^2 * B^2 * R^2) / 2m। अतः, गतिज ऊर्जा B^2 के समानुपाती होती है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-011",
+      "number": 11,
+      "question": "The sensibility of a magnetic material to be magnetized is called:",
+      "options": {
+        "A": "Permeability",
+        "B": "Susceptibility",
+        "C": "Retentivity",
+        "D": "Coercivity"
+      },
+      "answer": "B",
+      "explanation": "Magnetic susceptibility (chi) measures how easily a substance gets magnetized in an external field.",
+      "hash": "7f4831a1d4e5fdc5",
+      "translations": {
+        "hi": {
+          "question": "किसी चुंबकीय पदार्थ के चुम्बकित होने की संवेदनशीलता को क्या कहते हैं?",
+          "options": {
+            "A": "पारगम्यता",
+            "B": "सुग्राहिता",
+            "C": "धारणशीलता",
+            "D": "निग्राहिता"
+          },
+          "explanation": "चुंबकीय सुग्राहिता (chi) यह मापती है कि बाहरी क्षेत्र में कोई पदार्थ कितनी आसानी से चुम्बकित हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-012",
+      "number": 12,
+      "question": "For a paramagnetic material, if the absolute temperature is tripled, the susceptibility becomes:",
+      "options": {
+        "A": "3 times",
+        "B": "1/3 times",
+        "C": "9 times",
+        "D": "√3 times"
+      },
+      "answer": "B",
+      "explanation": "According to Curie's Law, chi is proportional to 1/T.",
+      "hash": "cc5a3c39a7ae6cca",
+      "translations": {
+        "hi": {
+          "question": "एक अनु-चुंबकीय पदार्थ के लिए, यदि परम तापमान को तीन गुना कर दिया जाए, तो सुग्राहिता हो जाती है:",
+          "options": {
+            "A": "3 गुना",
+            "B": "1/3 गुना",
+            "C": "9 गुना",
+            "D": "√3 गुना"
+          },
+          "explanation": "क्यूरी के नियम के अनुसार, chi, 1/T के समानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-013",
+      "number": 13,
+      "question": "Which of the following is the dimension of magnetic flux?",
+      "options": {
+        "A": "[ML²T⁻²A⁻¹]",
+        "B": "[MLT⁻²A⁻¹]",
+        "C": "[ML²T⁻¹A⁻¹]",
+        "D": "[ML²T⁻²A⁻²]"
+      },
+      "answer": "A",
+      "explanation": "Phi = B * A = (F / qv) * A. Putting dimensions, we get [ML²T⁻²A⁻¹].",
+      "hash": "53b56f6a01c9c409",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में में से कौन चुंबकीय फ्लक्स का आयाम है?",
+          "options": {
+            "A": "[ML²T⁻²A⁻¹]",
+            "B": "[MLT⁻²A⁻¹]",
+            "C": "[ML²T⁻¹A⁻¹]",
+            "D": "[ML²T⁻²A⁻²]"
+          },
+          "explanation": "Phi = B * A। विमाओं को रखने पर, हमें [ML²T⁻²A⁻¹] प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-014",
+      "number": 14,
+      "question": "The pole strength of a bar magnet is m. If it is cut into four equal parts by two mutually perpendicular planes passing through its center, the pole strength of each part is:",
+      "options": {
+        "A": "m",
+        "B": "m/2",
+        "C": "m/4",
+        "D": "m/8"
+      },
+      "answer": "B",
+      "explanation": "Cutting perpendicular to length doesn't change m. Cutting along length halves the area, so m becomes m/2.",
+      "hash": "35918f20c4c4b7de",
+      "translations": {
+        "hi": {
+          "question": "एक दंड चुंबक की ध्रुव शक्ति m है। यदि इसे इसके केंद्र से गुजरने वाले दो परस्पर लंबवत समतलों द्वारा चार बराबर भागों में काटा जाता है, तो प्रत्येक भाग की ध्रुव शक्ति है:",
+          "options": {
+            "A": "m",
+            "B": "m/2",
+            "C": "m/4",
+            "D": "m/8"
+          },
+          "explanation": "लंबाई के लंबवत काटने से m नहीं बदलता है। लंबाई के अनुदिश काटने से क्षेत्रफल आधा हो जाता है, इसलिए m, m/2 हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-015",
+      "number": 15,
+      "question": "Magnetic meridian is a:",
+      "options": {
+        "A": "Point",
+        "B": "Line",
+        "C": "Horizontal plane",
+        "D": "Vertical plane"
+      },
+      "answer": "D",
+      "explanation": "The magnetic meridian at a place is the vertical plane passing through the magnetic North and South poles.",
+      "hash": "111e8040a9aecdea",
+      "translations": {
+        "hi": {
+          "question": "चुंबकीय याम्योत्तर (Magnetic meridian) है एक:",
+          "options": {
+            "A": "बिंदु",
+            "B": "रेखा",
+            "C": "क्षैतिज समतल",
+            "D": "ऊर्ध्वाधर समतल"
+          },
+          "explanation": "किसी स्थान पर चुंबकीय याम्योत्तर चुंबकीय उत्तर और दक्षिण ध्रुवों से गुजरने वाला ऊर्ध्वाधर समतल होता है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-016",
+      "number": 16,
+      "question": "A long solenoid has 1000 turns per meter. If a current of 2A flows through it, the magnetic field at its end is:",
+      "options": {
+        "A": "2pi * 10^-4 T",
+        "B": "4pi * 10^-4 T",
+        "C": "8pi * 10^-4 T",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "B_end = (1/2) * mu0 * n * I = (1/2) * 4pi * 10^-7 * 1000 * 2 = 4pi * 10^-4 T.",
+      "hash": "e24d012c84691044",
+      "translations": {
+        "hi": {
+          "question": "एक लंबी परिनालिका में प्रति मीटर 1000 फेरे हैं। यदि इसमें 2A की धारा प्रवाहित होती है, तो इसके सिरे पर चुंबकीय क्षेत्र है:",
+          "options": {
+            "A": "2pi * 10^-4 T",
+            "B": "4pi * 10^-4 T",
+            "C": "8pi * 10^-4 T",
+            "D": "शून्य"
+          },
+          "explanation": "B_सिरा = (1/2) * mu0 * n * I = (1/2) * 4pi * 10^-7 * 1000 * 2 = 4pi * 10^-4 T।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-017",
+      "number": 17,
+      "question": "The magnetic field due to a small current element idl at a distance r is given by:",
+      "options": {
+        "A": "(mu0/4pi) * (idl sin theta / r)",
+        "B": "(mu0/4pi) * (idl sin theta / r^2)",
+        "C": "(mu0/4pi) * (idl / r^2)",
+        "D": "(mu0/4pi) * (idl sin theta / r^3)"
+      },
+      "answer": "B",
+      "explanation": "This is the scalar form of Biot-Savart Law.",
+      "hash": "cb885b1004acd5e8",
+      "translations": {
+        "hi": {
+          "question": "दूरी r पर एक छोटे धारा तत्व idl के कारण चुंबकीय क्षेत्र किसके द्वारा दिया जाता है?",
+          "options": {
+            "A": "(mu0/4pi) * (idl sin theta / r)",
+            "B": "(mu0/4pi) * (idl sin theta / r^2)",
+            "C": "(mu0/4pi) * (idl / r^2)",
+            "D": "(mu0/4pi) * (idl sin theta / r^3)"
+          },
+          "explanation": "यह बायो-सावर्ट नियम का अदिश रूप है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-018",
+      "number": 18,
+      "question": "Two parallel wires carrying currents in opposite directions:",
+      "options": {
+        "A": "Attract each other",
+        "B": "Repel each other",
+        "C": "Rotate each other",
+        "D": "No force between them"
+      },
+      "answer": "B",
+      "explanation": "Anti-parallel currents produce repulsive forces.",
+      "hash": "346cac45caa1b79b",
+      "translations": {
+        "hi": {
+          "question": "विपरीत दिशाओं में धारा ले जाने वाले दो समानांतर तार:",
+          "options": {
+            "A": "एक दूसरे को आकर्षित करते हैं",
+            "B": "एक दूसरे को प्रतिकर्षित करते हैं",
+            "C": "एक दूसरे को घुमाते हैं",
+            "D": "उनके बीच कोई बल नहीं"
+          },
+          "explanation": "प्रति-समानांतर धाराएं प्रतिकर्षण बल उत्पन्न करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-019",
+      "number": 19,
+      "question": "The unit of magnetic intensity H is:",
+      "options": {
+        "A": "Ampere/meter",
+        "B": "Ampere-meter",
+        "C": "Tesla",
+        "D": "Weber"
+      },
+      "answer": "A",
+      "explanation": "H is defined as B/mu, and for a solenoid H = nI. Unit is A/m.",
+      "hash": "c802f1ec5fc2eeed",
+      "translations": {
+        "hi": {
+          "question": "चुंबकीय तीव्रता H की इकाई है:",
+          "options": {
+            "A": "एम्पीयर/मीटर",
+            "B": "एम्पीयर-मीटर",
+            "C": "टेस्ला",
+            "D": "वेबर"
+          },
+          "explanation": "H को B/mu के रूप में परिभाषित किया गया है, और परिनालिका के लिए H = nI है। इकाई A/m है।"
+        }
+      }
+    },
+    {
+      "id": "magnetic-effects-magnetism-05-020",
+      "number": 20,
+      "question": "Which material is used in the suspension wire of a moving coil galvanometer?",
+      "options": {
+        "A": "Steel",
+        "B": "Copper",
+        "C": "Phosphor-bronze",
+        "D": "Silver"
+      },
+      "answer": "C",
+      "explanation": "Phosphor-bronze is used because of its low torsional constant and high tensile strength.",
+      "hash": "16667753183f2794",
+      "translations": {
+        "hi": {
+          "question": "चल कुंडली गैल्वेनोमीटर के निलंबन तार में किस सामग्री का उपयोग किया जाता है?",
+          "options": {
+            "A": "स्टील",
+            "B": "तांबा",
+            "C": "फॉस्फर-कांस्य",
+            "D": "चांदी"
+          },
+          "explanation": "फॉस्फर-कांस्य का उपयोग इसके कम मरोड़ स्थिरांक और उच्च तन्यता ताकत के कारण किया जाता है।"
+        }
+      }
+    }
+  ]
+}

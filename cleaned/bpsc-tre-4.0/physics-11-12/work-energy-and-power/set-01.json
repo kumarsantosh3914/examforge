@@ -1,0 +1,527 @@
+{
+  "subject": "Work, Energy, and Power",
+  "set": 1,
+  "title": "Work, Energy, and Power Mock Test 1",
+  "questions": [
+    {
+      "id": "work-energy-and-power-01-001",
+      "number": 1,
+      "question": "If a force F = (2i + 3j) N acting on a body produces a displacement d = (3i + 2j) m, the work done is:",
+      "options": {
+        "A": "6 J",
+        "B": "12 J",
+        "C": "13 J",
+        "D": "5 J"
+      },
+      "answer": "B",
+      "explanation": "Work is the dot product of Force and Displacement vectors (2*3 + 3*2 = 6 + 6 = 12).",
+      "hash": "216a0f766c9dbf20",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु पर लगने वाला बल F = (2i + 3j) N विस्थापन d = (3i + 2j) m उत्पन्न करता है, तो किया गया कार्य है:",
+          "options": {
+            "A": "6 जूल",
+            "B": "12 जूल",
+            "C": "13 जूल",
+            "D": "5 जूल"
+          },
+          "explanation": "कार्य बल और विस्थापन सदिशों का अदिश गुणनफल है (2*3 + 3*2 = 6 + 6 = 12)।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-002",
+      "number": 2,
+      "question": "A spring is compressed by 2 cm and then further compressed by 2 cm. The ratio of work done in the second case to the first case is:",
+      "options": {
+        "A": "1:1",
+        "B": "2:1",
+        "C": "3:1",
+        "D": "4:1"
+      },
+      "answer": "C",
+      "explanation": "W1 = 1/2 k(2)^2 = 2k. W2 (total) = 1/2 k(4)^2 = 8k. Work for next 2cm = 8k - 2k = 6k. Ratio 6k:2k = 3:1.",
+      "hash": "9c2d73a88598a61c",
+      "translations": {
+        "hi": {
+          "question": "एक स्प्रिंग को 2 सेमी संकुचित किया जाता है और फिर 2 सेमी और संकुचित किया जाता है। दूसरी स्थिति में किए गए कार्य का पहली स्थिति से अनुपात है:",
+          "options": {
+            "A": "1:1",
+            "B": "2:1",
+            "C": "3:1",
+            "D": "4:1"
+          },
+          "explanation": "W1 = 1/2 k(2)^2 = 2k। W2 (कुल) = 1/2 k(4)^2 = 8k। अगले 2 सेमी के लिए कार्य = 8k - 2k = 6k। अनुपात 6k:2k = 3:1।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-003",
+      "number": 3,
+      "question": "A ball of mass m moving with velocity v strikes a vertical wall and rebounds with the same speed. The work done by the wall is:",
+      "options": {
+        "A": "mv^2",
+        "B": "1/2 mv^2",
+        "C": "Zero",
+        "D": "-mv^2"
+      },
+      "answer": "C",
+      "explanation": "Change in kinetic energy is zero as speed remains same, so net work done is zero.",
+      "hash": "3b366576bc86d7a9",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान m की एक गेंद वेग v से एक ऊर्ध्वाधर दीवार से टकराती है और उसी गति से वापस आती है। दीवार द्वारा किया गया कार्य है:",
+          "options": {
+            "A": "mv^2",
+            "B": "1/2 mv^2",
+            "C": "शून्य",
+            "D": "-mv^2"
+          },
+          "explanation": "गतिज ऊर्जा में परिवर्तन शून्य है क्योंकि गति समान रहती है, इसलिए कुल किया गया कार्य शून्य है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-004",
+      "number": 4,
+      "question": "When the speed of a particle is tripled, its de-Broglie wavelength changes. How does its KE change?",
+      "options": {
+        "A": "Increases 3 times",
+        "B": "Increases 6 times",
+        "C": "Increases 9 times",
+        "D": "Decreases 3 times"
+      },
+      "answer": "C",
+      "explanation": "Kinetic energy is proportional to the square of velocity (3^2 = 9).",
+      "hash": "819d076b172c95f8",
+      "translations": {
+        "hi": {
+          "question": "जब किसी कण की गति तिगुनी हो जाती है, तो उसकी डी-ब्रोग्ली तरंगदैर्ध्य बदल जाती है। उसकी KE कैसे बदलती है?",
+          "options": {
+            "A": "3 गुना बढ़ जाती है",
+            "B": "6 गुना बढ़ जाती है",
+            "C": "9 गुना बढ़ जाती है",
+            "D": "3 गुना कम हो जाती है"
+          },
+          "explanation": "गतिज ऊर्जा वेग के वर्ग के समानुपाती होती है (3^2 = 9)।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-005",
+      "number": 5,
+      "question": "The potential energy of a conservative system is U = Ax^2 - Bx. The force acting on the particle is:",
+      "options": {
+        "A": "B - 2Ax",
+        "B": "2Ax - B",
+        "C": "Ax - B",
+        "D": "B - Ax"
+      },
+      "answer": "A",
+      "explanation": "Force F = -dU/dx. Differentiating (Ax^2 - Bx) gives 2Ax - B. Negating it gives B - 2Ax.",
+      "hash": "0e2ef6bb6f036dda",
+      "translations": {
+        "hi": {
+          "question": "एक संरक्षी निकाय की स्थितिज ऊर्जा U = Ax^2 - Bx है। कण पर लगने वाला बल है:",
+          "options": {
+            "A": "B - 2Ax",
+            "B": "2Ax - B",
+            "C": "Ax - B",
+            "D": "B - Ax"
+          },
+          "explanation": "बल F = -dU/dx। (Ax^2 - Bx) का अवकलन करने पर 2Ax - B मिलता है। इसका ऋणात्मक B - 2Ax है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-006",
+      "number": 6,
+      "question": "In a stable equilibrium, the potential energy of a particle is:",
+      "options": {
+        "A": "Maximum",
+        "B": "Minimum",
+        "C": "Zero",
+        "D": "Constant but not zero"
+      },
+      "answer": "B",
+      "explanation": "Stable equilibrium occurs at the point where potential energy is at its minimum value.",
+      "hash": "449e33f3f0a31917",
+      "translations": {
+        "hi": {
+          "question": "स्थायी संतुलन में, किसी कण की स्थितिज ऊर्जा होती है:",
+          "options": {
+            "A": "अधिकतम",
+            "B": "न्यूनतम",
+            "C": "शून्य",
+            "D": "स्थिर लेकिन शून्य नहीं"
+          },
+          "explanation": "स्थायी संतुलन उस बिंदु पर होता है जहाँ स्थितिज ऊर्जा अपने न्यूनतम मान पर होती है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-007",
+      "number": 7,
+      "question": "If the heart pushes 1 cc of blood in one heartbeat against a pressure of 20000 N/m^2, the work done per heartbeat is:",
+      "options": {
+        "A": "0.02 J",
+        "B": "2 J",
+        "C": "20 J",
+        "D": "200 J"
+      },
+      "answer": "A",
+      "explanation": "Work = Pressure * Volume. 1 cc = 10^-6 m^3. W = 20000 * 10^-6 = 0.02 J.",
+      "hash": "55ad26afcf74fadb",
+      "translations": {
+        "hi": {
+          "question": "यदि हृदय एक धड़कन में 20000 N/m^2 के दबाव के विरुद्ध 1 cc रक्त पंप करता है, तो प्रति धड़कन किया गया कार्य है:",
+          "options": {
+            "A": "0.02 जूल",
+            "B": "2 जूल",
+            "C": "20 जूल",
+            "D": "200 जूल"
+          },
+          "explanation": "कार्य = दाब * आयतन। 1 cc = 10^-6 m^3. W = 20000 * 10^-6 = 0.02 J।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-008",
+      "number": 8,
+      "question": "Two bodies of masses m and 4m are moving with equal kinetic energies. The ratio of their linear momenta is:",
+      "options": {
+        "A": "1:2",
+        "B": "1:4",
+        "C": "4:1",
+        "D": "1:1"
+      },
+      "answer": "A",
+      "explanation": "Momentum p = sqrt(2mK). Ratio = sqrt(m)/sqrt(4m) = 1/2.",
+      "hash": "bd2cf48b6a43cd39",
+      "translations": {
+        "hi": {
+          "question": "द्रव्यमान m और 4m वाली दो वस्तुएं समान गतिज ऊर्जा के साथ चल रही हैं। उनके रैखिक संवेग का अनुपात है:",
+          "options": {
+            "A": "1:2",
+            "B": "1:4",
+            "C": "4:1",
+            "D": "1:1"
+          },
+          "explanation": "संवेग p = sqrt(2mK)। अनुपात = sqrt(m)/sqrt(4m) = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-009",
+      "number": 9,
+      "question": "A bullet of mass 10g moving with 100 m/s is stopped by a wooden block in 5 cm. The average force is:",
+      "options": {
+        "A": "1000 N",
+        "B": "500 N",
+        "C": "2000 N",
+        "D": "100 N"
+      },
+      "answer": "A",
+      "explanation": "Work done by force = Change in KE. F * 0.05 = 1/2 * 0.01 * (100)^2. Solving gives F = 1000 N.",
+      "hash": "12d817e5cbdabab1",
+      "translations": {
+        "hi": {
+          "question": "100 मी/से की गति से चल रही 10 ग्राम की एक गोली 5 सेमी में लकड़ी के गुटके द्वारा रोक दी जाती है। औसत बल है:",
+          "options": {
+            "A": "1000 N",
+            "B": "500 N",
+            "C": "2000 N",
+            "D": "100 N"
+          },
+          "explanation": "बल द्वारा किया गया कार्य = KE में परिवर्तन। F * 0.05 = 1/2 * 0.01 * (100)^2। हल करने पर F = 1000 N।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-010",
+      "number": 10,
+      "question": "A body is falling freely under gravity. The graph between its height (h) and potential energy (PE) is a:",
+      "options": {
+        "A": "Parabola",
+        "B": "Hyperbola",
+        "C": "Straight line",
+        "D": "Circle"
+      },
+      "answer": "C",
+      "explanation": "PE = mgh. Since PE is directly proportional to h, the graph is a straight line.",
+      "hash": "e792a27a2aaaab12",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु गुरुत्वाकर्षण के अधीन स्वतंत्र रूप से गिर रही है। इसकी ऊँचाई (h) और स्थितिज ऊर्जा (PE) के बीच का ग्राफ है:",
+          "options": {
+            "A": "परवलय",
+            "B": "अतिपरवलय",
+            "C": "सरल रेखा",
+            "D": "वृत्त"
+          },
+          "explanation": "PE = mgh। चूंकि PE सीधे h के समानुपाती है, इसलिए ग्राफ एक सरल रेखा है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-011",
+      "number": 11,
+      "question": "The power of a crane which lifts a 500 kg mass to a height of 20 m in 10 s is: (g = 10)",
+      "options": {
+        "A": "10 kW",
+        "B": "5 kW",
+        "C": "1 kW",
+        "D": "20 kW"
+      },
+      "answer": "A",
+      "explanation": "Power = mgh/t = (500 * 10 * 20) / 10 = 10000 W = 10 kW.",
+      "hash": "38a0ac21fa8aa62c",
+      "translations": {
+        "hi": {
+          "question": "एक क्रेन की शक्ति क्या है जो 500 किग्रा द्रव्यमान को 10 सेकंड में 20 मीटर की ऊंचाई तक उठाती है? (g = 10)",
+          "options": {
+            "A": "10 किलोवाट",
+            "B": "5 किलोवाट",
+            "C": "1 किलोवाट",
+            "D": "20 किलोवाट"
+          },
+          "explanation": "शक्ति = mgh/t = (500 * 10 * 20) / 10 = 10000 W = 10 किलोवाट।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-012",
+      "number": 12,
+      "question": "When a gas is compressed at constant pressure, the work done by the gas is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Constant"
+      },
+      "answer": "B",
+      "explanation": "In compression, volume decreases (dV is negative), so work W = P*dV is negative.",
+      "hash": "a48370c26c373157",
+      "translations": {
+        "hi": {
+          "question": "जब किसी गैस को स्थिर दाब पर संकुचित किया जाता है, तो गैस द्वारा किया गया कार्य होता है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "स्थिर"
+          },
+          "explanation": "संपीड़न में, आयतन घटता है (dV ऋणात्मक है), इसलिए कार्य W = P*dV ऋणात्मक होता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-013",
+      "number": 13,
+      "question": "A body is moved along a closed loop in a conservative field. The total work done is:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Dependent on path"
+      },
+      "answer": "C",
+      "explanation": "For conservative forces, the work done over any closed path is always zero.",
+      "hash": "dd20699d9da8965f",
+      "translations": {
+        "hi": {
+          "question": "एक संरक्षी क्षेत्र में एक वस्तु को बंद लूप के साथ घुमाया जाता है। कुल किया गया कार्य है:",
+          "options": {
+            "A": "धनात्मक",
+            "B": "ऋणात्मक",
+            "C": "शून्य",
+            "D": "पथ पर निर्भर"
+          },
+          "explanation": "संरक्षी बलों के लिए, किसी भी बंद पथ पर किया गया कार्य हमेशा शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-014",
+      "number": 14,
+      "question": "The efficiency of a machine which delivers 750 J of useful work for every 1000 J of energy supplied is:",
+      "options": {
+        "A": "25%",
+        "B": "75%",
+        "C": "100%",
+        "D": "50%"
+      },
+      "answer": "B",
+      "explanation": "Efficiency = (Output / Input) * 100 = (750 / 1000) * 100 = 75%.",
+      "hash": "428769a083c96eac",
+      "translations": {
+        "hi": {
+          "question": "एक मशीन की दक्षता क्या है जो आपूर्ति की गई प्रत्येक 1000 जूल ऊर्जा के लिए 750 जूल उपयोगी कार्य प्रदान करती है?",
+          "options": {
+            "A": "25%",
+            "B": "75%",
+            "C": "100%",
+            "D": "50%"
+          },
+          "explanation": "दक्षता = (आउटपुट / इनपुट) * 100 = (750 / 1000) * 100 = 75%।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-015",
+      "number": 15,
+      "question": "A force F = 5 + 3x acts on a particle in x-direction. Work done by this force from x=0 to x=2m is:",
+      "options": {
+        "A": "10 J",
+        "B": "13 J",
+        "C": "16 J",
+        "D": "20 J"
+      },
+      "answer": "C",
+      "explanation": "Integrate (5 + 3x) dx from 0 to 2. [5x + 1.5x^2] from 0 to 2 = (10 + 6) - 0 = 16 J.",
+      "hash": "a9ea8611c780586a",
+      "translations": {
+        "hi": {
+          "question": "एक बल F = 5 + 3x x-दिशा में एक कण पर कार्य करता है। x=0 से x=2m तक इस बल द्वारा किया गया कार्य है:",
+          "options": {
+            "A": "10 जूल",
+            "B": "13 जूल",
+            "C": "16 जूल",
+            "D": "20 जूल"
+          },
+          "explanation": "0 से 2 तक (5 + 3x) dx का समाकलन करें। [5x + 1.5x^2] 0 से 2 = (10 + 6) - 0 = 16 जूल।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-016",
+      "number": 16,
+      "question": "The unit of power in CGS system is:",
+      "options": {
+        "A": "Watt",
+        "B": "Erg/sec",
+        "C": "Joule/sec",
+        "D": "Dyne"
+      },
+      "answer": "B",
+      "explanation": "In CGS, work is in ergs and time is in seconds, so power is erg/sec.",
+      "hash": "b636c0465cfbb255",
+      "translations": {
+        "hi": {
+          "question": "CGS प्रणाली में शक्ति की इकाई है:",
+          "options": {
+            "A": "वाट",
+            "B": "अर्ग/सेकंड",
+            "C": "जूल/सेकंड",
+            "D": "डाइन"
+          },
+          "explanation": "CGS में, कार्य अर्ग में और समय सेकंड में होता है, इसलिए शक्ति अर्ग/सेकंड होती है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-017",
+      "number": 17,
+      "question": "A spring constant k is cut into two equal halves. The spring constant of each half is:",
+      "options": {
+        "A": "k/2",
+        "B": "k",
+        "C": "2k",
+        "D": "4k"
+      },
+      "answer": "C",
+      "explanation": "Spring constant is inversely proportional to length (k ∝ 1/L). If length is halved, k is doubled.",
+      "hash": "d300983aac452229",
+      "translations": {
+        "hi": {
+          "question": "एक स्प्रिंग नियतांक k को दो बराबर हिस्सों में काटा जाता है। प्रत्येक आधे हिस्से का स्प्रिंग नियतांक है:",
+          "options": {
+            "A": "k/2",
+            "B": "k",
+            "C": "2k",
+            "D": "4k"
+          },
+          "explanation": "स्प्रिंग नियतांक लंबाई के व्युत्क्रमानुपाती होता है (k ∝ 1/L)। यदि लंबाई आधी कर दी जाए, तो k दोगुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-018",
+      "number": 18,
+      "question": "A 1 kg mass has a kinetic energy of 1 Joule. Its speed is:",
+      "options": {
+        "A": "1 m/s",
+        "B": "1.414 m/s",
+        "C": "2 m/s",
+        "D": "0.5 m/s"
+      },
+      "answer": "B",
+      "explanation": "1/2 mv^2 = 1 => 1/2 * 1 * v^2 = 1 => v^2 = 2 => v = sqrt(2) ≈ 1.414.",
+      "hash": "5b4aa2b7750714d7",
+      "translations": {
+        "hi": {
+          "question": "1 किग्रा द्रव्यमान की गतिज ऊर्जा 1 जूल है। इसकी गति है:",
+          "options": {
+            "A": "1 मी/से",
+            "B": "1.414 मी/से",
+            "C": "2 मी/से",
+            "D": "0.5 मी/से"
+          },
+          "explanation": "1/2 mv^2 = 1 => 1/2 * 1 * v^2 = 1 => v^2 = 2 => v = sqrt(2) ≈ 1.414।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-019",
+      "number": 19,
+      "question": "If air resistance is NOT ignored, the total mechanical energy of a falling body:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "Some energy is lost as heat due to work done against air resistance.",
+      "hash": "4b1923c9ecfab236",
+      "translations": {
+        "hi": {
+          "question": "यदि वायु प्रतिरोध को नजरअंदाज नहीं किया जाता है, तो गिरती हुई वस्तु की कुल यांत्रिक ऊर्जा:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "वायु प्रतिरोध के विरुद्ध किए गए कार्य के कारण कुछ ऊर्जा ऊष्मा के रूप में नष्ट हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "work-energy-and-power-01-020",
+      "number": 20,
+      "question": "Which energy is stored in a wound-up watch spring?",
+      "options": {
+        "A": "Kinetic Energy",
+        "B": "Potential Energy",
+        "C": "Heat Energy",
+        "D": "Chemical Energy"
+      },
+      "answer": "B",
+      "explanation": "Work done in winding the spring is stored as elastic potential energy.",
+      "hash": "b87d9de29cd78f7b",
+      "translations": {
+        "hi": {
+          "question": "चाबी वाली घड़ी के स्प्रिंग में कौन सी ऊर्जा संचित होती है?",
+          "options": {
+            "A": "गतिज ऊर्जा",
+            "B": "स्थितिज ऊर्जा",
+            "C": "ऊष्मीय ऊर्जा",
+            "D": "रासायनिक ऊर्जा"
+          },
+          "explanation": "स्प्रिंग को लपेटने में किया गया कार्य प्रत्यास्थ स्थितिज ऊर्जा के रूप में संचित होता है।"
+        }
+      }
+    }
+  ]
+}

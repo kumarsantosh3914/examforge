@@ -1,0 +1,527 @@
+{
+  "subject": "Electrostatics",
+  "set": 4,
+  "title": "Electrostatics Mock Test 4",
+  "questions": [
+    {
+      "id": "electrostatics-04-001",
+      "number": 1,
+      "question": "If a dielectric constant K = 1 for vacuum, what is its value for a perfect conductor?",
+      "options": {
+        "A": "0",
+        "B": "Infinite",
+        "C": "8.85 x 10⁻¹²",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "For a conductor, the internal electric field is zero. Since E = E₀/K, for E to be zero, K must be infinite.",
+      "hash": "5c16720f47c9df1b",
+      "translations": {
+        "hi": {
+          "question": "यदि निर्वात के लिए परावैद्युतांक K = 1 है, तो एक पूर्ण चालक के लिए इसका मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "अनंत",
+            "C": "8.85 x 10⁻¹²",
+            "D": "-1"
+          },
+          "explanation": "एक चालक के लिए, आंतरिक विद्युत क्षेत्र शून्य होता है। चूंकि E = E₀/K, E के शून्य होने के लिए, K अनंत होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-002",
+      "number": 2,
+      "question": "The electric field at a point on the perpendicular bisector of an electric dipole is directed:",
+      "options": {
+        "A": "Parallel to the dipole moment",
+        "B": "Anti-parallel to the dipole moment",
+        "C": "Perpendicular to the dipole moment",
+        "D": "Along the axis of the dipole"
+      },
+      "answer": "B",
+      "explanation": "At an equatorial point, the net electric field is opposite to the direction of the dipole moment vector (which points from -q to +q).",
+      "hash": "051dc5104a20f1f9",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव के लंबवत द्विभाजक (perpendicular bisector) पर स्थित बिंदु पर विद्युत क्षेत्र की दिशा होती है:",
+          "options": {
+            "A": "द्विध्रुव आघूर्ण के समांतर",
+            "B": "द्विध्रुव आघूर्ण के प्रति-समांतर",
+            "C": "द्विध्रुव आघूर्ण के लंबवत",
+            "D": "द्विध्रुव के अक्ष के अनुदिश"
+          },
+          "explanation": "निरक्षीय बिंदु पर, शुद्ध विद्युत क्षेत्र द्विध्रुव आघूर्ण वेक्टर की दिशा (जो -q से +q की ओर होती है) के विपरीत होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-003",
+      "number": 3,
+      "question": "Two capacitors of capacitances C1 and C2 are connected in series. The net capacitance is:",
+      "options": {
+        "A": "C1 + C2",
+        "B": "C1C2 / (C1 + C2)",
+        "C": "(C1 + C2) / C1C2",
+        "D": "sqrt(C1C2)"
+      },
+      "answer": "B",
+      "explanation": "For series combination, 1/Cs = 1/C1 + 1/C2. Solving for Cs gives (C1C2) / (C1 + C2).",
+      "hash": "2bcba264b5fbd0cf",
+      "translations": {
+        "hi": {
+          "question": "धारिता C1 और C2 वाले दो संधारित्र श्रेणीक्रम में जुड़े हुए हैं। शुद्ध धारिता है:",
+          "options": {
+            "A": "C1 + C2",
+            "B": "C1C2 / (C1 + C2)",
+            "C": "(C1 + C2) / C1C2",
+            "D": "sqrt(C1C2)"
+          },
+          "explanation": "श्रेणीक्रम संयोजन के लिए, 1/Cs = 1/C1 + 1/C2। Cs के लिए हल करने पर (C1C2) / (C1 + C2) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-004",
+      "number": 4,
+      "question": "The work done in moving a charge of 5 C between two points separated by 20 cm on an equipotential surface is:",
+      "options": {
+        "A": "100 J",
+        "B": "1 J",
+        "C": "Zero",
+        "D": "4 J"
+      },
+      "answer": "C",
+      "explanation": "By definition, the potential difference (ΔV) between any two points on an equipotential surface is zero. Work W = qΔV = 0.",
+      "hash": "0ed8c1344c0faa2f",
+      "translations": {
+        "hi": {
+          "question": "एक समविभव सतह पर 20 सेमी की दूरी पर स्थित दो बिंदुओं के बीच 5 C के आवेश को ले जाने में किया गया कार्य है:",
+          "options": {
+            "A": "100 J",
+            "B": "1 J",
+            "C": "शून्य",
+            "D": "4 J"
+          },
+          "explanation": "परिभाषा के अनुसार, समविभव सतह पर किन्हीं दो बिंदुओं के बीच विभवांतर (ΔV) शून्य होता है। कार्य W = qΔV = 0।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-005",
+      "number": 5,
+      "question": "The electric field E at a point near an infinitely large charged thin non-conducting sheet is:",
+      "options": {
+        "A": "σ / ε₀",
+        "B": "σ / 2ε₀",
+        "C": "2σ / ε₀",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "According to Gauss's Law, for a thin non-conducting sheet, the field is E = σ / 2ε₀, independent of the distance from the sheet.",
+      "hash": "bf0da1bbc16ae12b",
+      "translations": {
+        "hi": {
+          "question": "एक अनंत बड़ी आवेशित पतली अचालक चादर के पास एक बिंदु पर विद्युत क्षेत्र E है:",
+          "options": {
+            "A": "σ / ε₀",
+            "B": "σ / 2ε₀",
+            "C": "2σ / ε₀",
+            "D": "शून्य"
+          },
+          "explanation": "गॉस के नियम के अनुसार, एक पतली अचालक चादर के लिए, क्षेत्र E = σ / 2ε₀ होता है, जो चादर से दूरी पर निर्भर नहीं करता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-006",
+      "number": 6,
+      "question": "The electric potential V at a distance r from a point charge q varies as:",
+      "options": {
+        "A": "V ∝ r",
+        "B": "V ∝ 1/r",
+        "C": "V ∝ 1/r²",
+        "D": "V ∝ r²"
+      },
+      "answer": "B",
+      "explanation": "For a point charge, V = kq/r. Thus, potential is inversely proportional to the first power of the distance.",
+      "hash": "974a04e00515ffe0",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु आवेश q से r दूरी पर विद्युत विभव V किस प्रकार बदलता है?",
+          "options": {
+            "A": "V ∝ r",
+            "B": "V ∝ 1/r",
+            "C": "V ∝ 1/r²",
+            "D": "V ∝ r²"
+          },
+          "explanation": "एक बिंदु आवेश के लिए, V = kq/r। अतः, विभव दूरी की पहली घात के व्युत्क्रमानुपाती होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-007",
+      "number": 7,
+      "question": "A capacitor of 4 μF is connected to a 400 V supply. The charge stored in it is:",
+      "options": {
+        "A": "1.6 x 10⁻³ C",
+        "B": "1600 C",
+        "C": "1.6 x 10⁻⁶ C",
+        "D": "1.6 C"
+      },
+      "answer": "A",
+      "explanation": "Q = CV = (4 x 10⁻⁶ F) * (400 V) = 1600 x 10⁻⁶ C = 1.6 x 10⁻³ C.",
+      "hash": "efb82ded1fcc79ae",
+      "translations": {
+        "hi": {
+          "question": "4 μF का एक संधारित्र 400 V की आपूर्ति से जुड़ा है। इसमें संचित आवेश है:",
+          "options": {
+            "A": "1.6 x 10⁻³ C",
+            "B": "1600 C",
+            "C": "1.6 x 10⁻⁶ C",
+            "D": "1.6 C"
+          },
+          "explanation": "Q = CV = (4 x 10⁻⁶ F) * (400 V) = 1600 x 10⁻⁶ C = 1.6 x 10⁻³ C।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-008",
+      "number": 8,
+      "question": "In a parallel plate capacitor, the potential difference V is kept constant. If a dielectric slab is inserted, the charge Q on the plates will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "A",
+      "explanation": "Capacitance increases with a dielectric (C' = KC). Since Q = CV and V is constant, Q must increase as C increases.",
+      "hash": "5cd1b653bab1b2df",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर प्लेट संधारित्र में, विभवांतर V स्थिर रखा जाता है। यदि एक परावैद्युत स्लैब डाला जाता है, तो प्लेटों पर आवेश Q:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहेगा",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "परावैद्युत के साथ धारिता बढ़ जाती है (C' = KC)। चूंकि Q = CV और V स्थिर है, इसलिए C बढ़ने पर Q भी बढ़ना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-009",
+      "number": 9,
+      "question": "The energy density (energy per unit volume) in the electric field E is:",
+      "options": {
+        "A": "1/2 ε₀E",
+        "B": "1/2 ε₀E²",
+        "C": "ε₀E²",
+        "D": "1/2 ε₀²E"
+      },
+      "answer": "B",
+      "explanation": "The energy stored per unit volume in an electric field is proportional to the square of the electric field intensity.",
+      "hash": "b65670f4b0772bd5",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र E में ऊर्जा घनत्व (प्रति इकाई आयतन ऊर्जा) है:",
+          "options": {
+            "A": "1/2 ε₀E",
+            "B": "1/2 ε₀E²",
+            "C": "ε₀E²",
+            "D": "1/2 ε₀²E"
+          },
+          "explanation": "विद्युत क्षेत्र में प्रति इकाई आयतन में संचित ऊर्जा विद्युत क्षेत्र की तीव्रता के वर्ग के समानुपाती होती है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-010",
+      "number": 10,
+      "question": "An electric dipole is placed in a uniform electric field. The net force on it is:",
+      "options": {
+        "A": "pE",
+        "B": "Zero",
+        "C": "p/E",
+        "D": "pE sinθ"
+      },
+      "answer": "B",
+      "explanation": "In a uniform field, the forces on +q and -q are equal and opposite (qE and -qE), so the net force is always zero.",
+      "hash": "0c58fedcfc2aabb7",
+      "translations": {
+        "hi": {
+          "question": "एक विद्युत द्विध्रुव को एक समान विद्युत क्षेत्र में रखा गया है। उस पर शुद्ध बल है:",
+          "options": {
+            "A": "pE",
+            "B": "शून्य",
+            "C": "p/E",
+            "D": "pE sinθ"
+          },
+          "explanation": "एक समान क्षेत्र में, +q और -q पर बल बराबर और विपरीत (qE और -qE) होते हैं, इसलिए शुद्ध बल हमेशा शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-011",
+      "number": 11,
+      "question": "When a soap bubble is given a positive charge, its size:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes irregular"
+      },
+      "answer": "A",
+      "explanation": "Whether the charge is positive or negative, mutual repulsion between like charges on the surface causes the bubble to expand.",
+      "hash": "ff558854ebe58823",
+      "translations": {
+        "hi": {
+          "question": "जब एक साबुन के बुलबुले को धनात्मक आवेश दिया जाता है, तो उसका आकार:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "समान रहता है",
+            "D": "अनियमित हो जाता है"
+          },
+          "explanation": "चाहे आवेश धनात्मक हो या ऋणात्मक, सतह पर समान आवेशों के बीच पारस्परिक प्रतिकर्षण के कारण बुलबुला फैलता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-012",
+      "number": 12,
+      "question": "Gauss's Law is valid for:",
+      "options": {
+        "A": "Only closed surfaces",
+        "B": "Only open surfaces",
+        "C": "Both A and B",
+        "D": "Only spherical surfaces"
+      },
+      "answer": "A",
+      "explanation": "Gauss's Law relates the net flux through a closed surface (Gaussian surface) to the net charge enclosed.",
+      "hash": "243d93594a499847",
+      "translations": {
+        "hi": {
+          "question": "गॉस का नियम किसके लिए मान्य है?",
+          "options": {
+            "A": "केवल बंद सतहों के लिए",
+            "B": "केवल खुली सतहों के लिए",
+            "C": "A और B दोनों",
+            "D": "केवल गोलाकार सतहों के लिए"
+          },
+          "explanation": "गॉस का नियम एक बंद सतह (गॉसियन सतह) के माध्यम से शुद्ध फ्लक्स को उसके अंदर बंद शुद्ध आवेश से जोड़ता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-013",
+      "number": 13,
+      "question": "In the absence of an external electric field, the net dipole moment of a non-polar dielectric is:",
+      "options": {
+        "A": "Infinite",
+        "B": "Zero",
+        "C": "1",
+        "D": "Dependent on temperature"
+      },
+      "answer": "B",
+      "explanation": "In non-polar molecules, the centers of positive and negative charges coincide, so individual and net dipole moments are zero.",
+      "hash": "f80f30b6b71951d8",
+      "translations": {
+        "hi": {
+          "question": "बाहरी विद्युत क्षेत्र की अनुपस्थिति में, एक अध्रुवीय परावैद्युत (non-polar dielectric) का शुद्ध द्विध्रुव आघूर्ण होता है:",
+          "options": {
+            "A": "अनंत",
+            "B": "शून्य",
+            "C": "1",
+            "D": "तापमान पर निर्भर"
+          },
+          "explanation": "अध्रुवीय अणुओं में, धनात्मक और ऋणात्मक आवेशों के केंद्र एक ही स्थान पर होते हैं, इसलिए व्यक्तिगत और शुद्ध द्विध्रुव आघूर्ण शून्य होते हैं। [Image of polar vs non-polar molecules]"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-014",
+      "number": 14,
+      "question": "The unit of electric potential \"Volt\" is equal to:",
+      "options": {
+        "A": "Joule / Coulomb",
+        "B": "Newton / Coulomb",
+        "C": "Joule / meter",
+        "D": "Coulomb / Joule"
+      },
+      "answer": "A",
+      "explanation": "1 Volt = 1 Joule / 1 Coulomb. It represents the work done in moving a unit charge.",
+      "hash": "1ab93bcf1c2d7271",
+      "translations": {
+        "hi": {
+          "question": "विद्युत विभव की इकाई \"वोल्ट\" किसके बराबर है?",
+          "options": {
+            "A": "जूल / कूलम्ब",
+            "B": "न्यूटन / कूलम्ब",
+            "C": "जूल / मीटर",
+            "D": "कूलम्ब / जूल"
+          },
+          "explanation": "1 वोल्ट = 1 जूल / 1 कूलम्ब। यह इकाई आवेश को ले जाने में किए गए कार्य को दर्शाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-015",
+      "number": 15,
+      "question": "The electric field E inside a hollow charged conductor is:",
+      "options": {
+        "A": "σ / ε₀",
+        "B": "Zero",
+        "C": "kq / r²",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "According to Gauss's Law, since there is no charge enclosed inside the hollow conductor, the electric field is zero.",
+      "hash": "509093d61360fcff",
+      "translations": {
+        "hi": {
+          "question": "एक खोखले आवेशित चालक के अंदर विद्युत क्षेत्र E है:",
+          "options": {
+            "A": "σ / ε₀",
+            "B": "शून्य",
+            "C": "kq / r²",
+            "D": "अनंत"
+          },
+          "explanation": "गॉस के नियम के अनुसार, चूंकि खोखले चालक के अंदर कोई आवेश बंद नहीं है, इसलिए विद्युत क्षेत्र शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-016",
+      "number": 16,
+      "question": "For a point charge, the equipotential surfaces are:",
+      "options": {
+        "A": "Spheres centered on the charge",
+        "B": "Planes perpendicular to the field",
+        "C": "Cylinders",
+        "D": "Parallel lines"
+      },
+      "answer": "A",
+      "explanation": "Potential depends only on the distance from the point charge, so all points at a constant radius r form a spherical equipotential surface.",
+      "hash": "360112048827977a",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु आवेश के लिए, समविभव सतहें होती हैं:",
+          "options": {
+            "A": "आवेश पर केंद्रित गोले",
+            "B": "क्षेत्र के लंबवत समतल",
+            "C": "बेलन",
+            "D": "समांतर रेखाएं"
+          },
+          "explanation": "विभव केवल बिंदु आवेश से दूरी पर निर्भर करता है, इसलिए स्थिर त्रिज्या r पर सभी बिंदु एक गोलाकार समविभव सतह बनाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-017",
+      "number": 17,
+      "question": "Two charges are placed at a distance r. If a glass slab is placed between them, the force between them will:",
+      "options": {
+        "A": "Increase",
+        "B": "Decrease",
+        "C": "Remain same",
+        "D": "Become zero"
+      },
+      "answer": "B",
+      "explanation": "Glass is a dielectric (K > 1). Force in a medium F_m = F_air / K. Therefore, the force decreases.",
+      "hash": "36b05aea2a3669f4",
+      "translations": {
+        "hi": {
+          "question": "दो आवेश r दूरी पर रखे गए हैं। यदि उनके बीच कांच का स्लैब रखा जाए, तो उनके बीच का बल:",
+          "options": {
+            "A": "बढ़ेगा",
+            "B": "घटेगा",
+            "C": "समान रहता है",
+            "D": "शून्य हो जाएगा"
+          },
+          "explanation": "कांच एक परावैद्युत (K > 1) है। माध्यम में बल F_m = F_air / K होता है। इसलिए, बल घट जाता है।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-018",
+      "number": 18,
+      "question": "If a charge Q is distributed uniformly on a ring of radius R, the electric potential at its center is:",
+      "options": {
+        "A": "Zero",
+        "B": "kQ / R",
+        "C": "kQ / R²",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "All points on the ring are at a distance R from the center, so V = Σ(kdq/R) = kQ/R.",
+      "hash": "34d2e718a8425a9d",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आवेश Q को R त्रिज्या के छल्ले (ring) पर समान रूप से वितरित किया जाता है, तो इसके केंद्र पर विद्युत विभव है:",
+          "options": {
+            "A": "शून्य",
+            "B": "kQ / R",
+            "C": "kQ / R²",
+            "D": "अनंत"
+          },
+          "explanation": "छल्ले पर सभी बिंदु केंद्र से R दूरी पर हैं, इसलिए V = Σ(kdq/R) = kQ/R।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-019",
+      "number": 19,
+      "question": "The SI unit of electric field intensity is:",
+      "options": {
+        "A": "N/C",
+        "B": "C/N",
+        "C": "J/C",
+        "D": "N-m"
+      },
+      "answer": "A",
+      "explanation": "Electric field is force per unit charge, hence Newton per Coulomb.",
+      "hash": "23a3037909acadd2",
+      "translations": {
+        "hi": {
+          "question": "विद्युत क्षेत्र की तीव्रता की SI इकाई है:",
+          "options": {
+            "A": "N/C",
+            "B": "C/N",
+            "C": "J/C",
+            "D": "N-m"
+          },
+          "explanation": "विद्युत क्षेत्र प्रति इकाई आवेश पर लगने वाला बल है, इसलिए न्यूटन प्रति कूलम्ब।"
+        }
+      }
+    },
+    {
+      "id": "electrostatics-04-020",
+      "number": 20,
+      "question": "Capacitance of a parallel plate capacitor is C. If the area of plates is doubled and distance is halved, the new capacitance is:",
+      "options": {
+        "A": "C",
+        "B": "2C",
+        "C": "4C",
+        "D": "C/4"
+      },
+      "answer": "C",
+      "explanation": "C = ε₀A/d. New C' = ε₀(2A)/(d/2) = 4(ε₀A/d) = 4C.",
+      "hash": "75f158ce6dfdbff1",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर प्लेट संधारित्र की धारिता C है। यदि प्लेटों का क्षेत्रफल दोगुना और दूरी आधी कर दी जाए, तो नई धारिता है:",
+          "options": {
+            "A": "C",
+            "B": "2C",
+            "C": "4C",
+            "D": "C/4"
+          },
+          "explanation": "C = ε₀A/d। नई C' = ε₀(2A)/(d/2) = 4(ε₀A/d) = 4C।"
+        }
+      }
+    }
+  ]
+}

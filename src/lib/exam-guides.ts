@@ -133,6 +133,117 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'bpsc-tre-4.0/physics-11-12': {
+    heading: 'About the BPSC TRE 4.0 Physics exam',
+    intro: [
+      'The Bihar Public Service Commission Teacher Recruitment Exam (BPSC TRE) is one of the largest teacher hiring drives in India. TRE 4.0 is recruiting for 33,320 posts in Bihar’s government schools, and 1,758 of them are for Physics teachers in higher secondary schools (Classes 11–12), one of the largest subjects at that level.',
+      'ExamForge gives you free, timed practice for the Physics paper: 100 sets across all 20 units of the Class 11–12 course, from measurement and kinematics to optics, nuclei and semiconductor devices. Every question is in English and Hindi, and each one comes with an explanation after you submit. Your first three sets need no signup.',
+      'Start with the units you find hardest, then work through every set under the clock. Sets give you one minute per question, the same pace as the real paper. They do not deduct marks for wrong answers, so to rehearse TRE 4.0 scoring, take one-third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'TRE 4.0 at a glance',
+      source: 'From BPSC Advertisement 15/2026 (22 September 2026) and its corrigendum of 29 September 2026. Check bpsc.bihar.gov.in for later notices.',
+      items: [
+        { label: 'Physics posts', value: '1,758 (Classes 11–12)' },
+        { label: 'Online application', value: '25 September to 26 October 2026' },
+        { label: 'Exam fee', value: '₹100' },
+        { label: 'Starting basic pay', value: '₹32,000 a month' },
+        { label: 'Exam date', value: 'Not announced yet' },
+        { label: 'Apply at', value: 'bpsconline.bihar.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The written exam is a single objective paper of 150 questions in three parts, with 2 hours 30 minutes for the whole paper. Each question has five options: A to D, and E for “I do not want to answer”.',
+      caption: 'BPSC TRE 4.0 written exam for Class 11–12 teachers',
+      sections: [
+        { part: 'Part I', subject: 'Language: English and Hindi, Urdu or Bangla (qualifying)', questions: 30, marks: 30 },
+        { part: 'Part II', subject: 'General Studies', questions: 40, marks: 40 },
+        { part: 'Part III', subject: 'Physics', questions: 80, marks: 80 },
+      ],
+      duration: '2 hours 30 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−⅓' },
+        { response: 'Option E (chose not to answer)', marks: '0' },
+        { response: 'No option marked', marks: '−⅓' },
+      ],
+      note: 'Part I only has to be qualified, with at least 30%. Your rank comes from the 120 marks in Parts II and III, and 80 of those are Physics. If two candidates tie, the Physics score decides, then Part I, then age. There is no re-evaluation.',
+    },
+    syllabus: {
+      intro: 'Subject papers follow the SCERT/NCERT curriculum, set at the level of the post’s minimum qualification. Physics carries two-thirds of the marks that decide your rank; ExamForge’s 20 practice subjects follow the Class 11–12 units and are grouped below.',
+      areas: [
+        {
+          title: 'Measurement and mechanics', subjects: ['physical-world-measurement', 'kinematics', 'laws-of-motion', 'work-energy-and-power', 'motion-of-system-of-particles-rigid-body', 'gravitation'],
+          summary: 'Class 11 mechanics, the largest block of the course.',
+          topics: ['Units, dimensions, errors and significant figures', 'Motion in one and two dimensions, projectiles and relative velocity', 'Newton’s laws, friction and circular motion', 'Work–energy theorem, power and collisions', 'Centre of mass, torque, angular momentum and moment of inertia', 'Kepler’s laws, g and its variation, orbits and escape speed'],
+        },
+        {
+          title: 'Matter, heat and thermodynamics', subjects: ['properties-of-bulk-matter', 'thermodynamics', 'kinetic-theory-of-gases'],
+          summary: 'How solids, liquids and gases behave, and the laws of heat.',
+          topics: ['Elasticity, stress, strain and moduli', 'Pressure, viscosity, surface tension and Bernoulli’s principle', 'Thermal expansion, calorimetry and heat transfer', 'Laws of thermodynamics, processes and heat engines', 'Kinetic theory, degrees of freedom and specific heats'],
+        },
+        {
+          title: 'Oscillations, waves and optics', subjects: ['oscillations-waves', 'electromagnetic-waves', 'optics'],
+          summary: 'Periodic motion, waves and the behaviour of light.',
+          topics: ['Simple harmonic motion and pendulums', 'Wave speed, superposition, standing waves, beats and the Doppler effect', 'Electromagnetic spectrum and its uses', 'Reflection, refraction, lenses, prisms and optical instruments', 'Interference, diffraction and polarisation'],
+        },
+        {
+          title: 'Electricity and magnetism', subjects: ['electrostatics', 'current-electricity', 'magnetic-effects-magnetism', 'electromagnetic-induction-ac'],
+          summary: 'The core of Class 12, from charges at rest to alternating current.',
+          topics: ['Coulomb’s law, electric field, Gauss’s law and potential', 'Capacitors and dielectrics', 'Ohm’s law, Kirchhoff’s rules, Wheatstone bridge and potentiometer', 'Biot–Savart and Ampère’s laws, moving coil galvanometer and magnetic materials', 'Faraday’s and Lenz’s laws, inductance, AC circuits, resonance and transformers'],
+        },
+        {
+          title: 'Modern physics and electronics', subjects: ['dual-nature-of-matter', 'atoms-nuclei', 'electronic-devices', 'communication-systems'],
+          summary: 'Quantum ideas, the atom and nucleus, and the devices built on them.',
+          topics: ['Photoelectric effect and de Broglie waves', 'Bohr model and hydrogen spectrum', 'Radioactivity, binding energy, fission and fusion', 'Semiconductors, p-n junctions, diodes, transistors and logic gates', 'Modulation, bandwidth and propagation of signals'],
+        },
+        {
+          title: 'General Studies and language',
+          summary: 'Parts I and II of the paper. ExamForge does not have practice sets for these yet.',
+          topics: ['Elementary mathematics', 'General awareness', 'General science', 'The Indian national movement', 'Geography', 'Practical knowledge of English and Hindi, Urdu or Bangla (qualifying)'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions for a Class 11–12 Physics teacher, in short. The advertisement lists every accepted qualification.',
+      items: [
+        { title: 'Qualification', detail: 'A postgraduate degree in Physics with at least 50% and a B.Ed., or a postgraduate degree with a four-year integrated B.Sc.Ed., or a postgraduate degree with 55% and a three-year integrated B.Ed.–M.Ed. Reserved categories and women get the relaxation in marks set out in the advertisement.' },
+        { title: 'Teacher eligibility test', detail: 'STET Paper-II in Physics passed. Candidates taking STET 2026 can apply, but must pass it before the written exam to get an admit card.' },
+        { title: 'Age', detail: 'At least 21 on 1 August 2026. The upper limit, counted on 1 August 2024, is 37 for unreserved men, 40 for BC and EBC candidates and unreserved women, and 42 for SC, ST and transgender candidates.' },
+        { title: 'Attempts', detail: 'A candidate can take the exam at most five times.' },
+      ],
+    },
+    stages: {
+      intro: 'TRE 4.0 has no interview: selection rests on the written exam.',
+      items: [
+        { title: 'Written examination', detail: 'The objective paper above. Part I must be qualified with at least 30%.' },
+        { title: 'Provisional merit list', detail: 'BPSC ranks qualified candidates on their Part II and Part III marks and sends the list to the Education Department.' },
+        { title: 'Document verification and posting', detail: 'The department verifies original certificates, including STET, before appointment and allots districts.' },
+      ],
+    },
+    merit: [
+      { title: 'Minimum qualifying marks', detail: 'In the written exam: 40% for unreserved candidates, 36.5% for BC, 34% for EBC, and 32% for SC and ST candidates and for women and candidates with disabilities who are residents of Bihar.' },
+      { title: 'Guest teacher weightage', detail: 'Eligible guest teachers can get 5 marks for each year of service, up to 25, added after they reach the qualifying marks. This depends on a pending High Court appeal.' },
+      { title: 'Several posts', detail: 'If you qualify for more than one class group, you set an order of preference in your application, and results follow that order.' },
+      { title: 'Reservation and domicile', detail: 'Reservation, including 35% horizontal reservation for women, applies only to residents of Bihar. 40% of posts go to candidates who passed Class 10 or 12 from an institution in Bihar.' },
+    ],
+    tips: [
+      { title: 'Mark Option E when you skip', detail: 'A wrong answer costs one-third of a mark, and so does leaving a question with no option marked. If you do not know an answer, mark E: it is the only way to score zero instead of losing marks.' },
+      { title: 'Guess only when you can eliminate', detail: 'With −⅓ for a wrong answer, a blind guess among four options gains nothing on average. Once you can rule out even one option, a guess is worth taking.' },
+      { title: 'Cover all 20 units', detail: 'Physics is 80 of the 120 merit marks and also breaks ties. Questions come from every unit, so work through each subject on ExamForge rather than only mechanics and electricity.' },
+      { title: 'Check units and dimensions first', detail: 'Many numerical options can be ruled out by their units or by an order-of-magnitude estimate before you calculate anything.' },
+      { title: 'Keep a formula sheet', detail: 'Short numericals reward instant recall: kinematic equations, moments of inertia, lens and mirror formulas, Bohr-model results and semiconductor relations. Revise them from the explanations after each set.' },
+      { title: 'Revise in both languages', detail: 'The paper is set in Hindi and English. Switching a question to Hindi helps you learn the technical terms either way.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in BPSC TRE 4.0?', answer: 'Yes. One-third of a mark is deducted for each wrong answer, and also for each question where you mark none of the five options. Marking option E (“I do not want to answer”) scores zero. Earlier rounds had no negative marking, so this is new in TRE 4.0.' },
+      { question: 'When is the TRE 4.0 exam?', answer: 'BPSC has not announced the exam date yet. Online applications are open from 25 September to 26 October 2026, and the exam may be held in more than one phase depending on the number of candidates.' },
+      { question: 'Do I need a B.Ed. to apply for Physics?', answer: 'Yes, or one of the integrated alternatives: a postgraduate degree in Physics with at least 50% and a B.Ed., a four-year integrated B.Sc.Ed., or 55% with a three-year integrated B.Ed.–M.Ed. You also need a STET Paper-II pass in Physics.' },
+      { question: 'How many questions are in each ExamForge set?', answer: 'Each Physics set has 20 questions and a 20-minute timer (four sets have 19 questions and 19 minutes). There are 5 sets in each of the 20 subjects.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
   'ssc-gd-constable': {
     heading: 'About the SSC GD Constable exam',
     intro: [
@@ -206,6 +317,106 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Is there negative marking in SSC GD?', answer: 'Yes. In the real exam 0.25 marks are deducted for each wrong answer. ExamForge practice sets do not deduct marks, so score your full mock tests by hand if you want the exact SSC result.' },
       { question: 'How are the ExamForge mock tests structured?', answer: 'Each full mock test has 80 questions covering all four parts, like the real paper. There are also 5 shorter sets each for Reasoning, General Awareness, Mathematics and Hindi.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'bihar-police-constable': {
+    heading: 'About the Bihar Police Constable exam',
+    intro: [
+      'The Central Selection Board of Constables (CSBC), Bihar recruits constables (sipahi) for the Bihar Police and the Bihar Special Armed Police. Recruitment drives are large: the 2025 advertisement was for 19,838 posts. Selection starts with a written exam at Class 10 level, and only those who clear it are called to the physical test that decides merit.',
+      'ExamForge gives you free, timed practice for the written exam: 5 full mock tests of 100 questions with the real 2-hour limit, mixing Hindi, English, Mathematics, Science, Social Science and Bihar GK the way the paper does, plus 5 sets each for General Knowledge and General Science. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The written exam has no negative marking, and neither do these sets, so your score here is worked out the same way as in the exam. Take the full mock tests under the clock and aim well above the qualifying mark.',
+    ],
+    facts: {
+      title: 'Bihar Police Constable at a glance',
+      source: 'From CSBC Advertisement 01/2025. Check csbc.bihar.gov.in for the current advertisement before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'CSBC, Bihar' },
+        { label: 'Last recruitment', value: '19,838 posts (Advertisement 01/2025)' },
+        { label: 'Written exam', value: '100 questions, 2 hours, OMR sheet' },
+        { label: 'Qualifying mark', value: '30% in the written exam' },
+        { label: 'Merit decided by', value: 'Physical Efficiency Test marks' },
+        { label: 'Apply at', value: 'csbc.bihar.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The written exam is a single objective paper of 100 questions at matriculation (Class 10) level, answered on an OMR sheet. Each question carries one mark.',
+      caption: 'CSBC constable written exam',
+      sections: [
+        { part: 'Paper', subject: 'Hindi, English, Mathematics, Science, Social Science and General Knowledge', questions: 100, marks: 100 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '0' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The written exam is qualifying: you need at least 30% to be called for the physical test, and the written marks are not added to your merit score. CSBC calls about five times as many candidates as there are posts in each category, so a score well above 30% is safer.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level. ExamForge’s full mock tests cover every area below; the General Knowledge and General Science subjects give extra practice on the two largest.',
+      areas: [
+        {
+          title: 'General Knowledge and current affairs', subjects: ['general-knowledge'],
+          summary: 'Bihar-specific GK carries real weight, alongside national affairs.',
+          topics: ['History, geography and culture of Bihar', 'Bihar’s districts, rivers, national parks and festivals', 'Indian polity and the Constitution', 'Important dates, books, authors and slogans', 'Current affairs and appointments'],
+        },
+        {
+          title: 'General Science', subjects: ['general-science'],
+          summary: 'Physics, Chemistry and Biology at Class 10 level.',
+          topics: ['Units, motion, light, sound and electricity', 'Acids, bases, metals, alloys and common compounds', 'Human body, vitamins, diseases and nutrition', 'Cells, plants and photosynthesis', 'Instruments and inventions'],
+        },
+        {
+          title: 'Social Science', subjects: ['mock-test'],
+          summary: 'History, geography and civics from the school syllabus.',
+          topics: ['Ancient, medieval and modern Indian history', 'The national movement', 'Physical and economic geography of India', 'Parliament, the President and the courts'],
+        },
+        {
+          title: 'Mathematics', subjects: ['mock-test'],
+          summary: 'Arithmetic and basic mensuration.',
+          topics: ['Percentage, profit and loss, simple interest', 'Ratio, average, time and work, speed and distance', 'HCF, LCM, squares and square roots', 'Area and perimeter, triangles and circles'],
+        },
+        {
+          title: 'Hindi and English', subjects: ['mock-test'],
+          summary: 'Grammar and vocabulary in both languages.',
+          topics: ['Sandhi, samas, tadbhav and muhavare', 'Synonyms and antonyms (paryayvachi, vilom)', 'Prepositions, articles, tenses and voice', 'Spelling, plurals and one-word substitution'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each advertisement sets the exact cut-off dates, relaxations and physical standards.',
+      items: [
+        { title: 'Qualification', detail: 'Intermediate (Class 12) or an equivalent qualification from a recognised board.' },
+        { title: 'Age', detail: 'At least 18. The upper limit for unreserved men has been 25, with higher limits for BC, EBC, women and SC and ST candidates.' },
+        { title: 'Height', detail: 'For men, 165 cm for unreserved, BC and EBC candidates and 160 cm for SC and ST candidates; for women, 155 cm. Men also have a chest standard.' },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'Written examination', detail: 'The objective paper above. It only qualifies you for the next stage.' },
+        { title: 'Physical Efficiency Test (PET) and measurements', detail: 'Height and chest are checked, then the PET: running, shot put and high jump, scored out of 100.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination confirms fitness before appointment.' },
+      ],
+    },
+    merit: [
+      { title: 'PET marks decide rank', detail: 'The final merit list is drawn up on the PET marks: running carries 50, shot put 25 and high jump 25.' },
+      { title: 'Running', detail: 'Men run 1.6 km and must finish within 6 minutes; women run 1 km within 5 minutes. Faster times earn more marks.' },
+      { title: 'Shot put and high jump', detail: 'Men put a 16 lb shot at least 16 feet and clear 4 feet in the high jump; women put a 12 lb shot at least 12 feet and clear 3 feet.' },
+      { title: 'Written exam is qualifying', detail: 'You must score at least 30% to reach the PET, but the written marks are not counted in the merit list.' },
+    ],
+    tips: [
+      { title: 'Attempt every question', detail: 'There is no negative marking, so never leave a bubble empty. Rule out what you can and pick the best remaining option.' },
+      { title: 'Learn Bihar GK thoroughly', detail: 'Questions on Bihar’s history, districts, rivers, festivals and personalities appear in every paper. The General Knowledge sets here lean heavily on them.' },
+      { title: 'Practise the full paper under the clock', detail: 'Take the 100-question mock tests in one sitting with the 2-hour timer, and practise marking answers quickly, as you will on the OMR sheet.' },
+      { title: 'Revise Hindi grammar', detail: 'Sandhi, samas, muhavare and paryayvachi are quick marks if you know them. Review the explanations after each mock test.' },
+      { title: 'Train for the PET from day one', detail: 'Your rank comes from the physical test, so build running speed alongside your written preparation rather than after it.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in the Bihar Police Constable exam?', answer: 'No. A wrong answer costs nothing, so attempt every question. ExamForge sets do not deduct marks either.' },
+      { question: 'Do written exam marks count in the final merit?', answer: 'No. The written exam is qualifying, with a minimum of 30%. The merit list is drawn up on the Physical Efficiency Test marks.' },
+      { question: 'How are the ExamForge mock tests structured?', answer: 'Each full mock test has 100 questions across all subjects and a 2-hour timer, like the real paper. There are also 5 sets of 20 questions for General Knowledge and 5 sets of 15 questions for General Science, each with one minute per question.' },
       { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],

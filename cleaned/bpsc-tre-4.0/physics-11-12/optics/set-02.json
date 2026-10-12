@@ -1,0 +1,527 @@
+{
+  "subject": "Optics",
+  "set": 2,
+  "title": "Optics Mock Test 2",
+  "questions": [
+    {
+      "id": "optics-02-001",
+      "number": 1,
+      "question": "A ray of light is incident normally on one face of a right-angled isosceles prism. If it suffers total internal reflection at the hypotenuse, the minimum refractive index of the prism is:",
+      "options": {
+        "A": "1.33",
+        "B": "1.414",
+        "C": "1.5",
+        "D": "1.732"
+      },
+      "answer": "B",
+      "explanation": "For TIR at the hypotenuse, the angle of incidence (45°) must be greater than the critical angle. n > 1/sin(45°) => n > √2.",
+      "hash": "8335a77194bca0dc",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश की एक किरण एक समकोण समद्विबाहु प्रिज्म के एक फलक पर लंबवत आपतित होती है। यदि कर्ण पर इसका पूर्ण आंतरिक परावर्तन होता है, तो प्रिज्म का न्यूनतम अपवर्तनांक है:",
+          "options": {
+            "A": "1.33",
+            "B": "1.414",
+            "C": "1.5",
+            "D": "1.732"
+          },
+          "explanation": "कर्ण पर TIR के लिए, आपतन कोण (45°) क्रांतिक कोण से अधिक होना चाहिए। n > 1/sin(45°) => n > √2।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-002",
+      "number": 2,
+      "question": "A thin prism of angle 6° made of glass (n=1.5) is combined with another thin prism (n=1.6) to produce dispersion without deviation. The angle of the second prism is:",
+      "options": {
+        "A": "5°",
+        "B": "6°",
+        "C": "4°",
+        "D": "7°"
+      },
+      "answer": "A",
+      "explanation": "For no deviation, (n1-1)A1 = (n2-1)A2. (1.5-1) * 6 = (1.6-1) * A2 => 3 = 0.6 * A2 => A2 = 5°.",
+      "hash": "e201dd268596dea5",
+      "translations": {
+        "hi": {
+          "question": "कांच (n=1.5) से बना 6° कोण का एक पतला प्रिज्म दूसरे पतले प्रिज्म (n=1.6) के साथ विचलन रहित विक्षेपण उत्पन्न करने के लिए जोड़ा जाता है। दूसरे प्रिज्म का कोण है:",
+          "options": {
+            "A": "5°",
+            "B": "6°",
+            "C": "4°",
+            "D": "7°"
+          },
+          "explanation": "विचलन रहित होने के लिए, (n1-1)A1 = (n2-1)A2। (1.5-1) * 6 = (1.6-1) * A2 => 3 = 0.6 * A2 => A2 = 5°।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-003",
+      "number": 3,
+      "question": "The distance of the moon from the earth is 3.8 x 10^5 km. The eye is most sensitive to 550 nm. The minimum diameter of a telescope objective to resolve two points on the moon 1 km apart is:",
+      "options": {
+        "A": "0.25 m",
+        "B": "5.1 m",
+        "C": "0.15 m",
+        "D": "2.5 m"
+      },
+      "answer": "A",
+      "explanation": "Δθ = 1.22λ / D. Also Δθ = y / x. Equating both, D = 1.22 * 550e-9 * 3.8e8 / 1000 ≈ 0.25 m.",
+      "hash": "4583cc7f8dfe8e19",
+      "translations": {
+        "hi": {
+          "question": "पृथ्वी से चंद्रमा की दूरी 3.8 x 10^5 किमी है। आंख 550 nm के प्रति सबसे संवेदनशील है। चंद्रमा पर 1 किमी की दूरी पर स्थित दो बिंदुओं को विभेदित करने के लिए दूरबीन के अभिदृश्यक का न्यूनतम व्यास है:",
+          "options": {
+            "A": "0.25 m",
+            "B": "5.1 m",
+            "C": "0.15 m",
+            "D": "2.5 m"
+          },
+          "explanation": "Δθ = 1.22λ / D। साथ ही Δθ = y / x। दोनों को बराबर करने पर, D ≈ 0.25 m प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-004",
+      "number": 4,
+      "question": "Which of the following is correct for the power of a combination of two lenses in contact?",
+      "options": {
+        "A": "P = P1 + P2",
+        "B": "P = P1 * P2",
+        "C": "P = (P1 + P2) / 2",
+        "D": "P = P1 - P2"
+      },
+      "answer": "A",
+      "explanation": "When lenses are in contact, their powers add up algebraically.",
+      "hash": "df01c21c204db608",
+      "translations": {
+        "hi": {
+          "question": "संपर्क में रखे दो लेंसों के संयोजन की शक्ति के लिए निम्नलिखित में से कौन सा सही है?",
+          "options": {
+            "A": "P = P1 + P2",
+            "B": "P = P1 * P2",
+            "C": "P = (P1 + P2) / 2",
+            "D": "P = P1 - P2"
+          },
+          "explanation": "जब लेंस संपर्क में होते हैं, तो उनकी शक्तियां बीजगणितीय रूप से जुड़ जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-005",
+      "number": 5,
+      "question": "Displacement of a lens between two positions to form clear images on a screen is 20 cm. If the distance between object and screen is 100 cm, the focal length is:",
+      "options": {
+        "A": "21 cm",
+        "B": "24 cm",
+        "C": "25 cm",
+        "D": "20 cm"
+      },
+      "answer": "B",
+      "explanation": "f = (D² - d²) / 4D = (100² - 20²) / (4 * 100) = (10000 - 400) / 400 = 9600 / 400 = 24 cm.",
+      "hash": "d6766f3063b2318e",
+      "translations": {
+        "hi": {
+          "question": "स्क्रीन पर स्पष्ट प्रतिबिंब बनाने के लिए दो स्थितियों के बीच लेंस का विस्थापन 20 सेमी है। यदि वस्तु और स्क्रीन के बीच की दूरी 100 सेमी है, तो फोकस दूरी है:",
+          "options": {
+            "A": "21 cm",
+            "B": "24 cm",
+            "C": "25 cm",
+            "D": "20 cm"
+          },
+          "explanation": "f = (D² - d²) / 4D = (100² - 20²) / (4 * 100) = 24 cm।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-006",
+      "number": 6,
+      "question": "In Young's double slit experiment, if the source is moved closer to the slits, the fringe width:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains unchanged",
+        "D": "Fringes disappear"
+      },
+      "answer": "C",
+      "explanation": "Fringe width depends on the distance between slits and screen (D), not the distance of the source from the slits.",
+      "hash": "77a493d87131ffd6",
+      "translations": {
+        "hi": {
+          "question": "यंग के द्वि-स्लिट प्रयोग में, यदि स्रोत को स्लिट्स के करीब लाया जाता है, तो फ्रिंज की चौड़ाई:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "अपरिवर्तित रहती है",
+            "D": "फ्रिंज गायब हो जाते हैं"
+          },
+          "explanation": "फ्रिंज की चौड़ाई स्लिट्स और स्क्रीन के बीच की दूरी (D) पर निर्भर करती है, न कि स्लिट्स से स्रोत की दूरी पर।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-007",
+      "number": 7,
+      "question": "When the distance between the source and the screen is increased, the intensity of light on the screen:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Becomes zero"
+      },
+      "answer": "B",
+      "explanation": "Intensity follows the inverse square law (I ∝ 1/r²).",
+      "hash": "3725e50a0b209aca",
+      "translations": {
+        "hi": {
+          "question": "जब स्रोत और स्क्रीन के बीच की दूरी बढ़ाई जाती है, तो स्क्रीन पर प्रकाश की तीव्रता:",
+          "options": {
+            "A": "बढ़ती है",
+            "B": "घटती है",
+            "C": "स्थिर रहती है",
+            "D": "शून्य हो जाती है"
+          },
+          "explanation": "तीव्रता व्युत्क्रम वर्ग नियम (I ∝ 1/r²) का पालन करती है।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-008",
+      "number": 8,
+      "question": "If a glass slab is placed in the path of one of the interfering beams in YDSE, the fringe pattern:",
+      "options": {
+        "A": "Disappears",
+        "B": "Shifts",
+        "C": "Remains unchanged",
+        "D": "Becomes central bright"
+      },
+      "answer": "B",
+      "explanation": "The introduction of a slab causes an additional path difference, shifting the entire pattern towards the side of the slab.",
+      "hash": "464dfadc09ab54d6",
+      "translations": {
+        "hi": {
+          "question": "यदि YDSE में व्यतिकरण करने वाली बीमों में से एक के पथ में कांच की स्लैब रखी जाती है, तो फ्रिंज पैटर्न:",
+          "options": {
+            "A": "गायब हो जाता है",
+            "B": "स्थानांतरित हो जाता है",
+            "C": "अपरिवर्तित रहता है",
+            "D": "केंद्रीय चमकीला हो जाता है"
+          },
+          "explanation": "स्लैब के उपयोग से एक अतिरिक्त पथ अंतर पैदा होता है, जिससे पूरा पैटर्न स्लैब की ओर खिसक जाता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-009",
+      "number": 9,
+      "question": "A telescope has an objective of focal length 140 cm and an eyepiece of focal length 5 cm. Its magnifying power for distant objects is:",
+      "options": {
+        "A": "28",
+        "B": "700",
+        "C": "145",
+        "D": "135"
+      },
+      "answer": "A",
+      "explanation": "Magnifying power m = fo / fe = 140 / 5 = 28.",
+      "hash": "499a5a64cd298af6",
+      "translations": {
+        "hi": {
+          "question": "एक दूरबीन के अभिदृश्यक की फोकस दूरी 140 सेमी और नेत्रिका की 5 सेमी है। दूर की वस्तुओं के लिए इसकी आवर्धन क्षमता है:",
+          "options": {
+            "A": "28",
+            "B": "700",
+            "C": "145",
+            "D": "135"
+          },
+          "explanation": "आवर्धन क्षमता m = fo / fe = 140 / 5 = 28।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-010",
+      "number": 10,
+      "question": "The refractive index of a medium is √3. The angle of refraction for a ray incident at the polarizing angle is:",
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "45°",
+        "D": "90°"
+      },
+      "answer": "A",
+      "explanation": "n = tan(ip) = √3 => ip = 60°. Since ip + r = 90°, r = 90 - 60 = 30°.",
+      "hash": "eb82405a22ee8e6b",
+      "translations": {
+        "hi": {
+          "question": "एक माध्यम का अपवर्तनांक √3 है। ध्रुवण कोण पर आपतित किरण के लिए अपवर्तन कोण है:",
+          "options": {
+            "A": "30°",
+            "B": "60°",
+            "C": "45°",
+            "D": "90°"
+          },
+          "explanation": "n = tan(ip) = √3 => ip = 60°। चूंकि ip + r = 90°, इसलिए r = 90 - 60 = 30°।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-011",
+      "number": 11,
+      "question": "The path difference for destructive interference is:",
+      "options": {
+        "A": "nλ",
+        "B": "(n + 1/2)λ",
+        "C": "nλ / 2",
+        "D": "(2n + 1)λ"
+      },
+      "answer": "B",
+      "explanation": "For dark fringes (destructive interference), the path difference must be an odd multiple of half-wavelengths.",
+      "hash": "dd4bf9a9fcec95f1",
+      "translations": {
+        "hi": {
+          "question": "विनाशकारी व्यतिकरण के लिए पथ अंतर होता है:",
+          "options": {
+            "A": "nλ",
+            "B": "(n + 1/2)λ",
+            "C": "nλ / 2",
+            "D": "(2n + 1)λ"
+          },
+          "explanation": "डार्क फ्रिंज (विनाशकारी व्यतिकरण) के लिए, पथ अंतर आधी तरंगदैर्ध्य का विषम गुणज होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-012",
+      "number": 12,
+      "question": "Astigmatism can be corrected by using:",
+      "options": {
+        "A": "Concave lens",
+        "B": "Convex lens",
+        "C": "Cylindrical lens",
+        "D": "Bifocal lens"
+      },
+      "answer": "C",
+      "explanation": "Astigmatism occurs when the cornea is not perfectly spherical; a cylindrical lens compensates for this.",
+      "hash": "c86ac8aa868dc782",
+      "translations": {
+        "hi": {
+          "question": "अबिन्दुकता (Astigmatism) को किसके उपयोग से ठीक किया जा सकता है?",
+          "options": {
+            "A": "अवतल लेंस",
+            "B": "उत्तल लेंस",
+            "C": "बेलनाकार लेंस",
+            "D": "द्विफोकसी लेंस"
+          },
+          "explanation": "अबिन्दुकता तब होती है जब कॉर्निया पूरी तरह से गोलाकार नहीं होता है; एक बेलनाकार लेंस इसकी भरपाई करता है। [Image of astigmatism eye and cylindrical lens correction]"
+        }
+      }
+    },
+    {
+      "id": "optics-02-013",
+      "number": 13,
+      "question": "The ratio of the focal length of a objective to the eyepiece of a microscope is usually:",
+      "options": {
+        "A": "Greater than 1",
+        "B": "Less than 1",
+        "C": "Equal to 1",
+        "D": "Infinite"
+      },
+      "answer": "B",
+      "explanation": "In a microscope, fo < fe, so fo/fe < 1.",
+      "hash": "27841a07c37ea9af",
+      "translations": {
+        "hi": {
+          "question": "एक सूक्ष्मदर्शी के अभिदृश्यक और नेत्रिका की फोकस दूरी का अनुपात आमतौर पर होता है:",
+          "options": {
+            "A": "1 से अधिक",
+            "B": "1 से कम",
+            "C": "1 के बराबर",
+            "D": "अनंत"
+          },
+          "explanation": "सूक्ष्मदर्शी में, fo < fe होता है, इसलिए fo/fe < 1।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-014",
+      "number": 14,
+      "question": "Light is a transverse wave because it can be:",
+      "options": {
+        "A": "Reflected",
+        "B": "Refracted",
+        "C": "Polarized",
+        "D": "Diffracted"
+      },
+      "answer": "C",
+      "explanation": "Polarization is only possible for transverse waves, not longitudinal waves like sound.",
+      "hash": "f9374fde2d231237",
+      "translations": {
+        "hi": {
+          "question": "प्रकाश एक अनुप्रस्थ तरंग है क्योंकि इसे किया जा सकता है:",
+          "options": {
+            "A": "परावर्तित",
+            "B": "अपवर्तित",
+            "C": "ध्रुवित",
+            "D": "विवर्तित"
+          },
+          "explanation": "ध्रुवण केवल अनुप्रस्थ तरंगों के लिए संभव है, ध्वनि जैसी अनुदैर्ध्य तरंगों के लिए नहीं।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-015",
+      "number": 15,
+      "question": "The power of a lens is -2.5 D. Its focal length is:",
+      "options": {
+        "A": "-40 cm",
+        "B": "-25 cm",
+        "C": "+40 cm",
+        "D": "-4 cm"
+      },
+      "answer": "A",
+      "explanation": "f = 1/P = 1/(-2.5) m = -0.4 m = -40 cm.",
+      "hash": "b1a0a0746dbb5e98",
+      "translations": {
+        "hi": {
+          "question": "एक लेंस की शक्ति -2.5 D है। इसकी फोकस दूरी है:",
+          "options": {
+            "A": "-40 cm",
+            "B": "-25 cm",
+            "C": "+40 cm",
+            "D": "-4 cm"
+          },
+          "explanation": "f = 1/P = 1/(-2.5) m = -0.4 m = -40 cm।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-016",
+      "number": 16,
+      "question": "For a glass-air interface, the critical angle is C. If a ray is incident at angle C, the angle of refraction is:",
+      "options": {
+        "A": "C",
+        "B": "90°",
+        "C": "0°",
+        "D": "180°"
+      },
+      "answer": "B",
+      "explanation": "By definition, at the critical angle, the refracted ray grazes the surface (r = 90°).",
+      "hash": "dba1ca314dd73a9b",
+      "translations": {
+        "hi": {
+          "question": "कांच-हवा इंटरफेस के लिए, क्रांतिक कोण C है। यदि एक किरण C कोण पर आपतित होती है, तो अपवर्तन कोण है:",
+          "options": {
+            "A": "C",
+            "B": "90°",
+            "C": "0°",
+            "D": "180°"
+          },
+          "explanation": "परिभाषा के अनुसार, क्रांतिक कोण पर, अपवर्तित किरण सतह को छूते हुए निकलती है (r = 90°)।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-017",
+      "number": 17,
+      "question": "The number of images formed by two plane mirrors inclined at an angle of 72° for an object placed symmetrically is:",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "3"
+      },
+      "answer": "B",
+      "explanation": "n = 360/72 = 5 (odd). For symmetrical placement, number of images = n - 1 = 4.",
+      "hash": "397e50d55fdd08e5",
+      "translations": {
+        "hi": {
+          "question": "72° के कोण पर झुके दो समतल दर्पणों द्वारा सममित रूप से रखी गई वस्तु के लिए बनने वाले प्रतिबिंबों की संख्या है:",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "3"
+          },
+          "explanation": "n = 360/72 = 5 (विषम)। सममित स्थिति के लिए, प्रतिबिंबों की संख्या = n - 1 = 4।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-018",
+      "number": 18,
+      "question": "Which of the following is responsible for the glittering of diamonds?",
+      "options": {
+        "A": "Interference",
+        "B": "Diffraction",
+        "C": "Total Internal Reflection",
+        "D": "Polarization"
+      },
+      "answer": "C",
+      "explanation": "The high refractive index and small critical angle of diamond lead to multiple internal reflections.",
+      "hash": "91e82f0fb8213f5f",
+      "translations": {
+        "hi": {
+          "question": "हीरे की चमक के लिए निम्नलिखित में से कौन जिम्मेदार है?",
+          "options": {
+            "A": "व्यतिकरण",
+            "B": "विवर्तन",
+            "C": "पूर्ण आंतरिक परावर्तन",
+            "D": "ध्रुवण"
+          },
+          "explanation": "हीरे का उच्च अपवर्तनांक और छोटा क्रांतिक कोण कई आंतरिक परावर्तनों का कारण बनता है।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-019",
+      "number": 19,
+      "question": "In Young's double slit experiment, the intensity at the central fringe is I. If one slit is closed, the intensity at the same point becomes:",
+      "options": {
+        "A": "I/2",
+        "B": "I/4",
+        "C": "I",
+        "D": "Zero"
+      },
+      "answer": "B",
+      "explanation": "I = (a+a)² = 4a². If one slit is closed, I' = a². So I' = I/4.",
+      "hash": "66e09a12fe78d273",
+      "translations": {
+        "hi": {
+          "question": "यंग के द्वि-स्लिट प्रयोग में, केंद्रीय फ्रिंज पर तीव्रता I है। यदि एक स्लिट को बंद कर दिया जाए, तो उसी बिंदु पर तीव्रता हो जाती है:",
+          "options": {
+            "A": "I/2",
+            "B": "I/4",
+            "C": "I",
+            "D": "शून्य"
+          },
+          "explanation": "I = (a+a)² = 4a²। यदि एक स्लिट बंद कर दी जाए, तो I' = a²। इसलिए I' = I/4।"
+        }
+      }
+    },
+    {
+      "id": "optics-02-020",
+      "number": 20,
+      "question": "Longitudinal chromatic aberration of a lens depends on:",
+      "options": {
+        "A": "Only focal length",
+        "B": "Only dispersive power",
+        "C": "Both focal length and dispersive power",
+        "D": "Only aperture"
+      },
+      "answer": "C",
+      "explanation": "Aberration = omega * f. It depends on the material's dispersion and the lens focal length.",
+      "hash": "eca8f88f97ea087a",
+      "translations": {
+        "hi": {
+          "question": "एक लेंस का अनुदैर्ध्य वर्ण विपथन (Longitudinal chromatic aberration) किस पर निर्भर करता है?",
+          "options": {
+            "A": "केवल फोकस दूरी पर",
+            "B": "केवल विक्षेपण क्षमता पर",
+            "C": "फोकस दूरी और विक्षेपण क्षमता दोनों पर",
+            "D": "केवल द्वारक पर"
+          },
+          "explanation": "विपथन = omega * f। यह पदार्थ के विक्षेपण और लेंस की फोकस दूरी पर निर्भर करता है।"
+        }
+      }
+    }
+  ]
+}

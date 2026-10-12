@@ -1,0 +1,527 @@
+{
+  "subject": "Oscillations & Waves",
+  "set": 2,
+  "title": "Oscillations & Waves Mock Test 2",
+  "questions": [
+    {
+      "id": "oscillations-waves-02-001",
+      "number": 1,
+      "question": "A simple pendulum has a time period T in a lift at rest. If the lift moves up with an acceleration g/4, the new time period will be:",
+      "options": {
+        "A": "T * sqrt(4/5)",
+        "B": "T * sqrt(5/4)",
+        "C": "T / 2",
+        "D": "2T"
+      },
+      "answer": "A",
+      "explanation": "Effective gravity g' = g + a = g + g/4 = 5g/4. Since T is proportional to 1/sqrt(g), the new period T' = T * sqrt(g / (5g/4)) = T * sqrt(4/5).",
+      "hash": "9e9d9792e26c677e",
+      "translations": {
+        "hi": {
+          "question": "एक सरल लोलक का आवर्तकाल स्थिर लिफ्ट में T है। यदि लिफ्ट g/4 त्वरण के साथ ऊपर की ओर चलती है, तो नया आवर्तकाल होगा:",
+          "options": {
+            "A": "T * sqrt(4/5)",
+            "B": "T * sqrt(5/4)",
+            "C": "T / 2",
+            "D": "2T"
+          },
+          "explanation": "प्रभावी गुरुत्वाकर्षण g' = g + a = g + g/4 = 5g/4। चूंकि T, 1/sqrt(g) के समानुपाती होता है, नया आवर्तकाल T' = T * sqrt(g / (5g/4)) = T * sqrt(4/5) होगा।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-002",
+      "number": 2,
+      "question": "The phase difference between two points on a wave separated by a distance of λ/3 is:",
+      "options": {
+        "A": "π/3",
+        "B": "2π/3",
+        "C": "π/6",
+        "D": "π"
+      },
+      "answer": "B",
+      "explanation": "Phase difference Δφ = (2π / λ) * Δx. Substituting Δx = λ/3, we get Δφ = (2π / λ) * (λ/3) = 2π/3.",
+      "hash": "18450fa63e72c92c",
+      "translations": {
+        "hi": {
+          "question": "λ/3 की दूरी पर स्थित तरंग के दो बिंदुओं के बीच कलांतर (phase difference) है:",
+          "options": {
+            "A": "π/3",
+            "B": "2π/3",
+            "C": "π/6",
+            "D": "π"
+          },
+          "explanation": "कलांतर Δφ = (2π / λ) * Δx। Δx = λ/3 रखने पर, हमें Δφ = (2π / λ) * (λ/3) = 2π/3 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-003",
+      "number": 3,
+      "question": "When two waves of same frequency and amplitude travel in opposite directions and superimpose, they produce:",
+      "options": {
+        "A": "Beats",
+        "B": "Standing waves",
+        "C": "Ultrasonic waves",
+        "D": "Progressive waves"
+      },
+      "answer": "B",
+      "explanation": "Standing or stationary waves are formed by the superposition of two identical waves traveling in opposite directions.",
+      "hash": "44aefcac689c655c",
+      "translations": {
+        "hi": {
+          "question": "जब समान आवृत्ति और आयाम की दो तरंगें विपरीत दिशाओं में यात्रा करती हैं और अध्यारोपित होती हैं, तो वे उत्पन्न करती हैं:",
+          "options": {
+            "A": "विस्पंद",
+            "B": "अप्रगामी तरंगें",
+            "C": "पराश्रव्य तरंगें",
+            "D": "प्रगामी तरंगें"
+          },
+          "explanation": "अप्रगामी या स्थिर तरंगें विपरीत दिशाओं में यात्रा करने वाली दो समान तरंगों के अध्यारोपण से बनती हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-004",
+      "number": 4,
+      "question": "The ratio of the velocity of sound in Hydrogen (M=2) to that in Oxygen (M=32) at the same temperature is:",
+      "options": {
+        "A": "1 : 4",
+        "B": "4 : 1",
+        "C": "1 : 16",
+        "D": "16 : 1"
+      },
+      "answer": "B",
+      "explanation": "Speed of sound v = sqrt(γRT/M). At constant T and γ, v is proportional to 1/sqrt(M). Ratio = sqrt(32/2) = sqrt(16) = 4 : 1.",
+      "hash": "7e1842a2a64cad17",
+      "translations": {
+        "hi": {
+          "question": "समान तापमान पर हाइड्रोजन (M=2) और ऑक्सीजन (M=32) में ध्वनि के वेग का अनुपात है:",
+          "options": {
+            "A": "1 : 4",
+            "B": "4 : 1",
+            "C": "1 : 16",
+            "D": "16 : 1"
+          },
+          "explanation": "ध्वनि की गति v = sqrt(γRT/M)। स्थिर T और γ पर, v, 1/sqrt(M) के समानुपाती होता है। अनुपात = sqrt(32/2) = sqrt(16) = 4 : 1।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-005",
+      "number": 5,
+      "question": "In an open organ pipe, the fundamental frequency is f. If one end is closed, the new fundamental frequency becomes:",
+      "options": {
+        "A": "f",
+        "B": "2f",
+        "C": "f/2",
+        "D": "3f"
+      },
+      "answer": "C",
+      "explanation": "For open pipe, f = v/2L. For closed pipe, f' = v/4L. Thus, f' = f/2.",
+      "hash": "7bff1a82b53fbb08",
+      "translations": {
+        "hi": {
+          "question": "एक खुले ऑर्गन पाइप में, मूल आवृत्ति f है। यदि एक सिरा बंद कर दिया जाए, तो नई मूल आवृत्ति हो जाती है:",
+          "options": {
+            "A": "f",
+            "B": "2f",
+            "C": "f/2",
+            "D": "3f"
+          },
+          "explanation": "खुले पाइप के लिए, f = v/2L। बंद पाइप के लिए, f' = v/4L। अतः, f' = f/2।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-006",
+      "number": 6,
+      "question": "An observer moves towards a stationary source of sound with a speed 1/5th of the speed of sound. The percentage increase in apparent frequency is:",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "5%",
+        "D": "25%"
+      },
+      "answer": "B",
+      "explanation": "f' = f * (v + vo) / v = f * (v + 0.2v) / v = 1.2f. The increase is 0.2 or 20%.",
+      "hash": "d5eb69bfb7e966bb",
+      "translations": {
+        "hi": {
+          "question": "एक श्रोता ध्वनि की गति की 1/5 गति के साथ एक स्थिर ध्वनि स्रोत की ओर बढ़ता है। आभासी आवृत्ति में प्रतिशत वृद्धि है:",
+          "options": {
+            "A": "10%",
+            "B": "20%",
+            "C": "5%",
+            "D": "25%"
+          },
+          "explanation": "f' = f * (v + vo) / v = f * (v + 0.2v) / v = 1.2f। वृद्धि 0.2 या 20% है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-007",
+      "number": 7,
+      "question": "In a longitudinal wave, the regions of high density are called:",
+      "options": {
+        "A": "Rarefactions",
+        "B": "Compressions",
+        "C": "Nodes",
+        "D": "Antinodes"
+      },
+      "answer": "B",
+      "explanation": "Compressions are regions where particles are crowded together (high pressure/density), and rarefactions are where they are spread apart.",
+      "hash": "d6bebfe4e1ba959a",
+      "translations": {
+        "hi": {
+          "question": "एक अनुदैर्ध्य तरंग में, उच्च घनत्व वाले क्षेत्रों को कहा जाता है:",
+          "options": {
+            "A": "विरलन",
+            "B": "संपीड़न",
+            "C": "निस्पंद",
+            "D": "प्रस्पंद"
+          },
+          "explanation": "संपीड़न वे क्षेत्र हैं जहाँ कण एक साथ जुड़े होते हैं (उच्च दाब/घनत्व), और विरलन वे हैं जहाँ वे अलग-अलग फैले होते हैं। [Image of compressions and rarefactions in a longitudinal wave]"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-008",
+      "number": 8,
+      "question": "A wave is described by y = A sin(kx - ωt). The maximum particle velocity is:",
+      "options": {
+        "A": "Aω",
+        "B": "Ak",
+        "C": "ω/k",
+        "D": "Aω²"
+      },
+      "answer": "A",
+      "explanation": "Particle velocity vp = dy/dt = -Aω cos(kx - ωt). The maximum value is Aω.",
+      "hash": "046dcbb3c2df5c57",
+      "translations": {
+        "hi": {
+          "question": "एक तरंग y = A sin(kx - ωt) द्वारा वर्णित है। अधिकतम कण वेग है:",
+          "options": {
+            "A": "Aω",
+            "B": "Ak",
+            "C": "ω/k",
+            "D": "Aω²"
+          },
+          "explanation": "कण वेग vp = dy/dt = -Aω cos(kx - ωt)। अधिकतम मान Aω है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-009",
+      "number": 9,
+      "question": "The time period of a simple pendulum is independent of:",
+      "options": {
+        "A": "Length of the pendulum",
+        "B": "Acceleration due to gravity",
+        "C": "Mass of the bob",
+        "D": "Amplitude (for small angles)"
+      },
+      "answer": "C",
+      "explanation": "T = 2π * sqrt(L/g). The formula does not contain the mass of the bob (m).",
+      "hash": "85ebfddd0d2b6277",
+      "translations": {
+        "hi": {
+          "question": "एक सरल लोलक का आवर्तकाल किससे स्वतंत्र होता है?",
+          "options": {
+            "A": "लोलक की लंबाई से",
+            "B": "गुरुत्वीय त्वरण से",
+            "C": "गोलक के द्रव्यमान से",
+            "D": "आयाम से (छोटे कोणों के लिए)"
+          },
+          "explanation": "T = 2π * sqrt(L/g)। सूत्र में गोलक का द्रव्यमान (m) शामिल नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-010",
+      "number": 10,
+      "question": "If the length of a second's pendulum is increased by 2%, how many seconds will it lose per day?",
+      "options": {
+        "A": "432 s",
+        "B": "864 s",
+        "C": "1728 s",
+        "D": "100 s"
+      },
+      "answer": "B",
+      "explanation": "ΔT/T = 1/2 * ΔL/L = 1/2 * 2% = 1%. Time lost in 24 hours (86400 s) = 1% of 86400 = 864 s.",
+      "hash": "1e89fb8cb23e4166",
+      "translations": {
+        "hi": {
+          "question": "यदि सेकंड लोलक की लंबाई 2% बढ़ा दी जाए, तो यह प्रतिदिन कितने सेकंड खो देगा?",
+          "options": {
+            "A": "432 s",
+            "B": "864 s",
+            "C": "1728 s",
+            "D": "100 s"
+          },
+          "explanation": "ΔT/T = 1/2 * ΔL/L = 1/2 * 2% = 1%। 24 घंटों (86400 s) में खोया गया समय = 86400 का 1% = 864 s।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-011",
+      "number": 11,
+      "question": "The equation of a wave is y = 0.5 sin(314t - 1.57x). The frequency of the wave is:",
+      "options": {
+        "A": "50 Hz",
+        "B": "100 Hz",
+        "C": "314 Hz",
+        "D": "1.57 Hz"
+      },
+      "answer": "A",
+      "explanation": "ω = 314. Since ω = 2πf, f = 314 / (2 * 3.14) = 314 / 6.28 = 50 Hz.",
+      "hash": "83d58b8cb031a16f",
+      "translations": {
+        "hi": {
+          "question": "एक तरंग का समीकरण y = 0.5 sin(314t - 1.57x) है। तरंग की आवृत्ति है:",
+          "options": {
+            "A": "50 Hz",
+            "B": "100 Hz",
+            "C": "314 Hz",
+            "D": "1.57 Hz"
+          },
+          "explanation": "ω = 314। चूंकि ω = 2πf, f = 314 / (2 * 3.14) = 314 / 6.28 = 50 Hz।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-012",
+      "number": 12,
+      "question": "Two sound waves with intensities I1 and I2 interfere. The ratio of maximum to minimum intensity is:",
+      "options": {
+        "A": "(I1 + I2) / (I1 - I2)",
+        "B": "(sqrt(I1) + sqrt(I2))² / (sqrt(I1) - sqrt(I2))²",
+        "C": "I1 / I2",
+        "D": "sqrt(I1 / I2)"
+      },
+      "answer": "B",
+      "explanation": "I_max ∝ (A1 + A2)² and I_min ∝ (A1 - A2)². Since A ∝ sqrt(I), the ratio follows the sqrt formula.",
+      "hash": "5b23148b3d488ef9",
+      "translations": {
+        "hi": {
+          "question": "तीव्रता I1 और I2 वाली दो ध्वनि तरंगें व्यतिकरण करती हैं। अधिकतम और न्यूनतम तीव्रता का अनुपात है:",
+          "options": {
+            "A": "(I1 + I2) / (I1 - I2)",
+            "B": "(sqrt(I1) + sqrt(I2))² / (sqrt(I1) - sqrt(I2))²",
+            "C": "I1 / I2",
+            "D": "sqrt(I1 / I2)"
+          },
+          "explanation": "I_max ∝ (A1 + A2)² और I_min ∝ (A1 - A2)²। चूंकि A ∝ sqrt(I), अनुपात sqrt सूत्र का पालन करता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-013",
+      "number": 13,
+      "question": "For a spring-mass system, if the mass is increased by 4 times, the frequency of oscillation will:",
+      "options": {
+        "A": "Double",
+        "B": "Quadruple",
+        "C": "Be halved",
+        "D": "Remain same"
+      },
+      "answer": "C",
+      "explanation": "Frequency f = (1/2π) * sqrt(k/m). If m becomes 4m, f becomes 1/sqrt(4) = 1/2 of its value.",
+      "hash": "22a57ae2d119e3f4",
+      "translations": {
+        "hi": {
+          "question": "स्प्रिंग-मास सिस्टम के लिए, यदि द्रव्यमान 4 गुना बढ़ा दिया जाए, तो दोलन की आवृत्ति:",
+          "options": {
+            "A": "दोगुनी हो जाएगी",
+            "B": "चार गुनी हो जाएगी",
+            "C": "आधी हो जाएगी",
+            "D": "समान रहेगी"
+          },
+          "explanation": "आवृत्ति f = (1/2π) * sqrt(k/m)। यदि m, 4m हो जाता है, तो f अपने मान का 1/sqrt(4) = 1/2 हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-014",
+      "number": 14,
+      "question": "The fundamental frequency of a string stretched with tension T is n. If tension is doubled and length is halved, the new frequency will be:",
+      "options": {
+        "A": "n * sqrt(2)",
+        "B": "2n * sqrt(2)",
+        "C": "4n",
+        "D": "n / sqrt(2)"
+      },
+      "answer": "B",
+      "explanation": "n = (1/2L) * sqrt(T/μ). New frequency n' = (1/2(L/2)) * sqrt(2T/μ) = 2 * (1/2L) * sqrt(T/μ) * sqrt(2) = 2 * n * sqrt(2).",
+      "hash": "214e55907041d4a9",
+      "translations": {
+        "hi": {
+          "question": "तनाव T के साथ तनी हुई डोरी की मूल आवृत्ति n है। यदि तनाव दोगुना और लंबाई आधी कर दी जाए, तो नई आवृत्ति होगी:",
+          "options": {
+            "A": "n * sqrt(2)",
+            "B": "2n * sqrt(2)",
+            "C": "4n",
+            "D": "n / sqrt(2)"
+          },
+          "explanation": "n = (1/2L) * sqrt(T/μ)। नई आवृत्ति n' = (1/2(L/2)) * sqrt(2T/μ) = 2 * (1/2L) * sqrt(T/μ) * sqrt(2) = 2 * n * sqrt(2)।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-015",
+      "number": 15,
+      "question": "A wave transfers _______ from one point to another.",
+      "options": {
+        "A": "Mass",
+        "B": "Matter",
+        "C": "Energy",
+        "D": "Particles"
+      },
+      "answer": "C",
+      "explanation": "Waves transfer energy and momentum through a medium (or vacuum) without the actual bulk transport of matter.",
+      "hash": "055af1786bae8484",
+      "translations": {
+        "hi": {
+          "question": "एक तरंग एक बिंदु से दूसरे बिंदु तक _______ स्थानांतरित करती है।",
+          "options": {
+            "A": "द्रव्यमान",
+            "B": "पदार्थ",
+            "C": "ऊर्जा",
+            "D": "कण"
+          },
+          "explanation": "तरंगें पदार्थ के वास्तविक परिवहन के बिना माध्यम (या निर्वात) के माध्यम से ऊर्जा और संवेग स्थानांतरित करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-016",
+      "number": 16,
+      "question": "The displacement of a particle in SHM is given by x = 10 sin(ωt + π/6). At t = 0, the displacement is:",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "10",
+        "D": "8.66"
+      },
+      "answer": "B",
+      "explanation": "x(0) = 10 * sin(0 + π/6) = 10 * sin(30°) = 10 * 0.5 = 5.",
+      "hash": "d5f62cb895e0be8a",
+      "translations": {
+        "hi": {
+          "question": "SHM में एक कण का विस्थापन x = 10 sin(ωt + π/6) द्वारा दिया गया है। t = 0 पर, विस्थापन है:",
+          "options": {
+            "A": "0",
+            "B": "5",
+            "C": "10",
+            "D": "8.66"
+          },
+          "explanation": "x(0) = 10 * sin(0 + π/6) = 10 * sin(30°) = 10 * 0.5 = 5।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-017",
+      "number": 17,
+      "question": "The phenomenon of \"Red Shift\" in astronomy is an application of:",
+      "options": {
+        "A": "Interference",
+        "B": "Diffraction",
+        "C": "Doppler Effect",
+        "D": "Polarization"
+      },
+      "answer": "C",
+      "explanation": "Red shift occurs when a light source moves away from the observer, increasing the observed wavelength, similar to sound pitch dropping.",
+      "hash": "b25e2c12bfab9a8a",
+      "translations": {
+        "hi": {
+          "question": "खगोल विज्ञान में \"रेड शिफ्ट\" (Red Shift) की घटना किसका अनुप्रयोग है?",
+          "options": {
+            "A": "व्यतिकरण",
+            "B": "विवर्तन",
+            "C": "डॉप्लर प्रभाव",
+            "D": "ध्रुवीकरण"
+          },
+          "explanation": "रेड शिफ्ट तब होता है जब एक प्रकाश स्रोत प्रेक्षक से दूर जाता है, जिससे प्रेक्षित तरंगदैर्ध्य बढ़ जाती है, जो ध्वनि की पिच कम होने के समान है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-018",
+      "number": 18,
+      "question": "In a closed organ pipe, the ratio of frequencies of harmonics is:",
+      "options": {
+        "A": "1 : 2 : 3",
+        "B": "1 : 3 : 5",
+        "C": "2 : 4 : 6",
+        "D": "1 : 4 : 9"
+      },
+      "answer": "B",
+      "explanation": "Closed pipes only support odd harmonics because one end is a node and the other is an antinode.",
+      "hash": "1824f1a95f0af96b",
+      "translations": {
+        "hi": {
+          "question": "एक बंद ऑर्गन पाइप में, हारमोनिक्स की आवृत्तियों का अनुपात है:",
+          "options": {
+            "A": "1 : 2 : 3",
+            "B": "1 : 3 : 5",
+            "C": "2 : 4 : 6",
+            "D": "1 : 4 : 9"
+          },
+          "explanation": "बंद पाइप केवल विषम हारमोनिक्स का समर्थन करते हैं क्योंकि एक सिरा निस्पंद होता है और दूसरा प्रस्पंद।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-019",
+      "number": 19,
+      "question": "Ultrasonic waves have frequencies:",
+      "options": {
+        "A": "Below 20 Hz",
+        "B": "Between 20 Hz and 20 kHz",
+        "C": "Above 20 kHz",
+        "D": "Above 1 MHz"
+      },
+      "answer": "C",
+      "explanation": "Humans can hear between 20 Hz and 20,000 Hz. Frequencies above this limit are called ultrasonic.",
+      "hash": "3855555aae956c18",
+      "translations": {
+        "hi": {
+          "question": "पराश्रव्य तरंगों (Ultrasonic waves) की आवृत्तियाँ होती हैं:",
+          "options": {
+            "A": "20 Hz से नीचे",
+            "B": "20 Hz और 20 kHz के बीच",
+            "C": "20 kHz से ऊपर",
+            "D": "1 MHz से ऊपर"
+          },
+          "explanation": "मनुष्य 20 Hz और 20,000 Hz के बीच सुन सकते हैं। इस सीमा से ऊपर की आवृत्तियों को पराश्रव्य कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "oscillations-waves-02-020",
+      "number": 20,
+      "question": "Which of the following is a longitudinal wave?",
+      "options": {
+        "A": "Light wave",
+        "B": "Sound wave in air",
+        "C": "Radio wave",
+        "D": "X-rays"
+      },
+      "answer": "B",
+      "explanation": "Light, Radio waves, and X-rays are electromagnetic waves, which are transverse. Sound in air is longitudinal.",
+      "hash": "c478dc37fb8b0d88",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक अनुदैर्ध्य तरंग है?",
+          "options": {
+            "A": "प्रकाश तरंग",
+            "B": "हवा में ध्वनि तरंग",
+            "C": "रेडियो तरंग",
+            "D": "एक्स-रे"
+          },
+          "explanation": "प्रकाश, रेडियो तरंगें और एक्स-रे विद्युत चुंबकीय तरंगें हैं, जो अनुप्रस्थ होती हैं। हवा में ध्वनि अनुदैर्ध्य है।"
+        }
+      }
+    }
+  ]
+}
