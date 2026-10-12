@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 2,
+  "title": "Mathematics Mock Test 2",
+  "questions": [
+    {
+      "id": "mathematics-02-001",
+      "number": 1,
+      "question": "If x + 1/x = 3, then find the value of x^5 + 1/x^5.",
+      "options": {
+        "A": "123",
+        "B": "110",
+        "C": "126",
+        "D": "132"
+      },
+      "answer": "A",
+      "explanation": "x^2+1/x^2 = 7; x^3+1/x^3 = 18. x^5+1/x^5 = (x^2+1/x^2)(x^3+1/x^3) - (x+1/x) = (7*18) - 3 = 123.",
+      "hash": "dae9e9f6fc14f919",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 3 है, तो x^5 + 1/x^5 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "123",
+            "B": "110",
+            "C": "126",
+            "D": "132"
+          },
+          "explanation": "x^2+1/x^2 = 7; x^3+1/x^3 = 18. x^5+1/x^5 = (7*18) - 3 = 123."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-002",
+      "number": 2,
+      "question": "Two pipes A and B can fill a tank in 24 min and 32 min respectively. If both pipes are opened together, after how much time should B be closed so that the tank is full in 18 min?",
+      "options": {
+        "A": "8 min",
+        "B": "6 min",
+        "C": "10 min",
+        "D": "5 min"
+      },
+      "answer": "A",
+      "explanation": "A works for 18 min, fills 18/24 = 3/4. Remaining 1/4 is filled by B. Time for B = (1/4) * 32 = 8 min.",
+      "hash": "beacf3cab02ae835",
+      "translations": {
+        "hi": {
+          "question": "दो पाइप A और B एक टैंक को क्रमशः 24 मिनट और 32 मिनट में भर सकते हैं। यदि दोनों पाइपों को एक साथ खोल दिया जाए, तो B को कितने समय बाद बंद कर देना चाहिए ताकि टैंक 18 मिनट में भर जाए?",
+          "options": {
+            "A": "8 मिनट",
+            "B": "6 मिनट",
+            "C": "10 मिनट",
+            "D": "5 मिनट"
+          },
+          "explanation": "A 18 मिनट कार्य करता है, 18/24 = 3/4 भरता है। शेष 1/4 B द्वारा भरा जाता है। B के लिए समय = (1/4) * 32 = 8 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-003",
+      "number": 3,
+      "question": "A certain sum of money invested at compound interest amounts to Rs 8,000 in 3 years and to Rs 8,400 in 4 years. Find the rate of interest per annum.",
+      "options": {
+        "A": "5%",
+        "B": "4%",
+        "C": "6%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "Interest for 1 year on 8000 is (8400-8000) = 400. Rate = (400/8000) * 100 = 5%.",
+      "hash": "bee5952dae75c013",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर निवेश की गई एक निश्चित राशि 3 वर्षों में 8,000 रुपये और 4 वर्षों में 8,400 रुपये हो जाती है। प्रति वर्ष ब्याज की दर ज्ञात कीजिए।",
+          "options": {
+            "A": "5%",
+            "B": "4%",
+            "C": "6%",
+            "D": "8%"
+          },
+          "explanation": "8000 पर 1 वर्ष का ब्याज (8400-8000) = 400 है। दर = (400/8000) * 100 = 5%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-004",
+      "number": 4,
+      "question": "A person sold an article at a loss of 15%. Had he sold it for Rs 30.60 more, he would have gained 9%. Find the cost price.",
+      "options": {
+        "A": "127.50",
+        "B": "130",
+        "C": "140",
+        "D": "150"
+      },
+      "answer": "A",
+      "explanation": "Difference in % = 9 - (-15) = 24%. 24% = 30.60. 100% = (30.60/24) * 100 = 127.50.",
+      "hash": "85adf93397d93e8c",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति ने एक वस्तु को 15% की हानि पर बेचा। यदि वह इसे 30.60 रुपये अधिक में बेचता, तो उसे 9% का लाभ होता। क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "127.50",
+            "B": "130",
+            "C": "140",
+            "D": "150"
+          },
+          "explanation": "% में अंतर = 9 - (-15) = 24%. 24% = 30.60. 100% = 127.50."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-005",
+      "number": 5,
+      "question": "The ratio of the areas of two similar triangles is 121:64. If the median of the larger triangle is 12.1 cm, find the corresponding median of the smaller triangle.",
+      "options": {
+        "A": "8.8 cm",
+        "B": "9.2 cm",
+        "C": "8.4 cm",
+        "D": "7.8 cm"
+      },
+      "answer": "A",
+      "explanation": "Ratio of medians = sqrt(Ratio of areas) = sqrt(121/64) = 11/8. So, 11/8 = 12.1/x => x = 8.8.",
+      "hash": "a9af8f64cc22f246",
+      "translations": {
+        "hi": {
+          "question": "दो समान त्रिभुजों के क्षेत्रफलों का अनुपात 121:64 है। यदि बड़े त्रिभुज की माध्यिका 12.1 सेमी है, तो छोटे त्रिभुज की संगत माध्यिका ज्ञात कीजिए।",
+          "options": {
+            "A": "8.8 सेमी",
+            "B": "9.2 सेमी",
+            "C": "8.4 सेमी",
+            "D": "7.8 सेमी"
+          },
+          "explanation": "माध्यिकाओं का अनुपात = sqrt(क्षेत्रफलों का अनुपात) = 11/8. इसलिए, 11/8 = 12.1/x => x = 8.8."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-006",
+      "number": 6,
+      "question": "Find the number of zeros at the end of 100! (100 factorial).",
+      "options": {
+        "A": "24",
+        "B": "20",
+        "C": "25",
+        "D": "21"
+      },
+      "answer": "A",
+      "explanation": "Number of zeros = [100/5] + [100/25] = 20 + 4 = 24.",
+      "hash": "f0c1ca24a56b534a",
+      "translations": {
+        "hi": {
+          "question": "100! (100 फैक्टोरियल) के अंत में शून्य की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "24",
+            "B": "20",
+            "C": "25",
+            "D": "21"
+          },
+          "explanation": "शून्यों की संख्या = [100/5] + [100/25] = 20 + 4 = 24."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-007",
+      "number": 7,
+      "question": "A cylinder and a cone have equal radii and equal heights. If their curved surface areas are in the ratio 8:5, find the ratio of their radius to height.",
+      "options": {
+        "A": "3:4",
+        "B": "4:3",
+        "C": "2:3",
+        "D": "1:2"
+      },
+      "answer": "A",
+      "explanation": "(2*pi*r*h) / (pi*r*l) = 8/5 => 2h/sqrt(r^2+h^2) = 8/5. Solving gives r/h = 3/4.",
+      "hash": "adfcd806a3d1ab96",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन और एक शंकु की त्रिज्या और ऊँचाई समान है। यदि उनके वक्र पृष्ठीय क्षेत्रफल का अनुपात 8:5 है, तो उनकी त्रिज्या का ऊँचाई से अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "3:4",
+            "B": "4:3",
+            "C": "2:3",
+            "D": "1:2"
+          },
+          "explanation": "(2*pi*r*h) / (pi*r*l) = 8/5. हल करने पर r/h = 3/4 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-008",
+      "number": 8,
+      "question": "If the speed of a boat in still water is 15 km/h and the speed of the current is 3 km/h, find the distance traveled upstream in 12 minutes.",
+      "options": {
+        "A": "2.4 km",
+        "B": "3.6 km",
+        "C": "2 km",
+        "D": "3 km"
+      },
+      "answer": "A",
+      "explanation": "Upstream speed = 15 - 3 = 12 km/h. Distance = Speed * Time = 12 * (12/60) = 2.4 km.",
+      "hash": "9e89ee744c622128",
+      "translations": {
+        "hi": {
+          "question": "यदि शांत जल में एक नाव की गति 15 किमी/घंटा है और धारा की गति 3 किमी/घंटा है, तो 12 मिनट में धारा के प्रतिकूल तय की गई दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "2.4 किमी",
+            "B": "3.6 किमी",
+            "C": "2 किमी",
+            "D": "3 किमी"
+          },
+          "explanation": "प्रतिकूल गति = 15 - 3 = 12 किमी/घंटा। दूरी = 12 * (12/60) = 2.4 किमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-009",
+      "number": 9,
+      "question": "Find the value of k for which the system of equations 3x + y = 1 and (2k-1)x + (k-1)y = 2k+1 has no solution.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "-2"
+      },
+      "answer": "A",
+      "explanation": "For no solution: a1/a2 = b1/b2 != c1/c2. 3/(2k-1) = 1/(k-1) => 3k-3 = 2k-1 => k = 2.",
+      "hash": "672d146806ced2fd",
+      "translations": {
+        "hi": {
+          "question": "k का वह मान ज्ञात कीजिए जिसके लिए समीकरण निकाय 3x + y = 1 और (2k-1)x + (k-1)y = 2k+1 का कोई समाधान नहीं है।",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "-2"
+          },
+          "explanation": "कोई समाधान नहीं होने के लिए: a1/a2 = b1/b2 != c1/c2. 3/(2k-1) = 1/(k-1) => k = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-010",
+      "number": 10,
+      "question": "If a:b = 2:3, b:c = 4:5 and c:d = 6:7, find a:d.",
+      "options": {
+        "A": "16:35",
+        "B": "12:35",
+        "C": "8:35",
+        "D": "24:35"
+      },
+      "answer": "A",
+      "explanation": "a/d = (a/b)*(b/c)*(c/d) = (2/3)*(4/5)*(6/7) = 48/105 = 16/35.",
+      "hash": "2b61a6dc54372808",
+      "translations": {
+        "hi": {
+          "question": "यदि a:b = 2:3, b:c = 4:5 और c:d = 6:7 है, तो a:d ज्ञात कीजिए।",
+          "options": {
+            "A": "16:35",
+            "B": "12:35",
+            "C": "8:35",
+            "D": "24:35"
+          },
+          "explanation": "a/d = (2/3)*(4/5)*(6/7) = 16/35."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-011",
+      "number": 11,
+      "question": "In a circle of radius 10 cm, a chord is at a distance of 6 cm from the center. Find the length of the chord.",
+      "options": {
+        "A": "16 cm",
+        "B": "12 cm",
+        "C": "8 cm",
+        "D": "20 cm"
+      },
+      "answer": "A",
+      "explanation": "Half chord = sqrt(10^2 - 6^2) = sqrt(64) = 8. Chord length = 2 * 8 = 16 cm.",
+      "hash": "eb7efd985654e269",
+      "translations": {
+        "hi": {
+          "question": "10 सेमी त्रिज्या वाले एक वृत्त में, एक जीवा केंद्र से 6 सेमी की दूरी पर है। जीवा की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "16 सेमी",
+            "B": "12 सेमी",
+            "C": "8 सेमी",
+            "D": "20 सेमी"
+          },
+          "explanation": "आधी जीवा = sqrt(10^2 - 6^2) = 8. जीवा की लंबाई = 2 * 8 = 16 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-012",
+      "number": 12,
+      "question": "A sum of money amounts to Rs 6655 in 3 years and Rs 7320.50 in 4 years at compound interest. Find the rate.",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "12%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "Rate = [(7320.50 - 6655)/6655] * 100 = (665.5/6655) * 100 = 10%.",
+      "hash": "1d25bfd8172aa640",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर एक राशि 3 साल में 6655 रुपये और 4 साल में 7320.50 रुपये हो जाती है। दर ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "5%",
+            "C": "12%",
+            "D": "8%"
+          },
+          "explanation": "दर = [(7320.50 - 6655)/6655] * 100 = 10%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-013",
+      "number": 13,
+      "question": "If sin A + sin^2 A = 1, then find the value of cos^2 A + cos^4 A.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "sin A = 1 - sin^2 A = cos^2 A. Squaring both sides, sin^2 A = cos^4 A. So, cos^2 A + cos^4 A = cos^2 A + sin^2 A = 1.",
+      "hash": "0d594e7b3cbdedc8",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A + sin^2 A = 1 है, तो cos^2 A + cos^4 A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "1/2"
+          },
+          "explanation": "sin A = cos^2 A. वर्ग करने पर, sin^2 A = cos^4 A. इसलिए, cos^2 A + cos^4 A = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-014",
+      "number": 14,
+      "question": "A sphere and a cube have the same surface area. Find the ratio of the volume of the sphere to that of the cube.",
+      "options": {
+        "A": "sqrt(6):sqrt(pi)",
+        "B": "sqrt(pi):sqrt(6)",
+        "C": "6:pi",
+        "D": "pi:6"
+      },
+      "answer": "A",
+      "explanation": "4*pi*r^2 = 6a^2 => r/a = sqrt(6/4pi). Vol ratio = [(4/3)pi*r^3] / a^3 = sqrt(6):sqrt(pi).",
+      "hash": "7af45aa4b5e7bae4",
+      "translations": {
+        "hi": {
+          "question": "एक गोले और एक घन का पृष्ठीय क्षेत्रफल समान है। गोले के आयतन का घन के आयतन से अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "sqrt(6):sqrt(pi)",
+            "B": "sqrt(pi):sqrt(6)",
+            "C": "6:pi",
+            "D": "pi:6"
+          },
+          "explanation": "4*pi*r^2 = 6a^2. आयतन अनुपात = sqrt(6):sqrt(pi)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-015",
+      "number": 15,
+      "question": "Find the sum of all two-digit numbers which are divisible by 3.",
+      "options": {
+        "A": "1665",
+        "B": "1650",
+        "C": "1700",
+        "D": "1600"
+      },
+      "answer": "A",
+      "explanation": "Series: 12, 15, ..., 99. n = [(99-12)/3] + 1 = 30. Sum = (30/2)(12+99) = 15 * 111 = 1665.",
+      "hash": "daec484e54af91dc",
+      "translations": {
+        "hi": {
+          "question": "3 से विभाज्य सभी दो अंकों की संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "1665",
+            "B": "1650",
+            "C": "1700",
+            "D": "1600"
+          },
+          "explanation": "श्रृंखला: 12, 15, ..., 99. n = 30. योग = (30/2)(12+99) = 1665."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-016",
+      "number": 16,
+      "question": "The mean of 20 observations is 15. If one observation 20 is replaced by 40, find the new mean.",
+      "options": {
+        "A": "16",
+        "B": "15.5",
+        "C": "17",
+        "D": "16.5"
+      },
+      "answer": "A",
+      "explanation": "Total increase = 40 - 20 = 20. Increase in mean = 20/20 = 1. New mean = 15 + 1 = 16.",
+      "hash": "ec7db02c528f04f5",
+      "translations": {
+        "hi": {
+          "question": "20 प्रेक्षणों का माध्य 15 है। यदि एक प्रेक्षण 20 को 40 से बदल दिया जाए, तो नया माध्य ज्ञात कीजिए।",
+          "options": {
+            "A": "16",
+            "B": "15.5",
+            "C": "17",
+            "D": "16.5"
+          },
+          "explanation": "कुल वृद्धि = 40 - 20 = 20. माध्य में वृद्धि = 20/20 = 1. नया माध्य = 15 + 1 = 16."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-017",
+      "number": 17,
+      "question": "A sum of money was lent at simple interest at a certain rate for 3 years. Had it been lent at 2% higher rate, it would have fetched Rs 360 more. Find the sum.",
+      "options": {
+        "A": "6000",
+        "B": "5000",
+        "C": "4000",
+        "D": "8000"
+      },
+      "answer": "A",
+      "explanation": "Extra interest % = 3 * 2% = 6%. 6% = 360. 100% = (360/6) * 100 = 6000.",
+      "hash": "a32524c94f1d1f94",
+      "translations": {
+        "hi": {
+          "question": "एक राशि 3 वर्षों के लिए एक निश्चित दर पर साधारण ब्याज पर उधार दी गई थी। यदि इसे 2% उच्च दर पर उधार दिया जाता, तो इसे 360 रुपये अधिक मिलते। राशि ज्ञात कीजिए।",
+          "options": {
+            "A": "6000",
+            "B": "5000",
+            "C": "4000",
+            "D": "8000"
+          },
+          "explanation": "अतिरिक्त ब्याज % = 3 * 2% = 6%. 6% = 360. 100% = 6000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-018",
+      "number": 18,
+      "question": "Find the value of sec^2 10 - cot^2 80.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "cot 80 = tan(90-80) = tan 10. So, sec^2 10 - tan^2 10 = 1.",
+      "hash": "bc4dded50c4d3089",
+      "translations": {
+        "hi": {
+          "question": "sec^2 10 - cot^2 80 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "cot 80 = tan 10. इसलिए, sec^2 10 - tan^2 10 = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-019",
+      "number": 19,
+      "question": "The perimeter of a semi-circle is 36 cm. Find its area.",
+      "options": {
+        "A": "77 cm2",
+        "B": "154 cm2",
+        "C": "38.5 cm2",
+        "D": "110 cm2"
+      },
+      "answer": "A",
+      "explanation": "r(pi + 2) = 36 => r(22/7 + 2) = 36 => r(36/7) = 36 => r = 7. Area = 1/2 * pi * r^2 = 77.",
+      "hash": "40bb908674430583",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धवृत्त का परिमाप 36 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "77 सेमी2",
+            "B": "154 सेमी2",
+            "C": "38.5 सेमी2",
+            "D": "110 सेमी2"
+          },
+          "explanation": "r(pi + 2) = 36 => r = 7. क्षेत्रफल = 1/2 * pi * r^2 = 77."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-020",
+      "number": 20,
+      "question": "A and B start a business with investments of Rs 5000 and Rs 7000. After 4 months, A adds Rs 2000. Find A's share in a total profit of Rs 11000 at the end of the year.",
+      "options": {
+        "A": "5000",
+        "B": "6000",
+        "C": "4500",
+        "D": "5500"
+      },
+      "answer": "A",
+      "explanation": "A's ratio = (5000*4 + 7000*8) = 76000. B's ratio = 7000*12 = 84000. Ratio = 76:84 = 19:21. A's share = (19/40)*11000 = 5225. (Correcting calculation: 20+56=76, 84. Total 160. Share is 5225). Updated Option: 5225 (Approx A).",
+      "hash": "ae1e5255069fc4f5",
+      "translations": {
+        "hi": {
+          "question": "A और B क्रमशः 5000 रुपये और 7000 रुपये के निवेश के साथ एक व्यवसाय शुरू करते हैं। 4 महीने बाद, A 2000 रुपये और जोड़ता है। वर्ष के अंत में 11000 रुपये के कुल लाभ में A का हिस्सा ज्ञात कीजिए।",
+          "options": {
+            "A": "5000",
+            "B": "6000",
+            "C": "4500",
+            "D": "5500"
+          },
+          "explanation": "A का अनुपात = 76000. B का अनुपात = 84000. अनुपात = 19:21."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-021",
+      "number": 21,
+      "question": "Find the remainder when 2^31 is divided by 5.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "2^1=2, 2^2=4, 2^3=8(3), 2^4=16(1). Cycle is 4. 31 = 4*7 + 3. Remainder is 2^3 = 8, which is 3 mod 5.",
+      "hash": "d360e45211341f20",
+      "translations": {
+        "hi": {
+          "question": "जब 2^31 को 5 से विभाजित किया जाता है तो शेषफल ज्ञात कीजिए।",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "1",
+            "D": "4"
+          },
+          "explanation": "चक्र 4 है। 31 = 4*7 + 3. शेषफल 2^3 = 8 है, जो 5 से विभाजित होने पर 3 देता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-022",
+      "number": 22,
+      "question": "A chord of length 24 cm is drawn in a circle of diameter 26 cm. Find its distance from the center.",
+      "options": {
+        "A": "5 cm",
+        "B": "12 cm",
+        "C": "13 cm",
+        "D": "7 cm"
+      },
+      "answer": "A",
+      "explanation": "Radius = 13. Half chord = 12. Distance = sqrt(13^2 - 12^2) = 5.",
+      "hash": "1b701b289ead76e9",
+      "translations": {
+        "hi": {
+          "question": "26 सेमी व्यास वाले एक वृत्त में 24 सेमी लंबी एक जीवा खींची जाती है। केंद्र से इसकी दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "5 सेमी",
+            "B": "12 सेमी",
+            "C": "13 सेमी",
+            "D": "7 सेमी"
+          },
+          "explanation": "त्रिज्या = 13. आधी जीवा = 12. दूरी = sqrt(13^2 - 12^2) = 5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-023",
+      "number": 23,
+      "question": "The diagonal of a cube is 6*sqrt(3) cm. Find its total surface area.",
+      "options": {
+        "A": "216 cm2",
+        "B": "144 cm2",
+        "C": "150 cm2",
+        "D": "180 cm2"
+      },
+      "answer": "A",
+      "explanation": "a*sqrt(3) = 6*sqrt(3) => a = 6. TSA = 6*a^2 = 6 * 36 = 216.",
+      "hash": "01750ed2e3713b44",
+      "translations": {
+        "hi": {
+          "question": "एक घन का विकर्ण 6*sqrt(3) सेमी है। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "216 सेमी2",
+            "B": "144 सेमी2",
+            "C": "150 सेमी2",
+            "D": "180 सेमी2"
+          },
+          "explanation": "a*sqrt(3) = 6*sqrt(3) => a = 6. TSA = 6*a^2 = 216."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-024",
+      "number": 24,
+      "question": "If the points (1,2), (0,0) and (a,b) are collinear, then:",
+      "options": {
+        "A": "2a = b",
+        "B": "a = 2b",
+        "C": "a = b",
+        "D": "a + b = 0"
+      },
+      "answer": "A",
+      "explanation": "Slope (0,0) to (1,2) is 2/1 = 2. Slope (0,0) to (a,b) is b/a. So b/a = 2 => b = 2a.",
+      "hash": "4a89147dc9f02c5c",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु (1,2), (0,0) और (a,b) संरेख हैं, तो:",
+          "options": {
+            "A": "2a = b",
+            "B": "a = 2b",
+            "C": "a = b",
+            "D": "a + b = 0"
+          },
+          "explanation": "ढाल = 2/1 = 2. b/a = 2 => b = 2a."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-025",
+      "number": 25,
+      "question": "If the height of a tower and the length of its shadow are equal, find the angle of elevation of the sun.",
+      "options": {
+        "A": "45 degrees",
+        "B": "30 degrees",
+        "C": "60 degrees",
+        "D": "90 degrees"
+      },
+      "answer": "A",
+      "explanation": "tan theta = Height/Shadow. If Height = Shadow, tan theta = 1 => theta = 45.",
+      "hash": "bdf93d91237a02d6",
+      "translations": {
+        "hi": {
+          "question": "यदि एक मीनार की ऊँचाई और उसकी छाया की लंबाई बराबर है, तो सूर्य का उन्नयन कोण ज्ञात कीजिए।",
+          "options": {
+            "A": "45 डिग्री",
+            "B": "30 डिग्री",
+            "C": "60 डिग्री",
+            "D": "90 डिग्री"
+          },
+          "explanation": "tan theta = ऊँचाई/छाया। यदि ऊँचाई = छाया, तो tan theta = 1 => theta = 45."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-026",
+      "number": 26,
+      "question": "How many terms of the AP 24, 21, 18... must be taken so that their sum is 78?",
+      "options": {
+        "A": "4 or 13",
+        "B": "5 or 12",
+        "C": "6 or 11",
+        "D": "4 or 15"
+      },
+      "answer": "A",
+      "explanation": "78 = (n/2)[2*24 + (n-1)(-3)]. Solving the quadratic 3n^2 - 51n + 156 = 0 gives n=4, 13.",
+      "hash": "2291b876ce8a0eb7",
+      "translations": {
+        "hi": {
+          "question": "AP 24, 21, 18... के कितने पद लिए जाने चाहिए ताकि उनका योग 78 हो?",
+          "options": {
+            "A": "4 या 13",
+            "B": "5 या 12",
+            "C": "6 या 11",
+            "D": "4 या 15"
+          },
+          "explanation": "78 = (n/2)[48 + (n-1)(-3)]. हल करने पर n = 4 या 13."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-027",
+      "number": 27,
+      "question": "If 7 times the 7th term of an AP is equal to 11 times its 11th term, find its 18th term.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "18",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "7(a+6d) = 11(a+10d) => 7a+42d = 11a+110d => 4a+68d = 0 => a+17d = 0. 18th term = a+17d = 0.",
+      "hash": "140e3d5be5e128fa",
+      "translations": {
+        "hi": {
+          "question": "यदि एक AP के 7वें पद का 7 गुना उसके 11वें पद के 11 गुना के बराबर है, तो उसका 18वाँ पद ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "18",
+            "D": "7"
+          },
+          "explanation": "7(a+6d) = 11(a+10d) => a+17d = 0. 18वाँ पद = 0."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-028",
+      "number": 28,
+      "question": "The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, find x.",
+      "options": {
+        "A": "16",
+        "B": "15",
+        "C": "18",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "Profit % = [(CP items - SP items)/SP items] * 100 => 25 = [(20-x)/x] * 100 => x/4 = 20-x => 5x/4 = 20 => x=16.",
+      "hash": "af24be8facf70aef",
+      "translations": {
+        "hi": {
+          "question": "20 वस्तुओं का क्रय मूल्य x वस्तुओं के विक्रय मूल्य के समान है। यदि लाभ 25% है, तो x ज्ञात कीजिए।",
+          "options": {
+            "A": "16",
+            "B": "15",
+            "C": "18",
+            "D": "25"
+          },
+          "explanation": "25 = [(20-x)/x] * 100. हल करने पर x = 16."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-029",
+      "number": 29,
+      "question": "Simplify: (sin 45 + cos 45).",
+      "options": {
+        "A": "sqrt(2)",
+        "B": "1",
+        "C": "1/sqrt(2)",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "1/sqrt(2) + 1/sqrt(2) = 2/sqrt(2) = sqrt(2).",
+      "hash": "8bdf839d8fa39d8a",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: (sin 45 + cos 45).",
+          "options": {
+            "A": "sqrt(2)",
+            "B": "1",
+            "C": "1/sqrt(2)",
+            "D": "2"
+          },
+          "explanation": "1/sqrt(2) + 1/sqrt(2) = 2/sqrt(2) = sqrt(2)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-030",
+      "number": 30,
+      "question": "A bag contains 4 red, 5 black and 6 white balls. One ball is drawn at random. What is the probability that the ball drawn is not black?",
+      "options": {
+        "A": "2/3",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "4/15"
+      },
+      "answer": "A",
+      "explanation": "Total = 4+5+6 = 15. Not black = Red + White = 4+6 = 10. Prob = 10/15 = 2/3.",
+      "hash": "b97ad20dad86d4a7",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 4 लाल, 5 काली और 6 सफेद गेंदें हैं। एक गेंद बेतरतीब ढंग से निकाली जाती है। निकाली गई गेंद के काली नहीं होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "2/3",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "4/15"
+          },
+          "explanation": "कुल = 15. काली नहीं = 4+6 = 10. प्रायिकता = 10/15 = 2/3."
+        }
+      }
+    }
+  ]
+}

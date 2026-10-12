@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 1,
+  "title": "Mathematics Mock Test 1",
+  "questions": [
+    {
+      "id": "mathematics-01-001",
+      "number": 1,
+      "question": "A shopkeeper marks his goods 20% above the cost price and allows a discount of 10%. Find his gain percent.",
+      "options": {
+        "A": "10%",
+        "B": "8%",
+        "C": "12%",
+        "D": "15%"
+      },
+      "answer": "B",
+      "explanation": "Gain = 20 - 10 - (20*10)/100 = 10 - 2 = 8%.",
+      "hash": "fd73c5524ddbd75c",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपनी वस्तुओं पर क्रय मूल्य से 20% अधिक अंकित करता है और 10% की छूट देता है। उसका लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "8%",
+            "C": "12%",
+            "D": "15%"
+          },
+          "explanation": "लाभ = 20 - 10 - (20*10)/100 = 10 - 2 = 8%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-002",
+      "number": 2,
+      "question": "The ratio of two numbers is 3:4 and their LCM is 120. Find the sum of the numbers.",
+      "options": {
+        "A": "70",
+        "B": "35",
+        "C": "140",
+        "D": "105"
+      },
+      "answer": "A",
+      "explanation": "Let numbers be 3x and 4x. LCM(3x, 4x) = 12x. 12x = 120, so x = 10. Sum = 3x + 4x = 7x = 70.",
+      "hash": "3ded190a681ca5e3",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3:4 है और उनका LCM 120 है। संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "70",
+            "B": "35",
+            "C": "140",
+            "D": "105"
+          },
+          "explanation": "माना संख्याएँ 3x और 4x हैं। LCM(3x, 4x) = 12x. 12x = 120, इसलिए x = 10. योग = 7x = 70."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-003",
+      "number": 3,
+      "question": "If a person travels at 40 km/h, he reaches his destination 10 minutes late. At 50 km/h, he reaches 5 minutes early. Find the distance.",
+      "options": {
+        "A": "50 km",
+        "B": "45 km",
+        "C": "60 km",
+        "D": "55 km"
+      },
+      "answer": "A",
+      "explanation": "Distance = [S1*S2 / (S2-S1)] * Diff in time = [40*50 / 10] * (15/60) = 200 * 0.25 = 50 km.",
+      "hash": "4741961b45517de9",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई व्यक्ति 40 किमी/घंटा की गति से यात्रा करता है, तो वह अपने गंतव्य पर 10 मिनट देरी से पहुँचता है। 50 किमी/घंटा पर, वह 5 मिनट पहले पहुँचता है। दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "50 किमी",
+            "B": "45 किमी",
+            "C": "60 किमी",
+            "D": "55 किमी"
+          },
+          "explanation": "दूरी = [S1*S2 / (S2-S1)] * समय में अंतर = [40*50 / 10] * (15/60) = 50 किमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-004",
+      "number": 4,
+      "question": "A sum of money doubles itself in 8 years at simple interest. Find the rate of interest.",
+      "options": {
+        "A": "10%",
+        "B": "12.5%",
+        "C": "15%",
+        "D": "8%"
+      },
+      "answer": "B",
+      "explanation": "R = (n-1)*100 / T = (2-1)*100 / 8 = 12.5%.",
+      "hash": "49263b70a9f794a3",
+      "translations": {
+        "hi": {
+          "question": "साधारण ब्याज पर कोई राशि 8 वर्षों में दोगुनी हो जाती है। ब्याज की दर ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "12.5%",
+            "C": "15%",
+            "D": "8%"
+          },
+          "explanation": "R = (n-1)*100 / T = (2-1)*100 / 8 = 12.5%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-005",
+      "number": 5,
+      "question": "Solve for x: 2^(x+3) = 32.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "2^(x+3) = 2^5. So, x+3 = 5, x = 2.",
+      "hash": "e7f9372135c5d8cf",
+      "translations": {
+        "hi": {
+          "question": "x के लिए हल करें: 2^(x+3) = 32.",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "4"
+          },
+          "explanation": "2^(x+3) = 2^5. इसलिए, x+3 = 5, x = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-006",
+      "number": 6,
+      "question": "The average of 5 consecutive odd numbers is 25. Find the smallest number.",
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "19",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "In consecutive numbers, average is the middle term. Series: 21, 23, 25, 27, 29. Smallest is 21.",
+      "hash": "3f2959fe18f7bb92",
+      "translations": {
+        "hi": {
+          "question": "5 लगातार विषम संख्याओं का औसत 25 है। सबसे छोटी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "21",
+            "B": "23",
+            "C": "19",
+            "D": "25"
+          },
+          "explanation": "लगातार संख्याओं में, औसत मध्य पद होता है। श्रृंखला: 21, 23, 25, 27, 29. सबसे छोटी 21 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-007",
+      "number": 7,
+      "question": "The volume of a sphere is 38808 cm3. Find its radius.",
+      "options": {
+        "A": "21 cm",
+        "B": "14 cm",
+        "C": "28 cm",
+        "D": "7 cm"
+      },
+      "answer": "A",
+      "explanation": "V = (4/3) * pi * r^3 = 38808. r^3 = (38808 * 3 * 7) / (4 * 22) = 9261. r = 21 cm.",
+      "hash": "218973e03df96447",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का आयतन 38808 cm3 है। इसकी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "21 सेमी",
+            "B": "14 सेमी",
+            "C": "28 सेमी",
+            "D": "7 सेमी"
+          },
+          "explanation": "आयतन = (4/3) * pi * r^3 = 38808. r = 21 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-008",
+      "number": 8,
+      "question": "A train 150m long passes a pole in 15 seconds. Find its speed in km/h.",
+      "options": {
+        "A": "36 km/h",
+        "B": "45 km/h",
+        "C": "30 km/h",
+        "D": "54 km/h"
+      },
+      "answer": "A",
+      "explanation": "Speed = 150/15 = 10 m/s. In km/h = 10 * 18/5 = 36 km/h.",
+      "hash": "94caba6037b543d6",
+      "translations": {
+        "hi": {
+          "question": "150 मीटर लंबी एक ट्रेन 15 सेकंड में एक खंभे को पार करती है। किमी/घंटा में इसकी गति ज्ञात कीजिए।",
+          "options": {
+            "A": "36 किमी/घंटा",
+            "B": "45 किमी/घंटा",
+            "C": "30 किमी/घंटा",
+            "D": "54 किमी/घंटा"
+          },
+          "explanation": "गति = 150/15 = 10 मीटर/सेकंड. किमी/घंटा में = 10 * 18/5 = 36 किमी/घंटा."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-009",
+      "number": 9,
+      "question": "If tan A = 3/4, find the value of sin A.",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "5/3",
+        "D": "3/7"
+      },
+      "answer": "A",
+      "explanation": "tan A = P/B = 3/4. H = sqrt(3^2 + 4^2) = 5. sin A = P/H = 3/5.",
+      "hash": "f09fef41b2168e90",
+      "translations": {
+        "hi": {
+          "question": "यदि tan A = 3/4 है, तो sin A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "3/5",
+            "B": "4/5",
+            "C": "5/3",
+            "D": "3/7"
+          },
+          "explanation": "tan A = लंब/आधार = 3/4. कर्ण = sqrt(3^2 + 4^2) = 5. sin A = लंब/कर्ण = 3/5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-010",
+      "number": 10,
+      "question": "15% of 40% of a number is 12. Find the number.",
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "250",
+        "D": "400"
+      },
+      "answer": "A",
+      "explanation": "x * 0.40 * 0.15 = 12. x * 0.06 = 12. x = 12/0.06 = 200.",
+      "hash": "450315ae8de262fd",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या के 40% का 15%, 12 है। संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "200",
+            "B": "300",
+            "C": "250",
+            "D": "400"
+          },
+          "explanation": "x * 0.40 * 0.15 = 12. x * 0.06 = 12. x = 200."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-011",
+      "number": 11,
+      "question": "Find the HCF of 2/3, 8/9 and 10/27.",
+      "options": {
+        "A": "2/27",
+        "B": "8/3",
+        "C": "2/3",
+        "D": "40/3"
+      },
+      "answer": "A",
+      "explanation": "HCF of fractions = HCF of numerators / LCM of denominators = HCF(2,8,10) / LCM(3,9,27) = 2/27.",
+      "hash": "3ba3dfa3f693404a",
+      "translations": {
+        "hi": {
+          "question": "2/3, 8/9 और 10/27 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "2/27",
+            "B": "8/3",
+            "C": "2/3",
+            "D": "40/3"
+          },
+          "explanation": "भिन्नों का HCF = अंशों का HCF / हरों का LCM = HCF(2,8,10) / LCM(3,9,27) = 2/27."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-012",
+      "number": 12,
+      "question": "A and B can do a work in 12 days, B and C in 15 days, C and A in 20 days. In how many days can A, B and C together do it?",
+      "options": {
+        "A": "10 days",
+        "B": "8 days",
+        "C": "12 days",
+        "D": "5 days"
+      },
+      "answer": "A",
+      "explanation": "2(A+B+C) = 1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5. (A+B+C) = 1/10. Days = 10.",
+      "hash": "94ccd9a726012689",
+      "translations": {
+        "hi": {
+          "question": "A और B एक काम को 12 दिनों में, B और C 15 दिनों में, C और A 20 दिनों में कर सकते हैं। A, B और C मिलकर इसे कितने दिनों में कर सकते हैं?",
+          "options": {
+            "A": "10 दिन",
+            "B": "8 दिन",
+            "C": "12 दिन",
+            "D": "5 दिन"
+          },
+          "explanation": "2(A+B+C) = 12/60 = 1/5. (A+B+C) = 1/10. दिन = 10."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-013",
+      "number": 13,
+      "question": "The sum of the internal angles of a regular hexagon is:",
+      "options": {
+        "A": "720 degrees",
+        "B": "540 degrees",
+        "C": "360 degrees",
+        "D": "900 degrees"
+      },
+      "answer": "A",
+      "explanation": "Sum = (n-2) * 180 = (6-2) * 180 = 4 * 180 = 720.",
+      "hash": "09ba414c297e19ce",
+      "translations": {
+        "hi": {
+          "question": "एक नियमित षट्भुज के आंतरिक कोणों का योग है:",
+          "options": {
+            "A": "720 डिग्री",
+            "B": "540 डिग्री",
+            "C": "360 डिग्री",
+            "D": "900 डिग्री"
+          },
+          "explanation": "योग = (n-2) * 180 = (6-2) * 180 = 720."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-014",
+      "number": 14,
+      "question": "Find the compound interest on Rs 10000 for 2 years at 10% per annum.",
+      "options": {
+        "A": "2100",
+        "B": "2000",
+        "C": "1100",
+        "D": "2500"
+      },
+      "answer": "A",
+      "explanation": "Amount = 10000(1 + 10/100)^2 = 12100. CI = 12100 - 10000 = 2100.",
+      "hash": "5e18b86bcd34912d",
+      "translations": {
+        "hi": {
+          "question": "10000 रुपये पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+          "options": {
+            "A": "2100",
+            "B": "2000",
+            "C": "1100",
+            "D": "2500"
+          },
+          "explanation": "मिश्रधन = 10000(1.1)^2 = 12100. CI = 12100 - 10000 = 2100."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-015",
+      "number": 15,
+      "question": "If x + 1/x = 5, find x^2 + 1/x^2.",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "21"
+      },
+      "answer": "A",
+      "explanation": "x^2 + 1/x^2 = (x + 1/x)^2 - 2 = 5^2 - 2 = 25 - 2 = 23.",
+      "hash": "27d5679cf98d4cb2",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 5 है, तो x^2 + 1/x^2 ज्ञात कीजिए।",
+          "options": {
+            "A": "23",
+            "B": "25",
+            "C": "27",
+            "D": "21"
+          },
+          "explanation": "x^2 + 1/x^2 = (x + 1/x)^2 - 2 = 25 - 2 = 23."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-016",
+      "number": 16,
+      "question": "A person buys a cycle for Rs 1400 and sells it at a loss of 15%. What is the selling price?",
+      "options": {
+        "A": "1190",
+        "B": "1200",
+        "C": "1160",
+        "D": "1000"
+      },
+      "answer": "A",
+      "explanation": "SP = 1400 * (100-15)/100 = 1400 * 0.85 = 1190.",
+      "hash": "17066fa91fd2cecb",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 1400 रुपये में एक साइकिल खरीदता है और उसे 15% की हानि पर बेचता है। विक्रय मूल्य क्या है?",
+          "options": {
+            "A": "1190",
+            "B": "1200",
+            "C": "1160",
+            "D": "1000"
+          },
+          "explanation": "SP = 1400 * 85/100 = 1190."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-017",
+      "number": 17,
+      "question": "The difference between the length and breadth of a rectangle is 23 m. If its perimeter is 206 m, find its area.",
+      "options": {
+        "A": "2520 m2",
+        "B": "2420 m2",
+        "C": "2480 m2",
+        "D": "2500 m2"
+      },
+      "answer": "A",
+      "explanation": "2(L+B)=206 => L+B=103. L-B=23. Solving: L=63, B=40. Area = 63*40 = 2520.",
+      "hash": "578b2b663a15e51c",
+      "translations": {
+        "hi": {
+          "question": "एक आयत की लंबाई और चौड़ाई के बीच का अंतर 23 मीटर है। यदि इसका परिमाप 206 मीटर है, तो इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "2520 m2",
+            "B": "2420 m2",
+            "C": "2480 m2",
+            "D": "2500 m2"
+          },
+          "explanation": "L+B=103, L-B=23. हल करने पर: L=63, B=40. क्षेत्रफल = 2520."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-018",
+      "number": 18,
+      "question": "What is the unit digit in (2467)^153 * (341)^72?",
+      "options": {
+        "A": "7",
+        "B": "1",
+        "C": "9",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Unit digit of 7^153 is 7^1=7. Unit digit of 1^72 is 1. 7*1 = 7.",
+      "hash": "8bae3ffcb8475ff4",
+      "translations": {
+        "hi": {
+          "question": "(2467)^153 * (341)^72 में इकाई अंक क्या है?",
+          "options": {
+            "A": "7",
+            "B": "1",
+            "C": "9",
+            "D": "3"
+          },
+          "explanation": "7^153 का इकाई अंक 7 है। 1^72 का इकाई अंक 1 है। 7*1 = 7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-019",
+      "number": 19,
+      "question": "A bag contains 5 red and 3 blue balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": {
+        "A": "5/8",
+        "B": "3/8",
+        "C": "5/3",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "Probability = Favorable outcomes / Total outcomes = 5 / (5+3) = 5/8.",
+      "hash": "aefbaf13526cee83",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 5 लाल और 3 नीली गेंदें हैं। यदि एक गेंद बेतरतीब ढंग से निकाली जाती है, तो उसके लाल होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "5/8",
+            "B": "3/8",
+            "C": "5/3",
+            "D": "1/2"
+          },
+          "explanation": "प्रायिकता = अनुकूल परिणाम / कुल परिणाम = 5/8."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-020",
+      "number": 20,
+      "question": "If 15 men can complete a work in 20 days, how many days will 10 men take to complete the same work?",
+      "options": {
+        "A": "30 days",
+        "B": "40 days",
+        "C": "25 days",
+        "D": "35 days"
+      },
+      "answer": "A",
+      "explanation": "M1D1 = M2D2 => 15 * 20 = 10 * D2 => D2 = 300 / 10 = 30.",
+      "hash": "b71dbe8d47506bbf",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 पुरुष एक काम को 20 दिनों में पूरा कर सकते हैं, तो 10 पुरुष उसी काम को कितने दिनों में पूरा करेंगे?",
+          "options": {
+            "A": "30 दिन",
+            "B": "40 दिन",
+            "C": "25 दिन",
+            "D": "35 दिन"
+          },
+          "explanation": "M1D1 = M2D2 => 15 * 20 = 10 * D2 => D2 = 30."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-021",
+      "number": 21,
+      "question": "The fourth proportional to 5, 8, 15 is:",
+      "options": {
+        "A": "24",
+        "B": "20",
+        "C": "18",
+        "D": "22"
+      },
+      "answer": "A",
+      "explanation": "5/8 = 15/x => 5x = 120 => x = 24.",
+      "hash": "e59940234cc6eb65",
+      "translations": {
+        "hi": {
+          "question": "5, 8, 15 का चतुर्थानुपाती है:",
+          "options": {
+            "A": "24",
+            "B": "20",
+            "C": "18",
+            "D": "22"
+          },
+          "explanation": "5/8 = 15/x => 5x = 120 => x = 24."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-022",
+      "number": 22,
+      "question": "Simplify: sqrt(0.000441).",
+      "options": {
+        "A": "0.021",
+        "B": "0.21",
+        "C": "0.0021",
+        "D": "0.00021"
+      },
+      "answer": "A",
+      "explanation": "sqrt(441) = 21. Since there are 6 decimal places, the result has 3. Result = 0.021.",
+      "hash": "ec3b331b2aff5959",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: sqrt(0.000441).",
+          "options": {
+            "A": "0.021",
+            "B": "0.21",
+            "C": "0.0021",
+            "D": "0.00021"
+          },
+          "explanation": "sqrt(441) = 21. 6 दशमलव स्थानों के कारण, परिणाम में 3 स्थान होंगे। 0.021."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-023",
+      "number": 23,
+      "question": "If the area of a circle is 154 cm2, find its circumference.",
+      "options": {
+        "A": "44 cm",
+        "B": "22 cm",
+        "C": "66 cm",
+        "D": "88 cm"
+      },
+      "answer": "A",
+      "explanation": "pi * r^2 = 154 => r = 7. Circumference = 2 * pi * r = 2 * (22/7) * 7 = 44.",
+      "hash": "be2dff31618543fa",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का क्षेत्रफल 154 cm2 है, तो उसकी परिधि ज्ञात कीजिए।",
+          "options": {
+            "A": "44 सेमी",
+            "B": "22 सेमी",
+            "C": "66 सेमी",
+            "D": "88 सेमी"
+          },
+          "explanation": "pi * r^2 = 154 => r = 7. परिधि = 2 * pi * r = 44 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-024",
+      "number": 24,
+      "question": "A boat travels 12 km upstream in 4 hours and 12 km downstream in 3 hours. Find the speed of the stream.",
+      "options": {
+        "A": "0.5 km/h",
+        "B": "1 km/h",
+        "C": "1.5 km/h",
+        "D": "2 km/h"
+      },
+      "answer": "A",
+      "explanation": "Upstream speed (u) = 12/4 = 3. Downstream (v) = 12/3 = 4. Stream speed = (v-u)/2 = (4-3)/2 = 0.5 km/h.",
+      "hash": "3e235d40199d2863",
+      "translations": {
+        "hi": {
+          "question": "एक नाव धारा के प्रतिकूल 12 किमी की यात्रा 4 घंटे में और धारा के अनुकूल 12 किमी की यात्रा 3 घंटे में करती है। धारा की गति ज्ञात कीजिए।",
+          "options": {
+            "A": "0.5 किमी/घंटा",
+            "B": "1 किमी/घंटा",
+            "C": "1.5 किमी/घंटा",
+            "D": "2 किमी/घंटा"
+          },
+          "explanation": "धारा की गति = (v-u)/2 = (4-3)/2 = 0.5 किमी/घंटा."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-025",
+      "number": 25,
+      "question": "In a class of 60 students, 40% are girls. How many boys are there?",
+      "options": {
+        "A": "36",
+        "B": "24",
+        "C": "30",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "Boys % = 100 - 40 = 60%. Number of boys = 60% of 60 = 36.",
+      "hash": "7841d1a72858606e",
+      "translations": {
+        "hi": {
+          "question": "60 छात्रों की एक कक्षा में, 40% लड़कियां हैं। लड़कों की संख्या कितनी है?",
+          "options": {
+            "A": "36",
+            "B": "24",
+            "C": "30",
+            "D": "40"
+          },
+          "explanation": "लड़कों का % = 60%. लड़कों की संख्या = 60 का 60% = 36."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-026",
+      "number": 26,
+      "question": "Find the value of (0.5)^2 + (0.1)^2.",
+      "options": {
+        "A": "0.26",
+        "B": "0.25",
+        "C": "0.36",
+        "D": "0.24"
+      },
+      "answer": "A",
+      "explanation": "0.25 + 0.01 = 0.26.",
+      "hash": "f45a3490318cea7f",
+      "translations": {
+        "hi": {
+          "question": "(0.5)^2 + (0.1)^2 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.26",
+            "B": "0.25",
+            "C": "0.36",
+            "D": "0.24"
+          },
+          "explanation": "0.25 + 0.01 = 0.26."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-027",
+      "number": 27,
+      "question": "If x:y = 2:3 and y:z = 4:5, find x:y:z.",
+      "options": {
+        "A": "8:12:15",
+        "B": "2:4:5",
+        "C": "8:10:15",
+        "D": "4:6:15"
+      },
+      "answer": "A",
+      "explanation": "x:y = 8:12. y:z = 12:15. So x:y:z = 8:12:15.",
+      "hash": "8c73b0d088b8e197",
+      "translations": {
+        "hi": {
+          "question": "यदि x:y = 2:3 और y:z = 4:5 है, तो x:y:z ज्ञात कीजिए।",
+          "options": {
+            "A": "8:12:15",
+            "B": "2:4:5",
+            "C": "8:10:15",
+            "D": "4:6:15"
+          },
+          "explanation": "x:y = 8:12. y:z = 12:15. इसलिए x:y:z = 8:12:15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-028",
+      "number": 28,
+      "question": "The median of 10, 12, 14, 16, 18, 20, 22 is:",
+      "options": {
+        "A": "16",
+        "B": "14",
+        "C": "18",
+        "D": "20"
+      },
+      "answer": "A",
+      "explanation": "Since data is sorted and n=7 (odd), median is (7+1)/2 = 4th term. 4th term is 16.",
+      "hash": "43584a450bbe9d8c",
+      "translations": {
+        "hi": {
+          "question": "10, 12, 14, 16, 18, 20, 22 की माध्यिका है:",
+          "options": {
+            "A": "16",
+            "B": "14",
+            "C": "18",
+            "D": "20"
+          },
+          "explanation": "डेटा क्रमबद्ध है और n=7 है, माध्यिका चौथा पद है। 16."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-029",
+      "number": 29,
+      "question": "Find the smallest number which when divided by 6, 9, 12, 15, 18 leaves 2 as remainder in each case.",
+      "options": {
+        "A": "182",
+        "B": "178",
+        "C": "180",
+        "D": "176"
+      },
+      "answer": "A",
+      "explanation": "LCM of (6, 9, 12, 15, 18) = 180. Required number = 180 + 2 = 182.",
+      "hash": "1829c6f0e54a6a7f",
+      "translations": {
+        "hi": {
+          "question": "वह छोटी से छोटी संख्या ज्ञात कीजिए जिसे 6, 9, 12, 15, 18 से विभाजित करने पर प्रत्येक स्थिति में शेषफल 2 बचता है।",
+          "options": {
+            "A": "182",
+            "B": "178",
+            "C": "180",
+            "D": "176"
+          },
+          "explanation": "LCM(6, 9, 12, 15, 18) = 180. अभीष्ट संख्या = 180 + 2 = 182."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-030",
+      "number": 30,
+      "question": "Find the value of sin^2 30 + cos^2 30.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Identity: sin^2 theta + cos^2 theta = 1 for any angle.",
+      "hash": "c7072a59c82bd36c",
+      "translations": {
+        "hi": {
+          "question": "sin^2 30 + cos^2 30 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "1/2",
+            "D": "2"
+          },
+          "explanation": "सर्वसमिका: किसी भी कोण के लिए sin^2 theta + cos^2 theta = 1 होता है।"
+        }
+      }
+    }
+  ]
+}

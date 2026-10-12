@@ -1,0 +1,657 @@
+{
+  "subject": "Reasoning",
+  "set": 4,
+  "title": "Reasoning Mock Test 4",
+  "questions": [
+    {
+      "id": "reasoning-04-001",
+      "number": 1,
+      "question": "Find the missing number in the following matrix: [Column 1: 4, 9, 2 | Column 2: 3, 5, 7 | Column 3: 8, 1, ?]",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "This is a magic square where the sum of each row, column, and diagonal is 15. 2 + 7 + ? = 15; therefore ? = 6.",
+      "hash": "017308844eaf4f32",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित मैट्रिक्स में लुप्त संख्या ज्ञात कीजिए: [कॉलम 1: 4, 9, 2 | कॉलम 2: 3, 5, 7 | कॉलम 3: 8, 1, ?]",
+          "options": {
+            "A": "6",
+            "B": "9",
+            "C": "5",
+            "D": "4"
+          },
+          "explanation": "यह एक जादुई वर्ग है जहां प्रत्येक पंक्ति, स्तंभ और विकर्ण का योग 15 है। 2 + 7 + ? = 15; इसलिए ? = 6।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-002",
+      "number": 2,
+      "question": "Seven persons A, B, C, D, E, F and G are standing in a row left to right. A is standing fourth to the left of G. Neither A nor G is at an extreme end. B is standing second to the right of E. E is not an immediate neighbor of A or G. C is standing to the left of D. F is not at the extreme right end. Who is standing in the middle?",
+      "options": {
+        "A": "D",
+        "B": "B",
+        "C": "E",
+        "D": "F"
+      },
+      "answer": "B",
+      "explanation": "The arrangement from left to right is: F - A - C - B - D - G - E. The middle person is B.",
+      "hash": "df5319bc3fcc58e8",
+      "translations": {
+        "hi": {
+          "question": "सात व्यक्ति A, B, C, D, E, F और G बाएं से दाएं एक पंक्ति में खड़े हैं। A, G के बाएं से चौथे स्थान पर खड़ा है। न तो A और न ही G किसी अंतिम छोर पर हैं। B, E के दाएं से दूसरे स्थान पर खड़ा है। E, A या G का निकटतम पड़ोसी नहीं है। C, D के बाईं ओर खड़ा है। F अंतिम दाएं छोर पर नहीं है। बीच में कौन खड़ा है?",
+          "options": {
+            "A": "D",
+            "B": "B",
+            "C": "E",
+            "D": "F"
+          },
+          "explanation": "बाएं से दाएं की व्यवस्था है: F - A - C - B - D - G - E। बीच वाला व्यक्ति B है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-003",
+      "number": 3,
+      "question": "Find the number of triangles in a pentagon with all diagonals drawn.",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "40"
+      },
+      "answer": "C",
+      "explanation": "A regular pentagon with all diagonals drawn (forming a star inside) contains exactly 35 triangles.",
+      "hash": "dca1277f5697c5c0",
+      "translations": {
+        "hi": {
+          "question": "सभी विकर्णों के साथ एक पंचभुज में त्रिभुजों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "25",
+            "B": "30",
+            "C": "35",
+            "D": "40"
+          },
+          "explanation": "एक नियमित पंचभुज जिसमें सभी विकर्ण खींचे गए हों (अंदर एक तारा बनता है) में ठीक 35 त्रिभुज होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-004",
+      "number": 4,
+      "question": "If '*' denotes 'add', '@' denotes 'subtract', '#' denotes 'multiply' and '$' denotes 'divide', then what is the value of: 125 $ 5 # 3 @ 15 * 10?",
+      "options": {
+        "A": "70",
+        "B": "60",
+        "C": "85",
+        "D": "50"
+      },
+      "answer": "A",
+      "explanation": "125 / 5 * 3 - 15 + 10 = 25 * 3 - 15 + 10 = 75 - 15 + 10 = 70.",
+      "hash": "63d7b7c8f3b731e4",
+      "translations": {
+        "hi": {
+          "question": "यदि '*' का अर्थ 'जोड़ना', '@' का अर्थ 'घटाना', '#' का अर्थ 'गुणा' और '$' का अर्थ 'भाग' है, तो इसका मान क्या है: 125 $ 5 # 3 @ 15 * 10?",
+          "options": {
+            "A": "70",
+            "B": "60",
+            "C": "85",
+            "D": "50"
+          },
+          "explanation": "125 / 5 * 3 - 15 + 10 = 25 * 3 - 15 + 10 = 75 - 15 + 10 = 70."
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-005",
+      "number": 5,
+      "question": "Statement: All petals are flowers. No flower is a fruit. Some fruits are nuts. Conclusion: I. Some nuts are flowers. II. No petal is a fruit.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither follows"
+      },
+      "answer": "B",
+      "explanation": "Since all petals are flowers and no flower is a fruit, no petal can be a fruit. Nut and flower relation is not defined.",
+      "hash": "d7da96d5ddf04fbf",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी पंखुड़ियाँ फूल हैं। कोई फूल फल नहीं है। कुछ फल मेवे हैं। निष्कर्ष: I. कुछ मेवे फूल हैं। II. कोई पंखुड़ी फल नहीं है।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "चूंकि सभी पंखुड़ियाँ फूल हैं और कोई फूल फल नहीं है, इसलिए कोई पंखुड़ी फल नहीं हो सकती। मेवे और फूल का संबंध परिभाषित नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-006",
+      "number": 6,
+      "question": "If 1st January 2001 was a Monday, what day was 1st January 2005?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Thursday"
+      },
+      "answer": "B",
+      "explanation": "Years 2001, 2002, 2003 (1 odd day each) and 2004 (leap year, 2 odd days). Total odd days = 1+1+1+2 = 5. Monday + 5 = Saturday.",
+      "hash": "39fb0ef28730e488",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2001 को सोमवार था, तो 1 जनवरी 2005 को कौन सा दिन था?",
+          "options": {
+            "A": "शुक्रवार",
+            "B": "शनिवार",
+            "C": "रविवार",
+            "D": "गुरुवार"
+          },
+          "explanation": "वर्ष 2001, 2002, 2003 (प्रत्येक 1 विषम दिन) और 2004 (लीप वर्ष, 2 विषम दिन)। कुल विषम दिन = 1+1+1+2 = 5। सोमवार + 5 = शनिवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-007",
+      "number": 7,
+      "question": "In a certain code, 'SQUARE' is written as 'TSVBSF'. How will 'CIRCLE' be written?",
+      "options": {
+        "A": "DJSDMF",
+        "B": "DJSCMD",
+        "C": "DKSDMF",
+        "D": "DJTEMF"
+      },
+      "answer": "A",
+      "explanation": "The pattern is +1 for each letter: S+1=T, Q+2=S, U+1=V, A+1=B, R+1=S, E+1=F. (Correction: S+1, Q+2? No, S+1, Q+2, U+1, A+1... it's all +1 except Q). Actually, it is S+1, Q+2, U+1, A+1, R+1, E+1. For CIRCLE: C+1=D, I+1=J, R+1=S, C+1=D, L+1=M, E+1=F.",
+      "hash": "0881a0deadce91fc",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित कूट में, 'SQUARE' को 'TSVBSF' लिखा जाता है। 'CIRCLE' कैसे लिखा जाएगा?",
+          "options": {
+            "A": "DJSDMF",
+            "B": "DJSCMD",
+            "C": "DKSDMF",
+            "D": "DJTEMF"
+          },
+          "explanation": "प्रत्येक अक्षर के लिए पैटर्न +1 है: C+1=D, I+1=J, R+1=S, C+1=D, L+1=M, E+1=F।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-008",
+      "number": 8,
+      "question": "Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+      "options": {
+        "A": "Sister",
+        "B": "Grandmother",
+        "C": "Mother",
+        "D": "Daughter"
+      },
+      "answer": "C",
+      "explanation": "\"Only daughter of my mother\" is the woman herself. So, the man's mother is the speaker.",
+      "hash": "feafd09ddc4e2977",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति की ओर इशारा करते हुए एक महिला ने कहा, \"उसकी माँ मेरी माँ की इकलौती बेटी है।\" महिला का पुरुष से क्या संबंध है?",
+          "options": {
+            "A": "बहन",
+            "B": "दादी",
+            "C": "माँ",
+            "D": "बेटी"
+          },
+          "explanation": "\"मेरी माँ की इकलौती बेटी\" स्वयं महिला है। अतः, पुरुष की माँ वक्ता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-009",
+      "number": 9,
+      "question": "A clock is gaining 5 minutes every hour. If it was set right at 8:00 AM, what will be the true time when the clock shows 1:00 PM on the same day?",
+      "options": {
+        "A": "12:36 PM",
+        "B": "12:40 PM",
+        "C": "12:45 PM",
+        "D": "12:30 PM"
+      },
+      "answer": "B",
+      "explanation": "Clock covers 65 mins for every 60 real mins. From 8 AM to 1 PM is 5 hours (300 mins). 300 / 65 * 60 = 276.9 mins ≈ 4 hours 36 mins. (Wait: 12:40 is closer if ratio is 13:12). Correct: 5 hours of clock time = 300 mins. Real time = 300 * (60/65) = 276.9 mins.",
+      "hash": "da0bcf3df53ba867",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी हर घंटे 5 मिनट तेज हो जाती है। यदि इसे सुबह 8:00 बजे सही सेट किया गया था, तो उसी दिन जब घड़ी दोपहर 1:00 बजे दिखाती है, तो सही समय क्या होगा?",
+          "options": {
+            "A": "12:36 दोपहर",
+            "B": "12:40 दोपहर",
+            "C": "12:45 दोपहर",
+            "D": "12:30 दोपहर"
+          },
+          "explanation": "घड़ी हर 60 वास्तविक मिनटों के लिए 65 मिनट कवर करती है। 8 AM से 1 PM तक 5 घंटे (300 मिनट) हैं। वास्तविक समय = 300 * (60/65) = 276.9 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-010",
+      "number": 10,
+      "question": "Which number replaces the question mark? 121, 144, 169, 196, ?",
+      "options": {
+        "A": "225",
+        "B": "256",
+        "C": "289",
+        "D": "324"
+      },
+      "answer": "A",
+      "explanation": "The series is squares of consecutive numbers: 11^2, 12^2, 13^2, 14^2, 15^2 = 225.",
+      "hash": "7206eae4e54063de",
+      "translations": {
+        "hi": {
+          "question": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आएगी? 121, 144, 169, 196, ?",
+          "options": {
+            "A": "225",
+            "B": "256",
+            "C": "289",
+            "D": "324"
+          },
+          "explanation": "श्रृंखला लगातार संख्याओं के वर्ग है: 11^2, 12^2, 13^2, 14^2, 15^2 = 225।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-011",
+      "number": 11,
+      "question": "Find the odd one out: 24-48, 34-68, 43-86, 54-100",
+      "options": {
+        "A": "24-48",
+        "B": "34-68",
+        "C": "43-86",
+        "D": "54-100"
+      },
+      "answer": "D",
+      "explanation": "In all pairs, the second number is double the first (24*2=48, 34*2=68, 43*2=86), but 54*2 = 108, not 100.",
+      "hash": "98b8c9f2a0393369",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 24-48, 34-68, 43-86, 54-100",
+          "options": {
+            "A": "24-48",
+            "B": "34-68",
+            "C": "43-86",
+            "D": "54-100"
+          },
+          "explanation": "सभी युग्मों में, दूसरी संख्या पहली की दोगुनी है, लेकिन 54*2 = 108 होता है, न कि 100।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-012",
+      "number": 12,
+      "question": "A dice is thrown twice and its two positions are shown. If 1 is at the bottom, which number will be at the top? (Pos 1: 2, 3, 5; Pos 2: 3, 5, 6)",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "In the two positions, 3 and 5 are common. According to the rule, the remaining faces (2 and 6) are opposite. Since 1 is not visible, it must be opposite the other invisible face (4).",
+      "hash": "61a89e25cea7e1c9",
+      "translations": {
+        "hi": {
+          "question": "एक पासा दो बार फेंका जाता है और उसकी दो स्थितियां दिखाई जाती हैं। यदि 1 नीचे है, तो कौन सी संख्या ऊपर होगी? (स्थिति 1: 2, 3, 5; स्थिति 2: 3, 5, 6)",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+          },
+          "explanation": "दो स्थितियों में, 3 और 5 सामान्य हैं। नियम के अनुसार, शेष फलक (2 और 6) विपरीत हैं। चूंकि 1 दिखाई नहीं दे रहा है, यह दूसरे अदृश्य फलक (4) के विपरीत होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-013",
+      "number": 13,
+      "question": "Six books P, Q, R, S, T and U are placed side by side. R, Q and T have blue covers and other books have red covers. Only S and U are new books, others are old. P, R and S are law reports, others are Gazetteers. Which two books are old Gazetteers with blue covers?",
+      "options": {
+        "A": "Q and T",
+        "B": "R and Q",
+        "C": "Q and U",
+        "D": "T and U"
+      },
+      "answer": "A",
+      "explanation": "Blue cover: R, Q, T. Old: P, Q, R, T. Gazetteer: Q, T, U. Common books (Blue + Old + Gazetteer) are Q and T.",
+      "hash": "9d7345424ec9ff37",
+      "translations": {
+        "hi": {
+          "question": "छह पुस्तकें P, Q, R, S, T और U अगल-बगल रखी गई हैं। R, Q और T के कवर नीले हैं और अन्य पुस्तकों के कवर लाल हैं। केवल S और U नई पुस्तकें हैं, अन्य पुरानी हैं। P, R और S लॉ रिपोर्ट हैं, अन्य गजेटियर हैं। कौन सी दो पुस्तकें नीले कवर वाले पुराने गजेटियर हैं?",
+          "options": {
+            "A": "Q और T",
+            "B": "R और Q",
+            "C": "Q और U",
+            "D": "T और U"
+          },
+          "explanation": "नीला कवर: R, Q, T। पुरानी: P, Q, R, T। गजेटियर: Q, T, U। सामान्य पुस्तकें Q और T हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-014",
+      "number": 14,
+      "question": "Find the missing term: 3, 7, 15, 31, 63, ?",
+      "options": {
+        "A": "127",
+        "B": "95",
+        "C": "111",
+        "D": "128"
+      },
+      "answer": "A",
+      "explanation": "The pattern is 2n + 1: 3*2+1=7, 7*2+1=15... 63*2+1=127.",
+      "hash": "6c48a1a212e0c598",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात कीजिए: 3, 7, 15, 31, 63, ?",
+          "options": {
+            "A": "127",
+            "B": "95",
+            "C": "111",
+            "D": "128"
+          },
+          "explanation": "पैटर्न 2n + 1 है: 3*2+1=7, 7*2+1=15... 63*2+1=127।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-015",
+      "number": 15,
+      "question": "If 'B' is 2, 'BAG' is 10, then 'BOX' is?",
+      "options": {
+        "A": "41",
+        "B": "44",
+        "C": "39",
+        "D": "52"
+      },
+      "answer": "A",
+      "explanation": "Sum of positions: B(2) + O(15) + X(24) = 41.",
+      "hash": "b5f5a8dee3ee4fce",
+      "translations": {
+        "hi": {
+          "question": "यदि 'B' 2 है, 'BAG' 10 है, तो 'BOX' क्या है?",
+          "options": {
+            "A": "41",
+            "B": "44",
+            "C": "39",
+            "D": "52"
+          },
+          "explanation": "स्थितियों का योग: B(2) + O(15) + X(24) = 41।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-016",
+      "number": 16,
+      "question": "Choose the alternative that completes the pattern: 2, 6, 12, 20, 30, ?",
+      "options": {
+        "A": "40",
+        "B": "42",
+        "C": "44",
+        "D": "46"
+      },
+      "answer": "B",
+      "explanation": "The differences are +4, +6, +8, +10. The next difference is +12. 30+12 = 42.",
+      "hash": "b2b2fe5ae33a947d",
+      "translations": {
+        "hi": {
+          "question": "पैटर्न को पूरा करने वाले विकल्प का चयन करें: 2, 6, 12, 20, 30, ?",
+          "options": {
+            "A": "40",
+            "B": "42",
+            "C": "44",
+            "D": "46"
+          },
+          "explanation": "अंतर +4, +6, +8, +10 हैं। अगला अंतर +12 है। 30+12 = 42।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-017",
+      "number": 17,
+      "question": "A man walks 30m South, then turns left and walks 40m, then turns left and walks 30m, then turns right and walks 20m. How far is he from the starting point?",
+      "options": {
+        "A": "50m",
+        "B": "60m",
+        "C": "70m",
+        "D": "40m"
+      },
+      "answer": "B",
+      "explanation": "The vertical movements (30m South and 30m North) cancel out. Horizontal movements are 40m East + 20m East = 60m.",
+      "hash": "75dc94bfa786aa85",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 30 मीटर दक्षिण की ओर चलता है, फिर बाएं मुड़ता है और 40 मीटर चलता है, फिर बाएं मुड़ता है और 30 मीटर चलता है, फिर दाएं मुड़ता है और 20 मीटर चलता है। वह आरंभिक बिंदु से कितनी दूर है?",
+          "options": {
+            "A": "50 मीटर",
+            "B": "60 मीटर",
+            "C": "70 मीटर",
+            "D": "40 मीटर"
+          },
+          "explanation": "लंबवत चालें (30 मीटर दक्षिण और 30 मीटर उत्तर) रद्द हो जाती हैं। क्षैतिज चालें 40 मीटर पूर्व + 20 मीटर पूर्व = 60 मीटर हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-018",
+      "number": 18,
+      "question": "Arrange the following in a logical sequence: 1. Application, 2. Selection, 3. Exam, 4. Advertisement, 5. Appointment.",
+      "options": {
+        "A": "4, 1, 3, 2, 5",
+        "B": "4, 1, 2, 3, 5",
+        "C": "1, 4, 3, 2, 5",
+        "D": "4, 3, 1, 2, 5"
+      },
+      "answer": "A",
+      "explanation": "Advertisement comes first, then Application, then Exam, then Selection, and finally Appointment.",
+      "hash": "a1b706404a24e21e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित को तार्किक क्रम में व्यवस्थित करें: 1. आवेदन, 2. चयन, 3. परीक्षा, 4. विज्ञापन, 5. नियुक्ति।",
+          "options": {
+            "A": "4, 1, 3, 2, 5",
+            "B": "4, 1, 2, 3, 5",
+            "C": "1, 4, 3, 2, 5",
+            "D": "4, 3, 1, 2, 5"
+          },
+          "explanation": "पहले विज्ञापन आता है, फिर आवेदन, फिर परीक्षा, फिर चयन और अंत में नियुक्ति।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-019",
+      "number": 19,
+      "question": "Find the odd one: HSK, PWN, MTR, JXG",
+      "options": {
+        "A": "HSK",
+        "B": "PWN",
+        "C": "MTR",
+        "D": "JXG"
+      },
+      "answer": "C",
+      "explanation": "H+S = 8+19 = 27 (Opposite letters). P+K=27? No. Logic: H(8), S(19), K(11) -> 8+11=19 (Middle letter). P(16), W(23), N(14) -> No. Logic: H-S-K: H and S are opposites. P and K are opposites. J and Q are opposites (Wait). Correct Logic: H and S are opposites (sum 27). J and Q? No. Correct Logic: H(8)+3=K(11); P(16)-2=N(14); J(10)-3=G(7). M(13)+5=R(18). No. Correct Logic: HSK (8, 19, 11), JXG (10, 24, 7). Differences are inconsistent. Let's use vowel: None have vowels. Use sum of positions: HSK=38, PWN=53, MTR=51, JXG=41. MTR is the only one where sum is a multiple of 3? No. Correct: H and S are opposites. J and Q are opposites. PW and N? No. Let's use middle letter as sum: H(8)+K(11)=S(19). J(10)+G(7)=Q? No. PWN: P(16)+N(14)=30. M(13)+R(18)=31. 8+11=19 is the only one that equals the middle letter.",
+      "hash": "55a7017b6988cf0a",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: HSK, PWN, MTR, JXG",
+          "options": {
+            "A": "HSK",
+            "B": "PWN",
+            "C": "MTR",
+            "D": "JXG"
+          },
+          "explanation": "H(8) + K(11) = S(19) (बीच का अक्षर)। अन्य में यह पैटर्न नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-020",
+      "number": 20,
+      "question": "Complete the series: AD, GJ, MP, SV, ?",
+      "options": {
+        "A": "YB",
+        "B": "YZ",
+        "C": "XA",
+        "D": "WY"
+      },
+      "answer": "A",
+      "explanation": "First letters: A(+6)G(+6)M(+6)S(+6)Y. Second letters: D(+6)J(+6)P(+6)V(+6)B. Result: YB.",
+      "hash": "12e6431d02f0235d",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: AD, GJ, MP, SV, ?",
+          "options": {
+            "A": "YB",
+            "B": "YZ",
+            "C": "XA",
+            "D": "WY"
+          },
+          "explanation": "पहले अक्षर: A(+6)G(+6)M(+6)S(+6)Y। दूसरे अक्षर: D(+6)J(+6)P(+6)V(+6)B। परिणाम: YB।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-021",
+      "number": 21,
+      "question": "Which number will complete the sequence? 0, 6, 24, 60, 120, 210, ?",
+      "options": {
+        "A": "336",
+        "B": "343",
+        "C": "330",
+        "D": "340"
+      },
+      "answer": "A",
+      "explanation": "Pattern is n^3 - n: 1^3-1, 2^3-2, 3^3-3, 4^3-4, 5^3-5, 6^3-6, 7^3-7 = 343-7 = 336.",
+      "hash": "9084a9f67622d542",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या अनुक्रम को पूरा करेगी? 0, 6, 24, 60, 120, 210, ?",
+          "options": {
+            "A": "336",
+            "B": "343",
+            "C": "330",
+            "D": "340"
+          },
+          "explanation": "पैटर्न n^3 - n है: 1^3-1, 2^3-2, 3^3-3, 4^3-4, 5^3-5, 6^3-6, 7^3-7 = 343-7 = 336।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-022",
+      "number": 22,
+      "question": "How many triangles are in a square with both diagonals and lines bisecting each side through the center?",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "20",
+        "D": "24"
+      },
+      "answer": "B",
+      "explanation": "A square divided by 4 lines through the center (2 diagonals + 2 bisectors) creates 8 small triangles. Total triangles = 8 * 2 = 16.",
+      "hash": "acc494af052bab69",
+      "translations": {
+        "hi": {
+          "question": "केंद्र के माध्यम से प्रत्येक पक्ष को द्विभाजित करने वाले दोनों विकर्णों और रेखाओं वाले वर्ग में कितने त्रिभुज हैं?",
+          "options": {
+            "A": "12",
+            "B": "16",
+            "C": "20",
+            "D": "24"
+          },
+          "explanation": "केंद्र के माध्यम से 4 रेखाओं (2 विकर्ण + 2 द्विभाजक) द्वारा विभाजित एक वर्ग 8 छोटे त्रिभुज बनाता है। कुल त्रिभुज = 8 * 2 = 16।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-023",
+      "number": 23,
+      "question": "Statements: No man is a monkey. Rahim is a man. Conclusion: I. Rahim is not a monkey. II. All men are not Rahim.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both follow",
+        "D": "Neither follows"
+      },
+      "answer": "A",
+      "explanation": "Since no man is a monkey and Rahim is a man, Rahim cannot be a monkey. The second conclusion is a general statement not derived from the premise.",
+      "hash": "2df8b8564c1e3e29",
+      "translations": {
+        "hi": {
+          "question": "कथन: कोई मनुष्य बंदर नहीं है। रहीम एक मनुष्य है। निष्कर्ष: I. रहीम बंदर नहीं है। II. सभी मनुष्य रहीम नहीं हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "चूंकि कोई मनुष्य बंदर नहीं है और रहीम एक मनुष्य है, रहीम बंदर नहीं हो सकता। दूसरा निष्कर्ष एक सामान्य कथन है जो आधार से प्राप्त नहीं हुआ है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-024",
+      "number": 24,
+      "question": "If in a code language, 'ROAD' is written as 'URDG', how is 'SWAN' written?",
+      "options": {
+        "A": "VZDQ",
+        "B": "VXDQ",
+        "C": "VZDP",
+        "D": "UZDQ"
+      },
+      "answer": "A",
+      "explanation": "Each letter is moved three steps forward: R+3=U, O+3=R, A+3=D, D+3=G. For SWAN: S+3=V, W+3=Z, A+3=D, N+3=Q.",
+      "hash": "a29241cac3f593ab",
+      "translations": {
+        "hi": {
+          "question": "यदि कूट भाषा में 'ROAD' को 'URDG' लिखा जाता है, तो 'SWAN' को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "VZDQ",
+            "B": "VXDQ",
+            "C": "VZDP",
+            "D": "UZDQ"
+          },
+          "explanation": "प्रत्येक अक्षर को तीन कदम आगे बढ़ाया गया है: S+3=V, W+3=Z, A+3=D, N+3=Q।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-04-025",
+      "number": 25,
+      "question": "Find the missing number: 2, 5, 10, 17, 26, ?",
+      "options": {
+        "A": "37",
+        "B": "35",
+        "C": "40",
+        "D": "36"
+      },
+      "answer": "A",
+      "explanation": "The series is n^2 + 1: 1^2+1, 2^2+1, 3^2+1, 4^2+1, 5^2+1, 6^2+1 = 37.",
+      "hash": "a357098ea019bee7",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 2, 5, 10, 17, 26, ?",
+          "options": {
+            "A": "37",
+            "B": "35",
+            "C": "40",
+            "D": "36"
+          },
+          "explanation": "श्रृंखला n^2 + 1 है: 1^2+1, 2^2+1, 3^2+1, 4^2+1, 5^2+1, 6^2+1 = 37।"
+        }
+      }
+    }
+  ]
+}

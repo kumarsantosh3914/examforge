@@ -58,6 +58,20 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Level 1 posts in Indian Railways, such as track maintainer and assistant. Timed sets for all four CBT sections: Science, Mathematics, Reasoning and General Awareness.',
     description: 'Free RRB Group D mock tests for the Level 1 CBT: timed sets for General Science, Mathematics, Reasoning and General Awareness & Current Affairs, with explanations in English and Hindi.',
   },
+  'rpf-constable': {
+    family: 'railway',
+    title: 'RPF Constable',
+    body: 'Railway Protection Force (Railway Recruitment Boards)',
+    blurb: 'Railway Protection Force constable recruitment. Ten full 120-question, 90-minute mock tests, plus sets for General Awareness, Mathematics and Reasoning.',
+    description: 'Free RPF Constable mock tests for the Railway Recruitment Board CBT: full 120-question, 90-minute papers, and practice sets for General Awareness, Mathematics (Arithmetic) and Reasoning, with explanations in English and Hindi.',
+  },
+  'rrb-je': {
+    family: 'railway',
+    title: 'RRB JE',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Junior Engineer recruitment, CBT-1 stage. Ten full 100-question, 90-minute mock tests, plus sets for Mathematics, General Science, Reasoning and General Awareness.',
+    description: 'Free RRB JE CBT-1 mock tests: full 100-question, 90-minute papers, and practice sets for Mathematics, General Science, Reasoning and General Awareness, with explanations in English and Hindi.',
+  },
   'dsssb-tgt/computer-science': {
     family: 'teaching',
     title: 'DSSSB TGT Computer Science',

@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 5,
+  "title": "Mathematics Mock Test 5",
+  "questions": [
+    {
+      "id": "mathematics-05-001",
+      "number": 1,
+      "question": "Find the coordinates of the circumcenter of a triangle whose vertices are (8, 6), (8, -2) and (2, -2).",
+      "options": {
+        "A": "(5, 2)",
+        "B": "(4, 3)",
+        "C": "(5, 3)",
+        "D": "(4, 2)"
+      },
+      "answer": "A",
+      "explanation": "The triangle is right-angled at (8, -2). The circumcenter of a right triangle is the midpoint of the hypotenuse. Midpoint of (8, 6) and (2, -2) is [(8+2)/2, (6-2)/2] = (5, 2).",
+      "hash": "957dea96e2fb0b88",
+      "translations": {
+        "hi": {
+          "question": "उस त्रिभुज के परिकेंद्र के निर्देशांक ज्ञात कीजिए जिसके शीर्ष (8, 6), (8, -2) और (2, -2) हैं।",
+          "options": {
+            "A": "(5, 2)",
+            "B": "(4, 3)",
+            "C": "(5, 3)",
+            "D": "(4, 2)"
+          },
+          "explanation": "त्रिभुज (8, -2) पर समकोण है। समकोण त्रिभुज का परिकेंद्र कर्ण का मध्यबिंदु होता है। (8, 6) और (2, -2) का मध्यबिंदु = (5, 2)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-002",
+      "number": 2,
+      "question": "A solid metallic right circular cone of 20 cm height and vertical angle 60 degrees is cut into two parts at the middle of its height by a plane parallel to its base. If the frustum so obtained is drawn into a wire of diameter 1/16 cm, find the length of the wire.",
+      "options": {
+        "A": "7964.44 m",
+        "B": "8000.50 m",
+        "C": "7500.00 m",
+        "D": "7840.20 m"
+      },
+      "answer": "A",
+      "explanation": "R = 20*tan30 = 20/sqrt(3), r = 10/sqrt(3). Vol = (1/3)pi*h(R^2+r^2+Rr) = 22000/9 pi. Vol of wire = pi*(1/32)^2 * L. Equating gives L = 7964.44 m.",
+      "hash": "239bc7bd670a153f",
+      "translations": {
+        "hi": {
+          "question": "20 सेमी ऊँचाई और 60 डिग्री ऊर्ध्वाधर कोण वाले एक ठोस धातु के लंब वृत्तीय शंकु को उसकी ऊँचाई के मध्य में आधार के समांतर एक तल द्वारा दो भागों में काटा जाता है। यदि इस प्रकार प्राप्त छिन्नक (frustum) को 1/16 सेमी व्यास के तार में खींचा जाता है, तो तार की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "7964.44 मीटर",
+            "B": "8000.50 मीटर",
+            "C": "7500.00 मीटर",
+            "D": "7840.20 मीटर"
+          },
+          "explanation": "छिन्नक का आयतन = 22000/9 pi. तार का आयतन = pi*(1/32)^2 * L. हल करने पर L = 7964.44 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-003",
+      "number": 3,
+      "question": "If x = (sqrt(3) + 1) / (sqrt(3) - 1) and y = (sqrt(3) - 1) / (sqrt(3) + 1), find the value of x^2 + xy + y^2.",
+      "options": {
+        "A": "15",
+        "B": "13",
+        "C": "14",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "x = 2 + sqrt(3), y = 2 - sqrt(3). x + y = 4, xy = 1. x^2 + xy + y^2 = (x+y)^2 - xy = 4^2 - 1 = 15.",
+      "hash": "b93ace8bd9e393bb",
+      "translations": {
+        "hi": {
+          "question": "यदि x = (sqrt(3) + 1) / (sqrt(3) - 1) और y = (sqrt(3) - 1) / (sqrt(3) + 1) है, तो x^2 + xy + y^2 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "15",
+            "B": "13",
+            "C": "14",
+            "D": "16"
+          },
+          "explanation": "x = 2 + sqrt(3), y = 2 - sqrt(3). x + y = 4, xy = 1. x^2 + xy + y^2 = 16 - 1 = 15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-004",
+      "number": 4,
+      "question": "Find the sum of all 3-digit numbers which leave a remainder 2 when divided by 5.",
+      "options": {
+        "A": "98910",
+        "B": "99090",
+        "C": "98000",
+        "D": "99180"
+      },
+      "answer": "A",
+      "explanation": "AP: 102, 107, ..., 997. n = [(997-102)/5] + 1 = 180. Sum = (180/2)(102 + 997) = 90 * 1099 = 98910.",
+      "hash": "8b0fbb5e9fb48790",
+      "translations": {
+        "hi": {
+          "question": "5 से विभाजित होने पर 2 शेषफल छोड़ने वाली सभी 3-अंकीय संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "98910",
+            "B": "99090",
+            "C": "98000",
+            "D": "99180"
+          },
+          "explanation": "AP: 102, 107, ..., 997. n = 180. योग = 90 * 1099 = 98910."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-005",
+      "number": 5,
+      "question": "A cistern has two pipes. One can fill it with water in 8 hours and the other can empty it in 5 hours. In how many hours will the cistern be emptied if both the pipes are opened together when 3/4 of the cistern is already full?",
+      "options": {
+        "A": "10 hours",
+        "B": "13.33 hours",
+        "C": "6 hours",
+        "D": "12 hours"
+      },
+      "answer": "A",
+      "explanation": "Net work per hour = 1/8 - 1/5 = -3/40 (emptying). Time to empty 3/4 volume = (3/4) / (3/40) = 10 hours.",
+      "hash": "61122f1b150945b2",
+      "translations": {
+        "hi": {
+          "question": "एक हौज में दो पाइप हैं। एक इसे 8 घंटे में पानी से भर सकता है और दूसरा इसे 5 घंटे में खाली कर सकता है। यदि हौज का 3/4 भाग पहले से भरा होने पर दोनों पाइप एक साथ खोल दिए जाएं, तो हौज कितने घंटे में खाली हो जाएगा?",
+          "options": {
+            "A": "10 घंटे",
+            "B": "13.33 घंटे",
+            "C": "6 घंटे",
+            "D": "12 घंटे"
+          },
+          "explanation": "प्रति घंटे कुल कार्य = 1/8 - 1/5 = -3/40 (खाली करना)। 3/4 भाग को खाली करने का समय = (3/4) / (3/40) = 10 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-006",
+      "number": 6,
+      "question": "If the points A(6, 1), B(8, 2), C(9, 4) and D(p, 3) are the vertices of a parallelogram, taken in order, find the value of p.",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "In a parallelogram, midpoints of diagonals AC and BD coincide. Midpoint of AC = (15/2, 5/2). Midpoint of BD = ([8+p]/2, 5/2). 8+p = 15 => p=7.",
+      "hash": "18af26b5ddad83e8",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु A(6, 1), B(8, 2), C(9, 4) और D(p, 3) एक समांतर चतुर्भुज के शीर्ष हैं, तो p का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "7",
+            "B": "6",
+            "C": "8",
+            "D": "5"
+          },
+          "explanation": "समांतर चतुर्भुज में, विकर्णों के मध्यबिंदु समान होते हैं। AC का मध्यबिंदु = BD का मध्यबिंदु। 15/2 = (8+p)/2 => p=7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-007",
+      "number": 7,
+      "question": "If cos theta + sin theta = sqrt(2) cos theta, show that cos theta - sin theta is equal to:",
+      "options": {
+        "A": "sqrt(2) sin theta",
+        "B": "-sqrt(2) sin theta",
+        "C": "sqrt(2) cos theta",
+        "D": "sin theta"
+      },
+      "answer": "A",
+      "explanation": "Squaring given eq: 1 + 2sin*cos = 2cos^2. We need y = cos-sin. y^2 = 1 - 2sin*cos. Substituting 2sin*cos: y^2 = 1 - (2cos^2 - 1) = 2 - 2cos^2 = 2sin^2. y = sqrt(2) sin theta.",
+      "hash": "ac0ced73633df323",
+      "translations": {
+        "hi": {
+          "question": "यदि cos theta + sin theta = sqrt(2) cos theta है, तो दिखाएँ कि cos theta - sin theta किसके बराबर है:",
+          "options": {
+            "A": "sqrt(2) sin theta",
+            "B": "-sqrt(2) sin theta",
+            "C": "sqrt(2) cos theta",
+            "D": "sin theta"
+          },
+          "explanation": "वर्ग करने पर 2sin*cos = 2cos^2 - 1. (cos-sin)^2 = 1 - (2cos^2-1) = 2sin^2. उत्तर = sqrt(2) sin theta."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-008",
+      "number": 8,
+      "question": "A path 2.5 m wide runs around the outside of a rectangular garden 30 m long and 25 m wide. Find the cost of leveling the path at Rs 10 per sq m.",
+      "options": {
+        "A": "3000",
+        "B": "2750",
+        "C": "3250",
+        "D": "2500"
+      },
+      "answer": "A",
+      "explanation": "Outer L = 30+5=35, Outer B = 25+5=30. Path Area = (35*30) - (30*25) = 1050 - 750 = 300. Cost = 300 * 10 = 3000.",
+      "hash": "a88fd530953a961b",
+      "translations": {
+        "hi": {
+          "question": "30 मीटर लंबे और 25 मीटर चौड़े एक आयताकार बगीचे के बाहर चारों ओर 2.5 मीटर चौड़ा रास्ता है। 10 रुपये प्रति वर्ग मीटर की दर से रास्ते को समतल करने की लागत ज्ञात कीजिए।",
+          "options": {
+            "A": "3000",
+            "B": "2750",
+            "C": "3250",
+            "D": "2500"
+          },
+          "explanation": "बाहरी क्षेत्रफल = 35*30 = 1050. आंतरिक = 750. रास्ते का क्षेत्रफल = 300. लागत = 3000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-009",
+      "number": 9,
+      "question": "If sec theta = x + 1/(4x), then find the value of sec theta + tan theta.",
+      "options": {
+        "A": "2x or 1/(2x)",
+        "B": "x",
+        "C": "2x",
+        "D": "4x"
+      },
+      "answer": "A",
+      "explanation": "tan^2 = sec^2 - 1 = [x + 1/(4x)]^2 - 1 = [x - 1/(4x)]^2. tan = +/-(x - 1/(4x)). sec+tan = x + 1/4x + x - 1/4x = 2x OR x + 1/4x - x + 1/4x = 1/2x.",
+      "hash": "2e32a739c81cf927",
+      "translations": {
+        "hi": {
+          "question": "यदि sec theta = x + 1/(4x) है, तो sec theta + tan theta का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2x या 1/(2x)",
+            "B": "x",
+            "C": "2x",
+            "D": "4x"
+          },
+          "explanation": "tan^2 = [x - 1/(4x)]^2. sec+tan का मान 2x या 1/2x हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-010",
+      "number": 10,
+      "question": "Find the probability of getting exactly 2 heads when 3 unbiased coins are tossed.",
+      "options": {
+        "A": "3/8",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "3/4"
+      },
+      "answer": "A",
+      "explanation": "Total outcomes = 2^3 = 8. Favorable (HHT, HTH, THH) = 3. Probability = 3/8.",
+      "hash": "ed2c3faded282cad",
+      "translations": {
+        "hi": {
+          "question": "3 निष्पक्ष सिक्कों को उछालने पर ठीक 2 चित (heads) आने की प्रायिकता ज्ञात कीजिए।",
+          "options": {
+            "A": "3/8",
+            "B": "1/2",
+            "C": "1/4",
+            "D": "3/4"
+          },
+          "explanation": "कुल परिणाम = 8. अनुकूल (HHT, HTH, THH) = 3. प्रायिकता = 3/8."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-011",
+      "number": 11,
+      "question": "The radii of the internal and external surfaces of a hollow spherical shell are 3 cm and 5 cm respectively. If it is melted and recast into a solid cylinder of height 2.66 cm, find the diameter of the cylinder.",
+      "options": {
+        "A": "14 cm",
+        "B": "7 cm",
+        "C": "12 cm",
+        "D": "10 cm"
+      },
+      "answer": "A",
+      "explanation": "Vol = 4/3*pi*(5^3 - 3^3) = 4/3*pi*(125-27) = 4/3*pi*98. Vol cylinder = pi*r^2*2.66. r^2 = (4*98)/(3*2.66) approx 49. r=7, Diameter = 14 cm.",
+      "hash": "fae68d0989611665",
+      "translations": {
+        "hi": {
+          "question": "एक खोखले गोलाकार खोल की आंतरिक और बाहरी सतहों की त्रिज्या क्रमशः 3 सेमी और 5 सेमी है। यदि इसे पिघलाकर 2.66 सेमी ऊँचाई के एक ठोस बेलन में ढाला जाता है, तो बेलन का व्यास ज्ञात कीजिए।",
+          "options": {
+            "A": "14 सेमी",
+            "B": "7 सेमी",
+            "C": "12 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "गोले का आयतन = 4/3*pi*98. बेलन का आयतन = pi*r^2*2.66. r^2 = 49 => r=7. व्यास = 14 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-012",
+      "number": 12,
+      "question": "Find the HCF of (x^2 - 1) and (x^2 - 2x + 1).",
+      "options": {
+        "A": "(x - 1)",
+        "B": "(x + 1)",
+        "C": "(x - 1)^2",
+        "D": "(x^2 - 1)"
+      },
+      "answer": "A",
+      "explanation": "x^2-1 = (x-1)(x+1). x^2-2x+1 = (x-1)^2. Common factor is (x-1).",
+      "hash": "32395ce2833d9766",
+      "translations": {
+        "hi": {
+          "question": "(x^2 - 1) और (x^2 - 2x + 1) का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "(x - 1)",
+            "B": "(x + 1)",
+            "C": "(x - 1)^2",
+            "D": "(x^2 - 1)"
+          },
+          "explanation": "x^2-1 = (x-1)(x+1). x^2-2x+1 = (x-1)^2. उभयनिष्ठ गुणनखंड (x-1) है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-013",
+      "number": 13,
+      "question": "If tan(A+B) = sqrt(3) and tan(A-B) = 1/sqrt(3), find A and B.",
+      "options": {
+        "A": "A=45, B=15",
+        "B": "A=60, B=30",
+        "C": "A=30, B=15",
+        "D": "A=50, B=10"
+      },
+      "answer": "A",
+      "explanation": "A+B = 60, A-B = 30. Adding: 2A=90 => A=45. Subtracting: 2B=30 => B=15.",
+      "hash": "4509d786e9cfca73",
+      "translations": {
+        "hi": {
+          "question": "यदि tan(A+B) = sqrt(3) और tan(A-B) = 1/sqrt(3) है, तो A और B ज्ञात कीजिए।",
+          "options": {
+            "A": "A=45, B=15",
+            "B": "A=60, B=30",
+            "C": "A=30, B=15",
+            "D": "A=50, B=10"
+          },
+          "explanation": "A+B = 60, A-B = 30. हल करने पर A = 45 और B = 15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-014",
+      "number": 14,
+      "question": "In a group of 500 people, 280 can speak Hindi and 250 can speak English. How many can speak both Hindi and English?",
+      "options": {
+        "A": "30",
+        "B": "50",
+        "C": "20",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "n(A U B) = n(A) + n(B) - n(A n B). 500 = 280 + 250 - x => 500 = 530 - x => x = 30.",
+      "hash": "f86486adbea3e4f5",
+      "translations": {
+        "hi": {
+          "question": "500 लोगों के एक समूह में, 280 हिंदी बोल सकते हैं और 250 अंग्रेजी बोल सकते हैं। कितने लोग हिंदी और अंग्रेजी दोनों बोल सकते हैं?",
+          "options": {
+            "A": "30",
+            "B": "50",
+            "C": "20",
+            "D": "40"
+          },
+          "explanation": "n(A U B) = n(A) + n(B) - n(A n B). 500 = 530 - x => x = 30."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-015",
+      "number": 15,
+      "question": "A person borrows Rs 5000 for 2 years at 4% p.a. simple interest. He immediately lends it to another person at 6.25% p.a. for 2 years. Find his gain in the transaction per year.",
+      "options": {
+        "A": "112.50",
+        "B": "225",
+        "C": "150",
+        "D": "125"
+      },
+      "answer": "A",
+      "explanation": "Gain % per year = 6.25 - 4 = 2.25%. Gain amount per year = 2.25% of 5000 = 112.50.",
+      "hash": "fe4a3fbc48d2ae76",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 4% वार्षिक साधारण ब्याज पर 2 वर्ष के लिए 5000 रुपये उधार लेता है। वह इसे तुरंत दूसरे व्यक्ति को 2 वर्ष के लिए 6.25% वार्षिक दर पर उधार दे देता है। प्रति वर्ष लेनदेन में उसका लाभ ज्ञात कीजिए।",
+          "options": {
+            "A": "112.50",
+            "B": "225",
+            "C": "150",
+            "D": "125"
+          },
+          "explanation": "प्रति वर्ष लाभ % = 2.25%. प्रति वर्ष लाभ राशि = 5000 का 2.25% = 112.50."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-016",
+      "number": 16,
+      "question": "If the point C(k, 4) divides the join of A(2, 6) and B(5, 1) in the ratio 2:3, find k.",
+      "options": {
+        "A": "3.2",
+        "B": "3.5",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "k = [2(5) + 3(2)] / (2+3) = (10+6)/5 = 16/5 = 3.2.",
+      "hash": "83884d76898b7071",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु C(k, 4) बिंदुओं A(2, 6) और B(5, 1) को मिलाने वाली रेखा को 2:3 के अनुपात में विभाजित करता है, तो k ज्ञात कीजिए।",
+          "options": {
+            "A": "3.2",
+            "B": "3.5",
+            "C": "4",
+            "D": "3"
+          },
+          "explanation": "k = [2(5) + 3(2)] / 5 = 16/5 = 3.2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-017",
+      "number": 17,
+      "question": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card drawn is neither a king nor a queen.",
+      "options": {
+        "A": "11/13",
+        "B": "12/13",
+        "C": "1/13",
+        "D": "9/13"
+      },
+      "answer": "A",
+      "explanation": "Total Kings and Queens = 4 + 4 = 8. Remaining cards = 52 - 8 = 44. Prob = 44/52 = 11/13.",
+      "hash": "88f799d560e953a1",
+      "translations": {
+        "hi": {
+          "question": "52 ताश के पत्तों की एक अच्छी तरह से फेंटी गई गड्डी से एक पत्ता निकाला जाता है। इसकी क्या प्रायिकता है कि निकाला गया पत्ता न तो बादशाह है और न ही बेगम?",
+          "options": {
+            "A": "11/13",
+            "B": "12/13",
+            "C": "1/13",
+            "D": "9/13"
+          },
+          "explanation": "बादशाह और बेगम के कुल पत्ते = 8. शेष पत्ते = 44. प्रायिकता = 44/52 = 11/13."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-018",
+      "number": 18,
+      "question": "Solve for x: 3^(x-1) + 3^(x+1) = 90.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "3^x/3 + 3*3^x = 90 => 3^x(1/3 + 3) = 90 => 3^x(10/3) = 90 => 3^x = 27 => x = 3.",
+      "hash": "6f8abb420b423442",
+      "translations": {
+        "hi": {
+          "question": "x के लिए हल करें: 3^(x-1) + 3^(x+1) = 90.",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "2",
+            "D": "5"
+          },
+          "explanation": "3^x(10/3) = 90 => 3^x = 27. x = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-019",
+      "number": 19,
+      "question": "The area of a regular hexagon is 24*sqrt(3) cm2. Find its perimeter.",
+      "options": {
+        "A": "24 cm",
+        "B": "12 cm",
+        "C": "18 cm",
+        "D": "30 cm"
+      },
+      "answer": "A",
+      "explanation": "Area = 3*sqrt(3)/2 * a^2 = 24*sqrt(3) => a^2 = 16 => a = 4. Perimeter = 6*4 = 24 cm.",
+      "hash": "5b35337ded2dec58",
+      "translations": {
+        "hi": {
+          "question": "एक नियमित षट्भुज का क्षेत्रफल 24*sqrt(3) सेमी2 है। इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "24 सेमी",
+            "B": "12 सेमी",
+            "C": "18 सेमी",
+            "D": "30 सेमी"
+          },
+          "explanation": "क्षेत्रफल सूत्र से a = 4. परिमाप = 6 * 4 = 24 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-020",
+      "number": 20,
+      "question": "Find the value of (1 + tan theta + sec theta)(1 + cot theta - cosec theta).",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "-1"
+      },
+      "answer": "A",
+      "explanation": "Converting to sin and cos: [(cos+sin+1)/cos] * [(sin+cos-1)/sin] = [(sin+cos)^2 - 1] / (sin*cos) = (1 + 2sin*cos - 1) / (sin*cos) = 2.",
+      "hash": "0239a2d6a9134c2e",
+      "translations": {
+        "hi": {
+          "question": "(1 + tan theta + sec theta)(1 + cot theta - cosec theta) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "0",
+            "D": "-1"
+          },
+          "explanation": "sin और cos में बदलने पर सरल करने पर मान 2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-021",
+      "number": 21,
+      "question": "If x^2 + y^2 + z^2 = xy + yz + zx, then triangle formed by sides x, y, z is:",
+      "options": {
+        "A": "Equilateral",
+        "B": "Isosceles",
+        "C": "Right angled",
+        "D": "Scalene"
+      },
+      "answer": "A",
+      "explanation": "Multiplying by 2: (x-y)^2 + (y-z)^2 + (z-x)^2 = 0. This is only possible if x=y=z.",
+      "hash": "a05f171e0ce2a108",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 + y^2 + z^2 = xy + yz + zx है, तो भुजाओं x, y, z द्वारा निर्मित त्रिभुज है:",
+          "options": {
+            "A": "समबाहु",
+            "B": "समद्विबाहु",
+            "C": "समकोण",
+            "D": "विषमबाहु"
+          },
+          "explanation": "समीकरण को 2 से गुणा करने पर (x-y)^2 + (y-z)^2 + (z-x)^2 = 0 प्राप्त होता है। यह केवल तब संभव है जब x=y=z हो।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-022",
+      "number": 22,
+      "question": "The sum of the digits of a two-digit number is 9. If 27 is added to it, the digits of the number get reversed. Find the number.",
+      "options": {
+        "A": "36",
+        "B": "63",
+        "C": "45",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "Let number be 10x+y. x+y=9. 10x+y+27 = 10y+x => 9y-9x=27 => y-x=3. Solving gives y=6, x=3. Number is 36.",
+      "hash": "1fed57e7e27c6a12",
+      "translations": {
+        "hi": {
+          "question": "दो अंकों की एक संख्या के अंकों का योग 9 है। यदि इसमें 27 जोड़ दिया जाए, तो संख्या के अंक उलट जाते हैं। संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "36",
+            "B": "63",
+            "C": "45",
+            "D": "27"
+          },
+          "explanation": "x+y=9, y-x=3. हल करने पर x=3, y=6. संख्या 36 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-023",
+      "number": 23,
+      "question": "If the areas of two similar triangles are 81 cm2 and 49 cm2, and the altitude of the first is 6.3 cm, find the altitude of the second.",
+      "options": {
+        "A": "4.9 cm",
+        "B": "5.6 cm",
+        "C": "3.5 cm",
+        "D": "4.2 cm"
+      },
+      "answer": "A",
+      "explanation": "Ratio of altitudes = sqrt(Ratio of areas) = sqrt(81/49) = 9/7. 9/7 = 6.3/h => h = (6.3 * 7) / 9 = 0.7 * 7 = 4.9.",
+      "hash": "004f2ff877fb0cc9",
+      "translations": {
+        "hi": {
+          "question": "यदि दो समान त्रिभुजों के क्षेत्रफल 81 सेमी2 और 49 सेमी2 हैं, और पहले की ऊँचाई (altitude) 6.3 सेमी है, तो दूसरे की ऊँचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "4.9 सेमी",
+            "B": "5.6 सेमी",
+            "C": "3.5 सेमी",
+            "D": "4.2 सेमी"
+          },
+          "explanation": "ऊँचाई का अनुपात = sqrt(81/49) = 9/7. 9/7 = 6.3/h => h = 4.9 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-024",
+      "number": 24,
+      "question": "Find the values of x for which the distance between P(x, 4) and Q(9, 10) is 10 units.",
+      "options": {
+        "A": "1 or 17",
+        "B": "2 or 16",
+        "C": "3 or 15",
+        "D": "0 or 18"
+      },
+      "answer": "A",
+      "explanation": "(x-9)^2 + (4-10)^2 = 100 => (x-9)^2 + 36 = 100 => (x-9)^2 = 64 => x-9 = +/- 8. x = 17 or 1.",
+      "hash": "7ea2cc75d2b20d31",
+      "translations": {
+        "hi": {
+          "question": "x के वे मान ज्ञात कीजिए जिनके लिए P(x, 4) और Q(9, 10) के बीच की दूरी 10 इकाई है।",
+          "options": {
+            "A": "1 या 17",
+            "B": "2 या 16",
+            "C": "3 या 15",
+            "D": "0 या 18"
+          },
+          "explanation": "(x-9)^2 + 36 = 100. हल करने पर x = 17 या 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-025",
+      "number": 25,
+      "question": "If the angle of elevation of a cloud from a point h meters above a lake is alpha and the angle of depression of its reflection in the lake is beta, find the height of the cloud.",
+      "options": {
+        "A": "h(tan beta + tan alpha) / (tan beta - tan alpha)",
+        "B": "h(tan beta - tan alpha) / (tan beta + tan alpha)",
+        "C": "h tan(alpha+beta)",
+        "D": "2h tan alpha / tan beta"
+      },
+      "answer": "A",
+      "explanation": "Using trigonometric relations for the cloud at height H and its reflection at depth H. H = h(tan beta + tan alpha) / (tan beta - tan alpha).",
+      "hash": "f7bac6311dd39b85",
+      "translations": {
+        "hi": {
+          "question": "यदि झील से h मीटर ऊपर एक बिंदु से बादल का उन्नयन कोण alpha है और झील में उसके प्रतिबिंब का अवनमन कोण beta है, तो बादल की ऊँचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "h(tan beta + tan alpha) / (tan beta - tan alpha)",
+            "B": "h(tan beta - tan alpha) / (tan beta + tan alpha)",
+            "C": "h tan(alpha+beta)",
+            "D": "2h tan alpha / tan beta"
+          },
+          "explanation": "बादल की ऊँचाई H = h(tan beta + tan alpha) / (tan beta - tan alpha)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-026",
+      "number": 26,
+      "question": "If the median of the data: 24, 27, 28, 31, 34, x, 37, 40, 42, 45 (sorted) is 35, find x.",
+      "options": {
+        "A": "36",
+        "B": "35",
+        "C": "34",
+        "D": "37"
+      },
+      "answer": "A",
+      "explanation": "n=10. Median = (5th + 6th)/2 = (34+x)/2 = 35 => 34+x=70 => x=36.",
+      "hash": "6588f8c08b472f69",
+      "translations": {
+        "hi": {
+          "question": "यदि डेटा: 24, 27, 28, 31, 34, x, 37, 40, 42, 45 (क्रमबद्ध) की माध्यिका 35 है, तो x ज्ञात कीजिए।",
+          "options": {
+            "A": "36",
+            "B": "35",
+            "C": "34",
+            "D": "37"
+          },
+          "explanation": "n=10. माध्यिका = (34+x)/2 = 35. हल करने पर x = 36."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-027",
+      "number": 27,
+      "question": "A solid cube is cut into 27 small cubes of equal volume. Find the ratio of the surface area of the original cube to the sum of the surface areas of all the small cubes.",
+      "options": {
+        "A": "1:3",
+        "B": "1:9",
+        "C": "1:27",
+        "D": "1:6"
+      },
+      "answer": "A",
+      "explanation": "Original side A, small side a. A^3 = 27a^3 => A=3a. Original Area = 6A^2 = 6(9a^2) = 54a^2. Total small area = 27 * 6a^2 = 162a^2. Ratio = 54:162 = 1:3.",
+      "hash": "1e6fe9c3e88d6fe4",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस घन को समान आयतन के 27 छोटे घनों में काटा जाता है। मूल घन के पृष्ठीय क्षेत्रफल का सभी छोटे घनों के पृष्ठीय क्षेत्रफलों के योग से अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "1:3",
+            "B": "1:9",
+            "C": "1:27",
+            "D": "1:6"
+          },
+          "explanation": "मूल भुजा A = 3 * छोटी भुजा a. मूल क्षेत्रफल = 54a^2. कुल छोटे क्षेत्रफल = 162a^2. अनुपात = 1:3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-028",
+      "number": 28,
+      "question": "Find the sum of all two-digit numbers which when divided by 4 leave 1 as remainder.",
+      "options": {
+        "A": "1210",
+        "B": "1188",
+        "C": "1200",
+        "D": "1250"
+      },
+      "answer": "A",
+      "explanation": "AP: 13, 17, ..., 97. n = [(97-13)/4] + 1 = 22. Sum = (22/2)(13+97) = 11 * 110 = 1210.",
+      "hash": "1251a2310450dc3d",
+      "translations": {
+        "hi": {
+          "question": "4 से विभाजित होने पर 1 शेषफल छोड़ने वाली सभी दो-अंकीय संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "1210",
+            "B": "1188",
+            "C": "1200",
+            "D": "1250"
+          },
+          "explanation": "AP: 13, 17, ..., 97. n = 22. योग = 11 * 110 = 1210."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-029",
+      "number": 29,
+      "question": "A cylinder of radius 12 cm contains water to a depth of 20 cm. A spherical iron ball is dropped into the cylinder and the water level rises by 6.75 cm. Find the radius of the ball.",
+      "options": {
+        "A": "9 cm",
+        "B": "6 cm",
+        "C": "8 cm",
+        "D": "10 cm"
+      },
+      "answer": "A",
+      "explanation": "Vol of water displaced = pi * 12^2 * 6.75 = 972pi. Vol ball = 4/3 * pi * r^3 = 972pi => r^3 = 729 => r = 9 cm.",
+      "hash": "36a34872d141bfc3",
+      "translations": {
+        "hi": {
+          "question": "12 सेमी त्रिज्या वाले एक बेलन में 20 सेमी की गहराई तक पानी है। बेलन में लोहे की एक गोलाकार गेंद डाली जाती है और पानी का स्तर 6.75 सेमी बढ़ जाता है। गेंद की त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "9 सेमी",
+            "B": "6 सेमी",
+            "C": "8 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "विस्थापित पानी का आयतन = 972pi. गेंद का आयतन = 4/3 * pi * r^3. r^3 = 729 => r = 9 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-030",
+      "number": 30,
+      "question": "If sin(A-B) = 1/2 and cos(A+B) = 1/2, find A and B.",
+      "options": {
+        "A": "A=45, B=15",
+        "B": "A=30, B=30",
+        "C": "A=60, B=0",
+        "D": "A=50, B=10"
+      },
+      "answer": "A",
+      "explanation": "A-B = 30, A+B = 60. Solving gives A=45, B=15.",
+      "hash": "3526ef8b23169eac",
+      "translations": {
+        "hi": {
+          "question": "यदि sin(A-B) = 1/2 और cos(A+B) = 1/2 है, तो A और B ज्ञात कीजिए।",
+          "options": {
+            "A": "A=45, B=15",
+            "B": "A=30, B=30",
+            "C": "A=60, B=0",
+            "D": "A=50, B=10"
+          },
+          "explanation": "A-B = 30, A+B = 60. हल करने पर A = 45 और B = 15."
+        }
+      }
+    }
+  ]
+}

@@ -5,17 +5,19 @@ import { readBank } from '../src/lib/data';
 
 test('cleaned question bank is discovered and validated dynamically', async () => {
   const bank = await readBank();
-  assert.deepEqual(bank.exams.map(e => e._id).sort(), ['bihar-police-constable', 'bpsc-tre-4.0/computer', 'bpsc-tre-4.0/physics-11-12', 'ctet-paper-1', 'ctet-paper-2', 'dsssb-tgt/computer-science', 'rrb-group-d', 'ssc-gd-constable', 'ssc-mts']);
-  assert.equal(bank.subjects.length, 68);
-  assert.equal(bank.sets.length, 425);
-  assert.equal(bank.sourceQuestions, 15893);
-  assert.equal(bank.questions.length, 15886);
+  assert.deepEqual(bank.exams.map(e => e._id).sort(), ['bihar-police-constable', 'bpsc-tre-4.0/computer', 'bpsc-tre-4.0/physics-11-12', 'ctet-paper-1', 'ctet-paper-2', 'dsssb-tgt/computer-science', 'rpf-constable', 'rrb-group-d', 'rrb-je', 'ssc-gd-constable', 'ssc-mts']);
+  assert.equal(bank.subjects.length, 77);
+  assert.equal(bank.sets.length, 512);
+  assert.equal(bank.sourceQuestions, 20073);
+  assert.equal(bank.questions.length, 20066);
   assert.deepEqual(bank.excluded.map(q => q.id).sort(), ['hindi-05-003', 'mathematics-05-014', 'mathematics-06-014', 'mock-test-full-test-05-105', 'mock-test-mathematics-science-full-test-05-073', 'programming-languages-05-027', 'reasoning-02-002']);
   assert.equal(bank.subjects.filter(s => s.examId === 'ssc-gd-constable').length, 5);
   assert.equal(bank.subjects.filter(s => s.examId === 'bpsc-tre-4.0/physics-11-12').length, 20);
   assert.equal(bank.subjects.filter(s => s.examId === 'bihar-police-constable').length, 3);
   assert.equal(bank.subjects.filter(s => s.examId === 'ssc-mts').length, 6);
   assert.equal(bank.subjects.filter(s => s.examId === 'rrb-group-d').length, 4);
+  assert.equal(bank.subjects.filter(s => s.examId === 'rpf-constable').length, 4);
+  assert.equal(bank.subjects.filter(s => s.examId === 'rrb-je').length, 5);
   assert.equal(bank.subjects.filter(s => s.examId === 'ctet-paper-1').length, 6);
   assert.equal(bank.subjects.filter(s => s.examId === 'ctet-paper-2').length, 9);
   // Source IDs are unique within an exam; exams may reuse them (both SSC GD and DSSSB have `mock-test-01-001`).
@@ -42,8 +44,15 @@ test('exam index sets negative marking and a subject index can fix a set time li
   const mtsMocks = bank.sets.filter(s => s.subjectId === 'ssc-mts/mock-test-session-i' || s.subjectId === 'ssc-mts/mock-test-session-ii');
   assert.equal(mtsMocks.length, 19);
   for (const set of mtsMocks) assert.deepEqual([set.durationSeconds, 'negativeMarking' in set], [2700, false]);
+  // Full RPF Constable (120 questions) and RRB JE CBT-1 (100 questions) mock tests keep the real 90 minutes, scaled to the set's size.
+  const railMocks: [string, number][] = [['rpf-constable/mock-test-full-test', 120], ['rrb-je/mock-test-cbt-1-full-test', 100]];
+  for (const [subjectId, full] of railMocks) {
+    const sets = bank.sets.filter(s => s.subjectId === subjectId);
+    assert.equal(sets.length, 10);
+    for (const set of sets) assert.deepEqual([set.durationSeconds, 'negativeMarking' in set], [Math.round(set.questionCount * 90 / full) * 60, false]);
+  }
   // Other sets keep one minute per question and no deduction.
-  const fixed = new Set(['bihar-police-constable/mock-test', 'ssc-mts/mock-test-session-i', 'ssc-mts/mock-test-session-ii']);
+  const fixed = new Set(['bihar-police-constable/mock-test', 'ssc-mts/mock-test-session-i', 'ssc-mts/mock-test-session-ii', ...railMocks.map(([id]) => id)]);
   for (const set of bank.sets.filter(s => s.examId !== 'dsssb-tgt/computer-science' && !fixed.has(s.subjectId))) {
     assert.equal(set.durationSeconds, set.questionCount * 60);
     assert.equal('negativeMarking' in set, false);

@@ -1,0 +1,657 @@
+{
+  "subject": "Reasoning",
+  "set": 3,
+  "title": "Reasoning Mock Test 3",
+  "questions": [
+    {
+      "id": "reasoning-03-001",
+      "number": 1,
+      "question": "Seven friends O, P, Q, R, S, T and U are watching a movie sitting in a row. S is sitting at one extreme end. Q is sitting second to the right of S. P is sitting between O and Q. U is not sitting at any extreme end. R is sitting to the left of T. Who is sitting at the extreme right end?",
+      "options": {
+        "A": "R",
+        "B": "T",
+        "C": "U",
+        "D": "P"
+      },
+      "answer": "B",
+      "explanation": "The arrangement is S - U - Q - P - O - R - T. Thus, T is at the extreme right end.",
+      "hash": "13fd603e704da6fc",
+      "translations": {
+        "hi": {
+          "question": "सात मित्र O, P, Q, R, S, T और U एक पंक्ति में बैठकर फिल्म देख रहे हैं। S एक अंतिम छोर पर बैठा है। Q, S के दाएं से दूसरे स्थान पर बैठा है। P, O और Q के बीच बैठा है। U किसी भी अंतिम छोर पर नहीं बैठा है। R, T के बाईं ओर बैठा है। अंतिम दाएं छोर पर कौन बैठा है?",
+          "options": {
+            "A": "R",
+            "B": "T",
+            "C": "U",
+            "D": "P"
+          },
+          "explanation": "व्यवस्था S - U - Q - P - O - R - T है। अतः, T अंतिम दाएं छोर पर है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-002",
+      "number": 2,
+      "question": "If in a code language, PAINT is written as 74128 and EXCEL is written as 93596, how will ACCEPT be written in that code?",
+      "options": {
+        "A": "455978",
+        "B": "459578",
+        "C": "455908",
+        "D": "733918"
+      },
+      "answer": "A",
+      "explanation": "Directly substitute letters with digits: A=4, C=5, E=9, P=7, T=8. So, ACCEPT = 455978.",
+      "hash": "0b22a7be6900c591",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी कूट भाषा में PAINT को 74128 और EXCEL को 93596 लिखा जाता है, तो उसी कूट में ACCEPT को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "455978",
+            "B": "459578",
+            "C": "455908",
+            "D": "733918"
+          },
+          "explanation": "अक्षरों को सीधे अंकों से बदलें: A=4, C=5, E=9, P=7, T=8। इसलिए, ACCEPT = 455978।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-003",
+      "number": 3,
+      "question": "Statement: Some doctors are fools. Ram is a doctor. Conclusion: I. Ram is a fool. II. Some fools are doctors.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither follows"
+      },
+      "answer": "B",
+      "explanation": "Ram is a doctor, but we don't know if he falls in the 'fool' category. However, 'Some doctors are fools' implies 'Some fools are doctors'.",
+      "hash": "946908212c72a263",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ डॉक्टर मूर्ख हैं। राम एक डॉक्टर है। निष्कर्ष: I. राम एक मूर्ख है। II. कुछ मूर्ख डॉक्टर हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "राम एक डॉक्टर है, लेकिन हमें नहीं पता कि वह 'मूर्ख' श्रेणी में आता है या नहीं। हालांकि, 'कुछ डॉक्टर मूर्ख हैं' का अर्थ है 'कुछ मूर्ख डॉक्टर हैं'।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-004",
+      "number": 4,
+      "question": "If the day before yesterday was Thursday, when will Sunday be?",
+      "options": {
+        "A": "Tomorrow",
+        "B": "Today",
+        "C": "Day after tomorrow",
+        "D": "Two days after tomorrow"
+      },
+      "answer": "A",
+      "explanation": "Day before yesterday = Thursday, so Yesterday = Friday, Today = Saturday. Therefore, Sunday is Tomorrow.",
+      "hash": "d89d63bbe03935d9",
+      "translations": {
+        "hi": {
+          "question": "यदि परसों गुरुवार था, तो रविवार कब होगा?",
+          "options": {
+            "A": "कल (आने वाला)",
+            "B": "आज",
+            "C": "परसों (आने वाला)",
+            "D": "नर्सों"
+          },
+          "explanation": "बीता हुआ परसों = गुरुवार, इसलिए बीता हुआ कल = शुक्रवार, आज = शनिवार। अतः, रविवार कल है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-005",
+      "number": 5,
+      "question": "Find the missing number in the series: 2, 12, 36, 80, 150, ?",
+      "options": {
+        "A": "252",
+        "B": "250",
+        "C": "242",
+        "D": "258"
+      },
+      "answer": "A",
+      "explanation": "Pattern is (n^3 + n^2): 1^3+1^2=2, 2^3+2^2=12, 3^3+3^2=36, 4^3+4^2=80, 5^3+5^2=150, 6^3+6^2=252.",
+      "hash": "26d4541671d0f08e",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 2, 12, 36, 80, 150, ?",
+          "options": {
+            "A": "252",
+            "B": "250",
+            "C": "242",
+            "D": "258"
+          },
+          "explanation": "पैटर्न (n^3 + n^2) है: 1^3+1^2=2, 2^3+2^2=12, 3^3+3^2=36, 4^3+4^2=80, 5^3+5^2=150, 6^3+6^2=252।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-006",
+      "number": 6,
+      "question": "Find the odd one out: 27, 64, 125, 144, 216",
+      "options": {
+        "A": "64",
+        "B": "125",
+        "C": "144",
+        "D": "216"
+      },
+      "answer": "C",
+      "explanation": "All are perfect cubes (3^3, 4^3, 5^3, 6^3) except 144, which is a perfect square (12^2).",
+      "hash": "4ee52635cf25b11b",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 27, 64, 125, 144, 216",
+          "options": {
+            "A": "64",
+            "B": "125",
+            "C": "144",
+            "D": "216"
+          },
+          "explanation": "144 को छोड़कर सभी पूर्ण घन (3^3, 4^3, 5^3, 6^3) हैं, जबकि 144 एक पूर्ण वर्ग (12^2) है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-007",
+      "number": 7,
+      "question": "A man starts from a point and moves 3 km North, then turns West and goes 2 km, then turns North and goes 1 km, and finally moves 5 km towards East. How far is he from the starting point?",
+      "options": {
+        "A": "5 km",
+        "B": "7 km",
+        "C": "10 km",
+        "D": "4 km"
+      },
+      "answer": "A",
+      "explanation": "Total Vertical (North) = 3+1 = 4 km. Total Horizontal (East) = 5-2 = 3 km. Distance = sqrt(4^2 + 3^2) = 5 km.",
+      "hash": "7a9e6027b0cfe8da",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति एक बिंदु से शुरू करता है और 3 किमी उत्तर की ओर जाता है, फिर पश्चिम की ओर मुड़ता है और 2 किमी जाता है, फिर उत्तर की ओर मुड़ता है और 1 किमी जाता है, और अंत में पूर्व की ओर 5 किमी चलता है। वह आरंभिक बिंदु से कितनी दूर है?",
+          "options": {
+            "A": "5 किमी",
+            "B": "7 किमी",
+            "C": "10 किमी",
+            "D": "4 किमी"
+          },
+          "explanation": "कुल लंबवत (उत्तर) = 3+1 = 4 किमी। कुल क्षैतिज (पूर्व) = 5-2 = 3 किमी। दूरी = sqrt(4^2 + 3^2) = 5 किमी।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-008",
+      "number": 8,
+      "question": "If 'LIGHT' is coded as 'MJHIU', how is 'FRAME' coded?",
+      "options": {
+        "A": "GSB NF",
+        "B": "GSBNF",
+        "C": "HTB NF",
+        "D": "GSBMF"
+      },
+      "answer": "B",
+      "explanation": "Each letter is moved one step forward: L+1=M, I+1=J, G+1=H, H+1=I, T+1=U. Similarly for FRAME.",
+      "hash": "01a84fbafc3dd6ca",
+      "translations": {
+        "hi": {
+          "question": "यदि 'LIGHT' को 'MJHIU' के रूप में कोडित किया गया है, तो 'FRAME' को कैसे कोडित किया गया है?",
+          "options": {
+            "A": "GSB NF",
+            "B": "GSBNF",
+            "C": "HTB NF",
+            "D": "GSBMF"
+          },
+          "explanation": "प्रत्येक अक्षर को एक कदम आगे बढ़ाया गया है: L+1=M, I+1=J, G+1=H, H+1=I, T+1=U। FRAME के लिए भी ऐसा ही है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-009",
+      "number": 9,
+      "question": "Arrange the following in a meaningful order: 1. Death, 2. Marriage, 3. Education, 4. Birth, 5. Funeral.",
+      "options": {
+        "A": "4, 3, 2, 1, 5",
+        "B": "4, 3, 2, 5, 1",
+        "C": "4, 2, 3, 1, 5",
+        "D": "3, 4, 2, 1, 5"
+      },
+      "answer": "A",
+      "explanation": "The chronological order is Birth, Education, Marriage, Death, then Funeral.",
+      "hash": "fee3a3b5ceb55a60",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित को सार्थक क्रम में व्यवस्थित करें: 1. मृत्यु, 2. विवाह, 3. शिक्षा, 4. जन्म, 5. अंतिम संस्कार।",
+          "options": {
+            "A": "4, 3, 2, 1, 5",
+            "B": "4, 3, 2, 5, 1",
+            "C": "4, 2, 3, 1, 5",
+            "D": "3, 4, 2, 1, 5"
+          },
+          "explanation": "कालानुक्रमिक क्रम जन्म, शिक्षा, विवाह, मृत्यु, फिर अंतिम संस्कार है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-010",
+      "number": 10,
+      "question": "How many 4s are there in the following sequence which are immediately preceded by 6 but not immediately followed by 5? 6 4 5 7 6 4 3 4 8 6 4 5 6 4 1",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "Looking for '64' not followed by 5: ...6 4 3... and ...6 4 1... (Total 2 instances).",
+      "hash": "1db8e6fe21a3cd29",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित अनुक्रम में ऐसे कितने 4 हैं जिनके ठीक पहले 6 है लेकिन ठीक बाद 5 नहीं है? 6 4 5 7 6 4 3 4 8 6 4 5 6 4 1",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "'64' की तलाश है जिसके बाद 5 न हो: ...6 4 3... और ...6 4 1... (कुल 2 उदाहरण)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-011",
+      "number": 11,
+      "question": "Choose the alternative which is closely resembles the water-image of the word: BRIDGE",
+      "options": {
+        "A": "B R I D G E (upside down)",
+        "B": "E G D I R B",
+        "C": "B R I D G E",
+        "D": "P R I D G E"
+      },
+      "answer": "A",
+      "explanation": "In a water image, the top and bottom parts are interchanged while the left and right sides remain the same.",
+      "hash": "c2032fb2b803a16e",
+      "translations": {
+        "hi": {
+          "question": "उस विकल्प को चुनें जो शब्द के जल-प्रतिबिंब से काफी मिलता-जुलता हो: BRIDGE",
+          "options": {
+            "A": "B R I D G E (उल्टा)",
+            "B": "E G D I R B",
+            "C": "B R I D G E",
+            "D": "P R I D G E"
+          },
+          "explanation": "जल प्रतिबिंब में, ऊपर और नीचे के भाग आपस में बदल जाते हैं जबकि बाएं और दाएं पक्ष समान रहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-012",
+      "number": 12,
+      "question": "Find the number of squares in an 8x8 chessboard.",
+      "options": {
+        "A": "64",
+        "B": "204",
+        "C": "128",
+        "D": "216"
+      },
+      "answer": "B",
+      "explanation": "Sum of squares of first 8 natural numbers: 1^2 + 2^2 + ... + 8^2 = (8*9*17)/6 = 204.",
+      "hash": "4b5d0a3d9b2caf6f",
+      "translations": {
+        "hi": {
+          "question": "8x8 शतरंज की बिसात में वर्गों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "64",
+            "B": "204",
+            "C": "128",
+            "D": "216"
+          },
+          "explanation": "पहली 8 प्राकृतिक संख्याओं के वर्गों का योग: 1^2 + 2^2 + ... + 8^2 = (8*9*17)/6 = 204।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-013",
+      "number": 13,
+      "question": "If 1st October is Sunday, then 1st November will be?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday"
+      },
+      "answer": "C",
+      "explanation": "October has 31 days. 31 / 7 leaves remainder 3. Sunday + 3 = Wednesday.",
+      "hash": "7ffcd2e6638269e7",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 अक्टूबर को रविवार है, तो 1 नवंबर को क्या होगा?",
+          "options": {
+            "A": "सोमवार",
+            "B": "मंगलवार",
+            "C": "बुधवार",
+            "D": "गुरुवार"
+          },
+          "explanation": "अक्टूबर में 31 दिन होते हैं। 31 / 7 शेष 3 बचता है। रविवार + 3 = बुधवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-014",
+      "number": 14,
+      "question": "Identify the missing number: 1, 3, 7, 15, 31, 63, ?",
+      "options": {
+        "A": "127",
+        "B": "125",
+        "C": "126",
+        "D": "128"
+      },
+      "answer": "A",
+      "explanation": "Pattern is (Previous number * 2) + 1. So, (63 * 2) + 1 = 127.",
+      "hash": "babebbbe87a664d9",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या पहचानें: 1, 3, 7, 15, 31, 63, ?",
+          "options": {
+            "A": "127",
+            "B": "125",
+            "C": "126",
+            "D": "128"
+          },
+          "explanation": "पैटर्न (पिछली संख्या * 2) + 1 है। इसलिए, (63 * 2) + 1 = 127।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-015",
+      "number": 15,
+      "question": "Complete the series: Z, X, V, T, R, ?",
+      "options": {
+        "A": "P",
+        "B": "Q",
+        "C": "S",
+        "D": "O"
+      },
+      "answer": "A",
+      "explanation": "The series moves backward by skipping one letter: Z(-2)X(-2)V(-2)T(-2)R(-2)P.",
+      "hash": "9129790b26b5d7b6",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: Z, X, V, T, R, ?",
+          "options": {
+            "A": "P",
+            "B": "Q",
+            "C": "S",
+            "D": "O"
+          },
+          "explanation": "श्रृंखला एक अक्षर को छोड़कर पीछे की ओर बढ़ती है: Z(-2)X(-2)V(-2)T(-2)R(-2)P।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-016",
+      "number": 16,
+      "question": "Statements: All goats are tigers. All tigers are lions. Conclusion: I. All tigers are goats. II. All goats are lions.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither follows"
+      },
+      "answer": "B",
+      "explanation": "If A is in B and B is in C, then A is in C. All goats are tigers, and tigers are lions, so all goats are lions. The reverse is not necessarily true.",
+      "hash": "cf97ba3a89b6ad0b",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी बकरियाँ बाघ हैं। सभी बाघ शेर हैं। निष्कर्ष: I. सभी बाघ बकरियाँ हैं। II. सभी बकरियाँ शेर हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "यदि A, B में है और B, C में है, तो A, C में है। सभी बकरियाँ बाघ हैं, और बाघ शेर हैं, इसलिए सभी बकरियाँ शेर हैं। इसका उल्टा जरूरी नहीं कि सच हो।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-017",
+      "number": 17,
+      "question": "A cube is colored red on all faces. It is cut into 125 smaller cubes of equal size. How many cubes have exactly two faces colored?",
+      "options": {
+        "A": "36",
+        "B": "24",
+        "C": "48",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "n = cube root of 125 = 5. Cubes with two faces colored = 12 * (n - 2) = 12 * 3 = 36.",
+      "hash": "5dc836b997e09337",
+      "translations": {
+        "hi": {
+          "question": "एक घन के सभी फलकों को लाल रंग से रंगा गया है। इसे समान आकार के 125 छोटे घनों में काटा गया है। कितने घनों के ठीक दो फलक रंगे हुए हैं?",
+          "options": {
+            "A": "36",
+            "B": "24",
+            "C": "48",
+            "D": "60"
+          },
+          "explanation": "n = 125 का घनमूल = 5। दो फलक रंगे हुए घनों की संख्या = 12 * (n - 2) = 12 * 3 = 36।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-018",
+      "number": 18,
+      "question": "If 123 stands for 36, and 234 stands for 81, then 345 stands for?",
+      "options": {
+        "A": "144",
+        "B": "100",
+        "C": "121",
+        "D": "169"
+      },
+      "answer": "A",
+      "explanation": "Sum the digits and square the result: (1+2+3)^2 = 36; (2+3+4)^2 = 81; (3+4+5)^2 = 144.",
+      "hash": "db8fb6de5de212ff",
+      "translations": {
+        "hi": {
+          "question": "यदि 123 का अर्थ 36 है, और 234 का अर्थ 81 है, तो 345 का अर्थ क्या है?",
+          "options": {
+            "A": "144",
+            "B": "100",
+            "C": "121",
+            "D": "169"
+          },
+          "explanation": "अंकों को जोड़ें और परिणाम का वर्ग करें: (1+2+3)^2 = 36; (2+3+4)^2 = 81; (3+4+5)^2 = 144।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-019",
+      "number": 19,
+      "question": "Which number will replace the question mark? 5 : 124 :: 7 : ?",
+      "options": {
+        "A": "342",
+        "B": "343",
+        "C": "248",
+        "D": "125"
+      },
+      "answer": "A",
+      "explanation": "Logic is n^3 - 1: 5^3 - 1 = 124. Similarly, 7^3 - 1 = 342.",
+      "hash": "4f65e4f3929e855c",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या प्रश्न चिह्न का स्थान लेगी? 5 : 124 :: 7 : ?",
+          "options": {
+            "A": "342",
+            "B": "343",
+            "C": "248",
+            "D": "125"
+          },
+          "explanation": "लॉजिक n^3 - 1 है: 5^3 - 1 = 124। इसी तरह, 7^3 - 1 = 342।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-020",
+      "number": 20,
+      "question": "A clock is placed so that at 12 noon its minute hand points towards North-East. In which direction does its hour hand point at 1:30 PM?",
+      "options": {
+        "A": "East",
+        "B": "South",
+        "C": "North",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "At 12:00, North is North-East (45 deg clockwise shift). At 1:30, the hour hand is halfway between 1 and 2 (normally 45 deg from North). With the shift, it points 45+45 = 90 deg from North, which is East.",
+      "hash": "093029f14bfd07cf",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी इस प्रकार रखी गई है कि दोपहर 12 बजे इसकी मिनट की सुई उत्तर-पूर्व की ओर इशारा करती है। दोपहर 1:30 बजे इसकी घंटे की सुई किस दिशा में इशारा करेगी?",
+          "options": {
+            "A": "पूर्व",
+            "B": "दक्षिण",
+            "C": "उत्तर",
+            "D": "पश्चिम"
+          },
+          "explanation": "12:00 बजे, उत्तर उत्तर-पूर्व है (45 डिग्री दक्षिणावर्त बदलाव)। 1:30 बजे, घंटे की सुई 1 और 2 के बीच होती है (सामान्यतः उत्तर से 45 डिग्री)। बदलाव के साथ, यह उत्तर से 45+45 = 90 डिग्री पर इशारा करती है, जो कि पूर्व है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-021",
+      "number": 21,
+      "question": "In a class of 60, where girls are twice that of boys, Kamal ranked seventeenth from the top. If there are 9 girls ahead of Kamal, how many boys are after him in rank?",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "7",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Total Boys = 20, Girls = 40. Kamal's rank = 17. Ahead of him are 16 students (9 girls, so 7 boys). Kamal is the 8th boy. Boys after him = 20 - 8 = 12.",
+      "hash": "e19ebcc974548093",
+      "translations": {
+        "hi": {
+          "question": "60 की एक कक्षा में, जहाँ लड़कियाँ लड़कों से दोगुनी हैं, कमल ऊपर से सत्रहवें स्थान पर है। यदि कमल से आगे 9 लड़कियाँ हैं, तो रैंक में उसके बाद कितने लड़के हैं?",
+          "options": {
+            "A": "12",
+            "B": "13",
+            "C": "7",
+            "D": "3"
+          },
+          "explanation": "कुल लड़के = 20, लड़कियाँ = 40। कमल का रैंक = 17। उससे आगे 16 छात्र हैं (9 लड़कियाँ, इसलिए 7 लड़के)। कमल 8वां लड़का है। उसके बाद लड़के = 20 - 8 = 12।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-022",
+      "number": 22,
+      "question": "Find the odd pair:",
+      "options": {
+        "A": "Gold - Ornaments",
+        "B": "Wood - Furniture",
+        "C": "Leather - Footwear",
+        "D": "Earthen Pots - Clay"
+      },
+      "answer": "D",
+      "explanation": "In A, B, and C, the first word is the material and the second is the product. In D, the order is reversed.",
+      "hash": "f2b9882b4e0ddbd0",
+      "translations": {
+        "hi": {
+          "question": "विषम युग्म चुनें:",
+          "options": {
+            "A": "सोना - आभूषण",
+            "B": "लकड़ी - फर्नीचर",
+            "C": "चमड़ा - जूते",
+            "D": "मिट्टी के बर्तन - मिट्टी"
+          },
+          "explanation": "A, B, और C में, पहला शब्द सामग्री है और दूसरा उत्पाद है। D में, क्रम उल्टा है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-023",
+      "number": 23,
+      "question": "What is the angle between the hands of a clock at 8:30?",
+      "options": {
+        "A": "75 degrees",
+        "B": "60 degrees",
+        "C": "90 degrees",
+        "D": "80 degrees"
+      },
+      "answer": "A",
+      "explanation": "Angle = |(30 * 8) - (11/2 * 30)| = |240 - 165| = 75 degrees.",
+      "hash": "938e011e96e12a50",
+      "translations": {
+        "hi": {
+          "question": "8:30 बजे घड़ी की सुइयों के बीच का कोण क्या होता है?",
+          "options": {
+            "A": "75 डिग्री",
+            "B": "60 डिग्री",
+            "C": "90 डिग्री",
+            "D": "80 डिग्री"
+          },
+          "explanation": "कोण = |(30 * 8) - (11/2 * 30)| = |240 - 165| = 75 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-024",
+      "number": 24,
+      "question": "Choose the word that is least like the other words in the group.",
+      "options": {
+        "A": "Calendar",
+        "B": "Year",
+        "C": "Date",
+        "D": "Month"
+      },
+      "answer": "A",
+      "explanation": "Year, Date, and Month are parts of time shown in a Calendar. Calendar is the container/document.",
+      "hash": "a8fdfa44282107f3",
+      "translations": {
+        "hi": {
+          "question": "उस शब्द को चुनें जो समूह के अन्य शब्दों से सबसे कम मिलता-जुलता हो।",
+          "options": {
+            "A": "कैलेंडर",
+            "B": "वर्ष",
+            "C": "तिथि",
+            "D": "महीना"
+          },
+          "explanation": "वर्ष, तिथि और महीना कैलेंडर में दिखाए गए समय के हिस्से हैं। कैलेंडर वह दस्तावेज/कंटेनर है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-025",
+      "number": 25,
+      "question": "If 'WATER' is written as 'YCVGT', then 'H K T G' is written as?",
+      "options": {
+        "A": "FIRE",
+        "B": "FISH",
+        "C": "FROG",
+        "D": "FEAR"
+      },
+      "answer": "A",
+      "explanation": "Each letter in the word is moved two steps forward to get the code. Reversing this for H K T G: H-2=F, K-2=I, T-2=R, G-2=E.",
+      "hash": "ac2caa9c9ba049e6",
+      "translations": {
+        "hi": {
+          "question": "यदि 'WATER' को 'YCVGT' लिखा जाता है, तो 'H K T G' को क्या लिखा जाएगा?",
+          "options": {
+            "A": "FIRE",
+            "B": "FISH",
+            "C": "FROG",
+            "D": "FEAR"
+          },
+          "explanation": "कोड प्राप्त करने के लिए शब्द के प्रत्येक अक्षर को दो कदम आगे बढ़ाया जाता है। H K T G के लिए इसे उलटने पर: H-2=F, K-2=I, T-2=R, G-2=E।"
+        }
+      }
+    }
+  ]
+}

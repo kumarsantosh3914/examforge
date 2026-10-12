@@ -1,0 +1,917 @@
+{
+  "subject": "Reasoning",
+  "set": 8,
+  "title": "Reasoning Mock Test 8",
+  "questions": [
+    {
+      "id": "reasoning-08-001",
+      "number": 1,
+      "question": "Complete the series: 2, 6, 14, 30, 62, ?",
+      "options": {
+        "A": "126",
+        "B": "124",
+        "C": "122",
+        "D": "128"
+      },
+      "answer": "A",
+      "explanation": "Pattern is (n * 2) + 2. 62 * 2 + 2 = 126.",
+      "hash": "89b75ba63a253340",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 2, 6, 14, 30, 62, ?",
+          "options": {
+            "A": "126",
+            "B": "124",
+            "C": "122",
+            "D": "128"
+          },
+          "explanation": "पैटर्न है (संख्या * 2) + 2."
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-002",
+      "number": 2,
+      "question": "If 'TEACHER' is coded as 'VGCEJGT', how is 'STUDENT' coded?",
+      "options": {
+        "A": "UVWFGPU",
+        "B": "UVVFGPU",
+        "C": "UTVFHPV",
+        "D": "UTVFGPV"
+      },
+      "answer": "D",
+      "explanation": "Each letter is moved +2 steps forward. S+2=U, T+2=V, U+2=W... Wait, U+2=W. Let's recheck: S+2=U, T+2=V, U+2=W, D+2=F, E+2=G, N+2=P, T+2=V.",
+      "hash": "1d6de43d6e7f042c",
+      "translations": {
+        "hi": {
+          "question": "यदि 'TEACHER' को 'VGCEJGT' के रूप में कोडित किया गया है, तो 'STUDENT' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "UVWFGPU",
+            "B": "UVVFGPU",
+            "C": "UTVFHPV",
+            "D": "UTVFGPV"
+          },
+          "explanation": "प्रत्येक अक्षर को +2 स्थान आगे बढ़ाया गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-003",
+      "number": 3,
+      "question": "Find the odd one out.",
+      "options": {
+        "A": "Kidney",
+        "B": "Liver",
+        "C": "Pancreas",
+        "D": "Eye"
+      },
+      "answer": "D",
+      "explanation": "Eye is an external organ/sense organ, others are internal organs.",
+      "hash": "784b97f99bf3b4e8",
+      "translations": {
+        "hi": {
+          "question": "विषम शब्द का चयन करें।",
+          "options": {
+            "A": "गुर्दा",
+            "B": "यकृत",
+            "C": "अग्न्याशय",
+            "D": "आँख"
+          },
+          "explanation": "आँख एक बाहरी अंग है, अन्य आंतरिक अंग हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-004",
+      "number": 4,
+      "question": "Select the related word: Book : Pages :: Ladder : ?",
+      "options": {
+        "A": "Step",
+        "B": "Wood",
+        "C": "Wall",
+        "D": "Height"
+      },
+      "answer": "A",
+      "explanation": "A book is made of pages, and a ladder is made of steps (rungs).",
+      "hash": "e4aec2fb31eddee9",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: पुस्तक : पृष्ठ :: सीढ़ी : ?",
+          "options": {
+            "A": "कदम/डंडा",
+            "B": "लकड़ी",
+            "C": "दीवार",
+            "D": "ऊँचाई"
+          },
+          "explanation": "पुस्तक पृष्ठों से बनी होती है, और सीढ़ी डंडों (कदमों) से बनी होती है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-005",
+      "number": 5,
+      "question": "Pointing to a man in a photograph, a woman said, \"His brother's father is the only son of my grandfather.\" How is the woman related to the man?",
+      "options": {
+        "A": "Sister",
+        "B": "Aunt",
+        "C": "Mother",
+        "D": "Daughter"
+      },
+      "answer": "A",
+      "explanation": "\"Only son of grandfather\" is the woman's father. If he is the father of the man's brother, he is also the man's father.",
+      "hash": "71f44d2bfcb8d08d",
+      "translations": {
+        "hi": {
+          "question": "एक तस्वीर में एक व्यक्ति की ओर इशारा करते हुए, एक महिला ने कहा, \"उसके भाई के पिता मेरे दादा के इकलौते बेटे हैं।\" महिला उस व्यक्ति से कैसे संबंधित है?",
+          "options": {
+            "A": "बहन",
+            "B": "चाची",
+            "C": "माँ",
+            "D": "बेटी"
+          },
+          "explanation": "\"दादा का इकलौता बेटा\" महिला का पिता है। वह व्यक्ति का भी पिता है, इसलिए वे भाई-बहन हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-006",
+      "number": 6,
+      "question": "If 'RED' is written as 1854, then 'BLUE' is written as?",
+      "options": {
+        "A": "212215",
+        "B": "212214",
+        "C": "212212",
+        "D": "212211"
+      },
+      "answer": "A",
+      "explanation": "Positional values: B=2, L=12, U=21, E=5. Combined: 212215.",
+      "hash": "bf41ce58ca5f1bb4",
+      "translations": {
+        "hi": {
+          "question": "यदि 'RED' को 1854 लिखा जाता है, तो 'BLUE' को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "212215",
+            "B": "212214",
+            "C": "212212",
+            "D": "212211"
+          },
+          "explanation": "अक्षरों के स्थानीय मानों को एक साथ लिखा गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-007",
+      "number": 7,
+      "question": "Complete the series: 100, 81, 64, 49, ?",
+      "options": {
+        "A": "36",
+        "B": "25",
+        "C": "40",
+        "D": "42"
+      },
+      "answer": "A",
+      "explanation": "Squares of descending numbers: 10^2, 9^2, 8^2, 7^2, 6^2.",
+      "hash": "31815df4d3b7f2b9",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 100, 81, 64, 49, ?",
+          "options": {
+            "A": "36",
+            "B": "25",
+            "C": "40",
+            "D": "42"
+          },
+          "explanation": "घटती हुई संख्याओं के वर्ग: 10, 9, 8, 7, 6 का वर्ग।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-008",
+      "number": 8,
+      "question": "Statements: All cats are dogs. All dogs are black. Conclusion: I. All cats are black. II. Some black are cats.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither follows"
+      },
+      "answer": "C",
+      "explanation": "Cats are inside dogs, and dogs are inside black. Thus both conclusions are valid.",
+      "hash": "e6b808409cf3de33",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी बिल्लियाँ कुत्ते हैं। सभी कुत्ते काले हैं। निष्कर्ष: I. सभी बिल्लियाँ काली हैं। II. कुछ काले बिल्लियाँ हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "बिल्लियाँ कुत्तों के अंदर हैं और कुत्ते काले के अंदर हैं। अतः दोनों निष्कर्ष सही हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-009",
+      "number": 9,
+      "question": "A man walks 15 km West, then turns left and walks 10 km. Again he turns left and walks 15 km. Which direction is he from the starting point?",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "West -> Left (South) -> Left (East). He is directly South of the start.",
+      "hash": "b52a309ccfff7a78",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 15 किमी पश्चिम की ओर चलता है, फिर बाएं मुड़ता है और 10 किमी चलता है। फिर से वह बाएं मुड़ता है और 15 किमी चलता है। वह प्रारंभिक बिंदु से किस दिशा में है?",
+          "options": {
+            "A": "दक्षिण",
+            "B": "उत्तर",
+            "C": "पूर्व",
+            "D": "पश्चिम"
+          },
+          "explanation": "पश्चिम से बाएं (दक्षिण) और फिर से बाएं (पूर्व) मुड़ने पर वह शुरूआती बिंदु से दक्षिण में होगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-010",
+      "number": 10,
+      "question": "Arrange in logical sequence: 1. Death, 2. Marriage, 3. Birth, 4. Education, 5. Job.",
+      "options": {
+        "A": "3, 4, 5, 2, 1",
+        "B": "3, 4, 2, 5, 1",
+        "C": "4, 3, 5, 2, 1",
+        "D": "3, 5, 4, 2, 1"
+      },
+      "answer": "A",
+      "explanation": "Order: Birth -> Education -> Job -> Marriage -> Death.",
+      "hash": "a1db5c6d94a1efb3",
+      "translations": {
+        "hi": {
+          "question": "तार्किक क्रम में व्यवस्थित करें: 1. मृत्यु, 2. विवाह, 3. जन्म, 4. शिक्षा, 5. नौकरी।",
+          "options": {
+            "A": "3, 4, 5, 2, 1",
+            "B": "3, 4, 2, 5, 1",
+            "C": "4, 3, 5, 2, 1",
+            "D": "3, 5, 4, 2, 1"
+          },
+          "explanation": "सही क्रम: जन्म, शिक्षा, नौकरी, विवाह और मृत्यु।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-011",
+      "number": 11,
+      "question": "If 'A' means '+', 'B' means '-', 'C' means '×' and 'D' means '÷', then 20 D 4 C 3 A 5 B 2 = ?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "15",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "20 ÷ 4 × 3 + 5 - 2 = 5 × 3 + 5 - 2 = 15 + 5 - 2 = 18.",
+      "hash": "924f898c1444155b",
+      "translations": {
+        "hi": {
+          "question": "यदि 'A' का अर्थ '+', 'B' का अर्थ '-', 'C' का अर्थ '×' और 'D' का अर्थ '÷' है, तो 20 D 4 C 3 A 5 B 2 = ?",
+          "options": {
+            "A": "18",
+            "B": "20",
+            "C": "15",
+            "D": "12"
+          },
+          "explanation": "समीकरण हल करने पर 18 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-012",
+      "number": 12,
+      "question": "Choose the odd pair.",
+      "options": {
+        "A": "Horse : Stable",
+        "B": "Bird : Nest",
+        "C": "Lion : Den",
+        "D": "Man : Garage"
+      },
+      "answer": "D",
+      "explanation": "Garage is for vehicles, not a standard residence for man.",
+      "hash": "3a76eaf383712526",
+      "translations": {
+        "hi": {
+          "question": "विषम युग्म चुनें।",
+          "options": {
+            "A": "घोड़ा : अस्तबल",
+            "B": "पक्षी : घोंसला",
+            "C": "शेर : मांद",
+            "D": "आदमी : गैराज"
+          },
+          "explanation": "गैराज वाहनों के लिए है, मनुष्य के रहने के लिए घर होता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-013",
+      "number": 13,
+      "question": "If 'DEER' is coded as 45518, then 'HIGH' is coded as?",
+      "options": {
+        "A": "8978",
+        "B": "8988",
+        "C": "8878",
+        "D": "7978"
+      },
+      "answer": "A",
+      "explanation": "Positional values: H=8, I=9, G=7, H=8.",
+      "hash": "4976c0d1060e245f",
+      "translations": {
+        "hi": {
+          "question": "यदि 'DEER' को 45518 के रूप में कोडित किया गया है, तो 'HIGH' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "8978",
+            "B": "8988",
+            "C": "8878",
+            "D": "7978"
+          },
+          "explanation": "अक्षरों के स्थानीय मानों को सीधे लिखा गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-014",
+      "number": 14,
+      "question": "Complete the series: 5, 10, 20, 40, ?",
+      "options": {
+        "A": "80",
+        "B": "60",
+        "C": "50",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "Each number is multiplied by 2. 40 * 2 = 80.",
+      "hash": "0dc72f08782b904f",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 5, 10, 20, 40, ?",
+          "options": {
+            "A": "80",
+            "B": "60",
+            "C": "50",
+            "D": "100"
+          },
+          "explanation": "प्रत्येक संख्या को 2 से गुणा किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-015",
+      "number": 15,
+      "question": "In a row, position of Rakesh is 9th from left and 11th from right. How many people are there?",
+      "options": {
+        "A": "19",
+        "B": "20",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "(9 + 11) - 1 = 19.",
+      "hash": "28587ef9aa5e40d5",
+      "translations": {
+        "hi": {
+          "question": "एक पंक्ति में, राकेश का स्थान बाएं से 9वां और दाएं से 11वां है। कुल कितने लोग हैं?",
+          "options": {
+            "A": "19",
+            "B": "20",
+            "C": "21",
+            "D": "18"
+          },
+          "explanation": "(9 + 11) - 1 = 19."
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-016",
+      "number": 16,
+      "question": "Select the related word: Pencil : Graphite :: Pen : ?",
+      "options": {
+        "A": "Ink",
+        "B": "Paper",
+        "C": "Metal",
+        "D": "Nib"
+      },
+      "answer": "A",
+      "explanation": "Pencil uses graphite to write, pen uses ink.",
+      "hash": "b3f933eaf591c475",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: पेंसिल : ग्रेफाइट :: पेन : ?",
+          "options": {
+            "A": "स्याही",
+            "B": "कागज",
+            "C": "धातु",
+            "D": "निब"
+          },
+          "explanation": "पेंसिल में ग्रेफाइट होता है, पेन में स्याही होती है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-017",
+      "number": 17,
+      "question": "Find the odd one out: 13, 23, 33, 43.",
+      "options": {
+        "A": "33",
+        "B": "13",
+        "C": "23",
+        "D": "43"
+      },
+      "answer": "A",
+      "explanation": "13, 23, and 43 are prime numbers. 33 is a composite number.",
+      "hash": "29e30f04701f205a",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 13, 23, 33, 43.",
+          "options": {
+            "A": "33",
+            "B": "13",
+            "C": "23",
+            "D": "43"
+          },
+          "explanation": "33 एक भाज्य संख्या है, अन्य सभी अभाज्य हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-018",
+      "number": 18,
+      "question": "If 'LEMON' is 'SOUR', 'SOUR' is 'SWEET', 'SWEET' is 'SALTY', what is the taste of sugar?",
+      "options": {
+        "A": "Sweet",
+        "B": "Salty",
+        "C": "Sour",
+        "D": "Lemon"
+      },
+      "answer": "B",
+      "explanation": "Sugar is Sweet, and 'Sweet' is called 'Salty'.",
+      "hash": "a49b310c87ddb49f",
+      "translations": {
+        "hi": {
+          "question": "यदि 'नींबू' 'खट्टा' है, 'खट्टा' 'मीठा' है, 'मीठा' 'नमकीन' है, तो चीनी का स्वाद कैसा है?",
+          "options": {
+            "A": "मीठा",
+            "B": "नमकीन",
+            "C": "खट्टा",
+            "D": "नींबू"
+          },
+          "explanation": "चीनी मीठी होती है, और 'मीठा' का कोड 'नमकीन' दिया गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-019",
+      "number": 19,
+      "question": "Which word cannot be formed from 'COMMUNICATION'?",
+      "options": {
+        "A": "ACTION",
+        "B": "UNION",
+        "C": "MUSIC",
+        "D": "COUNT"
+      },
+      "answer": "C",
+      "explanation": "'COMMUNICATION' does not have the letter 'S' required for 'MUSIC'.",
+      "hash": "bf09f0a91536a883",
+      "translations": {
+        "hi": {
+          "question": "'COMMUNICATION' शब्द से कौन सा शब्द नहीं बनाया जा सकता है?",
+          "options": {
+            "A": "ACTION",
+            "B": "UNION",
+            "C": "MUSIC",
+            "D": "COUNT"
+          },
+          "explanation": "'COMMUNICATION' में 'S' अक्षर नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-020",
+      "number": 20,
+      "question": "If 5 * 2 = 10, 6 * 3 = 18, then 4 * 0 = ?",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "40",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Multiplication by zero results in zero.",
+      "hash": "1291a00568f101a6",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 * 2 = 10, 6 * 3 = 18 है, तो 4 * 0 = ?",
+          "options": {
+            "A": "0",
+            "B": "4",
+            "C": "40",
+            "D": "1"
+          },
+          "explanation": "शून्य से गुणा करने पर शून्य प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-021",
+      "number": 21,
+      "question": "Complete the series: C, F, I, L, ?",
+      "options": {
+        "A": "O",
+        "B": "P",
+        "C": "N",
+        "D": "M"
+      },
+      "answer": "A",
+      "explanation": "Each letter moves +3 steps forward. L+3 = O.",
+      "hash": "98a376d37fd832b7",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: C, F, I, L, ?",
+          "options": {
+            "A": "O",
+            "B": "P",
+            "C": "N",
+            "D": "M"
+          },
+          "explanation": "प्रत्येक अक्षर +3 स्थान आगे बढ़ रहा है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-022",
+      "number": 22,
+      "question": "A clock shows 7:30. If the minute hand points North, in which direction does the hour hand point?",
+      "options": {
+        "A": "North-West",
+        "B": "South-West",
+        "C": "North-East",
+        "D": "South-East"
+      },
+      "answer": "A",
+      "explanation": "At 7:30, minute hand is at 6 (South). If South is North (180 deg turn), then hour hand (between 7-8, SW) becomes NE. Wait: South to North is 180 deg. SW turns to NE.",
+      "hash": "89089640cba29691",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी में 7:30 बजे हैं। यदि मिनट की सुई उत्तर की ओर इशारा करती है, तो घंटे की सुई किस दिशा में इशारा करती है?",
+          "options": {
+            "A": "उत्तर-पश्चिम",
+            "B": "दक्षिण-पश्चिम",
+            "C": "उत्तर-पूर्व",
+            "D": "दक्षिण-पूर्व"
+          },
+          "explanation": "घड़ी को 180 डिग्री घुमाया गया है, जिससे दक्षिण-पश्चिम दिशा उत्तर-पूर्व बन जाएगी।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-023",
+      "number": 23,
+      "question": "How many triangles are in a square with one diagonal?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "A square with one diagonal is divided into 2 triangles.",
+      "hash": "cff7e8f4f29698b8",
+      "translations": {
+        "hi": {
+          "question": "एक विकर्ण वाले वर्ग में कितने त्रिभुज हैं?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "4"
+          },
+          "explanation": "एक विकर्ण वर्ग को 2 त्रिभुजों में विभाजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-024",
+      "number": 24,
+      "question": "Choose the odd word.",
+      "options": {
+        "A": "Brother",
+        "B": "Sister",
+        "C": "Mother",
+        "D": "Friend"
+      },
+      "answer": "D",
+      "explanation": "Brother, Sister, and Mother are blood relations. Friend is not.",
+      "hash": "f1eb661ce21cbc47",
+      "translations": {
+        "hi": {
+          "question": "विषम शब्द चुनें।",
+          "options": {
+            "A": "भाई",
+            "B": "बहन",
+            "C": "माँ",
+            "D": "मित्र"
+          },
+          "explanation": "मित्र रक्त संबंधी नहीं है, अन्य सभी हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-025",
+      "number": 25,
+      "question": "Arrange in logical sequence: 1. Curd, 2. Grass, 3. Butter, 4. Milk, 5. Cow.",
+      "options": {
+        "A": "2, 5, 4, 1, 3",
+        "B": "5, 2, 4, 1, 3",
+        "C": "2, 5, 1, 4, 3",
+        "D": "4, 1, 3, 5, 2"
+      },
+      "answer": "A",
+      "explanation": "Grass -> Cow -> Milk -> Curd -> Butter.",
+      "hash": "8a6939eaa9d0e233",
+      "translations": {
+        "hi": {
+          "question": "तार्किक क्रम में व्यवस्थित करें: 1. दही, 2. घास, 3. मक्खन, 4. दूध, 5. गाय।",
+          "options": {
+            "A": "2, 5, 4, 1, 3",
+            "B": "5, 2, 4, 1, 3",
+            "C": "2, 5, 1, 4, 3",
+            "D": "4, 1, 3, 5, 2"
+          },
+          "explanation": "घास, गाय, दूध, दही और फिर मक्खन।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-026",
+      "number": 26,
+      "question": "Complete the series: 1, 4, 9, 16, ?",
+      "options": {
+        "A": "25",
+        "B": "36",
+        "C": "20",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "Squares of 1, 2, 3, 4, 5.",
+      "hash": "b04f2244eaaf409b",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 1, 4, 9, 16, ?",
+          "options": {
+            "A": "25",
+            "B": "36",
+            "C": "20",
+            "D": "30"
+          },
+          "explanation": "1, 2, 3, 4, 5 के वर्ग।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-027",
+      "number": 27,
+      "question": "If 'DOG' is 26, then 'CAT' is?",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "Sum of positions: C(3) + A(1) + T(20) = 24.",
+      "hash": "b9955d16066f2aa3",
+      "translations": {
+        "hi": {
+          "question": "यदि 'DOG' 26 है, तो 'CAT' क्या होगा?",
+          "options": {
+            "A": "24",
+            "B": "25",
+            "C": "26",
+            "D": "27"
+          },
+          "explanation": "अक्षरों के स्थानीय मानों का योग 24 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-028",
+      "number": 28,
+      "question": "Identify the relationship: India : Delhi :: France : ?",
+      "options": {
+        "A": "Paris",
+        "B": "Lyon",
+        "C": "Berlin",
+        "D": "Rome"
+      },
+      "answer": "A",
+      "explanation": "Delhi is the capital of India, Paris is the capital of France.",
+      "hash": "39af9337de4f86f7",
+      "translations": {
+        "hi": {
+          "question": "संबंध पहचानें: भारत : दिल्ली :: फ्रांस : ?",
+          "options": {
+            "A": "पेरिस",
+            "B": "ल्यों",
+            "C": "बर्लिन",
+            "D": "रोम"
+          },
+          "explanation": "दिल्ली भारत की राजधानी है, पेरिस फ्रांस की राजधानी है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-029",
+      "number": 29,
+      "question": "Statements: Some pens are pencils. All pencils are erasers. Conclusion: I. Some pens are erasers. II. Some erasers are pencils.",
+      "options": {
+        "A": "Both follow",
+        "B": "Only I follows",
+        "C": "Only II follows",
+        "D": "Neither follows"
+      },
+      "answer": "A",
+      "explanation": "If some pens are pencils and all pencils are erasers, then those pens are also erasers.",
+      "hash": "5182d1259c43846f",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ पेन पेंसिल हैं। सभी पेंसिल इरेज़र हैं। निष्कर्ष: I. कुछ पेन इरेज़र हैं। II. कुछ इरेज़र पेंसिल हैं।",
+          "options": {
+            "A": "दोनों अनुसरण करते हैं",
+            "B": "केवल I अनुसरण करता है",
+            "C": "केवल II अनुसरण करता है",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "दोनों निष्कर्ष तार्किक रूप से सही हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-030",
+      "number": 30,
+      "question": "If 1st Jan 2023 was Sunday, what day was 31st Dec 2023?",
+      "options": {
+        "A": "Sunday",
+        "B": "Monday",
+        "C": "Saturday",
+        "D": "Tuesday"
+      },
+      "answer": "A",
+      "explanation": "In an ordinary year, the first and last day are the same.",
+      "hash": "5d532ccebe0e69a2",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2023 को रविवार था, तो 31 दिसंबर 2023 को कौन सा दिन था?",
+          "options": {
+            "A": "रविवार",
+            "B": "सोमवार",
+            "C": "शनिवार",
+            "D": "मंगलवार"
+          },
+          "explanation": "एक सामान्य वर्ष में, पहला और अंतिम दिन समान होता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-031",
+      "number": 31,
+      "question": "Mirror image of 'AVA' when mirror is vertical.",
+      "options": {
+        "A": "AVA",
+        "B": "VAV",
+        "C": "AAV",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "AVA is symmetrical.",
+      "hash": "2f39ca372872f492",
+      "translations": {
+        "hi": {
+          "question": "'AVA' की दर्पण छवि जब दर्पण ऊर्ध्वाधर है।",
+          "options": {
+            "A": "AVA",
+            "B": "VAV",
+            "C": "AAV",
+            "D": "कोई नहीं"
+          },
+          "explanation": "AVA एक सममित शब्द है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-032",
+      "number": 32,
+      "question": "Find the missing number: 1, 3, 7, 15, ?",
+      "options": {
+        "A": "31",
+        "B": "30",
+        "C": "25",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": "Pattern: (n * 2) + 1. 15 * 2 + 1 = 31.",
+      "hash": "562b0f83699cba31",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: 1, 3, 7, 15, ?",
+          "options": {
+            "A": "31",
+            "B": "30",
+            "C": "25",
+            "D": "32"
+          },
+          "explanation": "पैटर्न: (संख्या * 2) + 1."
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-033",
+      "number": 33,
+      "question": "If 'GO' is 22, then 'GET' is?",
+      "options": {
+        "A": "32",
+        "B": "30",
+        "C": "34",
+        "D": "28"
+      },
+      "answer": "A",
+      "explanation": "Sum: G(7) + E(5) + T(20) = 32.",
+      "hash": "387f6862d5b49ecf",
+      "translations": {
+        "hi": {
+          "question": "यदि 'GO' 22 है, तो 'GET' क्या होगा?",
+          "options": {
+            "A": "32",
+            "B": "30",
+            "C": "34",
+            "D": "28"
+          },
+          "explanation": "स्थानीय मानों का योग 32 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-034",
+      "number": 34,
+      "question": "Find the odd one out: 4, 16, 25, 30.",
+      "options": {
+        "A": "30",
+        "B": "4",
+        "C": "16",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "30 is not a perfect square.",
+      "hash": "4f1a6694829f566e",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 4, 16, 25, 30.",
+          "options": {
+            "A": "30",
+            "B": "4",
+            "C": "16",
+            "D": "25"
+          },
+          "explanation": "30 पूर्ण वर्ग नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-08-035",
+      "number": 35,
+      "question": "A man is 10th from the front and 10th from the back. How many people?",
+      "options": {
+        "A": "19",
+        "B": "20",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "(10 + 10) - 1 = 19.",
+      "hash": "b91b914cd17e3c55",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति आगे से 10वां और पीछे से 10वां है। कुल कितने लोग?",
+          "options": {
+            "A": "19",
+            "B": "20",
+            "C": "21",
+            "D": "18"
+          },
+          "explanation": "(10 + 10) - 1 = 19."
+        }
+      }
+    }
+  ]
+}

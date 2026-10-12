@@ -1,0 +1,709 @@
+{
+  "subject": "Mathematics",
+  "set": 10,
+  "title": "Mathematics Mock Test 10",
+  "questions": [
+    {
+      "id": "mathematics-10-001",
+      "number": 1,
+      "question": "Classify the partial differential equation: 2(∂²u/∂x²) + 4(∂²u/∂x∂y) + 3(∂²u/∂y²) = 0.",
+      "options": {
+        "A": "Elliptic",
+        "B": "Parabolic",
+        "C": "Hyperbolic",
+        "D": "Linear"
+      },
+      "answer": "A",
+      "explanation": "For Au_xx + Bu_xy + Cu_yy = 0, calculate B² - 4AC. Here 4² - 4(2)(3) = 16 - 24 = -8. Since B² - 4AC < 0, the equation is Elliptic.",
+      "hash": "c80578aea6e4762e",
+      "translations": {
+        "hi": {
+          "question": "आंशिक अवकल समीकरण का वर्गीकरण करें: 2(∂²u/∂x²) + 4(∂²u/∂x∂y) + 3(∂²u/∂y²) = 0.",
+          "options": {
+            "A": "दीर्घवृत्तीय (Elliptic)",
+            "B": "परवलयिक (Parabolic)",
+            "C": "अतिपरवलयिक (Hyperbolic)",
+            "D": "रैखिक"
+          },
+          "explanation": "B² - 4AC की गणना करने पर 16 - 24 = -8 प्राप्त होता है। चूँकि मान शून्य से कम है, इसलिए यह दीर्घवृत्तीय (Elliptic) है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-002",
+      "number": 2,
+      "question": "In a Poisson process with rate λ, find the probability of zero events occurring in the time interval [0, t].",
+      "options": {
+        "A": "e^(-λt)",
+        "B": "λt e^(-λt)",
+        "C": "1 - e^(-λt)",
+        "D": "e^(-λ)"
+      },
+      "answer": "A",
+      "explanation": "For a Poisson process, P(N(t) = k) = [(λt)^k * e^(-λt)] / k!. For k=0, P = (λt)⁰ * e^(-λt) / 0! = e^(-λt).",
+      "hash": "d53456f681f8b6e9",
+      "translations": {
+        "hi": {
+          "question": "दर λ के साथ पॉइसन प्रक्रिया में, समय अंतराल [0, t] में शून्य घटनाओं के घटित होने की प्रायिकता ज्ञात कीजिए।",
+          "options": {
+            "A": "e^(-λt)",
+            "B": "λt e^(-λt)",
+            "C": "1 - e^(-λt)",
+            "D": "e^(-λ)"
+          },
+          "explanation": "पॉइसन प्रक्रिया सूत्र में k=0 रखने पर प्रायिकता e^(-λt) प्राप्त होती है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-003",
+      "number": 3,
+      "question": "Find the residue of f(z) = e^z / (z² + π²) at z = iπ.",
+      "options": {
+        "A": "i / 2π",
+        "B": "-i / 2π",
+        "C": "1 / 2π",
+        "D": "-1"
+      },
+      "answer": "A",
+      "explanation": "f(z) = e^z / [(z - iπ)(z + iπ)]. Residue at z = iπ is Lim (z→iπ) (z - iπ)f(z) = e^(iπ) / (iπ + iπ) = -1 / 2iπ = i / 2π.",
+      "hash": "c553627ae288277d",
+      "translations": {
+        "hi": {
+          "question": "z = iπ पर f(z) = e^z / (z² + π²) का अवशेष (residue) ज्ञात कीजिए।",
+          "options": {
+            "A": "i / 2π",
+            "B": "-i / 2π",
+            "C": "1 / 2π",
+            "D": "-1"
+          },
+          "explanation": "पोल z = iπ पर अवशेष की गणना करने पर e^(iπ) / 2iπ = -1 / 2iπ = i / 2π प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-004",
+      "number": 4,
+      "question": "Evaluate Integral[C] (3z² + 2z) dz along the contour C from z=0 to z=1+i along the parabola y = x².",
+      "options": {
+        "A": "(1+i)³ + (1+i)²",
+        "B": "2i",
+        "C": "-2 + 4i",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Since f(z) = 3z² + 2z is analytic everywhere, the integral is path-independent. Integral = [z³ + z²] from 0 to 1+i = (1+i)³ + (1+i)².",
+      "hash": "6a1d26e070408490",
+      "translations": {
+        "hi": {
+          "question": "परवलय y = x² के अनुदिश z=0 से z=1+i तक कंटूर C पर Integral[C] (3z² + 2z) dz का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "(1+i)³ + (1+i)²",
+            "B": "2i",
+            "C": "-2 + 4i",
+            "D": "0"
+          },
+          "explanation": "फलन विश्लेषणात्मक है, इसलिए समाकलन पथ पर निर्भर नहीं करता। सीमाएं रखने पर (1+i)³ + (1+i)² प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-005",
+      "number": 5,
+      "question": "Find the volume of the parallelopiped whose coterminous edges are represented by vectors a = i+j, b = j+k, c = k+i.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Volume = [a b c] (Scalar Triple Product) = |1 1 0; 0 1 1; 1 0 1| = 1(1-0) - 1(0-1) + 0 = 1 + 1 = 2.",
+      "hash": "98405ef24bfb8bb8",
+      "translations": {
+        "hi": {
+          "question": "उस समांतर षट्फलक (parallelopiped) का आयतन ज्ञात कीजिए जिसके किनारे सदिशों a = i+j, b = j+k, c = k+i द्वारा दर्शाए गए हैं।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "0",
+            "D": "4"
+          },
+          "explanation": "आयतन = अदिश त्रिक गुणनफल (Scalar Triple Product)। सारणिक का मान निकालने पर 2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-007",
+      "number": 7,
+      "question": "The Newton-Cotes formula for n = 2 is known as:",
+      "options": {
+        "A": "Simpson's 1/3 Rule",
+        "B": "Trapezoidal Rule",
+        "C": "Simpson's 3/8 Rule",
+        "D": "Weddle's Rule"
+      },
+      "answer": "A",
+      "explanation": "Newton-Cotes formula for n=1 is Trapezoidal, for n=2 is Simpson's 1/3 Rule, and for n=3 is Simpson's 3/8 Rule.",
+      "hash": "61473791a3708a27",
+      "translations": {
+        "hi": {
+          "question": "n = 2 के लिए न्यूटन-कोट्स सूत्र को किस रूप में जाना जाता है?",
+          "options": {
+            "A": "सिम्पसन का 1/3 नियम",
+            "B": "समलंबी नियम (Trapezoidal Rule)",
+            "C": "सिम्पसन का 3/8 नियम",
+            "D": "वेडल का नियम"
+          },
+          "explanation": "n=2 के लिए न्यूटन-कोट्स सूत्र सिम्पसन का 1/3 नियम कहलाता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-008",
+      "number": 8,
+      "question": "In a Normal distribution, the area under the curve between μ - σ and μ + σ is approximately:",
+      "options": {
+        "A": "68.27%",
+        "B": "95.45%",
+        "C": "99.73%",
+        "D": "50%"
+      },
+      "answer": "A",
+      "explanation": "According to the empirical rule for normal distribution, approximately 68.27% of the data falls within one standard deviation of the mean.",
+      "hash": "09e53ff8f3325910",
+      "translations": {
+        "hi": {
+          "question": "एक सामान्य वितरण (Normal distribution) में, μ - σ और μ + σ के बीच वक्र के नीचे का क्षेत्रफल लगभग है:",
+          "options": {
+            "A": "68.27%",
+            "B": "95.45%",
+            "C": "99.73%",
+            "D": "50%"
+          },
+          "explanation": "सामान्य वितरण के नियम के अनुसार, माध्य से एक मानक विचलन के भीतर 68.27% डेटा आता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-009",
+      "number": 9,
+      "question": "Evaluate ∇ × (r / r³), where r is the position vector xi + yj + zk.",
+      "options": {
+        "A": "0",
+        "B": "-r / r⁴",
+        "C": "3 / r²",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "r / r³ is the gradient of (-1/r). The curl of any gradient field is always zero.",
+      "hash": "ef0006d5441a712b",
+      "translations": {
+        "hi": {
+          "question": "∇ × (r / r³) का मान ज्ञात कीजिए, जहाँ r स्थिति सदिश xi + yj + zk है।",
+          "options": {
+            "A": "0",
+            "B": "-r / r⁴",
+            "C": "3 / r²",
+            "D": "1"
+          },
+          "explanation": "r / r³, फलन (-1/r) की प्रवणता (gradient) है। किसी भी प्रवणता का कर्ल हमेशा शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-010",
+      "number": 10,
+      "question": "Find the value of Integral[C] (sin z / z⁴) dz where C is the circle |z| = 1.",
+      "options": {
+        "A": "-iπ / 3",
+        "B": "iπ / 3",
+        "C": "2iπ",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "sin z = z - z³/3! + z⁵/5!... So sin z / z⁴ = 1/z³ - 1/(6z) + z/120... The residue at z=0 (coefficient of 1/z) is -1/6. Integral = 2πi * (-1/6) = -iπ / 3.",
+      "hash": "fe6c7c9e0f1783bd",
+      "translations": {
+        "hi": {
+          "question": "Integral[C] (sin z / z⁴) dz का मान ज्ञात कीजिए जहाँ C वृत्त |z| = 1 है।",
+          "options": {
+            "A": "-iπ / 3",
+            "B": "iπ / 3",
+            "C": "2iπ",
+            "D": "0"
+          },
+          "explanation": "sin z के विस्तार का उपयोग करने पर 1/z का गुणांक (अवशेष) -1/6 प्राप्त होता है। उत्तर = 2πi * (-1/6) = -iπ/3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-011",
+      "number": 11,
+      "question": "The Laplace transform of the Dirac Delta function δ(t - a) is:",
+      "options": {
+        "A": "e^(-as)",
+        "B": "e^(-as) / s",
+        "C": "1",
+        "D": "s e^(-as)"
+      },
+      "answer": "A",
+      "explanation": "By the sifting property of the delta function, L{δ(t-a)} = Integral[0 to inf] e^(-st) δ(t-a) dt = e^(-as).",
+      "hash": "5a7021836abf624e",
+      "translations": {
+        "hi": {
+          "question": "डिराक डेल्टा फलन δ(t - a) का लाप्लास रूपांतरण है:",
+          "options": {
+            "A": "e^(-as)",
+            "B": "e^(-as) / s",
+            "C": "1",
+            "D": "s e^(-as)"
+          },
+          "explanation": "डिराक डेल्टा फलन के गुण के अनुसार इसका लाप्लास रूपांतरण e^(-as) होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-012",
+      "number": 12,
+      "question": "Find the Jacobian ∂(u, v) / ∂(x, y) if u = x + y and v = x - y.",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Jacobian = |ux uy; vx vy| = |1 1; 1 -1| = (1)(-1) - (1)(1) = -2.",
+      "hash": "3ce2562e937e3f1a",
+      "translations": {
+        "hi": {
+          "question": "यदि u = x + y और v = x - y है, तो जैकोबियन ∂(u, v) / ∂(x, y) ज्ञात कीजिए।",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "0",
+            "D": "1"
+          },
+          "explanation": "जैकोबियन सारणिक |1 1; 1 -1| का मान -2 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-013",
+      "number": 13,
+      "question": "Find the analytic function f(z) whose real part is u = x² - y².",
+      "options": {
+        "A": "z² + C",
+        "B": "2z + C",
+        "C": "z³ + C",
+        "D": "iz² + C"
+      },
+      "answer": "A",
+      "explanation": "ux = 2x, uy = -2y. By CR equations, vy = 2x => v = 2xy + g(x). vx = 2y => g'(x) = 0. f(z) = x² - y² + i(2xy) = (x+iy)² = z².",
+      "hash": "09df70e747784220",
+      "translations": {
+        "hi": {
+          "question": "वह विश्लेषणात्मक फलन f(z) ज्ञात कीजिए जिसका वास्तविक भाग u = x² - y² है।",
+          "options": {
+            "A": "z² + C",
+            "B": "2z + C",
+            "C": "z³ + C",
+            "D": "iz² + C"
+          },
+          "explanation": "कौशी-रीमान समीकरणों का उपयोग करके काल्पनिक भाग v = 2xy प्राप्त होता है। अतः f(z) = z² + C."
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-015",
+      "number": 15,
+      "question": "The divergence of the curl of any vector field A is:",
+      "options": {
+        "A": "0",
+        "B": "∇²A",
+        "C": "Grad(Div A)",
+        "D": "A"
+      },
+      "answer": "A",
+      "explanation": "Div(Curl A) = ∇ · (∇ × A) = 0. This is a fundamental vector identity.",
+      "hash": "57964841e9a2ea9e",
+      "translations": {
+        "hi": {
+          "question": "किसी भी सदिश क्षेत्र A के कर्ल का अपसरण (divergence) होता है:",
+          "options": {
+            "A": "0",
+            "B": "∇²A",
+            "C": "Grad(Div A)",
+            "D": "A"
+          },
+          "explanation": "किसी भी सदिश के कर्ल का डाइवर्जेंस हमेशा शून्य होता है। यह एक मूलभूत सदिश सर्वसमिका है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-016",
+      "number": 16,
+      "question": "Find the period of the function f(x) = tan(πx).",
+      "options": {
+        "A": "1",
+        "B": "π",
+        "C": "2",
+        "D": "0.5"
+      },
+      "answer": "A",
+      "explanation": "The period of tan(ax) is π / |a|. Here a = π, so period = π / π = 1.",
+      "hash": "d13f43e2137e9773",
+      "translations": {
+        "hi": {
+          "question": "फलन f(x) = tan(πx) का आवर्त (period) ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "π",
+            "C": "2",
+            "D": "0.5"
+          },
+          "explanation": "tan(ax) का आवर्त π/|a| होता है। यहाँ a = π है, इसलिए आवर्त 1 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-017",
+      "number": 17,
+      "question": "Find the probability of exactly 3 successes in 5 trials of a Bernoulli process with p = 0.5.",
+      "options": {
+        "A": "5/16",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "3/16"
+      },
+      "answer": "A",
+      "explanation": "P = 5C3 * (0.5)³ * (0.5)² = 10 * (0.5)⁵ = 10 / 32 = 5/16.",
+      "hash": "6c3f1edbab1741bd",
+      "translations": {
+        "hi": {
+          "question": "p = 0.5 के साथ बरनौली प्रक्रिया के 5 परीक्षणों में ठीक 3 सफलताओं की प्रायिकता ज्ञात कीजिए।",
+          "options": {
+            "A": "5/16",
+            "B": "1/2",
+            "C": "1/4",
+            "D": "3/16"
+          },
+          "explanation": "5C3 * (1/2)⁵ = 10/32 = 5/16."
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-018",
+      "number": 18,
+      "question": "If f(z) = 1 / z(z-1), find the expansion in the region 0 < |z| < 1.",
+      "options": {
+        "A": "-1/z - 1 - z - z² - ...",
+        "B": "1/z + 1 + z + ...",
+        "C": "-1/z + 1 - z + ...",
+        "D": "1/z² + 1/z + 1"
+      },
+      "answer": "A",
+      "explanation": "f(z) = 1/z * [-1 / (1-z)] = -1/z * (1 + z + z² + ... ) = -1/z - 1 - z - z² ...",
+      "hash": "e54dd203081a33e6",
+      "translations": {
+        "hi": {
+          "question": "यदि f(z) = 1 / z(z-1) है, तो क्षेत्र 0 < |z| < 1 में विस्तार ज्ञात कीजिए।",
+          "options": {
+            "A": "-1/z - 1 - z - z² - ...",
+            "B": "1/z + 1 + z + ...",
+            "C": "-1/z + 1 - z + ...",
+            "D": "1/z² + 1/z + 1"
+          },
+          "explanation": "1/(1-z) का विस्तार (1 + z + z² + ...) होता है। इसे -1/z से गुणा करने पर विकल्प A प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-019",
+      "number": 19,
+      "question": "Solve the differential equation y'' + y = sec x using variation of parameters. Find the particular integral.",
+      "options": {
+        "A": "x sin x + cos x log(cos x)",
+        "B": "x cos x + sin x log(sin x)",
+        "C": "x tan x",
+        "D": "sin x log(sec x + tan x)"
+      },
+      "answer": "A",
+      "explanation": "PI = u*y1 + v*y2. Solving gives y = (cos x) log(cos x) + x sin x.",
+      "hash": "107c62fbf490b006",
+      "translations": {
+        "hi": {
+          "question": "पैरामीटर के परिवर्तन (variation of parameters) का उपयोग करके y'' + y = sec x को हल करें। विशेष समाकल (particular integral) ज्ञात कीजिए।",
+          "options": {
+            "A": "x sin x + cos x log(cos x)",
+            "B": "x cos x + sin x log(sin x)",
+            "C": "x tan x",
+            "D": "sin x log(sec x + tan x)"
+          },
+          "explanation": "विशेष समाकल की गणना करने पर (cos x) log(cos x) + x sin x प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-020",
+      "number": 20,
+      "question": "If λ is an eigenvalue of A, then the eigenvalue of A³ is:",
+      "options": {
+        "A": "λ³",
+        "B": "3λ",
+        "C": "λ + 3",
+        "D": "1/λ³"
+      },
+      "answer": "A",
+      "explanation": "If Ax = λx, then A²x = A(Ax) = A(λx) = λ(Ax) = λ²x. Similarly, A³x = λ³x.",
+      "hash": "587a6ead93bffa1b",
+      "translations": {
+        "hi": {
+          "question": "यदि λ, A का एक आइगेन मान है, तो A³ का आइगेन मान है:",
+          "options": {
+            "A": "λ³",
+            "B": "3λ",
+            "C": "λ + 3",
+            "D": "1/λ³"
+          },
+          "explanation": "आव्यूह की घात होने पर उसके आइगेन मान की भी समान घात हो जाती है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-021",
+      "number": 21,
+      "question": "Find the value of Integral[0 to 1] Integral[0 to 1-x] Integral[0 to 1-x-y] dz dy dx.",
+      "options": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "This integral represents the volume of a tetrahedron with vertices (0,0,0), (1,0,0), (0,1,0), (0,0,1). Vol = 1/6 * base * height = 1/6.",
+      "hash": "0d223512df867bb7",
+      "translations": {
+        "hi": {
+          "question": "Integral[0 to 1] Integral[0 to 1-x] Integral[0 to 1-x-y] dz dy dx का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "1"
+          },
+          "explanation": "यह समाकलन एक चतुष्फलक (tetrahedron) के आयतन को दर्शाता है, जिसका मान 1/6 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-023",
+      "number": 23,
+      "question": "Find the equation of the tangent plane to the surface z = x² + y² at (1, 1, 2).",
+      "options": {
+        "A": "2x + 2y - z = 2",
+        "B": "x + y - z = 0",
+        "C": "2x + 2y + z = 6",
+        "D": "x + y + z = 4"
+      },
+      "answer": "A",
+      "explanation": "Grad(x² + y² - z) = 2xi + 2yj - k. At (1,1,2), normal n = 2i + 2j - k. Eq: 2(x-1) + 2(y-1) - 1(z-2) = 0 => 2x + 2y - z = 2.",
+      "hash": "25d5f255d0ebe10a",
+      "translations": {
+        "hi": {
+          "question": "(1, 1, 2) पर सतह z = x² + y² के स्पर्शरेखा तल (tangent plane) का समीकरण ज्ञात कीजिए।",
+          "options": {
+            "A": "2x + 2y - z = 2",
+            "B": "x + y - z = 0",
+            "C": "2x + 2y + z = 6",
+            "D": "x + y + z = 4"
+          },
+          "explanation": "प्रवणता से अभिलंब (2, 2, -1) प्राप्त होता है। तल का समीकरण 2x + 2y - z = 2 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-024",
+      "number": 24,
+      "question": "A random variable X has mean 10 and variance 4. Find E[X²].",
+      "options": {
+        "A": "104",
+        "B": "100",
+        "C": "96",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "Var(X) = E[X²] - (E[X])². 4 = E[X²] - 100 => E[X²] = 104.",
+      "hash": "be9db7456924b04b",
+      "translations": {
+        "hi": {
+          "question": "एक यादृच्छिक चर X का माध्य 10 और प्रसरण 4 है। E[X²] ज्ञात कीजिए।",
+          "options": {
+            "A": "104",
+            "B": "100",
+            "C": "96",
+            "D": "40"
+          },
+          "explanation": "प्रसरण सूत्र Var(X) = E[X²] - Mean² का उपयोग करने पर E[X²] = 104 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-025",
+      "number": 25,
+      "question": "The Fourier transform of a rectangular pulse is:",
+      "options": {
+        "A": "Sinc function",
+        "B": "Gaussian function",
+        "C": "Triangular function",
+        "D": "Delta function"
+      },
+      "answer": "A",
+      "explanation": "The Fourier transform of a rect function in time is a sinc function in frequency.",
+      "hash": "8f24472b002ba1e3",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार पल्स (rectangular pulse) का फूरियर रूपांतरण है:",
+          "options": {
+            "A": "सिंक (Sinc) फलन",
+            "B": "गाऊसी फलन",
+            "C": "त्रिभुजाकार फलन",
+            "D": "डेल्टा फलन"
+          },
+          "explanation": "समय क्षेत्र में आयताकार फलन का फूरियर रूपांतरण आवृत्ति क्षेत्र में सिंक फलन होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-026",
+      "number": 26,
+      "question": "Find the unit normal vector to the surface xy³z² = 4 at the point (-1, -1, 2).",
+      "options": {
+        "A": "(i + 3j - k) / sqrt(11)",
+        "B": "(i + j + k) / sqrt(3)",
+        "C": "(i - 3j + k) / sqrt(11)",
+        "D": "(2i + j + k) / sqrt(6)"
+      },
+      "answer": "A",
+      "explanation": "Grad φ = y³z² i + 3xy²z² j + 2xy³z k. At (-1,-1,2), Grad φ = -4i - 12j + 4k. Unit normal = (-i - 3j + k) / sqrt(11) or (i + 3j - k) / sqrt(11).",
+      "hash": "40a515d1428afc32",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (-1, -1, 2) पर सतह xy³z² = 4 के लिए इकाई अभिलंब सदिश (unit normal vector) ज्ञात कीजिए।",
+          "options": {
+            "A": "(i + 3j - k) / sqrt(11)",
+            "B": "(i + j + k) / sqrt(3)",
+            "C": "(i - 3j + k) / sqrt(11)",
+            "D": "(2i + j + k) / sqrt(6)"
+          },
+          "explanation": "प्रवणता की गणना करके उसे उसके परिमाण से विभाजित करने पर इकाई अभिलंब प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-027",
+      "number": 27,
+      "question": "The product of eigenvalues of a matrix is equal to its:",
+      "options": {
+        "A": "Determinant",
+        "B": "Trace",
+        "C": "Rank",
+        "D": "Eigenvector"
+      },
+      "answer": "A",
+      "explanation": "It is a property of eigenvalues that their product equals the determinant of the matrix.",
+      "hash": "56294f05d83b8779",
+      "translations": {
+        "hi": {
+          "question": "किसी आव्यूह के आइगेन मानों का गुणनफल किसके बराबर होता है?",
+          "options": {
+            "A": "सारणिक (Determinant)",
+            "B": "ट्रेस (Trace)",
+            "C": "रैंक (Rank)",
+            "D": "आइगेनवेक्टर"
+          },
+          "explanation": "आइगेन मानों का गुणनफल हमेशा आव्यूह के सारणिक के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-028",
+      "number": 28,
+      "question": "Solve the differential equation dy/dx = (y/x) + tan(y/x).",
+      "options": {
+        "A": "sin(y/x) = Cx",
+        "B": "cos(y/x) = Cx",
+        "C": "tan(y/x) = Cx",
+        "D": "y/x = sin(Cx)"
+      },
+      "answer": "A",
+      "explanation": "Let y = vx, dy/dx = v + x dv/dx. v + x dv/dx = v + tan v => x dv/dx = tan v => cot v dv = dx/x. log(sin v) = log x + log C => sin(y/x) = Cx.",
+      "hash": "032fb78e2165695b",
+      "translations": {
+        "hi": {
+          "question": "अवकल समीकरण dy/dx = (y/x) + tan(y/x) को हल करें।",
+          "options": {
+            "A": "sin(y/x) = Cx",
+            "B": "cos(y/x) = Cx",
+            "C": "tan(y/x) = Cx",
+            "D": "y/x = sin(Cx)"
+          },
+          "explanation": "y = vx प्रतिस्थापन का उपयोग करने पर sin(y/x) = Cx प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-029",
+      "number": 29,
+      "question": "In complex integration, if f(z) has a removable singularity at z = a, then the residue at z = a is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2πi",
+        "D": "f(a)"
+      },
+      "answer": "A",
+      "explanation": "At a removable singularity, the function can be defined to be analytic, and hence the residue (coefficient of 1/(z-a)) is zero.",
+      "hash": "c2447281ae0e4748",
+      "translations": {
+        "hi": {
+          "question": "जटिल समाकलन में, यदि f(z) में z = a पर एक हटाने योग्य विचित्रता (removable singularity) है, तो z = a पर अवशेष है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2πi",
+            "D": "f(a)"
+          },
+          "explanation": "हटाने योग्य विचित्रता पर फूरियर विस्तार में ऋणात्मक घातें नहीं होतीं, इसलिए अवशेष शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-10-030",
+      "number": 30,
+      "question": "Evaluate Integral[0 to pi] x sin x dx.",
+      "options": {
+        "A": "pi",
+        "B": "2",
+        "C": "0",
+        "D": "pi / 2"
+      },
+      "answer": "A",
+      "explanation": "Using integration by parts: [-x cos x] + [sin x] from 0 to pi = -pi(-1) + 0 - (0 + 0) = pi.",
+      "hash": "ad4e4b9114ee258e",
+      "translations": {
+        "hi": {
+          "question": "Integral[0 to pi] x sin x dx का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "pi",
+            "B": "2",
+            "C": "0",
+            "D": "pi / 2"
+          },
+          "explanation": "खंडशः समाकलन का उपयोग करने पर मान pi प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

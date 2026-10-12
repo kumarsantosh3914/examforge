@@ -1,0 +1,631 @@
+{
+  "subject": "Reasoning",
+  "set": 10,
+  "title": "Reasoning Mock Test 10",
+  "questions": [
+    {
+      "id": "reasoning-10-001",
+      "number": 1,
+      "question": "If in a code language, 'EXAMINATION' is written as 'FYBNJOBUJPO', how will 'CERTIFICATE' be written?",
+      "options": {
+        "A": "DFSUJGIDBUF",
+        "B": "DFSUIHJDBUF",
+        "C": "DFSUJGJDBUF",
+        "D": "DFSUJGHDBUF"
+      },
+      "answer": "A",
+      "explanation": "Each letter is moved one step forward (+1): C+1=D, E+1=F, R+1=S, T+1=U, I+1=J, F+1=G, I+1=J, C+1=D, A+1=B, T+1=U, E+1=F.",
+      "hash": "f608364b65a0bec3",
+      "translations": {
+        "hi": {
+          "question": "यदि एक कूट भाषा में 'EXAMINATION' को 'FYBNJOBUJPO' लिखा जाता है, तो 'CERTIFICATE' को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "DFSUJGIDBUF",
+            "B": "DFSUIHJDBUF",
+            "C": "DFSUJGJDBUF",
+            "D": "DFSUJGHDBUF"
+          },
+          "explanation": "प्रत्येक अक्षर को एक कदम आगे (+1) बढ़ाया गया है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-002",
+      "number": 2,
+      "question": "Find the missing number: 6, 14, 30, 62, 126, ?",
+      "options": {
+        "A": "254",
+        "B": "250",
+        "C": "252",
+        "D": "256"
+      },
+      "answer": "A",
+      "explanation": "The pattern is (n * 2) + 2: 6*2+2=14, 14*2+2=30, 30*2+2=62, 62*2+2=126, 126*2+2=254.",
+      "hash": "753b62907b3c5e39",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 6, 14, 30, 62, 126, ?",
+          "options": {
+            "A": "254",
+            "B": "250",
+            "C": "252",
+            "D": "256"
+          },
+          "explanation": "पैटर्न (n * 2) + 2 है: 6*2+2=14, 14*2+2=30, 30*2+2=62, 62*2+2=126, 126*2+2=254।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-003",
+      "number": 3,
+      "question": "Eight persons A, B, C, D, E, F, G and H are sitting around a circular table facing the center. B is third to the right of A. G is second to the left of B. D is second to the right of G. H is second to the left of A. C is not an immediate neighbor of B. F is third to the right of H. Who is sitting second to the left of C?",
+      "options": {
+        "A": "E",
+        "B": "G",
+        "C": "A",
+        "D": "D"
+      },
+      "answer": "B",
+      "explanation": "The circular arrangement clockwise is A - C - D - H - G - E - F - B. Second to the left of C is G.",
+      "hash": "a861979dffc93705",
+      "translations": {
+        "hi": {
+          "question": "आठ व्यक्ति A, B, C, D, E, F, G और H एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। B, A के दाएं से तीसरे स्थान पर है। G, B के बाएं से दूसरे स्थान पर है। D, G के दाएं से दूसरे स्थान पर है। H, A के बाएं से दूसरे स्थान पर है। C, B का निकटतम पड़ोसी नहीं है। F, H के दाएं से तीसरे स्थान पर है। C के बाएं से दूसरे स्थान पर कौन बैठा है?",
+          "options": {
+            "A": "E",
+            "B": "G",
+            "C": "A",
+            "D": "D"
+          },
+          "explanation": "दक्षिणावर्त वृत्ताकार व्यवस्था A - C - D - H - G - E - F - B है। C के बाएं से दूसरे स्थान पर G है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-004",
+      "number": 4,
+      "question": "Find the number of triangles in the given figure.",
+      "options": {
+        "A": "16",
+        "B": "24",
+        "C": "28",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": "A square with diagonals and bisectors contains 8 small triangles, 4 medium (formed by 2 small), and 4 large (formed by diagonals). Total = 16.",
+      "hash": "1922ce01d1b328bd",
+      "translations": {
+        "hi": {
+          "question": "दी गई आकृति में त्रिभुजों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "16",
+            "B": "24",
+            "C": "28",
+            "D": "32"
+          },
+          "explanation": "विकर्णों और द्विभाजकों वाले वर्ग में 8 छोटे, 4 मध्यम और 4 बड़े त्रिभुज होते हैं। कुल = 16।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-005",
+      "number": 5,
+      "question": "A clock is set right at 12 noon on Monday. It loses 2 minutes in 24 hours. What will be the true time when the clock indicates 12 noon on the following Monday?",
+      "options": {
+        "A": "12:14 PM",
+        "B": "12:12 PM",
+        "C": "12:10 PM",
+        "D": "12:16 PM"
+      },
+      "answer": "A",
+      "explanation": "Total days = 7. Total loss = 7 * 2 = 14 minutes. To get true time, add the loss to the faulty time. 12:00 + 14 mins = 12:14 PM.",
+      "hash": "35cc4e1a02798fd4",
+      "translations": {
+        "hi": {
+          "question": "सोमवार दोपहर 12 बजे एक घड़ी सही सेट की गई है। यह 24 घंटे में 2 मिनट पीछे हो जाती है। जब घड़ी अगले सोमवार दोपहर 12 बजे का समय बताती है, तो सही समय क्या होगा?",
+          "options": {
+            "A": "12:14 दोपहर",
+            "B": "12:12 दोपहर",
+            "C": "12:10 दोपहर",
+            "D": "12:16 दोपहर"
+          },
+          "explanation": "कुल दिन = 7। कुल गिरावट = 14 मिनट। सही समय के लिए, दोषपूर्ण समय में गिरावट जोड़ें। 12:14 दोपहर।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-006",
+      "number": 6,
+      "question": "Statements: Some chairs are tables. Some tables are boards. All boards are chalks. Conclusion: I. Some chalks are tables. II. Some boards are chairs. III. No board is a chair.",
+      "options": {
+        "A": "Only I and either II or III follow",
+        "B": "Only I follows",
+        "C": "Only II and III follow",
+        "D": "All follow"
+      },
+      "answer": "A",
+      "explanation": "I follows because boards overlap with tables and all boards are chalks. Chairs and boards have no direct relation but form a complementary pair (Some + No).",
+      "hash": "4512136f895e91a3",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ कुर्सियाँ मेज हैं। कुछ मेज बोर्ड हैं। सभी बोर्ड चाक हैं। निष्कर्ष: I. कुछ चाक मेज हैं। II. कुछ बोर्ड कुर्सियाँ हैं। III. कोई बोर्ड कुर्सी नहीं है।",
+          "options": {
+            "A": "केवल I और या तो II या III अनुसरण करते हैं",
+            "B": "केवल I अनुसरण करता है",
+            "C": "केवल II और III अनुसरण करते हैं",
+            "D": "सभी अनुसरण करते हैं"
+          },
+          "explanation": "I अनुसरण करता है क्योंकि बोर्ड और मेज ओवरलैप होते हैं। कुर्सी और बोर्ड का सीधा संबंध नहीं है, लेकिन वे एक पूरक जोड़ी (कुछ + कोई नहीं) बनाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-007",
+      "number": 7,
+      "question": "Pointing to a man, a woman said, \"His mother is the only daughter of my father.\" How is the man related to the woman?",
+      "options": {
+        "A": "Son",
+        "B": "Brother",
+        "C": "Father",
+        "D": "Husband"
+      },
+      "answer": "A",
+      "explanation": "\"Only daughter of my father\" is the woman herself. So, the man's mother is the woman herself.",
+      "hash": "cd606c1a1db3bfaa",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति की ओर इशारा करते हुए, एक महिला ने कहा, \"उसकी माँ मेरे पिता की इकलौती बेटी है।\" वह व्यक्ति महिला से किस प्रकार संबंधित है?",
+          "options": {
+            "A": "बेटा",
+            "B": "भाई",
+            "C": "पिता",
+            "D": "पति"
+          },
+          "explanation": "\"मेरे पिता की इकलौती बेटी\" स्वयं महिला है। अतः, पुरुष की माँ स्वयं महिला है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-008",
+      "number": 8,
+      "question": "Find the odd one out: 3, 5, 7, 12, 17, 19",
+      "options": {
+        "A": "12",
+        "B": "7",
+        "C": "17",
+        "D": "19"
+      },
+      "answer": "A",
+      "explanation": "All numbers in the series are prime numbers except 12, which is a composite number.",
+      "hash": "ed289e86e063a223",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 3, 5, 7, 12, 17, 19",
+          "options": {
+            "A": "12",
+            "B": "7",
+            "C": "17",
+            "D": "19"
+          },
+          "explanation": "श्रृंखला की सभी संख्याएँ अभाज्य संख्याएँ हैं सिवाय 12 के, जो एक भाज्य संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-009",
+      "number": 9,
+      "question": "If 15th February 2012 was Wednesday, what was the day on 15th February 2013?",
+      "options": {
+        "A": "Friday",
+        "B": "Thursday",
+        "C": "Saturday",
+        "D": "Wednesday"
+      },
+      "answer": "A",
+      "explanation": "2012 is a leap year. Since the date is after February 29th (Wait, date is 15th Feb). From 15 Feb 2012 to 15 Feb 2013, we pass through 29 Feb 2012. So there are 2 odd days. Wed + 2 = Friday.",
+      "hash": "bec5b63d97946d7b",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 फरवरी 2012 को बुधवार था, तो 15 फरवरी 2013 को कौन सा दिन था?",
+          "options": {
+            "A": "शुक्रवार",
+            "B": "गुरुवार",
+            "C": "शनिवार",
+            "D": "बुधवार"
+          },
+          "explanation": "2012 एक लीप वर्ष है। 15 फरवरी 2012 से 15 फरवरी 2013 तक, हम 29 फरवरी 2012 से गुजरते हैं। इसलिए 2 विषम दिन होंगे। बुध + 2 = शुक्रवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-010",
+      "number": 10,
+      "question": "If a mirror is placed on the bottom of the word 'QUALITY', what is the water image?",
+      "options": {
+        "A": "Q U A L I T Y (inverted)",
+        "B": "Y T I L A U Q",
+        "C": "Q U A L I T Y",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "Placing a mirror at the bottom produces a water image where top and bottom are interchanged.",
+      "hash": "ed3e55197ce53c4a",
+      "translations": {
+        "hi": {
+          "question": "यदि 'QUALITY' शब्द के नीचे दर्पण रखा जाए, तो जल प्रतिबिंब क्या होगा?",
+          "options": {
+            "A": "Q U A L I T Y (उल्टा)",
+            "B": "Y T I L A U Q",
+            "C": "Q U A L I T Y",
+            "D": "कोई नहीं"
+          },
+          "explanation": "नीचे दर्पण रखने से जल प्रतिबिंब बनता है जहाँ ऊपर और नीचे के भाग आपस में बदल जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-011",
+      "number": 11,
+      "question": "Find the number of squares in a 6x6 grid.",
+      "options": {
+        "A": "91",
+        "B": "36",
+        "C": "50",
+        "D": "72"
+      },
+      "answer": "A",
+      "explanation": "Sum of squares: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 = 1+4+9+16+25+36 = 91.",
+      "hash": "c88b29c67b0df151",
+      "translations": {
+        "hi": {
+          "question": "6x6 ग्रिड में वर्गों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "91",
+            "B": "36",
+            "C": "50",
+            "D": "72"
+          },
+          "explanation": "वर्गों का योग: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 = 91।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-012",
+      "number": 12,
+      "question": "Which number replaces the question mark? [Matrix: 2, 3, 5; 7, 11, 13; 17, 19, ?]",
+      "options": {
+        "A": "23",
+        "B": "21",
+        "C": "25",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "The matrix consists of consecutive prime numbers: 2, 3, 5, 7, 11, 13, 17, 19... The next prime is 23.",
+      "hash": "cfa3d772cf7821e2",
+      "translations": {
+        "hi": {
+          "question": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आएगी? [मैट्रिक्स: 2, 3, 5; 7, 11, 13; 17, 19, ?]",
+          "options": {
+            "A": "23",
+            "B": "21",
+            "C": "25",
+            "D": "27"
+          },
+          "explanation": "मैट्रिक्स में लगातार अभाज्य संख्याएँ शामिल हैं: 2, 3, 5, 7, 11, 13, 17, 19... अगली अभाज्य संख्या 23 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-013",
+      "number": 13,
+      "question": "Find the missing term: 1, 8, 27, 64, ?",
+      "options": {
+        "A": "125",
+        "B": "100",
+        "C": "121",
+        "D": "144"
+      },
+      "answer": "A",
+      "explanation": "The series is cubes of natural numbers: 1^3, 2^3, 3^3, 4^3, 5^3 = 125.",
+      "hash": "8931e1e7483ba037",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात कीजिए: 1, 8, 27, 64, ?",
+          "options": {
+            "A": "125",
+            "B": "100",
+            "C": "121",
+            "D": "144"
+          },
+          "explanation": "श्रृंखला प्राकृतिक संख्याओं के घन है: 1^3, 2^3, 3^3, 4^3, 5^3 = 125।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-014",
+      "number": 14,
+      "question": "Arrange the following in a logical sequence: 1. Gold, 2. Iron, 3. Sand, 4. Platinum, 5. Diamond.",
+      "options": {
+        "A": "3, 2, 1, 5, 4",
+        "B": "3, 2, 1, 4, 5",
+        "C": "2, 3, 1, 5, 4",
+        "D": "1, 2, 3, 4, 5"
+      },
+      "answer": "A",
+      "explanation": "Ordered by value/rarity: Sand, Iron, Gold, Diamond, Platinum.",
+      "hash": "fd82da94f6d2f41c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित को तार्किक क्रम में व्यवस्थित करें: 1. सोना, 2. लोहा, 3. रेत, 4. प्लेटिनम, 5. हीरा।",
+          "options": {
+            "A": "3, 2, 1, 5, 4",
+            "B": "3, 2, 1, 4, 5",
+            "C": "2, 3, 1, 5, 4",
+            "D": "1, 2, 3, 4, 5"
+          },
+          "explanation": "मूल्य/दुर्लभता के क्रम में: रेत, लोहा, सोना, हीरा, प्लेटिनम।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-015",
+      "number": 15,
+      "question": "A cube is painted blue on all faces and cut into 125 small cubes. How many small cubes have no face painted?",
+      "options": {
+        "A": "27",
+        "B": "8",
+        "C": "64",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "n = cube root of 125 = 5. Unpainted cubes = (n-2)^3 = (5-2)^3 = 3^3 = 27.",
+      "hash": "964ec60eae0dc31c",
+      "translations": {
+        "hi": {
+          "question": "एक घन के सभी फलकों को नीले रंग से रंगा गया है और 125 छोटे घनों में काटा गया है। कितने छोटे घनों का कोई भी फलक रंगा हुआ नहीं है?",
+          "options": {
+            "A": "27",
+            "B": "8",
+            "C": "64",
+            "D": "1"
+          },
+          "explanation": "n = 125 का घनमूल = 5। बिना रंगे घनों की संख्या = (n-2)^3 = 27।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-016",
+      "number": 16,
+      "question": "If 'B' = 2 and 'BAG' = 10, then 'BOX' = ?",
+      "options": {
+        "A": "41",
+        "B": "39",
+        "C": "44",
+        "D": "52"
+      },
+      "answer": "A",
+      "explanation": "Sum of alphabetical positions: B(2) + O(15) + X(24) = 41.",
+      "hash": "90898f19a8bb821a",
+      "translations": {
+        "hi": {
+          "question": "यदि 'B' = 2 और 'BAG' = 10 है, तो 'BOX' = ?",
+          "options": {
+            "A": "41",
+            "B": "39",
+            "C": "44",
+            "D": "52"
+          },
+          "explanation": "वर्णमाला स्थितियों का योग: B(2) + O(15) + X(24) = 41।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-017",
+      "number": 17,
+      "question": "A man walks 10 km North, turns East and walks 10 km, then turns South and walks 10 km. How far and in which direction is he from the starting point?",
+      "options": {
+        "A": "10 km East",
+        "B": "10 km West",
+        "C": "20 km North",
+        "D": "10 km South"
+      },
+      "answer": "A",
+      "explanation": "The North and South movements cancel each other. Only the East movement remains.",
+      "hash": "d8d5adebdc01e8da",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 10 किमी उत्तर की ओर चलता है, पूर्व की ओर मुड़ता है और 10 किमी चलता है, फिर दक्षिण की ओर मुड़ता है और 10 किमी चलता है। वह आरंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+          "options": {
+            "A": "10 किमी पूर्व",
+            "B": "10 किमी पश्चिम",
+            "C": "20 किमी उत्तर",
+            "D": "10 किमी दक्षिण"
+          },
+          "explanation": "उत्तर और दक्षिण की चालें एक-दूसरे को रद्द कर देती हैं। केवल पूर्व की चाल शेष रहती है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-018",
+      "number": 18,
+      "question": "Complete the series: 4, 9, 25, 49, 121, ?",
+      "options": {
+        "A": "169",
+        "B": "144",
+        "C": "196",
+        "D": "225"
+      },
+      "answer": "A",
+      "explanation": "These are squares of prime numbers: 2^2, 3^2, 5^2, 7^2, 11^2. Next prime is 13, so 13^2 = 169.",
+      "hash": "f6d20282bf9faf62",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 4, 9, 25, 49, 121, ?",
+          "options": {
+            "A": "169",
+            "B": "144",
+            "C": "196",
+            "D": "225"
+          },
+          "explanation": "ये अभाज्य संख्याओं के वर्ग हैं: 2^2, 3^2, 5^2, 7^2, 11^2। अगला 13^2 = 169 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-019",
+      "number": 19,
+      "question": "Six people P, Q, R, S, T and U are sitting in a row. T is between P and R. Q is between R and S. U is to the left of P. Who is at the extreme right?",
+      "options": {
+        "A": "S",
+        "B": "U",
+        "C": "P",
+        "D": "R"
+      },
+      "answer": "A",
+      "explanation": "The arrangement is U - P - T - R - Q - S. S is at the extreme right.",
+      "hash": "297c73d4d62a0e65",
+      "translations": {
+        "hi": {
+          "question": "छह व्यक्ति P, Q, R, S, T और U एक पंक्ति में बैठे हैं। T, P और R के बीच है। Q, R और S के बीच है। U, P के बाईं ओर है। अंतिम दाएं छोर पर कौन है?",
+          "options": {
+            "A": "S",
+            "B": "U",
+            "C": "P",
+            "D": "R"
+          },
+          "explanation": "व्यवस्था U - P - T - R - Q - S है। S अंतिम दाएं छोर पर है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-020",
+      "number": 20,
+      "question": "Which number replaces the question mark? 9 : 81 :: 12 : ?",
+      "options": {
+        "A": "144",
+        "B": "121",
+        "C": "169",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "The second number is the square of the first. 12^2 = 144.",
+      "hash": "1fde5c67aaebc977",
+      "translations": {
+        "hi": {
+          "question": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आएगी? 9 : 81 :: 12 : ?",
+          "options": {
+            "A": "144",
+            "B": "121",
+            "C": "169",
+            "D": "100"
+          },
+          "explanation": "दूसरी संख्या पहली का वर्ग है। 12^2 = 144।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-022",
+      "number": 22,
+      "question": "Find the next term: 2, 4, 8, 16, 32, ?",
+      "options": {
+        "A": "64",
+        "B": "48",
+        "C": "50",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "The series is powers of 2: 2^1, 2^2, 2^3, 2^4, 2^5, 2^6 = 64.",
+      "hash": "ff3943395d5eab7a",
+      "translations": {
+        "hi": {
+          "question": "अगला पद ज्ञात कीजिए: 2, 4, 8, 16, 32, ?",
+          "options": {
+            "A": "64",
+            "B": "48",
+            "C": "50",
+            "D": "60"
+          },
+          "explanation": "श्रृंखला 2 की घातें है: 2^1, 2^2, 2^3, 2^4, 2^5, 2^6 = 64।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-023",
+      "number": 23,
+      "question": "If 'BIRD' is written as 'CJSE', then 'FISH' is written as?",
+      "options": {
+        "A": "GJT I",
+        "B": "GITI",
+        "C": "GKTI",
+        "D": "GJSI"
+      },
+      "answer": "A",
+      "explanation": "Each letter is moved one step forward: F+1=G, I+1=J, S+1=T, H+1=I.",
+      "hash": "8c5c6b83e3d3e6e0",
+      "translations": {
+        "hi": {
+          "question": "यदि 'BIRD' को 'CJSE' लिखा जाता है, तो 'FISH' को क्या लिखा जाएगा?",
+          "options": {
+            "A": "GJTI",
+            "B": "GITI",
+            "C": "GKTI",
+            "D": "GJSI"
+          },
+          "explanation": "प्रत्येक अक्षर को एक कदम आगे बढ़ाया गया है: F+1=G, I+1=J, S+1=T, H+1=I।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-024",
+      "number": 24,
+      "question": "In a row, Kamal is 12th from left and 18th from right. Total students?",
+      "options": {
+        "A": "29",
+        "B": "30",
+        "C": "31",
+        "D": "28"
+      },
+      "answer": "A",
+      "explanation": "12 + 18 - 1 = 29.",
+      "hash": "abfe60019adf34fb",
+      "translations": {
+        "hi": {
+          "question": "एक पंक्ति में, कमल बाएं से 12वें और दाएं से 18वें स्थान पर है। कुल छात्र?",
+          "options": {
+            "A": "29",
+            "B": "30",
+            "C": "31",
+            "D": "28"
+          },
+          "explanation": "12 + 18 - 1 = 29।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-10-025",
+      "number": 25,
+      "question": "What is the angle between the hands of a clock at 6:30?",
+      "options": {
+        "A": "15 degrees",
+        "B": "0 degrees",
+        "C": "30 degrees",
+        "D": "10 degrees"
+      },
+      "answer": "A",
+      "explanation": "|30*6 - 5.5*30| = |180 - 165| = 15 degrees.",
+      "hash": "cf13ce82871515f0",
+      "translations": {
+        "hi": {
+          "question": "6:30 बजे घड़ी की सुइयों के बीच का कोण क्या होता है?",
+          "options": {
+            "A": "15 डिग्री",
+            "B": "0 डिग्री",
+            "C": "30 डिग्री",
+            "D": "10 डिग्री"
+          },
+          "explanation": "|30*6 - 5.5*30| = |180 - 165| = 15 डिग्री।"
+        }
+      }
+    }
+  ]
+}

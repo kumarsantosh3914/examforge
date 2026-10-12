@@ -617,6 +617,192 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'rpf-constable': {
+    heading: 'About the RPF Constable exam',
+    intro: [
+      'The Railway Protection Force guards railway property, passengers and passenger areas. Constables are recruited through the Railway Recruitment Boards (RRBs), and the CEN RPF 02/2024 notice was for 4,208 constable posts. It needs only a Class 10 pass. Selection starts with a computer-based test (CBT) of 120 questions in 90 minutes.',
+      'ExamForge gives you free, timed practice for the CBT: ten full mock tests of up to 120 questions on a 90-minute clock, and ten sets each for General Awareness, Mathematics (the Arithmetic section) and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The CBT deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RPF Constable at a glance',
+      source: 'From RRB CEN RPF 02/2024 and published exam-pattern summaries. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards, for the Railway Protection Force' },
+        { label: 'Last recruitment', value: '4,208 constable posts (CEN RPF 02/2024)' },
+        { label: 'Qualification', value: 'Class 10 pass from a recognised board' },
+        { label: 'Exam', value: '120 questions, 120 marks, 90 minutes' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The CBT is a single objective paper. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RPF Constable Computer Based Test',
+      sections: [
+        { part: 'Section 1', subject: 'General Awareness', questions: 50, marks: 50 },
+        { part: 'Section 2', subject: 'Arithmetic', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'General Intelligence and Reasoning', questions: 35, marks: 35 },
+      ],
+      duration: '90 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'There are no sectional time limits. To be considered you need at least 35% (unreserved and EWS) or 30% (SC and ST); check the notice for the other categories.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level. Each ExamForge subject matches one CBT section, and the full mock tests mix all three.',
+      areas: [
+        {
+          title: 'General Awareness', subjects: ['general-awareness', 'mock-test-full-test'],
+          summary: 'The largest section, with 50 questions, so it decides many results.',
+          topics: ['Indian history and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'General science and everyday facts', 'Sports, books, awards and important days', 'Current affairs and the railways'],
+        },
+        {
+          title: 'Arithmetic', subjects: ['mathematics', 'mock-test-full-test'],
+          summary: 'Class 10 arithmetic, 35 questions. ExamForge calls this subject Mathematics.',
+          topics: ['Number system, HCF and LCM, simplification', 'Percentage, ratio, average, profit and loss', 'Simple and compound interest', 'Time and work, speed, time and distance', 'Mensuration and basic geometry', 'Data interpretation and statistics'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning', 'mock-test-full-test'],
+          summary: 'Verbal and non-verbal reasoning, 35 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Calendar, clock and dice', 'Mirror images and counting figures'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the exact cut-off dates, relaxations and standards.',
+      items: [
+        { title: 'Qualification', detail: 'Class 10 pass (matriculation) from a recognised board.' },
+        { title: 'Age', detail: 'CEN RPF 02/2024 set 18 to 28 years as on 1 July 2024, with relaxation for SC, ST, OBC and other categories. Check the current notice, as limits can change.' },
+        { title: 'Physical standards', detail: 'Candidates must meet the height and chest standards of the Physical Measurement Test, with relaxations for some categories and regions.' },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'Computer Based Test (CBT)', detail: 'The 120-question paper above. Candidates are shortlisted for the next stage in order of merit, up to about ten times the vacancies.' },
+        { title: 'Physical Efficiency Test (PET)', detail: 'A qualifying test. In CEN RPF 02/2024, men ran 1,600 metres in 5 minutes 45 seconds, with a 14 ft long jump and a 4 ft high jump; women ran 800 metres in 3 minutes 40 seconds, with a 9 ft long jump and a 3 ft high jump.' },
+        { title: 'Physical Measurement Test (PMT)', detail: 'Height and chest are measured against the standard for your category.' },
+        { title: 'Document verification', detail: 'Original certificates are checked before the final merit list is published.' },
+      ],
+    },
+    merit: [
+      { title: 'CBT decides rank', detail: 'The merit list is drawn up on CBT marks. The PET and PMT only have to be passed.' },
+      { title: 'Shortlisting', detail: 'Candidates are called for the PET, PMT and document verification in order of CBT merit, category by category.' },
+    ],
+    tips: [
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Win General Awareness', detail: 'It has 50 questions, more than any other section. Revise static GK in short rounds, plus the last six months of current affairs.' },
+      { title: 'Keep arithmetic quick', detail: 'Learn tables, squares and percentage-to-fraction conversions so each question takes under a minute.' },
+      { title: 'Rehearse the full paper', detail: 'Take the full mock tests on the 90-minute clock and review every wrong answer before the next one.' },
+      { title: 'Train for the PET early', detail: 'Build running stamina and practise the jumps alongside your written preparation, so the physical test is not a last-minute worry.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in the RPF Constable exam?', answer: 'Yes. One-third of a mark is deducted for each wrong answer. ExamForge sets do not deduct marks, so take a third off for each wrong answer yourself for the exact result.' },
+      { question: 'How are the ExamForge sets timed?', answer: 'The full mock tests carry the real 90-minute clock, scaled down for papers with fewer than 120 questions. The subject sets give one minute per question.' },
+      { question: 'Does the PET count towards merit?', answer: 'No. The PET is qualifying. Merit is drawn up on CBT marks.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rrb-je': {
+    heading: 'About the RRB JE exam',
+    intro: [
+      'The Railway Recruitment Boards recruit Junior Engineers (JE), Depot Material Superintendents, Chemical and Metallurgical Assistants and similar posts. It needs an engineering diploma or degree in a relevant discipline, and the pay is Level 6 of the 7th Pay Commission. Selection has two computer-based tests: CBT-1 screens candidates, and CBT-2 decides the rank.',
+      'ExamForge covers CBT-1, the first and largest hurdle: ten full 100-question mock tests on a 90-minute clock, and sets for Mathematics, General Science, Reasoning and General Awareness. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'CBT-1 deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RRB JE at a glance',
+      source: 'From published RRB JE exam-pattern summaries. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Qualification', value: 'Diploma or degree in engineering relevant to the post' },
+        { label: 'Pay', value: 'Level 6 of the 7th Pay Commission (₹35,400 basic)' },
+        { label: 'CBT-1', value: '100 questions, 100 marks, 90 minutes (screening)' },
+        { label: 'CBT-2', value: '150 questions, 150 marks, 120 minutes (merit)' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'CBT-1 is a single objective paper at screening level. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RRB JE CBT-1',
+      sections: [
+        { part: 'Section 1', subject: 'Mathematics', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'General Intelligence and Reasoning', questions: 25, marks: 25 },
+        { part: 'Section 3', subject: 'General Awareness', questions: 15, marks: 15 },
+        { part: 'Section 4', subject: 'General Science', questions: 30, marks: 30 },
+      ],
+      duration: '90 minutes (120 minutes for eligible PwBD candidates using a scribe)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'There are no sectional time limits. CBT-1 marks do not count towards the final merit list, but you must clear the qualifying cut-off to be called for CBT-2. CBT-2 has 150 questions in 120 minutes and includes a technical section for your discipline, which ExamForge does not cover.',
+    },
+    syllabus: {
+      intro: 'Questions are set at the level of the Class 10 and diploma-entry syllabus. Each ExamForge subject matches one CBT-1 section, and the full mock tests mix all four.',
+      areas: [
+        {
+          title: 'Mathematics', subjects: ['mathematics', 'mock-test-cbt-1-full-test'],
+          summary: 'Arithmetic, algebra, geometry and trigonometry, 30 questions.',
+          topics: ['Number system, BODMAS, HCF and LCM', 'Percentage, ratio, profit and loss, interest', 'Time and work, speed, time and distance', 'Algebra, geometry and mensuration', 'Trigonometry and elementary statistics'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning', 'mock-test-cbt-1-full-test'],
+          summary: '25 questions, mostly quick to solve once you know the method.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Mirror images and counting figures'],
+        },
+        {
+          title: 'General Awareness', subjects: ['general-awareness', 'mock-test-cbt-1-full-test'],
+          summary: 'Current events and everyday knowledge, 15 questions.',
+          topics: ['Current affairs, sports and awards', 'Indian history, geography and polity', 'Science and technology in everyday life', 'Economics and the railways'],
+        },
+        {
+          title: 'General Science', subjects: ['general-science', 'mock-test-cbt-1-full-test'],
+          summary: 'Class 10 Physics, Chemistry and Life Sciences, 30 questions.',
+          topics: ['Units, motion, force, work and energy', 'Light, sound, electricity and magnetism', 'Acids, bases, metals and everyday chemicals', 'Human body, nutrition and diseases', 'Cells, plants and the environment'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the exact posts, cut-off dates, relaxations and medical standards.',
+      items: [
+        { title: 'Qualification', detail: 'A diploma or degree in engineering in the discipline required for the post (for example Civil, Mechanical, Electrical, or Electronics).' },
+        { title: 'Age', detail: 'Set in each notice as on a cut-off date, with relaxation for SC, ST, OBC, PwBD and ex-servicemen candidates. Check the current notice.' },
+        { title: 'Medical standard', detail: 'Each post has a medical category (for example B1 or A3) with its own vision standard, checked before appointment.' },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'CBT-1', detail: 'The 100-question screening paper above. Candidates are shortlisted for CBT-2 in order of merit.' },
+        { title: 'CBT-2', detail: '150 questions in 120 minutes: General Awareness, Physics and Chemistry, Basics of Computers, Environment and Pollution Control, and a Technical Abilities section for your discipline.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination confirms you meet the standard of the post you are offered.' },
+      ],
+    },
+    merit: [
+      { title: 'CBT-2 decides rank', detail: 'The final merit list is drawn up on CBT-2 marks. CBT-1 only has to be qualified.' },
+      { title: 'Choice of post', detail: 'Posts are allotted by merit, the preferences you give and the medical standard you meet.' },
+    ],
+    tips: [
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Bank the Science marks', detail: 'General Science has 30 questions from textbooks you have already studied. Revise units, instruments, acids and bases, and the human body.' },
+      { title: 'Keep Mathematics quick', detail: 'With 30 questions in a 90-minute paper, aim for about a minute each and save difficult ones for the end.' },
+      { title: 'Rehearse the full paper', detail: 'Take the full mock tests on the 90-minute clock and review every wrong answer before the next one.' },
+      { title: 'Start CBT-2 early', detail: 'CBT-1 only qualifies you. Begin your technical subject once you score comfortably above the cut-off.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in RRB JE?', answer: 'Yes. One-third of a mark is deducted for each wrong answer. ExamForge sets do not deduct marks, so take a third off for each wrong answer yourself for the exact result.' },
+      { question: 'Does CBT-1 count towards the final rank?', answer: 'No. CBT-1 is a screening test, and you must clear the qualifying cut-off. The final merit list uses CBT-2.' },
+      { question: 'Does ExamForge cover CBT-2?', answer: 'Not yet. These sets cover CBT-1; CBT-2 includes a technical section specific to each engineering discipline.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
   'dsssb-tgt/computer-science': {
     heading: 'About the DSSSB TGT Computer Science exam',
     intro: [

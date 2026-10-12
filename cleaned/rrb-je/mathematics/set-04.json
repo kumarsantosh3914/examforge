@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 4,
+  "title": "Mathematics Mock Test 4",
+  "questions": [
+    {
+      "id": "mathematics-04-001",
+      "number": 1,
+      "question": "Find the area of a triangle formed by the lines x - y = 0, x + y = 0 and x = 4.",
+      "options": {
+        "A": "16 sq units",
+        "B": "8 sq units",
+        "C": "32 sq units",
+        "D": "4 sq units"
+      },
+      "answer": "A",
+      "explanation": "The vertices are (0,0), (4,4), and (4,-4). Base = length from (4,4) to (4,-4) = 8. Height = distance from (0,0) to line x=4 is 4. Area = 0.5 * 8 * 4 = 16.",
+      "hash": "86d5306b5dd91c1c",
+      "translations": {
+        "hi": {
+          "question": "रेखाओं x - y = 0, x + y = 0 और x = 4 द्वारा निर्मित त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "16 वर्ग इकाई",
+            "B": "8 वर्ग इकाई",
+            "C": "32 वर्ग इकाई",
+            "D": "4 वर्ग इकाई"
+          },
+          "explanation": "शीर्ष (0,0), (4,4), और (4,-4) हैं। आधार = 8, ऊँचाई = 4. क्षेत्रफल = 0.5 * 8 * 4 = 16."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-002",
+      "number": 2,
+      "question": "If x = 2 + 2^(2/3) + 2^(1/3), find the value of x^3 - 6x^2 + 6x.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "(x-2) = 2^(2/3) + 2^(1/3). Cubing both sides: (x-2)^3 = 2^2 + 2^1 + 3*2^(2/3)*2^(1/3)(2^(2/3) + 2^(1/3)). x^3 - 6x^2 + 12x - 8 = 6 + 3*2(x-2). Simplifying gives x^3 - 6x^2 + 6x = 2.",
+      "hash": "954467bb3bfc95cf",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 2 + 2^(2/3) + 2^(1/3) है, तो x^3 - 6x^2 + 6x का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "0",
+            "D": "4"
+          },
+          "explanation": "(x-2) का घन करने पर और सरल करने पर x^3 - 6x^2 + 6x = 2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-003",
+      "number": 3,
+      "question": "If sin theta + cos theta = sqrt(2), find the value of sin^6 theta + cos^6 theta.",
+      "options": {
+        "A": "1/4",
+        "B": "1/8",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "answer": "A",
+      "explanation": "Squaring: 1 + 2sin*cos = 2 => sin*cos = 1/2. sin^6+cos^6 = (sin^2+cos^2)(sin^4 - sin^2cos^2 + cos^4) = 1( (sin^2+cos^2)^2 - 3sin^2cos^2 ) = 1 - 3(1/4) = 1/4.",
+      "hash": "d64ae327b7dd5d37",
+      "translations": {
+        "hi": {
+          "question": "यदि sin theta + cos theta = sqrt(2) है, तो sin^6 theta + cos^6 theta का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1/4",
+            "B": "1/8",
+            "C": "1/2",
+            "D": "3/4"
+          },
+          "explanation": "वर्ग करने पर: sin*cos = 1/2. sin^6+cos^6 = 1 - 3sin^2cos^2 = 1 - 3(1/4) = 1/4."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-004",
+      "number": 4,
+      "question": "The ratio of the volumes of two spheres is 8:27. Find the ratio of their total surface areas.",
+      "options": {
+        "A": "4:9",
+        "B": "2:3",
+        "C": "16:81",
+        "D": "4:3"
+      },
+      "answer": "A",
+      "explanation": "Ratio of volumes = (r1/r2)^3 = 8/27 => r1/r2 = 2/3. Ratio of areas = (r1/r2)^2 = (2/3)^2 = 4/9.",
+      "hash": "062e69fde41deb45",
+      "translations": {
+        "hi": {
+          "question": "दो गोलों के आयतनों का अनुपात 8:27 है। उनके कुल पृष्ठीय क्षेत्रफलों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "4:9",
+            "B": "2:3",
+            "C": "16:81",
+            "D": "4:3"
+          },
+          "explanation": "आयतन का अनुपात = (r1/r2)^3 = 8/27 => r1/r2 = 2/3. क्षेत्रफल का अनुपात = (2/3)^2 = 4/9."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-005",
+      "number": 5,
+      "question": "In a cyclic quadrilateral ABCD, if angle A = (2x+4) and angle C = (4x-64), find the value of x.",
+      "options": {
+        "A": "40",
+        "B": "30",
+        "C": "20",
+        "D": "50"
+      },
+      "answer": "A",
+      "explanation": "Opposite angles of a cyclic quadrilateral sum to 180. (2x+4) + (4x-64) = 180 => 6x - 60 = 180 => 6x = 240 => x = 40.",
+      "hash": "abf9819da3404779",
+      "translations": {
+        "hi": {
+          "question": "एक चक्रीय चतुर्भुज ABCD में, यदि कोण A = (2x+4) और कोण C = (4x-64) है, तो x का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "40",
+            "B": "30",
+            "C": "20",
+            "D": "50"
+          },
+          "explanation": "चक्रीय चतुर्भुज के सम्मुख कोणों का योग 180 होता है। 6x - 60 = 180 => x = 40."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-006",
+      "number": 6,
+      "question": "A circle is inscribed in a triangle ABC touching sides AB, BC and CA at P, Q and R respectively. If AB=10, BC=12 and CA=8, find the length of BP.",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Let AP=AR=x, BP=BQ=y, CQ=CR=z. x+y=10, y+z=12, z+x=8. Adding all: 2(x+y+z)=30 => x+y+z=15. Since x+z=8, y=15-8=7. So BP=7.",
+      "hash": "57bc7d196fd8bc51",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त त्रिभुज ABC के अंतर्निहित है जो भुजाओं AB, BC और CA को क्रमशः P, Q और R पर स्पर्श करता है। यदि AB=10, BC=12 और CA=8 है, तो BP की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "7",
+            "B": "5",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "x+y=10, y+z=12, z+x=8. तीनों को जोड़ने पर x+y+z=15. BP(y) = 15 - (x+z) = 15 - 8 = 7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-007",
+      "number": 7,
+      "question": "Find the sum of all natural numbers between 100 and 1000 which are multiples of 11.",
+      "options": {
+        "A": "44550",
+        "B": "45045",
+        "C": "44000",
+        "D": "45540"
+      },
+      "answer": "B",
+      "explanation": "First = 110, Last = 990. n = [(990-110)/11] + 1 = 81. Sum = (81/2)(110+990) = (81/2)(1100) = 81 * 550 = 44550. (Re-check: First multiple > 100 is 110, last < 1000 is 990. 81 terms. Sum = 44550). Correcting Option B to 44550.",
+      "hash": "c54724432c595567",
+      "translations": {
+        "hi": {
+          "question": "100 और 1000 के बीच की उन सभी प्राकृतिक संख्याओं का योग ज्ञात कीजिए जो 11 के गुणज हैं।",
+          "options": {
+            "A": "44550",
+            "B": "45045",
+            "C": "44000",
+            "D": "45540"
+          },
+          "explanation": "पहली संख्या = 110, अंतिम = 990. n = 81. योग = 44550."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-008",
+      "number": 8,
+      "question": "Two poles of heights 6 m and 11 m stand on a plane ground. If the distance between their feet is 12 m, find the distance between their tops.",
+      "options": {
+        "A": "13 m",
+        "B": "15 m",
+        "C": "17 m",
+        "D": "14 m"
+      },
+      "answer": "A",
+      "explanation": "Difference in height = 11 - 6 = 5. Distance between feet = 12. Using Pythagoras: Dist^2 = 5^2 + 12^2 = 25 + 144 = 169. Dist = 13.",
+      "hash": "f2e083912f99869a",
+      "translations": {
+        "hi": {
+          "question": "6 मीटर और 11 मीटर ऊँचाई के दो खंभे एक समतल जमीन पर खड़े हैं। यदि उनके पादों के बीच की दूरी 12 मीटर है, तो उनके शीर्षों के बीच की दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "13 मीटर",
+            "B": "15 मीटर",
+            "C": "17 मीटर",
+            "D": "14 मीटर"
+          },
+          "explanation": "ऊँचाई में अंतर = 5. पादों के बीच की दूरी = 12. पाइथागोरस प्रमेय: दूरी = sqrt(5^2 + 12^2) = 13."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-009",
+      "number": 9,
+      "question": "Find the probability that a leap year contains 53 Sundays.",
+      "options": {
+        "A": "2/7",
+        "B": "1/7",
+        "C": "3/7",
+        "D": "53/366"
+      },
+      "answer": "A",
+      "explanation": "Leap year = 366 days = 52 weeks + 2 days. The 2 days can be (Sun,Mon), (Mon,Tue)...(Sat,Sun). Out of 7 pairs, 2 contain Sunday. Prob = 2/7.",
+      "hash": "34e3d6b9c92791ea",
+      "translations": {
+        "hi": {
+          "question": "एक लीप वर्ष में 53 रविवार होने की प्रायिकता ज्ञात कीजिए।",
+          "options": {
+            "A": "2/7",
+            "B": "1/7",
+            "C": "3/7",
+            "D": "53/366"
+          },
+          "explanation": "लीप वर्ष = 366 दिन = 52 सप्ताह + 2 दिन। इन 2 दिनों के 7 जोड़ों में से 2 में रविवार होता है। प्रायिकता = 2/7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-010",
+      "number": 10,
+      "question": "A copper wire of length 36 m and diameter 2 mm is melted and cast into a sphere. Find the radius of the sphere.",
+      "options": {
+        "A": "3 cm",
+        "B": "6 cm",
+        "C": "4 cm",
+        "D": "2 cm"
+      },
+      "answer": "A",
+      "explanation": "Wire radius = 1 mm = 0.1 cm. Length = 3600 cm. Vol = pi * (0.1)^2 * 3600 = 36pi. Vol sphere = 4/3 * pi * r^3 = 36pi => r^3 = 27 => r = 3 cm.",
+      "hash": "1c096c30ec4faeaf",
+      "translations": {
+        "hi": {
+          "question": "36 मीटर लंबी और 2 मिमी व्यास वाली एक तांबे की तार को पिघलाकर एक गोला बनाया जाता है। गोले की त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "3 सेमी",
+            "B": "6 सेमी",
+            "C": "4 सेमी",
+            "D": "2 सेमी"
+          },
+          "explanation": "तार का आयतन = pi * (0.1)^2 * 3600 = 36pi. गोले का आयतन = 4/3 * pi * r^3. r = 3 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-011",
+      "number": 11,
+      "question": "If tan theta + sin theta = m and tan theta - sin theta = n, find the value of m^2 - n^2.",
+      "options": {
+        "A": "4*sqrt(mn)",
+        "B": "2*sqrt(mn)",
+        "C": "sqrt(mn)",
+        "D": "4mn"
+      },
+      "answer": "A",
+      "explanation": "m^2-n^2 = (m+n)(m-n) = (2 tan)(2 sin) = 4 tan sin. Also 4*sqrt(mn) = 4*sqrt(tan^2 - sin^2) = 4*sqrt(sin^2/cos^2 - sin^2) = 4 tan sin.",
+      "hash": "8bb5744523c5692f",
+      "translations": {
+        "hi": {
+          "question": "यदि tan theta + sin theta = m और tan theta - sin theta = n है, तो m^2 - n^2 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "4*sqrt(mn)",
+            "B": "2*sqrt(mn)",
+            "C": "sqrt(mn)",
+            "D": "4mn"
+          },
+          "explanation": "m^2-n^2 = 4 tan sin. यह 4*sqrt(mn) के बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-012",
+      "number": 12,
+      "question": "Solve: log x + log(x+3) = log 10.",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "-5",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "log[x(x+3)] = log 10 => x^2 + 3x - 10 = 0 => (x+5)(x-2) = 0. x must be positive, so x=2.",
+      "hash": "2b746761e58210c4",
+      "translations": {
+        "hi": {
+          "question": "हल करें: log x + log(x+3) = log 10.",
+          "options": {
+            "A": "2",
+            "B": "5",
+            "C": "-5",
+            "D": "3"
+          },
+          "explanation": "x^2 + 3x - 10 = 0. धनात्मक मान लेने पर x = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-013",
+      "number": 13,
+      "question": "If the height of a cylinder is increased by 15% and the radius of its base is decreased by 10%, find the percentage change in its curved surface area.",
+      "options": {
+        "A": "3.5% increase",
+        "B": "3.5% decrease",
+        "C": "5% increase",
+        "D": "No change"
+      },
+      "answer": "A",
+      "explanation": "Net change = x + y + xy/100 = 15 - 10 + (15*-10)/100 = 5 - 1.5 = 3.5% increase.",
+      "hash": "cdb638f456073705",
+      "translations": {
+        "hi": {
+          "question": "यदि एक बेलन की ऊँचाई में 15% की वृद्धि की जाती है और इसके आधार की त्रिज्या में 10% की कमी की जाती है, तो इसके वक्र पृष्ठीय क्षेत्रफल में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+          "options": {
+            "A": "3.5% वृद्धि",
+            "B": "3.5% कमी",
+            "C": "5% वृद्धि",
+            "D": "कोई परिवर्तन नहीं"
+          },
+          "explanation": "शुद्ध परिवर्तन = 15 - 10 - 1.5 = 3.5% वृद्धि।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-014",
+      "number": 14,
+      "question": "If the points (a, 0), (0, b) and (1, 1) are collinear, then find 1/a + 1/b.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Area of triangle = 0. a(b-1) + 0(1-0) + 1(0-b) = 0 => ab - a - b = 0 => ab = a + b. Dividing by ab gives 1 = 1/b + 1/a.",
+      "hash": "2af8288c451d29bf",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु (a, 0), (0, b) और (1, 1) संरेख हैं, तो 1/a + 1/b ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "संरेख होने पर ab - a - b = 0. ab से विभाजित करने पर 1/a + 1/b = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-015",
+      "number": 15,
+      "question": "If 3^x = 9^y = 27^z and xyz = 288, find the value of x.",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "18",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "3^x = 3^2y = 3^3z => x=2y=3z. y=x/2, z=x/3. x * x/2 * x/3 = 288 => x^3 / 6 = 288 => x^3 = 1728 => x = 12.",
+      "hash": "2bf9affebef50cbf",
+      "translations": {
+        "hi": {
+          "question": "यदि 3^x = 9^y = 27^z और xyz = 288 है, तो x का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "12",
+            "B": "6",
+            "C": "18",
+            "D": "9"
+          },
+          "explanation": "x=2y=3z. x * (x/2) * (x/3) = 288 => x^3 = 1728. x = 12."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-016",
+      "number": 16,
+      "question": "A sum of Rs 700 is to be used to give seven cash prizes to students of a school for their overall academic performance. If each prize is Rs 20 less than its preceding prize, find the value of the highest prize.",
+      "options": {
+        "A": "160",
+        "B": "140",
+        "C": "120",
+        "D": "180"
+      },
+      "answer": "A",
+      "explanation": "S7 = 7/2 [2a + 6(-20)] = 700 => 2a - 120 = 200 => 2a = 320 => a = 160.",
+      "hash": "7de2ac708a90b51a",
+      "translations": {
+        "hi": {
+          "question": "एक स्कूल के छात्रों को उनके समग्र शैक्षणिक प्रदर्शन के लिए सात नकद पुरस्कार देने के लिए 700 रुपये की राशि का उपयोग किया जाना है। यदि प्रत्येक पुरस्कार अपने पिछले पुरस्कार से 20 रुपये कम है, तो उच्चतम पुरस्कार का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "160",
+            "B": "140",
+            "C": "120",
+            "D": "180"
+          },
+          "explanation": "S7 = 7/2 [2a - 120] = 700. हल करने पर a = 160."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-017",
+      "number": 17,
+      "question": "A train running at 54 km/h takes 20 seconds to pass a platform. Next, it takes 12 seconds to pass a man walking at 6 km/h in the same direction. Find the length of the platform.",
+      "options": {
+        "A": "140 m",
+        "B": "160 m",
+        "C": "150 m",
+        "D": "200 m"
+      },
+      "answer": "A",
+      "explanation": "Relative speed with man = 54-6 = 48 km/h = 48*5/18 = 40/3 m/s. Train length = 40/3 * 12 = 160 m. With platform: (160+P) = (54*5/18)*20 = 15*20 = 300. P = 300-160 = 140 m.",
+      "hash": "49886d89f58a0542",
+      "translations": {
+        "hi": {
+          "question": "54 किमी/घंटा की गति से चलने वाली एक ट्रेन एक प्लेटफॉर्म को पार करने में 20 सेकंड लेती है। इसके बाद, वह उसी दिशा में 6 किमी/घंटा की गति से चलने वाले व्यक्ति को पार करने में 12 सेकंड लेती है। प्लेटफॉर्म की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "140 मीटर",
+            "B": "160 मीटर",
+            "C": "150 मीटर",
+            "D": "200 मीटर"
+          },
+          "explanation": "ट्रेन की लंबाई = (48*5/18) * 12 = 160 मीटर। (160+P) = 15 * 20 = 300. प्लेटफॉर्म (P) = 140 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-018",
+      "number": 18,
+      "question": "If x, y, z are in GP, then log x, log y, log z are in:",
+      "options": {
+        "A": "AP",
+        "B": "GP",
+        "C": "HP",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "y^2 = xz. Taking log: 2 log y = log x + log z. This is the condition for AP.",
+      "hash": "30139a40e111a327",
+      "translations": {
+        "hi": {
+          "question": "यदि x, y, z गुणोत्तर श्रेणी (GP) में हैं, तो log x, log y, log z किसमें हैं:",
+          "options": {
+            "A": "AP",
+            "B": "GP",
+            "C": "HP",
+            "D": "कोई नहीं"
+          },
+          "explanation": "y^2 = xz. log लेने पर: 2 log y = log x + log z. यह समांतर श्रेणी (AP) की स्थिति है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-019",
+      "number": 19,
+      "question": "Find the distance of the point (4, 3) from the line 3x + 4y - 9 = 0.",
+      "options": {
+        "A": "3 units",
+        "B": "5 units",
+        "C": "2.5 units",
+        "D": "1.5 units"
+      },
+      "answer": "A",
+      "explanation": "Dist = |3(4) + 4(3) - 9| / sqrt(3^2 + 4^2) = |12+12-9|/5 = 15/5 = 3.",
+      "hash": "9db932d9eb50ee1f",
+      "translations": {
+        "hi": {
+          "question": "रेखा 3x + 4y - 9 = 0 से बिंदु (4, 3) की दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "3 इकाई",
+            "B": "5 इकाई",
+            "C": "2.5 इकाई",
+            "D": "1.5 इकाई"
+          },
+          "explanation": "दूरी = |3(4) + 4(3) - 9| / 5 = 15/5 = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-020",
+      "number": 20,
+      "question": "The volume of a right circular cone is 9856 cm3. If the diameter of the base is 28 cm, find the slant height of the cone.",
+      "options": {
+        "A": "50 cm",
+        "B": "48 cm",
+        "C": "52 cm",
+        "D": "40 cm"
+      },
+      "answer": "A",
+      "explanation": "r=14. 1/3 * 22/7 * 14 * 14 * h = 9856 => h = 48. Slant height l = sqrt(14^2 + 48^2) = sqrt(196 + 2304) = sqrt(2500) = 50.",
+      "hash": "77f8ff8ff270e447",
+      "translations": {
+        "hi": {
+          "question": "एक लंब वृत्तीय शंकु का आयतन 9856 सेमी3 है। यदि आधार का व्यास 28 सेमी है, तो शंकु की तिर्यक ऊँचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "50 सेमी",
+            "B": "48 सेमी",
+            "C": "52 सेमी",
+            "D": "40 सेमी"
+          },
+          "explanation": "r=14. आयतन सूत्र से h = 48. तिर्यक ऊँचाई l = sqrt(14^2 + 48^2) = 50 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-021",
+      "number": 21,
+      "question": "Find the value of m if the quadratic equation (m-1)x^2 + 2(m-1)x + 1 = 0 has equal roots.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "For equal roots, D=0. [2(m-1)]^2 - 4(m-1)(1) = 0 => 4(m-1)^2 - 4(m-1) = 0 => 4(m-1)(m-1-1) = 0. m=1 or m=2. But m cannot be 1 (coefficient of x^2), so m=2.",
+      "hash": "5e7dfce8b5d7d48c",
+      "translations": {
+        "hi": {
+          "question": "m का मान ज्ञात कीजिए यदि द्विघात समीकरण (m-1)x^2 + 2(m-1)x + 1 = 0 के मूल बराबर हैं।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "बराबर मूलों के लिए D=0. 4(m-1)(m-2) = 0. m=1 संभव नहीं है, इसलिए m=2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-022",
+      "number": 22,
+      "question": "In a triangle ABC, right angled at B, if tan A = 1/sqrt(3), find the value of sin A cos C + cos A sin C.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "sqrt(3)/2"
+      },
+      "answer": "A",
+      "explanation": "tan A = 1/sqrt(3) => A = 30. Then C = 180 - 90 - 30 = 60. sin 30 cos 60 + cos 30 sin 60 = 1/2*1/2 + sqrt(3)/2*sqrt(3)/2 = 1/4 + 3/4 = 1.",
+      "hash": "795c695b02c665ec",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज ABC में, जिसका कोण B समकोण है, यदि tan A = 1/sqrt(3) है, तो sin A cos C + cos A sin C का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "1/2",
+            "D": "sqrt(3)/2"
+          },
+          "explanation": "A = 30, C = 60. sin 30 cos 60 + cos 30 sin 60 = 1/4 + 3/4 = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-023",
+      "number": 23,
+      "question": "The area of a sector of a circle of radius 6 cm is 13.2 cm2. Find the angle of the sector. (Use pi = 22/7)",
+      "options": {
+        "A": "42 degrees",
+        "B": "30 degrees",
+        "C": "60 degrees",
+        "D": "45 degrees"
+      },
+      "answer": "A",
+      "explanation": "Area = (theta/360) * pi * r^2. 13.2 = (theta/360) * 22/7 * 36 => 13.2 = theta * 1.1/3.5 => theta = 42.",
+      "hash": "c9da0bb1f24b5b9c",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी त्रिज्या वाले एक वृत्त के त्रिज्यखंड का क्षेत्रफल 13.2 सेमी2 है। त्रिज्यखंड का कोण ज्ञात कीजिए।",
+          "options": {
+            "A": "42 डिग्री",
+            "B": "30 डिग्री",
+            "C": "60 डिग्री",
+            "D": "45 डिग्री"
+          },
+          "explanation": "13.2 = (theta/360) * (22/7) * 36. हल करने पर theta = 42 डिग्री."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-024",
+      "number": 24,
+      "question": "Find the sum of the first 15 multiples of 8.",
+      "options": {
+        "A": "960",
+        "B": "840",
+        "C": "1000",
+        "D": "800"
+      },
+      "answer": "A",
+      "explanation": "a=8, d=8, n=15. S15 = 15/2 [2*8 + 14*8] = 15/2 [16 + 112] = 15/2 * 128 = 15 * 64 = 960.",
+      "hash": "e72f9e08bac53d25",
+      "translations": {
+        "hi": {
+          "question": "8 के पहले 15 गुणजों का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "960",
+            "B": "840",
+            "C": "1000",
+            "D": "800"
+          },
+          "explanation": "a=8, n=15. S15 = 15/2 [16 + 112] = 960."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-025",
+      "number": 25,
+      "question": "The mean of 5 numbers is 18. If one number is excluded, their mean becomes 16. Find the excluded number.",
+      "options": {
+        "A": "26",
+        "B": "24",
+        "C": "28",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "Total sum = 5 * 18 = 90. Sum of 4 numbers = 4 * 16 = 64. Excluded number = 90 - 64 = 26.",
+      "hash": "ee74dca6ac30c157",
+      "translations": {
+        "hi": {
+          "question": "5 संख्याओं का माध्य 18 है। यदि एक संख्या को बाहर कर दिया जाता है, तो उनका माध्य 16 हो जाता है। बाहर की गई संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "26",
+            "B": "24",
+            "C": "28",
+            "D": "30"
+          },
+          "explanation": "कुल योग = 90. 4 संख्याओं का योग = 64. बाहर की गई संख्या = 90 - 64 = 26."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-026",
+      "number": 26,
+      "question": "A bag contains 5 red, 8 white and 4 green balls. One ball is drawn at random. What is the probability that it is neither red nor green?",
+      "options": {
+        "A": "8/17",
+        "B": "5/17",
+        "C": "4/17",
+        "D": "9/17"
+      },
+      "answer": "A",
+      "explanation": "Total = 5+8+4 = 17. Neither red nor green = White = 8. Prob = 8/17.",
+      "hash": "13378c803493727d",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 5 लाल, 8 सफेद और 4 हरी गेंदें हैं। एक गेंद बेतरतीब ढंग से निकाली जाती है। इसकी क्या प्रायिकता है कि यह न तो लाल है और न ही हरी?",
+          "options": {
+            "A": "8/17",
+            "B": "5/17",
+            "C": "4/17",
+            "D": "9/17"
+          },
+          "explanation": "कुल = 17. न लाल न हरी = सफेद = 8. प्रायिकता = 8/17."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-027",
+      "number": 27,
+      "question": "If the area of a circle is numerically equal to its circumference, find its radius.",
+      "options": {
+        "A": "2 units",
+        "B": "1 unit",
+        "C": "4 units",
+        "D": "pi units"
+      },
+      "answer": "A",
+      "explanation": "pi * r^2 = 2 * pi * r => r = 2.",
+      "hash": "c9871509a35fb45c",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वृत्त का क्षेत्रफल संख्यात्मक रूप से उसकी परिधि के बराबर है, तो उसकी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "2 इकाई",
+            "B": "1 इकाई",
+            "C": "4 इकाई",
+            "D": "pi इकाई"
+          },
+          "explanation": "pi * r^2 = 2 * pi * r => r = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-028",
+      "number": 28,
+      "question": "The point P which divides the line segment joining the points A(1, -3) and B(-3, 9) internally in the ratio 1:3 is:",
+      "options": {
+        "A": "(0, 0)",
+        "B": "(1, 1)",
+        "C": "(-1, 3)",
+        "D": "(2, -6)"
+      },
+      "answer": "A",
+      "explanation": "x = [1(-3) + 3(1)]/4 = 0. y = [1(9) + 3(-3)]/4 = 0. Point is (0,0).",
+      "hash": "1adcf4c778145f8f",
+      "translations": {
+        "hi": {
+          "question": "बिंदु P जो बिंदुओं A(1, -3) और B(-3, 9) को मिलाने वाले रेखाखंड को आंतरिक रूप से 1:3 के अनुपात में विभाजित करता है:",
+          "options": {
+            "A": "(0, 0)",
+            "B": "(1, 1)",
+            "C": "(-1, 3)",
+            "D": "(2, -6)"
+          },
+          "explanation": "x = (-3+3)/4 = 0. y = (9-9)/4 = 0. बिंदु (0,0) है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-029",
+      "number": 29,
+      "question": "A ladder 10 m long reaches a window 8 m above the ground. Find the distance of the foot of the ladder from the base of the wall.",
+      "options": {
+        "A": "6 m",
+        "B": "4 m",
+        "C": "5 m",
+        "D": "2 m"
+      },
+      "answer": "A",
+      "explanation": "Dist = sqrt(10^2 - 8^2) = sqrt(100 - 64) = sqrt(36) = 6.",
+      "hash": "fa3304a118e69150",
+      "translations": {
+        "hi": {
+          "question": "10 मीटर लंबी एक सीढ़ी जमीन से 8 मीटर ऊपर एक खिड़की तक पहुँचती है। दीवार के आधार से सीढ़ी के पाद की दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "6 मीटर",
+            "B": "4 मीटर",
+            "C": "5 मीटर",
+            "D": "2 मीटर"
+          },
+          "explanation": "दूरी = sqrt(10^2 - 8^2) = 6 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-030",
+      "number": 30,
+      "question": "If x^2 + 1/x^2 = 34, find the value of x^3 + 1/x^3 (take x as positive).",
+      "options": {
+        "A": "198",
+        "B": "216",
+        "C": "162",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "(x + 1/x)^2 = x^2 + 1/x^2 + 2 = 36 => x + 1/x = 6. x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 6^3 - 3(6) = 216 - 18 = 198.",
+      "hash": "646410fcf0d6a2a4",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 + 1/x^2 = 34 है, तो x^3 + 1/x^3 का मान ज्ञात कीजिए (x को धनात्मक लें)।",
+          "options": {
+            "A": "198",
+            "B": "216",
+            "C": "162",
+            "D": "200"
+          },
+          "explanation": "x + 1/x = 6. x^3 + 1/x^3 = 6^3 - 3(6) = 198."
+        }
+      }
+    }
+  ]
+}

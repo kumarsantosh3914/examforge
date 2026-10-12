@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 9,
+  "title": "Mathematics Mock Test 9",
+  "questions": [
+    {
+      "id": "mathematics-09-001",
+      "number": 1,
+      "question": "If a vector field F = (x + 3y)i + (y - 2z)j + (x + az)k is solenoidal, find the value of 'a'.",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Div F = ∂/∂x(x+3y) + ∂/∂y(y-2z) + ∂/∂z(x+az) = 0. 1 + 1 + a = 0 => a = -2.",
+      "hash": "f8caf1c9de22d476",
+      "translations": {
+        "hi": {
+          "question": "यदि एक सदिश क्षेत्र F = (x + 3y)i + (y - 2z)j + (x + az)k परिनालिका (solenoidal) है, तो 'a' का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "0",
+            "D": "1"
+          },
+          "explanation": "परिनालिका क्षेत्र के लिए Divergence शून्य होना चाहिए। 1 + 1 + a = 0 रखने पर a = -2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-002",
+      "number": 2,
+      "question": "Evaluate Integral[C] (z^2 + 3z + 2) dz, where C is the unit circle |z| = 1.",
+      "options": {
+        "A": "0",
+        "B": "2*pi*i",
+        "C": "4*pi*i",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "By Cauchy's Integral Theorem, if a function f(z) is analytic within and on a closed contour C, then the integral of f(z) around C is zero. Since z^2+3z+2 is a polynomial (analytic everywhere), the integral is 0.",
+      "hash": "37c6d3abc7623396",
+      "translations": {
+        "hi": {
+          "question": "Integral[C] (z^2 + 3z + 2) dz का मान ज्ञात कीजिए, जहाँ C इकाई वृत्त |z| = 1 है।",
+          "options": {
+            "A": "0",
+            "B": "2*pi*i",
+            "C": "4*pi*i",
+            "D": "1"
+          },
+          "explanation": "कौशी के समाकलन प्रमेय (Cauchy's Integral Theorem) के अनुसार, यदि फलन विश्लेषणात्मक है, तो बंद कंटूर पर उसका समाकलन शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-003",
+      "number": 3,
+      "question": "Find the Eigenvalues of the matrix A = [[2, 1, 0], [1, 2, 1], [0, 1, 2]].",
+      "options": {
+        "A": "2, 2+sqrt(2), 2-sqrt(2)",
+        "B": "1, 2, 3",
+        "C": "0, 2, 4",
+        "D": "2, 2, 2"
+      },
+      "answer": "A",
+      "explanation": "Det(A-λI) = (2-λ)[(2-λ)^2 - 1] - 1[2-λ] = 0. Solving gives (2-λ)[(2-λ)^2 - 2] = 0. λ = 2, 2 +/- sqrt(2).",
+      "hash": "92f837a93bfa7fe7",
+      "translations": {
+        "hi": {
+          "question": "आव्यूह A = [[2, 1, 0], [1, 2, 1], [0, 1, 2]] के आइगेन मान (Eigenvalues) ज्ञात कीजिए।",
+          "options": {
+            "A": "2, 2+sqrt(2), 2-sqrt(2)",
+            "B": "1, 2, 3",
+            "C": "0, 2, 4",
+            "D": "2, 2, 2"
+          },
+          "explanation": "अभिलक्षणिक समीकरण को हल करने पर (2-λ)[(2-λ)^2 - 2] = 0 प्राप्त होता है, जिससे λ = 2 और 2 +/- sqrt(2) मिलते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-004",
+      "number": 4,
+      "question": "The value of the complex integral Integral[C] (e^z / (z - 1)) dz around the circle |z| = 2 is:",
+      "options": {
+        "A": "2*pi*i*e",
+        "B": "2*pi*i",
+        "C": "0",
+        "D": "pi*i*e"
+      },
+      "answer": "A",
+      "explanation": "Using Cauchy's Integral Formula: Integral f(z)/(z-a) dz = 2*pi*i * f(a). Here f(z)=e^z and a=1 (inside |z|=2). Result = 2*pi*i * e^1 = 2*pi*i*e.",
+      "hash": "516bd737b09fa23a",
+      "translations": {
+        "hi": {
+          "question": "वृत्त |z| = 2 के परितः जटिल समाकलन Integral[C] (e^z / (z - 1)) dz का मान है:",
+          "options": {
+            "A": "2*pi*i*e",
+            "B": "2*pi*i",
+            "C": "0",
+            "D": "pi*i*e"
+          },
+          "explanation": "कौशी के समाकलन सूत्र का उपयोग करने पर: 2*pi*i * f(1) = 2*pi*i*e."
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-005",
+      "number": 5,
+      "question": "Find the surface area of the portion of the sphere x^2 + y^2 + z^2 = 9 that lies above the plane z = 0.",
+      "options": {
+        "A": "18*pi",
+        "B": "36*pi",
+        "C": "9*pi",
+        "D": "27*pi"
+      },
+      "answer": "A",
+      "explanation": "This is a hemisphere of radius r=3. Surface area = 2 * pi * r^2 = 2 * pi * 9 = 18*pi.",
+      "hash": "6b45a16f3eb33f54",
+      "translations": {
+        "hi": {
+          "question": "गोले x^2 + y^2 + z^2 = 9 के उस भाग का पृष्ठीय क्षेत्रफल ज्ञात कीजिए जो तल z = 0 के ऊपर स्थित है।",
+          "options": {
+            "A": "18*pi",
+            "B": "36*pi",
+            "C": "9*pi",
+            "D": "27*pi"
+          },
+          "explanation": "यह r=3 वाला एक अर्धगोला है। पृष्ठीय क्षेत्रफल = 2 * pi * r^2 = 18*pi."
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-006",
+      "number": 6,
+      "question": "Gauss Divergence Theorem converts a:",
+      "options": {
+        "A": "Volume integral to surface integral",
+        "B": "Line integral to surface integral",
+        "C": "Line integral to volume integral",
+        "D": "Surface integral to line integral"
+      },
+      "answer": "A",
+      "explanation": "Gauss Divergence Theorem relates the volume integral of the divergence of a vector field to the surface integral of the vector field itself over the boundary.",
+      "hash": "e46df063250e13e8",
+      "translations": {
+        "hi": {
+          "question": "गॉस डाइवर्जेंस प्रमेय (Gauss Divergence Theorem) किसे परिवर्तित करता है?",
+          "options": {
+            "A": "आयतन समाकलन को पृष्ठीय समाकलन में",
+            "B": "रेखा समाकलन को पृष्ठीय समाकलन में",
+            "C": "रेखा समाकलन को आयतन समाकलन में",
+            "D": "पृष्ठीय समाकलन को रेखा समाकलन में"
+          },
+          "explanation": "गॉस प्रमेय आयतन समाकलन (volume integral) और पृष्ठीय समाकलन (surface integral) के बीच संबंध स्थापित करता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-007",
+      "number": 7,
+      "question": "Find the work done by a force F = xi + yj in moving a particle from (0,0) to (1,1) along the line y = x.",
+      "options": {
+        "A": "1",
+        "B": "0.5",
+        "C": "2",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Work = Integral F.dr = Integral (x dx + y dy). Since y=x, dy=dx. Work = Integral[0 to 1] (x dx + x dx) = Integral 2x dx = [x^2] from 0 to 1 = 1.",
+      "hash": "8fb7e2fc45e53cc5",
+      "translations": {
+        "hi": {
+          "question": "रेखा y = x के अनुदिश एक कण को (0,0) से (1,1) तक ले जाने में बल F = xi + yj द्वारा किया गया कार्य ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "0.5",
+            "C": "2",
+            "D": "0"
+          },
+          "explanation": "कार्य = Integral (x dx + y dy). y=x रखने पर Integral 2x dx प्राप्त होता है, जिसका मान 1 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-008",
+      "number": 8,
+      "question": "The Fourier Transform of a Gaussian function is:",
+      "options": {
+        "A": "Gaussian",
+        "B": "Delta function",
+        "C": "Sinc function",
+        "D": "Rectangular function"
+      },
+      "answer": "A",
+      "explanation": "A Gaussian function is its own Fourier transform (within a scaling factor).",
+      "hash": "eb13275e28a6c113",
+      "translations": {
+        "hi": {
+          "question": "एक गाऊसी फलन (Gaussian function) का फूरियर रूपांतरण (Fourier Transform) होता है:",
+          "options": {
+            "A": "गाऊसी (Gaussian)",
+            "B": "डेल्टा फलन",
+            "C": "सिंक (Sinc) फलन",
+            "D": "आयताकार फलन"
+          },
+          "explanation": "गाऊसी फलन का फूरियर रूपांतरण स्वयं एक गाऊसी फलन ही होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-009",
+      "number": 9,
+      "question": "Find the value of c in the Mean Value Theorem for f(x) = sqrt(x) in the interval [1, 4].",
+      "options": {
+        "A": "2.25",
+        "B": "2.5",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "f'(c) = [f(4)-f(1)]/(4-1) => 1/(2*sqrt(c)) = (2-1)/3 = 1/3. 2*sqrt(c) = 3 => sqrt(c) = 1.5 => c = 2.25.",
+      "hash": "29b2b63533f81fa5",
+      "translations": {
+        "hi": {
+          "question": "अंतराल [1, 4] में f(x) = sqrt(x) के लिए माध्य मान प्रमेय में c का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2.25",
+            "B": "2.5",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "f'(c) = (2-1)/3 = 1/3. हल करने पर 2*sqrt(c) = 3, इसलिए c = 2.25."
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-010",
+      "number": 10,
+      "question": "If f(z) = z^2, find the value of the line integral Integral[C] f(z) dz from z=0 to z=i along a straight line.",
+      "options": {
+        "A": "-i/3",
+        "B": "i/3",
+        "C": "-1/3",
+        "D": "1/3"
+      },
+      "answer": "A",
+      "explanation": "Integral z^2 dz = [z^3/3]. From 0 to i: (i^3/3) - 0 = -i/3.",
+      "hash": "fa714eb3750922ad",
+      "translations": {
+        "hi": {
+          "question": "यदि f(z) = z^2 है, तो z=0 से z=i तक एक सीधी रेखा के अनुदिश रेखा समाकलन Integral[C] f(z) dz का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "-i/3",
+            "B": "i/3",
+            "C": "-1/3",
+            "D": "1/3"
+          },
+          "explanation": "z^2 का समाकलन z^3/3 होता है। सीमा i रखने पर i^3/3 = -i/3 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-011",
+      "number": 11,
+      "question": "In complex analysis, if a point is a pole of order 1, it is called a:",
+      "options": {
+        "A": "Simple pole",
+        "B": "Essential singularity",
+        "C": "Removable singularity",
+        "D": "Zero"
+      },
+      "answer": "A",
+      "explanation": "A pole of order 1 is specifically referred to as a simple pole.",
+      "hash": "ef332ca569b2cc49",
+      "translations": {
+        "hi": {
+          "question": "जटिल विश्लेषण में, यदि कोई बिंदु कोटि 1 (order 1) का पोल है, तो उसे कहा जाता है:",
+          "options": {
+            "A": "सरल पोल (Simple pole)",
+            "B": "आवश्यक विचित्रता (Essential singularity)",
+            "C": "हटाने योग्य विचित्रता (Removable singularity)",
+            "D": "शून्य (Zero)"
+          },
+          "explanation": "कोटि 1 के पोल को सरल पोल (Simple pole) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-012",
+      "number": 12,
+      "question": "Find the Laplace transform of t * sin(at).",
+      "options": {
+        "A": "2as / (s^2 + a^2)^2",
+        "B": "a / (s^2 + a^2)^2",
+        "C": "s / (s^2 + a^2)^2",
+        "D": "2s / (s^2 + a^2)"
+      },
+      "answer": "A",
+      "explanation": "L{t * f(t)} = -d/ds [L{f(t)}]. L{sin at} = a/(s^2+a^2). Deriving: -d/ds [a/(s^2+a^2)] = -a * [-2s/(s^2+a^2)^2] = 2as / (s^2+a^2)^2.",
+      "hash": "54c541c9a112c707",
+      "translations": {
+        "hi": {
+          "question": "t * sin(at) का लाप्लास रूपांतरण ज्ञात कीजिए।",
+          "options": {
+            "A": "2as / (s^2 + a^2)^2",
+            "B": "a / (s^2 + a^2)^2",
+            "C": "s / (s^2 + a^2)^2",
+            "D": "2s / (s^2 + a^2)"
+          },
+          "explanation": "t से गुणा करने पर लाप्लास डोमेन में अवकलन होता है। हल करने पर 2as / (s^2 + a^2)^2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-013",
+      "number": 13,
+      "question": "The curl of any gradient field is always:",
+      "options": {
+        "A": "Zero vector",
+        "B": "Scalar constant",
+        "C": "The field itself",
+        "D": "Divergence of the field"
+      },
+      "answer": "A",
+      "explanation": "Curl(Grad φ) = 0 for any scalar field φ. Gradient fields are irrotational.",
+      "hash": "5e17d5ecb31004bf",
+      "translations": {
+        "hi": {
+          "question": "किसी भी प्रवणता क्षेत्र (gradient field) का कर्ल हमेशा होता है:",
+          "options": {
+            "A": "शून्य सदिश",
+            "B": "अदिश स्थिरांक",
+            "C": "स्वयं क्षेत्र",
+            "D": "क्षेत्र का डाइवर्जेंस"
+          },
+          "explanation": "किसी भी अदिश क्षेत्र की प्रवणता का कर्ल हमेशा शून्य होता है। ऐसे क्षेत्रों को 'अघूर्णी' (irrotational) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-014",
+      "number": 14,
+      "question": "A differential equation is said to be exact if:",
+      "options": {
+        "A": "∂M/∂y = ∂N/∂x",
+        "B": "∂M/∂x = ∂N/∂y",
+        "C": "M + N = 0",
+        "D": "dM/dx = dN/dy"
+      },
+      "answer": "A",
+      "explanation": "For M(x,y)dx + N(x,y)dy = 0 to be exact, the partial derivatives must satisfy ∂M/∂y = ∂N/∂x.",
+      "hash": "c0a8d63a2da2f731",
+      "translations": {
+        "hi": {
+          "question": "एक अवकल समीकरण को 'यथार्थ' (exact) कहा जाता है यदि:",
+          "options": {
+            "A": "∂M/∂y = ∂N/∂x",
+            "B": "∂M/∂x = ∂N/∂y",
+            "C": "M + N = 0",
+            "D": "dM/dx = dN/dy"
+          },
+          "explanation": "यथार्थ अवकल समीकरण के लिए शर्त ∂M/∂y = ∂N/∂x का संतुष्ट होना आवश्यक है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-015",
+      "number": 15,
+      "question": "Find the probability that in 10 tosses of a fair coin, the number of heads is exactly 5.",
+      "options": {
+        "A": "63/256",
+        "B": "1/2",
+        "C": "252/1024",
+        "D": "1/32"
+      },
+      "answer": "A",
+      "explanation": "Using Binomial distribution: 10C5 * (1/2)^10 = 252 / 1024 = 63 / 256.",
+      "hash": "014c0c0b29082283",
+      "translations": {
+        "hi": {
+          "question": "एक निष्पक्ष सिक्के के 10 उछालों में, चित (heads) की संख्या ठीक 5 होने की प्रायिकता ज्ञात कीजिए।",
+          "options": {
+            "A": "63/256",
+            "B": "1/2",
+            "C": "252/1024",
+            "D": "1/32"
+          },
+          "explanation": "द्विपद वितरण का उपयोग करने पर: 10C5 * (1/2)^10 = 63/256."
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-016",
+      "number": 16,
+      "question": "Stokes' Theorem relates:",
+      "options": {
+        "A": "Line integral and surface integral",
+        "B": "Surface integral and volume integral",
+        "C": "Line integral and volume integral",
+        "D": "Gradient and Divergence"
+      },
+      "answer": "A",
+      "explanation": "Stokes' Theorem relates the line integral of a vector field around a closed curve to the surface integral of its curl over a surface bounded by the curve.",
+      "hash": "8873966a2a067c37",
+      "translations": {
+        "hi": {
+          "question": "स्टोक्स प्रमेय (Stokes' Theorem) किसके बीच संबंध बताता है?",
+          "options": {
+            "A": "रेखा समाकलन और पृष्ठीय समाकलन",
+            "B": "पृष्ठीय समाकलन और आयतन समाकलन",
+            "C": "रेखा समाकलन और आयतन समाकलन",
+            "D": "प्रवणता और डाइवर्जेंस"
+          },
+          "explanation": "स्टोक्स प्रमेय रेखा समाकलन और उसके द्वारा परिबद्ध पृष्ठीय समाकलन के बीच संबंध स्थापित करता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-017",
+      "number": 17,
+      "question": "If u = f(x - y, y - z, z - x), then find ∂u/∂x + ∂u/∂y + ∂u/∂z.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "x + y + z"
+      },
+      "answer": "A",
+      "explanation": "Using chain rule: ∂u/∂x = f1 - f3, ∂u/∂y = f2 - f1, ∂u/∂z = f3 - f2. Adding them gives 0.",
+      "hash": "68c2f2eefe6feebf",
+      "translations": {
+        "hi": {
+          "question": "यदि u = f(x - y, y - z, z - x) है, तो ∂u/∂x + ∂u/∂y + ∂u/∂z ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "x + y + z"
+          },
+          "explanation": "श्रृंखला नियम (chain rule) का उपयोग करके जोड़ने पर सभी पद एक-दूसरे को काट देते हैं और परिणाम 0 मिलता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-018",
+      "number": 18,
+      "question": "Find the value of Integral[0 to pi] sin^2 x dx.",
+      "options": {
+        "A": "pi / 2",
+        "B": "pi",
+        "C": "0",
+        "D": "2*pi"
+      },
+      "answer": "A",
+      "explanation": "sin^2 x = (1 - cos 2x)/2. Integral = [x/2 - (sin 2x)/4] from 0 to pi = pi/2 - 0 = pi/2.",
+      "hash": "fce38c3c72c698cc",
+      "translations": {
+        "hi": {
+          "question": "Integral[0 to pi] sin^2 x dx का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "pi / 2",
+            "B": "pi",
+            "C": "0",
+            "D": "2*pi"
+          },
+          "explanation": "sin^2 x को (1 - cos 2x)/2 के रूप में लिखने पर समाकलन का मान pi/2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-019",
+      "number": 19,
+      "question": "If f(z) is analytic in a simply connected domain D, then the integral of f(z) along any simple closed curve in D is:",
+      "options": {
+        "A": "0",
+        "B": "2*pi*i",
+        "C": "f(a)",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "This is Cauchy's fundamental theorem for analytic functions.",
+      "hash": "ab02e03a64e976b4",
+      "translations": {
+        "hi": {
+          "question": "यदि f(z) एक साधारण रूप से जुड़े क्षेत्र D में विश्लेषणात्मक है, तो D में किसी भी साधारण बंद वक्र के अनुदिश f(z) का समाकलन है:",
+          "options": {
+            "A": "0",
+            "B": "2*pi*i",
+            "C": "f(a)",
+            "D": "1"
+          },
+          "explanation": "यह विश्लेषणात्मक फलनों के लिए कौशी का मूलभूत प्रमेय है, जिसके अनुसार बंद वक्र पर समाकलन शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-020",
+      "number": 20,
+      "question": "The solution of the differential equation dy/dx = e^(x-y) + x^2 e^-y is:",
+      "options": {
+        "A": "e^y = e^x + x^3/3 + C",
+        "B": "e^x = e^y + x^3/3 + C",
+        "C": "y = e^x + x^2 + C",
+        "D": "e^y = e^x + x^2 + C"
+      },
+      "answer": "A",
+      "explanation": "dy/dx = e^-y (e^x + x^2) => e^y dy = (e^x + x^2) dx. Integrating: e^y = e^x + x^3/3 + C.",
+      "hash": "19e81520c8200280",
+      "translations": {
+        "hi": {
+          "question": "अवकल समीकरण dy/dx = e^(x-y) + x^2 e^-y का हल है:",
+          "options": {
+            "A": "e^y = e^x + x^3/3 + C",
+            "B": "e^x = e^y + x^3/3 + C",
+            "C": "y = e^x + x^2 + C",
+            "D": "e^y = e^x + x^2 + C"
+          },
+          "explanation": "चरों को अलग करने (separation of variables) पर e^y dy = (e^x + x^2) dx प्राप्त होता है। समाकलन करने पर विकल्प A सही है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-021",
+      "number": 21,
+      "question": "Find the directional derivative of f(x,y,z) = x^2 yz + 4xz^2 at (1, -2, -1) in the direction of 2i - j - 2k.",
+      "options": {
+        "A": "37/3",
+        "B": "11",
+        "C": "9",
+        "D": "41/3"
+      },
+      "answer": "A",
+      "explanation": "Grad f = (2xyz + 4z^2)i + (x^2z)j + (x^2y + 8xz)k. At (1,-2,-1), Grad f = 8i - j - 10k. Unit vector u = (2i-j-2k)/3. Directional derivative = (16+1+20)/3 = 37/3.",
+      "hash": "85b47ee2d0a0cea0",
+      "translations": {
+        "hi": {
+          "question": "2i - j - 2k की दिशा में (1, -2, -1) पर f(x,y,z) = x^2 yz + 4xz^2 का दिशात्मक अवकलज ज्ञात कीजिए।",
+          "options": {
+            "A": "37/3",
+            "B": "11",
+            "C": "9",
+            "D": "41/3"
+          },
+          "explanation": "Grad f की गणना करके उसे इकाई सदिश से गुणा करने पर 37/3 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-022",
+      "number": 22,
+      "question": "In the numerical solution of dy/dx = f(x,y), the Runge-Kutta 4th order method has an error of the order of:",
+      "options": {
+        "A": "h^5",
+        "B": "h^4",
+        "C": "h^2",
+        "D": "h"
+      },
+      "answer": "A",
+      "explanation": "The local truncation error for RK4 is O(h^5), while the global truncation error is O(h^4).",
+      "hash": "7673e529454e496a",
+      "translations": {
+        "hi": {
+          "question": "dy/dx = f(x,y) के संख्यात्मक समाधान में, रुंगे-कुट्टा चौथी कोटि की विधि में त्रुटि किस कोटि की होती है?",
+          "options": {
+            "A": "h^5",
+            "B": "h^4",
+            "C": "h^2",
+            "D": "h"
+          },
+          "explanation": "RK4 विधि के लिए स्थानीय ट्रंकेशन त्रुटि (local truncation error) h^5 की कोटि की होती है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-023",
+      "number": 23,
+      "question": "The residue of f(z) = z / (z^2 + 1) at z = i is:",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "i",
+        "D": "-1/2"
+      },
+      "answer": "A",
+      "explanation": "f(z) = z / [(z-i)(z+i)]. Residue at z=i is Lim (z->i) (z-i)f(z) = i / (i+i) = i / 2i = 1/2.",
+      "hash": "c3f607e053749925",
+      "translations": {
+        "hi": {
+          "question": "z = i पर f(z) = z / (z^2 + 1) का अवशेष (residue) ज्ञात कीजिए।",
+          "options": {
+            "A": "1/2",
+            "B": "1",
+            "C": "i",
+            "D": "-1/2"
+          },
+          "explanation": "पोल z=i पर अवशेष की गणना करने पर i/2i = 1/2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-024",
+      "number": 24,
+      "question": "Find the divergence of F = x^2 i + y^2 j + z^2 k at the point (1, 1, 1).",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Div F = 2x + 2y + 2z. At (1,1,1), Div F = 2+2+2 = 6.",
+      "hash": "16f6b4926a236c2e",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (1, 1, 1) पर F = x^2 i + y^2 j + z^2 k का अपसरण ज्ञात कीजिए।",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "0",
+            "D": "1"
+          },
+          "explanation": "डाइवर्जेंस 2x + 2y + 2z है। मान प्रतिस्थापित करने पर 6 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-025",
+      "number": 25,
+      "question": "Find the Fourier sine transform of e^-x.",
+      "options": {
+        "A": "s / (1 + s^2)",
+        "B": "1 / (1 + s^2)",
+        "C": "s / (1 - s^2)",
+        "D": "e^-s"
+      },
+      "answer": "A",
+      "explanation": "Fs{f(x)} = Integral[0 to inf] f(x) sin(sx) dx. For e^-x, this is s / (1 + s^2).",
+      "hash": "78706edc27f72252",
+      "translations": {
+        "hi": {
+          "question": "e^-x का फूरियर साइन रूपांतरण ज्ञात कीजिए।",
+          "options": {
+            "A": "s / (1 + s^2)",
+            "B": "1 / (1 + s^2)",
+            "C": "s / (1 - s^2)",
+            "D": "e^-s"
+          },
+          "explanation": "फूरियर साइन रूपांतरण के मानक सूत्र के अनुसार e^-x के लिए यह s / (1 + s^2) होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-026",
+      "number": 26,
+      "question": "If A = [[1, 0, 0], [2, 3, 0], [4, 5, 6]], then the eigenvalues of A are:",
+      "options": {
+        "A": "1, 3, 6",
+        "B": "1, 2, 4",
+        "C": "0, 3, 6",
+        "D": "1, 5, 6"
+      },
+      "answer": "A",
+      "explanation": "For a triangular matrix (lower or upper), the eigenvalues are simply the entries on the main diagonal.",
+      "hash": "adf88573f1d5a8ee",
+      "translations": {
+        "hi": {
+          "question": "यदि A = [[1, 0, 0], [2, 3, 0], [4, 5, 6]] है, तो A के आइगेन मान हैं:",
+          "options": {
+            "A": "1, 3, 6",
+            "B": "1, 2, 4",
+            "C": "0, 3, 6",
+            "D": "1, 5, 6"
+          },
+          "explanation": "त्रिभुजाकार आव्यूह (triangular matrix) के लिए आइगेन मान उसके मुख्य विकर्ण के अवयव ही होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-027",
+      "number": 27,
+      "question": "The Laplace transform of the unit step function u(t-a) is:",
+      "options": {
+        "A": "e^-as / s",
+        "B": "e^-as",
+        "C": "1/s",
+        "D": "s e^-as"
+      },
+      "answer": "A",
+      "explanation": "By the second shifting theorem or direct integration, L{u(t-a)} = e^-as / s.",
+      "hash": "259c1789de87e97f",
+      "translations": {
+        "hi": {
+          "question": "इकाई स्टेप फलन (unit step function) u(t-a) का लाप्लास रूपांतरण है:",
+          "options": {
+            "A": "e^-as / s",
+            "B": "e^-as",
+            "C": "1/s",
+            "D": "s e^-as"
+          },
+          "explanation": "इकाई स्टेप फलन के लिए लाप्लास रूपांतरण का मानक सूत्र e^-as / s है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-028",
+      "number": 28,
+      "question": "Find the area bounded by y = sin x and the x-axis from x = 0 to x = pi.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "pi",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Area = Integral[0 to pi] sin x dx = [-cos x] from 0 to pi = -(-1) - (-1) = 1 + 1 = 2.",
+      "hash": "a87d2a72ef7c3c3d",
+      "translations": {
+        "hi": {
+          "question": "x = 0 से x = pi तक y = sin x और x-अक्ष द्वारा परिबद्ध क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "pi",
+            "D": "0"
+          },
+          "explanation": "sin x का समाकलन करने पर क्षेत्रफल 2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-029",
+      "number": 29,
+      "question": "If f(z) = u + iv is analytic, then the family of curves u(x,y)=c1 and v(x,y)=c2 are:",
+      "options": {
+        "A": "Orthogonal",
+        "B": "Parallel",
+        "C": "Coincident",
+        "D": "Intersecting at 45 degrees"
+      },
+      "answer": "A",
+      "explanation": "The real and imaginary parts of an analytic function form two families of orthogonal trajectories.",
+      "hash": "83ae27e385f26c11",
+      "translations": {
+        "hi": {
+          "question": "यदि f(z) = u + iv विश्लेषणात्मक है, तो वक्रों का परिवार u(x,y)=c1 और v(x,y)=c2 हैं:",
+          "options": {
+            "A": "लांबिक (Orthogonal)",
+            "B": "समांतर",
+            "C": "संपाती",
+            "D": "45 डिग्री पर प्रतिच्छेद करने वाले"
+          },
+          "explanation": "विश्लेषणात्मक फलन के वास्तविक और काल्पनिक भाग लांबिक प्रक्षेपवक्र (orthogonal trajectories) बनाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-030",
+      "number": 30,
+      "question": "Find the constant 'a' such that the function f(x,y) = x^2 + ay^2 is harmonic.",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "0",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "For a function to be harmonic, it must satisfy Laplace's equation: fxx + fyy = 0. 2 + 2a = 0 => a = -1.",
+      "hash": "e8ce29f0370e5522",
+      "translations": {
+        "hi": {
+          "question": "स्थिरांक 'a' ज्ञात कीजिए ताकि फलन f(x,y) = x^2 + ay^2 हार्मोनिक (harmonic) हो।",
+          "options": {
+            "A": "-1",
+            "B": "1",
+            "C": "0",
+            "D": "2"
+          },
+          "explanation": "हार्मोनिक फलन के लिए fxx + fyy = 0 होना चाहिए। 2 + 2a = 0 रखने पर a = -1 प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}
