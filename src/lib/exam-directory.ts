@@ -10,8 +10,8 @@ import type { Exam } from './types';
 
 export type FamilyId = (typeof families)[number]['id'] | 'other';
 
-// `description` overrides the generated meta description on the exam page; `shortTitle` names the exam inside subject page titles.
-export interface ExamMeta { family: FamilyId; title: string; shortTitle?: string; body: string; blurb: string; description?: string }
+// `description` and `metaTitle` override the generated meta description and page title on the exam page; `shortTitle` names the exam inside subject page titles.
+export interface ExamMeta { family: FamilyId; title: string; shortTitle?: string; body: string; blurb: string; description?: string; metaTitle?: string }
 
 // Keyed by exam document _id (`<exam slug>/<category slug>`, or `<exam slug>` for exams without categories).
 export const liveExamMeta: Record<string, ExamMeta> = {
@@ -20,6 +20,8 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     title: 'BPSC TRE 4.0 Computer Science',
     body: 'Bihar Public Service Commission',
     blurb: 'Teacher recruitment, Computer Science paper. Timed sets across DBMS, networks, programming, AI and more.',
+    metaTitle: 'BPSC TRE 4.0 Computer Science Free Mock Tests (Bihar Computer Teacher)',
+    description: 'Free Bihar computer teacher mock tests for BPSC TRE 4.0 Computer Science: 70 timed practice sets and 2,000+ questions across 14 subjects, from DBMS and networks to programming and AI, with explanations in English and Hindi.',
   },
   'bpsc-tre-4.0/physics-11-12': {
     family: 'teaching',

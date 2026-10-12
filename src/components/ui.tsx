@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { useSession } from './session';
 import { Brand, LogoMark } from './logo';
 import { api, post } from '@/lib/client';
+import { examHref, liveExamMeta } from '@/lib/exam-directory';
 
 export { Brand } from './logo';
 export function ErrorMessage({ message, retry }: { message: string; retry?: () => void }) { return <div className="error-box" role="alert"><AlertCircle size={20} /><div>{message}{retry && <button className="text-button" onClick={retry}>Try again</button>}</div></div>; }
@@ -40,6 +41,9 @@ export function Shell({ children, wide = false }: { children: React.ReactNode; w
     <a className="skip-link" href="#main">Skip to content</a>
     <SiteHeader />
     <main id="main" className={wide ? 'page-wide' : 'page-content'}>{children}</main>
-    <footer className="footer"><div className="footer-inner"><span className="footer-brand"><LogoMark size={20} />ExamForge</span><span>Practice deliberately. Progress confidently.</span></div></footer>
+    <footer className="footer">
+      <nav className="footer-exams" aria-label="Mock tests by exam"><span>Mock tests</span>{Object.entries(liveExamMeta).map(([id, m]) => <Link key={id} href={examHref(id)}>{m.shortTitle ?? m.title}</Link>)}</nav>
+      <div className="footer-inner"><span className="footer-brand"><LogoMark size={20} />ExamForge</span><span>Practice deliberately. Progress confidently.</span></div>
+    </footer>
   </div>;
 }
