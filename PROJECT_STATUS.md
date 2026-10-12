@@ -151,6 +151,15 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Exam guides in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, stages, tips, FAQ). The RPF guide cites CEN RPF 02/2024 (4,208 constable posts) and its PET standards; the RRB JE guide covers CBT-1 and describes CBT-2, which ExamForge does not cover. Neither states exam dates. Pattern figures come from freetesthub and third-party summaries because the official notices could not be fetched; check them against the current RRB notice. RRB NTPC stays the only planned exam.
 - Totals: 11 exams, 77 subjects, 512 sets, 20,066 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`) and production (`examforge`); deployed 2026-10-12.
 
+## RRB NTPC CBT-1 (2026-10-12)
+
+- Twelfth live exam, in the **Railway** family: `/exams/rrb-ntpc-cbt-1` (3 subjects, 15 sets, 480 questions), in English and Hindi with explanations. Seed source `cleaned/rrb-ntpc-cbt-1/` follows the freetesthub.com/RRB-NTPC-CBT-1 structure and has no raw copy in `data/`. The "RRB NTPC" coming-soon card is removed; `plannedExams` is now empty and the landing page lists no coming-soon exams.
+- Subjects: Mathematics (5 sets of 29–30 questions), Reasoning (5 of 25–28) and General Awareness (5 of 40), matching the three CBT-1 sections. There are no full mock tests in the source, so every set keeps one minute per question; the guide notes that the real CBT-1 is 100 questions in 90 minutes with −1/3 per wrong answer, which the app does not apply.
+- Change on import: three `explanation: null` values (`reasoning-04-024` in English and Hindi, `reasoning-04-028` in Hindi) failed validation, so those keys were removed. The Hindi review for `-028` falls back to the English explanation; `-024` has none. Nothing else was edited and source `hash` values are unchanged.
+- Known source quirks, left as supplied: question numbers have gaps (Mathematics 3 and Reasoning 1–5); a few reasoning questions describe a figure in words (Venn diagrams, mirror images, dice, triangle counting) and stay because they are answerable as text; answer keys rarely use D (4%).
+- Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, stages, tips, FAQ). It cites CEN 06/2025 (graduate level) and CEN 07/2025 (undergraduate level) but states no post counts, cut-offs or dates, which could not be checked against the official notices; pattern figures come from freetesthub and third-party summaries, so check them against the current RRB notice. CBT-2 is described but not covered.
+- Totals: 12 exams, 80 subjects, 527 sets, 20,546 usable questions (7 quarantined, none new). Seeded to dev (`examforge_dev`); production not yet.
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

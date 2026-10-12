@@ -803,6 +803,97 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'rrb-ntpc-cbt-1': {
+    heading: 'About the RRB NTPC exam',
+    intro: [
+      'NTPC stands for Non-Technical Popular Categories, the large group of clerical, commercial and traffic posts in Indian Railways: Station Master, Goods Train Manager, Commercial cum Ticket Clerk, Accounts Clerk cum Typist and similar. The Railway Recruitment Boards (RRBs) fill them through separate graduate-level and undergraduate-level notices, such as CEN 06/2025 and CEN 07/2025. Selection starts with a computer-based test, CBT-1, that every candidate takes.',
+      'ExamForge covers CBT-1 with free, timed practice sets for each of its three sections: Mathematics, Reasoning and General Awareness. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'CBT-1 deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RRB NTPC CBT-1 at a glance',
+      source: 'From published RRB NTPC exam-pattern summaries. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Recent notices', value: 'CEN 06/2025 (graduate level) and CEN 07/2025 (undergraduate level)' },
+        { label: 'Qualification', value: 'Graduation for graduate-level posts; Class 12 for undergraduate-level posts' },
+        { label: 'CBT-1', value: '100 questions, 100 marks, 90 minutes (screening)' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'CBT-1 is a single objective paper, common to graduate and undergraduate posts. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RRB NTPC CBT-1',
+      sections: [
+        { part: 'Section 1', subject: 'Mathematics', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'General Intelligence and Reasoning', questions: 30, marks: 30 },
+        { part: 'Section 3', subject: 'General Awareness', questions: 40, marks: 40 },
+      ],
+      duration: '90 minutes (120 minutes for eligible PwBD candidates using a scribe)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'There are no sectional time limits. Because CBT-1 is held over several shifts, marks are normalised across shifts. CBT-1 only screens candidates: you must clear the qualifying cut-off to be called for CBT-2, which has its own merit marks and is not covered by ExamForge.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level (General Awareness runs to graduate-level current affairs). Each ExamForge subject matches one CBT-1 section.',
+      areas: [
+        {
+          title: 'Mathematics', subjects: ['mathematics'],
+          summary: 'Arithmetic, algebra and mensuration, 30 questions.',
+          topics: ['Number system, BODMAS, HCF and LCM', 'Percentage, ratio, average, profit and loss', 'Simple and compound interest', 'Time and work, speed, time and distance', 'Algebra, geometry and mensuration', 'Data interpretation and elementary statistics'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: '30 questions, mostly quick to solve once you know the method.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Calendar, clock and dice', 'Mirror images and counting figures'],
+        },
+        {
+          title: 'General Awareness', subjects: ['general-awareness'],
+          summary: 'The largest section, with 40 questions, so it often decides the cut-off.',
+          topics: ['Current affairs, sports, books and awards', 'Indian history and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'General science and everyday facts', 'Economics and the railways'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the posts, exact cut-off dates, relaxations and medical standards.',
+      items: [
+        { title: 'Qualification', detail: 'Graduation from a recognised university for graduate-level posts (Levels 4 to 6). Class 12 pass for undergraduate-level posts (Levels 2 and 3).' },
+        { title: 'Age', detail: 'Recent notices have set 18 to 33 years for graduate-level posts and 18 to 30 years for undergraduate-level posts, with relaxation for SC, ST, OBC, PwBD and ex-servicemen candidates. Check the current notice, as limits can change.' },
+        { title: 'Medical standard', detail: 'Each post has a medical category (for example A-2 or B-2) with its own vision standard, checked before appointment.' },
+      ],
+    },
+    stages: {
+      intro: 'The stages depend on the post. Each has to be cleared before the next.',
+      items: [
+        { title: 'CBT-1', detail: 'The 100-question screening paper above. Candidates are shortlisted for CBT-2 in order of merit, category by category.' },
+        { title: 'CBT-2', detail: 'A second computer-based test of General Awareness, Mathematics and Reasoning that decides merit for most posts.' },
+        { title: 'Skill or aptitude test', detail: 'Some posts need a typing skill test (clerk and typist posts) or a Computer Based Aptitude Test (Station Master and Traffic Assistant). These are qualifying for most posts.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination confirms you meet the standard of the post you are offered.' },
+      ],
+    },
+    merit: [
+      { title: 'CBT-2 decides rank', detail: 'The merit list is drawn up on CBT-2 marks, with the skill or aptitude test as a qualifying step. CBT-1 only has to be qualified.' },
+      { title: 'Choice of post', detail: 'Posts are allotted by merit, the preferences you give and the medical standard you meet.' },
+    ],
+    tips: [
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Win General Awareness', detail: 'It has 40 questions, more than any other section. Revise static GK in short rounds, plus the last six months of current affairs.' },
+      { title: 'Keep arithmetic quick', detail: 'Learn tables, squares and percentage-to-fraction conversions so each question takes under a minute.' },
+      { title: 'Bank the Reasoning marks', detail: 'Series, analogy, coding and blood-relation questions can be solved in 30 seconds with practice, which buys time for the harder ones.' },
+      { title: 'Practise the full 100 on the clock', detail: 'Take the three sections back to back in 90 minutes, and review every wrong answer before the next attempt.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in RRB NTPC CBT-1?', answer: 'Yes. One-third of a mark is deducted for each wrong answer. ExamForge sets do not deduct marks, so take a third off for each wrong answer yourself for the exact result.' },
+      { question: 'Is CBT-1 the same for graduate and undergraduate posts?', answer: 'Yes. Both levels take the same 100-question CBT-1 pattern. The posts and CBT-2 differ.' },
+      { question: 'How are the ExamForge sets timed?', answer: 'Each set gives one minute per question. The sets are sectional, so they are shorter than the full 100-question, 90-minute paper.' },
+      { question: 'Does ExamForge cover CBT-2?', answer: 'Not yet. These sets cover CBT-1.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
   'dsssb-tgt/computer-science': {
     heading: 'About the DSSSB TGT Computer Science exam',
     intro: [

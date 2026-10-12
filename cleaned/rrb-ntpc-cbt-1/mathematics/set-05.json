@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 5,
+  "title": "Mathematics Mock Test 5",
+  "questions": [
+    {
+      "id": "mathematics-05-001",
+      "number": 1,
+      "question": "Find the sum of squares of the first 10 natural numbers.",
+      "options": {
+        "A": "385",
+        "B": "3025",
+        "C": "285",
+        "D": "405"
+      },
+      "answer": "A",
+      "explanation": "Formula: n(n+1)(2n+1)/6. Here n=10. 10(11)(21)/6 = 2310/6 = 385.",
+      "hash": "cd396963beb505c7",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 प्राकृतिक संख्याओं के वर्गों का योग (Sum of squares) ज्ञात कीजिये।",
+          "options": {
+            "A": "385",
+            "B": "3025",
+            "C": "285",
+            "D": "405"
+          },
+          "explanation": "सूत्र: n(n+1)(2n+1)/6. यहाँ n=10. 10(11)(21)/6 = 2310/6 = 385."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-002",
+      "number": 2,
+      "question": "If x/5 = y/8, then what is the value of (x+5):(y+8)?",
+      "options": {
+        "A": "3:5",
+        "B": "5:8",
+        "C": "8:5",
+        "D": "13:40"
+      },
+      "answer": "B",
+      "explanation": "Let x=5k, y=8k. (5k+5)/(8k+8) = 5(k+1)/8(k+1) = 5/8.",
+      "hash": "c43d2aeec67e6620",
+      "translations": {
+        "hi": {
+          "question": "यदि x/5 = y/8 है, तो (x+5):(y+8) का मान क्या होगा?",
+          "options": {
+            "A": "3:5",
+            "B": "5:8",
+            "C": "8:5",
+            "D": "13:40"
+          },
+          "explanation": "मान लें x=5k, y=8k. (5k+5)/(8k+8) = 5(k+1)/8(k+1) = 5/8."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-003",
+      "number": 3,
+      "question": "The hypotenuse of a right triangle is 25 cm and one side is 7 cm. Find the length of the other side.",
+      "options": {
+        "A": "20 cm",
+        "B": "22 cm",
+        "C": "24 cm",
+        "D": "18 cm"
+      },
+      "answer": "C",
+      "explanation": "Triplet is (7, 24, 25). Pythagoras: √(25² - 7²) = √(625 - 49) = √576 = 24.",
+      "hash": "52cb2ba9e00870f8",
+      "translations": {
+        "hi": {
+          "question": "एक समकोण त्रिभुज का कर्ण 25 सेमी है और एक भुजा 7 सेमी है। दूसरी भुजा की लंबाई ज्ञात कीजिये।",
+          "options": {
+            "A": "20 सेमी",
+            "B": "22 सेमी",
+            "C": "24 सेमी",
+            "D": "18 सेमी"
+          },
+          "explanation": "ट्रिपलेट (7, 24, 25) है। पाइथागोरस: √(25² - 7²) = √(625 - 49) = √576 = 24."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-004",
+      "number": 4,
+      "question": "By selling an article for ₹240, a man incurs a loss of 10%. At what price should he sell it to gain 20%?",
+      "options": {
+        "A": "₹300",
+        "B": "₹320",
+        "C": "₹360",
+        "D": "₹280"
+      },
+      "answer": "B",
+      "explanation": "CP = 240/0.9. New SP = (240/0.9) * 1.2 = 240 * (12/9) = 240 * 4/3 = 320.",
+      "hash": "6e9b56b6f3ac47dd",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु को ₹240 में बेचने पर, एक व्यक्ति को 10% की हानि होती है। 20% लाभ प्राप्त करने के लिए उसे किस कीमत पर बेचना चाहिए?",
+          "options": {
+            "A": "₹300",
+            "B": "₹320",
+            "C": "₹360",
+            "D": "₹280"
+          },
+          "explanation": "CP = 240/0.9. नया SP = (240/0.9) * 1.2 = 240 * (12/9) = 240 * 4/3 = 320."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-005",
+      "number": 5,
+      "question": "A number is decreased by 20% and then increased by 20%. What is the change compared to original?",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "10% decrease"
+      },
+      "answer": "A",
+      "explanation": "Net change = -x²/100 = -(20²)/100 = -400/100 = 4% loss.",
+      "hash": "0db8271ec7f0eabe",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या को 20% कम किया जाता है और फिर 20% बढ़ाया जाता है। मूल संख्या की तुलना में परिवर्तन क्या है?",
+          "options": {
+            "A": "4% कमी",
+            "B": "4% वृद्धि",
+            "C": "कोई बदलाव नहीं",
+            "D": "10% कमी"
+          },
+          "explanation": "शुद्ध परिवर्तन = -x²/100 = -(20²)/100 = -400/100 = 4% हानि।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-006",
+      "number": 6,
+      "question": "If Simple Interest for 3 years at 5% is ₹150, what will be the Compound Interest (CI) on the same sum for the same time and rate?",
+      "options": {
+        "A": "₹157.625",
+        "B": "₹155.50",
+        "C": "₹160",
+        "D": "₹152.50"
+      },
+      "answer": "A",
+      "explanation": "SI = 150, R=5%, T=3. P = (150*100)/(3*5) = 1000. CI = 1000[(1.05)³ - 1] ≈ 157.625.",
+      "hash": "079c666908546515",
+      "translations": {
+        "hi": {
+          "question": "यदि 3 वर्ष के लिए 5% की दर से साधारण ब्याज ₹150 है, तो उसी राशि पर उसी दर और समय के लिए चक्रवृद्धि ब्याज (CI) क्या होगा?",
+          "options": {
+            "A": "₹157.625",
+            "B": "₹155.50",
+            "C": "₹160",
+            "D": "₹152.50"
+          },
+          "explanation": "SI = 150, दर=5%, समय=3. P = (150*100)/(3*5) = 1000. CI = 1000[(1.05)³ - 1] ≈ 157.625."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-007",
+      "number": 7,
+      "question": "Find the value of sin(60° - θ) - cos(30° + θ).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2sinθ",
+        "D": "2cosθ"
+      },
+      "answer": "A",
+      "explanation": "cos(30°+θ) = sin(90°-(30°+θ)) = sin(60°-θ). So difference is 0.",
+      "hash": "66a090522d68bbfd",
+      "translations": {
+        "hi": {
+          "question": "sin(60° - θ) - cos(30° + θ) का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2sinθ",
+            "D": "2cosθ"
+          },
+          "explanation": "cos(30°+θ) = sin(90°-(30°+θ)) = sin(60°-θ). अतः अंतर 0 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-008",
+      "number": 8,
+      "question": "What is the average of odd numbers 1, 3, 5, 7, ..., 99?",
+      "options": {
+        "A": "49",
+        "B": "50",
+        "C": "51",
+        "D": "45"
+      },
+      "answer": "B",
+      "explanation": "Average of first n odd numbers is n. Here count is 50 (half of 100). Average = 50.",
+      "hash": "0d1aa25cb6f1c6f4",
+      "translations": {
+        "hi": {
+          "question": "1, 3, 5, 7, ..., 99 तक की विषम संख्याओं का औसत क्या है?",
+          "options": {
+            "A": "49",
+            "B": "50",
+            "C": "51",
+            "D": "45"
+          },
+          "explanation": "प्रथम n विषम संख्याओं का औसत n होता है। यहाँ संख्याएं 50 हैं (1 से 100 में आधी)। औसत = 50।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-009",
+      "number": 9,
+      "question": "Angles of a quadrilateral are in ratio 3:5:9:13. Find the smallest angle.",
+      "options": {
+        "A": "15°",
+        "B": "36°",
+        "C": "20°",
+        "D": "30°"
+      },
+      "answer": "B",
+      "explanation": "Sum = 3+5+9+13 = 30 units = 360°. 1 unit = 12°. Smallest = 3 × 12 = 36°.",
+      "hash": "470da1d5a7e606d0",
+      "translations": {
+        "hi": {
+          "question": "एक चतुर्भुज के कोण 3:5:9:13 के अनुपात में हैं। सबसे छोटा कोण ज्ञात कीजिये।",
+          "options": {
+            "A": "15°",
+            "B": "36°",
+            "C": "20°",
+            "D": "30°"
+          },
+          "explanation": "योग = 3+5+9+13 = 30 इकाई = 360°। 1 इकाई = 12°। सबसे छोटा = 3 × 12 = 36°."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-010",
+      "number": 10,
+      "question": "The ratio of surface areas of two spheres is 4:9. What will be the ratio of their volumes?",
+      "options": {
+        "A": "8:27",
+        "B": "2:3",
+        "C": "16:81",
+        "D": "64:729"
+      },
+      "answer": "A",
+      "explanation": "Area ∝ r². r1/r2 = √(4/9) = 2/3. Volume ∝ r³. Ratio = (2/3)³ = 8:27.",
+      "hash": "6734a2caf42be514",
+      "translations": {
+        "hi": {
+          "question": "दो गोलों के पृष्ठीय क्षेत्रफलों का अनुपात 4:9 है। उनके आयतनों का अनुपात क्या होगा?",
+          "options": {
+            "A": "8:27",
+            "B": "2:3",
+            "C": "16:81",
+            "D": "64:729"
+          },
+          "explanation": "क्षेत्रफल ∝ r². r1/r2 = √(4/9) = 2/3. आयतन ∝ r³. अनुपात = (2/3)³ = 8:27."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-011",
+      "number": 11,
+      "question": "If (a-b) = 3 and (a²+b²) = 29, find the value of ab.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "15",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "(a-b)² = a²+b² - 2ab. 9 = 29 - 2ab => 2ab = 20 => ab = 10.",
+      "hash": "17642bf85dd37c15",
+      "translations": {
+        "hi": {
+          "question": "यदि (a-b) = 3 और (a²+b²) = 29 है, तो ab का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "18"
+          },
+          "explanation": "(a-b)² = a²+b² - 2ab. 9 = 29 - 2ab => 2ab = 20 => ab = 10."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-012",
+      "number": 12,
+      "question": "A car covers 240 km in 4 hours. If it increases speed by 1/3, how much time to cover same distance?",
+      "options": {
+        "A": "3 hours",
+        "B": "2 hours",
+        "C": "3.5 hours",
+        "D": "2.5 hours"
+      },
+      "answer": "A",
+      "explanation": "Old Speed = 60 km/hr. New Speed = 60 + 20 = 80. Time = 240/80 = 3 hours.",
+      "hash": "0d45679dbdf045b9",
+      "translations": {
+        "hi": {
+          "question": "एक कार 240 किमी की दूरी 4 घंटे में तय करती है। यदि वह अपनी गति 1/3 बढ़ा दे, तो उसी दूरी को तय करने में कितना समय लगेगा?",
+          "options": {
+            "A": "3 घंटे",
+            "B": "2 घंटे",
+            "C": "3.5 घंटे",
+            "D": "2.5 घंटे"
+          },
+          "explanation": "पुरानी गति = 60 किमी/घंटा। नई गति = 60 + 20 = 80। समय = 240/80 = 3 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-013",
+      "number": 13,
+      "question": "A and B can fill a tank in 12 and 15 hours. If they open alternately for 1 hour each starting with A, when will the tank be full?",
+      "options": {
+        "A": "13 hrs 15 min",
+        "B": "13 hrs 20 min",
+        "C": "12 hrs",
+        "D": "14 hrs"
+      },
+      "answer": "A",
+      "explanation": "2 hrs work = 3/20. 6 cycles (12 hrs) = 18/20. Rem 2/20=1/10. 13th hr A fills 1/12. Rem: 1/10-1/12 = 1/60. B takes (1/60)/(1/15) = 1/4 hr. Total 13h 15m.",
+      "hash": "715dbb044e59cd7d",
+      "translations": {
+        "hi": {
+          "question": "A और B एक टैंक को क्रमशः 12 और 15 घंटों में भर सकते हैं। यदि वे बारी-बारी से एक-एक घंटे के लिए खोले जाते हैं और A पहले शुरू करता है, तो टैंक कितने समय में भरेगा?",
+          "options": {
+            "A": "13 घंटे 15 मिनट",
+            "B": "13 घंटे 20 मिनट",
+            "C": "12 घंटे",
+            "D": "14 घंटे"
+          },
+          "explanation": "2 घंटे में कार्य = 1/12 + 1/15 = 9/60 = 3/20। 6 चक्र (12 घंटे) में = 18/20 = 9/10 काम। शेष 1/10। 13वें घंटे में A 1/12 भरेगा। अभी भी शेष: 1/10 - 1/12 = 1/60। अब B की बारी (क्षमता 1/15/घंटा)। समय = (1/60)/(1/15) = 1/4 घंटा = 15 मिनट। कुल = 13 घंटे 15 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-014",
+      "number": 14,
+      "question": "What is the largest 4-digit number divisible by 88?",
+      "options": {
+        "A": "9944",
+        "B": "9988",
+        "C": "9966",
+        "D": "8888"
+      },
+      "answer": "A",
+      "explanation": "Largest 4-digit is 9999. 9999/88 = 113 rem 55. 9999 - 55 = 9944.",
+      "hash": "bb38b7e414a1fea8",
+      "translations": {
+        "hi": {
+          "question": "88 से विभाज्य सबसे बड़ी 4 अंकों की संख्या क्या है?",
+          "options": {
+            "A": "9944",
+            "B": "9988",
+            "C": "9966",
+            "D": "8888"
+          },
+          "explanation": "सबसे बड़ी 4 अंकों की संख्या 9999 है। 9999/88 = 113 शेष 55। 9999 - 55 = 9944।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-015",
+      "number": 15,
+      "question": "What is the area of a circle with radius 21 cm?",
+      "options": {
+        "A": "1386 cm²",
+        "B": "1486 cm²",
+        "C": "1286 cm²",
+        "D": "1366 cm²"
+      },
+      "answer": "A",
+      "explanation": "Area = πr² = (22/7) * 21 * 21 = 22 * 3 * 21 = 1386.",
+      "hash": "fc89efe2de1b69dc",
+      "translations": {
+        "hi": {
+          "question": "21 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "1386 सेमी²",
+            "B": "1486 सेमी²",
+            "C": "1286 सेमी²",
+            "D": "1366 सेमी²"
+          },
+          "explanation": "क्षेत्रफल = πr² = (22/7) * 21 * 21 = 22 * 3 * 21 = 1386।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-016",
+      "number": 16,
+      "question": "A bag contains 4 red, 5 green, 6 blue balls. If 3 balls are drawn randomly, what is the probability they are of different colors?",
+      "options": {
+        "A": "24/91",
+        "B": "12/91",
+        "C": "4/13",
+        "D": "8/91"
+      },
+      "answer": "A",
+      "explanation": "Total = 15C3 = 455. Favorable = 4C1 × 5C1 × 6C1 = 4×5×6 = 120. Prob = 120/455 = 24/91.",
+      "hash": "b7555156b68d3d5b",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 4 लाल, 5 हरी और 6 नीली गेंदें हैं। यदि 3 गेंदें यादृच्छिक रूप से निकाली जाती हैं, तो उनके अलग-अलग रंगों के होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "24/91",
+            "B": "12/91",
+            "C": "4/13",
+            "D": "8/91"
+          },
+          "explanation": "कुल = 15C3 = 455। अनुकूल = 4C1 × 5C1 × 6C1 = 4×5×6 = 120। प्रायिकता = 120/455 = 24/91।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-017",
+      "number": 17,
+      "question": "If 4^x = 8^y, then what is x:y?",
+      "options": {
+        "A": "3:2",
+        "B": "2:3",
+        "C": "1:2",
+        "D": "2:1"
+      },
+      "answer": "A",
+      "explanation": "(2^2)^x = (2^3)^y => 2x = 3y => x/y = 3/2.",
+      "hash": "a31cd6cc9b2a73cf",
+      "translations": {
+        "hi": {
+          "question": "यदि 4^x = 8^y, तो x:y क्या है?",
+          "options": {
+            "A": "3:2",
+            "B": "2:3",
+            "C": "1:2",
+            "D": "2:1"
+          },
+          "explanation": "(2^2)^x = (2^3)^y => 2x = 3y => x/y = 3/2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-018",
+      "number": 18,
+      "question": "Ratio of boys to girls is 3:2. If 20% boys and 25% girls are scholarship holders, what % of students do not get scholarship?",
+      "options": {
+        "A": "78%",
+        "B": "75%",
+        "C": "60%",
+        "D": "72%"
+      },
+      "answer": "A",
+      "explanation": "Let 300B, 200G. Total 500. No schol: B 80% (240), G 75% (150). Total 390. % = (390/500)*100 = 78%.",
+      "hash": "d043c53e217f7ff3",
+      "translations": {
+        "hi": {
+          "question": "एक स्कूल में लड़कों और लड़कियों का अनुपात 3:2 है। यदि 20% लड़के और 25% लड़कियां छात्रवृत्ति धारक हैं, तो कितने प्रतिशत छात्रों को छात्रवृत्ति नहीं मिलती है?",
+          "options": {
+            "A": "78%",
+            "B": "75%",
+            "C": "60%",
+            "D": "72%"
+          },
+          "explanation": "माना 300 लड़के, 200 लड़कियां। कुल 500। बिना स्कॉलरशिप: लड़के 80% (240), लड़कियां 75% (150)। कुल 390। % = (390/500)*100 = 78%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-019",
+      "number": 19,
+      "question": "Average of 3 numbers is 15. If average of first two is 14, what is the 3rd number?",
+      "options": {
+        "A": "17",
+        "B": "16",
+        "C": "15",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "Sum = 3×15 = 45. Sum of two = 2×14 = 28. Third = 45 - 28 = 17.",
+      "hash": "78483878eda1c42c",
+      "translations": {
+        "hi": {
+          "question": "3 संख्याओं का औसत 15 है। यदि पहली दो संख्याओं का औसत 14 है, तो तीसरी संख्या क्या है?",
+          "options": {
+            "A": "17",
+            "B": "16",
+            "C": "15",
+            "D": "18"
+          },
+          "explanation": "योग = 3×15 = 45। दो का योग = 2×14 = 28। तीसरी = 45 - 28 = 17।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-020",
+      "number": 20,
+      "question": "If x% of x is 36, find x.",
+      "options": {
+        "A": "60",
+        "B": "600",
+        "C": "360",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "x² / 100 = 36 => x² = 3600 => x = 60.",
+      "hash": "f534e73b2cf85960",
+      "translations": {
+        "hi": {
+          "question": "यदि x% का x, 36 है, तो x का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "60",
+            "B": "600",
+            "C": "360",
+            "D": "6"
+          },
+          "explanation": "x² / 100 = 36 => x² = 3600 => x = 60."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-021",
+      "number": 21,
+      "question": "What is the value of tan 15°?",
+      "options": {
+        "A": "2 - √3",
+        "B": "2 + √3",
+        "C": "√3 - 1",
+        "D": "√3 + 1"
+      },
+      "answer": "A",
+      "explanation": "tan(45-30) = (1 - 1/√3)/(1 + 1/√3) = (√3-1)/(√3+1). Rationalizing: 2 - √3.",
+      "hash": "287b6c3826059721",
+      "translations": {
+        "hi": {
+          "question": "tan 15° का मान क्या है?",
+          "options": {
+            "A": "2 - √3",
+            "B": "2 + √3",
+            "C": "√3 - 1",
+            "D": "√3 + 1"
+          },
+          "explanation": "tan(45-30) = (1 - 1/√3)/(1 + 1/√3) = (√3-1)/(√3+1). परिमेयकरण करने पर: 2 - √3।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-022",
+      "number": 22,
+      "question": "The number of diagonals in a polygon is 54. Find the number of sides.",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "9",
+        "D": "15"
+      },
+      "answer": "A",
+      "explanation": "Formula: n(n-3)/2 = 54 => n(n-3) = 108. 12 × 9 = 108. So n = 12.",
+      "hash": "00633538d3938aa7",
+      "translations": {
+        "hi": {
+          "question": "एक बहुभुज में विकर्णों (Diagonals) की संख्या 54 है। भुजाओं की संख्या ज्ञात कीजिये।",
+          "options": {
+            "A": "12",
+            "B": "10",
+            "C": "9",
+            "D": "15"
+          },
+          "explanation": "सूत्र: n(n-3)/2 = 54 => n(n-3) = 108. 12 × 9 = 108. अतः n = 12।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-023",
+      "number": 23,
+      "question": "If A's income is 25% more than B, by what percent is B's income less than A?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "16.66%",
+        "D": "30%"
+      },
+      "answer": "A",
+      "explanation": "Formula: [R / (100+R)] * 100. [25/125]*100 = 1/5 * 100 = 20%.",
+      "hash": "1698a86a1027bfe4",
+      "translations": {
+        "hi": {
+          "question": "यदि A की आय B से 25% अधिक है, तो B की आय A से कितने प्रतिशत कम है?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "16.66%",
+            "D": "30%"
+          },
+          "explanation": "सूत्र: [R / (100+R)] * 100. [25/125]*100 = 1/5 * 100 = 20%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-024",
+      "number": 24,
+      "question": "Average of 18 items is 12. If 2 is added to each item, what is the new average?",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "16",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "If x is added to each number, average increases by x. 12 + 2 = 14.",
+      "hash": "45a9c830c253449e",
+      "translations": {
+        "hi": {
+          "question": "18 वस्तुओं का औसत 12 है। यदि प्रत्येक वस्तु में 2 जोड़ा जाए, तो नया औसत क्या होगा?",
+          "options": {
+            "A": "14",
+            "B": "12",
+            "C": "16",
+            "D": "24"
+          },
+          "explanation": "यदि प्रत्येक संख्या में x जोड़ा जाता है, तो औसत में भी x की वृद्धि होती है। 12 + 2 = 14।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-025",
+      "number": 25,
+      "question": "Area of an equilateral triangle is 4√3 cm². Find its side.",
+      "options": {
+        "A": "4 cm",
+        "B": "2 cm",
+        "C": "8 cm",
+        "D": "6 cm"
+      },
+      "answer": "A",
+      "explanation": "(√3/4)a² = 4√3 => a² = 16 => a = 4.",
+      "hash": "f2fa916df35baf6a",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज का क्षेत्रफल 4√3 सेमी² है। इसकी भुजा ज्ञात कीजिये।",
+          "options": {
+            "A": "4 सेमी",
+            "B": "2 सेमी",
+            "C": "8 सेमी",
+            "D": "6 सेमी"
+          },
+          "explanation": "(√3/4)a² = 4√3 => a² = 16 => a = 4।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-026",
+      "number": 26,
+      "question": "A card is drawn from a pack of 52 cards. What is probability it is an Ace or a King?",
+      "options": {
+        "A": "2/13",
+        "B": "1/13",
+        "C": "1/52",
+        "D": "4/13"
+      },
+      "answer": "A",
+      "explanation": "4 Aces + 4 Kings = 8 favorable. Prob = 8/52 = 2/13.",
+      "hash": "f5092d64ef217f1d",
+      "translations": {
+        "hi": {
+          "question": "52 ताश के पत्तों की गड्डी से एक पत्ता निकाला जाता है। इसके इक्का (Ace) या बादशाह (King) होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "2/13",
+            "B": "1/13",
+            "C": "1/52",
+            "D": "4/13"
+          },
+          "explanation": "4 इक्के + 4 बादशाह = 8 अनुकूल परिणाम। प्रायिकता = 8/52 = 2/13।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-027",
+      "number": 27,
+      "question": "3 bells ring at intervals of 15, 20, 30 mins. If they ring together at 11:00 AM, when will they ring together next?",
+      "options": {
+        "A": "12:00 PM",
+        "B": "11:30 AM",
+        "C": "11:45 AM",
+        "D": "12:30 PM"
+      },
+      "answer": "A",
+      "explanation": "LCM(15, 20, 30) = 60 min = 1 hr. 11:00 AM + 1 hr = 12:00 PM.",
+      "hash": "4000e72f3c152466",
+      "translations": {
+        "hi": {
+          "question": "3 घंटी क्रमशः 15, 20 और 30 मिनट के अंतराल पर बजती हैं। यदि वे सुबह 11:00 बजे एक साथ बजती हैं, तो वे अगली बार कब एक साथ बजेंगी?",
+          "options": {
+            "A": "12:00 PM",
+            "B": "11:30 AM",
+            "C": "11:45 AM",
+            "D": "12:30 PM"
+          },
+          "explanation": "LCM(15, 20, 30) = 60 मिनट = 1 घंटा। 11:00 AM + 1 घंटा = 12:00 PM।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-028",
+      "number": 28,
+      "question": "Two numbers are in ratio 3:5. If 9 is subtracted from each, ratio becomes 12:23. What is the smaller number?",
+      "options": {
+        "A": "33",
+        "B": "27",
+        "C": "45",
+        "D": "55"
+      },
+      "answer": "A",
+      "explanation": "(3x-9)/(5x-9) = 12/23. 69x - 207 = 60x - 108. 9x = 99 => x = 11. Smaller number = 33.",
+      "hash": "440e8766851fa80d",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3:5 है। यदि प्रत्येक में 9 घटाया जाए, तो अनुपात 12:23 हो जाता है। छोटी संख्या क्या है?",
+          "options": {
+            "A": "33",
+            "B": "27",
+            "C": "45",
+            "D": "55"
+          },
+          "explanation": "(3x-9)/(5x-9) = 12/23. 69x - 207 = 60x - 108. 9x = 99 => x = 11. छोटी संख्या = 33।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-029",
+      "number": 29,
+      "question": "What is the approximate value of √0.9?",
+      "options": {
+        "A": "0.94",
+        "B": "0.3",
+        "C": "0.81",
+        "D": "0.03"
+      },
+      "answer": "A",
+      "explanation": "√0.90 ≈ 0.948 (Since 9²=81, 0.3²=0.09, not 0.9).",
+      "hash": "7ec11a24f3fbfe99",
+      "translations": {
+        "hi": {
+          "question": "√0.9 का मान लगभग क्या है?",
+          "options": {
+            "A": "0.94",
+            "B": "0.3",
+            "C": "0.81",
+            "D": "0.03"
+          },
+          "explanation": "√0.90 ≈ 0.948 (क्योंकि 9²=81, 0.3²=0.09 होता है, 0.9 नहीं)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-030",
+      "number": 30,
+      "question": "A 150m long train crosses a telegraph post in 12 seconds. Speed of train (in km/hr)?",
+      "options": {
+        "A": "45",
+        "B": "50",
+        "C": "54",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "Speed = 150/12 m/s = 12.5 m/s. km/hr = 12.5 × 18/5 = 2.5 × 18 = 45.",
+      "hash": "b9830c86e3dc8219",
+      "translations": {
+        "hi": {
+          "question": "एक 150 मीटर लंबी ट्रेन एक टेलीग्राफ पोस्ट को 12 सेकंड में पार करती है। ट्रेन की गति (किमी/घंटा में) क्या है?",
+          "options": {
+            "A": "45",
+            "B": "50",
+            "C": "54",
+            "D": "60"
+          },
+          "explanation": "गति = 150/12 मी/से = 12.5 मी/से। किमी/घंटा = 12.5 × 18/5 = 2.5 × 18 = 45।"
+        }
+      }
+    }
+  ]
+}

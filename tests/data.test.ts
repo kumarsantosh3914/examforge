@@ -5,11 +5,11 @@ import { readBank } from '../src/lib/data';
 
 test('cleaned question bank is discovered and validated dynamically', async () => {
   const bank = await readBank();
-  assert.deepEqual(bank.exams.map(e => e._id).sort(), ['bihar-police-constable', 'bpsc-tre-4.0/computer', 'bpsc-tre-4.0/physics-11-12', 'ctet-paper-1', 'ctet-paper-2', 'dsssb-tgt/computer-science', 'rpf-constable', 'rrb-group-d', 'rrb-je', 'ssc-gd-constable', 'ssc-mts']);
-  assert.equal(bank.subjects.length, 77);
-  assert.equal(bank.sets.length, 512);
-  assert.equal(bank.sourceQuestions, 20073);
-  assert.equal(bank.questions.length, 20066);
+  assert.deepEqual(bank.exams.map(e => e._id).sort(), ['bihar-police-constable', 'bpsc-tre-4.0/computer', 'bpsc-tre-4.0/physics-11-12', 'ctet-paper-1', 'ctet-paper-2', 'dsssb-tgt/computer-science', 'rpf-constable', 'rrb-group-d', 'rrb-je', 'rrb-ntpc-cbt-1', 'ssc-gd-constable', 'ssc-mts']);
+  assert.equal(bank.subjects.length, 80);
+  assert.equal(bank.sets.length, 527);
+  assert.equal(bank.sourceQuestions, 20553);
+  assert.equal(bank.questions.length, 20546);
   assert.deepEqual(bank.excluded.map(q => q.id).sort(), ['hindi-05-003', 'mathematics-05-014', 'mathematics-06-014', 'mock-test-full-test-05-105', 'mock-test-mathematics-science-full-test-05-073', 'programming-languages-05-027', 'reasoning-02-002']);
   assert.equal(bank.subjects.filter(s => s.examId === 'ssc-gd-constable').length, 5);
   assert.equal(bank.subjects.filter(s => s.examId === 'bpsc-tre-4.0/physics-11-12').length, 20);
@@ -18,6 +18,7 @@ test('cleaned question bank is discovered and validated dynamically', async () =
   assert.equal(bank.subjects.filter(s => s.examId === 'rrb-group-d').length, 4);
   assert.equal(bank.subjects.filter(s => s.examId === 'rpf-constable').length, 4);
   assert.equal(bank.subjects.filter(s => s.examId === 'rrb-je').length, 5);
+  assert.equal(bank.subjects.filter(s => s.examId === 'rrb-ntpc-cbt-1').length, 3);
   assert.equal(bank.subjects.filter(s => s.examId === 'ctet-paper-1').length, 6);
   assert.equal(bank.subjects.filter(s => s.examId === 'ctet-paper-2').length, 9);
   // Source IDs are unique within an exam; exams may reuse them (both SSC GD and DSSSB have `mock-test-01-001`).

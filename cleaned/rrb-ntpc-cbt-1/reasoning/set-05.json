@@ -1,0 +1,683 @@
+{
+  "subject": "Reasoning",
+  "set": 5,
+  "title": "Reasoning Mock Test 5",
+  "questions": [
+    {
+      "id": "reasoning-05-001",
+      "number": 1,
+      "question": "Select the option related to the third word as the second word is related to the first. Force : Newton :: Power : ?",
+      "options": {
+        "A": "Joule",
+        "B": "Watt",
+        "C": "Pascal",
+        "D": "Volt"
+      },
+      "answer": "B",
+      "explanation": "Unit of Force is Newton. Unit of Power is Watt.",
+      "hash": "d7c1afb901334314",
+      "translations": {
+        "hi": {
+          "question": "उस विकल्प का चयन करें जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है। बल (Force) : न्यूटन :: शक्ति (Power) : ?",
+          "options": {
+            "A": "जूल",
+            "B": "वॉट",
+            "C": "पास्कल",
+            "D": "वोल्ट"
+          },
+          "explanation": "बल का मात्रक न्यूटन है। शक्ति का मात्रक वॉट (Watt) है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-002",
+      "number": 2,
+      "question": "If MONKEY is written as XDJMNL, how is TIGER written?",
+      "options": {
+        "A": "QDFHS",
+        "B": "SDFHS",
+        "C": "QDFGS",
+        "D": "SHFDQ"
+      },
+      "answer": "A",
+      "explanation": "Reverse the word and subtract 1 from each letter. TIGER -> REGIT -> QDFHS.",
+      "hash": "0c97d93409f32b69",
+      "translations": {
+        "hi": {
+          "question": "यदि MONKEY को XDJMNL लिखा जाता है, तो TIGER को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "QDFHS",
+            "B": "SDFHS",
+            "C": "QDFGS",
+            "D": "SHFDQ"
+          },
+          "explanation": "तर्क: शब्द को उल्टा करें और -1 करें। Y(-1)X, E(-1)D, K(-1)J... TIGER -> REGIT -> R(-1)Q, E(-1)D, G(-1)F, I(-1)H, T(-1)S. -> QDFHS."
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-003",
+      "number": 3,
+      "question": "Complete the series: 2, 6, 12, 20, 30, ?",
+      "options": {
+        "A": "40",
+        "B": "42",
+        "C": "44",
+        "D": "38"
+      },
+      "answer": "B",
+      "explanation": "Logic: +4, +6, +8, +10. Next +12. 30+12 = 42. Or 6×7 = 42.",
+      "hash": "42ecf0fe01b05f1b",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला को पूरा करें: 2, 6, 12, 20, 30, ?",
+          "options": {
+            "A": "40",
+            "B": "42",
+            "C": "44",
+            "D": "38"
+          },
+          "explanation": "तर्क: +4, +6, +8, +10, +12. या n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6. अगला 6×7 = 42।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-004",
+      "number": 4,
+      "question": "Pointing to a man, a woman said, 'He is the son of my father's only brother.' How is the man related to the woman?",
+      "options": {
+        "A": "Brother",
+        "B": "Cousin",
+        "C": "Uncle",
+        "D": "Nephew"
+      },
+      "answer": "B",
+      "explanation": "Father's brother = Uncle. Uncle's son = Cousin.",
+      "hash": "a9b51b53245ead3f",
+      "translations": {
+        "hi": {
+          "question": "एक आदमी की ओर इशारा करते हुए, एक महिला ने कहा, 'वह मेरे पिता के इकलौते भाई का बेटा है।' आदमी महिला से कैसे संबंधित है?",
+          "options": {
+            "A": "भाई",
+            "B": "चचेरा भाई (Cousin)",
+            "C": "चाचा",
+            "D": "भतीजा"
+          },
+          "explanation": "पिता का भाई = चाचा। चाचा का बेटा = चचेरा भाई।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-005",
+      "number": 5,
+      "question": "Choose the odd one:",
+      "options": {
+        "A": "Apple",
+        "B": "Marigold",
+        "C": "Rose",
+        "D": "Lotus"
+      },
+      "answer": "A",
+      "explanation": "Apple is a fruit, others are flowers.",
+      "hash": "d862b5c9fa6aa017",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें:",
+          "options": {
+            "A": "सेब",
+            "B": "गेंदा (Marigold)",
+            "C": "गुलाब",
+            "D": "कमल"
+          },
+          "explanation": "सेब एक फल है, जबकि अन्य सभी फूल हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-006",
+      "number": 6,
+      "question": "Sunil walks 5 km East, turns right and walks 3 km. Turns right again and walks 5 km. How far is he from start?",
+      "options": {
+        "A": "5 km",
+        "B": "3 km",
+        "C": "8 km",
+        "D": "0 km"
+      },
+      "answer": "B",
+      "explanation": "He forms a rectangle path open at one side. Vertical distance is 3 km.",
+      "hash": "35ec8500e673a9d3",
+      "translations": {
+        "hi": {
+          "question": "सुनील पूर्व की ओर 5 किमी चलता है, फिर दाएं मुड़ता है और 3 किमी चलता है। फिर वह दाएं मुड़ता है और 5 किमी चलता है। वह प्रारंभिक बिंदु से कितनी दूर है?",
+          "options": {
+            "A": "5 किमी",
+            "B": "3 किमी",
+            "C": "8 किमी",
+            "D": "0 किमी"
+          },
+          "explanation": "पूर्व 5 किमी -> दक्षिण 3 किमी -> पश्चिम 5 किमी। क्षैतिज दूरी 0 हो गई, ऊर्ध्वाधर दूरी 3 किमी है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-007",
+      "number": 7,
+      "question": "Statements: All pens are papers. Some papers are blades. Conclusions: I. Some pens are blades. II. Some papers are pens.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "No relation between Pen and Blade. 'Some papers are pens' is true as Pen is a subset of Paper.",
+      "hash": "ba873ae3adcb3290",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी पेन कागज हैं। कुछ कागज ब्लेड हैं। निष्कर्ष: I. कुछ पेन ब्लेड हैं। II. कुछ कागज पेन हैं।",
+          "options": {
+            "A": "केवल I",
+            "B": "केवल II",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "पेन और ब्लेड के बीच कोई सीधा संबंध नहीं है (I गलत)। चूंकि सभी पेन कागज हैं, तो कागज का पेन वाला हिस्सा निश्चित रूप से मौजूद है (II सही)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-008",
+      "number": 8,
+      "question": "Venn Diagram: Asia, India, Delhi",
+      "options": {
+        "A": "Three separate",
+        "B": "Concentric (One inside other inside other)",
+        "C": "Two separate inside one",
+        "D": "Intersecting"
+      },
+      "answer": "B",
+      "explanation": "Delhi is in India, India is in Asia. Concentric circles.",
+      "hash": "c49dc420381e6c87",
+      "translations": {
+        "hi": {
+          "question": "वेन आरेख चुनें: एशिया, भारत, दिल्ली",
+          "options": {
+            "A": "तीन अलग सर्कल",
+            "B": "एक के अंदर एक के अंदर एक",
+            "C": "दो अलग, एक में",
+            "D": "काटते हुए"
+          },
+          "explanation": "दिल्ली भारत में है, और भारत एशिया में है। (संकेंद्रित वृत्त)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-009",
+      "number": 9,
+      "question": "In a class, Ramesh is 9th from top and 38th from bottom. Total students?",
+      "options": {
+        "A": "45",
+        "B": "46",
+        "C": "47",
+        "D": "48"
+      },
+      "answer": "B",
+      "explanation": "Total = (Top + Bottom) - 1 = 9 + 38 - 1 = 46.",
+      "hash": "86ec3a35bd7106e8",
+      "translations": {
+        "hi": {
+          "question": "एक कक्षा में, रमेश ऊपर से 9वां और नीचे से 38वां है। कक्षा में कुल कितने छात्र हैं?",
+          "options": {
+            "A": "45",
+            "B": "46",
+            "C": "47",
+            "D": "48"
+          },
+          "explanation": "कुल = (ऊपर + नीचे) - 1 = (9 + 38) - 1 = 47 - 1 = 46।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-010",
+      "number": 10,
+      "question": "If '+' is '×', '-' is '+', '×' is '÷', '÷' is '-', then 20 - 5 + 3 × 15 ÷ 2 = ?",
+      "options": {
+        "A": "19",
+        "B": "20",
+        "C": "18",
+        "D": "21"
+      },
+      "answer": "A",
+      "explanation": "Eq: 20 + 5 * 3 / 15 - 2 = 20 + 1 - 2 = 19.",
+      "hash": "9e8c7955bbb8b8f2",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '×', '-' का अर्थ '+', '×' का अर्थ '÷' और '÷' का अर्थ '-' है, तो 20 - 5 + 3 × 15 ÷ 2 = ?",
+          "options": {
+            "A": "19",
+            "B": "20",
+            "C": "18",
+            "D": "21"
+          },
+          "explanation": "समीकरण: 20 + 5 × 3 ÷ 15 - 2 BODMAS: 20 + 5 × (1/5) - 2 = 20 + 1 - 2 = 19."
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-011",
+      "number": 11,
+      "question": "Dictionary Order: 1. Praise 2. Practical 3. Prank 4. Prayer 5. Practice",
+      "options": {
+        "A": "5, 2, 1, 3, 4",
+        "B": "2, 5, 1, 3, 4",
+        "C": "2, 5, 1, 4, 3",
+        "D": "5, 2, 3, 1, 4"
+      },
+      "answer": "B",
+      "explanation": "Practical (2) -> Practice (5) -> Praise (1) -> Prank (3) -> Prayer (4).",
+      "hash": "b8e589f606a47f6f",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Praise 2. Practical 3. Prank 4. Prayer 5. Practice",
+          "options": {
+            "A": "5, 2, 1, 3, 4",
+            "B": "2, 5, 1, 3, 4",
+            "C": "2, 5, 1, 4, 3",
+            "D": "5, 2, 3, 1, 4"
+          },
+          "explanation": "Practical (2) -> Practice (5) -> Praise (1) -> Prank (3) -> Prayer (4)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-012",
+      "number": 12,
+      "question": "Find missing number: 5, 4, 20 8, ?, 24 6, 9, 54",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Logic: 1st * 2nd = 3rd. 8 * 3 = 24.",
+      "hash": "11632289d00f7dd6",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: 5, 4, 20 8, ?, 24 6, 9, 54",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "2"
+          },
+          "explanation": "तर्क: पहली × दूसरी = तीसरी। 5 × 4 = 20. 6 × 9 = 54. 8 × ? = 24 => ? = 3."
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-013",
+      "number": 13,
+      "question": "If today is Friday, what day will it be after 60 days?",
+      "options": {
+        "A": "Saturday",
+        "B": "Sunday",
+        "C": "Monday",
+        "D": "Tuesday"
+      },
+      "answer": "D",
+      "explanation": "60/7 = Remainder 4. Friday + 4 = Tuesday.",
+      "hash": "bfd6d347be1c90e6",
+      "translations": {
+        "hi": {
+          "question": "यदि आज शुक्रवार है, तो 60 दिनों के बाद कौन सा दिन होगा?",
+          "options": {
+            "A": "शनिवार",
+            "B": "रविवार",
+            "C": "सोमवार",
+            "D": "मंगलवार"
+          },
+          "explanation": "60 / 7 = 8 सप्ताह और 4 विषम दिन। शुक्रवार + 4 = मंगलवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-014",
+      "number": 14,
+      "question": "What is the angle between clock hands at 5:00?",
+      "options": {
+        "A": "120°",
+        "B": "150°",
+        "C": "180°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "Each hour mark is 30°. 5 * 30 = 150°.",
+      "hash": "8799b26aad649ca3",
+      "translations": {
+        "hi": {
+          "question": "5:00 बजे घड़ी की सुइयों के बीच का कोण क्या होता है?",
+          "options": {
+            "A": "120°",
+            "B": "150°",
+            "C": "180°",
+            "D": "90°"
+          },
+          "explanation": "एक घंटे का अंतर = 30°। 12 से 5 तक 5 घंटे हैं। 5 × 30° = 150°।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-015",
+      "number": 15,
+      "question": "Two positions of a dice: (3, 5, 1) and (3, 4, 2). What is opposite to 5?",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "6",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Common face 3. Clockwise: 3-5-1 and 3-4-2. 5 corresponds to 4.",
+      "hash": "8bbed1a19d985f12",
+      "translations": {
+        "hi": {
+          "question": "एक पासे की दो स्थितियाँ दी गई हैं (3, 5, 1) और (3, 4, 2)। '5' के विपरीत क्या है?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "6",
+            "D": "1"
+          },
+          "explanation": "'3' उभयनिष्ठ है। 3 से घड़ी की दिशा में: 3-5-1 और 3-4-2। 5 के नीचे 4 आ रहा है। अतः 5 के विपरीत 4 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-016",
+      "number": 16,
+      "question": "How many triangles in a square with both diagonals drawn?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "Standard figure count for square with diagonals is 8.",
+      "hash": "07780fafb2389901",
+      "translations": {
+        "hi": {
+          "question": "दी गई आकृति में कितने त्रिभुज हैं? (एक वर्ग जिसमें दोनों विकर्ण खींचे गए हैं)",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12"
+          },
+          "explanation": "4 छोटे त्रिभुज + 4 बड़े (दो-दो को मिलाकर) = 8।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-018",
+      "number": 18,
+      "question": "Complete series: AZ, CX, EV, GT, ?",
+      "options": {
+        "A": "IR",
+        "B": "HS",
+        "C": "JQ",
+        "D": "KP"
+      },
+      "answer": "A",
+      "explanation": "Alternate letters +2. Opposite pairs. Next is I-R.",
+      "hash": "ff3d789982191d9a",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला को पूरा करें: AZ, CX, EV, GT, ?",
+          "options": {
+            "A": "IR",
+            "B": "HS",
+            "C": "JQ",
+            "D": "KP"
+          },
+          "explanation": "A+2=C+2=E+2=G+2=I. Z-2=X-2=V-2=T-2=R. (विपरीत जोड़े)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-019",
+      "number": 19,
+      "question": "If A = 1 and PAT = 37, then TAP = ?",
+      "options": {
+        "A": "37",
+        "B": "36",
+        "C": "38",
+        "D": "39"
+      },
+      "answer": "A",
+      "explanation": "Letters are same, just rearranged. Sum remains 37.",
+      "hash": "93a77e0f7a5e4605",
+      "translations": {
+        "hi": {
+          "question": "यदि A = 1 और PAT = 37, तो TAP = ?",
+          "options": {
+            "A": "37",
+            "B": "36",
+            "C": "38",
+            "D": "39"
+          },
+          "explanation": "PAT = 16+1+20 = 37. TAP = 20+1+16 = 37. (अक्षर वही हैं)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-020",
+      "number": 20,
+      "question": "5 friends in a circle facing center. Ram is right of Shyam. Mohan is left of Shyam. Sohan is right of Ram. Where is Hari?",
+      "options": {
+        "A": "Between Sohan and Mohan",
+        "B": "Between Ram and Shyam",
+        "C": "Right of Mohan",
+        "D": "Left of Sohan"
+      },
+      "answer": "A",
+      "explanation": "Arrangement: Shyam - Ram - Sohan - Hari - Mohan. Hari is between Sohan and Mohan.",
+      "hash": "c7c2526a8bddadf2",
+      "translations": {
+        "hi": {
+          "question": "पांच मित्र एक वृत्ताकार मेज पर केंद्र की ओर मुख करके बैठे हैं। राम, श्याम के दाईं ओर है। मोहन, श्याम के बाईं ओर है। सोहन, राम के दाईं ओर है। हरि कहां बैठा है?",
+          "options": {
+            "A": "सोहन और मोहन के बीच",
+            "B": "राम और श्याम के बीच",
+            "C": "मोहन के दाईं ओर",
+            "D": "सोहन के बाईं ओर"
+          },
+          "explanation": "क्रम (घड़ी की दिशा में): श्याम -> राम -> सोहन -> हरि -> मोहन -> (वापस श्याम)। हरि, सोहन और मोहन के बीच बैठा है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-021",
+      "number": 21,
+      "question": "Choose odd number:",
+      "options": {
+        "A": "125",
+        "B": "27",
+        "C": "64",
+        "D": "81"
+      },
+      "answer": "D",
+      "explanation": "Others are perfect cubes. 81 is a perfect square.",
+      "hash": "d5bd727e115acf62",
+      "translations": {
+        "hi": {
+          "question": "विषम संख्या चुनें:",
+          "options": {
+            "A": "125",
+            "B": "27",
+            "C": "64",
+            "D": "81"
+          },
+          "explanation": "125(5³), 27(3³), 64(4³)। 81(9²) एक पूर्ण वर्ग है, घन नहीं (या 3⁴)। बाकी सभी पूर्ण घन हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-024",
+      "number": 24,
+      "question": "Analogy: 6 : 35 :: 7 : ?",
+      "options": {
+        "A": "48",
+        "B": "42",
+        "C": "34",
+        "D": "13"
+      },
+      "answer": "A",
+      "explanation": "Logic: n² - 1. 7² - 1 = 48.",
+      "hash": "0d8c50ceac3ebc59",
+      "translations": {
+        "hi": {
+          "question": "सादृश्यता: 6 : 35 :: 7 : ?",
+          "options": {
+            "A": "48",
+            "B": "42",
+            "C": "34",
+            "D": "13"
+          },
+          "explanation": "तर्क: n² - 1. 6² - 1 = 36 - 1 = 35. 7² - 1 = 49 - 1 = 48."
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-025",
+      "number": 25,
+      "question": "Logical Order: 1. Sowing 2. Ploughing 3. Reaping 4. Irrigation",
+      "options": {
+        "A": "2, 1, 4, 3",
+        "B": "1, 2, 4, 3",
+        "C": "2, 4, 1, 3",
+        "D": "1, 4, 2, 3"
+      },
+      "answer": "A",
+      "explanation": "Ploughing -> Sowing -> Irrigation -> Reaping.",
+      "hash": "8cb732650f12989c",
+      "translations": {
+        "hi": {
+          "question": "तार्किक क्रम: 1. बुवाई (Sowing) 2. जुताई (Ploughing) 3. कटाई (Reaping) 4. सिंचाई (Irrigation)",
+          "options": {
+            "A": "2, 1, 4, 3",
+            "B": "1, 2, 4, 3",
+            "C": "2, 4, 1, 3",
+            "D": "1, 4, 2, 3"
+          },
+          "explanation": "जुताई (2) -> बुवाई (1) -> सिंचाई (4) -> कटाई (3)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-026",
+      "number": 26,
+      "question": "Sita is older than Geeta. Mala is older than Sita. So, Geeta is ... than Mala.",
+      "options": {
+        "A": "Older",
+        "B": "Younger",
+        "C": "Same age",
+        "D": "Cannot say"
+      },
+      "answer": "B",
+      "explanation": "Mala > Sita > Geeta. So Geeta is younger than Mala.",
+      "hash": "792677d8e499e37e",
+      "translations": {
+        "hi": {
+          "question": "सीता, गीता से बड़ी है। माला, सीता से बड़ी है। तो, गीता, माला से...",
+          "options": {
+            "A": "बड़ी है",
+            "B": "छोटी है",
+            "C": "समान आयु की है",
+            "D": "कहा नहीं जा सकता"
+          },
+          "explanation": "माला > सीता > गीता। अतः गीता, माला से छोटी है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-027",
+      "number": 27,
+      "question": "Missing letters: a _ b _ a b b _ a b _ a",
+      "options": {
+        "A": "b, a, a, b",
+        "B": "b, b, a, a",
+        "C": "a, b, a, b",
+        "D": "b, a, b, b"
+      },
+      "answer": "A",
+      "explanation": "Pattern: 'abba' repeated. a(b)b(a) - abba - ab(b)a.",
+      "hash": "4f44e1f273cad029",
+      "translations": {
+        "hi": {
+          "question": "लुप्त अक्षर: a _ b _ a b b _ a b _ a",
+          "options": {
+            "A": "b, a, a, b",
+            "B": "b, b, a, a",
+            "C": "a, b, a, b",
+            "D": "b, a, b, b"
+          },
+          "explanation": "पैटर्न: abb / abb / abb / abb. रिक्त स्थान: (b), (b)? नहीं। पैटर्न: ab / ba / ab / ba? नहीं। पैटर्न: abba / bb... नहीं। कोशिश करें विकल्प A: b, a, a, b. a (b) b (a) a b b (a) a b (b) a. पैटर्न: abba / abba / abba. (पलिंड्रोम ब्लॉक)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-029",
+      "number": 29,
+      "question": "If 13 # 9 = 4, 18 # 6 = 12, then 15 # 5 = ?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "3",
+        "D": "75"
+      },
+      "answer": "A",
+      "explanation": "Symbol # represents subtraction. 15 - 5 = 10.",
+      "hash": "68ae9506e3dd55c7",
+      "translations": {
+        "hi": {
+          "question": "यदि 13 # 9 = 4, 18 # 6 = 12, तो 15 # 5 = ?",
+          "options": {
+            "A": "10",
+            "B": "20",
+            "C": "3",
+            "D": "75"
+          },
+          "explanation": "तर्क: # का अर्थ घटाव (-) है। 13 - 9 = 4. 18 - 6 = 12. 15 - 5 = 10."
+        }
+      }
+    },
+    {
+      "id": "reasoning-05-030",
+      "number": 30,
+      "question": "Statements: A > B, B = C, C < D. Conclusions: I. A > C, II. B < D.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "C",
+      "explanation": "A > B = C => A > C. B = C < D => B < D. Both follow.",
+      "hash": "18ac93e1857b8d65",
+      "translations": {
+        "hi": {
+          "question": "कथन: A > B, B = C, C < D. निष्कर्ष: I. A > C, II. B < D.",
+          "options": {
+            "A": "केवल I",
+            "B": "केवल II",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "A > B = C, अतः A > C (सही)। B = C < D, अतः B < D (सही)।"
+        }
+      }
+    }
+  ]
+}

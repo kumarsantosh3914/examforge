@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 4,
+  "title": "Mathematics Mock Test 4",
+  "questions": [
+    {
+      "id": "mathematics-04-001",
+      "number": 1,
+      "question": "If x + 1/x = 5, find the value of x³ + 1/x³.",
+      "options": {
+        "A": "110",
+        "B": "125",
+        "C": "140",
+        "D": "115"
+      },
+      "answer": "A",
+      "explanation": "Formula: a³ - 3a. Here a = 5. Value = 5³ - 3(5) = 125 - 15 = 110.",
+      "hash": "e469da50cd0fa844",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 5 है, तो x³ + 1/x³ का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "110",
+            "B": "125",
+            "C": "140",
+            "D": "115"
+          },
+          "explanation": "सूत्र: a³ - 3a. यहाँ a = 5. मान = 5³ - 3(5) = 125 - 15 = 110."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-002",
+      "number": 2,
+      "question": "The radius of a circle is 5 cm. Find the length of the tangent drawn from a point 13 cm away from the center.",
+      "options": {
+        "A": "10 cm",
+        "B": "11 cm",
+        "C": "12 cm",
+        "D": "8 cm"
+      },
+      "answer": "C",
+      "explanation": "Pythagoras theorem: Tangent² = Distance² - Radius² = 13² - 5² = 169 - 25 = 144. Length = 12 cm.",
+      "hash": "e72005146d65f599",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त की त्रिज्या 5 सेमी है। वृत्त के केंद्र से 13 सेमी दूर स्थित एक बिंदु से खींची गई स्पर्श रेखा (Tangent) की लंबाई ज्ञात कीजिये।",
+          "options": {
+            "A": "10 सेमी",
+            "B": "11 सेमी",
+            "C": "12 सेमी",
+            "D": "8 सेमी"
+          },
+          "explanation": "पाइथागोरस प्रमेय: स्पर्श रेखा² = दूरी² - त्रिज्या² = 13² - 5² = 169 - 25 = 144. लंबाई = 12 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-003",
+      "number": 3,
+      "question": "What is the value of tan 1° tan 2° tan 3° ... tan 89°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "Infinity"
+      },
+      "answer": "B",
+      "explanation": "tan 89° = cot 1°. tan 1° * cot 1° = 1. All terms cancel out, leaving tan 45° = 1. Answer is 1.",
+      "hash": "da5667235d333087",
+      "translations": {
+        "hi": {
+          "question": "tan 1° tan 2° tan 3° ... tan 89° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "अनंत"
+          },
+          "explanation": "tan 89° = cot 1°. tan 1° * cot 1° = 1. सभी पद एक-दूसरे को काट देंगे, मध्य में tan 45° = 1 बचेगा। उत्तर 1 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-004",
+      "number": 4,
+      "question": "A train is running at 90 km/hr. It crosses a pole in 10 seconds. What is the length of the train?",
+      "options": {
+        "A": "250 m",
+        "B": "150 m",
+        "C": "200 m",
+        "D": "300 m"
+      },
+      "answer": "A",
+      "explanation": "Speed = 90 × (5/18) = 25 m/s. Length = Speed × Time = 25 × 10 = 250 m.",
+      "hash": "d03f4a6f394cc6ae",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 90 किमी/घंटा की गति से चल रही है। यह एक खंभे को 10 सेकंड में पार करती है। ट्रेन की लंबाई क्या है?",
+          "options": {
+            "A": "250 मीटर",
+            "B": "150 मीटर",
+            "C": "200 मीटर",
+            "D": "300 मीटर"
+          },
+          "explanation": "गति = 90 × (5/18) = 25 मी/से। लंबाई = गति × समय = 25 × 10 = 250 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-005",
+      "number": 5,
+      "question": "A sum doubles itself in 5 years at compound interest. In how many years will it become 8 times?",
+      "options": {
+        "A": "10 years",
+        "B": "15 years",
+        "C": "20 years",
+        "D": "12 years"
+      },
+      "answer": "B",
+      "explanation": "2 times = 5 years. 8 times = 2³ times. Time = 5 × 3 = 15 years.",
+      "hash": "e6ee9fecdb5e1f7b",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर कोई राशि 5 वर्षों में दोगुनी हो जाती है। यह कितने वर्षों में 8 गुना हो जाएगी?",
+          "options": {
+            "A": "10 वर्ष",
+            "B": "15 वर्ष",
+            "C": "20 वर्ष",
+            "D": "12 वर्ष"
+          },
+          "explanation": "2 गुना = 5 वर्ष। 8 गुना = 2³ गुना। समय = 5 × 3 = 15 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-006",
+      "number": 6,
+      "question": "Simplify: 0.63 (bar) + 0.37 (bar)",
+      "options": {
+        "A": "1.0",
+        "B": "1.01 (bar)",
+        "C": "1.1 (bar)",
+        "D": "1.01"
+      },
+      "answer": "B",
+      "explanation": "63/99 + 37/99 = 100/99 = 1 mixed 1/99 = 1.0101... = 1.01 (bar).",
+      "hash": "93ad57aec01401db",
+      "translations": {
+        "hi": {
+          "question": "सरल कीजिये: 0.63 (बार) + 0.37 (बार)",
+          "options": {
+            "A": "1.0",
+            "B": "1.01 (बार)",
+            "C": "1.1 (बार)",
+            "D": "1.01"
+          },
+          "explanation": "63/99 + 37/99 = 100/99 = 1 सही 1/99 = 1.0101... = 1.01 (बार)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-007",
+      "number": 7,
+      "question": "Find the HCF of fractions 2/3, 8/9, 64/81, 10/27.",
+      "options": {
+        "A": "2/3",
+        "B": "2/81",
+        "C": "160/3",
+        "D": "2/27"
+      },
+      "answer": "B",
+      "explanation": "HCF of fractions = (HCF of Numerators) / (LCM of Denominators) = HCF(2,8,64,10) / LCM(3,9,81,27) = 2 / 81.",
+      "hash": "2d9bc0f1fc25d8c1",
+      "translations": {
+        "hi": {
+          "question": "भिन्नों 2/3, 8/9, 64/81, 10/27 का महत्तम समापवर्तक (HCF) ज्ञात कीजिये।",
+          "options": {
+            "A": "2/3",
+            "B": "2/81",
+            "C": "160/3",
+            "D": "2/27"
+          },
+          "explanation": "भिन्नों का HCF = (अंशों का HCF) / (हरों का LCM) = HCF(2,8,64,10) / LCM(3,9,81,27) = 2 / 81."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-008",
+      "number": 8,
+      "question": "If A:B = 2:3 and B:C = 4:5, find A:B:C.",
+      "options": {
+        "A": "8:12:15",
+        "B": "2:3:5",
+        "C": "8:12:10",
+        "D": "6:12:15"
+      },
+      "answer": "A",
+      "explanation": "A:B = 8:12 (multiply by 4), B:C = 12:15 (multiply by 3). A:B:C = 8:12:15.",
+      "hash": "5040710935655517",
+      "translations": {
+        "hi": {
+          "question": "यदि A:B = 2:3 और B:C = 4:5 है, तो A:B:C ज्ञात कीजिये।",
+          "options": {
+            "A": "8:12:15",
+            "B": "2:3:5",
+            "C": "8:12:10",
+            "D": "6:12:15"
+          },
+          "explanation": "A:B = 8:12 (4 से गुणा), B:C = 12:15 (3 से गुणा)। A:B:C = 8:12:15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-009",
+      "number": 9,
+      "question": "A shopkeeper gives 20% discount and still earns 20% profit. If CP is ₹600, what is the Marked Price?",
+      "options": {
+        "A": "₹900",
+        "B": "₹800",
+        "C": "₹720",
+        "D": "₹960"
+      },
+      "answer": "A",
+      "explanation": "CP/MP = (100 - D%) / (100 + P%) = 80/120 = 2/3. If 2 = 600, then 3 = 900.",
+      "hash": "69b87e68546029d1",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार 20% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि क्रय मूल्य ₹600 है, तो अंकित मूल्य (Marked Price) क्या है?",
+          "options": {
+            "A": "₹900",
+            "B": "₹800",
+            "C": "₹720",
+            "D": "₹960"
+          },
+          "explanation": "CP/MP = (100 - छूट%) / (100 + लाभ%) = 80/120 = 2/3। यदि 2 = 600, तो 3 = 900।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-010",
+      "number": 10,
+      "question": "What is the average of the first 20 multiples of 7?",
+      "options": {
+        "A": "70",
+        "B": "73.5",
+        "C": "75",
+        "D": "74.5"
+      },
+      "answer": "B",
+      "explanation": "Average = 7 × (1 + 20) / 2 = 7 × 21 / 2 = 147 / 2 = 73.5.",
+      "hash": "17fae1179e98d28a",
+      "translations": {
+        "hi": {
+          "question": "7 के प्रथम 20 गुणजों (multiples) का औसत क्या है?",
+          "options": {
+            "A": "70",
+            "B": "73.5",
+            "C": "75",
+            "D": "74.5"
+          },
+          "explanation": "औसत = 7 × (1 + 20) / 2 = 7 × 21 / 2 = 147 / 2 = 73.5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-011",
+      "number": 11,
+      "question": "If the radius of a cylinder is doubled and height is halved, its volume will be?",
+      "options": {
+        "A": "Remain same",
+        "B": "Double",
+        "C": "Halved",
+        "D": "Become four times"
+      },
+      "answer": "B",
+      "explanation": "V = πr²h. New V = π(2r)²(h/2) = π(4r²)(h/2) = 2πr²h = 2V. Volume doubles.",
+      "hash": "aac1efe9626c1e5f",
+      "translations": {
+        "hi": {
+          "question": "यदि एक बेलन (Cylinder) की त्रिज्या दोगुनी कर दी जाए और ऊँचाई आधी कर दी जाए, तो उसका आयतन कैसा होगा?",
+          "options": {
+            "A": "वही रहेगा",
+            "B": "दोगुना हो जाएगा",
+            "C": "आधा हो जाएगा",
+            "D": "चार गुना हो जाएगा"
+          },
+          "explanation": "V = πr²h. नया V = π(2r)²(h/2) = π(4r²)(h/2) = 2πr²h = 2V। आयतन दोगुना हो जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-012",
+      "number": 12,
+      "question": "In 729 liters of mixture, ratio of milk and water is 7:2. How much water to add to make the ratio 7:3?",
+      "options": {
+        "A": "81 L",
+        "B": "60 L",
+        "C": "72 L",
+        "D": "90 L"
+      },
+      "answer": "A",
+      "explanation": "Total units 9 = 729 => 1 unit = 81. Milk 7, Water 2. New water 3. Diff is 1 unit. 1 unit = 81 L.",
+      "hash": "09c7022100f75f81",
+      "translations": {
+        "hi": {
+          "question": "729 लीटर के मिश्रण में दूध और पानी का अनुपात 7:2 है। इसमें कितना पानी और मिलाया जाए कि अनुपात 7:3 हो जाए?",
+          "options": {
+            "A": "81 लीटर",
+            "B": "60 लीटर",
+            "C": "72 लीटर",
+            "D": "90 लीटर"
+          },
+          "explanation": "कुल इकाई 9 = 729 => 1 इकाई = 81। दूध 7 है, पानी 2 है। नया पानी 3 चाहिए। अंतर 1 इकाई का है। 1 इकाई = 81 लीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-013",
+      "number": 13,
+      "question": "Simplify: [(0.8)³ - (0.5)³] / [(0.8)² + 0.8×0.5 + (0.5)²]",
+      "options": {
+        "A": "1.3",
+        "B": "0.3",
+        "C": "0.8",
+        "D": "0.5"
+      },
+      "answer": "B",
+      "explanation": "Form is (a³-b³)/(a²+ab+b²), which equals (a-b). 0.8 - 0.5 = 0.3.",
+      "hash": "0bb27affbc2a8daf",
+      "translations": {
+        "hi": {
+          "question": "सरल कीजिये: [(0.8)³ - (0.5)³] / [(0.8)² + 0.8×0.5 + (0.5)²]",
+          "options": {
+            "A": "1.3",
+            "B": "0.3",
+            "C": "0.8",
+            "D": "0.5"
+          },
+          "explanation": "यह (a³-b³)/(a²+ab+b²) का रूप है, जो (a-b) के बराबर होता है। 0.8 - 0.5 = 0.3।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-014",
+      "number": 14,
+      "question": "The ratio of speeds of two cars is 3:4. What is the ratio of time taken by them to cover a certain distance?",
+      "options": {
+        "A": "3:4",
+        "B": "4:3",
+        "C": "1:1",
+        "D": "9:16"
+      },
+      "answer": "B",
+      "explanation": "Time is inversely proportional to speed. Ratio will be 4:3.",
+      "hash": "f00dbd30633db4bd",
+      "translations": {
+        "hi": {
+          "question": "दो कारों की गति का अनुपात 3:4 है। एक निश्चित दूरी तय करने में उनके द्वारा लिए गए समय का अनुपात क्या होगा?",
+          "options": {
+            "A": "3:4",
+            "B": "4:3",
+            "C": "1:1",
+            "D": "9:16"
+          },
+          "explanation": "समय गति के व्युत्क्रमानुपाती (inversely proportional) होता है। अनुपात 4:3 होगा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-015",
+      "number": 15,
+      "question": "If the number 5432*7 is divisible by 9, then what digit will replace *?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "6",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "Sum of digits must be divisible by 9. 5+4+3+2+7 = 21. For 21+* to be divisible, * = 6 (Sum 27).",
+      "hash": "f0b092ac065f4562",
+      "translations": {
+        "hi": {
+          "question": "यदि संख्या 5432*7, 9 से विभाज्य है, तो * के स्थान पर कौन सा अंक आएगा?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "6",
+            "D": "9"
+          },
+          "explanation": "अंकों का योग 9 से विभाज्य होना चाहिए। 5+4+3+2+7 = 21। 21+* को 9 से विभाज्य होने के लिए * = 6 (योग 27)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-016",
+      "number": 16,
+      "question": "Pipes A and B can fill a tank in 15 and 20 min respectively. Both opened together, but A is turned off after 4 min. How long will B take to fill the rest?",
+      "options": {
+        "A": "10 min 40 sec",
+        "B": "11 min 20 sec",
+        "C": "12 min",
+        "D": "10 min"
+      },
+      "answer": "A",
+      "explanation": "Work in 4 min = 4(7/60) = 7/15. Remaining = 8/15. B's time = (8/15)*20 = 32/3 = 10 min 40 sec.",
+      "hash": "e5be52b01a131614",
+      "translations": {
+        "hi": {
+          "question": "पाइप A और B एक टैंक को क्रमशः 15 और 20 मिनट में भर सकते हैं। दोनों को एक साथ खोला जाता है, लेकिन 4 मिनट बाद A को बंद कर दिया जाता है। B को शेष टैंक भरने में कितना समय लगेगा?",
+          "options": {
+            "A": "10 मिनट 40 सेकंड",
+            "B": "11 मिनट 20 सेकंड",
+            "C": "12 मिनट",
+            "D": "10 मिनट"
+          },
+          "explanation": "4 मिनट का कार्य = 4(1/15 + 1/20) = 4(7/60) = 7/15। शेष = 8/15। B का समय = (8/15) × 20 = 32/3 = 10 मिनट 40 सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-017",
+      "number": 17,
+      "question": "What is the Mode of the data 2, 3, 4, 2, 3, 2, 5?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Mode is the number occurring most frequently. Here 2 occurs 3 times.",
+      "hash": "4e4174dff78844e9",
+      "translations": {
+        "hi": {
+          "question": "आंकड़ों 2, 3, 4, 2, 3, 2, 5 का बहुलक (Mode) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "बहुलक वह संख्या है जो सबसे अधिक बार आती है। यहाँ 2 तीन बार आया है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-018",
+      "number": 18,
+      "question": "A sum triples itself in 20 years at simple interest. Find the interest rate.",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "answer": "B",
+      "explanation": "SI = 2P. R = (2P × 100) / (P × 20) = 200 / 20 = 10%.",
+      "hash": "1b0c79ae8bbf9bc6",
+      "translations": {
+        "hi": {
+          "question": "साधारण ब्याज पर कोई राशि 20 वर्षों में तिगुनी हो जाती है। ब्याज दर ज्ञात कीजिये।",
+          "options": {
+            "A": "5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "20%"
+          },
+          "explanation": "SI = 2P. R = (2P × 100) / (P × 20) = 200 / 20 = 10%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-019",
+      "number": 19,
+      "question": "What is the cost of painting 4 walls of a room with length 6m, breadth 4m and height 3m, if rate is ₹10 per sq m?",
+      "options": {
+        "A": "₹600",
+        "B": "₹500",
+        "C": "₹700",
+        "D": "₹1200"
+      },
+      "answer": "A",
+      "explanation": "Area of walls = 2(l+b)h = 2(10)3 = 60 sq m. Cost = 60 × 10 = ₹600.",
+      "hash": "824756e5f7d5a33c",
+      "translations": {
+        "hi": {
+          "question": "एक कमरे की 4 दीवारों को पेंट करने की लागत क्या है जिसकी लंबाई 6 मीटर, चौड़ाई 4 मीटर और ऊंचाई 3 मीटर है, यदि दर ₹10 प्रति वर्ग मीटर है?",
+          "options": {
+            "A": "₹600",
+            "B": "₹500",
+            "C": "₹700",
+            "D": "₹1200"
+          },
+          "explanation": "दीवारों का क्षेत्रफल = 2(l+b)h = 2(10)3 = 60 वर्ग मीटर। लागत = 60 × 10 = ₹600।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-020",
+      "number": 20,
+      "question": "Find the value of √30 + √30 + √30 + ...",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "30",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "Factors of 30 with diff 1: 6 and 5. Since '+' sign, larger factor 6 is the answer.",
+      "hash": "1bbb421f8286fac3",
+      "translations": {
+        "hi": {
+          "question": "√30 + √30 + √30 + ... का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "30",
+            "D": "10"
+          },
+          "explanation": "30 के गुणनखंड जिनका अंतर 1 हो: 6 और 5। '+' चिह्न है, इसलिए बड़ा गुणनखंड 6 उत्तर है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-021",
+      "number": 21,
+      "question": "A does 1/2 work in 5 days, B does 3/5 work in 9 days. In how many days they finish together?",
+      "options": {
+        "A": "6 days",
+        "B": "8 days",
+        "C": "10 days",
+        "D": "12 days"
+      },
+      "answer": "A",
+      "explanation": "A full in 10 days. B full in 15 days. Together = (10×15)/(25) = 6 days.",
+      "hash": "3a90c964a8b3f1ad",
+      "translations": {
+        "hi": {
+          "question": "A आधा काम 5 दिनों में करता है, B उसी काम का 3/5 भाग 9 दिनों में करता है। वे मिलकर कार्य को कितने दिनों में पूरा करेंगे?",
+          "options": {
+            "A": "6 दिन",
+            "B": "8 दिन",
+            "C": "10 दिन",
+            "D": "12 दिन"
+          },
+          "explanation": "A पूरा करता है 10 दिन में। B पूरा करता है (9×5)/3 = 15 दिन में। मिलकर = (10×15)/(25) = 6 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-022",
+      "number": 22,
+      "question": "Two trains 100m and 150m long moving in opposite directions at 50 km/hr and 40 km/hr. Time to cross each other?",
+      "options": {
+        "A": "10 sec",
+        "B": "12 sec",
+        "C": "15 sec",
+        "D": "8 sec"
+      },
+      "answer": "A",
+      "explanation": "Rel Speed = 90 km/hr = 25 m/s. Dist = 250m. Time = 250/25 = 10 sec.",
+      "hash": "c4e7b2c6e5b8087b",
+      "translations": {
+        "hi": {
+          "question": "100 मीटर और 150 मीटर लंबी दो ट्रेनें विपरीत दिशाओं में क्रमशः 50 किमी/घंटा और 40 किमी/घंटा की गति से चल रही हैं। वे एक-दूसरे को कितने समय में पार करेंगी?",
+          "options": {
+            "A": "10 सेकंड",
+            "B": "12 सेकंड",
+            "C": "15 सेकंड",
+            "D": "8 सेकंड"
+          },
+          "explanation": "सापेक्ष गति = 50+40=90 किमी/घंटा = 25 मी/से। कुल दूरी = 250 मी। समय = 250/25 = 10 सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-023",
+      "number": 23,
+      "question": "Product of two co-prime numbers is 117. What is their LCM?",
+      "options": {
+        "A": "117",
+        "B": "9",
+        "C": "13",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "LCM of co-prime numbers is their product. LCM = 117.",
+      "hash": "8e74af58ba831fdc",
+      "translations": {
+        "hi": {
+          "question": "दो सह-अभाज्य (co-prime) संख्याओं का गुणनफल 117 है। उनका लघुत्तम समापवर्त्य (LCM) क्या है?",
+          "options": {
+            "A": "117",
+            "B": "9",
+            "C": "13",
+            "D": "1"
+          },
+          "explanation": "सह-अभाज्य संख्याओं का LCM उनका गुणनफल ही होता है। LCM = 117।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-024",
+      "number": 24,
+      "question": "What is the sum of all interior angles of a Regular Hexagon?",
+      "options": {
+        "A": "540°",
+        "B": "720°",
+        "C": "900°",
+        "D": "360°"
+      },
+      "answer": "B",
+      "explanation": "Formula: (n-2) × 180. Here n=6. (6-2) × 180 = 4 × 180 = 720°.",
+      "hash": "c1fd1f51f8495b29",
+      "translations": {
+        "hi": {
+          "question": "एक सम षट्भुज (Regular Hexagon) के सभी आंतरिक कोणों का योग क्या है?",
+          "options": {
+            "A": "540°",
+            "B": "720°",
+            "C": "900°",
+            "D": "360°"
+          },
+          "explanation": "सूत्र: (n-2) × 180। यहाँ n=6। (6-2) × 180 = 4 × 180 = 720°।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-025",
+      "number": 25,
+      "question": "Find the value of (256)^0.16 × (256)^0.09.",
+      "options": {
+        "A": "4",
+        "B": "16",
+        "C": "64",
+        "D": "256.25"
+      },
+      "answer": "A",
+      "explanation": "Base same, add powers: 0.16 + 0.09 = 0.25 = 1/4. 256^(1/4) = 4.",
+      "hash": "fb4f93a44d326b3a",
+      "translations": {
+        "hi": {
+          "question": "(256)^0.16 × (256)^0.09 का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "4",
+            "B": "16",
+            "C": "64",
+            "D": "256.25"
+          },
+          "explanation": "आधार समान है, घात जुड़ेंगी: 0.16 + 0.09 = 0.25 = 1/4। 256^(1/4) = 4।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-026",
+      "number": 26,
+      "question": "A person's salary was increased by 20% and then decreased by 20%. Net change in salary?",
+      "options": {
+        "A": "4% gain",
+        "B": "4% loss",
+        "C": "No profit no loss",
+        "D": "10% loss"
+      },
+      "answer": "B",
+      "explanation": "x² / 100 always loss. 20² / 100 = 400 / 100 = 4% loss.",
+      "hash": "bda6c24810b16fda",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति का वेतन 20% बढ़ाया गया और फिर 20% घटाया गया। उसके वेतन में शुद्ध परिवर्तन क्या है?",
+          "options": {
+            "A": "4% लाभ",
+            "B": "4% हानि",
+            "C": "ना लाभ ना हानि",
+            "D": "10% हानि"
+          },
+          "explanation": "x² / 100 हमेशा हानि होती है। 20² / 100 = 400 / 100 = 4% हानि।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-027",
+      "number": 27,
+      "question": "Two dice are thrown together. Probability of getting a sum of 9?",
+      "options": {
+        "A": "1/9",
+        "B": "1/6",
+        "C": "1/12",
+        "D": "4/9"
+      },
+      "answer": "A",
+      "explanation": "Favorable: (3,6), (4,5), (5,4), (6,3) = 4. Total = 36. Prob = 4/36 = 1/9.",
+      "hash": "567c3ea13fe92242",
+      "translations": {
+        "hi": {
+          "question": "दो पासे (Dice) एक साथ फेंके जाते हैं। योग 9 आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/9",
+            "B": "1/6",
+            "C": "1/12",
+            "D": "4/9"
+          },
+          "explanation": "अनुकूल परिणाम: (3,6), (4,5), (5,4), (6,3) = 4। कुल परिणाम = 36। प्रायिकता = 4/36 = 1/9।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-028",
+      "number": 28,
+      "question": "What is the value of sin 30° + tan 45° - cos 60°?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "0.5"
+      },
+      "answer": "A",
+      "explanation": "1/2 + 1 - 1/2 = 1.",
+      "hash": "903a5b8fe0344f87",
+      "translations": {
+        "hi": {
+          "question": "sin 30° + tan 45° - cos 60° का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "0.5"
+          },
+          "explanation": "1/2 + 1 - 1/2 = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-029",
+      "number": 29,
+      "question": "If x% of y is 100 and y% of z is 200, then find the relation between x and z.",
+      "options": {
+        "A": "z = 2x",
+        "B": "x = 2z",
+        "C": "z = x",
+        "D": "z = 4x"
+      },
+      "answer": "A",
+      "explanation": "(xy/100) = 100, (yz/100) = 200. Divide: (xy/yz) = 1/2 => x/z = 1/2 => z = 2x.",
+      "hash": "fdda8f607d1b4ab2",
+      "translations": {
+        "hi": {
+          "question": "यदि x% का y, 100 है और y% का z, 200 है, तो x और z के बीच क्या संबंध है?",
+          "options": {
+            "A": "z = 2x",
+            "B": "x = 2z",
+            "C": "z = x",
+            "D": "z = 4x"
+          },
+          "explanation": "(xy/100) = 100, (yz/100) = 200. भाग देने पर: (xy/yz) = 1/2 => x/z = 1/2 => z = 2x."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-030",
+      "number": 30,
+      "question": "A 300m long train is running at 25 m/s. How long will it take to cross a 200m long bridge?",
+      "options": {
+        "A": "20 sec",
+        "B": "15 sec",
+        "C": "25 sec",
+        "D": "30 sec"
+      },
+      "answer": "A",
+      "explanation": "Total distance = 300 + 200 = 500 m. Time = 500 / 25 = 20 sec.",
+      "hash": "6bde177e840ba5d3",
+      "translations": {
+        "hi": {
+          "question": "300 मीटर लंबी एक ट्रेन 25 मी/से की गति से चल रही है। 200 मीटर लंबे पुल को पार करने में इसे कितना समय लगेगा?",
+          "options": {
+            "A": "20 सेकंड",
+            "B": "15 सेकंड",
+            "C": "25 सेकंड",
+            "D": "30 सेकंड"
+          },
+          "explanation": "कुल दूरी = 300 + 200 = 500 मी। समय = 500 / 25 = 20 सेकंड।"
+        }
+      }
+    }
+  ]
+}

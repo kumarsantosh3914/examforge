@@ -72,6 +72,14 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Junior Engineer recruitment, CBT-1 stage. Ten full 100-question, 90-minute mock tests, plus sets for Mathematics, General Science, Reasoning and General Awareness.',
     description: 'Free RRB JE CBT-1 mock tests: full 100-question, 90-minute papers, and practice sets for Mathematics, General Science, Reasoning and General Awareness, with explanations in English and Hindi.',
   },
+  'rrb-ntpc-cbt-1': {
+    family: 'railway',
+    title: 'RRB NTPC CBT 1',
+    shortTitle: 'RRB NTPC',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Non-Technical Popular Categories recruitment, CBT-1 stage. Timed sets for the three sections: Mathematics, Reasoning and General Awareness.',
+    description: 'Free RRB NTPC CBT-1 mock tests: timed practice sets for Mathematics, Reasoning and General Awareness, matching the sections of the 100-question, 90-minute screening test, with explanations in English and Hindi.',
+  },
   'dsssb-tgt/computer-science': {
     family: 'teaching',
     title: 'DSSSB TGT Computer Science',
@@ -98,9 +106,7 @@ export const liveExamMeta: Record<string, ExamMeta> = {
 };
 
 export interface PlannedExam { id: string; family: FamilyId; title: string; body: string; blurb: string }
-export const plannedExams: PlannedExam[] = [
-  { id: 'rrb-ntpc', family: 'railway', title: 'RRB NTPC', body: 'Railway Recruitment Boards', blurb: 'Non-Technical Popular Categories recruitment for Indian Railways.' },
-];
+export const plannedExams: PlannedExam[] = [];
 
 export const examHref = (examId: string) => `/exams/${examId}`;
 export const examTitle = (exam: Exam) => liveExamMeta[exam._id]?.title ?? [exam.name, exam.category].filter(Boolean).join(' ');

@@ -1,0 +1,761 @@
+{
+  "subject": "Mathematics",
+  "set": 3,
+  "title": "Mathematics Mock Test 3",
+  "questions": [
+    {
+      "id": "mathematics-03-001",
+      "number": 1,
+      "question": "The diagonal of a rectangle is √41 cm and its area is 20 cm². What is the perimeter of the rectangle?",
+      "options": {
+        "A": "18 cm",
+        "B": "20 cm",
+        "C": "22 cm",
+        "D": "24 cm"
+      },
+      "answer": "A",
+      "explanation": "l² + b² = 41 and lb = 20. (l+b)² = l² + b² + 2lb = 41 + 40 = 81 => l+b = 9. Perimeter = 2(l+b) = 18.",
+      "hash": "9eb73ddee8d4aa98",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का विकर्ण √41 सेमी है और इसका क्षेत्रफल 20 सेमी² है। आयत का परिमाप क्या होगा?",
+          "options": {
+            "A": "18 सेमी",
+            "B": "20 सेमी",
+            "C": "22 सेमी",
+            "D": "24 सेमी"
+          },
+          "explanation": "l² + b² = 41 और lb = 20. (l+b)² = l² + b² + 2lb = 41 + 40 = 81 => l+b = 9. परिमाप = 2(l+b) = 18."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-002",
+      "number": 2,
+      "question": "If the simple interest in 7 years is equal to 70% of the principal, what is the rate of interest per annum?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "7%",
+        "D": "12%"
+      },
+      "answer": "B",
+      "explanation": "SI = 0.7P. Time = 7 years. R = (SI * 100) / (P * T) = (0.7P * 100) / (P * 7) = 70/7 = 10%.",
+      "hash": "3e734c062a1d7a1d",
+      "translations": {
+        "hi": {
+          "question": "यदि 7 वर्ष में साधारण ब्याज मूलधन के 70% के बराबर है, तो प्रति वर्ष ब्याज दर क्या है?",
+          "options": {
+            "A": "5%",
+            "B": "10%",
+            "C": "7%",
+            "D": "12%"
+          },
+          "explanation": "SI = 0.7P. समय = 7 वर्ष। R = (SI * 100) / (P * T) = (0.7P * 100) / (P * 7) = 70/7 = 10%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-003",
+      "number": 3,
+      "question": "The sum of two numbers is 25 and their difference is 13. Find their product.",
+      "options": {
+        "A": "104",
+        "B": "114",
+        "C": "325",
+        "D": "214"
+      },
+      "answer": "B",
+      "explanation": "x + y = 25, x - y = 13. Adding, 2x = 38 => x = 19. y = 6. Product = 19 * 6 = 114.",
+      "hash": "4a56f2b09c6512e8",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का योग 25 है और उनका अंतर 13 है। उनका गुणनफल ज्ञात कीजिये।",
+          "options": {
+            "A": "104",
+            "B": "114",
+            "C": "325",
+            "D": "214"
+          },
+          "explanation": "x + y = 25, x - y = 13. जोड़ने पर 2x = 38 => x = 19. y = 6. गुणनफल = 19 * 6 = 114."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-004",
+      "number": 4,
+      "question": "A shopkeeper claims to sell at cost price but uses a weight of 900 gm instead of 1 kg. What is his profit percentage?",
+      "options": {
+        "A": "10%",
+        "B": "11.11%",
+        "C": "9.09%",
+        "D": "12.5%"
+      },
+      "answer": "B",
+      "explanation": "Profit = (Error / True Value - Error) * 100 = (100 / 900) * 100 = 100/9 = 11.11%.",
+      "hash": "9897e5feb44fa139",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार लागत मूल्य पर बेचने का दावा करता है लेकिन 1 किलो के स्थान पर 900 ग्राम वजन का उपयोग करता है। उसका लाभ प्रतिशत क्या है?",
+          "options": {
+            "A": "10%",
+            "B": "11.11%",
+            "C": "9.09%",
+            "D": "12.5%"
+          },
+          "explanation": "लाभ = (त्रुटि / सही मान - त्रुटि) * 100 = (100 / 900) * 100 = 100/9 = 11.11%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-005",
+      "number": 5,
+      "question": "The average of 50 numbers is 38. If two numbers, 45 and 55 are discarded, the average of the remaining numbers is?",
+      "options": {
+        "A": "36.5",
+        "B": "37.5",
+        "C": "37",
+        "D": "38"
+      },
+      "answer": "B",
+      "explanation": "Total sum = 50 * 38 = 1900. New sum = 1900 - (45+55) = 1800. New Average = 1800 / 48 = 37.5.",
+      "hash": "46193d5563fedfae",
+      "translations": {
+        "hi": {
+          "question": "50 संख्याओं का औसत 38 है। यदि दो संख्याएँ, 45 और 55 को हटा दिया जाए, तो शेष संख्याओं का औसत क्या होगा?",
+          "options": {
+            "A": "36.5",
+            "B": "37.5",
+            "C": "37",
+            "D": "38"
+          },
+          "explanation": "कुल योग = 50 * 38 = 1900. नया योग = 1900 - (45+55) = 1800. नया औसत = 1800 / 48 = 37.5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-006",
+      "number": 6,
+      "question": "If x/y = 3/4, then what is the value of (2x + 3y) / (3y - 2x)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "Put x=3, y=4. (2*3 + 3*4) / (3*4 - 2*3) = (6+12)/(12-6) = 18/6 = 3.",
+      "hash": "6dbcb041723ab9b8",
+      "translations": {
+        "hi": {
+          "question": "यदि x/y = 3/4 है, तो (2x + 3y) / (3y - 2x) का मान क्या होगा?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "4"
+          },
+          "explanation": "x=3, y=4 रखें। (2*3 + 3*4) / (3*4 - 2*3) = (6+12)/(12-6) = 18/6 = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-007",
+      "number": 7,
+      "question": "What is the value of sin(45° + θ) - cos(45° - θ)?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2sinθ",
+        "D": "2cosθ"
+      },
+      "answer": "B",
+      "explanation": "cos(45°-θ) = sin(90° - (45°-θ)) = sin(45°+θ). Therefore, sin(45°+θ) - sin(45°+θ) = 0.",
+      "hash": "491a7ce80a97be31",
+      "translations": {
+        "hi": {
+          "question": "sin(45° + θ) - cos(45° - θ) का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2sinθ",
+            "D": "2cosθ"
+          },
+          "explanation": "cos(45°-θ) = sin(90° - (45°-θ)) = sin(45°+θ). इसलिए, sin(45°+θ) - sin(45°+θ) = 0."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-008",
+      "number": 8,
+      "question": "The height of an equilateral triangle is 10√3 cm. What is its perimeter?",
+      "options": {
+        "A": "30 cm",
+        "B": "60 cm",
+        "C": "45 cm",
+        "D": "90 cm"
+      },
+      "answer": "B",
+      "explanation": "Height = (√3/2) * a. 10√3 = (√3/2) * a => a = 20. Perimeter = 3a = 60 cm.",
+      "hash": "6c8332ed435764ee",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज की ऊँचाई 10√3 सेमी है। इसका परिमाप क्या है?",
+          "options": {
+            "A": "30 सेमी",
+            "B": "60 सेमी",
+            "C": "45 सेमी",
+            "D": "90 सेमी"
+          },
+          "explanation": "ऊँचाई = (√3/2) * a. 10√3 = (√3/2) * a => a = 20. परिमाप = 3a = 60 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-009",
+      "number": 9,
+      "question": "The ratio of efficiency of A, B and C is 2:3:5. Working together, they complete a task in 6 days. In how many days will A alone complete 20% of the task?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "Total work = (2+3+5) * 6 = 60 units. 20% of work = 12 units. A's time = 12 / 2 = 6 days.",
+      "hash": "56110e07d9ae12e2",
+      "translations": {
+        "hi": {
+          "question": "A, B और C की कार्य क्षमता का अनुपात 2:3:5 है। यदि वे एक साथ कार्य करते हुए किसी कार्य को 6 दिनों में पूरा करते हैं, तो A अकेले उस कार्य का 20% कितने दिनों में पूरा करेगा?",
+          "options": {
+            "A": "8",
+            "B": "6",
+            "C": "5",
+            "D": "4"
+          },
+          "explanation": "कुल कार्य = (2+3+5) * 6 = 60 इकाई। कार्य का 20% = 12 इकाई। A का समय = 12 / 2 = 6 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-010",
+      "number": 10,
+      "question": "If a² + b² + c² = ab + bc + ca, then what is the value of (a+c)/b?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "answer": "B",
+      "explanation": "This condition implies a = b = c. So (a+a)/a = 2a/a = 2.",
+      "hash": "bae2e3cb7b6d016b",
+      "translations": {
+        "hi": {
+          "question": "यदि a² + b² + c² = ab + bc + ca है, तो (a+c)/b का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "0",
+            "D": "3"
+          },
+          "explanation": "यह स्थिति तब संभव है जब a = b = c हो। अतः (a+a)/a = 2a/a = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-011",
+      "number": 11,
+      "question": "Find the greatest number which divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively.",
+      "options": {
+        "A": "17",
+        "B": "11",
+        "C": "34",
+        "D": "19"
+      },
+      "answer": "A",
+      "explanation": "Numbers are: 398-7=391, 436-11=425, 542-15=527. HCF(391, 425, 527) = 17.",
+      "hash": "272d97d3cecce1e5",
+      "translations": {
+        "hi": {
+          "question": "वह सबसे बड़ी संख्या ज्ञात कीजिये जिससे 398, 436 और 542 को विभाजित करने पर क्रमशः 7, 11 और 15 शेष बचे।",
+          "options": {
+            "A": "17",
+            "B": "11",
+            "C": "34",
+            "D": "19"
+          },
+          "explanation": "संख्याएं होंगी: 398-7=391, 436-11=425, 542-15=527. HCF(391, 425, 527) = 17."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-012",
+      "number": 12,
+      "question": "A train crosses a pole in 10 sec and a 200m long platform in 20 sec. What is the length of the train?",
+      "options": {
+        "A": "200 m",
+        "B": "150 m",
+        "C": "100 m",
+        "D": "300 m"
+      },
+      "answer": "A",
+      "explanation": "Speed = 200 / (20-10) = 20 m/s. Length of train = Speed * Pole time = 20 * 10 = 200 m.",
+      "hash": "d5ea21f317e3b76a",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 10 सेकंड में एक पोल को और 20 सेकंड में 200 मीटर लंबे प्लेटफॉर्म को पार करती है। ट्रेन की लंबाई क्या है?",
+          "options": {
+            "A": "200 मीटर",
+            "B": "150 मीटर",
+            "C": "100 मीटर",
+            "D": "300 मीटर"
+          },
+          "explanation": "गति = 200 / (20-10) = 20 मी/से। ट्रेन की लंबाई = गति * पोल का समय = 20 * 10 = 200 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-013",
+      "number": 13,
+      "question": "An arc of a sector of a circle of radius 21 cm makes an angle of 60° at the center. What is the length of the arc?",
+      "options": {
+        "A": "11 cm",
+        "B": "22 cm",
+        "C": "33 cm",
+        "D": "44 cm"
+      },
+      "answer": "B",
+      "explanation": "Arc length = (θ/360) * 2πr = (60/360) * 2 * (22/7) * 21 = (1/6) * 132 = 22 cm.",
+      "hash": "bbc2c2edcef80ae3",
+      "translations": {
+        "hi": {
+          "question": "21 सेमी त्रिज्या वाले वृत्त के एक त्रिज्यखंड (Sector) का चाप (Arc) केंद्र पर 60° का कोण बनाता है। चाप की लंबाई क्या है?",
+          "options": {
+            "A": "11 सेमी",
+            "B": "22 सेमी",
+            "C": "33 सेमी",
+            "D": "44 सेमी"
+          },
+          "explanation": "चाप की लंबाई = (θ/360) * 2πr = (60/360) * 2 * (22/7) * 21 = (1/6) * 132 = 22 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-014",
+      "number": 14,
+      "question": "A number when divided by 6 leaves remainder 3. When the square of the same number is divided by 6, the remainder is?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "D",
+      "explanation": "Let number be 3. Square of 3 = 9. 9 divided by 6 gives remainder 3.",
+      "hash": "8bd0f6d1d4b71b8e",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या को जब 6 से विभाजित किया जाता है तो शेषफल 3 आता है। जब उसी संख्या के वर्ग को 6 से विभाजित किया जाएगा, तो शेषफल क्या होगा?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "माना संख्या 3 है। 3 का वर्ग = 9। 9 को 6 से विभाजित करने पर शेषफल 3 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-015",
+      "number": 15,
+      "question": "If 5 tan θ = 4, find the value of (5 sin θ - 3 cos θ) / (5 sin θ + 2 cos θ).",
+      "options": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "1/5"
+      },
+      "answer": "A",
+      "explanation": "Divide Num and Denom by cos θ. (5 tan θ - 3)/(5 tan θ + 2). Put values: (4-3)/(4+2) = 1/6.",
+      "hash": "36ee47ea02ae6961",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 tan θ = 4 है, तो (5 sin θ - 3 cos θ) / (5 sin θ + 2 cos θ) का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/4",
+            "D": "1/5"
+          },
+          "explanation": "अंश और हर को cos θ से विभाजित करें। (5 tan θ - 3)/(5 tan θ + 2). मान रखें: (4-3)/(4+2) = 1/6."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-016",
+      "number": 16,
+      "question": "A bag contains 50p, 25p and 10p coins in ratio 5:9:4, amounting to ₹206. Find the number of 25p coins.",
+      "options": {
+        "A": "200",
+        "B": "360",
+        "C": "160",
+        "D": "300"
+      },
+      "answer": "B",
+      "explanation": "Value: 5(0.50) + 9(0.25) + 4(0.10) = 2.5 + 2.25 + 0.4 = 5.15 units. 5.15 units = 206 => 1 unit = 40. 25p coins = 9 * 40 = 360.",
+      "hash": "9c9c9e32e3541634",
+      "translations": {
+        "hi": {
+          "question": "एक बैग में 50 पैसे, 25 पैसे और 10 पैसे के सिक्के 5:9:4 के अनुपात में हैं, जिनकी कुल राशि ₹206 है। 25 पैसे के सिक्कों की संख्या ज्ञात कीजिये।",
+          "options": {
+            "A": "200",
+            "B": "360",
+            "C": "160",
+            "D": "300"
+          },
+          "explanation": "मूल्य: 5(0.50) + 9(0.25) + 4(0.10) = 2.5 + 2.25 + 0.4 = 5.15 इकाई। 5.15 इकाई = 206 => 1 इकाई = 40. 25p सिक्के = 9 * 40 = 360."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-017",
+      "number": 17,
+      "question": "A and B invest in a business in ratio 3:2. 5% of total profit goes to charity and A's share is ₹855. What is the total profit?",
+      "options": {
+        "A": "₹1425",
+        "B": "₹1500",
+        "C": "₹1600",
+        "D": "₹1575"
+      },
+      "answer": "B",
+      "explanation": "A's share of remaining = 3/5. (95/100) * (3/5) * Profit = 855. Profit = 855 * 100 * 5 / (95 * 3) = ₹1500.",
+      "hash": "f7fc17e5f5a477aa",
+      "translations": {
+        "hi": {
+          "question": "A और B किसी व्यवसाय में 3:2 के अनुपात में निवेश करते हैं। कुल लाभ का 5% दान में जाता है और A का हिस्सा ₹855 है। कुल लाभ क्या है?",
+          "options": {
+            "A": "₹1425",
+            "B": "₹1500",
+            "C": "₹1600",
+            "D": "₹1575"
+          },
+          "explanation": "शेष लाभ का A का हिस्सा = 3/5। कुल लाभ का (95/100) * (3/5) = 855. लाभ = 855 * 100 * 5 / (95 * 3) = ₹1500."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-018",
+      "number": 18,
+      "question": "Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruits?",
+      "options": {
+        "A": "32 kg",
+        "B": "40 kg",
+        "C": "50 kg",
+        "D": "60 kg"
+      },
+      "answer": "B",
+      "explanation": "Pulp remains constant. Pulp in fresh = 32%. 32% of 100 = 32 kg. Pulp in dry = 80%. 80% of x = 32 => x = 40 kg.",
+      "hash": "7c3331dd35f051ec",
+      "translations": {
+        "hi": {
+          "question": "ताजे फल में 68% पानी होता है और सूखे मेवे में 20% पानी होता है। 100 किलो ताजे फलों से कितने सूखे मेवे प्राप्त किए जा सकते हैं?",
+          "options": {
+            "A": "32 किलो",
+            "B": "40 किलो",
+            "C": "50 किलो",
+            "D": "60 किलो"
+          },
+          "explanation": "गूदा (Pulp) समान रहता है। ताजे में गूदा = 32%। 100 का 32% = 32 किलो। सूखे में गूदा = 80%। x का 80% = 32 => x = 40 किलो।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-019",
+      "number": 19,
+      "question": "If Mean is 25 and Standard Deviation is 5, find the Coefficient of Variation.",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "50%",
+        "D": "10%"
+      },
+      "answer": "A",
+      "explanation": "CV = (SD / Mean) * 100 = (5/25) * 100 = 20%.",
+      "hash": "ae0073abba363f56",
+      "translations": {
+        "hi": {
+          "question": "यदि माध्य (Mean) 25 है और मानक विचलन (Standard Deviation) 5 है, तो विचरण गुणांक (Coefficient of Variation) ज्ञात कीजिये।",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "50%",
+            "D": "10%"
+          },
+          "explanation": "CV = (SD / Mean) * 100 = (5/25) * 100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-020",
+      "number": 20,
+      "question": "What is the remainder when 36^13 is divided by 7?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "5",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "36 divided by 7 gives remainder 1. 1^13 = 1. Answer is 1.",
+      "hash": "c85c45ef69b451ac",
+      "translations": {
+        "hi": {
+          "question": "36^13 को 7 से विभाजित करने पर शेषफल क्या होगा?",
+          "options": {
+            "A": "1",
+            "B": "6",
+            "C": "5",
+            "D": "3"
+          },
+          "explanation": "36 को 7 से भाग देने पर शेष 1 आता है। 1^13 = 1। उत्तर 1 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-021",
+      "number": 21,
+      "question": "A father's age is 3 times his son's age. After 12 years, father's age will be 2 times the son's age. What is the father's present age?",
+      "options": {
+        "A": "36 years",
+        "B": "42 years",
+        "C": "48 years",
+        "D": "30 years"
+      },
+      "answer": "A",
+      "explanation": "3x+12 = 2(x+12) => 3x+12 = 2x+24 => x=12. Father = 3x = 36 years.",
+      "hash": "c2c339f779b99e77",
+      "translations": {
+        "hi": {
+          "question": "एक पिता की आयु उसके पुत्र की आयु की 3 गुना है। 12 वर्ष बाद, पिता की आयु पुत्र की आयु की 2 गुना होगी। पिता की वर्तमान आयु क्या है?",
+          "options": {
+            "A": "36 वर्ष",
+            "B": "42 वर्ष",
+            "C": "48 वर्ष",
+            "D": "30 वर्ष"
+          },
+          "explanation": "3x+12 = 2(x+12) => 3x+12 = 2x+24 => x=12. पिता = 3x = 36 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-022",
+      "number": 22,
+      "question": "A pipe can fill a tank in 5 hours, but due to a leak it takes 6 hours. In what time can the leak empty the full tank?",
+      "options": {
+        "A": "30 hrs",
+        "B": "11 hrs",
+        "C": "25 hrs",
+        "D": "15 hrs"
+      },
+      "answer": "A",
+      "explanation": "Leak rate = (1/5) - (1/6) = 1/30. So 30 hours.",
+      "hash": "497b9befd17172ed",
+      "translations": {
+        "hi": {
+          "question": "एक पाइप एक टंकी को 5 घंटे में भर सकता है, लेकिन रिसाव के कारण इसे भरने में 6 घंटे लगते हैं। रिसाव भरी हुई टंकी को कितने समय में खाली कर सकता है?",
+          "options": {
+            "A": "30 घंटे",
+            "B": "11 घंटे",
+            "C": "25 घंटे",
+            "D": "15 घंटे"
+          },
+          "explanation": "रिसाव की दर = (1/5) - (1/6) = 1/30। अतः 30 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-023",
+      "number": 23,
+      "question": "The average of 11 results is 50. If the average of the first 6 is 49 and that of the last 6 is 52, what is the 6th result?",
+      "options": {
+        "A": "48",
+        "B": "50",
+        "C": "56",
+        "D": "52"
+      },
+      "answer": "C",
+      "explanation": "6th = (6*49 + 6*52) - (11*50) = 6(101) - 550 = 606 - 550 = 56.",
+      "hash": "e04df54733da9c62",
+      "translations": {
+        "hi": {
+          "question": "11 परिणामों का औसत 50 है। यदि पहले 6 का औसत 49 है और अंतिम 6 का औसत 52 है, तो छठा परिणाम क्या है?",
+          "options": {
+            "A": "48",
+            "B": "50",
+            "C": "56",
+            "D": "52"
+          },
+          "explanation": "6वां = (6*49 + 6*52) - (11*50) = 6(101) - 550 = 606 - 550 = 56."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-024",
+      "number": 24,
+      "question": "If 1² + 2² + ... + 10² = 385, then find the value of 2² + 4² + ... + 20².",
+      "options": {
+        "A": "770",
+        "B": "1540",
+        "C": "1155",
+        "D": "3850"
+      },
+      "answer": "B",
+      "explanation": "It is 4 times (1² + 2² + ... + 10²) (Taking 2² common). 4 * 385 = 1540.",
+      "hash": "72a2db194f260143",
+      "translations": {
+        "hi": {
+          "question": "यदि 1² + 2² + ... + 10² = 385 है, तो 2² + 4² + ... + 20² का मान क्या है?",
+          "options": {
+            "A": "770",
+            "B": "1540",
+            "C": "1155",
+            "D": "3850"
+          },
+          "explanation": "यह (1² + 2² + ... + 10²) का 4 गुना है (2² कॉमन लेने पर)। 4 * 385 = 1540."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-025",
+      "number": 25,
+      "question": "The ratio of radii of two cylinders is 2:3 and ratio of their heights is 5:3. What is the ratio of their volumes?",
+      "options": {
+        "A": "27:20",
+        "B": "20:27",
+        "C": "4:9",
+        "D": "10:9"
+      },
+      "answer": "B",
+      "explanation": "V1/V2 = (r1/r2)² * (h1/h2) = (2/3)² * (5/3) = (4/9) * (5/3) = 20:27.",
+      "hash": "ab41b0e4520ebca6",
+      "translations": {
+        "hi": {
+          "question": "दो सिलेंडरों (Cylinders) की त्रिज्या का अनुपात 2:3 है और उनकी ऊंचाइयों का अनुपात 5:3 है। उनके आयतनों का अनुपात क्या है?",
+          "options": {
+            "A": "27:20",
+            "B": "20:27",
+            "C": "4:9",
+            "D": "10:9"
+          },
+          "explanation": "V1/V2 = (r1/r2)² * (h1/h2) = (2/3)² * (5/3) = (4/9) * (5/3) = 20:27."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-026",
+      "number": 26,
+      "question": "A vendor bought toffees at 6 for ₹1. How many for ₹1 must he sell to gain 20%?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "C",
+      "explanation": "CP/toff = 1/6. SP = (1/6) * 1.20 = 1/5. So 5 toffees.",
+      "hash": "c9482a1f5fca6762",
+      "translations": {
+        "hi": {
+          "question": "एक विक्रेता ने ₹1 में 6 की दर से टॉफियां खरीदीं। 20% लाभ प्राप्त करने के लिए उसे ₹1 में कितनी टॉफियां बेचनी चाहिए?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "2"
+          },
+          "explanation": "CP/टॉफी = 1/6। SP = (1/6) * 1.20 = 1/5। अतः 5 टॉफियां।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-028",
+      "number": 28,
+      "question": "Find the missing number in the series: 2, 5, 11, 23, 47, ?",
+      "options": {
+        "A": "95",
+        "B": "97",
+        "C": "85",
+        "D": "87"
+      },
+      "answer": "A",
+      "explanation": "Pattern: x * 2 + 1. 2*2+1=5, 5*2+1=11... 47*2+1 = 95.",
+      "hash": "452ef3a65d1e61fe",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला में लुप्त संख्या ज्ञात करें: 2, 5, 11, 23, 47, ?",
+          "options": {
+            "A": "95",
+            "B": "97",
+            "C": "85",
+            "D": "87"
+          },
+          "explanation": "पैटर्न: x * 2 + 1. 2*2+1=5, 5*2+1=11... 47*2+1 = 95."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-029",
+      "number": 29,
+      "question": "How many numbers between 400 and 800 are divisible by 4, 5, and 6?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "LCM(4, 5, 6) = 60. Multiples: 420, 480, 540, 600, 660, 720, 780. Total 7.",
+      "hash": "7107aacecfda7b11",
+      "translations": {
+        "hi": {
+          "question": "400 और 800 के बीच कितनी संख्याएँ 4, 5 और 6 से विभाज्य हैं?",
+          "options": {
+            "A": "7",
+            "B": "6",
+            "C": "8",
+            "D": "9"
+          },
+          "explanation": "LCM(4, 5, 6) = 60. 400 के बाद पहला = 420. अंतिम = 780. AP: 420...780. n = (780-420)/60 + 1 = 6+1 = 7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-030",
+      "number": 30,
+      "question": "If 2^x = 3^y = 6^-z, then what is the value of (1/x + 1/y + 1/z)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "-1"
+      },
+      "answer": "A",
+      "explanation": "Let k. 2=k^(1/x), 3=k^(1/y), 6=k^(-1/z). 2*3=6 => k^(1/x)*k^(1/y) = k^(-1/z). 1/x + 1/y = -1/z => 1/x + 1/y + 1/z = 0.",
+      "hash": "6aa78c77272c2fc4",
+      "translations": {
+        "hi": {
+          "question": "यदि 2^x = 3^y = 6^-z है, तो (1/x + 1/y + 1/z) का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "-1"
+          },
+          "explanation": "माना k. 2=k^(1/x), 3=k^(1/y), 6=k^(-1/z). 2*3=6 => k^(1/x)*k^(1/y) = k^(-1/z). 1/x + 1/y = -1/z => 1/x + 1/y + 1/z = 0."
+        }
+      }
+    }
+  ]
+}

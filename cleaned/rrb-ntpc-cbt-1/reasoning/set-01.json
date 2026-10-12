@@ -1,0 +1,735 @@
+{
+  "subject": "Reasoning",
+  "set": 1,
+  "title": "Reasoning Mock Test 1",
+  "questions": [
+    {
+      "id": "reasoning-01-001",
+      "number": 1,
+      "question": "Find the missing number in the given series: 2, 5, 10, 17, 26, ?",
+      "options": {
+        "A": "35",
+        "B": "37",
+        "C": "36",
+        "D": "38"
+      },
+      "answer": "B",
+      "explanation": "Pattern is n² + 1. 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26. Next is 6²+1 = 37.",
+      "hash": "fbb7db5b70bf7387",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 2, 5, 10, 17, 26, ?",
+          "options": {
+            "A": "35",
+            "B": "37",
+            "C": "36",
+            "D": "38"
+          },
+          "explanation": "पैटर्न n² + 1 है। 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26. अगला 6²+1 = 37 होगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-002",
+      "number": 2,
+      "question": "Select the option that is related to the third word in the same way as the second word is related to the first word. Thermometer : Temperature :: Ammeter : ?",
+      "options": {
+        "A": "Voltmeter",
+        "B": "Current",
+        "C": "Mass",
+        "D": "Energy"
+      },
+      "answer": "B",
+      "explanation": "Thermometer is used to measure Temperature. Similarly, Ammeter is used to measure Current.",
+      "hash": "062d9cf31a222f8a",
+      "translations": {
+        "hi": {
+          "question": "उस विकल्प का चयन करें जो तीसरे शब्द से उसी प्रकार संबंधित है जैसे दूसरा शब्द पहले शब्द से संबंधित है। थर्मामीटर : तापमान :: एमीटर : ?",
+          "options": {
+            "A": "वोल्टमीटर",
+            "B": "धारा (Current)",
+            "C": "द्रव्यमान",
+            "D": "ऊर्जा"
+          },
+          "explanation": "थर्मामीटर का उपयोग तापमान मापने के लिए किया जाता है। इसी प्रकार, एमीटर का उपयोग विद्युत धारा (Current) मापने के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-003",
+      "number": 3,
+      "question": "Select the odd one out.",
+      "options": {
+        "A": "Eye",
+        "B": "Ear",
+        "C": "Nose",
+        "D": "Kidney"
+      },
+      "answer": "D",
+      "explanation": "Eye, Ear, and Nose are external organs (sense organs), while Kidney is an internal organ.",
+      "hash": "eb01e5875ccd1f97",
+      "translations": {
+        "hi": {
+          "question": "विषम (Odd one out) का चयन करें।",
+          "options": {
+            "A": "आंख",
+            "B": "कान",
+            "C": "नाक",
+            "D": "गुर्दा (Kidney)"
+          },
+          "explanation": "आंख, कान और नाक बाहरी अंग (Sense organs) हैं, जबकि गुर्दा (Kidney) एक आंतरिक अंग है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-004",
+      "number": 4,
+      "question": "In a certain code language, 'TEACHER' is written as 'VGCEJGT'. How will 'CHILDREN' be written in that language?",
+      "options": {
+        "A": "EJKNFTGP",
+        "B": "EJKNFTGQ",
+        "C": "EJKNFUHP",
+        "D": "DJKNFUGP"
+      },
+      "answer": "A",
+      "explanation": "Each letter is incremented by +2. C+2=E, H+2=J, I+2=K, L+2=N, D+2=F, R+2=T, E+2=G, N+2=P.",
+      "hash": "e80a5c4792c36a1e",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित कूट भाषा में, 'TEACHER' को 'VGCEJGT' के रूप में लिखा जाता है। उसी भाषा में 'CHILDREN' को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "EJKNFTGP",
+            "B": "EJKNFTGQ",
+            "C": "EJKNFUHP",
+            "D": "DJKNFUGP"
+          },
+          "explanation": "प्रत्येक अक्षर में +2 की वृद्धि की गई है। C+2=E, H+2=J, I+2=K, L+2=N, D+2=F, R+2=T, E+2=G, N+2=P."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-005",
+      "number": 5,
+      "question": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?",
+      "options": {
+        "A": "His son",
+        "B": "His father",
+        "C": "His nephew",
+        "D": "Himself"
+      },
+      "answer": "A",
+      "explanation": "'My father's son' with 'no brother or sister' means the speaker himself. So, 'That man's father' = 'Speaker'. Thus, the photo is of his son.",
+      "hash": "cf114748ea8c9c4b",
+      "translations": {
+        "hi": {
+          "question": "एक तस्वीर की ओर इशारा करते हुए, एक व्यक्ति ने कहा, 'मेरा कोई भाई या बहन नहीं है, लेकिन उस आदमी का पिता मेरे पिता का बेटा है।' तस्वीर किसकी थी?",
+          "options": {
+            "A": "उसका बेटा",
+            "B": "उसका पिता",
+            "C": "उसका भतीजा",
+            "D": "स्वयं वह"
+          },
+          "explanation": "'मेरे पिता का बेटा' और 'मेरा कोई भाई-बहन नहीं है' का मतलब है कि वह वक्ता स्वयं है। तो, 'उस आदमी का पिता' = 'वक्ता'। अतः, तस्वीर उसके बेटे की है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-006",
+      "number": 6,
+      "question": "If '+' means '×', '-' means '+', '×' means '÷', and '÷' means '-', then 6 - 9 + 8 × 3 ÷ 20 = ?",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "12",
+        "D": "-2"
+      },
+      "answer": "B",
+      "explanation": "Change equation: 6 + 9 × 8 ÷ 3 - 20. BODMAS: 6 + 9 × (8/3) - 20 = 6 + 3×8 - 20 = 6 + 24 - 20 = 30 - 20 = 10.",
+      "hash": "72201a03200c079e",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '×', '-' का अर्थ '+', '×' का अर्थ '÷' और '÷' का अर्थ '-' है, तो 6 - 9 + 8 × 3 ÷ 20 = ?",
+          "options": {
+            "A": "6",
+            "B": "10",
+            "C": "12",
+            "D": "-2"
+          },
+          "explanation": "समीकरण बदलें: 6 + 9 × 8 ÷ 3 - 20. BODMAS: 6 + 9 × (8/3) - 20 = 6 + 3×8 - 20 = 6 + 24 - 20 = 30 - 20 = 10."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-007",
+      "number": 7,
+      "question": "Statements: 1. All cups are bottles. 2. Some bottles are jugs. Conclusions: I. Some jugs are cups. II. Some bottles are cups.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Both I and II follow",
+        "D": "Neither I nor II follows"
+      },
+      "answer": "B",
+      "explanation": "All cups are bottles, so some bottles are definitely cups (Concl II follows). No direct relation given between Jugs and Cups (Concl I false).",
+      "hash": "0cfe266490e6fb0b",
+      "translations": {
+        "hi": {
+          "question": "कथन: 1. सभी कप बोतलें हैं। 2. कुछ बोतलें जग हैं। निष्कर्ष: I. कुछ जग कप हैं। II. कुछ बोतलें कप हैं।",
+          "options": {
+            "A": "केवल निष्कर्ष I अनुसरण करता है",
+            "B": "केवल निष्कर्ष II अनुसरण करता है",
+            "C": "दोनों I और II अनुसरण करते हैं",
+            "D": "ना तो I और ना ही II अनुसरण करता है"
+          },
+          "explanation": "सभी कप बोतलें हैं, इसलिए कुछ बोतलें निश्चित रूप से कप हैं (निष्कर्ष II सही है)। जग और कप के बीच कोई सीधा संबंध नहीं दिया गया है (निष्कर्ष I अनिश्चित है)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-008",
+      "number": 8,
+      "question": "Select the Venn diagram that best represents the relationship between the following classes: Furniture, Chair, Table",
+      "options": {
+        "A": "Three separate circles",
+        "B": "One big circle containing two separate small circles",
+        "C": "Three intersecting circles",
+        "D": "Concentric circles"
+      },
+      "answer": "B",
+      "explanation": "Chair and Table are both types of Furniture, but Chair is not Table. So, one big circle for Furniture containing two separate circles for Chair and Table.",
+      "hash": "de0caf2a7de1a167",
+      "translations": {
+        "hi": {
+          "question": "वेन आरेख का चयन करें जो निम्नलिखित वर्गों के बीच संबंधों का सबसे अच्छा प्रतिनिधित्व करता है: फर्नीचर, कुर्सी, मेज",
+          "options": {
+            "A": "तीनों अलग-अलग सर्कल",
+            "B": "एक बड़ा सर्कल जिसमें दो अलग-अलग छोटे सर्कल हैं",
+            "C": "एक दूसरे को काटते हुए तीन सर्कल",
+            "D": "एक के अंदर एक सर्कल"
+          },
+          "explanation": "कुर्सी और मेज दोनों फर्नीचर के प्रकार हैं, लेकिन कुर्सी मेज नहीं है। तो, फर्नीचर का एक बड़ा सर्कल होगा जिसके अंदर कुर्सी और मेज के दो अलग-अलग सर्कल होंगे।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-009",
+      "number": 9,
+      "question": "If 1st Jan 2006 was Sunday, what was the day of the week on 1st Jan 2010?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "answer": "A",
+      "explanation": "2006 (Normal), 2007 (Normal), 2008 (Leap), 2009 (Normal). Odd days: 1 + 1 + 2 + 1 = 5 days. Sunday + 5 = Friday.",
+      "hash": "df57a1485ab2af21",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2006 को रविवार था, तो 1 जनवरी 2010 को सप्ताह का कौन सा दिन था?",
+          "options": {
+            "A": "शुक्रवार",
+            "B": "शनिवार",
+            "C": "रविवार",
+            "D": "सोमवार"
+          },
+          "explanation": "2006 (साधारण), 2007 (साधारण), 2008 (लीप), 2009 (साधारण)। विषम दिन: 1 + 1 + 2 + 1 = 5 दिन। रविवार + 5 = शुक्रवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-010",
+      "number": 10,
+      "question": "In a row of children facing North, Ritesh is 12th from the left end. Sudhir, who is 22nd from the right end, is 4th to the right of Ritesh. Total children in the row?",
+      "options": {
+        "A": "37",
+        "B": "38",
+        "C": "36",
+        "D": "35"
+      },
+      "answer": "A",
+      "explanation": "Sudhir's position from left = 12 + 4 = 16th. Sudhir is 22nd from right. Total = (Left + Right) - 1 = 16 + 22 - 1 = 37.",
+      "hash": "74b92f8669328faf",
+      "translations": {
+        "hi": {
+          "question": "उत्तर की ओर मुख करके बच्चों की एक पंक्ति में, रितेश बाएं छोर से 12वां है और सुधीर जो दाएं छोर से 22वां है, रितेश के दाएं से चौथा है। पंक्ति में कुल कितने बच्चे हैं?",
+          "options": {
+            "A": "37",
+            "B": "38",
+            "C": "36",
+            "D": "35"
+          },
+          "explanation": "सुधीर का स्थान बाएं से = 12 + 4 = 16वां। सुधीर दाएं से 22वां है। कुल = (बाएं से स्थान + दाएं से स्थान) - 1 = 16 + 22 - 1 = 38 - 1 = 37।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-011",
+      "number": 11,
+      "question": "A man walks 3 km North, then turns left and walks 2 km. He again turns left and walks 3 km. Finally, he turns right and walks straight. In which direction is he walking now?",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "North",
+        "D": "South"
+      },
+      "answer": "B",
+      "explanation": "North -> Left (West) -> Left (South) -> Right (West). Final direction is West.",
+      "hash": "5549b02249b1c502",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 3 किमी उत्तर की ओर चलता है, फिर बाएं मुड़ता है और 2 किमी चलता है। वह फिर से बाएं मुड़ता है और 3 किमी चलता है। अंत में वह दाएं मुड़ता है और सीधा चलता है। अब वह किस दिशा में चल रहा है?",
+          "options": {
+            "A": "पूर्व",
+            "B": "पश्चिम",
+            "C": "उत्तर",
+            "D": "दक्षिण"
+          },
+          "explanation": "उत्तर -> बायां (पश्चिम) -> बायां (दक्षिण) -> दायां (पश्चिम)। अंतिम दिशा पश्चिम है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-012",
+      "number": 12,
+      "question": "Select the related number from the given options. 4 : 64 :: 6 : ?",
+      "options": {
+        "A": "216",
+        "B": "212",
+        "C": "100",
+        "D": "144"
+      },
+      "answer": "A",
+      "explanation": "Cube of 4 = 4³ = 64. Similarly, Cube of 6 = 6³ = 216.",
+      "hash": "f8e37f7ee8a919e6",
+      "translations": {
+        "hi": {
+          "question": "दिए गए विकल्पों में से संबंधित संख्या का चयन करें। 4 : 64 :: 6 : ?",
+          "options": {
+            "A": "216",
+            "B": "212",
+            "C": "100",
+            "D": "144"
+          },
+          "explanation": "4 का घन (cube) = 4³ = 64. इसी प्रकार, 6 का घन = 6³ = 216."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-013",
+      "number": 13,
+      "question": "Arrange the following words in a logical and meaningful order: 1. Seed 2. Fruit 3. Plant 4. Flower",
+      "options": {
+        "A": "1, 3, 2, 4",
+        "B": "1, 3, 4, 2",
+        "C": "1, 4, 3, 2",
+        "D": "3, 1, 4, 2"
+      },
+      "answer": "B",
+      "explanation": "Order: Seed (1) -> Plant (3) -> Flower (4) -> Fruit (2).",
+      "hash": "8ceb9d4713d191c1",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित शब्दों को तार्किक और सार्थक क्रम में व्यवस्थित करें: 1. बीज 2. फल 3. पौधा 4. फूल",
+          "options": {
+            "A": "1, 3, 2, 4",
+            "B": "1, 3, 4, 2",
+            "C": "1, 4, 3, 2",
+            "D": "3, 1, 4, 2"
+          },
+          "explanation": "क्रम: बीज (1) -> पौधा (3) -> फूल (4) -> फल (2)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-014",
+      "number": 14,
+      "question": "Two positions of a dice are shown below. When '3' is at the bottom, which number will be at the top? (Pos 1: Top 6, Front 3, Right 2) (Pos 2: Top 6, Front 4, Right 5)",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "1",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "In both positions, '6' is on the common face. Therefore, faces adjacent correspond. 3 is opposite to 4.",
+      "hash": "4c97b248029fc835",
+      "translations": {
+        "hi": {
+          "question": "एक पासे की दो स्थितियाँ नीचे दी गई हैं। जब '3' सबसे नीचे हो, तो सबसे ऊपर कौन सी संख्या होगी? (स्थिति 1: ऊपर 6, सामने 3, दाएँ 2) (स्थिति 2: ऊपर 6, सामने 4, दाएँ 5)",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "1",
+            "D": "2"
+          },
+          "explanation": "दोनों स्थितियों में '6' समान सतह पर है। इसलिए, '3' के विपरीत '4' है और '2' के विपरीत '5' है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-016",
+      "number": 16,
+      "question": "Find the missing term: AZ, CX, EV, GT, ?",
+      "options": {
+        "A": "HS",
+        "B": "IR",
+        "C": "JQ",
+        "D": "KP"
+      },
+      "answer": "B",
+      "explanation": "1st letter: A(+2)C(+2)E(+2)G(+2)I. 2nd letter: Z(-2)X(-2)V(-2)T(-2)R (Opposite pairs). Ans: IR.",
+      "hash": "7c91283974936818",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात करें: AZ, CX, EV, GT, ?",
+          "options": {
+            "A": "HS",
+            "B": "IR",
+            "C": "JQ",
+            "D": "KP"
+          },
+          "explanation": "पहला अक्षर: A(+2)C(+2)E(+2)G(+2)I. दूसरा अक्षर: Z(-2)X(-2)V(-2)T(-2)R. (विपरीत जोड़े)। उत्तर: IR."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-017",
+      "number": 17,
+      "question": "Choose the word which cannot be formed using the letters of the given word. 'ADMINISTRATION'",
+      "options": {
+        "A": "RATION",
+        "B": "MIND",
+        "C": "STATION",
+        "D": "MINISTER"
+      },
+      "answer": "D",
+      "explanation": "'MINISTER' contains 'E', which is not in 'ADMINISTRATION'.",
+      "hash": "a95e9ae879bee5ed",
+      "translations": {
+        "hi": {
+          "question": "दिए गए विकल्पों में से वह शब्द चुनिए जिसे दिए गए शब्द के अक्षरों का प्रयोग करके नहीं बनाया जा सकता है। 'ADMINISTRATION'",
+          "options": {
+            "A": "RATION",
+            "B": "MIND",
+            "C": "STATION",
+            "D": "MINISTER"
+          },
+          "explanation": "'MINISTER' शब्द में 'E' है, जो 'ADMINISTRATION' में नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-018",
+      "number": 18,
+      "question": "In a row of boys, Srinath is 7th from left and Venkat is 12th from right. If they interchange positions, Srinath becomes 22nd from left. Total boys?",
+      "options": {
+        "A": "32",
+        "B": "33",
+        "C": "34",
+        "D": "31"
+      },
+      "answer": "B",
+      "explanation": "Srinath's new pos: 22nd from left. This was Venkat's old pos (12th from right). Total = (22 + 12) - 1 = 33.",
+      "hash": "594adaa240fe3b41",
+      "translations": {
+        "hi": {
+          "question": "लड़कों की एक पंक्ति में, श्रीनाथ बाएं से 7वें और वेंकट दाएं से 12वें स्थान पर हैं। यदि वे अपना स्थान आपस में बदल लें, तो श्रीनाथ बाएं से 22वें स्थान पर हो जाते हैं। पंक्ति में कुल कितने लड़के हैं?",
+          "options": {
+            "A": "32",
+            "B": "33",
+            "C": "34",
+            "D": "31"
+          },
+          "explanation": "स्थान बदलने के बाद श्रीनाथ का स्थान: बाएं से 22वां। यह वेंकट का पुराना स्थान था (दाएं से 12वां)। कुल = (22 + 12) - 1 = 33।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-019",
+      "number": 19,
+      "question": "If 15th March is Monday, what day will be 10th October of the same year?",
+      "options": {
+        "A": "Sunday",
+        "B": "Monday",
+        "C": "Saturday",
+        "D": "Friday"
+      },
+      "answer": "A",
+      "explanation": "Total days = 16+30+31+30+31+31+30+10 = 209. 209/7 = Remainder 6. Monday + 6 = Sunday.",
+      "hash": "3150227dfbaf0cfd",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 मार्च को सोमवार है, तो उसी वर्ष 10 अक्टूबर को कौन सा दिन होगा?",
+          "options": {
+            "A": "रविवार",
+            "B": "सोमवार",
+            "C": "शनिवार",
+            "D": "शुक्रवार"
+          },
+          "explanation": "मार्च(16)+अप्रैल(30)+मई(31)+जून(30)+जुलाई(31)+अगस्त(31)+सितम्बर(30)+अक्टूबर(10) = 209 दिन। 209 / 7 = 29 सप्ताह और 6 विषम दिन। सोमवार + 6 = रविवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-020",
+      "number": 20,
+      "question": "If 5 × 4 × 3 = 70 and 6 × 5 × 4 = 140, then 7 × 6 × 5 = ?",
+      "options": {
+        "A": "210",
+        "B": "220",
+        "C": "230",
+        "D": "240"
+      },
+      "answer": "D",
+      "explanation": "Logic: (Product of numbers) + 10 × (1st Number - 4). 5×4×3 = 60 + 10(1) = 70. 6×5×4 = 120 + 10(2) = 140. 7×6×5 = 210 + 10(3) = 240.",
+      "hash": "cd46415e56947bfa",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 × 4 × 3 = 70 और 6 × 5 × 4 = 140 है, तो 7 × 6 × 5 = ?",
+          "options": {
+            "A": "210",
+            "B": "220",
+            "C": "230",
+            "D": "240"
+          },
+          "explanation": "बेहतर तर्क: X*Y*Z + 10*(X-4). (5*4*3) + 10(1) = 70. (6*5*4) + 10(2) = 140. (7*6*5) + 10(3) = 210 + 30 = 240. विकल्प D (240) सही होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-021",
+      "number": 21,
+      "question": "Find the mirror image when mirror is placed on the right (at MN): 'TERM'",
+      "options": {
+        "A": "MRET",
+        "B": "MЯƎT",
+        "C": "TƎЯM",
+        "D": "MЯET"
+      },
+      "answer": "B",
+      "explanation": "Reversing right to left: M remains same, R becomes Я, E becomes Ǝ, T remains same. Order reverses.",
+      "hash": "d7623bf23b64ab26",
+      "translations": {
+        "hi": {
+          "question": "दर्पण प्रतिबिम्ब ज्ञात कीजिये जब दर्पण को दाईं ओर (MN पर) रखा जाता है: 'TERM'",
+          "options": {
+            "A": "MRET",
+            "B": "MЯƎT",
+            "C": "TƎЯM",
+            "D": "MЯET"
+          },
+          "explanation": "दाएं से बाएं पलटने पर: M वैसे ही रहेगा, R उल्टा (Я), E उल्टा (Ǝ), T वैसे ही रहेगा। क्रम भी उल्टा होगा (M पहले)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-022",
+      "number": 22,
+      "question": "Arrange in dictionary order: 1. Sound 2. Socks 3. Shock 4. Sharp 5. Snooker",
+      "options": {
+        "A": "4, 3, 5, 2, 1",
+        "B": "3, 4, 5, 1, 2",
+        "C": "4, 3, 2, 5, 1",
+        "D": "4, 3, 5, 1, 2"
+      },
+      "answer": "A",
+      "explanation": "Sharp (4) -> Shock (3) -> Snooker (5) -> Socks (2) -> Sound (1).",
+      "hash": "c9a81bb2317f3eca",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश के क्रम के अनुसार व्यवस्थित करें: 1. Sound 2. Socks 3. Shock 4. Sharp 5. Snooker",
+          "options": {
+            "A": "4, 3, 5, 2, 1",
+            "B": "3, 4, 5, 1, 2",
+            "C": "4, 3, 2, 5, 1",
+            "D": "4, 3, 5, 1, 2"
+          },
+          "explanation": "Sharp (4) -> Shock (3) -> Snooker (5) -> Socks (2) -> Sound (1)."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-023",
+      "number": 23,
+      "question": "The time in a clock is 3:40. Find the angle between hour and minute hands.",
+      "options": {
+        "A": "130°",
+        "B": "120°",
+        "C": "140°",
+        "D": "150°"
+      },
+      "answer": "A",
+      "explanation": "Formula: |30H - 5.5M| = |30(3) - 5.5(40)| = |90 - 220| = |-130| = 130°.",
+      "hash": "772e4ffaf3d06ee5",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी में 3:40 बजे हैं। घंटे की सुई और मिनट की सुई के बीच का कोण ज्ञात कीजिये।",
+          "options": {
+            "A": "130°",
+            "B": "120°",
+            "C": "140°",
+            "D": "150°"
+          },
+          "explanation": "सूत्र: |30H - 5.5M| = |30(3) - 5.5(40)| = |90 - 220| = |-130| = 130°."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-024",
+      "number": 24,
+      "question": "Choose the odd number pair.",
+      "options": {
+        "A": "25 : 5",
+        "B": "36 : 6",
+        "C": "49 : 7",
+        "D": "8 : 4"
+      },
+      "answer": "D",
+      "explanation": "In all others, 1st number is square of 2nd. 4²=16, not 8.",
+      "hash": "0bbd57126b15755f",
+      "translations": {
+        "hi": {
+          "question": "विषम संख्या युग्म (Odd number pair) चुनें।",
+          "options": {
+            "A": "25 : 5",
+            "B": "36 : 6",
+            "C": "49 : 7",
+            "D": "8 : 4"
+          },
+          "explanation": "अन्य सभी में, पहली संख्या दूसरी संख्या का वर्ग (square) है। (5²=25, 6²=36, 7²=49)। लेकिन 4² = 16 होता है, 8 नहीं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-025",
+      "number": 25,
+      "question": "Complete the series: 3F, 6G, 11I, 18L, ?",
+      "options": {
+        "A": "27P",
+        "B": "25N",
+        "C": "27Q",
+        "D": "21O"
+      },
+      "answer": "A",
+      "explanation": "Numbers: 3 (+3) 6 (+5) 11 (+7) 18 (+9) 27. Letters: F (+1) G (+2) I (+3) L (+4) P. Ans: 27P.",
+      "hash": "3af9eb13f96bf556",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला को पूरा करें: 3F, 6G, 11I, 18L, ?",
+          "options": {
+            "A": "27P",
+            "B": "25N",
+            "C": "27Q",
+            "D": "21O"
+          },
+          "explanation": "संख्या: 3 (+3) 6 (+5) 11 (+7) 18 (+9) 27। अक्षर: F (+1) G (+2) I (+3) L (+4) P। उत्तर: 27P।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-026",
+      "number": 26,
+      "question": "Complete the pattern logic: Triangle (3 sides) -> Square (4 sides) -> ?",
+      "options": {
+        "A": "Hexagon",
+        "B": "Pentagon",
+        "C": "Quadrilateral",
+        "D": "Triangle"
+      },
+      "answer": "B",
+      "explanation": "Number of sides increases by 1. 3 -> 4 -> 5 (Pentagon).",
+      "hash": "3e638e7c8f909776",
+      "translations": {
+        "hi": {
+          "question": "पैटर्न को पूरा करें: (नोट: यह एक दृश्य प्रश्न है, यहाँ पाठ्य विवरण दिया गया है: एक वृत्त में त्रिकोण, फिर वर्ग, फिर?) तर्क: भुजाओं की संख्या बढ़ रही है। त्रिकोण (3) -> वर्ग (4) -> पंचभुज (5)।",
+          "options": {
+            "A": "षट्भुज",
+            "B": "पंचभुज",
+            "C": "चतुर्भुज",
+            "D": "त्रिभुज"
+          },
+          "explanation": "भुजाओं की संख्या 1 से बढ़ रही है। 3 -> 4 -> 5 (पंचभुज)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-028",
+      "number": 28,
+      "question": "If DOG = 26 and FLY = 43, then BIRD = ?",
+      "options": {
+        "A": "32",
+        "B": "33",
+        "C": "34",
+        "D": "30"
+      },
+      "answer": "B",
+      "explanation": "Sum of positions: B(2)+I(9)+R(18)+D(4) = 33.",
+      "hash": "2c944997ea71f55b",
+      "translations": {
+        "hi": {
+          "question": "यदि DOG = 26 और FLY = 43 है, तो BIRD = ?",
+          "options": {
+            "A": "32",
+            "B": "33",
+            "C": "34",
+            "D": "30"
+          },
+          "explanation": "D(4)+O(15)+G(7) = 26. F(6)+L(12)+Y(25) = 43. B(2)+I(9)+R(18)+D(4) = 33."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-029",
+      "number": 29,
+      "question": "X is brother of Y. V is mother of Y. M is sister of V's husband. N is brother of V. How is M's son related to X?",
+      "options": {
+        "A": "Cousin",
+        "B": "Uncle",
+        "C": "Nephew",
+        "D": "Brother"
+      },
+      "answer": "A",
+      "explanation": "V's husband is X's father. M is X's Aunt (Father's sister). Aunt's son is Cousin.",
+      "hash": "5c98a229283b0039",
+      "translations": {
+        "hi": {
+          "question": "X, Y का भाई है। V, Y की माँ है। M, V के पति की बहन है। N, V का भाई है। M के पुत्र का X से क्या संबंध है?",
+          "options": {
+            "A": "चचेरा/ममेरा भाई (Cousin)",
+            "B": "चाचा",
+            "C": "भतीजा",
+            "D": "भाई"
+          },
+          "explanation": "V का पति X का पिता है। M, X की बुआ (पिता की बहन) है। बुआ का बेटा 'फुफेरा भाई' (Cousin) होता है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-030",
+      "number": 30,
+      "question": "Find the wrong number in the series: 1, 2, 6, 15, 31, 56, 91",
+      "options": {
+        "A": "31",
+        "B": "91",
+        "C": "56",
+        "D": "15"
+      },
+      "answer": "B",
+      "explanation": "Differences are squares: 1, 4, 9, 16, 25, 36. 56 + 36 = 92, but 91 is given. So 91 is wrong.",
+      "hash": "cdbc880f695af37a",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला में गलत संख्या ज्ञात कीजिये: 1, 2, 6, 15, 31, 56, 91",
+          "options": {
+            "A": "31",
+            "B": "91",
+            "C": "56",
+            "D": "15"
+          },
+          "explanation": "अंतर: 1, 4, 9, 16, 25, 36 (वर्ग)। 1+1=2, 2+4=6, 6+9=15, 15+16=31, 31+25=56, 56+36=92। दिया गया है 91, जो गलत है।"
+        }
+      }
+    }
+  ]
+}
