@@ -1,0 +1,969 @@
+{
+  "subject": "Mock Test (Session I)",
+  "set": 10,
+  "title": "Session I Mock Test 10",
+  "questions": [
+    {
+      "id": "mock-test-session-i-10-001",
+      "number": 1,
+      "question": "A shopkeeper sells an article for 400 with a profit of 25%. Find the cost price.",
+      "options": {
+        "A": "300",
+        "B": "320",
+        "C": "350",
+        "D": "360"
+      },
+      "answer": "B",
+      "explanation": "125% = 400. So CP = (400/125) * 100 = 320.",
+      "hash": "10dc21b4530b4c88",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु को 25% के लाभ पर 400 में बेचता है। क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "300",
+            "B": "320",
+            "C": "350",
+            "D": "360"
+          },
+          "explanation": "125% = 400. इसलिए CP = (400/125) * 100 = 320."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-002",
+      "number": 2,
+      "question": "The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "50",
+        "D": "60"
+      },
+      "answer": "C",
+      "explanation": "3x + 5x = 80 => 8x = 80 => x = 10. Larger number = 5x = 50.",
+      "hash": "e1c91cc25cda220e",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3:5 है। यदि उनका योग 80 है, तो बड़ी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "30",
+            "B": "40",
+            "C": "50",
+            "D": "60"
+          },
+          "explanation": "3x + 5x = 80 => 8x = 80 => x = 10. बड़ी संख्या = 5x = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-003",
+      "number": 3,
+      "question": "A can do a work in 10 days and B can do it in 15 days. In how many days can they finish it together?",
+      "options": {
+        "A": "5 days",
+        "B": "6 days",
+        "C": "7 days",
+        "D": "8 days"
+      },
+      "answer": "B",
+      "explanation": "Time taken = (10 * 15) / (10 + 15) = 150 / 25 = 6 days.",
+      "hash": "9f83f55dd4f1f7aa",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य को 10 दिनों में कर सकता है और B उसे 15 दिनों में कर सकता है। वे दोनों मिलकर इसे कितने दिनों में समाप्त कर सकते हैं?",
+          "options": {
+            "A": "5 दिन",
+            "B": "6 दिन",
+            "C": "7 दिन",
+            "D": "8 दिन"
+          },
+          "explanation": "लिया गया समय = (10 * 15) / (10 + 15) = 150 / 25 = 6 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-005",
+      "number": 5,
+      "question": "Find the average of first 5 natural numbers.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B",
+      "explanation": "Sum = 1+2+3+4+5 = 15. Average = 15/5 = 3.",
+      "hash": "3deb81baf2b2828b",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 5 प्राकृतिक संख्याओं का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "योग = 1+2+3+4+5 = 15. औसत = 15/5 = 3."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-007",
+      "number": 7,
+      "question": "The area of a square is 100 sq cm. Find its perimeter.",
+      "options": {
+        "A": "20 cm",
+        "B": "30 cm",
+        "C": "40 cm",
+        "D": "50 cm"
+      },
+      "answer": "C",
+      "explanation": "Side = sqrt(100) = 10. Perimeter = 4 * 10 = 40 cm.",
+      "hash": "a400bc43708d1028",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का क्षेत्रफल 100 वर्ग सेमी है। इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "20 सेमी",
+            "B": "30 सेमी",
+            "C": "40 सेमी",
+            "D": "50 सेमी"
+          },
+          "explanation": "भुजा = sqrt(100) = 10. परिमाप = 4 * 10 = 40 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-008",
+      "number": 8,
+      "question": "A train 150 m long passes a pole in 10 seconds. Find its speed in km/h.",
+      "options": {
+        "A": "45 km/h",
+        "B": "54 km/h",
+        "C": "60 km/h",
+        "D": "72 km/h"
+      },
+      "answer": "B",
+      "explanation": "Speed = 150/10 = 15 m/s. In km/h = 15 * 18/5 = 54 km/h.",
+      "hash": "58cafe77f5f21d7f",
+      "translations": {
+        "hi": {
+          "question": "150 मीटर लंबी एक ट्रेन एक खंभे को 10 सेकंड में पार करती है। इसकी गति किमी/घंटा में ज्ञात कीजिए।",
+          "options": {
+            "A": "45 किमी/घंटा",
+            "B": "54 किमी/घंटा",
+            "C": "60 किमी/घंटा",
+            "D": "72 किमी/घंटा"
+          },
+          "explanation": "गति = 150/10 = 15 मीटर/सेकंड। किमी/घंटा में = 15 * 18/5 = 54 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-009",
+      "number": 9,
+      "question": "Solve: (1/2) + (1/4) + (1/8)",
+      "options": {
+        "A": "3/8",
+        "B": "5/8",
+        "C": "7/8",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "LCM of 2, 4, 8 is 8. (4 + 2 + 1) / 8 = 7/8.",
+      "hash": "e1f492721d572009",
+      "translations": {
+        "hi": {
+          "question": "हल करें: (1/2) + (1/4) + (1/8)",
+          "options": {
+            "A": "3/8",
+            "B": "5/8",
+            "C": "7/8",
+            "D": "1"
+          },
+          "explanation": "2, 4, 8 का LCM 8 है। (4 + 2 + 1) / 8 = 7/8."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-010",
+      "number": 10,
+      "question": "If x + y = 20 and x - y = 4, find the value of x.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "Adding both equations: 2x = 24 => x = 12.",
+      "hash": "17615ab39abd1006",
+      "translations": {
+        "hi": {
+          "question": "यदि x + y = 20 और x - y = 4 है, तो x का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "16"
+          },
+          "explanation": "दोनों समीकरणों को जोड़ने पर: 2x = 24 => x = 12."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-011",
+      "number": 11,
+      "question": "The diameter of a circle is 14 cm. Find its circumference. (pi = 22/7)",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "66 cm",
+        "D": "88 cm"
+      },
+      "answer": "B",
+      "explanation": "Circumference = pi * diameter = (22/7) * 14 = 44 cm.",
+      "hash": "a0b3664b15d3baa3",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त का व्यास 14 सेमी है। इसकी परिधि ज्ञात कीजिए। (pi = 22/7)",
+          "options": {
+            "A": "22 सेमी",
+            "B": "44 सेमी",
+            "C": "66 सेमी",
+            "D": "88 सेमी"
+          },
+          "explanation": "परिधि = pi * व्यास = (22/7) * 14 = 44 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-012",
+      "number": 12,
+      "question": "20% of 25% of 1000 is:",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "75"
+      },
+      "answer": "B",
+      "explanation": "1000 * 0.25 * 0.20 = 250 * 0.20 = 50.",
+      "hash": "f4532b1121b673e8",
+      "translations": {
+        "hi": {
+          "question": "1000 के 25% का 20% है:",
+          "options": {
+            "A": "40",
+            "B": "50",
+            "C": "60",
+            "D": "75"
+          },
+          "explanation": "1000 * 0.25 * 0.20 = 250 * 0.20 = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-013",
+      "number": 13,
+      "question": "A car travels 200 km in 4 hours. What is its speed in m/s?",
+      "options": {
+        "A": "10.5",
+        "B": "12.5",
+        "C": "13.88",
+        "D": "15.2"
+      },
+      "answer": "C",
+      "explanation": "Speed = 200/4 = 50 km/h. In m/s = 50 * 5/18 = 13.88.",
+      "hash": "e84a22211dc41f90",
+      "translations": {
+        "hi": {
+          "question": "एक कार 4 घंटे में 200 किमी की यात्रा करती है। इसकी गति मीटर/सेकंड में क्या है?",
+          "options": {
+            "A": "10.5",
+            "B": "12.5",
+            "C": "13.88",
+            "D": "15.2"
+          },
+          "explanation": "गति = 200/4 = 50 किमी/घंटा। मीटर/सेकंड में = 50 * 5/18 = 13.88."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-014",
+      "number": 14,
+      "question": "Find the HCF of 12, 18, and 24.",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "6 is the largest number that divides 12, 18, and 24.",
+      "hash": "e74272eb2a816ae9",
+      "translations": {
+        "hi": {
+          "question": "12, 18, और 24 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12"
+          },
+          "explanation": "6 वह सबसे बड़ी संख्या है जो 12, 18, और 24 को विभाजित करती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-015",
+      "number": 15,
+      "question": "Find the volume of a cube with side 4 cm.",
+      "options": {
+        "A": "16 cubic cm",
+        "B": "32 cubic cm",
+        "C": "64 cubic cm",
+        "D": "128 cubic cm"
+      },
+      "answer": "C",
+      "explanation": "Volume = side^3 = 4 * 4 * 4 = 64.",
+      "hash": "966e13b148d53f3f",
+      "translations": {
+        "hi": {
+          "question": "4 सेमी भुजा वाले घन का आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "16 घन सेमी",
+            "B": "32 घन सेमी",
+            "C": "64 घन सेमी",
+            "D": "128 घन सेमी"
+          },
+          "explanation": "आयतन = भुजा^3 = 4 * 4 * 4 = 64."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-016",
+      "number": 16,
+      "question": "A person buys a bicycle for 1200 and sells it for 1500. Find profit percentage.",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "answer": "B",
+      "explanation": "Profit = 300. Profit % = (300/1200) * 100 = 25%.",
+      "hash": "39d74cb8036825fe",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 1200 में एक साइकिल खरीदता है और उसे 1500 में बेचता है। लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "40%"
+          },
+          "explanation": "लाभ = 300. लाभ प्रतिशत = (300/1200) * 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-017",
+      "number": 17,
+      "question": "Simplify: 0.04 * 0.5",
+      "options": {
+        "A": "0.2",
+        "B": "0.02",
+        "C": "0.002",
+        "D": "0.45"
+      },
+      "answer": "B",
+      "explanation": "4 * 5 = 20. Total decimal places = 2 + 1 = 3. So, 0.020.",
+      "hash": "9bfab5390b417b9a",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: 0.04 * 0.5",
+          "options": {
+            "A": "0.2",
+            "B": "0.02",
+            "C": "0.002",
+            "D": "0.45"
+          },
+          "explanation": "4 * 5 = 20. कुल दशमलव स्थान = 2 + 1 = 3. इसलिए, 0.020."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-018",
+      "number": 18,
+      "question": "If the cost price of 10 articles is equal to the selling price of 8 articles, find profit %.",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "30%",
+        "D": "15%"
+      },
+      "answer": "B",
+      "explanation": "Profit % = (10-8)/8 * 100 = 2/8 * 100 = 25%.",
+      "hash": "536d2c9147b76843",
+      "translations": {
+        "hi": {
+          "question": "यदि 10 वस्तुओं का क्रय मूल्य 8 वस्तुओं के विक्रय मूल्य के बराबर है, तो लाभ % ज्ञात कीजिए।",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "30%",
+            "D": "15%"
+          },
+          "explanation": "लाभ % = (10-8)/8 * 100 = 2/8 * 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-019",
+      "number": 19,
+      "question": "Find the average of first 5 multiples of 2.",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "Multiples: 2, 4, 6, 8, 10. Sum = 30. Average = 30/5 = 6.",
+      "hash": "62ea884ab6e81b9e",
+      "translations": {
+        "hi": {
+          "question": "2 के प्रथम 5 गुणजों का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "10"
+          },
+          "explanation": "गुणज: 2, 4, 6, 8, 10. योग = 30. औसत = 30/5 = 6."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-020",
+      "number": 20,
+      "question": "Complete the series: 2, 6, 12, 20, ?",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "36"
+      },
+      "answer": "B",
+      "explanation": "Differences are 4, 6, 8. Next difference is 10. 20 + 10 = 30.",
+      "hash": "77a66d08ac47ab32",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 2, 6, 12, 20, ?",
+          "options": {
+            "A": "28",
+            "B": "30",
+            "C": "32",
+            "D": "36"
+          },
+          "explanation": "अंतर 4, 6, 8 हैं। अगला अंतर 10 है। 20 + 10 = 30."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-021",
+      "number": 21,
+      "question": "The perimeter of a rectangle is 30 cm and its length is 10 cm. Find its breadth.",
+      "options": {
+        "A": "5 cm",
+        "B": "6 cm",
+        "C": "10 cm",
+        "D": "15 cm"
+      },
+      "answer": "A",
+      "explanation": "2(L + B) = 30 => 10 + B = 15 => B = 5.",
+      "hash": "02f191690b58c14e",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का परिमाप 30 सेमी है और इसकी लंबाई 10 सेमी है। इसकी चौड़ाई ज्ञात कीजिए।",
+          "options": {
+            "A": "5 सेमी",
+            "B": "6 सेमी",
+            "C": "10 सेमी",
+            "D": "15 सेमी"
+          },
+          "explanation": "2(L + B) = 30 => 10 + B = 15 => B = 5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-022",
+      "number": 22,
+      "question": "Analogy: Pen : Ink :: Car : ?",
+      "options": {
+        "A": "Driver",
+        "B": "Road",
+        "C": "Fuel",
+        "D": "Wheel"
+      },
+      "answer": "C",
+      "explanation": "Pen runs on ink; car runs on fuel.",
+      "hash": "5bc97ebe8992a883",
+      "translations": {
+        "hi": {
+          "question": "सादृश्य: कलम : स्याही :: कार : ?",
+          "options": {
+            "A": "चालक",
+            "B": "सड़क",
+            "C": "ईंधन",
+            "D": "पहिया"
+          },
+          "explanation": "कलम स्याही से चलती है; कार ईंधन से चलती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-023",
+      "number": 23,
+      "question": "If you are facing North and you turn right, which direction are you facing now?",
+      "options": {
+        "A": "South",
+        "B": "East",
+        "C": "West",
+        "D": "North-East"
+      },
+      "answer": "B",
+      "explanation": "A 90-degree right turn from North leads to East.",
+      "hash": "13bb02a65682662f",
+      "translations": {
+        "hi": {
+          "question": "यदि आपका मुख उत्तर की ओर है और आप दाईं ओर मुड़ते हैं, तो अब आपका मुख किस दिशा में है?",
+          "options": {
+            "A": "दक्षिण",
+            "B": "पूर्व",
+            "C": "पश्चिम",
+            "D": "उत्तर-पूर्व"
+          },
+          "explanation": "उत्तर से 90 डिग्री का दायां मोड़ पूर्व की ओर ले जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-024",
+      "number": 24,
+      "question": "If CAT is coded as 3120, how is DOG coded?",
+      "options": {
+        "A": "4157",
+        "B": "4147",
+        "C": "5157",
+        "D": "4158"
+      },
+      "answer": "A",
+      "explanation": "C=3, A=1, T=20. Similarly, D=4, O=15, G=7.",
+      "hash": "a5ebca7ae8484b93",
+      "translations": {
+        "hi": {
+          "question": "यदि CAT को 3120 के रूप में कोडित किया गया है, तो DOG को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "4157",
+            "B": "4147",
+            "C": "5157",
+            "D": "4158"
+          },
+          "explanation": "C=3, A=1, T=20. इसी प्रकार, D=4, O=15, G=7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-025",
+      "number": 25,
+      "question": "Find the odd one out: Monday, Tuesday, June, Friday.",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "June",
+        "D": "Friday"
+      },
+      "answer": "C",
+      "explanation": "June is a month; others are days of the week.",
+      "hash": "2247d318fd7493d6",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: सोमवार, मंगलवार, जून, शुक्रवार।",
+          "options": {
+            "A": "सोमवार",
+            "B": "मंगलवार",
+            "C": "जून",
+            "D": "शुक्रवार"
+          },
+          "explanation": "जून एक महीना है; अन्य सप्ताह के दिन हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-026",
+      "number": 26,
+      "question": "Pointing to a man, a woman said, \"He is the brother of my mother's only son.\" Who is the man to the woman?",
+      "options": {
+        "A": "Father",
+        "B": "Son",
+        "C": "Brother",
+        "D": "Uncle"
+      },
+      "answer": "C",
+      "explanation": "Mother's only son is her brother. Her brother's brother is also her brother.",
+      "hash": "ba41aa410d132a3a",
+      "translations": {
+        "hi": {
+          "question": "एक पुरुष की ओर इशारा करते हुए, एक महिला ने कहा, \"वह मेरी माँ के इकलौते बेटे का भाई है।\" पुरुष का महिला से क्या संबंध है?",
+          "options": {
+            "A": "पिता",
+            "B": "बेटा",
+            "C": "भाई",
+            "D": "चाचा"
+          },
+          "explanation": "माँ का इकलौता बेटा उसका भाई है। उसके भाई का भाई भी उसका भाई है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-027",
+      "number": 27,
+      "question": "Statements: All A are B. All B are C. Conclusion: All A are C.",
+      "options": {
+        "A": "True",
+        "B": "False",
+        "C": "Uncertain",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "By syllogism, if A is inside B and B is inside C, A must be inside C.",
+      "hash": "848fcae42606cfc6",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी A, B हैं। सभी B, C हैं। निष्कर्ष: सभी A, C हैं।",
+          "options": {
+            "A": "सत्य",
+            "B": "असत्य",
+            "C": "अनिश्चित",
+            "D": "कोई नहीं"
+          },
+          "explanation": "न्यायशास्त्र के अनुसार, यदि A, B के अंदर है और B, C के अंदर है, तो A, C के अंदर होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-028",
+      "number": 28,
+      "question": "Which Venn diagram represents: Fruit, Apple, Orange?",
+      "options": {
+        "A": "Three separate circles",
+        "B": "One big circle with two small separate circles inside",
+        "C": "Three concentric circles",
+        "D": "Three intersecting circles"
+      },
+      "answer": "B",
+      "explanation": "Both Apple and Orange are Fruits, but they are separate categories.",
+      "hash": "3337a915af72ae55",
+      "translations": {
+        "hi": {
+          "question": "कौन सा वेन आरेख फल, सेब, संतरा का प्रतिनिधित्व करता है?",
+          "options": {
+            "A": "तीन अलग-अलग घेरे",
+            "B": "एक बड़ा घेरा जिसके अंदर दो छोटे अलग घेरे हों",
+            "C": "तीन संकेंद्रित घेरे",
+            "D": "तीन प्रतिच्छेदी घेरे"
+          },
+          "explanation": "सेब और संतरा दोनों फल हैं, लेकिन वे अलग-अलग श्रेणियां हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-029",
+      "number": 29,
+      "question": "Arrange in dictionary order: 1. Apple, 2. Ape, 3. April.",
+      "options": {
+        "A": "1, 2, 3",
+        "B": "2, 1, 3",
+        "C": "3, 2, 1",
+        "D": "2, 3, 1"
+      },
+      "answer": "B",
+      "explanation": "Order is Ape, Apple, April.",
+      "hash": "49e05de0bdefc650",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Apple, 2. Ape, 3. April.",
+          "options": {
+            "A": "1, 2, 3",
+            "B": "2, 1, 3",
+            "C": "3, 2, 1",
+            "D": "2, 3, 1"
+          },
+          "explanation": "क्रम Ape, Apple, April है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-030",
+      "number": 30,
+      "question": "Find the missing number: 5, 10, ?, 20, 25.",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "16",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "Pattern is +5. 10 + 5 = 15.",
+      "hash": "7f479c886653ad6b",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 5, 10, ?, 20, 25.",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "16",
+            "D": "18"
+          },
+          "explanation": "पैटर्न +5 है। 10 + 5 = 15."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-031",
+      "number": 31,
+      "question": "If A=1, B=2, how is ACE coded?",
+      "options": {
+        "A": "135",
+        "B": "123",
+        "C": "345",
+        "D": "153"
+      },
+      "answer": "A",
+      "explanation": "A=1, C=3, E=5.",
+      "hash": "108728129860ad62",
+      "translations": {
+        "hi": {
+          "question": "यदि A=1, B=2 है, तो ACE को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "135",
+            "B": "123",
+            "C": "345",
+            "D": "153"
+          },
+          "explanation": "A=1, C=3, E=5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-032",
+      "number": 32,
+      "question": "Mirror image of 'OTO' if mirror is on right:",
+      "options": {
+        "A": "OTO",
+        "B": "TOT",
+        "C": "OOT",
+        "D": "TOO"
+      },
+      "answer": "A",
+      "explanation": "OTO is symmetrical and looks the same in a mirror.",
+      "hash": "b43c37107c04bd19",
+      "translations": {
+        "hi": {
+          "question": "'OTO' की दर्पण छवि यदि दर्पण दाईं ओर है:",
+          "options": {
+            "A": "OTO",
+            "B": "TOT",
+            "C": "OOT",
+            "D": "TOO"
+          },
+          "explanation": "OTO सममित है और दर्पण में समान दिखता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-033",
+      "number": 33,
+      "question": "Water image of the letter 'M' is:",
+      "options": {
+        "A": "M",
+        "B": "W",
+        "C": "N",
+        "D": "V"
+      },
+      "answer": "B",
+      "explanation": "Water image inverts vertically. M becomes W.",
+      "hash": "3337484e22de0d05",
+      "translations": {
+        "hi": {
+          "question": "अक्षर 'M' की जल छवि है:",
+          "options": {
+            "A": "M",
+            "B": "W",
+            "C": "N",
+            "D": "V"
+          },
+          "explanation": "जल छवि लंबवत रूप से उलट देती है। M, W बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-034",
+      "number": 34,
+      "question": "Analogy: Dog : Bark :: Cat : ?",
+      "options": {
+        "A": "Roar",
+        "B": "Meow",
+        "C": "Bleat",
+        "D": "Grunt"
+      },
+      "answer": "B",
+      "explanation": "Dogs bark; cats meow.",
+      "hash": "66f44cc82bdc1ce8",
+      "translations": {
+        "hi": {
+          "question": "सादृश्य: कुत्ता : भौंकना :: बिल्ली : ?",
+          "options": {
+            "A": "दहाड़ना",
+            "B": "म्याऊं",
+            "C": "मिमियाना",
+            "D": "घुरघुराना"
+          },
+          "explanation": "कुत्ते भौंकते हैं; बिल्लियाँ म्याऊं करती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-036",
+      "number": 36,
+      "question": "Logical Sequence: 1. Seed, 2. Plant, 3. Tree.",
+      "options": {
+        "A": "1, 2, 3",
+        "B": "3, 2, 1",
+        "C": "2, 1, 3",
+        "D": "1, 3, 2"
+      },
+      "answer": "A",
+      "explanation": "A seed grows into a plant, which grows into a tree.",
+      "hash": "e90430e4a9963d07",
+      "translations": {
+        "hi": {
+          "question": "तार्किक अनुक्रम: 1. बीज, 2. पौधा, 3. पेड़।",
+          "options": {
+            "A": "1, 2, 3",
+            "B": "3, 2, 1",
+            "C": "2, 1, 3",
+            "D": "1, 3, 2"
+          },
+          "explanation": "एक बीज से पौधा बनता है, जिससे पेड़ बनता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-037",
+      "number": 37,
+      "question": "Find the odd one out: Square, Cube, Sphere, Ball.",
+      "options": {
+        "A": "Square",
+        "B": "Cube",
+        "C": "Sphere",
+        "D": "Ball"
+      },
+      "answer": "A",
+      "explanation": "Square is 2D; others are 3D.",
+      "hash": "8d3c75f2e8f7c940",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: वर्ग, घन, गोला, गेंद।",
+          "options": {
+            "A": "वर्ग",
+            "B": "घन",
+            "C": "गोला",
+            "D": "गेंद"
+          },
+          "explanation": "वर्ग 2D है; अन्य 3D हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-038",
+      "number": 38,
+      "question": "Relation: My brother's wife is my:",
+      "options": {
+        "A": "Sister",
+        "B": "Aunt",
+        "C": "Sister-in-law",
+        "D": "Mother"
+      },
+      "answer": "C",
+      "explanation": "Brother's wife is called Sister-in-law (Bhabhi).",
+      "hash": "440e757bd3658664",
+      "translations": {
+        "hi": {
+          "question": "संबंध: मेरे भाई की पत्नी मेरी है:",
+          "options": {
+            "A": "बहन",
+            "B": "चाची/मामी",
+            "C": "भाभी",
+            "D": "माँ"
+          },
+          "explanation": "भाई की पत्नी को भाभी (Sister-in-law) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-039",
+      "number": 39,
+      "question": "Dice: If 1 is at the top, what is at the bottom in a standard dice?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "D",
+      "explanation": "In a standard dice, opposite faces sum to 7. 1 + 6 = 7.",
+      "hash": "6bb8013ca08e2b84",
+      "translations": {
+        "hi": {
+          "question": "पासा: यदि मानक पासे में 1 ऊपर है, तो नीचे क्या है?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "एक मानक पासे में, विपरीत फलकों का योग 7 होता है। 1 + 6 = 7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-10-040",
+      "number": 40,
+      "question": "Series: A, C, E, G, ?",
+      "options": {
+        "A": "H",
+        "B": "I",
+        "C": "J",
+        "D": "K"
+      },
+      "answer": "B",
+      "explanation": "Pattern is +2. G + 2 = I.",
+      "hash": "9434245b32a77522",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला: A, C, E, G, ?",
+          "options": {
+            "A": "H",
+            "B": "I",
+            "C": "J",
+            "D": "K"
+          },
+          "explanation": "पैटर्न +2 है। G + 2 = I."
+        }
+      }
+    }
+  ]
+}

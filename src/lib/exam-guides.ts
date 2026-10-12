@@ -321,6 +321,105 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'ssc-mts': {
+    heading: 'About the SSC MTS exam',
+    intro: [
+      'The Staff Selection Commission’s Multi-Tasking (Non-Technical) Staff and Havaldar examination fills Group C posts across central government ministries and offices, and Havaldar posts in CBIC and CBN. It needs only a Class 10 pass, so it is one of the most widely taken SSC exams. Selection rests on a single computer-based exam taken in two sessions.',
+      'ExamForge gives you free, timed practice for both sessions: 10 Session I mock tests (Mathematics and Reasoning) and 9 Session II mock tests (General Awareness and English), each on the real 45-minute timer, plus sectional sets for all four subjects. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'Session I has no negative marking, and neither do these sets. Session II deducts 1 of a question’s 3 marks for each wrong answer; ExamForge does not, so to rehearse Session II scoring, take one-third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'SSC MTS at a glance',
+      source: 'From recent SSC MTS (Non-Technical) Staff and Havaldar examination notices. Reports of the 2026 cycle’s dates and vacancies conflict, so check ssc.gov.in for the current notice.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Qualification', value: 'Class 10 (matriculation) pass' },
+        { label: 'Exam', value: '90 questions, 270 marks, two 45-minute sessions' },
+        { label: 'Pay', value: 'Level 1 of the 7th Pay Commission (₹18,000–56,900)' },
+        { label: 'Exam fee', value: '₹100; no fee for women, SC, ST, PwBD and ex-servicemen' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The Computer Based Examination has two sessions taken on the same day, both compulsory. Every question carries 3 marks, and each session has 45 minutes.',
+      caption: 'SSC MTS Computer Based Examination',
+      sections: [
+        { part: 'Session I', subject: 'Numerical and Mathematical Ability', questions: 20, marks: 60 },
+        { part: 'Session I', subject: 'Reasoning Ability and Problem Solving', questions: 20, marks: 60 },
+        { part: 'Session II', subject: 'General Awareness', questions: 25, marks: 75 },
+        { part: 'Session II', subject: 'English Language and Comprehension', questions: 25, marks: 75 },
+      ],
+      duration: '45 minutes for each session',
+      marking: [
+        { response: 'Correct answer', marks: '+3' },
+        { response: 'Wrong answer in Session I', marks: '0' },
+        { response: 'Wrong answer in Session II', marks: '−1' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Session I is qualifying: Session II is only evaluated for candidates who clear it, and the merit list is drawn up on Session II marks alone. Scores are normalised across shifts.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level. The Session I and Session II mock tests cover every area below; the sectional subjects give focused practice on each.',
+      areas: [
+        {
+          title: 'Numerical and Mathematical Ability', subjects: ['mathematical-ability', 'mock-test-session-i'],
+          summary: 'Arithmetic and basic geometry, half of Session I.',
+          topics: ['Number system, HCF and LCM, fractions and decimals', 'Percentage, ratio and proportion, averages', 'Profit and loss, discount, simple and compound interest', 'Time and work, time and distance', 'Mensuration: area and volume of basic shapes', 'Simplification and square roots'],
+        },
+        {
+          title: 'Reasoning Ability and Problem Solving', subjects: ['reasoning-ability', 'mock-test-session-i'],
+          summary: 'Verbal and non-verbal reasoning, the other half of Session I.',
+          topics: ['Analogy, classification and odd one out', 'Number and letter series', 'Coding and decoding', 'Blood relations and directions', 'Dictionary order and word arrangement', 'Venn diagrams, mirror and water images'],
+        },
+        {
+          title: 'General Awareness', subjects: ['general-awareness', 'mock-test-session-ii'],
+          summary: 'Static GK, science and current affairs; half of the merit marks.',
+          topics: ['Indian history, culture and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'Economy, budget and government schemes', 'Everyday science', 'Sports, awards, books and current affairs'],
+        },
+        {
+          title: 'English Language and Comprehension', subjects: ['english-language', 'mock-test-session-ii'],
+          summary: 'Grammar and vocabulary; the other half of the merit marks.',
+          topics: ['Spotting errors and subject–verb agreement', 'Fill in the blanks and sentence improvement', 'Synonyms, antonyms and spelling', 'Idioms, phrases and one-word substitution', 'Active and passive voice, direct and indirect speech', 'Reading comprehension'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the exact cut-off dates, relaxations and post-wise limits.',
+      items: [
+        { title: 'Qualification', detail: 'Matriculation (Class 10) or an equivalent from a recognised board.' },
+        { title: 'Age', detail: '18 to 25 for most MTS posts; 18 to 27 for Havaldar in CBIC and CBN and some MTS posts. SC, ST, OBC, PwBD and ex-servicemen candidates get the usual age relaxation.' },
+        { title: 'Nationality', detail: 'A citizen of India, or a subject of Nepal or Bhutan, among the other categories the notice lists.' },
+      ],
+    },
+    stages: {
+      intro: 'MTS posts are filled on the computer-based exam alone. Havaldar candidates have a physical stage as well.',
+      items: [
+        { title: 'Computer Based Examination', detail: 'The two-session exam above, offered in English, Hindi and 13 regional languages.' },
+        { title: 'PET and PST (Havaldar only)', detail: 'Qualifying physical tests: men walk 1,600 metres in 15 minutes and women 1 km in 20 minutes, followed by height, chest and weight checks.' },
+        { title: 'Document verification', detail: 'Original certificates are checked before a post and region are allotted.' },
+      ],
+    },
+    merit: [
+      { title: 'Clear Session I', detail: 'You must reach the minimum qualifying marks in Session I (30% for unreserved, 25% for OBC and EWS, 20% for others) for Session II to be evaluated.' },
+      { title: 'Session II decides rank', detail: 'The merit list is drawn up on the normalised Session II score, out of 150.' },
+      { title: 'Separate lists', detail: 'MTS and Havaldar have separate merit lists, and MTS vacancies are filled state- and UT-wise.' },
+      { title: 'Havaldar fitness', detail: 'Havaldar candidates must also clear the PET and PST; the physical tests carry no marks.' },
+    ],
+    tips: [
+      { title: 'Treat Session I as a gate', detail: 'It only has to be qualified, and there is no negative marking, so attempt every question and move on quickly from the hard ones.' },
+      { title: 'Put your effort into Session II', detail: 'General Awareness and English decide your rank. Revise static GK and current affairs every day, and review each grammar explanation after a test.' },
+      { title: 'Answer Session II with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Practise the full session under the clock', detail: 'Take the Session I and Session II mock tests in one sitting with the 45-minute timer to learn your pace.' },
+      { title: 'Learn the reasoning patterns', detail: 'Coding, series, dictionary order, Venn diagrams and mirror images repeat in every paper and are quick marks once you know the method.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in SSC MTS?', answer: 'Only in Session II, where 1 mark is deducted for each wrong answer (each question carries 3). Session I has none. ExamForge sets do not deduct marks, so score Session II mock tests by hand for the exact result.' },
+      { question: 'Do Session I marks count in the final merit?', answer: 'No. Session I is qualifying. Session II is evaluated only if you clear Session I, and the merit list is drawn up on Session II marks alone.' },
+      { question: 'How are the ExamForge mock tests structured?', answer: 'There are 10 Session I mock tests and 9 Session II mock tests, each with a 45-minute timer like the real session. Session II tests have 48 to 50 questions; Session I tests have 33 to 39 questions, against the paper’s 40. Sectional sets have 20 questions for Mathematics and Reasoning and 25 for General Awareness and English, at one minute per question.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
   'bihar-police-constable': {
     heading: 'About the Bihar Police Constable exam',
     intro: [

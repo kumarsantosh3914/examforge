@@ -1,0 +1,995 @@
+{
+  "subject": "Mock Test (Session I)",
+  "set": 7,
+  "title": "Session I Mock Test 7",
+  "questions": [
+    {
+      "id": "mock-test-session-i-07-001",
+      "number": 1,
+      "question": "The LCM of two numbers is 120 and their HCF is 10. If one of the numbers is 30, what is the other number?",
+      "options": {
+        "A": "40",
+        "B": "50",
+        "C": "60",
+        "D": "70"
+      },
+      "answer": "A",
+      "explanation": "LCM * HCF = Product of two numbers. 120 * 10 = 30 * x => 1200 = 30x => x = 40.",
+      "hash": "0f06f2f074ac3cd1",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का LCM 120 है और उनका HCF 10 है। यदि उनमें से एक संख्या 30 है, तो दूसरी संख्या क्या है?",
+          "options": {
+            "A": "40",
+            "B": "50",
+            "C": "60",
+            "D": "70"
+          },
+          "explanation": "LCM * HCF = दो संख्याओं का गुणनफल। 120 * 10 = 30 * x => 1200 = 30x => x = 40."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-002",
+      "number": 2,
+      "question": "If the area of a circle is 154 sq cm, find its circumference. (Use pi = 22/7)",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "66 cm",
+        "D": "88 cm"
+      },
+      "answer": "B",
+      "explanation": "Area = pi * r^2 = 154 => r^2 = 49 => r = 7. Circumference = 2 * pi * r = 2 * 22/7 * 7 = 44.",
+      "hash": "4dbea618b780ac06",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का क्षेत्रफल 154 वर्ग सेमी है, तो उसकी परिधि ज्ञात कीजिए। (pi = 22/7 का प्रयोग करें)",
+          "options": {
+            "A": "22 सेमी",
+            "B": "44 सेमी",
+            "C": "66 सेमी",
+            "D": "88 सेमी"
+          },
+          "explanation": "क्षेत्रफल = pi * r^2 = 154 => r^2 = 49 => r = 7. परिधि = 2 * pi * r = 2 * 22/7 * 7 = 44."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-003",
+      "number": 3,
+      "question": "A shopkeeper allows a 20% discount on the marked price of 1500 and still makes a 20% profit. Find the cost price.",
+      "options": {
+        "A": "1000",
+        "B": "1200",
+        "C": "800",
+        "D": "900"
+      },
+      "answer": "A",
+      "explanation": "SP = 1500 * 0.8 = 1200. Profit = 20%, so CP = 1200 / 1.2 = 1000.",
+      "hash": "851d5999c5bde2b3",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार 1500 के अंकित मूल्य पर 20% की छूट देता है और फिर भी 20% का लाभ कमाता है। क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "1000",
+            "B": "1200",
+            "C": "800",
+            "D": "900"
+          },
+          "explanation": "SP = 1500 * 0.8 = 1200. लाभ = 20%, इसलिए CP = 1200 / 1.2 = 1000."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-004",
+      "number": 4,
+      "question": "The average of 5 results is 46 and that of the first 4 is 45. Find the fifth result.",
+      "options": {
+        "A": "48",
+        "B": "50",
+        "C": "52",
+        "D": "60"
+      },
+      "answer": "B",
+      "explanation": "Total of 5 = 5 * 46 = 230. Total of 4 = 4 * 45 = 180. Fifth result = 230 - 180 = 50.",
+      "hash": "a7309c2aa5ff1560",
+      "translations": {
+        "hi": {
+          "question": "5 परिणामों का औसत 46 है और पहले 4 का औसत 45 है। पांचवां परिणाम ज्ञात कीजिए।",
+          "options": {
+            "A": "48",
+            "B": "50",
+            "C": "52",
+            "D": "60"
+          },
+          "explanation": "5 का कुल योग = 5 * 46 = 230. 4 का कुल योग = 4 * 45 = 180. पांचवां परिणाम = 230 - 180 = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-005",
+      "number": 5,
+      "question": "The ratio of the length and breadth of a rectangle is 3 : 2. If its area is 150 sq cm, find its perimeter.",
+      "options": {
+        "A": "30 cm",
+        "B": "40 cm",
+        "C": "50 cm",
+        "D": "60 cm"
+      },
+      "answer": "C",
+      "explanation": "3x * 2x = 150 => 6x^2 = 150 => x^2 = 25 => x = 5. L=15, B=10. Perimeter = 2(15+10) = 50.",
+      "hash": "10a6e99e032213af",
+      "translations": {
+        "hi": {
+          "question": "एक आयत की लंबाई और चौड़ाई का अनुपात 3 : 2 है। यदि इसका क्षेत्रफल 150 वर्ग सेमी है, तो इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "30 सेमी",
+            "B": "40 सेमी",
+            "C": "50 सेमी",
+            "D": "60 सेमी"
+          },
+          "explanation": "3x * 2x = 150 => 6x^2 = 150 => x^2 = 25 => x = 5. L=15, B=10. परिमाप = 2(15+10) = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-006",
+      "number": 6,
+      "question": "If x : y = 5 : 2, find the value of (8x + 9y) : (8x + 2y).",
+      "options": {
+        "A": "22:29",
+        "B": "26:61",
+        "C": "29:22",
+        "D": "61:26"
+      },
+      "answer": "C",
+      "explanation": "Substitute x=5, y=2: (40+18) : (40+4) = 58 : 44 = 29 : 22.",
+      "hash": "f3d5b9e8be7f8c68",
+      "translations": {
+        "hi": {
+          "question": "यदि x : y = 5 : 2 है, तो (8x + 9y) : (8x + 2y) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "22:29",
+            "B": "26:61",
+            "C": "29:22",
+            "D": "61:26"
+          },
+          "explanation": "x=5, y=2 रखने पर: (40+18) : (40+4) = 58 : 44 = 29 : 22."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-007",
+      "number": 7,
+      "question": "A sum of 4000 amounts to 5000 in 5 years at simple interest. Find the rate of interest per annum.",
+      "options": {
+        "A": "4%",
+        "B": "5%",
+        "C": "6%",
+        "D": "8%"
+      },
+      "answer": "B",
+      "explanation": "Interest = 1000. R = (1000 * 100) / (4000 * 5) = 5%.",
+      "hash": "d6b4ebad2102ed7a",
+      "translations": {
+        "hi": {
+          "question": "4000 की राशि साधारण ब्याज पर 5 वर्षों में 5000 हो जाती है। वार्षिक ब्याज दर ज्ञात कीजिए।",
+          "options": {
+            "A": "4%",
+            "B": "5%",
+            "C": "6%",
+            "D": "8%"
+          },
+          "explanation": "ब्याज = 1000. दर = (1000 * 100) / (4000 * 5) = 5%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-008",
+      "number": 8,
+      "question": "A car travels 90 km in 1.5 hours. What is its speed in m/s?",
+      "options": {
+        "A": "15.66",
+        "B": "16.66",
+        "C": "17.66",
+        "D": "18.66"
+      },
+      "answer": "B",
+      "explanation": "Speed = 90 / 1.5 = 60 km/h. 60 * 5/18 = 16.66 m/s.",
+      "hash": "4664f4132b822230",
+      "translations": {
+        "hi": {
+          "question": "एक कार 1.5 घंटे में 90 किमी की यात्रा करती है। इसकी गति मीटर/सेकंड में क्या है?",
+          "options": {
+            "A": "15.66",
+            "B": "16.66",
+            "C": "17.66",
+            "D": "18.66"
+          },
+          "explanation": "गति = 90 / 1.5 = 60 किमी/घंटा। 60 * 5/18 = 16.66 मीटर/सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-009",
+      "number": 9,
+      "question": "A can complete a work in 10 days and B can do it in 12 days. In how many days can they complete it together?",
+      "options": {
+        "A": "5(5/11) days",
+        "B": "6(5/11) days",
+        "C": "4(5/11) days",
+        "D": "7(5/11) days"
+      },
+      "answer": "A",
+      "explanation": "Together = (10 * 12) / (10 + 12) = 120 / 22 = 60 / 11 = 5(5/11) days.",
+      "hash": "f2a3e92b676208ee",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य को 10 दिनों में पूरा कर सकता है और B उसे 12 दिनों में कर सकता है। वे दोनों मिलकर उसे कितने दिनों में पूरा कर सकते हैं?",
+          "options": {
+            "A": "5(5/11) दिन",
+            "B": "6(5/11) दिन",
+            "C": "4(5/11) दिन",
+            "D": "7(5/11) दिन"
+          },
+          "explanation": "एक साथ = (10 * 12) / (10 + 12) = 120 / 22 = 60 / 11 = 5(5/11) दिन।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-010",
+      "number": 10,
+      "question": "Find the cube root of 0.000729.",
+      "options": {
+        "A": "0.9",
+        "B": "0.09",
+        "C": "0.009",
+        "D": "0.27"
+      },
+      "answer": "B",
+      "explanation": "Cube root of 729 is 9. For 6 decimal places, the result has 2 decimal places: 0.09.",
+      "hash": "d894432cdbfadf9e",
+      "translations": {
+        "hi": {
+          "question": "0.000729 का घनमूल ज्ञात कीजिए।",
+          "options": {
+            "A": "0.9",
+            "B": "0.09",
+            "C": "0.009",
+            "D": "0.27"
+          },
+          "explanation": "729 का घनमूल 9 है। 6 दशमलव स्थानों के लिए, परिणाम में 2 दशमलव स्थान होंगे: 0.09."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-011",
+      "number": 11,
+      "question": "If 35% of a number is 175, what is 175% of that number?",
+      "options": {
+        "A": "750",
+        "B": "875",
+        "C": "625",
+        "D": "500"
+      },
+      "answer": "B",
+      "explanation": "35% = 175 => 1% = 5. 175% = 175 * 5 = 875.",
+      "hash": "c1ac9feec1abd85c",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 35% 175 है, तो उस संख्या का 175% क्या है?",
+          "options": {
+            "A": "750",
+            "B": "875",
+            "C": "625",
+            "D": "500"
+          },
+          "explanation": "35% = 175 => 1% = 5. 175% = 175 * 5 = 875."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-012",
+      "number": 12,
+      "question": "A train 150 m long is running at 54 km/h. How much time will it take to cross a platform 250 m long?",
+      "options": {
+        "A": "20.66 sec",
+        "B": "26.66 sec",
+        "C": "30 sec",
+        "D": "40 sec"
+      },
+      "answer": "B",
+      "explanation": "Speed = 15 m/s. Distance = 150 + 250 = 400. Time = 400 / 15 = 26.66.",
+      "hash": "bfc91146d44a0f8d",
+      "translations": {
+        "hi": {
+          "question": "150 मीटर लंबी एक ट्रेन 54 किमी/घंटा की गति से चल रही है। 250 मीटर लंबे प्लेटफॉर्म को पार करने में इसे कितना समय लगेगा?",
+          "options": {
+            "A": "20.66 सेकंड",
+            "B": "26.66 सेकंड",
+            "C": "30 सेकंड",
+            "D": "40 सेकंड"
+          },
+          "explanation": "गति = 15 मीटर/सेकंड। दूरी = 150 + 250 = 400. समय = 400 / 15 = 26.66."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-013",
+      "number": 13,
+      "question": "Find the value of (25^2 - 15^2) / 10.",
+      "options": {
+        "A": "40",
+        "B": "10",
+        "C": "20",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "(25-15)(25+15) / 10 = (10 * 40) / 10 = 40.",
+      "hash": "3ca41e4a2770c888",
+      "translations": {
+        "hi": {
+          "question": "(25^2 - 15^2) / 10 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "40",
+            "B": "10",
+            "C": "20",
+            "D": "30"
+          },
+          "explanation": "(25-15)(25+15) / 10 = (10 * 40) / 10 = 40."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-014",
+      "number": 14,
+      "question": "A shopkeeper marks his goods 40% above the CP and gives a discount of 20%. Find his profit %.",
+      "options": {
+        "A": "10%",
+        "B": "12%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "answer": "B",
+      "explanation": "Let CP=100. MP=140. SP = 140 * 0.8 = 112. Profit = 12%.",
+      "hash": "fa8504e84e60f851",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपने माल पर क्रय मूल्य से 40% अधिक अंकित करता है और 20% की छूट देता है। उसका लाभ % ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "12%",
+            "C": "15%",
+            "D": "20%"
+          },
+          "explanation": "माना CP=100. MP=140. SP = 140 * 0.8 = 112. लाभ = 12%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-015",
+      "number": 15,
+      "question": "Simplify: (0.2 * 0.2 * 0.2) + (0.3 * 0.3 * 0.3)",
+      "options": {
+        "A": "0.035",
+        "B": "0.35",
+        "C": "0.0035",
+        "D": "0.05"
+      },
+      "answer": "A",
+      "explanation": "0.008 + 0.027 = 0.035.",
+      "hash": "0c6e850448803934",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: (0.2 * 0.2 * 0.2) + (0.3 * 0.3 * 0.3)",
+          "options": {
+            "A": "0.035",
+            "B": "0.35",
+            "C": "0.0035",
+            "D": "0.05"
+          },
+          "explanation": "0.008 + 0.027 = 0.035."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-016",
+      "number": 16,
+      "question": "If the diagonal of a square is 10*sqrt(2) cm, find its area.",
+      "options": {
+        "A": "50 sq cm",
+        "B": "100 sq cm",
+        "C": "200 sq cm",
+        "D": "150 sq cm"
+      },
+      "answer": "B",
+      "explanation": "Diagonal = side * sqrt(2) => side = 10. Area = 10^2 = 100.",
+      "hash": "eea982521df68d0c",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वर्ग का विकर्ण 10*sqrt(2) सेमी है, तो इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "50 वर्ग सेमी",
+            "B": "100 वर्ग सेमी",
+            "C": "200 वर्ग सेमी",
+            "D": "150 वर्ग सेमी"
+          },
+          "explanation": "विकर्ण = भुजा * sqrt(2) => भुजा = 10. क्षेत्रफल = 10^2 = 100."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-017",
+      "number": 17,
+      "question": "Solve: 25% of 480 + 30% of 500.",
+      "options": {
+        "A": "250",
+        "B": "270",
+        "C": "290",
+        "D": "300"
+      },
+      "answer": "B",
+      "explanation": "120 + 150 = 270.",
+      "hash": "d8b0ca97911e8064",
+      "translations": {
+        "hi": {
+          "question": "हल करें: 480 का 25% + 500 का 30%।",
+          "options": {
+            "A": "250",
+            "B": "270",
+            "C": "290",
+            "D": "300"
+          },
+          "explanation": "120 + 150 = 270."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-018",
+      "number": 18,
+      "question": "Find the HCF of 108, 288 and 360.",
+      "options": {
+        "A": "18",
+        "B": "36",
+        "C": "54",
+        "D": "72"
+      },
+      "answer": "B",
+      "explanation": "36 divides all three and is the highest such number.",
+      "hash": "897e08a3484dce6a",
+      "translations": {
+        "hi": {
+          "question": "108, 288 और 360 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+          "options": {
+            "A": "18",
+            "B": "36",
+            "C": "54",
+            "D": "72"
+          },
+          "explanation": "36 तीनों को विभाजित करता है और ऐसी सबसे बड़ी संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-019",
+      "number": 19,
+      "question": "The difference between CI and SI on 8000 for 2 years at 10% per annum is:",
+      "options": {
+        "A": "40",
+        "B": "80",
+        "C": "120",
+        "D": "160"
+      },
+      "answer": "B",
+      "explanation": "Diff = P(r/100)^2 = 8000 * (10/100)^2 = 8000 * 0.01 = 80.",
+      "hash": "4d2ec2452d60a4b2",
+      "translations": {
+        "hi": {
+          "question": "8000 पर 2 वर्ष के लिए 10% वार्षिक दर से चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर है:",
+          "options": {
+            "A": "40",
+            "B": "80",
+            "C": "120",
+            "D": "160"
+          },
+          "explanation": "अंतर = P(r/100)^2 = 8000 * (10/100)^2 = 8000 * 0.01 = 80."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-020",
+      "number": 20,
+      "question": "Complete the series: 7, 10, 16, 28, 52, ?",
+      "options": {
+        "A": "88",
+        "B": "96",
+        "C": "100",
+        "D": "104"
+      },
+      "answer": "C",
+      "explanation": "Differences: 3, 6, 12, 24. Next is 48. 52 + 48 = 100.",
+      "hash": "303e12228712430f",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 7, 10, 16, 28, 52, ?",
+          "options": {
+            "A": "88",
+            "B": "96",
+            "C": "100",
+            "D": "104"
+          },
+          "explanation": "अंतर: 3, 6, 12, 24. अगला 48 है। 52 + 48 = 100."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-021",
+      "number": 21,
+      "question": "The sum of two numbers is 40 and their product is 375. Find the difference of the numbers.",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "answer": "B",
+      "explanation": "(x-y)^2 = (x+y)^2 - 4xy = 1600 - 1500 = 100. x-y = 10.",
+      "hash": "88d92daf00234ec6",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का योग 40 है और उनका गुणनफल 375 है। संख्याओं का अंतर ज्ञात कीजिए।",
+          "options": {
+            "A": "5",
+            "B": "10",
+            "C": "15",
+            "D": "20"
+          },
+          "explanation": "(x-y)^2 = (x+y)^2 - 4xy = 1600 - 1500 = 100. x-y = 10."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-022",
+      "number": 22,
+      "question": "If 'GOAL' is coded as 'HPBM', how is 'POST' coded?",
+      "options": {
+        "A": "QPTV",
+        "B": "QPST",
+        "C": "QPTU",
+        "D": "QOTU"
+      },
+      "answer": "C",
+      "explanation": "Each letter shifted by +1. P+1=Q, O+1=P, S+1=T, T+1=U.",
+      "hash": "3c6d5429c2ba4117",
+      "translations": {
+        "hi": {
+          "question": "यदि 'GOAL' को 'HPBM' के रूप में कोडित किया गया है, तो 'POST' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "QPTV",
+            "B": "QPST",
+            "C": "QPTU",
+            "D": "QOTU"
+          },
+          "explanation": "प्रत्येक अक्षर को +1 से स्थानांतरित किया गया है। P+1=Q, O+1=P, S+1=T, T+1=U."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-023",
+      "number": 23,
+      "question": "Choose the odd one: 343, 512, 729, 1000, 1225.",
+      "options": {
+        "A": "343",
+        "B": "729",
+        "C": "1000",
+        "D": "1225"
+      },
+      "answer": "D",
+      "explanation": "343, 512, 729, 1000 are cubes (7, 8, 9, 10). 1225 is a square (35^2).",
+      "hash": "364e967a6506b7f6",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 343, 512, 729, 1000, 1225.",
+          "options": {
+            "A": "343",
+            "B": "729",
+            "C": "1000",
+            "D": "1225"
+          },
+          "explanation": "343, 512, 729, 1000 घन हैं (7, 8, 9, 10)। 1225 एक वर्ग है (35^2)।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-024",
+      "number": 24,
+      "question": "Select the related word: Heart : Blood :: Lung : ?",
+      "options": {
+        "A": "Air",
+        "B": "Oxygen",
+        "C": "Chest",
+        "D": "Ribs"
+      },
+      "answer": "B",
+      "explanation": "Heart pumps blood; Lungs process oxygen.",
+      "hash": "2bdc7614b90882b8",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: हृदय : रक्त :: फेफड़ा : ?",
+          "options": {
+            "A": "हवा",
+            "B": "ऑक्सीजन",
+            "C": "छाती",
+            "D": "पसलियां"
+          },
+          "explanation": "हृदय रक्त पंप करता है; फेफड़े ऑक्सीजन की प्रक्रिया करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-025",
+      "number": 25,
+      "question": "Pointing to a photograph, a woman says, \"He is the son of the only son of my grandfather.\" How is the man related to the woman?",
+      "options": {
+        "A": "Father",
+        "B": "Brother",
+        "C": "Cousin",
+        "D": "Uncle"
+      },
+      "answer": "B",
+      "explanation": "Only son of grandfather is the woman's father. His son is her brother.",
+      "hash": "5b0895324c32dc8c",
+      "translations": {
+        "hi": {
+          "question": "एक तस्वीर की ओर इशारा करते हुए, एक महिला कहती है, \"वह मेरे दादा के इकलौते बेटे का बेटा है।\" पुरुष का महिला से क्या संबंध है?",
+          "options": {
+            "A": "पिता",
+            "B": "भाई",
+            "C": "चचेरा भाई",
+            "D": "चाचा"
+          },
+          "explanation": "दादा का इकलौता बेटा महिला का पिता है। उसका बेटा महिला का भाई है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-026",
+      "number": 26,
+      "question": "Find the missing number: 3, 12, 48, 192, ?",
+      "options": {
+        "A": "384",
+        "B": "576",
+        "C": "768",
+        "D": "960"
+      },
+      "answer": "C",
+      "explanation": "Multiply by 4. 192 * 4 = 768.",
+      "hash": "73df4f8e9d18d24e",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 3, 12, 48, 192, ?",
+          "options": {
+            "A": "384",
+            "B": "576",
+            "C": "768",
+            "D": "960"
+          },
+          "explanation": "4 से गुणा करें। 192 * 4 = 768."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-027",
+      "number": 27,
+      "question": "Arrange in dictionary order: 1. Manage, 2. Manual, 3. Manner, 4. Mantle.",
+      "options": {
+        "A": "1, 3, 2, 4",
+        "B": "1, 3, 4, 2",
+        "C": "1, 2, 3, 4",
+        "D": "3, 1, 2, 4"
+      },
+      "answer": "B",
+      "explanation": "Manage, Manner, Mantle, Manual.",
+      "hash": "d9e672dcb97fe757",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Manage, 2. Manual, 3. Manner, 4. Mantle.",
+          "options": {
+            "A": "1, 3, 2, 4",
+            "B": "1, 3, 4, 2",
+            "C": "1, 2, 3, 4",
+            "D": "3, 1, 2, 4"
+          },
+          "explanation": "Manage, Manner, Mantle, Manual."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-028",
+      "number": 28,
+      "question": "If you walk 5 m West, turn left and walk 12 m. How far are you from starting point?",
+      "options": {
+        "A": "13 m",
+        "B": "15 m",
+        "C": "17 m",
+        "D": "7 m"
+      },
+      "answer": "A",
+      "explanation": "Pythagoras: sqrt(5^2 + 12^2) = 13.",
+      "hash": "a8ba560efa0fc87d",
+      "translations": {
+        "hi": {
+          "question": "यदि आप 5 मीटर पश्चिम की ओर चलते हैं, बाएं मुड़ते हैं और 12 मीटर चलते हैं। आप शुरुआती बिंदु से कितनी दूर हैं?",
+          "options": {
+            "A": "13 मीटर",
+            "B": "15 मीटर",
+            "C": "17 मीटर",
+            "D": "7 मीटर"
+          },
+          "explanation": "पाइथागोरस: sqrt(5^2 + 12^2) = 13."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-029",
+      "number": 29,
+      "question": "If A=1, ACE=9, then ART=?",
+      "options": {
+        "A": "38",
+        "B": "39",
+        "C": "40",
+        "D": "41"
+      },
+      "answer": "B",
+      "explanation": "Sum of letters: 1+18+20 = 39.",
+      "hash": "5544417972d31bd8",
+      "translations": {
+        "hi": {
+          "question": "यदि A=1, ACE=9 है, तो ART=?",
+          "options": {
+            "A": "38",
+            "B": "39",
+            "C": "40",
+            "D": "41"
+          },
+          "explanation": "अक्षरों का योग: 1+18+20 = 39."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-030",
+      "number": 30,
+      "question": "Select related number: 8 : 28 :: 27 : ?",
+      "options": {
+        "A": "65",
+        "B": "82",
+        "C": "64",
+        "D": "81"
+      },
+      "answer": "A",
+      "explanation": "2^3 : (3^3 + 1) :: 3^3 : (4^3 + 1) = 65.",
+      "hash": "b8bd0dbb665d15e5",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 8 : 28 :: 27 : ?",
+          "options": {
+            "A": "65",
+            "B": "82",
+            "C": "64",
+            "D": "81"
+          },
+          "explanation": "2^3 : (3^3 + 1) :: 3^3 : (4^3 + 1) = 65."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-031",
+      "number": 31,
+      "question": "Statements: Some keys are locks. Some locks are doors. Conclusion: Some keys are doors.",
+      "options": {
+        "A": "Follows",
+        "B": "Does not follow",
+        "C": "Maybe",
+        "D": "Insufficient data"
+      },
+      "answer": "B",
+      "explanation": "There is no direct link between keys and doors.",
+      "hash": "1a782bc2110c04fa",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ चाबियां ताले हैं। कुछ ताले दरवाजे हैं। निष्कर्ष: कुछ चाबियां दरवाजे हैं।",
+          "options": {
+            "A": "अनुसरण करता है",
+            "B": "अनुसरण नहीं करता",
+            "C": "शायद",
+            "D": "अपर्याप्त डेटा"
+          },
+          "explanation": "चाबियों और दरवाजों के बीच कोई सीधा संबंध नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-032",
+      "number": 32,
+      "question": "A cube has sides of 3 cm. It is painted red and cut into 1 cm cubes. How many have zero faces painted?",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "8",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "(n-2)^3 = (3-2)^3 = 1.",
+      "hash": "6e32f7526d8e90d6",
+      "translations": {
+        "hi": {
+          "question": "एक घन की भुजाएं 3 सेमी हैं। इसे लाल रंग से रंगा गया है और 1 सेमी के घनों में काटा गया है। कितनों के शून्य फलक रंगे हुए हैं?",
+          "options": {
+            "A": "1",
+            "B": "4",
+            "C": "8",
+            "D": "0"
+          },
+          "explanation": "(n-2)^3 = (3-2)^3 = 1."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-033",
+      "number": 33,
+      "question": "Find the missing term: ABC, EFG, IJK, ?",
+      "options": {
+        "A": "LMN",
+        "B": "MNO",
+        "C": "NOP",
+        "D": "OPQ"
+      },
+      "answer": "B",
+      "explanation": "First letters: A(1), E(5), I(9), M(13).",
+      "hash": "e0f5842a7836a72b",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात कीजिए: ABC, EFG, IJK, ?",
+          "options": {
+            "A": "LMN",
+            "B": "MNO",
+            "C": "NOP",
+            "D": "OPQ"
+          },
+          "explanation": "पहले अक्षर: A(1), E(5), I(9), M(13)."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-034",
+      "number": 34,
+      "question": "If '+' is '*', '-' is '+', '*' is '/' and '/' is '-', what is 20 / 10 - 5 * 1?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "20 - 10 + 5 / 1 = 20 - 10 + 5 = 15.",
+      "hash": "80262e84d68bf143",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '*', '-' का अर्थ '+', '*' का अर्थ '/' और '/' का अर्थ '-' है, तो 20 / 10 - 5 * 1 क्या है?",
+          "options": {
+            "A": "10",
+            "B": "15",
+            "C": "20",
+            "D": "25"
+          },
+          "explanation": "20 - 10 + 5 / 1 = 20 - 10 + 5 = 15."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-035",
+      "number": 35,
+      "question": "Suman is 7th from left and 15th from right. Find total.",
+      "options": {
+        "A": "21",
+        "B": "22",
+        "C": "23",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "Total = 7 + 15 - 1 = 21.",
+      "hash": "31f15902494c90af",
+      "translations": {
+        "hi": {
+          "question": "सुमन बाईं ओर से 7वें और दाईं ओर से 15वें स्थान पर है। कुल ज्ञात कीजिए।",
+          "options": {
+            "A": "21",
+            "B": "22",
+            "C": "23",
+            "D": "24"
+          },
+          "explanation": "कुल = 7 + 15 - 1 = 21."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-037",
+      "number": 37,
+      "question": "Which Venn diagram represents: Musicians, Guitarists, Violinists?",
+      "options": {
+        "A": "Two separate circles inside a big one",
+        "B": "Three separate circles",
+        "C": "Three concentric circles",
+        "D": "Two intersecting circles inside a big one"
+      },
+      "answer": "D",
+      "explanation": "Some guitarists can also be violinists, and both are musicians.",
+      "hash": "efec97827eea38f6",
+      "translations": {
+        "hi": {
+          "question": "कौन सा वेन आरेख प्रतिनिधित्व करता है: संगीतकार, गिटारवादक, वायलिन वादक?",
+          "options": {
+            "A": "एक बड़े घेरे के अंदर दो अलग घेरे",
+            "B": "तीन अलग-अलग घेरे",
+            "C": "तीन संकेंद्रित घेरे",
+            "D": "एक बड़े घेरे के अंदर दो प्रतिच्छेदी घेरे"
+          },
+          "explanation": "कुछ गिटारवादक वायलिन वादक भी हो सकते हैं, और दोनों ही संगीतकार हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-038",
+      "number": 38,
+      "question": "If 15th Aug 2025 is Friday, what is 15th Aug 2026?",
+      "options": {
+        "A": "Saturday",
+        "B": "Sunday",
+        "C": "Monday",
+        "D": "Tuesday"
+      },
+      "answer": "A",
+      "explanation": "2025 to 2026 is 1 day forward (non-leap). Friday + 1 = Saturday.",
+      "hash": "4786b14fb4c1979b",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 अगस्त 2025 को शुक्रवार है, तो 15 अगस्त 2026 को क्या है?",
+          "options": {
+            "A": "शनिवार",
+            "B": "रविवार",
+            "C": "सोमवार",
+            "D": "मंगलवार"
+          },
+          "explanation": "2025 से 2026 तक 1 दिन आगे (गैर-लीप)। शुक्रवार + 1 = शनिवार।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-07-040",
+      "number": 40,
+      "question": "Select odd pair: (Farmer, Plow), (Carpenter, Saw), (Tailor, Needle), (Doctor, Patient)",
+      "options": {
+        "A": "(Farmer, Plow)",
+        "B": "(Carpenter, Saw)",
+        "C": "(Tailor, Needle)",
+        "D": "(Doctor, Patient)"
+      },
+      "answer": "D",
+      "explanation": "First three are professional and tool. Fourth is professional and object of work.",
+      "hash": "dbbbb005f9642b78",
+      "translations": {
+        "hi": {
+          "question": "विषम जोड़ी चुनें: (किसान, हल), (बढ़ई, आरी), (दरजी, सुई), (डॉक्टर, मरीज)",
+          "options": {
+            "A": "(किसान, हल)",
+            "B": "(बढ़ई, आरी)",
+            "C": "(दरजी, सुई)",
+            "D": "(डॉक्टर, मरीज)"
+          },
+          "explanation": "पहले तीन पेशेवर और उपकरण हैं। चौथा पेशेवर और काम का विषय है।"
+        }
+      }
+    }
+  ]
+}

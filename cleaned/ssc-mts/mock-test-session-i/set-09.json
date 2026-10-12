@@ -1,0 +1,943 @@
+{
+  "subject": "Mock Test (Session I)",
+  "set": 9,
+  "title": "Session I Mock Test 9",
+  "questions": [
+    {
+      "id": "mock-test-session-i-09-001",
+      "number": 1,
+      "question": "The ratio of two numbers is 5 : 4. If 40% of the first number is 12, then what is 50% of the second number?",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "40% of 5x = 12 => 2x = 12 => x = 6. Second number = 4x = 24. 50% of 24 = 12.",
+      "hash": "471cefd45cd55f48",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 5 : 4 है। यदि पहली संख्या का 40%, 12 है, तो दूसरी संख्या का 50% क्या है?",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "18",
+            "D": "24"
+          },
+          "explanation": "5x का 40% = 12 => 2x = 12 => x = 6. दूसरी संख्या = 4x = 24. 24 का 50% = 12."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-002",
+      "number": 2,
+      "question": "A sum of 8000 is invested at 10% per annum compound interest, compounded half-yearly. What is the amount after 1 year?",
+      "options": {
+        "A": "8800",
+        "B": "8820",
+        "C": "9000",
+        "D": "9261"
+      },
+      "answer": "B",
+      "explanation": "Rate = 5% per half-year, Time = 2 half-years. Amount = 8000 * (1.05)^2 = 8820.",
+      "hash": "33583032c4af1f59",
+      "translations": {
+        "hi": {
+          "question": "8000 की राशि 10% वार्षिक चक्रवृद्धि ब्याज की दर से निवेश की जाती है, जो अर्धवार्षिक रूप से संयोजित होती है। 1 वर्ष बाद मिश्रधन क्या होगा?",
+          "options": {
+            "A": "8800",
+            "B": "8820",
+            "C": "9000",
+            "D": "9261"
+          },
+          "explanation": "दर = 5% प्रति छमाही, समय = 2 छमाही। मिश्रधन = 8000 * (1.05)^2 = 8820."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-003",
+      "number": 3,
+      "question": "If 15 men can build a wall in 20 days, how many men are needed to build it in 12 days?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "answer": "B",
+      "explanation": "M1D1 = M2D2. 15 * 20 = M2 * 12 => M2 = 300 / 12 = 25.",
+      "hash": "bcbf4744f0a0b124",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 पुरुष 20 दिनों में एक दीवार बना सकते हैं, तो 12 दिनों में इसे बनाने के लिए कितने पुरुषों की आवश्यकता होगी?",
+          "options": {
+            "A": "20",
+            "B": "25",
+            "C": "30",
+            "D": "35"
+          },
+          "explanation": "M1D1 = M2D2. 15 * 20 = M2 * 12 => M2 = 300 / 12 = 25."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-004",
+      "number": 4,
+      "question": "The average of 11 results is 50. If the average of the first six results is 49 and that of the last six is 52, find the sixth result.",
+      "options": {
+        "A": "54",
+        "B": "56",
+        "C": "58",
+        "D": "60"
+      },
+      "answer": "B",
+      "explanation": "Total = 11*50 = 550. Sum(1-6) = 294. Sum(6-11) = 312. Sixth result = (294 + 312) - 550 = 56.",
+      "hash": "fbcd3b14d178b254",
+      "translations": {
+        "hi": {
+          "question": "11 परिणामों का औसत 50 है। यदि पहले छह परिणामों का औसत 49 है और अंतिम छह का 52 है, तो छठा परिणाम ज्ञात कीजिए।",
+          "options": {
+            "A": "54",
+            "B": "56",
+            "C": "58",
+            "D": "60"
+          },
+          "explanation": "कुल = 11*50 = 550. योग(1-6) = 294. योग(6-11) = 312. छठा परिणाम = (294 + 312) - 550 = 56."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-005",
+      "number": 5,
+      "question": "A person sells two items for 990 each. On one he gains 10% and on the other he loses 10%. What is his overall gain or loss percentage?",
+      "options": {
+        "A": "1% gain",
+        "B": "1% loss",
+        "C": "2% loss",
+        "D": "No profit no loss"
+      },
+      "answer": "B",
+      "explanation": "In such cases, there is always a loss of (x/10)^2 %. (10/10)^2 = 1% loss.",
+      "hash": "f81774fc97c20a83",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति दो वस्तुओं को 990 प्रत्येक में बेचता है। एक पर उसे 10% का लाभ होता है और दूसरी पर 10% की हानि होती है। उसका कुल लाभ या हानि प्रतिशत क्या है?",
+          "options": {
+            "A": "1% लाभ",
+            "B": "1% हानि",
+            "C": "2% हानि",
+            "D": "न लाभ न हानि"
+          },
+          "explanation": "ऐसे मामलों में, हमेशा (x/10)^2 % की हानि होती है। (10/10)^2 = 1% हानि।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-007",
+      "number": 7,
+      "question": "Simplify: (3/4) of 160 + (1/2) of 80",
+      "options": {
+        "A": "140",
+        "B": "160",
+        "C": "180",
+        "D": "200"
+      },
+      "answer": "B",
+      "explanation": "120 + 40 = 160.",
+      "hash": "042d6b71996ae44b",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: 160 का (3/4) + 80 का (1/2)",
+          "options": {
+            "A": "140",
+            "B": "160",
+            "C": "180",
+            "D": "200"
+          },
+          "explanation": "120 + 40 = 160."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-008",
+      "number": 8,
+      "question": "A car travels at a speed of 45 km/h for 2 hours and then at 60 km/h for 3 hours. Find the average speed of the car.",
+      "options": {
+        "A": "50 km/h",
+        "B": "52 km/h",
+        "C": "54 km/h",
+        "D": "55 km/h"
+      },
+      "answer": "C",
+      "explanation": "Total Distance = (45*2) + (60*3) = 90 + 180 = 270 km. Total Time = 5 hours. Avg Speed = 270/5 = 54 km/h.",
+      "hash": "770f59a1f4bb50c8",
+      "translations": {
+        "hi": {
+          "question": "एक कार 2 घंटे के लिए 45 किमी/घंटा की गति से और फिर 3 घंटे के लिए 60 किमी/घंटा की गति से चलती है। कार की औसत गति ज्ञात कीजिए।",
+          "options": {
+            "A": "50 किमी/घंटा",
+            "B": "52 किमी/घंटा",
+            "C": "54 किमी/घंटा",
+            "D": "55 किमी/घंटा"
+          },
+          "explanation": "कुल दूरी = (45*2) + (60*3) = 90 + 180 = 270 किमी। कुल समय = 5 घंटे। औसत गति = 270/5 = 54 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-009",
+      "number": 9,
+      "question": "Find the volume of a cylinder whose radius is 7 cm and height is 10 cm. (Use pi = 22/7)",
+      "options": {
+        "A": "1540 cubic cm",
+        "B": "1440 cubic cm",
+        "C": "1640 cubic cm",
+        "D": "1740 cubic cm"
+      },
+      "answer": "A",
+      "explanation": "Volume = pi * r^2 * h = (22/7) * 49 * 10 = 1540 cubic cm.",
+      "hash": "150defe6f10149c7",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन का आयतन ज्ञात कीजिए जिसकी त्रिज्या 7 सेमी और ऊंचाई 10 सेमी है। (pi = 22/7 का प्रयोग करें)",
+          "options": {
+            "A": "1540 घन सेमी",
+            "B": "1440 घन सेमी",
+            "C": "1640 घन सेमी",
+            "D": "1740 घन सेमी"
+          },
+          "explanation": "आयतन = pi * r^2 * h = (22/7) * 49 * 10 = 1540 घन सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-010",
+      "number": 10,
+      "question": "The HCF and LCM of two numbers are 12 and 72 respectively. If one number is 24, find the other number.",
+      "options": {
+        "A": "36",
+        "B": "48",
+        "C": "60",
+        "D": "72"
+      },
+      "answer": "A",
+      "explanation": "Number1 * Number2 = HCF * LCM. 24 * x = 12 * 72 => x = 36.",
+      "hash": "15dac9edcf094bf0",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का HCF और LCM क्रमशः 12 और 72 है। यदि एक संख्या 24 है, तो दूसरी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "36",
+            "B": "48",
+            "C": "60",
+            "D": "72"
+          },
+          "explanation": "संख्या1 * संख्या2 = HCF * LCM. 24 * x = 12 * 72 => x = 36."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-011",
+      "number": 11,
+      "question": "Find the smallest number which when divided by 6, 9 and 12 leaves no remainder.",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "36",
+        "D": "54"
+      },
+      "answer": "C",
+      "explanation": "LCM of 6, 9, 12 is 36.",
+      "hash": "8df8d8232115cc48",
+      "translations": {
+        "hi": {
+          "question": "वह छोटी से छोटी संख्या ज्ञात कीजिए जिसे 6, 9 और 12 से विभाजित करने पर कोई शेषफल न बचे।",
+          "options": {
+            "A": "18",
+            "B": "24",
+            "C": "36",
+            "D": "54"
+          },
+          "explanation": "6, 9, 12 का LCM 36 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-012",
+      "number": 12,
+      "question": "A sum of money amounts to 5200 in 2 years and 5600 in 3 years at simple interest. Find the principal.",
+      "options": {
+        "A": "4000",
+        "B": "4400",
+        "C": "4800",
+        "D": "5000"
+      },
+      "answer": "B",
+      "explanation": "Interest for 1 year = 5600 - 5200 = 400. Interest for 2 years = 800. Principal = 5200 - 800 = 4400.",
+      "hash": "6aa7dea16578b024",
+      "translations": {
+        "hi": {
+          "question": "कोई धनराशि साधारण ब्याज पर 2 वर्ष में 5200 और 3 वर्ष में 5600 हो जाती है। मूलधन ज्ञात कीजिए।",
+          "options": {
+            "A": "4000",
+            "B": "4400",
+            "C": "4800",
+            "D": "5000"
+          },
+          "explanation": "1 वर्ष का ब्याज = 5600 - 5200 = 400. 2 वर्ष का ब्याज = 800. मूलधन = 5200 - 800 = 4400."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-013",
+      "number": 13,
+      "question": "Solve: sqrt(0.09) + sqrt(0.16)",
+      "options": {
+        "A": "0.5",
+        "B": "0.7",
+        "C": "0.9",
+        "D": "1.2"
+      },
+      "answer": "B",
+      "explanation": "0.3 + 0.4 = 0.7.",
+      "hash": "198d1c3daeb81704",
+      "translations": {
+        "hi": {
+          "question": "हल करें: sqrt(0.09) + sqrt(0.16)",
+          "options": {
+            "A": "0.5",
+            "B": "0.7",
+            "C": "0.9",
+            "D": "1.2"
+          },
+          "explanation": "0.3 + 0.4 = 0.7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-014",
+      "number": 14,
+      "question": "If the cost price of 10 pens is equal to the selling price of 8 pens, find the profit percentage.",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "15%",
+        "D": "30%"
+      },
+      "answer": "B",
+      "explanation": "Profit % = (Difference/SP Quantity) * 100 = (2/8) * 100 = 25%.",
+      "hash": "1d789be7819b5d30",
+      "translations": {
+        "hi": {
+          "question": "यदि 10 पेन का क्रय मूल्य 8 पेन के विक्रय मूल्य के बराबर है, तो लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "15%",
+            "D": "30%"
+          },
+          "explanation": "लाभ % = (अंतर/विक्रय मात्रा) * 100 = (2/8) * 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-015",
+      "number": 15,
+      "question": "A mixture of 40 litres contains milk and water in the ratio 3 : 1. How much water should be added to make the ratio 1 : 3?",
+      "options": {
+        "A": "40 litres",
+        "B": "60 litres",
+        "C": "80 litres",
+        "D": "100 litres"
+      },
+      "answer": "C",
+      "explanation": "Milk = 30, Water = 10. To make milk 1 part (30), water must be 3 parts (90). Added water = 90 - 10 = 80 litres.",
+      "hash": "7c63e6faddbacdc5",
+      "translations": {
+        "hi": {
+          "question": "40 लीटर के मिश्रण में दूध और पानी का अनुपात 3 : 1 है। अनुपात को 1 : 3 बनाने के लिए कितना पानी मिलाया जाना चाहिए?",
+          "options": {
+            "A": "40 लीटर",
+            "B": "60 लीटर",
+            "C": "80 लीटर",
+            "D": "100 लीटर"
+          },
+          "explanation": "दूध = 30, पानी = 10. दूध को 1 भाग (30) बनाने के लिए, पानी 3 भाग (90) होना चाहिए। जोड़ा गया पानी = 90 - 10 = 80 लीटर।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-016",
+      "number": 16,
+      "question": "Find the unit digit of 3^41 * 7^42 * 8^43.",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "3^1 * 7^2 * 8^3 => 3 * 9 * 2 => 27 * 2 => 4.",
+      "hash": "8488b56d47e36168",
+      "translations": {
+        "hi": {
+          "question": "3^41 * 7^42 * 8^43 का इकाई अंक ज्ञात कीजिए।",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "2"
+          },
+          "explanation": "3^1 * 7^2 * 8^3 => 3 * 9 * 2 => 27 * 2 => 4."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-017",
+      "number": 17,
+      "question": "The area of a square is 225 sq cm. Find its perimeter.",
+      "options": {
+        "A": "40 cm",
+        "B": "50 cm",
+        "C": "60 cm",
+        "D": "80 cm"
+      },
+      "answer": "C",
+      "explanation": "side = sqrt(225) = 15. Perimeter = 4 * 15 = 60 cm.",
+      "hash": "d73e73fad9684efe",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का क्षेत्रफल 225 वर्ग सेमी है। इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "40 सेमी",
+            "B": "50 सेमी",
+            "C": "60 सेमी",
+            "D": "80 सेमी"
+          },
+          "explanation": "भुजा = sqrt(225) = 15. परिमाप = 4 * 15 = 60 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-018",
+      "number": 18,
+      "question": "If a number is increased by 20% and then decreased by 20%, find the net change.",
+      "options": {
+        "A": "4% increase",
+        "B": "4% decrease",
+        "C": "No change",
+        "D": "2% decrease"
+      },
+      "answer": "B",
+      "explanation": "Net change = - (x^2 / 100) % = - (400 / 100) = 4% decrease.",
+      "hash": "c63131a738f838aa",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या में 20% की वृद्धि की जाती है और फिर 20% की कमी की जाती है, तो शुद्ध परिवर्तन ज्ञात कीजिए।",
+          "options": {
+            "A": "4% वृद्धि",
+            "B": "4% कमी",
+            "C": "कोई परिवर्तन नहीं",
+            "D": "2% कमी"
+          },
+          "explanation": "शुद्ध परिवर्तन = - (x^2 / 100) % = - (400 / 100) = 4% कमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-019",
+      "number": 19,
+      "question": "The length, breadth and height of a room are 5m, 4m and 3m respectively. Find the area of the four walls.",
+      "options": {
+        "A": "45 sq m",
+        "B": "54 sq m",
+        "C": "60 sq m",
+        "D": "72 sq m"
+      },
+      "answer": "B",
+      "explanation": "Area = 2h(l+b) = 2 * 3 * (5 + 4) = 6 * 9 = 54 sq m.",
+      "hash": "5246cdac3fad2a03",
+      "translations": {
+        "hi": {
+          "question": "एक कमरे की लंबाई, चौड़ाई और ऊंचाई क्रमशः 5 मीटर, 4 मीटर और 3 मीटर है। चारों दीवारों का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "45 वर्ग मीटर",
+            "B": "54 वर्ग मीटर",
+            "C": "60 वर्ग मीटर",
+            "D": "72 वर्ग मीटर"
+          },
+          "explanation": "क्षेत्रफल = 2h(l+b) = 2 * 3 * (5 + 4) = 6 * 9 = 54 वर्ग मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-020",
+      "number": 20,
+      "question": "Solve: (1/2) + (1/3) + (1/6)",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "5/6"
+      },
+      "answer": "A",
+      "explanation": "(3+2+1)/6 = 6/6 = 1.",
+      "hash": "d48c9752616116be",
+      "translations": {
+        "hi": {
+          "question": "हल करें: (1/2) + (1/3) + (1/6)",
+          "options": {
+            "A": "1",
+            "B": "1/2",
+            "C": "2/3",
+            "D": "5/6"
+          },
+          "explanation": "(3+2+1)/6 = 6/6 = 1."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-021",
+      "number": 21,
+      "question": "Complete the series: 4, 16, 36, 64, ?",
+      "options": {
+        "A": "81",
+        "B": "100",
+        "C": "121",
+        "D": "144"
+      },
+      "answer": "B",
+      "explanation": "Squares of even numbers: 2^2, 4^2, 6^2, 8^2, 10^2 = 100.",
+      "hash": "3e47169a8ba079ae",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 4, 16, 36, 64, ?",
+          "options": {
+            "A": "81",
+            "B": "100",
+            "C": "121",
+            "D": "144"
+          },
+          "explanation": "सम संख्याओं के वर्ग: 2^2, 4^2, 6^2, 8^2, 10^2 = 100."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-022",
+      "number": 22,
+      "question": "If MENTAL is coded as NFMUBM, how is TEST coded?",
+      "options": {
+        "A": "UFTU",
+        "B": "SFTS",
+        "C": "UFTV",
+        "D": "UGUU"
+      },
+      "answer": "A",
+      "explanation": "Each letter is shifted by +1. T+1=U, E+1=F, S+1=T, T+1=U.",
+      "hash": "a960e7dcdd68d975",
+      "translations": {
+        "hi": {
+          "question": "यदि MENTAL को NFMUBM के रूप में कोडित किया गया है, तो TEST को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "UFTU",
+            "B": "SFTS",
+            "C": "UFTV",
+            "D": "UGUU"
+          },
+          "explanation": "प्रत्येक अक्षर को +1 से स्थानांतरित किया गया है। T+1=U, E+1=F, S+1=T, T+1=U."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-023",
+      "number": 23,
+      "question": "Select the related word: Library : Books :: Museum : ?",
+      "options": {
+        "A": "Curator",
+        "B": "Statues",
+        "C": "Artifacts",
+        "D": "Building"
+      },
+      "answer": "C",
+      "explanation": "Library stores books; Museum stores artifacts.",
+      "hash": "425d1ac797686b0d",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: पुस्तकालय : पुस्तकें :: संग्रहालय : ?",
+          "options": {
+            "A": "क्यूरेटर",
+            "B": "मूर्तियाँ",
+            "C": "कलाकृतियाँ",
+            "D": "भवन"
+          },
+          "explanation": "पुस्तकालय में पुस्तकें होती हैं; संग्रहालय में कलाकृतियाँ होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-024",
+      "number": 24,
+      "question": "If North-East becomes South, what will South-East become?",
+      "options": {
+        "A": "North",
+        "B": "West",
+        "C": "East",
+        "D": "North-West"
+      },
+      "answer": "B",
+      "explanation": "Rotation is 135 degrees clockwise. South-East + 135 degrees = West.",
+      "hash": "75384d9c49f780b5",
+      "translations": {
+        "hi": {
+          "question": "यदि उत्तर-पूर्व दक्षिण बन जाता है, तो दक्षिण-पूर्व क्या बन जाएगा?",
+          "options": {
+            "A": "उत्तर",
+            "B": "पश्चिम",
+            "C": "पूर्व",
+            "D": "उत्तर-पश्चिम"
+          },
+          "explanation": "घुमाव 135 डिग्री दक्षिणावर्त है। दक्षिण-पूर्व + 135 डिग्री = पश्चिम।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-026",
+      "number": 26,
+      "question": "Pointing to a photograph, a man said, \"I have no brother or sister but that man's father is my father's son.\" Who is in the photograph?",
+      "options": {
+        "A": "His father",
+        "B": "His son",
+        "C": "His nephew",
+        "D": "Himself"
+      },
+      "answer": "B",
+      "explanation": "\"My father's son\" is the man himself. So, the photograph man's father is the man himself. It is his son.",
+      "hash": "2de38cbaf90f2e32",
+      "translations": {
+        "hi": {
+          "question": "एक तस्वीर की ओर इशारा करते हुए, एक व्यक्ति ने कहा, \"मेरा कोई भाई या बहन नहीं है, लेकिन उस व्यक्ति का पिता मेरे पिता का पुत्र है।\" तस्वीर में कौन है?",
+          "options": {
+            "A": "उसके पिता",
+            "B": "उसका बेटा",
+            "C": "उसका भतीजा",
+            "D": "वह स्वयं"
+          },
+          "explanation": "\"मेरे पिता का पुत्र\" वह व्यक्ति स्वयं है। इसलिए, तस्वीर वाले व्यक्ति का पिता वह स्वयं है। वह उसका बेटा है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-027",
+      "number": 27,
+      "question": "Which Venn diagram represents: Mammals, Cows, Crows?",
+      "options": {
+        "A": "Two small circles inside a big one",
+        "B": "One small circle inside a big one, and another separate circle",
+        "C": "Three intersecting circles",
+        "D": "Three separate circles"
+      },
+      "answer": "B",
+      "explanation": "Cow is a mammal, Crow is a bird (separate).",
+      "hash": "5a2966d4f26462ad",
+      "translations": {
+        "hi": {
+          "question": "कौन सा वेन आरेख प्रतिनिधित्व करता है: स्तनधारी, गाय, कौवे?",
+          "options": {
+            "A": "एक बड़े घेरे के अंदर दो छोटे घेरे",
+            "B": "एक बड़े घेरे के अंदर एक छोटा घेरा, और दूसरा अलग घेरा",
+            "C": "तीन प्रतिच्छेदी घेरे",
+            "D": "तीन अलग-अलग घेरे"
+          },
+          "explanation": "गाय एक स्तनधारी है, कौवा एक पक्षी (अलग) है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-028",
+      "number": 28,
+      "question": "Statements: Some red are blue. All blue are green. Conclusion I: Some red are green. Conclusion II: Some green are red.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both follow",
+        "D": "Neither follows"
+      },
+      "answer": "C",
+      "explanation": "The intersection of red and blue is part of green. So red and green intersect.",
+      "hash": "7a502fb6a66c64ae",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ लाल नीले हैं। सभी नीले हरे हैं। निष्कर्ष I: कुछ लाल हरे हैं। निष्कर्ष II: कुछ हरे लाल हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "लाल और नीले का प्रतिच्छेदन हरे रंग का हिस्सा है। इसलिए लाल और हरे प्रतिच्छेद करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-030",
+      "number": 30,
+      "question": "If '+' means '*', '-' means '+', '*' means '/' and '/' means '-', what is 10 + 2 * 5 - 3 / 1?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "10 * 2 / 5 + 3 - 1 = 4 + 3 - 1 = 6.",
+      "hash": "049da607366e7cd4",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '*', '-' का अर्थ '+', '*' का अर्थ '/' और '/' का अर्थ '-' है, तो 10 + 2 * 5 - 3 / 1 क्या होगा?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "10"
+          },
+          "explanation": "10 * 2 / 5 + 3 - 1 = 4 + 3 - 1 = 6."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-031",
+      "number": 31,
+      "question": "Arrange in dictionary order: 1. Eagle, 2. Earth, 3. Eager, 4. Early",
+      "options": {
+        "A": "3, 1, 4, 2",
+        "B": "1, 3, 4, 2",
+        "C": "3, 1, 2, 4",
+        "D": "1, 4, 3, 2"
+      },
+      "answer": "A",
+      "explanation": "Eager, Eagle, Early, Earth.",
+      "hash": "ffb223d3fdb71bed",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Eagle, 2. Earth, 3. Eager, 4. Early",
+          "options": {
+            "A": "3, 1, 4, 2",
+            "B": "1, 3, 4, 2",
+            "C": "3, 1, 2, 4",
+            "D": "1, 4, 3, 2"
+          },
+          "explanation": "Eager, Eagle, Early, Earth."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-032",
+      "number": 32,
+      "question": "Find the missing term: 2, 5, 11, 23, 47, ?",
+      "options": {
+        "A": "94",
+        "B": "95",
+        "C": "96",
+        "D": "97"
+      },
+      "answer": "B",
+      "explanation": "Pattern: *2 + 1. 47 * 2 + 1 = 95.",
+      "hash": "28b33e88e2a10b62",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात कीजिए: 2, 5, 11, 23, 47, ?",
+          "options": {
+            "A": "94",
+            "B": "95",
+            "C": "96",
+            "D": "97"
+          },
+          "explanation": "पैटर्न: *2 + 1. 47 * 2 + 1 = 95."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-033",
+      "number": 33,
+      "question": "Choose the odd word: Gold, Silver, Iron, Carbon",
+      "options": {
+        "A": "Gold",
+        "B": "Silver",
+        "C": "Iron",
+        "D": "Carbon"
+      },
+      "answer": "D",
+      "explanation": "Gold, Silver, Iron are metals. Carbon is a non-metal.",
+      "hash": "3359aed76ffe59c3",
+      "translations": {
+        "hi": {
+          "question": "विषम शब्द चुनें: सोना, चांदी, लोहा, कार्बन",
+          "options": {
+            "A": "सोना",
+            "B": "चांदी",
+            "C": "लोहा",
+            "D": "कार्बन"
+          },
+          "explanation": "सोना, चांदी, लोहा धातु हैं। कार्बन एक अधातु है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-034",
+      "number": 34,
+      "question": "In a row, Rahul is 10th from the left and 15th from the right. Find the total number of people.",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "Total = (Left + Right) - 1 = (10 + 15) - 1 = 24.",
+      "hash": "960a433486d17aa1",
+      "translations": {
+        "hi": {
+          "question": "एक पंक्ति में, राहुल बाईं ओर से 10वें और दाईं ओर से 15वें स्थान पर है। कुल व्यक्तियों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "24",
+            "B": "25",
+            "C": "26",
+            "D": "27"
+          },
+          "explanation": "कुल = (बायां + दायां) - 1 = (10 + 15) - 1 = 24."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-035",
+      "number": 35,
+      "question": "Arrange in logical sequence: 1. Furniture, 2. Forest, 3. Wood, 4. Tree",
+      "options": {
+        "A": "2, 4, 3, 1",
+        "B": "4, 2, 3, 1",
+        "C": "2, 3, 4, 1",
+        "D": "4, 3, 2, 1"
+      },
+      "answer": "A",
+      "explanation": "Forest -> Tree -> Wood -> Furniture.",
+      "hash": "28e3f93b359dc1f4",
+      "translations": {
+        "hi": {
+          "question": "तार्किक क्रम में व्यवस्थित करें: 1. फर्नीचर, 2. जंगल, 3. लकड़ी, 4. पेड़",
+          "options": {
+            "A": "2, 4, 3, 1",
+            "B": "4, 2, 3, 1",
+            "C": "2, 3, 4, 1",
+            "D": "4, 3, 2, 1"
+          },
+          "explanation": "जंगल -> पेड़ -> लकड़ी -> फर्नीचर।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-037",
+      "number": 37,
+      "question": "Which number replaces the question mark? 5 : 30 :: 7 : ?",
+      "options": {
+        "A": "42",
+        "B": "49",
+        "C": "56",
+        "D": "63"
+      },
+      "answer": "C",
+      "explanation": "Pattern: n * (n+1). 5 * 6 = 30. 7 * 8 = 56.",
+      "hash": "e145e2dab8a22eca",
+      "translations": {
+        "hi": {
+          "question": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आएगी? 5 : 30 :: 7 : ?",
+          "options": {
+            "A": "42",
+            "B": "49",
+            "C": "56",
+            "D": "63"
+          },
+          "explanation": "पैटर्न: n * (n+1). 5 * 6 = 30. 7 * 8 = 56."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-038",
+      "number": 38,
+      "question": "If 1st January 2024 was Monday, what day was 1st February 2024?",
+      "options": {
+        "A": "Wednesday",
+        "B": "Thursday",
+        "C": "Friday",
+        "D": "Saturday"
+      },
+      "answer": "B",
+      "explanation": "January has 31 days. 31/7 = 3 remainder. Monday + 3 days = Thursday.",
+      "hash": "2c8fe30a33d5fdeb",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 फरवरी 2024 को कौन सा दिन था?",
+          "options": {
+            "A": "बुधवार",
+            "B": "गुरुवार",
+            "C": "शुक्रवार",
+            "D": "शनिवार"
+          },
+          "explanation": "जनवरी में 31 दिन होते हैं। 31/7 = 3 शेषफल। सोमवार + 3 दिन = गुरुवार।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-039",
+      "number": 39,
+      "question": "A cube is painted red on all faces and cut into 27 small cubes. How many have exactly two faces painted?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": "C",
+      "explanation": "Formula: 12(n-2). Here n=3 (as 3^3=27). 12(3-2) = 12.",
+      "hash": "eb7ce8ad9cc5268a",
+      "translations": {
+        "hi": {
+          "question": "एक घन के सभी फलकों पर लाल रंग लगाया गया है और उसे 27 छोटे घनों में काटा गया है। कितनों के ठीक दो फलक रंगे हुए हैं?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "12",
+            "D": "15"
+          },
+          "explanation": "सूत्र: 12(n-2). यहाँ n=3 (क्योंकि 3^3=27)। 12(3-2) = 12."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-09-040",
+      "number": 40,
+      "question": "Select the related number: 12 : 144 :: 13 : ?",
+      "options": {
+        "A": "156",
+        "B": "169",
+        "C": "182",
+        "D": "196"
+      },
+      "answer": "B",
+      "explanation": "12^2 = 144. 13^2 = 169.",
+      "hash": "3281008b44658331",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 12 : 144 :: 13 : ?",
+          "options": {
+            "A": "156",
+            "B": "169",
+            "C": "182",
+            "D": "196"
+          },
+          "explanation": "12^2 = 144. 13^2 = 169."
+        }
+      }
+    }
+  ]
+}

@@ -37,6 +37,13 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series. Master General Intelligence, Reasoning, General Knowledge, Elementary Mathematics, English & Hindi - Start your SSC GD 2026 preparation FREE!',
     description: 'Prepare for SSC GD Constable (General Duty) exam with free online mock tests, previous year question papers, and practice sets. Join BSF, CRPF, CISF, ITBP, SSB & Assam Rifles with our complete test series.',
   },
+  'ssc-mts': {
+    family: 'ssc',
+    title: 'SSC MTS',
+    body: 'Staff Selection Commission',
+    blurb: 'Multi-Tasking (Non-Technical) Staff and Havaldar recruitment. Full Session I and Session II mock tests on the real 45-minute timer, plus sets for every section.',
+    description: 'Free SSC MTS and Havaldar mock tests: full Session I (Mathematics and Reasoning) and Session II (General Awareness and English) papers on the real 45-minute timer, plus sectional sets, with explanations in English and Hindi.',
+  },
   'bihar-police-constable': {
     family: 'police',
     title: 'Bihar Police Constable',
@@ -71,7 +78,6 @@ export const liveExamMeta: Record<string, ExamMeta> = {
 
 export interface PlannedExam { id: string; family: FamilyId; title: string; body: string; blurb: string }
 export const plannedExams: PlannedExam[] = [
-  { id: 'ssc-mts', family: 'ssc', title: 'SSC MTS', body: 'Staff Selection Commission', blurb: 'Multi-Tasking (Non-Technical) Staff recruitment.' },
   { id: 'rrb-ntpc', family: 'railway', title: 'RRB NTPC', body: 'Railway Recruitment Boards', blurb: 'Non-Technical Popular Categories recruitment for Indian Railways.' },
 ];
 

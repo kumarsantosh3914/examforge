@@ -1,0 +1,995 @@
+{
+  "subject": "Mock Test (Session I)",
+  "set": 8,
+  "title": "Session I Mock Test 8",
+  "questions": [
+    {
+      "id": "mock-test-session-i-08-001",
+      "number": 1,
+      "question": "The ratio of salaries of A and B is 4:3. If each saves 600 and their expenditure ratio is 3:2, find A's salary.",
+      "options": {
+        "A": "1800",
+        "B": "2400",
+        "C": "3000",
+        "D": "3600"
+      },
+      "answer": "B",
+      "explanation": "(4x - 600)/(3x - 600) = 3/2 => 8x - 1200 = 9x - 1800 => x = 600. A = 4 * 600 = 2400.",
+      "hash": "9f14489b18204286",
+      "translations": {
+        "hi": {
+          "question": "A और B के वेतन का अनुपात 4:3 है। यदि प्रत्येक 600 बचाता है और उनके व्यय का अनुपात 3:2 है, तो A का वेतन ज्ञात कीजिए।",
+          "options": {
+            "A": "1800",
+            "B": "2400",
+            "C": "3000",
+            "D": "3600"
+          },
+          "explanation": "(4x - 600)/(3x - 600) = 3/2 => 8x - 1200 = 9x - 1800 => x = 600. A = 4 * 600 = 2400."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-002",
+      "number": 2,
+      "question": "The population of a city is 50,000. It increases by 10% in the first year and 20% in the second year. Find the population after 2 years.",
+      "options": {
+        "A": "60,000",
+        "B": "65,000",
+        "C": "66,000",
+        "D": "70,000"
+      },
+      "answer": "C",
+      "explanation": "50000 * 1.1 * 1.2 = 55000 * 1.2 = 66000.",
+      "hash": "4fa5419966a05177",
+      "translations": {
+        "hi": {
+          "question": "एक शहर की जनसंख्या 50,000 है। पहले वर्ष में इसमें 10% और दूसरे वर्ष में 20% की वृद्धि होती है। 2 वर्ष बाद जनसंख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "60,000",
+            "B": "65,000",
+            "C": "66,000",
+            "D": "70,000"
+          },
+          "explanation": "50000 * 1.1 * 1.2 = 55000 * 1.2 = 66000."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-003",
+      "number": 3,
+      "question": "Find the total surface area of a cylinder with radius 7 cm and height 10 cm. (pi = 22/7)",
+      "options": {
+        "A": "748 sq cm",
+        "B": "616 sq cm",
+        "C": "440 sq cm",
+        "D": "800 sq cm"
+      },
+      "answer": "A",
+      "explanation": "TSA = 2*pi*r(h+r) = 2 * 22/7 * 7 * (10+7) = 44 * 17 = 748.",
+      "hash": "e5df660758a0429d",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या और 10 सेमी ऊंचाई वाले बेलन का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए। (pi = 22/7)",
+          "options": {
+            "A": "748 वर्ग सेमी",
+            "B": "616 वर्ग सेमी",
+            "C": "440 वर्ग सेमी",
+            "D": "800 वर्ग सेमी"
+          },
+          "explanation": "कुल पृष्ठीय क्षेत्रफल = 2*pi*r(h+r) = 2 * 22/7 * 7 * (10+7) = 44 * 17 = 748."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-004",
+      "number": 4,
+      "question": "A sum of money doubles itself in 5 years at compound interest. In how many years will it become 8 times?",
+      "options": {
+        "A": "10 years",
+        "B": "15 years",
+        "C": "20 years",
+        "D": "25 years"
+      },
+      "answer": "B",
+      "explanation": "2^1 times in 5 years. 8 times is 2^3. Time = 3 * 5 = 15 years.",
+      "hash": "62dd0a71813a8aa6",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर कोई राशि 5 वर्षों में दोगुनी हो जाती है। कितने वर्षों में यह 8 गुनी हो जाएगी?",
+          "options": {
+            "A": "10 वर्ष",
+            "B": "15 वर्ष",
+            "C": "20 वर्ष",
+            "D": "25 वर्ष"
+          },
+          "explanation": "5 वर्ष में 2^1 गुना। 8 गुना यानी 2^3 है। समय = 3 * 5 = 15 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-005",
+      "number": 5,
+      "question": "Pipe A can fill a tank in 4 hours and Pipe B can fill it in 6 hours. If both are opened together, how long will they take?",
+      "options": {
+        "A": "2 hours",
+        "B": "2.4 hours",
+        "C": "3 hours",
+        "D": "3.5 hours"
+      },
+      "answer": "B",
+      "explanation": "Time = (4 * 6) / (4 + 6) = 24 / 10 = 2.4 hours.",
+      "hash": "3e4b2f7e191a257f",
+      "translations": {
+        "hi": {
+          "question": "पाइप A एक टैंक को 4 घंटे में भर सकता है और पाइप B उसे 6 घंटे में भर सकता है। यदि दोनों को एक साथ खोल दिया जाए, तो उन्हें कितना समय लगेगा?",
+          "options": {
+            "A": "2 घंटे",
+            "B": "2.4 घंटे",
+            "C": "3 घंटे",
+            "D": "3.5 घंटे"
+          },
+          "explanation": "समय = (4 * 6) / (4 + 6) = 24 / 10 = 2.4 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-006",
+      "number": 6,
+      "question": "A person travels at 12 km/h instead of 10 km/h and covers 20 km more. Find the actual distance.",
+      "options": {
+        "A": "100 km",
+        "B": "120 km",
+        "C": "150 km",
+        "D": "80 km"
+      },
+      "answer": "A",
+      "explanation": "Difference in speed = 2 km/h. Time = 20/2 = 10 hours. Actual distance = 10 * 10 = 100 km.",
+      "hash": "6301d97823e0a5fd",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 10 किमी/घंटा के बजाय 12 किमी/घंटा की गति से यात्रा करता है और 20 किमी अधिक दूरी तय करता है। वास्तविक दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "100 किमी",
+            "B": "120 किमी",
+            "C": "150 किमी",
+            "D": "80 किमी"
+          },
+          "explanation": "गति में अंतर = 2 किमी/घंटा। समय = 20/2 = 10 घंटे। वास्तविक दूरी = 10 * 10 = 100 किमी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-007",
+      "number": 7,
+      "question": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one weighing 65 kg. Find the weight of the new person.",
+      "options": {
+        "A": "75 kg",
+        "B": "80 kg",
+        "C": "85 kg",
+        "D": "90 kg"
+      },
+      "answer": "C",
+      "explanation": "Total increase = 8 * 2.5 = 20 kg. New weight = 65 + 20 = 85 kg.",
+      "hash": "85db7c660cc21469",
+      "translations": {
+        "hi": {
+          "question": "8 व्यक्तियों का औसत वजन 2.5 किग्रा बढ़ जाता है जब 65 किग्रा वजन वाले व्यक्ति के स्थान पर एक नया व्यक्ति आता है। नए व्यक्ति का वजन ज्ञात कीजिए।",
+          "options": {
+            "A": "75 किग्रा",
+            "B": "80 किग्रा",
+            "C": "85 किग्रा",
+            "D": "90 किग्रा"
+          },
+          "explanation": "कुल वृद्धि = 8 * 2.5 = 20 किग्रा। नया वजन = 65 + 20 = 85 किग्रा।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-008",
+      "number": 8,
+      "question": "Find the unit digit of (2153)^167.",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "Cyclicity of 3 is 4. 167 % 4 = 3. Unit digit is 3^3 = 27, so 7.",
+      "hash": "21f7fe692b880a4a",
+      "translations": {
+        "hi": {
+          "question": "(2153)^167 का इकाई अंक ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "7",
+            "D": "9"
+          },
+          "explanation": "3 की चक्रीयता 4 है। 167 % 4 = 3. इकाई अंक 3^3 = 27 है, यानी 7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-009",
+      "number": 9,
+      "question": "What is the single discount equivalent to two successive discounts of 15% and 20%?",
+      "options": {
+        "A": "32%",
+        "B": "35%",
+        "C": "40%",
+        "D": "31%"
+      },
+      "answer": "A",
+      "explanation": "x + y - xy/100 = 15 + 20 - (15*20)/100 = 35 - 3 = 32%.",
+      "hash": "957fb07ff88d67fa",
+      "translations": {
+        "hi": {
+          "question": "15% और 20% की दो क्रमिक छूटों के बराबर एकल छूट क्या है?",
+          "options": {
+            "A": "32%",
+            "B": "35%",
+            "C": "40%",
+            "D": "31%"
+          },
+          "explanation": "x + y - xy/100 = 15 + 20 - (15*20)/100 = 35 - 3 = 32%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-010",
+      "number": 10,
+      "question": "Two trains are running in opposite directions at 40 km/h and 50 km/h. Their lengths are 150m and 100m. How long will they take to cross each other?",
+      "options": {
+        "A": "8 sec",
+        "B": "10 sec",
+        "C": "12 sec",
+        "D": "15 sec"
+      },
+      "answer": "B",
+      "explanation": "Relative speed = 90 km/h = 25 m/s. Total distance = 250m. Time = 250 / 25 = 10 sec.",
+      "hash": "1fd9c0699d65aac6",
+      "translations": {
+        "hi": {
+          "question": "दो ट्रेनें 40 किमी/घंटा और 50 किमी/घंटा की गति से विपरीत दिशाओं में चल रही हैं। उनकी लंबाई 150 मीटर और 100 मीटर है। वे एक-दूसरे को पार करने में कितना समय लेंगी?",
+          "options": {
+            "A": "8 सेकंड",
+            "B": "10 सेकंड",
+            "C": "12 सेकंड",
+            "D": "15 सेकंड"
+          },
+          "explanation": "सापेक्ष गति = 90 किमी/घंटा = 25 मीटर/सेकंड। कुल दूरी = 250 मीटर। समय = 250 / 25 = 10 सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-011",
+      "number": 11,
+      "question": "A student has to score 40% to pass. He gets 178 marks and fails by 22 marks. Find total marks.",
+      "options": {
+        "A": "400",
+        "B": "500",
+        "C": "600",
+        "D": "450"
+      },
+      "answer": "B",
+      "explanation": "Pass marks = 178 + 22 = 200. 40% = 200 => 100% = 500.",
+      "hash": "1ffe9b9b1069483a",
+      "translations": {
+        "hi": {
+          "question": "एक छात्र को पास होने के लिए 40% अंक प्राप्त करने होते हैं। उसे 178 अंक मिलते हैं और वह 22 अंकों से अनुत्तीर्ण हो जाता है। कुल अंक ज्ञात कीजिए।",
+          "options": {
+            "A": "400",
+            "B": "500",
+            "C": "600",
+            "D": "450"
+          },
+          "explanation": "पास होने के अंक = 178 + 22 = 200. 40% = 200 => 100% = 500."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-012",
+      "number": 12,
+      "question": "If x + (1/x) = 4, then x^2 + (1/x^2) = ?",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "18",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "(x + 1/x)^2 - 2 = 4^2 - 2 = 14.",
+      "hash": "c4b2031ba3dda740",
+      "translations": {
+        "hi": {
+          "question": "यदि x + (1/x) = 4 है, तो x^2 + (1/x^2) = ?",
+          "options": {
+            "A": "14",
+            "B": "16",
+            "C": "18",
+            "D": "12"
+          },
+          "explanation": "(x + 1/x)^2 - 2 = 4^2 - 2 = 14."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-013",
+      "number": 13,
+      "question": "Solve: (2/3) + (4/5) - (1/2)",
+      "options": {
+        "A": "29/30",
+        "B": "31/30",
+        "C": "1",
+        "D": "27/30"
+      },
+      "answer": "A",
+      "explanation": "LCM of 3, 5, 2 is 30. (20 + 24 - 15) / 30 = 29/30.",
+      "hash": "43565665182578f1",
+      "translations": {
+        "hi": {
+          "question": "हल करें: (2/3) + (4/5) - (1/2)",
+          "options": {
+            "A": "29/30",
+            "B": "31/30",
+            "C": "1",
+            "D": "27/30"
+          },
+          "explanation": "3, 5, 2 का LCM 30 है। (20 + 24 - 15) / 30 = 29/30."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-014",
+      "number": 14,
+      "question": "Find the volume of a sphere with diameter 14 cm. (pi = 22/7)",
+      "options": {
+        "A": "1437.33 cubic cm",
+        "B": "1500 cubic cm",
+        "C": "1337.33 cubic cm",
+        "D": "1600 cubic cm"
+      },
+      "answer": "A",
+      "explanation": "Radius = 7 cm. Volume = (4/3)*pi*r^3 = (4/3) * (22/7) * 343 = 1437.33.",
+      "hash": "33acca5640b9bf77",
+      "translations": {
+        "hi": {
+          "question": "14 सेमी व्यास वाले गोले का आयतन ज्ञात कीजिए। (pi = 22/7)",
+          "options": {
+            "A": "1437.33 घन सेमी",
+            "B": "1500 घन सेमी",
+            "C": "1337.33 घन सेमी",
+            "D": "1600 घन सेमी"
+          },
+          "explanation": "त्रिज्या = 7 सेमी। आयतन = (4/3)*pi*r^3 = (4/3) * (22/7) * 343 = 1437.33."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-015",
+      "number": 15,
+      "question": "A shopkeeper marks an item at 2000 and sells it for 1600. Find discount percentage.",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "answer": "C",
+      "explanation": "Discount = 400. Discount % = (400/2000) * 100 = 20%.",
+      "hash": "a062f3731255b09a",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु पर 2000 अंकित करता है और उसे 1600 में बेचता है। छूट प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "25%"
+          },
+          "explanation": "छूट = 400. छूट % = (400/2000) * 100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-016",
+      "number": 16,
+      "question": "Find the HCF of 4/9, 10/21 and 20/63.",
+      "options": {
+        "A": "2/63",
+        "B": "4/63",
+        "C": "2/9",
+        "D": "1/63"
+      },
+      "answer": "A",
+      "explanation": "HCF of fractions = HCF(4, 10, 20) / LCM(9, 21, 63) = 2 / 63.",
+      "hash": "880cc34eacefa0bc",
+      "translations": {
+        "hi": {
+          "question": "4/9, 10/21 और 20/63 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "2/63",
+            "B": "4/63",
+            "C": "2/9",
+            "D": "1/63"
+          },
+          "explanation": "भिन्नों का HCF = HCF(4, 10, 20) / LCM(9, 21, 63) = 2 / 63."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-017",
+      "number": 17,
+      "question": "A is 50% more efficient than B. If B takes 15 days to finish a work, how many days will A take?",
+      "options": {
+        "A": "7.5 days",
+        "B": "10 days",
+        "C": "12 days",
+        "D": "8 days"
+      },
+      "answer": "B",
+      "explanation": "Efficiency ratio A:B = 3:2. Time ratio A:B = 2:3. 3 units = 15 days, so 2 units = 10 days.",
+      "hash": "232a84c1907b8f34",
+      "translations": {
+        "hi": {
+          "question": "A, B से 50% अधिक कुशल है। यदि B एक कार्य को पूरा करने में 15 दिन लेता है, तो A कितने दिन लेगा?",
+          "options": {
+            "A": "7.5 दिन",
+            "B": "10 दिन",
+            "C": "12 दिन",
+            "D": "8 दिन"
+          },
+          "explanation": "दक्षता अनुपात A:B = 3:2. समय अनुपात A:B = 2:3. 3 इकाई = 15 दिन, इसलिए 2 इकाई = 10 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-018",
+      "number": 18,
+      "question": "A car covers first 100 km at 50 km/h and next 100 km at 40 km/h. Find average speed.",
+      "options": {
+        "A": "44.44 km/h",
+        "B": "45 km/h",
+        "C": "46.66 km/h",
+        "D": "48 km/h"
+      },
+      "answer": "A",
+      "explanation": "Total Distance = 200 km. Total Time = 100/50 + 100/40 = 2 + 2.5 = 4.5 h. Avg Speed = 200 / 4.5 = 44.44.",
+      "hash": "50a71054e1414cd8",
+      "translations": {
+        "hi": {
+          "question": "एक कार पहले 100 किमी 50 किमी/घंटा की गति से और अगले 100 किमी 40 किमी/घंटा की गति से तय करती है। औसत गति ज्ञात कीजिए।",
+          "options": {
+            "A": "44.44 किमी/घंटा",
+            "B": "45 किमी/घंटा",
+            "C": "46.66 किमी/घंटा",
+            "D": "48 किमी/घंटा"
+          },
+          "explanation": "कुल दूरी = 200 किमी। कुल समय = 100/50 + 100/40 = 2 + 2.5 = 4.5 घंटा। औसत गति = 200 / 4.5 = 44.44."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-020",
+      "number": 20,
+      "question": "The ratio of present ages of P and Q is 5:7. 4 years ago, the ratio was 3:5. Find Q's present age.",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "18",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "(5x - 4)/(7x - 4) = 3/5 => 25x - 20 = 21x - 12 => 4x = 8 => x = 2. Q = 7 * 2 = 14.",
+      "hash": "847932ba6c601de5",
+      "translations": {
+        "hi": {
+          "question": "P और Q की वर्तमान आयु का अनुपात 5:7 है। 4 वर्ष पहले, अनुपात 3:5 था। Q की वर्तमान आयु ज्ञात कीजिए।",
+          "options": {
+            "A": "10",
+            "B": "14",
+            "C": "18",
+            "D": "12"
+          },
+          "explanation": "(5x - 4)/(7x - 4) = 3/5 => 25x - 20 = 21x - 12 => 4x = 8 => x = 2. Q = 7 * 2 = 14."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-021",
+      "number": 21,
+      "question": "Complete the series: 1, 3, 6, 10, 15, ?",
+      "options": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "Differences are 2, 3, 4, 5. Next difference is 6. 15 + 6 = 21.",
+      "hash": "089489c9a06ed8c5",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 1, 3, 6, 10, 15, ?",
+          "options": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "25"
+          },
+          "explanation": "अंतर 2, 3, 4, 5 हैं। अगला अंतर 6 है। 15 + 6 = 21."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-022",
+      "number": 22,
+      "question": "If RED is coded as 6720, how is GREEN coded?",
+      "options": {
+        "A": "1677209",
+        "B": "1677199",
+        "C": "9207716",
+        "D": "7185514"
+      },
+      "answer": "A",
+      "explanation": "N(14)+2=16, E(5)+2=7, E(5)+2=7, R(18)+2=20, G(7)+2=9. Code: 1677209.",
+      "hash": "701b076e09dc602e",
+      "translations": {
+        "hi": {
+          "question": "यदि RED को 6720 के रूप में कोडित किया गया है, तो GREEN को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "1677209",
+            "B": "1677199",
+            "C": "9207716",
+            "D": "7185514"
+          },
+          "explanation": "RED: D(4)+2=6, E(5)+2=7, R(18)+2=20. (6720). GREEN: N(14)+2=16, E(5)+2=7, E(5)+2=7, R(18)+2=20, G(7)+2=9. (1677209)."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-023",
+      "number": 23,
+      "question": "In a class, Ankit is 10th from the top and 25th from the bottom. How many students are there?",
+      "options": {
+        "A": "34",
+        "B": "35",
+        "C": "36",
+        "D": "33"
+      },
+      "answer": "A",
+      "explanation": "Total = (Top + Bottom) - 1 = (10 + 25) - 1 = 34.",
+      "hash": "5e419390ab955bc0",
+      "translations": {
+        "hi": {
+          "question": "एक कक्षा में, अंकित ऊपर से 10वें और नीचे से 25वें स्थान पर है। कुल कितने छात्र हैं?",
+          "options": {
+            "A": "34",
+            "B": "35",
+            "C": "36",
+            "D": "33"
+          },
+          "explanation": "कुल = (ऊपर + नीचे) - 1 = (10 + 25) - 1 = 34."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-024",
+      "number": 24,
+      "question": "If you walk 4 km North, turn right and walk 3 km, then turn right again and walk 4 km. What is your distance from start?",
+      "options": {
+        "A": "3 km",
+        "B": "4 km",
+        "C": "5 km",
+        "D": "7 km"
+      },
+      "answer": "A",
+      "explanation": "Forms a rectangle. Final distance is equal to the middle turn length (3 km).",
+      "hash": "f81bca26cdedba93",
+      "translations": {
+        "hi": {
+          "question": "यदि आप 4 किमी उत्तर की ओर चलते हैं, दाएं मुड़ते हैं और 3 किमी चलते हैं, फिर से दाएं मुड़ते हैं और 4 किमी चलते हैं। शुरुआत से आपकी दूरी क्या है?",
+          "options": {
+            "A": "3 किमी",
+            "B": "4 किमी",
+            "C": "5 किमी",
+            "D": "7 किमी"
+          },
+          "explanation": "एक आयत बनाता है। अंतिम दूरी मध्य मोड़ की लंबाई (3 किमी) के बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-025",
+      "number": 25,
+      "question": "Pointing to a man, a woman says, \"He is the only son of my father's mother.\" How is the man related to the woman?",
+      "options": {
+        "A": "Uncle",
+        "B": "Father",
+        "C": "Brother",
+        "D": "Grandfather"
+      },
+      "answer": "B",
+      "explanation": "Father's mother is Grandmother. Her only son is the Father.",
+      "hash": "1d477dbb4d2dbdb0",
+      "translations": {
+        "hi": {
+          "question": "एक पुरुष की ओर इशारा करते हुए एक महिला कहती है, \"वह मेरे पिता की माँ का इकलौता बेटा है।\" पुरुष का महिला से क्या संबंध है?",
+          "options": {
+            "A": "चाचा/मामा",
+            "B": "पिता",
+            "C": "भाई",
+            "D": "दादा"
+          },
+          "explanation": "पिता की माँ दादी है। उनका इकलौता बेटा पिता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-026",
+      "number": 26,
+      "question": "Select the related number: 4 : 20 :: 6 : ?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "42",
+        "D": "40"
+      },
+      "answer": "C",
+      "explanation": "n * (n+1) => 4 * 5 = 20. Similarly, 6 * 7 = 42.",
+      "hash": "cb3a7839062f8321",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 4 : 20 :: 6 : ?",
+          "options": {
+            "A": "30",
+            "B": "36",
+            "C": "42",
+            "D": "40"
+          },
+          "explanation": "n * (n+1) => 4 * 5 = 20. इसी तरह, 6 * 7 = 42."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-028",
+      "number": 28,
+      "question": "Statement: Some dogs are cats. All cats are animals. Conclusion I: Some dogs are animals. Conclusion II: All animals are dogs.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both follow",
+        "D": "Neither follows"
+      },
+      "answer": "A",
+      "explanation": "Intersection of dogs and cats falls under animals.",
+      "hash": "bfcd318e272f84fb",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ कुत्ते बिल्लियाँ हैं। सभी बिल्लियाँ जानवर हैं। निष्कर्ष I: कुछ कुत्ते जानवर हैं। निष्कर्ष II: सभी जानवर कुत्ते हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों अनुसरण करते हैं",
+            "D": "कोई अनुसरण नहीं करता"
+          },
+          "explanation": "कुत्तों और बिल्लियों का प्रतिच्छेदन जानवरों के अंतर्गत आता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-029",
+      "number": 29,
+      "question": "Two positions of a dice are shown. Which number is opposite 1? (1,2,3 and 1,4,5)",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "1 is adjacent to 2, 3, 4, 5. Only 6 remains.",
+      "hash": "9c201643ff60f184",
+      "translations": {
+        "hi": {
+          "question": "एक पासे की दो स्थितियाँ दिखाई गई हैं। 1 के विपरीत कौन सी संख्या है? (1,2,3 और 1,4,5)",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "5"
+          },
+          "explanation": "1 के निकट 2, 3, 4, 5 हैं। केवल 6 शेष है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-030",
+      "number": 30,
+      "question": "Identify the Venn diagram: Furniture, Chair, Table",
+      "options": {
+        "A": "Two small separate circles inside a big one",
+        "B": "Three separate circles",
+        "C": "Two intersecting circles inside a big one",
+        "D": "Three concentric circles"
+      },
+      "answer": "A",
+      "explanation": "Chair and table are different types of furniture.",
+      "hash": "b27fb08a39becb66",
+      "translations": {
+        "hi": {
+          "question": "वेन आरेख की पहचान करें: फर्नीचर, कुर्सी, मेज",
+          "options": {
+            "A": "एक बड़े घेरे के अंदर दो छोटे अलग घेरे",
+            "B": "तीन अलग-अलग घेरे",
+            "C": "एक बड़े घेरे के अंदर दो प्रतिच्छेदी घेरे",
+            "D": "तीन संकेंद्रित घेरे"
+          },
+          "explanation": "कुर्सी और मेज अलग-अलग प्रकार के फर्नीचर हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-031",
+      "number": 31,
+      "question": "Complete the series: AD, GJ, MP, ?",
+      "options": {
+        "A": "SV",
+        "B": "SU",
+        "C": "RU",
+        "D": "TV"
+      },
+      "answer": "A",
+      "explanation": "A+6=G, G+6=M, M+6=S. D+6=J, J+6=P, P+6=V.",
+      "hash": "b64d3d6475bea10e",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: AD, GJ, MP, ?",
+          "options": {
+            "A": "SV",
+            "B": "SU",
+            "C": "RU",
+            "D": "TV"
+          },
+          "explanation": "A+6=G, G+6=M, M+6=S. D+6=J, J+6=P, P+6=V."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-032",
+      "number": 32,
+      "question": "If CAT is 24, DOG is 26, then RAT is?",
+      "options": {
+        "A": "38",
+        "B": "39",
+        "C": "40",
+        "D": "42"
+      },
+      "answer": "B",
+      "explanation": "Sum of positions: R(18)+A(1)+T(20) = 39.",
+      "hash": "46455046189cbfc7",
+      "translations": {
+        "hi": {
+          "question": "यदि CAT 24 है, DOG 26 है, तो RAT है?",
+          "options": {
+            "A": "38",
+            "B": "39",
+            "C": "40",
+            "D": "42"
+          },
+          "explanation": "स्थितियों का योग: R(18)+A(1)+T(20) = 39."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-033",
+      "number": 33,
+      "question": "Arrange in logical sequence: 1. Crop, 2. Seed, 3. Food, 4. Rain",
+      "options": {
+        "A": "4, 2, 1, 3",
+        "B": "2, 4, 1, 3",
+        "C": "4, 1, 2, 3",
+        "D": "2, 1, 4, 3"
+      },
+      "answer": "A",
+      "explanation": "Rain, Seed, Crop, Food.",
+      "hash": "c8fe0b57aacbe98d",
+      "translations": {
+        "hi": {
+          "question": "तार्किक क्रम में व्यवस्थित करें: 1. फसल, 2. बीज, 3. भोजन, 4. वर्षा",
+          "options": {
+            "A": "4, 2, 1, 3",
+            "B": "2, 4, 1, 3",
+            "C": "4, 1, 2, 3",
+            "D": "2, 1, 4, 3"
+          },
+          "explanation": "वर्षा, बीज, फसल, भोजन।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-034",
+      "number": 34,
+      "question": "Arrange in dictionary order: 1. Brave, 2. Brain, 3. Bread, 4. Brand",
+      "options": {
+        "A": "2, 4, 1, 3",
+        "B": "2, 1, 4, 3",
+        "C": "1, 2, 3, 4",
+        "D": "4, 2, 1, 3"
+      },
+      "answer": "A",
+      "explanation": "Brain, Brand, Brave, Bread.",
+      "hash": "36b900842c6de077",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Brave, 2. Brain, 3. Bread, 4. Brand",
+          "options": {
+            "A": "2, 4, 1, 3",
+            "B": "2, 1, 4, 3",
+            "C": "1, 2, 3, 4",
+            "D": "4, 2, 1, 3"
+          },
+          "explanation": "Brain, Brand, Brave, Bread."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-035",
+      "number": 35,
+      "question": "If '+' is '-', '-' is '*', '*' is '/', and '/' is '+', then 15 / 5 * 5 - 2 = ?",
+      "options": {
+        "A": "17",
+        "B": "18",
+        "C": "20",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": "15 + 5 / 5 * 2 = 15 + 1 * 2 = 17.",
+      "hash": "9b8f7333f83f7b0e",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का '-', '-' का '*', '*' का '/', और '/' का '+' है, तो 15 / 5 * 5 - 2 = ?",
+          "options": {
+            "A": "17",
+            "B": "18",
+            "C": "20",
+            "D": "32"
+          },
+          "explanation": "15 + 5 / 5 * 2 = 15 + 1 * 2 = 17."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-036",
+      "number": 36,
+      "question": "Find the mirror image of \"APPLE\" if the mirror is on the right.",
+      "options": {
+        "A": "ELPPA (letters reversed and facing left)",
+        "B": "APPLE (same)",
+        "C": "ELPPA (same direction)",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "Order reverses and letters undergo lateral inversion.",
+      "hash": "4f9d80d52fb1fa65",
+      "translations": {
+        "hi": {
+          "question": "\"APPLE\" की दर्पण छवि ज्ञात करें यदि दर्पण दाईं ओर है।",
+          "options": {
+            "A": "ELPPA (अक्षर उल्टे और बाईं ओर मुख किए हुए)",
+            "B": "APPLE (समान)",
+            "C": "ELPPA (समान दिशा)",
+            "D": "कोई नहीं"
+          },
+          "explanation": "क्रम उलट जाता है और अक्षरों का पार्श्व व्युत्क्रमण होता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-037",
+      "number": 37,
+      "question": "Which number replaces the question mark? (5, 6, 30 | 7, 8, 56 | 9, 2, ?)",
+      "options": {
+        "A": "11",
+        "B": "18",
+        "C": "20",
+        "D": "15"
+      },
+      "answer": "B",
+      "explanation": "Product of first two: 9 * 2 = 18.",
+      "hash": "51e4749517340a6f",
+      "translations": {
+        "hi": {
+          "question": "प्रश्न चिह्न के स्थान पर कौन सी संख्या आएगी? (5, 6, 30 | 7, 8, 56 | 9, 2, ?)",
+          "options": {
+            "A": "11",
+            "B": "18",
+            "C": "20",
+            "D": "15"
+          },
+          "explanation": "पहले दो का गुणनफल: 9 * 2 = 18."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-038",
+      "number": 38,
+      "question": "If 1st January 2024 was Monday, what was 31st December 2024?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Sunday"
+      },
+      "answer": "B",
+      "explanation": "2024 is a leap year. Day on 31st Dec = Day on 1st Jan + 1 = Monday + 1 = Tuesday.",
+      "hash": "9a6f11e031fab84a",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2024 को सोमवार था, तो 31 दिसंबर 2024 को क्या था?",
+          "options": {
+            "A": "सोमवार",
+            "B": "मंगलवार",
+            "C": "बुधवार",
+            "D": "रविवार"
+          },
+          "explanation": "2024 एक लीप वर्ष है। 31 दिसंबर का दिन = 1 जनवरी का दिन + 1 = सोमवार + 1 = मंगलवार।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-039",
+      "number": 39,
+      "question": "Pointing to a woman, Rohit says, \"She is the daughter of the only daughter of my father's wife.\" How is the woman related to Rohit?",
+      "options": {
+        "A": "Sister",
+        "B": "Daughter",
+        "C": "Niece",
+        "D": "Mother"
+      },
+      "answer": "C",
+      "explanation": "Father's wife is Mother. Her daughter is Rohit's sister. Sister's daughter is Niece.",
+      "hash": "b4235740c25fcfc2",
+      "translations": {
+        "hi": {
+          "question": "एक महिला की ओर इशारा करते हुए, रोहित कहता है, \"वह मेरे पिता की पत्नी की इकलौती बेटी की बेटी है।\" महिला का रोहित से क्या संबंध है?",
+          "options": {
+            "A": "बहन",
+            "B": "बेटी",
+            "C": "भांजी/भतीजी",
+            "D": "माँ"
+          },
+          "explanation": "पिता की पत्नी माँ है। उनकी बेटी रोहित की बहन है। बहन की बेटी भांजी है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-08-040",
+      "number": 40,
+      "question": "Select the related number: 8 : 64 :: 12 : ?",
+      "options": {
+        "A": "144",
+        "B": "120",
+        "C": "150",
+        "D": "160"
+      },
+      "answer": "A",
+      "explanation": "Square: 8^2 = 64. Similarly, 12^2 = 144.",
+      "hash": "a05c68cf583ab3c6",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 8 : 64 :: 12 : ?",
+          "options": {
+            "A": "144",
+            "B": "120",
+            "C": "150",
+            "D": "160"
+          },
+          "explanation": "वर्ग: 8^2 = 64. इसी तरह, 12^2 = 144."
+        }
+      }
+    }
+  ]
+}

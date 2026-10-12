@@ -1,0 +1,969 @@
+{
+  "subject": "Mock Test (Session I)",
+  "set": 4,
+  "title": "Session I Mock Test 4",
+  "questions": [
+    {
+      "id": "mock-test-session-i-04-001",
+      "number": 1,
+      "question": "A sum of 12000 is divided into two parts such that the simple interest on the first part for 3 years at 12% per annum may be equal to the simple interest on the second part for 4.5 years at 16% per annum. Find the first part.",
+      "options": {
+        "A": "8000",
+        "B": "6000",
+        "C": "4000",
+        "D": "7500"
+      },
+      "answer": "A",
+      "explanation": "Let parts be x and (12000-x). (x * 3 * 12)/100 = ((12000-x) * 4.5 * 16)/100 => 36x = 72(12000-x) => x = 2(12000-x) => 3x = 24000 => x = 8000.",
+      "hash": "a891b357d6de08a4",
+      "translations": {
+        "hi": {
+          "question": "12000 की राशि को दो भागों में इस प्रकार विभाजित किया जाता है कि पहले भाग पर 3 वर्ष के लिए 12% वार्षिक दर से साधारण ब्याज, दूसरे भाग पर 4.5 वर्ष के लिए 16% वार्षिक दर से साधारण ब्याज के बराबर हो। पहला भाग ज्ञात कीजिए।",
+          "options": {
+            "A": "8000",
+            "B": "6000",
+            "C": "4000",
+            "D": "7500"
+          },
+          "explanation": "मान लीजिए भाग x और (12000-x) हैं। (x * 3 * 12)/100 = ((12000-x) * 4.5 * 16)/100 => 36x = 72(12000-x) => x = 2(12000-x) => 3x = 24000 => x = 8000."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-002",
+      "number": 2,
+      "question": "If the price of sugar is increased by 25%, by how much percentage must a housewife reduce her consumption so as not to increase her expenditure?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "15%",
+        "D": "30%"
+      },
+      "answer": "A",
+      "explanation": "Reduction % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%.",
+      "hash": "63c78bd68e1a13c2",
+      "translations": {
+        "hi": {
+          "question": "यदि चीनी की कीमत में 25% की वृद्धि होती है, तो एक गृहिणी को अपनी खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि उसका खर्च न बढ़े?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "15%",
+            "D": "30%"
+          },
+          "explanation": "कमी % = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-003",
+      "number": 3,
+      "question": "The average of 7 consecutive numbers is 20. The largest of these numbers is:",
+      "options": {
+        "A": "20",
+        "B": "22",
+        "C": "23",
+        "D": "24"
+      },
+      "answer": "C",
+      "explanation": "For consecutive numbers, average is the middle number. Numbers are 17, 18, 19, 20, 21, 22, 23. Largest is 23.",
+      "hash": "f39075628cd5b5cb",
+      "translations": {
+        "hi": {
+          "question": "7 लगातार संख्याओं का औसत 20 है। इनमें से सबसे बड़ी संख्या है:",
+          "options": {
+            "A": "20",
+            "B": "22",
+            "C": "23",
+            "D": "24"
+          },
+          "explanation": "लगातार संख्याओं के लिए, औसत बीच की संख्या होती है। संख्याएँ 17, 18, 19, 20, 21, 22, 23 हैं। सबसे बड़ी संख्या 23 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-004",
+      "number": 4,
+      "question": "Find the value of sqrt(12 + sqrt(12 + sqrt(12 + ... inf))).",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "Factorize 12 into two consecutive numbers: 3 * 4. Since the sign is '+', the larger number 4 is the answer.",
+      "hash": "bb84e1f01ddfc1db",
+      "translations": {
+        "hi": {
+          "question": "sqrt(12 + sqrt(12 + sqrt(12 + ... inf))) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "12"
+          },
+          "explanation": "12 को दो लगातार संख्याओं में गुणनखंडित करें: 3 * 4. चूंकि चिह्न '+' है, इसलिए बड़ी संख्या 4 उत्तर है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-006",
+      "number": 6,
+      "question": "A shopkeeper sells an article at a profit of 25%. If he had bought it for 20% less and sold it for 10.50 less, he would have gained 30%. Find the CP.",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "75",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": "Let CP=100x, SP=125x. New CP=80x, New SP=125x - 10.5. 80x * 1.3 = 125x - 10.5 => 104x = 125x - 10.5 => 21x = 10.5 => x = 0.5. CP = 100 * 0.5 = 50.",
+      "hash": "32e65a730d27369a",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु को 25% के लाभ पर बेचता है। यदि उसने इसे 20% कम में खरीदा होता और इसे 10.50 कम में बेचा होता, तो उसे 30% का लाभ होता। क्रय मूल्य (CP) ज्ञात कीजिए।",
+          "options": {
+            "A": "50",
+            "B": "60",
+            "C": "75",
+            "D": "80"
+          },
+          "explanation": "माना CP=100x, SP=125x. नया CP=80x, नया SP=125x - 10.5. 80x * 1.3 = 125x - 10.5 => 104x = 125x - 10.5 => 21x = 10.5 => x = 0.5. CP = 100 * 0.5 = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-007",
+      "number": 7,
+      "question": "The difference between the compound interest and simple interest on a sum for 2 years at 15% per annum is 180. Find the sum.",
+      "options": {
+        "A": "8000",
+        "B": "10000",
+        "C": "12000",
+        "D": "7500"
+      },
+      "answer": "A",
+      "explanation": "Difference = P * (r/100)^2. 180 = P * (15/100)^2 => 180 = P * (225/10000) => P = (180 * 10000) / 225 = 8000.",
+      "hash": "cf0d68e8b04ec3cc",
+      "translations": {
+        "hi": {
+          "question": "किसी राशि पर 15% वार्षिक दर से 2 वर्ष के चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर 180 है। राशि ज्ञात कीजिए।",
+          "options": {
+            "A": "8000",
+            "B": "10000",
+            "C": "12000",
+            "D": "7500"
+          },
+          "explanation": "अंतर = P * (r/100)^2. 180 = P * (15/100)^2 => 180 = P * (225/10000) => P = (180 * 10000) / 225 = 8000."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-008",
+      "number": 8,
+      "question": "If a : b = 2 : 3 and b : c = 4 : 5, then c : a is:",
+      "options": {
+        "A": "15 : 8",
+        "B": "8 : 15",
+        "C": "10 : 12",
+        "D": "12 : 10"
+      },
+      "answer": "A",
+      "explanation": "a/c = (a/b) * (b/c) = (2/3) * (4/5) = 8/15. So c : a = 15 : 8.",
+      "hash": "a78e0ee20eecb476",
+      "translations": {
+        "hi": {
+          "question": "यदि a : b = 2 : 3 और b : c = 4 : 5 है, तो c : a है:",
+          "options": {
+            "A": "15 : 8",
+            "B": "8 : 15",
+            "C": "10 : 12",
+            "D": "12 : 10"
+          },
+          "explanation": "a/c = (a/b) * (b/c) = (2/3) * (4/5) = 8/15. इसलिए c : a = 15 : 8."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-009",
+      "number": 9,
+      "question": "The diagonal of a rectangle is 17 cm and its perimeter is 46 cm. Find the area of the rectangle.",
+      "options": {
+        "A": "100 sq cm",
+        "B": "120 sq cm",
+        "C": "130 sq cm",
+        "D": "150 sq cm"
+      },
+      "answer": "B",
+      "explanation": "l+b = 23. l^2+b^2 = 17^2 = 289. (l+b)^2 = l^2+b^2+2lb => 529 = 289 + 2lb => 2lb = 240 => lb = 120.",
+      "hash": "49745a47e18b74ad",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का विकर्ण 17 सेमी है और इसका परिमाप 46 सेमी है। आयत का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "100 वर्ग सेमी",
+            "B": "120 वर्ग सेमी",
+            "C": "130 वर्ग सेमी",
+            "D": "150 वर्ग सेमी"
+          },
+          "explanation": "l+b = 23. l^2+b^2 = 17^2 = 289. (l+b)^2 = l^2+b^2+2lb => 529 = 289 + 2lb => 2lb = 240 => lb = 120."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-010",
+      "number": 10,
+      "question": "Find the sum of all natural numbers from 1 to 50.",
+      "options": {
+        "A": "1225",
+        "B": "1250",
+        "C": "1275",
+        "D": "1300"
+      },
+      "answer": "C",
+      "explanation": "Sum = [n(n+1)]/2 = [50 * 51] / 2 = 25 * 51 = 1275.",
+      "hash": "7f57c1baf7333b9b",
+      "translations": {
+        "hi": {
+          "question": "1 से 50 तक की सभी प्राकृतिक संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "1225",
+            "B": "1250",
+            "C": "1275",
+            "D": "1300"
+          },
+          "explanation": "योग = [n(n+1)]/2 = [50 * 51] / 2 = 25 * 51 = 1275."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-011",
+      "number": 11,
+      "question": "A work which could be finished in 9 days was finished 3 days earlier after 10 more men joined. How many men were there initially?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": "B",
+      "explanation": "M1D1 = M2D2. x * 9 = (x + 10) * 6 => 9x = 6x + 60 => 3x = 60 => x = 20.",
+      "hash": "104fbe13beed85bc",
+      "translations": {
+        "hi": {
+          "question": "एक कार्य जो 9 दिनों में समाप्त हो सकता था, 10 और पुरुषों के शामिल होने के बाद 3 दिन पहले समाप्त हो गया। शुरुआत में कितने पुरुष थे?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+          },
+          "explanation": "M1D1 = M2D2. x * 9 = (x + 10) * 6 => 9x = 6x + 60 => 3x = 60 => x = 20."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-012",
+      "number": 12,
+      "question": "10% of 20% of 30% of 1000 is:",
+      "options": {
+        "A": "6",
+        "B": "60",
+        "C": "0.6",
+        "D": "600"
+      },
+      "answer": "A",
+      "explanation": "1000 * 0.3 * 0.2 * 0.1 = 300 * 0.2 * 0.1 = 60 * 0.1 = 6.",
+      "hash": "b01addab6d8b4b0b",
+      "translations": {
+        "hi": {
+          "question": "1000 के 30% के 20% का 10% है:",
+          "options": {
+            "A": "6",
+            "B": "60",
+            "C": "0.6",
+            "D": "600"
+          },
+          "explanation": "1000 * 0.3 * 0.2 * 0.1 = 300 * 0.2 * 0.1 = 60 * 0.1 = 6."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-013",
+      "number": 13,
+      "question": "Find the smallest number which when divided by 12, 15, 20 and 54 leaves a remainder of 4 in each case.",
+      "options": {
+        "A": "454",
+        "B": "544",
+        "C": "540",
+        "D": "504"
+      },
+      "answer": "B",
+      "explanation": "LCM of 12, 15, 20, 54 is 540. Required number = 540 + 4 = 544.",
+      "hash": "f714837f8dad1467",
+      "translations": {
+        "hi": {
+          "question": "वह छोटी से छोटी संख्या ज्ञात कीजिए जिसे 12, 15, 20 और 54 से विभाजित करने पर प्रत्येक मामले में 4 शेष बचता है।",
+          "options": {
+            "A": "454",
+            "B": "544",
+            "C": "540",
+            "D": "504"
+          },
+          "explanation": "12, 15, 20, 54 का लघुत्तम समापवर्त्य (LCM) 540 है। आवश्यक संख्या = 540 + 4 = 544."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-014",
+      "number": 14,
+      "question": "The speed of three cars is in the ratio 2 : 3 : 4. Find the ratio of the time taken by them to cover the same distance.",
+      "options": {
+        "A": "2 : 3 : 4",
+        "B": "4 : 3 : 2",
+        "C": "6 : 4 : 3",
+        "D": "3 : 4 : 6"
+      },
+      "answer": "C",
+      "explanation": "Time ratio is the inverse of speed ratio: 1/2 : 1/3 : 1/4. Multiply by LCM (12) to get 6 : 4 : 3.",
+      "hash": "dd6c52a6fd1afeb2",
+      "translations": {
+        "hi": {
+          "question": "तीन कारों की गति का अनुपात 2 : 3 : 4 है। समान दूरी तय करने में उनके द्वारा लिए गए समय का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "2 : 3 : 4",
+            "B": "4 : 3 : 2",
+            "C": "6 : 4 : 3",
+            "D": "3 : 4 : 6"
+          },
+          "explanation": "समय का अनुपात गति के अनुपात का व्युत्क्रम होता है: 1/2 : 1/3 : 1/4. लघुत्तम समापवर्त्य (12) से गुणा करने पर 6 : 4 : 3 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-015",
+      "number": 15,
+      "question": "A shopkeeper offers a 10% discount on an article and still makes a profit of 20%. If the CP is 450, find the MP.",
+      "options": {
+        "A": "500",
+        "B": "600",
+        "C": "540",
+        "D": "650"
+      },
+      "answer": "B",
+      "explanation": "MP = CP * [(100 + P%)/(100 - D%)] = 450 * [120/90] = 450 * (4/3) = 600.",
+      "hash": "8804357c44c4a87f",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु पर 10% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि क्रय मूल्य (CP) 450 है, तो अंकित मूल्य (MP) ज्ञात कीजिए।",
+          "options": {
+            "A": "500",
+            "B": "600",
+            "C": "540",
+            "D": "650"
+          },
+          "explanation": "MP = CP * [(100 + P%)/(100 - D%)] = 450 * [120/90] = 450 * (4/3) = 600."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-016",
+      "number": 16,
+      "question": "The ratio of two numbers is 3 : 4 and their HCF is 4. Find their LCM.",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "36",
+        "D": "48"
+      },
+      "answer": "D",
+      "explanation": "Numbers are 3 * 4 = 12 and 4 * 4 = 16. LCM of 12 and 16 is 48.",
+      "hash": "99fac1f5523677f3",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3 : 4 है और उनका महत्तम समापवर्तक (HCF) 4 है। उनका लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।",
+          "options": {
+            "A": "12",
+            "B": "24",
+            "C": "36",
+            "D": "48"
+          },
+          "explanation": "संख्याएँ 3 * 4 = 12 और 4 * 4 = 16 हैं। 12 और 16 का लघुत्तम समापवर्त्य (LCM) 48 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-017",
+      "number": 17,
+      "question": "Find the total surface area of a cube whose volume is 216 cubic cm.",
+      "options": {
+        "A": "144 sq cm",
+        "B": "216 sq cm",
+        "C": "256 sq cm",
+        "D": "196 sq cm"
+      },
+      "answer": "B",
+      "explanation": "Volume a^3 = 216 => side a = 6 cm. TSA = 6 * a^2 = 6 * 36 = 216.",
+      "hash": "45e3451aa3bab6d5",
+      "translations": {
+        "hi": {
+          "question": "एक घन का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए जिसका आयतन 216 घन सेमी है।",
+          "options": {
+            "A": "144 वर्ग सेमी",
+            "B": "216 वर्ग सेमी",
+            "C": "256 वर्ग सेमी",
+            "D": "196 वर्ग सेमी"
+          },
+          "explanation": "आयतन a^3 = 216 => भुजा a = 6 सेमी। कुल पृष्ठीय क्षेत्रफल = 6 * a^2 = 6 * 36 = 216."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-018",
+      "number": 18,
+      "question": "A train passes a platform 100 m long in 60 seconds at a speed of 72 km/hr. The time taken by the train to cross an electric pole is:",
+      "options": {
+        "A": "50 sec",
+        "B": "55 sec",
+        "C": "45 sec",
+        "D": "60 sec"
+      },
+      "answer": "B",
+      "explanation": "Speed = 20 m/s. Distance = Speed * Time = 20 * 60 = 1200 m (Train + Platform). Train length = 1100 m. Time for pole = 1100 / 20 = 55 sec.",
+      "hash": "d69e669cd87991f7",
+      "translations": {
+        "hi": {
+          "question": "72 किमी/घंटा की गति से एक ट्रेन 100 मीटर लंबे प्लेटफॉर्म को 60 सेकंड में पार करती है। एक बिजली के खंभे को पार करने में ट्रेन द्वारा लिया गया समय है:",
+          "options": {
+            "A": "50 सेकंड",
+            "B": "55 सेकंड",
+            "C": "45 सेकंड",
+            "D": "60 सेकंड"
+          },
+          "explanation": "गति = 20 मीटर/सेकंड। दूरी = गति * समय = 20 * 60 = 1200 मीटर (ट्रेन + प्लेटफॉर्म)। ट्रेन की लंबाई = 1100 मीटर। खंभे के लिए समय = 1100 / 20 = 55 सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-019",
+      "number": 19,
+      "question": "A can complete 1/3 of a work in 5 days and B can complete 2/5 of the same work in 10 days. In how many days can both finish the work together?",
+      "options": {
+        "A": "7.5 days",
+        "B": "9.375 days",
+        "C": "10 days",
+        "D": "12 days"
+      },
+      "answer": "B",
+      "explanation": "A full work = 15 days. B full work = 25 days. Together = (15 * 25) / (15 + 25) = 375 / 40 = 9.375.",
+      "hash": "968ab105f0b58731",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य का 1/3 भाग 5 दिनों में पूरा कर सकता है और B उसी कार्य का 2/5 भाग 10 दिनों में पूरा कर सकता है। दोनों मिलकर कार्य को कितने दिनों में समाप्त कर सकते हैं?",
+          "options": {
+            "A": "7.5 दिन",
+            "B": "9.375 दिन",
+            "C": "10 दिन",
+            "D": "12 दिन"
+          },
+          "explanation": "A का पूरा कार्य = 15 दिन। B का पूरा कार्य = 25 दिन। एक साथ = (15 * 25) / (15 + 25) = 375 / 40 = 9.375."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-020",
+      "number": 20,
+      "question": "If x : y = 3 : 4, find the value of (5x - 2y) : (7x + 2y).",
+      "options": {
+        "A": "7 : 29",
+        "B": "29 : 7",
+        "C": "5 : 7",
+        "D": "3 : 4"
+      },
+      "answer": "A",
+      "explanation": "Substitute x=3, y=4: (5*3 - 2*4) : (7*3 + 2*4) = (15 - 8) : (21 + 8) = 7 : 29.",
+      "hash": "76c92f3a5f9508ae",
+      "translations": {
+        "hi": {
+          "question": "यदि x : y = 3 : 4 है, तो (5x - 2y) : (7x + 2y) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "7 : 29",
+            "B": "29 : 7",
+            "C": "5 : 7",
+            "D": "3 : 4"
+          },
+          "explanation": "x=3, y=4 रखने पर: (5*3 - 2*4) : (7*3 + 2*4) = (15 - 8) : (21 + 8) = 7 : 29."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-021",
+      "number": 21,
+      "question": "Find the missing number: 8, 24, 12, 36, 18, 54, ?",
+      "options": {
+        "A": "27",
+        "B": "60",
+        "C": "72",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "Pattern is *3, /2, *3, /2. Next is 54 / 2 = 27.",
+      "hash": "43264b5e92589478",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 8, 24, 12, 36, 18, 54, ?",
+          "options": {
+            "A": "27",
+            "B": "60",
+            "C": "72",
+            "D": "30"
+          },
+          "explanation": "पैटर्न *3, /2, *3, /2 है। अगला 54 / 2 = 27 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-022",
+      "number": 22,
+      "question": "Choose the odd pair: (Gold, Ornament), (Cloth, Garment), (Wood, Furniture), (Leather, Animal)",
+      "options": {
+        "A": "(Gold, Ornament)",
+        "B": "(Cloth, Garment)",
+        "C": "(Wood, Furniture)",
+        "D": "(Leather, Animal)"
+      },
+      "answer": "D",
+      "explanation": "In others, first is the material and second is the product. Leather is obtained from animals, not the other way around for the product sequence.",
+      "hash": "fd45e4133eb9c925",
+      "translations": {
+        "hi": {
+          "question": "विषम जोड़ी चुनें: (सोना, आभूषण), (कपड़ा, परिधान), (लकड़ी, फर्नीचर), (चमड़ा, जानवर)",
+          "options": {
+            "A": "(सोना, आभूषण)",
+            "B": "(कपड़ा, परिधान)",
+            "C": "(लकड़ी, फर्नीचर)",
+            "D": "(चमड़ा, जानवर)"
+          },
+          "explanation": "अन्य में, पहला पदार्थ है और दूसरा उत्पाद है। चमड़ा जानवरों से प्राप्त किया जाता है, उत्पाद अनुक्रम के लिए दूसरा तरीका नहीं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-023",
+      "number": 23,
+      "question": "If 'APPLE' is coded as 'ETTPI', how is 'MANGO' coded?",
+      "options": {
+        "A": "QERKS",
+        "B": "QERKT",
+        "C": "PERKS",
+        "D": "QDQJP"
+      },
+      "answer": "A",
+      "explanation": "A+4=E, P+4=T, P+4=T, L+4=P, E+4=I. Similarly, M+4=Q, A+4=E, N+4=R, G+4=K, O+4=S.",
+      "hash": "b92ea1e9326dfcc2",
+      "translations": {
+        "hi": {
+          "question": "यदि 'APPLE' को 'ETTPI' के रूप में कोडित किया गया है, तो 'MANGO' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "QERKS",
+            "B": "QERKT",
+            "C": "PERKS",
+            "D": "QDQJP"
+          },
+          "explanation": "A+4=E, P+4=T, P+4=T, L+4=P, E+4=I. इसी तरह, M+4=Q, A+4=E, N+4=R, G+4=K, O+4=S."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-024",
+      "number": 24,
+      "question": "If Monday is the 1st day of the month, what day will be the 25th?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Thursday",
+        "D": "Sunday"
+      },
+      "answer": "C",
+      "explanation": "1, 8, 15, 22 are Mondays. 23-Tue, 24-Wed, 25-Thu.",
+      "hash": "cf89aa262ee39b27",
+      "translations": {
+        "hi": {
+          "question": "यदि महीने का पहला दिन सोमवार है, तो 25वां दिन कौन सा होगा?",
+          "options": {
+            "A": "सोमवार",
+            "B": "मंगलवार",
+            "C": "गुरुवार",
+            "D": "रविवार"
+          },
+          "explanation": "1, 8, 15, 22 सोमवार हैं। 23-मंगलवार, 24-बुधवार, 25-गुरुवार।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-025",
+      "number": 25,
+      "question": "Introducing a woman, a man said, \"Her mother is the only daughter of my mother-in-law.\" How is the man related to the woman?",
+      "options": {
+        "A": "Uncle",
+        "B": "Father",
+        "C": "Brother",
+        "D": "Husband"
+      },
+      "answer": "B",
+      "explanation": "Only daughter of mother-in-law is the man's wife. She is the woman's mother. So man is the father.",
+      "hash": "396df140cdc7a8a8",
+      "translations": {
+        "hi": {
+          "question": "एक महिला का परिचय देते हुए, एक पुरुष ने कहा, \"उसकी माँ मेरी सास की इकलौती बेटी है।\" पुरुष का महिला से क्या संबंध है?",
+          "options": {
+            "A": "मामा/चाचा",
+            "B": "पिता",
+            "C": "भाई",
+            "D": "पति"
+          },
+          "explanation": "सास की इकलौती बेटी पुरुष की पत्नी है। वह महिला की माँ है। तो पुरुष पिता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-026",
+      "number": 26,
+      "question": "Arrange in dictionary order: 1. Careful, 2. Career, 3. Carport, 4. Carriage",
+      "options": {
+        "A": "1, 2, 4, 3",
+        "B": "1, 2, 3, 4",
+        "C": "2, 1, 3, 4",
+        "D": "1, 4, 2, 3"
+      },
+      "answer": "C",
+      "explanation": "All four words begin with 'Car'. Career (C-A-R-E-E) comes before Careful (C-A-R-E-F), Carport (C-A-R-P) comes next, and Carriage (C-A-R-R) is last. Order: 2, 1, 3, 4.",
+      "hash": "f2f551ec1dc9d6e1",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Careful, 2. Career, 3. Carport, 4. Carriage",
+          "options": {
+            "A": "1, 2, 4, 3",
+            "B": "1, 2, 3, 4",
+            "C": "2, 1, 3, 4",
+            "D": "1, 4, 2, 3"
+          },
+          "explanation": "चारों शब्द 'Car' से शुरू होते हैं। Career (C-A-R-E-E), Careful (C-A-R-E-F) से पहले आता है, उसके बाद Carport (C-A-R-P) और अंत में Carriage (C-A-R-R)। क्रम: 2, 1, 3, 4."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-027",
+      "number": 27,
+      "question": "If 'South-West' becomes 'North', then 'North-East' will become:",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "Direction is rotated 135 degrees clockwise. North-East rotated 135 degrees clockwise is South.",
+      "hash": "40dcd1aec19083c6",
+      "translations": {
+        "hi": {
+          "question": "यदि 'दक्षिण-पश्चिम' 'उत्तर' बन जाता है, तो 'उत्तर-पूर्व' बन जाएगा:",
+          "options": {
+            "A": "दक्षिण",
+            "B": "उत्तर",
+            "C": "पूर्व",
+            "D": "पश्चिम"
+          },
+          "explanation": "दिशा को 135 डिग्री दक्षिणावर्त घुमाया गया है। उत्तर-पूर्व को 135 डिग्री दक्षिणावर्त घुमाने पर दक्षिण आता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-028",
+      "number": 28,
+      "question": "In a row, A is 15th from the left and B is 18th from the right. If they interchange positions, A becomes 25th from the left. How many people are in the row?",
+      "options": {
+        "A": "41",
+        "B": "42",
+        "C": "43",
+        "D": "44"
+      },
+      "answer": "B",
+      "explanation": "Total = (New position of A + Old position of B) - 1 = (25 + 18) - 1 = 42.",
+      "hash": "68a3b040a27c6eaa",
+      "translations": {
+        "hi": {
+          "question": "एक पंक्ति में, A बाईं ओर से 15वें और B दाईं ओर से 18वें स्थान पर है। यदि वे स्थान आपस में बदल लेते हैं, तो A बाईं ओर से 25वें स्थान पर आ जाता है। पंक्ति में कितने लोग हैं?",
+          "options": {
+            "A": "41",
+            "B": "42",
+            "C": "43",
+            "D": "44"
+          },
+          "explanation": "कुल = (A की नई स्थिति + B की पुरानी स्थिति) - 1 = (25 + 18) - 1 = 42."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-029",
+      "number": 29,
+      "question": "Find the odd number: 121, 144, 169, 180, 196",
+      "options": {
+        "A": "144",
+        "B": "169",
+        "C": "180",
+        "D": "196"
+      },
+      "answer": "C",
+      "explanation": "Others are squares of 11, 12, 13, 14. 180 is not a perfect square.",
+      "hash": "5ad9937299969e55",
+      "translations": {
+        "hi": {
+          "question": "विषम संख्या ज्ञात कीजिए: 121, 144, 169, 180, 196",
+          "options": {
+            "A": "144",
+            "B": "169",
+            "C": "180",
+            "D": "196"
+          },
+          "explanation": "अन्य 11, 12, 13, 14 के वर्ग हैं। 180 एक पूर्ण वर्ग नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-030",
+      "number": 30,
+      "question": "Pointing towards a person, a man said to a woman, \"His mother is the only daughter of your father.\" How is the woman related to that person?",
+      "options": {
+        "A": "Sister",
+        "B": "Mother",
+        "C": "Aunt",
+        "D": "Grandmother"
+      },
+      "answer": "B",
+      "explanation": "Only daughter of woman's father is the woman herself. She is the mother of the person.",
+      "hash": "2c2b433dc613ae98",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति की ओर इशारा करते हुए, एक पुरुष ने एक महिला से कहा, \"उसकी माँ तुम्हारे पिता की इकलौती बेटी है।\" महिला उस व्यक्ति से किस प्रकार संबंधित है?",
+          "options": {
+            "A": "बहन",
+            "B": "माँ",
+            "C": "चाची",
+            "D": "दादी"
+          },
+          "explanation": "महिला के पिता की इकलौती बेटी वह महिला स्वयं है। वह उस व्यक्ति की माँ है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-031",
+      "number": 31,
+      "question": "Find the missing term: BDF, HJL, NPR, ?",
+      "options": {
+        "A": "TVX",
+        "B": "TUV",
+        "C": "STU",
+        "D": "VWX"
+      },
+      "answer": "A",
+      "explanation": "First letters: B+6=H, H+6=N, N+6=T. Similarly for others.",
+      "hash": "e8f3169333cfe77e",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद ज्ञात कीजिए: BDF, HJL, NPR, ?",
+          "options": {
+            "A": "TVX",
+            "B": "TUV",
+            "C": "STU",
+            "D": "VWX"
+          },
+          "explanation": "पहले अक्षर: B+6=H, H+6=N, N+6=T. अन्य के लिए भी इसी तरह।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-032",
+      "number": 32,
+      "question": "Select the related number: 12 : 144 :: 15 : ?",
+      "options": {
+        "A": "165",
+        "B": "195",
+        "C": "225",
+        "D": "255"
+      },
+      "answer": "C",
+      "explanation": "12^2 = 144, 15^2 = 225.",
+      "hash": "87fc4f0a6d905c63",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 12 : 144 :: 15 : ?",
+          "options": {
+            "A": "165",
+            "B": "195",
+            "C": "225",
+            "D": "255"
+          },
+          "explanation": "12^2 = 144, 15^2 = 225."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-033",
+      "number": 33,
+      "question": "If 'COLD' is coded as 'DPME', how is 'HEAT' coded?",
+      "options": {
+        "A": "IFBU",
+        "B": "IEBU",
+        "C": "IFBV",
+        "D": "IGBU"
+      },
+      "answer": "A",
+      "explanation": "Each letter is +1. H+1=I, E+1=F, A+1=B, T+1=U.",
+      "hash": "335280fed6e1e0c6",
+      "translations": {
+        "hi": {
+          "question": "यदि 'COLD' को 'DPME' के रूप में कोडित किया गया है, तो 'HEAT' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "IFBU",
+            "B": "IEBU",
+            "C": "IFBV",
+            "D": "IGBU"
+          },
+          "explanation": "प्रत्येक अक्षर +1 है। H+1=I, E+1=F, A+1=B, T+1=U."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-034",
+      "number": 34,
+      "question": "Complete the series: 4, 9, 20, 43, 90, ?",
+      "options": {
+        "A": "180",
+        "B": "185",
+        "C": "190",
+        "D": "187"
+      },
+      "answer": "B",
+      "explanation": "Pattern is (n * 2) + 1, (n * 2) + 2, (n * 2) + 3... 90 * 2 + 5 = 185.",
+      "hash": "10f826a95d33bbc9",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 4, 9, 20, 43, 90, ?",
+          "options": {
+            "A": "180",
+            "B": "185",
+            "C": "190",
+            "D": "187"
+          },
+          "explanation": "पैटर्न (n * 2) + 1, (n * 2) + 2, (n * 2) + 3... 90 * 2 + 5 = 185 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-036",
+      "number": 36,
+      "question": "Which word cannot be formed from 'MAPPING'?",
+      "options": {
+        "A": "MAP",
+        "B": "PIN",
+        "C": "MAIN",
+        "D": "GANG"
+      },
+      "answer": "D",
+      "explanation": "Only one 'G' is available in 'MAPPING'.",
+      "hash": "c94b1376e1fd6179",
+      "translations": {
+        "hi": {
+          "question": "'MAPPING' से कौन सा शब्द नहीं बनाया जा सकता?",
+          "options": {
+            "A": "MAP",
+            "B": "PIN",
+            "C": "MAIN",
+            "D": "GANG"
+          },
+          "explanation": "'MAPPING' में केवल एक 'G' उपलब्ध है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-037",
+      "number": 37,
+      "question": "All poets are day-dreamers. All painters are day-dreamers. Conclusion: All painters are poets.",
+      "options": {
+        "A": "Follows",
+        "B": "Does not follow",
+        "C": "Maybe",
+        "D": "Insufficient data"
+      },
+      "answer": "B",
+      "explanation": "Both painters and poets share a common attribute but are not necessarily related to each other.",
+      "hash": "c73665018462e660",
+      "translations": {
+        "hi": {
+          "question": "सभी कवि दिन में सपने देखने वाले हैं। सभी चित्रकार दिन में सपने देखने वाले हैं। निष्कर्ष: सभी चित्रकार कवि हैं।",
+          "options": {
+            "A": "अनुसरण करता है",
+            "B": "अनुसरण नहीं करता",
+            "C": "शायद",
+            "D": "अपर्याप्त डेटा"
+          },
+          "explanation": "चित्रकार और कवि दोनों एक ही गुण साझा करते हैं लेकिन जरूरी नहीं कि वे एक-दूसरे से संबंधित हों।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-039",
+      "number": 39,
+      "question": "If 'A' means '+', 'B' means '-', 'C' means '*', what is 10 C 4 A 8 B 2?",
+      "options": {
+        "A": "46",
+        "B": "50",
+        "C": "44",
+        "D": "48"
+      },
+      "answer": "A",
+      "explanation": "10 * 4 + 8 - 2 = 40 + 8 - 2 = 46.",
+      "hash": "ba956be6d0da7806",
+      "translations": {
+        "hi": {
+          "question": "यदि 'A' का अर्थ '+', 'B' का अर्थ '-', 'C' का अर्थ '*' है, तो 10 C 4 A 8 B 2 क्या है?",
+          "options": {
+            "A": "46",
+            "B": "50",
+            "C": "44",
+            "D": "48"
+          },
+          "explanation": "10 * 4 + 8 - 2 = 40 + 8 - 2 = 46."
+        }
+      }
+    },
+    {
+      "id": "mock-test-session-i-04-040",
+      "number": 40,
+      "question": "If 1st Jan 2024 was Monday, what day was 1st Jan 2025?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Friday"
+      },
+      "answer": "B",
+      "explanation": "2024 is a leap year. So 2 odd days. Monday + 2 = Wednesday.",
+      "hash": "78863f5512ecd603",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 जनवरी 2025 को कौन सा दिन था?",
+          "options": {
+            "A": "मंगलवार",
+            "B": "बुधवार",
+            "C": "गुरुवार",
+            "D": "शुक्रवार"
+          },
+          "explanation": "2024 एक लीप वर्ष है। इसलिए 2 विषम दिन। सोमवार + 2 = बुधवार।"
+        }
+      }
+    }
+  ]
+}
