@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 1,
+  "title": "Mathematics Mock Test 1",
+  "questions": [
+    {
+      "id": "mathematics-01-001",
+      "number": 1,
+      "question": "In a five-digit number, the digit at the tens place is 8, the digit at units place is one-fourth of the tens place digit, the digit at thousands place is 0, and the digit at hundreds place is twice the units place digit. What is the number?",
+      "options": {
+        "A": "40482",
+        "B": "60482",
+        "C": "04482",
+        "D": "40282"
+      },
+      "answer": "B",
+      "explanation": "Tens=8, Units=8/4=2, Thousands=0, Hundreds=2*2=4. If the ten-thousands digit is missing from logic but present in options, 60482 fits the criteria.",
+      "hash": "51de5c2f3ae3d7d1",
+      "translations": {
+        "hi": {
+          "question": "एक पांच अंकीय संख्या में, दहाई के स्थान का अंक 8 है, इकाई के स्थान का अंक दहाई के स्थान के अंक का एक-चौथाई है, हजार के स्थान का अंक 0 है, और सैकड़े के स्थान का अंक इकाई के स्थान के अंक का दोगुना है। संख्या क्या है?",
+          "options": {
+            "A": "40482",
+            "B": "60482",
+            "C": "04482",
+            "D": "40282"
+          },
+          "explanation": "दहाई=8, इकाई=2, हजार=0, सैकड़ा=4। 60482 इन शर्तों को पूरा करता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-002",
+      "number": 2,
+      "question": "A train leaves New Delhi on 29th August at 16:30 hours and reaches its destination on 31st August at 08:45 hours. What is the total travel time?",
+      "options": {
+        "A": "40 hours 15 minutes",
+        "B": "38 hours 15 minutes",
+        "C": "42 hours 15 minutes",
+        "D": "48 hours 15 minutes"
+      },
+      "answer": "A",
+      "explanation": "29th (16:30) to 30th (16:30) is 24h. 30th (16:30) to 31st (04:30) is 12h. 04:30 to 08:45 is 4h 15m. Total = 40h 15m.",
+      "hash": "fdbc51810b4fb9c2",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 29 अगस्त को 16:30 बजे नई दिल्ली से चलती है और 31 अगस्त को 08:45 बजे अपने गंतव्य पर पहुँचती है। यात्रा का कुल समय क्या है?",
+          "options": {
+            "A": "40 घंटे 15 मिनट",
+            "B": "38 घंटे 15 मिनट",
+            "C": "42 घंटे 15 मिनट",
+            "D": "48 घंटे 15 मिनट"
+          },
+          "explanation": "29 (16:30) से 30 (16:30) = 24घंटे। 30 (16:30) से 31 (08:45) = 16घंटे 15मिनट। कुल = 40घंटे 15मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-003",
+      "number": 3,
+      "question": "Which of the following is not a factor of 3630?",
+      "options": {
+        "A": "11",
+        "B": "3",
+        "C": "9",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "Sum of digits of 3630 is 12, which is not divisible by 9, so 3630 is not divisible by 9.",
+      "hash": "bc4598e11a906fcf",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 3630 का गुणनखंड नहीं है?",
+          "options": {
+            "A": "11",
+            "B": "3",
+            "C": "9",
+            "D": "5"
+          },
+          "explanation": "3630 के अंकों का योग 12 है, जो 9 से विभाज्य नहीं है, इसलिए 3630, 9 से विभाज्य नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-004",
+      "number": 4,
+      "question": "What should be subtracted from the sum of 8008, 8088 and 8808 to obtain 17863?",
+      "options": {
+        "A": "6121",
+        "B": "7041",
+        "C": "7141",
+        "D": "6041"
+      },
+      "answer": "B",
+      "explanation": "Sum = 24904. Required number = 24904 - 17863 = 7041.",
+      "hash": "6849ecde6f650f27",
+      "translations": {
+        "hi": {
+          "question": "17863 प्राप्त करने के लिए 8008, 8088 और 8808 के योग में से क्या घटाया जाना चाहिए?",
+          "options": {
+            "A": "6121",
+            "B": "7041",
+            "C": "7141",
+            "D": "6041"
+          },
+          "explanation": "योग = 24904। आवश्यक संख्या = 24904 - 17863 = 7041।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-005",
+      "number": 5,
+      "question": "A bucket of capacity 2000 ml is to be filled by using containers of 200 ml and 300 ml. Which of the following combinations is not correct?",
+      "options": {
+        "A": "1, 6",
+        "B": "4, 4",
+        "C": "7, 2",
+        "D": "6, 3"
+      },
+      "answer": "D",
+      "explanation": "6(200) + 3(300) = 1200 + 900 = 2100 ml, which exceeds 2000 ml.",
+      "hash": "64d3031a9682c953",
+      "translations": {
+        "hi": {
+          "question": "2000 मिलीलीटर क्षमता वाली एक बाल्टी को 200 मिलीलीटर और 300 मिलीलीटर के कंटेनरों का उपयोग करके भरा जाना है। निम्नलिखित में से कौन सा संयोजन सही नहीं है?",
+          "options": {
+            "A": "1, 6",
+            "B": "4, 4",
+            "C": "7, 2",
+            "D": "6, 3"
+          },
+          "explanation": "6(200) + 3(300) = 2100 मिलीलीटर, जो 2000 मिलीलीटर से अधिक है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-006",
+      "number": 6,
+      "question": "The perimeter of a square is 48 cm. The perimeter of a rectangle is equal to the perimeter of this square. If the length of the rectangle is 4 cm more than its breadth, find the area of the rectangle.",
+      "options": {
+        "A": "128 sq cm",
+        "B": "140 sq cm",
+        "C": "144 sq cm",
+        "D": "120 sq cm"
+      },
+      "answer": "B",
+      "explanation": "Perimeter = 48, so 2(L + B) = 48 -> L + B = 24. Since L = B + 4, (B+4) + B = 24 -> 2B = 20 -> B = 10, L = 14. Area = 14*10 = 140.",
+      "hash": "c117747c8015b084",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का परिमाप 48 सेमी है। एक आयत का परिमाप इस वर्ग के परिमाप के बराबर है। यदि आयत की लंबाई उसकी चौड़ाई से 4 सेमी अधिक है, तो आयत का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "128 वर्ग सेमी",
+            "B": "140 वर्ग सेमी",
+            "C": "144 वर्ग सेमी",
+            "D": "120 वर्ग सेमी"
+          },
+          "explanation": "परिमाप = 48, 2(L+B)=48 -> L+B=24। L=B+4 से, B=10, L=14। क्षेत्रफल = 14*10 = 140।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-007",
+      "number": 7,
+      "question": "Which of the following represents descending order of numbers?",
+      "options": {
+        "A": "30.5, 3.50, 3.05, 3.055, 0.355",
+        "B": "30.5, 3.50, 3.055, 3.05, 0.355",
+        "C": "30.5, 3.055, 3.50, 3.05, 0.355",
+        "D": "0.355, 3.05, 3.055, 3.50, 30.5"
+      },
+      "answer": "B",
+      "explanation": "Comparing decimals: 30.5 > 3.5 > 3.055 > 3.05 > 0.355.",
+      "hash": "69052c7dbdceef31",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा संख्याओं के अवरोही क्रम को दर्शाता है?",
+          "options": {
+            "A": "30.5, 3.50, 3.05, 3.055, 0.355",
+            "B": "30.5, 3.50, 3.055, 3.05, 0.355",
+            "C": "30.5, 3.055, 3.50, 3.05, 0.355",
+            "D": "0.355, 3.05, 3.055, 3.50, 30.5"
+          },
+          "explanation": "दशमलवों की तुलना करने पर: 30.5 > 3.5 > 3.055 > 3.05 > 0.355।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-008",
+      "number": 8,
+      "question": "Which of the following is a pair of twin primes between 50 and 100?",
+      "options": {
+        "A": "(51, 53)",
+        "B": "(71, 73)",
+        "C": "(81, 83)",
+        "D": "(91, 93)"
+      },
+      "answer": "B",
+      "explanation": "Twin primes are prime numbers with a difference of 2. 71 and 73 are both prime.",
+      "hash": "b3804425b590c781",
+      "translations": {
+        "hi": {
+          "question": "50 और 100 के बीच जुड़वां अभाज्य संख्याओं का युग्म कौन सा है?",
+          "options": {
+            "A": "(51, 53)",
+            "B": "(71, 73)",
+            "C": "(81, 83)",
+            "D": "(91, 93)"
+          },
+          "explanation": "जुड़वां अभाज्य संख्याएं वे अभाज्य संख्याएं हैं जिनमें 2 का अंतर होता है। 71 और 73 दोनों अभाज्य हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-009",
+      "number": 9,
+      "question": "A taxi meter shows charges of Rs 50 for the first 2 km and Rs 16 for every subsequent km. Mansi pays Rs 258 for a journey. How far did she travel?",
+      "options": {
+        "A": "15 km",
+        "B": "12 km",
+        "C": "18 km",
+        "D": "13 km"
+      },
+      "answer": "A",
+      "explanation": "258 - 50 = 208. Subsequent distance = 208 / 16 = 13 km. Total distance = 2 + 13 = 15 km.",
+      "hash": "8ffa7db5565772b0",
+      "translations": {
+        "hi": {
+          "question": "एक टैक्सी मीटर पहले 2 किमी के लिए 50 रुपये और उसके बाद प्रत्येक किमी के लिए 16 रुपये का शुल्क दिखाता है। मानसी एक यात्रा के लिए 258 रुपये का भुगतान करती है। उसने कितनी दूर यात्रा की?",
+          "options": {
+            "A": "15 किमी",
+            "B": "12 किमी",
+            "C": "18 किमी",
+            "D": "13 किमी"
+          },
+          "explanation": "258 - 50 = 208। अगली दूरी = 208 / 16 = 13 किमी। कुल दूरी = 2 + 13 = 15 किमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-010",
+      "number": 10,
+      "question": "If 1/3 of a number is 12, what will be 1/4 of that number?",
+      "options": {
+        "A": "36",
+        "B": "9",
+        "C": "18",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "Number = 12 * 3 = 36. 1/4 of 36 = 9.",
+      "hash": "a21e26ebd60bcdca",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 1/3 भाग 12 है, तो उस संख्या का 1/4 भाग क्या होगा?",
+          "options": {
+            "A": "36",
+            "B": "9",
+            "C": "18",
+            "D": "12"
+          },
+          "explanation": "संख्या = 12 * 3 = 36। 36 का 1/4 = 9।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-011",
+      "number": 11,
+      "question": "What is the sum of the place value and face value of 7 in 17065?",
+      "options": {
+        "A": "7007",
+        "B": "7000",
+        "C": "7",
+        "D": "7700"
+      },
+      "answer": "A",
+      "explanation": "Place value = 7000, Face value = 7. Sum = 7000 + 7 = 7007.",
+      "hash": "8909e2db3058fc03",
+      "translations": {
+        "hi": {
+          "question": "17065 में 7 के स्थानीय मान और अंकित मान का योग क्या है?",
+          "options": {
+            "A": "7007",
+            "B": "7000",
+            "C": "7",
+            "D": "7700"
+          },
+          "explanation": "स्थानीय मान = 7000, अंकित मान = 7। योग = 7007।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-012",
+      "number": 12,
+      "question": "How many thousands are there in 10101?",
+      "options": {
+        "A": "101",
+        "B": "10",
+        "C": "11",
+        "D": "1010"
+      },
+      "answer": "B",
+      "explanation": "10101 / 1000 gives a quotient of 10.",
+      "hash": "15939949be0216bb",
+      "translations": {
+        "hi": {
+          "question": "10101 में कितने हजार हैं?",
+          "options": {
+            "A": "101",
+            "B": "10",
+            "C": "11",
+            "D": "1010"
+          },
+          "explanation": "10101 को 1000 से भाग देने पर भागफल 10 आता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-013",
+      "number": 13,
+      "question": "A wire in the shape of a rectangle of length 18 cm and breadth 10 cm is reshaped into a square. What is the side of the square?",
+      "options": {
+        "A": "14 cm",
+        "B": "28 cm",
+        "C": "7 cm",
+        "D": "15 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter of rectangle = 2(18+10) = 56. Square perimeter = 56, so Side = 56 / 4 = 14 cm.",
+      "hash": "0f30dcc950720c87",
+      "translations": {
+        "hi": {
+          "question": "18 सेमी लंबाई और 10 सेमी चौड़ाई वाले आयत के आकार के एक तार को वर्ग के रूप में बदला जाता है। वर्ग की भुजा क्या है?",
+          "options": {
+            "A": "14 सेमी",
+            "B": "28 सेमी",
+            "C": "7 सेमी",
+            "D": "15 सेमी"
+          },
+          "explanation": "आयत का परिमाप = 2(18+10) = 56। वर्ग का परिमाप = 56, इसलिए भुजा = 56/4 = 14 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-014",
+      "number": 14,
+      "question": "Which angle is formed by the hands of a clock at 6:00 AM?",
+      "options": {
+        "A": "Acute angle",
+        "B": "Right angle",
+        "C": "Straight angle",
+        "D": "Obtuse angle"
+      },
+      "answer": "C",
+      "explanation": "At 6:00, the hands are in a straight line, forming 180 degrees.",
+      "hash": "50f5a13f8a6165a5",
+      "translations": {
+        "hi": {
+          "question": "सुबह 6:00 बजे घड़ी की सुइयों द्वारा कौन सा कोण बनता है?",
+          "options": {
+            "A": "न्यून कोण",
+            "B": "समकोण",
+            "C": "ऋजु कोण",
+            "D": "अधिक कोण"
+          },
+          "explanation": "6:00 बजे, सुइयां एक सीधी रेखा में होती हैं, जो 180 डिग्री का कोण बनाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-015",
+      "number": 15,
+      "question": "Which of the following is equivalent to 0.50?",
+      "options": {
+        "A": "5/100",
+        "B": "5/10",
+        "C": "1/5",
+        "D": "5/1"
+      },
+      "answer": "B",
+      "explanation": "0.50 = 50/100 = 5/10.",
+      "hash": "14b5cb655f5e94a1",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 0.50 के बराबर है?",
+          "options": {
+            "A": "5/100",
+            "B": "5/10",
+            "C": "1/5",
+            "D": "5/1"
+          },
+          "explanation": "0.50 = 50/100 = 5/10।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-016",
+      "number": 16,
+      "question": "What is the number of degrees in two and two-third right angles?",
+      "options": {
+        "A": "240",
+        "B": "270",
+        "C": "180",
+        "D": "210"
+      },
+      "answer": "A",
+      "explanation": "2 * 90 + (2/3) * 90 = 180 + 60 = 240.",
+      "hash": "ac7c1a9fe3ef2070",
+      "translations": {
+        "hi": {
+          "question": "दो और दो-तिहाई समकोणों में डिग्री की संख्या क्या है?",
+          "options": {
+            "A": "240",
+            "B": "270",
+            "C": "180",
+            "D": "210"
+          },
+          "explanation": "2 * 90 + (2/3) * 90 = 180 + 60 = 240।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-017",
+      "number": 17,
+      "question": "The sum of two numbers is 25 and their difference is 7. Find the numbers.",
+      "options": {
+        "A": "16, 9",
+        "B": "15, 10",
+        "C": "17, 8",
+        "D": "18, 11"
+      },
+      "answer": "A",
+      "explanation": "(25+7)/2 = 16, (25-7)/2 = 9.",
+      "hash": "7a46d24a118de9e5",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का योग 25 है और उनका अंतर 7 है। संख्याएँ ज्ञात कीजिए।",
+          "options": {
+            "A": "16, 9",
+            "B": "15, 10",
+            "C": "17, 8",
+            "D": "18, 11"
+          },
+          "explanation": "(25+7)/2 = 16, (25-7)/2 = 9।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-018",
+      "number": 18,
+      "question": "A fraction is equivalent to 4/5. If its numerator is 16, what is its denominator?",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "15",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "4/5 = 16/x -> 4x = 80 -> x = 20.",
+      "hash": "47cdfeeaa6ff200d",
+      "translations": {
+        "hi": {
+          "question": "एक भिन्न 4/5 के बराबर है। यदि इसका अंश 16 है, तो इसका हर क्या है?",
+          "options": {
+            "A": "20",
+            "B": "25",
+            "C": "15",
+            "D": "30"
+          },
+          "explanation": "4/5 = 16/x -> 4x = 80 -> x = 20।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-019",
+      "number": 19,
+      "question": "How many 1/8 are there in 1/2?",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "(1/2) / (1/8) = (1/2) * 8 = 4.",
+      "hash": "af5f133c82b3a591",
+      "translations": {
+        "hi": {
+          "question": "1/2 में कितने 1/8 हैं?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "(1/2) / (1/8) = (1/2) * 8 = 4।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-020",
+      "number": 20,
+      "question": "Find the average of first five multiples of 3.",
+      "options": {
+        "A": "9",
+        "B": "12",
+        "C": "15",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "Multiples: 3, 6, 9, 12, 15. Sum = 45. Average = 45 / 5 = 9.",
+      "hash": "eb0d442c2a1c5c1f",
+      "translations": {
+        "hi": {
+          "question": "3 के पहले पांच गुणजों का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "9",
+            "B": "12",
+            "C": "15",
+            "D": "6"
+          },
+          "explanation": "गुणज: 3, 6, 9, 12, 15। योग = 45। औसत = 45 / 5 = 9।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-021",
+      "number": 21,
+      "question": "Which of the following is a Roman numeral for 49?",
+      "options": {
+        "A": "XLIX",
+        "B": "XXXXIX",
+        "C": "LIX",
+        "D": "IL"
+      },
+      "answer": "A",
+      "explanation": "40 = XL, 9 = IX. So 49 = XLIX.",
+      "hash": "080f6a900e8df55c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा 49 के लिए रोमन अंक है?",
+          "options": {
+            "A": "XLIX",
+            "B": "XXXXIX",
+            "C": "LIX",
+            "D": "IL"
+          },
+          "explanation": "40 = XL, 9 = IX। इसलिए 49 = XLIX।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-022",
+      "number": 22,
+      "question": "Which of the following shapes has no line of symmetry?",
+      "options": {
+        "A": "Scalene triangle",
+        "B": "Isosceles triangle",
+        "C": "Square",
+        "D": "Circle"
+      },
+      "answer": "A",
+      "explanation": "A scalene triangle has all sides different, hence no line of symmetry.",
+      "hash": "073498fb7f37d60f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से किस आकृति में समरूपता की कोई रेखा नहीं है?",
+          "options": {
+            "A": "विषमबाहु त्रिभुज",
+            "B": "समद्विबाहु त्रिभुज",
+            "C": "वर्ग",
+            "D": "वृत्त"
+          },
+          "explanation": "एक विषमबाहु त्रिभुज की सभी भुजाएं अलग होती हैं, इसलिए समरूपता की कोई रेखा नहीं होती।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-023",
+      "number": 23,
+      "question": "In a mapping, 1 cm on the map represents 400 km on the ground. If two cities are 3400 km apart, what is their distance on the map?",
+      "options": {
+        "A": "8.5 cm",
+        "B": "9 cm",
+        "C": "8 cm",
+        "D": "7.5 cm"
+      },
+      "answer": "A",
+      "explanation": "3400 / 400 = 8.5 cm.",
+      "hash": "0798e685812e3f50",
+      "translations": {
+        "hi": {
+          "question": "एक मानचित्र में, मानचित्र पर 1 सेमी जमीन पर 400 किमी का प्रतिनिधित्व करता है। यदि दो शहर 3400 किमी दूर हैं, तो मानचित्र पर उनकी दूरी क्या है?",
+          "options": {
+            "A": "8.5 सेमी",
+            "B": "9 सेमी",
+            "C": "8 सेमी",
+            "D": "7.5 सेमी"
+          },
+          "explanation": "3400 / 400 = 8.5 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-024",
+      "number": 24,
+      "question": "A girl has Rs 100. She buys a pen for Rs 15.50 and a notebook for Rs 54.25. How much money is left with her?",
+      "options": {
+        "A": "30.25",
+        "B": "31.25",
+        "C": "30.75",
+        "D": "29.25"
+      },
+      "answer": "A",
+      "explanation": "Total spend = 15.50 + 54.25 = 69.75. Left = 100 - 69.75 = 30.25.",
+      "hash": "6be738bb87ba0d79",
+      "translations": {
+        "hi": {
+          "question": "एक लड़की के पास 100 रुपये हैं। वह 15.50 रुपये में एक पेन और 54.25 रुपये में एक नोटबुक खरीदती है। उसके पास कितने पैसे बचे हैं?",
+          "options": {
+            "A": "30.25",
+            "B": "31.25",
+            "C": "30.75",
+            "D": "29.25"
+          },
+          "explanation": "कुल खर्च = 15.50 + 54.25 = 69.75। शेष = 100 - 69.75 = 30.25।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-025",
+      "number": 25,
+      "question": "Prime factorization of 120 is?",
+      "options": {
+        "A": "2 x 2 x 2 x 3 x 5",
+        "B": "2 x 2 x 3 x 3 x 5",
+        "C": "8 x 15",
+        "D": "10 x 12"
+      },
+      "answer": "A",
+      "explanation": "2^3 * 3 * 5 = 8 * 15 = 120. All factors are prime.",
+      "hash": "dbd0d53fbf442dbf",
+      "translations": {
+        "hi": {
+          "question": "120 का अभाज्य गुणनखंड क्या है?",
+          "options": {
+            "A": "2 x 2 x 2 x 3 x 5",
+            "B": "2 x 2 x 3 x 3 x 5",
+            "C": "8 x 15",
+            "D": "10 x 12"
+          },
+          "explanation": "2^3 * 3 * 5 = 120। सभी गुणनखंड अभाज्य हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-026",
+      "number": 26,
+      "question": "Which solid shape has 6 faces, 12 edges and 8 vertices?",
+      "options": {
+        "A": "Cube",
+        "B": "Cone",
+        "C": "Cylinder",
+        "D": "Sphere"
+      },
+      "answer": "A",
+      "explanation": "A cube or cuboid has exactly 6 faces, 12 edges, and 8 vertices.",
+      "hash": "89cc16976de9699c",
+      "translations": {
+        "hi": {
+          "question": "किस ठोस आकृति में 6 फलक, 12 किनारे और 8 शीर्ष होते हैं?",
+          "options": {
+            "A": "घन",
+            "B": "शंकु",
+            "C": "बेलन",
+            "D": "गोला"
+          },
+          "explanation": "एक घन या घनाभ में बिल्कुल 6 फलक, 12 किनारे और 8 शीर्ष होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-027",
+      "number": 27,
+      "question": "Sum of all interior angles of a triangle is?",
+      "options": {
+        "A": "180 degrees",
+        "B": "360 degrees",
+        "C": "90 degrees",
+        "D": "270 degrees"
+      },
+      "answer": "A",
+      "explanation": "The sum of angles in any triangle is always 180 degrees.",
+      "hash": "a0dda2dbab1cfaea",
+      "translations": {
+        "hi": {
+          "question": "त्रिभुज के सभी आंतरिक कोणों का योग क्या है?",
+          "options": {
+            "A": "180 डिग्री",
+            "B": "360 डिग्री",
+            "C": "90 डिग्री",
+            "D": "270 डिग्री"
+          },
+          "explanation": "किसी भी त्रिभुज के कोणों का योग हमेशा 180 डिग्री होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-028",
+      "number": 28,
+      "question": "Lowest Common Multiple (LCM) of 12 and 15 is?",
+      "options": {
+        "A": "60",
+        "B": "30",
+        "C": "120",
+        "D": "90"
+      },
+      "answer": "A",
+      "explanation": "Multiples of 12: 12, 24, 36, 48, 60... Multiples of 15: 15, 30, 45, 60... LCM = 60.",
+      "hash": "5eaf4f054a51fc5a",
+      "translations": {
+        "hi": {
+          "question": "12 और 15 का लघुत्तम समापवर्त्य (LCM) क्या है?",
+          "options": {
+            "A": "60",
+            "B": "30",
+            "C": "120",
+            "D": "90"
+          },
+          "explanation": "12 के गुणज: 12, 24, 36, 48, 60... 15 के गुणज: 15, 30, 45, 60... LCM = 60।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-029",
+      "number": 29,
+      "question": "How many minutes are there in 3/4 of an hour?",
+      "options": {
+        "A": "45",
+        "B": "30",
+        "C": "15",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "(3/4) * 60 = 3 * 15 = 45 minutes.",
+      "hash": "9af906ea66746e61",
+      "translations": {
+        "hi": {
+          "question": "एक घंटे के 3/4 भाग में कितने मिनट होते हैं?",
+          "options": {
+            "A": "45",
+            "B": "30",
+            "C": "15",
+            "D": "40"
+          },
+          "explanation": "(3/4) * 60 = 3 * 15 = 45 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-030",
+      "number": 30,
+      "question": "The value of 0.01 + 0.1 + 0.001 is?",
+      "options": {
+        "A": "0.111",
+        "B": "0.011",
+        "C": "1.11",
+        "D": "0.101"
+      },
+      "answer": "A",
+      "explanation": "0.100 + 0.010 + 0.001 = 0.111.",
+      "hash": "b8c631e1e4f197b2",
+      "translations": {
+        "hi": {
+          "question": "0.01 + 0.1 + 0.001 का मान क्या है?",
+          "options": {
+            "A": "0.111",
+            "B": "0.011",
+            "C": "1.11",
+            "D": "0.101"
+          },
+          "explanation": "0.100 + 0.010 + 0.001 = 0.111।"
+        }
+      }
+    }
+  ]
+}

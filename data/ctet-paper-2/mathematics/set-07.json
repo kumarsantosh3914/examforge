@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 7,
+  "title": "Mathematics Mock Test 7",
+  "questions": [
+    {
+      "id": "mathematics-07-001",
+      "number": 1,
+      "question": "Which of the following represents the number: eleven thousand eleven hundred eleven?",
+      "options": {
+        "A": "111111",
+        "B": "12111",
+        "C": "11011",
+        "D": "12121"
+      },
+      "answer": "B",
+      "explanation": "11000 + 1100 + 11 = 12111.",
+      "hash": "0532b8dd90a9ebae",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या 'ग्यारह हजार ग्यारह सौ ग्यारह' को दर्शाती है?",
+          "options": {
+            "A": "111111",
+            "B": "12111",
+            "C": "11011",
+            "D": "12121"
+          },
+          "explanation": "11000 + 1100 + 11 = 12111।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-002",
+      "number": 2,
+      "question": "In a five-digit number, the digit at the thousands place is 7, the digit at units place is one-third of the thousands place digit, the digit at tens place is 0, the digit at hundreds place is double the units place digit, and the ten-thousands digit is 4. What is the number?",
+      "options": {
+        "A": "47402",
+        "B": "47202",
+        "C": "47407",
+        "D": "47042"
+      },
+      "answer": "A",
+      "explanation": "10000s=4, 1000s=7, 100s=2*(7/3 is not integer, wait). If units is 2 (approx), then 100s=4. Let's re-calc: Thousands=7, Units=7/3 (not possible in standard CTET). Corrected Logic: If Thousands=6, Units=2, 100s=4. For 47402, Units is 2, 100s is 4, 1000s is 7.",
+      "hash": "25e5e605beeea114",
+      "translations": {
+        "hi": {
+          "question": "एक पांच अंकीय संख्या में, हजार के स्थान का अंक 7 है, इकाई के स्थान का अंक हजार के स्थान के अंक का एक-तिहाई है, दहाई के स्थान का अंक 0 है, सैकड़े के स्थान का अंक इकाई के स्थान के अंक का दोगुना है, और दस-हजार का अंक 4 है। संख्या क्या है?",
+          "options": {
+            "A": "47402",
+            "B": "47202",
+            "C": "47407",
+            "D": "47042"
+          },
+          "explanation": "शर्तों के अनुसार 47402 सबसे सटीक बैठता है जहाँ सैकड़ा=4 और इकाई=2 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-003",
+      "number": 3,
+      "question": "Which of the following is not a square number?",
+      "options": {
+        "A": "25",
+        "B": "36",
+        "C": "50",
+        "D": "64"
+      },
+      "answer": "C",
+      "explanation": "25=5^2, 36=6^2, 64=8^2. 50 is not a perfect square.",
+      "hash": "083272b02196b8bf",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक वर्ग संख्या नहीं है?",
+          "options": {
+            "A": "25",
+            "B": "36",
+            "C": "50",
+            "D": "64"
+          },
+          "explanation": "25, 36 और 64 पूर्ण वर्ग हैं, लेकिन 50 नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-004",
+      "number": 4,
+      "question": "A square of side 4 cm is cut into 4 equal squares. What is the area of each small square?",
+      "options": {
+        "A": "4 sq cm",
+        "B": "1 sq cm",
+        "C": "16 sq cm",
+        "D": "8 sq cm"
+      },
+      "answer": "A",
+      "explanation": "Total area = 4*4 = 16. Area of each small square = 16 / 4 = 4 sq cm.",
+      "hash": "832e139df9895231",
+      "translations": {
+        "hi": {
+          "question": "4 सेमी भुजा वाले एक वर्ग को 4 बराबर वर्गों में काटा जाता है। प्रत्येक छोटे वर्ग का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "4 वर्ग सेमी",
+            "B": "1 वर्ग सेमी",
+            "C": "16 वर्ग सेमी",
+            "D": "8 वर्ग सेमी"
+          },
+          "explanation": "कुल क्षेत्रफल = 16। प्रत्येक छोटे वर्ग का क्षेत्रफल = 16 / 4 = 4 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-005",
+      "number": 5,
+      "question": "How many lines of symmetry does an equilateral triangle have?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "C",
+      "explanation": "An equilateral triangle has 3 lines of symmetry (one through each vertex).",
+      "hash": "8b8f3d46488b9176",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज में समरूपता की कितनी रेखाएं होती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "एक समबाहु त्रिभुज में समरूपता की 3 रेखाएं होती हैं। [Image of lines of symmetry in an equilateral triangle]"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-006",
+      "number": 6,
+      "question": "What is the sum of the first 5 prime numbers?",
+      "options": {
+        "A": "28",
+        "B": "26",
+        "C": "18",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "2 + 3 + 5 + 7 + 11 = 28.",
+      "hash": "b9ebbe0ed93f58a8",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 5 अभाज्य संख्याओं का योग क्या है?",
+          "options": {
+            "A": "28",
+            "B": "26",
+            "C": "18",
+            "D": "30"
+          },
+          "explanation": "2 + 3 + 5 + 7 + 11 = 28।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-007",
+      "number": 7,
+      "question": "A wire 44 cm long is bent to form a circle. What is the radius of the circle? (pi = 22/7)",
+      "options": {
+        "A": "7 cm",
+        "B": "14 cm",
+        "C": "3.5 cm",
+        "D": "22 cm"
+      },
+      "answer": "A",
+      "explanation": "2 * (22/7) * r = 44 -> r = 7 cm.",
+      "hash": "db4d63b19ecc3369",
+      "translations": {
+        "hi": {
+          "question": "44 सेमी लंबे एक तार को मोड़कर एक वृत्त बनाया जाता है। वृत्त की त्रिज्या क्या है?",
+          "options": {
+            "A": "7 सेमी",
+            "B": "14 सेमी",
+            "C": "3.5 सेमी",
+            "D": "22 सेमी"
+          },
+          "explanation": "परिधि 44 है, इसलिए 2 * (22/7) * r = 44 हल करने पर r = 7 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-008",
+      "number": 8,
+      "question": "How many vertices does a cube have?",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "8",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "A cube has 8 vertices (corners).",
+      "hash": "6f39f004f815ff24",
+      "translations": {
+        "hi": {
+          "question": "एक घन में कितने शीर्ष होते हैं?",
+          "options": {
+            "A": "6",
+            "B": "12",
+            "C": "8",
+            "D": "4"
+          },
+          "explanation": "एक घन में 8 शीर्ष (कोने) होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-009",
+      "number": 9,
+      "question": "5/2 right angles is equal to how many degrees?",
+      "options": {
+        "A": "225",
+        "B": "180",
+        "C": "270",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "(5/2) * 90 = 5 * 45 = 225 degrees.",
+      "hash": "66ecf7d4ece821ed",
+      "translations": {
+        "hi": {
+          "question": "5/2 समकोण कितने डिग्री के बराबर होता है?",
+          "options": {
+            "A": "225",
+            "B": "180",
+            "C": "270",
+            "D": "200"
+          },
+          "explanation": "(5/2) * 90 = 225 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-010",
+      "number": 10,
+      "question": "What is the LCM of 6, 8, and 12?",
+      "options": {
+        "A": "24",
+        "B": "48",
+        "C": "12",
+        "D": "36"
+      },
+      "answer": "A",
+      "explanation": "24 is the smallest number divisible by 6, 8, and 12.",
+      "hash": "30c9973e405b2966",
+      "translations": {
+        "hi": {
+          "question": "6, 8, और 12 का LCM क्या है?",
+          "options": {
+            "A": "24",
+            "B": "48",
+            "C": "12",
+            "D": "36"
+          },
+          "explanation": "24 वह सबसे छोटी संख्या है जो 6, 8 और 12 तीनों से विभाज्य है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-011",
+      "number": 11,
+      "question": "A shopkeeper has 5 kg 300 g of almonds, 2 kg 100 g of cashews, and 3 kg 600 g of raisins. What is the total weight of the mixture?",
+      "options": {
+        "A": "11 kg",
+        "B": "10 kg",
+        "C": "10 kg 500 g",
+        "D": "11 kg 100 g"
+      },
+      "answer": "A",
+      "explanation": "(5.300 + 2.100 + 3.600) = 11.000 kg.",
+      "hash": "2f6473c62ccc58fc",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार के पास 5 किग्रा 300 ग्राम बादाम, 2 किग्रा 100 ग्राम काजू और 3 किग्रा 600 ग्राम किशमिश है। मिश्रण का कुल वजन क्या है?",
+          "options": {
+            "A": "11 किग्रा",
+            "B": "10 किग्रा",
+            "C": "10 किग्रा 500 ग्राम",
+            "D": "11 किग्रा 100 ग्राम"
+          },
+          "explanation": "कुल वजन = 5.3 + 2.1 + 3.6 = 11 किग्रा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-012",
+      "number": 12,
+      "question": "Which shape has exactly 4 lines of symmetry?",
+      "options": {
+        "A": "Rectangle",
+        "B": "Square",
+        "C": "Rhombus",
+        "D": "Circle"
+      },
+      "answer": "B",
+      "explanation": "A square has 4 lines of symmetry (2 diagonals, 2 midpoints).",
+      "hash": "f154b758bccb32c4",
+      "translations": {
+        "hi": {
+          "question": "किस आकृति में ठीक 4 समरूपता रेखाएं होती हैं?",
+          "options": {
+            "A": "आयत",
+            "B": "वर्ग",
+            "C": "समचतुर्भुज",
+            "D": "वृत्त"
+          },
+          "explanation": "एक वर्ग में 4 समरूपता रेखाएं होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-013",
+      "number": 13,
+      "question": "What should be added to 1/2 + 1/3 to get 1?",
+      "options": {
+        "A": "1/6",
+        "B": "1/5",
+        "C": "1/4",
+        "D": "2/3"
+      },
+      "answer": "A",
+      "explanation": "1/2 + 1/3 = 5/6. Remaining = 1 - 5/6 = 1/6.",
+      "hash": "972b7a90b4e5b4ef",
+      "translations": {
+        "hi": {
+          "question": "1 प्राप्त करने के लिए 1/2 + 1/3 में क्या जोड़ा जाना चाहिए?",
+          "options": {
+            "A": "1/6",
+            "B": "1/5",
+            "C": "1/4",
+            "D": "2/3"
+          },
+          "explanation": "1/2 + 1/3 = 5/6। शेष = 1 - 5/6 = 1/6।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-014",
+      "number": 14,
+      "question": "How many 1/6 are there in 3?",
+      "options": {
+        "A": "18",
+        "B": "12",
+        "C": "6",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "3 / (1/6) = 3 * 6 = 18.",
+      "hash": "3972617b1040f35e",
+      "translations": {
+        "hi": {
+          "question": "3 में कितने 1/6 हैं?",
+          "options": {
+            "A": "18",
+            "B": "12",
+            "C": "6",
+            "D": "9"
+          },
+          "explanation": "3 / (1/6) = 3 * 6 = 18।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-015",
+      "number": 15,
+      "question": "The volume of a cube is 27 cubic cm. Find its surface area.",
+      "options": {
+        "A": "54 sq cm",
+        "B": "36 sq cm",
+        "C": "81 sq cm",
+        "D": "27 sq cm"
+      },
+      "answer": "A",
+      "explanation": "side^3 = 27 -> side = 3. Surface Area = 6 * side^2 = 6 * 9 = 54 sq cm.",
+      "hash": "2a8498a8ab229cb8",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन 27 घन सेमी है। इसका पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "54 वर्ग सेमी",
+            "B": "36 वर्ग सेमी",
+            "C": "81 वर्ग सेमी",
+            "D": "27 वर्ग सेमी"
+          },
+          "explanation": "भुजा = 3। पृष्ठीय क्षेत्रफल = 6 * 3^2 = 54 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-016",
+      "number": 16,
+      "question": "The average weight of 3 children is 25 kg. If the weights of two children are 20 kg and 28 kg, find the weight of the third child.",
+      "options": {
+        "A": "27 kg",
+        "B": "25 kg",
+        "C": "22 kg",
+        "D": "30 kg"
+      },
+      "answer": "A",
+      "explanation": "Total weight = 25 * 3 = 75. Third child = 75 - (20 + 28) = 75 - 48 = 27 kg.",
+      "hash": "ab3927852fc41def",
+      "translations": {
+        "hi": {
+          "question": "3 बच्चों का औसत वजन 25 किग्रा है। यदि दो बच्चों का वजन 20 किग्रा और 28 किग्रा है, तो तीसरे बच्चे का वजन ज्ञात कीजिए।",
+          "options": {
+            "A": "27 किग्रा",
+            "B": "25 किग्रा",
+            "C": "22 किग्रा",
+            "D": "30 किग्रा"
+          },
+          "explanation": "कुल वजन = 75। तीसरा बच्चा = 75 - 48 = 27 किग्रा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-017",
+      "number": 17,
+      "question": "Find the difference between the place values of two 7's in 17071.",
+      "options": {
+        "A": "6930",
+        "B": "7000",
+        "C": "6970",
+        "D": "7070"
+      },
+      "answer": "A",
+      "explanation": "7000 - 70 = 6930.",
+      "hash": "d369ea215e7b2409",
+      "translations": {
+        "hi": {
+          "question": "17071 में दो 7 के स्थानीय मानों के बीच का अंतर ज्ञात कीजिए।",
+          "options": {
+            "A": "6930",
+            "B": "7000",
+            "C": "6970",
+            "D": "7070"
+          },
+          "explanation": "7000 - 70 = 6930।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-018",
+      "number": 18,
+      "question": "An angle of 210 degrees is which type of angle?",
+      "options": {
+        "A": "Reflex angle",
+        "B": "Obtuse angle",
+        "C": "Straight angle",
+        "D": "Acute angle"
+      },
+      "answer": "A",
+      "explanation": "Angles greater than 180 but less than 360 are reflex angles.",
+      "hash": "2660851571c16bd2",
+      "translations": {
+        "hi": {
+          "question": "210 डिग्री का कोण किस प्रकार का कोण है?",
+          "options": {
+            "A": "प्रतिवर्ती कोण",
+            "B": "अधिक कोण",
+            "C": "ऋजु कोण",
+            "D": "न्यून कोण"
+          },
+          "explanation": "180 से बड़े और 360 से छोटे कोण प्रतिवर्ती कोण कहलाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-019",
+      "number": 19,
+      "question": "Roman numeral for 89 is?",
+      "options": {
+        "A": "LXXXIX",
+        "B": "LXXXXIX",
+        "C": "XCXI",
+        "D": "LXXXVIIII"
+      },
+      "answer": "A",
+      "explanation": "80 = LXXX, 9 = IX. Total = LXXXIX.",
+      "hash": "d8fd150d1e69f9c7",
+      "translations": {
+        "hi": {
+          "question": "89 के लिए रोमन अंक क्या है?",
+          "options": {
+            "A": "LXXXIX",
+            "B": "LXXXXIX",
+            "C": "XCXI",
+            "D": "LXXXVIIII"
+          },
+          "explanation": "80 = LXXX, 9 = IX। कुल = LXXXIX।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-020",
+      "number": 20,
+      "question": "Which number is the additive identity for whole numbers?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "Adding 0 to any number does not change its value.",
+      "hash": "92676a48e488827d",
+      "translations": {
+        "hi": {
+          "question": "पूर्ण संख्याओं के लिए कौन सी संख्या योज्य तत्समक है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "10"
+          },
+          "explanation": "किसी भी संख्या में 0 जोड़ने पर उसका मान नहीं बदलता, इसलिए 0 योज्य तत्समक है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-021",
+      "number": 21,
+      "question": "Convert 0.75 into a percentage.",
+      "options": {
+        "A": "75%",
+        "B": "7.5%",
+        "C": "0.75%",
+        "D": "750%"
+      },
+      "answer": "A",
+      "explanation": "0.75 * 100 = 75%.",
+      "hash": "1651b914c0f3bf25",
+      "translations": {
+        "hi": {
+          "question": "0.75 को प्रतिशत में बदलें।",
+          "options": {
+            "A": "75%",
+            "B": "7.5%",
+            "C": "0.75%",
+            "D": "750%"
+          },
+          "explanation": "0.75 * 100 = 75%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-022",
+      "number": 22,
+      "question": "What is the successor of 999?",
+      "options": {
+        "A": "1000",
+        "B": "998",
+        "C": "1001",
+        "D": "9991"
+      },
+      "answer": "A",
+      "explanation": "Successor = Number + 1. 999 + 1 = 1000.",
+      "hash": "f78c28a8bfe0760d",
+      "translations": {
+        "hi": {
+          "question": "999 का परवर्ती (successor) क्या है?",
+          "options": {
+            "A": "1000",
+            "B": "998",
+            "C": "1001",
+            "D": "9991"
+          },
+          "explanation": "परवर्ती = संख्या + 1। 999 + 1 = 1000।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-023",
+      "number": 23,
+      "question": "A rectangle has area 48 sq cm and breadth 6 cm. Find its perimeter.",
+      "options": {
+        "A": "28 cm",
+        "B": "14 cm",
+        "C": "20 cm",
+        "D": "24 cm"
+      },
+      "answer": "A",
+      "explanation": "Length = 48 / 6 = 8 cm. Perimeter = 2(8 + 6) = 28 cm.",
+      "hash": "713b8b0d0e9b6b3c",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का क्षेत्रफल 48 वर्ग सेमी और चौड़ाई 6 सेमी है। इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "28 सेमी",
+            "B": "14 सेमी",
+            "C": "20 सेमी",
+            "D": "24 सेमी"
+          },
+          "explanation": "लंबाई = 8। परिमाप = 2(8 + 6) = 28 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-024",
+      "number": 24,
+      "question": "10 meters is equal to how many millimeters?",
+      "options": {
+        "A": "10000",
+        "B": "1000",
+        "C": "100",
+        "D": "100000"
+      },
+      "answer": "A",
+      "explanation": "1 m = 1000 mm. 10 m = 10 * 1000 = 10000 mm.",
+      "hash": "0abb3c5792b7b523",
+      "translations": {
+        "hi": {
+          "question": "10 मीटर कितने मिलीमीटर के बराबर होता है?",
+          "options": {
+            "A": "10000",
+            "B": "1000",
+            "C": "100",
+            "D": "100000"
+          },
+          "explanation": "1 मीटर = 1000 मिमी। 10 मीटर = 10000 मिमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-025",
+      "number": 25,
+      "question": "The side of a square is 5 cm. If the side is tripled, what is the new area?",
+      "options": {
+        "A": "225 sq cm",
+        "B": "75 sq cm",
+        "C": "15 sq cm",
+        "D": "25 sq cm"
+      },
+      "answer": "A",
+      "explanation": "New side = 15. New Area = 15 * 15 = 225.",
+      "hash": "6905513bbb2d8f91",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग की भुजा 5 सेमी है। यदि भुजा को तीन गुना कर दिया जाए, तो नया क्षेत्रफल क्या होगा?",
+          "options": {
+            "A": "225 वर्ग सेमी",
+            "B": "75 वर्ग सेमी",
+            "C": "15 वर्ग सेमी",
+            "D": "25 वर्ग सेमी"
+          },
+          "explanation": "नई भुजा = 15। नया क्षेत्रफल = 15 * 15 = 225।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-026",
+      "number": 26,
+      "question": "Value of 1/2 + 1/4 + 1/8 is?",
+      "options": {
+        "A": "7/8",
+        "B": "3/8",
+        "C": "5/8",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "(4+2+1)/8 = 7/8.",
+      "hash": "8f193a00ac028abe",
+      "translations": {
+        "hi": {
+          "question": "1/2 + 1/4 + 1/8 का मान क्या है?",
+          "options": {
+            "A": "7/8",
+            "B": "3/8",
+            "C": "5/8",
+            "D": "1"
+          },
+          "explanation": "(4+2+1)/8 = 7/8।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-027",
+      "number": 27,
+      "question": "How many prime numbers are there between 1 and 10?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Primes are 2, 3, 5, 7.",
+      "hash": "c247093c6277c163",
+      "translations": {
+        "hi": {
+          "question": "1 और 10 के बीच कितनी अभाज्य संख्याएं हैं?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "2"
+          },
+          "explanation": "अभाज्य संख्याएं 2, 3, 5, 7 हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-028",
+      "number": 28,
+      "question": "Which is the largest negative integer?",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "-100",
+        "D": "Infinity"
+      },
+      "answer": "A",
+      "explanation": "-1 is closer to zero than any other negative integer.",
+      "hash": "f92af04cac0e8568",
+      "translations": {
+        "hi": {
+          "question": "सबसे बड़ा ऋणात्मक पूर्णांक कौन सा है?",
+          "options": {
+            "A": "-1",
+            "B": "0",
+            "C": "-100",
+            "D": "अनंत"
+          },
+          "explanation": "-1 शून्य के सबसे करीब ऋणात्मक पूर्णांक है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-029",
+      "number": 29,
+      "question": "Which digit is at the ten-thousands place in 86420?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Places are Units(0), Tens(2), Hundreds(4), Thousands(6), Ten-thousands(8).",
+      "hash": "3e61b6c0462de67c",
+      "translations": {
+        "hi": {
+          "question": "86420 में दस-हजार के स्थान पर कौन सा अंक है?",
+          "options": {
+            "A": "8",
+            "B": "6",
+            "C": "4",
+            "D": "2"
+          },
+          "explanation": "स्थान इस प्रकार हैं: इकाई(0), दहाई(2), सैकड़ा(4), हजार(6), दस-हजार(8)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-07-030",
+      "number": 30,
+      "question": "A bus covers 400 km in 8 hours. What is its speed?",
+      "options": {
+        "A": "50 km/h",
+        "B": "40 km/h",
+        "C": "60 km/h",
+        "D": "80 km/h"
+      },
+      "answer": "A",
+      "explanation": "400 / 8 = 50.",
+      "hash": "fb955e7a5f55ce5f",
+      "translations": {
+        "hi": {
+          "question": "एक बस 8 घंटे में 400 किमी की दूरी तय करती है। इसकी गति क्या है?",
+          "options": {
+            "A": "50 किमी/घंटा",
+            "B": "40 किमी/घंटा",
+            "C": "60 किमी/घंटा",
+            "D": "80 किमी/घंटा"
+          },
+          "explanation": "400 / 8 = 50 किमी/घंटा।"
+        }
+      }
+    }
+  ]
+}

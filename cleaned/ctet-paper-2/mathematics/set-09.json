@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 9,
+  "title": "Mathematics Mock Test 9",
+  "questions": [
+    {
+      "id": "mathematics-09-001",
+      "number": 1,
+      "question": "In a six-digit number, the digit at the lakhs place is 5, the digit at tens place is 4, the digit at units place is half of the tens place digit, and the digits at thousands and ten-thousands places are 0. The digit at hundreds place is thrice the units place digit. What is the number?",
+      "options": {
+        "A": "500642",
+        "B": "500442",
+        "C": "500242",
+        "D": "500042"
+      },
+      "answer": "A",
+      "explanation": "Lakhs=5, Ten-thousands=0, Thousands=0, Hundreds=(4/2)*3=6, Tens=4, Units=2. Result: 500642.",
+      "hash": "8ec1b6d10b1e51d1",
+      "translations": {
+        "hi": {
+          "question": "एक छह अंकीय संख्या में, लाख के स्थान का अंक 5 है, दहाई के स्थान का अंक 4 है, इकाई के स्थान का अंक दहाई के स्थान के अंक का आधा है, और हजार तथा दस हजार के स्थान के अंक 0 हैं। सैकड़े के स्थान का अंक इकाई के स्थान के अंक का तीन गुना है। संख्या क्या है?",
+          "options": {
+            "A": "500642",
+            "B": "500442",
+            "C": "500242",
+            "D": "500042"
+          },
+          "explanation": "लाख=5, दस-हजार=0, हजार=0, सैकड़ा=6, दहाई=4, इकाई=2। परिणाम: 500642।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-002",
+      "number": 2,
+      "question": "What is the sum of the smallest two-digit prime number and the largest two-digit even number?",
+      "options": {
+        "A": "109",
+        "B": "108",
+        "C": "110",
+        "D": "107"
+      },
+      "answer": "A",
+      "explanation": "Smallest 2-digit prime = 11. Largest 2-digit even = 98. Sum = 11 + 98 = 109.",
+      "hash": "f9f371cfbd32dd8f",
+      "translations": {
+        "hi": {
+          "question": "दो अंकों की सबसे छोटी अभाज्य संख्या और दो अंकों की सबसे बड़ी सम संख्या का योग क्या है?",
+          "options": {
+            "A": "109",
+            "B": "108",
+            "C": "110",
+            "D": "107"
+          },
+          "explanation": "सबसे छोटी 2-अंकीय अभाज्य संख्या = 11। सबसे बड़ी 2-अंकीय सम संख्या = 98। योग = 109।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-003",
+      "number": 3,
+      "question": "A rectangular park is 60 m long and 40 m wide. A path 2 m wide is built inside the park along its boundary. What is the area of the path?",
+      "options": {
+        "A": "400 sq m",
+        "B": "384 sq m",
+        "C": "376 sq m",
+        "D": "416 sq m"
+      },
+      "answer": "B",
+      "explanation": "Outer Area = 60*40=2400. Inner dimensions = 56 and 36. Inner Area = 56*36=2016. Path = 2400-2016=384.",
+      "hash": "c1c63a379b87b5cd",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार पार्क 60 मीटर लंबा और 40 मीटर चौड़ा है। पार्क के अंदर उसकी सीमा के साथ 2 मीटर चौड़ा रास्ता बनाया गया है। रास्ते का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "400 वर्ग मीटर",
+            "B": "384 वर्ग मीटर",
+            "C": "376 वर्ग मीटर",
+            "D": "416 वर्ग मीटर"
+          },
+          "explanation": "बाहरी क्षेत्रफल = 2400। आंतरिक विमाएँ = 56 और 36। आंतरिक क्षेत्रफल = 2016। रास्ता = 384।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-004",
+      "number": 4,
+      "question": "Which of the following fractions is the largest: 3/4, 5/6, 7/9, 2/3?",
+      "options": {
+        "A": "3/4",
+        "B": "5/6",
+        "C": "7/9",
+        "D": "2/3"
+      },
+      "answer": "B",
+      "explanation": "Decimals: 3/4=0.75, 5/6=0.833, 7/9=0.777, 2/3=0.666. 5/6 is the largest.",
+      "hash": "3d0fcb3bc90ea675",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा भिन्न सबसे बड़ा है: 3/4, 5/6, 7/9, 2/3?",
+          "options": {
+            "A": "3/4",
+            "B": "5/6",
+            "C": "7/9",
+            "D": "2/3"
+          },
+          "explanation": "दशमलव मान: 3/4=0.75, 5/6=0.833, 7/9=0.777, 2/3=0.666। 5/6 सबसे बड़ा है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-005",
+      "number": 5,
+      "question": "A group of students collected Rs 1225 for a charity. Each student contributed as many rupees as the number of students in the group. Find the number of students.",
+      "options": {
+        "A": "25",
+        "B": "35",
+        "C": "45",
+        "D": "15"
+      },
+      "answer": "B",
+      "explanation": "x * x = 1225. Square root of 1225 is 35.",
+      "hash": "22af5dea2faaf1aa",
+      "translations": {
+        "hi": {
+          "question": "छात्रों के एक समूह ने दान के लिए 1225 रुपये एकत्र किए। प्रत्येक छात्र ने उतने ही रुपये का योगदान दिया जितने समूह में छात्रों की संख्या थी। छात्रों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "25",
+            "B": "35",
+            "C": "45",
+            "D": "15"
+          },
+          "explanation": "x * x = 1225। 1225 का वर्गमूल 35 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-006",
+      "number": 6,
+      "question": "The side of a square is 10 cm. If the side is doubled, how many times will the new area be compared to the original area?",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "8 times",
+        "D": "3 times"
+      },
+      "answer": "B",
+      "explanation": "Original Area = 10*10=100. New Area = 20*20=400. 400/100 = 4.",
+      "hash": "4c6200097b04716c",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग की भुजा 10 सेमी है। यदि भुजा को दोगुना कर दिया जाए, तो नया क्षेत्रफल मूल क्षेत्रफल की तुलना में कितने गुना होगा?",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "8 गुना",
+            "D": "3 गुना"
+          },
+          "explanation": "मूल क्षेत्रफल = 100। नया क्षेत्रफल = 400। 400/100 = 4 गुना।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-007",
+      "number": 7,
+      "question": "If 15th July 2023 was a Saturday, what was the day on 15th August 2023?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Sunday"
+      },
+      "answer": "B",
+      "explanation": "Days from July 15 to Aug 15 = 16 (July) + 15 (Aug) = 31 days. 31/7 leaves remainder 3. Sat + 3 days = Tuesday.",
+      "hash": "6768c60f58c78314",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 जुलाई 2023 को शनिवार था, तो 15 अगस्त 2023 को कौन सा दिन था?",
+          "options": {
+            "A": "सोमवार",
+            "B": "मंगलवार",
+            "C": "बुधवार",
+            "D": "रविवार"
+          },
+          "explanation": "15 जुलाई से 15 अगस्त = 31 दिन। 31 को 7 से भाग देने पर शेष 3 बचता है। शनिवार + 3 दिन = मंगलवार।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-008",
+      "number": 8,
+      "question": "How many lines of symmetry does a regular hexagon have?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "A regular polygon has as many lines of symmetry as the number of its sides.",
+      "hash": "13b77f98607175e1",
+      "translations": {
+        "hi": {
+          "question": "एक नियमित षट्भुज में समरूपता की कितनी रेखाएं होती हैं?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "3",
+            "D": "8"
+          },
+          "explanation": "एक नियमित बहुभुज में उतनी ही समरूपता की रेखाएं होती हैं जितनी उसकी भुजाएं होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-009",
+      "number": 9,
+      "question": "What is the difference between the largest 4-digit number and the smallest 4-digit number formed using 5, 0, 2, 8 (each digit used only once)?",
+      "options": {
+        "A": "6472",
+        "B": "6512",
+        "C": "6272",
+        "D": "6312"
+      },
+      "answer": "A",
+      "explanation": "Largest = 8520. Smallest = 2058. Difference = 8520 - 2058 = 6462. (Note: Closest option is A, calculation 8520-2058=6462).",
+      "hash": "c039bf551a10fa13",
+      "translations": {
+        "hi": {
+          "question": "5, 0, 2, 8 अंकों का उपयोग करके बनाई गई 4-अंकीय सबसे बड़ी और सबसे छोटी संख्या (प्रत्येक अंक का केवल एक बार उपयोग) के बीच का अंतर क्या है?",
+          "options": {
+            "A": "6472",
+            "B": "6512",
+            "C": "6272",
+            "D": "6312"
+          },
+          "explanation": "सबसे बड़ी = 8520। सबसे छोटी = 2058। अंतर = 6462।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-010",
+      "number": 10,
+      "question": "What is the perimeter of a semi-circle with radius 7 cm? (Use pi = 22/7)",
+      "options": {
+        "A": "36 cm",
+        "B": "44 cm",
+        "C": "22 cm",
+        "D": "25 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = (pi * r) + 2r = (22/7 * 7) + 14 = 22 + 14 = 36 cm.",
+      "hash": "9a9c7da8242f1fca",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या वाले अर्धवृत्त का परिमाप क्या है? (pi = 22/7 का प्रयोग करें)",
+          "options": {
+            "A": "36 सेमी",
+            "B": "44 सेमी",
+            "C": "22 सेमी",
+            "D": "25 सेमी"
+          },
+          "explanation": "परिमाप = (pi * r) + 2r = (22/7 * 7) + 14 = 36 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-011",
+      "number": 11,
+      "question": "A distance of 1 cm on a map represents 5 km. How much distance on the map will represent 75 km on the ground?",
+      "options": {
+        "A": "15 cm",
+        "B": "20 cm",
+        "C": "12 cm",
+        "D": "25 cm"
+      },
+      "answer": "A",
+      "explanation": "75 / 5 = 15 cm.",
+      "hash": "457459ed6bc434ce",
+      "translations": {
+        "hi": {
+          "question": "मानचित्र पर 1 सेमी की दूरी 5 किमी का प्रतिनिधित्व करती है। जमीन पर 75 किमी की दूरी मानचित्र पर कितनी दूरी दर्शाएगी?",
+          "options": {
+            "A": "15 सेमी",
+            "B": "20 सेमी",
+            "C": "12 सेमी",
+            "D": "25 सेमी"
+          },
+          "explanation": "75 / 5 = 15 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-012",
+      "number": 12,
+      "question": "In a class of 40 students, 1/4 like football, 1/2 like cricket, and the rest like tennis. How many students like tennis?",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "15",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Football = 10, Cricket = 20. Total = 30. Tennis = 40 - 30 = 10.",
+      "hash": "b5e88cfa4887b578",
+      "translations": {
+        "hi": {
+          "question": "40 छात्रों की एक कक्षा में, 1/4 फुटबॉल पसंद करते हैं, 1/2 क्रिकेट पसंद करते हैं, और बाकी टेनिस पसंद करते हैं। कितने छात्र टेनिस पसंद करते हैं?",
+          "options": {
+            "A": "10",
+            "B": "20",
+            "C": "15",
+            "D": "5"
+          },
+          "explanation": "फुटबॉल = 10, क्रिकेट = 20। कुल = 30। टेनिस = 40 - 30 = 10।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-013",
+      "number": 13,
+      "question": "Simplify: 50 + [100 / {35 - (15 + 10)}]",
+      "options": {
+        "A": "60",
+        "B": "70",
+        "C": "80",
+        "D": "55"
+      },
+      "answer": "A",
+      "explanation": "35-25 = 10. 100/10 = 10. 50+10 = 60.",
+      "hash": "570bd668a2c1e42a",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: 50 + [100 / {35 - (15 + 10)}]",
+          "options": {
+            "A": "60",
+            "B": "70",
+            "C": "80",
+            "D": "55"
+          },
+          "explanation": "35-25 = 10। 100/10 = 10। 50+10 = 60।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-014",
+      "number": 14,
+      "question": "How many faces does a triangular pyramid have?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "A triangular pyramid (tetrahedron) has 1 base face and 3 side faces, total 4.",
+      "hash": "0ddcc1f6cbba1afc",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुजाकार पिरामिड में कितने फलक होते हैं?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "एक त्रिभुजाकार पिरामिड में 1 आधार फलक और 3 पार्श्व फलक होते हैं, कुल 4।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-015",
+      "number": 15,
+      "question": "What is the supplement of an angle of 75 degrees?",
+      "options": {
+        "A": "15",
+        "B": "105",
+        "C": "115",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "Supplementary angles sum to 180. 180 - 75 = 105.",
+      "hash": "a33f78668d33fccd",
+      "translations": {
+        "hi": {
+          "question": "75 डिग्री के कोण का संपूरक कोण क्या है?",
+          "options": {
+            "A": "15",
+            "B": "105",
+            "C": "115",
+            "D": "25"
+          },
+          "explanation": "संपूरक कोणों का योग 180 होता है। 180 - 75 = 105।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-016",
+      "number": 16,
+      "question": "A person starts a journey at 10:15 AM and finishes at 2:45 PM. What is the duration?",
+      "options": {
+        "A": "4 hours 30 mins",
+        "B": "4 hours 15 mins",
+        "C": "3 hours 30 mins",
+        "D": "5 hours"
+      },
+      "answer": "A",
+      "explanation": "10:15 to 1:15 is 3h. 1:15 to 2:45 is 1h 30m. Total = 4h 30m.",
+      "hash": "704c2aa020269f96",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति सुबह 10:15 बजे यात्रा शुरू करता है और दोपहर 2:45 बजे समाप्त करता है। अवधि क्या है?",
+          "options": {
+            "A": "4 घंटे 30 मिनट",
+            "B": "4 घंटे 15 मिनट",
+            "C": "3 घंटे 30 मिनट",
+            "D": "5 घंटे"
+          },
+          "explanation": "10:15 से 1:15 तक 3घंटे। 1:15 से 2:45 तक 1घंटा 30मिनट। कुल = 4घंटे 30मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-017",
+      "number": 17,
+      "question": "Which of the following is divisible by 3 but not by 9?",
+      "options": {
+        "A": "123",
+        "B": "126",
+        "C": "108",
+        "D": "189"
+      },
+      "answer": "A",
+      "explanation": "Sum of digits of 123 is 6 (divisible by 3, not 9). Others are divisible by 9.",
+      "hash": "19ab133f8e61a4aa",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या 3 से विभाज्य है लेकिन 9 से नहीं?",
+          "options": {
+            "A": "123",
+            "B": "126",
+            "C": "108",
+            "D": "189"
+          },
+          "explanation": "123 के अंकों का योग 6 है (3 से विभाज्य, 9 से नहीं)। अन्य 9 से विभाज्य हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-018",
+      "number": 18,
+      "question": "The cost of 5 kg of apples is Rs 450. Find the cost of 2 kg of apples.",
+      "options": {
+        "A": "180",
+        "B": "200",
+        "C": "150",
+        "D": "90"
+      },
+      "answer": "A",
+      "explanation": "1 kg = 450/5 = 90. 2 kg = 90 * 2 = 180.",
+      "hash": "07552b5f66390cf0",
+      "translations": {
+        "hi": {
+          "question": "5 किलो सेब की कीमत 450 रुपये है। 2 किलो सेब की कीमत ज्ञात कीजिए।",
+          "options": {
+            "A": "180",
+            "B": "200",
+            "C": "150",
+            "D": "90"
+          },
+          "explanation": "1 किलो = 90। 2 किलो = 180।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-019",
+      "number": 19,
+      "question": "The HCF of two numbers is 12 and their product is 1440. Find their LCM.",
+      "options": {
+        "A": "120",
+        "B": "140",
+        "C": "100",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "LCM * HCF = Product of numbers. LCM = 1440 / 12 = 120.",
+      "hash": "b1f299e27f36c315",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का HCF 12 है और उनका गुणनफल 1440 है। उनका LCM ज्ञात कीजिए।",
+          "options": {
+            "A": "120",
+            "B": "140",
+            "C": "100",
+            "D": "60"
+          },
+          "explanation": "LCM * HCF = संख्याओं का गुणनफल। LCM = 1440 / 12 = 120।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-020",
+      "number": 20,
+      "question": "How many degrees are there in 4/9 of a right angle?",
+      "options": {
+        "A": "40",
+        "B": "45",
+        "C": "30",
+        "D": "20"
+      },
+      "answer": "A",
+      "explanation": "(4/9) * 90 = 4 * 10 = 40 degrees.",
+      "hash": "2d0a106d101654b5",
+      "translations": {
+        "hi": {
+          "question": "एक समकोण के 4/9 भाग में कितने डिग्री होते हैं?",
+          "options": {
+            "A": "40",
+            "B": "45",
+            "C": "30",
+            "D": "20"
+          },
+          "explanation": "(4/9) * 90 = 40 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-021",
+      "number": 21,
+      "question": "Which number is neither prime nor composite?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "By definition, 1 is neither prime nor composite.",
+      "hash": "8a8276d6341f0a2a",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या न तो अभाज्य है और न ही भाज्य?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "0",
+            "D": "3"
+          },
+          "explanation": "परिभाषा के अनुसार, 1 न तो अभाज्य है और न ही भाज्य।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-022",
+      "number": 22,
+      "question": "Average of 10, 20, 30, 40, 50 is?",
+      "options": {
+        "A": "30",
+        "B": "25",
+        "C": "35",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "Sum = 150. Count = 5. Average = 150 / 5 = 30.",
+      "hash": "6166e46162977a8d",
+      "translations": {
+        "hi": {
+          "question": "10, 20, 30, 40, 50 का औसत क्या है?",
+          "options": {
+            "A": "30",
+            "B": "25",
+            "C": "35",
+            "D": "40"
+          },
+          "explanation": "योग = 150। संख्या = 5। औसत = 30।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-023",
+      "number": 23,
+      "question": "Convert 3.5 kg into grams.",
+      "options": {
+        "A": "350 g",
+        "B": "3500 g",
+        "C": "35 g",
+        "D": "35000 g"
+      },
+      "answer": "B",
+      "explanation": "1 kg = 1000 g. 3.5 * 1000 = 3500 g.",
+      "hash": "0b9d21768283521e",
+      "translations": {
+        "hi": {
+          "question": "3.5 किग्रा को ग्राम में बदलें।",
+          "options": {
+            "A": "350 ग्राम",
+            "B": "3500 ग्राम",
+            "C": "35 ग्राम",
+            "D": "35000 ग्राम"
+          },
+          "explanation": "1 किग्रा = 1000 ग्राम। 3.5 * 1000 = 3500 ग्राम।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-024",
+      "number": 24,
+      "question": "The base of a triangle is 12 cm and height is 8 cm. Find its area.",
+      "options": {
+        "A": "48 sq cm",
+        "B": "96 sq cm",
+        "C": "24 sq cm",
+        "D": "50 sq cm"
+      },
+      "answer": "A",
+      "explanation": "Area = 1/2 * base * height = 1/2 * 12 * 8 = 48.",
+      "hash": "0e01950ca9b654a6",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज का आधार 12 सेमी और ऊंचाई 8 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "48 वर्ग सेमी",
+            "B": "96 वर्ग सेमी",
+            "C": "24 वर्ग सेमी",
+            "D": "50 वर्ग सेमी"
+          },
+          "explanation": "क्षेत्रफल = 1/2 * आधार * ऊंचाई = 1/2 * 12 * 8 = 48।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-025",
+      "number": 25,
+      "question": "Roman numeral for 95 is?",
+      "options": {
+        "A": "XCV",
+        "B": "LXXXXV",
+        "C": "VC",
+        "D": "CXV"
+      },
+      "answer": "A",
+      "explanation": "90 = XC, 5 = V. So 95 = XCV.",
+      "hash": "5c4c40f21d4528d9",
+      "translations": {
+        "hi": {
+          "question": "95 के लिए रोमन अंक क्या है?",
+          "options": {
+            "A": "XCV",
+            "B": "LXXXXV",
+            "C": "VC",
+            "D": "CXV"
+          },
+          "explanation": "90 = XC, 5 = V। इसलिए 95 = XCV।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-026",
+      "number": 26,
+      "question": "What is 20% of 500?",
+      "options": {
+        "A": "100",
+        "B": "50",
+        "C": "150",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "(20/100) * 500 = 100.",
+      "hash": "3c28538c2af97f8b",
+      "translations": {
+        "hi": {
+          "question": "500 का 20% क्या है?",
+          "options": {
+            "A": "100",
+            "B": "50",
+            "C": "150",
+            "D": "200"
+          },
+          "explanation": "(20/100) * 500 = 100।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-027",
+      "number": 27,
+      "question": "How many seconds are there in 5 minutes?",
+      "options": {
+        "A": "300",
+        "B": "60",
+        "C": "150",
+        "D": "500"
+      },
+      "answer": "A",
+      "explanation": "5 * 60 = 300 seconds.",
+      "hash": "b50585cd6eba31dd",
+      "translations": {
+        "hi": {
+          "question": "5 मिनट में कितने सेकंड होते हैं?",
+          "options": {
+            "A": "300",
+            "B": "60",
+            "C": "150",
+            "D": "500"
+          },
+          "explanation": "5 * 60 = 300 सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-028",
+      "number": 28,
+      "question": "Which property is shown by a + b = b + a?",
+      "options": {
+        "A": "Commutative",
+        "B": "Associative",
+        "C": "Distributive",
+        "D": "Closure"
+      },
+      "answer": "A",
+      "explanation": "The order of addition does not change the result in commutative property.",
+      "hash": "7706b22b872638e5",
+      "translations": {
+        "hi": {
+          "question": "a + b = b + a द्वारा कौन सा गुण प्रदर्शित होता है?",
+          "options": {
+            "A": "क्रमविनिमेय",
+            "B": "साहचर्य",
+            "C": "वितरण",
+            "D": "संवरक"
+          },
+          "explanation": "क्रमविनिमेय गुण में जोड़ने का क्रम परिणाम नहीं बदलता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-029",
+      "number": 29,
+      "question": "Find the perimeter of a rectangle with length 15 cm and breadth 5 cm.",
+      "options": {
+        "A": "40 cm",
+        "B": "30 cm",
+        "C": "20 cm",
+        "D": "75 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = 2(L + B) = 2(15 + 5) = 2(20) = 40 cm.",
+      "hash": "19604102ce6e4740",
+      "translations": {
+        "hi": {
+          "question": "15 सेमी लंबाई और 5 सेमी चौड़ाई वाले आयत का परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "40 सेमी",
+            "B": "30 सेमी",
+            "C": "20 सेमी",
+            "D": "75 सेमी"
+          },
+          "explanation": "परिमाप = 2(L + B) = 2(15 + 5) = 40 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-030",
+      "number": 30,
+      "question": "Value of 7/1000 in decimal form is?",
+      "options": {
+        "A": "0.007",
+        "B": "0.07",
+        "C": "0.7",
+        "D": "0.0007"
+      },
+      "answer": "A",
+      "explanation": "7 divided by 1000 is 0.007.",
+      "hash": "bbc8c27f41e31086",
+      "translations": {
+        "hi": {
+          "question": "दशमलव रूप में 7/1000 का मान क्या है?",
+          "options": {
+            "A": "0.007",
+            "B": "0.07",
+            "C": "0.7",
+            "D": "0.0007"
+          },
+          "explanation": "7 को 1000 से भाग देने पर 0.007 आता है।"
+        }
+      }
+    }
+  ]
+}

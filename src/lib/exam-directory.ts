@@ -35,13 +35,28 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Delhi teacher recruitment, TGT Computer Science. 30-question, 10-minute mock tests built from previous papers, with the real −0.25 negative marking.',
     description: 'Free DSSSB TGT Computer Science mock tests from previous year papers: 30 questions in 10 minutes, with 0.25 marks deducted for each wrong answer like the real exam, and explanations in English and Hindi.',
   },
+  'ctet-paper-2': {
+    family: 'teaching',
+    title: 'CTET Paper 2 (Classes 6–8)',
+    shortTitle: 'CTET Paper 2',
+    body: 'Central Board of Secondary Education',
+    blurb: 'Central Teacher Eligibility Test for upper primary teachers. Full 150-question mock tests for the Mathematics & Science and Social Studies streams, plus sets for Child Development and Pedagogy, both languages and every subject.',
+    description: 'Free CTET Paper 2 mock tests for Classes 6–8: full 150-question, 150-minute papers for Mathematics & Science and Social Studies, and practice sets for Child Development and Pedagogy, Hindi, English and each subject, with explanations in English and Hindi.',
+  },
+  'ctet-paper-1': {
+    family: 'teaching',
+    title: 'CTET Paper 1 (Classes 1–5)',
+    shortTitle: 'CTET Paper 1',
+    body: 'Central Board of Secondary Education',
+    blurb: 'Central Teacher Eligibility Test for primary teachers. Full 150-question mock tests, plus sets for Child Development and Pedagogy, both languages, Mathematics and EVS.',
+    description: 'Free CTET Paper 1 mock tests for Classes 1–5: full 150-question, 150-minute papers, and practice sets for Child Development and Pedagogy, Hindi, English, Mathematics and Environmental Studies, with explanations in English and Hindi.',
+  },
 };
 
 export interface PlannedExam { id: string; family: FamilyId; title: string; body: string; blurb: string }
 export const plannedExams: PlannedExam[] = [
   { id: 'ssc-mts', family: 'ssc', title: 'SSC MTS', body: 'Staff Selection Commission', blurb: 'Multi-Tasking (Non-Technical) Staff recruitment.' },
   { id: 'rrb-ntpc', family: 'railway', title: 'RRB NTPC', body: 'Railway Recruitment Boards', blurb: 'Non-Technical Popular Categories recruitment for Indian Railways.' },
-  { id: 'ctet', family: 'teaching', title: 'CTET', body: 'Central Board of Secondary Education', blurb: 'Central Teacher Eligibility Test for Classes I–VIII.' },
 ];
 
 export const examHref = (examId: string) => `/exams/${examId}`;

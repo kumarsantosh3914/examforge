@@ -83,6 +83,24 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - SSC GD and DSSSB both have a `mock-test` subject, so source question IDs such as `mock-test-01-001` repeat across exams; database IDs stay exam-qualified, and the data test now checks uniqueness per exam.
 - Totals: 3 exams, 20 subjects, 105 sets, 3,446 usable questions (3 quarantined, none new).
 
+## CTET Paper 2 (2026-10-12)
+
+- Fourth live exam at `/exams/ctet-paper-2` (Classes 6–8, CBSE): 9 subjects, 90 sets, 5,098 usable questions in English and Hindi with explanations. Two full-test subjects (Mathematics & Science, Social Studies/Social Science) have 10 sets of 150 questions with 150 minutes, the real paper's length; the seven section subjects (Child Development and Pedagogy, Language I (Hindi), Language II (English), Mathematics, Science, Social Studies, Social Science) have 10 sets of 30. No negative marking, as in CTET.
+- Seed source `cleaned/ctet-paper-2/` is copied from raw `data/ctet-paper-2/` (freetesthub.com/ctet-paper-2 structure) with one change: full-test set titles read `Mathematics & Science Full Test N` and `Social Studies / Social Science Full Test N` instead of `Mock Test Mathematics & Science (Full Test) Mock Test N`.
+- `mathematics-06-014` and its copy `mock-test-mathematics-science-full-test-05-073` (Roman numeral for 99, `XCIX` as both A and C) fail the duplicate-answer rule and are quarantined, so those sets have 29 and 149 questions.
+- Known source quirks, left as supplied: full tests are assembled from the section sets in the order English, Hindi, then subject/CDP blocks (not the real paper's order); 15 questions repeat inside a full test; Social Science has only 153 distinct questions across its 300; and answer keys lean heavily on B (59% overall; Mathematics 84% A, Language I 85% B), as in the BPSC bank.
+- Exam guide in `src/lib/exam-guides.ts` (pattern, syllabus with practice links, eligibility, qualifying marks, tips, FAQ). It does not state an exam date because reports of the next cycle conflict; it points to ctet.nic.in. The planned "CTET" card is now "CTET Paper 1".
+- Totals: 4 exams, 29 subjects, 195 sets, 8,544 usable questions (5 quarantined).
+
+## CTET Paper 1 (2026-10-12)
+
+- Fifth live exam at `/exams/ctet-paper-1` (Classes 1–5, CBSE): 6 subjects, 60 sets, 2,998 usable questions in English and Hindi with explanations. The full-test subject has 10 sets of 150 questions with 150 minutes; the five section subjects (Child Development and Pedagogy, Language I (Hindi), Language II (English), Mathematics, Environmental Studies (EVS)) have 10 sets of 30. No negative marking.
+- Seed source `cleaned/ctet-paper-1/` is copied from raw `data/ctet-paper-1/` (freetesthub.com/ctet-paper-1 structure) with three changes: the subject `Child Development and Pedagogy:` loses its trailing colon; `Mock Test(Full Test)` becomes `Mock Test (Full Test)` with set titles `Full Test N`; and Mathematics set 10, which held its 30 questions twice (31–60 repeat 1–30 in a shuffled order), is cut to the first 30.
+- `mathematics-05-014` and its copy `mock-test-full-test-05-105` (the same `XCIX` duplicate-option question as Paper 2) are quarantined, so those sets have 29 and 149 questions.
+- Known source quirks, left as supplied: full tests are assembled from the section sets in the order language, EVS, language, Mathematics, CDP; 8 questions repeat inside a full test (sets 1, 2, 9, 10), full tests 8 and 9 use the same EVS block, and 1 and 10 overlap in EVS; answer keys lean heavily on B (57% overall; Mathematics 84% A, Language I 85% B).
+- Exam guide in `src/lib/exam-guides.ts`, mirroring Paper 2. The "CTET Paper 1" coming-soon card is removed; the planned list is now SSC MTS and RRB NTPC.
+- Totals: 5 exams, 35 subjects, 255 sets, 11,542 usable questions (7 quarantined).
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

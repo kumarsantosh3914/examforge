@@ -264,4 +264,163 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'ctet-paper-2': {
+    heading: 'About the CTET Paper 2 exam',
+    intro: [
+      'The Central Teacher Eligibility Test (CTET) is run by the Central Board of Secondary Education (CBSE) and is the eligibility test for teachers in central government schools such as Kendriya Vidyalayas and Navodaya Vidyalayas. Paper 2 is for upper primary teachers (Classes 6–8). It is a qualifying test, not a recruitment exam: passing it makes you eligible to apply for teaching posts.',
+      'ExamForge has 90 free, timed sets for Paper 2. Twenty are full 150-question mock tests, ten for each stream (Mathematics & Science, and Social Studies/Social Science), and the rest are 30-question sets for each section. Every question is in English and Hindi, and each one comes with an explanation after you submit. Your first three sets need no signup.',
+      'Build your basics with the section sets first, starting with Child Development and Pedagogy because it counts in every paper. Then take full mock tests for your stream: they give you 150 minutes for 150 questions, the same as the real paper, and like CTET they do not deduct marks for wrong answers.',
+    ],
+    pattern: {
+      summary: 'Paper 2 is a single objective paper of 150 multiple-choice questions, one mark each, with 2 hours 30 minutes for the whole paper. Child Development and Pedagogy and both languages are compulsory; for the last section you take Mathematics and Science or Social Studies/Social Science, depending on the subject you want to teach.',
+      caption: 'CTET Paper 2 sections for Classes 6–8 teachers',
+      sections: [
+        { part: 'I', subject: 'Child Development and Pedagogy (compulsory)', questions: 30, marks: 30 },
+        { part: 'II', subject: 'Language I (compulsory)', questions: 30, marks: 30 },
+        { part: 'III', subject: 'Language II (compulsory)', questions: 30, marks: 30 },
+        { part: 'IV', subject: 'Mathematics and Science, or Social Studies/Social Science', questions: 60, marks: 60 },
+      ],
+      duration: '2 hours 30 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '0' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Language I and Language II must be different languages, chosen from the languages CBSE offers. Teachers of other subjects can take either stream. Each section mixes content questions with questions on how to teach it, and the pedagogy share is large. Check the information bulletin on ctet.nic.in for the current cycle.',
+    },
+    syllabus: {
+      intro: 'Content questions are set at the Class 6–8 level, but a large share of every section tests teaching: how children learn, and how to teach and assess the subject. ExamForge’s nine subjects map to the sections below.',
+      areas: [
+        {
+          title: 'Child Development and Pedagogy', subjects: ['child-development-and-pedagogy'],
+          summary: 'The educational psychology of teaching and learning for children aged 11 to 14.',
+          topics: ['Principles of development, heredity and environment', 'Piaget, Kohlberg and Vygotsky', 'Child-centred and progressive education', 'Intelligence, language and thought, gender and individual differences', 'Inclusive education and children with special needs', 'Assessment for learning and continuous and comprehensive evaluation', 'Motivation, learning difficulties and how children think'],
+        },
+        {
+          title: 'Language I and Language II', subjects: ['language-i-hindi', 'language-ii-english'],
+          summary: 'Comprehension and grammar in the language, and how languages are learned and taught.',
+          topics: ['Unseen prose and poetry passages', 'Grammar and verbal ability', 'Language acquisition and learning', 'Listening, speaking, reading and writing skills', 'Teaching in a multilingual classroom', 'Teaching materials, assessment and remedial teaching'],
+        },
+        {
+          title: 'Mathematics and Science', subjects: ['mathematics', 'science', 'mock-test-mathematics-science-full-test'],
+          summary: 'For Mathematics and Science teachers: 30 questions on each subject, with content and pedagogy.',
+          topics: ['Number system, algebra, geometry, mensuration and data handling', 'Nature of mathematics, mathematical language and remedial teaching', 'Food, materials and the world of the living', 'Moving things, how things work, natural phenomena and natural resources', 'Science teaching approaches, experiments, aids and evaluation'],
+        },
+        {
+          title: 'Social Studies/Social Science', subjects: ['social-studies', 'social-science', 'mock-test-social-studies-social-science-full-test'],
+          summary: 'For Social Studies teachers: history, geography and civics, with how to teach them.',
+          topics: ['History: early societies to the national movement', 'Geography: the earth, resources and the environment', 'Social and political life: democracy, government and the Constitution', 'Nature of social science and developing critical thinking', 'Sources, enquiry, project work and evaluation'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions for Paper 2, in short. The CTET information bulletin lists every accepted combination.',
+      items: [
+        { title: 'Qualification', detail: 'A graduation degree with a B.Ed. or a two-year Diploma in Elementary Education, or one of the other combinations in the bulletin, such as a four-year integrated B.El.Ed. or B.A./B.Sc.Ed. Candidates in the final year of their teacher training course can also apply.' },
+        { title: 'Age', detail: 'CTET sets no upper age limit. Age limits for jobs are set by each employer.' },
+        { title: 'Attempts', detail: 'There is no limit on the number of attempts, and you can sit again to improve your score.' },
+      ],
+    },
+    merit: [
+      { title: 'Pass mark', detail: 'You qualify with 60% or more: at least 90 of the 150 marks. Employing schools and governments may give concessions to SC, ST, OBC and differently abled candidates under their own rules.' },
+      { title: 'Certificate', detail: 'Qualified candidates get a CTET eligibility certificate, issued through DigiLocker, and it stays valid for life.' },
+      { title: 'After CTET', detail: 'The certificate makes you eligible to apply; it does not guarantee a job. Posts are filled through each employer’s own recruitment, such as KVS or NVS.' },
+    ],
+    tips: [
+      { title: 'Answer every question', detail: 'There is no negative marking, so never leave a bubble empty. Rule out what you can and make your best guess on the rest.' },
+      { title: 'Master pedagogy', detail: 'Child Development and Pedagogy is 30 marks on its own, and pedagogy questions also appear in the language and subject sections. Learn the theorists and the ideas behind child-centred teaching.' },
+      { title: 'Read the question as a teacher', detail: 'Many questions describe a classroom situation. The expected answer is usually the one that encourages the child, includes everyone and builds understanding, not the one that punishes or drills.' },
+      { title: 'Practise both languages', detail: 'The two language sections are 60 marks together. Comprehension passages reward steady reading practice in both languages.' },
+      { title: 'Finish full papers under the clock', detail: 'Once your basics are in place, take a full 150-minute mock test for your stream every few days to build stamina and timing.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in CTET?', answer: 'No. Each correct answer gets one mark and a wrong answer costs nothing. ExamForge scores CTET sets the same way.' },
+      { question: 'What are the qualifying marks?', answer: '60% or more, which is 90 out of 150. Employers may give reserved-category candidates a concession under their own rules.' },
+      { question: 'How long is the CTET certificate valid?', answer: 'For life. Qualified candidates download their certificate from DigiLocker.' },
+      { question: 'When is the next CTET?', answer: 'CBSE usually holds CTET twice a year and announces each cycle on ctet.nic.in. Check the official site for the current date and admit cards.' },
+      { question: 'How are the ExamForge sets structured?', answer: 'Full mock tests have 150 questions and a 150-minute timer: 30 each on English, Hindi and Child Development and Pedagogy, and 60 on your stream. The sections come in a different order from the real paper. There are also 10 sets of 30 questions with 30 minutes for each of the seven section subjects. Mathematics set 6 has 29 questions and Mathematics & Science Full Test 5 has 149, because one question in each repeated its correct answer as another option and was left out.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'ctet-paper-1': {
+    heading: 'About the CTET Paper 1 exam',
+    intro: [
+      'The Central Teacher Eligibility Test (CTET) is run by the Central Board of Secondary Education (CBSE) and is the eligibility test for teachers in central government schools such as Kendriya Vidyalayas and Navodaya Vidyalayas. Paper 1 is for primary teachers (Classes 1–5). It is a qualifying test, not a recruitment exam: passing it makes you eligible to apply for teaching posts.',
+      'ExamForge has 60 free, timed sets for Paper 1. Ten are full 150-question mock tests, and the rest are 30-question sets for each of the five sections: Child Development and Pedagogy, Language I (Hindi), Language II (English), Mathematics and Environmental Studies. Every question is in English and Hindi, and each one comes with an explanation after you submit. Your first three sets need no signup.',
+      'Build your basics with the section sets first, starting with Child Development and Pedagogy because it is the heart of the paper. Then take full mock tests: they give you 150 minutes for 150 questions, the same as the real paper, and like CTET they do not deduct marks for wrong answers.',
+    ],
+    pattern: {
+      summary: 'Paper 1 is a single objective paper of 150 multiple-choice questions, one mark each, with 2 hours 30 minutes for the whole paper. All five sections are compulsory and carry 30 questions each.',
+      caption: 'CTET Paper 1 sections for Classes 1–5 teachers',
+      sections: [
+        { part: 'I', subject: 'Child Development and Pedagogy', questions: 30, marks: 30 },
+        { part: 'II', subject: 'Language I', questions: 30, marks: 30 },
+        { part: 'III', subject: 'Language II', questions: 30, marks: 30 },
+        { part: 'IV', subject: 'Mathematics', questions: 30, marks: 30 },
+        { part: 'V', subject: 'Environmental Studies', questions: 30, marks: 30 },
+      ],
+      duration: '2 hours 30 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '0' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Language I and Language II must be different languages, chosen from the languages CBSE offers. Mathematics and Environmental Studies each mix content questions with questions on how to teach the subject. Check the information bulletin on ctet.nic.in for the current cycle.',
+    },
+    syllabus: {
+      intro: 'Content questions are set at the Class 1–5 level, but a large share of every section tests teaching: how young children learn, and how to teach and assess each subject. ExamForge’s six subjects map to the sections below.',
+      areas: [
+        {
+          title: 'Child Development and Pedagogy', subjects: ['child-development-and-pedagogy'],
+          summary: 'The educational psychology of teaching and learning for children aged 6 to 11.',
+          topics: ['Principles of development, heredity and environment', 'Socialisation, and Piaget, Kohlberg and Vygotsky', 'Child-centred and progressive education', 'Intelligence, language and thought, gender and individual differences', 'Inclusive education, learning difficulties and children with special needs', 'Assessment for learning and continuous and comprehensive evaluation', 'How children think and learn, motivation and the role of the teacher'],
+        },
+        {
+          title: 'Language I and Language II', subjects: ['language-i-hindi', 'language-ii-english'],
+          summary: 'Comprehension and grammar in the language, and how young children learn and are taught languages.',
+          topics: ['Unseen prose and poetry passages', 'Grammar and verbal ability', 'Language acquisition and learning', 'Listening, speaking, reading and writing skills', 'Teaching in a multilingual classroom', 'Teaching materials, assessment and remedial teaching'],
+        },
+        {
+          title: 'Mathematics', subjects: ['mathematics'],
+          summary: 'Primary-level mathematics, and how children come to understand it.',
+          topics: ['Numbers, addition and subtraction, multiplication and division', 'Shapes, spatial understanding and solids around us', 'Measurement, weight, time, volume and money', 'Data handling and patterns', 'Nature of mathematics, its language and community mathematics', 'Evaluation, remedial teaching and problems of teaching'],
+        },
+        {
+          title: 'Environmental Studies', subjects: ['environmental-studies-evs'],
+          summary: 'The child’s world of family, food, shelter, water and travel, and how EVS is taught as an integrated subject.',
+          topics: ['Family and friends: relationships, work and play, animals and plants', 'Food, shelter and water', 'Travel, and things we make and do', 'Concept and scope of EVS, and EVS and environmental education', 'Activities, experimentation, discussion and continuous evaluation', 'Teaching materials and aids, and problems of teaching EVS'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions for Paper 1, in short. The CTET information bulletin lists every accepted combination.',
+      items: [
+        { title: 'Qualification', detail: 'Senior Secondary (Class 12) with at least 50% marks and a two-year Diploma in Elementary Education or a four-year B.El.Ed., or graduation with a two-year Diploma in Elementary Education. Candidates in the final year of their course can also apply. Recent bulletins do not accept a B.Ed. for Paper 1, so check the current bulletin.' },
+        { title: 'Age', detail: 'CTET sets no upper age limit. Age limits for jobs are set by each employer.' },
+        { title: 'Attempts', detail: 'There is no limit on the number of attempts, and you can sit again to improve your score.' },
+      ],
+    },
+    merit: [
+      { title: 'Pass mark', detail: 'You qualify with 60% or more: at least 90 of the 150 marks. Employing schools and governments may give concessions to SC, ST, OBC and differently abled candidates under their own rules.' },
+      { title: 'Certificate', detail: 'Qualified candidates get a CTET eligibility certificate, issued through DigiLocker, and it stays valid for life.' },
+      { title: 'After CTET', detail: 'The certificate makes you eligible to apply; it does not guarantee a job. Posts are filled through each employer’s own recruitment, such as KVS or NVS.' },
+    ],
+    tips: [
+      { title: 'Answer every question', detail: 'There is no negative marking, so never leave a bubble empty. Rule out what you can and make your best guess on the rest.' },
+      { title: 'Master pedagogy', detail: 'Child Development and Pedagogy is 30 marks on its own, and pedagogy questions also appear in the language, Mathematics and EVS sections. Learn the theorists and the ideas behind child-centred teaching.' },
+      { title: 'Read the question as a teacher', detail: 'Many questions describe a classroom situation. The expected answer is usually the one that encourages the child, includes everyone and builds understanding, not the one that punishes or drills.' },
+      { title: 'Do not skip EVS pedagogy', detail: 'EVS questions are as much about how to teach the subject as about the facts. Know why EVS is taught as one integrated subject at the primary level.' },
+      { title: 'Finish full papers under the clock', detail: 'Once your basics are in place, take a full 150-minute mock test every few days to build stamina and timing.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in CTET?', answer: 'No. Each correct answer gets one mark and a wrong answer costs nothing. ExamForge scores CTET sets the same way.' },
+      { question: 'What are the qualifying marks?', answer: '60% or more, which is 90 out of 150. Employers may give reserved-category candidates a concession under their own rules.' },
+      { question: 'What is the difference between Paper 1 and Paper 2?', answer: 'Paper 1 is for teachers of Classes 1–5 and has Mathematics and Environmental Studies as its subject sections. Paper 2 is for Classes 6–8 and has Mathematics and Science or Social Studies instead. To teach both levels you take both papers.' },
+      { question: 'When is the next CTET?', answer: 'CBSE usually holds CTET twice a year and announces each cycle on ctet.nic.in. Check the official site for the current date and admit cards.' },
+      { question: 'How are the ExamForge sets structured?', answer: 'Full mock tests have 150 questions and a 150-minute timer, 30 on each section, though the sections come in a different order from the real paper. There are also 10 sets of 30 questions with 30 minutes for each of the five sections. Mathematics set 5 has 29 questions and Full Test 5 has 149, because one question in each repeated its correct answer as another option and was left out.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
 };

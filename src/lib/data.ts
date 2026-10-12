@@ -20,7 +20,7 @@ const indexSchema = z.object({ subject: text, slug, sets: z.array(z.object({ set
 const setSchema = z.object({ subject: text, set: z.number().int().positive(), title: text, questions: z.array(z.unknown()) });
 // Explicit quarantine: source is preserved; new invalid records fail validation.
 // Keyed by `<exam id>/<question id>` so question IDs reused across exams cannot collide.
-const quarantined = new Set(['bpsc-tre-4.0/computer/programming-languages-05-027', 'ssc-gd-constable/reasoning-02-002', 'ssc-gd-constable/hindi-05-003']);
+const quarantined = new Set(['bpsc-tre-4.0/computer/programming-languages-05-027', 'ssc-gd-constable/reasoning-02-002', 'ssc-gd-constable/hindi-05-003', 'ctet-paper-2/mathematics-06-014', 'ctet-paper-2/mock-test-mathematics-science-full-test-05-073', 'ctet-paper-1/mathematics-05-014', 'ctet-paper-1/mock-test-full-test-05-105']);
 export const digest = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export interface Bank { exams: Exam[]; subjects: Subject[]; sets: PracticeSet[]; questions: StoredQuestion[]; excluded: { id: string; file: string; reason: string }[]; sourceQuestions: number }
 async function json(file: string) { return JSON.parse(await readFile(file, 'utf8')) as unknown; }

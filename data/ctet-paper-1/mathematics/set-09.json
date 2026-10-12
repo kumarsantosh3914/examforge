@@ -1,0 +1,787 @@
+{
+  "subject": "Mathematics",
+  "set": 9,
+  "title": "Mathematics Mock Test 9",
+  "questions": [
+    {
+      "id": "mathematics-09-001",
+      "number": 1,
+      "question": "In a five-digit number, the digit at the thousands place is 4, the digit at units place is half the thousands place digit, the digit at hundreds place is 0, the digit at tens place is three times the units place digit, and the ten-thousands digit is the same as the tens place digit. What is the number?",
+      "options": {
+        "A": "64062",
+        "B": "46062",
+        "C": "64602",
+        "D": "64026"
+      },
+      "answer": "A",
+      "explanation": "Units=2, Tens=2*3=6, Hundreds=0, Thousands=4, Ten-thousands=6.",
+      "hash": "85709611c8a0ad4b",
+      "translations": {
+        "hi": {
+          "question": "एक पांच अंकीय संख्या में, हजार के स्थान का अंक 4 है, इकाई के स्थान का अंक हजार के स्थान के अंक का आधा है, सैकड़े के स्थान का अंक 0 है, दहाई के स्थान का अंक इकाई के स्थान के अंक का तीन गुना है, और दस-हजार का अंक दहाई के स्थान के अंक के समान है। संख्या क्या है?",
+          "options": {
+            "A": "64062",
+            "B": "46062",
+            "C": "64602",
+            "D": "64026"
+          },
+          "explanation": "इकाई=2, दहाई=6, सैकड़ा=0, हजार=4, दस-हजार=6।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-002",
+      "number": 2,
+      "question": "Which of the following numbers is prime?",
+      "options": {
+        "A": "61",
+        "B": "51",
+        "C": "81",
+        "D": "91"
+      },
+      "answer": "A",
+      "explanation": "61 has only two factors: 1 and 61. (51=3*17, 81=9*9, 91=7*13).",
+      "hash": "eff34cfd8ccabdf7",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या अभाज्य है?",
+          "options": {
+            "A": "61",
+            "B": "51",
+            "C": "81",
+            "D": "91"
+          },
+          "explanation": "61 के केवल दो गुणनखंड हैं: 1 और 61।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-003",
+      "number": 3,
+      "question": "The perimeter of a square is 24 cm. What is its area?",
+      "options": {
+        "A": "36 sq cm",
+        "B": "24 sq cm",
+        "C": "48 sq cm",
+        "D": "16 sq cm"
+      },
+      "answer": "A",
+      "explanation": "Side = 24/4 = 6 cm. Area = 6*6 = 36 sq cm.",
+      "hash": "7630165376e81e8f",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का परिमाप 24 सेमी है। इसका क्षेत्रफल क्या है?",
+          "options": {
+            "A": "36 वर्ग सेमी",
+            "B": "24 वर्ग सेमी",
+            "C": "48 वर्ग सेमी",
+            "D": "16 वर्ग सेमी"
+          },
+          "explanation": "भुजा = 24/4 = 6 सेमी। क्षेत्रफल = 6*6 = 36 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-004",
+      "number": 4,
+      "question": "Which type of angle is exactly 180 degrees?",
+      "options": {
+        "A": "Straight angle",
+        "B": "Right angle",
+        "C": "Reflex angle",
+        "D": "Obtuse angle"
+      },
+      "answer": "A",
+      "explanation": "An angle of 180 degrees forms a straight line.",
+      "hash": "ea1f4058a1ff0c0a",
+      "translations": {
+        "hi": {
+          "question": "180 डिग्री का कोण किस प्रकार का होता है?",
+          "options": {
+            "A": "ऋजु कोण",
+            "B": "समकोण",
+            "C": "प्रतिवर्ती कोण",
+            "D": "अधिक कोण"
+          },
+          "explanation": "180 डिग्री का कोण एक सीधी रेखा बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-005",
+      "number": 5,
+      "question": "How many lines of symmetry does a rhombus have?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "A rhombus has 2 lines of symmetry, which are its diagonals.",
+      "hash": "1eb6ca93f0739dc2",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज में समरूपता की कितनी रेखाएं होती हैं?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "1",
+            "D": "0"
+          },
+          "explanation": "एक समचतुर्भुज में 2 समरूपता रेखाएं होती हैं, जो इसके विकर्ण होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-006",
+      "number": 6,
+      "question": "A wire 88 cm long is bent into the shape of a rectangle. If the length of the rectangle is 26 cm, what is its breadth?",
+      "options": {
+        "A": "18 cm",
+        "B": "22 cm",
+        "C": "36 cm",
+        "D": "44 cm"
+      },
+      "answer": "A",
+      "explanation": "2(26 + B) = 88 -> 26 + B = 44 -> B = 18.",
+      "hash": "fee993980cf6e11e",
+      "translations": {
+        "hi": {
+          "question": "88 सेमी लंबे तार को एक आयत के आकार में मोड़ा गया है। यदि आयत की लंबाई 26 सेमी है, तो इसकी चौड़ाई क्या है?",
+          "options": {
+            "A": "18 सेमी",
+            "B": "22 सेमी",
+            "C": "36 सेमी",
+            "D": "44 सेमी"
+          },
+          "explanation": "2(26 + B) = 88 -> 26 + B = 44 -> B = 18 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-007",
+      "number": 7,
+      "question": "How many faces does a triangular prism have?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "2 triangular bases and 3 rectangular side faces. Total = 5.",
+      "hash": "d952f0019d58a70d",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुजाकार प्रिज्म में कितने फलक होते हैं?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "4",
+            "D": "9"
+          },
+          "explanation": "2 त्रिभुजाकार आधार और 3 आयताकार पार्श्व फलक। कुल = 5। [Image of a triangular prism showing faces edges and vertices]"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-008",
+      "number": 8,
+      "question": "What is the sum of the place values of 6 in the number 60606?",
+      "options": {
+        "A": "60606",
+        "B": "18",
+        "C": "666",
+        "D": "60000"
+      },
+      "answer": "A",
+      "explanation": "60000 + 600 + 6 = 60606.",
+      "hash": "af56bb2e8b2532a6",
+      "translations": {
+        "hi": {
+          "question": "संख्या 60606 में 6 के स्थानीय मानों का योग क्या है?",
+          "options": {
+            "A": "60606",
+            "B": "18",
+            "C": "666",
+            "D": "60000"
+          },
+          "explanation": "60000 + 600 + 6 = 60606।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-009",
+      "number": 9,
+      "question": "A bus covers 300 km in 5 hours 30 minutes. What is its speed in km/h? (Approximate)",
+      "options": {
+        "A": "54.54",
+        "B": "60.00",
+        "C": "50.00",
+        "D": "55.55"
+      },
+      "answer": "A",
+      "explanation": "300 / 5.5 = 54.54 km/h.",
+      "hash": "9988b226c997bc18",
+      "translations": {
+        "hi": {
+          "question": "एक बस 5 घंटे 30 मिनट में 300 किमी की दूरी तय करती है। किमी/घंटा में इसकी गति क्या है? (लगभग)",
+          "options": {
+            "A": "54.54",
+            "B": "60.00",
+            "C": "50.00",
+            "D": "55.55"
+          },
+          "explanation": "300 / 5.5 = 54.54 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-010",
+      "number": 10,
+      "question": "Find the HCF of 30 and 45.",
+      "options": {
+        "A": "15",
+        "B": "5",
+        "C": "10",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "15 is the highest number that divides both 30 and 45.",
+      "hash": "4a3969460963b791",
+      "translations": {
+        "hi": {
+          "question": "30 और 45 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "15",
+            "B": "5",
+            "C": "10",
+            "D": "30"
+          },
+          "explanation": "15 वह सबसे बड़ी संख्या है जो 30 और 45 दोनों को विभाजित करती है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-011",
+      "number": 11,
+      "question": "How many edges are there in a cube?",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "A cube consists of 12 equal edges.",
+      "hash": "3f80614b342fc513",
+      "translations": {
+        "hi": {
+          "question": "एक घन में कितने किनारे होते हैं?",
+          "options": {
+            "A": "12",
+            "B": "8",
+            "C": "6",
+            "D": "4"
+          },
+          "explanation": "एक घन में 12 बराबर किनारे होते हैं। [Image of a cube showing edges faces and vertices]"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-012",
+      "number": 12,
+      "question": "Which of the following fractions is equivalent to 3/4?",
+      "options": {
+        "A": "9/12",
+        "B": "6/10",
+        "C": "3/8",
+        "D": "4/3"
+      },
+      "answer": "A",
+      "explanation": "Multiplying both numerator and denominator of 3/4 by 3 gives 9/12.",
+      "hash": "b3eb6abc79651733",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा भिन्न 3/4 के बराबर है?",
+          "options": {
+            "A": "9/12",
+            "B": "6/10",
+            "C": "3/8",
+            "D": "4/3"
+          },
+          "explanation": "3/4 के अंश और हर दोनों को 3 से गुणा करने पर 9/12 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-013",
+      "number": 13,
+      "question": "Round off 15729 to the nearest hundred.",
+      "options": {
+        "A": "15700",
+        "B": "15800",
+        "C": "16000",
+        "D": "15730"
+      },
+      "answer": "A",
+      "explanation": "Tens digit is 2 (<5), so keep the hundreds digit as it is.",
+      "hash": "fd8ba09a54c1c830",
+      "translations": {
+        "hi": {
+          "question": "15729 का निकटतम सौ तक सन्निकटन करें।",
+          "options": {
+            "A": "15700",
+            "B": "15800",
+            "C": "16000",
+            "D": "15730"
+          },
+          "explanation": "दहाई का अंक 2 है (<5), इसलिए सैकड़े का अंक वही रहेगा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-014",
+      "number": 14,
+      "question": "If a clock shows 9:00, what is the measure of the reflex angle between the hands?",
+      "options": {
+        "A": "270°",
+        "B": "90°",
+        "C": "180°",
+        "D": "360°"
+      },
+      "answer": "A",
+      "explanation": "Inner angle is 90°. Reflex angle = 360° - 90° = 270°.",
+      "hash": "91879e8819761ebd",
+      "translations": {
+        "hi": {
+          "question": "यदि एक घड़ी 9:00 का समय दिखाती है, तो सुइयों के बीच प्रतिवर्ती कोण का माप क्या है?",
+          "options": {
+            "A": "270°",
+            "B": "90°",
+            "C": "180°",
+            "D": "360°"
+          },
+          "explanation": "आंतरिक कोण 90° है। प्रतिवर्ती कोण = 360° - 90° = 270°।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-015",
+      "number": 15,
+      "question": "Which shape has no corners?",
+      "options": {
+        "A": "Circle",
+        "B": "Square",
+        "C": "Triangle",
+        "D": "Pentagon"
+      },
+      "answer": "A",
+      "explanation": "A circle is a curved line with no vertices or corners.",
+      "hash": "87dc3592801b4348",
+      "translations": {
+        "hi": {
+          "question": "किस आकृति में कोई कोना नहीं होता?",
+          "options": {
+            "A": "वृत्त",
+            "B": "वर्ग",
+            "C": "त्रिभुज",
+            "D": "पंचभुज"
+          },
+          "explanation": "एक वृत्त एक वक्र रेखा है जिसमें कोई शीर्ष या कोना नहीं होता।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-016",
+      "number": 16,
+      "question": "How many 1/8 are there in 1/4?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "(1/4) / (1/8) = (1/4) * 8 = 2.",
+      "hash": "8cdd909a1a4c35a4",
+      "translations": {
+        "hi": {
+          "question": "1/4 में कितने 1/8 हैं?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "1/2"
+          },
+          "explanation": "(1/4) / (1/8) = (1/4) * 8 = 2।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-017",
+      "number": 17,
+      "question": "Find the average of the first five even numbers.",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Even numbers: 2, 4, 6, 8, 10. Sum = 30. Average = 30/5 = 6.",
+      "hash": "d13efb3d9561c955",
+      "translations": {
+        "hi": {
+          "question": "पहली पांच सम संख्याओं का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "10",
+            "D": "4"
+          },
+          "explanation": "सम संख्याएँ: 2, 4, 6, 8, 10। योग = 30। औसत = 6।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-018",
+      "number": 18,
+      "question": "A bottle contains 750 ml of juice. How many such bottles are needed to fill 3 liters?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "3 liters = 3000 ml. 3000 / 750 = 4.",
+      "hash": "ceb9d63b4a664d73",
+      "translations": {
+        "hi": {
+          "question": "एक बोतल में 750 मिली जूस है। 3 लीटर भरने के लिए ऐसी कितनी बोतलों की आवश्यकता होगी?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "3 लीटर = 3000 मिली। 3000 / 750 = 4।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-019",
+      "number": 19,
+      "question": "What is the successor of the smallest 5-digit number?",
+      "options": {
+        "A": "10001",
+        "B": "9999",
+        "C": "10000",
+        "D": "10010"
+      },
+      "answer": "A",
+      "explanation": "Smallest 5-digit number is 10000. Successor = 10000 + 1 = 10001.",
+      "hash": "dfaadd4d7ccf1c87",
+      "translations": {
+        "hi": {
+          "question": "5-अंकीय सबसे छोटी संख्या का परवर्ती क्या है?",
+          "options": {
+            "A": "10001",
+            "B": "9999",
+            "C": "10000",
+            "D": "10010"
+          },
+          "explanation": "5-अंकीय सबसे छोटी संख्या 10000 है। परवर्ती = 10001।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-020",
+      "number": 20,
+      "question": "Roman numeral for 44 is?",
+      "options": {
+        "A": "XLIV",
+        "B": "XXXXIV",
+        "C": "LXIV",
+        "D": "XLVI"
+      },
+      "answer": "A",
+      "explanation": "40 = XL, 4 = IV. Total = XLIV.",
+      "hash": "c43a0e104a40958c",
+      "translations": {
+        "hi": {
+          "question": "44 के लिए रोमन अंक क्या है?",
+          "options": {
+            "A": "XLIV",
+            "B": "XXXXIV",
+            "C": "LXIV",
+            "D": "XLVI"
+          },
+          "explanation": "40 = XL, 4 = IV। कुल = XLIV।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-021",
+      "number": 21,
+      "question": "Which number is a factor of every number?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "1 can divide any natural number without a remainder.",
+      "hash": "69f20bed7ca54dda",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या हर संख्या का गुणनखंड होती है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "10"
+          },
+          "explanation": "1 किसी भी प्राकृतिक संख्या को बिना शेषफल के विभाजित कर सकता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-022",
+      "number": 22,
+      "question": "If the area of a rectangle is 60 sq cm and its breadth is 5 cm, find its perimeter.",
+      "options": {
+        "A": "34 cm",
+        "B": "17 cm",
+        "C": "24 cm",
+        "D": "30 cm"
+      },
+      "answer": "A",
+      "explanation": "Length = 60/5 = 12. Perimeter = 2(12 + 5) = 34.",
+      "hash": "8bc0f3f146bd3c15",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आयत का क्षेत्रफल 60 वर्ग सेमी है और इसकी चौड़ाई 5 सेमी है, तो इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "34 सेमी",
+            "B": "17 सेमी",
+            "C": "24 सेमी",
+            "D": "30 सेमी"
+          },
+          "explanation": "लंबाई = 12। परिमाप = 2(12 + 5) = 34।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-023",
+      "number": 23,
+      "question": "What is 20% of 150?",
+      "options": {
+        "A": "30",
+        "B": "20",
+        "C": "25",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "(20/100) * 150 = 30.",
+      "hash": "762aa447a2142863",
+      "translations": {
+        "hi": {
+          "question": "150 का 20% क्या है?",
+          "options": {
+            "A": "30",
+            "B": "20",
+            "C": "25",
+            "D": "40"
+          },
+          "explanation": "(20/100) * 150 = 30।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-024",
+      "number": 24,
+      "question": "Convert 3/5 into a percentage.",
+      "options": {
+        "A": "60%",
+        "B": "40%",
+        "C": "30%",
+        "D": "50%"
+      },
+      "answer": "A",
+      "explanation": "(3/5) * 100 = 60%.",
+      "hash": "23e1565a4dd618cb",
+      "translations": {
+        "hi": {
+          "question": "3/5 को प्रतिशत में बदलें।",
+          "options": {
+            "A": "60%",
+            "B": "40%",
+            "C": "30%",
+            "D": "50%"
+          },
+          "explanation": "(3/5) * 100 = 60%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-025",
+      "number": 25,
+      "question": "How many degrees are in 3/4 of a right angle?",
+      "options": {
+        "A": "67.5",
+        "B": "45",
+        "C": "60",
+        "D": "75"
+      },
+      "answer": "A",
+      "explanation": "(3/4) * 90 = 270 / 4 = 67.5.",
+      "hash": "f474697df6a185ef",
+      "translations": {
+        "hi": {
+          "question": "एक समकोण के 3/4 भाग में कितने डिग्री होते हैं?",
+          "options": {
+            "A": "67.5",
+            "B": "45",
+            "C": "60",
+            "D": "75"
+          },
+          "explanation": "(3/4) * 90 = 67.5 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-026",
+      "number": 26,
+      "question": "Which solid shape has 6 faces, all of which are congruent squares?",
+      "options": {
+        "A": "Cube",
+        "B": "Cuboid",
+        "C": "Pyramid",
+        "D": "Cylinder"
+      },
+      "answer": "A",
+      "explanation": "A cube is a 3D shape where all faces are equal squares.",
+      "hash": "fa1d49bda0ecbd11",
+      "translations": {
+        "hi": {
+          "question": "किस ठोस आकृति में 6 फलक होते हैं, और सभी सर्वांगसम वर्ग होते हैं?",
+          "options": {
+            "A": "घन",
+            "B": "घनाभ",
+            "C": "पिरामिड",
+            "D": "बेलन"
+          },
+          "explanation": "घन एक ऐसी 3D आकृति है जिसके सभी फलक समान वर्ग होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-027",
+      "number": 27,
+      "question": "Predecessor of the largest 4-digit number is?",
+      "options": {
+        "A": "9998",
+        "B": "9999",
+        "C": "10000",
+        "D": "9990"
+      },
+      "answer": "A",
+      "explanation": "Largest 4-digit number is 9999. Predecessor = 9999 - 1 = 9998.",
+      "hash": "1a61f237e6d09db3",
+      "translations": {
+        "hi": {
+          "question": "4-अंकीय सबसे बड़ी संख्या का पूर्ववर्ती क्या है?",
+          "options": {
+            "A": "9998",
+            "B": "9999",
+            "C": "10000",
+            "D": "9990"
+          },
+          "explanation": "सबसे बड़ी 4-अंकीय संख्या 9999 है। पूर्ववर्ती = 9998।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-028",
+      "number": 28,
+      "question": "What is the face value of 7 in 87402?",
+      "options": {
+        "A": "7",
+        "B": "7000",
+        "C": "700",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Face value remains the digit itself.",
+      "hash": "d9ac2fe4b5a2ad5b",
+      "translations": {
+        "hi": {
+          "question": "87402 में 7 का अंकित मान क्या है?",
+          "options": {
+            "A": "7",
+            "B": "7000",
+            "C": "700",
+            "D": "0"
+          },
+          "explanation": "अंकित मान स्वयं अंक ही रहता है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-029",
+      "number": 29,
+      "question": "Value of 0.5 + 0.55 + 0.055 is?",
+      "options": {
+        "A": "1.105",
+        "B": "1.05",
+        "C": "1.15",
+        "D": "1.55"
+      },
+      "answer": "A",
+      "explanation": "0.500 + 0.550 + 0.055 = 1.105.",
+      "hash": "8c90e1cbfbb55275",
+      "translations": {
+        "hi": {
+          "question": "0.5 + 0.55 + 0.055 का मान क्या है?",
+          "options": {
+            "A": "1.105",
+            "B": "1.05",
+            "C": "1.15",
+            "D": "1.55"
+          },
+          "explanation": "0.500 + 0.550 + 0.055 = 1.105।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-09-030",
+      "number": 30,
+      "question": "How many vertices are there in a triangular pyramid?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "3 at the base and 1 at the top apex.",
+      "hash": "feb47d495e58bf71",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुजाकार पिरामिड में कितने शीर्ष होते हैं?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "6",
+            "D": "5"
+          },
+          "explanation": "3 आधार पर और 1 शीर्ष पर।"
+        }
+      }
+    }
+  ]
+}
