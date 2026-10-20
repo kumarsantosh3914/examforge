@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, Clock3, Languages, Search, ShieldCheck, X } from 'lucide-react';
 import type { Catalog } from '@/lib/types';
 import { api } from '@/lib/client';
-import { examHref, examTitle, families, liveExamMeta, plannedExams, type FamilyId } from '@/lib/exam-directory';
+import { examHref, examTitle, subjectHref, families, liveExamMeta, plannedExams, type FamilyId } from '@/lib/exam-directory';
 import { useSession } from './session';
 import { ErrorMessage, Shell } from './ui';
 
@@ -98,7 +98,7 @@ function LiveExam({ card }: { card: LiveCard }) {
     </div>
     <div className="live-detail">
     <dl className="exam-facts"><div><dt>Subjects</dt><dd>{card.subjects.length}</dd></div><div><dt>Practice sets</dt><dd>{card.sets}</dd></div><div><dt>Questions</dt><dd>{card.questions.toLocaleString('en-IN')}</dd></div><div><dt>Language</dt><dd>EN · <span lang="hi">हिं</span></dd></div></dl>
-    <ul className="subject-chips" aria-label="Subjects">{shown.map(s => <li key={s.id}><Link href={`/practice?subject=${encodeURIComponent(s.id)}`}>{s.name}</Link></li>)}{more > 0 && <li><Link href={examHref(card.id)} className="more">+{more} more</Link></li>}</ul>
+    <ul className="subject-chips" aria-label="Subjects">{shown.map(s => <li key={s.id}><Link href={subjectHref(s.id)}>{s.name}</Link></li>)}{more > 0 && <li><Link href={examHref(card.id)} className="more">+{more} more</Link></li>}</ul>
     </div>
   </article>;
 }

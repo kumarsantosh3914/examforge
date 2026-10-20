@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, Check, ChevronDown } from 'lucide-react';
 import { getCatalogOrNull } from '@/lib/catalog';
 import { examGuides } from '@/lib/exam-guides';
+import { subjectHref } from '@/lib/exam-directory';
 
 // Server-rendered so the guide is in the page HTML for search engines.
 export async function ExamGuide({ examId }: { examId: string }) {
@@ -65,7 +66,7 @@ export async function ExamGuide({ examId }: { examId: string }) {
               <h4>{area.title}</h4>
               <p>{area.summary}</p>
               <ul>{area.topics.map(t => <li key={t}>{t}</li>)}</ul>
-              {linked.length > 0 && <ul className="syllabus-links" aria-label={`Practise ${area.title}`}>{linked.map(s => <li key={s._id}><Link href={`/practice?subject=${encodeURIComponent(s._id)}`}>Practise {s.name}<ArrowRight size={15} aria-hidden="true" /></Link></li>)}</ul>}
+              {linked.length > 0 && <ul className="syllabus-links" aria-label={`Practise ${area.title}`}>{linked.map(s => <li key={s._id}><Link href={subjectHref(s._id)}>Practise {s.name}<ArrowRight size={15} aria-hidden="true" /></Link></li>)}</ul>}
             </article>;
           })}</div>
         </section>}

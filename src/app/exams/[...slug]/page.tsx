@@ -3,43 +3,54 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ExamGuide } from '@/components/exam-guide';
 import { Library } from '@/components/library';
+import { SubjectGuide } from '@/components/subject-guide';
 import { getCatalogOrNull } from '@/lib/catalog';
-import { examHref, examTitle, liveExamMeta } from '@/lib/exam-directory';
+import { examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
 import { absolute } from '@/lib/site';
 
 export const dynamic = 'force-dynamic';
 type Props = { params: Promise<{ slug: string[] }> };
-const examIdOf = async (params: Props['params']) => (await params).slug.map(decodeURIComponent).join('/');
+// The path is an exam id, or a subject id (`<exam id>/<subject slug>`) for that subject's sets.
+const resolve = async (params: Props['params']) => {
+  const id = (await params).slug.map(decodeURIComponent).join('/'); const catalog = await getCatalogOrNull();
+  const exam = catalog?.exams.find(e => e._id === id);
+  const subject = exam ? undefined : catalog?.subjects.find(s => s._id === id);
+  return { id, catalog, exam: exam ?? catalog?.exams.find(e => e._id === subject?.examId), subject };
+};
+const social = (title: string, description: string, url: string): Metadata => ({ title, description, alternates: { canonical: url }, openGraph: { title, description, url, images: ['/opengraph-image'] }, twitter: { card: 'summary_large_image', images: ['/twitter-image'] } });
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const examId = await examIdOf(params); const catalog = await getCatalogOrNull();
-  const exam = catalog?.exams.find(e => e._id === examId);
-  if (!exam) return { title: 'Exam not found', robots: { index: false } };
-  const subjects = catalog!.subjects.filter(s => s.examId === examId);
-  const sets = catalog!.sets.filter(s => s.examId === examId).length;
+  const { id, catalog, exam, subject } = await resolve(params);
+  if (!exam || !catalog) return { title: 'Exam not found', robots: { index: false } };
+  if (subject) {
+    const short = examShortTitle(exam); const name = /mock test/i.test(subject.name) ? subject.name : `${subject.name} Mock Test`;
+    return social(`${short} ${name}: ${subject.setCount} Free Sets`, `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id));
+  }
+  const subjects = catalog.subjects.filter(s => s.examId === id);
+  const sets = catalog.sets.filter(s => s.examId === id).length;
   const questions = subjects.reduce((n, s) => n + s.questionCount, 0);
-  const title = examTitle(exam);
-  // Titles that already say "mock tests" are used as is.
-  const pageTitle = liveExamMeta[examId]?.metaTitle ?? (/mock tests/i.test(title) ? title : `${title} mock tests`);
-  const description = liveExamMeta[examId]?.description ?? `${title} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations in English and Hindi.`;
-  return { title: pageTitle, description, alternates: { canonical: examHref(examId) }, openGraph: { title: pageTitle, description, url: examHref(examId), images: ['/opengraph-image'] }, twitter: { card: 'summary_large_image', images: ['/twitter-image'] } };
+  // Matches how people search: "<exam> mock test", "free", "test series", and the current year.
+  const pageTitle = liveExamMeta[id]?.metaTitle ?? `${examShortTitle(exam)} Mock Test ${new Date().getFullYear()}: Free Test Series`;
+  const description = liveExamMeta[id]?.description ?? `${examTitle(exam)} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations in English and Hindi.`;
+  return social(pageTitle, description, examHref(id));
 }
 
 export default async function ExamPage({ params }: Props) {
-  const examId = await examIdOf(params); const catalog = await getCatalogOrNull();
-  if (catalog && !catalog.exams.some(e => e._id === examId)) notFound();
-  const exam = catalog?.exams.find(e => e._id === examId);
+  const { id, catalog, exam, subject } = await resolve(params);
+  if (catalog && !exam) notFound();
+  const crumbs = exam ? [
+    { '@type': 'ListItem', position: 1, name: 'ExamForge', item: absolute('/') },
+    { '@type': 'ListItem', position: 2, name: examTitle(exam), item: absolute(examHref(exam._id)) },
+    ...(subject ? [{ '@type': 'ListItem', position: 3, name: subject.name, item: absolute(subjectHref(subject._id)) }] : []),
+  ] : [];
   const jsonLd = exam && catalog ? [
-    { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'ExamForge', item: absolute('/') },
-      { '@type': 'ListItem', position: 2, name: examTitle(exam), item: absolute(examHref(examId)) },
-    ] },
-    { '@context': 'https://schema.org', '@type': 'ItemList', name: `${examTitle(exam)} practice sets`, itemListElement: catalog.subjects.filter(s => s.examId === examId).map((s, i) => (
-      { '@type': 'ListItem', position: i + 1, name: s.name, url: absolute(`/practice?subject=${encodeURIComponent(s._id)}`) }
-    )) },
+    { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs },
+    ...(subject ? [] : [{ '@context': 'https://schema.org', '@type': 'ItemList', name: `${examTitle(exam)} practice sets`, itemListElement: catalog.subjects.filter(s => s.examId === id).map((s, i) => (
+      { '@type': 'ListItem', position: i + 1, name: s.name, url: absolute(subjectHref(s._id)) }
+    )) }]),
   ] : null;
   return <>
     {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />}
-    <Suspense><Library examId={examId} initialCatalog={catalog}><ExamGuide examId={examId} /></Library></Suspense>
+    <Suspense><Library id={id} initialCatalog={catalog}>{subject && catalog ? <SubjectGuide subject={subject} catalog={catalog} /> : <ExamGuide examId={id} />}</Library></Suspense>
   </>;
 }

@@ -109,7 +109,7 @@ await step('manual submit via dialog shows result review', async () => {
 });
 
 await step('timer expiry with answers auto-submits (counts)', async () => {
-  await page.goto(`${BASE}/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`);
+  await page.goto(`${BASE}/exams/bpsc-tre-4.0/computer/dbms`);
   await page.getByRole('button', { name: /Start test/ }).nth(1).click();
   await page.waitForURL(/\/test\//);
   const id = attemptId();
@@ -122,7 +122,7 @@ await step('timer expiry with answers auto-submits (counts)', async () => {
 });
 
 await step('untouched expiry is abandoned and preserves allowance', async () => {
-  await page.goto(`${BASE}/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`);
+  await page.goto(`${BASE}/exams/bpsc-tre-4.0/computer/dbms`);
   await page.getByText('1 free attempts remaining', { exact: false }).waitFor();
   await page.getByRole('button', { name: /Start test/ }).nth(2).click();
   await page.waitForURL(/\/test\//);
@@ -136,13 +136,13 @@ await step('untouched expiry is abandoned and preserves allowance', async () => 
 });
 
 await step('third completion, then fourth start redirects to signup', async () => {
-  await page.goto(`${BASE}/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`);
+  await page.goto(`${BASE}/exams/bpsc-tre-4.0/computer/dbms`);
   await page.getByRole('button', { name: /Start test/ }).nth(3).click();
   await page.waitForURL(/\/test\//);
   await page.getByRole('button', { name: /Submit test/ }).click();
   await page.getByRole('button', { name: 'Submit answers' }).click();
   await page.waitForURL(/\/results\//);
-  await page.goto(`${BASE}/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`);
+  await page.goto(`${BASE}/exams/bpsc-tre-4.0/computer/dbms`);
   await page.getByText('0 free attempts remaining', { exact: false }).waitFor();
   await page.getByRole('button', { name: /Start test/ }).nth(4).click();
   await page.waitForURL(/\/auth\?reason=limit/);
@@ -199,7 +199,7 @@ await step('cross-origin mutation is rejected', async () => {
 await step('mobile layouts render without horizontal scroll', async () => {
   const m = await browser.newContext({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
   const mp = await m.newPage();
-  for (const [path, name] of [['/', 'mobile-landing'], ['/exams/bpsc-tre-4.0/computer', 'mobile-library'], ['/auth', 'mobile-auth'], [`/practice?subject=${encodeURIComponent('bpsc-tre-4.0/computer/dbms')}`, 'mobile-subject']]) {
+  for (const [path, name] of [['/', 'mobile-landing'], ['/exams/bpsc-tre-4.0/computer', 'mobile-library'], ['/auth', 'mobile-auth'], ['/exams/bpsc-tre-4.0/computer/dbms', 'mobile-subject']]) {
     await mp.goto(BASE + path); await mp.waitForLoadState('networkidle');
     const overflow = await mp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     assert.ok(overflow <= 0, `${path} overflows by ${overflow}px`);

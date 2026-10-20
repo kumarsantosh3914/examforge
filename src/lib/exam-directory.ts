@@ -111,5 +111,7 @@ export interface PlannedExam { id: string; family: FamilyId; title: string; body
 export const plannedExams: PlannedExam[] = [];
 
 export const examHref = (examId: string) => `/exams/${examId}`;
+// Subject ids are `<exam id>/<subject slug>`, so a subject page nests under its exam page.
+export const subjectHref = (subjectId: string) => `/exams/${subjectId}`;
 export const examTitle = (exam: Exam) => liveExamMeta[exam._id]?.title ?? [exam.name, exam.category].filter(Boolean).join(' ');
 export const examShortTitle = (exam: Exam) => liveExamMeta[exam._id]?.shortTitle ?? examTitle(exam);
