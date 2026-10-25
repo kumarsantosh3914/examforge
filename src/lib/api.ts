@@ -10,7 +10,7 @@ import type { Identity, SessionView } from './types';
 
 const uuid = z.uuid();
 const setInput = z.object({ setId: z.string().min(1).max(250).regex(/^[a-z0-9./-]+$/) }).strict();
-const answerInput = z.object({ index: z.number().int().min(0).max(9999), option: z.enum(['A', 'B', 'C', 'D']).nullable(), revision: z.number().int().nonnegative() }).strict();
+const answerInput = z.object({ index: z.number().int().min(0).max(9999), option: z.enum(['A', 'B', 'C', 'D', 'E']).nullable(), revision: z.number().int().nonnegative() }).strict();
 const guestCookie = 'ef_guest'; const authCookie = 'ef_session';
 let indexes: Promise<void> | undefined;
 const cookieSettings = (days: number) => ({ httpOnly: true, sameSite: 'lax' as const, secure: (process.env.APP_ORIGIN || '').startsWith('https://'), path: '/', maxAge: days * 86400 });

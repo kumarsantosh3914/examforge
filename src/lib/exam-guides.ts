@@ -1107,4 +1107,154 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'afcat': {
+    heading: 'About the AFCAT exam',
+    intro: [
+      'The Air Force Common Admission Test (AFCAT) is conducted by the Indian Air Force twice a year for recruitment into Flying and Ground Duty (Technical and Non-Technical) branches.',
+      'ExamForge provides full timed mock tests matching the real exam questions in English and Hindi, covering General Awareness, Verbal Ability, Numerical Ability, and Reasoning.',
+    ],
+    tips: [
+      { title: 'Focus on Verbal and Reasoning', detail: 'Reasoning and English account for a substantial portion of the paper. Practicing patterns and reading comprehension regularly yields high accuracy.' },
+      { title: 'Manage time carefully', detail: 'Aim to complete 100 questions within the allocated time. Skip lengthy calculations and return to them if time permits.' },
+    ],
+    faq: [
+      { question: 'What subjects are tested in AFCAT?', answer: 'General Awareness, Verbal Ability in English, Numerical Ability, and Reasoning and Military Aptitude.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes, questions and explanations are available in both English and Hindi on ExamForge.' },
+    ],
+  },
+  'agniveer': {
+    heading: 'About the Indian Army Agniveer exam',
+    intro: [
+      'The Indian Army Agniveer Common Entrance Exam (CEE) recruits candidates for General Duty (GD), Technical, and Tradesmen roles under the Agnipath scheme.',
+      'ExamForge offers timed practice tests covering General Knowledge, General Science, and Elementary Mathematics with detailed step-by-step solutions.',
+    ],
+    tips: [
+      { title: 'Strengthen basic science and math', detail: 'Most questions are drawn from Class 8–10 NCERT science and arithmetic topics. Master formulas and unit conversions.' },
+      { title: 'Revise current affairs and GK', detail: 'Stay updated on national defense developments, awards, sports, and Indian history.' },
+    ],
+    faq: [
+      { question: 'What is the pattern of the Agniveer exam?', answer: 'The exam covers General Knowledge, General Science, and Mathematics with 50 objective questions.' },
+    ],
+  },
+  'bihar-police': {
+    heading: 'About the Bihar Police exam',
+    intro: [
+      'The Bihar Police recruitment examination tests candidates on General Studies, General Science, Mathematics, Hindi, and Bihar General Knowledge.',
+      'ExamForge provides 10 full 100-question practice papers with complete explanations in English and Hindi to help candidates score high in the written stage.',
+    ],
+    tips: [
+      { title: 'Focus on Bihar-specific GK', detail: 'Questions on Bihar history, geography, economy, and government schemes appear frequently in the paper.' },
+      { title: 'Practice previous papers', detail: 'Solve full-length mock tests to get used to the pace of 100 questions in 2 hours.' },
+    ],
+    faq: [
+      { question: 'What subjects are covered?', answer: 'General Studies, General Science, Mathematics, Hindi, English, and Bihar GK.' },
+    ],
+  },
+  'delhi-police': {
+    heading: 'About the Delhi Police Constable exam',
+    intro: [
+      'The Delhi Police Constable (Executive) exam is conducted by the Staff Selection Commission (SSC) to select personnel for the Delhi Police force.',
+      'ExamForge features 10 comprehensive practice sets covering Reasoning, General Knowledge/Current Affairs, Numerical Ability, and Computer Fundamentals.',
+    ],
+    tips: [
+      { title: 'Master Computer Fundamentals', detail: 'Basic MS Office, internet, and email questions are high-scoring. Do not leave these marks on the table.' },
+      { title: 'Prioritize General Knowledge', detail: 'GK forms half of the entire question paper; continuous daily revision is essential.' },
+    ],
+    faq: [
+      { question: 'What is the exam structure?', answer: '100 questions total: 50 GK/Current Affairs, 25 Reasoning, 15 Numerical Ability, and 10 Computer Fundamentals.' },
+    ],
+  },
+  'ibps-po': {
+    heading: 'About the IBPS PO exam',
+    intro: [
+      'The Institute of Banking Personnel Selection (IBPS) PO/MT examination is the gateway to officer positions across nationalized banks in India.',
+      'ExamForge provides 10 realistic practice sets featuring 5-option question formats across English Language, Quantitative Aptitude, and Reasoning Ability.',
+    ],
+    tips: [
+      { title: 'Build sectional speed', detail: 'Banking exams test quick decision-making. Learn shortcut methods for arithmetic, series, and quadratic equations.' },
+      { title: 'Focus on puzzles and seating arrangement', detail: 'Reasoning relies heavily on analytical puzzles. Practice at least two new arrangements daily.' },
+    ],
+    faq: [
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as IBPS and SBI traditionally use 5 options (A to E) for each question.' },
+    ],
+  },
+  'rajasthan-police': {
+    heading: 'About the Rajasthan Police Constable exam',
+    intro: [
+      'The Rajasthan Police Constable examination tests candidates on General Knowledge, General Science, Rajasthan History, Culture, Geography, and Reasoning.',
+      'ExamForge offers 10 full-length mock tests with bilingual explanations to prepare candidates for the written selection round.',
+    ],
+    tips: [
+      { title: 'Deep dive into Rajasthan GK', detail: 'A significant portion of the paper is dedicated to Rajasthan culture, art, forts, and history.' },
+    ],
+    faq: [
+      { question: 'Is the exam available in Hindi?', answer: 'Yes, full questions and explanations are available in both Hindi and English.' },
+    ],
+  },
+  'rrb-technician': {
+    heading: 'About the RRB Technician exam',
+    intro: [
+      'The Railway Recruitment Boards (RRB) recruit Technician Grade I and III personnel across Indian Railways.',
+      'ExamForge provides 10 timed practice sets covering Mathematics, General Intelligence & Reasoning, Basic Science, and General Awareness.',
+    ],
+    tips: [
+      { title: 'Revise Basic Science and Engineering', detail: 'Understand physics principles, electricity, mechanics, and measurement standards.' },
+    ],
+    faq: [
+      { question: 'How many questions are in each mock test?', answer: 'Each set contains approximately 100 questions covering the complete technician syllabus.' },
+    ],
+  },
+  'sbi-clerk': {
+    heading: 'About the SBI Clerk exam',
+    intro: [
+      'The State Bank of India conducts the SBI Clerk (Junior Associates) exam for clerical cadre roles in branches nationwide.',
+      'ExamForge mock tests feature 5 options per question across English, Numerical Ability, and Reasoning with comprehensive answer explanations.',
+    ],
+    tips: [
+      { title: 'Improve calculation speed', detail: 'Simplification and approximation questions allow rapid scoring if you know mental math techniques.' },
+    ],
+    faq: [
+      { question: 'What subjects are tested?', answer: 'English Language, Numerical Ability, and Reasoning Ability.' },
+    ],
+  },
+  'sbi-po': {
+    heading: 'About the SBI PO exam',
+    intro: [
+      'The SBI PO exam is among the most prestigious banking tests in India, known for testing conceptual depth in Quantitative Aptitude and Reasoning.',
+      'ExamForge offers timed practice sets with five options per question and in-depth explanations for every answer.',
+    ],
+    tips: [
+      { title: 'Tackle high-level Data Interpretation', detail: 'Data interpretation and caselets carry heavy weight; practice table, pie, and bar chart analysis.' },
+    ],
+    faq: [
+      { question: 'Does SBI PO have negative marking?', answer: 'In the real exam, 0.25 marks are deducted per wrong answer. ExamForge provides timed sets to build speed.' },
+    ],
+  },
+  'tet': {
+    heading: 'About the Teacher Eligibility Test (TET)',
+    intro: [
+      'Teacher Eligibility Tests evaluate the proficiency of candidates aspiring to teach in primary and upper primary schools.',
+      'ExamForge features timed mock tests covering Child Development & Pedagogy, Mathematics, Environmental Studies, and Languages.',
+    ],
+    tips: [
+      { title: 'Master child development theories', detail: 'Understand developmental stages, inclusive education, and learning principles by Piaget, Vygotsky, and Kohlberg.' },
+    ],
+    faq: [
+      { question: 'Who should take TET practice sets?', answer: 'Candidates preparing for central and state TETs (CTET, UPTET, REET, Bihar TET, etc.).' },
+    ],
+  },
+  'up-police': {
+    heading: 'About the UP Police Constable exam',
+    intro: [
+      'The Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) conducts this exam for the recruitment of civil police constables.',
+      'ExamForge provides 10 full 150-question mock tests covering General Science, General Hindi, Numerical & Mental Ability, and Mental Aptitude/Reasoning.',
+    ],
+    tips: [
+      { title: 'Give special attention to General Hindi', detail: 'General Hindi is high-scoring; revise grammar, idioms, vocabulary, and Hindi literature basics.' },
+      { title: 'Practice 150 questions in one sitting', detail: 'Solving 150 questions requires speed and sustained concentration over 2 hours.' },
+    ],
+    faq: [
+      { question: 'What is the full paper structure?', answer: '150 questions: General Science/GK (38), General Hindi (37), Numerical & Mental Ability (38), and Mental Aptitude/Reasoning (37).' },
+    ],
+  },
 };
