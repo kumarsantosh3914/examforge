@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import { SessionProvider } from '@/components/session';
 import { Anek_Devanagari } from 'next/font/google';
 import { siteDescription, siteName, siteUrl } from '@/lib/site';
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
   ...(process.env.GOOGLE_SITE_VERIFICATION ? { verification: { google: process.env.GOOGLE_SITE_VERIFICATION } } : {}),
 };
 export const viewport: Viewport = { themeColor: '#132a34' };
+const analyticsId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || 'G-5TZXTHSSV0';
+const validAnalyticsId = analyticsId && /^G-[A-Z0-9]+$/.test(analyticsId);
 // Browser extensions (Grammarly, dark-mode tools, password managers) inject attributes on <html>/<body>;
 // suppressHydrationWarning ignores attribute-only mismatches on these two elements, not their children.
-export default function RootLayout({ children }: { children: React.ReactNode }) { return <html lang="en" className={display.variable} suppressHydrationWarning><body suppressHydrationWarning><SessionProvider>{children}</SessionProvider></body></html>; }
+export default function RootLayout({ children }: { children: React.ReactNode }) { return <html lang="en" className={display.variable} suppressHydrationWarning><body suppressHydrationWarning><SessionProvider>{children}</SessionProvider></body>{validAnalyticsId && <><Script src={`https://www.googletagmanager.com/gtag/js?id=${analyticsId}`} strategy="afterInteractive" /><Script id="google-analytics" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${analyticsId}');`}</Script></>}</html>; }
