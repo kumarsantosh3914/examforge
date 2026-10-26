@@ -1,9 +1,9 @@
 import { Landing } from '@/components/landing';
 import { getCatalogOrNull } from '@/lib/catalog';
-import { absolute, siteDescription, siteName } from '@/lib/site';
+import { absolute, siteDescription, siteName, siteSummary } from '@/lib/site';
 
 export const dynamic = 'force-dynamic';
-export const metadata = { alternates: { canonical: '/' }, openGraph: { url: '/', images: ['/opengraph-image'] } };
+export const metadata = { description: siteSummary, alternates: { canonical: '/' }, openGraph: { url: '/', description: siteSummary, images: ['/opengraph-image'] } };
 
 export default async function Home() {
   const catalog = await getCatalogOrNull();

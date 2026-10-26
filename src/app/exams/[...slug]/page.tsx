@@ -8,7 +8,7 @@ import { SubjectGuide } from '@/components/subject-guide';
 import { getCatalogOrNull } from '@/lib/catalog';
 import { examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
 import { examGuides } from '@/lib/exam-guides';
-import { absolute, clip } from '@/lib/site';
+import { absolute, clip, fitTitle } from '@/lib/site';
 
 export const dynamic = 'force-dynamic';
 type Props = { params: Promise<{ slug: string[] }> };
@@ -20,27 +20,27 @@ const resolve = async (params: Props['params']) => {
   return { id, catalog, exam: exam ?? catalog?.exams.find(e => e._id === subject?.examId), subject };
 };
 // Per-page share image from /og (a catch-all route cannot hold an opengraph-image file).
-const social = (title: string, rawDescription: string, url: string, id: string): Metadata => { const description = clip(rawDescription); const images = [{ url: `/og?id=${encodeURIComponent(id)}`, width: 1200, height: 630 }]; return { title, description, alternates: { canonical: url }, openGraph: { type: 'website', title, description, url, images }, twitter: { card: 'summary_large_image', title, description, images } }; };
+const social = (fit: ReturnType<typeof fitTitle>, rawDescription: string, url: string, id: string): Metadata => { const title = fit.template, shown = fit.shown; const description = clip(rawDescription); const images = [{ url: `/og?id=${encodeURIComponent(id)}`, width: 1200, height: 630 }]; return { title, description, alternates: { canonical: url }, openGraph: { type: 'website', title: shown, description, url, images }, twitter: { card: 'summary_large_image', title: shown, description, images } }; };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id, catalog, exam, subject } = await resolve(params);
   // A database blip must not tell Google the page is gone: fall back to the static exam metadata.
   if (!catalog) {
     const fallback = liveExamMeta[id];
-    return fallback ? social(fallback.metaTitle ?? `${fallback.shortTitle ?? fallback.title} Mock Test ${new Date().getFullYear()}: Free Test Series`, fallback.description ?? fallback.blurb, examHref(id), id) : {};
+    return fallback ? social(fitTitle(...(fallback.metaTitle ? [fallback.metaTitle] : []), `${fallback.shortTitle ?? fallback.title} Mock Test ${new Date().getFullYear()}: Free Test Series`, `${fallback.shortTitle ?? fallback.title} Mock Test ${new Date().getFullYear()}`), fallback.description ?? fallback.blurb, examHref(id), id) : {};
   }
   if (!exam) return { title: 'Exam not found', robots: { index: false } };
   if (subject) {
     const short = examShortTitle(exam); const name = /mock test/i.test(subject.name) ? subject.name : `${subject.name} Mock Test`;
-    return social(`${short} ${name}: ${subject.setCount} Free Sets`, `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id), id);
+    return social(fitTitle(`${short} ${name}: ${subject.setCount} Free Sets`, `${short} ${name}`), `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id), id);
   }
   const subjects = catalog.subjects.filter(s => s.examId === id);
   const sets = catalog.sets.filter(s => s.examId === id).length;
   const questions = subjects.reduce((n, s) => n + s.questionCount, 0);
   // Matches how people search: "<exam> mock test", "free", "test series", and the current year.
-  const pageTitle = liveExamMeta[id]?.metaTitle ?? `${examShortTitle(exam)} Mock Test ${new Date().getFullYear()}: Free Test Series`;
+  const year = new Date().getFullYear(); const fit = fitTitle(...(liveExamMeta[id]?.metaTitle ? [liveExamMeta[id].metaTitle] : []), `${examShortTitle(exam)} Mock Test ${year}: Free Test Series`, `${examShortTitle(exam)} Mock Test ${year}`);
   const description = liveExamMeta[id]?.description ?? `${examTitle(exam)} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations in English and Hindi.`;
-  return social(pageTitle, description, examHref(id), id);
+  return social(fit, description, examHref(id), id);
 }
 
 export default async function ExamPage({ params }: Props) {

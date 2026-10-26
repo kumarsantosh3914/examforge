@@ -242,7 +242,7 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     shortTitle: 'BSEB 10th',
     body: 'Bihar School Examination Board',
     blurb: 'Bihar Board matriculation practice. Objective sets for Science, Social Science, Mathematics, English and Sanskrit.',
-    metaTitle: 'BSEB 10th Mock Tests: Free Bihar Board Class 10 Practice (2026)',
+    metaTitle: 'BSEB 10th Mock Test 2026: Free Bihar Board Practice',
     description: 'Free Bihar Board Class 10 mock tests: 135 objective practice sets for Science, Social Science, Mathematics, English and Sanskrit, with answers explained in English and Hindi.',
   },
 };
