@@ -1107,4 +1107,947 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'afcat': {
+    heading: 'About the AFCAT exam',
+    intro: [
+      'The Air Force Common Admission Test (AFCAT) is the Indian Air Force’s entrance exam for commissioned officers in the Flying Branch and the Ground Duty (Technical and Non-Technical) branches. The IAF normally holds it twice a year, and the online test is followed by interviews and tests at an Air Force Selection Board (AFSB).',
+      'ExamForge gives you 4 free, timed AFCAT mock tests of 63 to 95 questions each, covering General Awareness, Verbal Ability in English, Numerical Ability and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real AFCAT deducts 1 mark for every wrong answer. ExamForge sets have no negative marking, so to rehearse exam scoring, take off one mark for each wrong answer and give yourself three for each right one.',
+    ],
+    facts: {
+      title: 'AFCAT at a glance',
+      source: 'From published AFCAT exam-pattern summaries. Check afcat.cdac.in and the IAF careers site for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Indian Air Force' },
+        { label: 'Frequency', value: 'Twice a year' },
+        { label: 'Written exam', value: '100 questions, 300 marks, 2 hours, online' },
+        { label: 'Extra paper', value: 'Engineering Knowledge Test (EKT) for Ground Duty Technical branches' },
+        { label: 'Qualification', value: 'Graduation; Class 12 Maths and Physics for the Flying Branch' },
+        { label: 'Apply at', value: 'afcat.cdac.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The AFCAT written paper is one objective test with four sections. Every question carries three marks.',
+      caption: 'AFCAT written exam',
+      sections: [
+        { part: 'Section 1', subject: 'General Awareness', questions: 25, marks: 75 },
+        { part: 'Section 2', subject: 'Verbal Ability in English', questions: 30, marks: 90 },
+        { part: 'Section 3', subject: 'Numerical Ability', questions: 20, marks: 60 },
+        { part: 'Section 4', subject: 'Reasoning and Military Aptitude', questions: 25, marks: 75 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+3' },
+        { response: 'Wrong answer', marks: '−1' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Candidates for the Ground Duty Technical branches also take the 50-question, 150-mark Engineering Knowledge Test, which ExamForge does not cover. Because a wrong answer costs a third of what a right one earns, guess only when you can rule out at least one option.',
+    },
+    syllabus: {
+      intro: 'Questions are set at graduate level, with English and reasoning at the heart of the paper. ExamForge’s mock tests mix all four areas the way the exam does.',
+      areas: [
+        {
+          title: 'General Awareness',
+          summary: 'Current affairs and static facts, 25 questions.',
+          topics: ['History, geography and polity of India', 'Defence, awards, sports and important days', 'Science and everyday technology', 'Current affairs and national events'],
+        },
+        {
+          title: 'Verbal Ability in English',
+          summary: 'The biggest section, with 30 questions.',
+          topics: ['Reading comprehension and cloze tests', 'Error spotting and sentence correction', 'Synonyms, antonyms and idioms', 'Ordering of words and sentences'],
+        },
+        {
+          title: 'Numerical Ability',
+          summary: 'Arithmetic at Class 10 level, 20 questions.',
+          topics: ['Percentage, ratio, average and profit and loss', 'Time and work, speed and distance', 'Simple and compound interest', 'Number system, decimals and fractions', 'Data interpretation'],
+        },
+        {
+          title: 'Reasoning and Military Aptitude',
+          summary: 'Verbal and non-verbal reasoning, 25 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and blood relations', 'Directions, ranking and arrangements', 'Venn diagrams and syllogism', 'Spatial orientation and figure patterns'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements vary by branch and change between notices, so read the current AFCAT notification. In general:',
+      items: [
+        { title: 'Education', detail: 'A graduate degree with at least 60% marks. The Flying Branch also needs Class 12 with Maths and Physics at 50%; technical branches need an engineering degree in the relevant stream.' },
+        { title: 'Age', detail: 'Usually 20 to 24 years for the Flying Branch and 20 to 26 for Ground Duty. Holders of a Commercial Pilot Licence get an age relaxation for the Flying Branch.' },
+        { title: 'Nationality and fitness', detail: 'Indian citizen, unmarried at the time of joining training, and medically and physically fit to the IAF standard.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'AFCAT written exam', detail: 'The online test above, plus the EKT for technical branches.' },
+        { title: 'AFSB tests', detail: 'Shortlisted candidates attend a five-day Air Force Selection Board with psychological tests, group tasks and an interview. Flying Branch candidates also take a computerised pilot aptitude test.' },
+        { title: 'Medical examination and merit list', detail: 'Candidates recommended by the AFSB go to a medical board, and the final merit list combines the written and AFSB results.' },
+      ],
+    },
+    tips: [
+      { title: 'Give English the most time', detail: 'English carries the most marks of any section, and reading comprehension and error spotting reward daily practice.' },
+      { title: 'Keep accuracy above 80% before you guess', detail: 'With −1 against +3, a wrong guess is cheap only if you usually get a question right once you narrow it down.' },
+      { title: 'Attempt the sections you are strongest in first', detail: 'There are no sectional time limits, so spend your first thirty minutes on the questions you can answer fastest.' },
+      { title: 'Read the daily defence news', detail: 'General Awareness often draws on exercises, procurement, appointments and air-force history.' },
+    ],
+    faq: [
+      { question: 'How many questions does each ExamForge AFCAT set have?', answer: 'Mock tests 1 to 4 have 95, 83, 75 and 63 questions, with one minute for each question. The real paper has 100 questions in 2 hours.' },
+      { question: 'Does ExamForge include the Engineering Knowledge Test?', answer: 'No. The sets cover the common written paper: General Awareness, English, Numerical Ability and Reasoning.' },
+      { question: 'Does AFCAT have negative marking?', answer: 'Yes, 1 mark is deducted for each wrong answer. ExamForge does not deduct marks, so work out your real-exam score by hand after each set.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'agniveer': {
+    heading: 'About the Indian Army Agniveer exam',
+    intro: [
+      'Agniveer is the Indian Army’s recruitment route for soldiers under the Agnipath scheme: Agniveer General Duty (GD), Technical, Clerk and Store Keeper Technical, and Tradesmen. Selection starts with the online Common Entrance Examination (CEE), after which shortlisted candidates take the physical and medical tests.',
+      'ExamForge gives you 10 free, timed practice sets of 47 to 50 questions each, built around General Knowledge, General Science and Mathematics. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real CEE deducts marks for wrong answers in most categories. ExamForge does not, so after each set take off the penalty from the current notice for every wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'Agniveer at a glance',
+      source: 'From published Agniveer recruitment summaries. The pattern changes between rallies, so check joinindianarmy.nic.in for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Indian Army, through its recruitment offices' },
+        { label: 'Entrance exam', value: 'Online Common Entrance Examination (CEE)' },
+        { label: 'General Duty paper', value: 'About 50 questions in 60 minutes (General Knowledge, General Science, Maths)' },
+        { label: 'Education (General Duty)', value: 'Class 10 pass with at least 45% overall' },
+        { label: 'Age', value: '17½ to 21 years' },
+        { label: 'Apply at', value: 'joinindianarmy.nic.in' },
+      ],
+    },
+    pattern: {
+      summary: 'For Agniveer General Duty the CEE is an objective paper over three subject areas. Other categories use the same style with different subjects, such as Physics, Chemistry and Maths for Technical.',
+      caption: 'Agniveer General Duty CEE',
+      sections: [
+        { part: 'Paper', subject: 'General Knowledge, General Science and Mathematics', questions: 50, marks: 100 },
+      ],
+      duration: '60 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+2' },
+        { response: 'Wrong answer', marks: '−0.5' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The subject split and the exact penalty differ between recruitment notices, so treat the table as a guide. ExamForge’s sets are mixed rather than sectional, so each one tests all three areas together.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 8 to 10 level.',
+      areas: [
+        {
+          title: 'General Knowledge and current affairs',
+          summary: 'Static and current facts.',
+          topics: ['Indian history, geography and the Constitution', 'Defence, sports, awards and important days', 'Books, authors and first-in-India facts', 'Current affairs'],
+        },
+        {
+          title: 'General Science',
+          summary: 'NCERT Physics, Chemistry and Biology.',
+          topics: ['Motion, force, light, sound and electricity', 'Acids, bases, metals and everyday chemistry', 'Human body, nutrition, diseases and plants', 'Units, inventions and instruments'],
+        },
+        {
+          title: 'Mathematics',
+          summary: 'Arithmetic and basic algebra and geometry.',
+          topics: ['Percentage, ratio, profit and loss, and averages', 'Time, work, speed and distance', 'Simple and compound interest', 'Algebra, mensuration and basic geometry'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements depend on the category and are set in each recruitment notice. For Agniveer General Duty:',
+      items: [
+        { title: 'Education', detail: 'Class 10 with at least 45% overall and 33% in each subject. Technical, Clerk and Tradesmen categories have their own qualifications.' },
+        { title: 'Age', detail: 'Between 17½ and 21 years on the date given in the notice.' },
+        { title: 'Physical standard', detail: 'Minimum height, chest and weight standards apply, and vary by region and category.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Online registration', detail: 'Register and choose your recruitment office and category on the Army’s website.' },
+        { title: 'Common Entrance Examination', detail: 'The computer-based test above, held at centres across the country.' },
+        { title: 'Physical fitness and measurement tests', detail: 'Shortlisted candidates take the running, pull-up, balance and ditch tests, followed by measurements.' },
+        { title: 'Medical examination and merit list', detail: 'Candidates who pass the physical tests go to a medical, and the final merit list is based on the CEE score.' },
+      ],
+    },
+    tips: [
+      { title: 'Start from your NCERT books', detail: 'Class 8 to 10 Science and Maths cover most of the paper, so master formulas and units before you try harder material.' },
+      { title: 'Revise current affairs weekly', detail: 'Defence news, awards and sports results are easy marks if you read them regularly.' },
+      { title: 'Practise 50 questions in an hour', detail: 'Sit a full ExamForge set under the timer and see how many you can finish with time left to review.' },
+      { title: 'Prepare for the physical test early', detail: 'The written exam is only the first stage, so train in parallel.' },
+    ],
+    faq: [
+      { question: 'How many questions are in each ExamForge Agniveer set?', answer: 'Each set has between 47 and 50 questions, with one minute for each question.' },
+      { question: 'Which Agniveer category do these sets suit?', answer: 'They are built for General Duty, and are also useful practice for the General Knowledge, Science and Maths parts of other categories.' },
+      { question: 'Does the real exam have negative marking?', answer: 'In most categories, yes. ExamForge does not deduct marks, so check the penalty in the current notice and subtract it yourself.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'bihar-police': {
+    heading: 'About the Bihar Police exam',
+    intro: [
+      'The Central Selection Board of Constables (CSBC), Bihar recruits constables (sipahi) for the Bihar Police. Selection starts with a written exam at Class 10 level, and only candidates who qualify are called for the physical test.',
+      'ExamForge gives you 10 free, timed Bihar Police mock tests of 93 to 100 questions each, covering General Knowledge, General Science, Mathematics, Hindi, English and Bihar GK. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The written exam has no negative marking, and neither do these sets, so your score here is worked out the same way as in the exam.',
+    ],
+    facts: {
+      title: 'Bihar Police at a glance',
+      source: 'From CSBC Bihar recruitment notices. Check csbc.bihar.gov.in for the current advertisement before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'CSBC, Bihar' },
+        { label: 'Written exam', value: '100 questions, 2 hours, OMR sheet' },
+        { label: 'Level', value: 'Matriculation (Class 10)' },
+        { label: 'Negative marking', value: 'None' },
+        { label: 'Qualifying mark', value: '30% in the written exam' },
+        { label: 'Apply at', value: 'csbc.bihar.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The written exam is a single objective paper of 100 questions answered on an OMR sheet. Each question carries one mark.',
+      caption: 'CSBC constable written exam',
+      sections: [
+        { part: 'Paper', subject: 'Hindi, English, Mathematics, Science, Social Science and General Knowledge', questions: 100, marks: 100 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '0' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The written exam is qualifying, and merit is decided at the physical stage, but a score well above the pass mark keeps you safe because many more candidates than posts are called. ExamForge sets give one minute for each question, so they run shorter than the real 2 hours; use them for speed and accuracy.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 level. Each ExamForge mock test mixes all of these areas.',
+      areas: [
+        {
+          title: 'Bihar and general knowledge',
+          summary: 'Bihar-specific GK carries real weight, alongside national affairs.',
+          topics: ['History, geography and culture of Bihar', 'Bihar’s districts, rivers, national parks and festivals', 'Indian polity and the Constitution', 'Important dates, books, authors and awards', 'Current affairs'],
+        },
+        {
+          title: 'General Science',
+          summary: 'Physics, Chemistry and Biology at Class 10 level.',
+          topics: ['Motion, light, sound and electricity', 'Acids, bases, metals and common compounds', 'Human body, vitamins and diseases', 'Plants and cells'],
+        },
+        {
+          title: 'Mathematics',
+          summary: 'Arithmetic and basic algebra.',
+          topics: ['Percentage, ratio, average, profit and loss', 'Time, work, speed and distance', 'Simple and compound interest', 'Mensuration and geometry'],
+        },
+        {
+          title: 'Hindi and English',
+          summary: 'Language skills at Class 10 level.',
+          topics: ['Hindi grammar, vocabulary, idioms and proverbs', 'English grammar, vocabulary and error spotting', 'Comprehension passages'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each CSBC advertisement. In general:',
+      items: [
+        { title: 'Education', detail: 'Class 12 pass or equivalent for most constable posts, with some posts open at Class 10. Check the advertisement.' },
+        { title: 'Age', detail: 'Usually 18 to 25 years for general candidates, with relaxation for reserved categories and women.' },
+        { title: 'Physical standard', detail: 'Minimum height and chest measurements apply, with separate standards for men and women.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Written exam', detail: 'The 100-question paper above. You must reach the qualifying mark to continue.' },
+        { title: 'Physical Efficiency Test', detail: 'Running and field events for qualified candidates, which decide merit.' },
+        { title: 'Document verification and medical', detail: 'Candidates on the merit list have their documents and fitness checked.' },
+      ],
+    },
+    tips: [
+      { title: 'Focus on Bihar-specific GK', detail: 'Questions on Bihar history, geography, economy and government schemes appear in every paper.' },
+      { title: 'Time yourself at one minute per question', detail: 'The ExamForge timer matches this pace, which leaves a buffer in the real 2 hours.' },
+      { title: 'Read each explanation', detail: 'For GK and Science, the explanation is often worth more than the question, because the same fact returns in new wording.' },
+    ],
+    faq: [
+      { question: 'How many questions does each set have?', answer: 'Between 93 and 100, with one minute for each question. The first two sets have 100.' },
+      { question: 'Is there another Bihar Police exam on ExamForge?', answer: 'Yes. Bihar Police Constable is a separate exam page with sectional sets for General Knowledge and General Science. This page has 10 full mixed mock tests.' },
+      { question: 'Does the exam have negative marking?', answer: 'No. A wrong answer costs nothing, so attempt every question.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'delhi-police': {
+    heading: 'About the Delhi Police Constable exam',
+    intro: [
+      'The Staff Selection Commission (SSC) recruits Constables (Executive) for Delhi Police through a computer-based test (CBT). Candidates who clear the CBT go on to the Physical Endurance and Measurement Test (PE&MT) and a medical.',
+      'ExamForge gives you 10 free, timed Delhi Police mock tests of 80 to 90 questions each, covering General Knowledge and Current Affairs, Reasoning, Numerical Ability and Computer Fundamentals. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real CBT deducts a quarter of a mark for every wrong answer. ExamForge sets do not, so take a quarter off for each wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'Delhi Police Constable at a glance',
+      source: 'From SSC Delhi Police Constable (Executive) notices. Check ssc.gov.in for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission, for Delhi Police' },
+        { label: 'CBT', value: '100 questions, 100 marks, 90 minutes' },
+        { label: 'Negative marking', value: '0.25 per wrong answer' },
+        { label: 'Qualification', value: 'Class 12 pass' },
+        { label: 'Age', value: '18 to 25 years (relaxation for reserved categories)' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The CBT is a single objective paper in four parts. Every question carries one mark.',
+      caption: 'Delhi Police Constable CBT',
+      sections: [
+        { part: 'Part A', subject: 'General Knowledge and Current Affairs', questions: 50, marks: 50 },
+        { part: 'Part B', subject: 'Reasoning', questions: 25, marks: 25 },
+        { part: 'Part C', subject: 'Numerical Ability', questions: 15, marks: 15 },
+        { part: 'Part D', subject: 'Computer Fundamentals', questions: 10, marks: 10 },
+      ],
+      duration: '90 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The CBT is qualifying, with minimum percentages set by category, and final merit is decided by CBT marks among candidates who clear the physical and medical stages. ExamForge sets mix all four parts and give one minute for each question.',
+    },
+    syllabus: {
+      intro: 'Half of the paper is General Knowledge, so it decides most results.',
+      areas: [
+        {
+          title: 'General Knowledge and Current Affairs',
+          summary: 'The largest part, 50 questions.',
+          topics: ['Indian history, geography and polity', 'General science and environment', 'Delhi-specific facts and institutions', 'Awards, sports, books and appointments', 'Current affairs'],
+        },
+        {
+          title: 'Reasoning',
+          summary: 'Verbal and non-verbal reasoning, 25 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and blood relations', 'Directions, ranking and Venn diagrams', 'Mirror and water images, paper folding'],
+        },
+        {
+          title: 'Numerical Ability',
+          summary: 'Arithmetic, 15 questions.',
+          topics: ['Percentage, ratio, average and profit and loss', 'Time and work, speed and distance', 'Simple and compound interest', 'Number system and simplification'],
+        },
+        {
+          title: 'Computer Fundamentals',
+          summary: 'Basics, 10 questions that are quick to answer.',
+          topics: ['Hardware, software and memory', 'MS Word, Excel and PowerPoint', 'Internet, email and security basics', 'Number systems and shortcuts'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each SSC notice. In general:',
+      items: [
+        { title: 'Education', detail: 'Class 12 pass from a recognised board.' },
+        { title: 'Age', detail: '18 to 25 years on the cut-off date, with relaxation for SC, ST, OBC, ex-servicemen and other categories.' },
+        { title: 'Driving licence', detail: 'Male candidates must hold a valid driving licence for light motor vehicles or motorcycle by the stage the notice specifies.' },
+        { title: 'Physical standard', detail: 'Height and chest standards apply, separately for men and women.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Computer-based test', detail: 'The 100-question paper above.' },
+        { title: 'Physical Endurance and Measurement Test', detail: 'Race and jump events plus physical measurement for those who clear the CBT.' },
+        { title: 'Medical and document verification', detail: 'Candidates on the provisional list are examined and their certificates are checked before the final merit list.' },
+      ],
+    },
+    tips: [
+      { title: 'Do not skip Computer Fundamentals', detail: 'Ten questions on basic MS Office and the internet are among the easiest marks in the paper.' },
+      { title: 'Revise current affairs every day', detail: 'General Knowledge is half of the CBT, and the last six months of news matter most.' },
+      { title: 'Watch your accuracy', detail: 'With −0.25 for a wrong answer, avoid wild guesses in the final minutes.' },
+    ],
+    faq: [
+      { question: 'How many questions does each set have?', answer: 'Between 80 and 90, with one minute for each question. The real CBT has 100 questions in 90 minutes.' },
+      { question: 'Does the exam have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'ibps-po': {
+    heading: 'About the IBPS PO exam',
+    intro: [
+      'The Institute of Banking Personnel Selection (IBPS) runs the Common Recruitment Process for Probationary Officers and Management Trainees in public sector banks. It has three stages: a preliminary exam, a main exam and an interview.',
+      'ExamForge gives you 10 free, timed practice sets with 5 options per question (A to E), as in the real exam. Set 1 is a full 100-question prelims-style paper; later sets are shorter and cover English, Quantitative Aptitude and Reasoning Ability. Every question has an explanation after you submit, and your first three sets need no signup.',
+      'The real exam deducts a quarter of a mark for each wrong answer. ExamForge does not, so take a quarter off for each wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'IBPS PO at a glance',
+      source: 'From published IBPS PO exam-pattern summaries. Check ibps.in for the current notification before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Institute of Banking Personnel Selection' },
+        { label: 'Prelims', value: '100 questions, 100 marks, 60 minutes' },
+        { label: 'Mains', value: '155 objective questions (200 marks, 3 hours) plus a descriptive paper' },
+        { label: 'Interview', value: '100 marks' },
+        { label: 'Qualification', value: 'Graduation in any stream' },
+        { label: 'Apply at', value: 'ibps.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The preliminary exam is a screening test with three timed sections, each with its own 20-minute limit. Every question carries one mark.',
+      caption: 'IBPS PO preliminary exam',
+      sections: [
+        { part: 'Section 1', subject: 'English Language', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'Quantitative Aptitude', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'Reasoning Ability', questions: 35, marks: 35 },
+      ],
+      duration: '60 minutes (20 minutes for each section)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Prelims marks only decide who goes to the main exam. The main exam adds Reasoning and Computer Aptitude, Data Analysis and Interpretation, and General, Economy and Banking Awareness, and the final merit list weighs the main exam 80% and the interview 20%. ExamForge covers the prelims subjects and the common main-exam style of question.',
+    },
+    syllabus: {
+      intro: 'Questions are set at graduate level and are mostly about speed.',
+      areas: [
+        {
+          title: 'English Language',
+          summary: 'Grammar and reading, 30 questions.',
+          topics: ['Reading comprehension', 'Cloze test and error spotting', 'Para jumbles and sentence correction', 'Vocabulary, fillers and phrase replacement'],
+        },
+        {
+          title: 'Quantitative Aptitude',
+          summary: 'Speed arithmetic and data, 35 questions.',
+          topics: ['Simplification and approximation', 'Number series and quadratic equations', 'Data interpretation: tables, bar and pie charts', 'Percentage, profit and loss, interest and averages', 'Time and work, speed and mixtures'],
+        },
+        {
+          title: 'Reasoning Ability',
+          summary: 'Puzzles and logic, 35 questions.',
+          topics: ['Seating arrangement and puzzles', 'Syllogism and inequalities', 'Blood relations, direction sense and ranking', 'Coding-decoding and data sufficiency'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each IBPS notification. In general:',
+      items: [
+        { title: 'Education', detail: 'A graduate degree in any discipline from a recognised university, with proficiency in the official language of the state you apply to.' },
+        { title: 'Age', detail: '20 to 30 years, with relaxation for SC, ST, OBC, PwBD and ex-servicemen.' },
+        { title: 'Nationality', detail: 'Indian citizen, or a citizen of Nepal, Bhutan, or a person of Indian origin as the notification allows.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Preliminary exam', detail: 'The online screening test above.' },
+        { title: 'Main exam', detail: 'An objective paper and a descriptive English paper (letter and essay) on the same day.' },
+        { title: 'Interview', detail: 'A 100-mark panel interview for those who clear the main exam.' },
+        { title: 'Provisional allotment', detail: 'Banks are allotted by the final merit list and the preferences you gave.' },
+      ],
+    },
+    tips: [
+      { title: 'Practise one section at a time under the clock', detail: 'Each prelims section has its own 20 minutes, so the sectional sets are the best way to build that rhythm.' },
+      { title: 'Learn shortcuts for calculation', detail: 'Simplification, approximation and series questions are won by speed rather than depth.' },
+      { title: 'Solve two puzzles every day', detail: 'Seating arrangements get faster only with repetition.' },
+      { title: 'Skip, then return', detail: 'With a penalty on wrong answers, leave the unclear question and come back if time remains.' },
+    ],
+    faq: [
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as IBPS and SBI use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 79, 59, 56, 46, 43, 26, 17, 19 and 9 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
+      { question: 'Does IBPS PO have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rajasthan-police': {
+    heading: 'About the Rajasthan Police Constable exam',
+    intro: [
+      'The Rajasthan Police Recruitment Board holds a written exam to select constables for Rajasthan Police. Candidates who pass it go on to physical standard and efficiency tests, and then to document verification and a medical.',
+      'ExamForge gives you 10 free, timed Rajasthan Police mock tests of 92 to 100 questions each, covering Reasoning, General Science, Computer Literacy, General Knowledge and Rajasthan GK: history, art, culture and geography. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'Whether the written exam deducts marks has varied between recruitment cycles. ExamForge sets have no negative marking, so check the current notice and apply any penalty yourself.',
+    ],
+    facts: {
+      title: 'Rajasthan Police Constable at a glance',
+      source: 'Details change between recruitment cycles. Check police.rajasthan.gov.in and the current advertisement before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Rajasthan Police Recruitment Board' },
+        { label: 'Written exam', value: 'Objective paper, with questions on GK, Rajasthan GK, reasoning and more' },
+        { label: 'Qualification', value: 'Class 12 pass' },
+        { label: 'Language', value: 'Hindi and English' },
+        { label: 'Apply at', value: 'Rajasthan recruitment portal (see the notice)' },
+      ],
+    },
+    syllabus: {
+      intro: 'Rajasthan-specific GK is the feature that sets this exam apart from other constable exams. Each ExamForge mock test mixes all of these areas.',
+      areas: [
+        {
+          title: 'Rajasthan GK',
+          summary: 'History, art, culture and geography of the state.',
+          topics: ['Rajput dynasties, forts and palaces', 'Folk music, dance, fairs and festivals', 'Rivers, lakes, deserts and districts', 'Handicrafts, paintings and cuisine', 'Government schemes and administration'],
+        },
+        {
+          title: 'General Knowledge and current affairs',
+          summary: 'National and international facts.',
+          topics: ['Indian history, geography and the Constitution', 'Awards, sports, books and important days', 'Current affairs'],
+        },
+        {
+          title: 'Reasoning and Mathematics',
+          summary: 'Mental ability.',
+          topics: ['Series, analogy and classification', 'Coding-decoding, directions and blood relations', 'Percentage, ratio, average and profit and loss'],
+        },
+        {
+          title: 'General Science and Computer',
+          summary: 'Basics at school level.',
+          topics: ['Physics, Chemistry and Biology', 'Health and the human body', 'Computer hardware, software and MS Office'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each recruitment notice. In general:',
+      items: [
+        { title: 'Education', detail: 'Class 12 pass from a recognised board.' },
+        { title: 'Age', detail: 'Usually 18 to 24 years, with relaxation for reserved categories and women.' },
+        { title: 'Physical standard', detail: 'Height, chest and weight standards apply, separately for men and women.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection normally runs in this order.',
+      items: [
+        { title: 'Written exam', detail: 'The objective paper that decides who is called to the next stage.' },
+        { title: 'Physical standard and efficiency tests', detail: 'Measurement, race and field events.' },
+        { title: 'Document verification and medical', detail: 'Candidates on the merit list have their certificates and fitness checked.' },
+      ],
+    },
+    tips: [
+      { title: 'Give Rajasthan GK its own revision slot', detail: 'Forts, fairs, folk arts and districts return in every cycle and are easy to memorise from short notes.' },
+      { title: 'Use explanations to build notes', detail: 'ExamForge explanations in Hindi and English make good revision cards for the state’s history and culture.' },
+      { title: 'Attempt every question', detail: 'Unless the current notice says otherwise, review marks lost to blanks against marks lost to guesses.' },
+    ],
+    faq: [
+      { question: 'How many questions does each set have?', answer: 'Between 92 and 100, with one minute for each question.' },
+      { question: 'Is the exam available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rrb-technician': {
+    heading: 'About the RRB Technician exam',
+    intro: [
+      'The Railway Recruitment Boards (RRBs) recruit Technicians for Indian Railways in two grades: Technician Grade I (Signal) and Technician Grade III. Selection is by computer-based tests (CBT), followed by document verification and a medical.',
+      'ExamForge gives you 10 free, timed RRB Technician mock tests of 92 to 100 questions each, covering Mathematics, General Intelligence and Reasoning, Basic Science and Engineering, and General Awareness. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real CBT deducts one-third of a mark for every wrong answer. ExamForge does not, so take a third off for each wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'RRB Technician at a glance',
+      source: 'From published RRB Technician exam-pattern summaries. The exact pattern depends on the notice, so check indianrailways.gov.in and your RRB’s website before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Posts', value: 'Technician Grade I (Signal) and Technician Grade III' },
+        { label: 'Stage 1', value: 'CBT-1: 75 questions, 60 minutes (screening)' },
+        { label: 'Negative marking', value: '1/3 per wrong answer' },
+        { label: 'Grade I qualification', value: 'Diploma or degree in a relevant engineering field, or B.Sc. in Physics, Electronics, Computer Science or IT' },
+        { label: 'Grade III qualification', value: 'Class 10 plus ITI or Act Apprenticeship' },
+      ],
+    },
+    pattern: {
+      summary: 'CBT-1 is a screening test common to both grades, in four parts. Every question carries one mark.',
+      caption: 'RRB Technician CBT-1',
+      sections: [
+        { part: 'Part 1', subject: 'Mathematics', questions: 20, marks: 20 },
+        { part: 'Part 2', subject: 'General Intelligence and Reasoning', questions: 25, marks: 25 },
+        { part: 'Part 3', subject: 'Basic Science and Engineering', questions: 20, marks: 20 },
+        { part: 'Part 4', subject: 'General Awareness', questions: 10, marks: 10 },
+      ],
+      duration: '60 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'CBT-1 only screens candidates; those shortlisted take a second CBT that carries the merit marks. ExamForge sets mix the four parts and give one minute for each question, which is slower than the real exam, so use them to learn the material first and build speed second.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 10 and ITI level, with the technical weight in Basic Science and Engineering.',
+      areas: [
+        {
+          title: 'Mathematics',
+          summary: 'Arithmetic and mensuration.',
+          topics: ['Number system, BODMAS, HCF and LCM', 'Percentage, ratio, average, profit and loss', 'Time and work, speed and distance', 'Algebra, geometry and mensuration', 'Trigonometry and statistics'],
+        },
+        {
+          title: 'General Intelligence and Reasoning',
+          summary: 'The largest part of CBT-1.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Mirror images and figure counting'],
+        },
+        {
+          title: 'Basic Science and Engineering',
+          summary: 'Class 10 science and the trade basics.',
+          topics: ['Motion, force, work, energy and power', 'Heat, light, sound and magnetism', 'Electricity, circuits and measuring instruments', 'Materials, metals, acids and bases', 'Basic engineering drawing and tools'],
+        },
+        {
+          title: 'General Awareness',
+          summary: 'Current affairs and railways.',
+          topics: ['Current affairs, sports and awards', 'Indian history, geography and polity', 'Science and technology news', 'Indian Railways facts'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements differ by grade and notice. In general:',
+      items: [
+        { title: 'Technician Grade I (Signal)', detail: 'Diploma or degree in a relevant engineering stream, or a B.Sc. in Physics, Electronics, Computer Science, IT or a similar subject.' },
+        { title: 'Technician Grade III', detail: 'Matriculation (Class 10) with an ITI certificate or National Apprenticeship Certificate in a listed trade.' },
+        { title: 'Age', detail: 'Usually 18 to 33 years for Grade I and 18 to 30 for Grade III, with relaxation for reserved categories.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'CBT-1', detail: 'The screening test above.' },
+        { title: 'CBT-2', detail: 'A longer paper for those shortlisted, which carries the merit marks.' },
+        { title: 'Document verification and medical', detail: 'Candidates on the merit list have their certificates and fitness checked before appointment.' },
+      ],
+    },
+    tips: [
+      { title: 'Treat Basic Science as a scoring section', detail: 'It is the part where the technical background of candidates helps most. Revise Class 9 and 10 Physics and basic electricity.' },
+      { title: 'Learn the reasoning patterns first', detail: 'It has the most questions in CBT-1, and most question types repeat.' },
+      { title: 'Mind the penalty', detail: 'With −1/3 per wrong answer, mark only the options you can defend, and use explanations to see where you guessed.' },
+    ],
+    faq: [
+      { question: 'How many questions does each set have?', answer: 'Between 92 and 100, with one minute for each question.' },
+      { question: 'Does ExamForge cover both Grade I and Grade III?', answer: 'Yes. The common subjects are the same, so the sets suit both grades.' },
+      { question: 'Does the exam have negative marking?', answer: 'Yes, one-third of a mark for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'sbi-clerk': {
+    heading: 'About the SBI Clerk exam',
+    intro: [
+      'The State Bank of India recruits Junior Associates (Customer Support and Sales), usually called SBI Clerks, through a preliminary exam and a main exam, followed by a test of the local language. There is no interview.',
+      'ExamForge gives you 10 free, timed practice sets with 5 options per question (A to E), as in the real exam. Set 1 is a full 100-question prelims-style paper; later sets are shorter and cover English, Numerical Ability and Reasoning Ability. Every question has an explanation after you submit, and your first three sets need no signup.',
+      'The real exam deducts a quarter of a mark for each wrong answer. ExamForge does not, so take a quarter off for each wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'SBI Clerk at a glance',
+      source: 'From published SBI Clerk exam-pattern summaries. Check sbi.co.in/careers for the current notification before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'State Bank of India' },
+        { label: 'Prelims', value: '100 questions, 100 marks, 60 minutes' },
+        { label: 'Mains', value: '190 questions, 200 marks, 2 hours 40 minutes' },
+        { label: 'Negative marking', value: '0.25 per wrong answer' },
+        { label: 'Qualification', value: 'Graduation in any stream' },
+        { label: 'Apply at', value: 'sbi.co.in/careers' },
+      ],
+    },
+    pattern: {
+      summary: 'The preliminary exam is a screening test with three timed sections, each with its own 20-minute limit. Every question carries one mark.',
+      caption: 'SBI Clerk preliminary exam',
+      sections: [
+        { part: 'Section 1', subject: 'English Language', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'Numerical Ability', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'Reasoning Ability', questions: 35, marks: 35 },
+      ],
+      duration: '60 minutes (20 minutes for each section)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Prelims marks only decide who goes to the main exam. The main exam has four sections: General and Financial Awareness, General English, Quantitative Aptitude, and Reasoning Ability and Computer Aptitude. The final list is based on main exam marks alone, after a language test.',
+    },
+    syllabus: {
+      intro: 'Questions are set at graduate level. Speed matters more than depth.',
+      areas: [
+        {
+          title: 'English Language',
+          summary: 'Grammar and reading, 30 questions.',
+          topics: ['Reading comprehension', 'Cloze test and error spotting', 'Para jumbles and sentence improvement', 'Vocabulary and fill in the blanks'],
+        },
+        {
+          title: 'Numerical Ability',
+          summary: 'Arithmetic and data, 35 questions.',
+          topics: ['Simplification and approximation', 'Number series and quadratic equations', 'Data interpretation', 'Percentage, profit and loss, interest and averages', 'Time and work, speed and distance'],
+        },
+        {
+          title: 'Reasoning Ability',
+          summary: 'Puzzles and logic, 35 questions.',
+          topics: ['Seating arrangement and puzzles', 'Syllogism and inequalities', 'Blood relations, direction sense and ranking', 'Coding-decoding and input-output'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each SBI notification. In general:',
+      items: [
+        { title: 'Education', detail: 'A graduate degree in any discipline from a recognised university. Final-year students may apply if they can show a pass by the date in the notice.' },
+        { title: 'Age', detail: '20 to 28 years, with relaxation for SC, ST, OBC, PwBD and ex-servicemen.' },
+        { title: 'Language', detail: 'You must be able to read, write and speak the local language of the state or circle you apply to.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Preliminary exam', detail: 'The online screening test above.' },
+        { title: 'Main exam', detail: 'The longer online test, which decides merit.' },
+        { title: 'Local language test', detail: 'A test of the official language of your state, unless you show a Class 10 or 12 certificate in it.' },
+      ],
+    },
+    tips: [
+      { title: 'Build speed in simplification and series', detail: 'These types repeat every year and are the fastest marks in Numerical Ability.' },
+      { title: 'Use the 20-minute limits', detail: 'Each prelims section is timed, so do not carry spare time from English into reasoning; there is none.' },
+      { title: 'Revise banking and finance news', detail: 'The main exam has a separate Financial Awareness section.' },
+    ],
+    faq: [
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 82, 68, 39, 49, 29, 40, 22, 13 and 9 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
+      { question: 'Does SBI Clerk have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'sbi-po': {
+    heading: 'About the SBI PO exam',
+    intro: [
+      'The State Bank of India recruits Probationary Officers through a three-phase process: a preliminary exam, a main exam, and a final phase of psychometric test, group exercise and interview. It is among the most sought-after bank jobs in India.',
+      'ExamForge gives you 10 free, timed practice sets with 5 options per question (A to E), as in the real exam. Set 1 is a full 100-question prelims-style paper; later sets are shorter and cover English, Quantitative Aptitude and Reasoning Ability. Every question has an explanation after you submit, and your first three sets need no signup.',
+      'The real exam deducts a quarter of a mark for each wrong answer. ExamForge does not, so take a quarter off for each wrong answer to see your exam-style score.',
+    ],
+    facts: {
+      title: 'SBI PO at a glance',
+      source: 'From published SBI PO exam-pattern summaries. Check sbi.co.in/careers for the current notification before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'State Bank of India' },
+        { label: 'Prelims', value: '100 questions, 100 marks, 60 minutes' },
+        { label: 'Mains', value: '157 objective questions (200 marks, 3 hours) plus a descriptive paper' },
+        { label: 'Final phase', value: 'Psychometric test, group exercise and interview' },
+        { label: 'Qualification', value: 'Graduation in any stream' },
+        { label: 'Apply at', value: 'sbi.co.in/careers' },
+      ],
+    },
+    pattern: {
+      summary: 'The preliminary exam is a screening test with three timed sections, each with its own 20-minute limit. Every question carries one mark.',
+      caption: 'SBI PO preliminary exam',
+      sections: [
+        { part: 'Section 1', subject: 'English Language', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'Quantitative Aptitude', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'Reasoning Ability', questions: 35, marks: 35 },
+      ],
+      duration: '60 minutes (20 minutes for each section)',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Prelims marks only decide who goes to the main exam. The main exam adds Data Analysis and Interpretation, General, Economy and Banking Awareness, and Reasoning and Computer Aptitude, plus a descriptive paper. Main exam marks and the final phase are combined for the final merit list.',
+    },
+    syllabus: {
+      intro: 'Questions are set at graduate level, with more depth in Quantitative Aptitude and Reasoning than in other bank exams.',
+      areas: [
+        {
+          title: 'English Language',
+          summary: 'Grammar and reading, 30 questions.',
+          topics: ['Reading comprehension', 'Cloze test and error spotting', 'Para jumbles and sentence correction', 'Vocabulary and phrase replacement'],
+        },
+        {
+          title: 'Quantitative Aptitude',
+          summary: 'Arithmetic and data, 35 questions.',
+          topics: ['Simplification, approximation and number series', 'Data interpretation and caselets', 'Quadratic equations and inequalities', 'Percentage, profit and loss, interest and mixtures', 'Time and work, speed, boats and streams'],
+        },
+        {
+          title: 'Reasoning Ability',
+          summary: 'Puzzles and logic, 35 questions.',
+          topics: ['Seating arrangement and puzzles', 'Syllogism and inequalities', 'Blood relations, direction sense and ranking', 'Input-output and data sufficiency'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each SBI notification. In general:',
+      items: [
+        { title: 'Education', detail: 'A graduate degree in any discipline from a recognised university. Final-year students may apply if they can show a pass by the date in the notice.' },
+        { title: 'Age', detail: '21 to 30 years, with relaxation for SC, ST, OBC, PwBD and ex-servicemen.' },
+        { title: 'Nationality', detail: 'Indian citizen, or a person in the categories the notification lists.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Preliminary exam', detail: 'The online screening test above.' },
+        { title: 'Main exam', detail: 'An objective paper and a descriptive English paper on the same day.' },
+        { title: 'Psychometric test, group exercise and interview', detail: 'Held for candidates who clear the main exam, and combined with main exam marks for the final list.' },
+      ],
+    },
+    tips: [
+      { title: 'Practise caselets and data interpretation', detail: 'These carry heavy weight in the main exam and take the longest to solve; learn to pick the right data first.' },
+      { title: 'Use the 20-minute limits', detail: 'Each prelims section is timed, so rehearse finishing English in 15 minutes to leave time for the rest.' },
+      { title: 'Review every explanation', detail: 'For puzzles, the explanation shows a faster path, which matters more than getting the right answer slowly.' },
+    ],
+    faq: [
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 81, 60, 45, 37, 33, 31, 28, 22 and 11 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
+      { question: 'Does SBI PO have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'tet': {
+    heading: 'About the Teacher Eligibility Test (TET)',
+    intro: [
+      'A Teacher Eligibility Test (TET) is the qualifying exam you must pass to teach in a government school. The Central Board of Secondary Education holds the national CTET, and many states hold their own, such as UPTET, REET and Bihar TET. Paper I is for classes 1 to 5 and Paper II is for classes 6 to 8.',
+      'ExamForge gives you 4 free, timed TET mock tests of 114, 41, 33 and 28 questions, covering Child Development and Pedagogy, Mathematics, Environmental Studies, Hindi and English. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'Most TETs have no negative marking, and these sets do not, so your score here is worked out the same way as in the exam.',
+    ],
+    facts: {
+      title: 'TET at a glance',
+      source: 'Patterns differ by state and board. Check ctet.nic.in or your state board’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'CBSE (CTET) and state boards' },
+        { label: 'Typical paper', value: '150 questions, 150 marks, 2 hours 30 minutes' },
+        { label: 'Negative marking', value: 'None in most TETs' },
+        { label: 'Paper I', value: 'For teaching classes 1 to 5' },
+        { label: 'Paper II', value: 'For teaching classes 6 to 8' },
+        { label: 'Qualifying mark', value: '60% (relaxation for reserved categories)' },
+      ],
+    },
+    pattern: {
+      summary: 'A typical TET paper has five sections of 30 questions each. Every question carries one mark.',
+      caption: 'Typical TET Paper I',
+      sections: [
+        { part: 'Section 1', subject: 'Child Development and Pedagogy', questions: 30, marks: 30 },
+        { part: 'Section 2', subject: 'Language I (Hindi)', questions: 30, marks: 30 },
+        { part: 'Section 3', subject: 'Language II (English)', questions: 30, marks: 30 },
+        { part: 'Section 4', subject: 'Mathematics', questions: 30, marks: 30 },
+        { part: 'Section 5', subject: 'Environmental Studies', questions: 30, marks: 30 },
+      ],
+      duration: '2 hours 30 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '0' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'This is the CTET Paper I pattern; state TETs differ in languages and subjects. Paper II replaces Mathematics and Environmental Studies with Mathematics and Science, or Social Studies. ExamForge also has separate exam pages for CTET Paper 1 and Paper 2, with sectional sets.',
+    },
+    syllabus: {
+      intro: 'Child Development and Pedagogy is common to both papers.',
+      areas: [
+        {
+          title: 'Child Development and Pedagogy',
+          summary: 'How children grow and learn.',
+          topics: ['Piaget, Vygotsky and Kohlberg', 'Inclusive education and children with special needs', 'Learning, motivation and intelligence', 'Assessment, evaluation and teaching methods'],
+        },
+        {
+          title: 'Languages',
+          summary: 'Hindi and English, grammar and pedagogy.',
+          topics: ['Unseen passages', 'Grammar, vocabulary and idioms', 'Language acquisition and teaching methods', 'Listening, speaking and writing skills'],
+        },
+        {
+          title: 'Mathematics',
+          summary: 'Primary-level content and its teaching.',
+          topics: ['Number system, fractions and decimals', 'Geometry, measurement and data handling', 'Pedagogy of Mathematics', 'Problem solving and errors in learning'],
+        },
+        {
+          title: 'Environmental Studies',
+          summary: 'Primary-level EVS.',
+          topics: ['Family, food, water and shelter', 'Plants, animals and the environment', 'Concepts and pedagogy of EVS', 'Environmental issues'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set by each board. For the national CTET:',
+      items: [
+        { title: 'Paper I', detail: 'Class 12 with at least 50% and a D.El.Ed or B.El.Ed, or a graduate degree with the qualifications the notice lists.' },
+        { title: 'Paper II', detail: 'A graduate degree and a B.Ed, or an equivalent teaching qualification in the notice.' },
+        { title: 'Age', detail: 'There is no upper age limit for most TETs.' },
+      ],
+    },
+    stages: {
+      intro: 'A TET is only the first step to a teaching job.',
+      items: [
+        { title: 'Pass the TET', detail: 'Score at least the qualifying mark to receive an eligibility certificate.' },
+        { title: 'Apply for a teaching post', detail: 'Schools and recruiting boards open posts separately, and TET marks usually count toward merit.' },
+      ],
+    },
+    tips: [
+      { title: 'Treat Child Development as your base', detail: 'It appears in every paper and every state TET, so theories and terms are worth learning exactly.' },
+      { title: 'Learn pedagogy along with content', detail: 'Every language and Maths question can be about content or about how to teach it.' },
+      { title: 'Revise from the explanations', detail: 'They state the principle behind the answer, which is what the next question will test.' },
+    ],
+    faq: [
+      { question: 'Who should take these sets?', answer: 'Candidates preparing for CTET, UPTET, REET, Bihar TET and other state tests.' },
+      { question: 'How many questions does each set have?', answer: 'The four sets have 114, 41, 33 and 28 questions, with one minute for each question.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'up-police': {
+    heading: 'About the UP Police Constable exam',
+    intro: [
+      'The Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) recruits civil police constables through a written exam, followed by document verification, a physical standard test, a physical efficiency test and a medical. Recruitment drives are among the largest in the country.',
+      'ExamForge gives you 10 free, timed UP Police mock tests of 132 to 150 questions each, covering General Knowledge, General Hindi, Numerical and Mental Ability, and Mental Aptitude and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real exam deducts marks for wrong answers. ExamForge does not, so after each set take off the penalty to see your exam-style score.',
+    ],
+    facts: {
+      title: 'UP Police Constable at a glance',
+      source: 'From UPPRPB constable recruitment notices. Check uppbpb.gov.in for the current advertisement before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Uttar Pradesh Police Recruitment and Promotion Board' },
+        { label: 'Written exam', value: '150 questions, 300 marks, 2 hours' },
+        { label: 'Negative marking', value: '0.5 per wrong answer' },
+        { label: 'Qualification', value: 'Class 12 pass' },
+        { label: 'Age', value: '18 to 22 years (relaxation for reserved categories)' },
+        { label: 'Apply at', value: 'uppbpb.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The written exam is a single objective paper with four parts. Every question carries two marks.',
+      caption: 'UP Police Constable written exam',
+      sections: [
+        { part: 'Part A', subject: 'General Knowledge', questions: 38, marks: 76 },
+        { part: 'Part B', subject: 'General Hindi', questions: 37, marks: 74 },
+        { part: 'Part C', subject: 'Numerical and Mental Ability', questions: 38, marks: 76 },
+        { part: 'Part D', subject: 'Mental Aptitude, IQ and Reasoning', questions: 37, marks: 74 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+2' },
+        { response: 'Wrong answer', marks: '−0.5' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The split between parts and the penalty are from recent notices and can change; check the current advertisement. ExamForge gives one minute for each question, so the 150-question sets allow 150 minutes, which is longer than the real 2 hours. Practise at a tighter pace to match.',
+    },
+    syllabus: {
+      intro: 'Questions are set at Class 12 level. Each ExamForge mock test mixes all four parts.',
+      areas: [
+        {
+          title: 'General Knowledge',
+          summary: 'Static and current facts, with a lot on Uttar Pradesh.',
+          topics: ['History, geography and culture of Uttar Pradesh', 'Indian polity, economy and the Constitution', 'General science and environment', 'Awards, sports, books and current affairs'],
+        },
+        {
+          title: 'General Hindi',
+          summary: 'A high-scoring part for well-read candidates.',
+          topics: ['Grammar: sandhi, samas, upsarg and pratyay', 'Synonyms, antonyms, idioms and proverbs', 'Correct spelling and sentence correction', 'Hindi literature and writers'],
+        },
+        {
+          title: 'Numerical and Mental Ability',
+          summary: 'Arithmetic at Class 10 level.',
+          topics: ['Percentage, ratio, average and profit and loss', 'Time and work, speed and distance', 'Simple and compound interest', 'Number system, simplification and mensuration'],
+        },
+        {
+          title: 'Mental Aptitude, IQ and Reasoning',
+          summary: 'Verbal and non-verbal reasoning.',
+          topics: ['Analogy, classification and series', 'Coding-decoding, blood relations and directions', 'Venn diagrams and syllogism', 'Figure patterns and mirror images'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'Requirements are set in each UPPRPB notice. In general:',
+      items: [
+        { title: 'Education', detail: 'Class 12 pass from a recognised board.' },
+        { title: 'Age', detail: '18 to 22 years on the cut-off date, with relaxation for SC, ST, OBC, women and other categories.' },
+        { title: 'Domicile and fitness', detail: 'Candidates need to meet the physical standard, which differs for men and women and by category.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in this order.',
+      items: [
+        { title: 'Written exam', detail: 'The 150-question paper above, which decides merit.' },
+        { title: 'Document verification and physical standard test', detail: 'Height and chest measurements for candidates shortlisted from the written exam.' },
+        { title: 'Physical efficiency test', detail: 'A timed race, qualifying only.' },
+        { title: 'Medical examination', detail: 'Candidates on the final list are checked before appointment.' },
+      ],
+    },
+    tips: [
+      { title: 'Make General Hindi a daily habit', detail: 'About a quarter of the paper is Hindi, and grammar rules are the same every year.' },
+      { title: 'Practise 150 questions in one sitting', detail: 'Stamina matters. Take at least a few full sets in a single go before the exam.' },
+      { title: 'Revise Uttar Pradesh facts', detail: 'Districts, rivers, places, schemes and leaders of the state appear in every paper.' },
+      { title: 'Watch the penalty', detail: 'At −0.5 per wrong answer, four correct answers pay for each pair of mistakes.' },
+    ],
+    faq: [
+      { question: 'How many questions does each set have?', answer: 'Between 132 and 150, with one minute for each question. The first set has 150 questions.' },
+      { question: 'Does the exam have negative marking?', answer: 'Yes, 0.5 marks for each wrong answer in recent notices. ExamForge does not deduct marks, so subtract the penalty yourself.' },
+      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
 };

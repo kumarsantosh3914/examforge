@@ -1,4 +1,4 @@
-export type OptionKey = 'A' | 'B' | 'C' | 'D';
+export type OptionKey = 'A' | 'B' | 'C' | 'D' | 'E';
 export type Options = Partial<Record<OptionKey, string>>;
 export interface Question {
   id: string; number: number; question: string; options: Options;

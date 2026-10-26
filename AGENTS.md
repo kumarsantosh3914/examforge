@@ -39,7 +39,7 @@ No automated test framework or coverage threshold is configured. Before submitti
 - Subject slugs and referenced set files resolve correctly.
 - `setCount` and `questionCount` match actual contents.
 - Question IDs are unique and numbering is sequential within each set.
-- Options use `A`–`D`, and `answer` identifies the correct option.
+- Options use `A`–`D` (or `A`–`E` for banking exams), and `answer` identifies the correct option.
 - English and Hindi questions, options, and explanations remain aligned.
 
 Preserve existing `hash` fields during unrelated edits; no hash-generation procedure is documented here.

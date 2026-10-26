@@ -169,6 +169,20 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Backlinks: not measurable yet. Search Console's Links report was still processing and the domain is not in the Common Crawl graph. Add a Moz API key and verify the site in Bing Webmaster Tools to get data.
 - Not done: the `/practice?subject=` query-string URLs may be why those pages are stuck; moving them to path URLs is a larger change to revisit once exam pages are indexed. The sitemap has no `lastmod` because the catalog stores no update dates.
 
+## 11 New Exams Added (2026-10-26)
+
+- Added 11 new exam question banks across Defence, Police, Banking, Railway, and Teaching:
+  - **Defence**: AFCAT (`/exams/afcat`, 1 subject, 4 sets, 316 questions), Indian Army Agniveer (`/exams/agniveer`, 1 subject, 10 sets, 489 questions).
+  - **Police**: Bihar Police (`/exams/bihar-police`, 1 subject, 10 sets, 970 questions), Delhi Police Constable (`/exams/delhi-police`, 1 subject, 10 sets, 859 questions), Rajasthan Police Constable (`/exams/rajasthan-police`, 1 subject, 10 sets, 975 questions), UP Police Constable (`/exams/up-police`, 1 subject, 10 sets, 1,431 questions).
+  - **Banking**: IBPS PO (`/exams/ibps-po`, 1 subject, 10 sets, 454 questions), SBI Clerk (`/exams/sbi-clerk`, 1 subject, 10 sets, 451 questions), SBI PO (`/exams/sbi-po`, 1 subject, 10 sets, 448 questions).
+  - **Railway**: RRB Technician (`/exams/rrb-technician`, 1 subject, 10 sets, 961 questions).
+  - **Teaching**: TET (`/exams/tet`, 1 subject, 4 sets, 216 questions).
+- Extended schema and types to support option E (`OptionKey = 'A' | 'B' | 'C' | 'D' | 'E'`), enabling 5-option questions standard in banking exams (IBPS PO, SBI Clerk, SBI PO).
+- Added `banking` and `defence` families to `families` in `src/lib/exam-directory.ts`, providing filter tabs on the landing page.
+- Added comprehensive `liveExamMeta` presentation metadata and `examGuides` for all 11 exams.
+- Question bank validation and dynamic discovery pass with 0 errors across all 7,570 new questions.
+- Totals: 23 exams, 91 subjects, 625 sets, 28,116 usable questions (7 quarantined, none new).
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

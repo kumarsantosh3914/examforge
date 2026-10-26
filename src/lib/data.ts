@@ -6,10 +6,10 @@ import type { Exam, Subject, PracticeSet, StoredQuestion } from './types';
 
 const text = z.string().trim().min(1);
 const slug = z.string().regex(/^[a-z0-9][a-z0-9.-]*$/);
-const options = z.object({ A: text, B: text, C: text.optional(), D: text.optional() }).strict();
+const options = z.object({ A: text, B: text, C: text.optional(), D: text.optional(), E: text.optional() }).strict();
 export const questionSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/), number: z.number().int().positive(),
-  question: text, options, answer: z.enum(['A', 'B', 'C', 'D']),
+  question: text, options, answer: z.enum(['A', 'B', 'C', 'D', 'E']),
   explanation: z.string().optional(), hash: z.string().optional(),
   translations: z.object({ hi: z.object({ question: text, options, explanation: z.string().optional() }).optional() }).optional(),
 }).refine(q => Boolean(q.options[q.answer]), 'Answer must reference a nonempty option')
