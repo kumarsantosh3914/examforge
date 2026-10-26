@@ -195,6 +195,21 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Added a `school` family ("School boards") for BSEB 10th, plus `liveExamMeta` and `examGuides` entries for all six. Guide facts come from published exam-pattern summaries that sometimes disagree (SSC CPO 2026 format, ALP CBT-1 subject split, BSEB passing marks); the guides say so and point to the official notice. The BPSC Mathematics guide omits a pattern table, post counts and dates because they could not be confirmed.
 - Tests updated for the new totals (13 unit tests pass; typecheck and lint clean). The dev database has not been seeded with these banks yet; run `npm run seed` locally and on the server after deploying.
 
+## 5 More Exams Added (2026-10-26)
+
+- Added five single-subject question banks, each with one `Mock Tests` subject: **SSC CGL** (`/exams/ssc-cgl`, 10 sets of 100, 1,000 questions), **SSC JE** (`/exams/ssc-je`, 10 sets of 100, 1,000), **SSC Selection Post** (`/exams/ssc-selection-post`, 10 sets of 100, 1,000), **SSC Stenographer** (`/exams/ssc-stenographer`, 10 sets of 200, 2,000) and **UPPSC** (`/exams/uppsc`, 3 Paper I sets of 150 and 3 CSAT sets of 100, 750). All have explanations; none has Hindi translations.
+- Totals: 34 exams, 126 subjects, 989 sets, 47,041 usable questions of 47,056 (15 quarantined, none new).
+- Change on import: the root `index.json` of each folder had `"category"` set to a label (`SSC`, `State PSC`), which the loader rejects for exams without a category folder; it is now `null` like the other flat exams. Nothing else in the data was edited.
+- Added a `civil` family ("Civil services") for UPPSC, plus `liveExamMeta` and `examGuides` entries for all five. Guide patterns come from published summaries (SSC CGL Tier 1, Stenographer, Selection Post and JE Paper 1 agree across sources; the UPPSC per-answer penalty is not stated).
+- Known source quirks, left as supplied:
+  - **SSC CGL sets 5–10 repeat sets 1–4** (7 new questions across six sets; 593 of 1,000 questions are exact repeats and sets 1 and 3 differ only in some numbers), so there are about four distinct tests. Trimming to sets 1–4 is a data decision for the owner.
+  - **SSC JE has no engineering questions** (the real Paper 1 is 100 of 200 questions from Civil, Mechanical or Electrical); the bank is reasoning and general awareness only, and the title and guide say so.
+  - **UPPSC is introductory**: Paper I is basic general knowledge and the CSAT sets are English vocabulary, simple arithmetic and alphabet puzzles, not comprehension or data interpretation. Selection Post and Stenographer are similar in difficulty.
+  - Many stems repeat across sets with different numbers (day-of-week, alphabet-position and spelling templates); Stenographer and Selection Post have 215 and 34 exact repeats.
+  - Sets use the default one minute per question, longer than the real papers (CGL and Selection Post 60 minutes for 100 questions, Stenographer and JE 2 hours for 200 questions). No `durationMinutes` was set.
+  - No Hindi: the language toggle in the test and the results review shows English only, and the generic "English and Hindi" text on subject pages, share images and site description is inaccurate for these exams (as it already is for AFCAT, Agniveer, the banking, Bihar, Delhi, Rajasthan and UP Police exams, Technician and TET).
+- Not yet seeded to dev or production; run `npm run seed` locally and on the server after deploying.
+
 ## Remaining Work
 
 1. **Rotate the MongoDB credential.** Production currently uses the same Atlas user as development, and that credential has been shared. Create a dedicated production user, update `MONGODB_URI` in the server's `.env.local`, and run `sudo systemctl restart examforge`.

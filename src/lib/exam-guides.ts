@@ -2504,4 +2504,278 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'ssc-cgl': {
+    heading: 'About the SSC CGL exam',
+    intro: [
+      'SSC CGL (Combined Graduate Level) is the Staff Selection Commission’s exam for graduate-level posts in central ministries, departments and offices. Tier 1 is the computer-based screening paper: you have to clear its cut-off to reach Tier 2.',
+      'ExamForge gives you free, timed full-length mock tests in the Tier 1 format: 100 questions in four sections of 25 (Reasoning, General Awareness, Quantitative Aptitude and English). Each question is explained after you submit. Your first three sets need no signup.',
+      'The question banks are in English only. Several of the later mock tests reuse questions from the earlier ones, with some numbers changed, so use them for repeated timing practice rather than as new material each time. Sets give you one minute per question, which is more time than the real 60 minutes, and they do not deduct marks for wrong answers.',
+    ],
+    facts: {
+      title: 'SSC CGL Tier 1 at a glance',
+      source: 'From published SSC CGL exam-pattern summaries. Check ssc.gov.in for the notice of the cycle you apply under.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Tier 1', value: 'Computer-based, 100 questions, 200 marks' },
+        { label: 'Duration', value: '60 minutes' },
+        { label: 'Negative marking', value: '0.50 mark per wrong answer' },
+        { label: 'Tier 1 role', value: 'Qualifying; marks are not added to the final merit' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'Tier 1 is a single computer-based paper with four sections of 25 questions each. Every question carries 2 marks.',
+      caption: 'SSC CGL Tier 1',
+      sections: [
+        { part: 'Section 1', subject: 'General Intelligence and Reasoning', questions: 25, marks: 50 },
+        { part: 'Section 2', subject: 'General Awareness', questions: 25, marks: 50 },
+        { part: 'Section 3', subject: 'Quantitative Aptitude', questions: 25, marks: 50 },
+        { part: 'Section 4', subject: 'English Comprehension', questions: 25, marks: 50 },
+      ],
+      duration: '60 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+2' },
+        { response: 'Wrong answer', marks: '−0.50' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'There is no sectional time limit. ExamForge sets do not deduct marks, so to rehearse the real scoring, take 0.50 off for each wrong answer yourself. Tier 2 is not covered.',
+    },
+    syllabus: {
+      intro: 'Each mock test puts the four Tier 1 sections together in the order of the real paper.',
+      areas: [
+        { title: 'General Intelligence and Reasoning', summary: 'The first 25 questions.', topics: ['Analogy, series and odd one out', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Statement and conclusion'] },
+        { title: 'General Awareness', summary: 'Static and current awareness, 25 questions.', topics: ['Indian history, geography and polity', 'Economy, schemes and government bodies', 'General science and environment'] },
+        { title: 'Quantitative Aptitude', summary: 'Arithmetic and basic mathematics, 25 questions.', topics: ['Percentage, profit and loss, ratio and average', 'Time and work, pipes and cisterns, speed and distance', 'Simplification, algebra and geometry'] },
+        { title: 'English Comprehension', summary: 'Grammar and vocabulary, 25 questions.', topics: ['Synonyms and antonyms', 'Error spotting and sentence improvement', 'Idioms, spellings and fill in the blanks'] },
+      ],
+    },
+    eligibility: {
+      intro: 'The main condition, in short. Each notice sets the posts, age limits and relaxations.',
+      items: [
+        { title: 'Qualification', detail: 'A bachelor’s degree from a recognised university for most posts; some posts ask for extra qualifications. Check the current notice.' },
+      ],
+    },
+    tips: [
+      { title: 'Practise against the clock', detail: 'The real paper gives you about 36 seconds a question. Time yourself to 60 minutes even though the set allows longer.' },
+      { title: 'Treat negative marking as a tax', detail: 'A wrong answer costs a quarter of a correct one. Answer when you can rule out at least two options.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real Tier 1 deducts 0.50 mark per wrong answer, so apply that to your score yourself.' },
+      { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. Mock tests 5 to 10 largely reuse questions from tests 1 to 4, so the bank holds about four tests’ worth of distinct material.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'ssc-je': {
+    heading: 'About the SSC JE exam',
+    intro: [
+      'SSC JE is the Staff Selection Commission’s recruitment exam for Junior Engineers in Civil, Mechanical and Electrical Engineering. Paper 1 is a computer-based test of 200 questions: 50 General Intelligence and Reasoning, 50 General Awareness and 100 from your engineering branch.',
+      'ExamForge covers only the first two of those parts. The ten mock tests here are 100 questions each of reasoning, number puzzles and general awareness, with an explanation after you submit. They contain no Civil, Mechanical or Electrical Engineering questions, so use them alongside a technical question bank, not instead of one.',
+      'The question bank is in English only. Sets give you one minute per question and do not deduct marks for wrong answers.',
+    ],
+    facts: {
+      title: 'SSC JE Paper 1 at a glance',
+      source: 'From published SSC JE exam-pattern summaries, which vary between cycles. Check ssc.gov.in for the current notice.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Paper 1', value: 'Computer-based, 200 questions, 200 marks' },
+        { label: 'Duration', value: '2 hours' },
+        { label: 'Negative marking', value: '0.25 mark per wrong answer' },
+        { label: 'Branches', value: 'Civil, Mechanical, Electrical' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'Paper 1 has three parts. ExamForge practises the first two; the engineering part is not covered.',
+      caption: 'SSC JE Paper 1',
+      sections: [
+        { part: 'Part A', subject: 'General Intelligence and Reasoning', questions: 50, marks: 50 },
+        { part: 'Part B', subject: 'General Awareness', questions: 50, marks: 50 },
+        { part: 'Part C', subject: 'General Engineering (Civil and Structural, Electrical or Mechanical)', questions: 100, marks: 100 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Paper 2, the descriptive-technical paper, is not covered. Confirm both papers’ formats in the notice you apply under.',
+    },
+    syllabus: {
+      intro: 'What the ExamForge mock tests practise.',
+      areas: [
+        { title: 'General Intelligence and Reasoning', summary: 'Verbal and number reasoning.', topics: ['Day and calendar puzzles', 'Letter and alphabet position', 'Number analogies and series', 'Distance and direction'] },
+        { title: 'General Awareness', summary: 'Static general knowledge.', topics: ['Indian history, polity and geography', 'Basic science', 'Economy and current basics'] },
+      ],
+    },
+    tips: [
+      { title: 'Add technical practice', detail: 'Half the real paper is engineering, which these tests do not include. Spend most of your time on your branch.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Do these tests include Civil, Mechanical or Electrical Engineering questions?', answer: 'No. They cover Reasoning and General Awareness only.' },
+      { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'ssc-selection-post': {
+    heading: 'About the SSC Selection Post exam',
+    intro: [
+      'The SSC Selection Post exam fills posts at Matriculation, Higher Secondary (12th pass) and Graduate levels in central government offices. SSC runs separate computer-based tests by qualification level, with the same structure at each level and harder questions as the level rises.',
+      'ExamForge gives you free, timed full-length mock tests: 100 questions in four sections (General Intelligence, General Awareness, Quantitative Aptitude and English), with an explanation after you submit. Your first three sets need no signup.',
+      'The questions are at an introductory level, so use them to build speed and basics before moving on to harder papers. The bank is in English only. Sets give you one minute per question, more than the real 60 minutes, and do not deduct marks for wrong answers.',
+    ],
+    facts: {
+      title: 'SSC Selection Post at a glance',
+      source: 'From published SSC Selection Post exam-pattern summaries. Check ssc.gov.in for the current phase notice.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Levels', value: 'Matriculation, Higher Secondary, Graduate' },
+        { label: 'Computer-based test', value: '100 questions, 200 marks' },
+        { label: 'Duration', value: '60 minutes' },
+        { label: 'Negative marking', value: '0.50 mark per wrong answer' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The computer-based test has four sections of 25 questions each, worth 2 marks per question. A skill test applies only to posts that need one.',
+      caption: 'SSC Selection Post computer-based test',
+      sections: [
+        { part: 'Section 1', subject: 'General Intelligence', questions: 25, marks: 50 },
+        { part: 'Section 2', subject: 'General Awareness', questions: 25, marks: 50 },
+        { part: 'Section 3', subject: 'Quantitative Aptitude', questions: 25, marks: 50 },
+        { part: 'Section 4', subject: 'English Language', questions: 25, marks: 50 },
+      ],
+      duration: '60 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+2' },
+        { response: 'Wrong answer', marks: '−0.50' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'ExamForge sets do not deduct marks, so take 0.50 off for each wrong answer yourself to rehearse the real scoring.',
+    },
+    syllabus: {
+      intro: 'Each mock test puts the four sections together in the order of the real paper.',
+      areas: [
+        { title: 'General Intelligence', summary: 'The first 25 questions.', topics: ['Day, calendar and alphabet puzzles', 'Number analogies and series'] },
+        { title: 'General Awareness', summary: 'Static and basic current awareness.', topics: ['Indian polity, geography and economy', 'General science'] },
+        { title: 'Quantitative Aptitude', summary: 'Basic arithmetic.', topics: ['Percentage, area and speed', 'Profit and loss, ratio and time'] },
+        { title: 'English Language', summary: 'Vocabulary and grammar.', topics: ['Spelling, synonyms and antonyms', 'One-word substitution and idioms'] },
+      ],
+    },
+    tips: [
+      { title: 'Practise against the clock', detail: 'Time yourself to 60 minutes for 100 questions even though the set allows longer.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real exam deducts 0.50 mark per wrong answer, so apply that to your score yourself.' },
+      { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'ssc-stenographer': {
+    heading: 'About the SSC Stenographer exam',
+    intro: [
+      'SSC Stenographer Grade C and D is the Staff Selection Commission’s exam for stenographers in central government offices. Selection has a computer-based written test followed by a stenography skill test.',
+      'ExamForge gives you free, timed full-length mock tests for the written stage: 200 questions each, with 50 Reasoning, 50 General Awareness and 100 English, and an explanation after you submit. Your first three sets need no signup.',
+      'The question bank is in English only. Sets give you one minute per question, which is more than the real 2 hours for 200 questions, and they do not deduct marks for wrong answers. The skill test is not covered.',
+    ],
+    facts: {
+      title: 'SSC Stenographer at a glance',
+      source: 'From published exam-pattern summaries; one reports a corrigendum on negative marking for the 2026 cycle. Check ssc.gov.in for the current notice.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Written test', value: 'Computer-based, 200 questions, 200 marks' },
+        { label: 'Duration', value: '2 hours' },
+        { label: 'Negative marking', value: '0.25 mark per wrong answer' },
+        { label: 'Skill test', value: 'Dictation, 100 wpm for Grade C and 80 wpm for Grade D' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'The computer-based test has three parts, 200 questions in all, worth 1 mark each.',
+      caption: 'SSC Stenographer Grade C and D computer-based test',
+      sections: [
+        { part: 'Part 1', subject: 'General Intelligence and Reasoning', questions: 50, marks: 50 },
+        { part: 'Part 2', subject: 'General Awareness', questions: 50, marks: 50 },
+        { part: 'Part 3', subject: 'English Language and Comprehension', questions: 100, marks: 100 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Older summaries list only the Reasoning and General Awareness parts, so confirm the format in the current notice. ExamForge sets do not deduct marks; take 0.25 off for each wrong answer yourself.',
+    },
+    syllabus: {
+      intro: 'Each mock test follows the order of the written test.',
+      areas: [
+        { title: 'General Intelligence and Reasoning', summary: 'The first 50 questions.', topics: ['Day and calendar puzzles', 'Number analogies and series', 'Alphabet position'] },
+        { title: 'General Awareness', summary: 'Questions 51 to 100.', topics: ['Indian geography, polity and culture', 'General science and economy'] },
+        { title: 'English Language and Comprehension', summary: 'The last 100 questions.', topics: ['Spelling, vocabulary and one-word substitution', 'Error spotting and grammar'] },
+      ],
+    },
+    tips: [
+      { title: 'Practise the full length', detail: 'Two hundred questions is a long sitting. Use the full mock tests to build stamina and time yourself to 2 hours.' },
+      { title: 'Practise the skill test separately', detail: 'The dictation test decides your final selection, and ExamForge does not cover it.' },
+    ],
+    faq: [
+      { question: 'Does ExamForge cover the stenography skill test?', answer: 'No. These are practice sets for the written test only.' },
+      { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'uppsc': {
+    heading: 'About the UPPSC PCS prelims',
+    intro: [
+      'The Uttar Pradesh Public Service Commission (UPPSC) recruits Provincial Civil Services officers through a preliminary exam, the mains and an interview. The prelims has two objective papers: General Studies Paper I and Paper II (CSAT).',
+      'ExamForge gives you free, timed practice in that shape: three General Studies sets of 150 questions and three CSAT sets of 100, with an explanation after you submit. Your first three sets need no signup.',
+      'The questions are at an introductory level, well below the difficulty of the real prelims, and the CSAT sets are mostly English vocabulary, simple arithmetic and letter puzzles rather than comprehension passages. Use them to warm up, not as a measure of readiness. The bank is in English only, sets give you one minute per question and no marks are deducted for wrong answers.',
+    ],
+    facts: {
+      title: 'UPPSC PCS prelims at a glance',
+      source: 'From a published exam-pattern summary. The per-answer penalty is not stated here; check uppsc.up.nic.in for the current notice.',
+      items: [
+        { label: 'Conducted by', value: 'Uttar Pradesh Public Service Commission' },
+        { label: 'Paper I', value: 'General Studies, 150 questions, 200 marks, 2 hours' },
+        { label: 'Paper II', value: 'CSAT, 100 questions, 200 marks, 2 hours' },
+        { label: 'Paper II role', value: 'Qualifying, at least 33%' },
+        { label: 'Negative marking', value: 'Yes; confirm the rate in the notice' },
+        { label: 'Apply at', value: 'uppsc.up.nic.in' },
+      ],
+    },
+    pattern: {
+      summary: 'Both papers are objective. Only Paper I counts towards the mains shortlist; Paper II has to be qualified.',
+      caption: 'UPPSC PCS prelims',
+      sections: [
+        { part: 'Paper I', subject: 'General Studies', questions: 150, marks: 200 },
+        { part: 'Paper II', subject: 'General Studies II (CSAT, qualifying)', questions: 100, marks: 200 },
+      ],
+      duration: '2 hours per paper',
+      marking: [
+        { response: 'Correct answer', marks: 'Full marks for the question' },
+        { response: 'Wrong answer', marks: 'Negative marking applies' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Check the notice for the exact deduction. ExamForge sets deduct nothing, so apply the real rate to your score yourself. The mains and interview are not covered.',
+    },
+    syllabus: {
+      intro: 'The first three sets are Paper I and the last three are Paper II.',
+      areas: [
+        { title: 'Paper I: General Studies', summary: 'Sets 1 to 3, 150 questions each.', topics: ['Indian history and polity', 'Geography, science and environment', 'Economy, sports and general knowledge'] },
+        { title: 'Paper II: CSAT', summary: 'Sets 4 to 6, 100 questions each.', topics: ['English vocabulary and spelling', 'Basic arithmetic and percentages', 'Alphabet and sequence puzzles'] },
+      ],
+    },
+    tips: [
+      { title: 'Move on to harder material', detail: 'These sets are introductory. Pair them with past UPPSC papers for the real difficulty.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Are these questions as hard as the real prelims?', answer: 'No. They are introductory and well below the real exam’s difficulty.' },
+      { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
 };

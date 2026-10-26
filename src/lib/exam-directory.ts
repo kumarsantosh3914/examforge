@@ -7,6 +7,7 @@ export const families = [
   { id: 'railway', label: 'Railway' },
   { id: 'banking', label: 'Banking' },
   { id: 'defence', label: 'Defence' },
+  { id: 'civil', label: 'Civil services' },
   { id: 'school', label: 'School boards' },
 ] as const;
 import type { Exam } from './types';
@@ -244,6 +245,46 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     blurb: 'Bihar Board matriculation practice. Objective sets for Science, Social Science, Mathematics, English and Sanskrit.',
     metaTitle: 'BSEB 10th Mock Test 2026: Free Bihar Board Practice',
     description: 'Free Bihar Board Class 10 mock tests: 135 objective practice sets for Science, Social Science, Mathematics, English and Sanskrit, with answers explained in English and Hindi.',
+  },
+  'ssc-cgl': {
+    family: 'ssc',
+    title: 'SSC CGL',
+    shortTitle: 'SSC CGL',
+    body: 'Staff Selection Commission',
+    blurb: 'Combined Graduate Level recruitment, Tier 1 format. Full 100-question mock tests in four sections: Reasoning, General Awareness, Quantitative Aptitude and English.',
+    description: 'Free SSC CGL Tier 1 mock tests: full-length 100-question papers in the four-section format (Reasoning, General Awareness, Quantitative Aptitude, English), each question explained after you submit.',
+  },
+  'ssc-je': {
+    family: 'ssc',
+    title: 'SSC JE (Reasoning and General Awareness)',
+    shortTitle: 'SSC JE',
+    body: 'Staff Selection Commission',
+    blurb: 'Junior Engineer recruitment. Practice for the General Intelligence and General Awareness sections of Paper 1; the Engineering section is not covered.',
+    description: 'Free SSC JE mock tests for the General Intelligence & Reasoning and General Awareness sections of Paper 1, with explanations. The technical Engineering section is not included.',
+  },
+  'ssc-selection-post': {
+    family: 'ssc',
+    title: 'SSC Selection Post',
+    shortTitle: 'SSC Selection Post',
+    body: 'Staff Selection Commission',
+    blurb: 'Matriculation, Higher Secondary and Graduate level posts. Full 100-question mock tests in four sections: Reasoning, General Awareness, Quantitative Aptitude and English.',
+    description: 'Free SSC Selection Post mock tests: full-length 100-question papers covering General Intelligence, General Awareness, Quantitative Aptitude and English, each question explained after you submit.',
+  },
+  'ssc-stenographer': {
+    family: 'ssc',
+    title: 'SSC Stenographer (Grade C and D)',
+    shortTitle: 'SSC Stenographer',
+    body: 'Staff Selection Commission',
+    blurb: 'Stenographer Grade C and D recruitment, written stage. Full 200-question mock tests: 50 Reasoning, 50 General Awareness and 100 English.',
+    description: 'Free SSC Stenographer Grade C and D mock tests: full-length 200-question papers with 50 Reasoning, 50 General Awareness and 100 English questions, each explained after you submit.',
+  },
+  'uppsc': {
+    family: 'civil',
+    title: 'UPPSC PCS Prelims',
+    shortTitle: 'UPPSC',
+    body: 'Uttar Pradesh Public Service Commission',
+    blurb: 'Provincial Civil Services preliminary practice. Paper I (General Studies) sets of 150 questions and Paper II (CSAT) sets of 100, at an introductory level.',
+    description: 'Free UPPSC PCS prelims practice: General Studies Paper I sets of 150 questions and CSAT Paper II sets of 100, at an introductory level, each question explained after you submit.',
   },
 };
 
