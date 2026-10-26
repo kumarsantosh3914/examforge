@@ -11,6 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const examIds = catalog ? catalog.exams.map(e => e._id) : Object.keys(liveExamMeta);
   return [
     { url: absolute('/'), changeFrequency: 'weekly', priority: 1 },
+    { url: absolute('/privacy'), changeFrequency: 'yearly', priority: 0.2 },
     ...examIds.map(id => ({ url: absolute(examHref(id)), changeFrequency: 'weekly' as const, priority: 0.9 })),
     ...(catalog?.subjects ?? []).map(s => ({ url: absolute(subjectHref(s._id)), changeFrequency: 'monthly' as const, priority: 0.7 })),
   ];
