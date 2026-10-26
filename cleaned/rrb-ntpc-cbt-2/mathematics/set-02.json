@@ -1,0 +1,865 @@
+{
+  "subject": "Mathematics",
+  "set": 2,
+  "title": "Mathematics Mock Test 2",
+  "questions": [
+    {
+      "id": "mathematics-02-001",
+      "number": 1,
+      "question": "A shopkeeper offers a discount of 10% on MP and still earns a profit of 20%. If CP is ₹450, find the MP.",
+      "options": {
+        "A": "₹600",
+        "B": "₹540",
+        "C": "₹550",
+        "D": "₹650"
+      },
+      "answer": "A",
+      "explanation": "MP/CP = (100+P%)/(100-D%). MP/450 = 120/90 = 4/3. MP = ₹600.",
+      "hash": "5689ac53daa4c4fd",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अंकित मूल्य पर 10% की छूट देता है और फिर भी 20% का लाभ कमाता है। यदि क्रय मूल्य ₹450 है, तो अंकित मूल्य ज्ञात कीजिये।",
+          "options": {
+            "A": "₹600",
+            "B": "₹540",
+            "C": "₹550",
+            "D": "₹650"
+          },
+          "explanation": "MP/CP = (100+Profit%)/(100-Discount%). MP/450 = 120/90 = 4/3. MP = 450 × 4/3 = ₹600."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-002",
+      "number": 2,
+      "question": "The HCF and LCM of two numbers are 12 and 240 respectively. If one number is 48, what is the other number?",
+      "options": {
+        "A": "60",
+        "B": "50",
+        "C": "72",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": "1st × 2nd = HCF × LCM. 48 × x = 12 × 240. x = 60.",
+      "hash": "982afe24e7f4be63",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का HCF और LCM क्रमशः 12 और 240 है। यदि एक संख्या 48 है, तो दूसरी संख्या क्या है?",
+          "options": {
+            "A": "60",
+            "B": "50",
+            "C": "72",
+            "D": "80"
+          },
+          "explanation": "पहली संख्या × दूसरी संख्या = HCF × LCM. 48 × x = 12 × 240. x = (12 × 240) / 48 = 60."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-003",
+      "number": 3,
+      "question": "Radii of two cylinders are in ratio 2:3 and heights in ratio 5:3. What is the ratio of their volumes?",
+      "options": {
+        "A": "20:27",
+        "B": "27:20",
+        "C": "10:9",
+        "D": "4:9"
+      },
+      "answer": "A",
+      "explanation": "V1/V2 = (r1/r2)² × (h1/h2) = (2/3)² × (5/3) = 20/27.",
+      "hash": "f670b6708c268b24",
+      "translations": {
+        "hi": {
+          "question": "दो बेलनों (Cylinders) की त्रिज्याओं का अनुपात 2:3 है और उनकी ऊंचाइयों का अनुपात 5:3 है। उनके आयतनों का अनुपात क्या है?",
+          "options": {
+            "A": "20:27",
+            "B": "27:20",
+            "C": "10:9",
+            "D": "4:9"
+          },
+          "explanation": "V1/V2 = (r1/r2)² × (h1/h2) = (2/3)² × (5/3) = 4/9 × 5/3 = 20/27."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-004",
+      "number": 4,
+      "question": "If x = 3 + 2√2, find the value of √x - 1/√x.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "2√2",
+        "D": "√2"
+      },
+      "answer": "A",
+      "explanation": "x = (√2 + 1)². So √x = √2 + 1. 1/√x = √2 - 1. Diff = 2.",
+      "hash": "2c10831322596938",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 3 + 2√2 है, तो √x - 1/√x का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "2√2",
+            "D": "√2"
+          },
+          "explanation": "x = (√2 + 1)². तो √x = √2 + 1. 1/√x = √2 - 1. अंतर = (√2 + 1) - (√2 - 1) = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-005",
+      "number": 5,
+      "question": "A sum amounts to ₹815 in 3 years and ₹854 in 4 years at SI. What is the sum?",
+      "options": {
+        "A": "₹698",
+        "B": "₹650",
+        "C": "₹700",
+        "D": "₹690"
+      },
+      "answer": "A",
+      "explanation": "1 yr Interest = 39. 3 yrs Interest = 117. Principal = 815 - 117 = ₹698.",
+      "hash": "11f8b48562e66412",
+      "translations": {
+        "hi": {
+          "question": "एक राशि साधारण ब्याज पर 3 वर्षों में ₹815 और 4 वर्षों में ₹854 हो जाती है। वह राशि क्या है?",
+          "options": {
+            "A": "₹698",
+            "B": "₹650",
+            "C": "₹700",
+            "D": "₹690"
+          },
+          "explanation": "1 वर्ष का ब्याज = 854 - 815 = ₹39. 3 वर्ष का ब्याज = 39 × 3 = ₹117. मूलधन = 815 - 117 = ₹698."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-006",
+      "number": 6,
+      "question": "What is the value of sin² 5° + sin² 10° + ... + sin² 85° + sin² 90°?",
+      "options": {
+        "A": "9.5",
+        "B": "9",
+        "C": "8.5",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "17 terms from 5 to 85. 8 pairs sum to 8. Middle sin²45=0.5. sin²90=1. Total 9.5.",
+      "hash": "837ab630177f36ec",
+      "translations": {
+        "hi": {
+          "question": "sin² 5° + sin² 10° + ... + sin² 85° + sin² 90° का मान क्या है?",
+          "options": {
+            "A": "9.5",
+            "B": "9",
+            "C": "8.5",
+            "D": "10"
+          },
+          "explanation": "5 से 85 तक 17 पद हैं। 8 जोड़े (जैसे 5+85) मिलकर 8 बनाते हैं। बीच में sin² 45° (1/2) बचता है। sin² 90° = 1. कुल = 8 + 0.5 + 1 = 9.5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-007",
+      "number": 7,
+      "question": "A train at 50 km/hr crosses another train coming from opposite direction at 40 km/hr in 12 sec. If length of first train is 150m, find length of second train.",
+      "options": {
+        "A": "150 m",
+        "B": "200 m",
+        "C": "250 m",
+        "D": "100 m"
+      },
+      "answer": "A",
+      "explanation": "Rel Speed = 90 km/hr = 25 m/s. Dist = 300m. 2nd Train = 300 - 150 = 150 m.",
+      "hash": "4b0e97a001c046e6",
+      "translations": {
+        "hi": {
+          "question": "50 किमी/घंटा की गति से चलने वाली एक ट्रेन, विपरीत दिशा से 40 किमी/घंटा की गति से आ रही दूसरी ट्रेन को पूरी तरह से पार करने में 12 सेकंड का समय लेती है। यदि पहली ट्रेन की लंबाई 150 मीटर है, तो दूसरी ट्रेन की लंबाई क्या है?",
+          "options": {
+            "A": "150 मीटर",
+            "B": "200 मीटर",
+            "C": "250 मीटर",
+            "D": "100 मीटर"
+          },
+          "explanation": "सापेक्ष गति = 90 किमी/घंटा = 25 मी/से। कुल दूरी = 25 × 12 = 300 मी। दूसरी ट्रेन = 300 - 150 = 150 मी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-009",
+      "number": 9,
+      "question": "A, B, and C can do a work in 24, 6, and 12 days respectively. In how many days will they finish it working together?",
+      "options": {
+        "A": "3 3/7 days",
+        "B": "4 days",
+        "C": "3 days",
+        "D": "5 days"
+      },
+      "answer": "A",
+      "explanation": "LCM = 24. Eff: A=1, B=4, C=2. Total = 7. Time = 24/7 days.",
+      "hash": "80f6b22489575b6e",
+      "translations": {
+        "hi": {
+          "question": "एक कार्य को A, B और C क्रमशः 24, 6 और 12 दिनों में कर सकते हैं। वे एक साथ कार्य करते हुए उसे कितने दिनों में पूरा करेंगे?",
+          "options": {
+            "A": "3 3/7 दिन",
+            "B": "4 दिन",
+            "C": "3 दिन",
+            "D": "5 दिन"
+          },
+          "explanation": "LCM = 24. दक्षता: A=1, B=4, C=2. कुल दक्षता = 7. समय = 24/7 = 3 3/7 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-010",
+      "number": 10,
+      "question": "If (x + 1/x) = 3, find the value of (x⁵ + 1/x⁵).",
+      "options": {
+        "A": "123",
+        "B": "126",
+        "C": "110",
+        "D": "115"
+      },
+      "answer": "A",
+      "explanation": "x²+1/x²=7, x³+1/x³=18. Product=126. Subtract (x+1/x)=3. Ans=123.",
+      "hash": "e82593ccbbe5329c",
+      "translations": {
+        "hi": {
+          "question": "यदि (x + 1/x) = 3 है, तो (x⁵ + 1/x⁵) का मान क्या है?",
+          "options": {
+            "A": "123",
+            "B": "126",
+            "C": "110",
+            "D": "115"
+          },
+          "explanation": "x²+1/x² = 7. x³+1/x³ = 18. गुणा करें: (x²+1/x²)(x³+1/x³) = x⁵+1/x⁵ + (x+1/x). 7×18 = Ans + 3. 126 - 3 = 123."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-011",
+      "number": 11,
+      "question": "The relationship between Mean, Median and Mode is:",
+      "options": {
+        "A": "Mode = 3(Median) - 2(Mean)",
+        "B": "Mode = 2(Median) - 3(Mean)",
+        "C": "Mode = Mean - Median",
+        "D": "Mode = 3(Mean) - 2(Median)"
+      },
+      "answer": "A",
+      "explanation": "Empirical Formula: Mode = 3(Median) - 2(Mean).",
+      "hash": "3002aa7e0c71fb64",
+      "translations": {
+        "hi": {
+          "question": "माध्य (Mean), माध्यिका (Median) और बहुलक (Mode) के बीच संबंध है:",
+          "options": {
+            "A": "बहुलक = 3(माध्यिका) - 2(माध्य)",
+            "B": "बहुलक = 2(माध्यिका) - 3(माध्य)",
+            "C": "बहुलक = माध्य - माध्यिका",
+            "D": "बहुलक = 3(माध्य) - 2(माध्यिका)"
+          },
+          "explanation": "अनुभवजन्य सूत्र (Empirical Formula): बहुलक = 3(माध्यिका) - 2(माध्य)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-012",
+      "number": 12,
+      "question": "A bag contains coins of ₹1, 50p, 25p in ratio 2:3:4. Total value is ₹180. Number of 50p coins?",
+      "options": {
+        "A": "120",
+        "B": "150",
+        "C": "90",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "Value Ratio: 2 : 1.5 : 1. Total 4.5 units = 180. 1 unit = 40. 50p coins = 3 × 40 = 120.",
+      "hash": "6c31dfb2f34b3317",
+      "translations": {
+        "hi": {
+          "question": "एक बैग में ₹1, 50 पैसे और 25 पैसे के सिक्के 2:3:4 के अनुपात में हैं। यदि कुल मूल्य ₹180 है, तो 50 पैसे के सिक्कों की संख्या क्या है?",
+          "options": {
+            "A": "120",
+            "B": "150",
+            "C": "90",
+            "D": "200"
+          },
+          "explanation": "मूल्य अनुपात: 2(1) : 3(0.5) : 4(0.25) = 2 : 1.5 : 1. कुल = 4.5 इकाई = 180. 1 इकाई = 40. 50 पैसे के सिक्के = 3 × 40 = 120."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-013",
+      "number": 13,
+      "question": "A boat moves at 6 km/hr in still water. It takes thrice as much time to go upstream as downstream. Find stream speed.",
+      "options": {
+        "A": "3 km/hr",
+        "B": "2 km/hr",
+        "C": "4 km/hr",
+        "D": "2.5 km/hr"
+      },
+      "answer": "A",
+      "explanation": "(6+S)/(6-S) = 3/1 => 6+S = 18-3S => 4S=12 => S=3.",
+      "hash": "fc9dd4b299b7e47a",
+      "translations": {
+        "hi": {
+          "question": "एक नाव शांत जल में 6 किमी/घंटा की गति से चलती है। धारा के प्रतिकूल जाने में उसे धारा के अनुकूल जाने की तुलना में तीन गुना समय लगता है। धारा की गति ज्ञात कीजिये।",
+          "options": {
+            "A": "3 किमी/घंटा",
+            "B": "2 किमी/घंटा",
+            "C": "4 किमी/घंटा",
+            "D": "2.5 किमी/घंटा"
+          },
+          "explanation": "(6+S)/(6-S) = 3/1. 6+S = 18-3S. 4S = 12. S = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-014",
+      "number": 14,
+      "question": "A solid metal sphere of radius 8 cm is melted to form 64 equal small spheres. What is the surface area of a small sphere?",
+      "options": {
+        "A": "16π",
+        "B": "4π",
+        "C": "8π",
+        "D": "12π"
+      },
+      "answer": "A",
+      "explanation": "Volume equating: 512 = 64r³ => r=2. SA = 4πr² = 16π.",
+      "hash": "c1873adb44054c7c",
+      "translations": {
+        "hi": {
+          "question": "8 सेमी त्रिज्या वाले एक ठोस धातु के गोले को पिघलाकर 64 समान छोटे गोले बनाए जाते हैं। छोटे गोले का पृष्ठीय क्षेत्रफल क्या है?",
+          "options": {
+            "A": "16π",
+            "B": "4π",
+            "C": "8π",
+            "D": "12π"
+          },
+          "explanation": "आयतन बराबर: (4/3)π(8)³ = 64 × (4/3)πr³. 512 = 64r³. r³ = 8, r = 2. SA = 4π(2)² = 16π."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-015",
+      "number": 15,
+      "question": "Card drawn from 52. Probability it is neither a Spade nor a King?",
+      "options": {
+        "A": "9/13",
+        "B": "10/13",
+        "C": "3/4",
+        "D": "7/13"
+      },
+      "answer": "A",
+      "explanation": "Spades=13. Other Kings=3. Total excluded=16. Favorable=36. Prob=36/52=9/13.",
+      "hash": "6a2ed20bf4f584f0",
+      "translations": {
+        "hi": {
+          "question": "52 ताश के पत्तों की गड्डी से एक पत्ता निकाला जाता है। इसके न तो हुकुम (Spade) और न ही बादशाह (King) होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "9/13",
+            "B": "10/13",
+            "C": "3/4",
+            "D": "7/13"
+          },
+          "explanation": "हुकुम = 13। अन्य बादशाह = 3। कुल बाहर किए गए = 16। अनुकूल = 52 - 16 = 36। प्रायिकता = 36/52 = 9/13।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-016",
+      "number": 16,
+      "question": "Parallel sides of a trapezium are 20cm and 10cm, non-parallel sides are equal to 13cm each. Find area.",
+      "options": {
+        "A": "180 cm²",
+        "B": "120 cm²",
+        "C": "150 cm²",
+        "D": "100 cm²"
+      },
+      "answer": "A",
+      "explanation": "Height via Pythagoras: √(13²-5²) = 12. Area = 0.5(20+10)*12 = 180.",
+      "hash": "1fa701e3f7259ac1",
+      "translations": {
+        "hi": {
+          "question": "एक समलंब चतुर्भुज (Trapezium) की समांतर भुजाएँ 20 सेमी और 10 सेमी हैं और इसकी असमांतर भुजाएँ प्रत्येक 13 सेमी हैं। इसका क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "180 सेमी²",
+            "B": "120 सेमी²",
+            "C": "150 सेमी²",
+            "D": "100 सेमी²"
+          },
+          "explanation": "ऊंचाई निकालें। आधार में अंतर = 10। दोनों तरफ 5-5 का आधार बनेगा (त्रिभुज में)। कर्ण 13, आधार 5, तो ऊंचाई = 12। क्षेत्रफल = 1/2(20+10)×12 = 15 × 12 = 180."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-017",
+      "number": 17,
+      "question": "If number 42573* is divisible by 72, what is the minimum digit at *?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Divisible by 8: 73* -> 736 is div by 8. So *=6. Sum=27 (div by 9). Correct.",
+      "hash": "a4a5c1252e2e8a79",
+      "translations": {
+        "hi": {
+          "question": "यदि संख्या 42573* 72 से पूर्णतः विभाज्य है, तो * के स्थान पर न्यूनतम अंक क्या है?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "8",
+            "D": "2"
+          },
+          "explanation": "72 = 8 × 9. 8 से विभाज्यता: 73* को 8 से कटना चाहिए। 736, 8 से विभाज्य है (92 बार)। अतः * = 6। 9 से जाँच: 4+2+5+7+3+6 = 27 (विभाज्य है)। सही।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-019",
+      "number": 19,
+      "question": "A dealer marks goods 40% above CP and gives 20% discount. Profit %?",
+      "options": {
+        "A": "12%",
+        "B": "20%",
+        "C": "8%",
+        "D": "16%"
+      },
+      "answer": "A",
+      "explanation": "100 -> 140 -> 20% off -> 112. Profit 12%.",
+      "hash": "d102f79166ce736b",
+      "translations": {
+        "hi": {
+          "question": "एक डीलर अपने माल पर क्रय मूल्य से 40% अधिक अंकित करता है और 20% की छूट देता है। उसका लाभ प्रतिशत क्या है?",
+          "options": {
+            "A": "12%",
+            "B": "20%",
+            "C": "8%",
+            "D": "16%"
+          },
+          "explanation": "100 -> 140 -> 20% छूट -> 112। लाभ = 12%।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-020",
+      "number": 20,
+      "question": "How many numbers between 100 and 200 are divisible by both 3 and 7?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "LCM(3, 7) = 21. 200/21 = 9. 100/21 = 4. Count = 9 - 4 = 5.",
+      "hash": "3dcac0bffe036dc9",
+      "translations": {
+        "hi": {
+          "question": "100 और 200 के बीच कितनी संख्याएं 3 और 7 दोनों से विभाज्य हैं?",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "3"
+          },
+          "explanation": "LCM(3, 7) = 21. 200/21 = 9. 100/21 = 4. संख्याएं = 9 - 4 = 5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-021",
+      "number": 21,
+      "question": "Areas of two similar triangles are 81 cm² and 49 cm². Ratio of their corresponding altitudes is?",
+      "options": {
+        "A": "9:7",
+        "B": "81:49",
+        "C": "7:9",
+        "D": "3:2"
+      },
+      "answer": "A",
+      "explanation": "Ratio of altitudes = √Area1 : √Area2 = 9:7.",
+      "hash": "a4d1eded88da1cfe",
+      "translations": {
+        "hi": {
+          "question": "दो समरूप त्रिभुजों (Similar Triangles) के क्षेत्रफल 81 सेमी² और 49 सेमी² हैं। उनकी संगत ऊंचाइयों का अनुपात क्या है?",
+          "options": {
+            "A": "9:7",
+            "B": "81:49",
+            "C": "7:9",
+            "D": "3:2"
+          },
+          "explanation": "ऊंचाई का अनुपात = क्षेत्रफलों के वर्गमूल का अनुपात = √81 : √49 = 9:7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-022",
+      "number": 22,
+      "question": "Express 0.121212... as a fraction.",
+      "options": {
+        "A": "4/33",
+        "B": "12/100",
+        "C": "2/15",
+        "D": "11/90"
+      },
+      "answer": "A",
+      "explanation": "12/99 = 4/33.",
+      "hash": "18f7959b714d8607",
+      "translations": {
+        "hi": {
+          "question": "0.121212... को भिन्न (p/q) के रूप में व्यक्त करें।",
+          "options": {
+            "A": "4/33",
+            "B": "12/100",
+            "C": "2/15",
+            "D": "11/90"
+          },
+          "explanation": "12/99 = 4/33."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-023",
+      "number": 23,
+      "question": "If sin θ + cosec θ = 2, find sin⁹ θ + cosec⁹ θ.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "Possible only if sin θ = 1. So 1 + 1 = 2.",
+      "hash": "76b58b98c7b3a368",
+      "translations": {
+        "hi": {
+          "question": "यदि sin θ + cosec θ = 2 है, तो sin⁹ θ + cosec⁹ θ का मान क्या है?",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "0",
+            "D": "18"
+          },
+          "explanation": "यह तभी संभव है जब sin θ = 1 हो। तो 1⁹ + 1⁹ = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-024",
+      "number": 24,
+      "question": "Difference between CI and SI on a sum for 3 years at 10% is ₹31. Find the sum.",
+      "options": {
+        "A": "₹1000",
+        "B": "₹1200",
+        "C": "₹1500",
+        "D": "₹800"
+      },
+      "answer": "A",
+      "explanation": "D = P(R/100)²(3 + R/100). 31 = P(0.01)(3.1). P = 1000.",
+      "hash": "043f6cfca2a1a91c",
+      "translations": {
+        "hi": {
+          "question": "10% प्रति वर्ष की दर से 3 वर्षों के लिए किसी राशि पर साधारण ब्याज और चक्रवृद्धि ब्याज का अंतर ₹31 है। वह राशि ज्ञात कीजिये।",
+          "options": {
+            "A": "₹1000",
+            "B": "₹1200",
+            "C": "₹1500",
+            "D": "₹800"
+          },
+          "explanation": "सूत्र: D = P(R/100)²(3 + R/100). 31 = P(1/100)(3.1). P = 31 / 0.031 = 1000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-025",
+      "number": 25,
+      "question": "A polygon has 44 diagonals. Find number of sides.",
+      "options": {
+        "A": "11",
+        "B": "10",
+        "C": "12",
+        "D": "13"
+      },
+      "answer": "A",
+      "explanation": "n(n-3)/2 = 44 => n(n-3) = 88. 11 × 8 = 88. n = 11.",
+      "hash": "201cc63610258a36",
+      "translations": {
+        "hi": {
+          "question": "एक बहुभुज में 44 विकर्ण हैं। भुजाओं की संख्या ज्ञात कीजिये।",
+          "options": {
+            "A": "11",
+            "B": "10",
+            "C": "12",
+            "D": "13"
+          },
+          "explanation": "n(n-3)/2 = 44 => n(n-3) = 88. 11 × 8 = 88. n = 11."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-026",
+      "number": 26,
+      "question": "Base radius and height of a cone are 5cm and 12cm. Find TSA.",
+      "options": {
+        "A": "90π",
+        "B": "85π",
+        "C": "60π",
+        "D": "80π"
+      },
+      "answer": "A",
+      "explanation": "Slant ht l=13. TSA = πr(l+r) = 5π(18) = 90π.",
+      "hash": "7797c0daa114afd1",
+      "translations": {
+        "hi": {
+          "question": "एक शंकु (Cone) की आधार त्रिज्या और ऊँचाई क्रमशः 5 सेमी और 12 सेमी हैं। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "90π",
+            "B": "85π",
+            "C": "60π",
+            "D": "80π"
+          },
+          "explanation": "तिर्यक ऊँचाई l = √(5²+12²) = 13. TSA = πr(l+r) = π(5)(13+5) = π(5)(18) = 90π."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-027",
+      "number": 27,
+      "question": "Ratio of ages of A and B is 4:5. 5 years ago it was 3:4. Ratio after 5 years?",
+      "options": {
+        "A": "5:6",
+        "B": "6:7",
+        "C": "4:5",
+        "D": "5:7"
+      },
+      "answer": "A",
+      "explanation": "Gap 1 unit = 5 years. Present 20, 25. After 5 yrs: 25, 30. Ratio 5:6.",
+      "hash": "cb0a8f5599a85dc1",
+      "translations": {
+        "hi": {
+          "question": "A और B की आयु का अनुपात 4:5 है। 5 वर्ष पहले अनुपात 3:4 था। 5 वर्ष बाद उनकी आयु का अनुपात क्या होगा?",
+          "options": {
+            "A": "5:6",
+            "B": "6:7",
+            "C": "4:5",
+            "D": "5:7"
+          },
+          "explanation": "अंतर 1 इकाई = 5 वर्ष। वर्तमान आयु: 20 और 25। 5 वर्ष बाद: 25 और 30। अनुपात 5:6।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-028",
+      "number": 28,
+      "question": "Pipes A and B fill a tank in 15 and 12 hrs. C empties in 20 hrs. If all open, time to fill?",
+      "options": {
+        "A": "10 hrs",
+        "B": "8 hrs",
+        "C": "12 hrs",
+        "D": "15 hrs"
+      },
+      "answer": "A",
+      "explanation": "LCM = 60. Eff: A=4, B=5, C=-3. Net=6. Time = 60/6 = 10 hrs.",
+      "hash": "92543d3a2f8464e1",
+      "translations": {
+        "hi": {
+          "question": "दो पाइप A और B एक टैंक को क्रमशः 15 और 12 घंटों में भर सकते हैं। एक तीसरा पाइप C इसे 20 घंटों में खाली कर सकता है। यदि तीनों एक साथ खोले जाएं तो टैंक कितनी देर में भरेगा?",
+          "options": {
+            "A": "10 घंटे",
+            "B": "8 घंटे",
+            "C": "12 घंटे",
+            "D": "15 घंटे"
+          },
+          "explanation": "एलसीएम = 60. दक्षता: A=4, B=5, C=-3. कुल = 4+5-3 = 6. समय = 60/6 = 10 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-029",
+      "number": 29,
+      "question": "45L mixture of milk and water is 4:1. How much water to add to make it 3:2?",
+      "options": {
+        "A": "15 L",
+        "B": "10 L",
+        "C": "12 L",
+        "D": "20 L"
+      },
+      "answer": "A",
+      "explanation": "Milk=36, Water=9. 36/(9+x)=3/2 => x=15.",
+      "hash": "7a54c1aa4b581dcc",
+      "translations": {
+        "hi": {
+          "question": "45 लीटर मिश्रण में दूध और पानी 4:1 है। मिश्रण को 3:2 बनाने के लिए कितना पानी मिलाना चाहिए?",
+          "options": {
+            "A": "15 लीटर",
+            "B": "10 लीटर",
+            "C": "12 लीटर",
+            "D": "20 लीटर"
+          },
+          "explanation": "दूध=36, पानी=9. नया: 36/(9+x) = 3/2. 72 = 27 + 3x. 45 = 3x. x = 15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-030",
+      "number": 30,
+      "question": "Diagonal of a square is 10√2 cm. Area of inscribed circle?",
+      "options": {
+        "A": "25π",
+        "B": "50π",
+        "C": "20π",
+        "D": "10π"
+      },
+      "answer": "A",
+      "explanation": "Side = 10. Radius = 5. Area = 25π.",
+      "hash": "02ab31f8cadb12fa",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का विकर्ण 10√2 सेमी है। इसके अंदर बने वृत्त का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "25π",
+            "B": "50π",
+            "C": "20π",
+            "D": "10π"
+          },
+          "explanation": "भुजा = 10। त्रिज्या = 5। क्षेत्रफल = π(5)² = 25π."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-031",
+      "number": 31,
+      "question": "A and B do a work in 30 days. They work for 20 days, then B leaves. A finishes rest in 20 days. A alone takes?",
+      "options": {
+        "A": "60 days",
+        "B": "50 days",
+        "C": "40 days",
+        "D": "45 days"
+      },
+      "answer": "A",
+      "explanation": "20 days = 2/3 work. Rem 1/3 done by A in 20 days. Total A = 60 days.",
+      "hash": "a332b56f15fb1e5d",
+      "translations": {
+        "hi": {
+          "question": "A और B किसी कार्य को 30 दिनों में कर सकते हैं। वे 20 दिनों तक एक साथ कार्य करते हैं और फिर B छोड़ देता है। शेष कार्य A अकेले 20 दिनों में पूरा करता है। A अकेले पूरा कार्य कितने दिनों में कर सकता है?",
+          "options": {
+            "A": "60 दिन",
+            "B": "50 दिन",
+            "C": "40 दिन",
+            "D": "45 दिन"
+          },
+          "explanation": "20 दिन में 2/3 काम किया। शेष 1/3 काम A ने 20 दिन में किया। A पूरा काम 60 दिन में करेगा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-032",
+      "number": 32,
+      "question": "Speed ratio of two trains is 7:8. If 2nd train runs 400km in 4hrs, speed of 1st train?",
+      "options": {
+        "A": "87.5 km/hr",
+        "B": "80 km/hr",
+        "C": "70 km/hr",
+        "D": "75 km/hr"
+      },
+      "answer": "A",
+      "explanation": "Speed of 2nd = 100. 8 units = 100. 7 units = 87.5.",
+      "hash": "cfc54c1af0eeec0a",
+      "translations": {
+        "hi": {
+          "question": "दो ट्रेनों की गति का अनुपात 7:8 है। यदि दूसरी ट्रेन 4 घंटे में 400 किमी चलती है, तो पहली ट्रेन की गति क्या है?",
+          "options": {
+            "A": "87.5 किमी/घंटा",
+            "B": "80 किमी/घंटा",
+            "C": "70 किमी/घंटा",
+            "D": "75 किमी/घंटा"
+          },
+          "explanation": "दूसरी की गति = 100 किमी/घंटा। 8 इकाई = 100. 1 इकाई = 12.5. 7 इकाई = 87.5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-033",
+      "number": 33,
+      "question": "Simplify: 8³ ÷ 16² × 32 = 2^?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "7",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Powers of 2: 9 - 8 + 5 = 6.",
+      "hash": "07efeab317217672",
+      "translations": {
+        "hi": {
+          "question": "सरल कीजिये: 8³ ÷ 16² × 32 = 2^?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "7",
+            "D": "4"
+          },
+          "explanation": "(2³)³ ÷ (2⁴)² × 2⁵ = 2⁹ ÷ 2⁸ × 2⁵ = 2^(9-8+5) = 2⁶. उत्तर 6।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-034",
+      "number": 34,
+      "question": "If 2^(2x-1) = 8^(3-x), find x.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "2x-1 = 9-3x => 5x=10 => x=2.",
+      "hash": "8fce857d2821a080",
+      "translations": {
+        "hi": {
+          "question": "यदि 2^(2x-1) = 8^(3-x), तो x का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "2^(2x-1) = 2^[3(3-x)]. 2x-1 = 9-3x. 5x = 10. x = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-02-035",
+      "number": 35,
+      "question": "Average of a cricketer in 10 innings was 32. How many runs in next inning to increase avg by 4?",
+      "options": {
+        "A": "76",
+        "B": "70",
+        "C": "72",
+        "D": "66"
+      },
+      "answer": "A",
+      "explanation": "New Avg = 36. Req runs = 36 + (10 × 4) = 76.",
+      "hash": "25b7d869084d16ea",
+      "translations": {
+        "hi": {
+          "question": "एक क्रिकेट खिलाड़ी का 10 पारियों में औसत 32 था। अगली पारी में उसे कितने रन बनाने चाहिए ताकि उसका औसत 4 रन बढ़ जाए?",
+          "options": {
+            "A": "76",
+            "B": "70",
+            "C": "72",
+            "D": "66"
+          },
+          "explanation": "नया औसत = 36। कुल रन = 11 × 36 = 396। पुराने रन = 320। अंतर = 76। (शॉर्टकट: 36 + 10×4 = 76)।"
+        }
+      }
+    }
+  ]
+}

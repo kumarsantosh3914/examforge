@@ -1,0 +1,567 @@
+{
+  "subject": "Coordinate Geometry",
+  "set": 2,
+  "title": "Coordinate Geometry Mock Test 2",
+  "questions": [
+    {
+      "id": "coordinate-geometry-02-001",
+      "number": 1,
+      "question": "The distance between the points (a cos 25, 0) and (0, a cos 65) is:",
+      "options": {
+        "A": "a",
+        "B": "a sin 25",
+        "C": "a cos 25",
+        "D": "0",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Distance = sqrt(a^2 cos^2 25 + a^2 cos^2 65). Since cos 65 = sin 25, it becomes sqrt(a^2(cos^2 25 + sin^2 25)) = a.",
+      "hash": "7454e6bdca280ea2",
+      "translations": {
+        "hi": {
+          "question": "बिंदुओं (a cos 25, 0) और (0, a cos 65) के बीच की दूरी है:",
+          "options": {
+            "A": "a",
+            "B": "a sin 25",
+            "C": "a cos 25",
+            "D": "0",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दूरी = sqrt(a^2 cos^2 25 + a^2 cos^2 65) है। चूँकि cos 65 = sin 25, यह sqrt(a^2(cos^2 25 + sin^2 25)) = a हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-002",
+      "number": 2,
+      "question": "If the distance between P(2, -3) and Q(10, y) is 10 units, then the values of y are:",
+      "options": {
+        "A": "3, -9",
+        "B": "-3, 9",
+        "C": "9, 3",
+        "D": "7, -2",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "(10-2)^2 + (y+3)^2 = 100 => 64 + (y+3)^2 = 100 => (y+3)^2 = 36 => y+3 = plus minus 6. y = 3 or -9.",
+      "hash": "0f89854873d56b5b",
+      "translations": {
+        "hi": {
+          "question": "यदि P(2, -3) और Q(10, y) के बीच की दूरी 10 इकाई है, तो y के मान हैं:",
+          "options": {
+            "A": "3, -9",
+            "B": "-3, 9",
+            "C": "9, 3",
+            "D": "7, -2",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "(10-2)^2 + (y+3)^2 = 100 => 64 + (y+3)^2 = 100 => (y+3)^2 = 36 => y+3 = प्लस माइनस 6। y = 3 या -9।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-003",
+      "number": 3,
+      "question": "The coordinates of the point which is equidistant from the three vertices of a triangle is called:",
+      "options": {
+        "A": "Centroid",
+        "B": "Incentre",
+        "C": "Circumcentre",
+        "D": "Orthocentre",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The circumcentre is the point equidistant from all vertices of a triangle.",
+      "hash": "1d2251ad8a8c91e9",
+      "translations": {
+        "hi": {
+          "question": "उस बिंदु के निर्देशांक जो एक त्रिभुज के तीनों शीर्षों से समान दूरी पर हो, कहलाते हैं:",
+          "options": {
+            "A": "केंद्रक",
+            "B": "अंतःकेंद्र",
+            "C": "परिकेंद्र",
+            "D": "लंबकेंद्र",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिकेंद्र वह बिंदु है जो त्रिभुज के सभी शीर्षों से समान दूरी पर होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-004",
+      "number": 4,
+      "question": "The ratio in which the line segment joining (1, -5) and (-4, 5) is divided by the x-axis is:",
+      "options": {
+        "A": "1:1",
+        "B": "1:2",
+        "C": "2:1",
+        "D": "2:3",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Ratio = -y1 : y2 = -(-5) : 5 = 5 : 5 = 1 : 1.",
+      "hash": "f2d3ebafac62409b",
+      "translations": {
+        "hi": {
+          "question": "वह अनुपात जिसमें (1, -5) और (-4, 5) को जोड़ने वाला रेखाखंड x-अक्ष द्वारा विभाजित होता है, वह है:",
+          "options": {
+            "A": "1:1",
+            "B": "1:2",
+            "C": "2:1",
+            "D": "2:3",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनुपात = -y1 : y2 = -(-5) : 5 = 5 : 5 = 1 : 1।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-005",
+      "number": 5,
+      "question": "If (1, 2), (4, y), (x, 6) and (3, 5) are the vertices of a parallelogram taken in order, then x and y are:",
+      "options": {
+        "A": "x=6, y=3",
+        "B": "x=3, y=6",
+        "C": "x=2, y=5",
+        "D": "x=5, y=2",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Midpoints of diagonals coincide. (1+x)/2 = (4+3)/2 => x=6. (2+6)/2 = (y+5)/2 => y=3.",
+      "hash": "da14d71404a3c1df",
+      "translations": {
+        "hi": {
+          "question": "यदि (1, 2), (4, y), (x, 6) और (3, 5) एक समांतर चतुर्भुज के शीर्ष इसी क्रम में हैं, तो x और y हैं:",
+          "options": {
+            "A": "x=6, y=3",
+            "B": "x=3, y=6",
+            "C": "x=2, y=5",
+            "D": "x=5, y=2",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "विकर्णों के मध्य बिंदु संपाती होते हैं। (1+x)/2 = (4+3)/2 => x=6। (2+6)/2 = (y+5)/2 => y=3।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-006",
+      "number": 6,
+      "question": "The area of a rhombus if its vertices are (3, 0), (4, 5), (-1, 4) and (-2, -1) taken in order is:",
+      "options": {
+        "A": "12 sq units",
+        "B": "24 sq units",
+        "C": "30 sq units",
+        "D": "32 sq units",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = 1/2 * d1 * d2. d1 = sqrt(16+16) = 4sqrt(2). d2 = sqrt(36+36) = 6sqrt(2). Area = 1/2 * 4sqrt(2) * 6sqrt(2) = 24.",
+      "hash": "312cf4a9951550c0",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज का क्षेत्रफल यदि इसके शीर्ष क्रम में (3, 0), (4, 5), (-1, 4) और (-2, -1) हैं, तो है:",
+          "options": {
+            "A": "12 वर्ग इकाई",
+            "B": "24 वर्ग इकाई",
+            "C": "30 वर्ग इकाई",
+            "D": "32 वर्ग इकाई",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 1/2 * d1 * d2। d1 = 4sqrt(2), d2 = 6sqrt(2)। क्षेत्रफल = 1/2 * 4sqrt(2) * 6sqrt(2) = 24।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-007",
+      "number": 7,
+      "question": "The point P on the x-axis which is equidistant from A(2, -5) and B(-2, 9) is:",
+      "options": {
+        "A": "(-7, 0)",
+        "B": "(0, -7)",
+        "C": "(7, 0)",
+        "D": "(-6, 0)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Let P be (x, 0). (x-2)^2 + 25 = (x+2)^2 + 81 => -4x + 29 = 4x + 85 => -8x = 56 => x = -7.",
+      "hash": "341c1e5ee4238756",
+      "translations": {
+        "hi": {
+          "question": "x-अक्ष पर वह बिंदु P जो A(2, -5) और B(-2, 9) से समान दूरी पर है, वह है:",
+          "options": {
+            "A": "(-7, 0)",
+            "B": "(0, -7)",
+            "C": "(7, 0)",
+            "D": "(-6, 0)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मान लीजिए P (x, 0) है। (x-2)^2 + 25 = (x+2)^2 + 81 => -4x + 29 = 4x + 85 => -8x = 56 => x = -7।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-008",
+      "number": 8,
+      "question": "If the points A(6, 1), B(8, 2), C(9, 4) and D(p, 3) are the vertices of a parallelogram, then p is:",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "5",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Midpoint of AC = Midpoint of BD. (6+9)/2 = (8+p)/2 => 15 = 8+p => p=7.",
+      "hash": "e1d77df411494000",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु A(6, 1), B(8, 2), C(9, 4) और D(p, 3) एक समांतर चतुर्भुज के शीर्ष हैं, तो p का मान है:",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "5",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "AC का मध्य बिंदु = BD का मध्य बिंदु। (6+9)/2 = (8+p)/2 => 15 = 8+p => p=7।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-009",
+      "number": 9,
+      "question": "The distance of the point P(2, 3) from the y-axis is:",
+      "options": {
+        "A": "2 units",
+        "B": "3 units",
+        "C": "1 unit",
+        "D": "5 units",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Distance from y-axis is the x-coordinate.",
+      "hash": "6b68205084898232",
+      "translations": {
+        "hi": {
+          "question": "बिंदु P(2, 3) की y-अक्ष से दूरी है:",
+          "options": {
+            "A": "2 इकाई",
+            "B": "3 इकाई",
+            "C": "1 इकाई",
+            "D": "5 इकाई",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "y-अक्ष से दूरी x-निर्देशांक होती है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-010",
+      "number": 10,
+      "question": "In what ratio does the point (-4, 6) divide the line segment joining A(-6, 10) and B(3, -8)?",
+      "options": {
+        "A": "2:7",
+        "B": "7:2",
+        "C": "3:4",
+        "D": "1:1",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Using x-coordinate: -4 = (m*3 + n*-6)/(m+n) => -4m - 4n = 3m - 6n => 2n = 7m => m/n = 2/7.",
+      "hash": "1005231378503662",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (-4, 6) A(-6, 10) और B(3, -8) को जोड़ने वाले रेखाखंड को किस अनुपात में विभाजित करता है?",
+          "options": {
+            "A": "2:7",
+            "B": "7:2",
+            "C": "3:4",
+            "D": "1:1",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x-निर्देशांक का उपयोग करते हुए: -4 = (m*3 + n*-6)/(m+n) => -4m - 4n = 3m - 6n => 2n = 7m => m/n = 2/7।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-011",
+      "number": 11,
+      "question": "The reflection of the point (4, -3) in the x-axis is:",
+      "options": {
+        "A": "(-4, -3)",
+        "B": "(4, 3)",
+        "C": "(-4, 3)",
+        "D": "(3, 4)",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Reflection in x-axis changes the sign of the y-coordinate.",
+      "hash": "f71ac6e5d2cdd59c",
+      "translations": {
+        "hi": {
+          "question": "x-अक्ष में बिंदु (4, -3) का प्रतिबिंब है:",
+          "options": {
+            "A": "(-4, -3)",
+            "B": "(4, 3)",
+            "C": "(-4, 3)",
+            "D": "(3, 4)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x-अक्ष में प्रतिबिंब y-निर्देशांक का चिह्न बदल देता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-012",
+      "number": 12,
+      "question": "If the origin is the centroid of triangle ABC with A(a, 1), B(b, 2) and C(c, 3), then a+b+c is:",
+      "options": {
+        "A": "6",
+        "B": "-6",
+        "C": "0",
+        "D": "3",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Centroid (0,0) means (a+b+c)/3 = 0, so a+b+c = 0.",
+      "hash": "fd38075981e28b78",
+      "translations": {
+        "hi": {
+          "question": "यदि मूल बिंदु त्रिभुज ABC का केंद्रक है जहाँ A(a, 1), B(b, 2) और C(c, 3) है, तो a+b+c है:",
+          "options": {
+            "A": "6",
+            "B": "-6",
+            "C": "0",
+            "D": "3",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "केंद्रक (0,0) का अर्थ है (a+b+c)/3 = 0, इसलिए a+b+c = 0।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-013",
+      "number": 13,
+      "question": "The distance between the points (0, 5) and (-5, 0) is:",
+      "options": {
+        "A": "5 units",
+        "B": "5 sqrt(2) units",
+        "C": "2 sqrt(5) units",
+        "D": "10 units",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Distance = sqrt((0 - (-5))^2 + (5 - 0)^2) = sqrt(25 + 25) = sqrt(50) = 5 sqrt(2).",
+      "hash": "f5743ec77a52ee43",
+      "translations": {
+        "hi": {
+          "question": "बिंदुओं (0, 5) और (-5, 0) के बीच की दूरी है:",
+          "options": {
+            "A": "5 इकाई",
+            "B": "5 sqrt(2) इकाई",
+            "C": "2 sqrt(5) इकाई",
+            "D": "10 इकाई",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दूरी = sqrt((0 - (-5))^2 + (5 - 0)^2) = sqrt(25 + 25) = sqrt(50) = 5 sqrt(2)।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-014",
+      "number": 14,
+      "question": "The line 3x + y - 9 = 0 divides the line joining (1, 3) and (2, 7) in the ratio:",
+      "options": {
+        "A": "3:4",
+        "B": "4:3",
+        "C": "2:3",
+        "D": "3:2",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Ratio = - (3(1)+3-9) / (3(2)+7-9) = -(-3) / 4 = 3/4.",
+      "hash": "19905a1d5b2a8847",
+      "translations": {
+        "hi": {
+          "question": "रेखा 3x + y - 9 = 0 (1, 3) और (2, 7) को जोड़ने वाली रेखा को किस अनुपात में विभाजित करती है:",
+          "options": {
+            "A": "3:4",
+            "B": "4:3",
+            "C": "2:3",
+            "D": "3:2",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनुपात = - (3(1)+3-9) / (3(2)+7-9) = -(-3) / 4 = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-015",
+      "number": 15,
+      "question": "The distance of point (x, y) from origin is always:",
+      "options": {
+        "A": "x+y",
+        "B": "|x| + |y|",
+        "C": "sqrt(x^2 + y^2)",
+        "D": "x^2 + y^2",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Distance formula from (0,0) is sqrt((x-0)^2 + (y-0)^2).",
+      "hash": "d66b825855b4f566",
+      "translations": {
+        "hi": {
+          "question": "मूल बिंदु से बिंदु (x, y) की दूरी हमेशा होती है:",
+          "options": {
+            "A": "x+y",
+            "B": "|x| + |y|",
+            "C": "sqrt(x^2 + y^2)",
+            "D": "x^2 + y^2",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(0,0) से दूरी का सूत्र sqrt((x-0)^2 + (y-0)^2) है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-016",
+      "number": 16,
+      "question": "The points (a, b+c), (b, c+a) and (c, a+b) are:",
+      "options": {
+        "A": "Vertices of a scalene triangle",
+        "B": "Vertices of an isosceles triangle",
+        "C": "Collinear",
+        "D": "Vertices of a right triangle",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The area of the triangle formed by these points is zero.",
+      "hash": "cdf8118da355819b",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (a, b+c), (b, c+a) और (c, a+b) हैं:",
+          "options": {
+            "A": "एक विषमबाहु त्रिभुज के शीर्ष",
+            "B": "एक समद्विबाहु त्रिभुज के शीर्ष",
+            "C": "संरेख",
+            "D": "एक समकोण त्रिभुज के शीर्ष",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "इन बिंदुओं द्वारा निर्मित त्रिभुज का क्षेत्रफल शून्य है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-017",
+      "number": 17,
+      "question": "If a line makes an angle of 45 degrees with the positive direction of x-axis, its slope is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "sqrt(3)",
+        "D": "1/sqrt(3)",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Slope m = tan(45) = 1.",
+      "hash": "921cdf8649f03be1",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई रेखा x-अक्ष की धनात्मक दिशा के साथ 45 डिग्री का कोण बनाती है, तो इसका ढाल है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "sqrt(3)",
+            "D": "1/sqrt(3)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "ढाल m = tan(45) = 1।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-018",
+      "number": 18,
+      "question": "The fourth vertex D of a parallelogram ABCD whose three vertices are A(-2, 3), B(6, 7) and C(8, 3) is:",
+      "options": {
+        "A": "(0, 1)",
+        "B": "(0, -1)",
+        "C": "(-1, 0)",
+        "D": "(1, 0)",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "x1+x3 = x2+x4 => -2+8 = 6+x4 => x4=0. y1+y3 = y2+y4 => 3+3 = 7+y4 => y4=-1.",
+      "hash": "edaa2dd8b9ff99ee",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर चतुर्भुज ABCD का चौथा शीर्ष D, जिसके तीन शीर्ष A(-2, 3), B(6, 7) और C(8, 3) हैं, वह है:",
+          "options": {
+            "A": "(0, 1)",
+            "B": "(0, -1)",
+            "C": "(-1, 0)",
+            "D": "(1, 0)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x1+x3 = x2+x4 => -2+8 = 6+x4 => x4=0। y1+y3 = y2+y4 => 3+3 = 7+y4 => y4=-1।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-019",
+      "number": 19,
+      "question": "Which point lies on the x-axis?",
+      "options": {
+        "A": "(0, 2)",
+        "B": "(2, 1)",
+        "C": "(3, 0)",
+        "D": "(-1, -1)",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Any point on the x-axis has a y-coordinate of 0.",
+      "hash": "cb80c851041e3aa7",
+      "translations": {
+        "hi": {
+          "question": "कौन सा बिंदु x-अक्ष पर स्थित है?",
+          "options": {
+            "A": "(0, 2)",
+            "B": "(2, 1)",
+            "C": "(3, 0)",
+            "D": "(-1, -1)",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "x-अक्ष पर किसी भी बिंदु का y-निर्देशांक 0 होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-02-020",
+      "number": 20,
+      "question": "The distance between (cos theta, sin theta) and (sin theta, -cos theta) is:",
+      "options": {
+        "A": "sqrt(2)",
+        "B": "2",
+        "C": "1",
+        "D": "0",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Distance = sqrt((cos - sin)^2 + (sin + cos)^2) = sqrt(cos^2 + sin^2 - 2sin cos + sin^2 + cos^2 + 2sin cos) = sqrt(1 + 1) = sqrt(2).",
+      "hash": "3c2db16b7437454a",
+      "translations": {
+        "hi": {
+          "question": "(cos theta, sin theta) और (sin theta, -cos theta) के बीच की दूरी है:",
+          "options": {
+            "A": "sqrt(2)",
+            "B": "2",
+            "C": "1",
+            "D": "0",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दूरी = sqrt((cos - sin)^2 + (sin + cos)^2) = sqrt(1 + 1) = sqrt(2)।"
+        }
+      }
+    }
+  ]
+}

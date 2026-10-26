@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 1,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-01-001",
+      "number": 1,
+      "question": "According to Euclid's Division Lemma, for two positive integers 'a' and 'b', there exist unique integers 'q' and 'r' such that a = bq + r, where 'r' must satisfy?",
+      "options": {
+        "A": "1 < r < b",
+        "B": "0 < r ≤ b",
+        "C": "0 ≤ r < b",
+        "D": "0 < r < b"
+      },
+      "answer": "C",
+      "explanation": "Remainder (r) is always greater than or equal to 0 but less than the divisor (b).",
+      "hash": "1f3cb161488f47e1",
+      "translations": {
+        "hi": {
+          "question": "यूक्लिड विभाजन प्रमेयिका के अनुसार, दो धनात्मक पूर्णांक 'a' और 'b' के लिए, अद्वितीय पूर्ण संख्याएं 'q' और 'r' विद्यमान हैं जैसे कि a = bq + r, जहाँ 'r' को क्या संतुष्ट करना चाहिए?",
+          "options": {
+            "A": "1 < r < b",
+            "B": "0 < r ≤ b",
+            "C": "0 ≤ r < b",
+            "D": "0 < r < b"
+          },
+          "explanation": "शेषफल (r) हमेशा 0 के बराबर या उससे बड़ा होता है, लेकिन भाजक (b) से छोटा होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-002",
+      "number": 2,
+      "question": "What is the HCF of two prime numbers?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Prime numbers have no common factor other than 1.",
+      "hash": "cb9eab1989f230c0",
+      "translations": {
+        "hi": {
+          "question": "दो अभाज्य संख्याओं का म.स. (HCF) क्या होता है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "अभाज्य संख्याओं में 1 के अलावा कोई उभयनिष्ठ गुणनखंड नहीं होता।"
+        }
+      }
+    },
+    {
+      "id": "math-01-003",
+      "number": 3,
+      "question": "How can 140 be expressed as a product of its prime factors?",
+      "options": {
+        "A": "2² × 5 × 7",
+        "B": "2² × 3 × 5",
+        "C": "2 × 5 × 7",
+        "D": "2³ × 5 × 7"
+      },
+      "answer": "A",
+      "explanation": "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7.",
+      "hash": "0048003182dc8391",
+      "translations": {
+        "hi": {
+          "question": "140 के अभाज्य गुणनखंडों के गुणनफल के रूप में इसे कैसे व्यक्त किया जा सकता है?",
+          "options": {
+            "A": "2² × 5 × 7",
+            "B": "2² × 3 × 5",
+            "C": "2 × 5 × 7",
+            "D": "2³ × 5 × 7"
+          },
+          "explanation": "140 = 2 × 70 = 2 × 2 × 35 = 2² × 5 × 7।"
+        }
+      }
+    },
+    {
+      "id": "math-01-004",
+      "number": 4,
+      "question": "When 0.375 is written in p/q form, what is the form of q?",
+      "options": {
+        "A": "2³ × 5⁰",
+        "B": "2³ × 5³",
+        "C": "2¹ × 5³",
+        "D": "2⁰ × 5³"
+      },
+      "answer": "A",
+      "explanation": "0.375 = 375/1000 = 3/8 = 3/2³. Here q = 2³ × 5⁰.",
+      "hash": "72148ec721939a98",
+      "translations": {
+        "hi": {
+          "question": "संख्या 0.375 को p/q के रूप में लिखने पर q का रूप क्या होगा?",
+          "options": {
+            "A": "2³ × 5⁰",
+            "B": "2³ × 5³",
+            "C": "2¹ × 5³",
+            "D": "2⁰ × 5³"
+          },
+          "explanation": "0.375 = 375/1000 = 3/8 = 3/2³। यहाँ q = 2³ × 5⁰।"
+        }
+      }
+    },
+    {
+      "id": "math-01-005",
+      "number": 5,
+      "question": "For two positive integers a and b, HCF(a, b) × LCM(a, b) = ?",
+      "options": {
+        "A": "a + b",
+        "B": "a - b",
+        "C": "a × b",
+        "D": "a / b"
+      },
+      "answer": "C",
+      "explanation": "Product of two numbers equals the product of their HCF and LCM.",
+      "hash": "3b0f967640ac3c80",
+      "translations": {
+        "hi": {
+          "question": "दो धनात्मक पूर्णांकों a और b के लिए, HCF(a, b) × LCM(a, b) = ?",
+          "options": {
+            "A": "a + b",
+            "B": "a - b",
+            "C": "a × b",
+            "D": "a / b"
+          },
+          "explanation": "दो संख्याओं का गुणनफल उनके HCF और LCM के गुणनफल के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-006",
+      "number": 6,
+      "question": "What is the ratio of HCF and LCM of 6 and 20?",
+      "options": {
+        "A": "1:10",
+        "B": "10:1",
+        "C": "1:30",
+        "D": "30:1"
+      },
+      "answer": "C",
+      "explanation": "HCF(6,20)=2, LCM(6,20)=60. Ratio = 2:60 = 1:30.",
+      "hash": "55de67735afe777f",
+      "translations": {
+        "hi": {
+          "question": "6 और 20 के HCF और LCM का अनुपात क्या है?",
+          "options": {
+            "A": "1:10",
+            "B": "10:1",
+            "C": "1:30",
+            "D": "30:1"
+          },
+          "explanation": "HCF(6,20)=2, LCM(6,20)=60. अनुपात = 2:60 = 1:30।"
+        }
+      }
+    },
+    {
+      "id": "math-01-007",
+      "number": 7,
+      "question": "Which of the following numbers is Irrational?",
+      "options": {
+        "A": "√25",
+        "B": "√16",
+        "C": "√5",
+        "D": "√9"
+      },
+      "answer": "C",
+      "explanation": "√5 is not a perfect square, so it is irrational.",
+      "hash": "89d355519299e243",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या अपरिमेय (Irrational) है?",
+          "options": {
+            "A": "√25",
+            "B": "√16",
+            "C": "√5",
+            "D": "√9"
+          },
+          "explanation": "√5 एक पूर्ण वर्ग नहीं है, इसलिए यह अपरिमेय है। बाकी (5, 4, 3) परिमेय हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-01-008",
+      "number": 8,
+      "question": "For some integer 'q', every odd integer is of the form?",
+      "options": {
+        "A": "q",
+        "B": "q + 1",
+        "C": "2q",
+        "D": "2q + 1"
+      },
+      "answer": "D",
+      "explanation": "If 2q is even, then 2q+1 is odd.",
+      "hash": "160f63bcd4b59f8b",
+      "translations": {
+        "hi": {
+          "question": "किसी पूर्णांक 'q' के लिए, प्रत्येक विषम पूर्णांक (Odd Integer) किस रूप का होता है?",
+          "options": {
+            "A": "q",
+            "B": "q + 1",
+            "C": "2q",
+            "D": "2q + 1"
+          },
+          "explanation": "यदि 2q सम है, तो 2q+1 विषम होगा।"
+        }
+      }
+    },
+    {
+      "id": "math-01-009",
+      "number": 9,
+      "question": "For some integer 'm', every even integer is of the form?",
+      "options": {
+        "A": "m",
+        "B": "m + 1",
+        "C": "2m",
+        "D": "2m + 1"
+      },
+      "answer": "C",
+      "explanation": "Even numbers are divisible by 2, hence 2m.",
+      "hash": "72d84faa4dffe635",
+      "translations": {
+        "hi": {
+          "question": "किसी पूर्णांक 'm' के लिए, प्रत्येक सम पूर्णांक (Even Integer) किस रूप का होता है?",
+          "options": {
+            "A": "m",
+            "B": "m + 1",
+            "C": "2m",
+            "D": "2m + 1"
+          },
+          "explanation": "सम संख्या हमेशा 2 से विभाज्य होती है, अतः 2m।"
+        }
+      }
+    },
+    {
+      "id": "math-01-010",
+      "number": 10,
+      "question": "The decimal expansion of 23/(2³ × 5²) will be?",
+      "options": {
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "None of these"
+      },
+      "answer": "A",
+      "explanation": "Denominator has only factors of 2 and 5, so it is Terminating.",
+      "hash": "97b7c881daafa521",
+      "translations": {
+        "hi": {
+          "question": "23/(2³ × 5²) का दशमलव प्रसार कैसा होगा?",
+          "options": {
+            "A": "Terminating",
+            "B": "Non-terminating repeating",
+            "C": "Non-terminating non-repeating",
+            "D": "None of these"
+          },
+          "explanation": "हर में केवल 2 और 5 के गुणनखंड हैं, इसलिए यह सांत होगा।"
+        }
+      }
+    },
+    {
+      "id": "math-01-011",
+      "number": 11,
+      "question": "What is the HCF of the smallest composite number and the smallest prime number?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": "B",
+      "explanation": "Smallest composite=4, smallest prime=2. HCF(4, 2) = 2.",
+      "hash": "485ac9aa4b21fbf9",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटी भाज्य संख्या (Composite Number) और सबसे छोटी अभाज्य संख्या का HCF क्या है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "6"
+          },
+          "explanation": "सबसे छोटी भाज्य=4, सबसे छोटी अभाज्य=2। HCF(4, 2) = 2।"
+        }
+      }
+    },
+    {
+      "id": "math-01-012",
+      "number": 12,
+      "question": "What is the HCF of 96 and 404?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "C",
+      "explanation": "96 = 2⁵×3, 404 = 2²×101. HCF = 2² = 4.",
+      "hash": "f340c42f07b71bb0",
+      "translations": {
+        "hi": {
+          "question": "96 और 404 का HCF क्या है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "3"
+          },
+          "explanation": "96 = 2⁵×3, 404 = 2²×101। HCF = 2² = 4।"
+        }
+      }
+    },
+    {
+      "id": "math-01-013",
+      "number": 13,
+      "question": "The decimal expansion of 14587/1250 will terminate after how many decimal places?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "D",
+      "explanation": "1250 = 2¹ × 5⁴. Max power of 2 and 5 is 4, so after 4 places.",
+      "hash": "42696edbe897aee9",
+      "translations": {
+        "hi": {
+          "question": "14587/1250 का दशमलव प्रसार कितने दशमलव स्थानों के बाद समाप्त होगा?",
+          "options": {
+            "A": "One",
+            "B": "Two",
+            "C": "Three",
+            "D": "Four"
+          },
+          "explanation": "1250 = 2¹ × 5⁴। 2 और 5 की अधिकतम घात 4 है, इसलिए 4 स्थानों बाद।"
+        }
+      }
+    },
+    {
+      "id": "math-01-014",
+      "number": 14,
+      "question": "If HCF of two numbers is 1, they are called?",
+      "options": {
+        "A": "Composite",
+        "B": "Co-prime",
+        "C": "Twin Prime",
+        "D": "Even"
+      },
+      "answer": "B",
+      "explanation": "Such numbers are called Co-prime.",
+      "hash": "cdc0ed603fab915d",
+      "translations": {
+        "hi": {
+          "question": "यदि दो संख्याओं का HCF 1 है, तो वे संख्याएँ क्या कहलाती हैं?",
+          "options": {
+            "A": "Composite",
+            "B": "Co-prime",
+            "C": "Twin Prime",
+            "D": "Even"
+          },
+          "explanation": "ऐसी संख्याओं को सह-अभाज्य (Co-prime) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-015",
+      "number": 15,
+      "question": "n² - 1 is divisible by 8, if n is an ____.",
+      "options": {
+        "A": "Integer",
+        "B": "Natural number",
+        "C": "Odd integer",
+        "D": "Even integer"
+      },
+      "answer": "C",
+      "explanation": "Example: n=3 => 9-1=8. n=5 => 25-1=24. n must be odd.",
+      "hash": "b73779476ed0e290",
+      "translations": {
+        "hi": {
+          "question": "n² - 1, 8 से विभाज्य होगा, यदि n एक ____ है।",
+          "options": {
+            "A": "Integer",
+            "B": "Natural number",
+            "C": "Odd integer",
+            "D": "Even integer"
+          },
+          "explanation": "उदाहरण: n=3 => 9-1=8 (विभाज्य)। n=5 => 25-1=24 (विभाज्य)। n विषम होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "math-01-016",
+      "number": 16,
+      "question": "If two positive integers p and q can be expressed as p = ab² and q = a³b (a, b are prime), then LCM(p, q) is?",
+      "options": {
+        "A": "ab",
+        "B": "a²b²",
+        "C": "a³b²",
+        "D": "a³b³"
+      },
+      "answer": "C",
+      "explanation": "LCM takes the highest power of each prime factor: a³ and b².",
+      "hash": "7d40df994066db1a",
+      "translations": {
+        "hi": {
+          "question": "यदि दो धनात्मक पूर्णांक p और q को p = ab² और q = a³b के रूप में व्यक्त किया जा सकता है (a, b अभाज्य हैं), तो LCM(p, q) क्या है?",
+          "options": {
+            "A": "ab",
+            "B": "a²b²",
+            "C": "a³b²",
+            "D": "a³b³"
+          },
+          "explanation": "LCM में प्रत्येक अभाज्य गुणनखंड की उच्चतम घात लेते हैं: a³ और b²।"
+        }
+      }
+    },
+    {
+      "id": "math-01-017",
+      "number": 17,
+      "question": "Decimal expansion of 64/455 is?",
+      "options": {
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "455 = 5 × 7 × 13. Contains 7 and 13, so Non-terminating repeating.",
+      "hash": "20f02006777a739b",
+      "translations": {
+        "hi": {
+          "question": "64/455 का दशमलव प्रसार कैसा है?",
+          "options": {
+            "A": "Terminating",
+            "B": "Non-terminating repeating",
+            "C": "Non-terminating non-repeating",
+            "D": "None"
+          },
+          "explanation": "455 = 5 × 7 × 13। इसमें 7 और 13 हैं, इसलिए असांत आवर्ती।"
+        }
+      }
+    },
+    {
+      "id": "math-01-018",
+      "number": 18,
+      "question": "Euclid's division algorithm is used to find?",
+      "options": {
+        "A": "LCM",
+        "B": "HCF",
+        "C": "Quotient",
+        "D": "Remainder"
+      },
+      "answer": "B",
+      "explanation": "Mainly used to find HCF.",
+      "hash": "8f6ca39a7f55e490",
+      "translations": {
+        "hi": {
+          "question": "यूक्लिड विभाजन एल्गोरिद्म का उपयोग किसे ज्ञात करने के लिए किया जाता है?",
+          "options": {
+            "A": "LCM",
+            "B": "HCF",
+            "C": "Quotient",
+            "D": "Remainder"
+          },
+          "explanation": "इसका मुख्य उपयोग दो संख्याओं का म.स. (HCF) निकालने में होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-019",
+      "number": 19,
+      "question": "The sum or difference of a rational and an irrational number is?",
+      "options": {
+        "A": "Rational",
+        "B": "Irrational",
+        "C": "Integer",
+        "D": "Natural"
+      },
+      "answer": "B",
+      "explanation": "2 + √3 is always irrational.",
+      "hash": "3745b55aa95bb026",
+      "translations": {
+        "hi": {
+          "question": "एक परिमेय संख्या और एक अपरिमेय संख्या का योग या अंतर क्या होता है?",
+          "options": {
+            "A": "Rational",
+            "B": "Irrational",
+            "C": "Integer",
+            "D": "Natural"
+          },
+          "explanation": "2 + √3 हमेशा अपरिमेय होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-020",
+      "number": 20,
+      "question": "√3 is a/an _____.",
+      "options": {
+        "A": "Rational number",
+        "B": "Irrational number",
+        "C": "Natural number",
+        "D": "Integer"
+      },
+      "answer": "B",
+      "explanation": "√3 cannot be written as p/q.",
+      "hash": "23729c7f1d8d8bb7",
+      "translations": {
+        "hi": {
+          "question": "√3 एक _____ है।",
+          "options": {
+            "A": "Rational number",
+            "B": "Irrational number",
+            "C": "Natural number",
+            "D": "Integer"
+          },
+          "explanation": "√3 को p/q के रूप में नहीं लिखा जा सकता।"
+        }
+      }
+    },
+    {
+      "id": "math-01-021",
+      "number": 21,
+      "question": "1.232323... is which type of number?",
+      "options": {
+        "A": "Rational",
+        "B": "Irrational",
+        "C": "Integer",
+        "D": "Whole"
+      },
+      "answer": "A",
+      "explanation": "It is non-terminating repeating, hence Rational.",
+      "hash": "8e9f347faff12542",
+      "translations": {
+        "hi": {
+          "question": "1.232323... कैसी संख्या है?",
+          "options": {
+            "A": "Rational",
+            "B": "Irrational",
+            "C": "Integer",
+            "D": "Whole"
+          },
+          "explanation": "यह असांत आवर्ती (Non-terminating repeating) है, इसलिए परिमेय है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-022",
+      "number": 22,
+      "question": "Can the number 4ⁿ, where n is a natural number, end with the digit 0?",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Only for n=0",
+        "D": "Cannot say"
+      },
+      "answer": "B",
+      "explanation": "4ⁿ has no factor of 5, so it cannot end in 0.",
+      "hash": "195a489863d4cec1",
+      "translations": {
+        "hi": {
+          "question": "संख्या 4ⁿ, जहाँ n एक प्राकृत संख्या है, क्या अंक 0 पर समाप्त हो सकती है?",
+          "options": {
+            "A": "Yes",
+            "B": "No",
+            "C": "Only for n=0",
+            "D": "Cannot say"
+          },
+          "explanation": "4ⁿ = (2²)ⁿ = 2²ⁿ। इसमें 5 का गुणनखंड नहीं है, इसलिए 0 पर समाप्त नहीं होगी।"
+        }
+      }
+    },
+    {
+      "id": "math-01-023",
+      "number": 23,
+      "question": "Value of π - 22/7 is?",
+      "options": {
+        "A": "Zero",
+        "B": "Rational",
+        "C": "Irrational",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "π is irrational, 22/7 is rational. Difference is irrational.",
+      "hash": "fc53b52579b40508",
+      "translations": {
+        "hi": {
+          "question": "π - 22/7 का मान क्या है?",
+          "options": {
+            "A": "Zero",
+            "B": "Rational",
+            "C": "Irrational",
+            "D": "1"
+          },
+          "explanation": "π अपरिमेय है और 22/7 परिमेय। अंतर अपरिमेय होगा (शून्य नहीं)।"
+        }
+      }
+    },
+    {
+      "id": "math-01-024",
+      "number": 24,
+      "question": "7 × 11 × 13 + 13 is a _____ number.",
+      "options": {
+        "A": "Prime",
+        "B": "Composite",
+        "C": "Odd",
+        "D": "None of these"
+      },
+      "answer": "B",
+      "explanation": "Taking 13 common: 13(7×11 + 1). Since it has 13 as factor, it's composite.",
+      "hash": "4b6477e14a86e02c",
+      "translations": {
+        "hi": {
+          "question": "7 × 11 × 13 + 13 एक _____ संख्या है।",
+          "options": {
+            "A": "Prime",
+            "B": "Composite",
+            "C": "Odd",
+            "D": "None of these"
+          },
+          "explanation": "13 कॉमन लेने पर: 13(7×11 + 1)। चूंकि 13 एक गुणनखंड है, यह भाज्य है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-025",
+      "number": 25,
+      "question": "If LCM(x, 18) = 36 and HCF(x, 18) = 2, then x is?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "x × 18 = 36 × 2 => x = 4.",
+      "hash": "244929440e6be5c7",
+      "translations": {
+        "hi": {
+          "question": "यदि LCM(x, 18) = 36 और HCF(x, 18) = 2 है, तो x का मान है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "1"
+          },
+          "explanation": "x × 18 = 36 × 2 => 18x = 72 => x = 4।"
+        }
+      }
+    },
+    {
+      "id": "math-01-026",
+      "number": 26,
+      "question": "The largest number which divides 70 and 125 leaving remainders 5 and 8 respectively?",
+      "options": {
+        "A": "13",
+        "B": "65",
+        "C": "875",
+        "D": "1750"
+      },
+      "answer": "A",
+      "explanation": "Find HCF of (70-5) and (125-8) => HCF(65, 117) = 13.",
+      "hash": "049bf72e08c93c99",
+      "translations": {
+        "hi": {
+          "question": "वह सबसे बड़ी संख्या जिससे 70 और 125 को विभाजित करने पर क्रमशः 5 और 8 शेषफल बचे?",
+          "options": {
+            "A": "13",
+            "B": "65",
+            "C": "875",
+            "D": "1750"
+          },
+          "explanation": "70-5=65, 125-8=117। HCF(65, 117) = 13।"
+        }
+      }
+    },
+    {
+      "id": "math-01-027",
+      "number": 27,
+      "question": "What is the HCF of 100 and 102?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "100"
+      },
+      "answer": "A",
+      "explanation": "Both are even, HCF of consecutive even numbers is 2.",
+      "hash": "2f424758d758292a",
+      "translations": {
+        "hi": {
+          "question": "100 और 102 के बीच HCF क्या है?",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "4",
+            "D": "100"
+          },
+          "explanation": "दोनों सम संख्याएं हैं और क्रमिक सम संख्याओं का HCF 2 होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-01-028",
+      "number": 28,
+      "question": "3.27 (bar on 27) is:",
+      "options": {
+        "A": "An integer",
+        "B": "A rational number",
+        "C": "An irrational number",
+        "D": "A natural number"
+      },
+      "answer": "B",
+      "explanation": "Numbers with bar can be written as p/q, hence rational.",
+      "hash": "4d900b15472025fb",
+      "translations": {
+        "hi": {
+          "question": "3.27 (27 पर बार) है:",
+          "options": {
+            "A": "An integer",
+            "B": "A rational number",
+            "C": "An irrational number",
+            "D": "A natural number"
+          },
+          "explanation": "बार वाली संख्याएं p/q के रूप में लिखी जा सकती हैं, अतः परिमेय हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-01-029",
+      "number": 29,
+      "question": "Decimal expansion of rational number p/q is terminating if prime factors of q are only of form ____.",
+      "options": {
+        "A": "2 and 3",
+        "B": "3 and 5",
+        "C": "2 and 5",
+        "D": "7 and 5"
+      },
+      "answer": "C",
+      "explanation": "For terminating decimal, factors of denominator (q) must only be 2 and 5.",
+      "hash": "c5466ce8565d103e",
+      "translations": {
+        "hi": {
+          "question": "परिमेय संख्या p/q का दशमलव प्रसार सांत होगा यदि q के अभाज्य गुणनखंड केवल ____ के रूप में हों।",
+          "options": {
+            "A": "2 and 3",
+            "B": "3 and 5",
+            "C": "2 and 5",
+            "D": "7 and 5"
+          },
+          "explanation": "सांत दशमलव के लिए हर (q) के गुणनखंड केवल 2 और 5 होने चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "math-01-030",
+      "number": 30,
+      "question": "What is the exponent of 3 in the prime factorization of 81?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "81 = 3⁴. Exponent is 4.",
+      "hash": "fe44d2bc78ed8381",
+      "translations": {
+        "hi": {
+          "question": "किसी संख्या के अभाज्य गुणनखंडन में 3 की घात क्या होगी, यदि संख्या 81 है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "81 = 3 × 3 × 3 × 3 = 3⁴। घात 4 है।"
+        }
+      }
+    }
+  ]
+}

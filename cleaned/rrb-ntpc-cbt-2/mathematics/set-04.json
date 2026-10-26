@@ -1,0 +1,891 @@
+{
+  "subject": "Mathematics",
+  "set": 4,
+  "title": "Mathematics Mock Test 4",
+  "questions": [
+    {
+      "id": "mathematics-04-001",
+      "number": 1,
+      "question": "If x² - 4x + 1 = 0, find x⁶ + 1/x⁶.",
+      "options": {
+        "A": "2702",
+        "B": "2596",
+        "C": "2704",
+        "D": "2600"
+      },
+      "answer": "A",
+      "explanation": "x+1/x=4. x³+1/x³=52. Square it: (52)² = 2704. x⁶+1/x⁶ = 2704-2 = 2702.",
+      "hash": "135e0486b4edffb0",
+      "translations": {
+        "hi": {
+          "question": "यदि x² - 4x + 1 = 0 है, तो x⁶ + 1/x⁶ का मान क्या है?",
+          "options": {
+            "A": "2702",
+            "B": "2596",
+            "C": "2704",
+            "D": "2600"
+          },
+          "explanation": "x + 1/x = 4. x³ + 1/x³ = 4³ - 3(4) = 52. (x³ + 1/x³)² = x⁶ + 1/x⁶ + 2. 52² = 2704. मान = 2704 - 2 = 2702."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-002",
+      "number": 2,
+      "question": "Perimeter of a right triangle is 60 cm and hypotenuse is 26 cm. Find its area.",
+      "options": {
+        "A": "120 cm²",
+        "B": "130 cm²",
+        "C": "100 cm²",
+        "D": "240 cm²"
+      },
+      "answer": "A",
+      "explanation": "Sum of legs=34. Sum of squares=676. 2ab = 34²-676=480. Area = 1/2 ab = 120.",
+      "hash": "207ae958272389e7",
+      "translations": {
+        "hi": {
+          "question": "एक समकोण त्रिभुज का परिमाप 60 सेमी है और इसका कर्ण 26 सेमी है। त्रिभुज का क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "120 सेमी²",
+            "B": "130 सेमी²",
+            "C": "100 सेमी²",
+            "D": "240 सेमी²"
+          },
+          "explanation": "a + b = 60 - 26 = 34. a² + b² = 26² = 676. (a+b)² = a² + b² + 2ab. 34² = 676 + 2ab. 1156 - 676 = 2ab => 2ab = 480 => ab = 240. क्षेत्रफल = 1/2 ab = 120."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-003",
+      "number": 3,
+      "question": "A sum is lent at 20% p.a. compound interest for 2 years. If interest is compounded half-yearly, it would be ₹482 more than if compounded annually. Find the sum.",
+      "options": {
+        "A": "₹20,000",
+        "B": "₹10,000",
+        "C": "₹40,000",
+        "D": "₹30,000"
+      },
+      "answer": "A",
+      "explanation": "Annual Eff. Rate = 44%. Half-yearly (10% for 4 times) Eff. Rate = 46.41%. Diff = 2.41% = 482. Sum = 20,000.",
+      "hash": "1baf79ecf02cb8a2",
+      "translations": {
+        "hi": {
+          "question": "एक राशि 2 वर्षों के लिए 20% प्रति वर्ष चक्रवृद्धि ब्याज पर दी जाती है। यदि ब्याज अर्धवार्षिक रूप से संयोजित किया जाता है, तो यह वार्षिक रूप से संयोजित ब्याज की तुलना में ₹482 अधिक होता। राशि ज्ञात कीजिये।",
+          "options": {
+            "A": "₹20,000",
+            "B": "₹10,000",
+            "C": "₹40,000",
+            "D": "₹30,000"
+          },
+          "explanation": "वार्षिक (20%): प्रभावी = 20+20+4 = 44%. अर्धवार्षिक (10%, 4 चक्र): प्रभावी = 46.41%. अंतर = 46.41 - 44 = 2.41%. 2.41% = 482. 1% = 200. 100% = 20,000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-005",
+      "number": 5,
+      "question": "Two poles of height 10m and 15m stand on ground. Distance between feet is 12m. Distance between tops?",
+      "options": {
+        "A": "13 m",
+        "B": "12 m",
+        "C": "14 m",
+        "D": "11 m"
+      },
+      "answer": "A",
+      "explanation": "Diff in height = 5. Base = 12. Hypotenuse = √(5² + 12²) = 13.",
+      "hash": "f7d83a38c1a1cbf2",
+      "translations": {
+        "hi": {
+          "question": "दो पोल जमीन पर खड़े हैं जिनकी ऊँचाई 10 मीटर और 15 मीटर है। यदि उनके पैरों (feet) के बीच की दूरी 12 मीटर है, तो उनके शीर्षों (tops) के बीच की दूरी क्या है?",
+          "options": {
+            "A": "13 मीटर",
+            "B": "12 मीटर",
+            "C": "14 मीटर",
+            "D": "11 मीटर"
+          },
+          "explanation": "ऊँचाई का अंतर = 15 - 10 = 5. क्षैतिज दूरी = 12. शीर्षों की दूरी (कर्ण) = √(5² + 12²) = √(25 + 144) = √169 = 13 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-006",
+      "number": 6,
+      "question": "A container has 80L milk. 8L is removed and replaced with water. Process is repeated 2 more times. How much milk is left?",
+      "options": {
+        "A": "58.32 L",
+        "B": "60 L",
+        "C": "55 L",
+        "D": "64.8 L"
+      },
+      "answer": "A",
+      "explanation": "Rem = 80 * (9/10)^3 = 80 * 0.729 = 58.32 L.",
+      "hash": "4efd8fe7227c2d13",
+      "translations": {
+        "hi": {
+          "question": "एक कंटेनर में 80 लीटर दूध है। इस कंटेनर से 8 लीटर दूध निकाला जाता है और पानी से बदल दिया जाता है। यह प्रक्रिया दो बार और दोहराई जाती है। कंटेनर में अब कितना दूध है?",
+          "options": {
+            "A": "58.32 लीटर",
+            "B": "60 लीटर",
+            "C": "55 लीटर",
+            "D": "64.8 लीटर"
+          },
+          "explanation": "सूत्र: शेष मात्रा = प्रारंभिक मात्रा × (1 - निकाला गया/कुल)ⁿ. शेष = 80 × (1 - 8/80)³ = 80 × (9/10)³ = 80 × 0.729 = 58.32 लीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-007",
+      "number": 7,
+      "question": "By selling an article for ₹1,170, a man loses 10%. At what price should he sell to gain 20%?",
+      "options": {
+        "A": "₹1,560",
+        "B": "₹1,500",
+        "C": "₹1,450",
+        "D": "₹1,600"
+      },
+      "answer": "A",
+      "explanation": "CP = 1170/0.9 = 1300. Req SP = 1300 * 1.2 = 1560.",
+      "hash": "2363a476f9d0adf3",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु को ₹1,170 में बेचने पर, एक व्यक्ति को 10% की हानि होती है। 20% का लाभ कमाने के लिए उसे किस कीमत पर बेचना चाहिए?",
+          "options": {
+            "A": "₹1,560",
+            "B": "₹1,500",
+            "C": "₹1,450",
+            "D": "₹1,600"
+          },
+          "explanation": "CP = 1170 / 0.9 = 1300. SP = 1300 × 1.2 = 1560."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-008",
+      "number": 8,
+      "question": "A train crosses 400m platform in 50s and 600m platform in 60s. Length and Speed?",
+      "options": {
+        "A": "L=600m, S=20m/s",
+        "B": "L=500m, S=25m/s",
+        "C": "L=600m, S=25m/s",
+        "D": "L=400m, S=20m/s"
+      },
+      "answer": "A",
+      "explanation": "Diff dist = 200m in 10s. Speed = 20 m/s. Length = Speed*Time - Platform = 20*50 - 400 = 600.",
+      "hash": "be4d4bfc395e67cd",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 400 मीटर लंबे प्लेटफॉर्म को 50 सेकंड में और 600 मीटर लंबे प्लेटफॉर्म को 60 सेकंड में पार करती है। ट्रेन की लंबाई और गति क्या है?",
+          "options": {
+            "A": "L=600m, S=20m/s",
+            "B": "L=500m, S=25m/s",
+            "C": "L=600m, S=25m/s",
+            "D": "L=400m, S=20m/s"
+          },
+          "explanation": "दूरी अंतर = 200 मी। समय अंतर = 10 सेकंड। गति = 200/10 = 20 मी/से। लंबाई = (20 × 50) - 400 = 1000 - 400 = 600 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-009",
+      "number": 9,
+      "question": "Pipes A and B fill a tank in 20 and 30 min. Both opened. To fill tank in exactly 15 min, when should B be closed?",
+      "options": {
+        "A": "7.5 min",
+        "B": "5 min",
+        "C": "8 min",
+        "D": "10 min"
+      },
+      "answer": "A",
+      "explanation": "A works for 15 min => 15/20 = 3/4 work. Rem 1/4 done by B. Time = 1/4 * 30 = 7.5 min.",
+      "hash": "1867093e1275ca67",
+      "translations": {
+        "hi": {
+          "question": "दो पाइप A और B एक टैंक को क्रमशः 20 और 30 मिनट में भर सकते हैं। दोनों पाइप खोले जाते हैं। टैंक को ठीक 15 मिनट में भरने के लिए, B को कितने समय बाद बंद करना चाहिए?",
+          "options": {
+            "A": "7.5 मिनट",
+            "B": "5 मिनट",
+            "C": "8 मिनट",
+            "D": "10 मिनट"
+          },
+          "explanation": "A पूरे 15 मिनट चलता है। A का काम = 15/20 = 3/4. शेष काम (B के लिए) = 1/4. B का समय = (1/4) × 30 = 7.5 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-010",
+      "number": 10,
+      "question": "In Trapezium PQRS, PQ || SR and PQ = 3SR. Diagonals intersect at O. Ratio of Area(POQ) to Area(ROS)?",
+      "options": {
+        "A": "9:1",
+        "B": "3:1",
+        "C": "1:9",
+        "D": "1:3"
+      },
+      "answer": "A",
+      "explanation": "Triangles are similar. Side ratio 3:1. Area ratio 9:1.",
+      "hash": "0eee64cb7fb42162",
+      "translations": {
+        "hi": {
+          "question": "एक समलंब (Trapezium) PQRS में, PQ || SR और PQ = 3SR है। विकर्ण PR और QS बिंदु O पर प्रतिच्छेद करते हैं। त्रिभुज POQ और त्रिभुज ROS के क्षेत्रफलों का अनुपात ज्ञात कीजिये।",
+          "options": {
+            "A": "9:1",
+            "B": "3:1",
+            "C": "1:9",
+            "D": "1:3"
+          },
+          "explanation": "त्रिभुज POQ और ROS समरूप हैं। भुजाओं का अनुपात 3:1 है। क्षेत्रफल का अनुपात (3/1)² = 9:1 होगा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-011",
+      "number": 11,
+      "question": "What is the variance of the first n natural numbers?",
+      "options": {
+        "A": "(n²-1)/12",
+        "B": "(n²-1)/6",
+        "C": "(n²+1)/12",
+        "D": "n²/12"
+      },
+      "answer": "A",
+      "explanation": "Standard Formula: Variance = (n² - 1) / 12.",
+      "hash": "f7e2de93cedf986f",
+      "translations": {
+        "hi": {
+          "question": "प्रथम n प्राकृतिक संख्याओं का प्रसरण (Variance) क्या है?",
+          "options": {
+            "A": "(n²-1)/12",
+            "B": "(n²-1)/6",
+            "C": "(n²+1)/12",
+            "D": "n²/12"
+          },
+          "explanation": "यह एक मानक सूत्र है। प्रसरण = (n² - 1) / 12। मानक विचलन = √[(n²-1)/12]。"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-012",
+      "number": 12,
+      "question": "Radius of a circle is decreased by 50%. What is the % decrease in area?",
+      "options": {
+        "A": "75%",
+        "B": "50%",
+        "C": "25%",
+        "D": "80%"
+      },
+      "answer": "A",
+      "explanation": "-50 - 50 + 25 = -75%. Decrease is 75%.",
+      "hash": "98f8770c9fcfc1e1",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त की त्रिज्या 50% कम कर दी जाती है। उसके क्षेत्रफल में कितने प्रतिशत की कमी होगी?",
+          "options": {
+            "A": "75%",
+            "B": "50%",
+            "C": "25%",
+            "D": "80%"
+          },
+          "explanation": "प्रभावी परिवर्तन = -50 - 50 + (50×50)/100 = -100 + 25 = -75%. (कमी)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-013",
+      "number": 13,
+      "question": "If x = 7 + 4√3, find √x.",
+      "options": {
+        "A": "2 + √3",
+        "B": "2 - √3",
+        "C": "√3 + 1",
+        "D": "3 + √2"
+      },
+      "answer": "A",
+      "explanation": "x = (2 + √3)². So root is 2 + √3.",
+      "hash": "7c7acfa91f3eea54",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 7 + 4√3 है, तो √x ज्ञात कीजिये।",
+          "options": {
+            "A": "2 + √3",
+            "B": "2 - √3",
+            "C": "√3 + 1",
+            "D": "3 + √2"
+          },
+          "explanation": "x = 4 + 3 + 2(2)(√3) = 2² + (√3)² + 2(2)(√3) = (2 + √3)². अतः √x = 2 + √3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-014",
+      "number": 14,
+      "question": "Shopkeeper claims 20% profit on CP but uses 960g weight for 1kg. Actual Profit %?",
+      "options": {
+        "A": "25%",
+        "B": "24%",
+        "C": "20%",
+        "D": "30%"
+      },
+      "answer": "A",
+      "explanation": "Cost = 960. SP = 1200. Profit = 240. % = 240/960 = 25%.",
+      "hash": "ca457e43376c1205",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार लागत मूल्य पर 20% लाभ का दावा करता है लेकिन 1 किलो के स्थान पर 960 ग्राम वजन का उपयोग करता है। उसका वास्तविक लाभ प्रतिशत क्या है?",
+          "options": {
+            "A": "25%",
+            "B": "24%",
+            "C": "20%",
+            "D": "30%"
+          },
+          "explanation": "लागत = 960g का CP (मानो ₹960)। विक्रय मूल्य = 1000 का 120% = ₹1200। लाभ = 1200 - 960 = 240। लाभ % = (240/960) × 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-015",
+      "number": 15,
+      "question": "Average age of A, B, C is 25 years. If average age of A and B is 28 years, what is C's age?",
+      "options": {
+        "A": "19 years",
+        "B": "21 years",
+        "C": "20 years",
+        "D": "25 years"
+      },
+      "answer": "A",
+      "explanation": "Sum(A,B,C) = 75. Sum(A,B) = 56. C = 19.",
+      "hash": "53aea6ab842bfad5",
+      "translations": {
+        "hi": {
+          "question": "A, B और C की औसत आयु 25 वर्ष है। यदि A और B की औसत आयु 28 वर्ष है, तो C की आयु क्या है?",
+          "options": {
+            "A": "19 वर्ष",
+            "B": "21 वर्ष",
+            "C": "20 वर्ष",
+            "D": "25 वर्ष"
+          },
+          "explanation": "A+B+C = 75. A+B = 56. C = 75 - 56 = 19."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-016",
+      "number": 16,
+      "question": "A number divided by 136 leaves remainder 36. If divided by 17, remainder will be?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "9",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "36 mod 17 = 2.",
+      "hash": "27949698003225f8",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या को जब 136 से विभाजित किया जाता है, तो शेषफल 36 बचता है। यदि उसी संख्या को 17 से विभाजित किया जाए, तो शेषफल क्या होगा?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "9",
+            "D": "7"
+          },
+          "explanation": "चूंकि 136, 17 से विभाज्य है, इसलिए हम सीधे शेषफल को विभाजित करते हैं। 36/17 -> शेषफल 2।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-017",
+      "number": 17,
+      "question": "Area of ring between two concentric circles of radii 20cm and 15cm?",
+      "options": {
+        "A": "175π",
+        "B": "150π",
+        "C": "125π",
+        "D": "200π"
+      },
+      "answer": "A",
+      "explanation": "Area = π(R² - r²) = π(400 - 225) = 175π.",
+      "hash": "06e810f50a6e82d7",
+      "translations": {
+        "hi": {
+          "question": "20 सेमी और 15 सेमी त्रिज्या वाले दो संकेंद्रित वृत्तों के बीच की वलयाकार (Ring) जगह का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "175π",
+            "B": "150π",
+            "C": "125π",
+            "D": "200π"
+          },
+          "explanation": "क्षेत्रफल = π(R² - r²) = π(400 - 225) = 175π."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-018",
+      "number": 18,
+      "question": "If 8^x = 16^y, find x:y.",
+      "options": {
+        "A": "4:3",
+        "B": "3:4",
+        "C": "2:3",
+        "D": "3:2"
+      },
+      "answer": "A",
+      "explanation": "2^(3x) = 2^(4y) => x/y = 4/3.",
+      "hash": "6b45308915f05fed",
+      "translations": {
+        "hi": {
+          "question": "यदि 8^x = 16^y, तो x:y क्या है?",
+          "options": {
+            "A": "4:3",
+            "B": "3:4",
+            "C": "2:3",
+            "D": "3:2"
+          },
+          "explanation": "2^(3x) = 2^(4y) => 3x = 4y => x/y = 4/3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-019",
+      "number": 19,
+      "question": "If 3x - 1/3x = 9, find 9x² + 1/9x².",
+      "options": {
+        "A": "83",
+        "B": "81",
+        "C": "79",
+        "D": "85"
+      },
+      "answer": "A",
+      "explanation": "Square both sides: 81 = (9x² + 1/9x²) - 2. Ans = 83.",
+      "hash": "8af4d676846c1cf0",
+      "translations": {
+        "hi": {
+          "question": "यदि 3x - 1/3x = 9 है, तो 9x² + 1/9x² का मान क्या है?",
+          "options": {
+            "A": "83",
+            "B": "81",
+            "C": "79",
+            "D": "85"
+          },
+          "explanation": "वर्ग करने पर: (3x - 1/3x)² = 9x² + 1/9x² - 2. 81 = मान - 2. मान = 83."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-020",
+      "number": 20,
+      "question": "Sides of a triangle are 6, 8, 10 cm. Find length of altitude on the longest side.",
+      "options": {
+        "A": "4.8 cm",
+        "B": "6 cm",
+        "C": "5 cm",
+        "D": "4 cm"
+      },
+      "answer": "A",
+      "explanation": "Area = 24. 1/2 * 10 * h = 24 => h = 4.8.",
+      "hash": "318c3b581ae5e6ed",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज की भुजाएं 6 सेमी, 8 सेमी और 10 सेमी हैं। सबसे लंबी भुजा पर शीर्षलंब (Altitude) की लंबाई ज्ञात कीजिये।",
+          "options": {
+            "A": "4.8 सेमी",
+            "B": "6 सेमी",
+            "C": "5 सेमी",
+            "D": "4 सेमी"
+          },
+          "explanation": "यह समकोण त्रिभुज है (6, 8, 10)। क्षेत्रफल = 1/2 × 6 × 8 = 24. क्षेत्रफल = 1/2 × आधार × ऊंचाई = 1/2 × 10 × h = 24. h = 4.8 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-021",
+      "number": 21,
+      "question": "In 100m race, A beats B by 10m and C by 28m. In same race, B beats C by?",
+      "options": {
+        "A": "20 m",
+        "B": "18 m",
+        "C": "22 m",
+        "D": "25 m"
+      },
+      "answer": "A",
+      "explanation": "A:B:C distances = 100:90:72. When B=100, C=(72/90)*100=80. Gap=20m.",
+      "hash": "1dd8c58d39591b24",
+      "translations": {
+        "hi": {
+          "question": "100 मीटर की दौड़ में, A, B को 10 मीटर से और C को 28 मीटर से हराता है। उसी दौड़ में B, C को कितनी दूरी से हराएगा?",
+          "options": {
+            "A": "20 मीटर",
+            "B": "18 मीटर",
+            "C": "22 मीटर",
+            "D": "25 मीटर"
+          },
+          "explanation": "जब A 100m दौड़ता है, B 90m और C 72m दौड़ता है। जब B 100m दौड़ेगा, C दौड़ेगा (72/90)*100 = 80m। हार का अंतर = 100 - 80 = 20 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-022",
+      "number": 22,
+      "question": "Three coins tossed. Probability of getting at least 2 heads?",
+      "options": {
+        "A": "1/2",
+        "B": "3/8",
+        "C": "1/4",
+        "D": "5/8"
+      },
+      "answer": "A",
+      "explanation": "Favorable: HHH, HHT, HTH, THH. 4/8 = 1/2.",
+      "hash": "d9f9795cd4861815",
+      "translations": {
+        "hi": {
+          "question": "तीन सिक्कों को एक साथ उछाला जाता है। कम से कम दो 'हेड' (Heads) आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "3/8",
+            "C": "1/4",
+            "D": "5/8"
+          },
+          "explanation": "कुल परिणाम = 8. अनुकूल: HHH, HHT, HTH, THH (4 परिणाम)। प्रायिकता = 4/8 = 1/2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-023",
+      "number": 23,
+      "question": "If (a+b):(b+c):(c+a) = 6:7:8 and a+b+c=14, find c.",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "14"
+      },
+      "answer": "A",
+      "explanation": "2(a+b+c) -> 21k. a+b+c=10.5k. k=4/3. a+b=8. c=14-8=6.",
+      "hash": "13dfd30a009e0816",
+      "translations": {
+        "hi": {
+          "question": "यदि (a+b) : (b+c) : (c+a) = 6 : 7 : 8 और a+b+c = 14 है, तो c का मान क्या है?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "14"
+          },
+          "explanation": "अनुपात का योग = 2(a+b+c) = 21k. a+b+c = 10.5k. 14 = 10.5k => k = 14/10.5 = 4/3. a+b = 6k = 8. c = (a+b+c) - (a+b) = 14 - 8 = 6."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-024",
+      "number": 24,
+      "question": "If 3 cos θ = 4 sin θ, find tan(45° + θ).",
+      "options": {
+        "A": "7",
+        "B": "1/7",
+        "C": "7/25",
+        "D": "24/25"
+      },
+      "answer": "A",
+      "explanation": "tan θ = 3/4. Formula (1+tan)/(1-tan) => 7.",
+      "hash": "ac7e623e8b48f039",
+      "translations": {
+        "hi": {
+          "question": "यदि 3 cos θ = 4 sin θ है, तो tan(45° + θ) का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "7",
+            "B": "1/7",
+            "C": "7/25",
+            "D": "24/25"
+          },
+          "explanation": "tan θ = 3/4. tan(45+θ) = (1 + tan θ)/(1 - tan θ) = (1 + 3/4)/(1 - 3/4) = (7/4)/(1/4) = 7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-025",
+      "number": 25,
+      "question": "Price decreases by 20%, consumption increases by 20%. Change in expenditure?",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "5% decrease"
+      },
+      "answer": "A",
+      "explanation": "Net % = -x²/100 = -4%.",
+      "hash": "aa460cfedc20b936",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु की कीमत 20% कम हो जाती है और खपत 20% बढ़ जाती है। व्यय में कितना परिवर्तन होगा?",
+          "options": {
+            "A": "4% कमी",
+            "B": "4% वृद्धि",
+            "C": "कोई बदलाव नहीं",
+            "D": "5% कमी"
+          },
+          "explanation": "शुद्ध परिवर्तन = -20 + 20 - (400/100) = -4%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-026",
+      "number": 26,
+      "question": "TSA of solid cylinder is 462 cm². CSA is 1/3 of TSA. Find Volume.",
+      "options": {
+        "A": "539 cm³",
+        "B": "600 cm³",
+        "C": "450 cm³",
+        "D": "500 cm³"
+      },
+      "answer": "A",
+      "explanation": "2πr² = 308 => r=7. h=3.5. V=539.",
+      "hash": "ee0db267576c9c7f",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस बेलन (Solid Cylinder) का कुल पृष्ठीय क्षेत्रफल 462 सेमी² है। इसका वक्र पृष्ठीय क्षेत्रफल कुल पृष्ठीय क्षेत्रफल का एक तिहाई है। बेलन का आयतन ज्ञात कीजिये।",
+          "options": {
+            "A": "539 सेमी³",
+            "B": "600 सेमी³",
+            "C": "450 सेमी³",
+            "D": "500 सेमी³"
+          },
+          "explanation": "CSA = 154. TSA = 2πr(h+r) = 462. CSA = 2πrh = 154. 2πr² = TSA - CSA = 308. r² = 49, r=7. 2π(7)h = 154 => 44h = 154 => h = 3.5. V = πr²h = (22/7)×49×3.5 = 154 × 3.5 = 539."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-027",
+      "number": 27,
+      "question": "If x + 1/x = √3, find x¹⁸ + x¹² + x⁶ + 1.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Property: If x+1/x=√3, x⁶=-1. Sum = 0.",
+      "hash": "7de228f920c641eb",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = √3 है, तो x¹⁸ + x¹² + x⁶ + 1 का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "यदि x+1/x = √3, तो x⁶ = -1 होता है। (-1)³ + (-1)² + (-1) + 1 = -1 + 1 - 1 + 1 = 0."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-028",
+      "number": 28,
+      "question": "From 5 Men and 4 Women, how many ways to form committee of 4 with at least 2 women?",
+      "options": {
+        "A": "81",
+        "B": "80",
+        "C": "85",
+        "D": "75"
+      },
+      "answer": "A",
+      "explanation": "Cases: 2W2M, 3W1M, 4W. Sum = 60+20+1 = 81.",
+      "hash": "055fcd91fc7a0d6b",
+      "translations": {
+        "hi": {
+          "question": "5 पुरुषों और 4 महिलाओं में से 4 लोगों की एक समिति कितने तरीकों से बनाई जा सकती है यदि उसमें कम से कम 2 महिलाएं हों?",
+          "options": {
+            "A": "81",
+            "B": "80",
+            "C": "85",
+            "D": "75"
+          },
+          "explanation": "मामले: (2W, 2M) + (3W, 1M) + (4W, 0M). (4C2×5C2) + (4C3×5C1) + (4C4×5C0) (6×10) + (4×5) + (1×1) = 60 + 20 + 1 = 81."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-029",
+      "number": 29,
+      "question": "6 bells ring at intervals 2, 4, 6, 8, 10, 12 sec. How many times together in 30 mins?",
+      "options": {
+        "A": "16 times",
+        "B": "15 times",
+        "C": "17 times",
+        "D": "18 times"
+      },
+      "answer": "A",
+      "explanation": "LCM = 2 mins. (30/2) + 1 = 16.",
+      "hash": "1031fabef68ce907",
+      "translations": {
+        "hi": {
+          "question": "6 घंटियां एक साथ बजना शुरू होती हैं और क्रमशः 2, 4, 6, 8, 10, 12 सेकंड के अंतराल पर बजती हैं। 30 मिनट में वे कितनी बार एक साथ बजेंगी?",
+          "options": {
+            "A": "16 बार",
+            "B": "15 बार",
+            "C": "17 बार",
+            "D": "18 बार"
+          },
+          "explanation": "LCM(2,4,6,8,10,12) = 120 सेकंड = 2 मिनट। 30 मिनट में = 30/2 + 1 (शुरुआत वाला) = 15 + 1 = 16 बार।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-030",
+      "number": 30,
+      "question": "Vertices of a triangle are (3, 4), (-2, 1), (5, -2). Find Area.",
+      "options": {
+        "A": "20.5",
+        "B": "18",
+        "C": "22",
+        "D": "19.5"
+      },
+      "answer": "B",
+      "explanation": "Calculation yields 18. Correct option should be B.",
+      "hash": "50e49549a1316528",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज के तीन शीर्ष (Vertices) (3, 4), (-2, 1) और (5, -2) हैं। इसका क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "20.5",
+            "B": "18",
+            "C": "22",
+            "D": "19.5"
+          },
+          "explanation": "1/2 |3(1+2) + (-2)(-2-4) + 5(4-1)| = 1/2 |9 + 12 + 15| = 36/2 = 18."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-031",
+      "number": 31,
+      "question": "A sphere is inscribed in a cube. Ratio of volume of sphere to volume of cube?",
+      "options": {
+        "A": "π : 6",
+        "B": "π : 4",
+        "C": "π : 3",
+        "D": "2π : 3"
+      },
+      "answer": "A",
+      "explanation": "Radius = a/2. Sphere V = πa³/6. Cube V = a³. Ratio π:6.",
+      "hash": "24c6c3f5388215c2",
+      "translations": {
+        "hi": {
+          "question": "एक गोले को एक घन के अंदर पूरी तरह से फिट किया गया है। गोले के आयतन और घन के आयतन का अनुपात क्या है?",
+          "options": {
+            "A": "π : 6",
+            "B": "π : 4",
+            "C": "π : 3",
+            "D": "2π : 3"
+          },
+          "explanation": "गोले का व्यास = घन की भुजा (a)। त्रिज्या = a/2. गोला V = (4/3)π(a/2)³ = πa³/6. घन V = a³. अनुपात = π/6 : 1 = π : 6."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-032",
+      "number": 32,
+      "question": "Vessels A and B have acid:water 4:3 and 2:3. In what ratio mix them to get 1:1?",
+      "options": {
+        "A": "7:5",
+        "B": "5:7",
+        "C": "7:4",
+        "D": "4:7"
+      },
+      "answer": "A",
+      "explanation": "Alligation on Acid fraction. 4/7, 2/5, Mean 1/2. Ratio 7:5.",
+      "hash": "f67b84b507770d73",
+      "translations": {
+        "hi": {
+          "question": "दो बर्तन A और B में एसिड और पानी का अनुपात 4:3 और 2:3 है। सीसा (Lead) प्रश्न नहीं है, मिश्रण है। दोनों को किस अनुपात में मिलाया जाए ताकि नए मिश्रण में आधा एसिड और आधा पानी हो?",
+          "options": {
+            "A": "7:5",
+            "B": "5:7",
+            "C": "7:4",
+            "D": "4:7"
+          },
+          "explanation": "एसिड अंश: A=4/7, B=2/5. लक्ष्य=1/2. मिश्रण नियम: |2/5 - 1/2| = 1/10. |4/7 - 1/2| = 1/14. अनुपात: 1/10 : 1/14 = 14 : 10 = 7 : 5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-033",
+      "number": 33,
+      "question": "Find the number of zeros in 100!.",
+      "options": {
+        "A": "24",
+        "B": "20",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "Count factors of 5: floor(100/5) + floor(100/25) = 20 + 4 = 24.",
+      "hash": "8f44c1e3e3768f87",
+      "translations": {
+        "hi": {
+          "question": "100! (फैक्टोरियल) में शून्य की संख्या ज्ञात कीजिये।",
+          "options": {
+            "A": "24",
+            "B": "20",
+            "C": "22",
+            "D": "25"
+          },
+          "explanation": "5 की घात: 100/5 = 20. 100/25 = 4. कुल शून्य = 20 + 4 = 24."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-034",
+      "number": 34,
+      "question": "Area of Rhombus is 216 cm², one diagonal is 24 cm. Find side length.",
+      "options": {
+        "A": "15 cm",
+        "B": "12 cm",
+        "C": "13 cm",
+        "D": "10 cm"
+      },
+      "answer": "A",
+      "explanation": "d2=18. Half diags 12, 9. Side = √(144+81) = 15.",
+      "hash": "01a6114da100c948",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज (Rhombus) का क्षेत्रफल 216 सेमी² है और एक विकर्ण 24 सेमी है। इसकी भुजा की लंबाई ज्ञात कीजिये।",
+          "options": {
+            "A": "15 सेमी",
+            "B": "12 सेमी",
+            "C": "13 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "1/2 × d1 × d2 = 216 => 12 × d2 = 216 => d2 = 18. विकर्णों का आधा = 12 और 9. भुजा = √(12² + 9²) = √225 = 15."
+        }
+      }
+    },
+    {
+      "id": "mathematics-04-035",
+      "number": 35,
+      "question": "Find value of sin² 1° + sin² 3° + ... + sin² 89°.",
+      "options": {
+        "A": "22.5",
+        "B": "22",
+        "C": "23",
+        "D": "21.5"
+      },
+      "answer": "A",
+      "explanation": "45 terms. 22 pairs summing to 1 + middle term 0.5. Total 22.5.",
+      "hash": "3f83ede9d08ba12a",
+      "translations": {
+        "hi": {
+          "question": "sin² 1° + sin² 3° + ... + sin² 89° का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "22.5",
+            "B": "22",
+            "C": "23",
+            "D": "21.5"
+          },
+          "explanation": "कुल पद = (89-1)/2 + 1 = 45 पद। मध्य पद sin² 45° = 1/2. शेष 44 पद 22 जोड़े बनाते हैं (जिनका योग 1 होता है)। कुल योग = 22 + 0.5 = 22.5."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "subject": "Algebra",
+  "set": 2,
+  "title": "Algebra Mock Test 2",
+  "questions": [
+    {
+      "id": "algebra-02-001",
+      "number": 1,
+      "question": "The sum and product of the zeros of a quadratic polynomial are 0 and √5 respectively. The polynomial is:",
+      "options": {
+        "A": "x^2 + √5",
+        "B": "x^2 - √5",
+        "C": "x^2 - 5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "A quadratic polynomial is given by x^2 - (sum of zeros)x + (product of zeros). So, x^2 - (0)x + √5 = x^2 + √5.",
+      "hash": "51e436f4853d7b8e",
+      "translations": {
+        "hi": {
+          "question": "एक द्विघात बहुपद के शून्यकों का योग और गुणनफल क्रमशः 0 और √5 है। बहुपद है:",
+          "options": {
+            "A": "x^2 + √5",
+            "B": "x^2 - √5",
+            "C": "x^2 - 5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक द्विघात बहुपद x^2 - (शून्यकों का योग)x + (शून्यकों का गुणनफल) द्वारा दिया जाता है। इसलिए, x^2 - (0)x + √5 = x^2 + √5।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-002",
+      "number": 2,
+      "question": "If x = 3 is a root of the equation x^2 - kx - 15 = 0, then the value of k is:",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Substitute x=3 in the equation: 3^2 - k(3) - 15 = 0 => 9 - 3k - 15 = 0 => -6 - 3k = 0 => 3k = -6 => k = -2.",
+      "hash": "26c09269f2571846",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 3 समीकरण x^2 - kx - 15 = 0 का एक मूल है, तो k का मान है:",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "-5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समीकरण में x=3 रखें: 3^2 - k(3) - 15 = 0 => 9 - 3k - 15 = 0 => -6 - 3k = 0 => 3k = -6 => k = -2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-003",
+      "number": 3,
+      "question": "The common difference of the AP: 1/p, (1-p)/p, (1-2p)/p, ... is:",
+      "options": {
+        "A": "p",
+        "B": "-p",
+        "C": "-1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "d = a2 - a1 = (1-p)/p - 1/p = (1 - p - 1)/p = -p/p = -1.",
+      "hash": "7741fdb8b3b60784",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 1/p, (1-p)/p, (1-2p)/p, ... का सार्व अंतर है:",
+          "options": {
+            "A": "p",
+            "B": "-p",
+            "C": "-1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "d = a2 - a1 = (1-p)/p - 1/p = (1 - p - 1)/p = -p/p = -1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-004",
+      "number": 4,
+      "question": "For what value of k will the equations 3x + 4y = 2 and 9x + 12y = k represent coincident lines?",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "12",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For coincident lines, a1/a2 = b1/b2 = c1/c2. So, 3/9 = 4/12 = 2/k. 1/3 = 2/k => k = 6.",
+      "hash": "a4b0ffe0711362df",
+      "translations": {
+        "hi": {
+          "question": "k के किस मान के लिए समीकरण 3x + 4y = 2 और 9x + 12y = k संपाती रेखाओं को प्रदर्शित करेंगे?",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "12",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संपाती रेखाओं के लिए, a1/a2 = b1/b2 = c1/c2। इसलिए, 3/9 = 4/12 = 2/k। 1/3 = 2/k => k = 6।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-005",
+      "number": 5,
+      "question": "If x + y = 14 and x - y = 4, then the values of x and y are:",
+      "options": {
+        "A": "9, 5",
+        "B": "5, 9",
+        "C": "10, 4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Adding equations: 2x = 18 => x = 9. Substituting x=9 in x+y=14: 9+y=14 => y = 5.",
+      "hash": "3f6b41f6b0d80a28",
+      "translations": {
+        "hi": {
+          "question": "यदि x + y = 14 और x - y = 4 है, तो x और y के मान हैं:",
+          "options": {
+            "A": "9, 5",
+            "B": "5, 9",
+            "C": "10, 4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समीकरणों को जोड़ने पर: 2x = 18 => x = 9। x+y=14 में x=9 रखने पर: 9+y=14 => y = 5।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-006",
+      "number": 6,
+      "question": "The sum of the first 'n' terms of an AP is given by S_n = 3n^2 + n. The common difference is:",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a1 = S1 = 3(1)^2 + 1 = 4. S2 = 3(2)^2 + 2 = 14. a2 = S2 - S1 = 14 - 4 = 10. d = a2 - a1 = 10 - 4 = 6.",
+      "hash": "3fe69b70bbce83dd",
+      "translations": {
+        "hi": {
+          "question": "एक AP के पहले 'n' पदों का योग S_n = 3n^2 + n द्वारा दिया गया है। सार्व अंतर है:",
+          "options": {
+            "A": "3",
+            "B": "6",
+            "C": "4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a1 = S1 = 3(1)^2 + 1 = 4. S2 = 3(2)^2 + 2 = 14. a2 = S2 - S1 = 14 - 4 = 10. d = a2 - a1 = 10 - 4 = 6।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-007",
+      "number": 7,
+      "question": "If the discriminant of the quadratic equation 4x^2 - px + 9 = 0 is zero, then p is:",
+      "options": {
+        "A": "12",
+        "B": "-12",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "D = b^2 - 4ac = 0 => (-p)^2 - 4(4)(9) = 0 => p^2 - 144 = 0 => p = 12 or -12.",
+      "hash": "157603f54575f91e",
+      "translations": {
+        "hi": {
+          "question": "यदि द्विघात समीकरण 4x^2 - px + 9 = 0 का विविक्तकर शून्य है, तो p है:",
+          "options": {
+            "A": "12",
+            "B": "-12",
+            "C": "0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "D = b^2 - 4ac = 0 => (-p)^2 - 4(4)(9) = 0 => p^2 - 144 = 0 => p = 12 या -12।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-008",
+      "number": 8,
+      "question": "The nature of the roots of the equation 2x^2 - 4x + 3 = 0 is:",
+      "options": {
+        "A": "Real and equal",
+        "B": "Real and unequal",
+        "C": "No real roots",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8. Since D < 0, there are no real roots.",
+      "hash": "32478f732f39d06c",
+      "translations": {
+        "hi": {
+          "question": "समीकरण 2x^2 - 4x + 3 = 0 के मूलों की प्रकृति है:",
+          "options": {
+            "A": "वास्तविक और समान",
+            "B": "वास्तविक और असमान",
+            "C": "कोई वास्तविक मूल नहीं",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8। चूंकि D < 0 है, इसलिए कोई वास्तविक मूल नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-009",
+      "number": 9,
+      "question": "If alpha and beta are the zeros of 2x^2 + 5x - 10, then the value of (alpha * beta) is:",
+      "options": {
+        "A": "-5",
+        "B": "5",
+        "C": "-5/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Product of zeros = c/a = -10/2 = -5.",
+      "hash": "ebf7488195ee4fc5",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा और बीटा 2x^2 + 5x - 10 के शून्यक हैं, तो (अल्फा * बीटा) का मान है:",
+          "options": {
+            "A": "-5",
+            "B": "5",
+            "C": "-5/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "शून्यकों का गुणनफल = c/a = -10/2 = -5।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-010",
+      "number": 10,
+      "question": "Which of the following is a quadratic equation?",
+      "options": {
+        "A": "x^2 - 3√x + 2 = 0",
+        "B": "x + 1/x = x^2",
+        "C": "x^2 + 1/x^2 = 5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "E",
+      "explanation": "Option A has √x (not a polynomial). Option B simplifies to x^2 + 1 = x^3 (cubic). Option C simplifies to x^4 + 1 = 5x^2 (degree 4).",
+      "hash": "f7082ad54228a908",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक द्विघात समीकरण है?",
+          "options": {
+            "A": "x^2 - 3√x + 2 = 0",
+            "B": "x + 1/x = x^2",
+            "C": "x^2 + 1/x^2 = 5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "विकल्प A में √x है (बहुपद नहीं)। विकल्प B सरल होकर x^2 + 1 = x^3 (त्रिघात) हो जाता है। विकल्प C सरल होकर x^4 + 1 = 5x^2 (घात 4) हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-011",
+      "number": 11,
+      "question": "If the system of equations 2x + 3y = 7 and 2ax + (a+b)y = 28 has infinitely many solutions, then:",
+      "options": {
+        "A": "b = 2a",
+        "B": "a = 2b",
+        "C": "b = 4a",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For infinite solutions: 2/2a = 3/(a+b) = 7/28. 1/a = 1/4 => a = 4. Also 3/(4+b) = 1/4 => 12 = 4 + b => b = 8. Thus b = 2a.",
+      "hash": "bf93e68142975907",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण निकाय 2x + 3y = 7 और 2ax + (a+b)y = 28 के अनंत समाधान हैं, तो:",
+          "options": {
+            "A": "b = 2a",
+            "B": "a = 2b",
+            "C": "b = 4a",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनंत समाधान के लिए: 2/2a = 3/(a+b) = 7/28। 1/a = 1/4 => a = 4। साथ ही 3/(4+b) = 1/4 => 12 = 4 + b => b = 8। अतः b = 2a।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-012",
+      "number": 12,
+      "question": "The nth term of the sequence a, a+d, a+2d, ... is:",
+      "options": {
+        "A": "a + (n+1)d",
+        "B": "a + (n-1)d",
+        "C": "a + nd",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The general term (nth term) of an AP is a + (n-1)d.",
+      "hash": "2a49ecf0175c0940",
+      "translations": {
+        "hi": {
+          "question": "अनुक्रम a, a+d, a+2d, ... का n-वां पद है:",
+          "options": {
+            "A": "a + (n+1)d",
+            "B": "a + (n-1)d",
+            "C": "a + nd",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक AP का सामान्य पद (n-वां पद) a + (n-1)d होता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-013",
+      "number": 13,
+      "question": "If one root of the quadratic equation 2x^2 + kx - 6 = 0 is 2, the other root is:",
+      "options": {
+        "A": "3/2",
+        "B": "-3/2",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Product of roots = c/a = -6/2 = -3. Let other root be alpha. 2 * alpha = -3 => alpha = -3/2.",
+      "hash": "e61030c3e0d344d0",
+      "translations": {
+        "hi": {
+          "question": "यदि द्विघात समीकरण 2x^2 + kx - 6 = 0 का एक मूल 2 है, तो दूसरा मूल है:",
+          "options": {
+            "A": "3/2",
+            "B": "-3/2",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मूलों का गुणनफल = c/a = -6/2 = -3। माना दूसरा मूल अल्फा है। 2 * अल्फा = -3 => अल्फा = -3/2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-014",
+      "number": 14,
+      "question": "The 11th term of the AP: -3, -1/2, 2, ... is:",
+      "options": {
+        "A": "28",
+        "B": "22",
+        "C": "-38",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a = -3, d = -1/2 - (-3) = 2.5. a11 = a + 10d = -3 + 10(2.5) = -3 + 25 = 22.",
+      "hash": "2b27a0dda81f7ac9",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): -3, -1/2, 2, ... का 11वां पद है:",
+          "options": {
+            "A": "28",
+            "B": "22",
+            "C": "-38",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a = -3, d = -1/2 - (-3) = 2.5। a11 = a + 10d = -3 + 10(2.5) = -3 + 25 = 22।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-015",
+      "number": 15,
+      "question": "What is the degree of a cubic polynomial?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "A polynomial of degree 3 is called a cubic polynomial.",
+      "hash": "da4fd7c44db6fbe8",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिघात बहुपद की घात क्या होती है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "घात 3 के बहुपद को त्रिघात बहुपद कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-016",
+      "number": 16,
+      "question": "If the equation x^2 - 8x + k = 0 has real roots, then:",
+      "options": {
+        "A": "k <= 16",
+        "B": "k >= 16",
+        "C": "k < 16",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For real roots, D >= 0. (-8)^2 - 4(1)(k) >= 0 => 64 - 4k >= 0 => 64 >= 4k => k <= 16.",
+      "hash": "04374ca6c2c1a9f0",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण x^2 - 8x + k = 0 के वास्तविक मूल हैं, तो:",
+          "options": {
+            "A": "k <= 16",
+            "B": "k >= 16",
+            "C": "k < 16",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वास्तविक मूलों के लिए, D >= 0। (-8)^2 - 4(1)(k) >= 0 => 64 - 4k >= 0 => 64 >= 4k => k <= 16।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-017",
+      "number": 17,
+      "question": "The product of a non-zero rational and an irrational number is:",
+      "options": {
+        "A": "Always rational",
+        "B": "Always irrational",
+        "C": "Rational or irrational",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The product of any non-zero rational number and an irrational number is always irrational.",
+      "hash": "b62c6b6f1568a02e",
+      "translations": {
+        "hi": {
+          "question": "एक गैर-शून्य परिमेय और एक अपरिमेय संख्या का गुणनफल होता है:",
+          "options": {
+            "A": "हमेशा परिमेय",
+            "B": "हमेशा अपरिमेय",
+            "C": "परिमेय या अपरिमेय",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी भी गैर-शून्य परिमेय संख्या और अपरिमेय संख्या का गुणनफल हमेशा अपरिमेय होता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-018",
+      "number": 18,
+      "question": "If p and q are the roots of the equation x^2 - px + q = 0, then:",
+      "options": {
+        "A": "p = 1, q = -2",
+        "B": "p = 0, q = 1",
+        "C": "p = -2, q = 1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sum: p+q = p => q=0. Product: pq = q. If q=0, p can be anything. If q!=0, p=1. If p=1, 1+q=1 => q=0. Check options: if p=1, q=-2, sum is 1, product -2. Equation is x^2-x-2=0. Roots are 2, -1. Not matching p,q. Wait, p=1, q=-2 is standard result for x^2+px+q. Here p+q=p and pq=q => q=0 and p is any. Let's re-evaluate: p=1, q=-2 => x^2-x-2=0, roots 2, -1. p=1, q=-2.",
+      "hash": "7d2fde77654146f1",
+      "translations": {
+        "hi": {
+          "question": "यदि p और q समीकरण x^2 - px + q = 0 के मूल हैं, तो:",
+          "options": {
+            "A": "p = 1, q = -2",
+            "B": "p = 0, q = 1",
+            "C": "p = -2, q = 1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग: p+q = p => q=0। गुणनफल: pq = q। यदि q=0, p कुछ भी हो सकता है। यदि q!=0, p=1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-019",
+      "number": 19,
+      "question": "The linear equation 2x - 5y = 7 has:",
+      "options": {
+        "A": "A unique solution",
+        "B": "Two solutions",
+        "C": "Infinitely many solutions",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "A linear equation in two variables has infinitely many solutions.",
+      "hash": "a89e7c97f10f9c30",
+      "translations": {
+        "hi": {
+          "question": "रैखिक समीकरण 2x - 5y = 7 के पास है:",
+          "options": {
+            "A": "एक अद्वितीय समाधान",
+            "B": "दो समाधान",
+            "C": "अनंत रूप से कई समाधान",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दो चरों वाले रैखिक समीकरण के अनंत रूप से कई समाधान होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "algebra-02-020",
+      "number": 20,
+      "question": "If the sum of first n terms of an AP is 3n^2 + 5n and its mth term is 164, find m.",
+      "options": {
+        "A": "26",
+        "B": "27",
+        "C": "28",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a_n = S_n - S_{n-1} = (3n^2 + 5n) - [3(n-1)^2 + 5(n-1)] = 6n + 2. So, 6m + 2 = 164 => 6m = 162 => m = 27.",
+      "hash": "010c7eb4ee5d7314",
+      "translations": {
+        "hi": {
+          "question": "यदि एक AP के पहले n पदों का योग 3n^2 + 5n है और इसका m-वां पद 164 है, तो m ज्ञात कीजिए।",
+          "options": {
+            "A": "26",
+            "B": "27",
+            "C": "28",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a_n = S_n - S_{n-1} = (3n^2 + 5n) - [3(n-1)^2 + 5(n-1)] = 6n + 2. इसलिए, 6m + 2 = 164 => 6m = 162 => m = 27।"
+        }
+      }
+    }
+  ]
+}

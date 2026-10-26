@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 8,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-08-001",
+      "number": 1,
+      "question": "What is the angle between the tangent at a point on a circle and the radius through the point of contact?",
+      "options": {
+        "A": "45°",
+        "B": "60°",
+        "C": "90°",
+        "D": "180°"
+      },
+      "answer": "C",
+      "explanation": "Tangent is perpendicular to the radius at the point of contact.",
+      "hash": "808586f3ff9cc038",
+      "translations": {
+        "hi": {
+          "question": "वृत्त के किसी बिंदु पर स्पर्श रेखा (Tangent) स्पर्श बिंदु से जाने वाली त्रिज्या के साथ कितना कोण बनाती है?",
+          "options": {
+            "A": "45°",
+            "B": "60°",
+            "C": "90°",
+            "D": "180°"
+          },
+          "explanation": "स्पर्श रेखा स्पर्श बिंदु पर त्रिज्या पर लंब (Perpendicular) होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-08-002",
+      "number": 2,
+      "question": "Lengths of tangents drawn from an external point to a circle are?",
+      "options": {
+        "A": "असमान",
+        "B": "बराबर",
+        "C": "समांतर",
+        "D": "लंबवत"
+      },
+      "answer": "B",
+      "explanation": "Lengths are equal.",
+      "hash": "d00c900aa13b5263",
+      "translations": {
+        "hi": {
+          "question": "किसी बाह्य बिंदु से वृत्त पर खींची गई स्पर्श रेखाओं की लंबाइयाँ कैसी होती हैं?",
+          "options": {
+            "A": "असमान",
+            "B": "बराबर",
+            "C": "समांतर",
+            "D": "लंबवत"
+          },
+          "explanation": "बाहरी बिंदु से वृत्त पर खींची गई दोनों स्पर्श रेखाओं की लंबाई समान होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-08-003",
+      "number": 3,
+      "question": "How many tangents can be drawn at a point on a circle?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "अनंत"
+      },
+      "answer": "A",
+      "explanation": "Only one tangent at a specific point.",
+      "hash": "5f0e767175241a19",
+      "translations": {
+        "hi": {
+          "question": "वृत्त के एक बिंदु पर कितनी स्पर्श रेखाएं खींची जा सकती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "अनंत"
+          },
+          "explanation": "वृत्त के किसी एक विशिष्ट बिंदु पर केवल एक स्पर्श रेखा खींची जा सकती है।"
+        }
+      }
+    },
+    {
+      "id": "math-08-004",
+      "number": 4,
+      "question": "Tangent length from a point 5cm away from center is 4cm. Radius?",
+      "options": {
+        "A": "3 सेमी",
+        "B": "4 सेमी",
+        "C": "5 सेमी",
+        "D": "6 सेमी"
+      },
+      "answer": "A",
+      "explanation": "r = √(25 - 16) = 3 cm.",
+      "hash": "86383ceaddea04a0",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु P से, जो वृत्त के केंद्र से 5 सेमी की दूरी पर है, वृत्त पर स्पर्श रेखा की लंबाई 4 सेमी है। वृत्त की त्रिज्या क्या है?",
+          "options": {
+            "A": "3 सेमी",
+            "B": "4 सेमी",
+            "C": "5 सेमी",
+            "D": "6 सेमी"
+          },
+          "explanation": "r = √(5² - 4²) = √(25 - 16) = √9 = 3 सेमी। (पाइथागोरस प्रमेय)"
+        }
+      }
+    },
+    {
+      "id": "math-08-005",
+      "number": 5,
+      "question": "A line intersecting a circle in two points is called?",
+      "options": {
+        "A": "स्पर्श रेखा",
+        "B": "छेदक रेखा (Secant)",
+        "C": "जीवा",
+        "D": "व्यास"
+      },
+      "answer": "B",
+      "explanation": "It is called a Secant.",
+      "hash": "626e8ed29e2ad02d",
+      "translations": {
+        "hi": {
+          "question": "वृत्त को दो बिंदुओं पर प्रतिच्छेद करने वाली रेखा को क्या कहते हैं?",
+          "options": {
+            "A": "स्पर्श रेखा",
+            "B": "छेदक रेखा (Secant)",
+            "C": "जीवा",
+            "D": "व्यास"
+          },
+          "explanation": "इसे छेदक रेखा (Secant) कहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-006",
+      "number": 6,
+      "question": "Tangents drawn at the ends of a diameter are?",
+      "options": {
+        "A": "लंबवत",
+        "B": "समांतर (Parallel)",
+        "C": "प्रतिच्छेदी",
+        "D": "इनमें से कोई नहीं"
+      },
+      "answer": "B",
+      "explanation": "They are parallel to each other.",
+      "hash": "0fd0d72ee71a607d",
+      "translations": {
+        "hi": {
+          "question": "किसी वृत्त के व्यास (Diameter) के सिरों पर खींची गई स्पर्श रेखाएं कैसी होती हैं?",
+          "options": {
+            "A": "लंबवत",
+            "B": "समांतर (Parallel)",
+            "C": "प्रतिच्छेदी",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "वे आपस में समांतर होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-007",
+      "number": 7,
+      "question": "If tangents PA and PB are inclined at 80°, then ∠POA is?",
+      "options": {
+        "A": "50°",
+        "B": "60°",
+        "C": "70°",
+        "D": "80°"
+      },
+      "answer": "A",
+      "explanation": "Angle at center is supplement of angle between tangents. Half of 100 is 50.",
+      "hash": "cff93629343b2893",
+      "translations": {
+        "hi": {
+          "question": "यदि दो स्पर्श रेखाएं PA और PB एक बिंदु P से केंद्र O वाले वृत्त पर 80° के कोण पर झुकी हों, तो ∠POA का मान क्या है?",
+          "options": {
+            "A": "50°",
+            "B": "60°",
+            "C": "70°",
+            "D": "80°"
+          },
+          "explanation": "∠AOB = 180° - 80° = 100°। ∠POA = (1/2)∠AOB = 50°।"
+        }
+      }
+    },
+    {
+      "id": "math-08-008",
+      "number": 8,
+      "question": "How many parallel tangents can a circle have at most?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "अनंत"
+      },
+      "answer": "B",
+      "explanation": "Maximum 2 parallel tangents.",
+      "hash": "4ab6bc1470d0f59e",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त की कितनी समांतर स्पर्श रेखाएं हो सकती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "अनंत"
+          },
+          "explanation": "किसी दिए गए व्यास के सिरों पर अधिकतम 2 समांतर स्पर्श रेखाएं हो सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-009",
+      "number": 9,
+      "question": "Number of tangents from a point inside the circle?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Zero tangents.",
+      "hash": "a2e9690e8c873b97",
+      "translations": {
+        "hi": {
+          "question": "वृत्त के अंदर स्थित किसी बिंदु से वृत्त पर कितनी स्पर्श रेखाएं खींची जा सकती हैं?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "अंदर के बिंदु से कोई स्पर्श रेखा नहीं खींची जा सकती।"
+        }
+      }
+    },
+    {
+      "id": "math-08-010",
+      "number": 10,
+      "question": "If ∠POQ = 110°, then ∠PTQ is?",
+      "options": {
+        "A": "60°",
+        "B": "70°",
+        "C": "80°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "Sum of opposite angles is 180. So 70 degrees.",
+      "hash": "c08b4b292b57155c",
+      "translations": {
+        "hi": {
+          "question": "यदि TP और TQ केंद्र O वाले वृत्त पर दो स्पर्श रेखाएं इस प्रकार हैं कि ∠POQ = 110° है, तो ∠PTQ बराबर है?",
+          "options": {
+            "A": "60°",
+            "B": "70°",
+            "C": "80°",
+            "D": "90°"
+          },
+          "explanation": "∠PTQ + ∠POQ = 180° => ∠PTQ = 180° - 110° = 70°।"
+        }
+      }
+    },
+    {
+      "id": "math-08-011",
+      "number": 11,
+      "question": "Angle between tangents and angle subtended at center are?",
+      "options": {
+        "A": "बराबर",
+        "B": "पूरक (Complementary)",
+        "C": "संपूरक (Supplementary)",
+        "D": "कोई संबंध नहीं"
+      },
+      "answer": "C",
+      "explanation": "Supplementary (Sum is 180).",
+      "hash": "ce304656b618d67b",
+      "translations": {
+        "hi": {
+          "question": "बाहरी बिंदु से वृत्त पर खींची गई स्पर्श रेखाओं के बीच का कोण और केंद्र पर अंतरित कोण आपस में क्या होते हैं?",
+          "options": {
+            "A": "बराबर",
+            "B": "पूरक (Complementary)",
+            "C": "संपूरक (Supplementary)",
+            "D": "कोई संबंध नहीं"
+          },
+          "explanation": "उनका योग 180° होता है, अतः वे संपूरक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-012",
+      "number": 12,
+      "question": "Radii 5cm and 3cm. Length of chord of larger circle touching smaller one?",
+      "options": {
+        "A": "8 सेमी",
+        "B": "10 सेमी",
+        "C": "6 सेमी",
+        "D": "4 सेमी"
+      },
+      "answer": "A",
+      "explanation": "Half chord = 4, Total length = 8 cm.",
+      "hash": "c5ba3ba4234269ee",
+      "translations": {
+        "hi": {
+          "question": "दो संकेंद्रीय वृत्तों (Concentric circles) की त्रिज्याएं 5 सेमी और 3 सेमी हैं। बड़े वृत्त की उस जीवा की लंबाई ज्ञात कीजिए जो छोटे वृत्त को स्पर्श करती है।",
+          "options": {
+            "A": "8 सेमी",
+            "B": "10 सेमी",
+            "C": "6 सेमी",
+            "D": "4 सेमी"
+          },
+          "explanation": "Half chord = 4, Total length = 8 cm."
+        }
+      }
+    },
+    {
+      "id": "math-08-013",
+      "number": 13,
+      "question": "Quadrilateral ABCD circumscribes a circle. AB=6, BC=7, CD=4. AD=?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "Sum of opposite sides is equal. 6+4 = AD+7 => AD=3.",
+      "hash": "2fce6397452260a7",
+      "translations": {
+        "hi": {
+          "question": "एक चतुर्भुज ABCD वृत्त के परिगत (Circumscribed) बना है। यदि AB = 6, BC = 7, CD = 4, तो AD की लंबाई क्या है?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "AB + CD = AD + BC => 6 + 4 = AD + 7 => 10 = AD + 7 => AD = 3।"
+        }
+      }
+    },
+    {
+      "id": "math-08-014",
+      "number": 14,
+      "question": "Common point of a tangent and the circle is called?",
+      "options": {
+        "A": "केंद्र",
+        "B": "स्पर्श बिंदु (Point of Contact)",
+        "C": "प्रतिच्छेद बिंदु",
+        "D": "मूल बिंदु"
+      },
+      "answer": "B",
+      "explanation": "Point of Contact.",
+      "hash": "1123a5581f8a447d",
+      "translations": {
+        "hi": {
+          "question": "वृत्त तथा उसकी स्पर्श रेखा के उभयनिष्ठ बिंदु को क्या कहते हैं?",
+          "options": {
+            "A": "केंद्र",
+            "B": "स्पर्श बिंदु (Point of Contact)",
+            "C": "प्रतिच्छेद बिंदु",
+            "D": "मूल बिंदु"
+          },
+          "explanation": "इसे स्पर्श बिंदु (Point of Contact) कहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-015",
+      "number": 15,
+      "question": "Number of common tangents if two circles touch externally?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "3 common tangents.",
+      "hash": "0284bd2b4a99caf6",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्त एक-दूसरे को बाह्य रूप से स्पर्श करते हैं। उनकी कितनी उभयनिष्ठ स्पर्श रेखाएं (Common Tangents) हो सकती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "दो सीधी उभयनिष्ठ और एक अनुप्रस्थ (Transverse) स्पर्श बिंदु पर। कुल 3।"
+        }
+      }
+    },
+    {
+      "id": "math-08-016",
+      "number": 16,
+      "question": "Radius 5, OQ = 12. Length of tangent PQ?",
+      "options": {
+        "A": "12 सेमी",
+        "B": "13 सेमी",
+        "C": "8.5 सेमी",
+        "D": "√119 सेमी"
+      },
+      "answer": "D",
+      "explanation": "PQ = √(144 - 25) = √119.",
+      "hash": "bf2709ad2e3ccbcd",
+      "translations": {
+        "hi": {
+          "question": "5 सेमी त्रिज्या वाले वृत्त के बिंदु P पर स्पर्श रेखा PQ केंद्र O से जाने वाली एक रेखा से बिंदु Q पर इस प्रकार मिलती है कि OQ = 12 सेमी। PQ की लंबाई है?",
+          "options": {
+            "A": "12 सेमी",
+            "B": "13 सेमी",
+            "C": "8.5 सेमी",
+            "D": "√119 सेमी"
+          },
+          "explanation": "PQ = √(OQ² - OP²) = √(12² - 5²) = √(144 - 25) = √119।"
+        }
+      }
+    },
+    {
+      "id": "math-08-017",
+      "number": 17,
+      "question": "Tangent 24cm, distance from center 25cm. Radius?",
+      "options": {
+        "A": "7 सेमी",
+        "B": "12 सेमी",
+        "C": "15 सेमी",
+        "D": "24.5 सेमी"
+      },
+      "answer": "A",
+      "explanation": "r = 7 cm.",
+      "hash": "3d2438730b14938d",
+      "translations": {
+        "hi": {
+          "question": "किसी बाहरी बिंदु से वृत्त पर खींची गई स्पर्श रेखा की लंबाई 24 सेमी है और केंद्र से दूरी 25 सेमी है। त्रिज्या क्या है?",
+          "options": {
+            "A": "7 सेमी",
+            "B": "12 सेमी",
+            "C": "15 सेमी",
+            "D": "24.5 सेमी"
+          },
+          "explanation": "r = √(25² - 24²) = √(625 - 576) = √49 = 7।"
+        }
+      }
+    },
+    {
+      "id": "math-08-018",
+      "number": 18,
+      "question": "Distance between two parallel tangents?",
+      "options": {
+        "A": "त्रिज्या",
+        "B": "व्यास (Diameter)",
+        "C": "परिधि",
+        "D": "जीवा"
+      },
+      "answer": "B",
+      "explanation": "Equal to the Diameter.",
+      "hash": "6335f76efa3ea90f",
+      "translations": {
+        "hi": {
+          "question": "दो समांतर स्पर्श रेखाओं के बीच की दूरी क्या होती है?",
+          "options": {
+            "A": "त्रिज्या",
+            "B": "व्यास (Diameter)",
+            "C": "परिधि",
+            "D": "जीवा"
+          },
+          "explanation": "समांतर स्पर्श रेखाएं व्यास के सिरों पर होती हैं, अतः दूरी व्यास के बराबर होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-08-019",
+      "number": 19,
+      "question": "If radius is 3cm, length of longest chord?",
+      "options": {
+        "A": "3 सेमी",
+        "B": "6 सेमी",
+        "C": "9 सेमी",
+        "D": "1.5 सेमी"
+      },
+      "answer": "B",
+      "explanation": "Diameter is longest chord = 6 cm.",
+      "hash": "0f3d5d17f83a2d33",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की त्रिज्या 3 सेमी है, तो वृत्त की सबसे लंबी जीवा की लंबाई क्या होगी?",
+          "options": {
+            "A": "3 सेमी",
+            "B": "6 सेमी",
+            "C": "9 सेमी",
+            "D": "1.5 सेमी"
+          },
+          "explanation": "सबसे लंबी जीवा व्यास होती है। व्यास = 2 × त्रिज्या = 6 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "math-08-020",
+      "number": 20,
+      "question": "Angle at center is ____ of angle between tangents.",
+      "options": {
+        "A": "आधा",
+        "B": "दुगुना",
+        "C": "बराबर",
+        "D": "संपूरक"
+      },
+      "answer": "D",
+      "explanation": "Supplementary.",
+      "hash": "45863c90c5ea8852",
+      "translations": {
+        "hi": {
+          "question": "वृत्त के केंद्र पर बना कोण, स्पर्श रेखाओं के बीच बने कोण का ____ होता है।",
+          "options": {
+            "A": "आधा",
+            "B": "दुगुना",
+            "C": "बराबर",
+            "D": "संपूरक"
+          },
+          "explanation": "दोनों का योग 180° होता है (संपूरक)।"
+        }
+      }
+    },
+    {
+      "id": "math-08-021",
+      "number": 21,
+      "question": "Tangent 12, Dist from center 13. Radius?",
+      "options": {
+        "A": "5 सेमी",
+        "B": "6 सेमी",
+        "C": "9 सेमी",
+        "D": "10 सेमी"
+      },
+      "answer": "A",
+      "explanation": "5 cm.",
+      "hash": "5dabf891cbb00f49",
+      "translations": {
+        "hi": {
+          "question": "एक बिंदु P से वृत्त पर स्पर्श रेखा की लंबाई 12 सेमी है और P की केंद्र से दूरी 13 सेमी है। तो वृत्त की त्रिज्या है?",
+          "options": {
+            "A": "5 सेमी",
+            "B": "6 सेमी",
+            "C": "9 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "r = √(13² - 12²) = √(169 - 144) = 5।"
+        }
+      }
+    },
+    {
+      "id": "math-08-022",
+      "number": 22,
+      "question": "A parallelogram circumscribing a circle is a?",
+      "options": {
+        "A": "आयत",
+        "B": "समचतुर्भुज (Rhombus)",
+        "C": "वर्ग",
+        "D": "समलंब"
+      },
+      "answer": "B",
+      "explanation": "It must be a Rhombus.",
+      "hash": "39aba399c3007ec8",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त के परिगत एक समांतर चतुर्भुज (Parallelogram) क्या होता है?",
+          "options": {
+            "A": "आयत",
+            "B": "समचतुर्भुज (Rhombus)",
+            "C": "वर्ग",
+            "D": "समलंब"
+          },
+          "explanation": "चूँकि आमने-सामने की भुजाओं का योग बराबर होता है और यह समांतर चतुर्भुज है, तो यह समचतुर्भुज होगा।"
+        }
+      }
+    },
+    {
+      "id": "math-08-023",
+      "number": 23,
+      "question": "A tangent touches the circle at how many points?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Exactly 1 point.",
+      "hash": "b89c9a5ac0a7937e",
+      "translations": {
+        "hi": {
+          "question": "किसी वृत्त की स्पर्श रेखा उसे कितने बिंदुओं पर स्पर्श करती है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "केवल 1 बिंदु पर।"
+        }
+      }
+    },
+    {
+      "id": "math-08-024",
+      "number": 24,
+      "question": "Angle in a semi-circle is?",
+      "options": {
+        "A": "न्यूनकोण",
+        "B": "अधिककोण",
+        "C": "समकोण",
+        "D": "सरल कोण"
+      },
+      "answer": "C",
+      "explanation": "Right Angle (90°).",
+      "hash": "4722ab8de1bacf7c",
+      "translations": {
+        "hi": {
+          "question": "अर्धवृत्त का कोण होता है?",
+          "options": {
+            "A": "न्यूनकोण",
+            "B": "अधिककोण",
+            "C": "समकोण",
+            "D": "सरल कोण"
+          },
+          "explanation": "अर्धवृत्त में बना कोण 90° (समकोण) होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-08-025",
+      "number": 25,
+      "question": "Radius 6, dist 10. Tangent length?",
+      "options": {
+        "A": "8 सेमी",
+        "B": "4 सेमी",
+        "C": "12 सेमी",
+        "D": "16 सेमी"
+      },
+      "answer": "A",
+      "explanation": "8 cm.",
+      "hash": "297ef1fe28c728bb",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी त्रिज्या वाले वृत्त के केंद्र से 10 सेमी दूर स्थित बिंदु से खींची गई स्पर्श रेखा की लंबाई?",
+          "options": {
+            "A": "8 सेमी",
+            "B": "4 सेमी",
+            "C": "12 सेमी",
+            "D": "16 सेमी"
+          },
+          "explanation": "√(10² - 6²) = √(100 - 36) = √64 = 8।"
+        }
+      }
+    },
+    {
+      "id": "math-08-026",
+      "number": 26,
+      "question": "Number of common tangents if two circles intersect?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B",
+      "explanation": "2 common tangents.",
+      "hash": "c0dfda17b70669b6",
+      "translations": {
+        "hi": {
+          "question": "यदि दो वृत्त एक-दूसरे को प्रतिच्छेद (Intersect) करते हैं, तो उनकी कितनी उभयनिष्ठ स्पर्श रेखाएं हो सकती हैं?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "explanation": "केवल 2 उभयनिष्ठ स्पर्श रेखाएं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-027",
+      "number": 27,
+      "question": "A line intersecting circle at two distinct points?",
+      "options": {
+        "A": "जीवा",
+        "B": "स्पर्श रेखा",
+        "C": "छेदक रेखा (Secant)",
+        "D": "त्रिज्या"
+      },
+      "answer": "C",
+      "explanation": "Secant.",
+      "hash": "9dc0c89c5fcec74e",
+      "translations": {
+        "hi": {
+          "question": "एक रेखा जो वृत्त को दो अलग-अलग बिंदुओं पर काटती है, कहलाती है?",
+          "options": {
+            "A": "जीवा",
+            "B": "स्पर्श रेखा",
+            "C": "छेदक रेखा (Secant)",
+            "D": "त्रिज्या"
+          },
+          "explanation": "छेदक रेखा (Secant)।"
+        }
+      }
+    },
+    {
+      "id": "math-08-028",
+      "number": 28,
+      "question": "Distance between two parallel tangents for radius r?",
+      "options": {
+        "A": "r",
+        "B": "2r",
+        "C": "r/2",
+        "D": "4r"
+      },
+      "answer": "B",
+      "explanation": "Diameter = 2r.",
+      "hash": "79baf15866800026",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की त्रिज्या 'r' है, तो दो समांतर स्पर्श रेखाओं के बीच की दूरी होगी?",
+          "options": {
+            "A": "r",
+            "B": "2r",
+            "C": "r/2",
+            "D": "4r"
+          },
+          "explanation": "दूरी = व्यास = 2r।"
+        }
+      }
+    },
+    {
+      "id": "math-08-029",
+      "number": 29,
+      "question": "Tangents from external point subtend ___ angles at center?",
+      "options": {
+        "A": "बराबर",
+        "B": "असमान",
+        "C": "समकोण",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Equal angles.",
+      "hash": "8cbb66aaa7b08f67",
+      "translations": {
+        "hi": {
+          "question": "किसी बाहरी बिंदु से वृत्त पर खींची गई स्पर्श रेखाएं केंद्र पर कैसा कोण अंतरित करती हैं?",
+          "options": {
+            "A": "बराबर",
+            "B": "असमान",
+            "C": "समकोण",
+            "D": "कोई नहीं"
+          },
+          "explanation": "सर्वांगसम त्रिभुजों के कारण वे केंद्र पर बराबर कोण बनाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-08-030",
+      "number": 30,
+      "question": "Tangent is ____ to the radius through point of contact?",
+      "options": {
+        "A": "समांतर",
+        "B": "लंब (Perpendicular)",
+        "C": "संपाती",
+        "D": "45° पर"
+      },
+      "answer": "B",
+      "explanation": "Perpendicular.",
+      "hash": "b59245f7d918b237",
+      "translations": {
+        "hi": {
+          "question": "किसी वृत्त की स्पर्श रेखा, स्पर्श बिंदु से खींची गई त्रिज्या पर क्या होती है?",
+          "options": {
+            "A": "समांतर",
+            "B": "लंब (Perpendicular)",
+            "C": "संपाती",
+            "D": "45° पर"
+          },
+          "explanation": "लंब (Perpendicular)।"
+        }
+      }
+    }
+  ]
+}

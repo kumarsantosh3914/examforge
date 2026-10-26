@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 12,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-12-001",
+      "number": 1,
+      "question": "Value of P(E) + P(not E)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "Sum of probabilities of happening and not happening is 1.",
+      "hash": "223b4de34c7b1676",
+      "translations": {
+        "hi": {
+          "question": "किसी घटना E की प्रायिकता P(E) + P(E नहीं) का मान क्या होता है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "किसी घटना के घटित होने और न घटित होने की प्रायिकता का योग हमेशा 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-002",
+      "number": 2,
+      "question": "Probability of a Sure Event?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "अनंत"
+      },
+      "answer": "B",
+      "explanation": "Probability is 1.",
+      "hash": "c711d60a6d4872cc",
+      "translations": {
+        "hi": {
+          "question": "निश्चित घटना (Sure Event) की प्रायिकता क्या होती है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "अनंत"
+          },
+          "explanation": "निश्चित घटना की प्रायिकता हमेशा 1 होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-003",
+      "number": 3,
+      "question": "Probability of an Impossible Event?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "Probability is 0.",
+      "hash": "01fd0dbf72dd40c4",
+      "translations": {
+        "hi": {
+          "question": "असंभव घटना (Impossible Event) की प्रायिकता क्या होती है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "1/2",
+            "D": "-1"
+          },
+          "explanation": "जो घटना घट ही नहीं सकती, उसकी प्रायिकता 0 होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-004",
+      "number": 4,
+      "question": "Which number cannot be the probability of an event?",
+      "options": {
+        "A": "2/3",
+        "B": "-1.5",
+        "C": "15%",
+        "D": "0.7"
+      },
+      "answer": "B",
+      "explanation": "Probability cannot be negative.",
+      "hash": "739329f955806d36",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या किसी घटना की प्रायिकता नहीं हो सकती?",
+          "options": {
+            "A": "2/3",
+            "B": "-1.5",
+            "C": "15%",
+            "D": "0.7"
+          },
+          "explanation": "प्रायिकता कभी भी ऋणात्मक (Negative) नहीं हो सकती।"
+        }
+      }
+    },
+    {
+      "id": "math-12-005",
+      "number": 5,
+      "question": "Probability of getting a Head in a coin toss?",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "Total outcomes 2. Favorable 1. P = 1/2.",
+      "hash": "502604c038d66bba",
+      "translations": {
+        "hi": {
+          "question": "एक सिक्का उछालने पर 'चित' (Head) आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/3",
+            "B": "1/2",
+            "C": "1",
+            "D": "0"
+          },
+          "explanation": "कुल परिणाम = 2 (Head, Tail)। चित = 1। प्रायिकता = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "math-12-006",
+      "number": 6,
+      "question": "Probability of getting 4 in a die throw?",
+      "options": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Favorable 1, Total 6. P = 1/6.",
+      "hash": "c85310c786561d5f",
+      "translations": {
+        "hi": {
+          "question": "एक पासा (Die) फेंकने पर 4 आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "1"
+          },
+          "explanation": "पासे में कुल 6 अंक होते हैं। 4 केवल एक बार आता है। P = 1/6।"
+        }
+      }
+    },
+    {
+      "id": "math-12-007",
+      "number": 7,
+      "question": "Which statement is true for event E?",
+      "options": {
+        "A": "P(E) > 1",
+        "B": "P(E) < 0",
+        "C": "0 ≤ P(E) ≤ 1",
+        "D": "P(E) = -1"
+      },
+      "answer": "C",
+      "explanation": "0 ≤ P(E) ≤ 1.",
+      "hash": "10a6f9df557ac8d6",
+      "translations": {
+        "hi": {
+          "question": "किसी घटना E के लिए कौन सा कथन सत्य है?",
+          "options": {
+            "A": "P(E) > 1",
+            "B": "P(E) < 0",
+            "C": "0 ≤ P(E) ≤ 1",
+            "D": "P(E) = -1"
+          },
+          "explanation": "प्रायिकता 0 और 1 के बीच या उनके बराबर होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-008",
+      "number": 8,
+      "question": "Probability of getting an even number on a die?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/6",
+        "D": "2/3"
+      },
+      "answer": "A",
+      "explanation": "Even numbers: 2, 4, 6. P = 3/6 = 1/2.",
+      "hash": "a08798a290bb6b16",
+      "translations": {
+        "hi": {
+          "question": "एक पासे को फेंकने पर सम संख्या (Even number) आने की प्रायिकता?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/6",
+            "D": "2/3"
+          },
+          "explanation": "सम संख्याएं: 2, 4, 6 (कुल 3)। P = 3/6 = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "math-12-009",
+      "number": 9,
+      "question": "Probability of drawing an Ace from a deck?",
+      "options": {
+        "A": "1/13",
+        "B": "1/4",
+        "C": "1/52",
+        "D": "4/13"
+      },
+      "answer": "A",
+      "explanation": "4 Aces in 52 cards. P = 4/52 = 1/13.",
+      "hash": "c100e706a41f9bb4",
+      "translations": {
+        "hi": {
+          "question": "ताश की अच्छी तरह फेंटी गई गड्डी से एक पत्ता निकालने पर उसके 'इक्का' (Ace) होने की प्रायिकता?",
+          "options": {
+            "A": "1/13",
+            "B": "1/4",
+            "C": "1/52",
+            "D": "4/13"
+          },
+          "explanation": "कुल इक्के = 4, कुल पत्ते = 52। P = 4/52 = 1/13।"
+        }
+      }
+    },
+    {
+      "id": "math-12-010",
+      "number": 10,
+      "question": "If P(E) = 0.05, probability of 'not E'?",
+      "options": {
+        "A": "0.95",
+        "B": "0.05",
+        "C": "1.05",
+        "D": "0.5"
+      },
+      "answer": "A",
+      "explanation": "1 - 0.05 = 0.95.",
+      "hash": "7b978c73eb6da436",
+      "translations": {
+        "hi": {
+          "question": "यदि P(E) = 0.05 है, तो 'E नहीं' (not E) की प्रायिकता क्या है?",
+          "options": {
+            "A": "0.95",
+            "B": "0.05",
+            "C": "1.05",
+            "D": "0.5"
+          },
+          "explanation": "P(not E) = 1 - P(E) = 1 - 0.05 = 0.95।"
+        }
+      }
+    },
+    {
+      "id": "math-12-011",
+      "number": 11,
+      "question": "Two coins tossed. Probability of at least one Head?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "Favorable: HH, HT, TH. P = 3/4.",
+      "hash": "e70d8e4d88da2d87",
+      "translations": {
+        "hi": {
+          "question": "दो सिक्कों को एक साथ उछालने पर, कम से कम एक चित (Head) आने की प्रायिकता?",
+          "options": {
+            "A": "1/4",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "1"
+          },
+          "explanation": "परिणाम: HH, HT, TH, TT। अनुकूल (HH, HT, TH) = 3। P = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "math-12-012",
+      "number": 12,
+      "question": "Bag has 3 Red, 5 Black balls. Probability of Red?",
+      "options": {
+        "A": "3/5",
+        "B": "5/8",
+        "C": "3/8",
+        "D": "1/2"
+      },
+      "answer": "C",
+      "explanation": "Total 8, Red 3. P = 3/8.",
+      "hash": "7e5d1c3e603428a8",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 3 लाल और 5 काली गेंदें हैं। एक लाल गेंद निकालने की प्रायिकता?",
+          "options": {
+            "A": "3/5",
+            "B": "5/8",
+            "C": "3/8",
+            "D": "1/2"
+          },
+          "explanation": "कुल गेंदें = 3+5=8। लाल = 3। P = 3/8।"
+        }
+      }
+    },
+    {
+      "id": "math-12-013",
+      "number": 13,
+      "question": "Probability of 53 Sundays in a Leap Year?",
+      "options": {
+        "A": "1/7",
+        "B": "2/7",
+        "C": "5/7",
+        "D": "6/7"
+      },
+      "answer": "B",
+      "explanation": "2 extra days. P = 2/7.",
+      "hash": "bf9902bf9c5f3c56",
+      "translations": {
+        "hi": {
+          "question": "लीप वर्ष (Leap Year) में 53 रविवार होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/7",
+            "B": "2/7",
+            "C": "5/7",
+            "D": "6/7"
+          },
+          "explanation": "366 दिन = 52 सप्ताह + 2 दिन। 2 दिनों में रविवार आने के 2 संयोग (Sun-Mon, Sat-Sun)। P = 2/7।"
+        }
+      }
+    },
+    {
+      "id": "math-12-014",
+      "number": 14,
+      "question": "Probability of drawing a Face Card?",
+      "options": {
+        "A": "3/13",
+        "B": "1/13",
+        "C": "1/4",
+        "D": "4/13"
+      },
+      "answer": "A",
+      "explanation": "12 Face cards. P = 12/52 = 3/13.",
+      "hash": "e53206b3fae68674",
+      "translations": {
+        "hi": {
+          "question": "ताश की गड्डी से एक पत्ता निकालने पर उसके 'तस्वीर वाला पत्ता' (Face Card) होने की प्रायिकता?",
+          "options": {
+            "A": "3/13",
+            "B": "1/13",
+            "C": "1/4",
+            "D": "4/13"
+          },
+          "explanation": "कुल फेस कार्ड (J, Q, K) = 12। P = 12/52 = 3/13।"
+        }
+      }
+    },
+    {
+      "id": "math-12-015",
+      "number": 15,
+      "question": "Probability of getting number > 2 on a die?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2/3",
+        "D": "5/6"
+      },
+      "answer": "C",
+      "explanation": "Numbers 3, 4, 5, 6. Total 4. P = 4/6 = 2/3.",
+      "hash": "5c0deb4ac7d794e6",
+      "translations": {
+        "hi": {
+          "question": "एक पासे को फेंकने पर 2 से बड़ी संख्या आने की प्रायिकता?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "5/6"
+          },
+          "explanation": "संख्याएं: 3, 4, 5, 6 (कुल 4)। P = 4/6 = 2/3।"
+        }
+      }
+    },
+    {
+      "id": "math-12-016",
+      "number": 16,
+      "question": "Probability of getting a Prime Number on a die?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/4",
+        "D": "2/3"
+      },
+      "answer": "A",
+      "explanation": "Primes: 2, 3, 5. P = 3/6 = 1/2.",
+      "hash": "1060dce9e028ff72",
+      "translations": {
+        "hi": {
+          "question": "एक पासे को फेंकने पर अभाज्य संख्या (Prime Number) आने की प्रायिकता?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/4",
+            "D": "2/3"
+          },
+          "explanation": "अभाज्य संख्याएं: 2, 3, 5 (कुल 3)। P = 3/6 = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "math-12-017",
+      "number": 17,
+      "question": "Probability of winning is 0.3, probability of losing?",
+      "options": {
+        "A": "0.7",
+        "B": "0.3",
+        "C": "0.5",
+        "D": "1.3"
+      },
+      "answer": "A",
+      "explanation": "1 - 0.3 = 0.7.",
+      "hash": "fc9d31ac40693f5f",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी खेल को जीतने की प्रायिकता 0.3 है, तो हारने की प्रायिकता क्या होगी?",
+          "options": {
+            "A": "0.7",
+            "B": "0.3",
+            "C": "0.5",
+            "D": "1.3"
+          },
+          "explanation": "1 - 0.3 = 0.7।"
+        }
+      }
+    },
+    {
+      "id": "math-12-018",
+      "number": 18,
+      "question": "Probability of choosing a Vowel from 'MATHEMATICS'?",
+      "options": {
+        "A": "4/11",
+        "B": "3/11",
+        "C": "5/11",
+        "D": "2/11"
+      },
+      "answer": "A",
+      "explanation": "4 Vowels (A, E, A, I) out of 11 letters.",
+      "hash": "c31e3d381ce52ed8",
+      "translations": {
+        "hi": {
+          "question": "शब्द 'MATHEMATICS' से एक अक्षर चुनने पर उसके स्वर (Vowel) होने की प्रायिकता?",
+          "options": {
+            "A": "4/11",
+            "B": "3/11",
+            "C": "5/11",
+            "D": "2/11"
+          },
+          "explanation": "कुल अक्षर = 11। स्वर (A, E, A, I) = 4। P = 4/11।"
+        }
+      }
+    },
+    {
+      "id": "math-12-019",
+      "number": 19,
+      "question": "5 Red, 8 White, 4 Green marbles. Probability of Green?",
+      "options": {
+        "A": "4/17",
+        "B": "4/13",
+        "C": "5/17",
+        "D": "8/17"
+      },
+      "answer": "A",
+      "explanation": "Total 17, Green 4. P = 4/17.",
+      "hash": "ebc7458df74e6b79",
+      "translations": {
+        "hi": {
+          "question": "एक डिब्बे में 5 लाल कंचे, 8 सफेद कंचे और 4 हरे कंचे हैं। एक कंचा निकालने पर उसके हरे होने की प्रायिकता?",
+          "options": {
+            "A": "4/17",
+            "B": "4/13",
+            "C": "5/17",
+            "D": "8/17"
+          },
+          "explanation": "कुल = 5+8+4 = 17। हरे = 4। P = 4/17।"
+        }
+      }
+    },
+    {
+      "id": "math-12-020",
+      "number": 20,
+      "question": "Two dice thrown. Probability of sum 13?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/36",
+        "D": "1/12"
+      },
+      "answer": "A",
+      "explanation": "Max sum is 12. Sum 13 is impossible. P = 0.",
+      "hash": "8c5732c3524323d5",
+      "translations": {
+        "hi": {
+          "question": "दो पासों को एक साथ फेंकने पर, अंकों का योग 13 आने की प्रायिकता?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/36",
+            "D": "1/12"
+          },
+          "explanation": "अधिकतम योग 12 (6+6) हो सकता है। 13 असंभव है। P = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-12-021",
+      "number": 21,
+      "question": "Probability of getting number < 7 on a die?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "5/6",
+        "D": "1/6"
+      },
+      "answer": "A",
+      "explanation": "All numbers are < 7. Sure event P=1.",
+      "hash": "e3d2db7731e602b0",
+      "translations": {
+        "hi": {
+          "question": "एक पासे को फेंकने पर 7 से छोटी संख्या आने की प्रायिकता?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "5/6",
+            "D": "1/6"
+          },
+          "explanation": "पासे के सभी अंक (1-6) 7 से छोटे होते हैं। यह निश्चित घटना है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-022",
+      "number": 22,
+      "question": "Probability of 53 Mondays in a Non-leap year?",
+      "options": {
+        "A": "1/7",
+        "B": "2/7",
+        "C": "53/365",
+        "D": "1/365"
+      },
+      "answer": "A",
+      "explanation": "1 extra day. P = 1/7.",
+      "hash": "653cc2814fbb8f8e",
+      "translations": {
+        "hi": {
+          "question": "सामान्य वर्ष (Non-leap year) में 53 सोमवार होने की प्रायिकता?",
+          "options": {
+            "A": "1/7",
+            "B": "2/7",
+            "C": "53/365",
+            "D": "1/365"
+          },
+          "explanation": "365 दिन = 52 सप्ताह + 1 दिन। 1 दिन सोमवार हो सकता है 1/7 संयोग से।"
+        }
+      }
+    },
+    {
+      "id": "math-12-023",
+      "number": 23,
+      "question": "Probability of drawing a Red King?",
+      "options": {
+        "A": "1/26",
+        "B": "1/13",
+        "C": "1/52",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "2 Red Kings. P = 2/52 = 1/26.",
+      "hash": "7d86b5e93cde486e",
+      "translations": {
+        "hi": {
+          "question": "ताश की गड्डी से 'लाल रंग का बादशाह' निकालने की प्रायिकता?",
+          "options": {
+            "A": "1/26",
+            "B": "1/13",
+            "C": "1/52",
+            "D": "1/2"
+          },
+          "explanation": "लाल बादशाह 2 होते हैं (पान और ईंट)। P = 2/52 = 1/26।"
+        }
+      }
+    },
+    {
+      "id": "math-12-024",
+      "number": 24,
+      "question": "Probability of Sun rising in the West?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Impossible event.",
+      "hash": "e0685a5c4496e73e",
+      "translations": {
+        "hi": {
+          "question": "सूर्य के पश्चिम से निकलने की प्रायिकता क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "कोई नहीं"
+          },
+          "explanation": "यह एक असंभव घटना है।"
+        }
+      }
+    },
+    {
+      "id": "math-12-025",
+      "number": 25,
+      "question": "10 prizes, 25 blanks. Probability of winning prize?",
+      "options": {
+        "A": "2/7",
+        "B": "2/5",
+        "C": "10/25",
+        "D": "5/7"
+      },
+      "answer": "A",
+      "explanation": "Total 35, Prize 10. P = 10/35 = 2/7.",
+      "hash": "2995b1594d237d9d",
+      "translations": {
+        "hi": {
+          "question": "किसी लॉटरी में 10 इनाम और 25 खाली हैं। इनाम पाने की प्रायिकता?",
+          "options": {
+            "A": "2/7",
+            "B": "2/5",
+            "C": "10/25",
+            "D": "5/7"
+          },
+          "explanation": "कुल टिकट = 10 + 25 = 35। इनाम = 10। P = 10/35 = 2/7।"
+        }
+      }
+    },
+    {
+      "id": "math-12-026",
+      "number": 26,
+      "question": "Family with 2 kids. Probability both are girls?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "1/3"
+      },
+      "answer": "A",
+      "explanation": "Outcomes: BB, BG, GB, GG. Fav: GG. P=1/4.",
+      "hash": "10daf729794ad92a",
+      "translations": {
+        "hi": {
+          "question": "एक परिवार में 2 बच्चे हैं। दोनों के लड़की होने की प्रायिकता?",
+          "options": {
+            "A": "1/4",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "1/3"
+          },
+          "explanation": "परिणाम: BB, BG, GB, GG। अनुकूल (GG) = 1। P = 1/4।"
+        }
+      }
+    },
+    {
+      "id": "math-12-027",
+      "number": 27,
+      "question": "Two coins tossed. Probability of at most one Head?",
+      "options": {
+        "A": "3/4",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Fav: TT, TH, HT. P = 3/4.",
+      "hash": "e1b0104137185e80",
+      "translations": {
+        "hi": {
+          "question": "दो सिक्कों को उछालने पर, अधिक से अधिक एक चित (At most one Head) आने की प्रायिकता?",
+          "options": {
+            "A": "3/4",
+            "B": "1/4",
+            "C": "1/2",
+            "D": "1"
+          },
+          "explanation": "परिणाम: TT, TH, HT (HH नहीं)। कुल 3। P = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "math-12-028",
+      "number": 28,
+      "question": "Probability of drawing a Black card?",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1/13",
+        "D": "12/13"
+      },
+      "answer": "A",
+      "explanation": "26 Black cards. P = 1/2.",
+      "hash": "81fe1745ab129349",
+      "translations": {
+        "hi": {
+          "question": "एक अच्छी तरह फेंटी गई ताश की गड्डी में से 'काला पत्ता' (Black card) निकालने की प्रायिकता?",
+          "options": {
+            "A": "1/2",
+            "B": "1/4",
+            "C": "1/13",
+            "D": "12/13"
+          },
+          "explanation": "कुल काले पत्ते = 26। P = 26/52 = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "math-12-029",
+      "number": 29,
+      "question": "Cards 1-10. Probability of multiple of 3?",
+      "options": {
+        "A": "3/10",
+        "B": "1/10",
+        "C": "2/5",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "Multiples: 3, 6, 9. P = 3/10.",
+      "hash": "23f27d8c9b91d7d1",
+      "translations": {
+        "hi": {
+          "question": "1 से 10 तक के कार्डों में से एक कार्ड चुना जाता है। संख्या के 3 का गुणज होने की प्रायिकता?",
+          "options": {
+            "A": "3/10",
+            "B": "1/10",
+            "C": "2/5",
+            "D": "1/2"
+          },
+          "explanation": "3 के गुणज: 3, 6, 9 (कुल 3)। P = 3/10।"
+        }
+      }
+    },
+    {
+      "id": "math-12-030",
+      "number": 30,
+      "question": "Sum of probabilities of all elementary events?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "100",
+        "D": "अनंत"
+      },
+      "answer": "A",
+      "explanation": "Sum is always 1.",
+      "hash": "0207fb6465cbc1b3",
+      "translations": {
+        "hi": {
+          "question": "प्रयोग की सभी प्रारंभिक घटनाओं की प्रायिकताओं का योग क्या होता है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "100",
+            "D": "अनंत"
+          },
+          "explanation": "सभी प्रायिकताओं का योग हमेशा 1 होता है।"
+        }
+      }
+    }
+  ]
+}

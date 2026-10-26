@@ -1,0 +1,567 @@
+{
+  "subject": "Number System",
+  "set": 1,
+  "title": "Number System Mock Test 1",
+  "questions": [
+    {
+      "id": "number-system-01-001",
+      "number": 1,
+      "question": "Which of the following is an irrational number?",
+      "options": {
+        "A": "0.23",
+        "B": "1.41414...",
+        "C": "Square root of 2",
+        "D": "22/7",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Square root of 2 cannot be expressed as a ratio of two integers; its decimal expansion is non-terminating and non-repeating.",
+      "hash": "45d42627cbf2171f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक अपरिमेय संख्या है?",
+          "options": {
+            "A": "0.23",
+            "B": "1.41414...",
+            "C": "2 का वर्गमूल",
+            "D": "22/7",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "2 का वर्गमूल दो पूर्णांकों के अनुपात के रूप में व्यक्त नहीं किया जा सकता; इसका दशमलव प्रसार अशांत और अनावर्ती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-002",
+      "number": 2,
+      "question": "The sum of a rational and an irrational number is always:",
+      "options": {
+        "A": "Rational",
+        "B": "Irrational",
+        "C": "An integer",
+        "D": "A natural number",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "The sum of any rational number and any irrational number is always irrational.",
+      "hash": "0f00b0ceb80fa4b2",
+      "translations": {
+        "hi": {
+          "question": "एक परिमेय और एक अपरिमेय संख्या का योग हमेशा होता है:",
+          "options": {
+            "A": "परिमेय",
+            "B": "अपरिमेय",
+            "C": "एक पूर्णांक",
+            "D": "एक प्राकृतिक संख्या",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "किसी भी परिमेय संख्या और किसी भी अपरिमेय संख्या का योग हमेशा अपरिमेय होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-003",
+      "number": 3,
+      "question": "What is the unit digit of 7 raised to the power 105?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "7",
+        "D": "9",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Power 105 divided by 4 leaves remainder 1. 7 raised to 1 is 7.",
+      "hash": "39f8944a83cf31c9",
+      "translations": {
+        "hi": {
+          "question": "7 की घात 105 का इकाई अंक क्या है?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "7",
+            "D": "9",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "घात 105 को 4 से भाग देने पर शेषफल 1 बचता है। 7 की घात 1, 7 होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-004",
+      "number": 4,
+      "question": "Every rational number is also a:",
+      "options": {
+        "A": "Whole number",
+        "B": "Integer",
+        "C": "Real number",
+        "D": "Natural number",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Real numbers include both rational and irrational numbers.",
+      "hash": "f99aa837bd79c6b9",
+      "translations": {
+        "hi": {
+          "question": "प्रत्येक परिमेय संख्या एक ____ भी होती है:",
+          "options": {
+            "A": "पूर्ण संख्या",
+            "B": "पूर्णांक",
+            "C": "वास्तविक संख्या",
+            "D": "प्राकृतिक संख्या",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वास्तविक संख्याओं में परिमेय और अपरिमेय दोनों संख्याएँ शामिल होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-005",
+      "number": 5,
+      "question": "Find the HCF of 96 and 404.",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "12",
+        "D": "32",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "96 = 2^5 * 3 and 404 = 2^2 * 101. Common factor is 2^2 = 4.",
+      "hash": "00e8c8ed53edb71f",
+      "translations": {
+        "hi": {
+          "question": "96 और 404 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "12",
+            "D": "32",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "96 = 2^5 * 3 और 404 = 2^2 * 101। सामान्य गुणनखंड 2^2 = 4 है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-006",
+      "number": 6,
+      "question": "If n is a natural number, then 6 raised to n minus 5 raised to n always ends with:",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "5",
+        "D": "7",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "6^n ends in 6 and 5^n ends in 5. 6 minus 5 equals 1.",
+      "hash": "9799983fcae1c4e6",
+      "translations": {
+        "hi": {
+          "question": "यदि n एक प्राकृतिक संख्या है, तो 6 की घात n घटा 5 की घात n हमेशा समाप्त होती है:",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "7",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "6^n का अंत 6 में और 5^n का अंत 5 में होता है। 6 घटा 5 बराबर 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-007",
+      "number": 7,
+      "question": "The product of two co-prime numbers is 117. Their LCM should be:",
+      "options": {
+        "A": "1",
+        "B": "117",
+        "C": "39",
+        "D": "9",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "For co-prime numbers, HCF is 1. LCM is equal to the product of the numbers.",
+      "hash": "27c8ad26457e0752",
+      "translations": {
+        "hi": {
+          "question": "दो सह-अभाज्य संख्याओं का गुणनफल 117 है। उनका लघुत्तम समापवर्त्य (LCM) होना चाहिए:",
+          "options": {
+            "A": "1",
+            "B": "117",
+            "C": "39",
+            "D": "9",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "सह-अभाज्य संख्याओं के लिए, HCF 1 होता है। LCM संख्याओं के गुणनफल के बराबर होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-008",
+      "number": 8,
+      "question": "Which of the following is a terminating decimal?",
+      "options": {
+        "A": "1/3",
+        "B": "2/11",
+        "C": "7/8",
+        "D": "5/6",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "A fraction has a terminating decimal if the prime factors of the denominator are only 2 and 5. Here 8 = 2^3.",
+      "hash": "64611f1204f83a62",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा एक शांत दशमलव है?",
+          "options": {
+            "A": "1/3",
+            "B": "2/11",
+            "C": "7/8",
+            "D": "5/6",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक भिन्न का दशमलव प्रसार शांत होता है यदि हर के अभाज्य गुणनखंड केवल 2 और 5 हों। यहाँ 8 = 2^3 है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-009",
+      "number": 9,
+      "question": "The decimal expansion of pi is:",
+      "options": {
+        "A": "Terminating",
+        "B": "Non-terminating repeating",
+        "C": "Non-terminating non-repeating",
+        "D": "3.14",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Pi is an irrational number, so its decimal expansion is non-terminating and non-repeating.",
+      "hash": "b4cc8ba42c6c34ca",
+      "translations": {
+        "hi": {
+          "question": "पाई (pi) का दशमलव प्रसार है:",
+          "options": {
+            "A": "शांत",
+            "B": "अशांत आवर्ती",
+            "C": "अशांत अनावर्ती",
+            "D": "3.14",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पाई एक अपरिमेय संख्या है, इसलिए इसका दशमलव प्रसार अशांत और अनावर्ती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-010",
+      "number": 10,
+      "question": "What is the value of 0.333... in fraction form?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/9",
+        "D": "3/10",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Let x = 0.333... then 10x = 3.333... Subtracting gives 9x = 3, so x = 1/3.",
+      "hash": "c42fb9ae4cf4307f",
+      "translations": {
+        "hi": {
+          "question": "भिन्न रूप में 0.333... का मान क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/9",
+            "D": "3/10",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना x = 0.333... तो 10x = 3.333... घटाने पर 9x = 3 मिलता है, इसलिए x = 1/3।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-011",
+      "number": 11,
+      "question": "Smallest composite number is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Composite numbers are numbers with more than two factors. 4 is the smallest.",
+      "hash": "632f366ee2c7af7a",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटी भाज्य संख्या है:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "भाज्य संख्याएँ वे संख्याएँ होती हैं जिनके दो से अधिक गुणनखंड होते हैं। 4 सबसे छोटी है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-012",
+      "number": 12,
+      "question": "The product of a non-zero rational and an irrational number is:",
+      "options": {
+        "A": "Always rational",
+        "B": "Always irrational",
+        "C": "Always an integer",
+        "D": "Sometimes rational",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Multiplying a non-zero rational number with an irrational number always results in an irrational number.",
+      "hash": "ece7ee4e6f053d6c",
+      "translations": {
+        "hi": {
+          "question": "एक गैर-शून्य परिमेय और एक अपरिमेय संख्या का गुणनफल होता है:",
+          "options": {
+            "A": "हमेशा परिमेय",
+            "B": "हमेशा अपरिमेय",
+            "C": "हमेशा एक पूर्णांक",
+            "D": "कभी-कभी परिमेय",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक गैर-शून्य परिमेय संख्या को अपरिमेय संख्या से गुणा करने पर हमेशा अपरिमेय संख्या प्राप्त होती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-013",
+      "number": 13,
+      "question": "The LCM of smallest prime number and smallest composite number is:",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Smallest prime is 2, smallest composite is 4. LCM(2, 4) = 4.",
+      "hash": "cfdc0c1d4b3b521d",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटी अभाज्य संख्या और सबसे छोटी भाज्य संख्या का LCM है:",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "सबसे छोटी अभाज्य संख्या 2 है, सबसे छोटी भाज्य 4 है। LCM(2, 4) = 4।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-014",
+      "number": 14,
+      "question": "Which number is neither prime nor composite?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "1 is the unique number that is neither prime nor composite.",
+      "hash": "5f64307a6b911af0",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या न तो अभाज्य है और न ही भाज्य?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1 वह विशिष्ट संख्या है जो न तो अभाज्य है और न ही भाज्य।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-015",
+      "number": 15,
+      "question": "If the HCF of two numbers is 1, then the numbers are called:",
+      "options": {
+        "A": "Composite",
+        "B": "Co-prime",
+        "C": "Even",
+        "D": "Odd",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Co-prime numbers are pairs of numbers that do not have any common factor other than 1.",
+      "hash": "080fc686866b96be",
+      "translations": {
+        "hi": {
+          "question": "यदि दो संख्याओं का HCF 1 है, तो संख्याओं को कहा जाता है:",
+          "options": {
+            "A": "भाज्य",
+            "B": "सह-अभाज्य",
+            "C": "सम",
+            "D": "विषम",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "सह-अभाज्य संख्याएँ उन संख्याओं के जोड़े होते हैं जिनमें 1 के अलावा कोई अन्य सामान्य गुणनखंड नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-016",
+      "number": 16,
+      "question": "The sum of first five prime numbers is:",
+      "options": {
+        "A": "11",
+        "B": "18",
+        "C": "26",
+        "D": "28",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "First five primes are 2, 3, 5, 7, 11. Sum = 2+3+5+7+11 = 28.",
+      "hash": "51af24822f3aa68c",
+      "translations": {
+        "hi": {
+          "question": "प्रथम पाँच अभाज्य संख्याओं का योग है:",
+          "options": {
+            "A": "11",
+            "B": "18",
+            "C": "26",
+            "D": "28",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रथम पाँच अभाज्य संख्याएँ 2, 3, 5, 7, 11 हैं। योग = 2+3+5+7+11 = 28।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-017",
+      "number": 17,
+      "question": "How many rational numbers exist between any two rational numbers?",
+      "options": {
+        "A": "Only one",
+        "B": "Exactly ten",
+        "C": "Infinitely many",
+        "D": "None",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Between any two distinct rational numbers, there are infinitely many rational numbers.",
+      "hash": "7c8680335faad098",
+      "translations": {
+        "hi": {
+          "question": "किन्हीं दो परिमेय संख्याओं के बीच कितनी परिमेय संख्याएँ होती हैं?",
+          "options": {
+            "A": "केवल एक",
+            "B": "ठीक दस",
+            "C": "अनंत",
+            "D": "कोई नहीं",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "किन्हीं दो अलग-अलग परिमेय संख्याओं के बीच अनंत परिमेय संख्याएँ होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-018",
+      "number": 18,
+      "question": "If a number is divisible by both 3 and 4, it must be divisible by:",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "24",
+        "D": "10",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "If a number is divisible by two co-prime numbers, it is divisible by their product (3 * 4 = 12).",
+      "hash": "bd6fe157e091678f",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई संख्या 3 और 4 दोनों से विभाज्य है, तो वह निश्चित रूप से विभाज्य होगी:",
+          "options": {
+            "A": "7",
+            "B": "12",
+            "C": "24",
+            "D": "10",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "यदि कोई संख्या दो सह-अभाज्य संख्याओं से विभाज्य है, तो वह उनके गुणनफल (3 * 4 = 12) से भी विभाज्य होती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-019",
+      "number": 19,
+      "question": "A number ending in 5 will always have a square ending in:",
+      "options": {
+        "A": "5",
+        "B": "15",
+        "C": "25",
+        "D": "05",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Any number ending in 5, when squared, always ends with 25.",
+      "hash": "94a4358baed8ad9d",
+      "translations": {
+        "hi": {
+          "question": "5 पर समाप्त होने वाली संख्या के वर्ग का अंत हमेशा होगा:",
+          "options": {
+            "A": "5",
+            "B": "15",
+            "C": "25",
+            "D": "05",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "5 पर समाप्त होने वाली किसी भी संख्या का वर्ग करने पर वह हमेशा 25 पर समाप्त होती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-01-020",
+      "number": 20,
+      "question": "The difference between the largest 3-digit number and the smallest 2-digit number is:",
+      "options": {
+        "A": "989",
+        "B": "900",
+        "C": "990",
+        "D": "899",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "999 minus 10 equals 989.",
+      "hash": "5abc50997f99edef",
+      "translations": {
+        "hi": {
+          "question": "3-अंकों की सबसे बड़ी संख्या और 2-अंकों की सबसे छोटी संख्या के बीच का अंतर है:",
+          "options": {
+            "A": "989",
+            "B": "900",
+            "C": "990",
+            "D": "899",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "999 घटा 10 बराबर 989 होता है।"
+        }
+      }
+    }
+  ]
+}

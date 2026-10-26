@@ -1,0 +1,567 @@
+{
+  "subject": "Trigonometry",
+  "set": 1,
+  "title": "Trigonometry Mock Test 1",
+  "questions": [
+    {
+      "id": "trigonometry-01-001",
+      "number": 1,
+      "question": "If sin A = 3/5, then find the value of tan A.",
+      "options": {
+        "A": "3/4",
+        "B": "4/3",
+        "C": "4/5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Using Pythagoras theorem, if perpendicular is 3 and hypotenuse is 5, base is 4. Tan A = P/B = 3/4.",
+      "hash": "3e01ba46c2fad57f",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = 3/5 है, तो tan A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "3/4",
+            "B": "4/3",
+            "C": "4/5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पाइथागोरस प्रमेय का उपयोग करते हुए, यदि लंब 3 है और कर्ण 5 है, तो आधार 4 है। Tan A = लंब/आधार = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-002",
+      "number": 2,
+      "question": "Find the value of (sec^2 45 - tan^2 45).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "According to the trigonometric identity, sec^2 x - tan^2 x = 1 for any angle x.",
+      "hash": "5d9a2acbbc09aed1",
+      "translations": {
+        "hi": {
+          "question": "(sec^2 45 - tan^2 45) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "त्रिकोणमितीय सर्वसमिका के अनुसार, किसी भी कोण x के लिए sec^2 x - tan^2 x = 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-003",
+      "number": 3,
+      "question": "If cos A + cos^2 A = 1, then find the value of (sin^2 A + sin^4 A).",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "cos A = 1 - cos^2 A = sin^2 A. Squaring both sides, cos^2 A = sin^4 A. Thus, sin^2 A + sin^4 A = cos A + cos^2 A = 1.",
+      "hash": "052df22b74f5a0a1",
+      "translations": {
+        "hi": {
+          "question": "यदि cos A + cos^2 A = 1 है, तो (sin^2 A + sin^4 A) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1/2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "cos A = 1 - cos^2 A = sin^2 A। दोनों पक्षों का वर्ग करने पर, cos^2 A = sin^4 A। अतः, sin^2 A + sin^4 A = cos A + cos^2 A = 1।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-004",
+      "number": 4,
+      "question": "The value of (sin 30 + cos 30) - (sin 60 + cos 60) is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "sin 30 = 1/2, cos 30 = sqrt(3)/2, sin 60 = sqrt(3)/2, cos 60 = 1/2. Subtracting them gives 0.",
+      "hash": "3e02257ba31c95c1",
+      "translations": {
+        "hi": {
+          "question": "(sin 30 + cos 30) - (sin 60 + cos 60) का मान है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin 30 = 1/2, cos 30 = sqrt(3)/2, sin 60 = sqrt(3)/2, cos 60 = 1/2। इन्हें घटाने पर 0 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-005",
+      "number": 5,
+      "question": "If a pole 6m high casts a shadow 2*sqrt(3)m long on the ground, then the sun's elevation is:",
+      "options": {
+        "A": "60 degrees",
+        "B": "45 degrees",
+        "C": "30 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "tan x = Height/Shadow = 6 / (2*sqrt(3)) = 3/sqrt(3) = sqrt(3). tan 60 = sqrt(3).",
+      "hash": "f904d1a3969f320a",
+      "translations": {
+        "hi": {
+          "question": "यदि 6 मीटर ऊँचा एक खंभा जमीन पर 2*sqrt(3) मीटर लंबी छाया बनाता है, तो सूर्य का उन्नयन कोण है:",
+          "options": {
+            "A": "60 डिग्री",
+            "B": "45 डिग्री",
+            "C": "30 डिग्री",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan x = ऊँचाई/छाया = 6 / (2*sqrt(3)) = 3/sqrt(3) = sqrt(3)। tan 60 = sqrt(3) होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-006",
+      "number": 6,
+      "question": "Evaluate: (sin 18 / cos 72).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "sin 18 = sin(90 - 72) = cos 72. So, cos 72 / cos 72 = 1.",
+      "hash": "ab4b243978d7d113",
+      "translations": {
+        "hi": {
+          "question": "मान ज्ञात कीजिए: (sin 18 / cos 72).",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin 18 = sin(90 - 72) = cos 72। इसलिए, cos 72 / cos 72 = 1।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-007",
+      "number": 7,
+      "question": "If cos(A + B) = 0 and sin(A - B) = 1/2, then find A and B (where A, B are acute).",
+      "options": {
+        "A": "A = 45, B = 15",
+        "B": "A = 60, B = 30",
+        "C": "A = 30, B = 60",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A + B = 90 and A - B = 30. Adding gives 2A = 120, A = 60. Then B = 30.",
+      "hash": "6939ecf5be7efd72",
+      "translations": {
+        "hi": {
+          "question": "यदि cos(A + B) = 0 और sin(A - B) = 1/2 है, तो A और B ज्ञात कीजिए (जहाँ A, B न्यूनकोण हैं)।",
+          "options": {
+            "A": "A = 45, B = 15",
+            "B": "A = 60, B = 30",
+            "C": "A = 30, B = 60",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "A + B = 90 और A - B = 30। जोड़ने पर 2A = 120, A = 60 प्राप्त होता है। तब B = 30।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-008",
+      "number": 8,
+      "question": "If tan A = cot B, then the value of (A + B) is:",
+      "options": {
+        "A": "0",
+        "B": "45 degrees",
+        "C": "90 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "tan A = cot B = tan(90 - B). Therefore, A = 90 - B, which means A + B = 90.",
+      "hash": "8249feebf8b45c65",
+      "translations": {
+        "hi": {
+          "question": "यदि tan A = cot B है, तो (A + B) का मान है:",
+          "options": {
+            "A": "0",
+            "B": "45 डिग्री",
+            "C": "90 डिग्री",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan A = cot B = tan(90 - B)। इसलिए, A = 90 - B, जिसका अर्थ है A + B = 90।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-009",
+      "number": 9,
+      "question": "What is the maximum value of (1 / sec A) for 0 <= A <= 90?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "Infinity",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "1 / sec A = cos A. The maximum value of cos A in the given range is 1 (at A = 0).",
+      "hash": "c59bc7f41164b982",
+      "translations": {
+        "hi": {
+          "question": "0 <= A <= 90 के लिए (1 / sec A) का अधिकतम मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "अनंत",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1 / sec A = cos A। दिए गए अंतराल में cos A का अधिकतम मान 1 (A = 0 पर) होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-010",
+      "number": 10,
+      "question": "Find the value of (1 + tan^2 A) / (1 + cot^2 A).",
+      "options": {
+        "A": "sec^2 A",
+        "B": "-1",
+        "C": "tan^2 A",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "(sec^2 A) / (cosec^2 A) = (1/cos^2 A) / (1/sin^2 A) = sin^2 A / cos^2 A = tan^2 A.",
+      "hash": "aba90e3b633abc75",
+      "translations": {
+        "hi": {
+          "question": "(1 + tan^2 A) / (1 + cot^2 A) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "sec^2 A",
+            "B": "-1",
+            "C": "tan^2 A",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(sec^2 A) / (cosec^2 A) = (1/cos^2 A) / (1/sin^2 A) = sin^2 A / cos^2 A = tan^2 A।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-011",
+      "number": 11,
+      "question": "If the height of a tower and the distance of the point of observation from its foot are both increased by 10%, the angle of elevation:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains unchanged",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "tan x = H/D. If both increase by 1.1, tan x = (1.1H)/(1.1D) = H/D. The ratio remains same.",
+      "hash": "175cf41804cfb450",
+      "translations": {
+        "hi": {
+          "question": "यदि एक टावर की ऊँचाई और उसके आधार से अवलोकन बिंदु की दूरी दोनों में 10% की वृद्धि की जाती है, तो उन्नयन कोण:",
+          "options": {
+            "A": "बढ़ता है",
+            "B": "घटता है",
+            "C": "अपरिवर्तित रहता है",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan x = H/D। यदि दोनों 1.1 बढ़ते हैं, तो tan x = (1.1H)/(1.1D) = H/D। अनुपात समान रहता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-012",
+      "number": 12,
+      "question": "If 5 tan A = 4, then the value of (5 sin A - 3 cos A) / (5 sin A + 2 cos A) is:",
+      "options": {
+        "A": "1/6",
+        "B": "2/5",
+        "C": "5/6",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Divide numerator and denominator by cos A: (5 tan A - 3) / (5 tan A + 2) = (4 - 3) / (4 + 2) = 1/6.",
+      "hash": "3e00ae8a42e73c61",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 tan A = 4 है, तो (5 sin A - 3 cos A) / (5 sin A + 2 cos A) का मान है:",
+          "options": {
+            "A": "1/6",
+            "B": "2/5",
+            "C": "5/6",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अंश और हर को cos A से विभाजित करें: (5 tan A - 3) / (5 tan A + 2) = (4 - 3) / (4 + 2) = 1/6।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-013",
+      "number": 13,
+      "question": "Find the value of sin^2 30 + cos^2 30 + tan^2 45.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "(sin^2 30 + cos^2 30) = 1. tan^2 45 = 1^2 = 1. Total = 1 + 1 = 2.",
+      "hash": "9b9a364cffb1e2ee",
+      "translations": {
+        "hi": {
+          "question": "sin^2 30 + cos^2 30 + tan^2 45 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(sin^2 30 + cos^2 30) = 1। tan^2 45 = 1^2 = 1। कुल = 1 + 1 = 2।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-014",
+      "number": 14,
+      "question": "If sin A = cos A, then find the value of 2 tan^2 A + sin^2 A - 1.",
+      "options": {
+        "A": "1.5",
+        "B": "2",
+        "C": "2.5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "sin A = cos A implies A = 45. 2(1)^2 + (1/sqrt(2))^2 - 1 = 2 + 0.5 - 1 = 1.5.",
+      "hash": "cd44acb819ba70af",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = cos A है, तो 2 tan^2 A + sin^2 A - 1 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1.5",
+            "B": "2",
+            "C": "2.5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin A = cos A का अर्थ है A = 45। 2(1)^2 + (1/sqrt(2))^2 - 1 = 2 + 0.5 - 1 = 1.5।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-015",
+      "number": 15,
+      "question": "A ladder 15m long just reaches the top of a vertical wall. If the ladder makes an angle of 60 degrees with the wall, find the height of the wall.",
+      "options": {
+        "A": "15m",
+        "B": "7.5m",
+        "C": "15*sqrt(3)m",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Angle with wall is 60, so angle with ground is 30. Height = 15 * sin 30 = 15 * 0.5 = 7.5m.",
+      "hash": "219b9aa1d4dbb711",
+      "translations": {
+        "hi": {
+          "question": "15 मीटर लंबी एक सीढ़ी एक ऊर्ध्वाधर दीवार के शीर्ष तक पहुँचती है। यदि सीढ़ी दीवार के साथ 60 डिग्री का कोण बनाती है, तो दीवार की ऊँचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "15 मीटर",
+            "B": "7.5 मीटर",
+            "C": "15*sqrt(3) मीटर",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दीवार के साथ कोण 60 है, इसलिए जमीन के साथ कोण 30 है। ऊँचाई = 15 * sin 30 = 15 * 0.5 = 7.5 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-016",
+      "number": 16,
+      "question": "The value of (1 - tan^2 45) / (1 + tan^2 45) is:",
+      "options": {
+        "A": "tan 90",
+        "B": "1",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "tan 45 = 1. So, (1 - 1) / (1 + 1) = 0 / 2 = 0.",
+      "hash": "6b6e6dfeffe1d8a2",
+      "translations": {
+        "hi": {
+          "question": "(1 - tan^2 45) / (1 + tan^2 45) का मान है:",
+          "options": {
+            "A": "tan 90",
+            "B": "1",
+            "C": "0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan 45 = 1. इसलिए, (1 - 1) / (1 + 1) = 0 / 2 = 0."
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-017",
+      "number": 17,
+      "question": "If triangle ABC is right angled at C, then the value of cos(A + B) is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "In a triangle, A + B + C = 180. If C = 90, then A + B = 90. cos 90 = 0.",
+      "hash": "8142bf2dbe020106",
+      "translations": {
+        "hi": {
+          "question": "यदि त्रिभुज ABC, C पर समकोण है, तो cos(A + B) का मान है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक त्रिभुज में, A + B + C = 180। यदि C = 90 है, तो A + B = 90। cos 90 = 0।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-018",
+      "number": 18,
+      "question": "If cos 9A = sin A and 9A < 90, then find the value of tan 5A.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "sqrt(3)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "cos 9A = sin(90 - 9A). So, 90 - 9A = A, which means 10A = 90, A = 9. tan(5*9) = tan 45 = 1.",
+      "hash": "7b2af064fc218199",
+      "translations": {
+        "hi": {
+          "question": "यदि cos 9A = sin A और 9A < 90 है, तो tan 5A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "sqrt(3)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "cos 9A = sin(90 - 9A)। इसलिए, 90 - 9A = A, जिसका अर्थ है 10A = 90, A = 9। tan(5*9) = tan 45 = 1।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-019",
+      "number": 19,
+      "question": "Evaluate: sin 25 cos 65 + cos 25 sin 65.",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "This is in the form sin A cos B + cos A sin B = sin(A + B). sin(25 + 65) = sin 90 = 1.",
+      "hash": "fe39ff3a6a4d3dca",
+      "translations": {
+        "hi": {
+          "question": "मान ज्ञात कीजिए: sin 25 cos 65 + cos 25 sin 65.",
+          "options": {
+            "A": "0",
+            "B": "1/2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "यह sin A cos B + cos A sin B = sin(A + B) के रूप में है। sin(25 + 65) = sin 90 = 1।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-01-020",
+      "number": 20,
+      "question": "If x = r sin A cos B, y = r sin A sin B, and z = r cos A, then (x^2 + y^2 + z^2) is:",
+      "options": {
+        "A": "r",
+        "B": "r^2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "x^2 + y^2 = r^2 sin^2 A(cos^2 B + sin^2 B) = r^2 sin^2 A. Then adding z^2 gives r^2 sin^2 A + r^2 cos^2 A = r^2.",
+      "hash": "7db8637a4af9648c",
+      "translations": {
+        "hi": {
+          "question": "यदि x = r sin A cos B, y = r sin A sin B, और z = r cos A है, तो (x^2 + y^2 + z^2) है:",
+          "options": {
+            "A": "r",
+            "B": "r^2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x^2 + y^2 = r^2 sin^2 A(cos^2 B + sin^2 B) = r^2 sin^2 A. फिर z^2 जोड़ने पर r^2 sin^2 A + r^2 cos^2 A = r^2 प्राप्त होता है।"
+        }
+      }
+    }
+  ]
+}

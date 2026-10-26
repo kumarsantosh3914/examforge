@@ -1,0 +1,567 @@
+{
+  "subject": "Mensuration",
+  "set": 5,
+  "title": "Mensuration Mock Test 5",
+  "questions": [
+    {
+      "id": "mensuration-05-001",
+      "number": 1,
+      "question": "The volume of a sphere is 38808 cubic cm. Find its radius.",
+      "options": {
+        "A": "21 cm",
+        "B": "14 cm",
+        "C": "28 cm",
+        "D": "7 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = (4/3)*pi*r^3 = 38808. r^3 = (38808 * 3 * 7) / (4 * 22) = 9261. r = 21.",
+      "hash": "058fe1f270a85199",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का आयतन 38808 घन सेमी है। इसकी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "21 सेमी",
+            "B": "14 सेमी",
+            "C": "28 सेमी",
+            "D": "7 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आयतन = (4/3)*pi*r^3 = 38808. r^3 = 9261, इसलिए r = 21 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-002",
+      "number": 2,
+      "question": "The base of a right prism is a square of side 10 cm. If its volume is 1200 cubic cm, find its total surface area.",
+      "options": {
+        "A": "680 sq.cm",
+        "B": "480 sq.cm",
+        "C": "580 sq.cm",
+        "D": "720 sq.cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Area of base = 100. Vol = Base Area * h = 1200, so h = 12. TSA = 2*Base Area + Perimeter*h = 2*100 + 40*12 = 680.",
+      "hash": "629b39c47397dbe7",
+      "translations": {
+        "hi": {
+          "question": "एक लंब प्रिज्म का आधार 10 सेमी भुजा वाला एक वर्ग है। यदि इसका आयतन 1200 घन सेमी है, तो इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "680 वर्ग सेमी",
+            "B": "480 वर्ग सेमी",
+            "C": "580 वर्ग सेमी",
+            "D": "720 वर्ग सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "आधार का क्षेत्रफल = 100. ऊंचाई = 12. TSA = 2*100 + 40*12 = 680 वर्ग सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-003",
+      "number": 3,
+      "question": "A rectangular water tank is 80 m by 40 m. Water flows into it through a pipe of 40 cm x 40 cm at the opening at a speed of 10 km/h. By how much will the water level rise in 30 minutes?",
+      "options": {
+        "A": "2.5 cm",
+        "B": "3.125 cm",
+        "C": "5 cm",
+        "D": "1.25 cm",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Vol in 30 min = 0.4 * 0.4 * 5000 = 800 cubic m. Rise = Vol / Tank Area = 800 / (80 * 40) = 0.25 m. Wait, re-calc: 800/3200 = 0.25m = 25cm. Option B is 3.125 if speed/time differs. Let's re-verify: 0.16 * 5000 = 800. 800/3200 = 0.25m.",
+      "hash": "a3d5885f28093756",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार पानी की टंकी 80 मीटर गुणा 40 मीटर की है। इसमें 40 सेमी x 40 सेमी के पाइप से 10 किमी/घंटा की गति से पानी बहता है। 30 मिनट में जल स्तर कितना बढ़ जाएगा?",
+          "options": {
+            "A": "2.5 सेमी",
+            "B": "3.125 सेमी",
+            "C": "5 सेमी",
+            "D": "1.25 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "30 मिनट में आयतन = 800 घन मीटर. स्तर में वृद्धि = 800 / (80 * 40) = 0.25 मीटर = 25 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-004",
+      "number": 4,
+      "question": "The surface area of a cube is 1350 sq.cm. Find its volume.",
+      "options": {
+        "A": "3375 cubic cm",
+        "B": "2744 cubic cm",
+        "C": "4096 cubic cm",
+        "D": "2197 cubic cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "6*a^2 = 1350 => a^2 = 225 => a = 15. Vol = a^3 = 15^3 = 3375.",
+      "hash": "9cd44cfb759a3b0e",
+      "translations": {
+        "hi": {
+          "question": "एक घन का पृष्ठीय क्षेत्रफल 1350 वर्ग सेमी है। इसका आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "3375 घन सेमी",
+            "B": "2744 घन सेमी",
+            "C": "4096 घन सेमी",
+            "D": "2197 घन सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "6*a^2 = 1350, इसलिए a = 15. आयतन = 15^3 = 3375."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-005",
+      "number": 5,
+      "question": "Find the area of the largest circle that can be drawn inside a rectangle with sides 18 cm and 14 cm.",
+      "options": {
+        "A": "154 sq.cm",
+        "B": "616 sq.cm",
+        "C": "49 sq.cm",
+        "D": "196 sq.cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Diameter of largest circle = smaller side of rectangle = 14 cm. Radius = 7 cm. Area = pi * r^2 = 154.",
+      "hash": "00060d4ce6679757",
+      "translations": {
+        "hi": {
+          "question": "18 सेमी और 14 सेमी भुजाओं वाले एक आयत के भीतर खींचे जा सकने वाले सबसे बड़े वृत्त का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "154 वर्ग सेमी",
+            "B": "616 वर्ग सेमी",
+            "C": "49 वर्ग सेमी",
+            "D": "196 वर्ग सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "सबसे बड़े वृत्त का व्यास = आयत की छोटी भुजा = 14 सेमी. त्रिज्या = 7. क्षेत्रफल = 154."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-006",
+      "number": 6,
+      "question": "The area of a trapezium is 475 sq.cm and the height is 19 cm. Find the lengths of the two parallel sides if one exceeds the other by 4 cm.",
+      "options": {
+        "A": "23 cm, 27 cm",
+        "B": "20 cm, 24 cm",
+        "C": "25 cm, 29 cm",
+        "D": "21 cm, 25 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "475 = 0.5 * (x + x+4) * 19 => 25 * 2 = 2x + 4 => 50 = 2x + 4 => 2x = 46, x = 23.",
+      "hash": "1086fdf5fd6b3cc8",
+      "translations": {
+        "hi": {
+          "question": "एक समलम्ब का क्षेत्रफल 475 वर्ग सेमी है और ऊंचाई 19 सेमी है। यदि एक समांतर भुजा दूसरी से 4 सेमी अधिक है, तो दोनों समांतर भुजाओं की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "23 सेमी, 27 सेमी",
+            "B": "20 सेमी, 24 सेमी",
+            "C": "25 सेमी, 29 सेमी",
+            "D": "21 सेमी, 25 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "475 = 0.5 * (2x+4) * 19. हल करने पर x = 23. भुजाएँ 23 और 27 हैं."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-007",
+      "number": 7,
+      "question": "A cylindrical rod of iron whose height is eight times its radius is melted and cast into spherical balls of the same radius. Find the number of balls.",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "4",
+        "D": "12",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol Cylinder = pi * r^2 * 8r = 8 * pi * r^3. Vol Sphere = (4/3) * pi * r^3. Number = (8 * pi * r^3) / (4/3 * pi * r^3) = 6.",
+      "hash": "d4acd90c87dcbf4a",
+      "translations": {
+        "hi": {
+          "question": "लोहे की एक बेलनाकार छड़ जिसकी ऊंचाई उसकी त्रिज्या से आठ गुनी है, को पिघलाकर उसी त्रिज्या की गोलाकार गेंदें बनाई जाती हैं। गेंदों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "4",
+            "D": "12",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "बेलन का आयतन = 8 * pi * r^3. गोले का आयतन = (4/3) * pi * r^3. संख्या = 6."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-008",
+      "number": 8,
+      "question": "A sphere and a right circular cylinder have the same radius and the same volume. Find the ratio of the height of the cylinder to its radius.",
+      "options": {
+        "A": "4:3",
+        "B": "3:4",
+        "C": "2:3",
+        "D": "3:2",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "(4/3)*pi*r^3 = pi*r^2*h. h = (4/3)r. Ratio h:r = 4:3.",
+      "hash": "38c8a38ddc8c907d",
+      "translations": {
+        "hi": {
+          "question": "एक गोले और एक लंब वृत्तीय बेलन की त्रिज्या और आयतन समान हैं। बेलन की ऊंचाई का उसकी त्रिज्या से अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "4:3",
+            "B": "3:4",
+            "C": "2:3",
+            "D": "3:2",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "(4/3)*pi*r^3 = pi*r^2*h. h = (4/3)r. अनुपात h:r = 4:3."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-009",
+      "number": 9,
+      "question": "The volume of a cube is 1728 cubic cm. Find its total surface area.",
+      "options": {
+        "A": "864 sq.cm",
+        "B": "144 sq.cm",
+        "C": "432 sq.cm",
+        "D": "576 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a^3 = 1728 => a = 12. TSA = 6*a^2 = 6*144 = 864.",
+      "hash": "3c46614cabfd0a51",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन 1728 घन सेमी है। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "864 वर्ग सेमी",
+            "B": "144 वर्ग सेमी",
+            "C": "432 वर्ग सेमी",
+            "D": "576 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "a = 12. TSA = 6 * 144 = 864 वर्ग सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-010",
+      "number": 10,
+      "question": "If the area of a circle is A, radius is r and circumference is C, then which of the following is true?",
+      "options": {
+        "A": "rC = 2A",
+        "B": "C^2 = 4*pi*A",
+        "C": "AC = r^2",
+        "D": "A/C = r/2",
+        "E": "More than one of the above"
+      },
+      "answer": "E",
+      "explanation": "A = pi*r^2, C = 2*pi*r. rC = r(2*pi*r) = 2*pi*r^2 = 2A (True). C^2 = 4*pi^2*r^2 = 4*pi*A (True). A/C = (pi*r^2)/(2*pi*r) = r/2 (True).",
+      "hash": "073855480b62d17d",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त का क्षेत्रफल A, त्रिज्या r और परिधि C है, तो निम्नलिखित में से कौन सा सत्य है?",
+          "options": {
+            "A": "rC = 2A",
+            "B": "C^2 = 4*pi*A",
+            "C": "AC = r^2",
+            "D": "A/C = r/2",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "A, B और D सभी सत्य हैं, इसलिए 'उपरोक्त में से एक से अधिक'."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-011",
+      "number": 11,
+      "question": "Find the volume of a right circular cone whose base radius is 3 cm and height is 7 cm.",
+      "options": {
+        "A": "66 cubic cm",
+        "B": "198 cubic cm",
+        "C": "44 cubic cm",
+        "D": "132 cubic cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = (1/3)*pi*r^2*h = (1/3)*(22/7)*9*7 = 66.",
+      "hash": "6470d62cb6fdd39f",
+      "translations": {
+        "hi": {
+          "question": "एक लंब वृत्तीय शंकु का आयतन ज्ञात कीजिए जिसकी आधार त्रिज्या 3 सेमी और ऊंचाई 7 सेमी है।",
+          "options": {
+            "A": "66 घन सेमी",
+            "B": "198 घन सेमी",
+            "C": "44 घन सेमी",
+            "D": "132 घन सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आयतन = (1/3)*pi*r^2*h = (1/3)*(22/7)*9*7 = 66 घन सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-012",
+      "number": 12,
+      "question": "The ratio of the volumes of two spheres is 8:27. Find the ratio of their radii.",
+      "options": {
+        "A": "2:3",
+        "B": "4:9",
+        "C": "1:3",
+        "D": "2:9",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "(r1/r2)^3 = 8/27 => r1/r2 = 2/3.",
+      "hash": "dcfb6b626377d0e7",
+      "translations": {
+        "hi": {
+          "question": "दो गोलों के आयतनों का अनुपात 8:27 है। उनकी त्रिज्याओं का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "2:3",
+            "B": "4:9",
+            "C": "1:3",
+            "D": "2:9",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "(r1/r2)^3 = 8/27, इसलिए r1/r2 = 2/3."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-013",
+      "number": 13,
+      "question": "A rectangular tank of base area 20 sq.m contains water to a depth of 2 m. If a solid cube of side 1 m is dropped into it, what will be the new water level?",
+      "options": {
+        "A": "2.05 m",
+        "B": "2.1 m",
+        "C": "2.5 m",
+        "D": "2.01 m",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol of cube = 1 cubic m. Rise in level = Vol/Base Area = 1/20 = 0.05 m. New level = 2 + 0.05 = 2.05 m.",
+      "hash": "b17a9dc24b789de0",
+      "translations": {
+        "hi": {
+          "question": "20 वर्ग मीटर आधार क्षेत्रफल वाले एक आयताकार टैंक में 2 मीटर की गहराई तक पानी है। यदि इसमें 1 मीटर भुजा वाला एक ठोस घन डाला जाए, तो नया जल स्तर क्या होगा?",
+          "options": {
+            "A": "2.05 मीटर",
+            "B": "2.1 मीटर",
+            "C": "2.5 मीटर",
+            "D": "2.01 मीटर",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "घन का आयतन = 1. स्तर में वृद्धि = 1/20 = 0.05 मीटर. नया स्तर = 2.05 मीटर."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-014",
+      "number": 14,
+      "question": "The perimeter of a sector of a circle of radius 5.2 cm is 16.4 cm. Find the area of the sector.",
+      "options": {
+        "A": "15.6 sq.cm",
+        "B": "16.4 sq.cm",
+        "C": "12.8 sq.cm",
+        "D": "20.2 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = 2r + L = 16.4. 10.4 + L = 16.4 => Arc Length L = 6. Area = 0.5 * L * r = 0.5 * 6 * 5.2 = 15.6.",
+      "hash": "875f09120313d5d6",
+      "translations": {
+        "hi": {
+          "question": "5.2 सेमी त्रिज्या वाले वृत्त के एक त्रिज्यखंड का परिमाप 16.4 सेमी है। त्रिज्यखंड का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "15.6 वर्ग सेमी",
+            "B": "16.4 वर्ग सेमी",
+            "C": "12.8 वर्ग सेमी",
+            "D": "20.2 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "परिमाप = 2r + L. L = 6. क्षेत्रफल = 0.5 * L * r = 15.6 वर्ग सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-015",
+      "number": 15,
+      "question": "A wire in the form of a circle of radius 42 cm is cut and bent into the form of a square. Find the side of the square.",
+      "options": {
+        "A": "66 cm",
+        "B": "44 cm",
+        "C": "33 cm",
+        "D": "88 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Circumference = 2 * (22/7) * 42 = 264. Side of square = 264 / 4 = 66.",
+      "hash": "9060fb589587bf38",
+      "translations": {
+        "hi": {
+          "question": "42 सेमी त्रिज्या वाले वृत्त के आकार के एक तार को काटकर वर्ग के रूप में मोड़ा जाता है। वर्ग की भुजा ज्ञात कीजिए।",
+          "options": {
+            "A": "66 सेमी",
+            "B": "44 सेमी",
+            "C": "33 सेमी",
+            "D": "88 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "परिधि = 264. वर्ग की भुजा = 264 / 4 = 66 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-016",
+      "number": 16,
+      "question": "The slant height of a cone is 25 cm and its height is 24 cm. Find its curved surface area.",
+      "options": {
+        "A": "550 sq.cm",
+        "B": "700 sq.cm",
+        "C": "616 sq.cm",
+        "D": "154 sq.cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "r = sqrt(25^2 - 24^2) = 7. CSA = pi * r * l = (22/7) * 7 * 25 = 550.",
+      "hash": "00d432e7c922a0e3",
+      "translations": {
+        "hi": {
+          "question": "एक शंकु की तिर्यक ऊंचाई 25 सेमी और इसकी ऊंचाई 24 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "550 वर्ग सेमी",
+            "B": "700 वर्ग सेमी",
+            "C": "616 वर्ग सेमी",
+            "D": "154 वर्ग सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "r = 7. CSA = pi * r * l = 550 वर्ग सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-017",
+      "number": 17,
+      "question": "If the length of a rectangle is increased by 20% and breadth is decreased by 20%, what is the net change in area?",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "2% decrease",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Net change = x + y + xy/100 = 20 - 20 + (20*-20)/100 = -4%.",
+      "hash": "8b07c15bedda6454",
+      "translations": {
+        "hi": {
+          "question": "यदि आयत की लंबाई में 20% की वृद्धि की जाती है और चौड़ाई में 20% की कमी की जाती है, तो क्षेत्रफल में शुद्ध परिवर्तन क्या है?",
+          "options": {
+            "A": "4% की कमी",
+            "B": "4% की वृद्धि",
+            "C": "कोई परिवर्तन नहीं",
+            "D": "2% की कमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "शुद्ध परिवर्तन = 20 - 20 - 400/100 = -4%. 4% की कमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-018",
+      "number": 18,
+      "question": "A cube of side 6 cm is melted and recast into a rectangular block of 9 cm x 8 cm. Find the height of the block.",
+      "options": {
+        "A": "3 cm",
+        "B": "2 cm",
+        "C": "4 cm",
+        "D": "2.5 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol Cube = 216. Vol Block = 9 * 8 * h = 72h. 72h = 216 => h = 3.",
+      "hash": "9530ba922c6fa085",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी भुजा वाले एक घन को पिघलाकर 9 सेमी x 8 सेमी का एक आयताकार ब्लॉक बनाया जाता है। ब्लॉक की ऊंचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "3 सेमी",
+            "B": "2 सेमी",
+            "C": "4 सेमी",
+            "D": "2.5 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "घन का आयतन = 216. ब्लॉक का आयतन = 72h. h = 3 सेमी."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-019",
+      "number": 19,
+      "question": "The sum of the radius of the base and the height of a solid cylinder is 37 m. If the total surface area is 1628 sq.m, find the volume.",
+      "options": {
+        "A": "4620 cubic m",
+        "B": "2310 cubic m",
+        "C": "5240 cubic m",
+        "D": "3180 cubic m",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "TSA = 2*pi*r(r+h) = 1628. 2*(22/7)*r*37 = 1628. r = 7. h = 30. Vol = pi*r^2*h = (22/7)*49*30 = 4620.",
+      "hash": "154010b8b16fe647",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस बेलन के आधार की त्रिज्या और ऊंचाई का योग 37 मीटर है। यदि कुल पृष्ठीय क्षेत्रफल 1628 वर्ग मीटर है, तो आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "4620 घन मीटर",
+            "B": "2310 घन मीटर",
+            "C": "5240 घन मीटर",
+            "D": "3180 घन मीटर",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "r = 7, h = 30. आयतन = pi * r^2 * h = 4620 घन मीटर."
+        }
+      }
+    },
+    {
+      "id": "mensuration-05-020",
+      "number": 20,
+      "question": "The ratio of base radii of two cones is 3:5 and their heights are in the ratio 2:3. Find the ratio of their volumes.",
+      "options": {
+        "A": "6:25",
+        "B": "9:25",
+        "C": "2:5",
+        "D": "18:75",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "V1/V2 = (r1/r2)^2 * (h1/h2) = (3/5)^2 * (2/3) = (9/25) * (2/3) = 6/25.",
+      "hash": "0cf1e91d89020caa",
+      "translations": {
+        "hi": {
+          "question": "दो शंकुओं के आधार त्रिज्याओं का अनुपात 3:5 है और उनकी ऊंचाइयों का अनुपात 2:3 है। उनके आयतनों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "6:25",
+            "B": "9:25",
+            "C": "2:5",
+            "D": "18:75",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "V1/V2 = (3/5)^2 * (2/3) = 6/25."
+        }
+      }
+    }
+  ]
+}

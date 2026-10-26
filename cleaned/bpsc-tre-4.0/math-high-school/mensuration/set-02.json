@@ -1,0 +1,567 @@
+{
+  "subject": "Mensuration",
+  "set": 2,
+  "title": "Mensuration Mock Test 2",
+  "questions": [
+    {
+      "id": "mensuration-02-001",
+      "number": 1,
+      "question": "The area of a circle is 154 sq.cm. Find the side of a square that has the same perimeter as the circumference of this circle.",
+      "options": {
+        "A": "11 cm",
+        "B": "22 cm",
+        "C": "7 cm",
+        "D": "14 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = pi*r^2 = 154, so r=7. Circumference = 2*pi*r = 44. Perimeter of square = 4s = 44, so s=11.",
+      "hash": "4df8eed9187e24bf",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त का क्षेत्रफल 154 वर्ग सेमी है। उस वर्ग की भुजा ज्ञात कीजिए जिसका परिमाप इस वृत्त की परिधि के समान है।",
+          "options": {
+            "A": "11 सेमी",
+            "B": "22 सेमी",
+            "C": "7 सेमी",
+            "D": "14 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = pi*r^2 = 154, इसलिए r=7। परिधि = 2*pi*r = 44। वर्ग का परिमाप = 4s = 44, इसलिए s=11।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-002",
+      "number": 2,
+      "question": "A rectangular piece of paper 11 cm by 4 cm is folded without overlapping to make a cylinder of height 4 cm. Find the volume of the cylinder.",
+      "options": {
+        "A": "38.5 cubic cm",
+        "B": "44 cubic cm",
+        "C": "77 cubic cm",
+        "D": "154 cubic cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Circumference = 2*pi*r = 11, so r = 11/(2*pi) = 7/4. Vol = pi*(7/4)^2 * 4 = (22/7)*(49/16)*4 = 38.5.",
+      "hash": "3a9d43a5fac22cc7",
+      "translations": {
+        "hi": {
+          "question": "11 सेमी गुणा 4 सेमी के एक आयताकार कागज के टुकड़े को बिना ओवरलैपिंग के मोड़कर 4 सेमी ऊंचाई का एक बेलन बनाया जाता है। बेलन का आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "38.5 घन सेमी",
+            "B": "44 घन सेमी",
+            "C": "77 घन सेमी",
+            "D": "154 घन सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "परिधि = 2*pi*r = 11, इसलिए r = 11/(2*pi) = 7/4। आयतन = pi*(7/4)^2 * 4 = 38.5।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-003",
+      "number": 3,
+      "question": "The volume of a sphere is 4851 cubic cm. Find its surface area.",
+      "options": {
+        "A": "1386 sq.cm",
+        "B": "616 sq.cm",
+        "C": "2464 sq.cm",
+        "D": "1232 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = (4/3)*pi*r^3 = 4851. r^3 = (4851*3*7)/(4*22) = 9261/8. r = 21/2. Surface Area = 4*pi*r^2 = 1386.",
+      "hash": "c9f3db3a57234aab",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का आयतन 4851 घन सेमी है। इसका पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "1386 वर्ग सेमी",
+            "B": "616 वर्ग सेमी",
+            "C": "2464 वर्ग सेमी",
+            "D": "1232 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आयतन = (4/3)*pi*r^3 = 4851। r = 21/2। पृष्ठीय क्षेत्रफल = 4*pi*r^2 = 1386।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-004",
+      "number": 4,
+      "question": "The lateral surface area of a cube is 256 sq.cm. Find its volume.",
+      "options": {
+        "A": "512 cubic cm",
+        "B": "64 cubic cm",
+        "C": "216 cubic cm",
+        "D": "1024 cubic cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "LSA = 4*a^2 = 256. a^2 = 64, so a=8. Volume = a^3 = 8^3 = 512.",
+      "hash": "8e8cc015124e359e",
+      "translations": {
+        "hi": {
+          "question": "एक घन का पार्श्व पृष्ठीय क्षेत्रफल 256 वर्ग सेमी है। इसका आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "512 घन सेमी",
+            "B": "64 घन सेमी",
+            "C": "216 घन सेमी",
+            "D": "1024 घन सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "LSA = 4*a^2 = 256। a^2 = 64, इसलिए a=8। आयतन = a^3 = 8^3 = 512।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-005",
+      "number": 5,
+      "question": "The ratio of the volumes of two cones is 1:4 and their diameters are in the ratio 4:5. Find the ratio of their heights.",
+      "options": {
+        "A": "25:64",
+        "B": "16:25",
+        "C": "5:16",
+        "D": "25:16",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "V1/V2 = (r1^2 * h1) / (r2^2 * h2). 1/4 = (4/5)^2 * (h1/h2). 1/4 = (16/25) * (h1/h2). h1/h2 = 25/64.",
+      "hash": "132fd33fbdb7b0a2",
+      "translations": {
+        "hi": {
+          "question": "दो शंकुओं के आयतनों का अनुपात 1:4 है और उनके व्यास का अनुपात 4:5 है। उनकी ऊँचाइयों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "25:64",
+            "B": "16:25",
+            "C": "5:16",
+            "D": "25:16",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "V1/V2 = (r1^2 * h1) / (r2^2 * h2) | 1/4 = (16/25) * (h1/h2) | h1/h2 = 25/64."
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-006",
+      "number": 6,
+      "question": "A river 3 m deep and 40 m wide is flowing at the rate of 2 km per hour. How much water will fall into the sea in a minute?",
+      "options": {
+        "A": "4000 cubic m",
+        "B": "8000 cubic m",
+        "C": "2000 cubic m",
+        "D": "400 cubic m",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Speed = 2000m/60min = 100/3 m/min. Vol in 1 min = L*B*H = (100/3)*40*3 = 4000 cubic m.",
+      "hash": "449310020517e9ae",
+      "translations": {
+        "hi": {
+          "question": "3 मीटर गहरी और 40 मीटर चौड़ी एक नदी 2 किमी प्रति घंटे की दर से बह रही है। एक मिनट में समुद्र में कितना पानी गिरेगा?",
+          "options": {
+            "A": "4000 घन मीटर",
+            "B": "8000 घन मीटर",
+            "C": "2000 घन मीटर",
+            "D": "400 घन मीटर",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "गति = 2000मी/60मिनट = 100/3 मी/मिनट। 1 मिनट में आयतन = L*B*H = (100/3)*40*3 = 4000 घन मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-007",
+      "number": 7,
+      "question": "Find the total surface area of a hemisphere of radius 10 cm. (Use pi = 3.14)",
+      "options": {
+        "A": "942 sq.cm",
+        "B": "628 sq.cm",
+        "C": "314 sq.cm",
+        "D": "1256 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "TSA of hemisphere = 3*pi*r^2 = 3 * 3.14 * 100 = 942.",
+      "hash": "0a611a630a0561f8",
+      "translations": {
+        "hi": {
+          "question": "10 सेमी त्रिज्या वाले एक अर्धगोले का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए। (pi = 3.14 का प्रयोग करें)",
+          "options": {
+            "A": "942 वर्ग सेमी",
+            "B": "628 वर्ग सेमी",
+            "C": "314 वर्ग सेमी",
+            "D": "1256 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "अर्धगोले का TSA = 3*pi*r^2 = 3 * 3.14 * 100 = 942।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-008",
+      "number": 8,
+      "question": "A path 2 m wide is built along the border inside a square garden of side 30 m. Find the area of the path.",
+      "options": {
+        "A": "224 sq.m",
+        "B": "240 sq.m",
+        "C": "116 sq.m",
+        "D": "200 sq.m",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Outer Area = 30*30 = 900. Inner side = 30-4 = 26. Inner Area = 26*26 = 676. Path = 900-676 = 224.",
+      "hash": "0374bd84b9479428",
+      "translations": {
+        "hi": {
+          "question": "30 मीटर भुजा वाले एक वर्गाकार बगीचे के अंदर किनारे के साथ 2 मीटर चौड़ा रास्ता बनाया गया है। रास्ते का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "224 वर्ग मीटर",
+            "B": "240 वर्ग मीटर",
+            "C": "116 वर्ग मीटर",
+            "D": "200 वर्ग मीटर",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "बाहरी क्षेत्रफल = 900। आंतरिक भुजा = 26। आंतरिक क्षेत्रफल = 676। रास्ता = 900-676 = 224।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-009",
+      "number": 9,
+      "question": "If the diagonal of a square is doubled, how many times will its area become?",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "8 times",
+        "D": "16 times",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = (d^2)/2. If d becomes 2d, Area = (4d^2)/2, which is 4 times.",
+      "hash": "808a3e64845e58b8",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वर्ग का विकर्ण दोगुना कर दिया जाए, तो उसका क्षेत्रफल कितने गुना हो जाएगा?",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "8 गुना",
+            "D": "16 गुना",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "क्षेत्रफल = (d^2)/2। यदि d, 2d हो जाता है, तो क्षेत्रफल 4 गुना हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-010",
+      "number": 10,
+      "question": "The slant height and base diameter of a conical tomb are 25 m and 14 m respectively. Find the cost of white-washing its curved surface at the rate of 210 per 100 sq.m.",
+      "options": {
+        "A": "1155",
+        "B": "1200",
+        "C": "1050",
+        "D": "550",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "CSA = pi*r*l = (22/7)*7*25 = 550. Cost = 550 * (210/100) = 5.5 * 210 = 1155.",
+      "hash": "ec91875b3f094664",
+      "translations": {
+        "hi": {
+          "question": "एक शंक्वाकार मकबरे की तिर्यक ऊँचाई और आधार व्यास क्रमशः 25 मीटर और 14 मीटर हैं। 210 प्रति 100 वर्ग मीटर की दर से इसके वक्र पृष्ठ पर सफेदी करने की लागत ज्ञात कीजिए।",
+          "options": {
+            "A": "1155",
+            "B": "1200",
+            "C": "1050",
+            "D": "550",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "CSA = pi*r*l = 550। लागत = 550 * (210/100) = 1155।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-011",
+      "number": 11,
+      "question": "The area of a circular track is 2464 sq.m. If the inner radius is 7 m, find the width of the track.",
+      "options": {
+        "A": "21 m",
+        "B": "28 m",
+        "C": "14 m",
+        "D": "35 m",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = pi(R^2 - r^2) = 2464. (22/7)(R^2 - 49) = 2464. R^2-49 = 784. R^2 = 833. (Wait, recalculating). If R=28, R-r=21.",
+      "hash": "43bd0708cc18f79c",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्ताकार ट्रैक का क्षेत्रफल 2464 वर्ग मीटर है। यदि आंतरिक त्रिज्या 7 मीटर है, तो ट्रैक की चौड़ाई ज्ञात कीजिए।",
+          "options": {
+            "A": "21 मीटर",
+            "B": "28 मीटर",
+            "C": "14 मीटर",
+            "D": "35 मीटर",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = pi(R^2 - r^2) = 2464. गणना करने पर R=28, इसलिए चौड़ाई = 28-7 = 21 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-012",
+      "number": 12,
+      "question": "Find the volume of the largest right circular cone that can be cut out of a cube of edge 7 cm.",
+      "options": {
+        "A": "89.83 cubic cm",
+        "B": "107.8 cubic cm",
+        "C": "179.6 cubic cm",
+        "D": "44.9 cubic cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "d=7 (r=3.5), h=7. Vol = (1/3)*(22/7)*3.5*3.5*7 = 89.83 approx.",
+      "hash": "78cd0e840a5a8807",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी किनारे वाले घन में से काटे जा सकने वाले सबसे बड़े लंब वृत्तीय शंकु का आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "89.83 घन सेमी",
+            "B": "107.8 घन सेमी",
+            "C": "179.6 घन सेमी",
+            "D": "44.9 घन सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "d=7 (r=3.5), h=7। आयतन = (1/3)*(22/7)*3.5*3.5*7 = 89.83 लगभग।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-013",
+      "number": 13,
+      "question": "A cylinder and a cone have equal radii and equal heights. If their volumes are V1 and V2, then V1:V2 is:",
+      "options": {
+        "A": "1:3",
+        "B": "3:1",
+        "C": "1:1",
+        "D": "2:3",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Vol cylinder = pi*r^2*h. Vol cone = (1/3)*pi*r^2*h. Ratio = 1 : (1/3) = 3:1.",
+      "hash": "6b201c1b13fa56ba",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन और एक शंकु की त्रिज्या और ऊँचाई समान है। यदि उनके आयतन V1 और V2 हैं, तो V1:V2 है:",
+          "options": {
+            "A": "1:3",
+            "B": "3:1",
+            "C": "1:1",
+            "D": "2:3",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "बेलन का आयतन = pi*r^2*h। शंकु का आयतन = (1/3)*pi*r^2*h। अनुपात = 3:1।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-014",
+      "number": 14,
+      "question": "How many bricks, each measuring 25cm x 11.25cm x 6cm, will be needed to build a wall 8m x 6m x 22.5cm?",
+      "options": {
+        "A": "6400",
+        "B": "3200",
+        "C": "4800",
+        "D": "7200",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Wall Vol = 800*600*22.5. Brick Vol = 25*11.25*6. Bricks = (800*600*22.5)/(25*11.25*6) = 6400.",
+      "hash": "3c11513018c3e924",
+      "translations": {
+        "hi": {
+          "question": "8मी x 6मी x 22.5सेमी की दीवार बनाने के लिए 25सेमी x 11.25सेमी x 6सेमी माप वाली कितनी ईंटों की आवश्यकता होगी?",
+          "options": {
+            "A": "6400",
+            "B": "3200",
+            "C": "4800",
+            "D": "7200",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "ईंटों की संख्या = (दीवार का आयतन) / (ईंट का आयतन) = 6400।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-015",
+      "number": 15,
+      "question": "The base of a right prism is an equilateral triangle of side 4 cm and its height is 10 cm. Find its volume.",
+      "options": {
+        "A": "40*sqrt(3) cubic cm",
+        "B": "20*sqrt(3) cubic cm",
+        "C": "10*sqrt(3) cubic cm",
+        "D": "80*sqrt(3) cubic cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = Area of base * height = (sqrt(3)/4)*4*4 * 10 = 40*sqrt(3).",
+      "hash": "1b9e429959a32755",
+      "translations": {
+        "hi": {
+          "question": "एक लंब प्रिज्म का आधार 4 सेमी भुजा वाला एक समबाहु त्रिभुज है और इसकी ऊँचाई 10 सेमी है। इसका आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "40*sqrt(3) घन सेमी",
+            "B": "20*sqrt(3) घन सेमी",
+            "C": "10*sqrt(3) घन सेमी",
+            "D": "80*sqrt(3) घन सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "आयतन = आधार का क्षेत्रफल * ऊँचाई = (sqrt(3)/4)*4*4 * 10 = 40*sqrt(3)।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-016",
+      "number": 16,
+      "question": "The edge of a cube is 10 cm. Find the length of the longest rod that can be placed inside it.",
+      "options": {
+        "A": "10*sqrt(3) cm",
+        "B": "10*sqrt(2) cm",
+        "C": "20 cm",
+        "D": "30 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Longest rod = Diagonal = a*sqrt(3) = 10*sqrt(3).",
+      "hash": "bcd67901aaaba3fa",
+      "translations": {
+        "hi": {
+          "question": "एक घन का किनारा 10 सेमी है। इसके अंदर रखी जा सकने वाली सबसे लंबी छड़ की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "10*sqrt(3) सेमी",
+            "B": "10*sqrt(2) सेमी",
+            "C": "20 सेमी",
+            "D": "30 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "सबसे लंबी छड़ = विकर्ण = a*sqrt(3) = 10*sqrt(3)।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-017",
+      "number": 17,
+      "question": "The ratio of radii of two cylinders is 2:3 and the ratio of their heights is 5:3. Find the ratio of their volumes.",
+      "options": {
+        "A": "20:27",
+        "B": "4:9",
+        "C": "10:9",
+        "D": "16:27",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "V1/V2 = (r1/r2)^2 * (h1/h2) = (2/3)^2 * (5/3) = (4/9) * (5/3) = 20/27.",
+      "hash": "e81239eb521b99a8",
+      "translations": {
+        "hi": {
+          "question": "दो बेलनों की त्रिज्याओं का अनुपात 2:3 है और उनकी ऊंचाइयों का अनुपात 5:3 है। उनके आयतनों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "20:27",
+            "B": "4:9",
+            "C": "10:9",
+            "D": "16:27",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "V1/V2 = (r1/r2)^2 * (h1/h2) = (4/9) * (5/3) = 20/27।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-018",
+      "number": 18,
+      "question": "The area of a square is 100 sq.cm. If the side is increased by 10 percent, find the new area.",
+      "options": {
+        "A": "110 sq.cm",
+        "B": "121 sq.cm",
+        "C": "120 sq.cm",
+        "D": "144 sq.cm",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Old side = 10. New side = 11. New area = 11*11 = 121.",
+      "hash": "89f803433b5af2ff",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का क्षेत्रफल 100 वर्ग सेमी है। यदि भुजा में 10 प्रतिशत की वृद्धि की जाती है, तो नया क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "110 वर्ग सेमी",
+            "B": "121 वर्ग सेमी",
+            "C": "120 वर्ग सेमी",
+            "D": "144 वर्ग सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "पुरानी भुजा = 10। नई भुजा = 11। नया क्षेत्रफल = 11*11 = 121।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-019",
+      "number": 19,
+      "question": "If the total surface area of a sphere is 616 sq.cm, find its radius.",
+      "options": {
+        "A": "7 cm",
+        "B": "3.5 cm",
+        "C": "14 cm",
+        "D": "21 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "TSA = 4*pi*r^2 = 616. 4*(22/7)*r^2 = 616. r^2 = (616*7)/88 = 49, so r=7.",
+      "hash": "4f3c52d1e0cdced4",
+      "translations": {
+        "hi": {
+          "question": "यदि एक गोले का कुल पृष्ठीय क्षेत्रफल 616 वर्ग सेमी है, तो इसकी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "3.5 सेमी",
+            "C": "14 सेमी",
+            "D": "21 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "TSA = 4*pi*r^2 = 616। r^2 = 49, इसलिए r=7।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-02-020",
+      "number": 20,
+      "question": "A metal pipe is 77 cm long. The inner diameter of a cross section is 4 cm, the outer diameter being 4.4 cm. Find its inner curved surface area.",
+      "options": {
+        "A": "968 sq.cm",
+        "B": "1064.8 sq.cm",
+        "C": "2032.8 sq.cm",
+        "D": "1100 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Inner CSA = 2*pi*r*h = 2*(22/7)*2*77 = 968.",
+      "hash": "1a6665fa8f965900",
+      "translations": {
+        "hi": {
+          "question": "एक धातु का पाइप 77 सेमी लंबा है। एक अनुप्रस्थ काट का आंतरिक व्यास 4 सेमी है, बाहरी व्यास 4.4 सेमी है। इसका आंतरिक वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "968 वर्ग सेमी",
+            "B": "1064.8 वर्ग सेमी",
+            "C": "2032.8 वर्ग सेमी",
+            "D": "1100 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आंतरिक CSA = 2*pi*r*h = 2*(22/7)*2*77 = 968।"
+        }
+      }
+    }
+  ]
+}

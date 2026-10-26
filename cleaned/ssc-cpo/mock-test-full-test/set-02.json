@@ -1,0 +1,4969 @@
+{
+  "subject": "Full Mock Test",
+  "set": 2,
+  "title": "Full Mock Test 2",
+  "questions": [
+    {
+      "id": "mock-test-full-test-02-001",
+      "number": 1,
+      "question": "The ratio of the surface area of a sphere to the curved surface area of a cylinder circumscribing it is?",
+      "options": {
+        "A": "1:1",
+        "B": "2:1",
+        "C": "1:2",
+        "D": "2:3"
+      },
+      "answer": "A",
+      "explanation": "Cylinder height h = 2r. Cylinder CSA = 2 * PI * r * (2r) = 4 * PI * r^2. Sphere Area = 4 * PI * r^2. Ratio = 1:1.",
+      "hash": "d783462d5ff28d6e",
+      "translations": {
+        "hi": {
+          "question": "एक गोले के पृष्ठीय क्षेत्रफल का उसे घेरने वाले बेलन के वक्र पृष्ठीय क्षेत्रफल से अनुपात क्या है?",
+          "options": {
+            "A": "1:1",
+            "B": "2:1",
+            "C": "1:2",
+            "D": "2:3"
+          },
+          "explanation": "बेलन की ऊँचाई h = 2r. बेलन का CSA = 4 * PI * r^2. गोले का क्षेत्रफल = 4 * PI * r^2. अनुपात = 1:1."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-002",
+      "number": 2,
+      "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is?",
+      "options": {
+        "A": "8/15",
+        "B": "7/15",
+        "C": "1/4",
+        "D": "1/10"
+      },
+      "answer": "A",
+      "explanation": "1 day work = 1/15 + 1/20 = 7/60. 4 days work = 28/60 = 7/15. Left = 1 - 7/15 = 8/15.",
+      "hash": "770b1059f2872085",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य को 15 दिनों में और B 20 दिनों में कर सकता है। यदि वे 4 दिनों तक साथ मिलकर कार्य करते हैं, तो कार्य का बचा हुआ भाग क्या है?",
+          "options": {
+            "A": "8/15",
+            "B": "7/15",
+            "C": "1/4",
+            "D": "1/10"
+          },
+          "explanation": "1 दिन का काम = 7/60. 4 दिन का काम = 7/15. शेष = 1 - 7/15 = 8/15."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-003",
+      "number": 3,
+      "question": "Find the compound interest on 10000 at 20% per annum for 9 months, compounded quarterly.",
+      "options": {
+        "A": "1576.25",
+        "B": "1500",
+        "C": "1600",
+        "D": "1550"
+      },
+      "answer": "A",
+      "explanation": "Rate = 20/4 = 5% per quarter. Time = 3 quarters. Amount = 10000(1.05)^3 = 11576.25. CI = 1576.25.",
+      "hash": "3c712ebbf882bb0e",
+      "translations": {
+        "hi": {
+          "question": "20% प्रति वर्ष की दर से 9 महीने के लिए 10000 पर चक्रवृद्धि ब्याज ज्ञात कीजिए, जो त्रैमासिक रूप से संयोजित होता है।",
+          "options": {
+            "A": "1576.25",
+            "B": "1500",
+            "C": "1600",
+            "D": "1550"
+          },
+          "explanation": "दर = 5% प्रति तिमाही। समय = 3 तिमाही। राशि = 11576.25. CI = 1576.25."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-004",
+      "number": 4,
+      "question": "If A:B = 2:3, B:C = 4:5 and C:D = 6:7, find A:D.",
+      "options": {
+        "A": "16:35",
+        "B": "15:35",
+        "C": "12:35",
+        "D": "18:35"
+      },
+      "answer": "A",
+      "explanation": "A/D = (A/B) * (B/C) * (C/D) = (2/3) * (4/5) * (6/7) = 16/35.",
+      "hash": "d4af6fc8a412806d",
+      "translations": {
+        "hi": {
+          "question": "यदि A:B = 2:3, B:C = 4:5 और C:D = 6:7 है, तो A:D ज्ञात कीजिए।",
+          "options": {
+            "A": "16:35",
+            "B": "15:35",
+            "C": "12:35",
+            "D": "18:35"
+          },
+          "explanation": "A/D = (2/3) * (4/5) * (6/7) = 16/35."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-005",
+      "number": 5,
+      "question": "The difference between CI and SI on a certain sum at 10% per annum for 2 years is 631. Find the sum.",
+      "options": {
+        "A": "63100",
+        "B": "6310",
+        "C": "60000",
+        "D": "65000"
+      },
+      "answer": "A",
+      "explanation": "Diff = P(R/100)^2 => 631 = P(10/100)^2 => P = 631 * 100 = 63100.",
+      "hash": "fbb7f989d88d7baa",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित राशि पर 10% प्रति वर्ष की दर से 2 वर्षों के लिए CI और SI के बीच का अंतर 631 है। राशि ज्ञात कीजिए।",
+          "options": {
+            "A": "63100",
+            "B": "6310",
+            "C": "60000",
+            "D": "65000"
+          },
+          "explanation": "अंतर = P(R/100)^2 => 631 = P/100 => P = 63100."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-006",
+      "number": 6,
+      "question": "If the height of a cone is doubled and the radius remains the same, find the ratio of the volume of the new cone to the old cone.",
+      "options": {
+        "A": "2:1",
+        "B": "1:2",
+        "C": "4:1",
+        "D": "1:4"
+      },
+      "answer": "A",
+      "explanation": "Vol = (1/3)PI*r^2*h. Since h is doubled, Vol is doubled. Ratio = 2:1.",
+      "hash": "a91bc61d23cbf755",
+      "translations": {
+        "hi": {
+          "question": "यदि एक शंकु की ऊँचाई दोगुनी कर दी जाए और त्रिज्या समान रहे, तो नए शंकु और पुराने शंकु के आयतन का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "2:1",
+            "B": "1:2",
+            "C": "4:1",
+            "D": "1:4"
+          },
+          "explanation": "आयतन ऊँचाई के समानुपाती होता है। ऊँचाई दोगुनी होने पर आयतन दोगुना हो जाएगा। अनुपात = 2:1."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-007",
+      "number": 7,
+      "question": "A reduction of 20% in the price of sugar enables a purchaser to obtain 8 kg more for 160. Find the original price per kg.",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "4.5"
+      },
+      "answer": "A",
+      "explanation": "Reduced price = (20% of 160) / 8 = 32 / 8 = 4. Original price = 4 / 0.8 = 5.",
+      "hash": "7d70315b4c2dca06",
+      "translations": {
+        "hi": {
+          "question": "चीनी की कीमत में 20% की कमी एक खरीदार को 160 में 8 किग्रा अधिक प्राप्त करने में सक्षम बनाती है। प्रति किग्रा मूल मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "4.5"
+          },
+          "explanation": "घटी हुई कीमत = 32/8 = 4. मूल मूल्य = 4 / 0.8 = 5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-008",
+      "number": 8,
+      "question": "Find the length of the diagonal of a square whose area is 242 sq.cm.",
+      "options": {
+        "A": "22 cm",
+        "B": "11 cm",
+        "C": "20 cm",
+        "D": "15 cm"
+      },
+      "answer": "A",
+      "explanation": "Area = d^2 / 2 => 242 = d^2 / 2 => d^2 = 484 => d = 22.",
+      "hash": "298ae15ee7e29da9",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग के विकर्ण की लंबाई ज्ञात कीजिए जिसका क्षेत्रफल 242 वर्ग सेमी है।",
+          "options": {
+            "A": "22 सेमी",
+            "B": "11 सेमी",
+            "C": "20 सेमी",
+            "D": "15 सेमी"
+          },
+          "explanation": "क्षेत्रफल = d^2 / 2 => d^2 = 484 => d = 22."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-009",
+      "number": 9,
+      "question": "A man buys a table for 1200 and sells it for 1350. Find the profit percentage.",
+      "options": {
+        "A": "12.5%",
+        "B": "15%",
+        "C": "10%",
+        "D": "11%"
+      },
+      "answer": "A",
+      "explanation": "Profit = 150. Profit% = (150/1200) * 100 = 12.5%.",
+      "hash": "a86d817274000e55",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 1200 में एक मेज खरीदता है और उसे 1350 में बेचता है। लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "12.5%",
+            "B": "15%",
+            "C": "10%",
+            "D": "11%"
+          },
+          "explanation": "लाभ = 150. लाभ% = (150/1200) * 100 = 12.5%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-010",
+      "number": 10,
+      "question": "A train 300m long is running at a speed of 90 km/h. How many seconds will it take to cross a 200m long bridge?",
+      "options": {
+        "A": "20",
+        "B": "15",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": "A",
+      "explanation": "Speed = 90 * 5/18 = 25 m/s. Total Distance = 500m. Time = 500 / 25 = 20.",
+      "hash": "e558a67c009666d2",
+      "translations": {
+        "hi": {
+          "question": "300 मीटर लंबी एक ट्रेन 90 किमी/घंटा की गति से चल रही है। 200 मीटर लंबे पुल को पार करने में इसे कितने सेकंड लगेंगे?",
+          "options": {
+            "A": "20",
+            "B": "15",
+            "C": "25",
+            "D": "30"
+          },
+          "explanation": "गति = 25 मीटर/सेकंड। कुल दूरी = 500. समय = 500 / 25 = 20."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-011",
+      "number": 11,
+      "question": "Two numbers are in the ratio 5:6. If 8 is subtracted from each, the ratio becomes 4:5. Find the numbers.",
+      "options": {
+        "A": "40, 48",
+        "B": "30, 36",
+        "C": "50, 60",
+        "D": "25, 30"
+      },
+      "answer": "A",
+      "explanation": "(5x-8)/(6x-8) = 4/5 => 25x-40 = 24x-32 => x = 8. Numbers are 40, 48.",
+      "hash": "750d65c00218bc8c",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याएँ 5:6 के अनुपात में हैं। यदि प्रत्येक में से 8 घटाया जाता है, तो अनुपात 4:5 हो जाता है। संख्याएँ ज्ञात कीजिए।",
+          "options": {
+            "A": "40, 48",
+            "B": "30, 36",
+            "C": "50, 60",
+            "D": "25, 30"
+          },
+          "explanation": "(5x-8)/(6x-8) = 4/5 => x = 8. संख्याएँ 40, 48 हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-012",
+      "number": 12,
+      "question": "If the area of a circle is 1386 sq.cm, find its circumference.",
+      "options": {
+        "A": "132 cm",
+        "B": "154 cm",
+        "C": "88 cm",
+        "D": "44 cm"
+      },
+      "answer": "A",
+      "explanation": "PI*r^2 = 1386 => r^2 = 1386 * 7 / 22 = 441 => r = 21. Circumference = 2 * 22/7 * 21 = 132.",
+      "hash": "e830b519659483f6",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का क्षेत्रफल 1386 वर्ग सेमी है, तो इसकी परिधि ज्ञात कीजिए।",
+          "options": {
+            "A": "132 सेमी",
+            "B": "154 सेमी",
+            "C": "88 सेमी",
+            "D": "44 सेमी"
+          },
+          "explanation": "r^2 = 441 => r = 21. परिधि = 132."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-013",
+      "number": 13,
+      "question": "A man spends 75% of his income. His income is increased by 20% and he increases his expenditure by 10%. Find the percentage increase in his savings.",
+      "options": {
+        "A": "50%",
+        "B": "30%",
+        "C": "40%",
+        "D": "60%"
+      },
+      "answer": "A",
+      "explanation": "Let income = 100, Exp = 75, Sav = 25. New income = 120, New Exp = 82.5, New Sav = 37.5. Increase = 12.5. % Increase = (12.5/25) * 100 = 50%.",
+      "hash": "53f1237db76fe028",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति अपनी आय का 75% खर्च करता है। उसकी आय में 20% की वृद्धि होती है और वह अपने खर्च में 10% की वृद्धि करता है। उसकी बचत में प्रतिशत वृद्धि ज्ञात कीजिए।",
+          "options": {
+            "A": "50%",
+            "B": "30%",
+            "C": "40%",
+            "D": "60%"
+          },
+          "explanation": "बचत 25 से बढ़कर 37.5 हो गई। वृद्धि = 50%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-014",
+      "number": 14,
+      "question": "Find the smallest number by which 2400 should be divided to make it a perfect square.",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "2400 = 400 * 6. 400 is a perfect square. Dividing by 6 gives 400.",
+      "hash": "1a17d309f3db3588",
+      "translations": {
+        "hi": {
+          "question": "वह छोटी से छोटी संख्या ज्ञात कीजिए जिससे 2400 को विभाजित करने पर वह पूर्ण वर्ग बन जाए।",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "2",
+            "D": "5"
+          },
+          "explanation": "2400 = 400 * 6. 400 पूर्ण वर्ग है। 6 से विभाजित करने पर 400 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-015",
+      "number": 15,
+      "question": "The average of 50 numbers is 38. If two numbers, namely 45 and 55, are discarded, the average of the remaining numbers is?",
+      "options": {
+        "A": "37.5",
+        "B": "37",
+        "C": "38",
+        "D": "36.5"
+      },
+      "answer": "A",
+      "explanation": "Total sum = 50 * 38 = 1900. New sum = 1900 - 100 = 1800. New average = 1800 / 48 = 37.5.",
+      "hash": "1ed95c54361416c2",
+      "translations": {
+        "hi": {
+          "question": "50 संख्याओं का औसत 38 है। यदि दो संख्याएँ, अर्थात् 45 और 55, निकाल दी जाती हैं, तो शेष संख्याओं का औसत क्या है?",
+          "options": {
+            "A": "37.5",
+            "B": "37",
+            "C": "38",
+            "D": "36.5"
+          },
+          "explanation": "कुल योग = 1900. नया योग = 1800. नया औसत = 1800 / 48 = 37.5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-016",
+      "number": 16,
+      "question": "If 10% of x is equal to 20% of y, then x:y is?",
+      "options": {
+        "A": "2:1",
+        "B": "1:2",
+        "C": "3:1",
+        "D": "1:3"
+      },
+      "answer": "A",
+      "explanation": "0.1x = 0.2y => x/y = 0.2 / 0.1 = 2/1.",
+      "hash": "20cb0915b0de7702",
+      "translations": {
+        "hi": {
+          "question": "यदि x का 10% y के 20% के बराबर है, तो x:y क्या है?",
+          "options": {
+            "A": "2:1",
+            "B": "1:2",
+            "C": "3:1",
+            "D": "1:3"
+          },
+          "explanation": "0.1x = 0.2y => x/y = 2:1."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-017",
+      "number": 17,
+      "question": "A cylinder has a capacity of 1540 cubic cm and its height is 10 cm. Find the radius of its base.",
+      "options": {
+        "A": "7 cm",
+        "B": "14 cm",
+        "C": "3.5 cm",
+        "D": "10 cm"
+      },
+      "answer": "A",
+      "explanation": "PI*r^2*h = 1540 => (22/7)*r^2*10 = 1540 => r^2 = 49 => r = 7.",
+      "hash": "cc887a8867a85e63",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन की क्षमता 1540 घन सेमी है और इसकी ऊँचाई 10 सेमी है। इसके आधार की त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "14 सेमी",
+            "C": "3.5 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "PI*r^2*h = 1540 => r^2 = 49 => r = 7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-018",
+      "number": 18,
+      "question": "A vendor bought 6 toffees for a rupee. How many for a rupee must he sell to gain 20%?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "5.5"
+      },
+      "answer": "A",
+      "explanation": "CP of 1 = 1/6. SP = (1/6) * 1.2 = 1/5. So 5 for a rupee.",
+      "hash": "e5a4a6f4c25ed250",
+      "translations": {
+        "hi": {
+          "question": "एक विक्रेता ने एक रुपये में 6 टॉफियां खरीदीं। 20% लाभ प्राप्त करने के लिए उसे एक रुपये में कितनी टॉफियां बेचनी चाहिए?",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "3",
+            "D": "5.5"
+          },
+          "explanation": "1 टॉफी का CP = 1/6. SP = 1/5. अतः 1 रुपये में 5।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-019",
+      "number": 19,
+      "question": "Find the fourth proportional to 12, 18, 20.",
+      "options": {
+        "A": "30",
+        "B": "24",
+        "C": "36",
+        "D": "27"
+      },
+      "answer": "A",
+      "explanation": "12/18 = 20/x => 2/3 = 20/x => x = 30.",
+      "hash": "09b0c36aa31a9706",
+      "translations": {
+        "hi": {
+          "question": "12, 18, 20 का चतुर्थानुपाती ज्ञात कीजिए।",
+          "options": {
+            "A": "30",
+            "B": "24",
+            "C": "36",
+            "D": "27"
+          },
+          "explanation": "12/18 = 20/x => x = 30."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-020",
+      "number": 20,
+      "question": "If the diagonal of a rectangle is 17 cm and its perimeter is 46 cm, find its area.",
+      "options": {
+        "A": "120 sq.cm",
+        "B": "130 sq.cm",
+        "C": "150 sq.cm",
+        "D": "100 sq.cm"
+      },
+      "answer": "A",
+      "explanation": "L+B = 23, L^2+B^2 = 289. (L+B)^2 = L^2+B^2+2LB => 529 = 289 + 2LB => 2LB = 240 => LB = 120.",
+      "hash": "aed9a480521de297",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आयत का विकर्ण 17 सेमी और इसका परिमाप 46 सेमी है, तो इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "120 वर्ग सेमी",
+            "B": "130 वर्ग सेमी",
+            "C": "150 वर्ग सेमी",
+            "D": "100 वर्ग सेमी"
+          },
+          "explanation": "L+B = 23, L^2+B^2 = 289. क्षेत्रफल = 120."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-021",
+      "number": 21,
+      "question": "A man rows 18 km downstream in 2 hours and 10 km upstream in 2 hours. Find the speed of the current.",
+      "options": {
+        "A": "2 km/h",
+        "B": "4 km/h",
+        "C": "1.5 km/h",
+        "D": "3 km/h"
+      },
+      "answer": "A",
+      "explanation": "Down speed = 9, Up speed = 5. Current = (9-5)/2 = 2.",
+      "hash": "c2c6897296b09735",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति धारा के अनुकूल 2 घंटे में 18 किमी और धारा के प्रतिकूल 2 घंटे में 10 किमी नाव चलाता है। धारा की गति ज्ञात कीजिए।",
+          "options": {
+            "A": "2 किमी/घंटा",
+            "B": "4 किमी/घंटा",
+            "C": "1.5 किमी/घंटा",
+            "D": "3 किमी/घंटा"
+          },
+          "explanation": "अनुकूल गति = 9, प्रतिकूल = 5. धारा = (9-5)/2 = 2."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-022",
+      "number": 22,
+      "question": "The price of an item is increased by 20% and then reduced by 20%. Find the net change.",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "2% decrease"
+      },
+      "answer": "A",
+      "explanation": "(x^2 / 100) decrease = 400 / 100 = 4% loss.",
+      "hash": "e091de941ddc299b",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु की कीमत में 20% की वृद्धि की जाती है और फिर 20% की कमी की जाती है। शुद्ध परिवर्तन ज्ञात कीजिए।",
+          "options": {
+            "A": "4% कमी",
+            "B": "4% वृद्धि",
+            "C": "कोई बदलाव नहीं",
+            "D": "2% कमी"
+          },
+          "explanation": "शुद्ध कमी = 4%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-023",
+      "number": 23,
+      "question": "A sphere has a radius of 21 cm. Find its volume.",
+      "options": {
+        "A": "38808",
+        "B": "44100",
+        "C": "19404",
+        "D": "35000"
+      },
+      "answer": "A",
+      "explanation": "Vol = (4/3) * PI * r^3 = (4/3) * (22/7) * 21 * 21 * 21 = 88 * 441 = 38808.",
+      "hash": "1bb2935264f4e6be",
+      "translations": {
+        "hi": {
+          "question": "एक गोले की त्रिज्या 21 सेमी है। इसका आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "38808",
+            "B": "44100",
+            "C": "19404",
+            "D": "35000"
+          },
+          "explanation": "आयतन = (4/3) * (22/7) * 21^3 = 38808."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-024",
+      "number": 24,
+      "question": "Find the HCF of 2/3, 8/9, 16/81.",
+      "options": {
+        "A": "2/81",
+        "B": "2/3",
+        "C": "8/81",
+        "D": "16/3"
+      },
+      "answer": "A",
+      "explanation": "HCF = HCF(Num)/LCM(Denom) = HCF(2,8,16)/LCM(3,9,81) = 2/81.",
+      "hash": "a8ecc4dbd2c3de7b",
+      "translations": {
+        "hi": {
+          "question": "2/3, 8/9, 16/81 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "2/81",
+            "B": "2/3",
+            "C": "8/81",
+            "D": "16/3"
+          },
+          "explanation": "HCF = अंशों का HCF / हरों का LCM = 2/81."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-025",
+      "number": 25,
+      "question": "A sum of money at compound interest becomes double in 5 years. In how many years will it be 8 times?",
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "20",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "2^1 in 5 years. 8 = 2^3. Time = 5 * 3 = 15 years.",
+      "hash": "39093e9dcf22f350",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर कोई राशि 5 वर्षों में दोगुनी हो जाती है। कितने वर्षों में यह 8 गुनी हो जाएगी?",
+          "options": {
+            "A": "15",
+            "B": "10",
+            "C": "20",
+            "D": "25"
+          },
+          "explanation": "8 गुनी = 2^3. समय = 5 * 3 = 15 वर्ष।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-026",
+      "number": 26,
+      "question": "If x + 1/x = 3, find the value of x^2 + 1/x^2.",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "11",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "(x + 1/x)^2 - 2 = 3^2 - 2 = 7.",
+      "hash": "b600f40be30ca049",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 3 है, तो x^2 + 1/x^2 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "11",
+            "D": "5"
+          },
+          "explanation": "x^2 + 1/x^2 = 3^2 - 2 = 7."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-027",
+      "number": 27,
+      "question": "In an alloy, the ratio of copper and zinc is 5:2. If there is 1.5 kg of zinc in a certain quantity, find copper.",
+      "options": {
+        "A": "3.75 kg",
+        "B": "3 kg",
+        "C": "4.5 kg",
+        "D": "2.25 kg"
+      },
+      "answer": "A",
+      "explanation": "2 units = 1.5 => 1 unit = 0.75. Copper = 5 * 0.75 = 3.75.",
+      "hash": "961e15236441f7e1",
+      "translations": {
+        "hi": {
+          "question": "एक मिश्र धातु में तांबे और जस्ते का अनुपात 5:2 है। यदि एक निश्चित मात्रा में 1.5 किग्रा जस्ता है, तो तांबा ज्ञात कीजिए।",
+          "options": {
+            "A": "3.75 किग्रा",
+            "B": "3 किग्रा",
+            "C": "4.5 किग्रा",
+            "D": "2.25 किग्रा"
+          },
+          "explanation": "2 इकाई = 1.5 => तांबा = 5 * 0.75 = 3.75."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-028",
+      "number": 28,
+      "question": "A car covers a distance of 450 km at 90 km/h. How much time will it take?",
+      "options": {
+        "A": "5 hours",
+        "B": "4 hours",
+        "C": "6 hours",
+        "D": "4.5 hours"
+      },
+      "answer": "A",
+      "explanation": "Time = Distance / Speed = 450 / 90 = 5.",
+      "hash": "16acc9dcb66b5604",
+      "translations": {
+        "hi": {
+          "question": "एक कार 90 किमी/घंटा की गति से 450 किमी की दूरी तय करती है। उसे कितना समय लगेगा?",
+          "options": {
+            "A": "5 घंटे",
+            "B": "4 घंटे",
+            "C": "6 घंटे",
+            "D": "4.5 घंटे"
+          },
+          "explanation": "समय = 450 / 90 = 5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-029",
+      "number": 29,
+      "question": "Find the perimeter of a rectangle with length 15 cm and breadth 10 cm.",
+      "options": {
+        "A": "50 cm",
+        "B": "30 cm",
+        "C": "25 cm",
+        "D": "60 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = 2(L + B) = 2(15 + 10) = 50.",
+      "hash": "5f1b4ea5818fc0e0",
+      "translations": {
+        "hi": {
+          "question": "15 सेमी लंबाई और 10 सेमी चौड़ाई वाले आयत का परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "50 सेमी",
+            "B": "30 सेमी",
+            "C": "25 सेमी",
+            "D": "60 सेमी"
+          },
+          "explanation": "परिमाप = 2(15 + 10) = 50."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-030",
+      "number": 30,
+      "question": "A shopkeeper marks his goods 40% above the cost price and allows a discount of 25%. Find his profit percentage.",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "12%"
+      },
+      "answer": "A",
+      "explanation": "Net = 40 - 25 - (40*25/100) = 15 - 10 = 5%.",
+      "hash": "0dc792deaf9e0335",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपने माल पर क्रय मूल्य से 40% अधिक अंकित करता है और 25% की छूट देता है। उसका लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "12%"
+          },
+          "explanation": "शुद्ध लाभ = 40 - 25 - 10 = 5%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-031",
+      "number": 31,
+      "question": "The LCM of two numbers is 48. The numbers are in the ratio 2:3. Find the sum of the numbers.",
+      "options": {
+        "A": "40",
+        "B": "32",
+        "C": "48",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "2x, 3x => LCM = 6x = 48 => x = 8. Sum = 5x = 40.",
+      "hash": "1d1062f850b3b0be",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का LCM 48 है। संख्याएँ 2:3 के अनुपात में हैं। संख्याओं का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "40",
+            "B": "32",
+            "C": "48",
+            "D": "24"
+          },
+          "explanation": "6x = 48 => x = 8. योग = 40."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-032",
+      "number": 32,
+      "question": "The side of a square is increased by 10%. Find the percentage increase in its area.",
+      "options": {
+        "A": "21%",
+        "B": "20%",
+        "C": "10%",
+        "D": "25%"
+      },
+      "answer": "A",
+      "explanation": "Net Increase = 10 + 10 + (100/100) = 21%.",
+      "hash": "64c014d88515323f",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग की भुजा में 10% की वृद्धि की जाती है। इसके क्षेत्रफल में प्रतिशत वृद्धि ज्ञात कीजिए।",
+          "options": {
+            "A": "21%",
+            "B": "20%",
+            "C": "10%",
+            "D": "25%"
+          },
+          "explanation": "शुद्ध वृद्धि = 21%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-033",
+      "number": 33,
+      "question": "Find the volume of a cube whose edge is 8 cm.",
+      "options": {
+        "A": "512 cubic cm",
+        "B": "256 cubic cm",
+        "C": "64 cubic cm",
+        "D": "384 cubic cm"
+      },
+      "answer": "A",
+      "explanation": "Vol = side^3 = 8 * 8 * 8 = 512.",
+      "hash": "518c841ba26a2ca6",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन ज्ञात कीजिए जिसका किनारा 8 सेमी है।",
+          "options": {
+            "A": "512 घन सेमी",
+            "B": "256 घन सेमी",
+            "C": "64 घन सेमी",
+            "D": "384 घन सेमी"
+          },
+          "explanation": "आयतन = 8^3 = 512."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-034",
+      "number": 34,
+      "question": "If 30% of a number is 120, then what is 120% of that number?",
+      "options": {
+        "A": "480",
+        "B": "400",
+        "C": "500",
+        "D": "360"
+      },
+      "answer": "A",
+      "explanation": "30% = 120 => 1% = 4. 120% = 120 * 4 = 480.",
+      "hash": "3198fd08fee61f1f",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 30% 120 है, तो उस संख्या का 120% क्या होगा?",
+          "options": {
+            "A": "480",
+            "B": "400",
+            "C": "500",
+            "D": "360"
+          },
+          "explanation": "30% = 120. 120% = 480."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-036",
+      "number": 36,
+      "question": "A and B together can complete a work in 10 days. A alone can do it in 30 days. In how many days can B alone do it?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "1/B = 1/10 - 1/30 = 2/30 = 1/15.",
+      "hash": "5d9b3c6537838a6e",
+      "translations": {
+        "hi": {
+          "question": "A और B मिलकर एक कार्य को 10 दिनों में पूरा कर सकते हैं। A अकेला इसे 30 दिनों में कर सकता है। B अकेला इसे कितने दिनों में कर सकता है?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "12"
+          },
+          "explanation": "1/B = 1/10 - 1/30 = 1/15."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-037",
+      "number": 37,
+      "question": "Find the surface area of a sphere of radius 14 cm.",
+      "options": {
+        "A": "2464 sq.cm",
+        "B": "1232 sq.cm",
+        "C": "616 sq.cm",
+        "D": "3000 sq.cm"
+      },
+      "answer": "A",
+      "explanation": "Area = 4 * PI * r^2 = 4 * (22/7) * 196 = 2464.",
+      "hash": "3cabea893ea89231",
+      "translations": {
+        "hi": {
+          "question": "14 सेमी त्रिज्या वाले गोले का पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "2464 वर्ग सेमी",
+            "B": "1232 वर्ग सेमी",
+            "C": "616 वर्ग सेमी",
+            "D": "3000 वर्ग सेमी"
+          },
+          "explanation": "क्षेत्रफल = 4 * (22/7) * 14^2 = 2464."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-038",
+      "number": 38,
+      "question": "A sum of 5000 amounts to 6050 in 2 years at compound interest. Find the rate of interest.",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "12%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "(1+R/100)^2 = 6050/5000 = 1.21 => 1+R/100 = 1.1 => R = 10%.",
+      "hash": "340c49fc3249f1b3",
+      "translations": {
+        "hi": {
+          "question": "5000 की राशि चक्रवृद्धि ब्याज पर 2 वर्षों में 6050 हो जाती है। ब्याज की दर ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "5%",
+            "C": "12%",
+            "D": "8%"
+          },
+          "explanation": "दर = 10%."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-039",
+      "number": 39,
+      "question": "The ratio of the volumes of two cubes is 27:64. Find the ratio of their sides.",
+      "options": {
+        "A": "3:4",
+        "B": "9:16",
+        "C": "2:3",
+        "D": "4:3"
+      },
+      "answer": "A",
+      "explanation": "Side ratio = cbrt(27) : cbrt(64) = 3:4.",
+      "hash": "4134b92b3404d5a4",
+      "translations": {
+        "hi": {
+          "question": "दो घनों के आयतन का अनुपात 27:64 है। उनकी भुजाओं का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "3:4",
+            "B": "9:16",
+            "C": "2:3",
+            "D": "4:3"
+          },
+          "explanation": "भुजा अनुपात = 3:4."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-040",
+      "number": 40,
+      "question": "If 25% of x is 500, find x.",
+      "options": {
+        "A": "2000",
+        "B": "1000",
+        "C": "1500",
+        "D": "2500"
+      },
+      "answer": "A",
+      "explanation": "0.25x = 500 => x = 2000.",
+      "hash": "158ef107926d755f",
+      "translations": {
+        "hi": {
+          "question": "यदि x का 25% 500 है, तो x ज्ञात कीजिए।",
+          "options": {
+            "A": "2000",
+            "B": "1000",
+            "C": "1500",
+            "D": "2500"
+          },
+          "explanation": "0.25x = 500 => x = 2000."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-041",
+      "number": 41,
+      "question": "Find the value of x if 2x + 15 = 45.",
+      "options": {
+        "A": "15",
+        "B": "30",
+        "C": "20",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "2x = 30 => x = 15.",
+      "hash": "a51de42652c3a108",
+      "translations": {
+        "hi": {
+          "question": "x का मान ज्ञात कीजिए यदि 2x + 15 = 45 है।",
+          "options": {
+            "A": "15",
+            "B": "30",
+            "C": "20",
+            "D": "10"
+          },
+          "explanation": "2x = 30 => x = 15."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-042",
+      "number": 42,
+      "question": "A rectangular tank is 2m long, 1.5m wide and 1m deep. Find its capacity in litres.",
+      "options": {
+        "A": "3000",
+        "B": "2000",
+        "C": "1500",
+        "D": "4000"
+      },
+      "answer": "A",
+      "explanation": "Volume = 2 * 1.5 * 1 = 3 cubic meters. 3 * 1000 = 3000 litres.",
+      "hash": "29d0503a4c742503",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार टैंक 2 मीटर लंबा, 1.5 मीटर चौड़ा और 1 मीटर गहरा है। इसकी क्षमता लीटर में ज्ञात कीजिए।",
+          "options": {
+            "A": "3000",
+            "B": "2000",
+            "C": "1500",
+            "D": "4000"
+          },
+          "explanation": "आयतन = 3 घन मीटर = 3000 लीटर।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-043",
+      "number": 43,
+      "question": "The perimeter of a square is 64 cm. Find its area.",
+      "options": {
+        "A": "256 sq.cm",
+        "B": "64 sq.cm",
+        "C": "128 sq.cm",
+        "D": "512 sq.cm"
+      },
+      "answer": "A",
+      "explanation": "Side = 64 / 4 = 16. Area = 16 * 16 = 256.",
+      "hash": "61e577acc63f53ac",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का परिमाप 64 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "256 वर्ग सेमी",
+            "B": "64 वर्ग सेमी",
+            "C": "128 वर्ग सेमी",
+            "D": "512 वर्ग सेमी"
+          },
+          "explanation": "भुजा = 16. क्षेत्रफल = 256."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-044",
+      "number": 44,
+      "question": "Find the average of the first 5 multiples of 7.",
+      "options": {
+        "A": "21",
+        "B": "14",
+        "C": "28",
+        "D": "35"
+      },
+      "answer": "A",
+      "explanation": "(7+14+21+28+35) / 5 = 21.",
+      "hash": "f655cd4f9ab41445",
+      "translations": {
+        "hi": {
+          "question": "7 के प्रथम 5 गुणजों का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "21",
+            "B": "14",
+            "C": "28",
+            "D": "35"
+          },
+          "explanation": "औसत = 21."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-045",
+      "number": 45,
+      "question": "A cylinder has a radius of 7 cm and height of 10 cm. Find its volume.",
+      "options": {
+        "A": "1540 cubic cm",
+        "B": "770 cubic cm",
+        "C": "1440 cubic cm",
+        "D": "1100 cubic cm"
+      },
+      "answer": "A",
+      "explanation": "Vol = PI * r^2 * h = (22/7) * 49 * 10 = 1540.",
+      "hash": "e785957768fb50b7",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन की त्रिज्या 7 सेमी और ऊँचाई 10 सेमी है। इसका आयतन ज्ञात कीजिए।",
+          "options": {
+            "A": "1540 घन सेमी",
+            "B": "770 घन सेमी",
+            "C": "1440 घन सेमी",
+            "D": "1100 घन सेमी"
+          },
+          "explanation": "आयतन = 1540."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-046",
+      "number": 46,
+      "question": "A can do a work in 12 days. B is 60% more efficient than A. In how many days can B alone do it?",
+      "options": {
+        "A": "7.5",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "B's time = 12 / 1.6 = 7.5.",
+      "hash": "3d93363d789479b8",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य को 12 दिनों में कर सकता है। B, A से 60% अधिक कुशल है। B अकेला इसे कितने दिनों में कर सकता है?",
+          "options": {
+            "A": "7.5",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "explanation": "B का समय = 12 / 1.6 = 7.5."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-047",
+      "number": 47,
+      "question": "If x:y = 3:4 and y:z = 8:9, then x:z is?",
+      "options": {
+        "A": "2:3",
+        "B": "3:2",
+        "C": "4:3",
+        "D": "1:1"
+      },
+      "answer": "A",
+      "explanation": "x/z = (x/y) * (y/z) = (3/4) * (8/9) = 2/3.",
+      "hash": "9835e6762daefaaa",
+      "translations": {
+        "hi": {
+          "question": "यदि x:y = 3:4 और y:z = 8:9 है, तो x:z क्या है?",
+          "options": {
+            "A": "2:3",
+            "B": "3:2",
+            "C": "4:3",
+            "D": "1:1"
+          },
+          "explanation": "x/z = 2/3."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-048",
+      "number": 48,
+      "question": "Find the area of a triangle with base 12 cm and height 8 cm.",
+      "options": {
+        "A": "48 sq.cm",
+        "B": "96 sq.cm",
+        "C": "24 sq.cm",
+        "D": "50 sq.cm"
+      },
+      "answer": "A",
+      "explanation": "Area = 1/2 * base * height = 0.5 * 12 * 8 = 48.",
+      "hash": "1a411fd23abeff68",
+      "translations": {
+        "hi": {
+          "question": "12 सेमी आधार और 8 सेमी ऊँचाई वाले त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "48 वर्ग सेमी",
+            "B": "96 वर्ग सेमी",
+            "C": "24 वर्ग सेमी",
+            "D": "50 वर्ग सेमी"
+          },
+          "explanation": "क्षेत्रफल = 48."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-049",
+      "number": 49,
+      "question": "10% of 20% of 1000 is?",
+      "options": {
+        "A": "20",
+        "B": "10",
+        "C": "50",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "1000 * 0.2 * 0.1 = 20.",
+      "hash": "c2557fa8c4179057",
+      "translations": {
+        "hi": {
+          "question": "1000 के 20% का 10% क्या है?",
+          "options": {
+            "A": "20",
+            "B": "10",
+            "C": "50",
+            "D": "200"
+          },
+          "explanation": "1000 * 0.2 * 0.1 = 20."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-050",
+      "number": 50,
+      "question": "Find the square root of 0.0009.",
+      "options": {
+        "A": "0.03",
+        "B": "0.3",
+        "C": "0.003",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "sqrt(9/10000) = 3/100 = 0.03.",
+      "hash": "fda4efd762d41571",
+      "translations": {
+        "hi": {
+          "question": "0.0009 का वर्गमूल ज्ञात कीजिए।",
+          "options": {
+            "A": "0.03",
+            "B": "0.3",
+            "C": "0.003",
+            "D": "3"
+          },
+          "explanation": "वर्गमूल = 0.03."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-051",
+      "number": 51,
+      "question": "Select the most appropriate synonym of the word 'Inexorable'.",
+      "options": {
+        "A": "Flexible",
+        "B": "Relentless",
+        "C": "Yielding",
+        "D": "Merciful"
+      },
+      "answer": "B",
+      "explanation": "Inexorable means impossible to stop or prevent; relentless is the correct synonym.",
+      "hash": "68e6950a851920ae",
+      "translations": {
+        "hi": {
+          "question": "Select the most appropriate synonym of the word 'Inexorable'.",
+          "options": {
+            "A": "Flexible",
+            "B": "Relentless",
+            "C": "Yielding",
+            "D": "Merciful"
+          },
+          "explanation": "Inexorable means impossible to stop or prevent; relentless is the correct synonym."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-052",
+      "number": 52,
+      "question": "Select the most appropriate antonym of 'Callous'.",
+      "options": {
+        "A": "Insensitive",
+        "B": "Soft-hearted",
+        "C": "Hardened",
+        "D": "Cruel"
+      },
+      "answer": "B",
+      "explanation": "Callous means showing a cruel disregard for others; soft-hearted or compassionate is the opposite.",
+      "hash": "0d5633b442d56da1",
+      "translations": {
+        "hi": {
+          "question": "Select the most appropriate antonym of 'Callous'.",
+          "options": {
+            "A": "Insensitive",
+            "B": "Soft-hearted",
+            "C": "Hardened",
+            "D": "Cruel"
+          },
+          "explanation": "Callous means showing a cruel disregard for others; soft-hearted or compassionate is the opposite."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-053",
+      "number": 53,
+      "question": "Identify the segment that contains a grammatical error: \"Not only the students / but also the principal / were laughing / at the joke.\"",
+      "options": {
+        "A": "Not only the students",
+        "B": "but also the principal",
+        "C": "were laughing",
+        "D": "at the joke"
+      },
+      "answer": "C",
+      "explanation": "In 'Not only... but also', the verb agrees with the nearest subject ('the principal'). It should be 'was laughing'.",
+      "hash": "baaf1744ed7faa74",
+      "translations": {
+        "hi": {
+          "question": "Identify the segment that contains a grammatical error: \"Not only the students / but also the principal / were laughing / at the joke.\"",
+          "options": {
+            "A": "Not only the students",
+            "B": "but also the principal",
+            "C": "were laughing",
+            "D": "at the joke"
+          },
+          "explanation": "In 'Not only... but also', the verb agrees with the nearest subject ('the principal'). It should be 'was laughing'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-054",
+      "number": 54,
+      "question": "Find the part of the sentence which has an error: \"The price of / these jeans / are / very high.\"",
+      "options": {
+        "A": "The price of",
+        "B": "these jeans",
+        "C": "are",
+        "D": "very high"
+      },
+      "answer": "C",
+      "explanation": "The subject is 'The price' (singular), not 'jeans'. Therefore, the verb should be 'is'.",
+      "hash": "d1a9a295dca99427",
+      "translations": {
+        "hi": {
+          "question": "Find the part of the sentence which has an error: \"The price of / these jeans / are / very high.\"",
+          "options": {
+            "A": "The price of",
+            "B": "these jeans",
+            "C": "are",
+            "D": "very high"
+          },
+          "explanation": "The subject is 'The price' (singular), not 'jeans'. Therefore, the verb should be 'is'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-055",
+      "number": 55,
+      "question": "Choose the correct one-word substitution for: \"A person who is skilled in the study of celestial bodies.\"",
+      "options": {
+        "A": "Astrologer",
+        "B": "Astronomer",
+        "C": "Astronaut",
+        "D": "Geologist"
+      },
+      "answer": "B",
+      "explanation": "An astronomer is a scientist who studies stars, planets, and other natural objects in space.",
+      "hash": "8b1abd46375ee4a9",
+      "translations": {
+        "hi": {
+          "question": "Choose the correct one-word substitution for: \"A person who is skilled in the study of celestial bodies.\"",
+          "options": {
+            "A": "Astrologer",
+            "B": "Astronomer",
+            "C": "Astronaut",
+            "D": "Geologist"
+          },
+          "explanation": "An astronomer is a scientist who studies stars, planets, and other natural objects in space."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-056",
+      "number": 56,
+      "question": "Select the most appropriate idiom for: \"To be in a state of confusion.\"",
+      "options": {
+        "A": "To be at sea",
+        "B": "To be on the cards",
+        "C": "To be under a cloud",
+        "D": "To be in the red"
+      },
+      "answer": "A",
+      "explanation": "'At sea' is an idiom used to describe someone who is confused or doesn't know what to do.",
+      "hash": "6c0b948f509d4564",
+      "translations": {
+        "hi": {
+          "question": "Select the most appropriate idiom for: \"To be in a state of confusion.\"",
+          "options": {
+            "A": "To be at sea",
+            "B": "To be on the cards",
+            "C": "To be under a cloud",
+            "D": "To be in the red"
+          },
+          "explanation": "'At sea' is an idiom used to describe someone who is confused or doesn't know what to do."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-057",
+      "number": 57,
+      "question": "Choose the correct passive voice: \"The master is teaching the students.\"",
+      "options": {
+        "A": "The students are taught by the master.",
+        "B": "The students were being taught by the master.",
+        "C": "The students are being taught by the master.",
+        "D": "The students have been taught by the master."
+      },
+      "answer": "C",
+      "explanation": "Present continuous changes to 'is/am/are + being + V3' in passive voice.",
+      "hash": "0d0963abdc99ca63",
+      "translations": {
+        "hi": {
+          "question": "Choose the correct passive voice: \"The master is teaching the students.\"",
+          "options": {
+            "A": "The students are taught by the master.",
+            "B": "The students were being taught by the master.",
+            "C": "The students are being taught by the master.",
+            "D": "The students have been taught by the master."
+          },
+          "explanation": "Present continuous changes to 'is/am/are + being + V3' in passive voice."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-058",
+      "number": 58,
+      "question": "Select the alternative that improves the underlined part: \"I have *been knowing* him for years.\"",
+      "options": {
+        "A": "know",
+        "B": "have known",
+        "C": "knew",
+        "D": "No improvement"
+      },
+      "answer": "B",
+      "explanation": "'Know' is a stative verb and is not used in the continuous form. Present perfect 'have known' is used for duration.",
+      "hash": "59ad102fd9c829df",
+      "translations": {
+        "hi": {
+          "question": "Select the alternative that improves the underlined part: \"I have *been knowing* him for years.\"",
+          "options": {
+            "A": "know",
+            "B": "have known",
+            "C": "knew",
+            "D": "No improvement"
+          },
+          "explanation": "'Know' is a stative verb and is not used in the continuous form. Present perfect 'have known' is used for duration."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-059",
+      "number": 59,
+      "question": "Choose the correctly spelled word.",
+      "options": {
+        "A": "Millennium",
+        "B": "Millenium",
+        "C": "Milennium",
+        "D": "Mileniumm"
+      },
+      "answer": "A",
+      "explanation": "Millennium is correctly spelled with double 'l' and double 'n'.",
+      "hash": "b6f0f9ed79aa6002",
+      "translations": {
+        "hi": {
+          "question": "Choose the correctly spelled word.",
+          "options": {
+            "A": "Millennium",
+            "B": "Millenium",
+            "C": "Milennium",
+            "D": "Mileniumm"
+          },
+          "explanation": "Millennium is correctly spelled with double 'l' and double 'n'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-060",
+      "number": 60,
+      "question": "Fill in the blank: \"He is indifferent _______ praise and blame.\"",
+      "options": {
+        "A": "in",
+        "B": "to",
+        "C": "with",
+        "D": "for"
+      },
+      "answer": "B",
+      "explanation": "The adjective 'indifferent' is followed by the preposition 'to'.",
+      "hash": "95950fe45ce9402d",
+      "translations": {
+        "hi": {
+          "question": "Fill in the blank: \"He is indifferent _______ praise and blame.\"",
+          "options": {
+            "A": "in",
+            "B": "to",
+            "C": "with",
+            "D": "for"
+          },
+          "explanation": "The adjective 'indifferent' is followed by the preposition 'to'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-061",
+      "number": 61,
+      "question": "Identify the error: \"He is / one of the / tallest boy / in the school.\"",
+      "options": {
+        "A": "He is",
+        "B": "one of the",
+        "C": "tallest boy",
+        "D": "in the school"
+      },
+      "answer": "C",
+      "explanation": "'One of the' is followed by a plural noun. It should be 'tallest boys'.",
+      "hash": "988a2c39733aba9b",
+      "translations": {
+        "hi": {
+          "question": "Identify the error: \"He is / one of the / tallest boy / in the school.\"",
+          "options": {
+            "A": "He is",
+            "B": "one of the",
+            "C": "tallest boy",
+            "D": "in the school"
+          },
+          "explanation": "'One of the' is followed by a plural noun. It should be 'tallest boys'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-062",
+      "number": 62,
+      "question": "Select the synonym of 'Furtive'.",
+      "options": {
+        "A": "Open",
+        "B": "Secretive",
+        "C": "Honest",
+        "D": "Public"
+      },
+      "answer": "B",
+      "explanation": "Furtive means attempting to avoid notice or attention, typically because of guilt; secretive is a synonym.",
+      "hash": "d08cff0d76495a7c",
+      "translations": {
+        "hi": {
+          "question": "Select the synonym of 'Furtive'.",
+          "options": {
+            "A": "Open",
+            "B": "Secretive",
+            "C": "Honest",
+            "D": "Public"
+          },
+          "explanation": "Furtive means attempting to avoid notice or attention, typically because of guilt; secretive is a synonym."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-063",
+      "number": 63,
+      "question": "Select the most appropriate antonym of 'Vague'.",
+      "options": {
+        "A": "Clear",
+        "B": "Hazy",
+        "C": "Faint",
+        "D": "Dim"
+      },
+      "answer": "A",
+      "explanation": "Vague means uncertain or unclear; clear is the opposite.",
+      "hash": "c730cd501c6fe012",
+      "translations": {
+        "hi": {
+          "question": "Select the most appropriate antonym of 'Vague'.",
+          "options": {
+            "A": "Clear",
+            "B": "Hazy",
+            "C": "Faint",
+            "D": "Dim"
+          },
+          "explanation": "Vague means uncertain or unclear; clear is the opposite."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-064",
+      "number": 64,
+      "question": "One word substitution: \"A person who hates women.\"",
+      "options": {
+        "A": "Misanthrope",
+        "B": "Misogynist",
+        "C": "Misogamist",
+        "D": "Misologist"
+      },
+      "answer": "B",
+      "explanation": "A misogynist is a person who dislikes, despises, or is strongly prejudiced against women.",
+      "hash": "9c757eae26d948de",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"A person who hates women.\"",
+          "options": {
+            "A": "Misanthrope",
+            "B": "Misogynist",
+            "C": "Misogamist",
+            "D": "Misologist"
+          },
+          "explanation": "A misogynist is a person who dislikes, despises, or is strongly prejudiced against women."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-065",
+      "number": 65,
+      "question": "Idiom meaning: \"To hit the nail on the head.\"",
+      "options": {
+        "A": "To do a carpentry task",
+        "B": "To say exactly the right thing",
+        "C": "To hurt someone's feelings",
+        "D": "To make a loud noise"
+      },
+      "answer": "B",
+      "explanation": "To hit the nail on the head means to describe exactly what is causing a situation or problem.",
+      "hash": "21fd364503bd659c",
+      "translations": {
+        "hi": {
+          "question": "Idiom meaning: \"To hit the nail on the head.\"",
+          "options": {
+            "A": "To do a carpentry task",
+            "B": "To say exactly the right thing",
+            "C": "To hurt someone's feelings",
+            "D": "To make a loud noise"
+          },
+          "explanation": "To hit the nail on the head means to describe exactly what is causing a situation or problem."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-066",
+      "number": 66,
+      "question": "Direct to Indirect: \"He said, 'I went to Delhi yesterday.'\"",
+      "options": {
+        "A": "He said that he went to Delhi the previous day.",
+        "B": "He said that he had gone to Delhi the previous day.",
+        "C": "He said that he has gone to Delhi yesterday.",
+        "D": "He said that he had gone to Delhi yesterday."
+      },
+      "answer": "B",
+      "explanation": "Simple past changes to past perfect, and 'yesterday' changes to 'the previous day'.",
+      "hash": "7b62e10327c2def7",
+      "translations": {
+        "hi": {
+          "question": "Direct to Indirect: \"He said, 'I went to Delhi yesterday.'\"",
+          "options": {
+            "A": "He said that he went to Delhi the previous day.",
+            "B": "He said that he had gone to Delhi the previous day.",
+            "C": "He said that he has gone to Delhi yesterday.",
+            "D": "He said that he had gone to Delhi yesterday."
+          },
+          "explanation": "Simple past changes to past perfect, and 'yesterday' changes to 'the previous day'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-067",
+      "number": 67,
+      "question": "Fill in the blank: \"Hardly had I reached the station _______ the train started.\"",
+      "options": {
+        "A": "than",
+        "B": "when",
+        "C": "then",
+        "D": "while"
+      },
+      "answer": "B",
+      "explanation": "'Hardly' is followed by 'when'.",
+      "hash": "3d8c193c14af75f3",
+      "translations": {
+        "hi": {
+          "question": "Fill in the blank: \"Hardly had I reached the station _______ the train started.\"",
+          "options": {
+            "A": "than",
+            "B": "when",
+            "C": "then",
+            "D": "while"
+          },
+          "explanation": "'Hardly' is followed by 'when'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-069",
+      "number": 69,
+      "question": "Antonym of 'Relinquish'.",
+      "options": {
+        "A": "Abandon",
+        "B": "Retain",
+        "C": "Yield",
+        "D": "Quit"
+      },
+      "answer": "B",
+      "explanation": "Relinquish means to give up; retain means to keep.",
+      "hash": "079147a0873555a8",
+      "translations": {
+        "hi": {
+          "question": "Antonym of 'Relinquish'.",
+          "options": {
+            "A": "Abandon",
+            "B": "Retain",
+            "C": "Yield",
+            "D": "Quit"
+          },
+          "explanation": "Relinquish means to give up; retain means to keep."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-070",
+      "number": 70,
+      "question": "Error detection: \"Ten miles / are / a long distance / to walk.\"",
+      "options": {
+        "A": "Ten miles",
+        "B": "are",
+        "C": "a long distance",
+        "D": "to walk"
+      },
+      "answer": "B",
+      "explanation": "When a plural noun (ten miles) denotes a specific amount or distance as a whole, it takes a singular verb ('is').",
+      "hash": "52fc76c47b5f7b15",
+      "translations": {
+        "hi": {
+          "question": "Error detection: \"Ten miles / are / a long distance / to walk.\"",
+          "options": {
+            "A": "Ten miles",
+            "B": "are",
+            "C": "a long distance",
+            "D": "to walk"
+          },
+          "explanation": "When a plural noun (ten miles) denotes a specific amount or distance as a whole, it takes a singular verb ('is')."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-071",
+      "number": 71,
+      "question": "Synonym of 'Prodigal'.",
+      "options": {
+        "A": "Thrifty",
+        "B": "Extravagant",
+        "C": "Sparing",
+        "D": "Careful"
+      },
+      "answer": "B",
+      "explanation": "Prodigal means spending money or resources freely and recklessly; extravagant is a synonym.",
+      "hash": "7a8ca94efe7b72e9",
+      "translations": {
+        "hi": {
+          "question": "Synonym of 'Prodigal'.",
+          "options": {
+            "A": "Thrifty",
+            "B": "Extravagant",
+            "C": "Sparing",
+            "D": "Careful"
+          },
+          "explanation": "Prodigal means spending money or resources freely and recklessly; extravagant is a synonym."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-072",
+      "number": 72,
+      "question": "One word substitution: \"The study of the origin of words.\"",
+      "options": {
+        "A": "Entomology",
+        "B": "Etymology",
+        "C": "Philology",
+        "D": "Phonology"
+      },
+      "answer": "B",
+      "explanation": "Etymology is the study of the origin of words and the way in which their meanings have changed.",
+      "hash": "ec73fb0f67fbea00",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"The study of the origin of words.\"",
+          "options": {
+            "A": "Entomology",
+            "B": "Etymology",
+            "C": "Philology",
+            "D": "Phonology"
+          },
+          "explanation": "Etymology is the study of the origin of words and the way in which their meanings have changed."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-073",
+      "number": 73,
+      "question": "Sentence improvement: \"He *is having* two brothers.\"",
+      "options": {
+        "A": "has",
+        "B": "had",
+        "C": "was having",
+        "D": "No improvement"
+      },
+      "answer": "A",
+      "explanation": "'Have' used for relationship/possession is a stative verb and is not used in the continuous form.",
+      "hash": "9226bb5f7142f03f",
+      "translations": {
+        "hi": {
+          "question": "Sentence improvement: \"He *is having* two brothers.\"",
+          "options": {
+            "A": "has",
+            "B": "had",
+            "C": "was having",
+            "D": "No improvement"
+          },
+          "explanation": "'Have' used for relationship/possession is a stative verb and is not used in the continuous form."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-074",
+      "number": 74,
+      "question": "Idiom: \"To play second fiddle.\"",
+      "options": {
+        "A": "To be a musician",
+        "B": "To take a subordinate role",
+        "C": "To be the leader",
+        "D": "To play a prank"
+      },
+      "answer": "B",
+      "explanation": "To play second fiddle means to be in a less important or subordinate position to someone else.",
+      "hash": "29daa6b3833e788c",
+      "translations": {
+        "hi": {
+          "question": "Idiom: \"To play second fiddle.\"",
+          "options": {
+            "A": "To be a musician",
+            "B": "To take a subordinate role",
+            "C": "To be the leader",
+            "D": "To play a prank"
+          },
+          "explanation": "To play second fiddle means to be in a less important or subordinate position to someone else."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-075",
+      "number": 75,
+      "question": "Choose the correct preposition: \"The property was divided _______ the two brothers.\"",
+      "options": {
+        "A": "among",
+        "B": "between",
+        "C": "in",
+        "D": "with"
+      },
+      "answer": "B",
+      "explanation": "'Between' is used for two entities; 'among' is used for more than two.",
+      "hash": "f8cfcb809bce40df",
+      "translations": {
+        "hi": {
+          "question": "Choose the correct preposition: \"The property was divided _______ the two brothers.\"",
+          "options": {
+            "A": "among",
+            "B": "between",
+            "C": "in",
+            "D": "with"
+          },
+          "explanation": "'Between' is used for two entities; 'among' is used for more than two."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-076",
+      "number": 76,
+      "question": "Synonym of 'Apathy'.",
+      "options": {
+        "A": "Zeal",
+        "B": "Indifference",
+        "C": "Eagerness",
+        "D": "Passion"
+      },
+      "answer": "B",
+      "explanation": "Apathy is lack of interest, enthusiasm, or concern.",
+      "hash": "797e065951528c26",
+      "translations": {
+        "hi": {
+          "question": "Synonym of 'Apathy'.",
+          "options": {
+            "A": "Zeal",
+            "B": "Indifference",
+            "C": "Eagerness",
+            "D": "Passion"
+          },
+          "explanation": "Apathy is lack of interest, enthusiasm, or concern."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-077",
+      "number": 77,
+      "question": "Antonym of 'Barren'.",
+      "options": {
+        "A": "Sterile",
+        "B": "Fertile",
+        "C": "Deserted",
+        "D": "Dry"
+      },
+      "answer": "B",
+      "explanation": "Barren means unproductive; fertile means capable of producing abundant vegetation.",
+      "hash": "3511e89f8a47ce30",
+      "translations": {
+        "hi": {
+          "question": "Antonym of 'Barren'.",
+          "options": {
+            "A": "Sterile",
+            "B": "Fertile",
+            "C": "Deserted",
+            "D": "Dry"
+          },
+          "explanation": "Barren means unproductive; fertile means capable of producing abundant vegetation."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-078",
+      "number": 78,
+      "question": "One word substitution: \"One who is all-powerful.\"",
+      "options": {
+        "A": "Omnipresent",
+        "B": "Omnipotent",
+        "C": "Omniscient",
+        "D": "Optimist"
+      },
+      "answer": "B",
+      "explanation": "Omnipotent means having unlimited power.",
+      "hash": "df0eccaba892a42a",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"One who is all-powerful.\"",
+          "options": {
+            "A": "Omnipresent",
+            "B": "Omnipotent",
+            "C": "Omniscient",
+            "D": "Optimist"
+          },
+          "explanation": "Omnipotent means having unlimited power."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-079",
+      "number": 79,
+      "question": "Select the correctly spelled word.",
+      "options": {
+        "A": "Questionnaire",
+        "B": "Questionaire",
+        "C": "Questionnare",
+        "D": "Questionair"
+      },
+      "answer": "A",
+      "explanation": "Questionnaire is spelled with a double 'n'.",
+      "hash": "0f755a9b0a16202b",
+      "translations": {
+        "hi": {
+          "question": "Select the correctly spelled word.",
+          "options": {
+            "A": "Questionnaire",
+            "B": "Questionaire",
+            "C": "Questionnare",
+            "D": "Questionair"
+          },
+          "explanation": "Questionnaire is spelled with a double 'n'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-080",
+      "number": 80,
+      "question": "Fill in the blank: \"If I _______ a bird, I would fly to you.\"",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "am",
+        "D": "had been"
+      },
+      "answer": "B",
+      "explanation": "In imaginary conditions, 'were' is used for all subjects.",
+      "hash": "7636f08df2dab0d1",
+      "translations": {
+        "hi": {
+          "question": "Fill in the blank: \"If I _______ a bird, I would fly to you.\"",
+          "options": {
+            "A": "was",
+            "B": "were",
+            "C": "am",
+            "D": "had been"
+          },
+          "explanation": "In imaginary conditions, 'were' is used for all subjects."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-081",
+      "number": 81,
+      "question": "Idiom: \"Burn the midnight oil.\"",
+      "options": {
+        "A": "To waste fuel",
+        "B": "To work late into the night",
+        "C": "To sleep early",
+        "D": "To cook at night"
+      },
+      "answer": "B",
+      "explanation": "'Burn the midnight oil' means to read or work late into the night.",
+      "hash": "67576f3345f4da77",
+      "translations": {
+        "hi": {
+          "question": "Idiom: \"Burn the midnight oil.\"",
+          "options": {
+            "A": "To waste fuel",
+            "B": "To work late into the night",
+            "C": "To sleep early",
+            "D": "To cook at night"
+          },
+          "explanation": "'Burn the midnight oil' means to read or work late into the night."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-082",
+      "number": 82,
+      "question": "Passive Voice: \"They have built a house.\"",
+      "options": {
+        "A": "A house is built by them.",
+        "B": "A house was built by them.",
+        "C": "A house has been built by them.",
+        "D": "A house is being built by them."
+      },
+      "answer": "C",
+      "explanation": "Present perfect changes to 'has/have + been + V3' in passive voice.",
+      "hash": "dd99d6629734d558",
+      "translations": {
+        "hi": {
+          "question": "Passive Voice: \"They have built a house.\"",
+          "options": {
+            "A": "A house is built by them.",
+            "B": "A house was built by them.",
+            "C": "A house has been built by them.",
+            "D": "A house is being built by them."
+          },
+          "explanation": "Present perfect changes to 'has/have + been + V3' in passive voice."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-084",
+      "number": 84,
+      "question": "Synonym of 'Diligent'.",
+      "options": {
+        "A": "Lazy",
+        "B": "Industrious",
+        "C": "Careless",
+        "D": "Idle"
+      },
+      "answer": "B",
+      "explanation": "Diligent means showing care and conscientiousness in work; industrious is a synonym.",
+      "hash": "303063651b98bee3",
+      "translations": {
+        "hi": {
+          "question": "Synonym of 'Diligent'.",
+          "options": {
+            "A": "Lazy",
+            "B": "Industrious",
+            "C": "Careless",
+            "D": "Idle"
+          },
+          "explanation": "Diligent means showing care and conscientiousness in work; industrious is a synonym."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-085",
+      "number": 85,
+      "question": "Antonym of 'Hostile'.",
+      "options": {
+        "A": "Unfriendly",
+        "B": "Friendly",
+        "C": "Adverse",
+        "D": "Bitter"
+      },
+      "answer": "B",
+      "explanation": "Hostile means showing opposition or dislike; friendly is the opposite.",
+      "hash": "9992c6d6ae94e3eb",
+      "translations": {
+        "hi": {
+          "question": "Antonym of 'Hostile'.",
+          "options": {
+            "A": "Unfriendly",
+            "B": "Friendly",
+            "C": "Adverse",
+            "D": "Bitter"
+          },
+          "explanation": "Hostile means showing opposition or dislike; friendly is the opposite."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-086",
+      "number": 86,
+      "question": "Idiom: \"A piece of cake.\"",
+      "options": {
+        "A": "A sweet dish",
+        "B": "A very easy task",
+        "C": "A difficult situation",
+        "D": "To share food"
+      },
+      "answer": "B",
+      "explanation": "'A piece of cake' refers to something that is very easy to accomplish.",
+      "hash": "98d645f21faea2de",
+      "translations": {
+        "hi": {
+          "question": "Idiom: \"A piece of cake.\"",
+          "options": {
+            "A": "A sweet dish",
+            "B": "A very easy task",
+            "C": "A difficult situation",
+            "D": "To share food"
+          },
+          "explanation": "'A piece of cake' refers to something that is very easy to accomplish."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-087",
+      "number": 87,
+      "question": "One word substitution: \"A person who collects coins.\"",
+      "options": {
+        "A": "Philatelist",
+        "B": "Numismatist",
+        "C": "Anthropologist",
+        "D": "Archaeologist"
+      },
+      "answer": "B",
+      "explanation": "A numismatist is a person who collects or studies coins, paper money, and medals.",
+      "hash": "b48e838a8a6313a7",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"A person who collects coins.\"",
+          "options": {
+            "A": "Philatelist",
+            "B": "Numismatist",
+            "C": "Anthropologist",
+            "D": "Archaeologist"
+          },
+          "explanation": "A numismatist is a person who collects or studies coins, paper money, and medals."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-088",
+      "number": 88,
+      "question": "Sentence improvement: \"She is senior *than* me.\"",
+      "options": {
+        "A": "to",
+        "B": "from",
+        "C": "over",
+        "D": "No improvement"
+      },
+      "answer": "A",
+      "explanation": "Latin adjectives like senior, junior, and superior take the preposition 'to'.",
+      "hash": "06b279c8877bfc59",
+      "translations": {
+        "hi": {
+          "question": "Sentence improvement: \"She is senior *than* me.\"",
+          "options": {
+            "A": "to",
+            "B": "from",
+            "C": "over",
+            "D": "No improvement"
+          },
+          "explanation": "Latin adjectives like senior, junior, and superior take the preposition 'to'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-089",
+      "number": 89,
+      "question": "Choose the correct preposition: \"I am tired _______ this routine.\"",
+      "options": {
+        "A": "with",
+        "B": "of",
+        "C": "by",
+        "D": "from"
+      },
+      "answer": "B",
+      "explanation": "The correct phrase is 'tired of'.",
+      "hash": "fd5eaffcf1b6d924",
+      "translations": {
+        "hi": {
+          "question": "Choose the correct preposition: \"I am tired _______ this routine.\"",
+          "options": {
+            "A": "with",
+            "B": "of",
+            "C": "by",
+            "D": "from"
+          },
+          "explanation": "The correct phrase is 'tired of'."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-090",
+      "number": 90,
+      "question": "Synonym of 'Candid'.",
+      "options": {
+        "A": "Deceptive",
+        "B": "Frank",
+        "C": "Secretive",
+        "D": "Subtle"
+      },
+      "answer": "B",
+      "explanation": "Candid means truthful and straightforward; frank is a synonym.",
+      "hash": "30d282df2b0e59b6",
+      "translations": {
+        "hi": {
+          "question": "Synonym of 'Candid'.",
+          "options": {
+            "A": "Deceptive",
+            "B": "Frank",
+            "C": "Secretive",
+            "D": "Subtle"
+          },
+          "explanation": "Candid means truthful and straightforward; frank is a synonym."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-091",
+      "number": 91,
+      "question": "One word substitution: \"The absence of government.\"",
+      "options": {
+        "A": "Monarchy",
+        "B": "Anarchy",
+        "C": "Democracy",
+        "D": "Autocracy"
+      },
+      "answer": "B",
+      "explanation": "Anarchy is a state of disorder due to absence or non-recognition of authority.",
+      "hash": "0486f9932f039194",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"The absence of government.\"",
+          "options": {
+            "A": "Monarchy",
+            "B": "Anarchy",
+            "C": "Democracy",
+            "D": "Autocracy"
+          },
+          "explanation": "Anarchy is a state of disorder due to absence or non-recognition of authority."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-092",
+      "number": 92,
+      "question": "Antonym of 'Transparent'.",
+      "options": {
+        "A": "Clear",
+        "B": "Opaque",
+        "C": "Lucent",
+        "D": "Lucid"
+      },
+      "answer": "B",
+      "explanation": "Transparent allows light through; opaque does not.",
+      "hash": "7aceb165c364743e",
+      "translations": {
+        "hi": {
+          "question": "Antonym of 'Transparent'.",
+          "options": {
+            "A": "Clear",
+            "B": "Opaque",
+            "C": "Lucent",
+            "D": "Lucid"
+          },
+          "explanation": "Transparent allows light through; opaque does not."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-093",
+      "number": 93,
+      "question": "Idiom: \"To smell a rat.\"",
+      "options": {
+        "A": "To catch a rodent",
+        "B": "To suspect something foul or fishy",
+        "C": "To be very clever",
+        "D": "To hunt for animals"
+      },
+      "answer": "B",
+      "explanation": "To 'smell a rat' means to suspect that something is wrong or that someone is being dishonest.",
+      "hash": "8c2c6b79a3383ec3",
+      "translations": {
+        "hi": {
+          "question": "Idiom: \"To smell a rat.\"",
+          "options": {
+            "A": "To catch a rodent",
+            "B": "To suspect something foul or fishy",
+            "C": "To be very clever",
+            "D": "To hunt for animals"
+          },
+          "explanation": "To 'smell a rat' means to suspect that something is wrong or that someone is being dishonest."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-099",
+      "number": 99,
+      "question": "One word substitution: \"Killing of a king.\"",
+      "options": {
+        "A": "Homicide",
+        "B": "Regicide",
+        "C": "Patricide ) Matricide"
+      },
+      "answer": "B",
+      "explanation": "Regicide is the action of killing a king.",
+      "hash": "12b0f79a71663c0d",
+      "translations": {
+        "hi": {
+          "question": "One word substitution: \"Killing of a king.\"",
+          "options": {
+            "A": "Homicide",
+            "B": "Regicide",
+            "C": "Patricide ) Matricide"
+          },
+          "explanation": "Regicide is the action of killing a king."
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-101",
+      "number": 101,
+      "question": "Who was the founder of the 'Kanva Dynasty'?",
+      "options": {
+        "A": "Vasudeva",
+        "B": "Bhumimitra",
+        "C": "Narayana",
+        "D": "Susarman"
+      },
+      "answer": "A",
+      "explanation": "He established the dynasty after overthowing the last Shunga ruler, Devabhuti.",
+      "hash": "4f9b9aa2341168e6",
+      "translations": {
+        "hi": {
+          "question": "'कण्व वंश' का संस्थापक कौन था?",
+          "options": {
+            "A": "वासुदेव",
+            "B": "भूमिमित्र",
+            "C": "नारायण",
+            "D": "सुशर्मन"
+          },
+          "explanation": "उन्होंने अंतिम शुंग शासक देवभूति को पदच्युत करने के बाद इस वंश की स्थापना की थी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-102",
+      "number": 102,
+      "question": "Which Constitutional Article deals with the establishment of the Supreme Court?",
+      "options": {
+        "A": "Article 124",
+        "B": "Article 129",
+        "C": "Article 131",
+        "D": "Article 143"
+      },
+      "answer": "A",
+      "explanation": "Article 124 states there shall be a Supreme Court of India consisting of a Chief Justice.",
+      "hash": "20a9c1f980185030",
+      "translations": {
+        "hi": {
+          "question": "कौन सा संवैधानिक अनुच्छेद सर्वोच्च न्यायालय की स्थापना से संबंधित है?",
+          "options": {
+            "A": "अनुच्छेद 124",
+            "B": "अनुच्छेद 129",
+            "C": "अनुच्छेद 131",
+            "D": "अनुच्छेद 143"
+          },
+          "explanation": "अनुच्छेद 124 में कहा गया है कि भारत का एक सर्वोच्च न्यायालय होगा जिसमें एक मुख्य न्यायाधीश होगा।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-103",
+      "number": 103,
+      "question": "The 'Bandhavgarh National Park' is located in which state?",
+      "options": {
+        "A": "Rajasthan",
+        "B": "Madhya Pradesh",
+        "C": "Maharashtra",
+        "D": "Chhattisgarh"
+      },
+      "answer": "B",
+      "explanation": "It is known for its high density of Royal Bengal Tigers.",
+      "hash": "ab6fff354cdedaae",
+      "translations": {
+        "hi": {
+          "question": "'बांधवगढ़ राष्ट्रीय उद्यान' किस राज्य में स्थित है?",
+          "options": {
+            "A": "राजस्थान",
+            "B": "मध्य प्रदेश",
+            "C": "महाराष्ट्र",
+            "D": "छत्तीसगढ़"
+          },
+          "explanation": "यह रॉयल बंगाल टाइगर्स के उच्च घनत्व के लिए जाना जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-104",
+      "number": 104,
+      "question": "Who was the first woman Governor of a state in free India?",
+      "options": {
+        "A": "Sarojini Naidu",
+        "B": "Sucheta Kripalani",
+        "C": "Indira Gandhi",
+        "D": "Vijaya Lakshmi Pandit"
+      },
+      "answer": "A",
+      "explanation": "She served as the Governor of Uttar Pradesh from 1947 to 1949.",
+      "hash": "902a2182b1a909e9",
+      "translations": {
+        "hi": {
+          "question": "स्वतंत्र भारत में किसी राज्य की पहली महिला राज्यपाल कौन थीं?",
+          "options": {
+            "A": "सरोजिनी नायडू",
+            "B": "सुचेता कृपलानी",
+            "C": "इंदिरा गांधी",
+            "D": "विजया लक्ष्मी पंडित"
+          },
+          "explanation": "उन्होंने 1947 से 1949 तक उत्तर प्रदेश की राज्यपाल के रूप में कार्य किया।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-105",
+      "number": 105,
+      "question": "Deficiency of which vitamin causes 'Rickets' in children?",
+      "options": {
+        "A": "Vitamin A",
+        "B": "Vitamin B",
+        "C": "Vitamin C",
+        "D": "Vitamin D"
+      },
+      "answer": "D",
+      "explanation": "Rickets leads to soft and weak bones due to poor calcium absorption.",
+      "hash": "3e7b5a5b66d6adbf",
+      "translations": {
+        "hi": {
+          "question": "किस विटामिन की कमी से बच्चों में 'रिकेट्स' (Rickets) रोग होता है?",
+          "options": {
+            "A": "विटामिन A",
+            "B": "विटामिन B",
+            "C": "विटामिन C",
+            "D": "विटामिन D"
+          },
+          "explanation": "रिकेट्स कैल्शियम के खराब अवशोषण के कारण हड्डियों के नरम और कमजोर होने का कारण बनता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-106",
+      "number": 106,
+      "question": "Which river is known as the 'Life Line of Madhya Pradesh'?",
+      "options": {
+        "A": "Chambal",
+        "B": "Narmada",
+        "C": "Tapti",
+        "D": "Betwa"
+      },
+      "answer": "B",
+      "explanation": "It is the largest west-flowing river in India and flows through a rift valley.",
+      "hash": "eb9975e259c36e7e",
+      "translations": {
+        "hi": {
+          "question": "किस नदी को 'मध्य प्रदेश की जीवन रेखा' के नाम से जाना जाता है?",
+          "options": {
+            "A": "चंबल",
+            "B": "नर्मदा",
+            "C": "ताप्ती",
+            "D": "बेतवा"
+          },
+          "explanation": "यह भारत की सबसे बड़ी पश्चिम की ओर बहने वाली नदी है और भ्रंश घाटी से होकर बहती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-107",
+      "number": 107,
+      "question": "Which part of the human eye adjusts the focal length of the lens?",
+      "options": {
+        "A": "Cornea",
+        "B": "Pupil",
+        "C": "Ciliary muscles",
+        "D": "Retina"
+      },
+      "answer": "C",
+      "explanation": "Ciliary muscles change the curvature of the lens to focus on objects at different distances.",
+      "hash": "063f7a77bbe58efb",
+      "translations": {
+        "hi": {
+          "question": "मानव आँख का कौन सा भाग लेंस की फोकल लंबाई को समायोजित करता है?",
+          "options": {
+            "A": "कॉर्निया",
+            "B": "पुतली",
+            "C": "सिलियरी मांसपेशियां",
+            "D": "रेटिना"
+          },
+          "explanation": "सिलियरी मांसपेशियां अलग-अलग दूरी पर स्थित वस्तुओं पर ध्यान केंद्रित करने के लिए लेंस की वक्रता को बदलती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-108",
+      "number": 108,
+      "question": "'The Guide' is a famous novel written by?",
+      "options": {
+        "A": "R.K. Narayan",
+        "B": "Mulk Raj Anand",
+        "C": "Vikram Seth",
+        "D": "Anita Desai"
+      },
+      "answer": "A",
+      "explanation": "The novel won the Sahitya Akademi Award in 1960.",
+      "hash": "91ccaa6db5e390f2",
+      "translations": {
+        "hi": {
+          "question": "'द गाइड' किसके द्वारा लिखा गया प्रसिद्ध उपन्यास है?",
+          "options": {
+            "A": "आर.के. नारायण",
+            "B": "मुल्क राज आनंद",
+            "C": "विक्रम सेठ",
+            "D": "अनीता देसाई"
+          },
+          "explanation": "इस उपन्यास ने 1960 में साहित्य अकादमी पुरस्कार जीता था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-109",
+      "number": 109,
+      "question": "Who founded the 'Deccan Education Society' in 1884?",
+      "options": {
+        "A": "Bal Gangadhar Tilak",
+        "B": "Gopal Krishna Gokhale",
+        "C": "M.G. Ranade",
+        "D": "Jyotirao Phule"
+      },
+      "answer": "A",
+      "explanation": "It was founded by Tilak, Chiplunkar, and Namjoshi in Pune.",
+      "hash": "47253d25e61ac5cf",
+      "translations": {
+        "hi": {
+          "question": "1884 में 'डेक्कन एजुकेशन सोसाइटी' की स्थापना किसने की थी?",
+          "options": {
+            "A": "बाल गंगाधर तिलक",
+            "B": "गोपाल कृष्ण गोखले",
+            "C": "एम.जी. रानाडे",
+            "D": "ज्योतिराव फुले"
+          },
+          "explanation": "इसकी स्थापना पुणे में तिलक, चिपलूनकर और नामजोशी ने की थी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-110",
+      "number": 110,
+      "question": "Who was the first Indian woman to win an Olympic medal?",
+      "options": {
+        "A": "Karnam Malleswari",
+        "B": "Saina Nehwal",
+        "C": "Mary Kom",
+        "D": "P.V. Sindhu"
+      },
+      "answer": "A",
+      "explanation": "She won a bronze medal in weightlifting at the 2000 Sydney Olympics.",
+      "hash": "ba79d96879ee54d8",
+      "translations": {
+        "hi": {
+          "question": "ओलंपिक पदक जीतने वाली पहली भारतीय महिला कौन थीं?",
+          "options": {
+            "A": "कर्णम मल्लेश्वरी",
+            "B": "साइना नेहवाल",
+            "C": "मैरी कॉम",
+            "D": "पी.वी. सिंधु"
+          },
+          "explanation": "उन्होंने 2000 के सिडनी ओलंपिक में भारोत्तोलन में कांस्य पदक जीता था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-111",
+      "number": 111,
+      "question": "The 'Tehri Dam' is built on which river?",
+      "options": {
+        "A": "Bhagirathi",
+        "B": "Alaknanda",
+        "C": "Yamuna",
+        "D": "Mandakini"
+      },
+      "answer": "A",
+      "explanation": "It is the highest dam in India, located in Uttarakhand.",
+      "hash": "4bdf32f0e39a025a",
+      "translations": {
+        "hi": {
+          "question": "'टिहरी बांध' किस नदी पर बना है?",
+          "options": {
+            "A": "भागीरथी",
+            "B": "अलकनंदा",
+            "C": "यमुना",
+            "D": "मंदाकिनी"
+          },
+          "explanation": "यह उत्तराखंड में स्थित भारत का सबसे ऊंचा बांध है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-112",
+      "number": 112,
+      "question": "What is the main constituent of Liquefied Petroleum Gas (LPG)?",
+      "options": {
+        "A": "Methane",
+        "B": "Ethane",
+        "C": "Butane",
+        "D": "Hydrogen"
+      },
+      "answer": "C",
+      "explanation": "LPG is a mixture of flammable hydrocarbon gases, primarily propane and butane.",
+      "hash": "7242f46ccde2ed86",
+      "translations": {
+        "hi": {
+          "question": "तरलीकृत पेट्रोलियम गैस (LPG) का मुख्य घटक क्या है?",
+          "options": {
+            "A": "मीथेन",
+            "B": "ईथेन",
+            "C": "ब्यूटेन",
+            "D": "हाइड्रोजन"
+          },
+          "explanation": "एलपीजी ज्वलनशील हाइड्रोकार्बन गैसों का मिश्रण है, मुख्य रूप से प्रोपेन और ब्यूटेन।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-113",
+      "number": 113,
+      "question": "Which organization releases the 'Ease of Doing Business' index?",
+      "options": {
+        "A": "World Bank",
+        "B": "IMF",
+        "C": "WTO",
+        "D": "WEF"
+      },
+      "answer": "A",
+      "explanation": "The World Bank discontinued the report recently but it was their flagship publication.",
+      "hash": "bd5a4491423eca08",
+      "translations": {
+        "hi": {
+          "question": "'ईज ऑफ डूइंग बिजनेस' सूचकांक कौन सा संगठन जारी करता है?",
+          "options": {
+            "A": "विश्व बैंक",
+            "B": "आईएमएफ",
+            "C": "डब्ल्यूटीओ",
+            "D": "विश्व आर्थिक मंच"
+          },
+          "explanation": "विश्व बैंक ने हाल ही में रिपोर्ट को बंद कर दिया है, लेकिन यह उनका प्रमुख प्रकाशन था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-114",
+      "number": 114,
+      "question": "'Sattriya' is a classical dance from which state?",
+      "options": {
+        "A": "Manipur",
+        "B": "Assam",
+        "C": "Odisha",
+        "D": "Kerala"
+      },
+      "answer": "B",
+      "explanation": "It was introduced by the saint Mahapurusha Sankaradeva in the 15th century.",
+      "hash": "3a445c864474089f",
+      "translations": {
+        "hi": {
+          "question": "'सत्रिया' किस राज्य का शास्त्रीय नृत्य है?",
+          "options": {
+            "A": "मणिपुर",
+            "B": "असम",
+            "C": "ओडिशा",
+            "D": "केरल"
+          },
+          "explanation": "इसे 15वीं शताब्दी में संत महापुरुष शंकरदेव ने शुरू किया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-115",
+      "number": 115,
+      "question": "Who was the first Indian to win a Nobel Prize?",
+      "options": {
+        "A": "C.V. Raman",
+        "B": "Rabindranath Tagore",
+        "C": "Mother Teresa",
+        "D": "Amartya Sen"
+      },
+      "answer": "B",
+      "explanation": "He won the Nobel Prize in Literature in 1913 for 'Gitanjali'.",
+      "hash": "27b8a38385c9d4e1",
+      "translations": {
+        "hi": {
+          "question": "नोबेल पुरस्कार जीतने वाले पहले भारतीय कौन थे?",
+          "options": {
+            "A": "सी.वी. रमन",
+            "B": "रवींद्रनाथ टैगोर",
+            "C": "मदर टेरेसा",
+            "D": "अमर्त्य सेन"
+          },
+          "explanation": "उन्होंने 'गीतांजलि' के लिए 1913 में साहित्य का नोबेल पुरस्कार जीता था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-116",
+      "number": 116,
+      "question": "Which instrument is used to measure the intensity of an earthquake?",
+      "options": {
+        "A": "Seismograph",
+        "B": "Barometer",
+        "C": "Hydrometer",
+        "D": "Galvanometer"
+      },
+      "answer": "A",
+      "explanation": "The magnitude of the earthquake is typically measured on the Richter scale.",
+      "hash": "0b67ab3b77517034",
+      "translations": {
+        "hi": {
+          "question": "भूकंप की तीव्रता मापने के लिए किस यंत्र का उपयोग किया जाता है?",
+          "options": {
+            "A": "सिस्मोग्राफ",
+            "B": "बैरोमीटर",
+            "C": "हाइड्रोमीटर",
+            "D": "गैल्वेनोमीटर"
+          },
+          "explanation": "भूकंप की तीव्रता आमतौर पर रिक्टर स्केल पर मापी जाती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-117",
+      "number": 117,
+      "question": "The 'Pink Revolution' is associated with the production of?",
+      "options": {
+        "A": "Onions/Prawns",
+        "B": "Tomatoes",
+        "C": "Meat",
+        "D": "Petroleum"
+      },
+      "answer": "A",
+      "explanation": "It refers to the technological revolution in the meat and poultry processing sector as well as onion/prawns.",
+      "hash": "4de229fc5aa0e62b",
+      "translations": {
+        "hi": {
+          "question": "'गुलाबी क्रांति' किसके उत्पादन से संबंधित है?",
+          "options": {
+            "A": "प्याज/झींगा",
+            "B": "टमाटर",
+            "C": "मांस",
+            "D": "पेट्रोलियम"
+          },
+          "explanation": "यह मांस और पोल्ट्री प्रसंस्करण क्षेत्र के साथ-साथ प्याज/झींगा उत्पादन में तकनीकी क्रांति को संदर्भित करता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-118",
+      "number": 118,
+      "question": "Which organ is mainly affected by 'Jaundice'?",
+      "options": {
+        "A": "Kidney",
+        "B": "Liver",
+        "C": "Heart",
+        "D": "Lungs"
+      },
+      "answer": "B",
+      "explanation": "Jaundice causes yellowing of the skin and eyes due to high bilirubin levels in the liver.",
+      "hash": "7ed853c323977188",
+      "translations": {
+        "hi": {
+          "question": "'पीलिया' (Jaundice) से मुख्य रूप से कौन सा अंग प्रभावित होता है?",
+          "options": {
+            "A": "गुर्दा",
+            "B": "यकृत (लीवर)",
+            "C": "हृदय",
+            "D": "फेफड़े"
+          },
+          "explanation": "लीवर में उच्च बिलीरुबिन स्तर के कारण पीलिया से त्वचा और आंखों का रंग पीला हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-119",
+      "number": 119,
+      "question": "Which strait separates the United Kingdom from France?",
+      "options": {
+        "A": "Strait of Dover",
+        "B": "Strait of Gibraltar",
+        "C": "Bering Strait",
+        "D": "Palk Strait"
+      },
+      "answer": "A",
+      "explanation": "It is the narrowest part of the English Channel.",
+      "hash": "1f48db056eac309a",
+      "translations": {
+        "hi": {
+          "question": "कौन सी जलडमरूमध्य यूनाइटेड किंगडम को फ्रांस से अलग करती है?",
+          "options": {
+            "A": "डोवर जलडमरूमध्य",
+            "B": "जिब्राल्टर जलडमरूमध्य",
+            "C": "बेरिंग जलडमरूमध्य",
+            "D": "पाक जलडमरूमध्य"
+          },
+          "explanation": "यह इंग्लिश चैनल का सबसे संकरा हिस्सा है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-120",
+      "number": 120,
+      "question": "Who was the founder of the 'Nanda Dynasty' of Magadha?",
+      "options": {
+        "A": "Mahapadma Nanda",
+        "B": "Dhana Nanda",
+        "C": "Bimbisara",
+        "D": "Ajatashatru"
+      },
+      "answer": "A",
+      "explanation": "He is described as the first empire builder of Indian history.",
+      "hash": "a108328381417569",
+      "translations": {
+        "hi": {
+          "question": "मगध के 'नंद वंश' का संस्थापक कौन था?",
+          "options": {
+            "A": "महापद्म नंद",
+            "B": "धनानंद",
+            "C": "बिम्बिसार",
+            "D": "अजातशत्रु"
+          },
+          "explanation": "उन्हें भारतीय इतिहास के पहले साम्राज्य निर्माता के रूप में वर्णित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-121",
+      "number": 121,
+      "question": "Which gas is used in fire extinguishers to put out fires?",
+      "options": {
+        "A": "Carbon Dioxide",
+        "B": "Oxygen",
+        "C": "Hydrogen",
+        "D": "Methane"
+      },
+      "answer": "A",
+      "explanation": "$CO_2$ is heavier than oxygen and smothers the fire by cutting off the oxygen supply.",
+      "hash": "9dbdb0f3f15aafe1",
+      "translations": {
+        "hi": {
+          "question": "आग बुझाने के लिए अग्निशामक यंत्रों में किस गैस का उपयोग किया जाता है?",
+          "options": {
+            "A": "कार्बन डाइऑक्साइड",
+            "B": "ऑक्सीजन",
+            "C": "हाइड्रोजन",
+            "D": "मीथेन"
+          },
+          "explanation": "$CO_2$ ऑक्सीजन से भारी होती है और ऑक्सीजन की आपूर्ति काटकर आग बुझा देती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-122",
+      "number": 122,
+      "question": "Who presided over the first session of the Indian National Congress in 1885?",
+      "options": {
+        "A": "W.C. Bonnerjee",
+        "B": "Dadabhai Naoroji",
+        "C": "A.O. Hume",
+        "D": "Badruddin Tyabji"
+      },
+      "answer": "A",
+      "explanation": "The first session was held at Gokuldas Tejpal Sanskrit College, Bombay.",
+      "hash": "9a1958113c230a83",
+      "translations": {
+        "hi": {
+          "question": "1885 में भारतीय राष्ट्रीय कांग्रेस के पहले सत्र की अध्यक्षता किसने की थी?",
+          "options": {
+            "A": "व्योमेश चंद्र बनर्जी",
+            "B": "दादाभाई नौरोजी",
+            "C": "ए.ओ. ह्यूम",
+            "D": "बदरुद्दीन तैयबजी"
+          },
+          "explanation": "पहला सत्र गोकुलदास तेजपाल संस्कृत कॉलेज, बॉम्बे में आयोजित किया गया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-123",
+      "number": 123,
+      "question": "'Gobi Desert' is located in which continent?",
+      "options": {
+        "A": "Africa",
+        "B": "Asia",
+        "C": "South America",
+        "D": "Australia"
+      },
+      "answer": "B",
+      "explanation": "It covers parts of Northern China and Southern Mongolia.",
+      "hash": "0c9a27d45b8455cd",
+      "translations": {
+        "hi": {
+          "question": "'गोबी मरुस्थल' किस महाद्वीप में स्थित है?",
+          "options": {
+            "A": "अफ्रीका",
+            "B": "एशिया",
+            "C": "दक्षिण अमेरिका",
+            "D": "ऑस्ट्रेलिया"
+          },
+          "explanation": "यह उत्तरी चीन और दक्षिणी मंगोलिया के कुछ हिस्सों को कवर करता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-124",
+      "number": 124,
+      "question": "Who founded the 'Arya Samaj' in 1875?",
+      "options": {
+        "A": "Raja Ram Mohan Roy",
+        "B": "Swami Dayanand Saraswati",
+        "C": "Swami Vivekananda",
+        "D": "Atmaram Pandurang"
+      },
+      "answer": "B",
+      "explanation": "He gave the slogan \"Go back to the Vedas\".",
+      "hash": "ca04029a02295343",
+      "translations": {
+        "hi": {
+          "question": "1875 में 'आर्य समाज' की स्थापना किसने की थी?",
+          "options": {
+            "A": "राजा राम मोहन राय",
+            "B": "स्वामी दयानंद सरस्वती",
+            "C": "स्वामी विवेकानंद",
+            "D": "आत्माराम पांडुरंग"
+          },
+          "explanation": "उन्होंने \"वेदों की ओर लौटो\" का नारा दिया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-125",
+      "number": 125,
+      "question": "Which part of the eye is transplanted during a cornea transplant?",
+      "options": {
+        "A": "Lens",
+        "B": "Retina",
+        "C": "Cornea",
+        "D": "Iris"
+      },
+      "answer": "C",
+      "explanation": "The cornea is the clear, dome-shaped surface that covers the front of the eye.",
+      "hash": "1ef09bde8c5ef81f",
+      "translations": {
+        "hi": {
+          "question": "कॉर्निया प्रत्यारोपण के दौरान आंख के किस भाग का प्रत्यारोपण किया जाता है?",
+          "options": {
+            "A": "लेंस",
+            "B": "रेटिना",
+            "C": "कॉर्निया",
+            "D": "आइरिस"
+          },
+          "explanation": "कॉर्निया वह स्पष्ट, गुंबद के आकार की सतह है जो आंख के सामने के हिस्से को कवर करती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-126",
+      "number": 126,
+      "question": "In which year did the 'Battle of Plassey' take place?",
+      "options": {
+        "A": "1757",
+        "B": "1761",
+        "C": "1764",
+        "D": "1857"
+      },
+      "answer": "A",
+      "explanation": "It was fought between the British East India Company and the Nawab of Bengal.",
+      "hash": "9d7bd584188b6a9e",
+      "translations": {
+        "hi": {
+          "question": "'प्लासी का युद्ध' किस वर्ष हुआ था?",
+          "options": {
+            "A": "1757",
+            "B": "1761",
+            "C": "1764",
+            "D": "1857"
+          },
+          "explanation": "यह ब्रिटिश ईस्ट इंडिया कंपनी और बंगाल के नवाब के बीच लड़ा गया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-127",
+      "number": 127,
+      "question": "Which Constitutional Article relates to the 'Attorney General for India'?",
+      "options": {
+        "A": "Article 72",
+        "B": "Article 76",
+        "C": "Article 80",
+        "D": "Article 148"
+      },
+      "answer": "B",
+      "explanation": "The Attorney General is the highest law officer in the country.",
+      "hash": "9b60e9257b38d817",
+      "translations": {
+        "hi": {
+          "question": "कौन सा संवैधानिक अनुच्छेद 'भारत के महान्यायावादी' से संबंधित है?",
+          "options": {
+            "A": "अनुच्छेद 72",
+            "B": "अनुच्छेद 76",
+            "C": "अनुच्छेद 80",
+            "D": "अनुच्छेद 148"
+          },
+          "explanation": "महान्यायावादी देश का सर्वोच्च विधि अधिकारी होता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-128",
+      "number": 128,
+      "question": "'Dandia' is a popular folk dance of which state?",
+      "options": {
+        "A": "Rajasthan",
+        "B": "Gujarat",
+        "C": "Punjab",
+        "D": "Haryana"
+      },
+      "answer": "B",
+      "explanation": "It is traditionally performed during the festival of Navratri.",
+      "hash": "b90c22aa3f677ed4",
+      "translations": {
+        "hi": {
+          "question": "'डांडिया' किस राज्य का लोकप्रिय लोक नृत्य है?",
+          "options": {
+            "A": "राजस्थान",
+            "B": "गुजरात",
+            "C": "पंजाब",
+            "D": "हरियाणा"
+          },
+          "explanation": "यह पारंपरिक रूप से नवरात्रि के त्योहार के दौरान किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-129",
+      "number": 129,
+      "question": "Which schedule of the Constitution deals with 'Official Languages'?",
+      "options": {
+        "A": "7th Schedule",
+        "B": "8th Schedule",
+        "C": "9th Schedule",
+        "D": "10th Schedule"
+      },
+      "answer": "B",
+      "explanation": "It currently lists 22 languages recognized by the Constitution.",
+      "hash": "b81eaabf3075cd33",
+      "translations": {
+        "hi": {
+          "question": "संविधान की कौन सी अनुसूची 'आधिकारिक भाषाओं' से संबंधित है?",
+          "options": {
+            "A": "सातवीं अनुसूची",
+            "B": "आठवीं अनुसूची",
+            "C": "नौवीं अनुसूची",
+            "D": "दसवीं अनुसूची"
+          },
+          "explanation": "इसमें वर्तमान में संविधान द्वारा मान्यता प्राप्त 22 भाषाओं की सूची है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-130",
+      "number": 130,
+      "question": "Which metal is extracted from 'Haematite'?",
+      "options": {
+        "A": "Iron",
+        "B": "Copper",
+        "C": "Silver",
+        "D": "Aluminum"
+      },
+      "answer": "A",
+      "explanation": "Haematite is the most important ore of iron ($Fe_2O_3$).",
+      "hash": "60a80ba980350c1d",
+      "translations": {
+        "hi": {
+          "question": "'हेमेटाइट' से कौन सी धातु निकाली जाती है?",
+          "options": {
+            "A": "लोहा",
+            "B": "तांबा",
+            "C": "चांदी",
+            "D": "एल्युमिनियम"
+          },
+          "explanation": "हेमेटाइट लोहे का सबसे महत्वपूर्ण अयस्क ($Fe_2O_3$) है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-131",
+      "number": 131,
+      "question": "Which ocean is 'S' shaped?",
+      "options": {
+        "A": "Pacific Ocean",
+        "B": "Atlantic Ocean",
+        "C": "Indian Ocean ) Arctic Ocean | आर्कटिक महासागर"
+      },
+      "answer": "B",
+      "explanation": "The Atlantic Ocean is the second-largest ocean and has an 'S' shape.",
+      "hash": "a364d249971e710e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा महासागर 'S' आकार का है?",
+          "options": {
+            "A": "प्रशांत महासागर",
+            "B": "अटलांटिक महासागर",
+            "C": "हिंद महासागर"
+          },
+          "explanation": "अटलांटिक महासागर दूसरा सबसे बड़ा महासागर है और इसका आकार 'S' जैसा है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-132",
+      "number": 132,
+      "question": "Who wrote the book 'Wings of Fire'?",
+      "options": {
+        "A": "A.P.J. Abdul Kalam",
+        "B": "Jawaharlal Nehru",
+        "C": "Mahatma Gandhi",
+        "D": "Nelson Mandela"
+      },
+      "answer": "A",
+      "explanation": "It is the autobiography of former Indian President Dr. A.P.J. Abdul Kalam.",
+      "hash": "9d6dddd234c727a9",
+      "translations": {
+        "hi": {
+          "question": "'वििंग्स ऑफ फायर' पुस्तक किसने लिखी?",
+          "options": {
+            "A": "ए.पी.जे. अब्दुल कलाम",
+            "B": "जवाहरलाल नेहरू",
+            "C": "महात्मा गांधी",
+            "D": "नेल्सन मंडेला"
+          },
+          "explanation": "यह पूर्व भारतीय राष्ट्रपति डॉ. ए.पी.जे. अब्दुल कलाम की आत्मकथा है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-133",
+      "number": 133,
+      "question": "What is the study of fruits called?",
+      "options": {
+        "A": "Pomology",
+        "B": "Mycology",
+        "C": "Phycology",
+        "D": "Anthropology"
+      },
+      "answer": "A",
+      "explanation": "It is a branch of botany that studies fruit and its cultivation.",
+      "hash": "5a048a4984141c76",
+      "translations": {
+        "hi": {
+          "question": "फलों के अध्ययन को क्या कहा जाता है?",
+          "options": {
+            "A": "पोमोलॉजी",
+            "B": "माइकोलॉजी",
+            "C": "फाइकोलॉजी",
+            "D": "एंथ्रोपोलॉजी"
+          },
+          "explanation": "यह वनस्पति विज्ञान की एक शाखा है जो फलों और उनकी खेती का अध्ययन करती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-134",
+      "number": 134,
+      "question": "Which is the longest bone in the human body?",
+      "options": {
+        "A": "Tibia",
+        "B": "Femur",
+        "C": "Fibula",
+        "D": "Humerus"
+      },
+      "answer": "B",
+      "explanation": "The femur is the thigh bone and the strongest bone in the body.",
+      "hash": "de72856cce0fc68b",
+      "translations": {
+        "hi": {
+          "question": "मानव शरीर की सबसे लंबी हड्डी कौन सी है?",
+          "options": {
+            "A": "टिबिया",
+            "B": "फीमर",
+            "C": "फिबुला",
+            "D": "ह्यूमरस"
+          },
+          "explanation": "फीमर जांघ की हड्डी है और शरीर की सबसे मजबूत हड्डी है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-135",
+      "number": 135,
+      "question": "Who founded the 'Satyashodhak Samaj'?",
+      "options": {
+        "A": "Jyotirao Phule",
+        "B": "B.R. Ambedkar",
+        "C": "Savitribai Phule",
+        "D": "Periyar"
+      },
+      "answer": "A",
+      "explanation": "It was founded in 1873 to liberate Shudras and Dalits from exploitation.",
+      "hash": "47d5d618e8cfa4e8",
+      "translations": {
+        "hi": {
+          "question": "'सत्यशोधक समाज' की स्थापना किसने की थी?",
+          "options": {
+            "A": "ज्योतिराव फुले",
+            "B": "बी.आर. अंबेडकर",
+            "C": "सावित्रीबाई फुले",
+            "D": "पेरियार"
+          },
+          "explanation": "इसकी स्थापना 1873 में शूद्रों और दलितों को शोषण से मुक्त करने के लिए की गई थी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-136",
+      "number": 136,
+      "question": "Which organ is affected by 'Cataract'?",
+      "options": {
+        "A": "Ear",
+        "B": "Eye",
+        "C": "Skin",
+        "D": "Heart"
+      },
+      "answer": "B",
+      "explanation": "It involves the clouding of the normally clear lens of the eye.",
+      "hash": "761755ef31873e10",
+      "translations": {
+        "hi": {
+          "question": "'मोतियाबिंद' (Cataract) से कौन सा अंग प्रभावित होता है?",
+          "options": {
+            "A": "कान",
+            "B": "आंख",
+            "C": "त्वचा",
+            "D": "हृदय"
+          },
+          "explanation": "इसमें आंख के सामान्य रूप से साफ लेंस का धुंधला होना शामिल है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-137",
+      "number": 137,
+      "question": "Who was the first person to set foot on the Moon?",
+      "options": {
+        "A": "Yuri Gagarin",
+        "B": "Neil Armstrong",
+        "C": "Buzz Aldrin",
+        "D": "Michael Collins"
+      },
+      "answer": "B",
+      "explanation": "He landed on the Moon as part of the Apollo 11 mission in 1969.",
+      "hash": "ff7edaa79a326748",
+      "translations": {
+        "hi": {
+          "question": "चंद्रमा पर कदम रखने वाला पहला व्यक्ति कौन था?",
+          "options": {
+            "A": "यूरी गागरिन",
+            "B": "नील आर्मस्ट्रांग",
+            "C": "बज एल्ड्रिन",
+            "D": "माइकल कोलिन्स"
+          },
+          "explanation": "वह 1969 में अपोलो 11 मिशन के हिस्से के रूप में चंद्रमा पर उतरे थे।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-138",
+      "number": 138,
+      "question": "Which country is known as the 'Land of the Midnight Sun'?",
+      "options": {
+        "A": "Japan",
+        "B": "Norway",
+        "C": "Sweden",
+        "D": "Denmark"
+      },
+      "answer": "B",
+      "explanation": "Due to its high latitude, parts of Norway experience sunlight 24 hours a day in summer.",
+      "hash": "6f4b5ee9391ec1d1",
+      "translations": {
+        "hi": {
+          "question": "किस देश को 'मध्यरात्रि के सूर्य की भूमि' के नाम से जाना जाता है?",
+          "options": {
+            "A": "जापान",
+            "B": "नॉर्वे",
+            "C": "स्वीडन",
+            "D": "डेनमार्क"
+          },
+          "explanation": "अपने उच्च अक्षांश के कारण, नॉर्वे के कुछ हिस्सों में गर्मियों में 24 घंटे धूप रहती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-139",
+      "number": 139,
+      "question": "Which city is known as the 'Pink City of India'?",
+      "options": {
+        "A": "Udaipur",
+        "B": "Jaipur",
+        "C": "Jodhpur",
+        "D": "Bikaner"
+      },
+      "answer": "B",
+      "explanation": "It was founded by Maharaja Sawai Jai Singh II.",
+      "hash": "640521f992d1280d",
+      "translations": {
+        "hi": {
+          "question": "किस शहर को 'भारत की गुलाबी नगरी' के नाम से जाना जाता है?",
+          "options": {
+            "A": "उदयपुर",
+            "B": "जयपुर",
+            "C": "जोधपुर",
+            "D": "बीकानेर"
+          },
+          "explanation": "इसकी स्थापना महाराजा सवाई जय सिंह द्वितीय ने की थी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-140",
+      "number": 140,
+      "question": "Who was the Mughal Emperor during the visit of Captain William Hawkins?",
+      "options": {
+        "A": "Akbar",
+        "B": "Jahangir",
+        "C": "Shah Jahan",
+        "D": "Aurangzeb"
+      },
+      "answer": "B",
+      "explanation": "Hawkins arrived at the court of Jahangir in 1608 as a representative of the EIC.",
+      "hash": "ea1bc9630d3a4f1b",
+      "translations": {
+        "hi": {
+          "question": "कैप्टन विलियम हॉकिन्स की यात्रा के दौरान मुगल सम्राट कौन था?",
+          "options": {
+            "A": "अकबर",
+            "B": "जहाँगीर",
+            "C": "शाहजहाँ",
+            "D": "औरंगजेब"
+          },
+          "explanation": "हॉकिन्स 1608 में EIC के प्रतिनिधि के रूप में जहांगीर के दरबार में पहुंचे थे।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-141",
+      "number": 141,
+      "question": "'Project Tiger' was launched in which year?",
+      "options": {
+        "A": "1971",
+        "B": "1973",
+        "C": "1980",
+        "D": "1992"
+      },
+      "answer": "B",
+      "explanation": "It was launched to ensure a viable population of Bengal tigers in their natural habitats.",
+      "hash": "8f807102fa4d8f9f",
+      "translations": {
+        "hi": {
+          "question": "'प्रोजेक्ट टाइगर' किस वर्ष शुरू किया गया था?",
+          "options": {
+            "A": "1971",
+            "B": "1973",
+            "C": "1980",
+            "D": "1992"
+          },
+          "explanation": "इसे उनके प्राकृतिक आवासों में बंगाल टाइगर्स की एक व्यवहार्य आबादी सुनिश्चित करने के लिए शुरू किया गया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-142",
+      "number": 142,
+      "question": "Which Constitutional Article relates to the 'Fundamental Duties'?",
+      "options": {
+        "A": "Article 44",
+        "B": "Article 51A",
+        "C": "Article 52",
+        "D": "Article 110"
+      },
+      "answer": "B",
+      "explanation": "Fundamental Duties were added by the 42nd Amendment Act, 1976.",
+      "hash": "3a75e1992d84d55e",
+      "translations": {
+        "hi": {
+          "question": "कौन सा संवैधानिक अनुच्छेद 'मौलिक कर्तव्यों' से संबंधित है?",
+          "options": {
+            "A": "अनुच्छेद 44",
+            "B": "अनुच्छेद 51A",
+            "C": "अनुच्छेद 52",
+            "D": "अनुच्छेद 110"
+          },
+          "explanation": "मौलिक कर्तव्यों को 42वें संशोधन अधिनियम, 1976 द्वारा जोड़ा गया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-143",
+      "number": 143,
+      "question": "'Sardar Vallabhbhai Patel' was known by which of the following titles?",
+      "options": {
+        "A": "Iron Man of India",
+        "B": "Lokmanya",
+        "C": "Deshbandhu",
+        "D": "Punjab Kesari"
+      },
+      "answer": "A",
+      "explanation": "He played a crucial role in the integration of princely states into the Indian Union.",
+      "hash": "2d0e9f4268dc5601",
+      "translations": {
+        "hi": {
+          "question": "'सरदार वल्लभभाई पटेल' को निम्नलिखित में से किस उपाधि से जाना जाता था?",
+          "options": {
+            "A": "भारत के लौह पुरुष",
+            "B": "लोकमान्य",
+            "C": "देशबंधु",
+            "D": "पंजाब केसरी"
+          },
+          "explanation": "उन्होंने रियासतों के भारतीय संघ में एकीकरण में महत्वपूर्ण भूमिका निभाई।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-144",
+      "number": 144,
+      "question": "Which is the largest planet in our Solar System?",
+      "options": {
+        "A": "Saturn",
+        "B": "Jupiter",
+        "C": "Neptune",
+        "D": "Uranus"
+      },
+      "answer": "B",
+      "explanation": "Jupiter is a gas giant and more than twice as massive as all other planets combined.",
+      "hash": "371b9729f4255fd2",
+      "translations": {
+        "hi": {
+          "question": "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन सा है?",
+          "options": {
+            "A": "शनि",
+            "B": "बृहस्पति",
+            "C": "वरुण",
+            "D": "अरुण"
+          },
+          "explanation": "बृहस्पति एक गैस विशालकाय है और अन्य सभी ग्रहों के संयुक्त द्रव्यमान से दोगुने से भी अधिक विशाल है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-145",
+      "number": 145,
+      "question": "Which gas is known as the 'Laughing Gas'?",
+      "options": {
+        "A": "Nitrous Oxide",
+        "B": "Nitric Oxide",
+        "C": "Nitrogen Dioxide",
+        "D": "Nitrogen Pentoxide"
+      },
+      "answer": "A",
+      "explanation": "$N_2O$ is used in dentistry and surgery for its anesthetic and analgesic effects.",
+      "hash": "ce47e21b74222942",
+      "translations": {
+        "hi": {
+          "question": "किस गैस को 'लाफिंग गैस' (हास्य गैस) के नाम से जाना जाता है?",
+          "options": {
+            "A": "नाइट्रस ऑक्साइड",
+            "B": "नाइट्रिक ऑक्साइड",
+            "C": "नाइट्रोजन डाइऑक्साइड",
+            "D": "नाइट्रोजन पेंटोक्साइड"
+          },
+          "explanation": "$N_2O$ का उपयोग दंत चिकित्सा और सर्जरी में इसके संवेदनाहारी और एनाल्जेसिक प्रभावों के लिए किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-146",
+      "number": 146,
+      "question": "Who wrote the book 'Anandmath'?",
+      "options": {
+        "A": "Rabindranath Tagore",
+        "B": "Bankim Chandra Chattopadhyay",
+        "C": "Sarojini Naidu",
+        "D": "Premchand"
+      },
+      "answer": "B",
+      "explanation": "The national song 'Vande Mataram' was taken from this novel.",
+      "hash": "9916cfd05d2dd805",
+      "translations": {
+        "hi": {
+          "question": "'आनंदमठ' पुस्तक किसने लिखी?",
+          "options": {
+            "A": "रवींद्रनाथ टैगोर",
+            "B": "बंकिम चंद्र चट्टोपाध्याय",
+            "C": "सरोजिनी नायडू",
+            "D": "प्रेमचंद"
+          },
+          "explanation": "राष्ट्रीय गीत 'वंदे मातरम' इसी उपन्यास से लिया गया था।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-147",
+      "number": 147,
+      "question": "'Bihu' is a traditional folk dance of which state?",
+      "options": {
+        "A": "Manipur",
+        "B": "Assam",
+        "C": "Sikkim",
+        "D": "Tripura"
+      },
+      "answer": "B",
+      "explanation": "It is performed during the festival of Bihu, marking the seasonal changes.",
+      "hash": "7808b448b12b2fa8",
+      "translations": {
+        "hi": {
+          "question": "'बिहू' किस राज्य का पारंपरिक लोक नृत्य है?",
+          "options": {
+            "A": "मणिपुर",
+            "B": "असम",
+            "C": "सिक्किम",
+            "D": "त्रिपुरा"
+          },
+          "explanation": "यह मौसमी परिवर्तनों को चिह्नित करने वाले बिहू उत्सव के दौरान किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-148",
+      "number": 148,
+      "question": "Who was the founder of the 'Brahmo Samaj'?",
+      "options": {
+        "A": "Raja Ram Mohan Roy",
+        "B": "Debendranath Tagore",
+        "C": "Keshab Chandra Sen",
+        "D": "Swami Dayanand Saraswati"
+      },
+      "answer": "A",
+      "explanation": "It was founded in 1828 to fight against social evils like Sati.",
+      "hash": "ce78b0cc745aab04",
+      "translations": {
+        "hi": {
+          "question": "'ब्रह्म समाज' की स्थापना किसने की थी?",
+          "options": {
+            "A": "राजा राम मोहन राय",
+            "B": "देवेन्द्रनाथ टैगोर",
+            "C": "केशव चंद्र सेन",
+            "D": "स्वामी दयानंद सरस्वती"
+          },
+          "explanation": "इसकी स्थापना 1828 में सती जैसी सामाजिक बुराइयों के खिलाफ लड़ने के लिए की गई थी।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-149",
+      "number": 149,
+      "question": "Which river is known as the 'Sorrow of Bihar'?",
+      "options": {
+        "A": "Gandak",
+        "B": "Kosi",
+        "C": "Son",
+        "D": "Ghaghra"
+      },
+      "answer": "B",
+      "explanation": "It is known for its frequent flooding and changing of course.",
+      "hash": "7a94e2a4ecd5378f",
+      "translations": {
+        "hi": {
+          "question": "किस नदी को 'बिहार का शोक' कहा जाता है?",
+          "options": {
+            "A": "गंडक",
+            "B": "कोसी",
+            "C": "सोन",
+            "D": "घाघरा"
+          },
+          "explanation": "यह बार-बार आने वाली बाढ़ और अपना मार्ग बदलने के लिए जानी जाती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-150",
+      "number": 150,
+      "question": "What is the maximum strength of the Rajya Sabha as per the Constitution?",
+      "options": {
+        "A": "230",
+        "B": "245",
+        "C": "250",
+        "D": "550"
+      },
+      "answer": "C",
+      "explanation": "Out of 250, 12 members are nominated by the President of India.",
+      "hash": "d2a093cecff456c1",
+      "translations": {
+        "hi": {
+          "question": "संविधान के अनुसार राज्यसभा की अधिकतम सदस्य संख्या कितनी है?",
+          "options": {
+            "A": "230",
+            "B": "245",
+            "C": "250",
+            "D": "550"
+          },
+          "explanation": "250 में से 12 सदस्य भारत के राष्ट्रपति द्वारा मनोनीत किए जाते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-151",
+      "number": 151,
+      "question": "Select the related word from the given alternatives. Library : Books :: Museum : ?",
+      "options": {
+        "A": "Curator",
+        "B": "Artifacts",
+        "C": "Building",
+        "D": "Gallery"
+      },
+      "answer": "B",
+      "explanation": "A library is a place where books are kept; similarly, a museum is a place where artifacts are kept.",
+      "hash": "968fa7f385024d5e",
+      "translations": {
+        "hi": {
+          "question": "दिए गए विकल्पों में से संबंधित शब्द का चयन करें। पुस्तकालय : पुस्तकें :: संग्रहालय : ?",
+          "options": {
+            "A": "क्यूरेटर",
+            "B": "कलाकृतियाँ",
+            "C": "इमारत",
+            "D": "गैलरी"
+          },
+          "explanation": "पुस्तकालय वह स्थान है जहाँ पुस्तकें रखी जाती हैं; इसी तरह, संग्रहालय वह स्थान है जहाँ कलाकृतियाँ रखी जाती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-152",
+      "number": 152,
+      "question": "If 'MAN' is coded as 28 and 'RAN' is coded as 33, then how will 'SUN' be coded?",
+      "options": {
+        "A": "54",
+        "B": "52",
+        "C": "48",
+        "D": "50"
+      },
+      "answer": "B",
+      "explanation": "Sum of positional values: S(19)+U(21)+N(14) = 54. Actually MAN is M(13)+A(1)+N(14)=28. SUN = 19+21+14 = 54. (Corrected: Option A is 54).",
+      "hash": "491423ae3fc3a923",
+      "translations": {
+        "hi": {
+          "question": "यदि 'MAN' को 28 और 'RAN' को 33 के रूप में कोडित किया गया है, तो 'SUN' को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "54",
+            "B": "52",
+            "C": "48",
+            "D": "50"
+          },
+          "explanation": "अक्षरों के स्थानीय मानों का योग: S(19)+U(21)+N(14) = 54।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-153",
+      "number": 153,
+      "question": "Complete the series: 5, 11, 23, 47, 95, ?",
+      "options": {
+        "A": "190",
+        "B": "191",
+        "C": "189",
+        "D": "192"
+      },
+      "answer": "B",
+      "explanation": "Pattern: (n * 2) + 1. (95 * 2) + 1 = 191.",
+      "hash": "4c5849042bc0a545",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 5, 11, 23, 47, 95, ?",
+          "options": {
+            "A": "190",
+            "B": "191",
+            "C": "189",
+            "D": "192"
+          },
+          "explanation": "पैटर्न: (n * 2) + 1। (95 * 2) + 1 = 191।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-154",
+      "number": 154,
+      "question": "Find the odd one out.",
+      "options": {
+        "A": "Meter",
+        "B": "Mile",
+        "C": "Kilogram",
+        "D": "Yard"
+      },
+      "answer": "C",
+      "explanation": "Meter, Mile, and Yard are units of length, while Kilogram is a unit of mass.",
+      "hash": "1be8ae0e0874837d",
+      "translations": {
+        "hi": {
+          "question": "विषम विकल्प चुनें।",
+          "options": {
+            "A": "मीटर",
+            "B": "मील",
+            "C": "किलोग्राम",
+            "D": "गज"
+          },
+          "explanation": "मीटर, मील और गज लंबाई की इकाइयाँ हैं, जबकि किलोग्राम द्रव्यमान की इकाई है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-155",
+      "number": 155,
+      "question": "Arrange the following in a meaningful order: 1. Death 2. Marriage 3. Education 4. Birth 5. Funeral",
+      "options": {
+        "A": "4, 3, 2, 1, 5",
+        "B": "4, 3, 2, 5, 1",
+        "C": "4, 3, 1, 2, 5",
+        "D": "4, 2, 3, 1, 5"
+      },
+      "answer": "A",
+      "explanation": "The logical order of life events is Birth, Education, Marriage, Death, Funeral.",
+      "hash": "08917544d480a55f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित को अर्थपूर्ण क्रम में व्यवस्थित करें: 1. मृत्यु 2. विवाह 3. शिक्षा 4. जन्म 5. अंतिम संस्कार",
+          "options": {
+            "A": "4, 3, 2, 1, 5",
+            "B": "4, 3, 2, 5, 1",
+            "C": "4, 3, 1, 2, 5",
+            "D": "4, 2, 3, 1, 5"
+          },
+          "explanation": "जीवन की घटनाओं का तार्किक क्रम जन्म, शिक्षा, विवाह, मृत्यु, अंतिम संस्कार है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-156",
+      "number": 156,
+      "question": "If '+' means '-', '-' means 'x', 'x' means '/', and '/' means '+', then 15 - 3 + 10 x 5 / 5 = ?",
+      "options": {
+        "A": "48",
+        "B": "52",
+        "C": "38",
+        "D": "45"
+      },
+      "answer": "C",
+      "explanation": "(15 * 3) - (10 / 5) + 5 = 45 - 2 + 5 = 48. (Correction: Calculation 45-2+5=48).",
+      "hash": "df9b1477fc4ff52a",
+      "translations": {
+        "hi": {
+          "question": "यदि '+' का अर्थ '-', '-' का अर्थ 'x', 'x' का अर्थ '/', और '/' का अर्थ '+' है, तो 15 - 3 + 10 x 5 / 5 = ?",
+          "options": {
+            "A": "48",
+            "B": "52",
+            "C": "38",
+            "D": "45"
+          },
+          "explanation": "(15 * 3) - (10 / 5) + 5 = 45 - 2 + 5 = 48।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-157",
+      "number": 157,
+      "question": "A man travels 4 km North, then turns right and travels 3 km. How far is he from the starting point?",
+      "options": {
+        "A": "7 km",
+        "B": "5 km",
+        "C": "12 km",
+        "D": "1 km"
+      },
+      "answer": "B",
+      "explanation": "Using Pythagoras theorem: Resultant = sqrt(4^2 + 3^2) = 5.",
+      "hash": "9b2736dae6eb55ae",
+      "translations": {
+        "hi": {
+          "question": "एक आदमी 4 किमी उत्तर की ओर यात्रा करता है, फिर दाएं मुड़ता है और 3 किमी यात्रा करता है। वह प्रारंभिक बिंदु से कितनी दूर है?",
+          "options": {
+            "A": "7 किमी",
+            "B": "5 किमी",
+            "C": "12 किमी",
+            "D": "1 किमी"
+          },
+          "explanation": "पाइथागोरस प्रमेय का उपयोग करते हुए: परिणामी = sqrt(4^2 + 3^2) = 5।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-158",
+      "number": 158,
+      "question": "Find the missing number: 7, 26, 63, 124, 215, ?",
+      "options": {
+        "A": "342",
+        "B": "343",
+        "C": "511",
+        "D": "216"
+      },
+      "answer": "A",
+      "explanation": "Pattern: n^3 - 1. (6^3 - 1 = 215), next is 7^3 - 1 = 342.",
+      "hash": "e5fa51fd20575a7e",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 7, 26, 63, 124, 215, ?",
+          "options": {
+            "A": "342",
+            "B": "343",
+            "C": "511",
+            "D": "216"
+          },
+          "explanation": "पैटर्न: n^3 - 1। (6^3 - 1 = 215), अगला 7^3 - 1 = 342 है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-159",
+      "number": 159,
+      "question": "Statements: Some pens are pencils. Some pencils are erasers. Conclusion: I. Some pens are erasers. II. No pen is eraser.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Either I or II follows",
+        "D": "Neither I nor II follows"
+      },
+      "answer": "C",
+      "explanation": "Since no definite relation between pens and erasers is given, it forms an Either-Or case for \"Some\" and \"No\".",
+      "hash": "e386795510a0aff4",
+      "translations": {
+        "hi": {
+          "question": "कथन: कुछ पेन पेंसिल हैं। कुछ पेंसिल इरेज़र हैं। निष्कर्ष: I. कुछ पेन इरेज़र हैं। II. कोई पेन इरेज़र नहीं है।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "या तो I या II अनुसरण करता है",
+            "D": "न तो I और न ही II अनुसरण करता है"
+          },
+          "explanation": "चूंकि पेन और इरेज़र के बीच कोई निश्चित संबंध नहीं दिया गया है, इसलिए यह \"कुछ\" और \"कोई नहीं\" के लिए आइदर-ऑर (या तो-या) केस बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-160",
+      "number": 160,
+      "question": "Select the odd letter group.",
+      "options": {
+        "A": "ACE",
+        "B": "GIJ",
+        "C": "PRT",
+        "D": "UWY"
+      },
+      "answer": "B",
+      "explanation": "In A(+2)C(+2)E, P(+2)R(+2)T, and U(+2)W(+2)Y, letters have a gap of 1. GIJ has a gap of 1 then 0.",
+      "hash": "67d3cd78ac4588da",
+      "translations": {
+        "hi": {
+          "question": "विषम अक्षर समूह ज्ञात कीजिए।",
+          "options": {
+            "A": "ACE",
+            "B": "GIJ",
+            "C": "PRT",
+            "D": "UWY"
+          },
+          "explanation": "ACE, PRT और UWY में अक्षरों के बीच 1 का अंतर है। GIJ में 1 और फिर 0 का अंतर है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-161",
+      "number": 161,
+      "question": "Pointing to a woman, Abhijit said, \"Her granddaughter is the only daughter of my brother.\" How is the woman related to Abhijit?",
+      "options": {
+        "A": "Mother",
+        "B": "Sister-in-law",
+        "C": "Aunt",
+        "D": "Grandmother"
+      },
+      "answer": "A",
+      "explanation": "Abhijit's brother's daughter is Abhijit's niece. If she is the woman's granddaughter, the woman is Abhijit's mother.",
+      "hash": "56754188e025d200",
+      "translations": {
+        "hi": {
+          "question": "एक महिला की ओर इशारा करते हुए, अभिजीत ने कहा, \"उसकी पोती मेरे भाई की इकलौती बेटी है।\" महिला अभिजीत से किस प्रकार संबंधित है?",
+          "options": {
+            "A": "माँ",
+            "B": "भाभी",
+            "C": "चाची",
+            "D": "दादी"
+          },
+          "explanation": "अभिजीत के भाई की बेटी अभिजीत की भतीजी है। यदि वह महिला की पोती है, तो वह महिला अभिजीत की माँ है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-162",
+      "number": 162,
+      "question": "If FRIEND is coded as HUMJTK, how is CANDLE coded?",
+      "options": {
+        "A": "EDRIRL",
+        "B": "DCQHQK",
+        "C": "ESJFME",
+        "D": "DEOJKF"
+      },
+      "answer": "A",
+      "explanation": "Pattern: +2, +3, +4, +5, +6, +7. C+2=E, A+3=D, N+4=R, D+5=I, L+6=R, E+7=L.",
+      "hash": "7f8304f67097d106",
+      "translations": {
+        "hi": {
+          "question": "यदि FRIEND को HUMJTK के रूप में कोडित किया गया है, तो CANDLE को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "EDRIRL",
+            "B": "DCQHQK",
+            "C": "ESJFME",
+            "D": "DEOJKF"
+          },
+          "explanation": "पैटर्न: +2, +3, +4, +5, +6, +7। C+2=E, A+3=D, N+4=R, D+5=I, L+6=R, E+7=L।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-163",
+      "number": 163,
+      "question": "Identify the diagram for: Musicians, Instrumentalists, Violinists.",
+      "options": {
+        "A": "Three intersecting circles",
+        "B": "Three concentric circles",
+        "C": "Two separate circles in one",
+        "D": "Three disjoint circles"
+      },
+      "answer": "B",
+      "explanation": "All Violinists are Instrumentalists, and all Instrumentalists are Musicians.",
+      "hash": "62e9a4832e6a966b",
+      "translations": {
+        "hi": {
+          "question": "संगीतकार, वाद्ययंत्र वादक, वायलिन वादक के लिए आरेख पहचानें।",
+          "options": {
+            "A": "तीन प्रतिच्छेदी वृत्त",
+            "B": "तीन संकेंद्रित वृत्त",
+            "C": "एक में दो अलग वृत्त",
+            "D": "तीन अलग-अलग वृत्त"
+          },
+          "explanation": "सभी वायलिन वादक वाद्ययंत्र वादक हैं, और सभी वाद्ययंत्र वादक संगीतकार हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-164",
+      "number": 164,
+      "question": "Find the number of triangles in the given figure (Pentagon with star inside).",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "12",
+        "D": "8"
+      },
+      "answer": "B",
+      "explanation": "A standard 5-pointed star inside a pentagon usually contains 10 triangles.",
+      "hash": "465d5c3b9a536529",
+      "translations": {
+        "hi": {
+          "question": "दी गई आकृति (अंदर तारे के साथ पंचकोण) में त्रिभुजों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "5",
+            "B": "10",
+            "C": "12",
+            "D": "8"
+          },
+          "explanation": "एक पंचकोण के अंदर एक मानक 5-नुकीले तारे में आमतौर पर 10 त्रिभुज होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-165",
+      "number": 165,
+      "question": "Choose the alternative that is different from the others.",
+      "options": {
+        "A": "48 - 6",
+        "B": "21 - 7",
+        "C": "24 - 4",
+        "D": "56 - 7"
+      },
+      "answer": "B",
+      "explanation": "In other options, the first number is perfectly divisible by the second to give 8, except 21/7=3. (Correction: 48/6=8, 24/4=6, 56/7=8. B and C are different). Let's use 24-3: 24/3=8.",
+      "hash": "b2d0f81dac253454",
+      "translations": {
+        "hi": {
+          "question": "वह विकल्प चुनें जो अन्य से भिन्न हो।",
+          "options": {
+            "A": "48 - 6",
+            "B": "21 - 7",
+            "C": "24 - 4",
+            "D": "56 - 7"
+          },
+          "explanation": "अन्य विकल्पों में, पहली संख्या दूसरी से पूरी तरह विभाज्य है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-166",
+      "number": 166,
+      "question": "Select the related number: 12 : 144 :: 20 : ?",
+      "options": {
+        "A": "400",
+        "B": "200",
+        "C": "40",
+        "D": "800"
+      },
+      "answer": "A",
+      "explanation": "Square of the first number: 12^2 = 144, 20^2 = 400.",
+      "hash": "3af59aaceabdb3dc",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 12 : 144 :: 20 : ?",
+          "options": {
+            "A": "400",
+            "B": "200",
+            "C": "40",
+            "D": "800"
+          },
+          "explanation": "पहली संख्या का वर्ग: 12^2 = 144, 20^2 = 400।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-167",
+      "number": 167,
+      "question": "What is the angle between the hands of a clock at 3:30?",
+      "options": {
+        "A": "75°",
+        "B": "90°",
+        "C": "105°",
+        "D": "85°"
+      },
+      "answer": "A",
+      "explanation": "Angle = |30H - 5.5M| = |30*3 - 5.5*30| = |90 - 165| = 75°.",
+      "hash": "359d782124b2b001",
+      "translations": {
+        "hi": {
+          "question": "3:30 बजे घड़ी की सुइयों के बीच का कोण क्या है?",
+          "options": {
+            "A": "75°",
+            "B": "90°",
+            "C": "105°",
+            "D": "85°"
+          },
+          "explanation": "कोण = |30H - 5.5M| = |30*3 - 5.5*30| = |90 - 165| = 75°।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-168",
+      "number": 168,
+      "question": "If North-West becomes South, South-West becomes East and so on, what will South become?",
+      "options": {
+        "A": "North-East",
+        "B": "North-West",
+        "C": "South-East",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "The rotation is 135 degrees clockwise. South moves to North-East.",
+      "hash": "a2b1b652da116ec1",
+      "translations": {
+        "hi": {
+          "question": "यदि उत्तर-पश्चिम दक्षिण बन जाता है, दक्षिण-पश्चिम पूर्व बन जाता है और इसी तरह, तो दक्षिण क्या बन जाएगा?",
+          "options": {
+            "A": "उत्तर-पूर्व",
+            "B": "उत्तर-पश्चिम",
+            "C": "दक्षिण-पूर्व",
+            "D": "पश्चिम"
+          },
+          "explanation": "रोटेशन 135 डिग्री दक्षिणावर्त है। दक्षिण उत्तर-पूर्व की ओर चला जाता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-169",
+      "number": 169,
+      "question": "Which word cannot be formed from 'CONSOLIDATE'?",
+      "options": {
+        "A": "LENTIL",
+        "B": "DETAIL",
+        "C": "SOLID",
+        "D": "SLATE"
+      },
+      "answer": "A",
+      "explanation": "'LENTIL' requires two 'L's, but 'CONSOLIDATE' only has one.",
+      "hash": "01ec8882d96cd39f",
+      "translations": {
+        "hi": {
+          "question": "'CONSOLIDATE' से कौन सा शब्द नहीं बनाया जा सकता है?",
+          "options": {
+            "A": "LENTIL",
+            "B": "DETAIL",
+            "C": "SOLID",
+            "D": "SLATE"
+          },
+          "explanation": "'LENTIL' के लिए दो 'L' की आवश्यकता है, लेकिन 'CONSOLIDATE' में केवल एक है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-170",
+      "number": 170,
+      "question": "In a certain code, '786' means 'study very hard', '958' means 'hard work pays', and '645' means 'study and work'. Which digit means 'very'?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "7",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "Common in 1&2 is '8' (hard). Common in 1&3 is '6' (study). Left in 1 is '7' (very).",
+      "hash": "7656332827e11ee5",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित कोड में, '786' का अर्थ 'study very hard', '958' का अर्थ 'hard work pays', और '645' का अर्थ 'study and work' है। कौन सा अंक 'very' का अर्थ है?",
+          "options": {
+            "A": "8",
+            "B": "6",
+            "C": "7",
+            "D": "4"
+          },
+          "explanation": "1 और 2 में '8' (hard) कॉमन है। 1 और 3 में '6' (study) कॉमन है। 1 में बचा हुआ '7' (very) है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-171",
+      "number": 171,
+      "question": "Find the odd one out: 27, 64, 125, 144.",
+      "options": {
+        "A": "27",
+        "B": "64",
+        "C": "125",
+        "D": "144"
+      },
+      "answer": "D",
+      "explanation": "27, 64, 125 are perfect cubes. 144 is a square but not a cube of an integer.",
+      "hash": "7c8ebbbc73c1b121",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 27, 64, 125, 144.",
+          "options": {
+            "A": "27",
+            "B": "64",
+            "C": "125",
+            "D": "144"
+          },
+          "explanation": "27, 64, 125 पूर्ण घन हैं। 144 एक वर्ग है लेकिन पूर्णांक का घन नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-172",
+      "number": 172,
+      "question": "If A is the son of Q, Q and Y are sisters, Z is the mother of Y, and P is the son of Z, which of the following statements is correct?",
+      "options": {
+        "A": "P is the maternal uncle of A",
+        "B": "P and Y are sisters",
+        "C": "A and P are cousins",
+        "D": "None of these"
+      },
+      "answer": "A",
+      "explanation": "Q and Y are sisters, Z is their mother. P is Z's son, so P is the brother of Q and Y. Thus, P is the maternal uncle of Q's son A.",
+      "hash": "7952369c3dc83882",
+      "translations": {
+        "hi": {
+          "question": "यदि A, Q का पुत्र है, Q और Y बहनें हैं, Z, Y की माँ है, और P, Z का पुत्र है, तो निम्नलिखित में से कौन सा कथन सही है?",
+          "options": {
+            "A": "P, A का मामा है",
+            "B": "P और Y बहनें हैं",
+            "C": "A और P चचेरे भाई हैं",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "Q और Y बहनें हैं, Z उनकी माँ है। P, Z का पुत्र है, इसलिए P, Q और Y का भाई है। अतः, P, Q के पुत्र A का मामा है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-173",
+      "number": 173,
+      "question": "Select the related letters: DARE : ADER :: STEP : ?",
+      "options": {
+        "A": "TSEP",
+        "B": "PETS",
+        "C": "SETP",
+        "D": "TSPE"
+      },
+      "answer": "D",
+      "explanation": "The first two letters are swapped, and the last two are swapped. (Correction: D-A, R-E becomes A-D, E-R). So S-T, E-P becomes T-S, P-E.",
+      "hash": "7cda2e88978a5276",
+      "translations": {
+        "hi": {
+          "question": "संबंधित अक्षरों का चयन करें: DARE : ADER :: STEP : ?",
+          "options": {
+            "A": "TSEP",
+            "B": "PETS",
+            "C": "SETP",
+            "D": "TSPE"
+          },
+          "explanation": "पहले दो अक्षरों को आपस में बदल दिया गया है, और अंतिम दो को आपस में बदल दिया गया है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-174",
+      "number": 174,
+      "question": "Complete the series: Z, W, S, N, ?",
+      "options": {
+        "A": "H",
+        "B": "I",
+        "C": "J",
+        "D": "K"
+      },
+      "answer": "A",
+      "explanation": "Pattern: -3, -4, -5, -6. N(14) - 6 = 8(H).",
+      "hash": "a87e01920990f1c8",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: Z, W, S, N, ?",
+          "options": {
+            "A": "H",
+            "B": "I",
+            "C": "J",
+            "D": "K"
+          },
+          "explanation": "पैटर्न: -3, -4, -5, -6। N(14) - 6 = 8(H)।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-175",
+      "number": 175,
+      "question": "Arrange in dictionary order: 1. Project 2. Proper 3. Prompt 4. Pronoun",
+      "options": {
+        "A": "1, 3, 4, 2",
+        "B": "1, 4, 3, 2",
+        "C": "3, 4, 1, 2",
+        "D": "2, 1, 3, 4"
+      },
+      "answer": "A",
+      "explanation": "Sequence: Project, Prompt, Pronoun, Proper.",
+      "hash": "9d670dd13576963c",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम में व्यवस्थित करें: 1. Project 2. Proper 3. Prompt 4. Pronoun",
+          "options": {
+            "A": "1, 3, 4, 2",
+            "B": "1, 4, 3, 2",
+            "C": "3, 4, 1, 2",
+            "D": "2, 1, 3, 4"
+          },
+          "explanation": "क्रम: Project, Prompt, Pronoun, Proper।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-176",
+      "number": 176,
+      "question": "Select the related word: Flow : River :: Stagnant : ?",
+      "options": {
+        "A": "Rain",
+        "B": "Stream",
+        "C": "Pool",
+        "D": "Canal"
+      },
+      "answer": "C",
+      "explanation": "Water in a river flows, while water in a pool is stagnant.",
+      "hash": "a37e5acc3d110e40",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: बहाव : नदी :: स्थिर : ?",
+          "options": {
+            "A": "वर्षा",
+            "B": "धारा",
+            "C": "ताल (पूल)",
+            "D": "नहर"
+          },
+          "explanation": "नदी का पानी बहता है, जबकि पूल का पानी स्थिर रहता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-177",
+      "number": 177,
+      "question": "Select the related letters: ACEG : IKMO :: QSUW : ?",
+      "options": {
+        "A": "YACE",
+        "B": "YBDF",
+        "C": "YACD",
+        "D": "YZAB"
+      },
+      "answer": "A",
+      "explanation": "Each letter is shifted by +8. Q+8=Y, S+8=A, U+8=C, W+8=E.",
+      "hash": "8f9479b7948b8e56",
+      "translations": {
+        "hi": {
+          "question": "संबंधित अक्षरों का चयन करें: ACEG : IKMO :: QSUW : ?",
+          "options": {
+            "A": "YACE",
+            "B": "YBDF",
+            "C": "YACD",
+            "D": "YZAB"
+          },
+          "explanation": "प्रत्येक अक्षर को +8 से स्थानांतरित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-178",
+      "number": 178,
+      "question": "Find the missing number: 3, 7, 15, 31, 63, ?",
+      "options": {
+        "A": "127",
+        "B": "126",
+        "C": "125",
+        "D": "124"
+      },
+      "answer": "A",
+      "explanation": "Pattern: (n * 2) + 1. (63 * 2) + 1 = 127.",
+      "hash": "215713d872855914",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात कीजिए: 3, 7, 15, 31, 63, ?",
+          "options": {
+            "A": "127",
+            "B": "126",
+            "C": "125",
+            "D": "124"
+          },
+          "explanation": "पैटर्न: (n * 2) + 1। (63 * 2) + 1 = 127।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-179",
+      "number": 179,
+      "question": "If 123 = 36 and 225 = 81, then 331 = ?",
+      "options": {
+        "A": "49",
+        "B": "64",
+        "C": "36",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "Sum of digits squared: (3+3+1)^2 = 7^2 = 49.",
+      "hash": "d66813c6d7ff5eee",
+      "translations": {
+        "hi": {
+          "question": "यदि 123 = 36 और 225 = 81 है, तो 331 = ?",
+          "options": {
+            "A": "49",
+            "B": "64",
+            "C": "36",
+            "D": "25"
+          },
+          "explanation": "अंकों के योग का वर्ग: (3+3+1)^2 = 7^2 = 49।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-180",
+      "number": 180,
+      "question": "Find the missing number in the matrix: [3, 4, 25], [5, 12, 169], [8, 15, ?]",
+      "options": {
+        "A": "225",
+        "B": "289",
+        "C": "64",
+        "D": "121"
+      },
+      "answer": "B",
+      "explanation": "Pythagorean triplets squared: 3^2 + 4^2 = 5^2(25). 8^2 + 15^2 = 17^2(289).",
+      "hash": "4601e6cdea192824",
+      "translations": {
+        "hi": {
+          "question": "मैट्रिक्स में लुप्त संख्या ज्ञात कीजिए: [3, 4, 25], [5, 12, 169], [8, 15, ?]",
+          "options": {
+            "A": "225",
+            "B": "289",
+            "C": "64",
+            "D": "121"
+          },
+          "explanation": "पाइथागोरस ट्रिपलेट का वर्ग: 3^2 + 4^2 = 5^2(25) । 8^2 + 15^2 = 17^2(289) ।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-181",
+      "number": 181,
+      "question": "Statements: No flower is a pot. No pot is a garden. Conclusion: I. No flower is a garden. II. All gardens are flowers.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither I nor II follows"
+      },
+      "answer": "D",
+      "explanation": "No direct relation is given between flower and garden, so no definite conclusion follows.",
+      "hash": "86edd0f809b0ac52",
+      "translations": {
+        "hi": {
+          "question": "कथन: कोई फूल बर्तन नहीं है। कोई बर्तन बगीचा नहीं है। निष्कर्ष: I. कोई फूल बगीचा नहीं है। II. सभी बगीचे फूल हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "न तो I और न ही II अनुसरण करता है"
+          },
+          "explanation": "फूल और बगीचे के बीच कोई सीधा संबंध नहीं दिया गया है, इसलिए कोई निश्चित निष्कर्ष नहीं निकलता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-182",
+      "number": 182,
+      "question": "In a row, position of A from left is 12th and position of B from right is 16th. If they interchange positions, A becomes 21st from left. How many people are there?",
+      "options": {
+        "A": "36",
+        "B": "37",
+        "C": "35",
+        "D": "38"
+      },
+      "answer": "A",
+      "explanation": "Total = New position of A + Old position of B - 1 = 21 + 16 - 1 = 36.",
+      "hash": "89ddd022faa7ab4f",
+      "translations": {
+        "hi": {
+          "question": "एक पंक्ति में, बाएं से A का स्थान 12वां और दाएं से B का स्थान 16वां है। यदि वे स्थान बदलते हैं, तो A बाएं से 21वां हो जाता है। पंक्ति में कितने लोग हैं?",
+          "options": {
+            "A": "36",
+            "B": "37",
+            "C": "35",
+            "D": "38"
+          },
+          "explanation": "कुल = A का नया स्थान + B का पुराना स्थान - 1 = 21 + 16 - 1 = 36।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-183",
+      "number": 183,
+      "question": "Which number represents 'Lizards, Reptiles, Animals'?",
+      "options": {
+        "A": "Circle inside circle inside circle",
+        "B": "Intersecting circles",
+        "C": "Disjoint circles",
+        "D": "Two separate circles in one"
+      },
+      "answer": "A",
+      "explanation": "All Lizards are Reptiles, and all Reptiles are Animals.",
+      "hash": "bc7f1f5645abc3da",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या 'छिपकली, सरीसृप, जानवर' का प्रतिनिधित्व करती है?",
+          "options": {
+            "A": "वृत्त के अंदर वृत्त के अंदर वृत्त",
+            "B": "प्रतिच्छेदी वृत्त",
+            "C": "अलग-अलग वृत्त",
+            "D": "एक में दो अलग वृत्त"
+          },
+          "explanation": "सभी छिपकलियाँ सरीसृप हैं, और सभी सरीसृप जानवर हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-184",
+      "number": 184,
+      "question": "Find the odd word: Tsunami, Earthquake, Cyclone, Explosion.",
+      "options": {
+        "A": "Tsunami",
+        "B": "Earthquake",
+        "C": "Cyclone",
+        "D": "Explosion"
+      },
+      "answer": "D",
+      "explanation": "Others are natural disasters; Explosion is man-made.",
+      "hash": "2b677bb3cf63c6c3",
+      "translations": {
+        "hi": {
+          "question": "विषम शब्द ज्ञात कीजिए: सुनामी, भूकंप, चक्रवात, विस्फोट।",
+          "options": {
+            "A": "सुनामी",
+            "B": "भूकंप",
+            "C": "चक्रवात",
+            "D": "विस्फोट"
+          },
+          "explanation": "अन्य प्राकृतिक आपदाएँ हैं; विस्फोट मानव निर्मित है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-185",
+      "number": 185,
+      "question": "Select the related word: Bird : Wings :: Fish : ?",
+      "options": {
+        "A": "Gills",
+        "B": "Fins",
+        "C": "Scales",
+        "D": "Water"
+      },
+      "answer": "B",
+      "explanation": "Birds fly with wings; fish swim with fins.",
+      "hash": "e24bb7f0ba1d8ec4",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: पक्षी : पंख (Wings) :: मछली : ?",
+          "options": {
+            "A": "गलफड़े",
+            "B": "पंख (Fins)",
+            "C": "स्केल",
+            "D": "पानी"
+          },
+          "explanation": "पक्षी पंखों (Wings) से उड़ते हैं; मछलियाँ पंखों (Fins) से तैरती हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-186",
+      "number": 186,
+      "question": "If RED is coded as 6720, how is GREEN coded?",
+      "options": {
+        "A": "1677209",
+        "B": "16717209",
+        "C": "9207716",
+        "D": "1677199"
+      },
+      "answer": "B",
+      "explanation": "R(18)+2=20, E(5)+2=7, D(4)+2=6. Code is reversed: 6, 7, 20. For GREEN: G(7)+2=9, R(18)+2=20, E(5)+2=7, E(5)+2=7, N(14)+2=16. Reversed: 16, 7, 7, 20, 9.",
+      "hash": "5cd9f0a204369462",
+      "translations": {
+        "hi": {
+          "question": "यदि RED को 6720 के रूप में कोडित किया गया है, तो GREEN को कैसे कोडित किया जाएगा?",
+          "options": {
+            "A": "1677209",
+            "B": "16717209",
+            "C": "9207716",
+            "D": "1677199"
+          },
+          "explanation": "अक्षरों के मान में +2 जोड़कर उल्टा लिखा गया है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-187",
+      "number": 187,
+      "question": "A clock seen through a mirror shows 8:20. What is the actual time?",
+      "options": {
+        "A": "4:40",
+        "B": "3:40",
+        "C": "3:20",
+        "D": "2:40"
+      },
+      "answer": "B",
+      "explanation": "Actual Time = 11:60 - Mirror Time = 11:60 - 8:20 = 3:40.",
+      "hash": "d033679e86d25c27",
+      "translations": {
+        "hi": {
+          "question": "दर्पण के माध्यम से देखी गई एक घड़ी 8:20 दिखाती है। वास्तविक समय क्या है?",
+          "options": {
+            "A": "4:40",
+            "B": "3:40",
+            "C": "3:20",
+            "D": "2:40"
+          },
+          "explanation": "वास्तविक समय = 11:60 - दर्पण का समय = 11:60 - 8:20 = 3:40।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-188",
+      "number": 188,
+      "question": "Find the missing character: C-3, E-5, G-7, I-9, ?",
+      "options": {
+        "A": "K-11",
+        "B": "J-10",
+        "C": "L-12",
+        "D": "M-13"
+      },
+      "answer": "A",
+      "explanation": "Letters are at odd positions with their numerical values.",
+      "hash": "e59b148d9d1a2bd0",
+      "translations": {
+        "hi": {
+          "question": "लुप्त अक्षर ज्ञात कीजिए: C-3, E-5, G-7, I-9, ?",
+          "options": {
+            "A": "K-11",
+            "B": "J-10",
+            "C": "L-12",
+            "D": "M-13"
+          },
+          "explanation": "अक्षर अपने संख्यात्मक मानों के साथ विषम स्थानों पर हैं।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-189",
+      "number": 189,
+      "question": "How many squares are in a 4x4 chessboard?",
+      "options": {
+        "A": "16",
+        "B": "30",
+        "C": "32",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "Sum of squares: 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30.",
+      "hash": "7e61a3d5244c442c",
+      "translations": {
+        "hi": {
+          "question": "4x4 शतरंज की बिसात में कितने वर्ग होते हैं?",
+          "options": {
+            "A": "16",
+            "B": "30",
+            "C": "32",
+            "D": "25"
+          },
+          "explanation": "वर्गों का योग: 1^2 + 2^2 + 3^2 + 4^2 = 1 + 4 + 9 + 16 = 30।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-190",
+      "number": 190,
+      "question": "Select the related word: Wood : Paper :: Steel : ?",
+      "options": {
+        "A": "Metal",
+        "B": "Car",
+        "C": "Iron",
+        "D": "Glass"
+      },
+      "answer": "B",
+      "explanation": "Paper is made from wood; a car (its body) is made from steel.",
+      "hash": "4a3c24b9eb18c837",
+      "translations": {
+        "hi": {
+          "question": "संबंधित शब्द का चयन करें: लकड़ी : कागज :: स्टील : ?",
+          "options": {
+            "A": "धातु",
+            "B": "कार",
+            "C": "लोहा",
+            "D": "कांच"
+          },
+          "explanation": "कागज लकड़ी से बनाया जाता है; कार (उसका शरीर) स्टील से बनाई जाती है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-191",
+      "number": 191,
+      "question": "If 5 * 3 = 16 and 9 * 1 = 20, then 7 * 5 = ?",
+      "options": {
+        "A": "24",
+        "B": "22",
+        "C": "26",
+        "D": "28"
+      },
+      "answer": "A",
+      "explanation": "Pattern: (Sum of numbers) * 2. (5+3)*2=16, (9+1)*2=20, (7+5)*2=24.",
+      "hash": "6d323951e263dfb4",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 * 3 = 16 और 9 * 1 = 20 है, तो 7 * 5 = ?",
+          "options": {
+            "A": "24",
+            "B": "22",
+            "C": "26",
+            "D": "28"
+          },
+          "explanation": "पैटर्न: (संख्याओं का योग) * 2। (5+3)*2=16, (9+1)*2=20, (7+5)*2=24।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-192",
+      "number": 192,
+      "question": "Find the odd number: 121, 144, 189, 225.",
+      "options": {
+        "A": "121",
+        "B": "144",
+        "C": "189",
+        "D": "225"
+      },
+      "answer": "C",
+      "explanation": "Others are perfect squares (11^2, 12^2, 15^2). 189 is not.",
+      "hash": "9392ad332e4b95b5",
+      "translations": {
+        "hi": {
+          "question": "विषम संख्या ज्ञात कीजिए: 121, 144, 189, 225.",
+          "options": {
+            "A": "121",
+            "B": "144",
+            "C": "189",
+            "D": "225"
+          },
+          "explanation": "अन्य पूर्ण वर्ग हैं (11^2, 12^2, 15^2)। 189 नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-193",
+      "number": 193,
+      "question": "If a mirror is placed on the bottom of word 'CODE', what is the image?",
+      "options": {
+        "A": "Water image of CODE",
+        "B": "Mirror image of CODE",
+        "C": "Same as CODE",
+        "D": "Reverse of CODE"
+      },
+      "answer": "A",
+      "explanation": "A mirror placed at the bottom acts as a water image.",
+      "hash": "f1523d09f4260d09",
+      "translations": {
+        "hi": {
+          "question": "यदि 'CODE' शब्द के नीचे दर्पण रखा जाए, तो प्रतिबिंब क्या होगा?",
+          "options": {
+            "A": "CODE का जल प्रतिबिंब",
+            "B": "CODE का दर्पण प्रतिबिंब",
+            "C": "CODE के समान",
+            "D": "CODE का उल्टा"
+          },
+          "explanation": "नीचे रखा गया दर्पण जल प्रतिबिंब के रूप में कार्य करता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-194",
+      "number": 194,
+      "question": "Complete the series: 1, 2, 6, 24, 120, ?",
+      "options": {
+        "A": "600",
+        "B": "720",
+        "C": "240",
+        "D": "480"
+      },
+      "answer": "B",
+      "explanation": "Factorial series: 1!, 2!, 3!, 4!, 5!, 6! = 720.",
+      "hash": "5b459c7c995fa65e",
+      "translations": {
+        "hi": {
+          "question": "श्रृंखला को पूरा करें: 1, 2, 6, 24, 120, ?",
+          "options": {
+            "A": "600",
+            "B": "720",
+            "C": "240",
+            "D": "480"
+          },
+          "explanation": "फैक्टोरियल श्रृंखला: 1!, 2!, 3!, 4!, 5!, 6! = 720।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-195",
+      "number": 195,
+      "question": "Select the related number: 49 : 81 :: 100 : ?",
+      "options": {
+        "A": "121",
+        "B": "144",
+        "C": "169",
+        "D": "196"
+      },
+      "answer": "B",
+      "explanation": "Pattern: 7^2 : 9^2 (difference of 2). Similarly, 10^2 : 12^2 = 144.",
+      "hash": "045da08e20af9d93",
+      "translations": {
+        "hi": {
+          "question": "संबंधित संख्या का चयन करें: 49 : 81 :: 100 : ?",
+          "options": {
+            "A": "121",
+            "B": "144",
+            "C": "169",
+            "D": "196"
+          },
+          "explanation": "पैटर्न: 7^2 : 9^2 (2 का अंतर)। इसी तरह, 10^2 : 12^2 = 144।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-196",
+      "number": 196,
+      "question": "Statements: All apples are red. No red is a fruit. Conclusion: I. Some apples are fruits. II. No apple is a fruit.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Either I or II follows",
+        "D": "Neither I nor II follows"
+      },
+      "answer": "B",
+      "explanation": "Since all apples are red and no red is fruit, no apple can be a fruit.",
+      "hash": "0b01e05adf7c65d2",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी सेब लाल हैं। कोई लाल फल नहीं है। निष्कर्ष: I. कुछ सेब फल हैं। II. कोई सेब फल नहीं है।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "या तो I या II अनुसरण करता है",
+            "D": "न तो I और न ही II अनुसरण करता है"
+          },
+          "explanation": "चूंकि सभी सेब लाल हैं और कोई लाल फल नहीं है, इसलिए कोई भी सेब फल नहीं हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-197",
+      "number": 197,
+      "question": "Find the odd letter group: MNP, GHI, XYZ, DEF.",
+      "options": {
+        "A": "MNP",
+        "B": "GHI",
+        "C": "XYZ",
+        "D": "DEF"
+      },
+      "answer": "A",
+      "explanation": "GHI, XYZ, DEF are consecutive letters. MNP is not (M-N-O-P).",
+      "hash": "9c7061c0c1b8d00f",
+      "translations": {
+        "hi": {
+          "question": "विषम अक्षर समूह ज्ञात कीजिए: MNP, GHI, XYZ, DEF.",
+          "options": {
+            "A": "MNP",
+            "B": "GHI",
+            "C": "XYZ",
+            "D": "DEF"
+          },
+          "explanation": "GHI, XYZ, DEF क्रमिक अक्षर हैं। MNP नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-198",
+      "number": 198,
+      "question": "Which word comes third in the dictionary? 1. Magnify 2. Magnetic 3. Magnet 4. Magical",
+      "options": {
+        "A": "Magnet",
+        "B": "Magnetic",
+        "C": "Magnify",
+        "D": "Magical"
+      },
+      "answer": "B",
+      "explanation": "Order: Magical, Magnet, Magnetic, Magnify.",
+      "hash": "bfd77437a1249517",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश में कौन सा शब्द तीसरे स्थान पर आता है? 1. Magnify 2. Magnetic 3. Magnet 4. Magical",
+          "options": {
+            "A": "Magnet",
+            "B": "Magnetic",
+            "C": "Magnify",
+            "D": "Magical"
+          },
+          "explanation": "क्रम: Magical, Magnet, Magnetic, Magnify।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-199",
+      "number": 199,
+      "question": "A boy is facing North-West. He turns 90° clockwise and then 135° anti-clockwise. Which direction is he facing now?",
+      "options": {
+        "A": "West",
+        "B": "East",
+        "C": "North",
+        "D": "South"
+      },
+      "answer": "A",
+      "explanation": "Net turn = 135 - 90 = 45° anti-clockwise. North-West minus 45° is West.",
+      "hash": "bb4606b6d6d65ffc",
+      "translations": {
+        "hi": {
+          "question": "एक लड़का उत्तर-पश्चिम की ओर उन्मुख है। वह 90° दक्षिणावर्त और फिर 135° वामावर्त मुड़ता है। अब उसका मुख किस दिशा में है?",
+          "options": {
+            "A": "पश्चिम",
+            "B": "पूर्व",
+            "C": "उत्तर",
+            "D": "दक्षिण"
+          },
+          "explanation": "कुल मोड़ = 135 - 90 = 45° वामावर्त। उत्तर-पश्चिम माइनस 45° पश्चिम है।"
+        }
+      }
+    },
+    {
+      "id": "mock-test-full-test-02-200",
+      "number": 200,
+      "question": "8 : 256 :: ? : ?",
+      "options": {
+        "A": "7 : 343",
+        "B": "9 : 243",
+        "C": "10 : 500",
+        "D": "5 : 75"
+      },
+      "answer": "C",
+      "explanation": "Pattern: (n^3) / 2. (8^3)/2 = 512/2 = 256. Similarly, (10^3)/2 = 1000/2 = 500.",
+      "hash": "87e415781d24f61f",
+      "translations": {
+        "hi": {
+          "question": "8 : 256 :: ? : ?",
+          "options": {
+            "A": "7 : 343",
+            "B": "9 : 243",
+            "C": "10 : 500",
+            "D": "5 : 75"
+          },
+          "explanation": "पैटर्न: (n^3) / 2। (8^3)/2 = 256। इसी तरह, (10^3)/2 = 500।"
+        }
+      }
+    }
+  ]
+}

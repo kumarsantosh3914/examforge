@@ -7,6 +7,7 @@ export const families = [
   { id: 'railway', label: 'Railway' },
   { id: 'banking', label: 'Banking' },
   { id: 'defence', label: 'Defence' },
+  { id: 'school', label: 'School boards' },
 ] as const;
 import type { Exam } from './types';
 
@@ -194,6 +195,55 @@ export const liveExamMeta: Record<string, ExamMeta> = {
     body: 'Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB)',
     blurb: 'Constable civil police recruitment. Full 150-question mock tests covering General Science & Hindi, Numerical & Mental Ability, Mental Aptitude & Reasoning.',
     description: 'Free UP Police Constable mock tests: 10 full 150-question practice papers covering General Knowledge, General Hindi, Numerical & Mental Ability and Reasoning with explanations in English and Hindi.',
+  },
+  'ssc-cpo': {
+    family: 'ssc',
+    title: 'SSC CPO',
+    shortTitle: 'SSC CPO',
+    body: 'Staff Selection Commission',
+    blurb: 'Sub-Inspector recruitment for Delhi Police and the Central Armed Police Forces. Full mock tests and sets for Reasoning, Aptitude, General Knowledge and English.',
+    description: 'Free SSC CPO mock tests: 10 full-length Paper 1 practice papers plus 39 subject sets for Reasoning, Quantitative Aptitude, General Knowledge and English, with explanations in English and Hindi.',
+  },
+  'rrb-ntpc-cbt-2': {
+    family: 'railway',
+    title: 'RRB NTPC CBT 2',
+    shortTitle: 'RRB NTPC CBT-2',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Non-Technical Popular Categories recruitment, CBT-2 stage for graduate-level posts. Timed sets for Mathematics, Reasoning and General Awareness.',
+    description: 'Free RRB NTPC CBT-2 mock tests: timed practice sets for Mathematics, Reasoning and General Awareness, following the sections of the 120-question, 90-minute graduate-level paper, with explanations in English and Hindi.',
+  },
+  'rpf-si': {
+    family: 'railway',
+    title: 'RPF SI',
+    shortTitle: 'RPF SI',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Railway Protection Force Sub-Inspector recruitment. Full mock tests and sets for General Awareness, Arithmetic and Reasoning.',
+    description: 'Free RPF Sub-Inspector mock tests: 10 full-length CBT practice papers plus 29 subject sets for General Awareness, Arithmetic and Reasoning, with explanations in English and Hindi.',
+  },
+  'rrb-alp': {
+    family: 'railway',
+    title: 'RRB ALP',
+    shortTitle: 'RRB ALP',
+    body: 'Railway Recruitment Boards',
+    blurb: 'Assistant Loco Pilot recruitment, CBT-1 stage. Full mock tests and sets for Mathematics, Reasoning and General Science.',
+    description: 'Free RRB ALP mock tests: 9 full-length CBT-1 practice papers plus subject sets for Mathematics, Reasoning and General Science, with explanations in English and Hindi.',
+  },
+  'bpsc-tre-4.0/math-high-school': {
+    family: 'teaching',
+    title: 'BPSC TRE 4.0 Mathematics (High School)',
+    shortTitle: 'BPSC TRE 4.0 Maths',
+    body: 'Bihar Public Service Commission',
+    blurb: 'Teacher recruitment, Mathematics paper for high school (Classes 9–10). Full mock tests and chapter sets from number system to statistics.',
+    description: 'Free BPSC TRE 4.0 Mathematics mock tests for high school teachers: 9 full-length practice papers plus 34 chapter sets across number system, algebra, geometry, trigonometry, mensuration and statistics, with explanations in English and Hindi.',
+  },
+  'bseb-10th': {
+    family: 'school',
+    title: 'BSEB Class 10 (Bihar Board)',
+    shortTitle: 'BSEB 10th',
+    body: 'Bihar School Examination Board',
+    blurb: 'Bihar Board matriculation practice. Objective sets for Science, Social Science, Mathematics, English and Sanskrit.',
+    metaTitle: 'BSEB 10th Mock Tests: Free Bihar Board Class 10 Practice (2026)',
+    description: 'Free Bihar Board Class 10 mock tests: 135 objective practice sets for Science, Social Science, Mathematics, English and Sanskrit, with answers explained in English and Hindi.',
   },
 };
 

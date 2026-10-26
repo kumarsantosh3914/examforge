@@ -1,0 +1,567 @@
+{
+  "subject": "Number System",
+  "set": 2,
+  "title": "Number System Mock Test 2",
+  "questions": [
+    {
+      "id": "number-system-02-001",
+      "number": 1,
+      "question": "The HCF of two numbers is 23 and their LCM is 1449. If one of the numbers is 161, find the other number.",
+      "options": {
+        "A": "207",
+        "B": "307",
+        "C": "144",
+        "D": "230",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Product of two numbers = HCF * LCM. (161 * x) = 23 * 1449. x = (23 * 1449) / 161 = 207.",
+      "hash": "00f60430b39cd1e5",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का HCF 23 है और उनका LCM 1449 है। यदि उनमें से एक संख्या 161 है, तो दूसरी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "207",
+            "B": "307",
+            "C": "144",
+            "D": "230",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दो संख्याओं का गुणनफल = HCF * LCM। (161 * x) = 23 * 1449। x = (23 * 1449) / 161 = 207।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-002",
+      "number": 2,
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": {
+        "A": "121212",
+        "B": "1331",
+        "C": "11111",
+        "D": "10101",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "In 1331, sum of odd digits (1+3=4) minus sum of even digits (3+1=4) is 0.",
+      "hash": "91bf1757a8c20e27",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी संख्या 11 से विभाज्य है?",
+          "options": {
+            "A": "121212",
+            "B": "1331",
+            "C": "11111",
+            "D": "10101",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "1331 में, विषम अंकों का योग (1+3=4) और सम अंकों का योग (3+1=4) का अंतर 0 है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-003",
+      "number": 3,
+      "question": "If a number 5432x7 is divisible by 9, then the digit x is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "6",
+        "D": "9",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Sum of digits (5+4+3+2+x+7) = 21+x must be divisible by 9. Next multiple of 9 is 27, so x = 6.",
+      "hash": "59af027f4a486a80",
+      "translations": {
+        "hi": {
+          "question": "यदि संख्या 5432x7, 9 से विभाज्य है, तो अंक x है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "6",
+            "D": "9",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अंकों का योग (5+4+3+2+x+7) = 21+x, 9 से विभाज्य होना चाहिए। 9 का अगला गुणज 27 है, इसलिए x = 6।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-004",
+      "number": 4,
+      "question": "The value of 0.47 (bar on 7) in the form p/q is:",
+      "options": {
+        "A": "47/99",
+        "B": "43/90",
+        "C": "47/90",
+        "D": "43/99",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Let x = 0.4777... then 10x = 4.777... and 100x = 47.777... 90x = 43, so x = 43/90.",
+      "hash": "a204c6e5281bfa02",
+      "translations": {
+        "hi": {
+          "question": "p/q के रूप में 0.47 (7 पर बार) का मान है:",
+          "options": {
+            "A": "47/99",
+            "B": "43/90",
+            "C": "47/90",
+            "D": "43/99",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना x = 0.4777... तो 10x = 4.777... और 100x = 47.777... 90x = 43, इसलिए x = 43/90।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-005",
+      "number": 5,
+      "question": "What is the sum of all prime numbers between 1 and 10?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "17",
+        "D": "18",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Prime numbers between 1 and 10 are 2, 3, 5, 7. Sum = 2+3+5+7 = 17.",
+      "hash": "8a5fb1995924f99d",
+      "translations": {
+        "hi": {
+          "question": "1 और 10 के बीच की सभी अभाज्य संख्याओं का योग क्या है?",
+          "options": {
+            "A": "15",
+            "B": "16",
+            "C": "17",
+            "D": "18",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1 और 10 के बीच अभाज्य संख्याएँ 2, 3, 5, 7 हैं। योग = 2+3+5+7 = 17।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-006",
+      "number": 6,
+      "question": "Every integer is a:",
+      "options": {
+        "A": "Natural number",
+        "B": "Rational number",
+        "C": "Whole number",
+        "D": "Irrational number",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Any integer 'a' can be written as a/1, which is a rational number.",
+      "hash": "310e382c5bc447b2",
+      "translations": {
+        "hi": {
+          "question": "प्रत्येक पूर्णांक एक ____ है:",
+          "options": {
+            "A": "प्राकृतिक संख्या",
+            "B": "परिमेय संख्या",
+            "C": "पूर्ण संख्या",
+            "D": "अपरिमेय संख्या",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी भी पूर्णांक 'a' को a/1 के रूप में लिखा जा सकता है, जो एक परिमेय संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-007",
+      "number": 7,
+      "question": "The sum of the first 10 natural numbers is:",
+      "options": {
+        "A": "45",
+        "B": "55",
+        "C": "65",
+        "D": "110",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Sum = n(n+1)/2 = 10(11)/2 = 55.",
+      "hash": "b37b1c0fbe817770",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 प्राकृतिक संख्याओं का योग है:",
+          "options": {
+            "A": "45",
+            "B": "55",
+            "C": "65",
+            "D": "110",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग = n(n+1)/2 = 10(11)/2 = 55।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-008",
+      "number": 8,
+      "question": "A number is rational if its decimal expansion is:",
+      "options": {
+        "A": "Non-terminating",
+        "B": "Non-repeating",
+        "C": "Terminating or repeating",
+        "D": "Non-terminating non-repeating",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Rational numbers have either a terminating decimal expansion or a non-terminating repeating expansion.",
+      "hash": "51c7d31b3ab82bda",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या परिमेय होती है यदि उसका दशमलव प्रसार हो:",
+          "options": {
+            "A": "अशांत",
+            "B": "अनावर्ती",
+            "C": "शांत या आवर्ती",
+            "D": "अशांत अनावर्ती",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिमेय संख्याओं का दशमलव प्रसार या तो शांत होता है या अशांत आवर्ती।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-009",
+      "number": 9,
+      "question": "The square root of 0.09 is:",
+      "options": {
+        "A": "0.3",
+        "B": "0.03",
+        "C": "0.003",
+        "D": "3",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "0.3 * 0.3 = 0.09.",
+      "hash": "7698c336d33ead40",
+      "translations": {
+        "hi": {
+          "question": "0.09 का वर्गमूल है:",
+          "options": {
+            "A": "0.3",
+            "B": "0.03",
+            "C": "0.003",
+            "D": "3",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "0.3 * 0.3 = 0.09।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-010",
+      "number": 10,
+      "question": "What is the value of 1.999... in integer form?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "1.9",
+        "D": "1.99",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "x = 1.999... leads to 10x = 19.999... Subtracting gives 9x = 18, so x = 2.",
+      "hash": "98d02eadcd60d086",
+      "translations": {
+        "hi": {
+          "question": "पूर्णांक रूप में 1.999... का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "1.9",
+            "D": "1.99",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x = 1.999... से 10x = 19.999... प्राप्त होता है। घटाने पर 9x = 18 मिलता है, इसलिए x = 2।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-011",
+      "number": 11,
+      "question": "Which of the following is a prime number?",
+      "options": {
+        "A": "51",
+        "B": "87",
+        "C": "91",
+        "D": "97",
+        "E": "More than one of the above"
+      },
+      "answer": "D",
+      "explanation": "97 has no factors other than 1 and itself. 51=3x17, 87=3x29, 91=7x13.",
+      "hash": "7593649745a42150",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक अभाज्य संख्या है?",
+          "options": {
+            "A": "51",
+            "B": "87",
+            "C": "91",
+            "D": "97",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "97 का 1 और स्वयं के अलावा कोई गुणनखंड नहीं है। 51=3x17, 87=3x29, 91=7x13।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-012",
+      "number": 12,
+      "question": "If HCF(a, b) = 1, then LCM(a, b) is:",
+      "options": {
+        "A": "a + b",
+        "B": "a / b",
+        "C": "a * b",
+        "D": "1",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "For co-prime numbers (HCF=1), the LCM is the product of the two numbers.",
+      "hash": "c05badee0b8a3453",
+      "translations": {
+        "hi": {
+          "question": "यदि HCF(a, b) = 1 है, तो LCM(a, b) है:",
+          "options": {
+            "A": "a + b",
+            "B": "a / b",
+            "C": "a * b",
+            "D": "1",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "सह-अभाज्य संख्याओं (HCF=1) के लिए, LCM दोनों संख्याओं का गुणनफल होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-013",
+      "number": 13,
+      "question": "How many prime factors does 105 have?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "105 = 3 * 5 * 7. There are 3 distinct prime factors.",
+      "hash": "838223c6c3f91fb4",
+      "translations": {
+        "hi": {
+          "question": "105 के कितने अभाज्य गुणनखंड हैं?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "105 = 3 * 5 * 7। इसमें 3 अलग-अलग अभाज्य गुणनखंड हैं।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-014",
+      "number": 14,
+      "question": "The largest number that divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
+      "options": {
+        "A": "13",
+        "B": "65",
+        "C": "875",
+        "D": "1750",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "HCF of (70-5) and (125-8) which is HCF of 65 and 117. 13 divides both.",
+      "hash": "01ce43db10029f54",
+      "translations": {
+        "hi": {
+          "question": "वह सबसे बड़ी संख्या जो 70 और 125 को विभाजित करने पर क्रमशः 5 और 8 शेषफल देती है, वह है:",
+          "options": {
+            "A": "13",
+            "B": "65",
+            "C": "875",
+            "D": "1750",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(70-5) और (125-8) का HCF यानी 65 और 117 का HCF। 13 दोनों को विभाजित करता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-015",
+      "number": 15,
+      "question": "The sum of two irrational numbers is:",
+      "options": {
+        "A": "Always rational",
+        "B": "Always irrational",
+        "C": "Rational or irrational",
+        "D": "Always an integer",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Sum can be rational (e.g., sqrt(2) + (-sqrt(2)) = 0) or irrational (e.g., sqrt(2) + sqrt(3)).",
+      "hash": "64a1f62319031a0f",
+      "translations": {
+        "hi": {
+          "question": "दो अपरिमेय संख्याओं का योग होता है:",
+          "options": {
+            "A": "हमेशा परिमेय",
+            "B": "हमेशा अपरिमेय",
+            "C": "परिमेय या अपरिमेय",
+            "D": "हमेशा एक पूर्णांक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग परिमेय हो सकता है (जैसे, sqrt(2) + (-sqrt(2)) = 0) या अपरिमेय (जैसे, sqrt(2) + sqrt(3))।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-016",
+      "number": 16,
+      "question": "The cube of an odd natural number is always:",
+      "options": {
+        "A": "Even",
+        "B": "Odd",
+        "C": "Prime",
+        "D": "Negative",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "The product of odd numbers is always odd. For example, 3*3*3 = 27.",
+      "hash": "7b2a04667c6de2dc",
+      "translations": {
+        "hi": {
+          "question": "एक विषम प्राकृतिक संख्या का घन हमेशा होता है:",
+          "options": {
+            "A": "सम",
+            "B": "विषम",
+            "C": "अभाज्य",
+            "D": "ऋणात्मक",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "विषम संख्याओं का गुणनफल हमेशा विषम होता है। उदाहरण के लिए, 3*3*3 = 27।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-017",
+      "number": 17,
+      "question": "What is the additive inverse of -5/9?",
+      "options": {
+        "A": "-5/9",
+        "B": "5/9",
+        "C": "9/5",
+        "D": "-9/5",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Additive inverse of a number x is -x. -(-5/9) = 5/9.",
+      "hash": "f394cbf086c97cb6",
+      "translations": {
+        "hi": {
+          "question": "-5/9 का योज्य प्रतिलोम (additive inverse) क्या है?",
+          "options": {
+            "A": "-5/9",
+            "B": "5/9",
+            "C": "9/5",
+            "D": "-9/5",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी संख्या x का योज्य प्रतिलोम -x होता है। -(-5/9) = 5/9।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-018",
+      "number": 18,
+      "question": "Which number is the smallest positive integer?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Positive integers start from 1. 0 is neither positive nor negative.",
+      "hash": "6f33db9a41697392",
+      "translations": {
+        "hi": {
+          "question": "कौन सी संख्या सबसे छोटा धनात्मक पूर्णांक है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "धनात्मक पूर्णांक 1 से शुरू होते हैं। 0 न तो धनात्मक है और न ही ऋणात्मक।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-019",
+      "number": 19,
+      "question": "The product of any three consecutive integers is always divisible by:",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "9",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Out of three consecutive integers, at least one is even and one is a multiple of 3. Thus, divisible by 2*3=6.",
+      "hash": "df6ad2b9717b0b50",
+      "translations": {
+        "hi": {
+          "question": "किन्हीं तीन क्रमागत पूर्णांकों का गुणनफल हमेशा विभाजित होता है:",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "9",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "तीन क्रमागत पूर्णांकों में से, कम से कम एक सम होता है और एक 3 का गुणज होता है। अतः, 2*3=6 से विभाज्य है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-02-020",
+      "number": 20,
+      "question": "Square root of 5 is:",
+      "options": {
+        "A": "Rational",
+        "B": "Irrational",
+        "C": "Integer",
+        "D": "Whole number",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "5 is not a perfect square, so its square root is irrational.",
+      "hash": "2a186e7ad3ab7f0a",
+      "translations": {
+        "hi": {
+          "question": "5 का वर्गमूल है:",
+          "options": {
+            "A": "परिमेय",
+            "B": "अपरिमेय",
+            "C": "पूर्णांक",
+            "D": "पूर्ण संख्या",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "5 एक पूर्ण वर्ग नहीं है, इसलिए इसका वर्गमूल अपरिमेय है।"
+        }
+      }
+    }
+  ]
+}

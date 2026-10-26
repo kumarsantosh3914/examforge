@@ -1,0 +1,811 @@
+{
+  "subject": "Mathematics",
+  "set": 3,
+  "title": "Mathematics Mock Test 3",
+  "questions": [
+    {
+      "id": "mathematics-03-002",
+      "number": 2,
+      "question": "A shopkeeper marks goods 40% above CP. He gives 10% discount and uses a faulty balance weighing 800g for 1kg. What is his actual profit %?",
+      "options": {
+        "A": "57.5%",
+        "B": "60%",
+        "C": "50%",
+        "D": "45.5%"
+      },
+      "answer": "A",
+      "explanation": "Cost incurred = CP of 800g = ₹800. SP = 90% of 140% of 1000 = ₹1260. Profit = 460. % = (460/800)*100 = 57.5%.",
+      "hash": "9bacbc07fa23300f",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपनी वस्तुओं पर क्रय मूल्य से 40% अधिक अंकित करता है। वह अंकित मूल्य पर 10% की छूट देता है और दोषपूर्ण तराजू का उपयोग करता है जो 1 किलो के लिए 800 ग्राम वजन करता है। उसका वास्तविक लाभ प्रतिशत क्या है?",
+          "options": {
+            "A": "57.5%",
+            "B": "60%",
+            "C": "50%",
+            "D": "45.5%"
+          },
+          "explanation": "माना CP/g = ₹1. 1000g का CP = ₹1000. वह 800g देता है, तो उसकी लागत = ₹800. अंकित मूल्य = 1400. विक्रय मूल्य (10% छूट) = 1400 × 0.9 = ₹1260. लाभ = 1260 - 800 = 460. लाभ % = (460/800) × 100 = 57.5%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-003",
+      "number": 3,
+      "question": "If x⁴ + 1/x⁴ = 194, where x > 0, find the value of (x - 2)².",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "x² + 1/x² = 14 => x + 1/x = 4. x² - 4x = -1. (x-2)² = x² - 4x + 4 = -1 + 4 = 3.",
+      "hash": "b3140efd79614bfb",
+      "translations": {
+        "hi": {
+          "question": "यदि x⁴ + 1/x⁴ = 194 है, जहाँ x > 0 है, तो (x - 2)² का मान क्या है?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "2",
+            "D": "1"
+          },
+          "explanation": "x² + 1/x² = √(194 + 2) = 14. x + 1/x = √(14 + 2) = 4. x² + 1 = 4x => x² - 4x + 1 = 0. हमें (x-2)² चाहिए = x² - 4x + 4. चूंकि x² - 4x = -1 है, तो -1 + 4 = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-004",
+      "number": 4,
+      "question": "If sec θ + tan θ = p, what is the value of sin θ in terms of p?",
+      "options": {
+        "A": "(p²-1)/(p²+1)",
+        "B": "(p²+1)/(p²-1)",
+        "C": "2p/(p²+1)",
+        "D": "2p/(p²-1)"
+      },
+      "answer": "A",
+      "explanation": "sec θ = (p²+1)/2p. Using triangle (Hyp=p²+1, Adj=2p), Opp=p²-1. sin θ = Opp/Hyp.",
+      "hash": "5a29c433010572ff",
+      "translations": {
+        "hi": {
+          "question": "यदि sec θ + tan θ = p है, तो sin θ का मान p के पदों में क्या है?",
+          "options": {
+            "A": "(p²-1)/(p²+1)",
+            "B": "(p²+1)/(p²-1)",
+            "C": "2p/(p²+1)",
+            "D": "2p/(p²-1)"
+          },
+          "explanation": "sec θ - tan θ = 1/p. दोनों को जोड़ने पर: 2 sec θ = p + 1/p = (p²+1)/p. sec θ = (p²+1)/2p. cos θ = 2p/(p²+1). sin θ = √[1 - {2p/(p²+1)}²] = (p²-1)/(p²+1)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-005",
+      "number": 5,
+      "question": "Pipes A, B, C can fill a tank in 6 hrs. After working together for 2 hrs, C is closed and A & B fill the rest in 7 hrs. Time for C alone?",
+      "options": {
+        "A": "14 hrs",
+        "B": "12 hrs",
+        "C": "10 hrs",
+        "D": "16 hrs"
+      },
+      "answer": "A",
+      "explanation": "A+B+C in 6. A+B do 2/3 work in 7 hrs -> full in 10.5 hrs. C = 1/6 - 1/10.5 = 1/14. C takes 14 hrs.",
+      "hash": "554d0b670714de5f",
+      "translations": {
+        "hi": {
+          "question": "तीन पाइप A, B और C एक टैंक को 6 घंटे में भर सकते हैं। 2 घंटे एक साथ काम करने के बाद, C को बंद कर दिया जाता है और A और B शेष टैंक को 7 घंटे में भरते हैं। C अकेले टैंक को कितने समय में भरेगा?",
+          "options": {
+            "A": "14 घंटे",
+            "B": "12 घंटे",
+            "C": "10 घंटे",
+            "D": "16 घंटे"
+          },
+          "explanation": "2 घंटे में 2/6 = 1/3 काम हुआ। शेष 2/3 काम A+B ने 7 घंटे में किया। A+B पूरा काम करेंगे: 7 × (3/2) = 10.5 घंटे में। A+B+C = 6 घंटे। C की क्षमता = 1/6 - 1/10.5 = 1/6 - 2/21 = (7-4)/42 = 3/42 = 1/14। C का समय = 14 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-006",
+      "number": 6,
+      "question": "In a trapezium ABCD, AB || CD and AB = 2CD. Diagonals intersect at O. If Area(ΔAOB) = 84 cm², find Area(ΔCOD).",
+      "options": {
+        "A": "21 cm²",
+        "B": "42 cm²",
+        "C": "28 cm²",
+        "D": "14 cm²"
+      },
+      "answer": "A",
+      "explanation": "ΔAOB ~ ΔCOD. Ratio of areas = (AB/CD)² = 4:1. Area(COD) = 84/4 = 21.",
+      "hash": "15e0816c40d7ef9c",
+      "translations": {
+        "hi": {
+          "question": "एक समलंब (Trapezium) ABCD में, AB || CD और AB = 2CD है। इसके विकर्ण O पर काटते हैं। यदि त्रिभुज AOB का क्षेत्रफल 84 सेमी² है, तो त्रिभुज COD का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "21 सेमी²",
+            "B": "42 सेमी²",
+            "C": "28 सेमी²",
+            "D": "14 सेमी²"
+          },
+          "explanation": "ΔAOB और ΔCOD समरूप हैं। क्षेत्रफलों का अनुपात भुजाओं के वर्ग के अनुपात के बराबर होता है। AB/CD = 2/1. क्षेत्रफल अनुपात = (2/1)² = 4:1. Area(AOB) = 4 × Area(COD). 84 = 4x => x = 21."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-007",
+      "number": 7,
+      "question": "A plane leaves 30 mins late to cover 1500 km. To reach on time, it increases speed by 250 km/hr. Find normal speed.",
+      "options": {
+        "A": "750 km/hr",
+        "B": "1000 km/hr",
+        "C": "800 km/hr",
+        "D": "600 km/hr"
+      },
+      "answer": "A",
+      "explanation": "Option check: 1500/750 = 2 hrs. 1500/1000 = 1.5 hrs. Diff 30 mins. Ans: 750.",
+      "hash": "93a4e85c8efa2989",
+      "translations": {
+        "hi": {
+          "question": "एक हवाई जहाज 1500 किमी की दूरी तय करने के लिए निर्धारित समय से 30 मिनट देरी से उड़ान भरता है। समय पर पहुंचने के लिए, उसे अपनी गति 250 किमी/घंटा बढ़ानी पड़ती है। उसकी सामान्य गति ज्ञात कीजिये।",
+          "options": {
+            "A": "750 किमी/घंटा",
+            "B": "1000 किमी/घंटा",
+            "C": "800 किमी/घंटा",
+            "D": "600 किमी/घंटा"
+          },
+          "explanation": "दूरी/(S) - दूरी/(S+250) = 1/2 घंटा। विकल्प से: 1500/750 = 2 घंटे। 1500/1000 = 1.5 घंटे। अंतर = 0.5 घंटे। सही।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-008",
+      "number": 8,
+      "question": "Radii of ends of a frustum of a cone are 5cm and 2cm, height is 4cm. Find slant height.",
+      "options": {
+        "A": "5 cm",
+        "B": "4 cm",
+        "C": "6 cm",
+        "D": "3 cm"
+      },
+      "answer": "A",
+      "explanation": "l = √[h² + (R-r)²] = √[16+9] = 5 cm.",
+      "hash": "0d4123a0b6aca173",
+      "translations": {
+        "hi": {
+          "question": "एक लंब वृत्तीय शंकु का छिन्नक (Frustum) के सिरों की त्रिज्याएँ 5 सेमी और 2 सेमी हैं और ऊँचाई 4 सेमी है। इसकी तिर्यक ऊँचाई (Slant Height) क्या है?",
+          "options": {
+            "A": "5 सेमी",
+            "B": "4 सेमी",
+            "C": "6 सेमी",
+            "D": "3 सेमी"
+          },
+          "explanation": "l = √[h² + (R-r)²] = √[4² + (5-2)²] = √[16 + 9] = √25 = 5 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-010",
+      "number": 10,
+      "question": "A man spends 75% of income. Income increases by 20% and expenditure by 10%. % increase in savings?",
+      "options": {
+        "A": "50%",
+        "B": "25%",
+        "C": "40%",
+        "D": "10%"
+      },
+      "answer": "A",
+      "explanation": "Old Saving=25. New Saving=37.5. Increase=12.5. % = 50%.",
+      "hash": "da30b44cf817ff32",
+      "translations": {
+        "hi": {
+          "question": "एक आदमी अपनी आय का 75% खर्च करता है। यदि उसकी आय में 20% की वृद्धि होती है और व्यय में 10% की वृद्धि होती है, तो उसकी बचत में कितने प्रतिशत की वृद्धि होगी?",
+          "options": {
+            "A": "50%",
+            "B": "25%",
+            "C": "40%",
+            "D": "10%"
+          },
+          "explanation": "आय=100, व्यय=75, बचत=25। नई आय=120, नया व्यय=82.5 (75 का 110%)। नई बचत=120 - 82.5 = 37.5। बचत में वृद्धि = 37.5 - 25 = 12.5। % वृद्धि = (12.5/25) × 100 = 50%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-011",
+      "number": 11,
+      "question": "In what ratio does the x-axis divide the line segment joining A(2, -3) and B(5, 6)?",
+      "options": {
+        "A": "1:2",
+        "B": "1:3",
+        "C": "2:1",
+        "D": "3:1"
+      },
+      "answer": "A",
+      "explanation": "Ratio by x-axis = -y1 : y2 = 3 : 6 = 1 : 2.",
+      "hash": "53c24621d8281d45",
+      "translations": {
+        "hi": {
+          "question": "बिंदु A(2, -3) और B(5, 6) को जोड़ने वाले रेखाखंड को x-अक्ष किस अनुपात में विभाजित करता है?",
+          "options": {
+            "A": "1:2",
+            "B": "1:3",
+            "C": "2:1",
+            "D": "3:1"
+          },
+          "explanation": "अनुपात = -y1 : y2 = -(-3) : 6 = 3 : 6 = 1 : 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-012",
+      "number": 12,
+      "question": "Find HCF of 72, 108 and 2100.",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "All divisible by 12. 12 is the highest common factor.",
+      "hash": "8852629917cf0e3f",
+      "translations": {
+        "hi": {
+          "question": "72, 108 और 2100 का HCF ज्ञात कीजिये।",
+          "options": {
+            "A": "12",
+            "B": "6",
+            "C": "18",
+            "D": "24"
+          },
+          "explanation": "72 = 12×6. 108 = 12×9. 2100 = 12×175. HCF = 12."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-013",
+      "number": 13,
+      "question": "If 8-digit number 789x531y is divisible by 72, find (5x - 3y).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "C",
+      "explanation": "For 8, 31y -> y=2. For 9, Sum=35+x -> x=1. 5(1)-3(2)=-1.",
+      "hash": "6cfe95ec46577089",
+      "translations": {
+        "hi": {
+          "question": "यदि 8 अंकों की संख्या 789x531y, 72 से विभाज्य है, तो (5x - 3y) का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "72=8×9. 8 के लिए 31y: 312 विभाज्य है। y=2. 9 के लिए: 7+8+9+x+5+3+1+2 = 35+x. 35+x को 9 से कटना चाहिए। x=1. 5x - 3y = 5(1) - 3(2) = 5 - 6 = -1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-014",
+      "number": 14,
+      "question": "In ΔABC, medians AD, BE, CF intersect at G. If Area(ABC)=72, find Area(BDG).",
+      "options": {
+        "A": "12 cm²",
+        "B": "18 cm²",
+        "C": "6 cm²",
+        "D": "24 cm²"
+      },
+      "answer": "A",
+      "explanation": "Centroid divides triangle into 6 equal areas. 72/6 = 12.",
+      "hash": "ca22a658798e7ea4",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज ABC में, माध्यिकाएँ (Medians) AD, BE और CF, G पर प्रतिच्छेद करती हैं। यदि त्रिभुज ABC का क्षेत्रफल 72 सेमी² है, तो त्रिभुज BDG का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "12 सेमी²",
+            "B": "18 सेमी²",
+            "C": "6 सेमी²",
+            "D": "24 सेमी²"
+          },
+          "explanation": "केंद्रक (Centroid) त्रिभुज को 6 समान क्षेत्रफल वाले त्रिभुजों में विभाजित करता है। BDG उनमें से एक है। क्षेत्रफल = 72 / 6 = 12."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-015",
+      "number": 15,
+      "question": "Single discount equivalent to successive discounts of 5%, 10% and 20% is?",
+      "options": {
+        "A": "31.6%",
+        "B": "32%",
+        "C": "30%",
+        "D": "35%"
+      },
+      "answer": "A",
+      "explanation": "Net value = 100 * 0.95 * 0.9 * 0.8 = 68.4. Discount = 31.6%.",
+      "hash": "8c8594efde9af1fe",
+      "translations": {
+        "hi": {
+          "question": "तीन वर्षों के लिए 5%, 10% और 20% की क्रमिक छूट के समतुल्य एकल छूट क्या है?",
+          "options": {
+            "A": "31.6%",
+            "B": "32%",
+            "C": "30%",
+            "D": "35%"
+          },
+          "explanation": "100 -> 95 -> 85.5 -> 68.4. कुल छूट = 100 - 68.4 = 31.6%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-016",
+      "number": 16,
+      "question": "In an exam, 35% students passed and 455 failed. Total students appeared?",
+      "options": {
+        "A": "700",
+        "B": "600",
+        "C": "800",
+        "D": "750"
+      },
+      "answer": "A",
+      "explanation": "65% = 455 => 1% = 7 => 100% = 700.",
+      "hash": "620f71df539d151e",
+      "translations": {
+        "hi": {
+          "question": "एक परीक्षा में, 35% छात्र उत्तीर्ण हुए और 455 अनुत्तीर्ण हुए। परीक्षा में कितने छात्र उपस्थित हुए?",
+          "options": {
+            "A": "700",
+            "B": "600",
+            "C": "800",
+            "D": "750"
+          },
+          "explanation": "65% = 455. 1% = 455/65 = 7. 100% = 700."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-017",
+      "number": 17,
+      "question": "Find CI on ₹10,000 for 2 years at 4% p.a. compounded half-yearly (nearest integer).",
+      "options": {
+        "A": "₹824",
+        "B": "₹800",
+        "C": "₹816",
+        "D": "₹832"
+      },
+      "answer": "A",
+      "explanation": "R=2%, n=4. 1.02^4 ≈ 1.0824. CI ≈ 824.",
+      "hash": "82328650c1f24fb2",
+      "translations": {
+        "hi": {
+          "question": "मूलधन ₹10,000 पर 2 वर्षों के लिए 4% प्रति वर्ष की दर से अर्धवार्षिक रूप से संयोजित चक्रवृद्धि ब्याज ज्ञात कीजिये (निकटतम पूर्णांक)।",
+          "options": {
+            "A": "₹824",
+            "B": "₹800",
+            "C": "₹816",
+            "D": "₹832"
+          },
+          "explanation": "दर = 2% प्रति छमाही। समय = 4 छमाही। प्रभावी दर ≈ 2×4 + (थोड़ा अधिक) ≈ 8.24%. 10,000 का 8.24% = 824.32. उत्तर ₹824."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-019",
+      "number": 19,
+      "question": "What is the value of cos 20° cos 40° cos 80°?",
+      "options": {
+        "A": "1/8",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "answer": "A",
+      "hash": "ff10944367a17d86",
+      "translations": {
+        "hi": {
+          "question": "cos 20° cos 40° cos 80° का मान क्या है?",
+          "options": {
+            "A": "1/8",
+            "B": "1/4",
+            "C": "1/2",
+            "D": "3/4"
+          }
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-020",
+      "number": 20,
+      "question": "Angles of elevation of tower top from points 4m and 9m away are complementary. Height?",
+      "options": {
+        "A": "6 m",
+        "B": "36 m",
+        "C": "13 m",
+        "D": "6.5 m"
+      },
+      "answer": "A",
+      "explanation": "Height = √(product of distances) = √(4*9) = 6.",
+      "hash": "c74dec541cc0d0b8",
+      "translations": {
+        "hi": {
+          "question": "एक मीनार के आधार से 4 मीटर और 9 मीटर की दूरी पर एक सीधी रेखा में स्थित दो बिंदुओं से मीनार के शीर्ष के उन्नयन कोण पूरक (Complementary) हैं। मीनार की ऊँचाई क्या है?",
+          "options": {
+            "A": "6 मीटर",
+            "B": "36 मीटर",
+            "C": "13 मीटर",
+            "D": "6.5 मीटर"
+          },
+          "explanation": "ऊँचाई h = √(ab) = √(4 × 9) = √36 = 6 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-021",
+      "number": 21,
+      "question": "Distance between A and B is 330 km. Train starts from A at 8 AM @ 60 kmph. Another from B at 9 AM @ 75 kmph. Meeting time?",
+      "options": {
+        "A": "11:00 AM",
+        "B": "10:30 AM",
+        "C": "11:30 AM",
+        "D": "12:00 PM"
+      },
+      "answer": "A",
+      "explanation": "Dist covered by 1st till 9am = 60. Rem dist = 270. Rel speed = 135. Time = 2 hrs after 9am.",
+      "hash": "cb7630b8cf3580ad",
+      "translations": {
+        "hi": {
+          "question": "दो स्टेशनों A और B के बीच की दूरी 330 किमी है। एक ट्रेन A से सुबह 8 बजे 60 किमी/घंटा की गति से B की ओर चलती है। दूसरी ट्रेन B से सुबह 9 बजे 75 किमी/घंटा की गति से A की ओर चलती है। वे किस समय मिलेंगी?",
+          "options": {
+            "A": "11:00 AM",
+            "B": "10:30 AM",
+            "C": "11:30 AM",
+            "D": "12:00 PM"
+          },
+          "explanation": "8 से 9 बजे तक पहली ट्रेन 60 किमी चलती है। शेष दूरी = 330 - 60 = 270 किमी। सापेक्ष गति = 60 + 75 = 135 किमी/घंटा। समय = 270/135 = 2 घंटे (9 बजे के बाद)। मिलने का समय = 9 AM + 2 घंटे = 11:00 AM।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-022",
+      "number": 22,
+      "question": "If (a+b+c) = 6 and (ab+bc+ca) = 11, find (a³+b³+c³ - 3abc).",
+      "options": {
+        "A": "18",
+        "B": "36",
+        "C": "24",
+        "D": "42"
+      },
+      "answer": "A",
+      "explanation": "a²+b²+c² = 14. Value = 6(14-11) = 18.",
+      "hash": "5ccb32fe43beff95",
+      "translations": {
+        "hi": {
+          "question": "यदि (a+b+c) = 6 और (ab+bc+ca) = 11 है, तो (a³+b³+c³ - 3abc) का मान क्या है?",
+          "options": {
+            "A": "18",
+            "B": "36",
+            "C": "24",
+            "D": "42"
+          },
+          "explanation": "a²+b²+c² = (a+b+c)² - 2(ab+bc+ca) = 36 - 22 = 14. सूत्र: (a+b+c)(a²+b²+c² - (ab+bc+ca)) = 6(14 - 11) = 6 × 3 = 18."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-023",
+      "number": 23,
+      "question": "What is the sum of the first 20 odd natural numbers?",
+      "options": {
+        "A": "400",
+        "B": "210",
+        "C": "200",
+        "D": "420"
+      },
+      "answer": "A",
+      "explanation": "Sum of first n odd numbers = n². 20² = 400.",
+      "hash": "dc64a304cd66c094",
+      "translations": {
+        "hi": {
+          "question": "पहली 20 विषम प्राकृतिक संख्याओं का योग क्या है?",
+          "options": {
+            "A": "400",
+            "B": "210",
+            "C": "200",
+            "D": "420"
+          },
+          "explanation": "सूत्र: n². 20² = 400."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-024",
+      "number": 24,
+      "question": "A is 3 times as fast as B and takes 40 days less than B. Time taken working together?",
+      "options": {
+        "A": "15 days",
+        "B": "20 days",
+        "C": "10 days",
+        "D": "12 days"
+      },
+      "answer": "A",
+      "explanation": "Time Ratio 1:3. Diff 2 units=40. A=20, B=60. Together=1200/80=15.",
+      "hash": "a30978b5f647b2c0",
+      "translations": {
+        "hi": {
+          "question": "A, B से 3 गुना तेज है और इसलिए वह B से 40 दिन कम समय में काम पूरा कर सकता है। वे एक साथ काम कितने दिनों में करेंगे?",
+          "options": {
+            "A": "15 दिन",
+            "B": "20 दिन",
+            "C": "10 दिन",
+            "D": "12 दिन"
+          },
+          "explanation": "समय अनुपात A:B = 1:3. अंतर 2 इकाई = 40 दिन। 1 इकाई = 20 दिन (A का समय)। B का समय = 60 दिन। एक साथ = (20×60)/(80) = 15 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-025",
+      "number": 25,
+      "question": "Outer radius of hollow pipe is 10cm, inner is 8cm. Length 21cm. Volume of iron?",
+      "options": {
+        "A": "2376 cm³",
+        "B": "2400 cm³",
+        "C": "2200 cm³",
+        "D": "2500 cm³"
+      },
+      "answer": "A",
+      "explanation": "V = πh(R² - r²) = 22/7 * 21 * 36 = 2376.",
+      "hash": "77726c90b060f2ca",
+      "translations": {
+        "hi": {
+          "question": "एक खोखले लोहे के पाइप (Hollow Pipe) की बाहरी त्रिज्या 10 सेमी और आंतरिक त्रिज्या 8 सेमी है। यदि पाइप की लंबाई 21 सेमी है, तो लोहे का आयतन क्या है?",
+          "options": {
+            "A": "2376 सेमी³",
+            "B": "2400 सेमी³",
+            "C": "2200 सेमी³",
+            "D": "2500 सेमी³"
+          },
+          "explanation": "V = πh(R² - r²) = (22/7) × 21 × (100 - 64) = 66 × 36 = 2376."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-026",
+      "number": 26,
+      "question": "If x = 7 - 4√3, find (√x + 1/√x).",
+      "options": {
+        "A": "4",
+        "B": "2√3",
+        "C": "14",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "x = (2-√3)². √x = 2-√3. 1/√x = 2+√3. Sum = 4.",
+      "hash": "c0faf2b15c9ff876",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 7 - 4√3 है, तो (√x + 1/√x) का मान क्या है?",
+          "options": {
+            "A": "4",
+            "B": "2√3",
+            "C": "14",
+            "D": "3"
+          },
+          "explanation": "x = (2 - √3)². √x = 2 - √3. 1/√x = 2 + √3. योग = 2 - √3 + 2 + √3 = 4."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-027",
+      "number": 27,
+      "question": "4 circles are drawn at corners of a square of side 14cm touching each other. Area of enclosed space?",
+      "options": {
+        "A": "42 cm²",
+        "B": "154 cm²",
+        "C": "196 cm²",
+        "D": "21 cm²"
+      },
+      "answer": "A",
+      "explanation": "Area = Square - Circle. 196 - 154 = 42.",
+      "hash": "2c78ec3de708d26d",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग के कोनों पर 4 समान वृत्त इस प्रकार बनाए गए हैं कि प्रत्येक वृत्त दो अन्य को स्पर्श करता है। यदि वर्ग की भुजा 14 सेमी है, तो बीच में घिरे भाग का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "42 सेमी²",
+            "B": "154 सेमी²",
+            "C": "196 सेमी²",
+            "D": "21 सेमी²"
+          },
+          "explanation": "घिरा क्षेत्रफल = वर्ग का क्षेत्रफल - 4(चतुर्थांश) = 14² - πr² (r=7). 196 - (22/7)×49 = 196 - 154 = 42."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-028",
+      "number": 28,
+      "question": "Value of an article depreciates 10% annually. If present value is ₹7290, what was it 3 years ago?",
+      "options": {
+        "A": "₹10000",
+        "B": "₹9000",
+        "C": "₹8000",
+        "D": "₹12000"
+      },
+      "answer": "A",
+      "explanation": "P(0.9)³ = 7290 => P = 10000.",
+      "hash": "c1e3200aa12dc048",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु का मूल्य हर साल 10% कम हो जाता है। यदि वर्तमान मूल्य ₹7290 है, तो 3 साल पहले इसका मूल्य क्या था?",
+          "options": {
+            "A": "₹10000",
+            "B": "₹9000",
+            "C": "₹8000",
+            "D": "₹12000"
+          },
+          "explanation": "P(0.9)³ = 7290. P(0.729) = 7290. P = 10000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-029",
+      "number": 29,
+      "question": "Value of 1² - 2² + 3² - 4² + ... + 9² - 10²?",
+      "options": {
+        "A": "-55",
+        "B": "-45",
+        "C": "-50",
+        "D": "55"
+      },
+      "answer": "A",
+      "explanation": "Sum = -n(n+1)/2 = -55.",
+      "hash": "841552da945b9676",
+      "translations": {
+        "hi": {
+          "question": "1² - 2² + 3² - 4² + ... + 9² - 10² का मान क्या है?",
+          "options": {
+            "A": "-55",
+            "B": "-45",
+            "C": "-50",
+            "D": "55"
+          },
+          "explanation": "जोड़े: (1-4)=-3, (9-16)=-7, (25-36)=-11... AP: -3, -7, -11, -15, -19. योग = -55. (वैकल्पिक सूत्र: -n(n+1)/2 = -10(11)/2 = -55)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-030",
+      "number": 30,
+      "question": "Diameter of a semicircular window is 63cm. Find its perimeter.",
+      "options": {
+        "A": "162 cm",
+        "B": "99 cm",
+        "C": "126 cm",
+        "D": "144 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = πr + d = 99 + 63 = 162 cm.",
+      "hash": "f7771c468b0b2a4f",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धवृत्ताकार खिड़की का व्यास 63 सेमी है। इसका परिमाप ज्ञात कीजिये।",
+          "options": {
+            "A": "162 सेमी",
+            "B": "99 सेमी",
+            "C": "126 सेमी",
+            "D": "144 सेमी"
+          },
+          "explanation": "परिमाप = πr + d = (22/7)×(63/2) + 63 = 11×9 + 63 = 99 + 63 = 162 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-031",
+      "number": 31,
+      "question": "Profit on selling at ₹1754 is equal to loss on selling at ₹1492. CP?",
+      "options": {
+        "A": "₹1623",
+        "B": "₹1600",
+        "C": "₹1500",
+        "D": "₹1650"
+      },
+      "answer": "A",
+      "explanation": "CP = Average of SPs = (1754+1492)/2 = 1623.",
+      "hash": "786a71afe710c2ae",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु ₹1754 में बेचने पर उतना ही लाभ होता है जितना ₹1492 में बेचने पर हानि होती है। वस्तु का क्रय मूल्य क्या है?",
+          "options": {
+            "A": "₹1623",
+            "B": "₹1600",
+            "C": "₹1500",
+            "D": "₹1650"
+          },
+          "explanation": "CP = (SP1 + SP2) / 2 = (1754 + 1492) / 2 = 3246 / 2 = 1623."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-032",
+      "number": 32,
+      "question": "In 10 overs, run rate was 3.2. To reach target 282 in remaining 40 overs, required run rate?",
+      "options": {
+        "A": "6.25",
+        "B": "6.5",
+        "C": "5.75",
+        "D": "7.0"
+      },
+      "answer": "A",
+      "explanation": "Runs scored = 32. Req = 250 in 40 overs. Rate = 6.25.",
+      "hash": "7527bf197265516c",
+      "translations": {
+        "hi": {
+          "question": "एक क्रिकेट मैच में, पहले 10 ओवर में रन रेट 3.2 थी। शेष 40 ओवरों में 282 रन के लक्ष्य तक पहुंचने के लिए रन रेट क्या होनी चाहिए?",
+          "options": {
+            "A": "6.25",
+            "B": "6.5",
+            "C": "5.75",
+            "D": "7.0"
+          },
+          "explanation": "बनाए गए रन = 10 × 3.2 = 32. शेष रन = 282 - 32 = 250. आवश्यक दर = 250/40 = 6.25."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-034",
+      "number": 34,
+      "question": "Simplify: (81)^0.75",
+      "options": {
+        "A": "27",
+        "B": "9",
+        "C": "81",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "81 = 3⁴. (3⁴)^(3/4) = 3³ = 27.",
+      "hash": "47022df14b696b3f",
+      "translations": {
+        "hi": {
+          "question": "सरल करें: (81)⁰·⁷⁵",
+          "options": {
+            "A": "27",
+            "B": "9",
+            "C": "81",
+            "D": "3"
+          },
+          "explanation": "81 = 3⁴. 0.75 = 3/4. (3⁴)^(3/4) = 3³ = 27."
+        }
+      }
+    },
+    {
+      "id": "mathematics-03-035",
+      "number": 35,
+      "question": "Sum of two numbers is 36, HCF is 3, LCM is 105. Sum of reciprocals?",
+      "options": {
+        "A": "4/35",
+        "B": "3/35",
+        "C": "2/35",
+        "D": "1/35"
+      },
+      "answer": "A",
+      "explanation": "Sum/Product = 36/(3*105) = 12/105 = 4/35.",
+      "hash": "5bc54802dc483e13",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का योग 36 है और उनका HCF और LCM क्रमशः 3 और 105 है। उनके व्युत्क्रमों (Reciprocals) का योग क्या है?",
+          "options": {
+            "A": "4/35",
+            "B": "3/35",
+            "C": "2/35",
+            "D": "1/35"
+          },
+          "explanation": "1/a + 1/b = (a+b)/ab. ab = HCF × LCM = 3 × 105 = 315. योग = 36/315 = 4/35."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "subject": "Mathematics",
+  "set": 1,
+  "title": "Mathematics Mock Test 1",
+  "questions": [
+    {
+      "id": "mathematics-01-001",
+      "number": 1,
+      "question": "If x + 1/x = 4, then what is the value of x³ + 1/x³?",
+      "options": {
+        "A": "52",
+        "B": "64",
+        "C": "76",
+        "D": "48"
+      },
+      "answer": "A",
+      "explanation": "Formula: a³ - 3a. Here a = 4. Value = 4³ - 3(4) = 64 - 12 = 52.",
+      "hash": "ab96de3cbecf8123",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 4 है, तो x³ + 1/x³ का मान क्या है?",
+          "options": {
+            "A": "52",
+            "B": "64",
+            "C": "76",
+            "D": "48"
+          },
+          "explanation": "सूत्र: a³ - 3a. यहाँ a = 4. मान = 4³ - 3(4) = 64 - 12 = 52."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-002",
+      "number": 2,
+      "question": "Selling an article for ₹2400 yields a profit of 20%. If it is sold for ₹2600, what will be the profit percentage?",
+      "options": {
+        "A": "30%",
+        "B": "25%",
+        "C": "28%",
+        "D": "35%"
+      },
+      "answer": "A",
+      "explanation": "CP = 2400 / 1.2 = 2000. New Profit = 2600 - 2000 = 600. Profit % = (600/2000)*100 = 30%.",
+      "hash": "f6e3087922d843ce",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु को ₹2400 में बेचने पर 20% का लाभ होता है। यदि इसे ₹2600 में बेचा जाए, तो लाभ प्रतिशत क्या होगा?",
+          "options": {
+            "A": "30%",
+            "B": "25%",
+            "C": "28%",
+            "D": "35%"
+          },
+          "explanation": "CP = 2400 / 1.2 = 2000. नया लाभ = 2600 - 2000 = 600. लाभ % = (600/2000)*100 = 30%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-003",
+      "number": 3,
+      "question": "The area of an equilateral triangle is 36√3 cm². What is its perimeter?",
+      "options": {
+        "A": "36 cm",
+        "B": "48 cm",
+        "C": "24 cm",
+        "D": "12 cm"
+      },
+      "answer": "A",
+      "explanation": "(√3/4)a² = 36√3 => a² = 144 => a = 12. Perimeter = 3a = 36 cm.",
+      "hash": "4745e02bcadadca2",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज का क्षेत्रफल 36√3 सेमी² है। इसका परिमाप क्या है?",
+          "options": {
+            "A": "36 सेमी",
+            "B": "48 सेमी",
+            "C": "24 सेमी",
+            "D": "12 सेमी"
+          },
+          "explanation": "(√3/4)a² = 36√3 => a² = 144 => a = 12. परिमाप = 3a = 36 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-004",
+      "number": 4,
+      "question": "Two numbers are in the ratio 5:7 and their HCF is 4. Find their LCM.",
+      "options": {
+        "A": "140",
+        "B": "120",
+        "C": "160",
+        "D": "280"
+      },
+      "answer": "A",
+      "explanation": "Numbers are 20 and 28. LCM = 140. (Or LCM = HCF × product of ratios = 4 × 5 × 7 = 140).",
+      "hash": "7a15cab0381508bb",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 5:7 है और उनका महत्तम समापवर्तक (HCF) 4 है। उनका लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिये।",
+          "options": {
+            "A": "140",
+            "B": "120",
+            "C": "160",
+            "D": "280"
+          },
+          "explanation": "संख्याएं 5×4=20 और 7×4=28 होंगी। LCM(20, 28) = 140. (वैकल्पिक: LCM = HCF × उत्पाद अनुपात = 4 × 5 × 7 = 140)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-005",
+      "number": 5,
+      "question": "What is the value of sin 60° cos 30° + sin 30° cos 60°?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "√3/2"
+      },
+      "answer": "A",
+      "explanation": "sin(A+B) formula. sin(60+30) = sin 90° = 1.",
+      "hash": "a576ed7fb99e3317",
+      "translations": {
+        "hi": {
+          "question": "sin 60° cos 30° + sin 30° cos 60° का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "1/2",
+            "D": "√3/2"
+          },
+          "explanation": "sin(A+B) = sinA cosB + cosA sinB. यहाँ A=60, B=30. sin(60+30) = sin 90° = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-006",
+      "number": 6,
+      "question": "15 men can do a work in 20 days. In how many days will 10 men complete the same work?",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "25",
+        "D": "35"
+      },
+      "answer": "A",
+      "explanation": "M1D1 = M2D2 => 15 × 20 = 10 × D2 => 300 = 10 × D2 => D2 = 30.",
+      "hash": "b689133bc35856be",
+      "translations": {
+        "hi": {
+          "question": "15 आदमी एक काम को 20 दिनों में कर सकते हैं। 10 आदमी उसी काम को कितने दिनों में पूरा करेंगे?",
+          "options": {
+            "A": "30",
+            "B": "40",
+            "C": "25",
+            "D": "35"
+          },
+          "explanation": "M1D1 = M2D2 => 15 × 20 = 10 × D2 => 300 = 10 × D2 => D2 = 30."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-007",
+      "number": 7,
+      "question": "If 40% of a number is 800, what is 25% of that number?",
+      "options": {
+        "A": "500",
+        "B": "400",
+        "C": "600",
+        "D": "200"
+      },
+      "answer": "A",
+      "explanation": "40% = 800 => 1% = 20. 25% = 20 × 25 = 500.",
+      "hash": "ccff0d0359e42c29",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 40%, 800 है, तो उस संख्या का 25% क्या होगा?",
+          "options": {
+            "A": "500",
+            "B": "400",
+            "C": "600",
+            "D": "200"
+          },
+          "explanation": "40% = 800 => 1% = 20. 25% = 20 × 25 = 500."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-008",
+      "number": 8,
+      "question": "A sum becomes ₹4500 in 2 years and ₹6750 in 4 years at CI. What is the sum?",
+      "options": {
+        "A": "₹3000",
+        "B": "₹3500",
+        "C": "₹4000",
+        "D": "₹2500"
+      },
+      "answer": "A",
+      "explanation": "Ratio = 6750/4500 = 1.5. Principal = 4500 / 1.5 = 3000.",
+      "hash": "b9b5ae03ef87227a",
+      "translations": {
+        "hi": {
+          "question": "चक्रवृद्धि ब्याज पर कोई राशि 2 वर्षों में ₹4500 और 4 वर्षों में ₹6750 हो जाती है। वह राशि क्या है?",
+          "options": {
+            "A": "₹3000",
+            "B": "₹3500",
+            "C": "₹4000",
+            "D": "₹2500"
+          },
+          "explanation": "अनुपात = 6750/4500 = 1.5. मूलधन = 4500 / 1.5 = 3000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-009",
+      "number": 9,
+      "question": "A train crosses a pole in 10 sec and a 200m platform in 20 sec. Find the length of the train.",
+      "options": {
+        "A": "200 m",
+        "B": "150 m",
+        "C": "100 m",
+        "D": "250 m"
+      },
+      "answer": "A",
+      "explanation": "It covers 200m in extra 10 sec. Speed = 20 m/s. Length = 20 × 10 = 200 m.",
+      "hash": "cae12ae7b1ca4715",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 10 सेकंड में एक पोल को पार करती है और 200 मीटर लंबे प्लेटफॉर्म को 20 सेकंड में पार करती है। ट्रेन की लंबाई ज्ञात कीजिये।",
+          "options": {
+            "A": "200 मीटर",
+            "B": "150 मीटर",
+            "C": "100 मीटर",
+            "D": "250 मीटर"
+          },
+          "explanation": "अतिरिक्त 10 सेकंड में 200 मीटर तय करती है। गति = 20 मी/से। ट्रेन की लंबाई = 20 × 10 = 200 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-010",
+      "number": 10,
+      "question": "Average of 20 numbers is 30. If 5 is increased in each number, what is the new average?",
+      "options": {
+        "A": "35",
+        "B": "30",
+        "C": "25",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "If x is added to each observation, average increases by x. 30 + 5 = 35.",
+      "hash": "5c660baaf65ea5c5",
+      "translations": {
+        "hi": {
+          "question": "20 संख्याओं का औसत 30 है। यदि प्रत्येक संख्या में 5 की वृद्धि की जाती है, तो नया औसत क्या होगा?",
+          "options": {
+            "A": "35",
+            "B": "30",
+            "C": "25",
+            "D": "40"
+          },
+          "explanation": "यदि प्रत्येक संख्या में x जोड़ा जाता है, तो औसत x बढ़ जाता है। 30 + 5 = 35."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-011",
+      "number": 11,
+      "question": "If a : b = 3 : 4 and b : c = 8 : 9, then what is a : c?",
+      "options": {
+        "A": "2 : 3",
+        "B": "3 : 2",
+        "C": "1 : 2",
+        "D": "1 : 3"
+      },
+      "answer": "A",
+      "explanation": "a/c = (a/b) × (b/c) = (3/4) × (8/9) = 24/36 = 2/3.",
+      "hash": "6216d032e7b59c91",
+      "translations": {
+        "hi": {
+          "question": "यदि a : b = 3 : 4 और b : c = 8 : 9 है, तो a : c क्या है?",
+          "options": {
+            "A": "2 : 3",
+            "B": "3 : 2",
+            "C": "1 : 2",
+            "D": "1 : 3"
+          },
+          "explanation": "a/c = (a/b) × (b/c) = (3/4) × (8/9) = 24/36 = 2/3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-013",
+      "number": 13,
+      "question": "The volume of a cylinder is 2156 cm³ and height is 14 cm. Find its radius.",
+      "options": {
+        "A": "7 cm",
+        "B": "14 cm",
+        "C": "21 cm",
+        "D": "10.5 cm"
+      },
+      "answer": "A",
+      "explanation": "πr²h = 2156. (22/7) × r² × 14 = 2156. 44r² = 2156 => r² = 49 => r = 7.",
+      "hash": "6a707fcfe3a10162",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन (Cylinder) का आयतन 2156 सेमी³ है और इसकी ऊँचाई 14 सेमी है। इसकी त्रिज्या ज्ञात कीजिये।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "14 सेमी",
+            "C": "21 सेमी",
+            "D": "10.5 सेमी"
+          },
+          "explanation": "πr²h = 2156. (22/7) × r² × 14 = 2156. 44r² = 2156 => r² = 49 => r = 7."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-014",
+      "number": 14,
+      "question": "A shopkeeper buys lemons at 2 for ₹1 and sells at 5 for ₹3. What is his profit %?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "15%",
+        "D": "10%"
+      },
+      "answer": "A",
+      "explanation": "CP of 1 = 0.5. SP of 1 = 0.6. Profit = 0.1. % = (0.1/0.5)*100 = 20%.",
+      "hash": "30d5be40089c3a2a",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार ₹1 में 2 की दर से नींबू खरीदता है और ₹3 में 5 की दर से बेचता है। उसका लाभ प्रतिशत क्या है?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "15%",
+            "D": "10%"
+          },
+          "explanation": "CP of 1 = 0.5. SP of 1 = 0.6. लाभ = 0.1. % = (0.1/0.5)*100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-015",
+      "number": 15,
+      "question": "A and B together do a work in 12 days. A alone does it in 20 days. In how many days will B alone do it?",
+      "options": {
+        "A": "30",
+        "B": "25",
+        "C": "24",
+        "D": "18"
+      },
+      "answer": "A",
+      "explanation": "(20 × 12) / (20 - 12) = 240 / 8 = 30 days.",
+      "hash": "8502c2fda1f7bfe3",
+      "translations": {
+        "hi": {
+          "question": "A और B मिलकर एक काम को 12 दिनों में करते हैं। A अकेले इसे 20 दिनों में करता है। B अकेले इसे कितने दिनों में करेगा?",
+          "options": {
+            "A": "30",
+            "B": "25",
+            "C": "24",
+            "D": "18"
+          },
+          "explanation": "(20 × 12) / (20 - 12) = 240 / 8 = 30 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-016",
+      "number": 16,
+      "question": "Ratio of radii of two spheres is 1:2. Ratio of their surface areas is?",
+      "options": {
+        "A": "1:4",
+        "B": "1:2",
+        "C": "1:8",
+        "D": "1:16"
+      },
+      "answer": "A",
+      "explanation": "Area ratio is square of radius ratio. 1² : 2² = 1:4.",
+      "hash": "55c31731b45d3f88",
+      "translations": {
+        "hi": {
+          "question": "दो गोलों की त्रिज्याओं का अनुपात 1:2 है। उनके पृष्ठीय क्षेत्रफलों का अनुपात क्या होगा?",
+          "options": {
+            "A": "1:4",
+            "B": "1:2",
+            "C": "1:8",
+            "D": "1:16"
+          },
+          "explanation": "क्षेत्रफल का अनुपात त्रिज्या के वर्ग के अनुपात में होता है। 1² : 2² = 1:4."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-017",
+      "number": 17,
+      "question": "Simplify: (0.2 × 0.2 + 0.8 × 0.8 + 2 × 0.2 × 0.8)",
+      "options": {
+        "A": "1",
+        "B": "0.16",
+        "C": "0.64",
+        "D": "0.36"
+      },
+      "answer": "A",
+      "explanation": "(a + b)² = (0.2 + 0.8)² = 1² = 1.",
+      "hash": "59f9139b43eea2d6",
+      "translations": {
+        "hi": {
+          "question": "सरल कीजिये: (0.2 × 0.2 + 0.8 × 0.8 + 2 × 0.2 × 0.8)",
+          "options": {
+            "A": "1",
+            "B": "0.16",
+            "C": "0.64",
+            "D": "0.36"
+          },
+          "explanation": "(a + b)² = (0.2 + 0.8)² = 1² = 1."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-018",
+      "number": 18,
+      "question": "If P = 999, find ∛[P(P² + 3P + 3) + 1].",
+      "options": {
+        "A": "1000",
+        "B": "999",
+        "C": "998",
+        "D": "1001"
+      },
+      "answer": "A",
+      "explanation": "Form is (P+1)³. ∛(P+1)³ = P+1 = 999+1 = 1000.",
+      "hash": "60f2dc64607eeca3",
+      "translations": {
+        "hi": {
+          "question": "यदि P = 999 है, तो ∛[P(P² + 3P + 3) + 1] का मान क्या है?",
+          "options": {
+            "A": "1000",
+            "B": "999",
+            "C": "998",
+            "D": "1001"
+          },
+          "explanation": "यह (P+1)³ का रूप है। ∛(P+1)³ = P+1 = 999+1 = 1000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-019",
+      "number": 19,
+      "question": "A boat goes 15 km/hr downstream and 9 km/hr upstream. Speed of boat in still water?",
+      "options": {
+        "A": "12 km/hr",
+        "B": "10 km/hr",
+        "C": "3 km/hr",
+        "D": "6 km/hr"
+      },
+      "answer": "A",
+      "explanation": "Speed = (Down + Up) / 2 = (15 + 9) / 2 = 12 km/hr.",
+      "hash": "ca3f5d80b09fb02a",
+      "translations": {
+        "hi": {
+          "question": "एक नाव धारा के अनुकूल 15 किमी/घंटा और धारा के प्रतिकूल 9 किमी/घंटा की गति से चलती है। शांत जल में नाव की गति क्या है?",
+          "options": {
+            "A": "12 किमी/घंटा",
+            "B": "10 किमी/घंटा",
+            "C": "3 किमी/घंटा",
+            "D": "6 किमी/घंटा"
+          },
+          "explanation": "गति = (अनुकूल + प्रतिकूल) / 2 = (15 + 9) / 2 = 12 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-020",
+      "number": 20,
+      "question": "What is the value of tan 45° + cot 45°?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "√2"
+      },
+      "answer": "A",
+      "explanation": "1 + 1 = 2.",
+      "hash": "10dea64a2faa492c",
+      "translations": {
+        "hi": {
+          "question": "tan 45° + cot 45° का मान क्या है?",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "0",
+            "D": "√2"
+          },
+          "explanation": "1 + 1 = 2."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-021",
+      "number": 21,
+      "question": "Train at 45 km/hr crosses 140m platform in 20 sec. Length of train?",
+      "options": {
+        "A": "110 m",
+        "B": "120 m",
+        "C": "100 m",
+        "D": "130 m"
+      },
+      "answer": "A",
+      "explanation": "Speed = 12.5 m/s. Dist = 250. Train = 250 - 140 = 110.",
+      "hash": "16c00fab036d1423",
+      "translations": {
+        "hi": {
+          "question": "45 किमी/घंटा की गति से चल रही एक ट्रेन 140 मीटर लंबे प्लेटफॉर्म को 20 सेकंड में पार करती है। ट्रेन की लंबाई क्या है?",
+          "options": {
+            "A": "110 मीटर",
+            "B": "120 मीटर",
+            "C": "100 मीटर",
+            "D": "130 मीटर"
+          },
+          "explanation": "गति = 45 × 5/18 = 12.5 मी/से। दूरी = 12.5 × 20 = 250। ट्रेन = 250 - 140 = 110।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-022",
+      "number": 22,
+      "question": "Perimeter of a Rhombus is 40 cm and one diagonal is 12 cm. Find the other diagonal.",
+      "options": {
+        "A": "16 cm",
+        "B": "10 cm",
+        "C": "14 cm",
+        "D": "18 cm"
+      },
+      "answer": "A",
+      "explanation": "Side = 10. Half diag = 6. Other half = √(10² - 6²) = 8. Full diag = 16.",
+      "hash": "5b9b4c538dab80d8",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज (Rhombus) का परिमाप 40 सेमी है और एक विकर्ण 12 सेमी है। दूसरा विकर्ण ज्ञात कीजिये।",
+          "options": {
+            "A": "16 सेमी",
+            "B": "10 सेमी",
+            "C": "14 सेमी",
+            "D": "18 सेमी"
+          },
+          "explanation": "भुजा = 10। आधा विकर्ण = 6। दूसरा आधा = √(10² - 6²) = 8। पूरा विकर्ण = 16।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-024",
+      "number": 24,
+      "question": "Sum of interior angles of a polygon is 1800°. Number of sides?",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "14",
+        "D": "16"
+      },
+      "answer": "A",
+      "explanation": "(n-2)×180 = 1800. n-2 = 10. n = 12.",
+      "hash": "e1e3f1ac28f7d2d6",
+      "translations": {
+        "hi": {
+          "question": "एक बहुभुज के आंतरिक कोणों का योग 1800° है। भुजाओं की संख्या क्या है?",
+          "options": {
+            "A": "12",
+            "B": "10",
+            "C": "14",
+            "D": "16"
+          },
+          "explanation": "(n-2)×180 = 1800. n-2 = 10. n = 12."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-025",
+      "number": 25,
+      "question": "SI on ₹500 for 5 years is ₹50 more than SI on ₹500 for 4 years. Rate %?",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "8%",
+        "D": "2%"
+      },
+      "answer": "A",
+      "explanation": "Diff is 1 year interest = ₹50. Rate = (50/500)*100 = 10%.",
+      "hash": "95ae6f57826c9cf5",
+      "translations": {
+        "hi": {
+          "question": "5 वर्षों के लिए ₹500 पर साधारण ब्याज ₹500 पर 4 वर्षों के साधारण ब्याज से ₹50 अधिक है। दर प्रतिशत क्या है?",
+          "options": {
+            "A": "10%",
+            "B": "5%",
+            "C": "8%",
+            "D": "2%"
+          },
+          "explanation": "अंतर 1 वर्ष का ब्याज है। 1 वर्ष का ब्याज = ₹50। दर = (50/500)*100 = 10%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-026",
+      "number": 26,
+      "question": "How many prime numbers are there from 3 to 50?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "13",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "Count primes starting from 3 up to 50. Total 14.",
+      "hash": "34f72e55fa202b3d",
+      "translations": {
+        "hi": {
+          "question": "3 से 50 तक की कितनी अभाज्य संख्याएँ (Prime numbers) हैं?",
+          "options": {
+            "A": "14",
+            "B": "15",
+            "C": "13",
+            "D": "12"
+          },
+          "explanation": "3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47. कुल 14। (2 को छोड़कर, क्योंकि 3 से शुरू है)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-027",
+      "number": 27,
+      "question": "Probability of drawing a Red King from a deck?",
+      "options": {
+        "A": "1/26",
+        "B": "1/13",
+        "C": "1/52",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "2 Red Kings. Prob = 2/52 = 1/26.",
+      "hash": "e967053607b062db",
+      "translations": {
+        "hi": {
+          "question": "ताश की गड्डी से एक पत्ता खींचने पर उसके लाल रंग का बादशाह होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/26",
+            "B": "1/13",
+            "C": "1/52",
+            "D": "1/2"
+          },
+          "explanation": "लाल बादशाह 2 होते हैं (पान और ईंट)। प्रायिकता = 2/52 = 1/26."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-028",
+      "number": 28,
+      "question": "If 2x + 3y = 12 and xy = 6, find 4x² + 9y².",
+      "options": {
+        "A": "72",
+        "B": "144",
+        "C": "36",
+        "D": "108"
+      },
+      "answer": "A",
+      "explanation": "(2x+3y)² = 4x² + 9y² + 12xy. 144 = 4x² + 9y² + 72.",
+      "hash": "e59e99acc517f280",
+      "translations": {
+        "hi": {
+          "question": "यदि 2x + 3y = 12 और xy = 6 है, तो 4x² + 9y² का मान क्या है?",
+          "options": {
+            "A": "72",
+            "B": "144",
+            "C": "36",
+            "D": "108"
+          },
+          "explanation": "(2x+3y)² = 4x² + 9y² + 12xy. 144 = 4x² + 9y² + 72. 4x² + 9y² = 72."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-029",
+      "number": 29,
+      "question": "A's income is 50% more than B. B's is less than A by?",
+      "options": {
+        "A": "33.33%",
+        "B": "50%",
+        "C": "25%",
+        "D": "20%"
+      },
+      "answer": "A",
+      "explanation": "50 / 150 * 100 = 33.33%.",
+      "hash": "ad086a41ead64cee",
+      "translations": {
+        "hi": {
+          "question": "A की आय B की आय से 50% अधिक है। B की आय A से कितने प्रतिशत कम है?",
+          "options": {
+            "A": "33.33%",
+            "B": "50%",
+            "C": "25%",
+            "D": "20%"
+          },
+          "explanation": "50 / (100+50) * 100 = 50/150 * 100 = 1/3 * 100 = 33.33%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-030",
+      "number": 30,
+      "question": "Volume of a sphere is 36π. Find its diameter.",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "12",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "(4/3)πr³ = 36π. r³ = 27 => r = 3. Diameter = 6.",
+      "hash": "3dffa07376acae4f",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का आयतन 36π है। इसका व्यास ज्ञात कीजिये।",
+          "options": {
+            "A": "6",
+            "B": "3",
+            "C": "12",
+            "D": "9"
+          },
+          "explanation": "(4/3)πr³ = 36π. r³ = 27 => r = 3. व्यास = 6."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-031",
+      "number": 31,
+      "question": "What is the LCM of 28, 42, 56?",
+      "options": {
+        "A": "168",
+        "B": "112",
+        "C": "84",
+        "D": "224"
+      },
+      "answer": "A",
+      "explanation": "28=4x7, 42=6x7, 56=8x7. LCM = 168.",
+      "hash": "16ea4697aacd03d5",
+      "translations": {
+        "hi": {
+          "question": "28, 42 और 56 का LCM क्या है?",
+          "options": {
+            "A": "168",
+            "B": "112",
+            "C": "84",
+            "D": "224"
+          },
+          "explanation": "28=4x7, 42=6x7, 56=8x7. LCM = 8x3x7 = 168."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-032",
+      "number": 32,
+      "question": "Sides of a triangle are 3, 4, 5. Find circumradius.",
+      "options": {
+        "A": "2.5",
+        "B": "2",
+        "C": "3",
+        "D": "3.5"
+      },
+      "answer": "A",
+      "explanation": "Right triangle. R = Hypotenuse/2 = 2.5.",
+      "hash": "ba5313a69329dd82",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज की भुजाएँ 3, 4, 5 हैं। इसके परिवृत्त की त्रिज्या (Circumradius) क्या है?",
+          "options": {
+            "A": "2.5",
+            "B": "2",
+            "C": "3",
+            "D": "3.5"
+          },
+          "explanation": "यह समकोण त्रिभुज है। R = कर्ण/2 = 5/2 = 2.5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-033",
+      "number": 33,
+      "question": "Length of rectangle increased by 20%, breadth decreased by 10%. Change in Area?",
+      "options": {
+        "A": "8% inc",
+        "B": "10% inc",
+        "C": "8% dec",
+        "D": "2% inc"
+      },
+      "answer": "A",
+      "explanation": "20 - 10 - (200/100) = 8% increase.",
+      "hash": "0ec81f81b93162dd",
+      "translations": {
+        "hi": {
+          "question": "एक आयत की लंबाई 20% बढ़ाई जाती है और चौड़ाई 10% घटाई जाती है। क्षेत्रफल में परिवर्तन क्या है?",
+          "options": {
+            "A": "8% वृद्धि",
+            "B": "10% वृद्धि",
+            "C": "8% कमी",
+            "D": "2% वृद्धि"
+          },
+          "explanation": "20 - 10 - (20*10)/100 = 10 - 2 = 8% वृद्धि।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-034",
+      "number": 34,
+      "question": "How many numbers upto 100 are divisible by 7?",
+      "options": {
+        "A": "14",
+        "B": "13",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": "A",
+      "explanation": "100/7 = 14.28. Integer part 14.",
+      "hash": "f7a763310d11b11f",
+      "translations": {
+        "hi": {
+          "question": "100 तक कितनी संख्याएँ 7 से विभाज्य हैं?",
+          "options": {
+            "A": "14",
+            "B": "13",
+            "C": "12",
+            "D": "15"
+          },
+          "explanation": "100/7 = 14.28. पूर्णांक भाग 14 है।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-01-035",
+      "number": 35,
+      "question": "What is the variance of 1, 2, 3, 4, 5?",
+      "options": {
+        "A": "2",
+        "B": "2.5",
+        "C": "1.41",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Mean = 3. Sum sq diff = 10. Variance = 10/5 = 2.",
+      "hash": "6171353a4a812524",
+      "translations": {
+        "hi": {
+          "question": "1, 2, 3, 4, 5 का प्रसरण (Variance) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "2.5",
+            "C": "1.41",
+            "D": "4"
+          },
+          "explanation": "माध्य = 3. (1-3)², (2-3)²... 4+1+0+1+4 = 10. प्रसरण = 10/5 = 2."
+        }
+      }
+    }
+  ]
+}

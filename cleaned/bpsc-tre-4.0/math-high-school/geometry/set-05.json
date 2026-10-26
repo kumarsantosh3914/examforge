@@ -1,0 +1,567 @@
+{
+  "subject": "Geometry",
+  "set": 5,
+  "title": "Geometry Mock Test 5",
+  "questions": [
+    {
+      "id": "geometry-05-001",
+      "number": 1,
+      "question": "The value of k for which the system of equations 4x + 6y = 11 and 2x + ky = 7 has no solution is:",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For no solution, a1/a2 = b1/b2 != c1/c2. 4/2 = 6/k => 2 = 6/k => k = 3. Also 6/3 != 11/7, which is true.",
+      "hash": "a39c3433a2e6a8ff",
+      "translations": {
+        "hi": {
+          "question": "k का वह मान जिसके लिए समीकरण निकाय 4x + 6y = 11 और 2x + ky = 7 का कोई समाधान नहीं है:",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कोई समाधान नहीं होने के लिए, a1/a2 = b1/b2 != c1/c2. 4/2 = 6/k => 2 = 6/k => k = 3. साथ ही 6/3 != 11/7, जो सत्य है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-002",
+      "number": 2,
+      "question": "If alpha, beta, and gamma are the zeros of the polynomial x^3 - px^2 + qx - r, then the value of alpha^2 + beta^2 + gamma^2 is:",
+      "options": {
+        "A": "p^2 - 2q",
+        "B": "p^2 + 2q",
+        "C": "q^2 - 2pr",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "alpha+beta+gamma = p, (alpha*beta + beta*gamma + gamma*alpha) = q. (a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca). So p^2 = Sum(alpha^2) + 2q => Sum(alpha^2) = p^2 - 2q.",
+      "hash": "f43bb6785c476d70",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा, बीटा और गामा बहुपद x^3 - px^2 + qx - r के शून्यक हैं, तो अल्फा^2 + बीटा^2 + गामा^2 का मान है:",
+          "options": {
+            "A": "p^2 - 2q",
+            "B": "p^2 + 2q",
+            "C": "q^2 - 2pr",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अल्फा+बीटा+गामा = p, (अल्फा*बीटा + बीटा*गामा + गामा*अल्फा) = q। (a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca)। इसलिए p^2 = योग(अल्फा^2) + 2q => योग(अल्फा^2) = p^2 - 2q।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-003",
+      "number": 3,
+      "question": "Which term of the AP: 121, 117, 113, ... is its first negative term?",
+      "options": {
+        "A": "30th",
+        "B": "31st",
+        "C": "32nd",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "an < 0 => 121 + (n-1)(-4) < 0 => 121 - 4n + 4 < 0 => 125 < 4n => n > 31.25. So n = 32.",
+      "hash": "1b48c28590d0e0af",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 121, 117, 113, ... का कौन सा पद इसका पहला ऋणात्मक पद है?",
+          "options": {
+            "A": "30वाँ",
+            "B": "31वाँ",
+            "C": "32वाँ",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "an < 0 => 121 + (n-1)(-4) < 0 => 121 - 4n + 4 < 0 => 125 < 4n => n > 31.25। इसलिए n = 32।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-004",
+      "number": 4,
+      "question": "If the sum of the roots of 3x^2 + (2k + 1)x - (k + 5) = 0 is equal to the product of the roots, then k is:",
+      "options": {
+        "A": "4",
+        "B": "-4",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sum = -(2k+1)/3, Product = -(k+5)/3. -(2k+1)/3 = -(k+5)/3 => 2k+1 = k+5 => k = 4.",
+      "hash": "016472d7f4a3e7b6",
+      "translations": {
+        "hi": {
+          "question": "यदि 3x^2 + (2k + 1)x - (k + 5) = 0 के मूलों का योग मूलों के गुणनफल के बराबर है, तो k है:",
+          "options": {
+            "A": "4",
+            "B": "-4",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग = -(2k+1)/3, गुणनफल = -(k+5)/3. -(2k+1)/3 = -(k+5)/3 => 2k+1 = k+5 => k = 4।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-005",
+      "number": 5,
+      "question": "If (x - 1) is a factor of kx^2 - sqrt(2)x + 1, then the value of k is:",
+      "options": {
+        "A": "sqrt(2) + 1",
+        "B": "sqrt(2) - 1",
+        "C": "1 - sqrt(2)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "By factor theorem, f(1) = 0. k(1)^2 - sqrt(2)(1) + 1 = 0 => k - sqrt(2) + 1 = 0 => k = sqrt(2) - 1.",
+      "hash": "ddcccc5d6fd17220",
+      "translations": {
+        "hi": {
+          "question": "यदि (x - 1), kx^2 - sqrt(2)x + 1 का एक गुणनखंड है, तो k का मान है:",
+          "options": {
+            "A": "sqrt(2) + 1",
+            "B": "sqrt(2) - 1",
+            "C": "1 - sqrt(2)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "गुणनखंड प्रमेय द्वारा, f(1) = 0. k(1)^2 - sqrt(2)(1) + 1 = 0 => k - sqrt(2) + 1 = 0 => k = sqrt(2) - 1।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-006",
+      "number": 6,
+      "question": "If the ratio of the sums of m and n terms of an AP is m^2 : n^2, then the ratio of mth and nth terms is:",
+      "options": {
+        "A": "(2m-1) : (2n-1)",
+        "B": "m : n",
+        "C": "(m-1) : (n-1)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sm/Sn = m^2/n^2. To find ratio of mth and nth terms, replace m with 2m-1 and n with 2n-1 in the sum ratio. So, ratio is (2m-1) : (2n-1).",
+      "hash": "27759883e9c35c4d",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP के m और n पदों के योग का अनुपात m^2 : n^2 है, तो mवें और nवें पदों का अनुपात है:",
+          "options": {
+            "A": "(2m-1) : (2n-1)",
+            "B": "m : n",
+            "C": "(m-1) : (n-1)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "Sm/Sn = m^2/n^2। mवें और nवें पदों का अनुपात ज्ञात करने के लिए, योग अनुपात में m को 2m-1 और n को 2n-1 से बदलें। इसलिए, अनुपात (2m-1) : (2n-1) है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-007",
+      "number": 7,
+      "question": "If x^2 + 1/x^2 = 7, then the value of x^3 + 1/x^3 is:",
+      "options": {
+        "A": "18",
+        "B": "27",
+        "C": "14",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "(x + 1/x)^2 = x^2 + 1/x^2 + 2 = 9 => x + 1/x = 3. x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 27 - 9 = 18.",
+      "hash": "64ef80bc004a946f",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 + 1/x^2 = 7 है, तो x^3 + 1/x^3 का मान है:",
+          "options": {
+            "A": "18",
+            "B": "27",
+            "C": "14",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(x + 1/x)^2 = x^2 + 1/x^2 + 2 = 9 => x + 1/x = 3। x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 27 - 9 = 18।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-008",
+      "number": 8,
+      "question": "The pair of equations x + 2y + 5 = 0 and -3x - 6y + 1 = 0 has:",
+      "options": {
+        "A": "A unique solution",
+        "B": "Exactly two solutions",
+        "C": "Infinitely many solutions",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "E",
+      "explanation": "a1/a2 = 1/-3, b1/b2 = 2/-6 = 1/-3, c1/c2 = 5/1. Since a1/a2 = b1/b2 != c1/c2, there is no solution.",
+      "hash": "24f343d59d281d37",
+      "translations": {
+        "hi": {
+          "question": "समीकरण युग्म x + 2y + 5 = 0 और -3x - 6y + 1 = 0 के पास है:",
+          "options": {
+            "A": "एक अद्वितीय समाधान",
+            "B": "ठीक दो समाधान",
+            "C": "अनंत रूप से कई समाधान",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a1/a2 = 1/-3, b1/b2 = 2/-6 = 1/-3, c1/c2 = 5/1. चूंकि a1/a2 = b1/b2 != c1/c2 है, इसलिए कोई समाधान नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-009",
+      "number": 9,
+      "question": "The roots of the equation sqrt(3)x^2 + 10x + 7*sqrt(3) = 0 are:",
+      "options": {
+        "A": "-sqrt(3), -7/sqrt(3)",
+        "B": "sqrt(3), 7/sqrt(3)",
+        "C": "-sqrt(3), 7/sqrt(3)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "sqrt(3)x^2 + 3x + 7x + 7*sqrt(3) = 0 => sqrt(3)x(x + sqrt(3)) + 7(x + sqrt(3)) = 0. Roots are -sqrt(3), -7/sqrt(3).",
+      "hash": "dc7b9ca6bae88ea8",
+      "translations": {
+        "hi": {
+          "question": "समीकरण sqrt(3)x^2 + 10x + 7*sqrt(3) = 0 के मूल हैं:",
+          "options": {
+            "A": "-sqrt(3), -7/sqrt(3)",
+            "B": "sqrt(3), 7/sqrt(3)",
+            "C": "-sqrt(3), 7/sqrt(3)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sqrt(3)x^2 + 3x + 7x + 7*sqrt(3) = 0 => sqrt(3)x(x + sqrt(3)) + 7(x + sqrt(3)) = 0. मूल -sqrt(3), -7/sqrt(3) हैं।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-010",
+      "number": 10,
+      "question": "The value of n for which the nth terms of two APs 63, 65, 67, ... and 3, 10, 17, ... are equal is:",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "15",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "63 + (n-1)2 = 3 + (n-1)7 => 60 = 5(n-1) => 12 = n-1 => n = 13.",
+      "hash": "ab1353e5c4126833",
+      "translations": {
+        "hi": {
+          "question": "n का वह मान जिसके लिए दो AP 63, 65, 67, ... और 3, 10, 17, ... के n-वें पद बराबर हैं:",
+          "options": {
+            "A": "12",
+            "B": "13",
+            "C": "15",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "63 + (n-1)2 = 3 + (n-1)7 => 60 = 5(n-1) => 12 = n-1 => n = 13।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-011",
+      "number": 11,
+      "question": "If a polynomial of degree 4 is divided by a quadratic polynomial, the degree of the remainder is:",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "Less than 2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The degree of the remainder is always less than the degree of the divisor. Since divisor is degree 2, remainder is degree 1 or 0 (less than 2).",
+      "hash": "c8efcbe8ef45dcdf",
+      "translations": {
+        "hi": {
+          "question": "यदि घात 4 के एक बहुपद को एक द्विघात बहुपद से विभाजित किया जाता है, तो शेषफल की घात होती है:",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "2 से कम",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "शेषफल की घात हमेशा भाजक की घात से कम होती है। चूंकि भाजक घात 2 का है, इसलिए शेषफल घात 1 या 0 (2 से कम) का होगा।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-012",
+      "number": 12,
+      "question": "If x, y, z are in AP, then (x-y)/(y-z) is equal to:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "x/z",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "In an AP, common difference d = y-x = z-y. Thus x-y = -(y-x) = -d and y-z = -(z-y) = -d. Ratio is -d/-d = 1.",
+      "hash": "f8ea3709e9738340",
+      "translations": {
+        "hi": {
+          "question": "यदि x, y, z समांतर श्रेणी (AP) में हैं, तो (x-y)/(y-z) किसके बराबर है:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "x/z",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक AP में, सार्व अंतर d = y-x = z-y होता है। इस प्रकार x-y = -d और y-z = -d। अनुपात -d/-d = 1 है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-013",
+      "number": 13,
+      "question": "The roots of the quadratic equation 2x^2 - sqrt(5)x + 1 = 0 are:",
+      "options": {
+        "A": "Real",
+        "B": "Equal",
+        "C": "Not real",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "D = b^2 - 4ac = (-sqrt(5))^2 - 4(2)(1) = 5 - 8 = -3. Since D < 0, roots are not real.",
+      "hash": "8fe7a4439f93240d",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण 2x^2 - sqrt(5)x + 1 = 0 के मूल हैं:",
+          "options": {
+            "A": "वास्तविक",
+            "B": "समान",
+            "C": "वास्तविक नहीं",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "D = b^2 - 4ac = (-sqrt(5))^2 - 4(2)(1) = 5 - 8 = -3. चूंकि D < 0 है, मूल वास्तविक नहीं हैं।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-014",
+      "number": 14,
+      "question": "The value of k for which x = -2 is a root of the equation 3x^2 + 4x + 2k = 0 is:",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "-4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "3(-2)^2 + 4(-2) + 2k = 0 => 12 - 8 + 2k = 0 => 4 + 2k = 0 => k = -2.",
+      "hash": "6d05d178b27f0ced",
+      "translations": {
+        "hi": {
+          "question": "k का वह मान जिसके लिए x = -2 समीकरण 3x^2 + 4x + 2k = 0 का एक मूल है:",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "-4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "3(-2)^2 + 4(-2) + 2k = 0 => 12 - 8 + 2k = 0 => 4 + 2k = 0 => k = -2।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-015",
+      "number": 15,
+      "question": "The sum of first n terms of the AP: a, 3a, 5a, ... is:",
+      "options": {
+        "A": "n^2 * a",
+        "B": "n * a^2",
+        "C": "(2n-1) * a",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "S_n = n/2 [2a + (n-1)2a] = n/2 [2a + 2na - 2a] = n/2 [2na] = n^2 * a.",
+      "hash": "11de21625432055e",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): a, 3a, 5a, ... के पहले n पदों का योग है:",
+          "options": {
+            "A": "n^2 * a",
+            "B": "n * a^2",
+            "C": "(2n-1) * a",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "S_n = n/2 [2a + (n-1)2a] = n/2 [2a + 2na - 2a] = n/2 [2na] = n^2 * a।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-016",
+      "number": 16,
+      "question": "If alpha and beta are zeros of x^2 + x - 2, then the value of 1/alpha + 1/beta is:",
+      "options": {
+        "A": "1/2",
+        "B": "-1/2",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "alpha+beta = -1, alpha*beta = -2. 1/alpha + 1/beta = (alpha+beta)/(alpha*beta) = -1/-2 = 1/2.",
+      "hash": "6100acd776c1bb7f",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा और बीटा x^2 + x - 2 के शून्यक हैं, तो 1/अल्फा + 1/बीटा का मान है:",
+          "options": {
+            "A": "1/2",
+            "B": "-1/2",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अल्फा+बीटा = -1, अल्फा*बीटा = -2. 1/अल्फा + 1/बीटा = (अल्फा+बीटा)/(अल्फा*बीटा) = -1/-2 = 1/2."
+        }
+      }
+    },
+    {
+      "id": "geometry-05-017",
+      "number": 17,
+      "question": "If x^2 + px + q = 0 and x^2 + qx + p = 0 (p != q) have a common root, then p+q is:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Subtracting eqs: (p-q)x + (q-p) = 0 => (p-q)x = (p-q) => x = 1. Putting x=1 in first eq: 1+p+q=0 => p+q = -1.",
+      "hash": "c6a2ba7b1ba87613",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 + px + q = 0 और x^2 + qx + p = 0 (p != q) का एक उभयनिष्ठ मूल है, तो p+q है:",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समीकरणों को घटाने पर: (p-q)x + (q-p) = 0 => (p-q)x = (p-q) => x = 1. पहले समीकरण में x=1 रखने पर: 1+p+q=0 => p+q = -1."
+        }
+      }
+    },
+    {
+      "id": "geometry-05-018",
+      "number": 18,
+      "question": "The system of equations kx + 3y = 1 and 12x + ky = 2 has no solution if k is:",
+      "options": {
+        "A": "6",
+        "B": "-6",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a1/a2 = b1/b2 != c1/c2. k/12 = 3/k => k^2 = 36 => k = 6 or -6. For k=6, 6/12 = 1/2 = 1/2 (infinite solutions). For k=-6, -6/12 = -1/2 != 1/2.",
+      "hash": "14a84ab25fd2f65b",
+      "translations": {
+        "hi": {
+          "question": "समीकरण निकाय kx + 3y = 1 और 12x + ky = 2 का कोई समाधान नहीं है यदि k है:",
+          "options": {
+            "A": "6",
+            "B": "-6",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a1/a2 = b1/b2 != c1/c2. k/12 = 3/k => k^2 = 36 => k = 6 या -6. k=6 के लिए अनंत समाधान हैं। k=-6 के लिए कोई समाधान नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-019",
+      "number": 19,
+      "question": "If the first term of an AP is 5 and the common difference is -3, then the 10th term is:",
+      "options": {
+        "A": "-22",
+        "B": "-25",
+        "C": "-27",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a10 = 5 + 9(-3) = 5 - 27 = -22.",
+      "hash": "cfda6a8f45239d70",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP का पहला पद 5 है और सार्व अंतर -3 है, तो 10वां पद है:",
+          "options": {
+            "A": "-22",
+            "B": "-25",
+            "C": "-27",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a10 = 5 + 9(-3) = 5 - 27 = -22।"
+        }
+      }
+    },
+    {
+      "id": "geometry-05-020",
+      "number": 20,
+      "question": "The degree of the polynomial p(x) = (x-1)(x-2)(x-3)(x-4) is:",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Multiplying four linear factors results in a leading term of x^4, which means the degree is 4.",
+      "hash": "c0156bca355731f8",
+      "translations": {
+        "hi": {
+          "question": "बहुपद p(x) = (x-1)(x-2)(x-3)(x-4) की घात है:",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "चार रैखिक गुणनखंडों को गुणा करने पर x^4 का पद प्राप्त होता है, जिसका अर्थ है कि घात 4 है।"
+        }
+      }
+    }
+  ]
+}

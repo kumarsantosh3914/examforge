@@ -2050,4 +2050,458 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
+  'ssc-cpo': {
+    heading: 'About the SSC CPO exam',
+    intro: [
+      'SSC CPO is the Staff Selection Commission’s recruitment exam for Sub-Inspectors in Delhi Police and the Central Armed Police Forces (BSF, CRPF, CISF, ITBP and SSB), and for Assistant Sub-Inspectors in CISF. Selection runs through two written papers, a physical test and a medical examination.',
+      'ExamForge gives you 49 free, timed practice sets for Paper 1: 10 full-length mock tests of 188 to 200 questions, plus subject sets in Reasoning, Aptitude, General Knowledge and English. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'Paper 1 deducts a quarter of a mark for each wrong answer. ExamForge sets do not, so to rehearse exam scoring, take 0.25 off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'SSC CPO at a glance',
+      source: 'From published SSC CPO exam-pattern summaries, which differ on timing and one 2026 summary reports a changed Paper 1 format. Check ssc.gov.in for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Staff Selection Commission' },
+        { label: 'Posts', value: 'Sub-Inspector in Delhi Police and the CAPFs; Assistant Sub-Inspector in CISF' },
+        { label: 'Paper 1', value: 'Online objective test, usually reported as 200 questions and 200 marks in 2 hours' },
+        { label: 'Paper 2', value: 'English Language and Comprehension, taken after the physical test' },
+        { label: 'Physical test', value: 'PET and PST, qualifying only' },
+        { label: 'Apply at', value: 'ssc.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'Paper 1 is an online objective test in four sections of 50 questions each. Every question carries one mark.',
+      caption: 'SSC CPO Paper 1',
+      sections: [
+        { part: 'Section 1', subject: 'General Intelligence and Reasoning', questions: 50, marks: 50 },
+        { part: 'Section 2', subject: 'General Knowledge and General Awareness', questions: 50, marks: 50 },
+        { part: 'Section 3', subject: 'Quantitative Aptitude', questions: 50, marks: 50 },
+        { part: 'Section 4', subject: 'English Comprehension', questions: 50, marks: 50 },
+      ],
+      duration: '2 hours',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−0.25' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'Summaries differ on sectional timing, and one 2026 summary describes a 100-question version of Paper 1, so confirm the format in the notice you apply under. Paper 2 (English Language and Comprehension) is not covered by a separate ExamForge subject.',
+    },
+    syllabus: {
+      intro: 'Each ExamForge subject matches one Paper 1 section. The full mock tests put all four together in the order of the real paper.',
+      areas: [
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: 'Verbal and non-verbal reasoning, 50 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Non-verbal reasoning: mirror images, paper folding and embedded figures'],
+        },
+        {
+          title: 'Quantitative Aptitude', subjects: ['aptitude'],
+          summary: 'Arithmetic and basic geometry, 50 questions.',
+          topics: ['Percentage, ratio, average, profit and loss', 'Time and work, speed, time and distance', 'Simple and compound interest', 'Algebra, geometry and mensuration', 'Trigonometry basics and data interpretation'],
+        },
+        {
+          title: 'General Knowledge and General Awareness', subjects: ['general-knowledge'],
+          summary: 'Static and current awareness, 50 questions.',
+          topics: ['Current affairs, sports, books and awards', 'Indian history, geography and polity', 'General science and everyday facts', 'Economy and important organisations'],
+        },
+        {
+          title: 'English Comprehension', subjects: ['english'],
+          summary: 'Grammar, vocabulary and comprehension, 50 questions.',
+          topics: ['Error spotting and sentence improvement', 'Fill in the blanks and cloze passages', 'Synonyms, antonyms and one-word substitution', 'Idioms and phrases, active and passive voice', 'Reading comprehension'],
+        },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the posts, exact cut-off dates, relaxations and physical standards.',
+      items: [
+        { title: 'Qualification', detail: 'A bachelor’s degree from a recognised university.' },
+        { title: 'Age and physical standards', detail: 'Age limits, height, chest and running standards differ by force and post and by male and female candidates. Check the current notice rather than relying on a summary.' },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'Paper 1', detail: 'The computer-based paper above. Candidates are shortlisted for the physical tests in order of merit.' },
+        { title: 'Physical Endurance Test and Physical Standard Test', detail: 'PET and PST are qualifying: they carry no marks, but failing them ends your candidature whatever your written score.' },
+        { title: 'Paper 2', detail: 'A computer-based English Language and Comprehension paper for those who clear the physical tests.' },
+        { title: 'Medical examination and document verification', detail: 'A detailed medical examination and a check of your original certificates before appointment.' },
+      ],
+    },
+    merit: [
+      { title: 'Written marks decide rank', detail: 'The final merit list is drawn up on Paper 1 and Paper 2 marks only. The physical tests and medical examination are qualifying.' },
+      { title: 'No interview', detail: 'There is no interview stage in SSC CPO.' },
+    ],
+    tips: [
+      { title: 'Treat negative marking as a tax', detail: 'A wrong answer costs a quarter of a correct one. Answer when you can rule out at least two options; leave the rest.' },
+      { title: 'Practise the full paper', detail: 'The full mock tests are the length of the real Paper 1, so use them to build the stamina to stay accurate through 200 questions.' },
+      { title: 'Use subject sets to fix weak sections', detail: 'After each full mock, find the section where you lost the most marks and drill it with a subject set.' },
+      { title: 'Start preparing for physical tests early', detail: 'PET and PST are qualifying, but they come before Paper 2. Do not leave fitness until the written result.' },
+    ],
+    faq: [
+      { question: 'Does ExamForge cover Paper 2?', answer: 'Not as a separate subject. The English sets practise the English section of Paper 1, which overlaps with Paper 2’s skills, but the practice sets are modelled on Paper 1.' },
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real Paper 1 deducts 0.25 mark per wrong answer, so apply that to your score yourself to see how you would have done.' },
+      { question: 'How long are the full mock tests?', answer: 'The 10 full mock tests have between 188 and 200 questions, matching the length of Paper 1 as it is usually reported.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rrb-ntpc-cbt-2': {
+    heading: 'About the RRB NTPC CBT-2 exam',
+    intro: [
+      'CBT-2 is the second computer-based test in graduate-level RRB NTPC recruitment, for posts such as Station Master, Goods Train Manager and Commercial cum Ticket Clerk in Indian Railways. Candidates who clear CBT-1 are shortlisted for it, and its marks decide the merit list.',
+      'ExamForge gives you 14 free, timed practice sets for CBT-2’s three sections: five in Mathematics, five in Reasoning and four in General Awareness. Every question is in English and Hindi, and almost every one comes with an explanation after you submit. Your first three sets need no signup.',
+      'CBT-2 deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RRB NTPC CBT-2 at a glance',
+      source: 'From published RRB NTPC exam-pattern summaries. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Stage', value: 'Second computer-based test for graduate-level posts' },
+        { label: 'CBT-2', value: '120 questions, 120 marks, 90 minutes' },
+        { label: 'Level', value: 'Same subjects as CBT-1, set at a higher level' },
+        { label: 'Extra test', value: 'Typing skill test or Computer Based Aptitude Test for some posts' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'CBT-2 is a single objective paper with three sections. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RRB NTPC CBT-2',
+      sections: [
+        { part: 'Section 1', subject: 'Mathematics', questions: 35, marks: 35 },
+        { part: 'Section 2', subject: 'General Intelligence and Reasoning', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'General Awareness', questions: 50, marks: 50 },
+      ],
+      duration: '90 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'CBT-2 covers the same subjects as CBT-1 at a higher level of difficulty. Some posts add a typing skill test or a Computer Based Aptitude Test. Summaries differ on which posts need which, so check your notice.',
+    },
+    syllabus: {
+      intro: 'Each ExamForge subject matches one CBT-2 section. General Awareness is the largest section, with 50 questions.',
+      areas: [
+        {
+          title: 'Mathematics', subjects: ['mathematics'],
+          summary: 'Arithmetic and more advanced topics than CBT-1, 35 questions.',
+          topics: ['Number system, HCF and LCM, simplification', 'Percentage, ratio, profit and loss, averages', 'Time and work, speed, time and distance', 'Simple and compound interest', 'Algebra, geometry, trigonometry and mensuration', 'Data interpretation and statistics'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: '35 questions, from simple series to multi-step puzzles.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism, Venn diagrams and statement-conclusion', 'Seating arrangement and puzzles', 'Non-verbal reasoning'],
+        },
+        {
+          title: 'General Awareness', subjects: ['general-awareness'],
+          summary: 'The largest section, so it often decides the cut-off.',
+          topics: ['Current affairs, sports, books and awards', 'Indian history and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'General science and everyday facts', 'Economics, computers and the railways'],
+        },
+      ],
+    },
+    stages: {
+      intro: 'The stages depend on the post. Each has to be cleared before the next.',
+      items: [
+        { title: 'CBT-1', detail: 'The screening paper that every candidate takes. Candidates are shortlisted for CBT-2 in order of merit.' },
+        { title: 'CBT-2', detail: 'The paper above, which decides merit for graduate-level posts.' },
+        { title: 'Skill or aptitude test', detail: 'Some posts need a typing skill test or a Computer Based Aptitude Test. These are qualifying for most posts.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination confirms you meet the standard of the post you are offered.' },
+      ],
+    },
+    merit: [
+      { title: 'CBT-2 decides rank', detail: 'The graduate-level merit list is drawn up on CBT-2 marks. CBT-1 only has to be qualified.' },
+      { title: 'Choice of post', detail: 'Posts are allotted by merit, the preferences you give and the medical standard you meet.' },
+    ],
+    tips: [
+      { title: 'Expect harder questions', detail: 'CBT-2 repeats the subjects of CBT-1 at a higher level, so time yourself on the Mathematics sets to keep up with 35 questions.' },
+      { title: 'Win General Awareness', detail: 'It has 50 of the 120 questions. Revise current affairs a little every day rather than before the exam.' },
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'What is the difference between CBT-1 and CBT-2?', answer: 'CBT-1 is a 100-question screening test. CBT-2 has 120 questions at a higher level and its marks decide merit for graduate-level posts.' },
+      { question: 'Does ExamForge deduct marks for wrong answers?', answer: 'No. The real CBT-2 deducts a third of a mark per wrong answer, so apply that yourself to your score.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question and option has a Hindi version, and nearly every explanation does too. You can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rpf-si': {
+    heading: 'About the RPF SI exam',
+    intro: [
+      'RPF SI is the Railway Recruitment Boards’ exam for Sub-Inspectors in the Railway Protection Force, the force that guards railway property, passengers and the railway network. The written paper is set at graduation level, and selection continues with physical tests and document verification.',
+      'ExamForge gives you 39 free, timed practice sets: 10 full-length mock tests of 97 to 120 questions, plus subject sets in General Awareness, Arithmetic and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'The real paper deducts one-third of a mark for each wrong answer. ExamForge sets do not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RPF SI at a glance',
+      source: 'From published RPF SI exam-pattern summaries. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'Written exam', value: 'Computer-based test, 120 questions, 120 marks, 90 minutes' },
+        { label: 'Level', value: 'Graduation' },
+        { label: 'Qualifying marks', value: 'Reported as 35% for UR and OBC and 30% for SC and ST' },
+        { label: 'Physical tests', value: 'PET and PMT, qualifying only' },
+        { label: 'Interview', value: 'None' },
+      ],
+    },
+    pattern: {
+      summary: 'The written exam is a single computer-based paper with three sections. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RPF SI computer-based test',
+      sections: [
+        { part: 'Section 1', subject: 'General Awareness', questions: 50, marks: 50 },
+        { part: 'Section 2', subject: 'Arithmetic', questions: 35, marks: 35 },
+        { part: 'Section 3', subject: 'General Intelligence and Reasoning', questions: 35, marks: 35 },
+      ],
+      duration: '90 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'The qualifying percentage is reported to differ by category, so check the notice for the current figures. Candidates in the written paper are shortlisted for the physical tests in a multiple of the vacancies.',
+    },
+    syllabus: {
+      intro: 'Each ExamForge subject matches one section of the paper. General Awareness is the largest, with 50 questions.',
+      areas: [
+        {
+          title: 'General Awareness', subjects: ['general-awareness'],
+          summary: 'The largest section, so it often decides the cut-off.',
+          topics: ['Current affairs, sports, books and awards', 'Indian history and the national movement', 'Geography of India and the world', 'Indian polity and the Constitution', 'General science and everyday facts', 'Economy, computers and the railways'],
+        },
+        {
+          title: 'Arithmetic', subjects: ['arithmetic'],
+          summary: 'Number work and word problems, 35 questions.',
+          topics: ['Number system, HCF and LCM, simplification', 'Percentage, ratio, average, profit and loss', 'Time and work, speed, time and distance', 'Simple and compound interest', 'Mensuration and data interpretation'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: '35 questions, mostly quick to solve once you know the method.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Seating arrangement, calendar and clock'],
+        },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'Computer-based test', detail: 'The 120-question paper above. Candidates who clear the qualifying marks are shortlisted for the physical tests.' },
+        { title: 'Physical Endurance Test and Physical Measurement Test', detail: 'PET and PMT are qualifying and carry no marks. Standards such as height and running time differ by gender and category, so check the notice.' },
+        { title: 'Document verification', detail: 'Your original certificates are checked against your application before the final list is released.' },
+      ],
+    },
+    merit: [
+      { title: 'Written marks decide rank', detail: 'Final selection is made on the marks of the computer-based test; the physical tests are qualifying.' },
+      { title: 'No interview', detail: 'There is no interview stage in RPF SI.' },
+    ],
+    tips: [
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Prepare General Awareness every day', detail: 'It has 50 of 120 questions. A little reading daily beats a rush before the exam.' },
+      { title: 'Use the full mocks for timing', detail: 'The full mock tests are the length of the real paper. Practise finishing 120 questions in 90 minutes.' },
+      { title: 'Plan fitness alongside study', detail: 'PET and PMT are qualifying, so start training for them early.' },
+    ],
+    faq: [
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real paper deducts a third of a mark per wrong answer, so apply that yourself to your score.' },
+      { question: 'How long are the full mock tests?', answer: 'The 10 full mock tests have between 97 and 120 questions, close to the length of the real paper.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'rrb-alp': {
+    heading: 'About the RRB ALP exam',
+    intro: [
+      'ALP stands for Assistant Loco Pilot, the post that assists the driver of a locomotive in Indian Railways. The Railway Recruitment Boards fill it through computer-based tests, CBT-1 and CBT-2, followed by a Computer Based Aptitude Test (CBAT), document verification and a medical examination.',
+      'ExamForge gives you 38 free, timed practice sets for CBT-1: nine full-length mock tests of 50 to 75 questions, plus subject sets in Mathematics, Reasoning and General Science. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'CBT-1 deducts one-third of a mark for each wrong answer. ExamForge does not, so to rehearse exam scoring, take a third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'RRB ALP CBT-1 at a glance',
+      source: 'From published RRB ALP exam-pattern summaries, which differ on the subject split of CBT-1. Check rrbapply.gov.in and your RRB’s website for the current notice before you apply.',
+      items: [
+        { label: 'Conducted by', value: 'Railway Recruitment Boards' },
+        { label: 'CBT-1', value: '75 questions, 75 marks, 60 minutes (screening)' },
+        { label: 'CBT-2', value: 'Second computer-based test, not covered by ExamForge' },
+        { label: 'Aptitude test', value: 'CBAT for ALP candidates who clear CBT-2' },
+        { label: 'Apply at', value: 'rrbapply.gov.in' },
+      ],
+    },
+    pattern: {
+      summary: 'CBT-1 is a single objective paper that screens candidates for CBT-2. Every question carries one mark, and wrong answers cost a third of a mark.',
+      caption: 'RRB ALP CBT-1',
+      sections: [
+        { part: 'Section 1', subject: 'Mathematics', questions: 20, marks: 20 },
+        { part: 'Section 2', subject: 'General Intelligence and Reasoning', questions: 25, marks: 25 },
+        { part: 'Section 3', subject: 'General Science', questions: 20, marks: 20 },
+        { part: 'Section 4', subject: 'General Awareness and Current Affairs', questions: 10, marks: 10 },
+      ],
+      duration: '60 minutes',
+      marking: [
+        { response: 'Correct answer', marks: '+1' },
+        { response: 'Wrong answer', marks: '−1/3' },
+        { response: 'Not attempted', marks: '0' },
+      ],
+      note: 'A 2026 guide reports that General Awareness has been dropped from CBT-1, while older guides show the four sections above, so confirm the split in your notice. ExamForge has no General Awareness subject for ALP. CBT-1 only screens: marks are normalised across shifts and are not counted in the final panel.',
+    },
+    syllabus: {
+      intro: 'Each ExamForge subject matches one CBT-1 section. Reasoning has the most questions, so it carries the most weight.',
+      areas: [
+        {
+          title: 'Mathematics', subjects: ['mathematics'],
+          summary: 'Arithmetic and basic algebra, about 20 questions.',
+          topics: ['Number system, HCF and LCM, simplification', 'Percentage, ratio, profit and loss, averages', 'Time and work, speed, time and distance', 'Simple and compound interest', 'Algebra, geometry, trigonometry and mensuration'],
+        },
+        {
+          title: 'General Intelligence and Reasoning', subjects: ['reasoning'],
+          summary: 'The largest section, about 25 questions.',
+          topics: ['Analogy, classification and series', 'Coding-decoding and mathematical operations', 'Blood relations, directions and ranking', 'Syllogism and Venn diagrams', 'Seating arrangement, calendar and clock', 'Non-verbal reasoning'],
+        },
+        {
+          title: 'General Science', subjects: ['general-science'],
+          summary: 'School-level science, about 20 questions.',
+          topics: ['Physics: motion, force, work and energy, heat, light, sound and electricity', 'Chemistry: matter, acids and bases, metals and non-metals, carbon compounds', 'Biology: cells, human body, nutrition, diseases and plants', 'Everyday science and technology'],
+        },
+      ],
+    },
+    stages: {
+      intro: 'Each stage has to be cleared before the next.',
+      items: [
+        { title: 'CBT-1', detail: 'The 75-question screening paper above. Candidates are shortlisted for CBT-2 on normalised marks.' },
+        { title: 'CBT-2', detail: 'A second computer-based test that decides merit. It is not covered by ExamForge.' },
+        { title: 'Computer Based Aptitude Test (CBAT)', detail: 'For ALP candidates. It tests aptitude for driving duties, has no negative marking, and is reported to need a minimum T-score of 42 in each test battery.' },
+        { title: 'Document verification and medical', detail: 'Original certificates are checked and a medical examination, including vision standards for the post, is carried out.' },
+      ],
+    },
+    tips: [
+      { title: 'Win Reasoning and Science', detail: 'Together they are the bulk of CBT-1. Both reward practice more than memorisation.' },
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Practise to the clock', detail: 'CBT-1 gives under a minute per question. Use the full mocks to practise finishing 75 questions in 60 minutes.' },
+      { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Why are some sets shorter than others?', answer: 'The sets are kept as they came in the question bank, so their lengths vary. Some General Science sets have fewer than 20 questions; the full mock tests are the best guide to the length of the real paper.' },
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real CBT-1 deducts a third of a mark per wrong answer, so apply that yourself to your score.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'bseb-10th': {
+    heading: 'About the Bihar Board Class 10 exam',
+    intro: [
+      'The Bihar School Examination Board (BSEB) holds the Class 10 matriculation exam every year, usually in February. The paper for each subject mixes objective questions, where you mark the right option, with written short-answer and long-answer questions.',
+      'ExamForge gives you 135 free practice sets for the objective part: 31 in Science, 48 in Social Science, 13 in Sanskrit, 22 in English, 12 in Mathematics and 9 mixed Subject Wise sets of 50 questions. Every question is in English and Hindi, and most come with an explanation after you submit. Your first three sets need no signup.',
+      'These sets practise multiple-choice answering. They do not replace writing out answers for the subjective part, so use them alongside your textbook and past papers.',
+    ],
+    facts: {
+      title: 'BSEB Class 10 at a glance',
+      source: 'From published Bihar Board exam-pattern summaries, which differ on passing marks and the practical split. Check biharboardonline.com for the current notice and your subject’s marking scheme.',
+      items: [
+        { label: 'Conducted by', value: 'Bihar School Examination Board, Patna' },
+        { label: 'Exam', value: 'Class 10 (matriculation) annual board exam' },
+        { label: 'Objective part', value: 'Reported as 100 multiple-choice questions, of which you answer 50, at one mark each' },
+        { label: 'Subjective part', value: 'Short-answer and long-answer questions, roughly the other half of the marks' },
+        { label: 'Subjects on ExamForge', value: 'Science, Social Science, Mathematics, English and Sanskrit' },
+      ],
+    },
+    syllabus: {
+      intro: 'Questions follow the Class 10 Bihar Board textbooks. ExamForge’s practice subjects match the papers below.',
+      areas: [
+        {
+          title: 'Science', subjects: ['science'],
+          summary: 'Physics, chemistry and biology.',
+          topics: ['Chemical reactions, acids, bases and salts', 'Metals, non-metals and carbon compounds', 'Life processes, control and coordination, heredity', 'Light, electricity and magnetic effects of current', 'Sources of energy and the environment'],
+        },
+        {
+          title: 'Social Science', subjects: ['social-science'],
+          summary: 'History, geography, political science and economics.',
+          topics: ['History: nationalism, the making of modern India and industrialisation', 'Geography: resources, agriculture, minerals and industries', 'Political science: power sharing, federalism and democracy', 'Economics: development, sectors of the economy, money and credit'],
+        },
+        {
+          title: 'Mathematics', subjects: ['math'],
+          summary: 'The Class 10 mathematics course.',
+          topics: ['Real numbers, polynomials and linear equations', 'Quadratic equations and arithmetic progressions', 'Triangles, circles and coordinate geometry', 'Trigonometry and its applications', 'Surface areas and volumes, statistics and probability'],
+        },
+        {
+          title: 'English', subjects: ['english'],
+          summary: 'Textbook, grammar and usage.',
+          topics: ['Prose and poetry from the textbook', 'Reading comprehension', 'Grammar: tenses, voice, narration and prepositions', 'Vocabulary, synonyms and antonyms'],
+        },
+        {
+          title: 'Sanskrit', subjects: ['sanskrit'],
+          summary: 'Language and textbook practice.',
+          topics: ['Textbook passages and meanings', 'Vocabulary and grammar', 'Translation between Sanskrit and Hindi or English'],
+        },
+        {
+          title: 'Mixed practice', subjects: ['subject-wise'],
+          summary: 'Sets of 50 questions across subjects.',
+          topics: ['Questions drawn from the subjects above', 'Useful for revision close to the exam'],
+        },
+      ],
+    },
+    tips: [
+      { title: 'Read the textbook first', detail: 'Board questions follow the textbook closely. Use the sets to test what you have read, and go back to the chapter for anything you miss.' },
+      { title: 'Learn from explanations', detail: 'Read the explanation after every set, including for answers you got right by guessing.' },
+      { title: 'Practise writing too', detail: 'Roughly half of each paper is written answers. Keep solving previous papers on paper alongside these sets.' },
+      { title: 'Revise with mixed sets', detail: 'In the last weeks, switch from single-subject sets to the Subject Wise sets to practise changing topics quickly.' },
+    ],
+    faq: [
+      { question: 'Do these sets cover the written part of the exam?', answer: 'No. They practise multiple-choice questions only. The written short-answer and long-answer questions need practice on paper.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question and option has a Hindi version, and most explanations do too. You can switch language during the test.' },
+      { question: 'Do wrong answers lose marks in ExamForge?', answer: 'No. Practice sets do not deduct marks, so you can attempt every question and learn from the explanation.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
+  'bpsc-tre-4.0/math-high-school': {
+    heading: 'About the BPSC TRE 4.0 Mathematics (High School) exam',
+    intro: [
+      'The Bihar Public Service Commission Teacher Recruitment Exam (BPSC TRE) is one of the largest teacher hiring drives in India. TRE 4.0 includes posts for Mathematics teachers in high schools (Classes 9–10), where a strong command of the school mathematics course decides your score.',
+      'ExamForge gives you 43 free, timed practice sets for the Mathematics paper: 9 full-length mock tests, and 34 chapter sets of 20 questions each across seven areas, from number system and algebra to mensuration, statistics and probability. Every question is in English and Hindi, and each one comes with an explanation after you submit. Your first three sets need no signup.',
+      'TRE 4.0 deducts one-third of a mark for each wrong answer. ExamForge sets do not, so to rehearse TRE 4.0 scoring, take one-third of a mark off for each wrong answer yourself.',
+    ],
+    facts: {
+      title: 'TRE 4.0 Mathematics at a glance',
+      source: 'Check the current BPSC TRE 4.0 advertisement and corrigenda at bpsc.bihar.gov.in for the number of posts, dates, eligibility and the paper structure for Classes 9–10. ExamForge has not reproduced figures it could not confirm.',
+      items: [
+        { label: 'Conducted by', value: 'Bihar Public Service Commission' },
+        { label: 'Post', value: 'Mathematics teacher, high school (Classes 9–10)' },
+        { label: 'Written exam', value: 'Objective computer-based paper; check the notice for its structure' },
+        { label: 'Apply at', value: 'bpsconline.bihar.gov.in' },
+      ],
+    },
+    syllabus: {
+      intro: 'Subject questions follow the school curriculum for the classes you would teach. ExamForge’s seven chapter subjects are grouped below, and the full mock tests mix all of them.',
+      areas: [
+        {
+          title: 'Number system and algebra', subjects: ['number-system', 'algebra'],
+          summary: 'The foundation of the course.',
+          topics: ['Real numbers, rational and irrational numbers', 'HCF, LCM and divisibility', 'Polynomials and factorisation', 'Linear equations and quadratic equations', 'Arithmetic progressions'],
+        },
+        {
+          title: 'Geometry and coordinate geometry', subjects: ['geometry', 'coordinate-geometry'],
+          summary: 'Shapes, proofs and the Cartesian plane.',
+          topics: ['Lines, angles and triangles', 'Congruence and similarity', 'Circles and tangents', 'Distance, section and midpoint formulas', 'Area of a triangle in the plane'],
+        },
+        {
+          title: 'Trigonometry and mensuration', subjects: ['trigonometry', 'mensuration'],
+          summary: 'Ratios, heights and measurement.',
+          topics: ['Trigonometric ratios and identities', 'Heights and distances', 'Areas of plane figures', 'Surface areas and volumes of solids', 'Combinations of solids'],
+        },
+        {
+          title: 'Statistics and probability', subjects: ['statistics-probability'],
+          summary: 'Data and chance.',
+          topics: ['Mean, median and mode of grouped data', 'Cumulative frequency and ogives', 'Classical probability'],
+        },
+      ],
+    },
+    tips: [
+      { title: 'Work every chapter set', detail: 'Chapter sets of 20 questions are short enough to finish in one sitting. Work through all seven areas before moving on to full mocks.' },
+      { title: 'Answer with care', detail: 'A wrong answer costs a third of a correct one. Answer when you can rule out at least two options; otherwise leave it.' },
+      { title: 'Use full mocks for timing', detail: 'The full mock tests mix every area. Use them to practise pace and to find the areas where you drop marks.' },
+      { title: 'Review explanations', detail: 'After each set, read the worked explanation for every question you got wrong or guessed.' },
+    ],
+    faq: [
+      { question: 'Do the sets follow the Bihar teacher recruitment syllabus?', answer: 'They cover the school mathematics course for Classes 9–10, which is the subject core of the paper. Check the current BPSC notice for the official syllabus and paper structure.' },
+      { question: 'Is there negative marking in ExamForge sets?', answer: 'No. TRE 4.0 deducts a third of a mark per wrong answer, so apply that yourself to your score.' },
+      { question: 'Are the questions available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
+    ],
+  },
 };

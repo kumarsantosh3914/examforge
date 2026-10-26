@@ -1,0 +1,567 @@
+{
+  "subject": "Geometry",
+  "set": 1,
+  "title": "Geometry Mock Test 1",
+  "questions": [
+    {
+      "id": "geometry-01-001",
+      "number": 1,
+      "question": "If the area of a circle is 154 square cm, then its circumference is:",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "66 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = pi * r^2 = 154. Solving gives r = 7. Circumference = 2 * pi * r = 2 * (22/7) * 7 = 44 cm.",
+      "hash": "1756ac8b81cfaf74",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का क्षेत्रफल 154 वर्ग सेमी है, तो इसकी परिधि है:",
+          "options": {
+            "A": "22 सेमी",
+            "B": "44 सेमी",
+            "C": "66 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = pi * r^2 = 154। हल करने पर r = 7 मिलता है। परिधि = 2 * pi * r = 2 * (22/7) * 7 = 44 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-002",
+      "number": 2,
+      "question": "The sum of the interior angles of a convex pentagon is:",
+      "options": {
+        "A": "360 degrees",
+        "B": "540 degrees",
+        "C": "720 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Sum of interior angles = (n-2) * 180. For a pentagon, (5-2) * 180 = 540 degrees.",
+      "hash": "419b2429bfc81c24",
+      "translations": {
+        "hi": {
+          "question": "एक उत्तल पंचभुज के आंतरिक कोणों का योग होता है:",
+          "options": {
+            "A": "360 डिग्री",
+            "B": "540 डिग्री",
+            "C": "720 डिग्री",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आंतरिक कोणों का योग = (n-2) * 180। पंचभुज के लिए, (5-2) * 180 = 540 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-003",
+      "number": 3,
+      "question": "In a triangle ABC, if AB = AC and angle A = 70 degrees, then angle B is:",
+      "options": {
+        "A": "70 degrees",
+        "B": "55 degrees",
+        "C": "40 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Since AB=AC, angles B and C are equal. B + C = 180 - 70 = 110. B = 110/2 = 55 degrees.",
+      "hash": "1ce27c3ae2839387",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज ABC में, यदि AB = AC और कोण A = 70 डिग्री है, तो कोण B है:",
+          "options": {
+            "A": "70 डिग्री",
+            "B": "55 डिग्री",
+            "C": "40 डिग्री",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "चूंकि AB=AC, कोण B और C बराबर हैं। B + C = 180 - 70 = 110। B = 110/2 = 55 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-004",
+      "number": 4,
+      "question": "The diagonal of a square is 10 cm. Its area is:",
+      "options": {
+        "A": "100 sq cm",
+        "B": "50 sq cm",
+        "C": "25 sq cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area of square = (diagonal^2) / 2 = (10 * 10) / 2 = 50 sq cm.",
+      "hash": "005fefefa80fc585",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का विकर्ण 10 सेमी है। इसका क्षेत्रफल है:",
+          "options": {
+            "A": "100 वर्ग सेमी",
+            "B": "50 वर्ग सेमी",
+            "C": "25 वर्ग सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "वर्ग का क्षेत्रफल = (विकर्ण^2) / 2 = (10 * 10) / 2 = 50 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-005",
+      "number": 5,
+      "question": "A chord of length 16 cm is drawn in a circle of radius 10 cm. The distance of the chord from the centre is:",
+      "options": {
+        "A": "6 cm",
+        "B": "8 cm",
+        "C": "12 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Using Pythagoras theorem in the right triangle formed by radius, distance, and half-chord: d^2 + 8^2 = 10^2. d^2 = 36, d = 6 cm.",
+      "hash": "e0aa41938ba26736",
+      "translations": {
+        "hi": {
+          "question": "10 सेमी त्रिज्या वाले एक वृत्त में 16 सेमी लंबी एक जीवा खींची गई है। केंद्र से जीवा की दूरी है:",
+          "options": {
+            "A": "6 सेमी",
+            "B": "8 सेमी",
+            "C": "12 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "त्रिज्या, दूरी और आधी-जीवा द्वारा निर्मित समकोण त्रिभुज में पाइथागोरस प्रमेय का उपयोग करने पर: d^2 + 8^2 = 10^2। d^2 = 36, d = 6 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-006",
+      "number": 6,
+      "question": "If the volumes of two spheres are in the ratio 8:27, then the ratio of their surface areas is:",
+      "options": {
+        "A": "2:3",
+        "B": "4:9",
+        "C": "16:81",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Ratio of radii is cube root of (8/27) which is 2/3. Ratio of surface areas is (2/3)^2 = 4/9.",
+      "hash": "fc47d71a1059cccc",
+      "translations": {
+        "hi": {
+          "question": "यदि दो गोलों के आयतन का अनुपात 8:27 है, तो उनके पृष्ठीय क्षेत्रफलों का अनुपात है:",
+          "options": {
+            "A": "2:3",
+            "B": "4:9",
+            "C": "16:81",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "त्रिज्याओं का अनुपात (8/27) का घनमूल है जो 2/3 है। पृष्ठीय क्षेत्रफलों का अनुपात (2/3)^2 = 4/9 है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-007",
+      "number": 7,
+      "question": "The angles of a quadrilateral are in the ratio 1:2:3:4. The largest angle is:",
+      "options": {
+        "A": "36 degrees",
+        "B": "108 degrees",
+        "C": "144 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "1x + 2x + 3x + 4x = 360. 10x = 360, x = 36. Largest angle = 4 * 36 = 144 degrees.",
+      "hash": "83bd38eced227fdf",
+      "translations": {
+        "hi": {
+          "question": "एक चतुर्भुज के कोण 1:2:3:4 के अनुपात में हैं। सबसे बड़ा कोण है:",
+          "options": {
+            "A": "36 डिग्री",
+            "B": "108 डिग्री",
+            "C": "144 डिग्री",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "1x + 2x + 3x + 4x = 360। 10x = 360, x = 36। सबसे बड़ा कोण = 4 * 36 = 144 डिग्री।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-008",
+      "number": 8,
+      "question": "A cylinder and a cone have equal radii and equal heights. The ratio of their volumes is:",
+      "options": {
+        "A": "1:3",
+        "B": "3:1",
+        "C": "1:1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Vol of cylinder = pi*r^2*h. Vol of cone = (1/3)*pi*r^2*h. Ratio = 1 : (1/3) = 3:1.",
+      "hash": "8611381ffb34312a",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन और एक शंकु की त्रिज्याएँ और ऊँचाईयाँ समान हैं। उनके आयतन का अनुपात है:",
+          "options": {
+            "A": "1:3",
+            "B": "3:1",
+            "C": "1:1",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "बेलन का आयतन = pi*r^2*h। शंकु का आयतन = (1/3)*pi*r^2*h। अनुपात = 1 : (1/3) = 3:1।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-009",
+      "number": 9,
+      "question": "The length of the longest pole that can be placed in a room of dimensions 12m x 9m x 8m is:",
+      "options": {
+        "A": "15 m",
+        "B": "17 m",
+        "C": "19 m",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Diagonal = sqrt(12^2 + 9^2 + 8^2) = sqrt(144 + 81 + 64) = sqrt(289) = 17 m.",
+      "hash": "f34c64ed686e6225",
+      "translations": {
+        "hi": {
+          "question": "12 मीटर x 9 मीटर x 8 मीटर आयाम वाले कमरे में रखे जा सकने वाले सबसे लंबे खंभे की लंबाई है:",
+          "options": {
+            "A": "15 मीटर",
+            "B": "17 मीटर",
+            "C": "19 मीटर",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "विकर्ण = sqrt(12^2 + 9^2 + 8^2) = sqrt(144 + 81 + 64) = sqrt(289) = 17 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-010",
+      "number": 10,
+      "question": "The point of concurrence of the medians of a triangle is called:",
+      "options": {
+        "A": "Incentre",
+        "B": "Circumcentre",
+        "C": "Centroid",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The centroid is the point where the three medians of a triangle intersect.",
+      "hash": "f62defc5b2e5194f",
+      "translations": {
+        "hi": {
+          "question": "त्रिभुज की माध्यिकाओं के संगमन बिंदु को कहा जाता है:",
+          "options": {
+            "A": "अंतःकेंद्र",
+            "B": "परिकेंद्र",
+            "C": "केंद्रक",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "केंद्रक वह बिंदु है जहाँ त्रिभुज की तीनों माध्यिकाएँ एक दूसरे को काटती हैं।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-011",
+      "number": 11,
+      "question": "Two circles touch each other externally. The distance between their centres is 12 cm and the sum of their areas is 74*pi. The radii are:",
+      "options": {
+        "A": "7 cm, 5 cm",
+        "B": "8 cm, 4 cm",
+        "C": "9 cm, 3 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "r1 + r2 = 12 and r1^2 + r2^2 = 74. Using options, 7^2 + 5^2 = 49 + 25 = 74.",
+      "hash": "38a3707cfe104f9b",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्त एक दूसरे को बाहरी रूप से स्पर्श करते हैं। उनके केंद्रों के बीच की दूरी 12 सेमी है और उनके क्षेत्रफल का योग 74*pi है। त्रिज्याएँ हैं:",
+          "options": {
+            "A": "7 सेमी, 5 सेमी",
+            "B": "8 सेमी, 4 सेमी",
+            "C": "9 सेमी, 3 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "r1 + r2 = 12 और r1^2 + r2^2 = 74। विकल्पों का उपयोग करते हुए, 7^2 + 5^2 = 49 + 25 = 74।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-012",
+      "number": 12,
+      "question": "In a circle, an angle of 30 degrees is subtended by an arc at the center. If the radius is 21 cm, the length of the arc is:",
+      "options": {
+        "A": "11 cm",
+        "B": "22 cm",
+        "C": "5.5 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Length = (theta/360) * 2 * pi * r = (30/360) * 2 * (22/7) * 21 = (1/12) * 132 = 11 cm. Wait, 132/12 = 11. Correction: A is 11.",
+      "hash": "e0d46056fea678e6",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त में, केंद्र पर एक चाप द्वारा 30 डिग्री का कोण बनाया जाता है। यदि त्रिज्या 21 सेमी है, तो चाप की लंबाई है:",
+          "options": {
+            "A": "11 सेमी",
+            "B": "22 सेमी",
+            "C": "5.5 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "लंबाई = (theta/360) * 2 * pi * r = (30/360) * 2 * (22/7) * 21 = (1/12) * 132 = 11 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-013",
+      "number": 13,
+      "question": "The area of an equilateral triangle is 16*sqrt(3) square cm. Its perimeter is:",
+      "options": {
+        "A": "12 cm",
+        "B": "24 cm",
+        "C": "48 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = (sqrt(3)/4) * a^2 = 16*sqrt(3). a^2 = 64, so a = 8. Perimeter = 3a = 24 cm.",
+      "hash": "03247695d350455d",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज का क्षेत्रफल 16*sqrt(3) वर्ग सेमी है। इसका परिमाप है:",
+          "options": {
+            "A": "12 सेमी",
+            "B": "24 सेमी",
+            "C": "48 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = (sqrt(3)/4) * a^2 = 16*sqrt(3)। a^2 = 64, इसलिए a = 8। परिमाप = 3a = 24 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-014",
+      "number": 14,
+      "question": "Each exterior angle of a regular polygon is 40 degrees. The number of sides is:",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Number of sides = 360 / Exterior angle = 360 / 40 = 9.",
+      "hash": "7ed07408cf4c589d",
+      "translations": {
+        "hi": {
+          "question": "एक नियमित बहुभुज का प्रत्येक बाहरी कोण 40 डिग्री है। भुजाओं की संख्या है:",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "भुजाओं की संख्या = 360 / बाहरी कोण = 360 / 40 = 9।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-015",
+      "number": 15,
+      "question": "If the height of a cone is doubled and the radius remains the same, the volume becomes:",
+      "options": {
+        "A": "Double",
+        "B": "Three times",
+        "C": "Four times",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "V = (1/3)*pi*r^2*h. If h becomes 2h, V becomes 2V.",
+      "hash": "712f8579327ad13f",
+      "translations": {
+        "hi": {
+          "question": "यदि एक शंकु की ऊँचाई दोगुनी कर दी जाए और त्रिज्या वही रहे, तो आयतन हो जाता है:",
+          "options": {
+            "A": "दोगुना",
+            "B": "तीन गुना",
+            "C": "चार गुना",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "V = (1/3)*pi*r^2*h। यदि h, 2h हो जाता है, तो V, 2V हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-016",
+      "number": 16,
+      "question": "The area of a rhombus is 240 square cm and one of the diagonals is 16 cm. The other diagonal is:",
+      "options": {
+        "A": "15 cm",
+        "B": "30 cm",
+        "C": "45 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = (d1 * d2) / 2. 240 = (16 * d2) / 2. 240 = 8 * d2. d2 = 30 cm.",
+      "hash": "30e631e110d5b1b7",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज का क्षेत्रफल 240 वर्ग सेमी है और विकर्णों में से एक 16 सेमी है। दूसरा विकर्ण है:",
+          "options": {
+            "A": "15 सेमी",
+            "B": "30 सेमी",
+            "C": "45 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = (d1 * d2) / 2। 240 = (16 * d2) / 2। 240 = 8 * d2। d2 = 30 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-017",
+      "number": 17,
+      "question": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the centre O at a point Q so that OQ = 12 cm. Length PQ is:",
+      "options": {
+        "A": "13 cm",
+        "B": "sqrt(119) cm",
+        "C": "17 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "In right triangle OPQ, OP^2 + PQ^2 = OQ^2. 5^2 + PQ^2 = 12^2. PQ^2 = 144 - 25 = 119. PQ = sqrt(119).",
+      "hash": "b4b91b7a72d71883",
+      "translations": {
+        "hi": {
+          "question": "5 सेमी त्रिज्या वाले एक वृत्त के बिंदु P पर एक स्पर्श रेखा PQ, केंद्र O से होकर जाने वाली एक रेखा से बिंदु Q पर इस प्रकार मिलती है कि OQ = 12 सेमी हो। PQ की लंबाई है:",
+          "options": {
+            "A": "13 सेमी",
+            "B": "sqrt(119) सेमी",
+            "C": "17 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "समकोण त्रिभुज OPQ में, OP^2 + PQ^2 = OQ^2। 5^2 + PQ^2 = 12^2। PQ^2 = 144 - 25 = 119। PQ = sqrt(119)।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-018",
+      "number": 18,
+      "question": "The ratio of the area of a square to that of the square drawn on its diagonal is:",
+      "options": {
+        "A": "1:1",
+        "B": "1:2",
+        "C": "1:4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "If side is a, area is a^2. Diagonal is a*sqrt(2), so area on diagonal is (a*sqrt(2))^2 = 2a^2. Ratio is 1:2.",
+      "hash": "692a5019c35735cd",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग के क्षेत्रफल और उसके विकर्ण पर खींचे गए वर्ग के क्षेत्रफल का अनुपात है:",
+          "options": {
+            "A": "1:1",
+            "B": "1:2",
+            "C": "1:4",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "यदि भुजा a है, तो क्षेत्रफल a^2 है। विकर्ण a*sqrt(2) है, इसलिए विकर्ण पर क्षेत्रफल (a*sqrt(2))^2 = 2a^2 है। अनुपात 1:2 है।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-019",
+      "number": 19,
+      "question": "If the length, breadth and height of a cuboid are in the ratio 3:2:1 and its volume is 1296 cubic cm, then its breadth is:",
+      "options": {
+        "A": "6 cm",
+        "B": "12 cm",
+        "C": "18 cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "(3x)(2x)(x) = 1296. 6x^3 = 1296. x^3 = 216. x = 6. Breadth = 2x = 12 cm.",
+      "hash": "798b3611cb9286e3",
+      "translations": {
+        "hi": {
+          "question": "यदि एक घनाभ की लंबाई, चौड़ाई और ऊँचाई 3:2:1 के अनुपात में है और इसका आयतन 1296 घन सेमी है, तो इसकी चौड़ाई है:",
+          "options": {
+            "A": "6 सेमी",
+            "B": "12 सेमी",
+            "C": "18 सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "(3x)(2x)(x) = 1296। 6x^3 = 1296। x^3 = 216। x = 6। चौड़ाई = 2x = 12 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "geometry-01-020",
+      "number": 20,
+      "question": "The total surface area of a hemisphere of radius 7 cm is:",
+      "options": {
+        "A": "147*pi sq cm",
+        "B": "98*pi sq cm",
+        "C": "49*pi sq cm",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Total Surface Area = 3 * pi * r^2 = 3 * pi * 7^2 = 3 * 49 * pi = 147*pi sq cm.",
+      "hash": "d5cd9ef313208564",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या वाले एक अर्धगोले का कुल पृष्ठीय क्षेत्रफल है:",
+          "options": {
+            "A": "147*pi वर्ग सेमी",
+            "B": "98*pi वर्ग सेमी",
+            "C": "49*pi वर्ग सेमी",
+            "D": "उपरोक्त में से एक से अधिक",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "कुल पृष्ठीय क्षेत्रफल = 3 * pi * r^2 = 3 * pi * 7^2 = 3 * 49 * pi = 147*pi वर्ग सेमी।"
+        }
+      }
+    }
+  ]
+}

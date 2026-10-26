@@ -1,0 +1,578 @@
+{
+  "subject": "Reasoning",
+  "set": 1,
+  "title": "Reasoning Mock Test 1",
+  "questions": [
+    {
+      "id": "reasoning-01-001",
+      "number": 1,
+      "question": "Statement: 'Only a few' mobiles are laptops. All laptops are computers. Conclusions: I. Some mobiles are computers. II. All mobiles being computers is a possibility.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both I and II follow",
+        "D": "Neither I nor II"
+      },
+      "answer": "C",
+      "explanation": "1. Intersection of Mobile & Laptop exists inside Computer, so I follows. 2. 'Only a few' restricts Mobile inside Laptop, but entire Mobile circle can go inside Computer circle (outside Laptop area). So II follows.",
+      "hash": "bd97c69182a84b7a",
+      "translations": {
+        "hi": {
+          "question": "कथन: 'केवल कुछ (Only a few)' मोबाइल लैपटॉप हैं। सभी लैपटॉप कंप्यूटर हैं। निष्कर्ष: I. कुछ मोबाइल कंप्यूटर हैं। II. सभी मोबाइल के कंप्यूटर होने की संभावना है।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "I और II दोनों अनुसरण करते हैं",
+            "D": "न तो I और न ही II"
+          },
+          "explanation": "1. कुछ मोबाइल लैपटॉप हैं और सभी लैपटॉप कंप्यूटर हैं, इसलिए कुछ मोबाइल निश्चित रूप से कंप्यूटर हैं (I सही)। 2. 'केवल कुछ मोबाइल लैपटॉप हैं' का अर्थ है कि कुछ मोबाइल लैपटॉप नहीं हैं। लेकिन वे मोबाइल जो लैपटॉप नहीं हैं, वे कंप्यूटर के अन्य हिस्से में हो सकते हैं। इसलिए संभावना (Possibility) सही है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-002",
+      "number": 2,
+      "question": "Find the missing number: 4, 18, 48, 100, 180, ?",
+      "options": {
+        "A": "294",
+        "B": "216",
+        "C": "240",
+        "D": "300"
+      },
+      "answer": "A",
+      "explanation": "Logic: (n³ - n²). 7³ - 7² = 343 - 49 = 294.",
+      "hash": "76934f0a54953c46",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: 4, 18, 48, 100, 180, ?",
+          "options": {
+            "A": "294",
+            "B": "216",
+            "C": "240",
+            "D": "300"
+          },
+          "explanation": "तर्क: (n³ - n²)। 2³-2²=4, 3³-3²=18, 4³-4²=48, 5³-5²=100, 6³-6²=180. अगला पद: 7³ - 7² = 343 - 49 = 294।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-004",
+      "number": 4,
+      "question": "What is the Reflex Angle between the hands of a clock at 2:20?",
+      "options": {
+        "A": "50°",
+        "B": "310°",
+        "C": "300°",
+        "D": "120°"
+      },
+      "answer": "B",
+      "explanation": "Internal Angle = 50°. Reflex Angle = 360 - 50 = 310°.",
+      "hash": "4faf07c3019cbc1f",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी में 2:20 बजे हैं। घंटे की सुई और मिनट की सुई के बीच का प्रतिवर्ती कोण (Reflex Angle) क्या है?",
+          "options": {
+            "A": "50°",
+            "B": "310°",
+            "C": "300°",
+            "D": "120°"
+          },
+          "explanation": "आंतरिक कोण = |30H - 11/2M| = |30(2) - 5.5(20)| = |60 - 110| = 50°। प्रतिवर्ती कोण = 360° - 50° = 310°।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-005",
+      "number": 5,
+      "question": "If Jan 15, 2004 was Sunday, what day was Jan 15, 2003?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "answer": "B",
+      "explanation": "Going back from Jan 2004 to Jan 2003 involves no Feb 29. So -1 odd day. Sunday - 1 = Saturday.",
+      "hash": "64b5dda83f859694",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 जनवरी 2004 को रविवार था, तो 15 जनवरी 2003 को कौन सा दिन था?",
+          "options": {
+            "A": "शुक्रवार",
+            "B": "शनिवार",
+            "C": "रविवार",
+            "D": "सोमवार"
+          },
+          "explanation": "अगर 2004 रविवार है, तो 2003 शनिवार था। उत्तर: शनिवार। (विकल्प B)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-006",
+      "number": 6,
+      "question": "Data Sufficiency: Code for 'train'? I. 'fast train late' = 'jm mk lo' II. 'train is fast' = 'mk lo in'",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both together",
+        "D": "Neither"
+      },
+      "answer": "D",
+      "explanation": "Common words 'train' & 'fast'. Common codes 'mk' & 'lo'. Cannot determine specific code for 'train'. Neither sufficient.",
+      "hash": "a4f600e79890eb84",
+      "translations": {
+        "hi": {
+          "question": "डेटा पर्याप्तता: 'train' का कोड क्या है? I. 'fast train late' को 'jm mk lo' लिखा जाता है। II. 'train is fast' को 'mk lo in' लिखा जाता है।",
+          "options": {
+            "A": "केवल I पर्याप्त है",
+            "B": "केवल II पर्याप्त है",
+            "C": "दोनों मिलकर पर्याप्त हैं",
+            "D": "दोनों मिलकर भी पर्याप्त नहीं हैं"
+          },
+          "explanation": "दोनों बयानों से, 'train' और 'fast' दोनों शब्द कॉमन हैं और कोड 'mk' और 'lo' कॉमन हैं। हम यह निर्धारित नहीं कर सकते कि 'train' का कोड 'mk' है या 'lo' है। अतः दोनों मिलकर भी पर्याप्त नहीं हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-007",
+      "number": 7,
+      "question": "Logical Order: 1. Probation 2. Interview 3. Selection 4. Appointment 5. Advertisement 6. Application",
+      "options": {
+        "A": "5, 6, 2, 3, 4, 1",
+        "B": "5, 6, 3, 2, 4, 1",
+        "C": "5, 6, 4, 2, 3, 1",
+        "D": "6, 5, 2, 3, 4, 1"
+      },
+      "answer": "A",
+      "explanation": "Advertisement -> Application -> Interview -> Selection -> Appointment -> Probation.",
+      "hash": "39862ca3936cd539",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित शब्दों को तार्किक क्रम में व्यवस्थित करें: 1. परिवीक्षा (Probation) 2. साक्षात्कार 3. चयन 4. नियुक्ति 5. विज्ञापन 6. आवेदन",
+          "options": {
+            "A": "5, 6, 2, 3, 4, 1",
+            "B": "5, 6, 3, 2, 4, 1",
+            "C": "5, 6, 4, 2, 3, 1",
+            "D": "6, 5, 2, 3, 4, 1"
+          },
+          "explanation": "विज्ञापन -> आवेदन -> साक्षात्कार -> चयन -> नियुक्ति -> परिवीक्षा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-010",
+      "number": 10,
+      "question": "Analogy: 12 : 30 :: 14 : ?",
+      "options": {
+        "A": "35",
+        "B": "42",
+        "C": "36",
+        "D": "28"
+      },
+      "answer": "A",
+      "explanation": "Logic: n * 2.5. 14 * 2.5 = 35.",
+      "hash": "b8c252a4fc893a7b",
+      "translations": {
+        "hi": {
+          "question": "सादृश्यता (Analogy): 12 : 30 :: 14 : ?",
+          "options": {
+            "A": "35",
+            "B": "42",
+            "C": "36",
+            "D": "28"
+          },
+          "explanation": "तर्क: संख्या × 2.5 (या 5/2)। 12 × 2.5 = 30. 14 × 2.5 = 35."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-013",
+      "number": 13,
+      "question": "Find missing number: 6, 24, 60, 120, 210, ?",
+      "options": {
+        "A": "336",
+        "B": "343",
+        "C": "290",
+        "D": "310"
+      },
+      "answer": "A",
+      "explanation": "Logic: n³ - n. 7³ - 7 = 336.",
+      "hash": "1fd92c723ef026f4",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: 6, 24, 60, 120, 210, ?",
+          "options": {
+            "A": "336",
+            "B": "343",
+            "C": "290",
+            "D": "310"
+          },
+          "explanation": "तर्क: $n^3 - n$. $2^3 - 2 = 6$ $3^3 - 3 = 24$ $4^3 - 4 = 60$ $5^3 - 5 = 120$ $6^3 - 6 = 210$ अगला: $7^3 - 7 = 343 - 7 = 336$."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-016",
+      "number": 16,
+      "question": "Missing term: 4, 6, 12, 14, 28, 30, ?",
+      "options": {
+        "A": "60",
+        "B": "62",
+        "C": "32",
+        "D": "58"
+      },
+      "answer": "A",
+      "explanation": "Pattern: +2, *2, +2, *2. Next is 30*2 = 60.",
+      "hash": "06278fd93a2c6374",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद: 4, 6, 12, 14, 28, 30, ?",
+          "options": {
+            "A": "60",
+            "B": "62",
+            "C": "32",
+            "D": "58"
+          },
+          "explanation": "तर्क: +2, ×2, +2, ×2... 4+2=6, 6×2=12, 12+2=14, 14×2=28, 28+2=30. अगला: 30 × 2 = 60."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-017",
+      "number": 17,
+      "question": "If 15789 is XTZAL and 2346 is NPSU, how is 23549 written?",
+      "options": {
+        "A": "NPTSL",
+        "B": "NPTUL",
+        "C": "NBTSL",
+        "D": "PNTSL"
+      },
+      "answer": "A",
+      "explanation": "Direct digit-to-letter mapping. 2->N, 3->P, 5->T, 4->S, 9->L.",
+      "hash": "580d747238a3a9e1",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित कूट में, 15789 को XTZAL और 2346 को NPSU लिखा जाता है। उस कूट में 23549 को कैसे लिखा जाएगा?",
+          "options": {
+            "A": "NPTSL",
+            "B": "NPTUL",
+            "C": "NBTSL",
+            "D": "PNTSL"
+          },
+          "explanation": "सीधी कोडिंग (Direct Coding): 2=N, 3=P, 5=T, 4=S, 9=L. कोड: NPTSL."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-018",
+      "number": 18,
+      "question": "Statement: $A \\ge B = C < D \\le E$. Conclusions: I. $E > C$ II. $A > C$",
+      "options": {
+        "A": "Only I true",
+        "B": "Only II true",
+        "C": "Both true",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "From C < D <= E, C < E holds true. From A >= B = C, A >= C, so A > C is not definitely true.",
+      "hash": "94b28d2b4592fe59",
+      "translations": {
+        "hi": {
+          "question": "कथन: $A \\ge B = C < D \\le E$। निष्कर्ष: I. $E > C$ II. $A > C$",
+          "options": {
+            "A": "केवल I सत्य है",
+            "B": "केवल II सत्य है",
+            "C": "दोनों सत्य हैं",
+            "D": "कोई नहीं"
+          },
+          "explanation": "1. $C < D \\le E$ => $C < E$ या $E > C$। (I सत्य है)। 2. $A \\ge B = C$ => $A \\ge C$। निष्कर्ष में $A > C$ है (समानता/equal संभव है)। तो II गलत है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-019",
+      "number": 19,
+      "question": "Point A is 10m North of B. C is 10m East of A. D is 10m South of C. Distance between B and D?",
+      "options": {
+        "A": "10 m",
+        "B": "20 m",
+        "C": "15 m",
+        "D": "5 m"
+      },
+      "answer": "A",
+      "explanation": "A, B, C, D form a square/rectangle. B is west of D by 10m.",
+      "hash": "ace10de3d7caa972",
+      "translations": {
+        "hi": {
+          "question": "दिशा: बिंदु A, बिंदु B के 10 मीटर उत्तर में है। बिंदु C, A के 10 मीटर पूर्व में है। बिंदु D, C के 10 मीटर दक्षिण में है। B और D के बीच की दूरी क्या है?",
+          "options": {
+            "A": "10 मीटर",
+            "B": "20 मीटर",
+            "C": "15 मीटर",
+            "D": "5 मीटर"
+          },
+          "explanation": "A (10m) ^ | B -> ? D ऊपर A, नीचे B. A से C (दाएं 10m). C से D (नीचे 10m). चूंकि A और C समान ऊंचाई पर हैं, और B और D जमीन पर हैं (10m नीचे), तो B और D एक सीधी रेखा में हैं। A-C की दूरी 10m है, तो B-D की दूरी भी 10m होगी (आयत बनता है)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-020",
+      "number": 20,
+      "question": "Venn Diagram: Engineer, Male, Father",
+      "options": {
+        "A": "Father inside Male, Engineer intersects both",
+        "B": "Three separate",
+        "C": "Concentric",
+        "D": "Three intersecting"
+      },
+      "answer": "A",
+      "explanation": "All Fathers are Males. Engineers can be Fathers or Males (or females). So Engineer intersects the concentric Father-Male circles.",
+      "hash": "77587d4df102b964",
+      "translations": {
+        "hi": {
+          "question": "वेन आरेख: इंजीनियर, पुरुष, पिता",
+          "options": {
+            "A": "पिता पुरुषों के अंदर, इंजीनियर दोनों को काटता है",
+            "B": "तीनों अलग",
+            "C": "एक के अंदर एक",
+            "D": "तीनों काटते हुए"
+          },
+          "explanation": "सभी पिता पुरुष होते हैं (पिता का सर्कल पुरुष के अंदर)। इंजीनियर पुरुष भी हो सकते हैं, पिता भी हो सकते हैं, या महिलाएं (गैर-पुरुष) भी। तो इंजीनियर का सर्कल पुरुष और पिता दोनों को काटेगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-021",
+      "number": 21,
+      "question": "If South-East becomes North, what will South-West become?",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "North",
+        "D": "South"
+      },
+      "answer": "A",
+      "explanation": "Shift is 135° Anti-clockwise. SW shifted 135° ACW becomes East.",
+      "hash": "ce1991b43df17db3",
+      "translations": {
+        "hi": {
+          "question": "यदि दक्षिण-पूर्व 'उत्तर' हो जाता है, तो दक्षिण-पश्चिम क्या होगा?",
+          "options": {
+            "A": "पूर्व",
+            "B": "पश्चिम",
+            "C": "उत्तर",
+            "D": "दक्षिण"
+          },
+          "explanation": "SE (135° वामावर्त) -> N. SW (135° वामावर्त) -> पूर्व (East)। (SW -> S -> SE -> E)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-022",
+      "number": 22,
+      "question": "Angle between clock hands at 15:40 (3:40)?",
+      "options": {
+        "A": "130°",
+        "B": "140°",
+        "C": "150°",
+        "D": "120°"
+      },
+      "answer": "A",
+      "explanation": "Formula |30H - 11/2M|. |90 - 220| = 130°.",
+      "hash": "3d36bd078d940fc3",
+      "translations": {
+        "hi": {
+          "question": "15:40 पर घड़ी की सुइयों के बीच का कोण क्या है?",
+          "options": {
+            "A": "130°",
+            "B": "140°",
+            "C": "150°",
+            "D": "120°"
+          },
+          "explanation": "समय 3:40. कोण = |30(3) - 5.5(40)| = |90 - 220| = |-130| = 130°."
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-023",
+      "number": 23,
+      "question": "Statements: All actors are girls. All girls are beautiful. Conclusions: I. All actors are beautiful. II. Some beautiful are girls.",
+      "options": {
+        "A": "Both follow",
+        "B": "Only I",
+        "C": "Only II",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "A inside G inside B. All A are B is true. Some B are G is true.",
+      "hash": "a66b730903708f82",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी अभिनेता लड़कियां हैं। सभी लड़कियां सुंदर हैं। निष्कर्ष: I. सभी अभिनेता सुंदर हैं। II. कुछ सुंदर लड़कियां हैं।",
+          "options": {
+            "A": "दोनों अनुसरण करते हैं",
+            "B": "केवल I",
+            "C": "केवल II",
+            "D": "कोई नहीं"
+          },
+          "explanation": "अभिनेता -> लड़कियां -> सुंदर। सभी A, B हैं, सभी B, C हैं। -> सभी A, C हैं (I सही)। सुंदर का कुछ हिस्सा लड़कियां हैं (II सही)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-024",
+      "number": 24,
+      "question": "If $5 * 3 = 19$ and $8 * 5 = 49$, then $6 * 4 = ?$",
+      "options": {
+        "A": "28",
+        "B": "24",
+        "C": "30",
+        "D": "32"
+      },
+      "answer": "A",
+      "explanation": "Logic: A*B + (A-B)². 5*3 + 2² = 19. 8*5 + 3² = 49. 6*4 + 2² = 28.",
+      "hash": "d22c800edca4094e",
+      "translations": {
+        "hi": {
+          "question": "यदि $5 * 3 = 19$ और $8 * 5 = 49$, तो $6 * 4 = ?$",
+          "options": {
+            "A": "28",
+            "B": "24",
+            "C": "30",
+            "D": "32"
+          }
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-025",
+      "number": 25,
+      "question": "A cube is painted and cut into 27 small cubes. How many have exactly 2 faces painted?",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "6",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Formula for 2 painted faces: 12(n-2). Here n=3. 12(1) = 12.",
+      "hash": "1dac560c7e34600a",
+      "translations": {
+        "hi": {
+          "question": "एक घन के सभी फलकों को रंगा गया और 27 छोटे घनों में काटा गया। ऐसे कितने घन हैं जिनकी केवल 2 सतहें रंगी हुई हैं?",
+          "options": {
+            "A": "12",
+            "B": "8",
+            "C": "6",
+            "D": "4"
+          },
+          "explanation": "n = 3 (क्योंकि 3³=27)। 2 सतह रंगी हुई = 12(n-2) = 12(3-2) = 12 × 1 = 12।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-026",
+      "number": 26,
+      "question": "Statement: A > B, B >= C, C < D. Conclusions: I. A > C II. B < D",
+      "options": {
+        "A": "Only I true",
+        "B": "Only II true",
+        "C": "Both true",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "A > C is true. B vs D has conflicting signs (>= and <), so no definite relation.",
+      "hash": "b1bb7467090dcc03",
+      "translations": {
+        "hi": {
+          "question": "कथन: A > B, B $\\ge$ C, C < D। निष्कर्ष: I. A > C II. B < D",
+          "options": {
+            "A": "केवल I सत्य है",
+            "B": "केवल II सत्य है",
+            "C": "दोनों सत्य हैं",
+            "D": "कोई नहीं"
+          },
+          "explanation": "1. A > B $\\ge$ C -> A > C (सत्य)। 2. B $\\ge$ C < D -> B और D के बीच संबंध निर्धारित नहीं किया जा सकता (विपरीत संकेत)। (असत्य)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-027",
+      "number": 27,
+      "question": "Analogy: Brick : Wall :: ? : Organ",
+      "options": {
+        "A": "Tissue",
+        "B": "Cell",
+        "C": "Body",
+        "D": "Blood"
+      },
+      "answer": "A",
+      "explanation": "Bricks make a Wall. Tissues make an Organ.",
+      "hash": "ee9109437ac45ee4",
+      "translations": {
+        "hi": {
+          "question": "सादृश्यता: ईंट : दीवार :: ? : अंग",
+          "options": {
+            "A": "ऊतक (Tissue)",
+            "B": "कोशिका (Cell)",
+            "C": "शरीर",
+            "D": "रक्त"
+          },
+          "explanation": "ईंटों से दीवार बनती है। ऊतकों (Tissues) से अंग (Organ) बनते हैं। (कोशिका से ऊतक बनते हैं, ऊतक से अंग, अंग से शरीर)। सबसे निकटतम इकाई ऊतक है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-028",
+      "number": 28,
+      "question": "If Jan 1 2006 was Sunday, what was Jan 1 2010?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "answer": "A",
+      "explanation": "Odd days: 2006(1), 2007(1), 2008(2), 2009(1). Total 5. Sun+5=Fri.",
+      "hash": "fe37b9ceb04ca019",
+      "translations": {
+        "hi": {
+          "question": "यदि 1 जनवरी 2006 को रविवार था, तो 1 जनवरी 2010 को क्या दिन था?",
+          "options": {
+            "A": "शुक्रवार",
+            "B": "शनिवार",
+            "C": "रविवार",
+            "D": "सोमवार"
+          },
+          "explanation": "2006 (साधारण) -> 2007 (+1) 2007 -> 2008 (+1) 2008 (लीप) -> 2009 (+2) 2009 -> 2010 (+1) कुल विषम दिन = 1+1+2+1 = 5. रविवार + 5 = शुक्रवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-01-030",
+      "number": 30,
+      "question": "Vijay 14th from front, Jack 17th from end. Mary is exactly in middle of them. Total 48. Persons between Vijay and Mary?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "Jack's rank = 32. Between = 17. Midpoint splits 17 into 8 + 1 (Mary) + 8.",
+      "hash": "dc19d82cf2cf3bae",
+      "translations": {
+        "hi": {
+          "question": "एक कतार में, विजय आगे से 14वें और जैक पीछे से 17वें स्थान पर है। मेरी उनके ठीक बीच में है। यदि विजय जैक से आगे है और कतार में 48 व्यक्ति हैं, तो विजय और मेरी के बीच कितने व्यक्ति हैं?",
+          "options": {
+            "A": "8",
+            "B": "7",
+            "C": "6",
+            "D": "9"
+          },
+          "explanation": "विजय (14), जैक (पीछे से 17 = 48-17+1 = 32वां)। उनके बीच व्यक्ति = 32 - 14 - 1 = 17. मेरी बीच में है, तो (17-1)/2 = 8 व्यक्ति विजय और मेरी के बीच, 8 मेरी और जैक के बीच। उत्तर: 8."
+        }
+      }
+    }
+  ]
+}
