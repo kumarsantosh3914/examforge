@@ -7,7 +7,8 @@ export interface Question {
 }
 export interface Stored { _id: string; active: boolean; digest?: string }
 export interface Exam extends Stored { name: string; category: string | null; slug: string; categorySlug: string | null }
-export interface Subject extends Stored { examId: string; name: string; slug: string; setCount: number; questionCount: number; order: number }
+// `hindi` is false when some question has no Hindi translation; absent on records seeded before the field existed.
+export interface Subject extends Stored { examId: string; name: string; slug: string; setCount: number; questionCount: number; order: number; hindi?: boolean }
 export interface PracticeSet extends Stored { examId: string; subjectId: string; subject: string; number: number; title: string; questionCount: number; durationSeconds: number; negativeMarking?: number }
 export interface StoredQuestion extends Question, Stored { setId: string; order: number }
 export interface Actor { _id: string; kind: 'guest' | 'user'; completed: number; activeAttempt: string | null; revision: number; claimedBy?: string; createdAt: Date }

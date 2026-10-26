@@ -14,7 +14,7 @@ export default function OpengraphImage() {
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
         <div style={{ fontSize: 76, fontWeight: 700, lineHeight: 1.05, letterSpacing: -2 }}>Which exam are you preparing for?</div>
-        <div style={{ fontSize: 32, color: '#c4d4d9' }}>Timed mock tests with explanations in English and Hindi.</div>
+        <div style={{ fontSize: 32, color: '#c4d4d9' }}>Timed mock tests with explanations, in English and Hindi for many exams.</div>
       </div>
       <div style={{ display: 'flex', fontSize: 26, color: '#a9c1c7' }}>{siteUrl.host}</div>
     </div>,

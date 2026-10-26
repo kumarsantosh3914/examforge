@@ -1111,7 +1111,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the AFCAT exam',
     intro: [
       'The Air Force Common Admission Test (AFCAT) is the Indian Air Force’s entrance exam for commissioned officers in the Flying Branch and the Ground Duty (Technical and Non-Technical) branches. The IAF normally holds it twice a year, and the online test is followed by interviews and tests at an Air Force Selection Board (AFSB).',
-      'ExamForge gives you 4 free, timed AFCAT mock tests of 63 to 95 questions each, covering General Awareness, Verbal Ability in English, Numerical Ability and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 4 free, timed AFCAT mock tests of 63 to 95 questions each, covering General Awareness, Verbal Ability in English, Numerical Ability and Reasoning. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The real AFCAT deducts 1 mark for every wrong answer. ExamForge sets have no negative marking, so to rehearse exam scoring, take off one mark for each wrong answer and give yourself three for each right one.',
     ],
     facts: {
@@ -1194,7 +1194,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'How many questions does each ExamForge AFCAT set have?', answer: 'Mock tests 1 to 4 have 95, 83, 75 and 63 questions, with one minute for each question. The real paper has 100 questions in 2 hours.' },
       { question: 'Does ExamForge include the Engineering Knowledge Test?', answer: 'No. The sets cover the common written paper: General Awareness, English, Numerical Ability and Reasoning.' },
       { question: 'Does AFCAT have negative marking?', answer: 'Yes, 1 mark is deducted for each wrong answer. ExamForge does not deduct marks, so work out your real-exam score by hand after each set.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1202,7 +1202,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the Indian Army Agniveer exam',
     intro: [
       'Agniveer is the Indian Army’s recruitment route for soldiers under the Agnipath scheme: Agniveer General Duty (GD), Technical, Clerk and Store Keeper Technical, and Tradesmen. Selection starts with the online Common Entrance Examination (CEE), after which shortlisted candidates take the physical and medical tests.',
-      'ExamForge gives you 10 free, timed practice sets of 47 to 50 questions each, built around General Knowledge, General Science and Mathematics. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed practice sets of 47 to 50 questions each, built around General Knowledge, General Science and Mathematics. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The real CEE deducts marks for wrong answers in most categories. ExamForge does not, so after each set take off the penalty from the current notice for every wrong answer to see your exam-style score.',
     ],
     facts: {
@@ -1278,7 +1278,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'How many questions are in each ExamForge Agniveer set?', answer: 'Each set has between 47 and 50 questions, with one minute for each question.' },
       { question: 'Which Agniveer category do these sets suit?', answer: 'They are built for General Duty, and are also useful practice for the General Knowledge, Science and Maths parts of other categories.' },
       { question: 'Does the real exam have negative marking?', answer: 'In most categories, yes. ExamForge does not deduct marks, so check the penalty in the current notice and subtract it yourself.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1286,7 +1286,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the Bihar Police exam',
     intro: [
       'The Central Selection Board of Constables (CSBC), Bihar recruits constables (sipahi) for the Bihar Police. Selection starts with a written exam at Class 10 level, and only candidates who qualify are called for the physical test.',
-      'ExamForge gives you 10 free, timed Bihar Police mock tests of 93 to 100 questions each, covering General Knowledge, General Science, Mathematics, Hindi, English and Bihar GK. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed Bihar Police mock tests of 93 to 100 questions each, covering General Knowledge, General Science, Mathematics, Hindi, English and Bihar GK. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The written exam has no negative marking, and neither do these sets, so your score here is worked out the same way as in the exam.',
     ],
     facts: {
@@ -1365,7 +1365,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'How many questions does each set have?', answer: 'Between 93 and 100, with one minute for each question. The first two sets have 100.' },
       { question: 'Is there another Bihar Police exam on ExamForge?', answer: 'Yes. Bihar Police Constable is a separate exam page with sectional sets for General Knowledge and General Science. This page has 10 full mixed mock tests.' },
       { question: 'Does the exam have negative marking?', answer: 'No. A wrong answer costs nothing, so attempt every question.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1373,7 +1373,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the Delhi Police Constable exam',
     intro: [
       'The Staff Selection Commission (SSC) recruits Constables (Executive) for Delhi Police through a computer-based test (CBT). Candidates who clear the CBT go on to the Physical Endurance and Measurement Test (PE&MT) and a medical.',
-      'ExamForge gives you 10 free, timed Delhi Police mock tests of 80 to 90 questions each, covering General Knowledge and Current Affairs, Reasoning, Numerical Ability and Computer Fundamentals. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed Delhi Police mock tests of 80 to 90 questions each, covering General Knowledge and Current Affairs, Reasoning, Numerical Ability and Computer Fundamentals. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The real CBT deducts a quarter of a mark for every wrong answer. ExamForge sets do not, so take a quarter off for each wrong answer to see your exam-style score.',
     ],
     facts: {
@@ -1455,7 +1455,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'How many questions does each set have?', answer: 'Between 80 and 90, with one minute for each question. The real CBT has 100 questions in 90 minutes.' },
       { question: 'Does the exam have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1538,7 +1538,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { title: 'Skip, then return', detail: 'With a penalty on wrong answers, leave the unclear question and come back if time remains.' },
     ],
     faq: [
-      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as IBPS and SBI use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as IBPS and SBI use five options, A to E, for each question. ExamForge shows all five.' },
       { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 79, 59, 56, 46, 43, 26, 17, 19 and 9 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
       { question: 'Does IBPS PO have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
@@ -1548,7 +1548,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the Rajasthan Police Constable exam',
     intro: [
       'The Rajasthan Police Recruitment Board holds a written exam to select constables for Rajasthan Police. Candidates who pass it go on to physical standard and efficiency tests, and then to document verification and a medical.',
-      'ExamForge gives you 10 free, timed Rajasthan Police mock tests of 92 to 100 questions each, covering Reasoning, General Science, Computer Literacy, General Knowledge and Rajasthan GK: history, art, culture and geography. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed Rajasthan Police mock tests of 92 to 100 questions each, covering Reasoning, General Science, Computer Literacy, General Knowledge and Rajasthan GK: history, art, culture and geography. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'Whether the written exam deducts marks has varied between recruitment cycles. ExamForge sets have no negative marking, so check the current notice and apply any penalty yourself.',
     ],
     facts: {
@@ -1605,12 +1605,12 @@ export const examGuides: Record<string, ExamGuide> = {
     },
     tips: [
       { title: 'Give Rajasthan GK its own revision slot', detail: 'Forts, fairs, folk arts and districts return in every cycle and are easy to memorise from short notes.' },
-      { title: 'Use explanations to build notes', detail: 'ExamForge explanations in Hindi and English make good revision cards for the state’s history and culture.' },
+      { title: 'Use explanations to build notes', detail: 'ExamForge explanations make good revision cards for the state’s history and culture.' },
       { title: 'Attempt every question', detail: 'Unless the current notice says otherwise, review marks lost to blanks against marks lost to guesses.' },
     ],
     faq: [
       { question: 'How many questions does each set have?', answer: 'Between 92 and 100, with one minute for each question.' },
-      { question: 'Is the exam available in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1618,7 +1618,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the RRB Technician exam',
     intro: [
       'The Railway Recruitment Boards (RRBs) recruit Technicians for Indian Railways in two grades: Technician Grade I (Signal) and Technician Grade III. Selection is by computer-based tests (CBT), followed by document verification and a medical.',
-      'ExamForge gives you 10 free, timed RRB Technician mock tests of 92 to 100 questions each, covering Mathematics, General Intelligence and Reasoning, Basic Science and Engineering, and General Awareness. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed RRB Technician mock tests of 92 to 100 questions each, covering Mathematics, General Intelligence and Reasoning, Basic Science and Engineering, and General Awareness. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The real CBT deducts one-third of a mark for every wrong answer. ExamForge does not, so take a third off for each wrong answer to see your exam-style score.',
     ],
     facts: {
@@ -1700,7 +1700,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { question: 'How many questions does each set have?', answer: 'Between 92 and 100, with one minute for each question.' },
       { question: 'Does ExamForge cover both Grade I and Grade III?', answer: 'Yes. The common subjects are the same, so the sets suit both grades.' },
       { question: 'Does the exam have negative marking?', answer: 'Yes, one-third of a mark for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1781,7 +1781,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { title: 'Revise banking and finance news', detail: 'The main exam has a separate Financial Awareness section.' },
     ],
     faq: [
-      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five.' },
       { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 82, 68, 39, 49, 29, 40, 22, 13 and 9 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
       { question: 'Does SBI Clerk have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
@@ -1864,7 +1864,7 @@ export const examGuides: Record<string, ExamGuide> = {
       { title: 'Review every explanation', detail: 'For puzzles, the explanation shows a faster path, which matters more than getting the right answer slowly.' },
     ],
     faq: [
-      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five, in English and Hindi.' },
+      { question: 'Why are there 5 options per question?', answer: 'Banking exams such as SBI and IBPS use five options, A to E, for each question. ExamForge shows all five.' },
       { question: 'Why do later sets have fewer questions?', answer: 'Sets 1 to 10 have 100, 81, 60, 45, 37, 33, 31, 28, 22 and 11 questions. Set 1 is the full length; the later ones are short practice sets, with one minute for each question.' },
       { question: 'Does SBI PO have negative marking?', answer: 'Yes, 0.25 marks for each wrong answer. ExamForge does not deduct marks, so subtract the penalty yourself.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
@@ -1874,7 +1874,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the Teacher Eligibility Test (TET)',
     intro: [
       'A Teacher Eligibility Test (TET) is the qualifying exam you must pass to teach in a government school. The Central Board of Secondary Education holds the national CTET, and many states hold their own, such as UPTET, REET and Bihar TET. Paper I is for classes 1 to 5 and Paper II is for classes 6 to 8.',
-      'ExamForge gives you 4 free, timed TET mock tests of 114, 41, 33 and 28 questions, covering Child Development and Pedagogy, Mathematics, Environmental Studies, Hindi and English. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 4 free, timed TET mock tests of 114, 41, 33 and 28 questions, covering Child Development and Pedagogy, Mathematics, Environmental Studies, Hindi and English. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'Most TETs have no negative marking, and these sets do not, so your score here is worked out the same way as in the exam.',
     ],
     facts: {
@@ -1955,7 +1955,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Who should take these sets?', answer: 'Candidates preparing for CTET, UPTET, REET, Bihar TET and other state tests.' },
       { question: 'How many questions does each set have?', answer: 'The four sets have 114, 41, 33 and 28 questions, with one minute for each question.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -1963,7 +1963,7 @@ export const examGuides: Record<string, ExamGuide> = {
     heading: 'About the UP Police Constable exam',
     intro: [
       'The Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) recruits civil police constables through a written exam, followed by document verification, a physical standard test, a physical efficiency test and a medical. Recruitment drives are among the largest in the country.',
-      'ExamForge gives you 10 free, timed UP Police mock tests of 132 to 150 questions each, covering General Knowledge, General Hindi, Numerical and Mental Ability, and Mental Aptitude and Reasoning. Every question is in English and Hindi with an explanation after you submit. Your first three sets need no signup.',
+      'ExamForge gives you 10 free, timed UP Police mock tests of 132 to 150 questions each, covering General Knowledge, General Hindi, Numerical and Mental Ability, and Mental Aptitude and Reasoning. Every question has an explanation after you submit. The question bank is in English only. Your first three sets need no signup.',
       'The real exam deducts marks for wrong answers. ExamForge does not, so after each set take off the penalty to see your exam-style score.',
     ],
     facts: {
@@ -2046,7 +2046,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'How many questions does each set have?', answer: 'Between 132 and 150, with one minute for each question. The first set has 150 questions.' },
       { question: 'Does the exam have negative marking?', answer: 'Yes, 0.5 marks for each wrong answer in recent notices. ExamForge does not deduct marks, so subtract the penalty yourself.' },
-      { question: 'Can I practise in Hindi?', answer: 'Yes. Every question, option and explanation has a Hindi version, and you can switch language during the test.' },
+      { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },

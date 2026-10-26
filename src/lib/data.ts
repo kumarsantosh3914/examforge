@@ -50,7 +50,7 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
         if (subjectIndex.slug !== subject.slug || subjectIndex.subject !== subject.name || subject.setCount !== subjectIndex.sets.length) throw new Error(`Subject metadata mismatch: ${folder}`);
         const actual = (await readdir(folder)).filter(f => /^set-.*\.json$/.test(f)).sort();
         if (JSON.stringify(actual) !== JSON.stringify(subjectIndex.sets.map(s => s.file).sort())) throw new Error(`Set index mismatch: ${folder}`);
-        let subjectCount = 0;
+        let subjectCount = 0; let hindi = true;
         for (const set of subjectIndex.sets) {
           const file = path.join(folder, set.file);
           const source = setSchema.parse(await json(file));
@@ -69,6 +69,7 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
               continue;
             }
             const q = parsed.data;
+            if (!q.translations?.hi) hindi = false;
             const id = `${examId}/${q.id}`;
             if (seen.has(id)) throw new Error(`Duplicate question ID: ${q.id}`);
             seen.add(id);
@@ -79,7 +80,7 @@ export async function readBank(directory = process.env.QUESTION_BANK_DIR || 'cle
           // Sets allow one minute per question unless the subject index fixes a time limit.
           bank.sets.push({ _id: setId, examId, subjectId, subject: subject.name, number: set.set, title: set.title, questionCount: count, durationSeconds: (set.durationMinutes ?? count) * 60, ...(index.negativeMarking ? { negativeMarking: index.negativeMarking } : {}), active: true });
         }
-        bank.subjects.push({ _id: subjectId, examId, name: subject.name, slug: subject.slug, setCount: subjectIndex.sets.length, questionCount: subjectCount, order, active: true });
+        bank.subjects.push({ _id: subjectId, examId, name: subject.name, slug: subject.slug, setCount: subjectIndex.sets.length, questionCount: subjectCount, order, hindi, active: true });
       }
     }
   }

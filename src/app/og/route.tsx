@@ -19,6 +19,7 @@ export async function GET(request: Request) {
   const headline = subject ? subject.name : parent ? `${examName} mock tests` : 'Free mock tests';
   const eyebrow = subject ? examName : family ? `${family} exams` : 'ExamForge';
   const subjects = catalog?.subjects.filter(s => s.examId === parent?._id) ?? [];
+  const hindi = subject ? subject.hindi !== false : subjects.some(s => s.hindi !== false);
   const stats = subject ? `${subject.setCount} free sets · ${subject.questionCount.toLocaleString('en-IN')} questions`
     : parent && subjects.length ? `${catalog?.sets.filter(s => s.examId === parent._id).length} free sets · ${subjects.reduce((n, s) => n + s.questionCount, 0).toLocaleString('en-IN')} questions` : 'Free timed practice sets';
 
@@ -31,7 +32,7 @@ export async function GET(request: Request) {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
         <div style={{ display: 'flex', fontSize: 32, color: '#7fd6ae', fontWeight: 700 }}>{eyebrow}</div>
         <div style={{ display: 'flex', fontSize: headline.length > 28 ? 62 : 76, fontWeight: 700, lineHeight: 1.05, letterSpacing: -2 }}>{headline}</div>
-        <div style={{ display: 'flex', fontSize: 32, color: '#c4d4d9' }}>{stats} · English and Hindi explanations</div>
+        <div style={{ display: 'flex', fontSize: 32, color: '#c4d4d9' }}>{stats} · {hindi ? 'English and Hindi explanations' : 'Explained answers'}</div>
       </div>
       <div style={{ display: 'flex', fontSize: 26, color: '#a9c1c7' }}>{siteUrl.host}</div>
     </div>,

@@ -48,7 +48,7 @@ export function Landing({ initialCatalog = null }: { initialCatalog?: Catalog | 
     <section className="hero-band" aria-labelledby="hero-title">
       <div className="hero-inner">
         <h1 id="hero-title">Which exam are you preparing&nbsp;for?</h1>
-        <p className="hero-lede">Timed mock tests that save every answer as you go, with explanations in English and <span lang="hi">हिन्दी</span>. Your first three sets need no signup.</p>
+        <p className="hero-lede">Timed mock tests that save every answer as you go, with explanations, in English and <span lang="hi">हिन्दी</span> for many exams. Your first three sets need no signup.</p>
         <form className="hero-search" role="search" onSubmit={e => { e.preventDefault(); document.getElementById('exams')?.scrollIntoView({ behavior: 'smooth' }); }}>
           <label htmlFor="exam-search" className="sr-only">Search exams</label>
           <Search size={20} aria-hidden="true" />
@@ -80,7 +80,7 @@ export function Landing({ initialCatalog = null }: { initialCatalog?: Catalog | 
       <ol>
         <li><Clock3 size={22} aria-hidden="true" /><div><strong>On the clock</strong><p>One minute per question, timed by the server so a refresh never resets it.</p></div></li>
         <li><ShieldCheck size={22} aria-hidden="true" /><div><strong>Saved as you answer</strong><p>Refresh or close the tab and your test resumes where you left it. Sign in to pick it up on another device.</p></div></li>
-        <li><Languages size={22} aria-hidden="true" /><div><strong>Reviewed in two languages</strong><p>Every question comes back with its correct answer and an explanation in English and <span lang="hi">हिन्दी</span>.</p></div></li>
+        <li><Languages size={22} aria-hidden="true" /><div><strong>Reviewed in your language</strong><p>Every question comes back with its correct answer and an explanation, in English and <span lang="hi">हिन्दी</span> for many exams.</p></div></li>
       </ol>
       {!session?.email && <p className="flow-note">{session ? `${session.remaining} of 3 free sets left on this device.` : 'Three free sets on this device.'} <Link href="/auth?mode=register">Create a free account</Link> to keep practising and keep your history.</p>}
     </section>

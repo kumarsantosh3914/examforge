@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!exam) return { title: 'Exam not found', robots: { index: false } };
   if (subject) {
     const short = examShortTitle(exam); const name = /mock test/i.test(subject.name) ? subject.name : `${subject.name} Mock Test`;
-    return social(fitTitle(`${short} ${name}: ${subject.setCount} Free Sets`, `${short} ${name}`), `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id), id);
+    return social(fitTitle(`${short} ${name}: ${subject.setCount} Free Sets`, `${short} ${name}`), `${subject.setCount} free timed ${/mock test/i.test(subject.name) ? (subject.name === 'Mock Tests' ? 'mock tests' : `${subject.name} sets`) : `${subject.name} mock tests`} with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained${subject.hindi === false ? '' : ' in English and Hindi'}.`, subjectHref(id), id);
   }
   const subjects = catalog.subjects.filter(s => s.examId === id);
   const sets = catalog.sets.filter(s => s.examId === id).length;
   const questions = subjects.reduce((n, s) => n + s.questionCount, 0);
   // Matches how people search: "<exam> mock test", "free", "test series", and the current year.
   const year = new Date().getFullYear(); const fit = fitTitle(...(liveExamMeta[id]?.metaTitle ? [liveExamMeta[id].metaTitle] : []), `${examShortTitle(exam)} Mock Test ${year}: Free Test Series`, `${examShortTitle(exam)} Mock Test ${year}`);
-  const description = liveExamMeta[id]?.description ?? `${examTitle(exam)} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations in English and Hindi.`;
+  const description = liveExamMeta[id]?.description ?? `${examTitle(exam)} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations${subjects.some(s => s.hindi !== false) ? ' in English and Hindi' : ''}.`;
   return social(fit, description, examHref(id), id);
 }
 

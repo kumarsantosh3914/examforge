@@ -27,7 +27,7 @@ export function SubjectGuide({ subject, catalog }: { subject: Subject; catalog: 
     <h2 id="subject-guide-title">{isMock ? `About these ${short} full-length mock tests` : `About these ${short} ${subject.name} sets`}</h2>
     <div className="guide-body">
       <div className="guide-intro">
-        <p>{subject.setCount} free {isMock ? `full-length ${short} mock tests` : `${subject.name} mock tests for ${title}`}, with {subject.questionCount.toLocaleString('en-IN')} questions in all{perSet ? `. Each set has ${perSet}` : ''}. Every question is in English and Hindi, and each one is explained after you submit.</p>
+        <p>{subject.setCount} free {isMock ? `full-length ${short} mock tests` : `${subject.name} mock tests for ${title}`}, with {subject.questionCount.toLocaleString('en-IN')} questions in all{perSet ? `. Each set has ${perSet}` : ''}. {subject.hindi === false ? 'Every question is explained after you submit; this question bank is in English only.' : 'Every question is in English and Hindi, and each one is explained after you submit.'}</p>
         <p>{penalty ? `Like the real exam, ${penalty} marks are deducted for each wrong answer and unanswered questions cost nothing.` : 'Wrong answers cost nothing here, so check the exam pattern and apply the real negative marking to your score yourself.'} Your first three sets need no signup.</p>
       </div>
 
