@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ExamGuide } from '@/components/exam-guide';
 import { Library } from '@/components/library';
+import { RelatedExams } from '@/components/related-exams';
 import { SubjectGuide } from '@/components/subject-guide';
 import { getCatalogOrNull } from '@/lib/catalog';
 import { examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
@@ -58,6 +59,6 @@ export default async function ExamPage({ params }: Props) {
   ] : null;
   return <>
     {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />}
-    <Suspense><Library id={id} initialCatalog={catalog}>{subject && catalog ? <SubjectGuide subject={subject} catalog={catalog} /> : <ExamGuide examId={id} />}</Library></Suspense>
+    <Suspense><Library id={id} initialCatalog={catalog}>{subject && catalog ? <SubjectGuide subject={subject} catalog={catalog} /> : <><ExamGuide examId={id} />{exam && catalog && <RelatedExams examId={id} catalog={catalog} />}</>}</Library></Suspense>
   </>;
 }
