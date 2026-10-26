@@ -14,18 +14,35 @@ export function SubjectGuide({ subject, catalog }: { subject: Subject; catalog: 
   const sets = catalog.sets.filter(s => s.subjectId === subject._id);
   // Only state a per-set size when every set shares it; full mock tests vary.
   const uniform = sets.length > 0 && sets.every(s => s.questionCount === sets[0].questionCount && s.durationSeconds === sets[0].durationSeconds);
-  const perSet = uniform ? `${sets[0].questionCount} questions in ${Math.ceil(sets[0].durationSeconds / 60)} minutes` : '';
+  const counts = sets.map(s => s.questionCount);
+  // Full mock tests can vary in length, so give the range rather than leaving the size out.
+  const perSet = uniform ? `${sets[0].questionCount} questions in ${Math.ceil(sets[0].durationSeconds / 60)} minutes` : Math.min(...counts) < Math.max(...counts) ? `between ${Math.min(...counts)} and ${Math.max(...counts)} questions` : '';
+  const isMock = /mock test/i.test(subject.name);
   const penalty = sets[0]?.negativeMarking;
+  const pattern = isMock ? examGuides[exam._id]?.pattern : undefined;
   const areas = examGuides[exam._id]?.syllabus?.areas.filter(a => a.subjects?.includes(subject.slug)) ?? [];
   const siblings = catalog.subjects.filter(s => s.examId === exam._id && s._id !== subject._id);
 
   return <section className="exam-guide" aria-labelledby="subject-guide-title">
-    <h2 id="subject-guide-title">About these {short} {subject.name} sets</h2>
+    <h2 id="subject-guide-title">{isMock ? `About these ${short} full-length mock tests` : `About these ${short} ${subject.name} sets`}</h2>
     <div className="guide-body">
       <div className="guide-intro">
-        <p>{subject.setCount} free {subject.name} mock tests for {title}, with {subject.questionCount.toLocaleString('en-IN')} questions in all{perSet ? `. Each set has ${perSet}` : ''}. Every question is in English and Hindi, and each one is explained after you submit.</p>
+        <p>{subject.setCount} free {isMock ? `full-length ${short} mock tests` : `${subject.name} mock tests for ${title}`}, with {subject.questionCount.toLocaleString('en-IN')} questions in all{perSet ? `. Each set has ${perSet}` : ''}. Every question is in English and Hindi, and each one is explained after you submit.</p>
         <p>{penalty ? `Like the real exam, ${penalty} marks are deducted for each wrong answer and unanswered questions cost nothing.` : 'Wrong answers cost nothing here, so check the exam pattern and apply the real negative marking to your score yourself.'} Your first three sets need no signup.</p>
       </div>
+
+      {pattern && <section aria-labelledby="subject-pattern-title">
+        <h3 id="subject-pattern-title">The real {short} paper</h3>
+        <p>{pattern.summary}</p>
+        <div className="guide-table-wrap">
+          <table className="guide-table">
+            <caption className="sr-only">{pattern.caption}</caption>
+            <thead><tr><th scope="col">Section</th><th scope="col">Subject</th><th scope="col" className="num">Questions</th><th scope="col" className="num">Marks</th></tr></thead>
+            <tbody>{pattern.sections.map(s => <tr key={s.subject}><th scope="row">{s.part}</th><td>{s.subject}</td><td className="num">{s.questions}</td><td className="num">{s.marks}</td></tr>)}</tbody>
+            <tfoot><tr><th scope="row">Total</th><td>{pattern.duration} for the whole paper</td><td className="num">{pattern.sections.reduce((n, s) => n + s.questions, 0)}</td><td className="num">{pattern.sections.reduce((n, s) => n + s.marks, 0)}</td></tr></tfoot>
+          </table>
+        </div>
+      </section>}
 
       {areas.length > 0 && <section aria-labelledby="subject-covers-title">
         <h3 id="subject-covers-title">What these sets cover</h3>

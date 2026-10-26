@@ -13,7 +13,7 @@ export function ErrorMessage({ message, retry }: { message: string; retry?: () =
 export function Loading({ label = 'Loading your practice space…' }: { label?: string }) { return <div className="loading" role="status"><span className="spinner" />{label}</div>; }
 
 const links = [
-  { href: '/', label: 'Exams', active: (p: string) => p === '/' || p.startsWith('/exams') || p === '/practice' },
+  { href: '/', label: 'Exams', active: (p: string) => p === '/' || p.startsWith('/exams') },
   { href: '/attempts', label: 'My attempts', active: (p: string) => p === '/attempts' || p.startsWith('/results') },
 ];
 
