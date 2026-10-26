@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 6,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-06-001",
+      "number": 1,
+      "question": "In a right triangle, what is sin θ equal to?",
+      "options": {
+        "A": "लंब/कर्ण (P/H)",
+        "B": "आधार/कर्ण (B/H)",
+        "C": "लंब/आधार (P/B)",
+        "D": "कर्ण/लंब (H/P)"
+      },
+      "answer": "A",
+      "explanation": "sin θ = Perpendicular / Hypotenuse.",
+      "hash": "e9f3016474e4b819",
+      "translations": {
+        "hi": {
+          "question": "समकोण त्रिभुज में sin θ किसके बराबर होता है?",
+          "options": {
+            "A": "लंब/कर्ण (P/H)",
+            "B": "आधार/कर्ण (B/H)",
+            "C": "लंब/आधार (P/B)",
+            "D": "कर्ण/लंब (H/P)"
+          },
+          "explanation": "sin θ = लंब / कर्ण (Perpendicular / Hypotenuse)।"
+        }
+      }
+    },
+    {
+      "id": "math-06-002",
+      "number": 2,
+      "question": "What is the value of tan 45°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "√3",
+        "D": "1/√3"
+      },
+      "answer": "B",
+      "explanation": "tan 45° = 1.",
+      "hash": "50a1c477c18d6458",
+      "translations": {
+        "hi": {
+          "question": "tan 45° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "√3",
+            "D": "1/√3"
+          },
+          "explanation": "tan 45° = 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-003",
+      "number": 3,
+      "question": "What is the value of 1 - sin² θ?",
+      "options": {
+        "A": "cos² θ",
+        "B": "tan² θ",
+        "C": "sec² θ",
+        "D": "cot² θ"
+      },
+      "answer": "A",
+      "explanation": "From identity sin² θ + cos² θ = 1.",
+      "hash": "f12bcd6b6fd8da0c",
+      "translations": {
+        "hi": {
+          "question": "1 - sin² θ का मान किसके बराबर है?",
+          "options": {
+            "A": "cos² θ",
+            "B": "tan² θ",
+            "C": "sec² θ",
+            "D": "cot² θ"
+          },
+          "explanation": "sin² θ + cos² θ = 1, इसलिए 1 - sin² θ = cos² θ।"
+        }
+      }
+    },
+    {
+      "id": "math-06-004",
+      "number": 4,
+      "question": "If sin A = 3/5, what is cos A?",
+      "options": {
+        "A": "4/5",
+        "B": "5/4",
+        "C": "3/4",
+        "D": "5/3"
+      },
+      "answer": "A",
+      "explanation": "Using Pythagoras triplet (3, 4, 5), Base=4. cos A = 4/5.",
+      "hash": "53917fc3578a58a9",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = 3/5 है, तो cos A का मान क्या होगा?",
+          "options": {
+            "A": "4/5",
+            "B": "5/4",
+            "C": "3/4",
+            "D": "5/3"
+          },
+          "explanation": "पाइथागोरस त्रिक (3, 4, 5) से, यदि लंब=3, कर्ण=5, तो आधार=4। cos A = आधार/कर्ण = 4/5।"
+        }
+      }
+    },
+    {
+      "id": "math-06-005",
+      "number": 5,
+      "question": "What is the value of cosec 30°?",
+      "options": {
+        "A": "1/2",
+        "B": "2",
+        "C": "√3/2",
+        "D": "1"
+      },
+      "answer": "B",
+      "explanation": "Reciprocal of sin 30°.",
+      "hash": "9458fd620f91e71f",
+      "translations": {
+        "hi": {
+          "question": "cosec 30° का मान क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "2",
+            "C": "√3/2",
+            "D": "1"
+          },
+          "explanation": "cosec 30° = 1/sin 30° = 1/(1/2) = 2।"
+        }
+      }
+    },
+    {
+      "id": "math-06-006",
+      "number": 6,
+      "question": "Value of sec² A - tan² A?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "Standard trigonometric identity.",
+      "hash": "ac7552ab2298077b",
+      "translations": {
+        "hi": {
+          "question": "sec² A - tan² A का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "यह एक सर्वसमिका है: 1 + tan² A = sec² A => sec² A - tan² A = 1।"
+        }
+      }
+    },
+    {
+      "id": "math-06-007",
+      "number": 7,
+      "question": "Value of sin 60° × cos 30°?",
+      "options": {
+        "A": "1/4",
+        "B": "3/4",
+        "C": "1/2",
+        "D": "1"
+      },
+      "answer": "B",
+      "explanation": "(√3/2) * (√3/2) = 3/4.",
+      "hash": "7c6eea17831e5d6c",
+      "translations": {
+        "hi": {
+          "question": "sin 60° × cos 30° का मान क्या है?",
+          "options": {
+            "A": "1/4",
+            "B": "3/4",
+            "C": "1/2",
+            "D": "1"
+          },
+          "explanation": "(√3/2) × (√3/2) = 3/4।"
+        }
+      }
+    },
+    {
+      "id": "math-06-008",
+      "number": 8,
+      "question": "If tan θ = 1, then θ is?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "tan 45° = 1.",
+      "hash": "dc30dba6e6436a30",
+      "translations": {
+        "hi": {
+          "question": "यदि tan θ = 1 है, तो θ का मान क्या है?",
+          "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "explanation": "tan 45° = 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-009",
+      "number": 9,
+      "question": "9 sec² A - 9 tan² A is equal to?",
+      "options": {
+        "A": "1",
+        "B": "9",
+        "C": "8",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "9(1) = 9.",
+      "hash": "ec666b32fef793dc",
+      "translations": {
+        "hi": {
+          "question": "9 sec² A - 9 tan² A किसके बराबर है?",
+          "options": {
+            "A": "1",
+            "B": "9",
+            "C": "8",
+            "D": "0"
+          },
+          "explanation": "9(sec² A - tan² A) = 9(1) = 9।"
+        }
+      }
+    },
+    {
+      "id": "math-06-010",
+      "number": 10,
+      "question": "Angle between line of sight and horizontal when object is above?",
+      "options": {
+        "A": "अवनमन कोण",
+        "B": "उन्नयन कोण (Angle of Elevation)",
+        "C": "समकोण",
+        "D": "सरल कोण"
+      },
+      "answer": "B",
+      "explanation": "Angle of Elevation.",
+      "hash": "65349f629d034588",
+      "translations": {
+        "hi": {
+          "question": "दृष्टि रेखा (Line of Sight) और क्षैतिज रेखा के बीच बने कोण को क्या कहते हैं जब वस्तु ऊपर हो?",
+          "options": {
+            "A": "अवनमन कोण",
+            "B": "उन्नयन कोण (Angle of Elevation)",
+            "C": "समकोण",
+            "D": "सरल कोण"
+          },
+          "explanation": "ऊपर देखने पर 'उन्नयन कोण' बनता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-011",
+      "number": 11,
+      "question": "Height of tower equals shadow length. Sun's elevation angle?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "tan θ = 1 implies θ = 45°.",
+      "hash": "67f0080d151b2eec",
+      "translations": {
+        "hi": {
+          "question": "एक मीनार की ऊंचाई और उसकी छाया की लंबाई समान है। सूर्य का उन्नयन कोण क्या है?",
+          "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "explanation": "tan θ = लंब/आधार = 1 => θ = 45°।"
+        }
+      }
+    },
+    {
+      "id": "math-06-012",
+      "number": 12,
+      "question": "If 15 cot A = 8, value of sin A?",
+      "options": {
+        "A": "15/17",
+        "B": "17/15",
+        "C": "8/17",
+        "D": "17/8"
+      },
+      "answer": "A",
+      "explanation": "P=15, B=8, H=17. sin A = 15/17.",
+      "hash": "dce196e3bfff7124",
+      "translations": {
+        "hi": {
+          "question": "यदि 15 cot A = 8 है, तो sin A का मान क्या है?",
+          "options": {
+            "A": "15/17",
+            "B": "17/15",
+            "C": "8/17",
+            "D": "17/8"
+          },
+          "explanation": "cot A = 8/15 (B/P)। H = √(8²+15²) = 17। sin A = P/H = 15/17।"
+        }
+      }
+    },
+    {
+      "id": "math-06-013",
+      "number": 13,
+      "question": "sin(90 - A) is equal to?",
+      "options": {
+        "A": "sin A",
+        "B": "cos A",
+        "C": "tan A",
+        "D": "cosec A"
+      },
+      "answer": "B",
+      "explanation": "Complementary angle formula.",
+      "hash": "58053fd45ccc78de",
+      "translations": {
+        "hi": {
+          "question": "sin(90 - A) किसके बराबर है?",
+          "options": {
+            "A": "sin A",
+            "B": "cos A",
+            "C": "tan A",
+            "D": "cosec A"
+          },
+          "explanation": "पूरक कोण सूत्र: sin(90 - A) = cos A।"
+        }
+      }
+    },
+    {
+      "id": "math-06-014",
+      "number": 14,
+      "question": "Value of cos 90°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "अनंत",
+        "D": "1/2"
+      },
+      "answer": "A",
+      "explanation": "cos 90° = 0.",
+      "hash": "a7a9c935271a2b0b",
+      "translations": {
+        "hi": {
+          "question": "cos 90° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "अनंत",
+            "D": "1/2"
+          },
+          "explanation": "cos 90° = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-06-015",
+      "number": 15,
+      "question": "Value of 2 tan 30° / (1 + tan² 30°)?",
+      "options": {
+        "A": "sin 60°",
+        "B": "cos 60°",
+        "C": "tan 60°",
+        "D": "sin 30°"
+      },
+      "answer": "A",
+      "explanation": "Formula for sin 2A. Value is √3/2 which is sin 60°.",
+      "hash": "d68f92f8820b63b1",
+      "translations": {
+        "hi": {
+          "question": "2 tan 30° / (1 + tan² 30°) का मान क्या है?",
+          "options": {
+            "A": "sin 60°",
+            "B": "cos 60°",
+            "C": "tan 60°",
+            "D": "sin 30°"
+          },
+          "explanation": "यह sin 2A का सूत्र है। sin(2×30) = sin 60°। (हल: 2(1/√3) / (1+1/3) = √3/2)।"
+        }
+      }
+    },
+    {
+      "id": "math-06-016",
+      "number": 16,
+      "question": "String length 100m, angle 60°. Height of kite?",
+      "options": {
+        "A": "50√3 मी",
+        "B": "100√3 मी",
+        "C": "50 मी",
+        "D": "100/√3 मी"
+      },
+      "answer": "A",
+      "explanation": "sin 60 = P/H => h = 50√3.",
+      "hash": "fd4961b085ccecff",
+      "translations": {
+        "hi": {
+          "question": "एक पतंग की डोरी 100 मीटर लंबी है और यह क्षैतिज के साथ 60° का कोण बनाती है। पतंग की ऊंचाई (h) क्या है?",
+          "options": {
+            "A": "50√3 मी",
+            "B": "100√3 मी",
+            "C": "50 मी",
+            "D": "100/√3 मी"
+          },
+          "explanation": "sin 60° = h/100 => √3/2 = h/100 => h = 50√3।"
+        }
+      }
+    },
+    {
+      "id": "math-06-017",
+      "number": 17,
+      "question": "Which value cannot be greater than 1?",
+      "options": {
+        "A": "sin θ",
+        "B": "sec θ",
+        "C": "cosec θ",
+        "D": "tan θ"
+      },
+      "answer": "A",
+      "explanation": "Range of sin θ is [-1, 1].",
+      "hash": "b3ad62ef80ba6fc6",
+      "translations": {
+        "hi": {
+          "question": "किसका मान 1 से अधिक नहीं हो सकता?",
+          "options": {
+            "A": "sin θ",
+            "B": "sec θ",
+            "C": "cosec θ",
+            "D": "tan θ"
+          },
+          "explanation": "sin θ और cos θ का मान -1 और 1 के बीच होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-018",
+      "number": 18,
+      "question": "Relation between Angle of Depression and Angle of Elevation?",
+      "options": {
+        "A": "समान होते हैं",
+        "B": "अवनमन कोण बड़ा होता है",
+        "C": "उन्नयन कोण बड़ा होता है",
+        "D": "कोई संबंध नहीं"
+      },
+      "answer": "A",
+      "explanation": "They are numerically equal (Alternate angles).",
+      "hash": "40ca7bf762aea12f",
+      "translations": {
+        "hi": {
+          "question": "अवनमन कोण (Angle of Depression) और उन्नयन कोण (Angle of Elevation) में क्या संबंध है?",
+          "options": {
+            "A": "समान होते हैं",
+            "B": "अवनमन कोण बड़ा होता है",
+            "C": "उन्नयन कोण बड़ा होता है",
+            "D": "कोई संबंध नहीं"
+          },
+          "explanation": "एकांतर कोण (Alternate angles) होने के कारण ये संख्यात्मक रूप से समान होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-06-019",
+      "number": 19,
+      "question": "(1 + tan² A) / (1 + cot² A) equals?",
+      "options": {
+        "A": "sec² A",
+        "B": "-1",
+        "C": "cot² A",
+        "D": "tan² A"
+      },
+      "answer": "D",
+      "explanation": "Simplifies to tan² A.",
+      "hash": "87cbf22dcae51a89",
+      "translations": {
+        "hi": {
+          "question": "(1 + tan² A) / (1 + cot² A) बराबर है?",
+          "options": {
+            "A": "sec² A",
+            "B": "-1",
+            "C": "cot² A",
+            "D": "tan² A"
+          },
+          "explanation": "sec² A / cosec² A = (1/cos²) / (1/sin²) = sin²/cos² = tan² A।"
+        }
+      }
+    },
+    {
+      "id": "math-06-020",
+      "number": 20,
+      "question": "Value of sin² 25° + sin² 65°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "1/2"
+      },
+      "answer": "B",
+      "explanation": "Identity sin² A + cos² A = 1.",
+      "hash": "f1b05ea5551e1bf5",
+      "translations": {
+        "hi": {
+          "question": "sin² 25° + sin² 65° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "1/2"
+          },
+          "explanation": "sin² 65 = cos² 25। sin² 25 + cos² 25 = 1।"
+        }
+      }
+    },
+    {
+      "id": "math-06-021",
+      "number": 21,
+      "question": "Pole height 6m, shadow 2√3m. Sun's angle?",
+      "options": {
+        "A": "60°",
+        "B": "45°",
+        "C": "30°",
+        "D": "90°"
+      },
+      "answer": "A",
+      "explanation": "tan θ = √3 => θ = 60°.",
+      "hash": "9992eefc38d6e9f6",
+      "translations": {
+        "hi": {
+          "question": "एक 6 मी ऊंचे खंभे की छाया पृथ्वी पर 2√3 मी लंबी है। सूर्य का उन्नयन कोण है?",
+          "options": {
+            "A": "60°",
+            "B": "45°",
+            "C": "30°",
+            "D": "90°"
+          },
+          "explanation": "tan θ = 6 / 2√3 = 3/√3 = √3। tan 60° = √3।"
+        }
+      }
+    },
+    {
+      "id": "math-06-022",
+      "number": 22,
+      "question": "Value of cos 48° - sin 42°?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "Terms cancel out to 0.",
+      "hash": "15722d428e86a19b",
+      "translations": {
+        "hi": {
+          "question": "cos 48° - sin 42° का मान है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "-1"
+          },
+          "explanation": "cos 48 = sin(90-48) = sin 42। अतः sin 42 - sin 42 = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-06-023",
+      "number": 23,
+      "question": "Value of tan A is always?",
+      "options": {
+        "A": "1 से कम",
+        "B": "1 से बड़ा",
+        "C": "कुछ भी हो सकता है (वास्तविक संख्या)",
+        "D": "केवल धनात्मक"
+      },
+      "answer": "C",
+      "explanation": "Range is all real numbers.",
+      "hash": "4bddb3073fa6b413",
+      "translations": {
+        "hi": {
+          "question": "tan A का मान हमेशा होता है?",
+          "options": {
+            "A": "1 से कम",
+            "B": "1 से बड़ा",
+            "C": "कुछ भी हो सकता है (वास्तविक संख्या)",
+            "D": "केवल धनात्मक"
+          },
+          "explanation": "tan A का मान -∞ से +∞ तक कुछ भी हो सकता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-024",
+      "number": 24,
+      "question": "If 2 sin 2θ = √3, then θ?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "15°"
+      },
+      "answer": "A",
+      "explanation": "2θ = 60° => θ = 30°.",
+      "hash": "6b84bd716793b631",
+      "translations": {
+        "hi": {
+          "question": "यदि 2 sin 2θ = √3, तो θ का मान?",
+          "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "15°"
+          },
+          "explanation": "sin 2θ = √3/2 = sin 60° => 2θ = 60° => θ = 30°।"
+        }
+      }
+    },
+    {
+      "id": "math-06-025",
+      "number": 25,
+      "question": "Value of cot 90°?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "अपरिभाषित",
+        "D": "√3"
+      },
+      "answer": "B",
+      "explanation": "0.",
+      "hash": "88259d7fe0719f6e",
+      "translations": {
+        "hi": {
+          "question": "cot 90° का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "अपरिभाषित",
+            "D": "√3"
+          },
+          "explanation": "cot 90 = cos 90 / sin 90 = 0/1 = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-06-026",
+      "number": 26,
+      "question": "River width 20m, angle 60°. Height of tree?",
+      "options": {
+        "A": "20√3 मी",
+        "B": "20/√3 मी",
+        "C": "10 मी",
+        "D": "40 मी"
+      },
+      "answer": "A",
+      "explanation": "h = 20√3 m.",
+      "hash": "48145f8bc5e7a47e",
+      "translations": {
+        "hi": {
+          "question": "नदी के एक किनारे पर खड़ा पेड़ दूसरे किनारे पर 60° का कोण बनाता है। यदि नदी की चौड़ाई 20 मी हो तो पेड़ की ऊंचाई?",
+          "options": {
+            "A": "20√3 मी",
+            "B": "20/√3 मी",
+            "C": "10 मी",
+            "D": "40 मी"
+          },
+          "explanation": "tan 60 = h/20 => √3 = h/20 => h = 20√3।"
+        }
+      }
+    },
+    {
+      "id": "math-06-027",
+      "number": 27,
+      "question": "√[(1 + sin A)/(1 - sin A)] equals?",
+      "options": {
+        "A": "sec A + tan A",
+        "B": "sec A - tan A",
+        "C": "cosec A + cot A",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "Rationalization leads to sec A + tan A.",
+      "hash": "8400504469bc6e09",
+      "translations": {
+        "hi": {
+          "question": "√[(1 + sin A)/(1 - sin A)] बराबर है?",
+          "options": {
+            "A": "sec A + tan A",
+            "B": "sec A - tan A",
+            "C": "cosec A + cot A",
+            "D": "1"
+          },
+          "explanation": "हर का परिमेयकरण करने पर (sec A + tan A) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-06-028",
+      "number": 28,
+      "question": "Value of sin A × cosec A?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "Reciprocals multiply to 1.",
+      "hash": "fb136dd1e338852a",
+      "translations": {
+        "hi": {
+          "question": "sin A × cosec A का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "sin A × (1/sin A) = 1।"
+        }
+      }
+    },
+    {
+      "id": "math-06-029",
+      "number": 29,
+      "question": "If A, B, C are angles of a triangle, sin(B+C)/2 equals?",
+      "options": {
+        "A": "sin A/2",
+        "B": "cos A/2",
+        "C": "tan A/2",
+        "D": "sec A/2"
+      },
+      "answer": "B",
+      "explanation": "cos A/2.",
+      "hash": "84d4aebc22116b67",
+      "translations": {
+        "hi": {
+          "question": "यदि A, B, C त्रिभुज के अंतःकोण हैं, तो sin(B+C)/2 बराबर है?",
+          "options": {
+            "A": "sin A/2",
+            "B": "cos A/2",
+            "C": "tan A/2",
+            "D": "sec A/2"
+          },
+          "explanation": "B+C = 180-A. sin(90 - A/2) = cos A/2."
+        }
+      }
+    },
+    {
+      "id": "math-06-030",
+      "number": 30,
+      "question": "Side opposite to right angle is called?",
+      "options": {
+        "A": "लंब",
+        "B": "आधार",
+        "C": "कर्ण (Hypotenuse)",
+        "D": "चाप"
+      },
+      "answer": "C",
+      "explanation": "Hypotenuse.",
+      "hash": "2c11087046f30f4f",
+      "translations": {
+        "hi": {
+          "question": "त्रिकोणमिति में 'समकोण के सामने वाली भुजा' को क्या कहते हैं?",
+          "options": {
+            "A": "लंब",
+            "B": "आधार",
+            "C": "कर्ण (Hypotenuse)",
+            "D": "चाप"
+          },
+          "explanation": "इसे कर्ण (Hypotenuse) कहते हैं।"
+        }
+      }
+    }
+  ]
+}

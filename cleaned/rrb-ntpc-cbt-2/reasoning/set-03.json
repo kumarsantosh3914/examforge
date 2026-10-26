@@ -1,0 +1,631 @@
+{
+  "subject": "Reasoning",
+  "set": 3,
+  "title": "Reasoning Mock Test 3",
+  "questions": [
+    {
+      "id": "reasoning-03-001",
+      "number": 1,
+      "question": "Statements: All pens are roads. All roads are houses. Conclusions: I. All houses are pens. II. Some houses are pens.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "B",
+      "explanation": "Inner to Outer = All/Some. Outer to Inner (Houses to Pens) = Only Some. So II follows.",
+      "hash": "069def135ac487bf",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी पेन सड़कें हैं। सभी सड़कें घर हैं। निष्कर्ष: I. सभी घर पेन हैं। II. कुछ घर पेन हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "पेन -> सड़कें -> घर। अंदर से बाहर (पेन से घर) -> 'सभी' और 'कुछ' दोनों सही हैं। बाहर से अंदर (घर से पेन) -> केवल 'कुछ' सही है। 'सभी' गलत है। अतः निष्कर्ष II सही है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-002",
+      "number": 2,
+      "question": "Choose odd one: 243, 6561, 81, 343",
+      "options": {
+        "A": "343",
+        "B": "243",
+        "C": "6561",
+        "D": "81"
+      },
+      "answer": "A",
+      "explanation": "Others are powers of 3. 343 is power of 7.",
+      "hash": "dc39324cf7bd5463",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 243, 6561, 81, 343",
+          "options": {
+            "A": "343",
+            "B": "243",
+            "C": "6561",
+            "D": "81"
+          },
+          "explanation": "81 ($3^4$), 243 ($3^5$), 6561 ($3^8$) -> ये सभी 3 की घात हैं। 343 ($7^3$) -> यह 7 की घात है। अतः 343 विषम है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-003",
+      "number": 3,
+      "question": "If $16 \\div 4 = 74$, $21 \\div 7 = 33$, $81 \\div 9 = 99$, then $55 \\div 5 = ?$",
+      "options": {
+        "A": "110",
+        "B": "1011",
+        "C": "11",
+        "D": "115"
+      },
+      "answer": "B",
+      "explanation": "Logic: (Sum of digits of Dividend) concatenated with (Quotient). (5+5) & (55/5) -> 10 & 11 -> 1011.",
+      "hash": "434aaf169b3ef814",
+      "translations": {
+        "hi": {
+          "question": "यदि $16 \\div 4 = 74$, $21 \\div 7 = 33$, $81 \\div 9 = 99$, तो $55 \\div 5 = ?$",
+          "options": {
+            "A": "110",
+            "B": "1011",
+            "C": "11",
+            "D": "115"
+          },
+          "explanation": "$1+6=7$. $16/4=4$. -> 74. $2+1=3$. $21/7=3$. -> 33. $8+1=9$. $81/9=9$. -> 99. $5+5=10$. $55/5=11$. -> 1011. उत्तर: 1011।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-004",
+      "number": 4,
+      "question": "Complete series: 10, 14, 26, 42, 70, ?",
+      "options": {
+        "A": "100",
+        "B": "102",
+        "C": "114",
+        "D": "110"
+      },
+      "answer": "C",
+      "explanation": "Logic: Sum of previous two terms + 2. 42+70+2 = 114.",
+      "hash": "9706b59c486b9b3d",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला को पूरा करें: 10, 14, 26, 42, 70, ?",
+          "options": {
+            "A": "100",
+            "B": "102",
+            "C": "114",
+            "D": "110"
+          },
+          "explanation": "$10 + 14 + 2 = 26$. $14 + 26 + 2 = 42$. $26 + 42 + 2 = 70$. $42 + 70 + 2 = 114$. उत्तर: 114।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-005",
+      "number": 5,
+      "question": "A clock is set right at 8 AM. It gains 10 min in 24 hrs. Next day when it shows 1 PM, what is true time?",
+      "options": {
+        "A": "12:48 PM",
+        "B": "12:00 PM",
+        "C": "1:00 PM",
+        "D": "12:50 PM"
+      },
+      "answer": "A",
+      "explanation": "Time passed on clock = 29 hrs. True time = 29 * (144/145) = 28 hrs 48 min. 8 AM + 28h 48m = 12:48 PM.",
+      "hash": "15b5271870b5fe90",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी सुबह 8 बजे ठीक सेट की जाती है। घड़ी 24 घंटे में 10 मिनट आगे बढ़ जाती है। अगले दिन जब घड़ी दोपहर 1 बजे का समय दिखाएगी, तो सही समय क्या होगा?",
+          "options": {
+            "A": "12:48 PM",
+            "B": "12:00 PM",
+            "C": "1:00 PM",
+            "D": "12:50 PM"
+          },
+          "explanation": "समय अंतराल (8 AM से अगले दिन 1 PM) = 24 + 5 = 29 घंटे। गलत घड़ी: 24 घंटे 10 मिनट = 145/6 घंटे में सही घड़ी के 24 घंटे। यानी गलत घड़ी का 145/6 घंटा = सही घड़ी का 24 घंटा। 1 घंटा (गलत) = $24 \\times 6 / 145 = 144/145$ घंटा (सही)। 29 घंटे (गलत) = $29 \\times 144 / 145 = 144 / 5 = 28.8$ घंटे। 28.8 घंटे = 28 घंटे 48 मिनट। 8 AM + 28 घंटे 48 मिनट = अगले दिन 12:48 PM।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-006",
+      "number": 6,
+      "question": "Who is heaviest among A, B, C, D, E? I. A > B but A < C. II. D > C but D < E.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "answer": "C",
+      "explanation": "I gives C>A>B. II gives E>D>C. Combined: E>D>C>A>B. Heaviest is E.",
+      "hash": "f36a15462dc22994",
+      "translations": {
+        "hi": {
+          "question": "डेटा पर्याप्तता: A, B, C, D, E में सबसे भारी कौन है? I. A, B से भारी है लेकिन C से हल्का है। II. D, C से भारी है लेकिन E से हल्का है।",
+          "options": {
+            "A": "केवल I पर्याप्त है",
+            "B": "केवल II पर्याप्त है",
+            "C": "दोनों मिलकर पर्याप्त हैं",
+            "D": "दोनों मिलकर भी पर्याप्त नहीं हैं"
+          },
+          "explanation": "I: C > A > B. II: E > D > C. दोनों को मिलाने पर: E > D > C > A > B. सबसे भारी E है। दोनों आवश्यक हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-009",
+      "number": 9,
+      "question": "50m pole. Monkey climbs 5m in 1 min, slips 2m in next. Time to reach top?",
+      "options": {
+        "A": "31 min",
+        "B": "30 min",
+        "C": "29 min",
+        "D": "32 min"
+      },
+      "answer": "A",
+      "explanation": "Net 3m in 2 mins. Climb 45m in 30 mins. Last 5m in 1 min. Total 31 mins.",
+      "hash": "7704f18ff97b71d5",
+      "translations": {
+        "hi": {
+          "question": "एक 50 मीटर ऊंचे पोल पर, एक बंदर 1 मिनट में 5 मीटर चढ़ता है और दूसरे मिनट में 2 मीटर नीचे फिसलता है। पोल के शीर्ष पर पहुंचने में उसे कितना समय लगेगा?",
+          "options": {
+            "A": "31 मिनट",
+            "B": "30 मिनट",
+            "C": "29 मिनट",
+            "D": "32 मिनट"
+          },
+          "explanation": "2 मिनट में चढ़ाई = 5 - 2 = 3 मीटर। अंतिम 5 मीटर वह 1 मिनट में चढ़ जाएगा और फिसलेगा नहीं। शेष दूरी = 50 - 5 = 45 मीटर। 45 मीटर चढ़ने का समय: (45/3) × 2 = 15 × 2 = 30 मिनट। कुल समय = 30 + 1 (अंतिम छलांग) = 31 मिनट।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-010",
+      "number": 10,
+      "question": "If 12 March 2008 was Sunday, what was 13 March 2009?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Monday",
+        "C": "Wednesday",
+        "D": "Sunday"
+      },
+      "answer": "A",
+      "explanation": "12 Mar 08 to 12 Mar 09 (+1 day, no Feb 29 in range). 12th is Mon, 13th is Tue.",
+      "hash": "df0c67ac1d120976",
+      "translations": {
+        "hi": {
+          "question": "यदि 12 मार्च 2008 को रविवार था, तो 13 मार्च 2009 को कौन सा दिन था?",
+          "options": {
+            "A": "मंगलवार",
+            "B": "सोमवार",
+            "C": "बुधवार",
+            "D": "रविवार"
+          },
+          "explanation": "2008 लीप वर्ष है, लेकिन मार्च से शुरू हो रहा है, तो फरवरी 2008 शामिल नहीं है। 12 मार्च 2008 से 12 मार्च 2009 (साधारण वर्ष अंतर) = +1 दिन। 12 मार्च 2009 = सोमवार। 13 मार्च 2009 = मंगलवार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-011",
+      "number": 11,
+      "question": "Statements: All biscuits are butter. No butter is bread. Conclusions: I. At least some bread are biscuits. II. No biscuit is bread.",
+      "options": {
+        "A": "Only II follows",
+        "B": "Only I follows",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "Biscuit inside Butter. Butter disjoint from Bread. So Biscuit disjoint from Bread. II follows.",
+      "hash": "c7cfd8e09c5be3a8",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी बिस्कुट मक्खन हैं। कोई मक्खन ब्रेड नहीं है। निष्कर्ष: I. कम से कम कुछ ब्रेड बिस्कुट हैं। II. कोई बिस्कुट ब्रेड नहीं है।",
+          "options": {
+            "A": "केवल II अनुसरण करता है",
+            "B": "केवल I अनुसरण करता है",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "बिस्कुट मक्खन के अंदर है। मक्खन और ब्रेड अलग हैं। तो बिस्कुट और ब्रेड कभी नहीं मिल सकते। निष्कर्ष I (कुछ हैं) गलत है। निष्कर्ष II (कोई नहीं) सही है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-013",
+      "number": 13,
+      "question": "If $3 \\times 4 = 19$, $5 \\times 6 = 41$, then $2 \\times 5 = ?$",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "17",
+        "D": "19"
+      },
+      "answer": "C",
+      "explanation": "Logic: Product + Sum. 10 + 7 = 17. (Correct Option C).",
+      "hash": "3874005c37b3213b",
+      "translations": {
+        "hi": {
+          "question": "यदि $3 \\times 4 = 19$, $5 \\times 6 = 41$, तो $2 \\times 5 = ?$",
+          "options": {
+            "A": "14",
+            "B": "12",
+            "C": "17",
+            "D": "19"
+          },
+          "explanation": "$(3 imes 4) + (3 + 4) = 12 + 7 = 19$। $(5 imes 6) + (5 + 6) = 30 + 11 = 41$। $(2 imes 5) + (2 + 5) = 10 + 7 = 17$।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-014",
+      "number": 14,
+      "question": "Missing number: 5, 6, 9, 15, ?, 40",
+      "options": {
+        "A": "25",
+        "B": "21",
+        "C": "27",
+        "D": "33"
+      },
+      "answer": "A",
+      "explanation": "Diff of Diff: 2, 3, 4. Differences: 1, 3, 6, 10, 15. 15+10=25.",
+      "hash": "cf092733cad16ad4",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या: 5, 6, 9, 15, ?, 40",
+          "options": {
+            "A": "25",
+            "B": "21",
+            "C": "27",
+            "D": "33"
+          },
+          "explanation": "अंतर: 1, 3, 6, ? अंतर का अंतर: 2, 3, 4, 5. 6 + 4 = 10 (अगला अंतर)। 15 + 10 = 25. 25 + 15 (10+5) = 40 (सही)। उत्तर: 25."
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-015",
+      "number": 15,
+      "question": "Morning, X walks towards Sun. Turns Left, then Right, then Left. Direction?",
+      "options": {
+        "A": "North",
+        "B": "South",
+        "C": "East",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "East -> L(North) -> R(East) -> L(North).",
+      "hash": "75f78f98209db2b6",
+      "translations": {
+        "hi": {
+          "question": "एक सुबह, X सूर्य की ओर चला। कुछ देर बाद वह बाएं मुड़ा, फिर दाएं, फिर बाएं। अब वह किस दिशा में जा रहा है?",
+          "options": {
+            "A": "उत्तर",
+            "B": "दक्षिण",
+            "C": "पूर्व",
+            "D": "पश्चिम"
+          },
+          "explanation": "सूर्य (पूर्व) -> बाएं (उत्तर) -> दाएं (पूर्व) -> बाएं (उत्तर)। अंतिम दिशा उत्तर है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-016",
+      "number": 16,
+      "question": "Odd one out: PQT, UVY, DEH, JKM",
+      "options": {
+        "A": "JKM",
+        "B": "DEH",
+        "C": "PQT",
+        "D": "UVY"
+      },
+      "answer": "A",
+      "explanation": "P-Q-T (+1, +3). U-V-Y (+1, +3). D-E-H (+1, +3). J-K-M (+1, +2). JKM is odd.",
+      "hash": "c25fdbc8ba72b380",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: PQT, UVY, DEH, JKM",
+          "options": {
+            "A": "JKM",
+            "B": "DEH",
+            "C": "PQT",
+            "D": "UVY"
+          },
+          "explanation": "P(+1)Q(+3)T. U(+1)V(+3)Y. D(+1)E(+3)H. J(+1)K(+2)M (यहाँ +2 है, बाकी में +3)। अतः JKM विषम है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-017",
+      "number": 17,
+      "question": "If BAT = 23, CAT = 24, then BALL = ?",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "32",
+        "D": "29"
+      },
+      "answer": "A",
+      "explanation": "Sum of letter positions. B(2)+A(1)+L(12)+L(12) = 27.",
+      "hash": "3b5f5d3b589275ab",
+      "translations": {
+        "hi": {
+          "question": "एक कूट में, BAT = 23 और CAT = 24, तो BALL = ?",
+          "options": {
+            "A": "27",
+            "B": "28",
+            "C": "32",
+            "D": "29"
+          },
+          "explanation": "BAT: 2+1+20 = 23. CAT: 3+1+20 = 24. BALL: 2+1+12+12 = 27."
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-018",
+      "number": 18,
+      "question": "X is mother of Y. Z is husband of Y. F is daughter of Z. How is X related to F?",
+      "options": {
+        "A": "Maternal Grandmother",
+        "B": "Paternal Grandmother",
+        "C": "Mother",
+        "D": "Aunt"
+      },
+      "answer": "A",
+      "explanation": "X -> Y(Mother) -> F. X is Maternal Grandmother.",
+      "hash": "24cc709eff843a86",
+      "translations": {
+        "hi": {
+          "question": "X, Y की माँ है। Z, Y का पति है। F, Z की बेटी है। X का F से क्या संबंध है?",
+          "options": {
+            "A": "नानी (Maternal Grandmother)",
+            "B": "दादी",
+            "C": "माँ",
+            "D": "बुआ"
+          },
+          "explanation": "F, Z और Y की बेटी है। Y, F की माँ है। X, Y की माँ है। अतः X, F की नानी है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-019",
+      "number": 19,
+      "question": "Mirror Image of time 8:40",
+      "options": {
+        "A": "3 : 20",
+        "B": "4 : 20",
+        "C": "3 : 40",
+        "D": "4 : 40"
+      },
+      "answer": "A",
+      "explanation": "11:60 - 8:40 = 3:20.",
+      "hash": "68959aed85d2cca9",
+      "translations": {
+        "hi": {
+          "question": "दर्पण प्रतिबिम्ब: 8 : 40",
+          "options": {
+            "A": "3 : 20",
+            "B": "4 : 20",
+            "C": "3 : 40",
+            "D": "4 : 40"
+          },
+          "explanation": "सूत्र: 11:60 - 8:40 = 3:20।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-020",
+      "number": 20,
+      "question": "If P=div, Q=mul, R=add, S=sub, then 18 Q 12 P 4 R 5 S 6 = ?",
+      "options": {
+        "A": "53",
+        "B": "59",
+        "C": "65",
+        "D": "60"
+      },
+      "answer": "A",
+      "explanation": "18 * 3 + 5 - 6 = 53.",
+      "hash": "1d92808590de60ca",
+      "translations": {
+        "hi": {
+          "question": "यदि $P$ का अर्थ $\\div$, $Q$ का अर्थ $\\times$, $R$ का अर्थ $+$, $S$ का अर्थ $-$, तो $18 Q 12 P 4 R 5 S 6 = ?$",
+          "options": {
+            "A": "53",
+            "B": "59",
+            "C": "65",
+            "D": "60"
+          },
+          "explanation": "$18 \\times 12 \\div 4 + 5 - 6$ $18 \\times 3 + 5 - 6$ $54 + 5 - 6 = 59 - 6 = 53$。"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-023",
+      "number": 23,
+      "question": "Missing Number: 9, 4, 20 8, 5, 12 7, 6, ?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Logic: (Row1 - Row2) * 4 = Row3. (7-6)*4=4.",
+      "hash": "c1eca2a603344e77",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या मैट्रिक्स: 9, 4, 20 8, 5, 12 7, 6, ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "3",
+            "D": "5"
+          },
+          "explanation": "तर्क: $(A - B) \\times 4$? $(9-4) \\times 4 = 20$. $(8-5) \\times 4 = 12$. $(7-6) \\times 4 = 4$. उत्तर: 4."
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-024",
+      "number": 24,
+      "question": "Analogy: 144 : 23 :: 169 : ?",
+      "options": {
+        "A": "25",
+        "B": "32",
+        "C": "24",
+        "D": "26"
+      },
+      "answer": "A",
+      "explanation": "Logic: Sqrt(x) * 2 - 1. 13*2-1=25.",
+      "hash": "a1aa0a57d6747970",
+      "translations": {
+        "hi": {
+          "question": "सादृश्यता: 144 : 23 :: 169 : ?",
+          "options": {
+            "A": "25",
+            "B": "32",
+            "C": "24",
+            "D": "26"
+          },
+          "explanation": "$\\sqrt{144} \\times 2 - 1 = 23$. $\\sqrt{169} \\times 2 - 1 = 13 \\times 2 - 1 = 25$. उत्तर: 25."
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-025",
+      "number": 25,
+      "question": "Statement: M > N = O >= P. Conclusions: I. M > P II. N >= P",
+      "options": {
+        "A": "Both true",
+        "B": "Only I",
+        "C": "Only II",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "Chain rule holds for both.",
+      "hash": "ea230fa0fab64727",
+      "translations": {
+        "hi": {
+          "question": "कथन: $M > N, N = O, O \\ge P$। निष्कर्ष: I. $M > P$ II. $N \\ge P$",
+          "options": {
+            "A": "दोनों सत्य हैं",
+            "B": "केवल I",
+            "C": "केवल II",
+            "D": "कोई नहीं"
+          },
+          "explanation": "1. $M > N = O \\ge P$ => $M > P$ (सत्य)। 2. $N = O \\ge P$ => $N \\ge P$ (सत्य)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-026",
+      "number": 26,
+      "question": "50 people in row. Ram 20th from left. Shyam 25th from right. How many between?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "6",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Total > L+R. Between = Total - (L+R) = 50 - 45 = 5.",
+      "hash": "4ed789e025b1ad5c",
+      "translations": {
+        "hi": {
+          "question": "एक कतार में 50 लोग हैं। राम बाएं से 20वां है। श्याम दाएं से 25वां है। उनके बीच कितने लोग हैं?",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "3"
+          },
+          "explanation": "कुल = 50. बायां + दायां = 20 + 25 = 45. चूंकि 45 < 50 (नॉन-ओवरलैपिंग)। बीच में = 50 - 45 = 5।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-027",
+      "number": 27,
+      "question": "If Water is Food, Food is Tree, Tree is Sky, Sky is Wall. Where do fruits grow?",
+      "options": {
+        "A": "Sky",
+        "B": "Tree",
+        "C": "Food",
+        "D": "Wall"
+      },
+      "answer": "A",
+      "explanation": "Fruits grow on Tree. Tree is called Sky.",
+      "hash": "ea0ba3d7f08ad46e",
+      "translations": {
+        "hi": {
+          "question": "यदि 'जल' को 'भोजन', 'भोजन' को 'पेड़', 'पेड़' को 'आकाश', 'आकाश' को 'दीवार' कहा जाए, तो फल कहाँ उगेंगे?",
+          "options": {
+            "A": "आकाश",
+            "B": "पेड़",
+            "C": "भोजन",
+            "D": "दीवार"
+          },
+          "explanation": "फल 'पेड़' पर उगते हैं। 'पेड़' को 'आकाश' कहा गया है। अतः उत्तर 'आकाश' है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-029",
+      "number": 29,
+      "question": "A is brother of B. C is mother of A. D is father of C. E is son of B. How is E related to D?",
+      "options": {
+        "A": "Great Grandson",
+        "B": "Grandson",
+        "C": "Granddaughter",
+        "D": "Son"
+      },
+      "answer": "A",
+      "explanation": "E is son of B. B is child of C. C is child of D. So E is Great Grandson.",
+      "hash": "153dd609cd018e9d",
+      "translations": {
+        "hi": {
+          "question": "A, B का भाई है। C, A की माँ है। D, C का पिता है। E, B का पुत्र है। E का D से क्या संबंध है?",
+          "options": {
+            "A": "पड़पोता (Great Grandson)",
+            "B": "पोता",
+            "C": "नातिन",
+            "D": "बेटा"
+          },
+          "explanation": "E, B का पुत्र है। B, C की संतान है (क्योंकि A भाई है B का और C माँ है A की)। C, D की बेटी है। E -> B -> C -> D. E, D का पड़पोता (Great Grandson) है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-03-030",
+      "number": 30,
+      "question": "Missing term: 2, 5, 11, 23, 47, ?",
+      "options": {
+        "A": "95",
+        "B": "90",
+        "C": "94",
+        "D": "92"
+      },
+      "answer": "A",
+      "explanation": "Logic: *2 + 1. 47*2+1 = 95.",
+      "hash": "9eee34b5dd8236c0",
+      "translations": {
+        "hi": {
+          "question": "लुप्त पद: 2, 5, 11, 23, 47, ?",
+          "options": {
+            "A": "95",
+            "B": "90",
+            "C": "94",
+            "D": "92"
+          },
+          "explanation": "तर्क: $\\times 2 + 1$। $2 \\times 2 + 1 = 5$... $47 \\times 2 + 1 = 94 + 1 = 95$。"
+        }
+      }
+    }
+  ]
+}

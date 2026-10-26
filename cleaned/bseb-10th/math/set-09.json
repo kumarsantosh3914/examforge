@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 9,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-09-001",
+      "number": 1,
+      "question": "Formula for area of a circle with radius r?",
+      "options": {
+        "A": "2πr",
+        "B": "πr²",
+        "C": "2πr²",
+        "D": "πr"
+      },
+      "answer": "B",
+      "explanation": "Area = πr².",
+      "hash": "4be2b2ae01fedb01",
+      "translations": {
+        "hi": {
+          "question": "r त्रिज्या वाले वृत्त के क्षेत्रफल का सूत्र क्या है?",
+          "options": {
+            "A": "2πr",
+            "B": "πr²",
+            "C": "2πr²",
+            "D": "πr"
+          },
+          "explanation": "वृत्त का क्षेत्रफल = πr²।"
+        }
+      }
+    },
+    {
+      "id": "math-09-002",
+      "number": 2,
+      "question": "Formula for length of arc of a sector of angle θ?",
+      "options": {
+        "A": "(θ/360) × πr²",
+        "B": "(θ/360) × 2πr",
+        "C": "(θ/180) × 2πr",
+        "D": "2πr"
+      },
+      "answer": "B",
+      "explanation": "Length of arc = (θ/360) × 2πr.",
+      "hash": "8487fcf20f76ed0b",
+      "translations": {
+        "hi": {
+          "question": "कोण θ वाले त्रिज्यखंड के चाप की लंबाई (Length of Arc) का सूत्र क्या है?",
+          "options": {
+            "A": "(θ/360) × πr²",
+            "B": "(θ/360) × 2πr",
+            "C": "(θ/180) × 2πr",
+            "D": "2πr"
+          },
+          "explanation": "चाप की लंबाई = (θ/360) × 2πr = (θ/180) × πr।"
+        }
+      }
+    },
+    {
+      "id": "math-09-003",
+      "number": 3,
+      "question": "Formula for area of a sector of angle θ?",
+      "options": {
+        "A": "(θ/360) × 2πr",
+        "B": "(θ/360) × πr²",
+        "C": "(θ/180) × πr²",
+        "D": "(θ/360) × 2πr²"
+      },
+      "answer": "B",
+      "explanation": "Area of sector = (θ/360) × πr².",
+      "hash": "b52310e6d4720105",
+      "translations": {
+        "hi": {
+          "question": "कोण θ वाले त्रिज्यखंड (Sector) के क्षेत्रफल का सूत्र क्या है?",
+          "options": {
+            "A": "(θ/360) × 2πr",
+            "B": "(θ/360) × πr²",
+            "C": "(θ/180) × πr²",
+            "D": "(θ/360) × 2πr²"
+          },
+          "explanation": "त्रिज्यखंड का क्षेत्रफल = (θ/360) × πr²।"
+        }
+      }
+    },
+    {
+      "id": "math-09-004",
+      "number": 4,
+      "question": "Area of a circle is 154 cm². Its radius is?",
+      "options": {
+        "A": "14 सेमी",
+        "B": "7 सेमी",
+        "C": "21 सेमी",
+        "D": "7.5 सेमी"
+      },
+      "answer": "B",
+      "explanation": "Solving πr² = 154 gives r = 7.",
+      "hash": "99d95b0c8a9ae133",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त का क्षेत्रफल 154 सेमी² है। इसकी त्रिज्या क्या होगी?",
+          "options": {
+            "A": "14 सेमी",
+            "B": "7 सेमी",
+            "C": "21 सेमी",
+            "D": "7.5 सेमी"
+          },
+          "explanation": "πr² = 154 => (22/7)r² = 154 => r² = 49 => r = 7।"
+        }
+      }
+    },
+    {
+      "id": "math-09-005",
+      "number": 5,
+      "question": "If circumference and area of a circle are numerically equal, then radius is?",
+      "options": {
+        "A": "2 मात्रक",
+        "B": "π मात्रक",
+        "C": "4 मात्रक",
+        "D": "7 मात्रक"
+      },
+      "answer": "A",
+      "explanation": "2πr = πr² implies r = 2 units.",
+      "hash": "dddcf9980f8fb0f7",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की परिधि और क्षेत्रफल संख्यात्मक रूप से बराबर हैं, तो वृत्त की त्रिज्या क्या है?",
+          "options": {
+            "A": "2 मात्रक",
+            "B": "π मात्रक",
+            "C": "4 मात्रक",
+            "D": "7 मात्रक"
+          },
+          "explanation": "2πr = πr² => r = 2।"
+        }
+      }
+    },
+    {
+      "id": "math-09-006",
+      "number": 6,
+      "question": "Perimeter of a semicircle?",
+      "options": {
+        "A": "πr",
+        "B": "πr + 2r",
+        "C": "2πr",
+        "D": "πr + r"
+      },
+      "answer": "B",
+      "explanation": "Arc length (πr) + Diameter (2r).",
+      "hash": "2121538bd9868b59",
+      "translations": {
+        "hi": {
+          "question": "अर्धवृत्त (Semicircle) का परिमाप क्या होता है?",
+          "options": {
+            "A": "πr",
+            "B": "πr + 2r",
+            "C": "2πr",
+            "D": "πr + r"
+          },
+          "explanation": "चाप की लंबाई (πr) + व्यास (2r)।"
+        }
+      }
+    },
+    {
+      "id": "math-09-007",
+      "number": 7,
+      "question": "Ratio of radii is 1:2. Ratio of areas?",
+      "options": {
+        "A": "1:2",
+        "B": "2:1",
+        "C": "1:4",
+        "D": "4:1"
+      },
+      "answer": "C",
+      "explanation": "Ratio of squares of radii: 1:4.",
+      "hash": "a2db80f00db96721",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्तों की त्रिज्याओं का अनुपात 1:2 है, तो उनके क्षेत्रफलों का अनुपात क्या होगा?",
+          "options": {
+            "A": "1:2",
+            "B": "2:1",
+            "C": "1:4",
+            "D": "4:1"
+          },
+          "explanation": "क्षेत्रफलों का अनुपात त्रिज्याओं के वर्ग के अनुपात के बराबर होता है (1²:2² = 1:4)।"
+        }
+      }
+    },
+    {
+      "id": "math-09-008",
+      "number": 8,
+      "question": "Central angle of a quadrant of a circle?",
+      "options": {
+        "A": "60°",
+        "B": "90°",
+        "C": "180°",
+        "D": "360°"
+      },
+      "answer": "B",
+      "explanation": "1/4th of 360° is 90°.",
+      "hash": "1238448a5d630e45",
+      "translations": {
+        "hi": {
+          "question": "वृत्त के चतुर्थांश (Quadrant) का केंद्रीय कोण कितना होता है?",
+          "options": {
+            "A": "60°",
+            "B": "90°",
+            "C": "180°",
+            "D": "360°"
+          },
+          "explanation": "360° का एक चौथाई = 90°।"
+        }
+      }
+    },
+    {
+      "id": "math-09-009",
+      "number": 9,
+      "question": "Angle swept by minute hand in 1 minute?",
+      "options": {
+        "A": "6°",
+        "B": "12°",
+        "C": "5°",
+        "D": "30°"
+      },
+      "answer": "A",
+      "explanation": "360°/60 = 6°.",
+      "hash": "a58065759ae4bedd",
+      "translations": {
+        "hi": {
+          "question": "एक घड़ी की मिनट की सुई 1 मिनट में कितना कोण बनाती है?",
+          "options": {
+            "A": "6°",
+            "B": "12°",
+            "C": "5°",
+            "D": "30°"
+          },
+          "explanation": "60 मिनट में 360°, तो 1 मिनट में 360/60 = 6°।"
+        }
+      }
+    },
+    {
+      "id": "math-09-010",
+      "number": 10,
+      "question": "Area of sector with r=6 and θ=60°?",
+      "options": {
+        "A": "132/7 सेमी²",
+        "B": "154/7 सेमी²",
+        "C": "144/7 सेमी²",
+        "D": "120/7 सेमी²"
+      },
+      "answer": "A",
+      "explanation": "132/7 cm².",
+      "hash": "b1bf591649a3ab69",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी त्रिज्या वाले वृत्त के एक त्रिज्यखंड का क्षेत्रफल ज्ञात करें, जिसका कोण 60° है।",
+          "options": {
+            "A": "132/7 सेमी²",
+            "B": "154/7 सेमी²",
+            "C": "144/7 सेमी²",
+            "D": "120/7 सेमी²"
+          },
+          "explanation": "60/360 × 22/7 × 6 × 6 = 1/6 × 22/7 × 36 = 132/7।"
+        }
+      }
+    },
+    {
+      "id": "math-09-011",
+      "number": 11,
+      "question": "Area of sector of angle P° of circle with radius r?",
+      "options": {
+        "A": "P/180 × 2πr",
+        "B": "P/180 × πr²",
+        "C": "P/360 × 2πr",
+        "D": "P/720 × 2πr²"
+      },
+      "answer": "D",
+      "explanation": "Simplifies to (P/360) × πr².",
+      "hash": "9eb635888609e811",
+      "translations": {
+        "hi": {
+          "question": "r त्रिज्या वाले वृत्त के उस त्रिज्यखंड का क्षेत्रफल जिसका कोण P° है?",
+          "options": {
+            "A": "P/180 × 2πr",
+            "B": "P/180 × πr²",
+            "C": "P/360 × 2πr",
+            "D": "P/720 × 2πr²"
+          },
+          "explanation": "P/360 × πr² को 2 से गुणा और भाग करने पर: P/720 × 2πr²। (यह NCERT का एक मानक प्रश्न है)।"
+        }
+      }
+    },
+    {
+      "id": "math-09-012",
+      "number": 12,
+      "question": "How to find Area of Segment?",
+      "options": {
+        "A": "त्रिज्यखंड का क्षेत्रफल - त्रिभुज का क्षेत्रफल",
+        "B": "त्रिज्यखंड का क्षेत्रफल + त्रिभुज का क्षेत्रफल",
+        "C": "केवल त्रिज्यखंड का क्षेत्रफल",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Area of Sector - Area of corresponding Triangle.",
+      "hash": "90b6e9ed1ad27dc3",
+      "translations": {
+        "hi": {
+          "question": "वृत्तखंड (Segment) का क्षेत्रफल कैसे निकाला जाता है?",
+          "options": {
+            "A": "त्रिज्यखंड का क्षेत्रफल - त्रिभुज का क्षेत्रफल",
+            "B": "त्रिज्यखंड का क्षेत्रफल + त्रिभुज का क्षेत्रफल",
+            "C": "केवल त्रिज्यखंड का क्षेत्रफल",
+            "D": "कोई नहीं"
+          },
+          "explanation": "संगत त्रिज्यखंड के क्षेत्रफल में से संगत त्रिभुज का क्षेत्रफल घटाकर।"
+        }
+      }
+    },
+    {
+      "id": "math-09-013",
+      "number": 13,
+      "question": "Area of a ring with outer radius R and inner radius r?",
+      "options": {
+        "A": "π(R² - r²)",
+        "B": "π(R - r)²",
+        "C": "π(R² + r²)",
+        "D": "2π(R - r)"
+      },
+      "answer": "A",
+      "explanation": "π(R² - r²).",
+      "hash": "c309006fcca8f32c",
+      "translations": {
+        "hi": {
+          "question": "वलय (Ring) का क्षेत्रफल क्या है यदि बाहरी त्रिज्या R और भीतरी त्रिज्या r है?",
+          "options": {
+            "A": "π(R² - r²)",
+            "B": "π(R - r)²",
+            "C": "π(R² + r²)",
+            "D": "2π(R - r)"
+          },
+          "explanation": "बाहरी क्षेत्रफल - भीतरी क्षेत्रफल = πR² - πr² = π(R² - r²)।"
+        }
+      }
+    },
+    {
+      "id": "math-09-014",
+      "number": 14,
+      "question": "If perimeter of circle and square are equal, ratio of their areas?",
+      "options": {
+        "A": "22:7",
+        "B": "14:11",
+        "C": "7:22",
+        "D": "11:14"
+      },
+      "answer": "B",
+      "explanation": "14:11.",
+      "hash": "8e04b0fede196ef9",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का परिमाप और एक वर्ग का परिमाप बराबर है, तो उनके क्षेत्रफलों का अनुपात क्या है?",
+          "options": {
+            "A": "22:7",
+            "B": "14:11",
+            "C": "7:22",
+            "D": "11:14"
+          },
+          "explanation": "2πr = 4a => a = (πr)/2। क्षेत्रफल अनुपात πr² : a² = 14:11।"
+        }
+      }
+    },
+    {
+      "id": "math-09-015",
+      "number": 15,
+      "question": "Perimeter of semicircle with r = 7 cm?",
+      "options": {
+        "A": "22 सेमी",
+        "B": "36 सेमी",
+        "C": "44 सेमी",
+        "D": "58 सेमी"
+      },
+      "answer": "B",
+      "explanation": "22 + 14 = 36 cm.",
+      "hash": "6dc8f405e4b11b40",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या वाले अर्धवृत्त का कुल परिमाप क्या है?",
+          "options": {
+            "A": "22 सेमी",
+            "B": "36 सेमी",
+            "C": "44 सेमी",
+            "D": "58 सेमी"
+          },
+          "explanation": "πr + 2r = (22/7 × 7) + 2(7) = 22 + 14 = 36 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "math-09-016",
+      "number": 16,
+      "question": "Area of Major Sector is?",
+      "options": {
+        "A": "वृत्त का क्षेत्रफल - लघु त्रिज्यखंड का क्षेत्रफल",
+        "B": "लघु त्रिज्यखंड का क्षेत्रफल",
+        "C": "त्रिभुज का क्षेत्रफल",
+        "D": "2πr"
+      },
+      "answer": "A",
+      "explanation": "Area of Circle - Area of Minor Sector.",
+      "hash": "8759fc3717f7cc2a",
+      "translations": {
+        "hi": {
+          "question": "दीर्घ त्रिज्यखंड (Major Sector) का क्षेत्रफल क्या होता है?",
+          "options": {
+            "A": "वृत्त का क्षेत्रफल - लघु त्रिज्यखंड का क्षेत्रफल",
+            "B": "लघु त्रिज्यखंड का क्षेत्रफल",
+            "C": "त्रिभुज का क्षेत्रफल",
+            "D": "2πr"
+          },
+          "explanation": "पूरे वृत्त के क्षेत्रफल में से लघु त्रिज्यखंड का क्षेत्रफल घटाने पर।"
+        }
+      }
+    },
+    {
+      "id": "math-09-017",
+      "number": 17,
+      "question": "Diameter 40cm. Revolutions to cover 176m?",
+      "options": {
+        "A": "140",
+        "B": "150",
+        "C": "1400",
+        "D": "160"
+      },
+      "answer": "A",
+      "explanation": "Distance / Circumference = 140.",
+      "hash": "f87b60e881b6f5ea",
+      "translations": {
+        "hi": {
+          "question": "एक पहिए का व्यास 40 सेमी है। 176 मीटर की दूरी तय करने में इसे कितने चक्कर लगाने होंगे?",
+          "options": {
+            "A": "140",
+            "B": "150",
+            "C": "1400",
+            "D": "160"
+          },
+          "explanation": "परिधि = 40π = 880/7 सेमी। दूरी = 17600 सेमी। चक्कर = 17600 / (880/7) = 140।"
+        }
+      }
+    },
+    {
+      "id": "math-09-018",
+      "number": 18,
+      "question": "Area swept by 14cm minute hand in 5 mins?",
+      "options": {
+        "A": "154/3 सेमी²",
+        "B": "44/3 सेमी²",
+        "C": "154/9 सेमी²",
+        "D": "22/3 सेमी²"
+      },
+      "answer": "A",
+      "explanation": "154/3 cm².",
+      "hash": "f4196870697be238",
+      "translations": {
+        "hi": {
+          "question": "14 सेमी लंबी मिनट की सुई द्वारा 5 मिनट में रचित क्षेत्रफल क्या होगा?",
+          "options": {
+            "A": "154/3 सेमी²",
+            "B": "44/3 सेमी²",
+            "C": "154/9 सेमी²",
+            "D": "22/3 सेमी²"
+          },
+          "explanation": "कोण = 30°। क्षेत्रफल = 30/360 × 22/7 × 14 × 14 = 154/3।"
+        }
+      }
+    },
+    {
+      "id": "math-09-019",
+      "number": 19,
+      "question": "Longest chord of a circle?",
+      "options": {
+        "A": "त्रिज्या",
+        "B": "व्यास (Diameter)",
+        "C": "चाप",
+        "D": "स्पर्श रेखा"
+      },
+      "answer": "B",
+      "explanation": "Diameter.",
+      "hash": "f50d718dd0cedff9",
+      "translations": {
+        "hi": {
+          "question": "वृत्त की सबसे बड़ी जीवा (Chord) कौन सी है?",
+          "options": {
+            "A": "त्रिज्या",
+            "B": "व्यास (Diameter)",
+            "C": "चाप",
+            "D": "स्पर्श रेखा"
+          },
+          "explanation": "व्यास वृत्त की सबसे बड़ी जीवा होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-09-020",
+      "number": 20,
+      "question": "Side of square inscribed in a circle of radius r?",
+      "options": {
+        "A": "r",
+        "B": "r√2",
+        "C": "2r",
+        "D": "r/√2"
+      },
+      "answer": "B",
+      "explanation": "Diagonal = 2r, so Side = r√2.",
+      "hash": "a5d3c5aff5bd7723",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त के अंतर्गत बने वर्ग (Inscribed Square) की भुजा क्या होगी यदि वृत्त की त्रिज्या r है?",
+          "options": {
+            "A": "r",
+            "B": "r√2",
+            "C": "2r",
+            "D": "r/√2"
+          },
+          "explanation": "वर्ग का विकर्ण = वृत्त का व्यास = 2r। भुजा = विकर्ण/√2 = 2r/√2 = r√2।"
+        }
+      }
+    },
+    {
+      "id": "math-09-021",
+      "number": 21,
+      "question": "If Area is 154, what is the diameter?",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "21",
+        "D": "28"
+      },
+      "answer": "B",
+      "explanation": "r=7, so d=14.",
+      "hash": "c52fe5958eac0352",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त का क्षेत्रफल 154 है, तो उसका व्यास क्या है?",
+          "options": {
+            "A": "7",
+            "B": "14",
+            "C": "21",
+            "D": "28"
+          },
+          "explanation": "πr² = 154 => r=7। व्यास = 2r = 14।"
+        }
+      }
+    },
+    {
+      "id": "math-09-022",
+      "number": 22,
+      "question": "Area of largest triangle in a semicircle of radius r?",
+      "options": {
+        "A": "r²",
+        "B": "1/2 r²",
+        "C": "2r²",
+        "D": "r"
+      },
+      "answer": "A",
+      "explanation": "1/2 * Base * Height = 1/2 * 2r * r = r².",
+      "hash": "3f0269d86c15cd1e",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धवृत्त के अंदर बनने वाले सबसे बड़े त्रिभुज का क्षेत्रफल (त्रिज्या r)?",
+          "options": {
+            "A": "r²",
+            "B": "1/2 r²",
+            "C": "2r²",
+            "D": "r"
+          },
+          "explanation": "आधार = 2r (व्यास), ऊंचाई = r (त्रिज्या)। क्षेत्रफल = 1/2 × 2r × r = r²।"
+        }
+      }
+    },
+    {
+      "id": "math-09-023",
+      "number": 23,
+      "question": "Area of square inscribed in circle of radius 8?",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "32"
+      },
+      "answer": "B",
+      "explanation": "128 cm².",
+      "hash": "6a0edb34aa9e65b9",
+      "translations": {
+        "hi": {
+          "question": "8 सेमी त्रिज्या वाले वृत्त के अंदर खींचे गए वर्ग का क्षेत्रफल?",
+          "options": {
+            "A": "64",
+            "B": "128",
+            "C": "256",
+            "D": "32"
+          },
+          "explanation": "विकर्ण = 16। वर्ग का क्षेत्रफल = 1/2 × (विकर्ण)² = 1/2 × 256 = 128।"
+        }
+      }
+    },
+    {
+      "id": "math-09-024",
+      "number": 24,
+      "question": "If radius is doubled, area becomes?",
+      "options": {
+        "A": "2 गुना",
+        "B": "3 गुना",
+        "C": "4 गुना",
+        "D": "8 गुना"
+      },
+      "answer": "C",
+      "explanation": "4 times.",
+      "hash": "3828ac6c175afc92",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की त्रिज्या दुगुनी कर दी जाए, तो क्षेत्रफल कितना गुना हो जाएगा?",
+          "options": {
+            "A": "2 गुना",
+            "B": "3 गुना",
+            "C": "4 गुना",
+            "D": "8 गुना"
+          },
+          "explanation": "A = π(2r)² = 4πr²। अर्थात 4 गुना।"
+        }
+      }
+    },
+    {
+      "id": "math-09-025",
+      "number": 25,
+      "question": "Ratio of circumference to diameter?",
+      "options": {
+        "A": "π",
+        "B": "2π",
+        "C": "r",
+        "D": "2r"
+      },
+      "answer": "A",
+      "explanation": "π.",
+      "hash": "f432197ad67ae5f8",
+      "translations": {
+        "hi": {
+          "question": "वृत्त की परिधि और व्यास का अनुपात क्या होता है?",
+          "options": {
+            "A": "π",
+            "B": "2π",
+            "C": "r",
+            "D": "2r"
+          },
+          "explanation": "2πr / 2r = π।"
+        }
+      }
+    },
+    {
+      "id": "math-09-026",
+      "number": 26,
+      "question": "Wheel covers 88km in 1000 revolutions. Diameter?",
+      "options": {
+        "A": "14 मी",
+        "B": "24 मी",
+        "C": "28 मी",
+        "D": "40 मी"
+      },
+      "answer": "C",
+      "explanation": "28 m.",
+      "hash": "8a41afcfe01ccf36",
+      "translations": {
+        "hi": {
+          "question": "एक पहिया 1000 चक्कर में 88 किमी की दूरी तय करता है। पहिए का व्यास है?",
+          "options": {
+            "A": "14 मी",
+            "B": "24 मी",
+            "C": "28 मी",
+            "D": "40 मी"
+          },
+          "explanation": "1 चक्कर = 88000/1000 = 88 मी। πd = 88 => 22/7 × d = 88 => d = 28।"
+        }
+      }
+    },
+    {
+      "id": "math-09-027",
+      "number": 27,
+      "question": "Circumference is 132cm. Radius?",
+      "options": {
+        "A": "21 सेमी",
+        "B": "14 सेमी",
+        "C": "7 सेमी",
+        "D": "28 सेमी"
+      },
+      "answer": "A",
+      "explanation": "21 cm.",
+      "hash": "55565260b916c900",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त की परिधि 132 सेमी है, तो उसकी त्रिज्या है?",
+          "options": {
+            "A": "21 सेमी",
+            "B": "14 सेमी",
+            "C": "7 सेमी",
+            "D": "28 सेमी"
+          },
+          "explanation": "2πr = 132 => 2 × 22/7 × r = 132 => r = 21।"
+        }
+      }
+    },
+    {
+      "id": "math-09-028",
+      "number": 28,
+      "question": "If sector angle is 180°, it is called?",
+      "options": {
+        "A": "चतुर्थांश",
+        "B": "अर्धवृत्त (Semicircle)",
+        "C": "पूर्ण वृत्त",
+        "D": "दीर्घ त्रिज्यखंड"
+      },
+      "answer": "B",
+      "explanation": "Semicircle.",
+      "hash": "b6060008764ef782",
+      "translations": {
+        "hi": {
+          "question": "यदि त्रिज्यखंड का कोण 180° है, तो वह क्या कहलाता है?",
+          "options": {
+            "A": "चतुर्थांश",
+            "B": "अर्धवृत्त (Semicircle)",
+            "C": "पूर्ण वृत्त",
+            "D": "दीर्घ त्रिज्यखंड"
+          },
+          "explanation": "180° वृत्त का आधा होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-09-029",
+      "number": 29,
+      "question": "Ratio of areas 4:9. Ratio of circumferences?",
+      "options": {
+        "A": "2:3",
+        "B": "4:9",
+        "C": "16:81",
+        "D": "3:2"
+      },
+      "answer": "A",
+      "explanation": "2:3.",
+      "hash": "759ce4cda5af7a37",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्तों के क्षेत्रफलों का अनुपात 4:9 है, तो उनकी परिधियों का अनुपात क्या होगा?",
+          "options": {
+            "A": "2:3",
+            "B": "4:9",
+            "C": "16:81",
+            "D": "3:2"
+          },
+          "explanation": "क्षेत्रफल का अनुपात = (त्रिज्या)², तो त्रिज्या = √4:√9 = 2:3। परिधि का अनुपात भी वही होगा।"
+        }
+      }
+    },
+    {
+      "id": "math-09-030",
+      "number": 30,
+      "question": "Area of circle inscribed in square of side a?",
+      "options": {
+        "A": "πa²",
+        "B": "πa²/4",
+        "C": "πa²/2",
+        "D": "2πa²"
+      },
+      "answer": "B",
+      "explanation": "πa²/4.",
+      "hash": "74c5f7bcaa30f7a2",
+      "translations": {
+        "hi": {
+          "question": "a भुजा वाले वर्ग के अंतर्गत खींचे गए वृत्त का क्षेत्रफल क्या होगा?",
+          "options": {
+            "A": "πa²",
+            "B": "πa²/4",
+            "C": "πa²/2",
+            "D": "2πa²"
+          },
+          "explanation": "वृत्त का व्यास = a, त्रिज्या = a/2। क्षेत्रफल = π(a/2)² = πa²/4।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,917 @@
+{
+  "subject": "Arithmetic",
+  "set": 6,
+  "title": "Arithmetic Mock Test 6",
+  "questions": [
+    {
+      "id": "arithmetic-06-001",
+      "number": 1,
+      "question": "A man buys a watch for Rs. 1600. At what price should he sell it to gain 25%?",
+      "options": {
+        "A": "1800",
+        "B": "1900",
+        "C": "2000",
+        "D": "2100"
+      },
+      "answer": "C",
+      "explanation": "SP = 1600 * 1.25 = 2000.",
+      "hash": "820f553c5025df85",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 1600 रुपये में एक घड़ी खरीदता है। 25% लाभ प्राप्त करने के लिए उसे इसे किस मूल्य पर बेचना चाहिए?",
+          "options": {
+            "A": "1800",
+            "B": "1900",
+            "C": "2000",
+            "D": "2100"
+          },
+          "explanation": "SP = 1600 * 1.25 = 2000."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-002",
+      "number": 2,
+      "question": "The ratio of the volumes of two cubes is 27:64. Find the ratio of their total surface areas.",
+      "options": {
+        "A": "3:4",
+        "B": "9:16",
+        "C": "27:64",
+        "D": "81:256"
+      },
+      "answer": "B",
+      "explanation": "Ratio of sides = cbrt(27):cbrt(64) = 3:4. Ratio of areas = 3^2:4^2 = 9:16.",
+      "hash": "f91ae224c8b347bb",
+      "translations": {
+        "hi": {
+          "question": "दो घनों के आयतनों का अनुपात 27:64 है। उनके कुल पृष्ठीय क्षेत्रफलों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "3:4",
+            "B": "9:16",
+            "C": "27:64",
+            "D": "81:256"
+          },
+          "explanation": "भुजाओं का अनुपात = cbrt(27):cbrt(64) = 3:4। क्षेत्रफलों का अनुपात = 3^2:4^2 = 9:16."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-003",
+      "number": 3,
+      "question": "If the length of a rectangle is increased by 10% and breadth is increased by 20%, find the net percentage increase in area.",
+      "options": {
+        "A": "30%",
+        "B": "32%",
+        "C": "35%",
+        "D": "40%"
+      },
+      "answer": "B",
+      "explanation": "Increase = 10 + 20 + (10*20)/100 = 32%.",
+      "hash": "c5c9663bd79644c7",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आयत की लंबाई में 10% की वृद्धि की जाती है और चौड़ाई में 20% की वृद्धि की जाती है, तो क्षेत्रफल में शुद्ध प्रतिशत वृद्धि ज्ञात कीजिए।",
+          "options": {
+            "A": "30%",
+            "B": "32%",
+            "C": "35%",
+            "D": "40%"
+          },
+          "explanation": "वृद्धि = 10 + 20 + (10*20)/100 = 32%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-004",
+      "number": 4,
+      "question": "The average of 10 numbers is 7. If each number is multiplied by 12, then the average of new set of numbers is?",
+      "options": {
+        "A": "7",
+        "B": "19",
+        "C": "82",
+        "D": "84"
+      },
+      "answer": "D",
+      "explanation": "New Average = Old Average * 12 = 7 * 12 = 84.",
+      "hash": "d4e669a37b59893b",
+      "translations": {
+        "hi": {
+          "question": "10 संख्याओं का औसत 7 है। यदि प्रत्येक संख्या को 12 से गुणा किया जाता है, तो संख्याओं के नए सेट का औसत क्या होगा?",
+          "options": {
+            "A": "7",
+            "B": "19",
+            "C": "82",
+            "D": "84"
+          },
+          "explanation": "नया औसत = पुराना औसत * 12 = 7 * 12 = 84."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-005",
+      "number": 5,
+      "question": "Find the value of (0.2 * 0.2 * 0.2) + (0.3 * 0.3 * 0.3).",
+      "options": {
+        "A": "0.035",
+        "B": "0.35",
+        "C": "0.0035",
+        "D": "0.5"
+      },
+      "answer": "A",
+      "explanation": "0.008 + 0.027 = 0.035.",
+      "hash": "bd493076b5ef19af",
+      "translations": {
+        "hi": {
+          "question": "(0.2 * 0.2 * 0.2) + (0.3 * 0.3 * 0.3) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.035",
+            "B": "0.35",
+            "C": "0.0035",
+            "D": "0.5"
+          },
+          "explanation": "0.008 + 0.027 = 0.035."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-006",
+      "number": 6,
+      "question": "If 3/4 of a number is 12 more than 1/2 of the same number, find the number.",
+      "options": {
+        "A": "24",
+        "B": "36",
+        "C": "48",
+        "D": "60"
+      },
+      "answer": "C",
+      "explanation": "3/4x - 1/2x = 12 => 1/4x = 12 => x = 48.",
+      "hash": "daef631446601bd6",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 3/4 उसी संख्या के 1/2 से 12 अधिक है, तो संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "24",
+            "B": "36",
+            "C": "48",
+            "D": "60"
+          },
+          "explanation": "3/4x - 1/2x = 12 => 1/4x = 12 => x = 48."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-007",
+      "number": 7,
+      "question": "Find the HCF of 2^3 * 3^2 and 2^2 * 3^3.",
+      "options": {
+        "A": "12",
+        "B": "36",
+        "C": "72",
+        "D": "108"
+      },
+      "answer": "B",
+      "explanation": "HCF = 2^2 * 3^2 = 4 * 9 = 36.",
+      "hash": "a5c0a0f4a13af818",
+      "translations": {
+        "hi": {
+          "question": "2^3 * 3^2 और 2^2 * 3^3 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "12",
+            "B": "36",
+            "C": "72",
+            "D": "108"
+          },
+          "explanation": "HCF = 2^2 * 3^2 = 4 * 9 = 36."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-008",
+      "number": 8,
+      "question": "A train 240 m long passes a platform 160 m long in 20 seconds. Find its speed in km/hr.",
+      "options": {
+        "A": "36",
+        "B": "54",
+        "C": "72",
+        "D": "90"
+      },
+      "answer": "C",
+      "explanation": "Total distance = 400. Speed = 400/20 = 20 m/s. 20 * (18/5) = 72 km/hr.",
+      "hash": "9981bdfb237b36c6",
+      "translations": {
+        "hi": {
+          "question": "240 मीटर लंबी एक ट्रेन 160 मीटर लंबे प्लेटफॉर्म को 20 सेकंड में पार करती है। किमी/घंटा में इसकी गति ज्ञात कीजिए।",
+          "options": {
+            "A": "36",
+            "B": "54",
+            "C": "72",
+            "D": "90"
+          },
+          "explanation": "कुल दूरी = 400। गति = 400/20 = 20 मी/से। 20 * (18/5) = 72 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-009",
+      "number": 9,
+      "question": "A and B together can do a work in 12 days. A alone can do it in 20 days. In how many days can B alone do it?",
+      "options": {
+        "A": "25 days",
+        "B": "30 days",
+        "C": "35 days",
+        "D": "40 days"
+      },
+      "answer": "B",
+      "explanation": "B's work = 1/12 - 1/20 = 2/60 = 1/30. Days = 30.",
+      "hash": "78f207a6cf2324b0",
+      "translations": {
+        "hi": {
+          "question": "A और B मिलकर एक काम को 12 दिनों में कर सकते हैं। A अकेला इसे 20 दिनों में कर सकता है। B अकेला इसे कितने दिनों में कर सकता है?",
+          "options": {
+            "A": "25 दिन",
+            "B": "30 दिन",
+            "C": "35 दिन",
+            "D": "40 दिन"
+          },
+          "explanation": "B का कार्य = 1/12 - 1/20 = 2/60 = 1/30। दिन = 30."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-010",
+      "number": 10,
+      "question": "If the circumference of a circle is 88 cm, find its area.",
+      "options": {
+        "A": "154 cm²",
+        "B": "308 cm²",
+        "C": "462 cm²",
+        "D": "616 cm²"
+      },
+      "answer": "D",
+      "explanation": "2*pi*r = 88 => r = 14. Area = pi * 14 * 14 = 616.",
+      "hash": "8d1ec39198a80771",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त की परिधि 88 सेमी है, तो इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "154 सेमी²",
+            "B": "308 सेमी²",
+            "C": "462 सेमी²",
+            "D": "616 सेमी²"
+          },
+          "explanation": "2*pi*r = 88 => r = 14. क्षेत्रफल = pi * 14 * 14 = 616."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-011",
+      "number": 11,
+      "question": "Find the compound interest on Rs. 10000 at 10% per annum for 2 years, compounded annually.",
+      "options": {
+        "A": "2000",
+        "B": "2100",
+        "C": "2200",
+        "D": "2500"
+      },
+      "answer": "B",
+      "explanation": "CI = 10000[(1.1)^2 - 1] = 10000[0.21] = 2100.",
+      "hash": "9be8ff160973f4e1",
+      "translations": {
+        "hi": {
+          "question": "10000 रुपये पर 10% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज ज्ञात कीजिए, जो वार्षिक रूप से संयोजित होता है।",
+          "options": {
+            "A": "2000",
+            "B": "2100",
+            "C": "2200",
+            "D": "2500"
+          },
+          "explanation": "CI = 10000[(1.1)^2 - 1] = 10000[0.21] = 2100."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-012",
+      "number": 12,
+      "question": "A shopkeeper sells an item for Rs. 900 at a loss of 10%. Find the cost price.",
+      "options": {
+        "A": "810",
+        "B": "990",
+        "C": "1000",
+        "D": "1100"
+      },
+      "answer": "C",
+      "explanation": "CP = 900 / 0.9 = 1000.",
+      "hash": "56207f16ee0cfb41",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु को 10% की हानि पर 900 रुपये में बेचता है। क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "810",
+            "B": "990",
+            "C": "1000",
+            "D": "1100"
+          },
+          "explanation": "CP = 900 / 0.9 = 1000."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-013",
+      "number": 13,
+      "question": "Find the value of sqrt(0.01) + sqrt(0.81).",
+      "options": {
+        "A": "0.1",
+        "B": "0.9",
+        "C": "1.0",
+        "D": "1.1"
+      },
+      "answer": "C",
+      "explanation": "0.1 + 0.9 = 1.0.",
+      "hash": "d550064c173f6095",
+      "translations": {
+        "hi": {
+          "question": "sqrt(0.01) + sqrt(0.81) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.1",
+            "B": "0.9",
+            "C": "1.0",
+            "D": "1.1"
+          },
+          "explanation": "0.1 + 0.9 = 1.0."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-014",
+      "number": 14,
+      "question": "The perimeter of a semi-circle is 36 cm. Find its radius.",
+      "options": {
+        "A": "7 cm",
+        "B": "14 cm",
+        "C": "21 cm",
+        "D": "28 cm"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = pi*r + 2r = r(pi + 2) = r(22/7 + 2) = r(36/7) = 36. r = 7.",
+      "hash": "1e2b49f226e5ab6e",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धवृत्त का परिमाप 36 सेमी है। इसकी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "14 सेमी",
+            "C": "21 सेमी",
+            "D": "28 सेमी"
+          },
+          "explanation": "परिमाप = pi*r + 2r = r(36/7) = 36। r = 7."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-015",
+      "number": 15,
+      "question": "If x:y = 5:8 and y:z = 4:7, then find x:z.",
+      "options": {
+        "A": "5:14",
+        "B": "5:7",
+        "C": "10:7",
+        "D": "20:56"
+      },
+      "answer": "A",
+      "explanation": "x/z = (x/y) * (y/z) = (5/8) * (4/7) = 20/56 = 5/14.",
+      "hash": "284711a64baad229",
+      "translations": {
+        "hi": {
+          "question": "यदि x:y = 5:8 और y:z = 4:7 है, तो x:z ज्ञात कीजिए।",
+          "options": {
+            "A": "5:14",
+            "B": "5:7",
+            "C": "10:7",
+            "D": "20:56"
+          },
+          "explanation": "x/z = (x/y) * (y/z) = (5/8) * (4/7) = 20/56 = 5/14."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-016",
+      "number": 16,
+      "question": "Find the sum of all interior angles of a pentagon.",
+      "options": {
+        "A": "360°",
+        "B": "540°",
+        "C": "720°",
+        "D": "900°"
+      },
+      "answer": "B",
+      "explanation": "Sum = (n-2) * 180 = (5-2) * 180 = 540°.",
+      "hash": "75bce967ca6c7038",
+      "translations": {
+        "hi": {
+          "question": "एक पंचभुज के सभी आंतरिक कोणों का योग ज्ञात कीजिए।",
+          "options": {
+            "A": "360°",
+            "B": "540°",
+            "C": "720°",
+            "D": "900°"
+          },
+          "explanation": "योग = (n-2) * 180 = (5-2) * 180 = 540°."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-017",
+      "number": 17,
+      "question": "By selling a mobile for Rs. 4600, a man loses 8%. Find the cost price.",
+      "options": {
+        "A": "4800",
+        "B": "5000",
+        "C": "5200",
+        "D": "5400"
+      },
+      "answer": "B",
+      "explanation": "CP = 4600 / 0.92 = 5000.",
+      "hash": "c30f7d378dd1086b",
+      "translations": {
+        "hi": {
+          "question": "एक मोबाइल को 4600 रुपये में बेचने पर, एक व्यक्ति को 8% की हानि होती है। क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "4800",
+            "B": "5000",
+            "C": "5200",
+            "D": "5400"
+          },
+          "explanation": "CP = 4600 / 0.92 = 5000."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-018",
+      "number": 18,
+      "question": "Find the mean proportional between 4 and 64.",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "24",
+        "D": "32"
+      },
+      "answer": "B",
+      "explanation": "Mean proportional = sqrt(4 * 64) = sqrt(256) = 16.",
+      "hash": "ec2b48cbed7a913e",
+      "translations": {
+        "hi": {
+          "question": "4 और 64 के बीच का मध्यानुपाती ज्ञात कीजिए।",
+          "options": {
+            "A": "8",
+            "B": "16",
+            "C": "24",
+            "D": "32"
+          },
+          "explanation": "मध्यानुपाती = sqrt(4 * 64) = sqrt(256) = 16."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-019",
+      "number": 19,
+      "question": "Find the value of (125)^(2/3).",
+      "options": {
+        "A": "5",
+        "B": "25",
+        "C": "50",
+        "D": "75"
+      },
+      "answer": "B",
+      "explanation": "(5^3)^(2/3) = 5^2 = 25.",
+      "hash": "65c6284603d85779",
+      "translations": {
+        "hi": {
+          "question": "(125)^(2/3) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "5",
+            "B": "25",
+            "C": "50",
+            "D": "75"
+          },
+          "explanation": "(5^3)^(2/3) = 5^2 = 25."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-020",
+      "number": 20,
+      "question": "A boat travels 12 km/hr in still water. If the speed of the stream is 4 km/hr, how much time will it take to go 48 km upstream?",
+      "options": {
+        "A": "3 hours",
+        "B": "4 hours",
+        "C": "6 hours",
+        "D": "8 hours"
+      },
+      "answer": "C",
+      "explanation": "Upstream speed = 12 - 4 = 8 km/hr. Time = 48 / 8 = 6 hours.",
+      "hash": "f1c975c8fb1624b6",
+      "translations": {
+        "hi": {
+          "question": "एक नाव शांत जल में 12 किमी/घंटा की गति से चलती है। यदि धारा की गति 4 किमी/घंटा है, तो धारा के प्रतिकूल 48 किमी जाने में कितना समय लगेगा?",
+          "options": {
+            "A": "3 घंटे",
+            "B": "4 घंटे",
+            "C": "6 घंटे",
+            "D": "8 घंटे"
+          },
+          "explanation": "धारा के प्रतिकूल गति = 12 - 4 = 8 किमी/घंटा। समय = 48 / 8 = 6 घंटे."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-021",
+      "number": 21,
+      "question": "A number is first increased by 20% and then decreased by 20%. The net change is?",
+      "options": {
+        "A": "No change",
+        "B": "4% increase",
+        "C": "4% decrease",
+        "D": "2% decrease"
+      },
+      "answer": "C",
+      "explanation": "Change = +20 - 20 - (400/100) = -4%.",
+      "hash": "33eb7ed7f4598405",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या में पहले 20% की वृद्धि की जाती है और फिर 20% की कमी की जाती है। शुद्ध परिवर्तन क्या है?",
+          "options": {
+            "A": "कोई परिवर्तन नहीं",
+            "B": "4% वृद्धि",
+            "C": "4% कमी",
+            "D": "2% कमी"
+          },
+          "explanation": "परिवर्तन = +20 - 20 - (400/100) = -4%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-022",
+      "number": 22,
+      "question": "If 10 men can finish a work in 15 days, how many men are needed to finish it in 10 days?",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "20",
+        "D": "25"
+      },
+      "answer": "B",
+      "explanation": "10 * 15 = M * 10 => M = 15.",
+      "hash": "94ff29091729efdf",
+      "translations": {
+        "hi": {
+          "question": "यदि 10 पुरुष एक काम को 15 दिनों में पूरा कर सकते हैं, तो इसे 10 दिनों में पूरा करने के लिए कितने पुरुषों की आवश्यकता है?",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "20",
+            "D": "25"
+          },
+          "explanation": "10 * 15 = M * 10 => M = 15."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-023",
+      "number": 23,
+      "question": "Solve: (1/2 + 1/4 + 1/8) / (7/8).",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "2",
+        "D": "7/8"
+      },
+      "answer": "B",
+      "explanation": "(4+2+1)/8 = 7/8. So (7/8) / (7/8) = 1.",
+      "hash": "69f52fdd1a005164",
+      "translations": {
+        "hi": {
+          "question": "हल करें: (1/2 + 1/4 + 1/8) / (7/8).",
+          "options": {
+            "A": "1/2",
+            "B": "1",
+            "C": "2",
+            "D": "7/8"
+          },
+          "explanation": "(4+2+1)/8 = 7/8। अतः (7/8) / (7/8) = 1."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-024",
+      "number": 24,
+      "question": "The ratio of boys to girls in a class of 45 students is 2:3. Find the number of girls.",
+      "options": {
+        "A": "18",
+        "B": "21",
+        "C": "27",
+        "D": "30"
+      },
+      "answer": "C",
+      "explanation": "Girls = (3/5) * 45 = 27.",
+      "hash": "9d050b3ad5f92c08",
+      "translations": {
+        "hi": {
+          "question": "45 छात्रों की एक कक्षा में लड़कों और लड़कियों का अनुपात 2:3 है। लड़कियों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "18",
+            "B": "21",
+            "C": "27",
+            "D": "30"
+          },
+          "explanation": "लड़कियां = (3/5) * 45 = 27."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-025",
+      "number": 25,
+      "question": "Find the largest three digit number divisible by 7.",
+      "options": {
+        "A": "994",
+        "B": "995",
+        "C": "997",
+        "D": "999"
+      },
+      "answer": "A",
+      "explanation": "999 / 7 leaves remainder 5. 999 - 5 = 994.",
+      "hash": "06336d197ad32f06",
+      "translations": {
+        "hi": {
+          "question": "7 से विभाज्य 3 अंकों की सबसे बड़ी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "994",
+            "B": "995",
+            "C": "997",
+            "D": "999"
+          },
+          "explanation": "999 / 7 करने पर शेषफल 5 बचता है। 999 - 5 = 994."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-026",
+      "number": 26,
+      "question": "The diagonal of a square is 14 cm. Find its area.",
+      "options": {
+        "A": "49 cm²",
+        "B": "98 cm²",
+        "C": "196 cm²",
+        "D": "72 cm²"
+      },
+      "answer": "B",
+      "explanation": "Area = (d^2)/2 = 196 / 2 = 98.",
+      "hash": "e9e07bbcbeb6012c",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का विकर्ण 14 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "49 सेमी²",
+            "B": "98 सेमी²",
+            "C": "196 सेमी²",
+            "D": "72 सेमी²"
+          },
+          "explanation": "क्षेत्रफल = (d^2)/2 = 196 / 2 = 98."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-027",
+      "number": 27,
+      "question": "If the price of an article is increased from Rs. 40 to Rs. 50, find the percentage increase.",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "25%",
+        "D": "30%"
+      },
+      "answer": "C",
+      "explanation": "Increase = (10/40) * 100 = 25%.",
+      "hash": "631dacd2a91ca2eb",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वस्तु की कीमत 40 रुपये से बढ़ाकर 50 रुपये कर दी जाती है, तो प्रतिशत वृद्धि ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%"
+          },
+          "explanation": "वृद्धि = (10/40) * 100 = 25%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-028",
+      "number": 28,
+      "question": "Find the mode of the following data: 2, 3, 3, 4, 5, 5, 5, 6, 7.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "5 appears most frequently (3 times).",
+      "hash": "242245a8d6b2e811",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित आंकड़ों का बहुलक ज्ञात कीजिए: 2, 3, 3, 4, 5, 5, 5, 6, 7.",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "5 सबसे अधिक बार (3 बार) आता है।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-029",
+      "number": 29,
+      "question": "Find the value of x if 0.4x = 8.",
+      "options": {
+        "A": "2",
+        "B": "20",
+        "C": "200",
+        "D": "80"
+      },
+      "answer": "B",
+      "explanation": "x = 8 / 0.4 = 20.",
+      "hash": "64406af46e703cad",
+      "translations": {
+        "hi": {
+          "question": "x का मान ज्ञात कीजिए यदि 0.4x = 8 है।",
+          "options": {
+            "A": "2",
+            "B": "20",
+            "C": "200",
+            "D": "80"
+          },
+          "explanation": "x = 8 / 0.4 = 20."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-030",
+      "number": 30,
+      "question": "A cylinder has a radius of 7 cm and total surface area of 968 sq.cm. Find its height.",
+      "options": {
+        "A": "10 cm",
+        "B": "15 cm",
+        "C": "20 cm",
+        "D": "25 cm"
+      },
+      "answer": "B",
+      "explanation": "2*pi*r(r+h) = 968 => 2*(22/7)*7(7+h) = 968 => 44(7+h) = 968 => 7+h = 22 => h = 15.",
+      "hash": "97a830fd485014a3",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन की त्रिज्या 7 सेमी और कुल पृष्ठीय क्षेत्रफल 968 वर्ग सेमी है। इसकी ऊँचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "10 सेमी",
+            "B": "15 सेमी",
+            "C": "20 सेमी",
+            "D": "25 सेमी"
+          },
+          "explanation": "2*pi*r(r+h) = 968 => 44(7+h) = 968 => 7+h = 22 => h = 15."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-031",
+      "number": 31,
+      "question": "The ratio of the radii of two circles is 2:3. Find the ratio of their areas.",
+      "options": {
+        "A": "2:3",
+        "B": "4:9",
+        "C": "8:27",
+        "D": "1:2"
+      },
+      "answer": "B",
+      "explanation": "Ratio of areas = 2^2:3^2 = 4:9.",
+      "hash": "34e155f2fc846268",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्तों की त्रिज्याओं का अनुपात 2:3 है। उनके क्षेत्रफलों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "2:3",
+            "B": "4:9",
+            "C": "8:27",
+            "D": "1:2"
+          },
+          "explanation": "क्षेत्रफलों का अनुपात = 2^2:3^2 = 4:9."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-032",
+      "number": 32,
+      "question": "What is the sum of the first 10 odd numbers?",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200"
+      },
+      "answer": "B",
+      "explanation": "Sum of first n odd numbers = n^2 = 10^2 = 100.",
+      "hash": "f208fae5a7860a9c",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 विषम संख्याओं का योग क्या है?",
+          "options": {
+            "A": "50",
+            "B": "100",
+            "C": "150",
+            "D": "200"
+          },
+          "explanation": "प्रथम n विषम संख्याओं का योग = n^2 = 10^2 = 100."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-033",
+      "number": 33,
+      "question": "A man travels 100 km at 50 km/hr and another 100 km at 25 km/hr. Find his average speed.",
+      "options": {
+        "A": "33.33 km/hr",
+        "B": "37.5 km/hr",
+        "C": "40 km/hr",
+        "D": "45 km/hr"
+      },
+      "answer": "A",
+      "explanation": "Total time = 100/50 + 100/25 = 2 + 4 = 6 hours. Avg Speed = 200/6 = 33.33 km/hr.",
+      "hash": "e3e67ed4647827e2",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 50 किमी/घंटा की गति से 100 किमी और 25 किमी/घंटा की गति से अन्य 100 किमी की यात्रा करता है। उसकी औसत गति ज्ञात कीजिए।",
+          "options": {
+            "A": "33.33 किमी/घंटा",
+            "B": "37.5 किमी/घंटा",
+            "C": "40 किमी/घंटा",
+            "D": "45 किमी/घंटा"
+          },
+          "explanation": "कुल समय = 2 + 4 = 6 घंटे। औसत गति = 200/6 = 33.33 किमी/घंटा।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-034",
+      "number": 34,
+      "question": "Find the value of 0.25 * 0.4.",
+      "options": {
+        "A": "0.1",
+        "B": "0.01",
+        "C": "1.0",
+        "D": "0.001"
+      },
+      "answer": "A",
+      "explanation": "0.25 * 0.4 = 0.1.",
+      "hash": "e13d1053988ff25f",
+      "translations": {
+        "hi": {
+          "question": "0.25 * 0.4 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.1",
+            "B": "0.01",
+            "C": "1.0",
+            "D": "0.001"
+          },
+          "explanation": "0.25 * 0.4 = 0.1."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-06-035",
+      "number": 35,
+      "question": "If 3/5 of a number is 60, find the number.",
+      "options": {
+        "A": "80",
+        "B": "100",
+        "C": "120",
+        "D": "150"
+      },
+      "answer": "B",
+      "explanation": "3/5x = 60 => x = (60*5)/3 = 100.",
+      "hash": "b817c1d65f0d97d0",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 3/5 हिस्सा 60 है, तो संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "80",
+            "B": "100",
+            "C": "120",
+            "D": "150"
+          },
+          "explanation": "3/5x = 60 => x = (60*5)/3 = 100."
+        }
+      }
+    }
+  ]
+}

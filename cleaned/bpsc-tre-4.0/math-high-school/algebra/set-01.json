@@ -1,0 +1,567 @@
+{
+  "subject": "Algebra",
+  "set": 1,
+  "title": "Algebra Mock Test 1",
+  "questions": [
+    {
+      "id": "algebra-01-001",
+      "number": 1,
+      "question": "If alpha and beta are the zeros of the quadratic polynomial f(x) = x^2 - 5x + 6, then the value of alpha^2 + beta^2 is:",
+      "options": {
+        "A": "13",
+        "B": "25",
+        "C": "12",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "alpha + beta = 5, alpha * beta = 6. alpha^2 + beta^2 = (alpha + beta)^2 - 2(alpha * beta) = 25 - 12 = 13.",
+      "hash": "f70bc74aa248e4c6",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा और बीटा द्विघात बहुपद f(x) = x^2 - 5x + 6 के शून्यक हैं, तो अल्फा^2 + बीटा^2 का मान है:",
+          "options": {
+            "A": "13",
+            "B": "25",
+            "C": "12",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अल्फा + बीटा = 5, अल्फा * बीटा = 6। अल्फा^2 + बीटा^2 = (अल्फा + बीटा)^2 - 2(अल्फा * बीटा) = 25 - 12 = 13।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-002",
+      "number": 2,
+      "question": "The value of k for which the system of equations kx - y = 2 and 6x - 2y = 3 has a unique solution is:",
+      "options": {
+        "A": "k = 3",
+        "B": "k != 3",
+        "C": "k != 0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "For unique solution, a1/a2 != b1/b2. So, k/6 != -1/-2, which means k/6 != 1/2, so k != 3.",
+      "hash": "47f651b3b6029bfc",
+      "translations": {
+        "hi": {
+          "question": "k का वह मान जिसके लिए समीकरण निकाय kx - y = 2 और 6x - 2y = 3 का एक अद्वितीय समाधान है:",
+          "options": {
+            "A": "k = 3",
+            "B": "k != 3",
+            "C": "k != 0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अद्वितीय समाधान के लिए, a1/a2 != b1/b2। इसलिए, k/6 != -1/-2, जिसका अर्थ है k/6 != 1/2, इसलिए k != 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-003",
+      "number": 3,
+      "question": "If the roots of the equation x^2 + px + q = 0 are equal, then:",
+      "options": {
+        "A": "p^2 = 4q",
+        "B": "p^2 = q",
+        "C": "p = 4q^2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For equal roots, discriminant D = 0. So, p^2 - 4(1)(q) = 0, which means p^2 = 4q.",
+      "hash": "eecd88282de8b374",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण x^2 + px + q = 0 के मूल बराबर हैं, तो:",
+          "options": {
+            "A": "p^2 = 4q",
+            "B": "p^2 = q",
+            "C": "p = 4q^2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समान मूलों के लिए, विविक्तकर D = 0। इसलिए, p^2 - 4(1)(q) = 0, जिसका अर्थ है p^2 = 4q।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-004",
+      "number": 4,
+      "question": "The sum of the first 20 terms of the AP: 5, 8, 11, 14, ... is:",
+      "options": {
+        "A": "670",
+        "B": "610",
+        "C": "700",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "S_n = n/2[2a + (n-1)d]. S_20 = 20/2[2(5) + 19(3)] = 10[10 + 57] = 670.",
+      "hash": "38912c286cf0227e",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 5, 8, 11, 14, ... के पहले 20 पदों का योग है:",
+          "options": {
+            "A": "670",
+            "B": "610",
+            "C": "700",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "S_n = n/2[2a + (n-1)d]। S_20 = 20/2[2(5) + 19(3)] = 10[10 + 57] = 670।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-005",
+      "number": 5,
+      "question": "Which term of the AP: 21, 18, 15, ... is -81?",
+      "options": {
+        "A": "34th",
+        "B": "35th",
+        "C": "36th",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a = 21, d = -3. -81 = 21 + (n-1)(-3) => -102 = -3(n-1) => 34 = n-1 => n = 35.",
+      "hash": "e618e7773764c3da",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 21, 18, 15, ... का कौन सा पद -81 है?",
+          "options": {
+            "A": "34वाँ",
+            "B": "35वाँ",
+            "C": "36वाँ",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a = 21, d = -3। -81 = 21 + (n-1)(-3) => -102 = -3(n-1) => 34 = n-1 => n = 35।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-006",
+      "number": 6,
+      "question": "If x + 1/x = 4, then the value of x^4 + 1/x^4 is:",
+      "options": {
+        "A": "194",
+        "B": "196",
+        "C": "254",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "x^2 + 1/x^2 = 4^2 - 2 = 14. x^4 + 1/x^4 = 14^2 - 2 = 196 - 2 = 194.",
+      "hash": "01533ddd23054eef",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 4 है, तो x^4 + 1/x^4 का मान है:",
+          "options": {
+            "A": "194",
+            "B": "196",
+            "C": "254",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x^2 + 1/x^2 = 4^2 - 2 = 14। x^4 + 1/x^4 = 14^2 - 2 = 196 - 2 = 194।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-007",
+      "number": 7,
+      "question": "The roots of the quadratic equation 2x^2 - x - 6 = 0 are:",
+      "options": {
+        "A": "2, -3/2",
+        "B": "-2, 3/2",
+        "C": "2, 3/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "2x^2 - 4x + 3x - 6 = 0 => 2x(x - 2) + 3(x - 2) = 0 => (2x + 3)(x - 2) = 0. Roots are 2, -3/2.",
+      "hash": "cfd7ca6fe33c7291",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण 2x^2 - x - 6 = 0 के मूल हैं:",
+          "options": {
+            "A": "2, -3/2",
+            "B": "-2, 3/2",
+            "C": "2, 3/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "2x^2 - 4x + 3x - 6 = 0 => 2x(x - 2) + 3(x - 2) = 0 => (2x + 3)(x - 2) = 0। मूल 2, -3/2 हैं।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-008",
+      "number": 8,
+      "question": "The condition for the equations a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 to represent coincident lines is:",
+      "options": {
+        "A": "a1/a2 = b1/b2 != c1/c2",
+        "B": "a1/a2 = b1/b2 = c1/c2",
+        "C": "a1/a2 != b1/b2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Coincident lines mean infinite solutions, which requires a1/a2 = b1/b2 = c1/c2.",
+      "hash": "a360f6ba5a1dda8f",
+      "translations": {
+        "hi": {
+          "question": "समीकरणों a1x + b1y + c1 = 0 और a2x + b2y + c2 = 0 के संपाती रेखाओं को प्रदर्शित करने की शर्त है:",
+          "options": {
+            "A": "a1/a2 = b1/b2 != c1/c2",
+            "B": "a1/a2 = b1/b2 = c1/c2",
+            "C": "a1/a2 != b1/b2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संपाती रेखाओं का अर्थ है अनंत समाधान, जिसके लिए a1/a2 = b1/b2 = c1/c2 की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-009",
+      "number": 9,
+      "question": "If (x - 2) is a factor of x^3 + kx^2 + 4x - 4, then k is:",
+      "options": {
+        "A": "-3",
+        "B": "3",
+        "C": "-2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "By factor theorem, f(2) = 0. 2^3 + k(2^2) + 4(2) - 4 = 0 => 8 + 4k + 8 - 4 = 0 => 4k + 12 = 0 => k = -3.",
+      "hash": "02b12558f164561a",
+      "translations": {
+        "hi": {
+          "question": "यदि (x - 2), x^3 + kx^2 + 4x - 4 का एक गुणनखंड है, तो k है:",
+          "options": {
+            "A": "-3",
+            "B": "3",
+            "C": "-2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "गुणनखंड प्रमेय द्वारा, f(2) = 0। 2^3 + k(2^2) + 4(2) - 4 = 0 => 8 + 4k + 8 - 4 = 0 => 4k + 12 = 0 => k = -3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-010",
+      "number": 10,
+      "question": "The discriminant of the quadratic equation x^2 - 4x + 1 = 0 is:",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "20",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "D = b^2 - 4ac = (-4)^2 - 4(1)(1) = 16 - 4 = 12.",
+      "hash": "6f6c78123f768c22",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण x^2 - 4x + 1 = 0 का विविक्तकर है:",
+          "options": {
+            "A": "12",
+            "B": "16",
+            "C": "20",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "D = b^2 - 4ac = (-4)^2 - 4(1)(1) = 16 - 4 = 12।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-011",
+      "number": 11,
+      "question": "If the 7th and 13th terms of an AP are 34 and 64 respectively, then the 18th term is:",
+      "options": {
+        "A": "89",
+        "B": "87",
+        "C": "91",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a+6d=34, a+12d=64. Subtracting gives 6d=30 => d=5. Then a=4. 18th term = 4 + 17(5) = 4 + 85 = 89.",
+      "hash": "8782a6379d7704b1",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी समांतर श्रेणी का 7वां और 13वां पद क्रमशः 34 और 64 है, तो 18वां पद है:",
+          "options": {
+            "A": "89",
+            "B": "87",
+            "C": "91",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a+6d=34, a+12d=64। घटाने पर 6d=30 => d=5 प्राप्त होता है। फिर a=4। 18वां पद = 4 + 17(5) = 4 + 85 = 89।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-012",
+      "number": 12,
+      "question": "If one root of the equation 3x^2 - 10x + k = 0 is reciprocal of the other, then k is:",
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "1/3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Let roots be alpha and 1/alpha. Product of roots = c/a. alpha * (1/alpha) = k/3 => 1 = k/3 => k = 3.",
+      "hash": "e5ca6c00fa2038cc",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण 3x^2 - 10x + k = 0 का एक मूल दूसरे का व्युत्क्रम है, तो k है:",
+          "options": {
+            "A": "3",
+            "B": "-3",
+            "C": "1/3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना मूल अल्फा और 1/अल्फा हैं। मूलों का गुणनफल = c/a। अल्फा * (1/अल्फा) = k/3 => 1 = k/3 => k = 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-013",
+      "number": 13,
+      "question": "If 2x, x+10, 3x+2 are in AP, then the value of x is:",
+      "options": {
+        "A": "6",
+        "B": "18",
+        "C": "10",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "2(x+10) = 2x + (3x+2) => 2x + 20 = 5x + 2 => 18 = 3x => x = 6.",
+      "hash": "26016360fc32e9d2",
+      "translations": {
+        "hi": {
+          "question": "यदि 2x, x+10, 3x+2 समांतर श्रेणी (AP) में हैं, तो x का मान है:",
+          "options": {
+            "A": "6",
+            "B": "18",
+            "C": "10",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "2(x+10) = 2x + (3x+2) => 2x + 20 = 5x + 2 => 18 = 3x => x = 6।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-014",
+      "number": 14,
+      "question": "The sum of the roots of the equation x^2 + 7x + 10 = 0 is:",
+      "options": {
+        "A": "7",
+        "B": "-7",
+        "C": "10",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Sum of roots = -b/a = -7/1 = -7.",
+      "hash": "73fb4e22ec48c292",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x^2 + 7x + 10 = 0 के मूलों का योग है:",
+          "options": {
+            "A": "7",
+            "B": "-7",
+            "C": "10",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मूलों का योग = -b/a = -7/1 = -7।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-015",
+      "number": 15,
+      "question": "Find the value of m if the roots of mx(x - 7) + 49 = 0 are equal.",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "mx^2 - 7mx + 49 = 0. D = 0 => (-7m)^2 - 4(m)(49) = 0 => 49m^2 - 196m = 0 => 49m(m - 4) = 0. m=4 (m cannot be 0).",
+      "hash": "90932a3fc79e1f94",
+      "translations": {
+        "hi": {
+          "question": "m का मान ज्ञात कीजिए यदि mx(x - 7) + 49 = 0 के मूल बराबर हैं।",
+          "options": {
+            "A": "4",
+            "B": "7",
+            "C": "0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "mx^2 - 7mx + 49 = 0। D = 0 => (-7m)^2 - 4(m)(49) = 0 => 49m^2 - 196m = 0 => 49m(m - 4) = 0। m=4 (m शून्य नहीं हो सकता)।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-016",
+      "number": 16,
+      "question": "The remainder when x^3 - 3x^2 + 4x + 5 is divided by (x - 1) is:",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "By remainder theorem, put x = 1 in polynomial: 1 - 3 + 4 + 5 = 7.",
+      "hash": "1f4c2f025bef0283",
+      "translations": {
+        "hi": {
+          "question": "जब x^3 - 3x^2 + 4x + 5 को (x - 1) से विभाजित किया जाता है, तो शेषफल होता है:",
+          "options": {
+            "A": "7",
+            "B": "5",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "शेषफल प्रमेय द्वारा, बहुपद में x = 1 रखें: 1 - 3 + 4 + 5 = 7।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-017",
+      "number": 17,
+      "question": "If alpha, beta, gamma are the zeros of the polynomial x^3 - 6x^2 + 11x - 6, then alpha*beta*gamma is:",
+      "options": {
+        "A": "6",
+        "B": "-6",
+        "C": "11",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For a cubic polynomial, product of zeros = -d/a = -(-6)/1 = 6.",
+      "hash": "f9e9686e57304cd8",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा, बीटा, गामा बहुपद x^3 - 6x^2 + 11x - 6 के शून्यक हैं, तो अल्फा*बीटा*गामा है:",
+          "options": {
+            "A": "6",
+            "B": "-6",
+            "C": "11",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक त्रिघात बहुपद के लिए, शून्यकों का गुणनफल = -d/a = -(-6)/1 = 6।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-018",
+      "number": 18,
+      "question": "The 10th term from the end of the AP: 4, 9, 14, ..., 254 is:",
+      "options": {
+        "A": "209",
+        "B": "205",
+        "C": "214",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "l = 254, d = 5. n-th term from end = l - (n-1)d = 254 - 9(5) = 254 - 45 = 209.",
+      "hash": "366d5677a216190c",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 4, 9, 14, ..., 254 के अंत से 10वां पद है:",
+          "options": {
+            "A": "209",
+            "B": "205",
+            "C": "214",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "l = 254, d = 5। अंत से n-वां पद = l - (n-1)d = 254 - 9(5) = 254 - 45 = 209।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-019",
+      "number": 19,
+      "question": "The common difference of an AP in which a_18 - a_14 = 32 is:",
+      "options": {
+        "A": "8",
+        "B": "-8",
+        "C": "4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "(a + 17d) - (a + 13d) = 32 => 4d = 32 => d = 8.",
+      "hash": "32ceb1c470aa54d0",
+      "translations": {
+        "hi": {
+          "question": "एक समांतर श्रेणी (AP) का सार्व अंतर जिसमें a_18 - a_14 = 32 है:",
+          "options": {
+            "A": "8",
+            "B": "-8",
+            "C": "4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(a + 17d) - (a + 13d) = 32 => 4d = 32 => d = 8।"
+        }
+      }
+    },
+    {
+      "id": "algebra-01-020",
+      "number": 20,
+      "question": "The pair of equations x = a and y = b graphically represents lines which are:",
+      "options": {
+        "A": "Parallel",
+        "B": "Intersecting at (b, a)",
+        "C": "Intersecting at (a, b)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "x=a is a vertical line and y=b is a horizontal line. They intersect at the point (a, b).",
+      "hash": "112f0c2fabe1dcdb",
+      "translations": {
+        "hi": {
+          "question": "समीकरणों का युग्म x = a और y = b ग्राफ के रूप में उन रेखाओं को दर्शाता है जो:",
+          "options": {
+            "A": "समांतर हैं",
+            "B": "(b, a) पर प्रतिच्छेद करती हैं",
+            "C": "(a, b) पर प्रतिच्छेद करती हैं",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x=a एक ऊर्ध्वाधर रेखा है और y=b एक क्षैतिज रेखा है। वे बिंदु (a, b) पर प्रतिच्छेद करती हैं।"
+        }
+      }
+    }
+  ]
+}

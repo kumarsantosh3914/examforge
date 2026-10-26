@@ -1,0 +1,567 @@
+{
+  "subject": "Statistics & Probability",
+  "set": 1,
+  "title": "Statistics & Probability Mock Test 1",
+  "questions": [
+    {
+      "id": "statistics-probability-01-001",
+      "number": 1,
+      "question": "If the probability of an event happening is 0.35, what is the probability of the event not happening?",
+      "options": {
+        "A": "0.35",
+        "B": "0.65",
+        "C": "0.50",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Probability of not happening = 1 - P(Event) = 1 - 0.35 = 0.65.",
+      "hash": "0313ea1de1bb9d54",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी घटना के घटने की प्रायिकता 0.35 है, तो घटना के न घटने की प्रायिकता क्या है?",
+          "options": {
+            "A": "0.35",
+            "B": "0.65",
+            "C": "0.50",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "घटना न होने की प्रायिकता = 1 - P(घटना) = 1 - 0.35 = 0.65 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-002",
+      "number": 2,
+      "question": "A bag contains 4 red and 6 black balls. A ball is drawn at random. What is the probability of getting a red ball?",
+      "options": {
+        "A": "2/5",
+        "B": "3/5",
+        "C": "4/5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "P(Red) = Number of red balls / Total balls = 4 / (4+6) = 4/10 = 2/5.",
+      "hash": "def453f69bb7e554",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 4 लाल और 6 काली गेंदें हैं। एक गेंद यादृच्छया निकाली जाती है। लाल गेंद मिलने की प्रायिकता क्या है?",
+          "options": {
+            "A": "2/5",
+            "B": "3/5",
+            "C": "4/5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "P(लाल) = लाल गेंदों की संख्या / कुल गेंदें = 4 / (4+6) = 4/10 = 2/5 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-003",
+      "number": 3,
+      "question": "The mean of the first five prime numbers is:",
+      "options": {
+        "A": "5.4",
+        "B": "5.6",
+        "C": "5.0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "First five prime numbers are 2, 3, 5, 7, 11. Mean = (2+3+5+7+11)/5 = 28/5 = 5.6.",
+      "hash": "26fe2a9e3764b4be",
+      "translations": {
+        "hi": {
+          "question": "प्रथम पांच अभाज्य संख्याओं का माध्य है:",
+          "options": {
+            "A": "5.4",
+            "B": "5.6",
+            "C": "5.0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रथम पांच अभाज्य संख्याएँ 2, 3, 5, 7, 11 हैं। माध्य = (2+3+5+7+11)/5 = 28/5 = 5.6 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-004",
+      "number": 4,
+      "question": "For a symmetric distribution, which of the following is true?",
+      "options": {
+        "A": "Mean > Median > Mode",
+        "B": "Mean < Median < Mode",
+        "C": "Mean = Median = Mode",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "In a perfectly symmetric distribution (like a normal distribution), mean, median, and mode coincide.",
+      "hash": "f473210f1ca55b39",
+      "translations": {
+        "hi": {
+          "question": "एक सममित वितरण के लिए, निम्नलिखित में से कौन सा सत्य है?",
+          "options": {
+            "A": "माध्य > माध्यिका > बहुलक",
+            "B": "माध्य < माध्यिका < बहुलक",
+            "C": "माध्य = माध्यिका = बहुलक",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पूर्णतः सममित वितरण में माध्य, माध्यिका और बहुलक एक समान होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-005",
+      "number": 5,
+      "question": "The median of the observations 11, 12, 14, 18, x+2, x+4, 30, 32, 35, 41 arranged in ascending order is 24. Find x.",
+      "options": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Total observations n=10 (even). Median = [(n/2)th + (n/2 + 1)th]/2 = [(x+2)+(x+4)]/2 = 24. 2x+6 = 48, so x=21.",
+      "hash": "23231353b0722f0d",
+      "translations": {
+        "hi": {
+          "question": "आरोही क्रम में व्यवस्थित प्रेक्षणों 11, 12, 14, 18, x+2, x+4, 30, 32, 35, 41 की माध्यिका 24 है। x ज्ञात कीजिए।",
+          "options": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल प्रेक्षण n=10 हैं। माध्यिका = [(x+2)+(x+4)]/2 = 24. 2x+6 = 48, इसलिए x=21 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-006",
+      "number": 6,
+      "question": "Two coins are tossed simultaneously. What is the probability of getting at least one head?",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Sample space S = {HH, HT, TH, TT}. Favorable = {HH, HT, TH}. Probability = 3/4.",
+      "hash": "346af5290f1159d0",
+      "translations": {
+        "hi": {
+          "question": "दो सिक्कों को एक साथ उछाला जाता है। कम से कम एक चित (head) आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/4",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रतिदर्श समष्टि S = {HH, HT, TH, TT}। अनुकूल परिणाम = {HH, HT, TH}। प्रायिकता = 3/4 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-007",
+      "number": 7,
+      "question": "If a die is thrown, what is the probability of getting a prime number?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2/3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Outcomes: {1, 2, 3, 4, 5, 6}. Prime numbers: {2, 3, 5}. Probability = 3/6 = 1/2.",
+      "hash": "a00a999c62c20452",
+      "translations": {
+        "hi": {
+          "question": "यदि एक पासा फेंका जाता है, तो एक अभाज्य संख्या प्राप्त करने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिणाम: {1, 2, 3, 4, 5, 6}। अभाज्य संख्याएँ: {2, 3, 5}। प्रायिकता = 3/6 = 1/2 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-008",
+      "number": 8,
+      "question": "What is the empirical relationship between mean, median, and mode?",
+      "options": {
+        "A": "Mode = 3 Median - 2 Mean",
+        "B": "Mode = 2 Median - 3 Mean",
+        "C": "Median = 3 Mode - 2 Mean",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "The empirical formula is Mode = 3 Median - 2 Mean.",
+      "hash": "c3dfffe3d8839d2f",
+      "translations": {
+        "hi": {
+          "question": "माध्य, माध्यिका और बहुलक के बीच आनुभविक संबंध क्या है?",
+          "options": {
+            "A": "बहुलक = 3 माध्यिका - 2 माध्य",
+            "B": "बहुलक = 2 माध्यिका - 3 माध्य",
+            "C": "माध्यिका = 3 बहुलक - 2 माध्य",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "आनुभविक सूत्र बहुलक = 3 माध्यिका - 2 माध्य है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-009",
+      "number": 9,
+      "question": "A card is drawn from a well-shuffled deck of 52 cards. What is the probability of drawing a face card?",
+      "options": {
+        "A": "1/13",
+        "B": "3/13",
+        "C": "4/13",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Total face cards = 12 (J, Q, K of 4 suits). Probability = 12/52 = 3/13.",
+      "hash": "1903b29c5055f4af",
+      "translations": {
+        "hi": {
+          "question": "52 ताश के पत्तों की एक अच्छी तरह से फेंटी गई गड्डी से एक पत्ता निकाला जाता है। फेस कार्ड निकलने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/13",
+            "B": "3/13",
+            "C": "4/13",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल फेस कार्ड = 12. प्रायिकता = 12/52 = 3/13 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-010",
+      "number": 10,
+      "question": "The class mark of the class interval 10-25 is:",
+      "options": {
+        "A": "15",
+        "B": "17.5",
+        "C": "35",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Class mark = (Upper limit + Lower limit) / 2 = (25 + 10) / 2 = 17.5.",
+      "hash": "3b8136ce4beb692c",
+      "translations": {
+        "hi": {
+          "question": "वर्ग अंतराल 10-25 का वर्ग चिह्न है:",
+          "options": {
+            "A": "15",
+            "B": "17.5",
+            "C": "35",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वर्ग चिह्न = (ऊपरी सीमा + निचली सीमा) / 2 = (25 + 10) / 2 = 17.5 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-011",
+      "number": 11,
+      "question": "The sum of the deviations of a set of observations from their mean is always:",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "Sum of observations",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Sum of (x - mean) is always zero by the property of arithmetic mean.",
+      "hash": "643b36fd264a66a9",
+      "translations": {
+        "hi": {
+          "question": "प्रेक्षणों के एक समूह का उनके माध्य से विचलनों का योग हमेशा होता है:",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "प्रेक्षणों का योग",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समांतर माध्य के गुण के अनुसार (x - माध्य) का योग हमेशा शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-012",
+      "number": 12,
+      "question": "Which of the following cannot be the probability of an event?",
+      "options": {
+        "A": "2/3",
+        "B": "-1.5",
+        "C": "15%",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Probability of any event always lies between 0 and 1 inclusive. It cannot be negative.",
+      "hash": "b337c09a96ed0b8c",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी किसी घटना की प्रायिकता नहीं हो सकती है?",
+          "options": {
+            "A": "2/3",
+            "B": "-1.5",
+            "C": "15%",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी भी घटना की प्रायिकता हमेशा 0 और 1 के बीच होती है। यह ऋणात्मक नहीं हो सकती।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-013",
+      "number": 13,
+      "question": "In a frequency distribution, the mid-value of a class is 10 and the width of the class is 6. The lower limit of the class is:",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Lower limit = Mid-value - (Width/2) = 10 - (6/2) = 10 - 3 = 7.",
+      "hash": "409135adffeb0d29",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता वितरण में, एक वर्ग का मध्य-मान 10 है और वर्ग की चौड़ाई 6 है। वर्ग की निचली सीमा है:",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "निचली सीमा = मध्य-मान - (चौड़ाई/2) = 10 - (6/2) = 10 - 3 = 7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-014",
+      "number": 14,
+      "question": "If P(E) = 0.05, what is P(not E)?",
+      "options": {
+        "A": "0.95",
+        "B": "0.05",
+        "C": "1.05",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "P(not E) = 1 - P(E) = 1 - 0.05 = 0.95.",
+      "hash": "769b63ce2955e6ca",
+      "translations": {
+        "hi": {
+          "question": "यदि P(E) = 0.05 है, तो P(E नहीं) क्या है?",
+          "options": {
+            "A": "0.95",
+            "B": "0.05",
+            "C": "1.05",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "P(E नहीं) = 1 - P(E) = 1 - 0.05 = 0.95 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-015",
+      "number": 15,
+      "question": "The probability of a sure event is:",
+      "options": {
+        "A": "0",
+        "B": "0.5",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "A sure event is certain to happen, so its probability is 1.",
+      "hash": "467e51ced4dc6c33",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित घटना की प्रायिकता होती है:",
+          "options": {
+            "A": "0",
+            "B": "0.5",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक निश्चित घटना का घटित होना तय है, इसलिए इसकी प्रायिकता 1 होती है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-016",
+      "number": 16,
+      "question": "Mode is the value of the observation which has:",
+      "options": {
+        "A": "Minimum frequency",
+        "B": "Maximum frequency",
+        "C": "Average frequency",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mode is defined as the observation that occurs most frequently in a data set.",
+      "hash": "c52e787947fa705d",
+      "translations": {
+        "hi": {
+          "question": "बहुलक उस प्रेक्षण का मान है जिसमें होती है:",
+          "options": {
+            "A": "न्यूनतम बारंबारता",
+            "B": "अधिकतम बारंबारता",
+            "C": "औसत बारंबारता",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "बहुलक को उस प्रेक्षण के रूप में परिभाषित किया जाता है जो डेटा सेट में सबसे अधिक बार आता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-017",
+      "number": 17,
+      "question": "If the mean of x, x+3, x+5, x+7, x+10 is 9, then the value of x is:",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Mean = (5x + 25)/5 = 9. x + 5 = 9, so x = 4.",
+      "hash": "ba56aa2ae77c6c6e",
+      "translations": {
+        "hi": {
+          "question": "यदि x, x+3, x+5, x+7, x+10 का माध्य 9 है, तो x का मान है:",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्य = (5x + 25)/5 = 9. x + 5 = 9, इसलिए x = 4 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-018",
+      "number": 18,
+      "question": "The range of the data 25, 18, 20, 22, 16, 6, 17, 15, 12, 30, 32, 10, 19, 8, 11, 20 is:",
+      "options": {
+        "A": "26",
+        "B": "10",
+        "C": "32",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Range = Maximum value - Minimum value = 32 - 6 = 26.",
+      "hash": "24a697a4f5801da4",
+      "translations": {
+        "hi": {
+          "question": "डेटा 25, 18, 20, 22, 16, 6, 17, 15, 12, 30, 32, 10, 19, 8, 11, 20 का परिसर (Range) है:",
+          "options": {
+            "A": "26",
+            "B": "10",
+            "C": "32",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिसर = अधिकतम मान - न्यूनतम मान = 32 - 6 = 26 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-019",
+      "number": 19,
+      "question": "A leap year is selected at random. What is the probability that it will contain 53 Sundays?",
+      "options": {
+        "A": "1/7",
+        "B": "2/7",
+        "C": "3/7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Leap year has 366 days = 52 weeks + 2 days. The 2 extra days can be (S,M), (M,T), (T,W), (W,Th), (Th,F), (F,S), (S,S). Two pairs have Sunday.",
+      "hash": "32e651fd8aded297",
+      "translations": {
+        "hi": {
+          "question": "एक लीप वर्ष को यादृच्छया चुना जाता है। इसमें 53 रविवार होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/7",
+            "B": "2/7",
+            "C": "3/7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "लीप वर्ष में 366 दिन = 52 सप्ताह + 2 दिन होते हैं। उन 2 दिनों में रविवार आने के 2 विकल्प (शनि-रवि या रवि-सोम) होते हैं। प्रायिकता 2/7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-01-020",
+      "number": 20,
+      "question": "If three coins are tossed, what is the probability of getting at most two heads?",
+      "options": {
+        "A": "1/8",
+        "B": "7/8",
+        "C": "3/8",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Total outcomes = 8. At most 2 heads means everything except 3 heads (HHH). P = 7/8.",
+      "hash": "2a4b9217653a636b",
+      "translations": {
+        "hi": {
+          "question": "यदि तीन सिक्के उछाले जाते हैं, तो अधिकतम दो चित (heads) प्राप्त करने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/8",
+            "B": "7/8",
+            "C": "3/8",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल परिणाम = 8. अधिकतम 2 चित का अर्थ है 3 चित (HHH) को छोड़कर सभी परिणाम। प्रायिकता = 7/8 है।"
+        }
+      }
+    }
+  ]
+}

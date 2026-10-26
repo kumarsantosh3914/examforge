@@ -1,0 +1,891 @@
+{
+  "subject": "Mathematics",
+  "set": 5,
+  "title": "Mathematics Mock Test 5",
+  "questions": [
+    {
+      "id": "mathematics-05-002",
+      "number": 2,
+      "question": "If x = 2 + √3, find the value of x³ - 2x² - 7x + 5.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "x²-4x+1=0. Expression = x(0) + 2(0) + 3 = 3.",
+      "hash": "b4d9a1c349b76bf6",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 2 + √3 है, तो x³ - 2x² - 7x + 5 का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "0",
+            "D": "1"
+          },
+          "explanation": "x - 2 = √3 => (x-2)² = 3 => x² - 4x + 1 = 0. x³ - 2x² - 7x + 5 को (x² - 4x + 1) से विभाजित करें। x(x² - 4x + 1) + 2x² - 8x + 5 = 2(x² - 4x + 1) + 3. शेषफल 3 है। मान = 3."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-003",
+      "number": 3,
+      "question": "2 Men and 3 Boys do a work in 10 days; 3 Men and 2 Boys in 8 days. In how many days will 2 Men and 1 Boy do it?",
+      "options": {
+        "A": "12.5 days",
+        "B": "12 days",
+        "C": "10 days",
+        "D": "15 days"
+      },
+      "answer": "A",
+      "explanation": "2M=7B. Total Work = 10(7+3)=100 units. Req Eff = 7+1=8. Time = 100/8 = 12.5.",
+      "hash": "3e73e29070154d45",
+      "translations": {
+        "hi": {
+          "question": "दो पुरुष और तीन लड़के एक कार्य को 10 दिनों में कर सकते हैं, जबकि तीन पुरुष और दो लड़के उसी कार्य को 8 दिनों में कर सकते हैं। 2 पुरुष और 1 लड़का उस कार्य को कितने दिनों में पूरा करेंगे?",
+          "options": {
+            "A": "12.5 दिन",
+            "B": "12 दिन",
+            "C": "10 दिन",
+            "D": "15 दिन"
+          },
+          "explanation": "10(2M+3B) = 8(3M+2B) => 20M+30B = 24M+16B => 4M = 14B => 2M = 7B. कुल कार्य (B में) = 10(7B+3B) = 100B इकाई। क्षमता (2M+1B) = 7B + 1B = 8B. समय = 100/8 = 12.5 दिन।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-004",
+      "number": 4,
+      "question": "A sum amounts to ₹5200 in 5 years and ₹5680 in 7 years at SI. Rate % p.a.?",
+      "options": {
+        "A": "6%",
+        "B": "5%",
+        "C": "4%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "2yr SI = 480. 1yr = 240. P = 5200 - 5(240) = 4000. R = (240/4000)*100 = 6%.",
+      "hash": "1efe208776398a11",
+      "translations": {
+        "hi": {
+          "question": "एक राशि साधारण ब्याज पर 5 वर्षों में ₹5200 और 7 वर्षों में ₹5680 हो जाती है। प्रति वर्ष ब्याज दर क्या है?",
+          "options": {
+            "A": "6%",
+            "B": "5%",
+            "C": "4%",
+            "D": "8%"
+          },
+          "explanation": "2 वर्ष का ब्याज = 5680 - 5200 = 480. 1 वर्ष का = 240. 5 वर्ष का ब्याज = 1200. मूलधन = 5200 - 1200 = 4000. दर = (240/4000) × 100 = 6%."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-005",
+      "number": 5,
+      "question": "Sum of length, breadth, height of cuboid is 20 cm, diagonal is 12 cm. Find Total Surface Area.",
+      "options": {
+        "A": "256 cm²",
+        "B": "356 cm²",
+        "C": "144 cm²",
+        "D": "400 cm²"
+      },
+      "answer": "A",
+      "explanation": "TSA = (Sum)² - (Diag)² = 20² - 12² = 256.",
+      "hash": "12785f488a780e6d",
+      "translations": {
+        "hi": {
+          "question": "एक घनाभ (Cuboid) की लंबाई, चौड़ाई और ऊंचाई का योग 20 सेमी है और इसके विकर्ण की लंबाई 12 सेमी है। घनाभ का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "256 सेमी²",
+            "B": "356 सेमी²",
+            "C": "144 सेमी²",
+            "D": "400 सेमी²"
+          },
+          "explanation": "(l+b+h)² = l²+b²+h² + 2(lb+bh+hl). TSA = (l+b+h)² - (विकर्ण)². TSA = 20² - 12² = 400 - 144 = 256."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-006",
+      "number": 6,
+      "question": "Distance between P and Q is 240 km. Train travels P to Q at 60 kmph and back at 40 kmph. Average speed?",
+      "options": {
+        "A": "48 kmph",
+        "B": "50 kmph",
+        "C": "52 kmph",
+        "D": "45 kmph"
+      },
+      "answer": "A",
+      "explanation": "Avg Speed = 2xy/(x+y) = (2*60*40)/100 = 48.",
+      "hash": "20f968125c7054d7",
+      "translations": {
+        "hi": {
+          "question": "दो स्टेशनों P और Q के बीच की दूरी 240 किमी है। एक ट्रेन P से Q तक 60 किमी/घंटा और Q से P तक 40 किमी/घंटा की गति से यात्रा करती है। पूरी यात्रा की औसत गति क्या है?",
+          "options": {
+            "A": "48 किमी/घंटा",
+            "B": "50 किमी/घंटा",
+            "C": "52 किमी/घंटा",
+            "D": "45 किमी/घंटा"
+          },
+          "explanation": "औसत गति = (2xy)/(x+y) = (2 × 60 × 40) / 100 = 4800 / 100 = 48 किमी/घंटा। (दूरी 240 का उपयोग आवश्यक नहीं है)।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-007",
+      "number": 7,
+      "question": "If a³ + b³ = 35 and ab = 6, find (a + b).",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "4",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "Hit & trial: a=3, b=2. Sum = 5.",
+      "hash": "d3d4d36b61a1a37d",
+      "translations": {
+        "hi": {
+          "question": "यदि a³ + b³ = 35 और ab = 6 है, तो (a + b) का मान क्या है?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "4",
+            "D": "7"
+          },
+          "explanation": "हिट एंड ट्रायल: a=3, b=2. 3³+2³ = 27+8 = 35. 3×2 = 6. सही। a+b = 5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-008",
+      "number": 8,
+      "question": "Radii of two circles are 12 cm and 5 cm. Find radius of circle having area equal to sum of areas of these two.",
+      "options": {
+        "A": "13 cm",
+        "B": "17 cm",
+        "C": "15 cm",
+        "D": "14 cm"
+      },
+      "answer": "A",
+      "explanation": "R² = 12² + 5² = 169 => R = 13.",
+      "hash": "0d3cbf505ca5db82",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्तों की त्रिज्याएँ 12 सेमी और 5 सेमी हैं। उस वृत्त की त्रिज्या ज्ञात कीजिये जिसका क्षेत्रफल इन दोनों वृत्तों के क्षेत्रफलों के योग के बराबर है।",
+          "options": {
+            "A": "13 सेमी",
+            "B": "17 सेमी",
+            "C": "15 सेमी",
+            "D": "14 सेमी"
+          },
+          "explanation": "πR² = π(12)² + π(5)². R² = 144 + 25 = 169. R = 13."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-009",
+      "number": 9,
+      "question": "Price of an article is increased by 20% and then decreased by 10%. If final price is ₹1080, find initial price.",
+      "options": {
+        "A": "₹1000",
+        "B": "₹1200",
+        "C": "₹900",
+        "D": "₹1100"
+      },
+      "answer": "A",
+      "explanation": "x * 1.2 * 0.9 = 1080 => 1.08x = 1080 => x = 1000.",
+      "hash": "c3ec58bf097272c3",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु की कीमत पहले 20% बढ़ाई जाती है और फिर 10% घटाई जाती है। यदि अंतिम मूल्य ₹1080 है, तो प्रारंभिक मूल्य क्या था?",
+          "options": {
+            "A": "₹1000",
+            "B": "₹1200",
+            "C": "₹900",
+            "D": "₹1100"
+          },
+          "explanation": "x × 1.2 × 0.9 = 1080. x × 1.08 = 1080. x = 1000."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-010",
+      "number": 10,
+      "question": "What is the average of 6, 12, 18, ..., 120?",
+      "options": {
+        "A": "63",
+        "B": "60",
+        "C": "66",
+        "D": "65"
+      },
+      "answer": "A",
+      "explanation": "AP Series. Avg = (a+l)/2 = 126/2 = 63.",
+      "hash": "637dabd502447812",
+      "translations": {
+        "hi": {
+          "question": "6, 12, 18, ..., 120 का औसत क्या है?",
+          "options": {
+            "A": "63",
+            "B": "60",
+            "C": "66",
+            "D": "65"
+          },
+          "explanation": "यह AP है। औसत = (प्रथम + अंतिम)/2 = (6 + 120)/2 = 63."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-011",
+      "number": 11,
+      "question": "Radius of incircle of an equilateral triangle is 4 cm. What is the radius of its circumcircle?",
+      "options": {
+        "A": "8 cm",
+        "B": "6 cm",
+        "C": "12 cm",
+        "D": "10 cm"
+      },
+      "answer": "A",
+      "explanation": "In equilateral triangle, Circumradius = 2 * Inradius. R = 8.",
+      "hash": "b1f502fed7e4ec82",
+      "translations": {
+        "hi": {
+          "question": "एक समबाहु त्रिभुज के अंतःवृत्त (Incircle) की त्रिज्या 4 सेमी है। इसके परिवृत्त (Circumcircle) की त्रिज्या क्या है?",
+          "options": {
+            "A": "8 सेमी",
+            "B": "6 सेमी",
+            "C": "12 सेमी",
+            "D": "10 सेमी"
+          },
+          "explanation": "समबाहु त्रिभुज में, R = 2r. R = 2 × 4 = 8 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-012",
+      "number": 12,
+      "question": "Ratio of father and son's age 5 years ago was 5:1. After 5 years it will be 3:1. Present age of son?",
+      "options": {
+        "A": "15 years",
+        "B": "10 years",
+        "C": "20 years",
+        "D": "12 years"
+      },
+      "answer": "A",
+      "explanation": "(5x+10)/(x+10)=3. x=10 (age 5 yrs ago). Present = 15.",
+      "hash": "79c78a61048133e2",
+      "translations": {
+        "hi": {
+          "question": "यदि 5 वर्ष पूर्व पिता और पुत्र की आयु का अनुपात 5:1 था और 5 वर्ष बाद 3:1 होगा, तो पुत्र की वर्तमान आयु क्या है?",
+          "options": {
+            "A": "15 वर्ष",
+            "B": "10 वर्ष",
+            "C": "20 वर्ष",
+            "D": "12 वर्ष"
+          },
+          "explanation": "अंतर 10 साल। (5x+10)/(x+10) = 3/1. 5x+10 = 3x+30. 2x = 20, x = 10. 5 साल पहले पुत्र 10 का था। वर्तमान = 10 + 5 = 15।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-013",
+      "number": 13,
+      "question": "A vendor buys 12 items for ₹600 and sells them at ₹50 per item. His profit/loss %?",
+      "options": {
+        "A": "No profit no loss",
+        "B": "10% profit",
+        "C": "10% loss",
+        "D": "5% profit"
+      },
+      "answer": "A",
+      "explanation": "CP per item = 50. SP = 50. No profit no loss.",
+      "hash": "52b859a2f50df743",
+      "translations": {
+        "hi": {
+          "question": "एक विक्रेता ₹600 में 12 वस्तुएं खरीदता है और उन्हें ₹50 प्रति वस्तु की दर से बेचता है। उसका लाभ/हानि प्रतिशत क्या है?",
+          "options": {
+            "A": "न लाभ न हानि",
+            "B": "10% लाभ",
+            "C": "10% हानि",
+            "D": "5% लाभ"
+          },
+          "explanation": "CP/item = 600/12 = 50. SP/item = 50. CP = SP. कोई लाभ नहीं, कोई हानि नहीं।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-014",
+      "number": 14,
+      "question": "If x + 1/x = 5, find x⁴ + 1/x⁴.",
+      "options": {
+        "A": "527",
+        "B": "625",
+        "C": "529",
+        "D": "623"
+      },
+      "answer": "A",
+      "explanation": "x² + 1/x² = 23. Square again: 529 - 2 = 527.",
+      "hash": "416d186214d7d089",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = 5 है, तो x⁴ + 1/x⁴ का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "527",
+            "B": "625",
+            "C": "529",
+            "D": "623"
+          },
+          "explanation": "x² + 1/x² = 23. x⁴ + 1/x⁴ = 23² - 2 = 529 - 2 = 527."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-015",
+      "number": 15,
+      "question": "Pipe fills in 4h, leak empties in 6h. If tank is 1/3 full, time to fill remaining?",
+      "options": {
+        "A": "8 hrs",
+        "B": "12 hrs",
+        "C": "6 hrs",
+        "D": "10 hrs"
+      },
+      "answer": "A",
+      "explanation": "Net rate = 1/12. Remaining capacity 2/3. Time = 12 * 2/3 = 8 hrs.",
+      "hash": "f01b12ece5d11318",
+      "translations": {
+        "hi": {
+          "question": "एक पाइप एक टंकी को 4 घंटे में भर सकता है और एक रिसाव इसे 6 घंटे में खाली कर सकता है। यदि टंकी 1/3 भरी हुई है, तो दोनों को खोलने पर इसे भरने में कितना समय लगेगा?",
+          "options": {
+            "A": "8 घंटे",
+            "B": "12 घंटे",
+            "C": "6 घंटे",
+            "D": "10 घंटे"
+          },
+          "explanation": "नेट दर = 1/4 - 1/6 = 1/12 (प्रति घंटा)। पूरा भरने में 12 घंटे लगते हैं। टंकी 1/3 भरी है, 2/3 भरना बाकी है। समय = 12 × 2/3 = 8 घंटे।"
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-016",
+      "number": 16,
+      "question": "Find LCM of 15, 25, 35, 45.",
+      "options": {
+        "A": "1575",
+        "B": "1500",
+        "C": "1600",
+        "D": "1475"
+      },
+      "answer": "A",
+      "explanation": "LCM = 3²×5²×7 = 1575.",
+      "hash": "d1469da69b8bb6c8",
+      "translations": {
+        "hi": {
+          "question": "15, 25, 35 और 45 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिये।",
+          "options": {
+            "A": "1575",
+            "B": "1500",
+            "C": "1600",
+            "D": "1475"
+          },
+          "explanation": "45 (9×5), 25 (5×5), 35 (5×7). LCM = 9 × 25 × 7 = 225 × 7 = 1575."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-017",
+      "number": 17,
+      "question": "Sum of prime numbers between 20 and 30?",
+      "options": {
+        "A": "52",
+        "B": "50",
+        "C": "48",
+        "D": "56"
+      },
+      "answer": "A",
+      "explanation": "Primes: 23, 29. Sum = 52.",
+      "hash": "815d70d1594f9e38",
+      "translations": {
+        "hi": {
+          "question": "20 और 30 के बीच की अभाज्य संख्याओं का योग क्या है?",
+          "options": {
+            "A": "52",
+            "B": "50",
+            "C": "48",
+            "D": "56"
+          },
+          "explanation": "अभाज्य संख्याएं: 23, 29. योग = 23 + 29 = 52."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-018",
+      "number": 18,
+      "question": "sin(A+B)=1 and cos(A-B)=√3/2. Find A and B (A>B).",
+      "options": {
+        "A": "A=60°, B=30°",
+        "B": "A=45°, B=45°",
+        "C": "A=90°, B=0°",
+        "D": "A=75°, B=15°"
+      },
+      "answer": "A",
+      "explanation": "A+B=90, A-B=30. Solve: A=60, B=30.",
+      "hash": "050480477f46b36e",
+      "translations": {
+        "hi": {
+          "question": "sin(A+B) = 1 और cos(A-B) = √3/2. A और B का मान ज्ञात कीजिये (A>B)।",
+          "options": {
+            "A": "A=60°, B=30°",
+            "B": "A=45°, B=45°",
+            "C": "A=90°, B=0°",
+            "D": "A=75°, B=15°"
+          },
+          "explanation": "A+B = 90°. A-B = 30°. 2A = 120 => A = 60°. B = 30°."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-019",
+      "number": 19,
+      "question": "If 1³ + 2³ + ... + 10³ = 3025, find 2³ + 4³ + ... + 20³.",
+      "options": {
+        "A": "24200",
+        "B": "12100",
+        "C": "6050",
+        "D": "30250"
+      },
+      "answer": "A",
+      "explanation": "Take 2³ common. 8 * 3025 = 24200.",
+      "hash": "23f200d5d282b089",
+      "translations": {
+        "hi": {
+          "question": "यदि 1³ + 2³ + ... + 10³ = 3025 है, तो 2³ + 4³ + ... + 20³ का मान क्या है?",
+          "options": {
+            "A": "24200",
+            "B": "12100",
+            "C": "6050",
+            "D": "30250"
+          },
+          "explanation": "2³(1³ + 2³ + ... + 10³) = 8 × 3025 = 24200."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-020",
+      "number": 20,
+      "question": "Area of a square is 200 m². New square has diagonal √2 times the original. Area of new square?",
+      "options": {
+        "A": "400 m²",
+        "B": "300 m²",
+        "C": "800 m²",
+        "D": "600 m²"
+      },
+      "answer": "A",
+      "explanation": "Area ∝ d². New area = (√2)² * Old Area = 2 * 200 = 400.",
+      "hash": "9951229c18d75ab1",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का क्षेत्रफल 200 वर्ग मीटर है। एक नया वर्ग बनाया गया है जिसका विकर्ण पहले वर्ग के विकर्ण का √2 गुना है। नए वर्ग का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "400 मी²",
+            "B": "300 मी²",
+            "C": "800 मी²",
+            "D": "600 मी²"
+          },
+          "explanation": "क्षेत्रफल विकर्ण के वर्ग के समानुपाती होता है (A = d²/2)। नया विकर्ण √2 गुना है, तो नया क्षेत्रफल (√2)² = 2 गुना होगा। 200 × 2 = 400."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-021",
+      "number": 21,
+      "question": "If tan A = 1/2 and tan B = 1/3, find (A+B).",
+      "options": {
+        "A": "45°",
+        "B": "30°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "answer": "A",
+      "explanation": "tan(A+B) = 1 => A+B = 45°.",
+      "hash": "3dc3909fb9939b85",
+      "translations": {
+        "hi": {
+          "question": "यदि tan A = 1/2 और tan B = 1/3 है, तो (A+B) का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "45°",
+            "B": "30°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "explanation": "tan(A+B) = (1/2 + 1/3) / (1 - 1/6) = (5/6) / (5/6) = 1. तो A+B = 45°."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-022",
+      "number": 22,
+      "question": "Bag has 3 Red, 5 Yellow, 4 Green balls. Probability that 2 balls drawn are of same color?",
+      "options": {
+        "A": "19/66",
+        "B": "1/3",
+        "C": "2/11",
+        "D": "5/22"
+      },
+      "answer": "A",
+      "explanation": "Total=66. Favorable=3+10+6=19. Prob=19/66.",
+      "hash": "a0039103b96654b6",
+      "translations": {
+        "hi": {
+          "question": "एक बैग में 3 लाल, 5 पीली और 4 हरी गेंदें हैं। यादृच्छिक रूप से निकाली गई 2 गेंदों के एक ही रंग के होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "19/66",
+            "B": "1/3",
+            "C": "2/11",
+            "D": "5/22"
+          },
+          "explanation": "कुल = 12C2 = 66. अनुकूल = 3C2 + 5C2 + 4C2 = 3 + 10 + 6 = 19. प्रायिकता = 19/66."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-023",
+      "number": 23,
+      "question": "Sides of triangle in ratio 5:12:13, Perimeter 90 cm. Find Area.",
+      "options": {
+        "A": "270 cm²",
+        "B": "300 cm²",
+        "C": "250 cm²",
+        "D": "360 cm²"
+      },
+      "answer": "A",
+      "explanation": "Sides 15, 36, 39. Right triangle. Area = 0.5 * 15 * 36 = 270.",
+      "hash": "3094f6a3ccac9135",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज की भुजाएँ 5:12:13 के अनुपात में हैं और परिमाप 90 सेमी है। त्रिभुज का क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "270 सेमी²",
+            "B": "300 सेमी²",
+            "C": "250 सेमी²",
+            "D": "360 सेमी²"
+          },
+          "explanation": "अनुपात योग = 30. 30 इकाई = 90 => 1 इकाई = 3। भुजाएँ: 15, 36, 39। यह समकोण त्रिभुज है (5-12-13 ट्रिपलेट)। क्षेत्रफल = 1/2 × 15 × 36 = 15 × 18 = 270."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-024",
+      "number": 24,
+      "question": "Difference between CI and SI on ₹2000 for 2 years at 10% p.a.?",
+      "options": {
+        "A": "₹20",
+        "B": "₹10",
+        "C": "₹30",
+        "D": "₹40"
+      },
+      "answer": "A",
+      "explanation": "Diff = 2000 * (0.01) = 20.",
+      "hash": "8050d0d08beaf25c",
+      "translations": {
+        "hi": {
+          "question": "10% वार्षिक ब्याज की दर पर 2 वर्षों के लिए ₹2000 पर चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर क्या है?",
+          "options": {
+            "A": "₹20",
+            "B": "₹10",
+            "C": "₹30",
+            "D": "₹40"
+          },
+          "explanation": "D = P(R/100)² = 2000(10/100)² = 2000(1/100) = 20."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-025",
+      "number": 25,
+      "question": "Smallest 4-digit number divisible by 15, 18, 42?",
+      "options": {
+        "A": "1260",
+        "B": "1080",
+        "C": "1160",
+        "D": "1050"
+      },
+      "answer": "A",
+      "explanation": "LCM = 630. Multiples: 630, 1260. Smallest 4-digit is 1260.",
+      "hash": "eadc84325f48f0b5",
+      "translations": {
+        "hi": {
+          "question": "15, 18 और 42 से विभाज्य सबसे छोटी 4 अंकों की संख्या क्या है?",
+          "options": {
+            "A": "1260",
+            "B": "1080",
+            "C": "1160",
+            "D": "1050"
+          },
+          "explanation": "LCM(15, 18, 42) = LCM(3×5, 2×9, 2×3×7) = 2×9×5×7 = 630. 4 अंकों की सबसे छोटी: 630 × 2 = 1260."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-026",
+      "number": 26,
+      "question": "Ratio of volumes of two cubes is 8:27. Ratio of TSA?",
+      "options": {
+        "A": "4:9",
+        "B": "2:3",
+        "C": "8:27",
+        "D": "16:81"
+      },
+      "answer": "A",
+      "explanation": "Side ratio = 2:3. Area ratio = 4:9.",
+      "hash": "03c76800e3ecff46",
+      "translations": {
+        "hi": {
+          "question": "दो घनों के आयतनों का अनुपात 8:27 है। उनके कुल पृष्ठीय क्षेत्रफलों का अनुपात क्या है?",
+          "options": {
+            "A": "4:9",
+            "B": "2:3",
+            "C": "8:27",
+            "D": "16:81"
+          },
+          "explanation": "भुजा अनुपात = ∛8 : ∛27 = 2:3. क्षेत्रफल अनुपात = 2² : 3² = 4:9."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-027",
+      "number": 27,
+      "question": "Length of rectangle is 60% more than breadth. Diff is 24m. Find Area.",
+      "options": {
+        "A": "2560 m²",
+        "B": "2400 m²",
+        "C": "2000 m²",
+        "D": "3000 m²"
+      },
+      "answer": "A",
+      "explanation": "0.6B = 24 => B=40, L=64. Area = 2560.",
+      "hash": "41d96f4ea6a3dce2",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार भूखंड की लंबाई उसकी चौड़ाई से 60% अधिक है। यदि लंबाई और चौड़ाई का अंतर 24 मीटर है, तो भूखंड का क्षेत्रफल ज्ञात कीजिये।",
+          "options": {
+            "A": "2560 मीटर²",
+            "B": "2400 मीटर²",
+            "C": "2000 मीटर²",
+            "D": "3000 मीटर²"
+          },
+          "explanation": "L = 1.6B. L - B = 0.6B = 24 => B = 40. L = 64. क्षेत्रफल = 64 × 40 = 2560."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-028",
+      "number": 28,
+      "question": "What is the average of all even numbers upto 100?",
+      "options": {
+        "A": "51",
+        "B": "50",
+        "C": "52",
+        "D": "49"
+      },
+      "answer": "A",
+      "explanation": "First n even numbers avg = n+1. Here n=50. Avg=51.",
+      "hash": "4637849d12c1b809",
+      "translations": {
+        "hi": {
+          "question": "100 तक की सभी सम संख्याओं का औसत क्या है?",
+          "options": {
+            "A": "51",
+            "B": "50",
+            "C": "52",
+            "D": "49"
+          },
+          "explanation": "2, 4, ..., 100. (50 संख्याएं)। औसत = (2 + 100) / 2 = 51. (या n+1 = 50+1 = 51)."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-029",
+      "number": 29,
+      "question": "60% students are boys. Girls are 36. Find number of boys.",
+      "options": {
+        "A": "54",
+        "B": "60",
+        "C": "48",
+        "D": "72"
+      },
+      "answer": "A",
+      "explanation": "40% = 36. 60% = (36/40)*60 = 54.",
+      "hash": "06468a01d2fd347f",
+      "translations": {
+        "hi": {
+          "question": "एक कक्षा में 60% छात्र लड़के हैं। लड़कियों की संख्या 36 है। लड़कों की संख्या ज्ञात कीजिये।",
+          "options": {
+            "A": "54",
+            "B": "60",
+            "C": "48",
+            "D": "72"
+          },
+          "explanation": "लड़कियां = 40% = 36. 1% = 0.9. लड़के = 60% = 54."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-030",
+      "number": 30,
+      "question": "If x + 1/x = √5, find x³ + 1/x³.",
+      "options": {
+        "A": "2√5",
+        "B": "3√5",
+        "C": "5√5",
+        "D": "√5"
+      },
+      "answer": "A",
+      "explanation": "Formula a³-3a. 5√5 - 3√5 = 2√5.",
+      "hash": "135efb1753cebddc",
+      "translations": {
+        "hi": {
+          "question": "यदि x + 1/x = √5 है, तो x³ + 1/x³ का मान क्या है?",
+          "options": {
+            "A": "2√5",
+            "B": "3√5",
+            "C": "5√5",
+            "D": "√5"
+          },
+          "explanation": "k³ - 3k = (√5)³ - 3√5 = 5√5 - 3√5 = 2√5."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-031",
+      "number": 31,
+      "question": "Dealer sells at 4% loss. If sold for ₹120 more, gain 8%. For 10% profit, sell at?",
+      "options": {
+        "A": "₹1100",
+        "B": "₹1200",
+        "C": "₹1000",
+        "D": "₹1080"
+      },
+      "answer": "A",
+      "explanation": "Gap 12% = 120. CP = 1000. Target SP = 1100.",
+      "hash": "d704c6efa95e4bec",
+      "translations": {
+        "hi": {
+          "question": "एक डीलर 4% हानि पर एक वस्तु बेचता है। यदि उसने इसे ₹120 अधिक में बेचा होता, तो उसे 8% का लाभ होता। 10% लाभ कमाने के लिए उसे किस कीमत पर बेचना चाहिए?",
+          "options": {
+            "A": "₹1100",
+            "B": "₹1200",
+            "C": "₹1000",
+            "D": "₹1080"
+          },
+          "explanation": "अंतर = 4% + 8% = 12%. 12% = 120. 1% = 10. CP = 1000. 10% लाभ के लिए SP = 1100."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-032",
+      "number": 32,
+      "question": "Simplify: √(72 + √(72 + √(72 + ...)))",
+      "options": {
+        "A": "9",
+        "B": "8",
+        "C": "6",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "Factors of 72 with diff 1 are 8, 9. Positive sign => 9.",
+      "hash": "25accf84c95dac1e",
+      "translations": {
+        "hi": {
+          "question": "सरल कीजिये: √(72 + √(72 + √(72 + ...)))",
+          "options": {
+            "A": "9",
+            "B": "8",
+            "C": "6",
+            "D": "12"
+          },
+          "explanation": "72 = 9 × 8. '+' चिह्न है, इसलिए बड़ा गुणनखंड उत्तर है। उत्तर = 9."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-033",
+      "number": 33,
+      "question": "Angles of a triangle are (x+10), (2x-30), x. Find the largest angle.",
+      "options": {
+        "A": "70°",
+        "B": "60°",
+        "C": "50°",
+        "D": "80°"
+      },
+      "answer": "A",
+      "explanation": "4x-20=180 => x=50. Angles: 60, 70, 50.",
+      "hash": "e6a55a86491202db",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज के कोण (x+10)°, (2x-30)° और x° हैं। सबसे बड़ा कोण क्या है?",
+          "options": {
+            "A": "70°",
+            "B": "60°",
+            "C": "50°",
+            "D": "80°"
+          },
+          "explanation": "योग = 180. 4x - 20 = 180. 4x = 200. x = 50. कोण: 60, 70, 50. सबसे बड़ा 70."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-034",
+      "number": 34,
+      "question": "Sum of present ages of A and B is 77. 7 years ago, A was 2.5 times B. Present age of A?",
+      "options": {
+        "A": "52 years",
+        "B": "45 years",
+        "C": "50 years",
+        "D": "42 years"
+      },
+      "answer": "A",
+      "explanation": "Sum 7 yrs ago = 63. Ratio 5:2. A's past age = 45. Present = 52.",
+      "hash": "57ce090713f4fd29",
+      "translations": {
+        "hi": {
+          "question": "A और B की वर्तमान आयु का योग 77 वर्ष है। 7 वर्ष पहले, A की आयु B की आयु की 2.5 गुना थी। A की वर्तमान आयु क्या है?",
+          "options": {
+            "A": "52 वर्ष",
+            "B": "45 वर्ष",
+            "C": "50 वर्ष",
+            "D": "42 वर्ष"
+          },
+          "explanation": "7 साल पहले योग = 77 - 14 = 63. अनुपात 2.5:1 = 5:2. कुल 7 इकाई = 63. 1 इकाई = 9. A की आयु (7 साल पहले) = 45. वर्तमान = 45 + 7 = 52."
+        }
+      }
+    },
+    {
+      "id": "mathematics-05-035",
+      "number": 35,
+      "question": "If 2^(x+3) = 4^(x-1), find x.",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "x+3 = 2x-2 => x=5.",
+      "hash": "dd6647460dfead39",
+      "translations": {
+        "hi": {
+          "question": "यदि 2^(x+3) = 4^(x-1), तो x का मान ज्ञात कीजिये।",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "3",
+            "D": "6"
+          },
+          "explanation": "2^(x+3) = 2^[2(x-1)]. x+3 = 2x-2. x = 5."
+        }
+      }
+    }
+  ]
+}

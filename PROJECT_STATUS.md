@@ -182,6 +182,18 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 - Added comprehensive `liveExamMeta` presentation metadata and `examGuides` for all 11 exams.
 - Question bank validation and dynamic discovery pass with 0 errors across all 7,570 new questions.
 - Totals: 23 exams, 91 subjects, 625 sets, 28,116 usable questions (7 quarantined, none new).
+- Merged to `main` as PR #1 (`7086666`). Checks on `main`: typecheck, lint, 13 unit tests, `npm run build` and `validate:data` pass. Seeded to dev (`examforge_dev`): 7,690 inserted, 21,165 skipped, 0 errors.
+- Deployed to production 2026-10-26 with `git pull`, `npm ci`, `npm run build`, `sudo systemctl restart examforge` and `npm run seed` on the EC2 instance (see `docs/DEPLOYMENT.md`). The live catalog and the new `/exams/*` pages have not been verified yet; the sitemap picks the new exams up from the database and can be resubmitted in Search Console.
+
+## 6 More Exams Added (2026-10-26)
+
+- Added six question banks: **SSC CPO** (`/exams/ssc-cpo`, 5 subjects, 49 sets, 3,837 questions), **RRB NTPC CBT 2** (`/exams/rrb-ntpc-cbt-2`, 3 subjects, 14 sets, 399), **RPF SI** (`/exams/rpf-si`, 4 subjects, 39 sets, 2,268), **RRB ALP** (`/exams/rrb-alp`, 4 subjects, 38 sets, 1,613), **BSEB 10th** (`/exams/bseb-10th`, 6 subjects, 135 sets, 3,208) and **BPSC TRE 4.0 Mathematics (High School)** (`/exams/bpsc-tre-4.0/math-high-school`, 8 subjects, 43 sets, 1,850). All have Hindi translations; explanations cover 100% except BSEB 10th (95%) and RRB NTPC CBT 2 (98-99%).
+- Totals: 29 exams, 121 subjects, 943 sets, 41,291 usable questions of 41,306 (15 quarantined).
+- Seed sources are the six folders under `cleaned/`, taken from `staging/` (which keeps the originals). Changes on import: `math-high-school` moved to `cleaned/bpsc-tre-4.0/math-high-school/` to match its `BPSC TRE 4.0` / `Mathematics (High School)` index; `Mock Test(Full Test)` subjects renamed `Full Mock Test` (RRB ALP: `Full Mock Test (CBT-1)`, titles `CBT-1 Full Mock Test N`); `General Science:` lost its trailing colon; BSEB `Subjet Wise` became `Subject Wise` (directory `subject-wise`); 333 `explanation: null` keys (161 questions in BSEB Sanskrit, 5 in RRB NTPC CBT 2, English and Hindi) were removed, as for earlier banks.
+- Quarantined 8 questions rather than repaired by guessing: `ssc-cpo/english-10-007`, `ssc-cpo/mock-test-full-test-01-057` and `bseb-10th/science-19-004` (an option repeats the answer text), `bseb-10th/social-science-15-017` and `-36-015` (no answer), and `rrb-alp/mathematics-10-027`, `-035`, `-041` (empty option or question text).
+- Data note: RRB ALP General Science sets are uneven (1, 6, 17 and 18 questions in sets 7, 9, 6 and 10); sets were kept as supplied. Set 8 is absent in the source.
+- Added a `school` family ("School boards") for BSEB 10th, plus `liveExamMeta` and `examGuides` entries for all six. Guide facts come from published exam-pattern summaries that sometimes disagree (SSC CPO 2026 format, ALP CBT-1 subject split, BSEB passing marks); the guides say so and point to the official notice. The BPSC Mathematics guide omits a pattern table, post counts and dates because they could not be confirmed.
+- Tests updated for the new totals (13 unit tests pass; typecheck and lint clean). The dev database has not been seeded with these banks yet; run `npm run seed` locally and on the server after deploying.
 
 ## Remaining Work
 

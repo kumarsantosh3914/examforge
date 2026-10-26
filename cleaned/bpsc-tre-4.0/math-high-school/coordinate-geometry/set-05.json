@@ -1,0 +1,567 @@
+{
+  "subject": "Coordinate Geometry",
+  "set": 5,
+  "title": "Coordinate Geometry Mock Test 5",
+  "questions": [
+    {
+      "id": "coordinate-geometry-05-001",
+      "number": 1,
+      "question": "The center of a circle whose endpoints of a diameter are (-4, 2) and (4, -2) is:",
+      "options": {
+        "A": "(0, 0)",
+        "B": "(4, 4)",
+        "C": "(8, 4)",
+        "D": "(2, 2)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "The center of a circle is the midpoint of its diameter: ((-4+4)/2, (2-2)/2) = (0, 0).",
+      "hash": "ee1d599b167fd1fa",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त का केंद्र, जिसके व्यास के अंत बिंदु (-4, 2) और (4, -2) हैं, वह है:",
+          "options": {
+            "A": "(0, 0)",
+            "B": "(4, 4)",
+            "C": "(8, 4)",
+            "D": "(2, 2)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वृत्त का केंद्र उसके व्यास का मध्य बिंदु होता है: ((-4+4)/2, (2-2)/2) = (0, 0)।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-002",
+      "number": 2,
+      "question": "The area of a triangle with vertices (a, 0), (0, b) and (0, 0) is:",
+      "options": {
+        "A": "ab",
+        "B": "1/2 ab",
+        "C": "1/2 (a+b)",
+        "D": "sqrt(a^2 + b^2)",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = 1/2 * base * height = 1/2 * |a| * |b| = 1/2 ab.",
+      "hash": "ad0d0cbced6d5943",
+      "translations": {
+        "hi": {
+          "question": "शीर्षों (a, 0), (0, b) और (0, 0) वाले त्रिभुज का क्षेत्रफल है:",
+          "options": {
+            "A": "ab",
+            "B": "1/2 ab",
+            "C": "1/2 (a+b)",
+            "D": "sqrt(a^2 + b^2)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 1/2 * आधार * ऊँचाई = 1/2 * |a| * |b| = 1/2 ab।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-003",
+      "number": 3,
+      "question": "If the slope of a line is undefined, the line is:",
+      "options": {
+        "A": "Parallel to x-axis",
+        "B": "Parallel to y-axis",
+        "C": "Passing through origin",
+        "D": "Inclined at 45 degrees",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A vertical line (parallel to the y-axis) has an undefined slope because the change in x is zero.",
+      "hash": "f9c99885ab3e6d85",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी रेखा की ढाल अपरिभाषित है, तो वह रेखा है:",
+          "options": {
+            "A": "x-अक्ष के समानांतर",
+            "B": "y-अक्ष के समानांतर",
+            "C": "मूल बिंदु से गुजरने वाली",
+            "D": "45 डिग्री पर झुकी हुई",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक ऊर्ध्वाधर रेखा (y-अक्ष के समानांतर) की ढाल अपरिभाषित होती है क्योंकि x में परिवर्तन शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-004",
+      "number": 4,
+      "question": "The coordinates of the incenter of the triangle with vertices (0,0), (4,0) and (0,3) are:",
+      "options": {
+        "A": "(1, 1)",
+        "B": "(2, 2)",
+        "C": "(1.5, 1.5)",
+        "D": "(4/3, 1)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sides are a=5, b=3, c=4. Incenter = (ax1+bx2+cx3)/(a+b+c), (ay1+by2+cy3)/(a+b+c) = (5*0+3*4+4*0)/12, (5*0+3*0+4*3)/12 = (1, 1).",
+      "hash": "90c6d5d118acc581",
+      "translations": {
+        "hi": {
+          "question": "शीर्षों (0,0), (4,0) और (0,3) वाले त्रिभुज के अंतःकेंद्र के निर्देशांक हैं:",
+          "options": {
+            "A": "(1, 1)",
+            "B": "(2, 2)",
+            "C": "(1.5, 1.5)",
+            "D": "(4/3, 1)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "भुजाएँ a=5, b=3, c=4 हैं। अंतःकेंद्र का सूत्र उपयोग करने पर (1, 1) प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-005",
+      "number": 5,
+      "question": "If the points (k, 2-2k), (1-k, 2k) and (-4-k, 6-2k) are collinear, then k is:",
+      "options": {
+        "A": "1 or 1/2",
+        "B": "-1 or 1/2",
+        "C": "1 or -1/2",
+        "D": "0 or 1",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Setting the area of triangle to zero or equating slopes gives a quadratic in k.",
+      "hash": "c57e19d107982f7c",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु (k, 2-2k), (1-k, 2k) और (-4-k, 6-2k) संरेख हैं, तो k का मान है:",
+          "options": {
+            "A": "1 या 1/2",
+            "B": "-1 या 1/2",
+            "C": "1 या -1/2",
+            "D": "0 या 1",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "त्रिभुज के क्षेत्रफल को शून्य करने या ढालों की तुलना करने पर k में एक द्विघात समीकरण प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-006",
+      "number": 6,
+      "question": "The ratio in which the line joining (1, 3) and (2, 7) is divided by the line 3x + y - 9 = 0 is:",
+      "options": {
+        "A": "3:4",
+        "B": "4:3",
+        "C": "2:3",
+        "D": "3:2",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Ratio = - (3*1 + 3 - 9) / (3*2 + 7 - 9) = -(-3)/4 = 3/4.",
+      "hash": "95aabf55a822f0a5",
+      "translations": {
+        "hi": {
+          "question": "(1, 3) और (2, 7) को जोड़ने वाली रेखा को रेखा 3x + y - 9 = 0 किस अनुपात में विभाजित करती है?",
+          "options": {
+            "A": "3:4",
+            "B": "4:3",
+            "C": "2:3",
+            "D": "3:2",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनुपात = - (3*1 + 3 - 9) / (3*2 + 7 - 9) = 3/4 है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-007",
+      "number": 7,
+      "question": "The coordinates of the circumcenter of a right-angled triangle with vertices (0,0), (6,0) and (0,8) are:",
+      "options": {
+        "A": "(3, 4)",
+        "B": "(0, 0)",
+        "C": "(2, 2)",
+        "D": "(3, 0)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "In a right triangle, the circumcenter is the midpoint of the hypotenuse. Midpoint of (6,0) and (0,8) is (3, 4).",
+      "hash": "627693b377a9dc34",
+      "translations": {
+        "hi": {
+          "question": "शीर्षों (0,0), (6,0) और (0,8) वाले एक समकोण त्रिभुज के परिकेंद्र के निर्देशांक हैं:",
+          "options": {
+            "A": "(3, 4)",
+            "B": "(0, 0)",
+            "C": "(2, 2)",
+            "D": "(3, 0)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समकोण त्रिभुज में, परिकेंद्र कर्ण का मध्य बिंदु होता है। (6,0) और (0,8) का मध्य बिंदु (3, 4) है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-008",
+      "number": 8,
+      "question": "If the distance of the point (x, y) from (2, 1) and (-1, 2) are equal, then:",
+      "options": {
+        "A": "x + 3y = 0",
+        "B": "3x - y = 0",
+        "C": "x - 3y + 2 = 0",
+        "D": "3x + y - 2 = 0",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "(x-2)^2 + (y-1)^2 = (x+1)^2 + (y-2)^2. Expanding gives -4x+4-2y+1 = 2x+1-4y+4 => -6x = -2y => 3x - y = 0.",
+      "hash": "d7681d3f9ec29fa8",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु (x, y) की (2, 1) और (-1, 2) से दूरियाँ समान हैं, तो:",
+          "options": {
+            "A": "x + 3y = 0",
+            "B": "3x - y = 0",
+            "C": "x - 3y + 2 = 0",
+            "D": "3x + y - 2 = 0",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(x-2)^2 + (y-1)^2 = (x+1)^2 + (y-2)^2। विस्तार करने पर 3x - y = 0 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-009",
+      "number": 9,
+      "question": "Which point lies in the third quadrant?",
+      "options": {
+        "A": "(2, -3)",
+        "B": "(-2, 3)",
+        "C": "(-2, -3)",
+        "D": "(0, -3)",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "In the third quadrant, both x and y coordinates are negative.",
+      "hash": "f19346126a33d26f",
+      "translations": {
+        "hi": {
+          "question": "कौन सा बिंदु तृतीय चतुर्थांश में स्थित है?",
+          "options": {
+            "A": "(2, -3)",
+            "B": "(-2, 3)",
+            "C": "(-2, -3)",
+            "D": "(0, -3)",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "तृतीय चतुर्थांश में x और y दोनों निर्देशांक ऋणात्मक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-010",
+      "number": 10,
+      "question": "The slope of the line perpendicular to the line joining (2, 3) and (4, 5) is:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "2",
+        "D": "-1/2",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Slope m1 = (5-3)/(4-2) = 1. For perpendicular lines, m1*m2 = -1, so m2 = -1.",
+      "hash": "784dbf205bbb106e",
+      "translations": {
+        "hi": {
+          "question": "(2, 3) और (4, 5) को जोड़ने वाली रेखा के लंबवत रेखा की ढाल है:",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "2",
+            "D": "-1/2",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "ढाल m1 = 1 है। लंबवत रेखाओं के लिए, m1*m2 = -1, इसलिए m2 = -1।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-011",
+      "number": 11,
+      "question": "The distance between the points (P cos alpha, P sin alpha) and (P cos beta, P sin beta) is:",
+      "options": {
+        "A": "2P sin((alpha-beta)/2)",
+        "B": "P sin(alpha-beta)",
+        "C": "2P cos((alpha-beta)/2)",
+        "D": "P",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Using distance formula and trigonometric identity 1 - cos(x) = 2 sin^2(x/2).",
+      "hash": "74f4721396145415",
+      "translations": {
+        "hi": {
+          "question": "बिंदुओं (P cos alpha, P sin alpha) और (P cos beta, P sin beta) के बीच की दूरी है:",
+          "options": {
+            "A": "2P sin((alpha-beta)/2)",
+            "B": "P sin(alpha-beta)",
+            "C": "2P cos((alpha-beta)/2)",
+            "D": "P",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दूरी सूत्र और त्रिकोणमितीय सर्वसमिका 1 - cos(x) = 2 sin^2(x/2) का उपयोग करना।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-012",
+      "number": 12,
+      "question": "If the coordinates of one end of a diameter of a circle are (2, 3) and the center is (-2, 5), find the other end.",
+      "options": {
+        "A": "(-6, 7)",
+        "B": "(6, -7)",
+        "C": "(0, 8)",
+        "D": "(-2, 2)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Midpoint formula: (-2, 5) = ((2+x)/2, (3+y)/2) => x=-6, y=7.",
+      "hash": "8051dc0e8e03c1a1",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त के व्यास के एक सिरे के निर्देशांक (2, 3) हैं और केंद्र (-2, 5) है, तो दूसरे सिरे को ज्ञात कीजिए।",
+          "options": {
+            "A": "(-6, 7)",
+            "B": "(6, -7)",
+            "C": "(0, 8)",
+            "D": "(-2, 2)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मध्य बिंदु सूत्र: (-2, 5) = ((2+x)/2, (3+y)/2) => x=-6, y=7।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-013",
+      "number": 13,
+      "question": "The distance of the point (3, 4) from the origin is same as the distance between:",
+      "options": {
+        "A": "(0, 0) and (5, 0)",
+        "B": "(1, 2) and (3, 4)",
+        "C": "(0, 0) and (4, 3)",
+        "D": "(2, 2) and (1, 1)",
+        "E": "More than one of the above"
+      },
+      "answer": "E",
+      "explanation": "Distance of (3,4) from origin is 5. Option A distance is 5. Option C distance is 5. Thus E.",
+      "hash": "34c53cbe189181eb",
+      "translations": {
+        "hi": {
+          "question": "मूल बिंदु से बिंदु (3, 4) की दूरी किसके बीच की दूरी के समान है:",
+          "options": {
+            "A": "(0, 0) और (5, 0)",
+            "B": "(1, 2) और (3, 4)",
+            "C": "(0, 0) और (4, 3)",
+            "D": "(2, 2) और (1, 1)",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "(3,4) की मूल बिंदु से दूरी 5 है। विकल्प A और C दोनों की दूरी 5 है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-014",
+      "number": 14,
+      "question": "If a line is parallel to the x-axis, its slope is:",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "Infinite",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A line parallel to the x-axis is horizontal, so its slope is tan(0) = 0.",
+      "hash": "199be40cdb0438d4",
+      "translations": {
+        "hi": {
+          "question": "यदि कोई रेखा x-अक्ष के समानांतर है, तो उसकी ढाल है:",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "-1",
+            "D": "अनंत",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x-अक्ष के समानांतर रेखा क्षैतिज होती है, इसलिए इसकी ढाल tan(0) = 0 होती है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-015",
+      "number": 15,
+      "question": "The line y = mx + c passes through the points (2, 4) and (-1, 1). The values of m and c are:",
+      "options": {
+        "A": "m=1, c=2",
+        "B": "m=2, c=1",
+        "C": "m=1, c=1",
+        "D": "m=0, c=4",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Slope m = (1-4)/(-1-2) = 1. Substitute in y=mx+c: 4=1(2)+c => c=2.",
+      "hash": "913a7798954cc9d4",
+      "translations": {
+        "hi": {
+          "question": "रेखा y = mx + c बिंदुओं (2, 4) और (-1, 1) से गुजरती है। m और c के मान हैं:",
+          "options": {
+            "A": "m=1, c=2",
+            "B": "m=2, c=1",
+            "C": "m=1, c=1",
+            "D": "m=0, c=4",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "ढाल m = (1-4)/(-1-2) = 1। y=mx+c में मान रखने पर: 4=1(2)+c => c=2।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-016",
+      "number": 16,
+      "question": "The centroid of a triangle ABC with A(x1, y1), B(x2, y2), C(x3, y3) is:",
+      "options": {
+        "A": "(x1+x2+x3, y1+y2+y3)",
+        "B": "((x1+x2+x3)/2, (y1+y2+y3)/2)",
+        "C": "((x1+x2+x3)/3, (y1+y2+y3)/3)",
+        "D": "(x1x2x3, y1y2y3)",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Centroid is the average of the coordinates of the vertices.",
+      "hash": "7d63bbde50aeafcf",
+      "translations": {
+        "hi": {
+          "question": "A(x1, y1), B(x2, y2), C(x3, y3) वाले त्रिभुज ABC का केंद्रक है:",
+          "options": {
+            "A": "(x1+x2+x3, y1+y2+y3)",
+            "B": "((x1+x2+x3)/2, (y1+y2+y3)/2)",
+            "C": "((x1+x2+x3)/3, (y1+y2+y3)/3)",
+            "D": "(x1x2x3, y1y2y3)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "केंद्रक शीर्षों के निर्देशांकों का औसत होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-017",
+      "number": 17,
+      "question": "If the area of triangle with vertices (x, 0), (1, 1) and (0, 2) is 4, then x =",
+      "options": {
+        "A": "6",
+        "B": "-6",
+        "C": "-10",
+        "D": "8",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = 1/2 |x(1-2) + 1(2-0) + 0(0-1)| = 4 => |-x + 2| = 8 => x = -6 or 10.",
+      "hash": "6a6cc857c914c12d",
+      "translations": {
+        "hi": {
+          "question": "यदि शीर्षों (x, 0), (1, 1) और (0, 2) वाले त्रिभुज का क्षेत्रफल 4 है, तो x =",
+          "options": {
+            "A": "6",
+            "B": "-6",
+            "C": "-10",
+            "D": "8",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल सूत्र का उपयोग करने पर x = -6 या 10 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-018",
+      "number": 18,
+      "question": "The coordinates of the point where 3x - 2y = 12 cuts the x-axis are:",
+      "options": {
+        "A": "(0, -6)",
+        "B": "(4, 0)",
+        "C": "(0, 4)",
+        "D": "(-6, 0)",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "For x-axis intercept, put y = 0. 3x = 12 => x = 4.",
+      "hash": "8422141cb78baa33",
+      "translations": {
+        "hi": {
+          "question": "वह बिंदु जहाँ 3x - 2y = 12 x-अक्ष को काटता है, उसके निर्देशांक हैं:",
+          "options": {
+            "A": "(0, -6)",
+            "B": "(4, 0)",
+            "C": "(0, 4)",
+            "D": "(-6, 0)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x-अक्ष के अंतःखंड के लिए, y = 0 रखें। 3x = 12 => x = 4।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-019",
+      "number": 19,
+      "question": "The point P on y-axis which is equidistant from A(6, 5) and B(-4, 3) is:",
+      "options": {
+        "A": "(0, 9)",
+        "B": "(0, -9)",
+        "C": "(0, 4)",
+        "D": "(4, 0)",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Let P(0, y). 36 + (y-5)^2 = 16 + (y-3)^2 => 36 + y^2 - 10y + 25 = 16 + y^2 - 6y + 9 => 61 - 10y = 25 - 6y => 4y = 36 => y = 9.",
+      "hash": "e6eb18540b742f36",
+      "translations": {
+        "hi": {
+          "question": "y-अक्ष पर वह बिंदु P जो A(6, 5) और B(-4, 3) से समान दूरी पर है, वह है:",
+          "options": {
+            "A": "(0, 9)",
+            "B": "(0, -9)",
+            "C": "(0, 4)",
+            "D": "(4, 0)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मान लीजिए P(0, y) है। दूरियों को बराबर करने पर y = 9 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "coordinate-geometry-05-020",
+      "number": 20,
+      "question": "Points (1, 2), (3, 4), (5, 6) are:",
+      "options": {
+        "A": "Vertices of a right triangle",
+        "B": "Vertices of an equilateral triangle",
+        "C": "Collinear",
+        "D": "Vertices of an isosceles triangle",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Slope between first two = (4-2)/(3-1) = 1. Slope between last two = (6-4)/(5-3) = 1.",
+      "hash": "5ac54a7edc3fde42",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (1, 2), (3, 4), (5, 6) हैं:",
+          "options": {
+            "A": "समकोण त्रिभुज के शीर्ष",
+            "B": "समबाहु त्रिभुज के शीर्ष",
+            "C": "संरेख",
+            "D": "समद्विबाहु त्रिभुज के शीर्ष",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पहले दो बिंदुओं के बीच ढाल 1 है और अगले दो के बीच भी ढाल 1 है, इसलिए वे संरेख हैं।"
+        }
+      }
+    }
+  ]
+}

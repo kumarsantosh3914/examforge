@@ -1,0 +1,1229 @@
+{
+  "subject": "Aptitude",
+  "set": 10,
+  "title": "Aptitude Mock Test 10",
+  "questions": [
+    {
+      "id": "aptitude-10-001",
+      "number": 1,
+      "question": "If the length of a rectangle is increased by 20% and the breadth is decreased by 20%, what is the percentage change in area?",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "2% decrease"
+      },
+      "answer": "A",
+      "explanation": "Net change = x + y + xy/100 = 20 - 20 - (400/100) = -4%.",
+      "hash": "e195b48463b73339",
+      "translations": {
+        "hi": {
+          "question": "यदि एक आयत की लंबाई में 20% की वृद्धि की जाती है और चौड़ाई में 20% की कमी की जाती है, तो क्षेत्रफल में प्रतिशत परिवर्तन क्या है?",
+          "options": {
+            "A": "4% की कमी",
+            "B": "4% की वृद्धि",
+            "C": "कोई बदलाव नहीं",
+            "D": "2% की कमी"
+          },
+          "explanation": "शुद्ध परिवर्तन = 20 - 20 - 4 = -4%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-002",
+      "number": 2,
+      "question": "A man goes from city A to B at 40 km/h and returns at 60 km/h. Find the average speed for the whole journey.",
+      "options": {
+        "A": "48 km/h",
+        "B": "50 km/h",
+        "C": "45 km/h",
+        "D": "52 km/h"
+      },
+      "answer": "A",
+      "explanation": "Avg Speed = 2xy/(x+y) = (2 * 40 * 60) / (40 + 60) = 4800 / 100 = 48.",
+      "hash": "4676fcb5f3100c4f",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति शहर A से B तक 40 किमी/घंटा की गति से जाता है और 60 किमी/घंटा की गति से वापस आता है। पूरी यात्रा के लिए औसत गति ज्ञात कीजिए।",
+          "options": {
+            "A": "48 किमी/घंटा",
+            "B": "50 किमी/घंटा",
+            "C": "45 किमी/घंटा",
+            "D": "52 किमी/घंटा"
+          },
+          "explanation": "औसत गति = 2xy/(x+y) = (2 * 40 * 60) / 100 = 48."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-003",
+      "number": 3,
+      "question": "The ratio of two numbers is 3:4 and their HCF is 15. Find the numbers.",
+      "options": {
+        "A": "45, 60",
+        "B": "30, 40",
+        "C": "60, 80",
+        "D": "15, 20"
+      },
+      "answer": "A",
+      "explanation": "Numbers = Ratio * HCF. 3*15 = 45 and 4*15 = 60.",
+      "hash": "479911dc4cbfc121",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 3:4 है और उनका HCF 15 है। संख्याएँ ज्ञात कीजिए।",
+          "options": {
+            "A": "45, 60",
+            "B": "30, 40",
+            "C": "60, 80",
+            "D": "15, 20"
+          },
+          "explanation": "संख्याएँ = अनुपात * HCF. 3*15 = 45 और 4*15 = 60."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-004",
+      "number": 4,
+      "question": "A sum of 12000 amounts to 15000 in 5 years at simple interest. Find the rate of interest per annum.",
+      "options": {
+        "A": "5%",
+        "B": "6%",
+        "C": "4%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "SI = 3000. R = (SI * 100) / (P * T) = (3000 * 100) / (12000 * 5) = 5%.",
+      "hash": "7bd73c9b71beaa5b",
+      "translations": {
+        "hi": {
+          "question": "12000 की राशि साधारण ब्याज पर 5 वर्षों में 15000 हो जाती है। प्रति वर्ष ब्याज की दर ज्ञात कीजिए।",
+          "options": {
+            "A": "5%",
+            "B": "6%",
+            "C": "4%",
+            "D": "8%"
+          },
+          "explanation": "SI = 3000. R = (3000 * 100) / (12000 * 5) = 5%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-005",
+      "number": 5,
+      "question": "A and B can do a work in 12 days and 15 days respectively. They started together but A left after 3 days. How many days will B take to finish the remaining work?",
+      "options": {
+        "A": "8.25",
+        "B": "7.5",
+        "C": "9",
+        "D": "10.25"
+      },
+      "answer": "A",
+      "explanation": "1 day work = 1/12+1/15 = 9/60. 3 days work = 27/60 = 9/20. Rem = 11/20. B takes (11/20)*15 = 8.25.",
+      "hash": "03425c5d6359cff3",
+      "translations": {
+        "hi": {
+          "question": "A और B एक कार्य को क्रमशः 12 और 15 दिनों में कर सकते हैं। उन्होंने एक साथ शुरू किया लेकिन A ने 3 दिनों के बाद काम छोड़ दिया। B शेष कार्य को पूरा करने में कितने दिन लेगा?",
+          "options": {
+            "A": "8.25",
+            "B": "7.5",
+            "C": "9",
+            "D": "10.25"
+          },
+          "explanation": "3 दिन का काम = 9/20. शेष = 11/20. B द्वारा लिया गया समय = 8.25."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-006",
+      "number": 6,
+      "question": "If 15% of x is equal to 20% of y, then x:y is?",
+      "options": {
+        "A": "4:3",
+        "B": "3:4",
+        "C": "5:3",
+        "D": "3:5"
+      },
+      "answer": "A",
+      "explanation": "0.15x = 0.20y => x/y = 20/15 = 4/3.",
+      "hash": "9df9b7afd794f1ed",
+      "translations": {
+        "hi": {
+          "question": "यदि x का 15% y के 20% के बराबर है, तो x:y क्या है?",
+          "options": {
+            "A": "4:3",
+            "B": "3:4",
+            "C": "5:3",
+            "D": "3:5"
+          },
+          "explanation": "0.15x = 0.20y => x/y = 4/3."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-007",
+      "number": 7,
+      "question": "Find the volume of a sphere whose radius is 7 cm.",
+      "options": {
+        "A": "1437.33",
+        "B": "1337.33",
+        "C": "1537.33",
+        "D": "1237.33"
+      },
+      "answer": "A",
+      "explanation": "Volume = (4/3) * PI * r^3 = (4/3) * (22/7) * 7 * 7 * 7 = 4312/3 = 1437.33.",
+      "hash": "a0f340595e263dc3",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का आयतन ज्ञात कीजिए जिसकी त्रिज्या 7 सेमी है।",
+          "options": {
+            "A": "1437.33",
+            "B": "1337.33",
+            "C": "1537.33",
+            "D": "1237.33"
+          },
+          "explanation": "आयतन = (4/3) * (22/7) * 7^3 = 1437.33."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-008",
+      "number": 8,
+      "question": "A train 180m long passes a pole in 9 seconds. What is its speed in km/h?",
+      "options": {
+        "A": "72",
+        "B": "60",
+        "C": "80",
+        "D": "90"
+      },
+      "answer": "A",
+      "explanation": "Speed = 180/9 = 20 m/s. km/h = 20 * 18/5 = 72.",
+      "hash": "dda4a4316a94d778",
+      "translations": {
+        "hi": {
+          "question": "180 मीटर लंबी एक ट्रेन 9 सेकंड में एक खंभे को पार करती है। किमी/घंटा में इसकी गति क्या है?",
+          "options": {
+            "A": "72",
+            "B": "60",
+            "C": "80",
+            "D": "90"
+          },
+          "explanation": "गति = 180/9 = 20 मीटर/सेकंड = 72 किमी/घंटा."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-009",
+      "number": 9,
+      "question": "Find the compound interest on 8000 for 2 years at 5% per annum.",
+      "options": {
+        "A": "820",
+        "B": "800",
+        "C": "840",
+        "D": "810"
+      },
+      "answer": "A",
+      "explanation": "Amount = 8000(1.05)^2 = 8820. CI = 8820 - 8000 = 820.",
+      "hash": "f9a800b4ae6e1659",
+      "translations": {
+        "hi": {
+          "question": "8000 पर 2 वर्षों के लिए 5% प्रति वर्ष की दर से चक्रवृद्धि ब्याज ज्ञात कीजिए।",
+          "options": {
+            "A": "820",
+            "B": "800",
+            "C": "840",
+            "D": "810"
+          },
+          "explanation": "राशि = 8820. CI = 820."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-010",
+      "number": 10,
+      "question": "If 3x + 5y = 21 and 2x + 3y = 13, find the value of x.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Solving simultaneous equations: 3x+5y=21 (*3) and 2x+3y=13 (*5). 9x+15y=63 and 10x+15y=65. x=2.",
+      "hash": "f78cd7a5e70bc790",
+      "translations": {
+        "hi": {
+          "question": "यदि 3x + 5y = 21 और 2x + 3y = 13 है, तो x का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "4"
+          },
+          "explanation": "समीकरणों को हल करने पर: x = 2."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-011",
+      "number": 11,
+      "question": "Find the area of a circle whose circumference is 44 cm.",
+      "options": {
+        "A": "154",
+        "B": "132",
+        "C": "176",
+        "D": "144"
+      },
+      "answer": "A",
+      "explanation": "2 * PI * r = 44 => r = 7. Area = PI * r^2 = (22/7) * 49 = 154.",
+      "hash": "1359a0248307ccf9",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त का क्षेत्रफल ज्ञात कीजिए जिसकी परिधि 44 सेमी है।",
+          "options": {
+            "A": "154",
+            "B": "132",
+            "C": "176",
+            "D": "144"
+          },
+          "explanation": "2 * PI * r = 44 => r = 7. क्षेत्रफल = 154."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-012",
+      "number": 12,
+      "question": "A shopkeeper marks his goods 25% above CP and allows a 10% discount. Find his profit percentage.",
+      "options": {
+        "A": "12.5%",
+        "B": "15%",
+        "C": "10%",
+        "D": "13.5%"
+      },
+      "answer": "A",
+      "explanation": "Net Profit = 25 - 10 - (25*10/100) = 15 - 2.5 = 12.5%.",
+      "hash": "d5a0fbd011a859c3",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार अपने माल पर CP से 25% अधिक अंकित करता है और 10% की छूट देता है। उसका लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "12.5%",
+            "B": "15%",
+            "C": "10%",
+            "D": "13.5%"
+          },
+          "explanation": "शुद्ध लाभ = 25 - 10 - 2.5 = 12.5%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-013",
+      "number": 13,
+      "question": "A vendor buys 10 lemons for 8 and sells them at 8 for 10. Find the profit percentage.",
+      "options": {
+        "A": "56.25%",
+        "B": "50%",
+        "C": "44%",
+        "D": "60%"
+      },
+      "answer": "A",
+      "explanation": "CP of 1 = 0.8, SP of 1 = 1.25. Profit% = (0.45/0.8)*100 = 56.25%.",
+      "hash": "aaac095e720bc41c",
+      "translations": {
+        "hi": {
+          "question": "एक विक्रेता 8 में 10 नींबू खरीदता है और उन्हें 10 में 8 की दर से बेचता है। लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "56.25%",
+            "B": "50%",
+            "C": "44%",
+            "D": "60%"
+          },
+          "explanation": "CP = 0.8, SP = 1.25. लाभ% = (0.45/0.8)*100 = 56.25%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-014",
+      "number": 14,
+      "question": "The average weight of 8 students is 45 kg. If a student weighing 63 kg is added, find the new average.",
+      "options": {
+        "A": "47 kg",
+        "B": "46 kg",
+        "C": "48 kg",
+        "D": "49 kg"
+      },
+      "answer": "A",
+      "explanation": "New average = (8 * 45 + 63) / 9 = (360 + 63) / 9 = 423 / 9 = 47.",
+      "hash": "e9cec8fdf84f1e9d",
+      "translations": {
+        "hi": {
+          "question": "8 छात्रों का औसत वजन 45 किग्रा है। यदि 63 किग्रा वजन का एक छात्र जोड़ा जाता है, तो नया औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "47 किग्रा",
+            "B": "46 किग्रा",
+            "C": "48 किग्रा",
+            "D": "49 किग्रा"
+          },
+          "explanation": "नया औसत = (360 + 63) / 9 = 47."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-015",
+      "number": 15,
+      "question": "A sum of money doubles itself in 8 years at simple interest. Find the rate of interest.",
+      "options": {
+        "A": "12.5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "8%"
+      },
+      "answer": "A",
+      "explanation": "SI = P. R = (P * 100) / (P * 8) = 100/8 = 12.5%.",
+      "hash": "9742a0669a95e702",
+      "translations": {
+        "hi": {
+          "question": "साधारण ब्याज पर कोई राशि 8 वर्षों में दोगुनी हो जाती है। ब्याज की दर ज्ञात कीजिए।",
+          "options": {
+            "A": "12.5%",
+            "B": "10%",
+            "C": "15%",
+            "D": "8%"
+          },
+          "explanation": "R = 100/8 = 12.5%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-016",
+      "number": 16,
+      "question": "What is the fourth proportional to 4, 12, and 15?",
+      "options": {
+        "A": "45",
+        "B": "30",
+        "C": "60",
+        "D": "36"
+      },
+      "answer": "A",
+      "explanation": "4/12 = 15/x => 1/3 = 15/x => x = 45.",
+      "hash": "eb83b27e852dfb2a",
+      "translations": {
+        "hi": {
+          "question": "4, 12 और 15 का चतुर्थानुपाती क्या है?",
+          "options": {
+            "A": "45",
+            "B": "30",
+            "C": "60",
+            "D": "36"
+          },
+          "explanation": "4/12 = 15/x => x = 45."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-017",
+      "number": 17,
+      "question": "A cube has a side of 6 cm. Find its total surface area.",
+      "options": {
+        "A": "216",
+        "B": "144",
+        "C": "180",
+        "D": "256"
+      },
+      "answer": "A",
+      "explanation": "TSA = 6 * side^2 = 6 * 36 = 216 sq.cm.",
+      "hash": "150c1d583d41289d",
+      "translations": {
+        "hi": {
+          "question": "एक घन की भुजा 6 सेमी है। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "216",
+            "B": "144",
+            "C": "180",
+            "D": "256"
+          },
+          "explanation": "TSA = 6 * 6^2 = 216."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-019",
+      "number": 19,
+      "question": "Find the smallest number which is exactly divisible by 12, 15, and 20.",
+      "options": {
+        "A": "60",
+        "B": "120",
+        "C": "30",
+        "D": "90"
+      },
+      "answer": "A",
+      "explanation": "LCM of 12, 15, 20 = 60.",
+      "hash": "8d6c089d8e64586f",
+      "translations": {
+        "hi": {
+          "question": "वह छोटी से छोटी संख्या ज्ञात कीजिए जो 12, 15 और 20 से पूर्णतः विभाज्य हो।",
+          "options": {
+            "A": "60",
+            "B": "120",
+            "C": "30",
+            "D": "90"
+          },
+          "explanation": "12, 15, 20 का LCM = 60."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-020",
+      "number": 20,
+      "question": "A person crosses a 600m long bridge in 5 minutes. What is his speed in km/h?",
+      "options": {
+        "A": "7.2",
+        "B": "3.6",
+        "C": "8.4",
+        "D": "10"
+      },
+      "answer": "A",
+      "explanation": "Speed = 600m / 300s = 2 m/s. In km/h = 2 * 18/5 = 7.2.",
+      "hash": "8b96049758df2912",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 5 मिनट में 600 मीटर लंबा पुल पार करता है। किमी/घंटा में उसकी गति क्या है?",
+          "options": {
+            "A": "7.2",
+            "B": "3.6",
+            "C": "8.4",
+            "D": "10"
+          },
+          "explanation": "गति = 2 मीटर/सेकंड = 7.2 किमी/घंटा."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-021",
+      "number": 21,
+      "question": "A cylinder has a radius of 7 cm and a height of 10 cm. Find its curved surface area.",
+      "options": {
+        "A": "440",
+        "B": "220",
+        "C": "616",
+        "D": "154"
+      },
+      "answer": "A",
+      "explanation": "CSA = 2 * PI * r * h = 2 * (22/7) * 7 * 10 = 440.",
+      "hash": "9ffceea1389ea064",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन की त्रिज्या 7 सेमी और ऊंचाई 10 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "440",
+            "B": "220",
+            "C": "616",
+            "D": "154"
+          },
+          "explanation": "CSA = 2 * PI * r * h = 440."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-022",
+      "number": 22,
+      "question": "A and B start a business with 4000 and 5000 respectively. If total profit is 1800, find A's share.",
+      "options": {
+        "A": "800",
+        "B": "1000",
+        "C": "900",
+        "D": "700"
+      },
+      "answer": "A",
+      "explanation": "Ratio = 4:5. A's share = (4/9) * 1800 = 800.",
+      "hash": "bf087a7e2cedf22c",
+      "translations": {
+        "hi": {
+          "question": "A और B क्रमशः 4000 और 5000 के साथ एक व्यवसाय शुरू करते हैं। यदि कुल लाभ 1800 है, तो A का हिस्सा ज्ञात कीजिए।",
+          "options": {
+            "A": "800",
+            "B": "1000",
+            "C": "900",
+            "D": "700"
+          },
+          "explanation": "अनुपात = 4:5. A का हिस्सा = (4/9) * 1800 = 800."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-023",
+      "number": 23,
+      "question": "If the area of a square is 256 sq.cm, find its perimeter.",
+      "options": {
+        "A": "64",
+        "B": "32",
+        "C": "48",
+        "D": "72"
+      },
+      "answer": "A",
+      "explanation": "Side = sqrt(256) = 16. Perimeter = 4 * 16 = 64.",
+      "hash": "9a1abc411528b92a",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वर्ग का क्षेत्रफल 256 वर्ग सेमी है, तो इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "64",
+            "B": "32",
+            "C": "48",
+            "D": "72"
+          },
+          "explanation": "भुजा = 16. परिमाप = 64."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-024",
+      "number": 24,
+      "question": "A boat goes 12 km/h in still water and the speed of stream is 3 km/h. Find downstream speed.",
+      "options": {
+        "A": "15 km/h",
+        "B": "9 km/h",
+        "C": "12 km/h",
+        "D": "18 km/h"
+      },
+      "answer": "A",
+      "explanation": "Downstream Speed = Still + Stream = 12 + 3 = 15.",
+      "hash": "4bbd72f0bbd989f8",
+      "translations": {
+        "hi": {
+          "question": "एक नाव शांत पानी में 12 किमी/घंटा की गति से चलती है और धारा की गति 3 किमी/घंटा है। अनुप्रवाह गति ज्ञात कीजिए।",
+          "options": {
+            "A": "15 किमी/घंटा",
+            "B": "9 किमी/घंटा",
+            "C": "12 किमी/घंटा",
+            "D": "18 किमी/घंटा"
+          },
+          "explanation": "अनुप्रवाह गति = 12 + 3 = 15."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-026",
+      "number": 26,
+      "question": "The price of sugar is increased by 25%. By what percentage should a family reduce consumption to keep expenditure same?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "15%",
+        "D": "10%"
+      },
+      "answer": "A",
+      "explanation": "% Reduction = [r / (100+r)] * 100 = [25/125] * 100 = 20%.",
+      "hash": "a04383d41f4336e3",
+      "translations": {
+        "hi": {
+          "question": "चीनी की कीमत में 25% की वृद्धि हुई है। परिवार को उपभोग में कितने प्रतिशत की कमी करनी चाहिए ताकि खर्च समान रहे?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "15%",
+            "D": "10%"
+          },
+          "explanation": "उपभोग में कमी = [25/125] * 100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-027",
+      "number": 27,
+      "question": "Find the value of 0.5 * 0.5 * 0.5.",
+      "options": {
+        "A": "0.125",
+        "B": "1.25",
+        "C": "0.25",
+        "D": "0.0125"
+      },
+      "answer": "A",
+      "explanation": "5 * 5 * 5 = 125. Adjusting decimal: 0.125.",
+      "hash": "e8eb6dd75fbf2fca",
+      "translations": {
+        "hi": {
+          "question": "0.5 * 0.5 * 0.5 का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.125",
+            "B": "1.25",
+            "C": "0.25",
+            "D": "0.0125"
+          },
+          "explanation": "0.125."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-028",
+      "number": 28,
+      "question": "If 3/4 of a number is 60, what is the number?",
+      "options": {
+        "A": "80",
+        "B": "45",
+        "C": "100",
+        "D": "75"
+      },
+      "answer": "A",
+      "explanation": "3/4 * x = 60 => x = (60 * 4) / 3 = 80.",
+      "hash": "42fb1e62619b3abe",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 3/4 भाग 60 है, तो वह संख्या क्या है?",
+          "options": {
+            "A": "80",
+            "B": "45",
+            "C": "100",
+            "D": "75"
+          },
+          "explanation": "x = 80."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-029",
+      "number": 29,
+      "question": "A man buys a fan for 1000 and sells it for 1200. Find profit percentage.",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "10%",
+        "D": "15%"
+      },
+      "answer": "A",
+      "explanation": "Profit = 200. Profit% = (200/1000) * 100 = 20%.",
+      "hash": "3b65a44a56e8743e",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 1000 में एक पंखा खरीदता है और उसे 1200 में बेचता है। लाभ प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "10%",
+            "D": "15%"
+          },
+          "explanation": "लाभ% = 20%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-030",
+      "number": 30,
+      "question": "A circle has a radius of 14 cm. Find its circumference.",
+      "options": {
+        "A": "88",
+        "B": "44",
+        "C": "66",
+        "D": "154"
+      },
+      "answer": "A",
+      "explanation": "Circumference = 2 * PI * r = 2 * (22/7) * 14 = 88.",
+      "hash": "e7a4564d40a717e9",
+      "translations": {
+        "hi": {
+          "question": "एक वृत्त की त्रिज्या 14 सेमी है। इसकी परिधि ज्ञात कीजिए।",
+          "options": {
+            "A": "88",
+            "B": "44",
+            "C": "66",
+            "D": "154"
+          },
+          "explanation": "परिधि = 88."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-031",
+      "number": 31,
+      "question": "A can finish a work in 10 days and B in 15 days. In how many days can they finish it together?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "7.5",
+        "D": "8"
+      },
+      "answer": "A",
+      "explanation": "Time = (10 * 15) / (10 + 15) = 150 / 25 = 6.",
+      "hash": "70d2bec1f113de51",
+      "translations": {
+        "hi": {
+          "question": "A एक कार्य को 10 दिनों में और B 15 दिनों में पूरा कर सकता है। वे मिलकर इसे कितने दिनों में पूरा कर सकते हैं?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "7.5",
+            "D": "8"
+          },
+          "explanation": "समय = 150 / 25 = 6."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-032",
+      "number": 32,
+      "question": "Find the diagonal of a rectangle whose sides are 8 cm and 6 cm.",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": "A",
+      "explanation": "Diagonal = sqrt(8^2 + 6^2) = sqrt(64+36) = 10.",
+      "hash": "ea6852839f56001e",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का विकर्ण ज्ञात कीजिए जिसकी भुजाएँ 8 सेमी और 6 सेमी हैं।",
+          "options": {
+            "A": "10",
+            "B": "14",
+            "C": "12",
+            "D": "15"
+          },
+          "explanation": "विकर्ण = sqrt(8^2 + 6^2) = 10."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-033",
+      "number": 33,
+      "question": "What is 20% of 25% of 400?",
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "10",
+        "D": "80"
+      },
+      "answer": "A",
+      "explanation": "25% of 400 = 100. 20% of 100 = 20.",
+      "hash": "ab6e703a3606d958",
+      "translations": {
+        "hi": {
+          "question": "400 के 25% का 20% क्या है?",
+          "options": {
+            "A": "20",
+            "B": "40",
+            "C": "10",
+            "D": "80"
+          },
+          "explanation": "400 का 25% = 100. 100 का 20% = 20."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-034",
+      "number": 34,
+      "question": "A man rows 10 km/h upstream and 14 km/h downstream. Find the speed of boat in still water.",
+      "options": {
+        "A": "12 km/h",
+        "B": "2 km/h",
+        "C": "4 km/h",
+        "D": "24 km/h"
+      },
+      "answer": "A",
+      "explanation": "Speed = (Down + Up) / 2 = (14 + 10) / 2 = 12.",
+      "hash": "0193896953e0e7db",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति धारा के प्रतिकूल 10 किमी/घंटा और धारा के अनुकूल 14 किमी/घंटा की गति से नाव चलाता है। शांत पानी में नाव की गति ज्ञात कीजिए।",
+          "options": {
+            "A": "12 किमी/घंटा",
+            "B": "2 किमी/घंटा",
+            "C": "4 किमी/घंटा",
+            "D": "24 किमी/घंटा"
+          },
+          "explanation": "शांत पानी में गति = (14 + 10) / 2 = 12."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-035",
+      "number": 35,
+      "question": "If x:y = 2:3 and y:z = 4:5, find x:y:z.",
+      "options": {
+        "A": "8:12:15",
+        "B": "2:3:5",
+        "C": "6:9:15",
+        "D": "8:10:15"
+      },
+      "answer": "A",
+      "explanation": "x:y = 8:12, y:z = 12:15. So 8:12:15.",
+      "hash": "47e4e613d1751289",
+      "translations": {
+        "hi": {
+          "question": "यदि x:y = 2:3 और y:z = 4:5 है, तो x:y:z ज्ञात कीजिए।",
+          "options": {
+            "A": "8:12:15",
+            "B": "2:3:5",
+            "C": "6:9:15",
+            "D": "8:10:15"
+          },
+          "explanation": "x:y:z = 8:12:15."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-036",
+      "number": 36,
+      "question": "A sphere has a diameter of 14 cm. Find its surface area.",
+      "options": {
+        "A": "616",
+        "B": "154",
+        "C": "308",
+        "D": "462"
+      },
+      "answer": "A",
+      "explanation": "r = 7. Area = 4 * PI * r^2 = 4 * (22/7) * 49 = 616.",
+      "hash": "20773063b0c33a44",
+      "translations": {
+        "hi": {
+          "question": "एक गोले का व्यास 14 सेमी है। इसका पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "616",
+            "B": "154",
+            "C": "308",
+            "D": "462"
+          },
+          "explanation": "पृष्ठीय क्षेत्रफल = 616."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-037",
+      "number": 37,
+      "question": "The price of an item is reduced by 10% and then increased by 10%. Find net change.",
+      "options": {
+        "A": "1% decrease",
+        "B": "No change",
+        "C": "1% increase",
+        "D": "2% decrease"
+      },
+      "answer": "A",
+      "explanation": "Net = 10 - 10 - (100/100) = -1%.",
+      "hash": "f1f127e13d60965d",
+      "translations": {
+        "hi": {
+          "question": "एक वस्तु की कीमत में 10% की कमी की जाती है और फिर 10% की वृद्धि की जाती है। शुद्ध परिवर्तन ज्ञात कीजिए।",
+          "options": {
+            "A": "1% की कमी",
+            "B": "कोई बदलाव नहीं",
+            "C": "1% की वृद्धि",
+            "D": "2% की कमी"
+          },
+          "explanation": "शुद्ध परिवर्तन = -1%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-038",
+      "number": 38,
+      "question": "10 men can do a work in 12 days. How many days will 15 men take?",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "6",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "M1D1 = M2D2 => 10 * 12 = 15 * x => x = 120/15 = 8.",
+      "hash": "f22f7bbd03848059",
+      "translations": {
+        "hi": {
+          "question": "10 पुरुष एक कार्य को 12 दिनों में कर सकते हैं। 15 पुरुष कितने दिन लेंगे?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "6",
+            "D": "9"
+          },
+          "explanation": "M1D1 = M2D2 => x = 8."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-039",
+      "number": 39,
+      "question": "Find the perimeter of a rectangle with length 10m and width 5m.",
+      "options": {
+        "A": "30",
+        "B": "15",
+        "C": "50",
+        "D": "25"
+      },
+      "answer": "A",
+      "explanation": "Perimeter = 2(L+W) = 2(15) = 30.",
+      "hash": "a4d075a27a708352",
+      "translations": {
+        "hi": {
+          "question": "10 मीटर लंबाई और 5 मीटर चौड़ाई वाले आयत का परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "30",
+            "B": "15",
+            "C": "50",
+            "D": "25"
+          },
+          "explanation": "परिमाप = 30."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-041",
+      "number": 41,
+      "question": "What is the unit digit in (2467)^153?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "153 mod 4 = 1. 7^1 = 7.",
+      "hash": "9c4d7388e54fa5b3",
+      "translations": {
+        "hi": {
+          "question": "(2467)^153 में इकाई का अंक क्या है?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "3",
+            "D": "1"
+          },
+          "explanation": "इकाई अंक = 7."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-042",
+      "number": 42,
+      "question": "A cube has a volume of 216 cubic cm. Find its side.",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "A",
+      "explanation": "Side = cbrt(216) = 6.",
+      "hash": "93aacc1365348fda",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन 216 घन सेमी है। इसकी भुजा ज्ञात कीजिए।",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "8",
+            "D": "12"
+          },
+          "explanation": "भुजा = 6."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-043",
+      "number": 43,
+      "question": "If salary of A is 25% more than B, how much percent is B's salary less than A's?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "15%",
+        "D": "30%"
+      },
+      "answer": "A",
+      "explanation": "% Less = [r / (100+r)] * 100 = [25/125] * 100 = 20%.",
+      "hash": "4a28f4157787c973",
+      "translations": {
+        "hi": {
+          "question": "यदि A का वेतन B से 25% अधिक है, तो B का वेतन A के वेतन से कितने प्रतिशत कम है?",
+          "options": {
+            "A": "20%",
+            "B": "25%",
+            "C": "15%",
+            "D": "30%"
+          },
+          "explanation": "प्रतिशत कमी = 20%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-044",
+      "number": 44,
+      "question": "A can fill a tank in 20 min and B in 30 min. If both are open, time taken?",
+      "options": {
+        "A": "12 min",
+        "B": "10 min",
+        "C": "15 min",
+        "D": "25 min"
+      },
+      "answer": "A",
+      "explanation": "Time = (20 * 30) / 50 = 12.",
+      "hash": "3b193e8beeac33b8",
+      "translations": {
+        "hi": {
+          "question": "A एक टैंक को 20 मिनट में और B 30 मिनट में भर सकता है। यदि दोनों खुले हों, तो कितना समय लगेगा?",
+          "options": {
+            "A": "12 मिनट",
+            "B": "10 मिनट",
+            "C": "15 मिनट",
+            "D": "25 मिनट"
+          },
+          "explanation": "समय = 12 मिनट."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-045",
+      "number": 45,
+      "question": "A man rows 15 km downstream in 3 hours. Find downstream speed.",
+      "options": {
+        "A": "5 km/h",
+        "B": "3 km/h",
+        "C": "15 km/h",
+        "D": "45 km/h"
+      },
+      "answer": "A",
+      "explanation": "Speed = Dist / Time = 15/3 = 5.",
+      "hash": "6cdc7f370f6a32d7",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 3 घंटे में 15 किमी अनुप्रवाह की दिशा में नाव चलाता है। अनुप्रवाह गति ज्ञात कीजिए।",
+          "options": {
+            "A": "5 किमी/घंटा",
+            "B": "3 किमी/घंटा",
+            "C": "15 किमी/घंटा",
+            "D": "45 किमी/घंटा"
+          },
+          "explanation": "गति = 5 किमी/घंटा."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-046",
+      "number": 46,
+      "question": "Find the value of sqrt(0.09).",
+      "options": {
+        "A": "0.3",
+        "B": "0.03",
+        "C": "3",
+        "D": "0.003"
+      },
+      "answer": "A",
+      "explanation": "0.3 * 0.3 = 0.09.",
+      "hash": "3c0c394f9738c995",
+      "translations": {
+        "hi": {
+          "question": "sqrt(0.09) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0.3",
+            "B": "0.03",
+            "C": "3",
+            "D": "0.003"
+          },
+          "explanation": "0.3."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-047",
+      "number": 47,
+      "question": "In a class of 60 students, 40% are girls. Find the number of boys.",
+      "options": {
+        "A": "36",
+        "B": "24",
+        "C": "30",
+        "D": "40"
+      },
+      "answer": "A",
+      "explanation": "Girls = 24. Boys = 60 - 24 = 36.",
+      "hash": "f58d8d8f4339dac6",
+      "translations": {
+        "hi": {
+          "question": "60 छात्रों की एक कक्षा में 40% लड़कियाँ हैं। लड़कों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "36",
+            "B": "24",
+            "C": "30",
+            "D": "40"
+          },
+          "explanation": "लड़के = 36."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-048",
+      "number": 48,
+      "question": "If a side of a square is 10 cm, find its diagonal.",
+      "options": {
+        "A": "10√2",
+        "B": "10",
+        "C": "20",
+        "D": "5√2"
+      },
+      "answer": "A",
+      "explanation": "Diagonal = side * sqrt(2) = 10√2.",
+      "hash": "7e7cb0998cda556c",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वर्ग की भुजा 10 सेमी है, तो इसका विकर्ण ज्ञात कीजिए।",
+          "options": {
+            "A": "10√2",
+            "B": "10",
+            "C": "20",
+            "D": "5√2"
+          },
+          "explanation": "विकर्ण = 10√2."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-049",
+      "number": 49,
+      "question": "A shopkeeper marks an item for 500 and sells it for 450. Find discount percentage.",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "answer": "A",
+      "explanation": "Discount = 50. % = (50/500)*100 = 10%.",
+      "hash": "1ce3415cb4b660c8",
+      "translations": {
+        "hi": {
+          "question": "एक दुकानदार एक वस्तु पर 500 अंकित करता है और उसे 450 में बेचता है। छूट प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "10%",
+            "B": "5%",
+            "C": "15%",
+            "D": "20%"
+          },
+          "explanation": "छूट% = 10%."
+        }
+      }
+    },
+    {
+      "id": "aptitude-10-050",
+      "number": 50,
+      "question": "Find the average of first 10 even numbers.",
+      "options": {
+        "A": "11",
+        "B": "10",
+        "C": "12",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "Average = n + 1 = 10 + 1 = 11.",
+      "hash": "4ced3a5a07c386d9",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 सम संख्याओं का औसत ज्ञात कीजिए।",
+          "options": {
+            "A": "11",
+            "B": "10",
+            "C": "12",
+            "D": "9"
+          },
+          "explanation": "औसत = 11."
+        }
+      }
+    }
+  ]
+}

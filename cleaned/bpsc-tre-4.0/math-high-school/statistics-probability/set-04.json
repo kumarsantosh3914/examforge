@@ -1,0 +1,567 @@
+{
+  "subject": "Statistics & Probability",
+  "set": 4,
+  "title": "Statistics & Probability Mock Test 4",
+  "questions": [
+    {
+      "id": "statistics-probability-04-001",
+      "number": 1,
+      "question": "A coin is tossed three times. What is the probability of getting exactly two tails?",
+      "options": {
+        "A": "1/8",
+        "B": "3/8",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Outcomes: {TTH, THT, HTT}. Total outcomes = 8. Probability = 3/8.",
+      "hash": "8c71af1785783766",
+      "translations": {
+        "hi": {
+          "question": "एक सिक्के को तीन बार उछाला जाता है। ठीक दो पट (tails) प्राप्त करने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/8",
+            "B": "3/8",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिणाम: {TTH, THT, HTT}। कुल परिणाम = 8। प्रायिकता = 3/8 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-002",
+      "number": 2,
+      "question": "The mean of 6, 4, 7, p, and 10 is 8. Find the value of p.",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mean = (6+4+7+p+10)/5 = 8. So, 27 + p = 40. p = 13.",
+      "hash": "279b89e2fabdf5fc",
+      "translations": {
+        "hi": {
+          "question": "6, 4, 7, p, और 10 का माध्य 8 है। p का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "12",
+            "B": "13",
+            "C": "14",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्य = (6+4+7+p+10)/5 = 8. इसलिए, 27 + p = 40. p = 13 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-003",
+      "number": 3,
+      "question": "A bag contains 5 black and 7 white balls. A ball is drawn out. What is the probability that the ball drawn is black?",
+      "options": {
+        "A": "5/12",
+        "B": "7/12",
+        "C": "5/7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "P(Black) = Number of black balls / Total balls = 5 / (5+7) = 5/12.",
+      "hash": "55329ffd57df0a27",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 5 काली और 7 सफेद गेंदें हैं। एक गेंद निकाली जाती है। निकाली गई गेंद के काली होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "5/12",
+            "B": "7/12",
+            "C": "5/7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "P(काली) = काली गेंदों की संख्या / कुल गेंदें = 5 / (5+7) = 5/12 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-004",
+      "number": 4,
+      "question": "If the median of a distribution is 20 and each observation is increased by 5, the new median will be:",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "100",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "If every observation is increased by a constant k, the median also increases by k.",
+      "hash": "d9327e70066534d4",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वितरण की माध्यिका 20 है और प्रत्येक प्रेक्षण में 5 की वृद्धि की जाती है, तो नई माध्यिका होगी:",
+          "options": {
+            "A": "20",
+            "B": "25",
+            "C": "100",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "यदि प्रत्येक प्रेक्षण में एक स्थिरांक k की वृद्धि की जाती है, तो माध्यिका में भी k की वृद्धि होती है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-005",
+      "number": 5,
+      "question": "The probability of drawing a \"Spade\" card from a deck of 52 cards is:",
+      "options": {
+        "A": "1/4",
+        "B": "1/13",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "There are 13 Spades in a deck of 52. Probability = 13/52 = 1/4.",
+      "hash": "8ee7efbe62d3650e",
+      "translations": {
+        "hi": {
+          "question": "52 ताश के पत्तों की एक गड्डी से \"हुकुम\" (Spade) का पत्ता निकालने की प्रायिकता है:",
+          "options": {
+            "A": "1/4",
+            "B": "1/13",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "52 पत्तों की गड्डी में 13 हुकुम के पत्ते होते हैं। प्रायिकता = 13/52 = 1/4 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-006",
+      "number": 6,
+      "question": "In a frequency distribution, the class intervals are 1-10, 11-20, 21-30. This is an example of:",
+      "options": {
+        "A": "Exclusive series",
+        "B": "Inclusive series",
+        "C": "Mid-value series",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "In an inclusive series, both the upper and lower limits are included in the class itself.",
+      "hash": "d93e189859701d1d",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता वितरण में, वर्ग अंतराल 1-10, 11-20, 21-30 हैं। यह किसका उदाहरण है?",
+          "options": {
+            "A": "अपवर्जित श्रेणी",
+            "B": "समावेशी श्रेणी",
+            "C": "मध्य-मान श्रेणी",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समावेशी श्रेणी में, ऊपरी और निचली दोनों सीमाएँ उसी वर्ग में शामिल होती हैं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-007",
+      "number": 7,
+      "question": "A card is drawn from a deck. What is the probability that it is a King of Hearts?",
+      "options": {
+        "A": "1/52",
+        "B": "1/13",
+        "C": "4/52",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "There is only one King of Hearts in a standard deck of 52 cards.",
+      "hash": "3861fd7837f89630",
+      "translations": {
+        "hi": {
+          "question": "एक गड्डी से एक पत्ता निकाला जाता है। इसके 'पान का राजा' होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/52",
+            "B": "1/13",
+            "C": "4/52",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "52 पत्तों की एक मानक गड्डी में पान का राजा केवल एक ही होता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-008",
+      "number": 8,
+      "question": "If the mean of 2, 4, 6, 8, 10, 12 is x, then the value of x is:",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mean = (2+4+6+8+10+12)/6 = 42/6 = 7.",
+      "hash": "c81b5c00261e4568",
+      "translations": {
+        "hi": {
+          "question": "यदि 2, 4, 6, 8, 10, 12 का माध्य x है, तो x का मान है:",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्य = (2+4+6+8+10+12)/6 = 42/6 = 7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-009",
+      "number": 9,
+      "question": "The relationship between the Mean, Median, and Mode for a moderately skewed distribution is:",
+      "options": {
+        "A": "Mean - Mode = 3(Mean - Median)",
+        "B": "Mean - Median = 3(Mean - Mode)",
+        "C": "Mode - Mean = 3(Median - Mean)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "This is the rearranged version of Mode = 3 Median - 2 Mean.",
+      "hash": "2fd9e7285e9be75b",
+      "translations": {
+        "hi": {
+          "question": "मध्यम रूप से विषम वितरण के लिए माध्य, माध्यिका और बहुलक के बीच संबंध है:",
+          "options": {
+            "A": "माध्य - बहुलक = 3(माध्य - माध्यिका)",
+            "B": "माध्य - माध्यिका = 3(माध्य - बहुलक)",
+            "C": "बहुलक - माध्य = 3(माध्यिका - माध्य)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "यह बहुलक = 3 माध्यिका - 2 माध्य का पुनर्व्यवस्थित रूप है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-010",
+      "number": 10,
+      "question": "Which of the following is not a measure of central tendency?",
+      "options": {
+        "A": "Mean",
+        "B": "Median",
+        "C": "Range",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Range is a measure of dispersion, not central tendency.",
+      "hash": "7019a89f5c98460a",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा केंद्रीय प्रवृत्ति का माप नहीं है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "परिसर (Range)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परिसर (Range) विक्षेपण का माप है, केंद्रीय प्रवृत्ति का नहीं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-011",
+      "number": 11,
+      "question": "If P(E) = 0.65, P(F) = 0.15, and E and F are mutually exclusive events, then P(E or F) is:",
+      "options": {
+        "A": "0.50",
+        "B": "0.80",
+        "C": "0.75",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "For mutually exclusive events, P(E or F) = P(E) + P(F) = 0.65 + 0.15 = 0.80.",
+      "hash": "0d8a5ca521121556",
+      "translations": {
+        "hi": {
+          "question": "यदि P(E) = 0.65, P(F) = 0.15 है, और E तथा F परस्पर अपवर्जी घटनाएँ हैं, तो P(E या F) है:",
+          "options": {
+            "A": "0.50",
+            "B": "0.80",
+            "C": "0.75",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "परस्पर अपवर्जी घटनाओं के लिए, P(E या F) = P(E) + P(F) = 0.65 + 0.15 = 0.80 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-012",
+      "number": 12,
+      "question": "A die is rolled. What is the probability of getting a number less than 3?",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Numbers less than 3 are {1, 2}. Probability = 2/6 = 1/3.",
+      "hash": "5d6a1a75f436a2a9",
+      "translations": {
+        "hi": {
+          "question": "एक पासा फेंका जाता है। 3 से कम संख्या प्राप्त करने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/3",
+            "B": "1/2",
+            "C": "2/3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "3 से कम संख्याएँ {1, 2} हैं। प्रायिकता = 2/6 = 1/3 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-013",
+      "number": 13,
+      "question": "If three coins are tossed, the probability of getting at least two heads is:",
+      "options": {
+        "A": "1/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Favorable outcomes: {HHT, HTH, THH, HHH}. Total = 8. Probability = 4/8 = 1/2.",
+      "hash": "018766d5d248e23c",
+      "translations": {
+        "hi": {
+          "question": "यदि तीन सिक्के उछाले जाते हैं, तो कम से कम दो चित (heads) प्राप्त करने की प्रायिकता है:",
+          "options": {
+            "A": "1/4",
+            "B": "1/2",
+            "C": "3/4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनुकूल परिणाम: {HHT, HTH, THH, HHH}। कुल = 8। प्रायिकता = 4/8 = 1/2 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-014",
+      "number": 14,
+      "question": "The mean of 100 observations is 40. Later it was found that an observation 53 was misread as 83. The corrected mean is:",
+      "options": {
+        "A": "39.7",
+        "B": "40.3",
+        "C": "42.7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Difference = 83 - 53 = 30 (excess). Corrected sum = (100 * 40) - 30 = 3970. Corrected Mean = 39.7.",
+      "hash": "09c205404d1c61dd",
+      "translations": {
+        "hi": {
+          "question": "100 प्रेक्षणों का माध्य 40 है। बाद में यह पाया गया कि एक प्रेक्षण 53 को गलती से 83 पढ़ लिया गया था। संशोधित माध्य है:",
+          "options": {
+            "A": "39.7",
+            "B": "40.3",
+            "C": "42.7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अंतर = 83 - 53 = 30 (अतिरिक्त)। संशोधित योग = 4000 - 30 = 3970. संशोधित माध्य = 39.7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-015",
+      "number": 15,
+      "question": "In a class of 50 students, 20 are girls. If a student is selected at random, what is the probability that the student is a boy?",
+      "options": {
+        "A": "2/5",
+        "B": "3/5",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Number of boys = 50 - 20 = 30. Probability = 30/50 = 3/5.",
+      "hash": "32e08a0b423d5f98",
+      "translations": {
+        "hi": {
+          "question": "50 छात्रों की एक कक्षा में 20 लड़कियाँ हैं। यदि एक छात्र को यादृच्छया चुना जाता है, तो छात्र के लड़का होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "2/5",
+            "B": "3/5",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "लड़कों की संख्या = 50 - 20 = 30. प्रायिकता = 30/50 = 3/5 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-016",
+      "number": 16,
+      "question": "The mode of the following data: 15, 20, 22, 15, 30, 15, 20, 15, 22, 11 is:",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "22",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "15 occurs most frequently (4 times).",
+      "hash": "9d010ceb5e125e44",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित डेटा का बहुलक: 15, 20, 22, 15, 30, 15, 20, 15, 22, 11 है:",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "22",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "15 सबसे अधिक बार (4 बार) आता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-017",
+      "number": 17,
+      "question": "If a number x is chosen from the numbers -3, -2, -1, 0, 1, 2, 3, what is the probability that |x| < 2?",
+      "options": {
+        "A": "3/7",
+        "B": "2/7",
+        "C": "1/7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Favorable x values are {-1, 0, 1}. Total numbers = 7. Probability = 3/7.",
+      "hash": "2839ee3750bc89c9",
+      "translations": {
+        "hi": {
+          "question": "यदि संख्याओं -3, -2, -1, 0, 1, 2, 3 में से एक संख्या x चुनी जाती है, तो |x| < 2 होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "3/7",
+            "B": "2/7",
+            "C": "1/7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अनुकूल x मान {-1, 0, 1} हैं। कुल संख्याएँ = 7. प्रायिकता = 3/7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-018",
+      "number": 18,
+      "question": "The mid-value of a class interval is 42. If the class size is 10, then the upper and lower limits are:",
+      "options": {
+        "A": "47, 37",
+        "B": "48, 38",
+        "C": "45, 35",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Lower = 42 - 5 = 37. Upper = 42 + 5 = 47.",
+      "hash": "e6fc378479db06ea",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग अंतराल का मध्य-मान 42 है। यदि वर्ग माप 10 है, तो ऊपरी और निचली सीमाएँ हैं:",
+          "options": {
+            "A": "47, 37",
+            "B": "48, 38",
+            "C": "45, 35",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "निचली सीमा = 42 - 5 = 37. ऊपरी सीमा = 42 + 5 = 47 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-019",
+      "number": 19,
+      "question": "The sum of the probabilities of all elementary events of an experiment is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "0.5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The total probability of all possible outcomes in an experiment is always 1.",
+      "hash": "dfd03e273af91881",
+      "translations": {
+        "hi": {
+          "question": "किसी प्रयोग की सभी प्रारंभिक घटनाओं की प्रायिकताओं का योग होता है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "0.5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी प्रयोग के सभी संभावित परिणामों की कुल प्रायिकता हमेशा 1 होती है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-04-020",
+      "number": 20,
+      "question": "Median of the first 8 natural numbers is:",
+      "options": {
+        "A": "4",
+        "B": "4.5",
+        "C": "5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Numbers: 1, 2, 3, 4, 5, 6, 7, 8. Median = (4+5)/2 = 4.5.",
+      "hash": "21ae7929ece1a153",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 8 प्राकृत संख्याओं की माध्यिका है:",
+          "options": {
+            "A": "4",
+            "B": "4.5",
+            "C": "5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संख्याएँ: 1, 2, 3, 4, 5, 6, 7, 8. माध्यिका = (4+5)/2 = 4.5 है।"
+        }
+      }
+    }
+  ]
+}

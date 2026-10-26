@@ -1,0 +1,567 @@
+{
+  "subject": "Statistics & Probability",
+  "set": 2,
+  "title": "Statistics & Probability Mock Test 2",
+  "questions": [
+    {
+      "id": "statistics-probability-02-001",
+      "number": 1,
+      "question": "The mean of 10 observations is 15. If one observation 24 is replaced by 34, what will be the new mean?",
+      "options": {
+        "A": "16",
+        "B": "15.5",
+        "C": "17",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Total sum increases by (34 - 24) = 10. Increase in mean = 10 / 10 = 1. New mean = 15 + 1 = 16.",
+      "hash": "b92882150718edfe",
+      "translations": {
+        "hi": {
+          "question": "10 प्रेक्षणों का माध्य 15 है। यदि एक प्रेक्षण 24 को 34 से बदल दिया जाए, तो नया माध्य क्या होगा?",
+          "options": {
+            "A": "16",
+            "B": "15.5",
+            "C": "17",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल योग में (34 - 24) = 10 की वृद्धि होती है। माध्य में वृद्धि = 10 / 10 = 1. नया माध्य = 15 + 1 = 16 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-002",
+      "number": 2,
+      "question": "A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn at random, what is the probability that it will not be white?",
+      "options": {
+        "A": "2/9",
+        "B": "7/9",
+        "C": "5/9",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Total marbles = 3+2+4 = 9. Marbles that are not white = 3+4 = 7. Probability = 7/9.",
+      "hash": "7aade76f3b0a5fc9",
+      "translations": {
+        "hi": {
+          "question": "एक बक्से में 3 नीले, 2 सफेद और 4 लाल कंचे हैं। यदि एक कंचा यादृच्छया निकाला जाता है, तो इसके सफेद न होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "2/9",
+            "B": "7/9",
+            "C": "5/9",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल कंचे = 9. वे कंचे जो सफेद नहीं हैं = 7. प्रायिकता = 7/9 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-003",
+      "number": 3,
+      "question": "Which measure of central tendency is most affected by extreme values?",
+      "options": {
+        "A": "Median",
+        "B": "Mode",
+        "C": "Arithmetic Mean",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The arithmetic mean uses all values in the data set, so very high or low values significantly shift it.",
+      "hash": "673f25092b506cc9",
+      "translations": {
+        "hi": {
+          "question": "केंद्रीय प्रवृत्ति का कौन सा माप चरम मानों (extreme values) से सबसे अधिक प्रभावित होता है?",
+          "options": {
+            "A": "माध्यिका",
+            "B": "बहुलक",
+            "C": "समांतर माध्य",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "समांतर माध्य डेटा सेट के सभी मानों का उपयोग करता है, इसलिए बहुत उच्च या निम्न मान इसे महत्वपूर्ण रूप से प्रभावित करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-004",
+      "number": 4,
+      "question": "In a frequency distribution, if the mean is 20 and the median is 22, then the mode is approximately:",
+      "options": {
+        "A": "24",
+        "B": "26",
+        "C": "21",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mode = 3 Median - 2 Mean = 3(22) - 2(20) = 66 - 40 = 26.",
+      "hash": "526aa1673cd6c851",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता वितरण में, यदि माध्य 20 है और माध्यिका 22 है, तो बहुलक लगभग है:",
+          "options": {
+            "A": "24",
+            "B": "26",
+            "C": "21",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "बहुलक = 3 माध्यिका - 2 माध्य = 3(22) - 2(20) = 66 - 40 = 26 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-005",
+      "number": 5,
+      "question": "A letter is chosen at random from the word \"MATHEMATICS\". What is the probability that it is a vowel?",
+      "options": {
+        "A": "4/11",
+        "B": "3/11",
+        "C": "5/11",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Total letters = 11. Vowels are {A, E, A, I}. Number of vowels = 4. Probability = 4/11.",
+      "hash": "88301ec7dc9f6cd6",
+      "translations": {
+        "hi": {
+          "question": "\"MATHEMATICS\" शब्द से एक अक्षर यादृच्छया चुना जाता है। इसके स्वर (vowel) होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "4/11",
+            "B": "3/11",
+            "C": "5/11",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल अक्षर = 11. स्वर {A, E, A, I} हैं। स्वरों की संख्या = 4. प्रायिकता = 4/11 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-006",
+      "number": 6,
+      "question": "The cumulative frequency table is useful in determining the:",
+      "options": {
+        "A": "Mean",
+        "B": "Median",
+        "C": "Mode",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Cumulative frequency is primarily used to locate the median class and calculate the median.",
+      "hash": "1086c3dfc70da158",
+      "translations": {
+        "hi": {
+          "question": "संचयी बारंबारता सारणी किसके निर्धारण में उपयोगी होती है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संचयी बारंबारता का मुख्य रूप से माध्यिका वर्ग का पता लगाने और माध्यिका की गणना करने के लिए उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-007",
+      "number": 7,
+      "question": "Two dice are thrown together. What is the probability that the sum of the numbers on the two faces is 10?",
+      "options": {
+        "A": "1/12",
+        "B": "1/9",
+        "C": "1/36",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Total outcomes = 36. Favorable outcomes for sum 10 = {(4,6), (5,5), (6,4)}. Probability = 3/36 = 1/12.",
+      "hash": "355522ff28a114f6",
+      "translations": {
+        "hi": {
+          "question": "दो पासे एक साथ फेंके जाते हैं। दोनों फलकों पर आने वाली संख्याओं का योग 10 होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/12",
+            "B": "1/9",
+            "C": "1/36",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल परिणाम = 36. योग 10 के लिए अनुकूल परिणाम = {(4,6), (5,5), (6,4)}. प्रायिकता = 3/36 = 1/12 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-008",
+      "number": 8,
+      "question": "If the mean of first n natural numbers is 15, then n is:",
+      "options": {
+        "A": "29",
+        "B": "30",
+        "C": "15",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Mean of first n natural numbers = (n+1)/2. So, (n+1)/2 = 15 => n+1 = 30 => n = 29.",
+      "hash": "ebfc366c939f1082",
+      "translations": {
+        "hi": {
+          "question": "यदि प्रथम n प्राकृत संख्याओं का माध्य 15 है, तो n है:",
+          "options": {
+            "A": "29",
+            "B": "30",
+            "C": "15",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रथम n प्राकृत संख्याओं का माध्य = (n+1)/2. इसलिए, (n+1)/2 = 15 => n+1 = 30 => n = 29 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-009",
+      "number": 9,
+      "question": "In a circular spinner with numbers 1 to 8, what is the probability of the arrow landing on a number divisible by 3?",
+      "options": {
+        "A": "1/4",
+        "B": "3/8",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Numbers are {1,2,3,4,5,6,7,8}. Divisible by 3 are {3,6}. Probability = 2/8 = 1/4.",
+      "hash": "cd1c3aa4cbc6f542",
+      "translations": {
+        "hi": {
+          "question": "1 से 8 तक की संख्याओं वाले एक गोलाकार स्पिनर में, सुई के 3 से विभाज्य संख्या पर रुकने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/4",
+            "B": "3/8",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संख्याएँ {1,2,3,4,5,6,7,8} हैं। 3 से विभाज्य संख्याएँ {3,6} हैं। प्रायिकता = 2/8 = 1/4 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-010",
+      "number": 10,
+      "question": "The algebraic sum of deviations of a set of n values from a constant k is zero only when:",
+      "options": {
+        "A": "k is the median",
+        "B": "k is the mode",
+        "C": "k is the mean",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "It is a fundamental property of the arithmetic mean that the sum of deviations from it is zero.",
+      "hash": "a7d563921b3c5d07",
+      "translations": {
+        "hi": {
+          "question": "एक स्थिरांक k से n मानों के समूह के विचलनों का बीजीय योग शून्य तभी होता है जब:",
+          "options": {
+            "A": "k माध्यिका है",
+            "B": "k बहुलक है",
+            "C": "k माध्य है",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "यह समांतर माध्य का एक मौलिक गुण है कि इससे विचलनों का योग शून्य होता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-011",
+      "number": 11,
+      "question": "A non-leap year has 365 days. What is the probability that it has 53 Mondays?",
+      "options": {
+        "A": "1/7",
+        "B": "2/7",
+        "C": "1/365",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "365 days = 52 weeks + 1 day. The extra day can be any of the 7 days. Probability = 1/7.",
+      "hash": "7492837fed66cc14",
+      "translations": {
+        "hi": {
+          "question": "एक सामान्य वर्ष (non-leap year) में 365 दिन होते हैं। इसमें 53 सोमवार होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/7",
+            "B": "2/7",
+            "C": "1/365",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "365 दिन = 52 सप्ताह + 1 दिन। अतिरिक्त दिन सप्ताह के 7 दिनों में से कोई भी हो सकता है। प्रायिकता = 1/7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-012",
+      "number": 12,
+      "question": "For a frequency distribution, the class intervals are 0-10, 10-20, 20-30. This type of classification is called:",
+      "options": {
+        "A": "Inclusive method",
+        "B": "Exclusive method",
+        "C": "Open-end method",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "In the exclusive method, the upper limit of one class is the lower limit of the next class.",
+      "hash": "c2f1586b00467cb3",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता वितरण के लिए, वर्ग अंतराल 0-10, 10-20, 20-30 हैं। इस प्रकार के वर्गीकरण को कहा जाता है:",
+          "options": {
+            "A": "समावेशी विधि",
+            "B": "अपवर्जित विधि",
+            "C": "खुले सिरे वाली विधि",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अपवर्जित विधि में, एक वर्ग की ऊपरी सीमा अगले वर्ग की निचली सीमा होती है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-013",
+      "number": 13,
+      "question": "The probability of getting a sum of 13 when two dice are rolled is:",
+      "options": {
+        "A": "1/36",
+        "B": "1",
+        "C": "0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The maximum sum possible with two dice is 12 (6+6). Thus, a sum of 13 is an impossible event.",
+      "hash": "626f5bdc0e4f3d0b",
+      "translations": {
+        "hi": {
+          "question": "दो पासे फेंकने पर योग 13 प्राप्त करने की प्रायिकता है:",
+          "options": {
+            "A": "1/36",
+            "B": "1",
+            "C": "0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दो पासों के साथ अधिकतम संभावित योग 12 (6+6) है। इसलिए, 13 का योग एक असंभव घटना है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-014",
+      "number": 14,
+      "question": "If the mode of a data is 18 and the mean is 24, find the median.",
+      "options": {
+        "A": "20",
+        "B": "21",
+        "C": "22",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "18 = 3 Median - 2(24) => 18 = 3 Median - 48 => 3 Median = 66 => Median = 22.",
+      "hash": "3288369ea5e6290a",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी डेटा का बहुलक 18 है और माध्य 24 है, तो माध्यिका ज्ञात कीजिए।",
+          "options": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "18 = 3 माध्यिका - 2(24) => 18 = 3 माध्यिका - 48 => 3 माध्यिका = 66 => माध्यिका = 22 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-015",
+      "number": 15,
+      "question": "What is the probability of picking a card that is either a King or a Queen from a standard deck?",
+      "options": {
+        "A": "1/13",
+        "B": "2/13",
+        "C": "4/13",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Total Kings = 4, Total Queens = 4. Total favorable = 8. Probability = 8/52 = 2/13.",
+      "hash": "1bfb7c180e293935",
+      "translations": {
+        "hi": {
+          "question": "एक मानक गड्डी से ऐसा पत्ता निकालने की प्रायिकता क्या है जो या तो राजा (King) हो या रानी (Queen)?",
+          "options": {
+            "A": "1/13",
+            "B": "2/13",
+            "C": "4/13",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल राजा = 4, कुल रानी = 4. कुल अनुकूल = 8. प्रायिकता = 8/52 = 2/13 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-016",
+      "number": 16,
+      "question": "The class mark of a class is 25 and its class size is 10. The class interval is:",
+      "options": {
+        "A": "20-30",
+        "B": "25-35",
+        "C": "15-25",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Lower limit = 25 - (10/2) = 20. Upper limit = 25 + (10/2) = 30.",
+      "hash": "62fdab9f4ba66f65",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का वर्ग चिह्न 25 है और इसका वर्ग माप 10 है। वर्ग अंतराल है:",
+          "options": {
+            "A": "20-30",
+            "B": "25-35",
+            "C": "15-25",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "निचली सीमा = 25 - (10/2) = 20. ऊपरी सीमा = 25 + (10/2) = 30 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-017",
+      "number": 17,
+      "question": "The mean of 5 numbers is 30. If one number is excluded, their mean becomes 28. The excluded number is:",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "38",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Total sum = 5 * 30 = 150. New sum = 4 * 28 = 112. Excluded number = 150 - 112 = 38.",
+      "hash": "0283d599e0480dff",
+      "translations": {
+        "hi": {
+          "question": "5 संख्याओं का माध्य 30 है। यदि एक संख्या को निकाल दिया जाए, तो उनका माध्य 28 हो जाता है। निकाली गई संख्या है:",
+          "options": {
+            "A": "28",
+            "B": "30",
+            "C": "38",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल योग = 5 * 30 = 150. नया योग = 4 * 28 = 112. निकाली गई संख्या = 150 - 112 = 38 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-018",
+      "number": 18,
+      "question": "If E and F are complementary events, then P(E) + P(F) is:",
+      "options": {
+        "A": "0",
+        "B": "0.5",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The sum of probabilities of an event and its complement is always 1.",
+      "hash": "4f3e3a744584365b",
+      "translations": {
+        "hi": {
+          "question": "यदि E और F पूरक घटनाएँ हैं, तो P(E) + P(F) है:",
+          "options": {
+            "A": "0",
+            "B": "0.5",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी घटना और उसकी पूरक घटना की प्रायिकताओं का योग हमेशा 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-019",
+      "number": 19,
+      "question": "While calculating the mean of grouped data, we assume that the frequencies are centered at:",
+      "options": {
+        "A": "Lower limits",
+        "B": "Upper limits",
+        "C": "Class marks",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "In grouped data, we use the class mark (mid-point) as the representative value for the entire class.",
+      "hash": "6253b3b533858217",
+      "translations": {
+        "hi": {
+          "question": "वर्गीकृत आंकड़ों के माध्य की गणना करते समय, हम यह मानते हैं कि बारंबारताएँ कहाँ केंद्रित हैं?",
+          "options": {
+            "A": "निचली सीमाओं पर",
+            "B": "ऊपरी सीमाओं पर",
+            "C": "वर्ग चिह्नों पर",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वर्गीकृत आंकड़ों में, हम पूरे वर्ग के प्रतिनिधि मान के रूप में वर्ग चिह्न (मध्य-बिंदु) का उपयोग करते हैं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-02-020",
+      "number": 20,
+      "question": "A bag has 5 red, 8 white, and 4 green balls. One ball is taken out at random. What is the probability that it is not green?",
+      "options": {
+        "A": "13/17",
+        "B": "4/17",
+        "C": "12/17",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Total balls = 5+8+4 = 17. Not green = Red + White = 5+8 = 13. Probability = 13/17.",
+      "hash": "bc36da6f4875a268",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 5 लाल, 8 सफेद और 4 हरी गेंदें हैं। एक गेंद यादृच्छया निकाली जाती है। इसके हरे न होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "13/17",
+            "B": "4/17",
+            "C": "12/17",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कुल गेंदें = 17. हरी नहीं = लाल + सफेद = 13. प्रायिकता = 13/17 है।"
+        }
+      }
+    }
+  ]
+}

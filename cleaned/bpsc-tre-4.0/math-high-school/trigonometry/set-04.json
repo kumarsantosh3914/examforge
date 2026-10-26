@@ -1,0 +1,567 @@
+{
+  "subject": "Trigonometry",
+  "set": 4,
+  "title": "Trigonometry Mock Test 4",
+  "questions": [
+    {
+      "id": "trigonometry-04-001",
+      "number": 1,
+      "question": "If tan A = cot(30 + A), find the value of A where A is an acute angle.",
+      "options": {
+        "A": "30 degrees",
+        "B": "60 degrees",
+        "C": "45 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "tan A = cot(90 - A). So, 90 - A = 30 + A, which means 2A = 60, A = 30.",
+      "hash": "a0760f6a823da0ed",
+      "translations": {
+        "hi": {
+          "question": "यदि tan A = cot(30 + A) है, तो A का मान ज्ञात कीजिए जहाँ A एक न्यूनकोण है।",
+          "options": {
+            "A": "30 डिग्री",
+            "B": "60 डिग्री",
+            "C": "45 डिग्री",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan A = cot(90 - A)। इसलिए, 90 - A = 30 + A, जिसका अर्थ है 2A = 60, A = 30।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-002",
+      "number": 2,
+      "question": "Find the value of (sec^2 10 - cot^2 80).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "cot 80 = tan 10. So the expression is sec^2 10 - tan^2 10 = 1.",
+      "hash": "aa62b1a77a65a9f6",
+      "translations": {
+        "hi": {
+          "question": "(sec^2 10 - cot^2 80) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "cot 80 = tan 10। इसलिए व्यंजक sec^2 10 - tan^2 10 = 1 है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-003",
+      "number": 3,
+      "question": "A tower stands vertically on the ground. From a point 15m away from the foot, the angle of elevation of the top is 45. The height of the tower is:",
+      "options": {
+        "A": "15m",
+        "B": "15*sqrt(3)m",
+        "C": "15/sqrt(3)m",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "tan 45 = Height / 15. Since tan 45 = 1, Height = 15m.",
+      "hash": "9da92be33d53c897",
+      "translations": {
+        "hi": {
+          "question": "एक टावर जमीन पर ऊर्ध्वाधर खड़ा है। आधार से 15 मीटर दूर एक बिंदु से, शीर्ष का उन्नयन कोण 45 है। टावर की ऊँचाई है:",
+          "options": {
+            "A": "15 मीटर",
+            "B": "15*sqrt(3) मीटर",
+            "C": "15/sqrt(3) मीटर",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan 45 = ऊँचाई / 15। चूंकि tan 45 = 1 है, ऊँचाई = 15 मीटर।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-004",
+      "number": 4,
+      "question": "If sin A = 1/2 and cos A = sqrt(3)/2, then find the value of cot A.",
+      "options": {
+        "A": "sqrt(3)",
+        "B": "1/sqrt(3)",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "cot A = cos A / sin A = (sqrt(3)/2) / (1/2) = sqrt(3).",
+      "hash": "42d2eab8c38812c9",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = 1/2 और cos A = sqrt(3)/2 है, तो cot A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "sqrt(3)",
+            "B": "1/sqrt(3)",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "cot A = cos A / sin A = (sqrt(3)/2) / (1/2) = sqrt(3)।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-005",
+      "number": 5,
+      "question": "Find the value of (sin^2 20 + sin^2 70).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "sin 70 = cos 20. So sin^2 20 + cos^2 20 = 1.",
+      "hash": "2f34baabb3f9a4a6",
+      "translations": {
+        "hi": {
+          "question": "(sin^2 20 + sin^2 70) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin 70 = cos 20। इसलिए sin^2 20 + cos^2 20 = 1।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-006",
+      "number": 6,
+      "question": "If 2 cos 3A = 1, then the value of A is:",
+      "options": {
+        "A": "10 degrees",
+        "B": "20 degrees",
+        "C": "30 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "cos 3A = 1/2. So 3A = 60, which gives A = 20.",
+      "hash": "a52fe4d0108b26ae",
+      "translations": {
+        "hi": {
+          "question": "यदि 2 cos 3A = 1 है, तो A का मान है:",
+          "options": {
+            "A": "10 डिग्री",
+            "B": "20 डिग्री",
+            "C": "30 डिग्री",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "cos 3A = 1/2। इसलिए 3A = 60, जिससे A = 20 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-007",
+      "number": 7,
+      "question": "If tan A + cot A = 5, then find the value of tan^2 A + cot^2 A.",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "27",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Squaring both sides: (tan A + cot A)^2 = 5^2. tan^2 A + cot^2 A + 2(tan A)(cot A) = 25. tan^2 A + cot^2 A + 2 = 25.",
+      "hash": "3aa88afc0741ea44",
+      "translations": {
+        "hi": {
+          "question": "यदि tan A + cot A = 5 है, तो tan^2 A + cot^2 A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "23",
+            "B": "25",
+            "C": "27",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दोनों पक्षों का वर्ग करने पर: (tan A + cot A)^2 = 5^2. tan^2 A + cot^2 A + 2 = 25. परिणाम 23 है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-008",
+      "number": 8,
+      "question": "The value of (1 + tan A + sec A)(1 + cot A - cosec A) is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Expanding and converting to sin/cos leads to a simplified value of 2.",
+      "hash": "5e4c465da959e42a",
+      "translations": {
+        "hi": {
+          "question": "(1 + tan A + sec A)(1 + cot A - cosec A) का मान है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "विस्तार करने और sin/cos में बदलने पर सरल मान 2 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-009",
+      "number": 9,
+      "question": "If sec A = 25/7, then find the value of sin A.",
+      "options": {
+        "A": "7/25",
+        "B": "24/25",
+        "C": "24/7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "sec A = H/B = 25/7. P = sqrt(25^2 - 7^2) = sqrt(625 - 49) = 24. sin A = P/H = 24/25.",
+      "hash": "70e7b8b07ff3b025",
+      "translations": {
+        "hi": {
+          "question": "यदि sec A = 25/7 है, तो sin A का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "7/25",
+            "B": "24/25",
+            "C": "24/7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sec A = कर्ण/आधार = 25/7। लंब = 24। sin A = लंब/कर्ण = 24/25।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-010",
+      "number": 10,
+      "question": "Evaluate: sin 45 + cos 45.",
+      "options": {
+        "A": "1",
+        "B": "sqrt(2)",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "1/sqrt(2) + 1/sqrt(2) = 2/sqrt(2) = sqrt(2).",
+      "hash": "5c51108a56259347",
+      "translations": {
+        "hi": {
+          "question": "मान ज्ञात कीजिए: sin 45 + cos 45.",
+          "options": {
+            "A": "1",
+            "B": "sqrt(2)",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1/sqrt(2) + 1/sqrt(2) = 2/sqrt(2) = sqrt(2)।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-011",
+      "number": 11,
+      "question": "If cos A = 2/3, then the value of 2 sec^2 A + 2 tan^2 A - 7 is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "sec A = 3/2. tan^2 A = sec^2 A - 1 = 9/4 - 1 = 5/4. 2(9/4) + 2(5/4) - 7 = 18/4 + 10/4 - 7 = 28/4 - 7 = 7 - 7 = 0.",
+      "hash": "f1fdaa0b9e7ad78d",
+      "translations": {
+        "hi": {
+          "question": "यदि cos A = 2/3 है, तो 2 sec^2 A + 2 tan^2 A - 7 का मान है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sec A = 3/2। tan^2 A = 5/4। व्यंजक को हल करने पर 7 - 7 = 0 प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-012",
+      "number": 12,
+      "question": "Find the value of (cosec A / (cosec A - 1)) + (cosec A / (cosec A + 1)).",
+      "options": {
+        "A": "2 sec^2 A",
+        "B": "2 cos^2 A",
+        "C": "2 sin^2 A",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Simplifying the fraction: [cosec A(cosec A + 1 + cosec A - 1)] / (cosec^2 A - 1) = (2 cosec^2 A) / cot^2 A = 2 sec^2 A.",
+      "hash": "2bab42eff3ad7ce7",
+      "translations": {
+        "hi": {
+          "question": "(cosec A / (cosec A - 1)) + (cosec A / (cosec A + 1)) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "2 sec^2 A",
+            "B": "2 cos^2 A",
+            "C": "2 sin^2 A",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "भिन्न को सरल करने पर: (2 cosec^2 A) / cot^2 A = 2 sec^2 A प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-013",
+      "number": 13,
+      "question": "If sin A = 1/2, then find the value of (3 cos A - 4 cos^3 A).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "sin A = 1/2 means A = 30. The expression is cos 3A (formula). cos(3*30) = cos 90 = 0.",
+      "hash": "a51ffaa0e31f095c",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = 1/2 है, तो (3 cos A - 4 cos^3 A) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin A = 1/2 का अर्थ है A = 30। व्यंजक cos 3A का सूत्र है। cos 90 = 0।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-014",
+      "number": 14,
+      "question": "What is the value of (cos^4 A - sin^4 A)?",
+      "options": {
+        "A": "cos 2A",
+        "B": "2 cos^2 A - 1",
+        "C": "1 - 2 sin^2 A",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "(cos^2 A - sin^2 A)(cos^2 A + sin^2 A) = cos^2 A - sin^2 A. This equals cos 2A, 2 cos^2 A - 1, and 1 - 2 sin^2 A.",
+      "hash": "b0685759a22eefb8",
+      "translations": {
+        "hi": {
+          "question": "(cos^4 A - sin^4 A) का मान क्या है?",
+          "options": {
+            "A": "cos 2A",
+            "B": "2 cos^2 A - 1",
+            "C": "1 - 2 sin^2 A",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(cos^2 A - sin^2 A)(1) = cos^2 A - sin^2 A। यह cos 2A, 2 cos^2 A - 1 और 1 - 2 sin^2 A तीनों के बराबर है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-015",
+      "number": 15,
+      "question": "If tan(A + B) = sqrt(3) and tan(A - B) = 1, find A and B.",
+      "options": {
+        "A": "A = 52.5, B = 7.5",
+        "B": "A = 45, B = 15",
+        "C": "A = 60, B = 30",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "A + B = 60 and A - B = 45. 2A = 105, A = 52.5. B = 7.5.",
+      "hash": "98a85465a517915c",
+      "translations": {
+        "hi": {
+          "question": "यदि tan(A + B) = sqrt(3) और tan(A - B) = 1 है, तो A और B ज्ञात कीजिए।",
+          "options": {
+            "A": "A = 52.5, B = 7.5",
+            "B": "A = 45, B = 15",
+            "C": "A = 60, B = 30",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "A + B = 60 और A - B = 45। 2A = 105, A = 52.5। B = 7.5।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-016",
+      "number": 16,
+      "question": "If the sun's elevation is 30, then the length of the shadow of a tower 100m high is:",
+      "options": {
+        "A": "100/sqrt(3)m",
+        "B": "100*sqrt(3)m",
+        "C": "50m",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "tan 30 = 100 / Shadow. 1/sqrt(3) = 100 / S. S = 100*sqrt(3)m.",
+      "hash": "8a7a85dcb1774c23",
+      "translations": {
+        "hi": {
+          "question": "यदि सूर्य का उन्नयन कोण 30 है, तो 100 मीटर ऊँचे टावर की छाया की लंबाई है:",
+          "options": {
+            "A": "100/sqrt(3) मीटर",
+            "B": "100*sqrt(3) मीटर",
+            "C": "50 मीटर",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan 30 = 100 / छाया। 1/sqrt(3) = 100 / S। S = 100*sqrt(3) मीटर।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-017",
+      "number": 17,
+      "question": "Evaluate: (tan 60 / cot 30).",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "sqrt(3)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "tan 60 = sqrt(3) and cot 30 = sqrt(3). Ratio is 1.",
+      "hash": "84c86e19546a06e6",
+      "translations": {
+        "hi": {
+          "question": "मान ज्ञात कीजिए: (tan 60 / cot 30).",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "sqrt(3)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "tan 60 = sqrt(3) और cot 30 = sqrt(3) है। अनुपात 1 है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-018",
+      "number": 18,
+      "question": "If sin A + cos A = sqrt(2) cos A, then (cos A - sin A) is:",
+      "options": {
+        "A": "sqrt(2) sin A",
+        "B": "sin A",
+        "C": "sqrt(2) cos A",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Squaring and rearranging or using direct transformation: cos A - sin A = sqrt(2) sin A.",
+      "hash": "57c4c0786eba0739",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A + cos A = sqrt(2) cos A है, तो (cos A - sin A) है:",
+          "options": {
+            "A": "sqrt(2) sin A",
+            "B": "sin A",
+            "C": "sqrt(2) cos A",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वर्ग करने और पुनर्व्यवस्थित करने पर: cos A - sin A = sqrt(2) sin A प्राप्त होता है।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-019",
+      "number": 19,
+      "question": "If sin A = cos B, then the value of (A + B) is:",
+      "options": {
+        "A": "45 degrees",
+        "B": "90 degrees",
+        "C": "180 degrees",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "sin A = sin(90 - B). Thus A = 90 - B, so A + B = 90.",
+      "hash": "746c681a1811e902",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = cos B है, तो (A + B) का मान है:",
+          "options": {
+            "A": "45 डिग्री",
+            "B": "90 डिग्री",
+            "C": "180 डिग्री",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "sin A = sin(90 - B)। अतः A = 90 - B, इसलिए A + B = 90।"
+        }
+      }
+    },
+    {
+      "id": "trigonometry-04-020",
+      "number": 20,
+      "question": "Find the value of (1 - tan^2 30) / (1 + tan^2 30).",
+      "options": {
+        "A": "1/2",
+        "B": "sqrt(3)/2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "(1 - 1/3) / (1 + 1/3) = (2/3) / (4/3) = 1/2.",
+      "hash": "dec866d4c9e74287",
+      "translations": {
+        "hi": {
+          "question": "(1 - tan^2 30) / (1 + tan^2 30) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "1/2",
+            "B": "sqrt(3)/2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(1 - 1/3) / (1 + 1/3) = (2/3) / (4/3) = 1/2।"
+        }
+      }
+    }
+  ]
+}

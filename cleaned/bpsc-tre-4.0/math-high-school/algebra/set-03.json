@@ -1,0 +1,567 @@
+{
+  "subject": "Algebra",
+  "set": 3,
+  "title": "Algebra Mock Test 3",
+  "questions": [
+    {
+      "id": "algebra-03-001",
+      "number": 1,
+      "question": "If alpha and beta are the zeros of the polynomial f(x) = ax^2 + bx + c, then the value of 1/alpha + 1/beta is:",
+      "options": {
+        "A": "-b/c",
+        "B": "b/c",
+        "C": "-b/a",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "1/alpha + 1/beta = (alpha + beta) / (alpha * beta). Since alpha + beta = -b/a and alpha * beta = c/a, the ratio is (-b/a) / (c/a) = -b/c.",
+      "hash": "88f24c7dce3657a9",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा और बीटा बहुपद f(x) = ax^2 + bx + c के शून्यक हैं, तो 1/अल्फा + 1/बीटा का मान है:",
+          "options": {
+            "A": "-b/c",
+            "B": "b/c",
+            "C": "-b/a",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1/अल्फा + 1/बीटा = (अल्फा + बीटा) / (अल्फा * बीटा)। चूंकि अल्फा + बीटा = -b/a और अल्फा * बीटा = c/a, अनुपात (-b/a) / (c/a) = -b/c है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-002",
+      "number": 2,
+      "question": "If the sum of the roots of the equation kx^2 + 2x + 3k = 0 is equal to their product, then k is:",
+      "options": {
+        "A": "1/3",
+        "B": "-2/3",
+        "C": "2/3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Sum = -2/k, Product = 3k/k = 3. Given -2/k = 3 => 3k = -2 => k = -2/3.",
+      "hash": "62daba9ed18baade",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण kx^2 + 2x + 3k = 0 के मूलों का योग उनके गुणनफल के बराबर है, तो k है:",
+          "options": {
+            "A": "1/3",
+            "B": "-2/3",
+            "C": "2/3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग = -2/k, गुणनफल = 3k/k = 3। दिया गया है -2/k = 3 => 3k = -2 => k = -2/3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-003",
+      "number": 3,
+      "question": "The solution of the equations 0.4x + 0.3y = 1.7 and 0.7x - 0.2y = 0.8 is:",
+      "options": {
+        "A": "x = 1, y = 2",
+        "B": "x = 2, y = 3",
+        "C": "x = 3, y = 2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Multiply first eq by 2 and second by 3: 0.8x + 0.6y = 3.4 and 2.1x - 0.6y = 2.4. Adding gives 2.9x = 5.8 => x = 2. Then 0.4(2) + 0.3y = 1.7 => 0.3y = 0.9 => y = 3.",
+      "hash": "09d77615dce3e219",
+      "translations": {
+        "hi": {
+          "question": "समीकरणों 0.4x + 0.3y = 1.7 और 0.7x - 0.2y = 0.8 का हल है:",
+          "options": {
+            "A": "x = 1, y = 2",
+            "B": "x = 2, y = 3",
+            "C": "x = 3, y = 2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पहले समीकरण को 2 से और दूसरे को 3 से गुणा करें: 0.8x + 0.6y = 3.4 और 2.1x - 0.6y = 2.4। जोड़ने पर 2.9x = 5.8 => x = 2 प्राप्त होता है। फिर 0.4(2) + 0.3y = 1.7 => 0.3y = 0.9 => y = 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-004",
+      "number": 4,
+      "question": "The 4th term from the end of the AP: -11, -8, -5, ..., 49 is:",
+      "options": {
+        "A": "37",
+        "B": "40",
+        "C": "43",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "l = 49, d = 3. Term from end = l - (n-1)d = 49 - (4-1)3 = 49 - 9 = 40.",
+      "hash": "8676b35f0e21e642",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): -11, -8, -5, ..., 49 के अंत से चौथा पद है:",
+          "options": {
+            "A": "37",
+            "B": "40",
+            "C": "43",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "l = 49, d = 3। अंत से पद = l - (n-1)d = 49 - (4-1)3 = 49 - 9 = 40।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-005",
+      "number": 5,
+      "question": "If x^2 + 1/x^2 = 27, then the value of x - 1/x is:",
+      "options": {
+        "A": "5",
+        "B": "-5",
+        "C": "25",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "(x - 1/x)^2 = x^2 + 1/x^2 - 2 = 27 - 2 = 25. So x - 1/x = 5 or -5. Since both A and B are possible, D is the answer.",
+      "hash": "4a4be18c4a440f07",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 + 1/x^2 = 27 है, तो x - 1/x का मान है:",
+          "options": {
+            "A": "5",
+            "B": "-5",
+            "C": "25",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(x - 1/x)^2 = x^2 + 1/x^2 - 2 = 27 - 2 = 25। इसलिए x - 1/x = 5 या -5। चूंकि A और B दोनों संभव हैं, इसलिए D उत्तर है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-006",
+      "number": 6,
+      "question": "The zeros of the quadratic polynomial x^2 + 99x + 127 are:",
+      "options": {
+        "A": "Both positive",
+        "B": "Both negative",
+        "C": "One positive and one negative",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Since all coefficients (a, b, c) are positive, the sum of roots (-b/a) is negative and product (c/a) is positive. This implies both roots must be negative.",
+      "hash": "24cf83378c019dc5",
+      "translations": {
+        "hi": {
+          "question": "द्विघात बहुपद x^2 + 99x + 127 के शून्यक हैं:",
+          "options": {
+            "A": "दोनों धनात्मक",
+            "B": "दोनों ऋणात्मक",
+            "C": "एक धनात्मक और एक ऋणात्मक",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "चूंकि सभी गुणांक (a, b, c) धनात्मक हैं, मूलों का योग (-b/a) ऋणात्मक है और गुणनफल (c/a) धनात्मक है। इसका तात्पर्य है कि दोनों मूल ऋणात्मक होने चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-007",
+      "number": 7,
+      "question": "If 1/2 is a root of the equation x^2 + kx - 5/4 = 0, then the value of k is:",
+      "options": {
+        "A": "2",
+        "B": "-2",
+        "C": "1/2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "(1/2)^2 + k(1/2) - 5/4 = 0 => 1/4 + k/2 - 5/4 = 0 => k/2 - 1 = 0 => k/2 = 1 => k = 2.",
+      "hash": "0ca2f85bc1f436be",
+      "translations": {
+        "hi": {
+          "question": "यदि 1/2 समीकरण x^2 + kx - 5/4 = 0 का एक मूल है, तो k का मान है:",
+          "options": {
+            "A": "2",
+            "B": "-2",
+            "C": "1/2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "(1/2)^2 + k(1/2) - 5/4 = 0 => 1/4 + k/2 - 5/4 = 0 => k/2 - 1 = 0 => k/2 = 1 => k = 2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-008",
+      "number": 8,
+      "question": "For what value of p does the pair of equations 4x + py + 8 = 0 and 2x + 2y + 2 = 0 have a unique solution?",
+      "options": {
+        "A": "p = 4",
+        "B": "p != 4",
+        "C": "p = 2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "For unique solution, a1/a2 != b1/b2. So, 4/2 != p/2 => 2 != p/2 => p != 4.",
+      "hash": "a4f6c2ca0a199e0f",
+      "translations": {
+        "hi": {
+          "question": "p के किस मान के लिए समीकरण युग्म 4x + py + 8 = 0 और 2x + 2y + 2 = 0 का एक अद्वितीय समाधान है?",
+          "options": {
+            "A": "p = 4",
+            "B": "p != 4",
+            "C": "p = 2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अद्वितीय समाधान के लिए, a1/a2 != b1/b2। इसलिए, 4/2 != p/2 => 2 != p/2 => p != 4।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-009",
+      "number": 9,
+      "question": "If the nth term of an AP is (2n + 1), then the sum of its first three terms is:",
+      "options": {
+        "A": "15",
+        "B": "12",
+        "C": "21",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a1 = 2(1)+1 = 3, a2 = 2(2)+1 = 5, a3 = 2(3)+1 = 7. Sum = 3 + 5 + 7 = 15.",
+      "hash": "c4a12828f1f9fd68",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP का n-वां पद (2n + 1) है, तो इसके पहले तीन पदों का योग है:",
+          "options": {
+            "A": "15",
+            "B": "12",
+            "C": "21",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a1 = 2(1)+1 = 3, a2 = 2(2)+1 = 5, a3 = 2(3)+1 = 7। योग = 3 + 5 + 7 = 15।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-010",
+      "number": 10,
+      "question": "Every linear equation in two variables has how many solutions?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Infinitely many",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "A single linear equation in two variables represents a line, and every point on the line is a solution.",
+      "hash": "323ae1180af0dd4c",
+      "translations": {
+        "hi": {
+          "question": "दो चरों वाले प्रत्येक रैखिक समीकरण के कितने समाधान होते हैं?",
+          "options": {
+            "A": "एक",
+            "B": "दो",
+            "C": "अनंत रूप से कई",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दो चरों वाला एक रैखिक समीकरण एक रेखा को दर्शाता है, और रेखा पर प्रत्येक बिंदु एक समाधान होता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-011",
+      "number": 11,
+      "question": "If alpha, beta are the zeros of x^2 - 6x + k = 0 and 3*alpha + 2*beta = 20, then k is:",
+      "options": {
+        "A": "-16",
+        "B": "8",
+        "C": "-8",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "alpha + beta = 6. Multiply by 2: 2*alpha + 2*beta = 12. Subtracting from 3*alpha + 2*beta = 20 gives alpha = 8. Then beta = -2. k = alpha * beta = 8 * (-2) = -16.",
+      "hash": "802702b56adae8d5",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा, बीटा x^2 - 6x + k = 0 के शून्यक हैं और 3*अल्फा + 2*बीटा = 20 है, तो k है:",
+          "options": {
+            "A": "-16",
+            "B": "8",
+            "C": "-8",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अल्फा + बीटा = 6। 2 से गुणा करें: 2*अल्फा + 2*बीटा = 12। इसे 3*अल्फा + 2*बीटा = 20 में से घटाने पर अल्फा = 8 प्राप्त होता है। फिर बीटा = -2। k = अल्फा * बीटा = 8 * (-2) = -16।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-012",
+      "number": 12,
+      "question": "The roots of the equation x^2 - 3x - m(m+3) = 0 are:",
+      "options": {
+        "A": "m, m+3",
+        "B": "-m, m+3",
+        "C": "m, -(m+3)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "x^2 - (m+3)x + mx - m(m+3) = 0 => x(x - (m+3)) + m(x - (m+3)) = 0 => (x+m)(x - (m+3)) = 0. Roots are -m, m+3.",
+      "hash": "c9e8ea4f271c4647",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x^2 - 3x - m(m+3) = 0 के मूल हैं:",
+          "options": {
+            "A": "m, m+3",
+            "B": "-m, m+3",
+            "C": "m, -(m+3)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x^2 - (m+3)x + mx - m(m+3) = 0 => x(x - (m+3)) + m(x - (m+3)) = 0 => (x+m)(x - (m+3)) = 0। मूल -m, m+3 हैं।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-013",
+      "number": 13,
+      "question": "If x = 1 is a common root of the equations ax^2 + ax + 3 = 0 and x^2 + x + b = 0, then ab is:",
+      "options": {
+        "A": "3",
+        "B": "3.5",
+        "C": "6",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Put x=1 in first eq: a+a+3=0 => 2a=-3 => a=-3/2. Put x=1 in second eq: 1+1+b=0 => b=-2. So ab = (-3/2)(-2) = 3.",
+      "hash": "9f73103870c702ef",
+      "translations": {
+        "hi": {
+          "question": "यदि x = 1 समीकरणों ax^2 + ax + 3 = 0 और x^2 + x + b = 0 का एक उभयनिष्ठ मूल है, तो ab है:",
+          "options": {
+            "A": "3",
+            "B": "3.5",
+            "C": "6",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "पहले समीकरण में x=1 रखें: a+a+3=0 => 2a=-3 => a=-3/2। दूसरे समीकरण में x=1 रखें: 1+1+b=0 => b=-2। अतः ab = (-3/2)(-2) = 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-014",
+      "number": 14,
+      "question": "The value of 'c' for which the pair of equations cx - y = 2 and 6x - 2y = 3 will have no solution is:",
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "12",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "For no solution: a1/a2 = b1/b2 != c1/c2. So c/6 = -1/-2 != 2/3. c/6 = 1/2 => c = 3.",
+      "hash": "a41c8d440162f0d8",
+      "translations": {
+        "hi": {
+          "question": "'c' का वह मान जिसके लिए समीकरण युग्म cx - y = 2 और 6x - 2y = 3 का कोई समाधान नहीं होगा:",
+          "options": {
+            "A": "3",
+            "B": "-3",
+            "C": "12",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कोई समाधान नहीं होने के लिए: a1/a2 = b1/b2 != c1/c2। इसलिए c/6 = -1/-2 != 2/3। c/6 = 1/2 => c = 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-015",
+      "number": 15,
+      "question": "In an AP, if d = -4, n = 7, an = 4, then a is:",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "28",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "an = a + (n-1)d => 4 = a + (6)(-4) => 4 = a - 24 => a = 28.",
+      "hash": "d885178ea3231a3a",
+      "translations": {
+        "hi": {
+          "question": "एक AP में, यदि d = -4, n = 7, an = 4 है, तो a है:",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "28",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "an = a + (n-1)d => 4 = a + (6)(-4) => 4 = a - 24 => a = 28।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-016",
+      "number": 16,
+      "question": "If the sum of first p terms of an AP is q and the sum of first q terms is p, then the sum of first (p+q) terms is:",
+      "options": {
+        "A": "0",
+        "B": "p + q",
+        "C": "-(p + q)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Standard property: If S_p = q and S_q = p, then S_{p+q} = -(p+q).",
+      "hash": "8452e9da1ac516c9",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP के पहले p पदों का योग q है और पहले q पदों का योग p है, तो पहले (p+q) पदों का योग है:",
+          "options": {
+            "A": "0",
+            "B": "p + q",
+            "C": "-(p + q)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मानक गुण: यदि S_p = q और S_q = p, तो S_{p+q} = -(p+q) होता है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-017",
+      "number": 17,
+      "question": "The degree of the polynomial (x + 1)(x^2 - x - x^4 + 1) is:",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "The highest power comes from x * (-x^4) which is -x^5. So the degree is 5.",
+      "hash": "3e017b759f507ffe",
+      "translations": {
+        "hi": {
+          "question": "बहुपद (x + 1)(x^2 - x - x^4 + 1) की घात है:",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "उच्चतम घात x * (-x^4) से आती है जो -x^5 है। अतः घात 5 है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-018",
+      "number": 18,
+      "question": "A pair of linear equations which has no solution is called:",
+      "options": {
+        "A": "Consistent",
+        "B": "Inconsistent",
+        "C": "Dependent",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A system of equations with no solution is defined as inconsistent.",
+      "hash": "6b5bcf09f2726df3",
+      "translations": {
+        "hi": {
+          "question": "रैखिक समीकरणों का एक युग्म जिसका कोई समाधान नहीं होता, कहलाता है:",
+          "options": {
+            "A": "संगत",
+            "B": "असंगत",
+            "C": "आश्रित",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "बिना किसी समाधान वाले समीकरण निकाय को असंगत के रूप में परिभाषित किया गया है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-019",
+      "number": 19,
+      "question": "If roots of x^2 - bx + c = 0 are two consecutive integers, then b^2 - 4c is:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Let roots be n and n+1. Difference of roots |alpha - beta| = 1. We know |alpha - beta| = sqrt(D)/a. So 1 = sqrt(b^2 - 4c)/1 => b^2 - 4c = 1.",
+      "hash": "0ef688460809f882",
+      "translations": {
+        "hi": {
+          "question": "यदि x^2 - bx + c = 0 के मूल दो क्रमिक पूर्णांक हैं, तो b^2 - 4c है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना मूल n और n+1 हैं। मूलों का अंतर |अल्फा - बीटा| = 1। हम जानते हैं कि |अल्फा - बीटा| = sqrt(D)/a। इसलिए 1 = sqrt(b^2 - 4c)/1 => b^2 - 4c = 1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-03-020",
+      "number": 20,
+      "question": "The quadratic equation whose roots are 7 + √3 and 7 - √3 is:",
+      "options": {
+        "A": "x^2 - 14x + 46 = 0",
+        "B": "x^2 + 14x - 46 = 0",
+        "C": "x^2 - 14x - 46 = 0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sum = (7+√3) + (7-√3) = 14. Product = (7+√3)(7-√3) = 49 - 3 = 46. Eq: x^2 - 14x + 46 = 0.",
+      "hash": "522d8df8e486ae42",
+      "translations": {
+        "hi": {
+          "question": "वह द्विघात समीकरण जिसके मूल 7 + √3 और 7 - √3 हैं:",
+          "options": {
+            "A": "x^2 - 14x + 46 = 0",
+            "B": "x^2 + 14x - 46 = 0",
+            "C": "x^2 - 14x - 46 = 0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "योग = (7+√3) + (7-√3) = 14। गुणनफल = (7+√3)(7-√3) = 49 - 3 = 46। समीकरण: x^2 - 14x + 46 = 0।"
+        }
+      }
+    }
+  ]
+}

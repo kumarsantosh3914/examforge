@@ -1,0 +1,565 @@
+{
+  "subject": "Number System",
+  "set": 3,
+  "title": "Number System Mock Test 3",
+  "questions": [
+    {
+      "id": "number-system-03-001",
+      "number": 1,
+      "question": "The sum of the smallest prime number and the smallest odd composite number is:",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "9",
+        "D": "11",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Smallest prime is 2. Smallest odd composite number is 9. Sum = 2 + 9 = 11.",
+      "hash": "8d3129290be7f107",
+      "translations": {
+        "hi": {
+          "question": "सबसे छोटी अभाज्य संख्या और सबसे छोटी विषम भाज्य संख्या का योग है:",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "9",
+            "D": "11",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "सबसे छोटी अभाज्य संख्या 2 है। सबसे छोटी विषम भाज्य संख्या 9 है। योग = 2 + 9 = 11।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-002",
+      "number": 2,
+      "question": "Which of the following is a pair of twin primes?",
+      "options": {
+        "A": "(3, 5)",
+        "B": "(5, 11)",
+        "C": "(2, 3)",
+        "D": "(11, 17)",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Twin primes are pairs of prime numbers that differ by 2. 5 - 3 = 2.",
+      "hash": "9843aa4ab07a9259",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा जुड़वां अभाज्य (twin primes) का एक जोड़ा है?",
+          "options": {
+            "A": "(3, 5)",
+            "B": "(5, 11)",
+            "C": "(2, 3)",
+            "D": "(11, 17)",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "जुड़वां अभाज्य संख्याएँ उन अभाज्य संख्याओं के जोड़े होते हैं जिनमें 2 का अंतर होता है। 5 - 3 = 2।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-003",
+      "number": 3,
+      "question": "The HCF of any two consecutive even numbers is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "The product of the numbers",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Consecutive even numbers like 2,4 or 10,12 always have a common factor of 2.",
+      "hash": "e7edb00453431957",
+      "translations": {
+        "hi": {
+          "question": "किन्हीं दो क्रमागत सम संख्याओं का HCF होता है:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "संख्याओं का गुणनफल",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "क्रमागत सम संख्याएँ जैसे 2,4 या 10,12 में हमेशा 2 का सामान्य गुणनखंड होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-004",
+      "number": 4,
+      "question": "If 2^x * 5^y ends in 5 for natural numbers x and y, then:",
+      "options": {
+        "A": "x = 0",
+        "B": "y = 0",
+        "C": "x must be greater than y",
+        "D": "This is not possible",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Any power of 2 multiplied by a power of 5 (where x, y >= 1) will end in 0. It can never end in 5.",
+      "hash": "d817ad6473be8c4d",
+      "translations": {
+        "hi": {
+          "question": "यदि प्राकृतिक संख्याओं x और y के लिए 2^x * 5^y का अंत 5 में होता है, तो:",
+          "options": {
+            "A": "x = 0",
+            "B": "y = 0",
+            "C": "x का y से बड़ा होना आवश्यक है",
+            "D": "यह संभव नहीं है",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "2 की किसी भी घात को 5 की घात से गुणा करने पर (जहाँ x, y >= 1) अंत 0 में होगा। यह कभी भी 5 पर समाप्त नहीं हो सकता।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-005",
+      "number": 5,
+      "question": "The number of decimal places after which the decimal expansion of 13/125 will terminate is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "125 = 5^3. The expansion terminates after a number of places equal to the highest power of 2 or 5 in the denominator.",
+      "hash": "11f4a772f2b88652",
+      "translations": {
+        "hi": {
+          "question": "कितने दशमलव स्थानों के बाद 13/125 का दशमलव प्रसार समाप्त होगा?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "125 = 5^3। हर में 2 या 5 की उच्चतम घात के बराबर स्थानों के बाद प्रसार समाप्त हो जाता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-006",
+      "number": 6,
+      "question": "What is the multiplicative inverse of 0?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "Not defined",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Multiplicative inverse of x is 1/x. Since 1/0 is undefined, 0 has no multiplicative inverse.",
+      "hash": "4580adf4d3e84388",
+      "translations": {
+        "hi": {
+          "question": "0 का गुणात्मक प्रतिलोम (multiplicative inverse) क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "परिभाषित नहीं है",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x का गुणात्मक प्रतिलोम 1/x होता है। चूँकि 1/0 अपरिभाषित है, इसलिए 0 का कोई गुणात्मक प्रतिलोम नहीं है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-007",
+      "number": 7,
+      "question": "The LCM of 12, 15 and 21 is:",
+      "options": {
+        "A": "420",
+        "B": "140",
+        "C": "210",
+        "D": "320",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "12=2^2*3, 15=3*5, 21=3*7. LCM = 2^2 * 3 * 5 * 7 = 420.",
+      "hash": "dbed000d783ed805",
+      "translations": {
+        "hi": {
+          "question": "12, 15 और 21 का LCM है:",
+          "options": {
+            "A": "420",
+            "B": "140",
+            "C": "210",
+            "D": "320",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "12=2^2*3, 15=3*5, 21=3*7। LCM = 2^2 * 3 * 5 * 7 = 420।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-008",
+      "number": 8,
+      "question": "A rational number between sqrt(2) and sqrt(3) is:",
+      "options": {
+        "A": "1.5",
+        "B": "1.9",
+        "C": "1.4",
+        "D": "1.8",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "sqrt(2) is approx 1.414 and sqrt(3) is approx 1.732. 1.5 lies between them.",
+      "hash": "adc7286d37d3b0cd",
+      "translations": {
+        "hi": {
+          "question": "sqrt(2) और sqrt(3) के बीच एक परिमेय संख्या है:",
+          "options": {
+            "A": "1.5",
+            "B": "1.9",
+            "C": "1.4",
+            "D": "1.8",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "sqrt(2) लगभग 1.414 है और sqrt(3) लगभग 1.732 है। 1.5 इनके बीच स्थित है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-009",
+      "number": 9,
+      "question": "If p and q are prime numbers, then HCF(p, q) is:",
+      "options": {
+        "A": "p",
+        "B": "q",
+        "C": "1 ) pq | pq",
+        "D": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Prime numbers have no common factors other than 1.",
+      "hash": "db7698bf60b3a2dd",
+      "translations": {
+        "hi": {
+          "question": "यदि p और q अभाज्य संख्याएँ हैं, तो HCF(p, q) है:",
+          "options": {
+            "A": "p",
+            "B": "q",
+            "C": "1",
+            "D": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अभाज्य संख्याओं में 1 के अलावा कोई अन्य सामान्य गुणनखंड नहीं होता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-010",
+      "number": 10,
+      "question": "The product of a rational number and its multiplicative inverse is always:",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "The number itself",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "x * (1/x) = 1 (for x not equal to 0).",
+      "hash": "6f7ec291039471b4",
+      "translations": {
+        "hi": {
+          "question": "एक परिमेय संख्या और उसके गुणात्मक प्रतिलोम का गुणनफल हमेशा होता है:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "स्वयं वह संख्या",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x * (1/x) = 1 (जहाँ x, 0 के बराबर नहीं है)।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-011",
+      "number": 11,
+      "question": "Which of the following is the smallest 4-digit number divisible by 7?",
+      "options": {
+        "A": "1001",
+        "B": "1007",
+        "C": "1000",
+        "D": "1010",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "1001 / 7 = 143. This is the first 4-digit number divisible by 7.",
+      "hash": "4eaaf3f38b77f53e",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी 7 से विभाज्य 4-अंकों की सबसे छोटी संख्या है?",
+          "options": {
+            "A": "1001",
+            "B": "1007",
+            "C": "1000",
+            "D": "1010",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1001 / 7 = 143। यह 7 से विभाज्य होने वाली पहली 4-अंकों की संख्या है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-012",
+      "number": 12,
+      "question": "What is the greatest negative integer?",
+      "options": {
+        "A": "0",
+        "B": "-1",
+        "C": "Does not exist",
+        "D": "-infinity",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "On the number line, -1 is the rightmost negative integer, making it the greatest.",
+      "hash": "cc2e160f023edb02",
+      "translations": {
+        "hi": {
+          "question": "सबसे बड़ा ऋणात्मक पूर्णांक क्या है?",
+          "options": {
+            "A": "0",
+            "B": "-1",
+            "C": "अस्तित्व में नहीं है",
+            "D": "-अनंत",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "संख्या रेखा पर, -1 सबसे दाहिना ऋणात्मक पूर्णांक है, जो इसे सबसे बड़ा बनाता है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-013",
+      "number": 13,
+      "question": "The sum of first n odd natural numbers is:",
+      "options": {
+        "A": "n",
+        "B": "2n",
+        "C": "n^2",
+        "D": "n(n+1)",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "For example, 1+3+5 = 9, which is 3^2.",
+      "hash": "e8eb4cabb6cb9e27",
+      "translations": {
+        "hi": {
+          "question": "प्रथम n विषम प्राकृतिक संख्याओं का योग है:",
+          "options": {
+            "A": "n",
+            "B": "2n",
+            "C": "n^2",
+            "D": "n(n+1)",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "उदाहरण के लिए, 1+3+5 = 9, जो कि 3^2 है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-014",
+      "number": 14,
+      "question": "A number is divisible by 6 if it is divisible by:",
+      "options": {
+        "A": "Only 2",
+        "B": "Only 3",
+        "C": "Both 2 and 3",
+        "D": "12",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "6 = 2 * 3. Divisibility by both prime factors 2 and 3 ensures divisibility by 6.",
+      "hash": "de566b364182be8e",
+      "translations": {
+        "hi": {
+          "question": "कोई संख्या 6 से विभाज्य होती है यदि वह विभाज्य हो:",
+          "options": {
+            "A": "केवल 2 से",
+            "B": "केवल 3 से",
+            "C": "2 और 3 दोनों से",
+            "D": "12 से",
+            "E": "उपर्युक्त में से एक से अधिक"
+          },
+          "explanation": "6 = 2 * 3। अभाज्य गुणनखंड 2 और 3 दोनों से विभाज्यता 6 से विभाज्यता सुनिश्चित करती है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-015",
+      "number": 15,
+      "question": "The value of (-1) raised to an even power is:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "0",
+        "D": "Infinity",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Any negative number raised to an even power becomes positive. (-1)^2 = 1.",
+      "hash": "ef370af0b857282c",
+      "translations": {
+        "hi": {
+          "question": "(-1) की सम घात का मान है:",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "0",
+            "D": "अनंत",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "किसी भी ऋणात्मक संख्या की सम घात धनात्मक हो जाती है। (-1)^2 = 1।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-016",
+      "number": 16,
+      "question": "Euclid's Division Lemma states that for any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where:",
+      "options": {
+        "A": "0 < r < b",
+        "B": "0 <= r < b",
+        "C": "0 < r <= b",
+        "D": "0 <= r <= b",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The remainder r must be non-negative and strictly less than the divisor b.",
+      "hash": "1d48a864b67b284d",
+      "translations": {
+        "hi": {
+          "question": "यूक्लिड विभाजन प्रमेयिका कहती है कि किन्हीं दो धनात्मक पूर्णांकों a और b के लिए, अद्वितीय पूर्णांक q और r इस प्रकार विद्यमान हैं कि a = bq + r, जहाँ:",
+          "options": {
+            "A": "0 < r < b",
+            "B": "0 <= r < b",
+            "C": "0 < r <= b",
+            "D": "0 <= r <= b",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "शेषफल r गैर-ऋणात्मक होना चाहिए और भाजक b से कड़ाई से कम होना चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-017",
+      "number": 17,
+      "question": "The sum of the place value and face value of 5 in 6543 is:",
+      "options": {
+        "A": "505",
+        "B": "550",
+        "C": "500",
+        "D": "10",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Place value = 500, Face value = 5. Sum = 500 + 5 = 505.",
+      "hash": "23152c3ad47b465e",
+      "translations": {
+        "hi": {
+          "question": "6543 में 5 के स्थानीय मान और अंकित मान का योग है:",
+          "options": {
+            "A": "505",
+            "B": "550",
+            "C": "500",
+            "D": "10",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "स्थानीय मान = 500, अंकित मान = 5। योग = 500 + 5 = 505।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-018",
+      "number": 18,
+      "question": "Which of the following is not a real number?",
+      "options": {
+        "A": "Square root of -4",
+        "B": "0",
+        "C": "-5",
+        "D": "pi",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Square roots of negative numbers are imaginary, not real.",
+      "hash": "d49ea7907fddbc62",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सी एक वास्तविक संख्या नहीं है?",
+          "options": {
+            "A": "-4 का वर्गमूल",
+            "B": "0",
+            "C": "-5",
+            "D": "पाई",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "ऋणात्मक संख्याओं के वर्गमूल काल्पनिक होते हैं, वास्तविक नहीं।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-019",
+      "number": 19,
+      "question": "2.131131113... is a/an:",
+      "options": {
+        "A": "Rational number",
+        "B": "Irrational number",
+        "C": "Integer",
+        "D": "Natural number",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The decimal expansion is non-terminating and non-repeating, hence irrational.",
+      "hash": "4723cc521a6ccecc",
+      "translations": {
+        "hi": {
+          "question": "2.131131113... एक ____ है:",
+          "options": {
+            "A": "परिमेय संख्या",
+            "B": "अपरिमेय संख्या",
+            "C": "पूर्णांक",
+            "D": "प्राकृतिक संख्या",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "दशमलव प्रसार अशांत और अनावर्ती है, इसलिए अपरिमेय है।"
+        }
+      }
+    },
+    {
+      "id": "number-system-03-020",
+      "number": 20,
+      "question": "The predecessor of the smallest 3-digit number is:",
+      "options": {
+        "A": "101",
+        "B": "100",
+        "C": "99",
+        "D": "999",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Smallest 3-digit number is 100. Predecessor = 100 - 1 = 99.",
+      "hash": "59930f74b7b3ba3b",
+      "translations": {
+        "hi": {
+          "question": "3-अंकों की सबसे छोटी संख्या की पूर्ववर्ती संख्या (predecessor) है:",
+          "options": {
+            "A": "101",
+            "B": "100",
+            "C": "99",
+            "D": "999",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "3-अंकों की सबसे छोटी संख्या 100 है। पूर्ववर्ती = 100 - 1 = 99।"
+        }
+      }
+    }
+  ]
+}

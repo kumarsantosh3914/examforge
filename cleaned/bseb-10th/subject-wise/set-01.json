@@ -1,0 +1,1307 @@
+{
+  "subject": "Subject Wise",
+  "set": 1,
+  "title": "Subject Wise Mock Test 1",
+  "questions": [
+    {
+      "id": "subjet-wise-01-001",
+      "number": 1,
+      "question": "What is the HCF of two or more prime numbers?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "explanation": "Prime numbers have no common factor other than 1, so their HCF is always 1.",
+      "hash": "2450235e63e19fe0",
+      "translations": {
+        "hi": {
+          "question": "दो या दो से अधिक अभाज्य संख्याओं (Prime Numbers) का म.स. (HCF) क्या होता है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "अभाज्य संख्याओं में 1 के अलावा कोई उभयनिष्ठ गुणनखंड नहीं होता, इसलिए उनका HCF हमेशा 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-002",
+      "number": 2,
+      "question": "Which of the following is an irrational number?",
+      "options": {
+        "A": "√64",
+        "B": "√81",
+        "C": "√2.5",
+        "D": "√49/9"
+      },
+      "answer": "C",
+      "explanation": "√2.5 is not a perfect square, so it is irrational. Others (8, 9, 7/3) are rational.",
+      "hash": "308ce739f8bbb2d0",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन अपरिमेय संख्या (Irrational Number) है?",
+          "options": {
+            "A": "√64",
+            "B": "√81",
+            "C": "√2.5",
+            "D": "√49/9"
+          },
+          "explanation": "√2.5 एक पूर्ण वर्ग नहीं है, इसलिए यह अपरिमेय है। बाकी (8, 9, 7/3) परिमेय हैं।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-003",
+      "number": 3,
+      "question": "What are the zeros of the quadratic polynomial x² - 3?",
+      "options": {
+        "A": "3, 3",
+        "B": "-√3, +√3",
+        "C": "-3, -3",
+        "D": "-3, 3"
+      },
+      "answer": "B",
+      "explanation": "x² - 3 = 0 => x² = 3 => x = ±√3.",
+      "hash": "2d5c4e0d1f1110bd",
+      "translations": {
+        "hi": {
+          "question": "द्विघात बहुपद x² - 3 के शून्यक (Zeros) क्या होंगे?",
+          "options": {
+            "A": "3, 3",
+            "B": "-√3, +√3",
+            "C": "-3, -3",
+            "D": "-3, 3"
+          },
+          "explanation": "x² - 3 = 0 => x² = 3 => x = ±√3।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-004",
+      "number": 4,
+      "question": "In Euclid's division algorithm 'a = bq + r', which statement is true for remainder 'r'?",
+      "options": {
+        "A": "0 ≤ r < b",
+        "B": "0 < r < b",
+        "C": "0 ≤ r ≤ b",
+        "D": "r > b"
+      },
+      "answer": "A",
+      "explanation": "Remainder (r) is always greater than or equal to 0 but less than divisor (b).",
+      "hash": "7b20a1f72c800e4b",
+      "translations": {
+        "hi": {
+          "question": "यूक्लिड विभाजन एल्गोरिद्म 'a = bq + r' में, शेषफल 'r' के लिए कौन सा कथन सत्य है?",
+          "options": {
+            "A": "0 ≤ r < b",
+            "B": "0 < r < b",
+            "C": "0 ≤ r ≤ b",
+            "D": "r > b"
+          },
+          "explanation": "शेषफल (r) हमेशा 0 के बराबर या बड़ा होता है, लेकिन भाजक (b) से छोटा होता है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-005",
+      "number": 5,
+      "question": "For what value of k will equations x + 2y = 7 and 2x + ky = 14 be coincident?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C",
+      "explanation": "For coincident lines: 1/2 = 2/k => k = 4.",
+      "hash": "42a111e21319ce82",
+      "translations": {
+        "hi": {
+          "question": "k के किस मान के लिए समीकरण x + 2y = 7 और 2x + ky = 14 संपाती (coincident) होंगे?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "संपाती के लिए: a1/a2 = b1/b2 = c1/c2 => 1/2 = 2/k => k = 4।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-006",
+      "number": 6,
+      "question": "If α and β are zeros of polynomial x² - 2x + 5, then value of (α + β) is?",
+      "options": {
+        "A": "-2",
+        "B": "2",
+        "C": "5",
+        "D": "-5"
+      },
+      "answer": "B",
+      "explanation": "Sum of zeros (α + β) = -b/a = -(-2)/1 = 2.",
+      "hash": "5dae4e4abb4acaae",
+      "translations": {
+        "hi": {
+          "question": "यदि α और β द्विघात बहुपद x² - 2x + 5 के शून्यक हैं, तो (α + β) का मान क्या है?",
+          "options": {
+            "A": "-2",
+            "B": "2",
+            "C": "5",
+            "D": "-5"
+          },
+          "explanation": "शून्यकों का योग (α + β) = -b/a = -(-2)/1 = 2।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-007",
+      "number": 7,
+      "question": "How many solutions does the pair of linear equations 2x + 3y = 5 and 4x + 6y = 15 have?",
+      "options": {
+        "A": "अद्वितीय हल",
+        "B": "तीन हल",
+        "C": "कोई हल नहीं",
+        "D": "अनगिनत हल"
+      },
+      "answer": "C",
+      "explanation": "Since a1/a2 = b1/b2 ≠ c1/c2, there is no solution (parallel lines).",
+      "hash": "6dab2cfb75cc8cf5",
+      "translations": {
+        "hi": {
+          "question": "रैखिक समीकरण युग्म 2x + 3y = 5 और 4x + 6y = 15 के कितने हल हैं?",
+          "options": {
+            "A": "अद्वितीय हल",
+            "B": "तीन हल",
+            "C": "कोई हल नहीं",
+            "D": "अनगिनत हल"
+          },
+          "explanation": "a1/a2 = 2/4 = 1/2, b1/b2 = 3/6 = 1/2, c1/c2 = 5/15 = 1/3। चूंकि a1/a2 = b1/b2 ≠ c1/c2, इसलिए कोई हल नहीं (समानांतर रेखाएं)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-008",
+      "number": 8,
+      "question": "What is the Common Difference of AP: 2, 7, 12, 17...?",
+      "options": {
+        "A": "5",
+        "B": "-5",
+        "C": "2",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "d = 7 - 2 = 5.",
+      "hash": "8886f2359452c934",
+      "translations": {
+        "hi": {
+          "question": "AP: 2, 7, 12, 17, ... का सार्व अंतर (Common Difference) क्या है?",
+          "options": {
+            "A": "5",
+            "B": "-5",
+            "C": "2",
+            "D": "7"
+          },
+          "explanation": "d = a2 - a1 = 7 - 2 = 5।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-009",
+      "number": 9,
+      "question": "What is the discriminant of equation x² - 4x + 4 = 0?",
+      "options": {
+        "A": "16",
+        "B": "0",
+        "C": "4",
+        "D": "-8"
+      },
+      "answer": "B",
+      "explanation": "D = b² - 4ac = 16 - 16 = 0.",
+      "hash": "4152fb337f6d3a90",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x² - 4x + 4 = 0 का विविक्तकर (Discriminant) क्या है?",
+          "options": {
+            "A": "16",
+            "B": "0",
+            "C": "4",
+            "D": "-8"
+          },
+          "explanation": "D = b² - 4ac = (-4)² - 4(1)(4) = 16 - 16 = 0।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-010",
+      "number": 10,
+      "question": "When are the roots of quadratic equation ax² + bx + c = 0 real and equal?",
+      "options": {
+        "A": "b² - 4ac > 0",
+        "B": "b² - 4ac < 0",
+        "C": "b² - 4ac = 0",
+        "D": "इनमें से कोई नहीं"
+      },
+      "answer": "C",
+      "explanation": "Roots are real and equal when Discriminant D = 0.",
+      "hash": "2f39589ee47c6353",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण ax² + bx + c = 0 के मूल वास्तविक और समान (Real and Equal) कब होते हैं?",
+          "options": {
+            "A": "b² - 4ac > 0",
+            "B": "b² - 4ac < 0",
+            "C": "b² - 4ac = 0",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "जब विविक्तकर (Discriminant) D = 0 होता है, तो मूल वास्तविक और समान होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-011",
+      "number": 11,
+      "question": "What is the 30th term of AP: 10, 7, 4...?",
+      "options": {
+        "A": "75",
+        "B": "-77",
+        "C": "55",
+        "D": "67"
+      },
+      "answer": "B",
+      "explanation": "a30 = 10 + 29(-3) = -77.",
+      "hash": "62c7fac1a9acfd37",
+      "translations": {
+        "hi": {
+          "question": "AP: 10, 7, 4... का 30वां पद क्या है?",
+          "options": {
+            "A": "75",
+            "B": "-77",
+            "C": "55",
+            "D": "67"
+          },
+          "explanation": "a=10, d=-3. a30 = a + 29d = 10 + 29(-3) = 10 - 87 = -77।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-012",
+      "number": 12,
+      "question": "What is the sum of first 'n' natural numbers?",
+      "options": {
+        "A": "n(n+1)",
+        "B": "n(n+1)/2",
+        "C": "n²",
+        "D": "n(n-1)/2"
+      },
+      "answer": "B",
+      "explanation": "Formula: Sn = n(n+1)/2.",
+      "hash": "dd1f03a773bb8e3f",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 'n' प्राकृत संख्याओं का योग (Sum of first n natural numbers) क्या होता है?",
+          "options": {
+            "A": "n(n+1)",
+            "B": "n(n+1)/2",
+            "C": "n²",
+            "D": "n(n-1)/2"
+          },
+          "explanation": "सूत्र: Sn = n(n+1)/2।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-013",
+      "number": 13,
+      "question": "What is the value of sin² θ + cos² θ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "This is a trigonometric identity equal to 1.",
+      "hash": "03339de218ba608c",
+      "translations": {
+        "hi": {
+          "question": "sin² θ + cos² θ का मान क्या होता है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+          },
+          "explanation": "यह एक सर्वसमिका (Identity) है, जिसका मान 1 होता है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-014",
+      "number": 14,
+      "question": "What is the value of tan 60°?",
+      "options": {
+        "A": "1/√3",
+        "B": "√3",
+        "C": "1",
+        "D": "1/2"
+      },
+      "answer": "B",
+      "explanation": "tan 60° = √3.",
+      "hash": "c873b56c557b9637",
+      "translations": {
+        "hi": {
+          "question": "tan 60° का मान क्या है?",
+          "options": {
+            "A": "1/√3",
+            "B": "√3",
+            "C": "1",
+            "D": "1/2"
+          },
+          "explanation": "tan 60° = √3।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-015",
+      "number": 15,
+      "question": "If sin A = 3/4, what is the value of cos A?",
+      "options": {
+        "A": "4/3",
+        "B": "√7/4",
+        "C": "3/√7",
+        "D": "4/5"
+      },
+      "answer": "B",
+      "explanation": "cos A = √(1 - 9/16) = √7/4.",
+      "hash": "05c521c4694a6946",
+      "translations": {
+        "hi": {
+          "question": "यदि sin A = 3/4 है, तो cos A का मान क्या होगा?",
+          "options": {
+            "A": "4/3",
+            "B": "√7/4",
+            "C": "3/√7",
+            "D": "4/5"
+          },
+          "explanation": "cos A = √(1 - sin² A) = √(1 - 9/16) = √(7/16) = √7/4।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-016",
+      "number": 16,
+      "question": "What is the distance between points (2, 3) and (4, 1)?",
+      "options": {
+        "A": "2√2",
+        "B": "2",
+        "C": "√8",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "Distance = √[4+4] = √8 = 2√2.",
+      "hash": "81606514805b2832",
+      "translations": {
+        "hi": {
+          "question": "बिंदुओं (2, 3) और (4, 1) के बीच की दूरी क्या है?",
+          "options": {
+            "A": "2√2",
+            "B": "2",
+            "C": "√8",
+            "D": "4"
+          },
+          "explanation": "दूरी = √[(4-2)² + (1-3)²] = √[2² + (-2)²] = √(4+4) = √8 = 2√2।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-017",
+      "number": 17,
+      "question": "In which quadrant does the point (-3, -5) lie?",
+      "options": {
+        "A": "प्रथम",
+        "B": "द्वितीय",
+        "C": "तृतीय",
+        "D": "चतुर्थ"
+      },
+      "answer": "C",
+      "explanation": "Both coordinates are negative, so it is in the 3rd Quadrant.",
+      "hash": "66cdf0c156a5bdc3",
+      "translations": {
+        "hi": {
+          "question": "बिंदु (-3, -5) किस चतुर्थांश (Quadrant) में स्थित है?",
+          "options": {
+            "A": "प्रथम",
+            "B": "द्वितीय",
+            "C": "तृतीय",
+            "D": "चतुर्थ"
+          },
+          "explanation": "दोनों निर्देशांक ऋणात्मक हैं, इसलिए यह तृतीय चतुर्थांश में है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-018",
+      "number": 18,
+      "question": "What are the coordinates of the Origin?",
+      "options": {
+        "A": "(1, 1)",
+        "B": "(0, 1)",
+        "C": "(1, 0)",
+        "D": "(0, 0)"
+      },
+      "answer": "D",
+      "explanation": "Coordinates of Origin are (0, 0).",
+      "hash": "dd943141d335a089",
+      "translations": {
+        "hi": {
+          "question": "मूल बिंदु (Origin) के निर्देशांक क्या होते हैं?",
+          "options": {
+            "A": "(1, 1)",
+            "B": "(0, 1)",
+            "C": "(1, 0)",
+            "D": "(0, 0)"
+          },
+          "explanation": "मूल बिंदु के निर्देशांक (0, 0) होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-019",
+      "number": 19,
+      "question": "sec² A - 1 is equal to?",
+      "options": {
+        "A": "cosec² A",
+        "B": "sin² A",
+        "C": "tan² A",
+        "D": "cot² A"
+      },
+      "answer": "C",
+      "explanation": "From identity 1 + tan² A = sec² A.",
+      "hash": "e28b8e84b5358f3d",
+      "translations": {
+        "hi": {
+          "question": "sec² A - 1 किसके बराबर है?",
+          "options": {
+            "A": "cosec² A",
+            "B": "sin² A",
+            "C": "tan² A",
+            "D": "cot² A"
+          },
+          "explanation": "सर्वसमिका 1 + tan² A = sec² A से, sec² A - 1 = tan² A।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-020",
+      "number": 20,
+      "question": "Which is the longest chord of a circle?",
+      "options": {
+        "A": "चाप",
+        "B": "चापकर्ण",
+        "C": "व्यास (Diameter)",
+        "D": "त्रिज्या"
+      },
+      "answer": "C",
+      "explanation": "The diameter is the longest chord of a circle.",
+      "hash": "57631f0594103740",
+      "translations": {
+        "hi": {
+          "question": "वृत्त की सबसे बड़ी जीवा (Longest Chord) कौन सी होती है?",
+          "options": {
+            "A": "चाप",
+            "B": "चापकर्ण",
+            "C": "व्यास (Diameter)",
+            "D": "त्रिज्या"
+          },
+          "explanation": "वृत्त का व्यास उसकी सबसे बड़ी जीवा होती है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-021",
+      "number": 21,
+      "question": "Angle between the radius and tangent at the point of contact is ___.",
+      "options": {
+        "A": "45°",
+        "B": "60°",
+        "C": "90°",
+        "D": "180°"
+      },
+      "answer": "C",
+      "explanation": "Radius is perpendicular to the tangent, so angle is 90°.",
+      "hash": "fdbbd1180ee3e677",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की त्रिज्या और स्पर्श रेखा के बीच का कोण ___ होता है।",
+          "options": {
+            "A": "45°",
+            "B": "60°",
+            "C": "90°",
+            "D": "180°"
+          },
+          "explanation": "त्रिज्या स्पर्श रेखा पर लंब होती है, अतः कोण 90° होता है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-022",
+      "number": 22,
+      "question": "How many tangents can be drawn to a circle from an external point?",
+      "options": {
+        "A": "एक",
+        "B": "दो",
+        "C": "तीन",
+        "D": "अनंत"
+      },
+      "answer": "B",
+      "explanation": "Only 2 tangents can be drawn from an external point.",
+      "hash": "d17f4bdce58c7d17",
+      "translations": {
+        "hi": {
+          "question": "किसी बाह्य बिंदु से वृत्त पर कितनी स्पर्श रेखाएं (Tangents) खींची जा सकती हैं?",
+          "options": {
+            "A": "एक",
+            "B": "दो",
+            "C": "तीन",
+            "D": "अनंत"
+          },
+          "explanation": "बाह्य बिंदु से वृत्त पर केवल 2 स्पर्श रेखाएं खींची जा सकती हैं।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-023",
+      "number": 23,
+      "question": "Ratio of radii of two circles is 3:4, what is the ratio of their areas?",
+      "options": {
+        "A": "3:4",
+        "B": "9:16",
+        "C": "6:8",
+        "D": "16:9"
+      },
+      "answer": "B",
+      "explanation": "Area ratio = square of radius ratio = 9:16.",
+      "hash": "38c24753453380a8",
+      "translations": {
+        "hi": {
+          "question": "दो वृत्तों की त्रिज्याओं का अनुपात 3:4 है, तो उनके क्षेत्रफलों का अनुपात क्या होगा?",
+          "options": {
+            "A": "3:4",
+            "B": "9:16",
+            "C": "6:8",
+            "D": "16:9"
+          },
+          "explanation": "क्षेत्रफल का अनुपात = (r1/r2)² = (3/4)² = 9/16।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-024",
+      "number": 24,
+      "question": "What is the formula for Volume of a Sphere?",
+      "options": {
+        "A": "4/3 πr³",
+        "B": "2/3 πr³",
+        "C": "πr²h",
+        "D": "1/3 πr²h"
+      },
+      "answer": "A",
+      "explanation": "Volume of Sphere = 4/3 πr³.",
+      "hash": "94837ccabffd8f9d",
+      "translations": {
+        "hi": {
+          "question": "गोले (Sphere) के आयतन का सूत्र क्या है?",
+          "options": {
+            "A": "4/3 πr³",
+            "B": "2/3 πr³",
+            "C": "πr²h",
+            "D": "1/3 πr²h"
+          },
+          "explanation": "गोले का आयतन = 4/3 πr³।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-025",
+      "number": 25,
+      "question": "If radius is 'r', what is the perimeter of a semicircle?",
+      "options": {
+        "A": "πr",
+        "B": "πr + 2r",
+        "C": "2πr",
+        "D": "πr²"
+      },
+      "answer": "B",
+      "explanation": "Perimeter = Curved part (πr) + Diameter (2r).",
+      "hash": "0da0349041cf8f39",
+      "translations": {
+        "hi": {
+          "question": "यदि वृत्त की त्रिज्या 'r' है, तो अर्धवृत्त का परिमाप (Perimeter of Semicircle) क्या होगा?",
+          "options": {
+            "A": "πr",
+            "B": "πr + 2r",
+            "C": "2πr",
+            "D": "πr²"
+          },
+          "explanation": "अर्धवृत्त का परिमाप = वक्र भाग (πr) + व्यास (2r)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-026",
+      "number": 26,
+      "question": "Relation between Mean, Median and Mode?",
+      "options": {
+        "A": "बहुलक = 3 माध्यिका - 2 माध्य",
+        "B": "बहुलक = 3 माध्य - 2 माध्यिका",
+        "C": "बहुलक = माध्य - माध्यिका",
+        "D": "बहुलक = 2 माध्यिका - 3 माध्य"
+      },
+      "answer": "A",
+      "explanation": "Empirical formula: Mode = 3(Median) - 2(Mean).",
+      "hash": "c1fddf8be8534172",
+      "translations": {
+        "hi": {
+          "question": "माध्य (Mean), माध्यिका (Median) और बहुलक (Mode) में क्या संबंध है?",
+          "options": {
+            "A": "बहुलक = 3 माध्यिका - 2 माध्य",
+            "B": "बहुलक = 3 माध्य - 2 माध्यिका",
+            "C": "बहुलक = माध्य - माध्यिका",
+            "D": "बहुलक = 2 माध्यिका - 3 माध्य"
+          },
+          "explanation": "अनुभवजन्य सूत्र: बहुलक = 3(माध्यिका) - 2(माध्य)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-027",
+      "number": 27,
+      "question": "A cylinder and cone have same base and height. Ratio of their volumes?",
+      "options": {
+        "A": "1:3",
+        "B": "3:1",
+        "C": "1:1",
+        "D": "1:2"
+      },
+      "answer": "B",
+      "explanation": "Cylinder = 3 × Cone volume.",
+      "hash": "b18e6b894b03dccf",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन (Cylinder) और शंकु (Cone) के आधार और ऊंचाई समान हैं। उनके आयतनों का अनुपात क्या होगा?",
+          "options": {
+            "A": "1:3",
+            "B": "3:1",
+            "C": "1:1",
+            "D": "1:2"
+          },
+          "explanation": "बेलन = πr²h, शंकु = 1/3 πr²h। अनुपात = 1 : 1/3 = 3:1।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-028",
+      "number": 28,
+      "question": "What is the Mode of data 2, 5, 7, 3, 3, 6, 3, 8?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "3 appears most frequently.",
+      "hash": "ecb928eb532e3a2d",
+      "translations": {
+        "hi": {
+          "question": "आंकड़े 2, 5, 7, 3, 3, 6, 3, 8 का बहुलक (Mode) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "7"
+          },
+          "explanation": "3 सबसे अधिक बार (3 बार) आया है, इसलिए बहुलक 3 है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-029",
+      "number": 29,
+      "question": "Probability of getting an even number on throwing a die?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/6",
+        "D": "2/3"
+      },
+      "answer": "A",
+      "explanation": "Even numbers: 2, 4, 6. Prob = 3/6 = 1/2.",
+      "hash": "65d1a72291241662",
+      "translations": {
+        "hi": {
+          "question": "एक पासे (Die) को फेंकने पर सम संख्या (Even Number) आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/6",
+            "D": "2/3"
+          },
+          "explanation": "सम संख्याएं: {2, 4, 6} (3 संख्याएं)। कुल = 6। प्रायिकता = 3/6 = 1/2।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-030",
+      "number": 30,
+      "question": "What type of number is π (pi)?",
+      "options": {
+        "A": "परिमेय",
+        "B": "अपरिमेय",
+        "C": "पूर्णांक",
+        "D": "प्राकृत"
+      },
+      "answer": "B",
+      "explanation": "π is an irrational number.",
+      "hash": "4618b02f6922421e",
+      "translations": {
+        "hi": {
+          "question": "π (पाई) किस प्रकार की संख्या है?",
+          "options": {
+            "A": "परिमेय",
+            "B": "अपरिमेय",
+            "C": "पूर्णांक",
+            "D": "प्राकृत"
+          },
+          "explanation": "π एक अपरिमेय संख्या है। (22/7 इसका सन्निकट मान है)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-031",
+      "number": 31,
+      "question": "What is the probability of a Sure Event?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "Probability of a sure event is always 1.",
+      "hash": "8f5b3a4533ea3986",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित घटना (Sure Event) की प्रायिकता क्या होती है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "1/2",
+            "D": "-1"
+          },
+          "explanation": "निश्चित घटना की प्रायिकता हमेशा 1 होती है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-032",
+      "number": 32,
+      "question": "If sum of roots is 4 and product is 4, what is the quadratic equation?",
+      "options": {
+        "A": "x² + 4x + 4 = 0",
+        "B": "x² - 4x + 4 = 0",
+        "C": "x² - 4x - 4 = 0",
+        "D": "x² + 4x - 4 = 0"
+      },
+      "answer": "B",
+      "explanation": "x² - (Sum)x + (Product) = 0 => x² - 4x + 4 = 0.",
+      "hash": "21922a9e36e55e66",
+      "translations": {
+        "hi": {
+          "question": "यदि मूलों का योग 4 और गुणनफल 4 है, तो द्विघात समीकरण क्या है?",
+          "options": {
+            "A": "x² + 4x + 4 = 0",
+            "B": "x² - 4x + 4 = 0",
+            "C": "x² - 4x - 4 = 0",
+            "D": "x² + 4x - 4 = 0"
+          },
+          "explanation": "x² - (योग)x + (गुणनफल) = 0 => x² - 4x + 4 = 0।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-033",
+      "number": 33,
+      "question": "Value of 1 + tan² θ is?",
+      "options": {
+        "A": "sec² θ",
+        "B": "cosec² θ",
+        "C": "tan² θ",
+        "D": "cot² θ"
+      },
+      "answer": "A",
+      "explanation": "Identity: sec² θ = 1 + tan² θ.",
+      "hash": "d807031816282014",
+      "translations": {
+        "hi": {
+          "question": "1 + tan² θ का मान किसके बराबर है?",
+          "options": {
+            "A": "sec² θ",
+            "B": "cosec² θ",
+            "C": "tan² θ",
+            "D": "cot² θ"
+          },
+          "explanation": "यह सर्वसमिका है: sec² θ = 1 + tan² θ।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-034",
+      "number": 34,
+      "question": "What is the degree of a linear polynomial?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "B",
+      "explanation": "Degree of linear polynomial is 1.",
+      "hash": "bb17ebbb04e7bbfa",
+      "translations": {
+        "hi": {
+          "question": "रैखिक बहुपद (Linear Polynomial) की घात कितनी होती है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "रैखिक बहुपद की घात 1 होती है (जैसे ax + b)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-035",
+      "number": 35,
+      "question": "Formula for slant height 'l' of a cone?",
+      "options": {
+        "A": "√(h² + r²)",
+        "B": "√(h² - r²)",
+        "C": "h + r",
+        "D": "h² + r²"
+      },
+      "answer": "A",
+      "explanation": "l = √(h² + r²).",
+      "hash": "449705b2b643955e",
+      "translations": {
+        "hi": {
+          "question": "शंकु की तिर्यक ऊँचाई (Slant Height) 'l' का सूत्र क्या है?",
+          "options": {
+            "A": "√(h² + r²)",
+            "B": "√(h² - r²)",
+            "C": "h + r",
+            "D": "h² + r²"
+          },
+          "explanation": "l = √(h² + r²)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-036",
+      "number": 36,
+      "question": "sin(90 - θ) is equal to?",
+      "options": {
+        "A": "sin θ",
+        "B": "-sin θ",
+        "C": "cos θ",
+        "D": "-cos θ"
+      },
+      "answer": "C",
+      "explanation": "Complementary angle formula: sin(90 - θ) = cos θ.",
+      "hash": "58c771aa704fffc4",
+      "translations": {
+        "hi": {
+          "question": "sin(90 - θ) किसके बराबर होता है?",
+          "options": {
+            "A": "sin θ",
+            "B": "-sin θ",
+            "C": "cos θ",
+            "D": "-cos θ"
+          },
+          "explanation": "पूरक कोण सूत्र: sin(90 - θ) = cos θ।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-037",
+      "number": 37,
+      "question": "Area of a sector with angle θ is?",
+      "options": {
+        "A": "(θ/360) × 2πr",
+        "B": "(θ/360) × πr²",
+        "C": "(θ/180) × πr²",
+        "D": "(θ/720) × 2πr²"
+      },
+      "answer": "B",
+      "explanation": "Area of Sector = (θ/360) × πr².",
+      "hash": "0630ca50f899af63",
+      "translations": {
+        "hi": {
+          "question": "कोण θ वाले त्रिज्यखंड (Sector) का क्षेत्रफल क्या है?",
+          "options": {
+            "A": "(θ/360) × 2πr",
+            "B": "(θ/360) × πr²",
+            "C": "(θ/180) × πr²",
+            "D": "(θ/720) × 2πr²"
+          },
+          "explanation": "त्रिज्यखंड का क्षेत्रफल = (θ/360) × πr²।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-038",
+      "number": 38,
+      "question": "Prob. of drawing an Ace from a deck of cards?",
+      "options": {
+        "A": "1/13",
+        "B": "1/4",
+        "C": "1/52",
+        "D": "4/13"
+      },
+      "answer": "A",
+      "explanation": "Total Aces = 4, Total Cards = 52. Prob = 1/13.",
+      "hash": "41bd614ef79d3bd0",
+      "translations": {
+        "hi": {
+          "question": "ताश की गड्डी से एक पत्ता निकालने पर उसके 'इक्का' (Ace) होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/13",
+            "B": "1/4",
+            "C": "1/52",
+            "D": "4/13"
+          },
+          "explanation": "कुल इक्के = 4, कुल पत्ते = 52। प्रायिकता = 4/52 = 1/13।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-039",
+      "number": 39,
+      "question": "To divide a line segment in ratio 3:2, how many equal points to mark on the ray?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "Sum of ratios: 3 + 2 = 5 points.",
+      "hash": "37ff03fa6eb6385b",
+      "translations": {
+        "hi": {
+          "question": "किसी रेखाखंड को 3:2 के अनुपात में विभाजित करने के लिए, किरण पर कितने समान बिंदु अंकित करने होंगे?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "5",
+            "D": "6"
+          },
+          "explanation": "अनुपातों का योग: 3 + 2 = 5 बिंदु।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-040",
+      "number": 40,
+      "question": "Sum of first 'n' even numbers?",
+      "options": {
+        "A": "n",
+        "B": "n(n+1)",
+        "C": "n²",
+        "D": "2n"
+      },
+      "answer": "B",
+      "explanation": "Sum of first n even numbers = n(n+1).",
+      "hash": "e65f6935ee2f437a",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 'n' सम संख्याओं (Even numbers) का योग क्या है?",
+          "options": {
+            "A": "n",
+            "B": "n(n+1)",
+            "C": "n²",
+            "D": "2n"
+          },
+          "explanation": "प्रथम n सम संख्याओं का योग = n(n+1)।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-041",
+      "number": 41,
+      "question": "If tan θ = cot θ, value of θ is?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "explanation": "tan 45° = cot 45° = 1.",
+      "hash": "ae21c03d90995930",
+      "translations": {
+        "hi": {
+          "question": "यदि tan θ = cot θ, तो θ का मान क्या है (0 < θ < 90)?",
+          "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "90°"
+          },
+          "explanation": "tan 45° = 1 और cot 45° = 1।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-042",
+      "number": 42,
+      "question": "Cumulative Frequency Curve is also called?",
+      "options": {
+        "A": "आयतचित्र",
+        "B": "बारंबारता बहुभुज",
+        "C": "तोरण (Ogive)",
+        "D": "दंड आलेख"
+      },
+      "answer": "C",
+      "explanation": "It is called Ogive.",
+      "hash": "a53b67c29ab9c7d4",
+      "translations": {
+        "hi": {
+          "question": "संचयी बारंबारता वक्र (Cumulative Frequency Curve) को और क्या कहते हैं?",
+          "options": {
+            "A": "आयतचित्र",
+            "B": "बारंबारता बहुभुज",
+            "C": "तोरण (Ogive)",
+            "D": "दंड आलेख"
+          },
+          "explanation": "इसे 'तोरण' (Ogive) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-043",
+      "number": 43,
+      "question": "Rational form of 0.3 (bar on 3)?",
+      "options": {
+        "A": "3/10",
+        "B": "1/3",
+        "C": "3/100",
+        "D": "1/9"
+      },
+      "answer": "B",
+      "explanation": "0.333... = 1/3.",
+      "hash": "72e0d7c1f02ba81e",
+      "translations": {
+        "hi": {
+          "question": "0.3 (3 पर बार) का परिमेय रूप क्या है?",
+          "options": {
+            "A": "3/10",
+            "B": "1/3",
+            "C": "3/100",
+            "D": "1/9"
+          },
+          "explanation": "0.333... = 3/9 = 1/3।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-044",
+      "number": 44,
+      "question": "Formula for Centroid of a triangle?",
+      "options": {
+        "A": "(x1+x2)/2, (y1+y2)/2",
+        "B": "(x1+x2+x3)/3, (y1+y2+y3)/3",
+        "C": "√x²+y²",
+        "D": "x1+y1+z1"
+      },
+      "answer": "B",
+      "explanation": "Average of coordinates: (x1+x2+x3)/3.",
+      "hash": "55fbb37ef4da967b",
+      "translations": {
+        "hi": {
+          "question": "त्रिभुज के केंद्रक (Centroid) का सूत्र क्या है?",
+          "options": {
+            "A": "(x1+x2)/2, (y1+y2)/2",
+            "B": "(x1+x2+x3)/3, (y1+y2+y3)/3",
+            "C": "√x²+y²",
+            "D": "x1+y1+z1"
+          },
+          "explanation": "तीनों निर्देशांकों का औसत: (x1+x2+x3)/3, (y1+y2+y3)/3।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-045",
+      "number": 45,
+      "question": "Total surface area of a Cube (side = a)?",
+      "options": {
+        "A": "a³",
+        "B": "4a²",
+        "C": "6a²",
+        "D": "2a²"
+      },
+      "answer": "C",
+      "explanation": "Cube has 6 faces. Area = 6a².",
+      "hash": "c71d9cc763c316c3",
+      "translations": {
+        "hi": {
+          "question": "घन (Cube) का कुल पृष्ठीय क्षेत्रफल क्या है (भुजा = a)?",
+          "options": {
+            "A": "a³",
+            "B": "4a²",
+            "C": "6a²",
+            "D": "2a²"
+          },
+          "explanation": "घन में 6 वर्गाकार फलक होते हैं। क्षेत्रफल = 6a²।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-046",
+      "number": 46,
+      "question": "How many solutions does an Inconsistent Pair of equations have?",
+      "options": {
+        "A": "एक",
+        "B": "दो",
+        "C": "अनंत",
+        "D": "कोई नहीं"
+      },
+      "answer": "D",
+      "explanation": "Inconsistent pair implies parallel lines, so no solution.",
+      "hash": "d0ec789f5ce0d12a",
+      "translations": {
+        "hi": {
+          "question": "विरोधी समीकरण युग्म (Inconsistent Pair) के कितने हल होते हैं?",
+          "options": {
+            "A": "एक",
+            "B": "दो",
+            "C": "अनंत",
+            "D": "कोई नहीं"
+          },
+          "explanation": "विरोधी युग्म का मतलब समानांतर रेखाएं हैं, जिनका कोई हल नहीं होता।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-047",
+      "number": 47,
+      "question": "Quadratic Formula is also known as?",
+      "options": {
+        "A": "पाइथागोरस सूत्र",
+        "B": "श्रीधराचार्य सूत्र",
+        "C": "यूक्लिड सूत्र",
+        "D": "थेल्स सूत्र"
+      },
+      "answer": "B",
+      "explanation": "It is called Sridharacharya Formula.",
+      "hash": "565379fb6d812b66",
+      "translations": {
+        "hi": {
+          "question": "द्विघात सूत्र (Quadratic Formula) को और किस नाम से जाना जाता है?",
+          "options": {
+            "A": "पाइथागोरस सूत्र",
+            "B": "श्रीधराचार्य सूत्र",
+            "C": "यूक्लिड सूत्र",
+            "D": "थेल्स सूत्र"
+          },
+          "explanation": "इसे 'श्रीधराचार्य सूत्र' कहा जाता है: [-b ± √(b²-4ac)]/2a।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-048",
+      "number": 48,
+      "question": "Value of cos 0°?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "अनंत",
+        "D": "1/2"
+      },
+      "answer": "B",
+      "explanation": "cos 0° = 1.",
+      "hash": "d10270faed158ed6",
+      "translations": {
+        "hi": {
+          "question": "cos 0° का मान क्या है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "अनंत",
+            "D": "1/2"
+          },
+          "explanation": "cos 0° = 1।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-049",
+      "number": 49,
+      "question": "Probability of an Impossible Event?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "0.5",
+        "D": "-1"
+      },
+      "answer": "B",
+      "explanation": "Probability is 0.",
+      "hash": "66674c23aba41541",
+      "translations": {
+        "hi": {
+          "question": "किसी असंभव घटना (Impossible Event) की प्रायिकता क्या है?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "0.5",
+            "D": "-1"
+          },
+          "explanation": "असंभव घटना (जैसे पासे पर 7 आना) की प्रायिकता 0 होती है।"
+        }
+      }
+    },
+    {
+      "id": "subjet-wise-01-050",
+      "number": 50,
+      "question": "Sum of opposite angles of a Cyclic Quadrilateral?",
+      "options": {
+        "A": "90°",
+        "B": "180°",
+        "C": "360°",
+        "D": "100°"
+      },
+      "answer": "B",
+      "explanation": "Opposite angles are supplementary (180°).",
+      "hash": "a14286adf2cddf58",
+      "translations": {
+        "hi": {
+          "question": "चक्रीय चतुर्भुज (Cyclic Quadrilateral) के सम्मुख कोणों का योग कितना होता है?",
+          "options": {
+            "A": "90°",
+            "B": "180°",
+            "C": "360°",
+            "D": "100°"
+          },
+          "explanation": "चक्रीय चतुर्भुज के सम्मुख कोण संपूरक (180°) होते हैं।"
+        }
+      }
+    }
+  ]
+}

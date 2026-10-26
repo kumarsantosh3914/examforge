@@ -1,0 +1,567 @@
+{
+  "subject": "Statistics & Probability",
+  "set": 3,
+  "title": "Statistics & Probability Mock Test 3",
+  "questions": [
+    {
+      "id": "statistics-probability-03-001",
+      "number": 1,
+      "question": "The mean of 20 numbers is 9. If every number is multiplied by 3 and 1 is added to each, what is the new mean?",
+      "options": {
+        "A": "27",
+        "B": "28",
+        "C": "30",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "New Mean = (Original Mean * 3) + 1 = (9 * 3) + 1 = 28.",
+      "hash": "c319c9cd5e9d2527",
+      "translations": {
+        "hi": {
+          "question": "20 संख्याओं का माध्य 9 है। यदि प्रत्येक संख्या को 3 से गुणा किया जाए और प्रत्येक में 1 जोड़ा जाए, तो नया माध्य क्या होगा?",
+          "options": {
+            "A": "27",
+            "B": "28",
+            "C": "30",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "नया माध्य = (मूल माध्य * 3) + 1 = (9 * 3) + 1 = 28 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-002",
+      "number": 2,
+      "question": "If a card is drawn from a deck of 52 cards, what is the probability that it is a red king?",
+      "options": {
+        "A": "1/13",
+        "B": "1/26",
+        "C": "1/52",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "There are 2 red kings (Diamond and Heart) in a deck. Probability = 2/52 = 1/26.",
+      "hash": "4acfc3e7910a5a9f",
+      "translations": {
+        "hi": {
+          "question": "यदि 52 ताश के पत्तों की गड्डी से एक पत्ता निकाला जाता है, तो इसके लाल राजा होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/13",
+            "B": "1/26",
+            "C": "1/52",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक गड्डी में 2 लाल राजा (ईंट और पान) होते हैं। प्रायिकता = 2/52 = 1/26 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-003",
+      "number": 3,
+      "question": "Which of the following is a measure of dispersion?",
+      "options": {
+        "A": "Mean",
+        "B": "Median",
+        "C": "Standard Deviation",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Standard deviation measures the spread or dispersion of data around the mean.",
+      "hash": "a062386905a4478f",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन सा विक्षेपण (dispersion) का माप है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "मानक विचलन",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "मानक विचलन माध्य के चारों ओर डेटा के प्रसार या विक्षेपण को मापता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-004",
+      "number": 4,
+      "question": "The mode and mean of a data set are 12 and 15 respectively. The median of the data is:",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Using Mode = 3 Median - 2 Mean; 12 = 3 Median - 2(15) => 12 + 30 = 3 Median => 42/3 = 14.",
+      "hash": "870251bad88775dc",
+      "translations": {
+        "hi": {
+          "question": "एक डेटा सेट के बहुलक और माध्य क्रमशः 12 और 15 हैं। डेटा की माध्यिका है:",
+          "options": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "सूत्र बहुलक = 3 माध्यिका - 2 माध्य का उपयोग करते हुए; 12 = 3 माध्यिका - 30 => 42 = 3 माध्यिका => माध्यिका = 14 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-005",
+      "number": 5,
+      "question": "The mean of first n odd natural numbers is:",
+      "options": {
+        "A": "n",
+        "B": "(n+1)/2",
+        "C": "n squared",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Sum of first n odd numbers is n squared. Mean = n squared / n = n.",
+      "hash": "f55e5179e6bd655f",
+      "translations": {
+        "hi": {
+          "question": "प्रथम n विषम प्राकृत संख्याओं का माध्य है:",
+          "options": {
+            "A": "n",
+            "B": "(n+1)/2",
+            "C": "n का वर्ग",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रथम n विषम संख्याओं का योग n का वर्ग होता है। माध्य = n वर्ग / n = n है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-006",
+      "number": 6,
+      "question": "A die is thrown twice. What is the probability that 5 will come up at least once?",
+      "options": {
+        "A": "11/36",
+        "B": "5/36",
+        "C": "1/6",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Outcomes with at least one 5: (5,1..6) and (1..6,5). Total unique outcomes = 11. Probability = 11/36.",
+      "hash": "54c0f6dfa12c1131",
+      "translations": {
+        "hi": {
+          "question": "एक पासा दो बार फेंका जाता है। कम से कम एक बार 5 आने की प्रायिकता क्या है?",
+          "options": {
+            "A": "11/36",
+            "B": "5/36",
+            "C": "1/6",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "कम से कम एक बार 5 आने के परिणाम 11 होते हैं। प्रायिकता = 11/36 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-007",
+      "number": 7,
+      "question": "The probability of getting a doublet when two dice are thrown is:",
+      "options": {
+        "A": "1/12",
+        "B": "1/6",
+        "C": "5/6",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6). Total = 6. Probability = 6/36 = 1/6.",
+      "hash": "ba31731435ba2cc9",
+      "translations": {
+        "hi": {
+          "question": "दो पासे फेंकने पर 'डबलेट' (समान संख्या) प्राप्त करने की प्रायिकता है:",
+          "options": {
+            "A": "1/12",
+            "B": "1/6",
+            "C": "5/6",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "डबलेट (1,1) से (6,6) तक कुल 6 होते हैं। प्रायिकता = 6/36 = 1/6 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-008",
+      "number": 8,
+      "question": "If the lower limit of a class is 20 and the class mark is 25, then the upper limit is:",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "35",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Class Mark = (Upper + Lower)/2 => 25 = (U + 20)/2 => 50 = U + 20 => U = 30.",
+      "hash": "677eb0aa33aa7164",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी वर्ग की निचली सीमा 20 है और वर्ग चिह्न 25 है, तो ऊपरी सीमा है:",
+          "options": {
+            "A": "30",
+            "B": "40",
+            "C": "35",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वर्ग चिह्न = (ऊपरी + निचली)/2 => 25 = (U + 20)/2 => 50 = U + 20 => U = 30 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-009",
+      "number": 9,
+      "question": "What is the median of the data: 5, 8, 12, 15, 20, 25?",
+      "options": {
+        "A": "13.5",
+        "B": "15",
+        "C": "12",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "n=6 (even). Median = average of 3rd and 4th term = (12+15)/2 = 13.5.",
+      "hash": "b7c5019a3ac4c0c1",
+      "translations": {
+        "hi": {
+          "question": "डेटा 5, 8, 12, 15, 20, 25 की माध्यिका क्या है?",
+          "options": {
+            "A": "13.5",
+            "B": "15",
+            "C": "12",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "n=6 (सम)। माध्यिका = तीसरे और चौथे पद का औसत = (12+15)/2 = 13.5 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-010",
+      "number": 10,
+      "question": "Two events A and B are independent if P(A) = 0.3 and P(B) = 0.4. Find P(A and B).",
+      "options": {
+        "A": "0.7",
+        "B": "0.1",
+        "C": "0.12",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "For independent events, P(A and B) = P(A) * P(B) = 0.3 * 0.4 = 0.12.",
+      "hash": "76dabc66a0c248f4",
+      "translations": {
+        "hi": {
+          "question": "दो घटनाएँ A और B स्वतंत्र हैं यदि P(A) = 0.3 और P(B) = 0.4 है। P(A और B) ज्ञात कीजिए।",
+          "options": {
+            "A": "0.7",
+            "B": "0.1",
+            "C": "0.12",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "स्वतंत्र घटनाओं के लिए, P(A और B) = P(A) * P(B) = 0.3 * 0.4 = 0.12 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-011",
+      "number": 11,
+      "question": "In a frequency distribution, the sum of frequencies is 100 and the mean is 25. The sum of (frequency * observation) is:",
+      "options": {
+        "A": "250",
+        "B": "2500",
+        "C": "4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mean = Sum(fi*xi) / Sum(fi) => 25 = Sum(fi*xi) / 100 => Sum = 2500.",
+      "hash": "4d2d884fe0403b16",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता वितरण में, बारंबारता का योग 100 है और माध्य 25 है। (बारंबारता * प्रेक्षण) का योग है:",
+          "options": {
+            "A": "250",
+            "B": "2500",
+            "C": "4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्य = योग(fi*xi) / योग(fi) => 25 = योग(fi*xi) / 100 => योग = 2500 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-012",
+      "number": 12,
+      "question": "The probability that a non-leap year has 52 Sundays is:",
+      "options": {
+        "A": "1/7",
+        "B": "6/7",
+        "C": "5/7",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "A non-leap year has 52 weeks and 1 extra day. For exactly 52 Sundays, the extra day must not be Sunday. P = 6/7.",
+      "hash": "b70fc60cedbadb36",
+      "translations": {
+        "hi": {
+          "question": "एक सामान्य वर्ष में 52 रविवार होने की प्रायिकता है:",
+          "options": {
+            "A": "1/7",
+            "B": "6/7",
+            "C": "5/7",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक सामान्य वर्ष में 52 सप्ताह और 1 अतिरिक्त दिन होता है। 52 रविवार के लिए, अतिरिक्त दिन रविवार नहीं होना चाहिए। प्रायिकता = 6/7 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-013",
+      "number": 13,
+      "question": "Which graph is used to find the median of a frequency distribution?",
+      "options": {
+        "A": "Histogram",
+        "B": "Ogive",
+        "C": "Pie chart",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "An Ogive (cumulative frequency curve) is used to find the median graphically.",
+      "hash": "17f22147d43b69b2",
+      "translations": {
+        "hi": {
+          "question": "बारंबारता वितरण की माध्यिका ज्ञात करने के लिए किस ग्राफ का उपयोग किया जाता है?",
+          "options": {
+            "A": "आयतचित्र",
+            "B": "तोरण (Ogive)",
+            "C": "पाई चार्ट",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्यिका को ग्राफ़िक रूप से खोजने के लिए तोरण (संचयी बारंबारता वक्र) का उपयोग किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-014",
+      "number": 14,
+      "question": "If the probability of an event is p, the probability of its complementary event will be:",
+      "options": {
+        "A": "p - 1",
+        "B": "1 - p",
+        "C": "1/p",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "The sum of an event and its complement is 1. So, Complement = 1 - p.",
+      "hash": "1ddaba15e1c010b2",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी घटना की प्रायिकता p है, तो इसकी पूरक घटना की प्रायिकता होगी:",
+          "options": {
+            "A": "p - 1",
+            "B": "1 - p",
+            "C": "1/p",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "एक घटना और उसके पूरक का योग 1 होता है। इसलिए, पूरक = 1 - p है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-015",
+      "number": 15,
+      "question": "A box has 100 bulbs, of which 10 are defective. What is the probability that a bulb drawn at random is not defective?",
+      "options": {
+        "A": "1/10",
+        "B": "9/10",
+        "C": "1/100",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Non-defective bulbs = 100 - 10 = 90. Probability = 90/100 = 9/10.",
+      "hash": "641d77ad13d97871",
+      "translations": {
+        "hi": {
+          "question": "एक बक्से में 100 बल्ब हैं, जिनमें से 10 खराब हैं। यादृच्छया निकाले गए बल्ब के खराब न होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/10",
+            "B": "9/10",
+            "C": "1/100",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अच्छे बल्ब = 100 - 10 = 90. प्रायिकता = 90/100 = 9/10 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-016",
+      "number": 16,
+      "question": "The class intervals are 10-20, 20-30, etc. In which class is the observation 20 included?",
+      "options": {
+        "A": "10-20",
+        "B": "20-30",
+        "C": "Both 10-20 and 20-30",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "In exclusive classification, the lower limit is included and the upper limit is excluded.",
+      "hash": "813ad2fd800c2cbf",
+      "translations": {
+        "hi": {
+          "question": "वर्ग अंतराल 10-20, 20-30 आदि हैं। प्रेक्षण 20 किस वर्ग में शामिल है?",
+          "options": {
+            "A": "10-20",
+            "B": "20-30",
+            "C": "10-20 और 20-30 दोनों",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "अपवर्जित वर्गीकरण में, निचली सीमा शामिल की जाती है और ऊपरी सीमा छोड़ दी जाती है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-017",
+      "number": 17,
+      "question": "The mean of 5 observations is 10 and their variance is 4. If each observation is increased by 2, what is the new variance?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Variance and Standard Deviation are independent of change of origin (addition/subtraction).",
+      "hash": "ed45db64a1b7740e",
+      "translations": {
+        "hi": {
+          "question": "5 प्रेक्षणों का माध्य 10 है और उनका प्रसरण (variance) 4 है। यदि प्रत्येक प्रेक्षण में 2 की वृद्धि की जाती है, तो नया प्रसरण क्या होगा?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "8",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "प्रसरण और मानक विचलन मूल बिंदु के परिवर्तन (जोड़/घटाव) से स्वतंत्र होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-018",
+      "number": 18,
+      "question": "The mode of the data 2, 3, 3, 4, 4, 4, 5, 5, 6 is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "4 occurs most frequently (3 times).",
+      "hash": "27aa0140a439eaf6",
+      "translations": {
+        "hi": {
+          "question": "डेटा 2, 3, 3, 4, 4, 4, 5, 5, 6 का बहुलक है:",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "4 सबसे अधिक बार (3 बार) आता है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-019",
+      "number": 19,
+      "question": "A bag contains cards numbered from 1 to 20. A card is drawn at random. What is the probability that the number is a multiple of 4?",
+      "options": {
+        "A": "1/4",
+        "B": "1/5",
+        "C": "4/20",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Multiples of 4 are {4, 8, 12, 16, 20}. Count = 5. Probability = 5/20 = 1/5.",
+      "hash": "04718559c307d4cd",
+      "translations": {
+        "hi": {
+          "question": "एक थैले में 1 से 20 तक की संख्या वाले कार्ड हैं। एक कार्ड यादृच्छया निकाला जाता है। संख्या के 4 का गुणज होने की प्रायिकता क्या है?",
+          "options": {
+            "A": "1/4",
+            "B": "1/5",
+            "C": "4/20",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "4 के गुणज {4, 8, 12, 16, 20} हैं। संख्या = 5. प्रायिकता = 5/20 = 1/5 है।"
+        }
+      }
+    },
+    {
+      "id": "statistics-probability-03-020",
+      "number": 20,
+      "question": "If the mean of first n natural numbers is (n+1)/2, what is the mean of first 99 natural numbers?",
+      "options": {
+        "A": "49",
+        "B": "50",
+        "C": "50.5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Mean = (99 + 1) / 2 = 100 / 2 = 50.",
+      "hash": "5643af0eb9091913",
+      "translations": {
+        "hi": {
+          "question": "यदि प्रथम n प्राकृत संख्याओं का माध्य (n+1)/2 है, तो प्रथम 99 प्राकृत संख्याओं का माध्य क्या है?",
+          "options": {
+            "A": "49",
+            "B": "50",
+            "C": "50.5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माध्य = (99 + 1) / 2 = 100 / 2 = 50 है।"
+        }
+      }
+    }
+  ]
+}

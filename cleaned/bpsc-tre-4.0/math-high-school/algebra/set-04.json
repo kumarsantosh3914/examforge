@@ -1,0 +1,567 @@
+{
+  "subject": "Algebra",
+  "set": 4,
+  "title": "Algebra Mock Test 4",
+  "questions": [
+    {
+      "id": "algebra-04-001",
+      "number": 1,
+      "question": "If the points (k, 2), (2, 4) and (3, 2) are the vertices of a triangle of area 4 square units, then the value of k is:",
+      "options": {
+        "A": "-1",
+        "B": "7",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Area = 0.5|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|. 4 = 0.5|k(4-2) + 2(2-2) + 3(2-4)| => 8 = |2k - 6|. 2k-6 = 8 => k=7; 2k-6 = -8 => k=-1.",
+      "hash": "7d6bb0eba44808df",
+      "translations": {
+        "hi": {
+          "question": "यदि बिंदु (k, 2), (2, 4) और (3, 2) 4 वर्ग इकाई क्षेत्रफल वाले त्रिभुज के शीर्ष हैं, तो k का मान है:",
+          "options": {
+            "A": "-1",
+            "B": "7",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 0.5|x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|। 4 = 0.5|k(4-2) + 2(2-2) + 3(2-4)| => 8 = |2k - 6|। 2k-6 = 8 => k=7; 2k-6 = -8 => k=-1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-002",
+      "number": 2,
+      "question": "If x = a, y = b is the solution of the equations x - y = 2 and x + y = 4, then the values of a and b are:",
+      "options": {
+        "A": "3, 5",
+        "B": "5, 3",
+        "C": "3, 1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Adding: 2x = 6 => x = 3. Subtracting: 2y = 2 => y = 1. So a=3, b=1.",
+      "hash": "8e4585f1b55c572b",
+      "translations": {
+        "hi": {
+          "question": "यदि x = a, y = b समीकरणों x - y = 2 और x + y = 4 का हल है, तो a और b के मान हैं:",
+          "options": {
+            "A": "3, 5",
+            "B": "5, 3",
+            "C": "3, 1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "जोड़ने पर: 2x = 6 => x = 3। घटाने पर: 2y = 2 => y = 1। इसलिए a=3, b=1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-003",
+      "number": 3,
+      "question": "The roots of the quadratic equation x^2 - 0.04 = 0 are:",
+      "options": {
+        "A": "+/- 0.2",
+        "B": "+/- 0.02",
+        "C": "0.4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "x^2 = 0.04 => x = +/- sqrt(0.04) = +/- 0.2.",
+      "hash": "9dd0f0980473ac4e",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण x^2 - 0.04 = 0 के मूल हैं:",
+          "options": {
+            "A": "+/- 0.2",
+            "B": "+/- 0.02",
+            "C": "0.4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x^2 = 0.04 => x = +/- sqrt(0.04) = +/- 0.2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-004",
+      "number": 4,
+      "question": "If the p-th term of an AP is q and q-th term is p, then its n-th term is:",
+      "options": {
+        "A": "p + q - n",
+        "B": "p - q + n",
+        "C": "q - p + n",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a+(p-1)d=q and a+(q-1)d=p. Subtracting gives (p-q)d = q-p => d=-1. Then a=p+q-1. an = a+(n-1)d = p+q-1-n+1 = p+q-n.",
+      "hash": "31bc60be40dd7616",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP का p-वां पद q है और q-वां पद p है, तो इसका n-वां पद है:",
+          "options": {
+            "A": "p + q - n",
+            "B": "p - q + n",
+            "C": "q - p + n",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a+(p-1)d=q और a+(q-1)d=p। घटाने पर (p-q)d = q-p => d=-1 प्राप्त होता है। फिर a=p+q-1। an = a+(n-1)d = p+q-1-n+1 = p+q-n।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-005",
+      "number": 5,
+      "question": "If alpha and beta are the zeros of 4x^2 + 3x + 7, then the value of alpha*beta is:",
+      "options": {
+        "A": "7/4",
+        "B": "-7/4",
+        "C": "3/4",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Product of zeros = c/a = 7/4.",
+      "hash": "63f10344af444127",
+      "translations": {
+        "hi": {
+          "question": "यदि अल्फा और बीटा 4x^2 + 3x + 7 के शून्यक हैं, तो अल्फा*बीटा का मान है:",
+          "options": {
+            "A": "7/4",
+            "B": "-7/4",
+            "C": "3/4",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "शून्यकों का गुणनफल = c/a = 7/4।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-006",
+      "number": 6,
+      "question": "Which term of the AP: 5, 2, -1, ... is -22?",
+      "options": {
+        "A": "9th",
+        "B": "10th",
+        "C": "11th",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "a=5, d=-3. -22 = 5 + (n-1)(-3) => -27 = -3(n-1) => 9 = n-1 => n=10.",
+      "hash": "9967e057b3dc3686",
+      "translations": {
+        "hi": {
+          "question": "समांतर श्रेणी (AP): 5, 2, -1, ... का कौन सा पद -22 है?",
+          "options": {
+            "A": "9वाँ",
+            "B": "10वाँ",
+            "C": "11वाँ",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a=5, d=-3। -22 = 5 + (n-1)(-3) => -27 = -3(n-1) => 9 = n-1 => n=10।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-007",
+      "number": 7,
+      "question": "If (x + 1) is a factor of x^2 - 3ax + 3a - 7, then the value of a is:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "f(-1) = 0 => (-1)^2 - 3a(-1) + 3a - 7 = 0 => 1 + 3a + 3a - 7 = 0 => 6a = 6 => a=1.",
+      "hash": "fcb4d5b5f0292071",
+      "translations": {
+        "hi": {
+          "question": "यदि (x + 1), x^2 - 3ax + 3a - 7 का एक गुणनखंड है, तो a का मान है:",
+          "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "f(-1) = 0 => (-1)^2 - 3a(-1) + 3a - 7 = 0 => 1 + 3a + 3a - 7 = 0 => 6a = 6 => a=1।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-008",
+      "number": 8,
+      "question": "The value of k for which the system 3x + y = 1 and (2k-1)x + (k-1)y = 2k+1 has no solution is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "a1/a2 = b1/b2 != c1/c2. 3/(2k-1) = 1/(k-1) => 3k-3 = 2k-1 => k=2.",
+      "hash": "5d9d66c6bace57fb",
+      "translations": {
+        "hi": {
+          "question": "k का वह मान जिसके लिए निकाय 3x + y = 1 और (2k-1)x + (k-1)y = 2k+1 का कोई समाधान नहीं है:",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "a1/a2 = b1/b2 != c1/c2। 3/(2k-1) = 1/(k-1) => 3k-3 = 2k-1 => k=2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-009",
+      "number": 9,
+      "question": "The roots of the equation x^2 + x - p(p+1) = 0 are:",
+      "options": {
+        "A": "p, (p+1)",
+        "B": "-p, (p+1)",
+        "C": "p, -(p+1)",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "x^2 + (p+1)x - px - p(p+1) = 0 => x(x + p + 1) - p(x + p + 1) = 0. Roots are p, -(p+1).",
+      "hash": "e5df66f82a53ec2e",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x^2 + x - p(p+1) = 0 के मूल हैं:",
+          "options": {
+            "A": "p, (p+1)",
+            "B": "-p, (p+1)",
+            "C": "p, -(p+1)",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "x^2 + (p+1)x - px - p(p+1) = 0 => x(x + p + 1) - p(x + p + 1) = 0। मूल p, -(p+1) हैं।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-010",
+      "number": 10,
+      "question": "The sum of first n odd natural numbers is:",
+      "options": {
+        "A": "n",
+        "B": "n^2",
+        "C": "2n - 1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "1 + 3 + 5 + ... + (2n-1). This is an AP with a=1, d=2. S_n = n/2[2(1) + (n-1)2] = n/2[2n] = n^2.",
+      "hash": "ef06953a7fd2f3b6",
+      "translations": {
+        "hi": {
+          "question": "प्रथम n विषम प्राकृतिक संख्याओं का योग है:",
+          "options": {
+            "A": "n",
+            "B": "n^2",
+            "C": "2n - 1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "1 + 3 + 5 + ... + (2n-1)। यह a=1, d=2 वाली एक AP है। S_n = n/2[2(1) + (n-1)2] = n/2[2n] = n^2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-011",
+      "number": 11,
+      "question": "The condition for a quadratic equation ax^2 + bx + c = 0 to have real roots is:",
+      "options": {
+        "A": "b^2 - 4ac > 0",
+        "B": "b^2 - 4ac = 0",
+        "C": "b^2 - 4ac >= 0",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "D",
+      "explanation": "Real roots occur if D > 0 or D = 0. Since A and B are both conditions for real roots, D is correct.",
+      "hash": "db69223ef34cbcf0",
+      "translations": {
+        "hi": {
+          "question": "एक द्विघात समीकरण ax^2 + bx + c = 0 के वास्तविक मूल होने की शर्त है:",
+          "options": {
+            "A": "b^2 - 4ac > 0",
+            "B": "b^2 - 4ac = 0",
+            "C": "b^2 - 4ac >= 0",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "वास्तविक मूल तब होते हैं जब D > 0 या D = 0 हो। चूंकि A और B दोनों वास्तविक मूलों की शर्तें हैं, इसलिए D सही है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-012",
+      "number": 12,
+      "question": "If 3x + 4y : x + 2y = 9 : 4, then x : y is:",
+      "options": {
+        "A": "1 : 2",
+        "B": "2 : 3",
+        "C": "3 : 2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "4(3x + 4y) = 9(x + 2y) => 12x + 16y = 9x + 18y => 3x = 2y => x/y = 2/3.",
+      "hash": "593037c98b015282",
+      "translations": {
+        "hi": {
+          "question": "यदि 3x + 4y : x + 2y = 9 : 4 है, तो x : y है:",
+          "options": {
+            "A": "1 : 2",
+            "B": "2 : 3",
+            "C": "3 : 2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "4(3x + 4y) = 9(x + 2y) => 12x + 16y = 9x + 18y => 3x = 2y => x/y = 2/3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-013",
+      "number": 13,
+      "question": "If sum of n terms of two APs are in ratio (7n+1) : (4n+27), then the ratio of their 11th terms is:",
+      "options": {
+        "A": "2 : 3",
+        "B": "3 : 4",
+        "C": "4 : 3",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "C",
+      "explanation": "Replace n with 2(11)-1 = 21. Ratio = [7(21)+1] / [4(21)+27] = 148 / 111 = 4/3.",
+      "hash": "51e1b5cc761d86cc",
+      "translations": {
+        "hi": {
+          "question": "यदि दो AP के n पदों का योग (7n+1) : (4n+27) के अनुपात में है, तो उनके 11वें पदों का अनुपात है:",
+          "options": {
+            "A": "2 : 3",
+            "B": "3 : 4",
+            "C": "4 : 3",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "n को 2(11)-1 = 21 से बदलें। अनुपात = [7(21)+1] / [4(21)+27] = 148 / 111 = 4/3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-014",
+      "number": 14,
+      "question": "If one zero of the polynomial (k^2 + 4)x^2 + 13x + 4k is reciprocal of the other, then k is:",
+      "options": {
+        "A": "2",
+        "B": "-2",
+        "C": "1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Product = 1 => c/a = 1 => 4k / (k^2 + 4) = 1 => k^2 - 4k + 4 = 0 => (k-2)^2 = 0 => k=2.",
+      "hash": "98c087f9ad280900",
+      "translations": {
+        "hi": {
+          "question": "यदि बहुपद (k^2 + 4)x^2 + 13x + 4k का एक शून्यक दूसरे का व्युत्क्रम है, तो k है:",
+          "options": {
+            "A": "2",
+            "B": "-2",
+            "C": "1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "गुणनफल = 1 => c/a = 1 => 4k / (k^2 + 4) = 1 => k^2 - 4k + 4 = 0 => (k-2)^2 = 0 => k=2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-015",
+      "number": 15,
+      "question": "The solution of 2^x + 3^y = 17 and 2^{x+2} - 3^{y+1} = 5 is:",
+      "options": {
+        "A": "x=3, y=2",
+        "B": "x=2, y=3",
+        "C": "x=2, y=2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Let 2^x = u, 3^y = v. u + v = 17 and 4u - 3v = 5. Solving gives u=8, v=9. 2^x=8 => x=3; 3^y=9 => y=2.",
+      "hash": "cc8cfad5bd22d198",
+      "translations": {
+        "hi": {
+          "question": "2^x + 3^y = 17 और 2^{x+2} - 3^{y+1} = 5 का हल है:",
+          "options": {
+            "A": "x=3, y=2",
+            "B": "x=2, y=3",
+            "C": "x=2, y=2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना 2^x = u, 3^y = v। u + v = 17 और 4u - 3v = 5। हल करने पर u=8, v=9 प्राप्त होता है। 2^x=8 => x=3; 3^y=9 => y=2।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-016",
+      "number": 16,
+      "question": "The value of sqrt(6 + sqrt(6 + sqrt(6 + ...))) is:",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "3.5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Let x = sqrt(6+x) => x^2 - x - 6 = 0 => (x-3)(x+2) = 0. Since x > 0, x=3.",
+      "hash": "9d3677eab99e9054",
+      "translations": {
+        "hi": {
+          "question": "sqrt(6 + sqrt(6 + sqrt(6 + ...))) का मान है:",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "3.5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "माना x = sqrt(6+x) => x^2 - x - 6 = 0 => (x-3)(x+2) = 0। चूंकि x > 0, इसलिए x=3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-017",
+      "number": 17,
+      "question": "If a, b, c are in AP, then the value of (a-c)^2 / (b^2 - ac) is:",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "2",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "b = (a+c)/2. b^2 - ac = [(a+c)^2 / 4] - ac = (a^2 + c^2 + 2ac - 4ac)/4 = (a-c)^2 / 4. Ratio is 4.",
+      "hash": "61564aad50e9922d",
+      "translations": {
+        "hi": {
+          "question": "यदि a, b, c समांतर श्रेणी (AP) में हैं, तो (a-c)^2 / (b^2 - ac) का मान है:",
+          "options": {
+            "A": "1",
+            "B": "4",
+            "C": "2",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "b = (a+c)/2। b^2 - ac = [(a+c)^2 / 4] - ac = (a^2 + c^2 + 2ac - 4ac)/4 = (a-c)^2 / 4। अनुपात 4 है।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-018",
+      "number": 18,
+      "question": "A polynomial of degree n has at most how many zeros?",
+      "options": {
+        "A": "n-1",
+        "B": "n",
+        "C": "n+1",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "By fundamental theorem of algebra, a polynomial of degree n has at most n real zeros.",
+      "hash": "b34e4467dfd0e89a",
+      "translations": {
+        "hi": {
+          "question": "घात n वाले बहुपद के अधिकतम कितने शून्यक होते हैं?",
+          "options": {
+            "A": "n-1",
+            "B": "n",
+            "C": "n+1",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "बीजगणित के मौलिक प्रमेय के अनुसार, घात n वाले बहुपद के अधिकतम n वास्तविक शून्यक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-019",
+      "number": 19,
+      "question": "If k + 1, 3k and 4k + 2 are in AP, then k is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "2(3k) = (k+1) + (4k+2) => 6k = 5k + 3 => k = 3.",
+      "hash": "7f73c7a8d85da1bf",
+      "translations": {
+        "hi": {
+          "question": "यदि k + 1, 3k और 4k + 2 समांतर श्रेणी (AP) में हैं, तो k है:",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "2(3k) = (k+1) + (4k+2) => 6k = 5k + 3 => k = 3।"
+        }
+      }
+    },
+    {
+      "id": "algebra-04-020",
+      "number": 20,
+      "question": "The graph of y = 4 is a line parallel to:",
+      "options": {
+        "A": "x-axis",
+        "B": "y-axis",
+        "C": "The line y = x",
+        "D": "More than one of the above",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Equations of the form y = k represent horizontal lines parallel to the x-axis.",
+      "hash": "fb3eec9526cb4811",
+      "translations": {
+        "hi": {
+          "question": "y = 4 का ग्राफ किसके समांतर एक रेखा है:",
+          "options": {
+            "A": "x-अक्ष",
+            "B": "y-अक्ष",
+            "C": "रेखा y = x",
+            "D": "उपर्युक्त में से एक से अधिक",
+            "E": "उपर्युक्त में से कोई नहीं"
+          },
+          "explanation": "y = k के रूप वाले समीकरण x-अक्ष के समांतर क्षैतिज रेखाओं को दर्शाते हैं।"
+        }
+      }
+    }
+  ]
+}

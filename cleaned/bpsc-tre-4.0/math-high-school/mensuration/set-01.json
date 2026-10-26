@@ -1,0 +1,567 @@
+{
+  "subject": "Mensuration",
+  "set": 1,
+  "title": "Mensuration Mock Test 1",
+  "questions": [
+    {
+      "id": "mensuration-01-001",
+      "number": 1,
+      "question": "The length, breadth, and height of a rectangular room are 5m, 4m, and 3m respectively. Find the cost of white washing the walls of the room and the ceiling at the rate of 7.50 per square meter.",
+      "options": {
+        "A": "555",
+        "B": "600",
+        "C": "500",
+        "D": "540",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = 2h(l+b) + lb = 2*3(5+4) + 5*4 = 54 + 20 = 74 sq.m. Cost = 74 * 7.50 = 555.",
+      "hash": "7c5cb6d621d9c275",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार कमरे की लंबाई, चौड़ाई और ऊंचाई क्रमशः 5 मीटर, 4 मीटर और 3 मीटर है। 7.50 प्रति वर्ग मीटर की दर से कमरे की दीवारों और छत पर सफेदी करने की लागत ज्ञात कीजिए।",
+          "options": {
+            "A": "555",
+            "B": "600",
+            "C": "500",
+            "D": "540",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 2h(l+b) + lb = 2*3(5+4) + 5*4 = 54 + 20 = 74 वर्ग मीटर। लागत = 74 * 7.50 = 555।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-002",
+      "number": 2,
+      "question": "The radius of a spherical balloon increases from 7 cm to 14 cm as air is being pumped into it. Find the ratio of surface areas of the balloon in the two cases.",
+      "options": {
+        "A": "1:2",
+        "B": "1:4",
+        "C": "2:3",
+        "D": "4:1",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Ratio = (4*pi*7*7) / (4*pi*14*14) = (7/14)^2 = (1/2)^2 = 1:4.",
+      "hash": "e27c0fd2c1c33fd9",
+      "translations": {
+        "hi": {
+          "question": "एक गोलाकार गुब्बारे में हवा भरने पर उसकी त्रिज्या 7 सेमी से बढ़कर 14 सेमी हो जाती है। दोनों स्थितियों में गुब्बारे के पृष्ठीय क्षेत्रफलों का अनुपात ज्ञात कीजिए।",
+          "options": {
+            "A": "1:2",
+            "B": "1:4",
+            "C": "2:3",
+            "D": "4:1",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "अनुपात = (4*pi*7*7) / (4*pi*14*14) = (7/14)^2 = (1/2)^2 = 1:4।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-003",
+      "number": 3,
+      "question": "A right circular cylinder has a height of 14 cm and its curved surface area is 88 sq.cm. Find the diameter of the base.",
+      "options": {
+        "A": "1 cm",
+        "B": "2 cm",
+        "C": "3 cm",
+        "D": "4 cm",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "CSA = 2*pi*r*h = 88. 2*(22/7)*r*14 = 88. 88*r = 88, so r=1. Diameter = 2r = 2 cm.",
+      "hash": "2714fbfd35da24d4",
+      "translations": {
+        "hi": {
+          "question": "एक लंब वृत्तीय बेलन की ऊंचाई 14 सेमी है और इसका वक्र पृष्ठीय क्षेत्रफल 88 वर्ग सेमी है। आधार का व्यास ज्ञात कीजिए।",
+          "options": {
+            "A": "1 सेमी",
+            "B": "2 सेमी",
+            "C": "3 सेमी",
+            "D": "4 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "CSA = 2*pi*r*h = 88. 2*(22/7)*r*14 = 88. 88*r = 88, इसलिए r=1. व्यास = 2r = 2 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-004",
+      "number": 4,
+      "question": "The volume of a right circular cone is 9856 cubic cm. If the diameter of the base is 28 cm, find the height of the cone.",
+      "options": {
+        "A": "48 cm",
+        "B": "42 cm",
+        "C": "50 cm",
+        "D": "56 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = (1/3)*pi*r^2*h. 9856 = (1/3)*(22/7)*14*14*h. h = (9856 * 3) / (22 * 2 * 14) = 48 cm.",
+      "hash": "d20753af1d68fafd",
+      "translations": {
+        "hi": {
+          "question": "एक लंब वृत्तीय शंकु का आयतन 9856 घन सेमी है। यदि आधार का व्यास 28 सेमी है, तो शंकु की ऊंचाई ज्ञात कीजिए।",
+          "options": {
+            "A": "48 सेमी",
+            "B": "42 सेमी",
+            "C": "50 सेमी",
+            "D": "56 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "आयतन = (1/3)*pi*r^2*h. 9856 = (1/3)*(22/7)*14*14*h. h = (9856 * 3) / (22 * 2 * 14) = 48 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-005",
+      "number": 5,
+      "question": "Find the capacity in liters of a conical vessel with radius 7 cm and slant height 25 cm.",
+      "options": {
+        "A": "1.232 liters",
+        "B": "1.54 liters",
+        "C": "2.232 liters",
+        "D": "12.32 liters",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "h = sqrt(25^2 - 7^2) = 24 cm. Vol = (1/3)*(22/7)*7*7*24 = 1232 cm^3 = 1.232 L.",
+      "hash": "24aa4bdc62b2bc94",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या और 25 सेमी तिर्यक ऊंचाई वाले एक शंक्वाकार बर्तन की क्षमता लीटर में ज्ञात कीजिए।",
+          "options": {
+            "A": "1.232 लीटर",
+            "B": "1.54 लीटर",
+            "C": "2.232 लीटर",
+            "D": "12.32 लीटर",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "h = sqrt(25^2 - 7^2) = 24 सेमी। आयतन = (1/3)*(22/7)*7*7*24 = 1232 सेमी^3 = 1.232 लीटर।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-006",
+      "number": 6,
+      "question": "A hemispherical bowl has a radius of 3.5 cm. What would be the volume of water it would contain?",
+      "options": {
+        "A": "89.8 cm^3",
+        "B": "90.5 cm^3",
+        "C": "89.83 cm^3",
+        "D": "179.6 cm^3",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Vol = (2/3)*pi*r^3 = (2/3)*(22/7)*3.5*3.5*3.5 = 89.83 cm^3 approx.",
+      "hash": "514c8a5f156274b6",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धगोलाकार कटोरे की त्रिज्या 3.5 सेमी है। इसमें आने वाले पानी का आयतन क्या होगा?",
+          "options": {
+            "A": "89.8 सेमी^3",
+            "B": "90.5 सेमी^3",
+            "C": "89.83 सेमी^3",
+            "D": "179.6 सेमी^3",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "आयतन = (2/3)*pi*r^3 = (2/3)*(22/7)*3.5*3.5*3.5 = 89.83 सेमी^3 लगभग।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-007",
+      "number": 7,
+      "question": "The sides of a triangle are in the ratio 12:17:25 and its perimeter is 540 cm. Find its area.",
+      "options": {
+        "A": "9000 sq.cm",
+        "B": "8000 sq.cm",
+        "C": "12000 sq.cm",
+        "D": "10000 sq.cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Sides are 120, 170, 250. s = 270. Area = sqrt(270*150*100*20) = 9000.",
+      "hash": "0a52e65f86313549",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज की भुजाएँ 12:17:25 के अनुपात में हैं और इसका परिमाप 540 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "9000 वर्ग सेमी",
+            "B": "8000 वर्ग सेमी",
+            "C": "12000 वर्ग सेमी",
+            "D": "10000 वर्ग सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "भुजाएँ 120, 170, 250 हैं। s = 270. क्षेत्रफल = sqrt(270*150*100*20) = 9000."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-008",
+      "number": 8,
+      "question": "If the area of an equilateral triangle is 16*sqrt(3) sq.cm, then find its perimeter.",
+      "options": {
+        "A": "48 cm",
+        "B": "24 cm",
+        "C": "12 cm",
+        "D": "36 cm",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Area = (sqrt(3)/4)*a^2 = 16*sqrt(3). a^2 = 64, so a=8. Perimeter = 3a = 24 cm.",
+      "hash": "f54c203feb4af2a6",
+      "translations": {
+        "hi": {
+          "question": "यदि एक समबाहु त्रिभुज का क्षेत्रफल 16*sqrt(3) वर्ग सेमी है, तो इसका परिमाप ज्ञात कीजिए।",
+          "options": {
+            "A": "48 सेमी",
+            "B": "24 सेमी",
+            "C": "12 सेमी",
+            "D": "36 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = (sqrt(3)/4)*a^2 = 16*sqrt(3). a^2 = 64, इसलिए a=8. परिमाप = 3a = 24 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-009",
+      "number": 9,
+      "question": "A copper wire of length 36m and diameter 2mm is melted to form a sphere. Find the radius of the sphere.",
+      "options": {
+        "A": "2 cm",
+        "B": "3 cm",
+        "C": "4 cm",
+        "D": "6 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "B",
+      "explanation": "Vol of wire = pi*r^2*h = pi*(0.1)^2*3600 = 36*pi. Vol of sphere = (4/3)*pi*R^3 = 36*pi. R^3 = 27, R=3.",
+      "hash": "a42bf495892ca397",
+      "translations": {
+        "hi": {
+          "question": "36 मीटर लंबाई और 2 मिमी व्यास वाले तांबे के तार को पिघलाकर एक गोला बनाया जाता है। गोले की त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "2 सेमी",
+            "B": "3 सेमी",
+            "C": "4 सेमी",
+            "D": "6 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "तार का आयतन = pi*r^2*h = pi*(0.1)^2*3600 = 36*pi. गोले का आयतन = (4/3)*pi*R^3 = 36*pi. R^3 = 27, R=3."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-010",
+      "number": 10,
+      "question": "The length of the diagonal of a cube is 6*sqrt(3) cm. Find its total surface area.",
+      "options": {
+        "A": "216 sq.cm",
+        "B": "144 sq.cm",
+        "C": "150 sq.cm",
+        "D": "196 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Diagonal = a*sqrt(3) = 6*sqrt(3), so a=6. TSA = 6*a^2 = 6*36 = 216 sq.cm.",
+      "hash": "0a55d26dabe7c6c1",
+      "translations": {
+        "hi": {
+          "question": "एक घन के विकर्ण की लंबाई 6*sqrt(3) सेमी है। इसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "216 वर्ग सेमी",
+            "B": "144 वर्ग सेमी",
+            "C": "150 वर्ग सेमी",
+            "D": "196 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "विकर्ण = a*sqrt(3) = 6*sqrt(3), इसलिए a=6. TSA = 6*a^2 = 6*36 = 216 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-011",
+      "number": 11,
+      "question": "The area of a trapezium is 34 sq.cm and the length of one of the parallel sides is 10 cm and its height is 4 cm. Find the length of the other parallel side.",
+      "options": {
+        "A": "7 cm",
+        "B": "8 cm",
+        "C": "9 cm",
+        "D": "6 cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = 0.5*(a+b)*h. 34 = 0.5*(10+b)*4. 34 = 2*(10+b). 17 = 10+b, b=7.",
+      "hash": "73660b238cc8fa76",
+      "translations": {
+        "hi": {
+          "question": "एक समलम्ब का क्षेत्रफल 34 वर्ग सेमी है और समांतर भुजाओं में से एक की लंबाई 10 सेमी और इसकी ऊंचाई 4 सेमी है। दूसरी समांतर भुजा की लंबाई ज्ञात कीजिए।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "8 सेमी",
+            "C": "9 सेमी",
+            "D": "6 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 0.5*(a+b)*h. 34 = 0.5*(10+b)*4. 34 = 2*(10+b). 17 = 10+b, b=7."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-012",
+      "number": 12,
+      "question": "If the height of a cylinder is doubled and the radius is halved, what is the ratio of the new volume to the original volume?",
+      "options": {
+        "A": "1:2",
+        "B": "2:1",
+        "C": "1:4",
+        "D": "4:1",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "V1 = pi*r^2*h. V2 = pi*(r/2)^2*(2h) = pi*(r^2/4)*2h = (1/2)*pi*r^2*h. Ratio = 1:2.",
+      "hash": "e92bd42e4b0e0ac9",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी बेलन की ऊंचाई दोगुनी कर दी जाए और त्रिज्या आधी कर दी जाए, तो नए आयतन का मूल आयतन से अनुपात क्या होगा?",
+          "options": {
+            "A": "1:2",
+            "B": "2:1",
+            "C": "1:4",
+            "D": "4:1",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "V1 = pi*r^2*h. V2 = pi*(r/2)^2*(2h) = pi*(r^2/4)*2h = (1/2)*pi*r^2*h. अनुपात = 1:2."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-013",
+      "number": 13,
+      "question": "The perimeter of a semi-circle is 36 cm. Find its diameter.",
+      "options": {
+        "A": "7 cm",
+        "B": "14 cm",
+        "C": "21 cm",
+        "D": "28 cm",
+        "E": "None of the above"
+      },
+      "answer": "B",
+      "explanation": "Perimeter = pi*r + 2r = r(pi + 2) = 36. r(22/7 + 2) = 36. r(36/7) = 36, so r=7. D=14.",
+      "hash": "139efbf88be2a15a",
+      "translations": {
+        "hi": {
+          "question": "एक अर्धवृत्त का परिमाप 36 सेमी है। इसका व्यास ज्ञात कीजिए।",
+          "options": {
+            "A": "7 सेमी",
+            "B": "14 सेमी",
+            "C": "21 सेमी",
+            "D": "28 सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "परिमाप = pi*r + 2r = r(pi + 2) = 36. r(22/7 + 2) = 36. r(36/7) = 36, इसलिए r=7. D=14."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-014",
+      "number": 14,
+      "question": "The base of a triangle is 15 cm and height is 12 cm. The height of another triangle of double the area having the base 20 cm is:",
+      "options": {
+        "A": "18 cm",
+        "B": "20 cm",
+        "C": "9 cm",
+        "D": "12.5 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Area1 = 0.5*15*12 = 90. Area2 = 180. 0.5*20*h = 180. 10*h = 180, h=18.",
+      "hash": "c6aa3d32c3b6a1b2",
+      "translations": {
+        "hi": {
+          "question": "एक त्रिभुज का आधार 15 सेमी और ऊंचाई 12 सेमी है। 20 सेमी आधार वाले एक अन्य त्रिभुज जिसका क्षेत्रफल पहले से दोगुना है, उसकी ऊंचाई क्या होगी?",
+          "options": {
+            "A": "18 सेमी",
+            "B": "20 सेमी",
+            "C": "9 सेमी",
+            "D": "12.5 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "क्षेत्रफल1 = 0.5*15*12 = 90. क्षेत्रफल2 = 180. 0.5*20*h = 180. 10*h = 180, h=18."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-015",
+      "number": 15,
+      "question": "A cube of side 4 cm is cut into cubes of side 1 cm. What is the ratio of the surface area of the larger cube to the sum of the surface areas of the smaller cubes?",
+      "options": {
+        "A": "1:4",
+        "B": "1:16",
+        "C": "1:8",
+        "D": "4:1",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "TSA large = 6*4^2 = 96. Total small cubes = 4^3 = 64. Sum TSA small = 64*(6*1^2) = 384. Ratio = 96:384 = 1:4.",
+      "hash": "99bbe124a07d2670",
+      "translations": {
+        "hi": {
+          "question": "4 सेमी भुजा वाले एक घन को 1 सेमी भुजा वाले घनों में काटा जाता है। बड़े घन के पृष्ठीय क्षेत्रफल का छोटे घनों के पृष्ठीय क्षेत्रफलों के योग से अनुपात क्या है?",
+          "options": {
+            "A": "1:4",
+            "B": "1:16",
+            "C": "1:8",
+            "D": "4:1",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "TSA बड़ा = 6*4^2 = 96. कुल छोटे घन = 4^3 = 64. TSA छोटे का योग = 64*(6*1^2) = 384. अनुपात = 96:384 = 1:4."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-016",
+      "number": 16,
+      "question": "The difference between the outside and inside surface areas of a cylindrical metallic pipe 14 cm long is 44 sq.cm. If the pipe is made of 99 cubic cm of metal, find the outer radius.",
+      "options": {
+        "A": "2.5 cm",
+        "B": "3.5 cm",
+        "C": "2 cm",
+        "D": "2.25 cm",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "2*pi*h(R-r)=44 => R-r=0.5. pi*h(R^2-r^2)=99 => R+r=2.25. Solving, R=2.5.",
+      "hash": "7b412f385be97c56",
+      "translations": {
+        "hi": {
+          "question": "14 सेमी लंबे एक बेलनाकार धातु के पाइप के बाहरी और आंतरिक पृष्ठीय क्षेत्रफल का अंतर 44 वर्ग सेमी है। यदि पाइप 99 घन सेमी धातु से बना है, तो बाहरी त्रिज्या ज्ञात कीजिए।",
+          "options": {
+            "A": "2.5 सेमी",
+            "B": "3.5 सेमी",
+            "C": "2 सेमी",
+            "D": "2.25 सेमी",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "2*pi*h(R-r)=44 => R-r=0.5. pi*h(R^2-r^2)=99 => R+r=2.25. हल करने पर, R=2.5."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-017",
+      "number": 17,
+      "question": "Find the area of a rhombus whose diagonals are of lengths 10 cm and 8.2 cm.",
+      "options": {
+        "A": "41 sq.cm",
+        "B": "82 sq.cm",
+        "C": "20.5 sq.cm",
+        "D": "45 sq.cm",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = 0.5 * d1 * d2 = 0.5 * 10 * 8.2 = 41 sq.cm.",
+      "hash": "2e5285e1a4c965fa",
+      "translations": {
+        "hi": {
+          "question": "एक समचतुर्भुज का क्षेत्रफल ज्ञात कीजिए जिसके विकर्णों की लंबाई 10 सेमी और 8.2 सेमी है।",
+          "options": {
+            "A": "41 वर्ग सेमी",
+            "B": "82 वर्ग सेमी",
+            "C": "20.5 वर्ग सेमी",
+            "D": "45 वर्ग सेमी",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "क्षेत्रफल = 0.5 * d1 * d2 = 0.5 * 10 * 8.2 = 41 वर्ग सेमी।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-018",
+      "number": 18,
+      "question": "If the radius of a sphere is doubled, then its volume becomes how many times?",
+      "options": {
+        "A": "2 times",
+        "B": "4 times",
+        "C": "8 times",
+        "D": "16 times",
+        "E": "More than one of the above"
+      },
+      "answer": "C",
+      "explanation": "Vol is proportional to r^3. (2r)^3 = 8r^3. So 8 times.",
+      "hash": "acbd7572efd4592c",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी गोले की त्रिज्या दोगुनी कर दी जाए, तो उसका आयतन कितने गुना हो जाएगा?",
+          "options": {
+            "A": "2 गुना",
+            "B": "4 गुना",
+            "C": "8 गुना",
+            "D": "16 गुना",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "आयतन r^3 के समानुपाती होता है। (2r)^3 = 8r^3. इसलिए 8 गुना।"
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-019",
+      "number": 19,
+      "question": "A cylindrical tank has a capacity of 6160 cubic meters. Find its depth if the diameter of its base is 28 m.",
+      "options": {
+        "A": "10 m",
+        "B": "12 m",
+        "C": "15 m",
+        "D": "8 m",
+        "E": "None of the above"
+      },
+      "answer": "A",
+      "explanation": "Vol = pi*r^2*h. 6160 = (22/7)*14*14*h. 6160 = 616*h, so h=10.",
+      "hash": "dbee5e9dbbe39a89",
+      "translations": {
+        "hi": {
+          "question": "एक बेलनाकार टैंक की क्षमता 6160 घन मीटर है। यदि इसके आधार का व्यास 28 मीटर है तो इसकी गहराई ज्ञात कीजिए।",
+          "options": {
+            "A": "10 मीटर",
+            "B": "12 मीटर",
+            "C": "15 मीटर",
+            "D": "8 मीटर",
+            "E": "उपरोक्त में से कोई नहीं"
+          },
+          "explanation": "आयतन = pi*r^2*h. 6160 = (22/7)*14*14*h. 6160 = 616*h, इसलिए h=10."
+        }
+      }
+    },
+    {
+      "id": "mensuration-01-020",
+      "number": 20,
+      "question": "The area of a sector of a circle with radius 6 cm is 13.2 sq.cm. Find the angle of the sector.",
+      "options": {
+        "A": "42 degrees",
+        "B": "30 degrees",
+        "C": "60 degrees",
+        "D": "45 degrees",
+        "E": "More than one of the above"
+      },
+      "answer": "A",
+      "explanation": "Area = (theta/360)*pi*r^2. 13.2 = (theta/360)*(22/7)*36. theta = 42 degrees approx.",
+      "hash": "58e8b3fc4d9c2852",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी त्रिज्या वाले एक वृत्त के त्रिज्यखंड का क्षेत्रफल 13.2 वर्ग सेमी है। त्रिज्यखंड का कोण ज्ञात कीजिए।",
+          "options": {
+            "A": "42 डिग्री",
+            "B": "30 डिग्री",
+            "C": "60 डिग्री",
+            "D": "45 डिग्री",
+            "E": "उपरोक्त में से एक से अधिक"
+          },
+          "explanation": "क्षेत्रफल = (theta/360)*pi*r^2. 13.2 = (theta/360)*(22/7)*36. theta = 42 डिग्री लगभग।"
+        }
+      }
+    }
+  ]
+}

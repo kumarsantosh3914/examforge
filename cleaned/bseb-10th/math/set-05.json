@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 5,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-05-001",
+      "number": 1,
+      "question": "Which of the following is an AP?",
+      "options": {
+        "A": "2, 4, 8, 16",
+        "B": "1, 3, 9, 27",
+        "C": "-10, -6, -2, 2",
+        "D": "1, 2, 4, 5"
+      },
+      "answer": "C",
+      "explanation": "Common difference is constant (4).",
+      "hash": "e89ac02c184daae2",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित में से कौन समांतर श्रेणी (AP) है?",
+          "options": {
+            "A": "2, 4, 8, 16",
+            "B": "1, 3, 9, 27",
+            "C": "-10, -6, -2, 2",
+            "D": "1, 2, 4, 5"
+          },
+          "explanation": "-10, -6, -2, 2 में सार्व अंतर समान (4) है।"
+        }
+      }
+    },
+    {
+      "id": "math-05-002",
+      "number": 2,
+      "question": "What is the 10th term of AP: 2, 7, 12...?",
+      "options": {
+        "A": "45",
+        "B": "47",
+        "C": "50",
+        "D": "52"
+      },
+      "answer": "B",
+      "explanation": "a10 = 2 + 45 = 47.",
+      "hash": "9e91c5abeba48cc1",
+      "translations": {
+        "hi": {
+          "question": "AP: 2, 7, 12... का 10वां पद क्या है?",
+          "options": {
+            "A": "45",
+            "B": "47",
+            "C": "50",
+            "D": "52"
+          },
+          "explanation": "a=2, d=5. a10 = a + 9d = 2 + 9(5) = 2 + 45 = 47।"
+        }
+      }
+    },
+    {
+      "id": "math-05-003",
+      "number": 3,
+      "question": "What is the formula for the nth term of an AP?",
+      "options": {
+        "A": "an = a + nd",
+        "B": "an = a + (n-1)d",
+        "C": "an = a + (n+1)d",
+        "D": "an = 2a + (n-1)d"
+      },
+      "answer": "B",
+      "explanation": "General term: an = a + (n-1)d.",
+      "hash": "8175da9aaa5f60e5",
+      "translations": {
+        "hi": {
+          "question": "AP के nवें पद का सूत्र क्या है?",
+          "options": {
+            "A": "an = a + nd",
+            "B": "an = a + (n-1)d",
+            "C": "an = a + (n+1)d",
+            "D": "an = 2a + (n-1)d"
+          },
+          "explanation": "व्यापक पद: an = a + (n-1)d।"
+        }
+      }
+    },
+    {
+      "id": "math-05-004",
+      "number": 4,
+      "question": "If nth term of an AP is 3n + 5, what is its common difference?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "8",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Coefficient of n is the common difference. d = 3.",
+      "hash": "adfde1726a5e00d5",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP का nवां पद 3n + 5 है, तो इसका सार्व अंतर (d) क्या होगा?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "8",
+            "D": "2"
+          },
+          "explanation": "n का गुणांक ही सार्व अंतर होता है। d = 3।"
+        }
+      }
+    },
+    {
+      "id": "math-05-005",
+      "number": 5,
+      "question": "Sum of first 'n' positive integers?",
+      "options": {
+        "A": "n(n+1)",
+        "B": "n(n+1)/2",
+        "C": "n²",
+        "D": "n(n-1)/2"
+      },
+      "answer": "B",
+      "explanation": "Sn = n(n+1)/2.",
+      "hash": "462cb00a0acfbc09",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 'n' धन पूर्णांकों का योग क्या होता है?",
+          "options": {
+            "A": "n(n+1)",
+            "B": "n(n+1)/2",
+            "C": "n²",
+            "D": "n(n-1)/2"
+          },
+          "explanation": "Sn = n(n+1)/2।"
+        }
+      }
+    },
+    {
+      "id": "math-05-006",
+      "number": 6,
+      "question": "If a, b, c are in AP, then b is equal to?",
+      "options": {
+        "A": "(a+c)/2",
+        "B": "a+c",
+        "C": "a-c",
+        "D": "ac"
+      },
+      "answer": "A",
+      "explanation": "b = (a+c)/2 (Arithmetic Mean).",
+      "hash": "5161982a18165753",
+      "translations": {
+        "hi": {
+          "question": "यदि a, b, c AP में हैं, तो b बराबर है?",
+          "options": {
+            "A": "(a+c)/2",
+            "B": "a+c",
+            "C": "a-c",
+            "D": "ac"
+          },
+          "explanation": "b = (a+c)/2 (समांतर माध्य)।"
+        }
+      }
+    },
+    {
+      "id": "math-05-007",
+      "number": 7,
+      "question": "Which term of AP: 3, 8, 13, 18... is 78?",
+      "options": {
+        "A": "12वां",
+        "B": "15वां",
+        "C": "16वां",
+        "D": "18वां"
+      },
+      "answer": "C",
+      "explanation": "78 = 3 + (n-1)5 => n = 16.",
+      "hash": "c3a5303832651f00",
+      "translations": {
+        "hi": {
+          "question": "AP: 3, 8, 13, 18... का कौन सा पद 78 है?",
+          "options": {
+            "A": "12वां",
+            "B": "15वां",
+            "C": "16वां",
+            "D": "18वां"
+          },
+          "explanation": "78 = 3 + (n-1)5 => 75 = 5(n-1) => 15 = n-1 => n = 16।"
+        }
+      }
+    },
+    {
+      "id": "math-05-008",
+      "number": 8,
+      "question": "30th term of AP: 10, 7, 4...?",
+      "options": {
+        "A": "97",
+        "B": "77",
+        "C": "-77",
+        "D": "-87"
+      },
+      "answer": "C",
+      "explanation": "a30 = 10 - 87 = -77.",
+      "hash": "f0007faf238ae54b",
+      "translations": {
+        "hi": {
+          "question": "AP: 10, 7, 4... का 30वां पद है?",
+          "options": {
+            "A": "97",
+            "B": "77",
+            "C": "-77",
+            "D": "-87"
+          },
+          "explanation": "a30 = 10 + 29(-3) = 10 - 87 = -77।"
+        }
+      }
+    },
+    {
+      "id": "math-05-009",
+      "number": 9,
+      "question": "Sum of first 10 odd natural numbers?",
+      "options": {
+        "A": "100",
+        "B": "90",
+        "C": "110",
+        "D": "50"
+      },
+      "answer": "A",
+      "explanation": "Sum = n² = 100.",
+      "hash": "1005bf7823b58c3a",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 10 विषम प्राकृत संख्याओं का योग क्या है?",
+          "options": {
+            "A": "100",
+            "B": "90",
+            "C": "110",
+            "D": "50"
+          },
+          "explanation": "विषम संख्याओं का योग = n² = 10² = 100।"
+        }
+      }
+    },
+    {
+      "id": "math-05-010",
+      "number": 10,
+      "question": "If common difference is 5, value of a18 - a13?",
+      "options": {
+        "A": "5",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": "C",
+      "explanation": "Difference is 5d = 25.",
+      "hash": "c26d6ecd7b4439d5",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी AP का सार्व अंतर 5 है, तो a18 - a13 का मान क्या है?",
+          "options": {
+            "A": "5",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+          },
+          "explanation": "a18 - a13 = (a+17d) - (a+12d) = 5d = 5(5) = 25।"
+        }
+      }
+    },
+    {
+      "id": "math-05-011",
+      "number": 11,
+      "question": "Sum of first 22 terms of AP: 8, 3, -2...?",
+      "options": {
+        "A": "-979",
+        "B": "-970",
+        "C": "979",
+        "D": "-1000"
+      },
+      "answer": "A",
+      "explanation": "Formula Sn = n/2[2a+(n-1)d] gives -979.",
+      "hash": "d65b3796e4dc4f05",
+      "translations": {
+        "hi": {
+          "question": "AP: 8, 3, -2... के प्रथम 22 पदों का योग ज्ञात करें।",
+          "options": {
+            "A": "-979",
+            "B": "-970",
+            "C": "979",
+            "D": "-1000"
+          },
+          "explanation": "S22 = 22/2 [2(8) + 21(-5)] = 11[16 - 105] = 11[-89] = -979।"
+        }
+      }
+    },
+    {
+      "id": "math-05-012",
+      "number": 12,
+      "question": "If first term -2 and d=0, next three terms?",
+      "options": {
+        "A": "-2, -2, -2",
+        "B": "-2, 0, 2",
+        "C": "0, 0, 0",
+        "D": "-2, -4, -6"
+      },
+      "answer": "A",
+      "explanation": "Terms remain constant.",
+      "hash": "45884991f85c9443",
+      "translations": {
+        "hi": {
+          "question": "यदि AP का पहला पद -2 और सार्व अंतर 0 है, तो अगले तीन पद क्या होंगे?",
+          "options": {
+            "A": "-2, -2, -2",
+            "B": "-2, 0, 2",
+            "C": "0, 0, 0",
+            "D": "-2, -4, -6"
+          },
+          "explanation": "d=0 होने पर पद नहीं बदलते। -2, -2, -2..."
+        }
+      }
+    },
+    {
+      "id": "math-05-013",
+      "number": 13,
+      "question": "How many multiples of 4 lie between 10 and 250?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "59",
+        "D": "61"
+      },
+      "answer": "B",
+      "explanation": "n = 60.",
+      "hash": "1131d566dfc5b503",
+      "translations": {
+        "hi": {
+          "question": "10 और 250 के बीच 4 के कितने गुणज (Multiples) हैं?",
+          "options": {
+            "A": "50",
+            "B": "60",
+            "C": "59",
+            "D": "61"
+          },
+          "explanation": "AP: 12, 16... 248। an = a + (n-1)d => 248 = 12 + (n-1)4 => 236/4 = n-1 => 59 = n-1 => n = 60।"
+        }
+      }
+    },
+    {
+      "id": "math-05-014",
+      "number": 14,
+      "question": "Sum of odd numbers between 0 and 50?",
+      "options": {
+        "A": "600",
+        "B": "625",
+        "C": "650",
+        "D": "500"
+      },
+      "answer": "B",
+      "explanation": "n=25, Sum = 25² = 625.",
+      "hash": "4966108b0d1bfe10",
+      "translations": {
+        "hi": {
+          "question": "0 और 50 के बीच की विषम संख्याओं का योग क्या है?",
+          "options": {
+            "A": "600",
+            "B": "625",
+            "C": "650",
+            "D": "500"
+          },
+          "explanation": "कुल 25 विषम संख्याएं हैं। योग = n² = 25² = 625।"
+        }
+      }
+    },
+    {
+      "id": "math-05-015",
+      "number": 15,
+      "question": "For which AP can common difference be negative?",
+      "options": {
+        "A": "बढ़ती हुई AP",
+        "B": "घटती हुई AP",
+        "C": "स्थिर AP",
+        "D": "कभी नहीं"
+      },
+      "answer": "B",
+      "explanation": "Decreasing AP.",
+      "hash": "354d2b07b81ca5ad",
+      "translations": {
+        "hi": {
+          "question": "किस AP के लिए सार्व अंतर (d) ऋणात्मक हो सकता है?",
+          "options": {
+            "A": "बढ़ती हुई AP",
+            "B": "घटती हुई AP",
+            "C": "स्थिर AP",
+            "D": "कभी नहीं"
+          },
+          "explanation": "घटती हुई AP (Decreasing AP) का d ऋणात्मक होता है (जैसे 10, 8, 6...)।"
+        }
+      }
+    },
+    {
+      "id": "math-05-016",
+      "number": 16,
+      "question": "If Sn = 3n² + n, what is the second term (a2)?",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "10",
+        "D": "4"
+      },
+      "answer": "C",
+      "explanation": "a2 = S2 - S1 = 10.",
+      "hash": "a08fcbaf01f6513c",
+      "translations": {
+        "hi": {
+          "question": "AP का n पदों का योग Sn = 3n² + n है, तो दूसरा पद (a2) क्या होगा?",
+          "options": {
+            "A": "7",
+            "B": "14",
+            "C": "10",
+            "D": "4"
+          },
+          "explanation": "S1 = 3(1)+1 = 4 (a1)। S2 = 3(4)+2 = 14। a2 = S2 - S1 = 14 - 4 = 10।"
+        }
+      }
+    },
+    {
+      "id": "math-05-017",
+      "number": 17,
+      "question": "Three numbers in AP sum to 24. Middle number?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "3a = 24 => a = 8.",
+      "hash": "ffc72ea2fd1cb6c3",
+      "translations": {
+        "hi": {
+          "question": "तीन संख्याएं AP में हैं और उनका योग 24 है। बीच वाली संख्या क्या है?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "10",
+            "D": "12"
+          },
+          "explanation": "(a-d) + a + (a+d) = 24 => 3a = 24 => a = 8।"
+        }
+      }
+    },
+    {
+      "id": "math-05-018",
+      "number": 18,
+      "question": "Rungs of a ladder decrease by 2cm from bottom to top. Example of?",
+      "options": {
+        "A": "GP",
+        "B": "AP",
+        "C": "HP",
+        "D": "कुछ नहीं"
+      },
+      "answer": "B",
+      "explanation": "Uniform decrease represents AP.",
+      "hash": "51236776b3418feb",
+      "translations": {
+        "hi": {
+          "question": "एक सीढ़ी के डंडों की लंबाई नीचे से ऊपर की ओर 2 सेमी घटती जाती है। यह किसका उदाहरण है?",
+          "options": {
+            "A": "GP",
+            "B": "AP",
+            "C": "HP",
+            "D": "कुछ नहीं"
+          },
+          "explanation": "समान अंतर से घटना AP का उदाहरण है।"
+        }
+      }
+    },
+    {
+      "id": "math-05-019",
+      "number": 19,
+      "question": "First term from the end of AP: 5, 9, 13... 185?",
+      "options": {
+        "A": "185",
+        "B": "5",
+        "C": "9",
+        "D": "181"
+      },
+      "answer": "A",
+      "explanation": "The last term itself is the first from the end.",
+      "hash": "4021459dc578aabb",
+      "translations": {
+        "hi": {
+          "question": "AP: 5, 9, 13... 185 का अंतिम पद से (from the end) प्रथम पद कौन सा है?",
+          "options": {
+            "A": "185",
+            "B": "5",
+            "C": "9",
+            "D": "181"
+          },
+          "explanation": "अंतिम पद से गिनने पर पहला पद 185 ही होगा।"
+        }
+      }
+    },
+    {
+      "id": "math-05-020",
+      "number": 20,
+      "question": "If 2x, x+10, 3x+2 are in AP, find x.",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "5",
+        "D": "8"
+      },
+      "answer": "A",
+      "explanation": "2b = a + c gives x = 6.",
+      "hash": "e26523878f6d4b27",
+      "translations": {
+        "hi": {
+          "question": "यदि 2x, x + 10, 3x + 2 AP में हैं, तो x का मान?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "5",
+            "D": "8"
+          },
+          "explanation": "2(x+10) = 2x + (3x+2) => 2x + 20 = 5x + 2 => 18 = 3x => x = 6।"
+        }
+      }
+    },
+    {
+      "id": "math-05-021",
+      "number": 21,
+      "question": "Common difference of √2, √8, √18, √32...?",
+      "options": {
+        "A": "√2",
+        "B": "√6",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Series is √2, 2√2, 3√2... d = √2.",
+      "hash": "834295caae5be3cf",
+      "translations": {
+        "hi": {
+          "question": "AP: √2, √8, √18, √32... का सार्व अंतर क्या है?",
+          "options": {
+            "A": "√2",
+            "B": "√6",
+            "C": "2",
+            "D": "3"
+          },
+          "explanation": "√8 = 2√2, √18 = 3√2। d = 2√2 - √2 = √2।"
+        }
+      }
+    },
+    {
+      "id": "math-05-022",
+      "number": 22,
+      "question": "Sum of first 15 multiples of 8?",
+      "options": {
+        "A": "960",
+        "B": "900",
+        "C": "920",
+        "D": "1000"
+      },
+      "answer": "A",
+      "explanation": "Formula gives 960.",
+      "hash": "c26a963af5213cc4",
+      "translations": {
+        "hi": {
+          "question": "8 के प्रथम 15 गुणजों का योग क्या है?",
+          "options": {
+            "A": "960",
+            "B": "900",
+            "C": "920",
+            "D": "1000"
+          },
+          "explanation": "S15 = 15/2 [2(8) + 14(8)] = 15/2 [16 + 112] = 15/2 [128] = 15 × 64 = 960।"
+        }
+      }
+    },
+    {
+      "id": "math-05-023",
+      "number": 23,
+      "question": "Technique used by Gauss to sum 1 to 100?",
+      "options": {
+        "A": "पदों को उल्टा करके जोड़ना",
+        "B": "गुणा करना",
+        "C": "भाग देना",
+        "D": "घटाना"
+      },
+      "answer": "A",
+      "explanation": "Reversing and adding.",
+      "hash": "97eb49ebbce53efa",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 100 प्राकृत संख्याओं का योग ज्ञात करने के लिए गाउस (Gauss) ने किस तकनीक का प्रयोग किया?",
+          "options": {
+            "A": "पदों को उल्टा करके जोड़ना",
+            "B": "गुणा करना",
+            "C": "भाग देना",
+            "D": "घटाना"
+          },
+          "explanation": "सीरीज को उल्टा लिखकर जोड़ने पर हर जोड़े का योग समान (101) आता है। Sn = n(n+1)/2।"
+        }
+      }
+    },
+    {
+      "id": "math-05-024",
+      "number": 24,
+      "question": "If a=3.5, d=0, n=101, value of an?",
+      "options": {
+        "A": "0",
+        "B": "3.5",
+        "C": "103.5",
+        "D": "104.5"
+      },
+      "answer": "B",
+      "explanation": "Term remains constant.",
+      "hash": "d4653a488f4d0fbf",
+      "translations": {
+        "hi": {
+          "question": "यदि a = 3.5, d = 0, n = 101, तो an का मान?",
+          "options": {
+            "A": "0",
+            "B": "3.5",
+            "C": "103.5",
+            "D": "104.5"
+          },
+          "explanation": "d=0 है, तो हर पद 3.5 ही रहेगा।"
+        }
+      }
+    },
+    {
+      "id": "math-05-025",
+      "number": 25,
+      "question": "Is 1, 1, 2, 2, 3, 3... an AP?",
+      "options": {
+        "A": "हाँ",
+        "B": "नहीं",
+        "C": "कहा नहीं जा सकता",
+        "D": "कभी-कभी"
+      },
+      "answer": "B",
+      "explanation": "No, difference is not constant.",
+      "hash": "88637f678c0c7da2",
+      "translations": {
+        "hi": {
+          "question": "क्या अनुक्रम 1, 1, 2, 2, 3, 3... एक AP है?",
+          "options": {
+            "A": "हाँ",
+            "B": "नहीं",
+            "C": "कहा नहीं जा सकता",
+            "D": "कभी-कभी"
+          },
+          "explanation": "नहीं, अंतर समान नहीं है (0, 1, 0, 1...)।"
+        }
+      }
+    },
+    {
+      "id": "math-05-026",
+      "number": 26,
+      "question": "p times p-th term equals q times q-th term. (p+q)th term?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "p+q",
+        "D": "p-q"
+      },
+      "answer": "A",
+      "explanation": "Standard result, answer is 0.",
+      "hash": "18cd0beddb244ddf",
+      "translations": {
+        "hi": {
+          "question": "यदि AP के pवें पद का p गुना, qवें पद के q गुना के बराबर है, तो (p+q)वां पद क्या होगा?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "p+q",
+            "D": "p-q"
+          },
+          "explanation": "यह एक मानक परिणाम है, उत्तर हमेशा 0 होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-05-027",
+      "number": 27,
+      "question": "Roses: 23, 21, 19... last row 5. Number of rows?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "9",
+        "D": "11"
+      },
+      "answer": "A",
+      "explanation": "n = 10.",
+      "hash": "9883ed272adfa37d",
+      "translations": {
+        "hi": {
+          "question": "एक फूल की क्यारी में पहली पंक्ति में 23 गुलाब, दूसरी में 21, तीसरी में 19... अंतिम में 5 हैं। कुल कितनी पंक्तियां हैं?",
+          "options": {
+            "A": "10",
+            "B": "12",
+            "C": "9",
+            "D": "11"
+          },
+          "explanation": "an = 5, a = 23, d = -2। 5 = 23 + (n-1)(-2) => -18 = -2(n-1) => 9 = n-1 => n = 10।"
+        }
+      }
+    },
+    {
+      "id": "math-05-028",
+      "number": 28,
+      "question": "Sum of natural numbers from 1 to 100?",
+      "options": {
+        "A": "5050",
+        "B": "5000",
+        "C": "5500",
+        "D": "10100"
+      },
+      "answer": "A",
+      "explanation": "5050.",
+      "hash": "c663251213af9b1d",
+      "translations": {
+        "hi": {
+          "question": "1 से 100 तक सभी प्राकृत संख्याओं का योग?",
+          "options": {
+            "A": "5050",
+            "B": "5000",
+            "C": "5500",
+            "D": "10100"
+          },
+          "explanation": "100(101)/2 = 5050।"
+        }
+      }
+    },
+    {
+      "id": "math-05-029",
+      "number": 29,
+      "question": "4th term from end of -11, -8, -5... 49?",
+      "options": {
+        "A": "40",
+        "B": "37",
+        "C": "43",
+        "D": "46"
+      },
+      "answer": "A",
+      "explanation": "l - (n-1)d => 49 - 9 = 40.",
+      "hash": "efa5cfd19982a490",
+      "translations": {
+        "hi": {
+          "question": "AP: -11, -8, -5... 49 का अंत से चौथा पद (4th from end) क्या है?",
+          "options": {
+            "A": "40",
+            "B": "37",
+            "C": "43",
+            "D": "46"
+          },
+          "explanation": "अंत से nवां पद = l - (n-1)d। 49 - (3)(3) = 49 - 9 = 40।"
+        }
+      }
+    },
+    {
+      "id": "math-05-030",
+      "number": 30,
+      "question": "If Sn = n² + 2n, find first term and d.",
+      "options": {
+        "A": "3, 2",
+        "B": "2, 3",
+        "C": "1, 2",
+        "D": "3, 3"
+      },
+      "answer": "A",
+      "explanation": "a=3, d=2.",
+      "hash": "bf912d6d799d146b",
+      "translations": {
+        "hi": {
+          "question": "यदि Sn = n² + 2n है, तो पहला पद और सार्व अंतर क्या है?",
+          "options": {
+            "A": "3, 2",
+            "B": "2, 3",
+            "C": "1, 2",
+            "D": "3, 3"
+          },
+          "explanation": "S1 = 3 (a1)। S2 = 8। a2 = 8-3=5। d = 5-3=2।"
+        }
+      }
+    }
+  ]
+}

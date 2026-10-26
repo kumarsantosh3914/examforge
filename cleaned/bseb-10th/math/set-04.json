@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 4,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-04-001",
+      "number": 1,
+      "question": "Value of Discriminant of x² - 4x + 4 = 0?",
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "16",
+        "D": "-4"
+      },
+      "answer": "B",
+      "explanation": "D = 16 - 16 = 0.",
+      "hash": "d5be685f09906a1d",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x² - 4x + 4 = 0 के विविक्तकर (Discriminant) का मान क्या है?",
+          "options": {
+            "A": "4",
+            "B": "0",
+            "C": "16",
+            "D": "-4"
+          },
+          "explanation": "D = b² - 4ac = (-4)² - 4(1)(4) = 16 - 16 = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-002",
+      "number": 2,
+      "question": "What is the standard form of a Quadratic Equation?",
+      "options": {
+        "A": "ax + b = 0",
+        "B": "ax² + bx + c = 0",
+        "C": "ax³ + bx² + c = 0",
+        "D": "ax² + b = 0"
+      },
+      "answer": "B",
+      "explanation": "Standard form is ax² + bx + c = 0, where a ≠ 0.",
+      "hash": "11d7c9351f5758d5",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण का मानक रूप (Standard Form) क्या है?",
+          "options": {
+            "A": "ax + b = 0",
+            "B": "ax² + bx + c = 0",
+            "C": "ax³ + bx² + c = 0",
+            "D": "ax² + b = 0"
+          },
+          "explanation": "मानक रूप ax² + bx + c = 0 होता है, जहाँ a ≠ 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-003",
+      "number": 3,
+      "question": "Roots of 2x² - 5x + 3 = 0?",
+      "options": {
+        "A": "1, 3/2",
+        "B": "-1, -3/2",
+        "C": "1, -3/2",
+        "D": "-1, 3/2"
+      },
+      "answer": "A",
+      "explanation": "Factors gives x = 1, 3/2.",
+      "hash": "c3504c1df892f2e8",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण 2x² - 5x + 3 = 0 के मूल क्या हैं?",
+          "options": {
+            "A": "1, 3/2",
+            "B": "-1, -3/2",
+            "C": "1, -3/2",
+            "D": "-1, 3/2"
+          },
+          "explanation": "गुणनखंड: 2x² - 2x - 3x + 3 = 0 => 2x(x-1) - 3(x-1) = 0 => x = 1, 3/2।"
+        }
+      }
+    },
+    {
+      "id": "math-04-004",
+      "number": 4,
+      "question": "If roots are Real and Equal, value of D is?",
+      "options": {
+        "A": "D > 0",
+        "B": "D < 0",
+        "C": "D = 0",
+        "D": "D ≥ 0"
+      },
+      "answer": "C",
+      "explanation": "Condition for equal roots is D = 0.",
+      "hash": "8033f293120b1b13",
+      "translations": {
+        "hi": {
+          "question": "यदि द्विघात समीकरण के मूल वास्तविक और समान (Real and Equal) हों, तो D का मान क्या होगा?",
+          "options": {
+            "A": "D > 0",
+            "B": "D < 0",
+            "C": "D = 0",
+            "D": "D ≥ 0"
+          },
+          "explanation": "मूल समान होने की शर्त D = 0 है।"
+        }
+      }
+    },
+    {
+      "id": "math-04-005",
+      "number": 5,
+      "question": "Nature of roots of 3x² - 2x + 1/3 = 0?",
+      "options": {
+        "A": "वास्तविक और असमान",
+        "B": "वास्तविक और समान",
+        "C": "कोई वास्तविक मूल नहीं",
+        "D": "इनमें से कोई नहीं"
+      },
+      "answer": "B",
+      "explanation": "D = 0, so Real and Equal.",
+      "hash": "92ae79c15ba4e3e9",
+      "translations": {
+        "hi": {
+          "question": "समीकरण 3x² - 2x + 1/3 = 0 के मूलों की प्रकृति कैसी है?",
+          "options": {
+            "A": "वास्तविक और असमान",
+            "B": "वास्तविक और समान",
+            "C": "कोई वास्तविक मूल नहीं",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "D = (-2)² - 4(3)(1/3) = 4 - 4 = 0। (वास्तविक और समान)।"
+        }
+      }
+    },
+    {
+      "id": "math-04-006",
+      "number": 6,
+      "question": "If roots of x² - kx + 4 = 0 are equal, find k.",
+      "options": {
+        "A": "±2",
+        "B": "±4",
+        "C": "±8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "k² - 16 = 0 => k = ±4.",
+      "hash": "8eff9e9561e5f289",
+      "translations": {
+        "hi": {
+          "question": "यदि x² - kx + 4 = 0 के मूल समान हों, तो k का मान क्या है?",
+          "options": {
+            "A": "±2",
+            "B": "±4",
+            "C": "±8",
+            "D": "16"
+          },
+          "explanation": "b² - 4ac = 0 => (-k)² - 4(1)(4) = 0 => k² = 16 => k = ±4।"
+        }
+      }
+    },
+    {
+      "id": "math-04-007",
+      "number": 7,
+      "question": "Who gave the Quadratic Formula?",
+      "options": {
+        "A": "आर्यभट्ट",
+        "B": "श्रीधराचार्य",
+        "C": "यूक्लिड",
+        "D": "पाइथागोरस"
+      },
+      "answer": "B",
+      "explanation": "Also known as Sridharacharya Formula.",
+      "hash": "11ef0f11338fe716",
+      "translations": {
+        "hi": {
+          "question": "द्विघात सूत्र (Quadratic Formula) किसने दिया था?",
+          "options": {
+            "A": "आर्यभट्ट",
+            "B": "श्रीधराचार्य",
+            "C": "यूक्लिड",
+            "D": "पाइथागोरस"
+          },
+          "explanation": "इसे श्रीधराचार्य सूत्र भी कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-04-008",
+      "number": 8,
+      "question": "If one root is reciprocal of the other, then?",
+      "options": {
+        "A": "a = c",
+        "B": "a = b",
+        "C": "b = c",
+        "D": "a = -c"
+      },
+      "answer": "A",
+      "explanation": "Product is 1, so c/a = 1 => a = c.",
+      "hash": "826036bcdba708e7",
+      "translations": {
+        "hi": {
+          "question": "यदि एक मूल दूसरे का व्युत्क्रम (Reciprocal) हो, तो कौन सा संबंध सही है?",
+          "options": {
+            "A": "a = c",
+            "B": "a = b",
+            "C": "b = c",
+            "D": "a = -c"
+          },
+          "explanation": "गुणनफल = 1 => c/a = 1 => a = c।"
+        }
+      }
+    },
+    {
+      "id": "math-04-009",
+      "number": 9,
+      "question": "Sum of roots of ax² + bx + c = 0?",
+      "options": {
+        "A": "c/a",
+        "B": "-b/a",
+        "C": "b/a",
+        "D": "-c/a"
+      },
+      "answer": "B",
+      "explanation": "Sum = -b/a.",
+      "hash": "580891e9007e0867",
+      "translations": {
+        "hi": {
+          "question": "ax² + bx + c = 0 के मूलों का योग (Sum of Roots) क्या होता है?",
+          "options": {
+            "A": "c/a",
+            "B": "-b/a",
+            "C": "b/a",
+            "D": "-c/a"
+          },
+          "explanation": "मूलों का योग α + β = -b/a।"
+        }
+      }
+    },
+    {
+      "id": "math-04-010",
+      "number": 10,
+      "question": "Product of two consecutive positive integers is 306. Equation?",
+      "options": {
+        "A": "x(x+1) = 306",
+        "B": "x + (x+1) = 306",
+        "C": "x² + x + 306 = 0",
+        "D": "x(x+2) = 306"
+      },
+      "answer": "A",
+      "explanation": "x(x+1) = 306.",
+      "hash": "d000f597e239dfc6",
+      "translations": {
+        "hi": {
+          "question": "दो क्रमागत धनात्मक पूर्णांकों का गुणनफल 306 है। इसे द्विघात समीकरण के रूप में कैसे लिखेंगे?",
+          "options": {
+            "A": "x(x+1) = 306",
+            "B": "x + (x+1) = 306",
+            "C": "x² + x + 306 = 0",
+            "D": "x(x+2) = 306"
+          },
+          "explanation": "पहला पूर्णांक x, दूसरा x+1। गुणनफल x(x+1) = 306।"
+        }
+      }
+    },
+    {
+      "id": "math-04-011",
+      "number": 11,
+      "question": "Solutions of x² - 9 = 0?",
+      "options": {
+        "A": "3",
+        "B": "-3",
+        "C": "±3",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "x = ±3.",
+      "hash": "ca3636899dbe5771",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x² - 9 = 0 के हल क्या हैं?",
+          "options": {
+            "A": "3",
+            "B": "-3",
+            "C": "±3",
+            "D": "9"
+          },
+          "explanation": "x² = 9 => x = ±√9 => x = ±3।"
+        }
+      }
+    },
+    {
+      "id": "math-04-012",
+      "number": 12,
+      "question": "x + 1/x = 3 as a quadratic equation?",
+      "options": {
+        "A": "x² + 3x + 1 = 0",
+        "B": "x² - 3x + 1 = 0",
+        "C": "x² - 3x - 1 = 0",
+        "D": "x² + 1 = 3x"
+      },
+      "answer": "B",
+      "explanation": "x² - 3x + 1 = 0.",
+      "hash": "8db316f0638d4ea9",
+      "translations": {
+        "hi": {
+          "question": "x + 1/x = 3 को द्विघात समीकरण के रूप में लिखने पर क्या प्राप्त होगा?",
+          "options": {
+            "A": "x² + 3x + 1 = 0",
+            "B": "x² - 3x + 1 = 0",
+            "C": "x² - 3x - 1 = 0",
+            "D": "x² + 1 = 3x"
+          },
+          "explanation": "(x² + 1)/x = 3 => x² + 1 = 3x => x² - 3x + 1 = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-013",
+      "number": 13,
+      "question": "Area 528 m². Length is one more than twice breadth. Equation?",
+      "options": {
+        "A": "x(2x+1) = 528",
+        "B": "x(2x-1) = 528",
+        "C": "2x(x+1) = 528",
+        "D": "x² + 2x = 528"
+      },
+      "answer": "A",
+      "explanation": "Breadth x, Length 2x+1. Area = x(2x+1).",
+      "hash": "6b9f290f40510d87",
+      "translations": {
+        "hi": {
+          "question": "एक आयताकार खेत का क्षेत्रफल 528 मी² है। लंबाई चौड़ाई के दोगुने से एक अधिक है। समीकरण होगा?",
+          "options": {
+            "A": "x(2x+1) = 528",
+            "B": "x(2x-1) = 528",
+            "C": "2x(x+1) = 528",
+            "D": "x² + 2x = 528"
+          },
+          "explanation": "चौड़ाई = x, लंबाई = 2x+1। क्षेत्रफल = x(2x+1) = 528।"
+        }
+      }
+    },
+    {
+      "id": "math-04-014",
+      "number": 14,
+      "question": "Product of roots?",
+      "options": {
+        "A": "-b/a",
+        "B": "c/a",
+        "C": "b/a",
+        "D": "-c/a"
+      },
+      "answer": "B",
+      "explanation": "c/a.",
+      "hash": "01766e28a53221f0",
+      "translations": {
+        "hi": {
+          "question": "मूलों का गुणनफल (Product of Roots) क्या होता है?",
+          "options": {
+            "A": "-b/a",
+            "B": "c/a",
+            "C": "b/a",
+            "D": "-c/a"
+          },
+          "explanation": "α.β = c/a।"
+        }
+      }
+    },
+    {
+      "id": "math-04-015",
+      "number": 15,
+      "question": "Discriminant of x² + x + 1 = 0?",
+      "options": {
+        "A": "1",
+        "B": "-3",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "1 - 4 = -3.",
+      "hash": "c7300a3316e22378",
+      "translations": {
+        "hi": {
+          "question": "समीकरण x² + x + 1 = 0 के विविक्तकर का मान क्या है?",
+          "options": {
+            "A": "1",
+            "B": "-3",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "D = 1² - 4(1)(1) = 1 - 4 = -3।"
+        }
+      }
+    },
+    {
+      "id": "math-04-016",
+      "number": 16,
+      "question": "If one root of ax² + bx + c = 0 is 0, then?",
+      "options": {
+        "A": "a = 0",
+        "B": "b = 0",
+        "C": "c = 0",
+        "D": "तीनों 0"
+      },
+      "answer": "C",
+      "explanation": "Putting x=0 gives c=0.",
+      "hash": "6db816e32d61a9ed",
+      "translations": {
+        "hi": {
+          "question": "यदि द्विघात समीकरण ax² + bx + c = 0 का एक मूल 0 है, तो?",
+          "options": {
+            "A": "a = 0",
+            "B": "b = 0",
+            "C": "c = 0",
+            "D": "तीनों 0"
+          },
+          "explanation": "यदि x=0 एक मूल है, तो a(0) + b(0) + c = 0 => c = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-017",
+      "number": 17,
+      "question": "Two numbers with sum 27 and product 182?",
+      "options": {
+        "A": "12, 15",
+        "B": "13, 14",
+        "C": "10, 17",
+        "D": "11, 16"
+      },
+      "answer": "B",
+      "explanation": "Roots of x² - 27x + 182 = 0 are 13, 14.",
+      "hash": "b087f111844aeda7",
+      "translations": {
+        "hi": {
+          "question": "ऐसी दो संख्याएं जिनका योग 27 और गुणनफल 182 हो?",
+          "options": {
+            "A": "12, 15",
+            "B": "13, 14",
+            "C": "10, 17",
+            "D": "11, 16"
+          },
+          "explanation": "x(27-x) = 182 => x² - 27x + 182 = 0। मूल 13 और 14।"
+        }
+      }
+    },
+    {
+      "id": "math-04-018",
+      "number": 18,
+      "question": "If roots are imaginary, then D is?",
+      "options": {
+        "A": "D > 0",
+        "B": "D = 0",
+        "C": "D < 0",
+        "D": "D ≥ 0"
+      },
+      "answer": "C",
+      "explanation": "D < 0.",
+      "hash": "377b5dd27db29963",
+      "translations": {
+        "hi": {
+          "question": "यदि मूल काल्पनिक (Imaginary) हों, तो D का मान क्या होगा?",
+          "options": {
+            "A": "D > 0",
+            "B": "D = 0",
+            "C": "D < 0",
+            "D": "D ≥ 0"
+          },
+          "explanation": "D < 0 होने पर कोई वास्तविक मूल नहीं होता।"
+        }
+      }
+    },
+    {
+      "id": "math-04-019",
+      "number": 19,
+      "question": "In Completing the Square, coefficient of x² must be made?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "कुछ भी"
+      },
+      "answer": "B",
+      "explanation": "Made 1 (Unity).",
+      "hash": "26b3e6a5c858ff74",
+      "translations": {
+        "hi": {
+          "question": "पूर्ण वर्ग विधि (Completing the Square) में x² के गुणांक को क्या बनाना पड़ता है?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "कुछ भी"
+          },
+          "explanation": "गणना आसान करने के लिए x² का गुणांक 1 (Unity) बनाया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-04-020",
+      "number": 20,
+      "question": "Nature of roots of 4x² - 12x + 9 = 0?",
+      "options": {
+        "A": "वास्तविक और असमान",
+        "B": "वास्तविक और समान",
+        "C": "काल्पनिक",
+        "D": "कोई नहीं"
+      },
+      "answer": "B",
+      "explanation": "D = 0, so Real and Equal.",
+      "hash": "15d08e46d1485446",
+      "translations": {
+        "hi": {
+          "question": "4x² - 12x + 9 = 0 के मूल कैसे हैं?",
+          "options": {
+            "A": "वास्तविक और असमान",
+            "B": "वास्तविक और समान",
+            "C": "काल्पनिक",
+            "D": "कोई नहीं"
+          },
+          "explanation": "D = (-12)² - 4(4)(9) = 144 - 144 = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-021",
+      "number": 21,
+      "question": "If roots are α and β, the equation is?",
+      "options": {
+        "A": "x² - (α+β)x + αβ = 0",
+        "B": "x² + (α+β)x + αβ = 0",
+        "C": "x² - (α+β)x - αβ = 0",
+        "D": "x² + (α+β)x - αβ = 0"
+      },
+      "answer": "A",
+      "explanation": "x² - (Sum)x + (Product) = 0.",
+      "hash": "ae0e2486ddf938c5",
+      "translations": {
+        "hi": {
+          "question": "यदि द्विघात समीकरण के मूल α और β हैं, तो समीकरण क्या होगा?",
+          "options": {
+            "A": "x² - (α+β)x + αβ = 0",
+            "B": "x² + (α+β)x + αβ = 0",
+            "C": "x² - (α+β)x - αβ = 0",
+            "D": "x² + (α+β)x - αβ = 0"
+          },
+          "explanation": "x² - (मूलों का योग)x + (मूलों का गुणनफल) = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-022",
+      "number": 22,
+      "question": "Which is NOT a quadratic equation?",
+      "options": {
+        "A": "(x+1)² = 2(x-3)",
+        "B": "x² + 3x + 1 = (x-2)²",
+        "C": "x(2x+3) = x² + 1",
+        "D": "x² + 1 = 0"
+      },
+      "answer": "B",
+      "explanation": "x² terms cancel out in option B.",
+      "hash": "e5ab06926e34f37b",
+      "translations": {
+        "hi": {
+          "question": "निम्न में से कौन द्विघात समीकरण नहीं है?",
+          "options": {
+            "A": "(x+1)² = 2(x-3)",
+            "B": "x² + 3x + 1 = (x-2)²",
+            "C": "x(2x+3) = x² + 1",
+            "D": "x² + 1 = 0"
+          },
+          "explanation": "विकल्प B में x² + 3x + 1 = x² - 4x + 4, यहाँ x² कट जाएगा, यह रैखिक बन जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "math-04-023",
+      "number": 23,
+      "question": "Rohan's mother is 26 older. After 3 years product of ages 360. Equation?",
+      "options": {
+        "A": "x(x+29) = 360",
+        "B": "(x+3)(x+29) = 360",
+        "C": "x(x+26) = 360",
+        "D": "(x+3)(x+26) = 360"
+      },
+      "answer": "B",
+      "explanation": "(x+3)(x+29) = 360.",
+      "hash": "99bf41ff4c566a27",
+      "translations": {
+        "hi": {
+          "question": "रोहन की माँ उससे 26 वर्ष बड़ी है। 3 वर्ष बाद उनकी आयु का गुणनफल 360 होगा। समीकरण?",
+          "options": {
+            "A": "x(x+29) = 360",
+            "B": "(x+3)(x+29) = 360",
+            "C": "x(x+26) = 360",
+            "D": "(x+3)(x+26) = 360"
+          },
+          "explanation": "रोहन x, माँ x+26। 3 साल बाद: (x+3) और (x+29)।"
+        }
+      }
+    },
+    {
+      "id": "math-04-024",
+      "number": 24,
+      "question": "Factors of x² - 5x - 6 = 0?",
+      "options": {
+        "A": "(x-6)(x+1)",
+        "B": "(x+6)(x-1)",
+        "C": "(x-2)(x-3)",
+        "D": "(x+2)(x+3)"
+      },
+      "answer": "A",
+      "explanation": "-6 and 1 sum to -5.",
+      "hash": "17f6363372bd2cd2",
+      "translations": {
+        "hi": {
+          "question": "x² - 5x - 6 = 0 के गुणनखंड क्या हैं?",
+          "options": {
+            "A": "(x-6)(x+1)",
+            "B": "(x+6)(x-1)",
+            "C": "(x-2)(x-3)",
+            "D": "(x+2)(x+3)"
+          },
+          "explanation": "गुणा करने पर -6, जोड़ने पर -5 => -6 और 1।"
+        }
+      }
+    },
+    {
+      "id": "math-04-025",
+      "number": 25,
+      "question": "If roots are equal, value of c?",
+      "options": {
+        "A": "b²/4a",
+        "B": "-b²/4a",
+        "C": "b/2a",
+        "D": "4a/b²"
+      },
+      "answer": "A",
+      "explanation": "b² = 4ac implies c = b²/4a.",
+      "hash": "e5621af9ba1f6d9e",
+      "translations": {
+        "hi": {
+          "question": "यदि समीकरण के मूल बराबर हों तो c का मान क्या होगा?",
+          "options": {
+            "A": "b²/4a",
+            "B": "-b²/4a",
+            "C": "b/2a",
+            "D": "4a/b²"
+          },
+          "explanation": "b² - 4ac = 0 => 4ac = b² => c = b²/4a।"
+        }
+      }
+    },
+    {
+      "id": "math-04-026",
+      "number": 26,
+      "question": "Roots of √2x² + 7x + 5√2 = 0?",
+      "options": {
+        "A": "-√2, -5/√2",
+        "B": "√2, 5/√2",
+        "C": "1, 2",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Splitting middle term: 2x and 5x.",
+      "hash": "f6ea25ec444d5667",
+      "translations": {
+        "hi": {
+          "question": "√2x² + 7x + 5√2 = 0 के मूल ज्ञात करने के लिए x का मान?",
+          "options": {
+            "A": "-√2, -5/√2",
+            "B": "√2, 5/√2",
+            "C": "1, 2",
+            "D": "कोई नहीं"
+          },
+          "explanation": "मध्य पद विभाजन: 7x = 2x + 5x। √2x(x+√2) + 5(x+√2) = 0।"
+        }
+      }
+    },
+    {
+      "id": "math-04-027",
+      "number": 27,
+      "question": "Graph of a quadratic equation is?",
+      "options": {
+        "A": "वृत्त",
+        "B": "परवलय (Parabola)",
+        "C": "सरल रेखा",
+        "D": "अतिपरवलय"
+      },
+      "answer": "B",
+      "explanation": "Parabola.",
+      "hash": "f1fdf707dbc0106d",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण ax² + bx + c = 0 का आलेख कैसा होता है?",
+          "options": {
+            "A": "वृत्त",
+            "B": "परवलय (Parabola)",
+            "C": "सरल रेखा",
+            "D": "अतिपरवलय"
+          },
+          "explanation": "द्विघात बहुपद का ग्राफ परवलयाकार (Parabola) होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-04-028",
+      "number": 28,
+      "question": "For what value of p does px(x-2) + 6 = 0 have equal roots?",
+      "options": {
+        "A": "0",
+        "B": "6",
+        "C": "0, 6",
+        "D": "-6"
+      },
+      "answer": "B",
+      "explanation": "4p² - 24p = 0 => p=6 (p≠0).",
+      "hash": "2448a3733ef08771",
+      "translations": {
+        "hi": {
+          "question": "p के किस मान के लिए समीकरण px(x-2) + 6 = 0 के मूल बराबर हैं?",
+          "options": {
+            "A": "0",
+            "B": "6",
+            "C": "0, 6",
+            "D": "-6"
+          },
+          "explanation": "px² - 2px + 6 = 0। D = (-2p)² - 4(p)(6) = 0 => 4p² - 24p = 0 => 4p(p-6)=0। p=0 असंभव (द्विघात नहीं रहेगा), अतः p=6।"
+        }
+      }
+    },
+    {
+      "id": "math-04-029",
+      "number": 29,
+      "question": "Maximum power of variable in Quadratic Equation?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "Power is 2.",
+      "hash": "64abd4c3fbed7774",
+      "translations": {
+        "hi": {
+          "question": "द्विघात समीकरण में चर की अधिकतम घात कितनी होती है?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "0"
+          },
+          "explanation": "द्विघात (Quadratic) का अर्थ ही घात 2 है।"
+        }
+      }
+    },
+    {
+      "id": "math-04-030",
+      "number": 30,
+      "question": "Train covers 360km. If speed 5km/h more, 1 hour less. Equation?",
+      "options": {
+        "A": "360/x - 360/(x+5) = 1",
+        "B": "360/(x+5) - 360/x = 1",
+        "C": "360/x + 360/(x+5) = 1",
+        "D": "x/360 = 1"
+      },
+      "answer": "A",
+      "explanation": "Time difference: 360/x - 360/(x+5) = 1.",
+      "hash": "81544c56360d9943",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 360 किमी की दूरी एकसमान चाल से तय करती है। यदि चाल 5 किमी/घंटा अधिक होती तो 1 घंटा कम लगता। समीकरण?",
+          "options": {
+            "A": "360/x - 360/(x+5) = 1",
+            "B": "360/(x+5) - 360/x = 1",
+            "C": "360/x + 360/(x+5) = 1",
+            "D": "x/360 = 1"
+          },
+          "explanation": "समय का अंतर = 1। (धीमी चाल का समय - तेज चाल का समय = 1)।"
+        }
+      }
+    }
+  ]
+}

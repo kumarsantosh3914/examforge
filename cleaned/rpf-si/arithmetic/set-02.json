@@ -1,0 +1,917 @@
+{
+  "subject": "Arithmetic",
+  "set": 2,
+  "title": "Arithmetic Mock Test 2",
+  "questions": [
+    {
+      "id": "arithmetic-02-001",
+      "number": 1,
+      "question": "A sum of Rs. 1200 becomes Rs. 1320 in 2 years at simple interest. What is the rate of interest per annum?",
+      "options": {
+        "A": "4%",
+        "B": "5%",
+        "C": "6%",
+        "D": "8%"
+      },
+      "answer": "B",
+      "explanation": "SI = 1320 - 1200 = 120. R = (120 * 100) / (1200 * 2) = 5%.",
+      "hash": "bd6242818c335649",
+      "translations": {
+        "hi": {
+          "question": "1200 रुपये की राशि साधारण ब्याज पर 2 वर्षों में 1320 रुपये हो जाती है। वार्षिक ब्याज दर क्या है?",
+          "options": {
+            "A": "4%",
+            "B": "5%",
+            "C": "6%",
+            "D": "8%"
+          },
+          "explanation": "SI = 1320 - 1200 = 120. R = (120 * 100) / (1200 * 2) = 5%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-002",
+      "number": 2,
+      "question": "The price of sugar is increased by 25%. By how much percent must a housewife reduce her consumption so as not to increase the expenditure?",
+      "options": {
+        "A": "15%",
+        "B": "20%",
+        "C": "25%",
+        "D": "30%"
+      },
+      "answer": "B",
+      "explanation": "Reduction = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%.",
+      "hash": "49d245597a3f0ddc",
+      "translations": {
+        "hi": {
+          "question": "चीनी की कीमत में 25% की वृद्धि हुई है। एक गृहिणी को अपनी खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि खर्च न बढ़े?",
+          "options": {
+            "A": "15%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%"
+          },
+          "explanation": "कमी = [r / (100 + r)] * 100 = [25 / 125] * 100 = 20%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-003",
+      "number": 3,
+      "question": "The LCM of two numbers is 480 and their HCF is 160. If one number is 480, find the other number.",
+      "options": {
+        "A": "160",
+        "B": "320",
+        "C": "480",
+        "D": "640"
+      },
+      "answer": "A",
+      "explanation": "Product of numbers = HCF * LCM. 480 * x = 160 * 480 => x = 160.",
+      "hash": "e24e775792380c9d",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का LCM 480 है और उनका HCF 160 है। यदि एक संख्या 480 है, तो दूसरी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "160",
+            "B": "320",
+            "C": "480",
+            "D": "640"
+          },
+          "explanation": "संख्याओं का गुणनफल = HCF * LCM. 480 * x = 160 * 480 => x = 160."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-004",
+      "number": 4,
+      "question": "If A:B = 2:3 and B:C = 4:5, then A:B:C is?",
+      "options": {
+        "A": "8:12:15",
+        "B": "2:3:5",
+        "C": "8:10:15",
+        "D": "4:6:15"
+      },
+      "answer": "A",
+      "explanation": "Multiply A:B by 4 and B:C by 3 to equate B. 8:12 and 12:15.",
+      "hash": "dde0655c396cbbf2",
+      "translations": {
+        "hi": {
+          "question": "यदि A:B = 2:3 और B:C = 4:5 है, तो A:B:C क्या है?",
+          "options": {
+            "A": "8:12:15",
+            "B": "2:3:5",
+            "C": "8:10:15",
+            "D": "4:6:15"
+          },
+          "explanation": "B को बराबर करने के लिए A:B को 4 से और B:C को 3 से गुणा करें। 8:12 और 12:15।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-005",
+      "number": 5,
+      "question": "The mean of 5 observations is 60. If one observation is excluded, the mean becomes 55. What is the excluded observation?",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "90",
+        "D": "100"
+      },
+      "answer": "B",
+      "explanation": "Total = 5 * 60 = 300. New Total = 4 * 55 = 220. Excluded = 300 - 220 = 80.",
+      "hash": "6251343b87c290a8",
+      "translations": {
+        "hi": {
+          "question": "5 प्रेक्षणों का माध्य 60 है। यदि एक प्रेक्षण को हटा दिया जाए, तो माध्य 55 हो जाता है। हटाया गया प्रेक्षण क्या है?",
+          "options": {
+            "A": "70",
+            "B": "80",
+            "C": "90",
+            "D": "100"
+          },
+          "explanation": "कुल = 5 * 60 = 300। नया कुल = 4 * 55 = 220। हटाया गया = 300 - 220 = 80।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-006",
+      "number": 6,
+      "question": "A train covers 180 km in 3 hours. What is its speed in m/s?",
+      "options": {
+        "A": "15.6",
+        "B": "16.66",
+        "C": "20.22",
+        "D": "25.5"
+      },
+      "answer": "B",
+      "explanation": "Speed = 180/3 = 60 km/h. In m/s = 60 * (5/18) = 16.66 m/s.",
+      "hash": "095dfb4f9a31d761",
+      "translations": {
+        "hi": {
+          "question": "एक ट्रेन 3 घंटे में 180 किमी की दूरी तय करती है। मीटर/सेकंड में इसकी गति क्या है?",
+          "options": {
+            "A": "15.6",
+            "B": "16.66",
+            "C": "20.22",
+            "D": "25.5"
+          },
+          "explanation": "गति = 180/3 = 60 किमी/घंटा। मीटर/सेकंड में = 60 * (5/18) = 16.66 मीटर/सेकंड।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-007",
+      "number": 7,
+      "question": "A cycle is sold for Rs. 880 at a profit of 10%. Find its cost price.",
+      "options": {
+        "A": "700",
+        "B": "750",
+        "C": "800",
+        "D": "820"
+      },
+      "answer": "C",
+      "explanation": "CP = (SP * 100) / (100 + P%) = (880 * 100) / 110 = 800.",
+      "hash": "1f22998091f787f4",
+      "translations": {
+        "hi": {
+          "question": "एक साइकिल 10% के लाभ पर 880 रुपये में बेची जाती है। इसका क्रय मूल्य ज्ञात कीजिए।",
+          "options": {
+            "A": "700",
+            "B": "750",
+            "C": "800",
+            "D": "820"
+          },
+          "explanation": "CP = (SP * 100) / (100 + P%) = (880 * 100) / 110 = 800."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-008",
+      "number": 8,
+      "question": "The perimeter of a rectangle is 60 cm and its length is 18 cm. Find its breadth.",
+      "options": {
+        "A": "10 cm",
+        "B": "12 cm",
+        "C": "15 cm",
+        "D": "18 cm"
+      },
+      "answer": "B",
+      "explanation": "2(l + b) = 60 => 18 + b = 30 => b = 12.",
+      "hash": "c9161659cbfb5591",
+      "translations": {
+        "hi": {
+          "question": "एक आयत का परिमाप 60 सेमी है और इसकी लंबाई 18 सेमी है। इसकी चौड़ाई ज्ञात कीजिए।",
+          "options": {
+            "A": "10 सेमी",
+            "B": "12 सेमी",
+            "C": "15 सेमी",
+            "D": "18 सेमी"
+          },
+          "explanation": "2(l + b) = 60 => 18 + b = 30 => b = 12."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-009",
+      "number": 9,
+      "question": "A can do a piece of work in 12 days and B in 24 days. How many days will they take together?",
+      "options": {
+        "A": "6 days",
+        "B": "8 days",
+        "C": "10 days",
+        "D": "12 days"
+      },
+      "answer": "B",
+      "explanation": "(12 * 24) / (12 + 24) = 288 / 36 = 8 days.",
+      "hash": "bb2b19890c2dd549",
+      "translations": {
+        "hi": {
+          "question": "A एक काम को 12 दिनों में और B 24 दिनों में कर सकता है। वे दोनों मिलकर कितने दिन लेंगे?",
+          "options": {
+            "A": "6 दिन",
+            "B": "8 दिन",
+            "C": "10 दिन",
+            "D": "12 दिन"
+          },
+          "explanation": "(12 * 24) / (12 + 24) = 288 / 36 = 8 दिन।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-010",
+      "number": 10,
+      "question": "A bag contains 25p, 10p and 5p coins in the ratio 1:2:3. If their total value is Rs. 30, find the number of 5p coins.",
+      "options": {
+        "A": "50",
+        "B": "100",
+        "C": "150",
+        "D": "200"
+      },
+      "answer": "C",
+      "explanation": "25x + 20x + 15x = 3000 paise => 60x = 3000 => x = 50. 5p coins = 3 * 50 = 150.",
+      "hash": "2dbd0655b1dad371",
+      "translations": {
+        "hi": {
+          "question": "एक बैग में 25 पैसे, 10 पैसे और 5 पैसे के सिक्के 1:2:3 के अनुपात में हैं। यदि उनका कुल मूल्य 30 रुपये है, तो 5 पैसे के सिक्कों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "50",
+            "B": "100",
+            "C": "150",
+            "D": "200"
+          },
+          "explanation": "25x + 20x + 15x = 3000 पैसे => 60x = 3000 => x = 50. 5p सिक्के = 3 * 50 = 150."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-011",
+      "number": 11,
+      "question": "If 3/5 of a number is 60, what is the number?",
+      "options": {
+        "A": "80",
+        "B": "100",
+        "C": "120",
+        "D": "150"
+      },
+      "answer": "B",
+      "explanation": "(3/5)x = 60 => x = 60 * 5 / 3 = 100.",
+      "hash": "6fdfc57e0f0deee1",
+      "translations": {
+        "hi": {
+          "question": "यदि किसी संख्या का 3/5 हिस्सा 60 है, तो वह संख्या क्या है?",
+          "options": {
+            "A": "80",
+            "B": "100",
+            "C": "120",
+            "D": "150"
+          },
+          "explanation": "(3/5)x = 60 => x = 60 * 5 / 3 = 100."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-012",
+      "number": 12,
+      "question": "Solve: (256)^0.16 * (256)^0.09",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B",
+      "explanation": "256^(0.16 + 0.09) = 256^0.25 = 256^(1/4) = 4.",
+      "hash": "fac5e58887f59601",
+      "translations": {
+        "hi": {
+          "question": "हल करें: (256)^0.16 * (256)^0.09",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+          },
+          "explanation": "256^(0.16 + 0.09) = 256^0.25 = 256^(1/4) = 4."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-013",
+      "number": 13,
+      "question": "If the area of a circle is 154 sq.cm, find its circumference.",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "66 cm",
+        "D": "88 cm"
+      },
+      "answer": "B",
+      "explanation": "pi*r^2 = 154 => r = 7. Circumference = 2*pi*r = 44 cm.",
+      "hash": "9652b579c22ccfc5",
+      "translations": {
+        "hi": {
+          "question": "यदि एक वृत्त का क्षेत्रफल 154 वर्ग सेमी है, तो इसकी परिधि ज्ञात कीजिए।",
+          "options": {
+            "A": "22 सेमी",
+            "B": "44 सेमी",
+            "C": "66 सेमी",
+            "D": "88 सेमी"
+          },
+          "explanation": "pi*r^2 = 154 => r = 7. परिधि = 2*pi*r = 44 सेमी."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-014",
+      "number": 14,
+      "question": "Find the cube root of 2744.",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "16",
+        "D": "18"
+      },
+      "answer": "B",
+      "explanation": "14 * 14 * 14 = 2744.",
+      "hash": "9df946b0ac01f371",
+      "translations": {
+        "hi": {
+          "question": "2744 का घनमूल ज्ञात कीजिए।",
+          "options": {
+            "A": "12",
+            "B": "14",
+            "C": "16",
+            "D": "18"
+          },
+          "explanation": "14 * 14 * 14 = 2744."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-015",
+      "number": 15,
+      "question": "A sum was put at simple interest at a certain rate for 2 years. Had it been put at 3% higher rate, it would have fetched Rs. 300 more. Find the sum.",
+      "options": {
+        "A": "4000",
+        "B": "5000",
+        "C": "6000",
+        "D": "7500"
+      },
+      "answer": "B",
+      "explanation": "Extra % = 2 * 3 = 6%. 6% of P = 300 => P = (300 * 100) / 6 = 5000.",
+      "hash": "0539326249a2a7ca",
+      "translations": {
+        "hi": {
+          "question": "एक राशि 2 वर्षों के लिए एक निश्चित दर पर साधारण ब्याज पर रखी गई थी। यदि इसे 3% अधिक दर पर रखा जाता, तो 300 रुपये अधिक प्राप्त होते। राशि ज्ञात कीजिए।",
+          "options": {
+            "A": "4000",
+            "B": "5000",
+            "C": "6000",
+            "D": "7500"
+          },
+          "explanation": "अतिरिक्त % = 2 * 3 = 6%। P का 6% = 300 => P = (300 * 100) / 6 = 5000."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-016",
+      "number": 16,
+      "question": "Find the value of (999 * 999 - 1).",
+      "options": {
+        "A": "998000",
+        "B": "998001",
+        "C": "999000",
+        "D": "999999"
+      },
+      "answer": "A",
+      "explanation": "(999-1)(999+1) = 998 * 1000 = 998000.",
+      "hash": "09377991eb771c21",
+      "translations": {
+        "hi": {
+          "question": "(999 * 999 - 1) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "998000",
+            "B": "998001",
+            "C": "999000",
+            "D": "999999"
+          },
+          "explanation": "(999-1)(999+1) = 998 * 1000 = 998000."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-017",
+      "number": 17,
+      "question": "The ratio of two numbers is 5:6. If 8 is subtracted from each, the ratio becomes 4:5. Find the numbers.",
+      "options": {
+        "A": "40, 48",
+        "B": "30, 36",
+        "C": "20, 24",
+        "D": "50, 60"
+      },
+      "answer": "A",
+      "explanation": "(5x-8)/(6x-8) = 4/5 => 25x - 40 = 24x - 32 => x = 8. Numbers are 40 and 48.",
+      "hash": "0460b301b84ff296",
+      "translations": {
+        "hi": {
+          "question": "दो संख्याओं का अनुपात 5:6 है। यदि प्रत्येक में से 8 घटाया जाता है, तो अनुपात 4:5 हो जाता है। संख्याएँ ज्ञात कीजिए।",
+          "options": {
+            "A": "40, 48",
+            "B": "30, 36",
+            "C": "20, 24",
+            "D": "50, 60"
+          },
+          "explanation": "(5x-8)/(6x-8) = 4/5 => 25x - 40 = 24x - 32 => x = 8। संख्याएँ 40 और 48 हैं।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-018",
+      "number": 18,
+      "question": "Find the largest 3-digit number exactly divisible by 15, 20 and 25.",
+      "options": {
+        "A": "600",
+        "B": "900",
+        "C": "950",
+        "D": "960"
+      },
+      "answer": "B",
+      "explanation": "LCM of 15, 20, 25 is 300. Largest 3-digit multiple of 300 is 900.",
+      "hash": "58dfb2d18fe3153f",
+      "translations": {
+        "hi": {
+          "question": "15, 20 और 25 से पूर्णतः विभाज्य होने वाली 3-अंकों की सबसे बड़ी संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "600",
+            "B": "900",
+            "C": "950",
+            "D": "960"
+          },
+          "explanation": "15, 20, 25 का LCM 300 है। 300 का सबसे बड़ा 3-अंकीय गुणज 900 है।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-019",
+      "number": 19,
+      "question": "A vendor bought bananas at 6 for Rs. 10 and sold them at 4 for Rs. 6. Find his gain or loss percent.",
+      "options": {
+        "A": "10% loss",
+        "B": "10% gain",
+        "C": "15% loss",
+        "D": "20% loss"
+      },
+      "answer": "A",
+      "explanation": "CP of 12 = 20. SP of 12 = 18. Loss = 2/20 * 100 = 10%.",
+      "hash": "cd285d5bc009c7ad",
+      "translations": {
+        "hi": {
+          "question": "एक विक्रेता ने 10 रुपये में 6 की दर से केले खरीदे और उन्हें 6 रुपये में 4 की दर से बेच दिया। उसका लाभ या हानि प्रतिशत ज्ञात कीजिए।",
+          "options": {
+            "A": "10% हानि",
+            "B": "10% लाभ",
+            "C": "15% हानि",
+            "D": "20% हानि"
+          },
+          "explanation": "12 का CP = 20. 12 का SP = 18. हानि = 2/20 * 100 = 10%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-020",
+      "number": 20,
+      "question": "If the height of a triangle is decreased by 40% and its base is increased by 40%, what is the effect on its area?",
+      "options": {
+        "A": "No change",
+        "B": "16% increase",
+        "C": "16% decrease",
+        "D": "8% decrease"
+      },
+      "answer": "C",
+      "explanation": "Effect = -40 + 40 + (-40*40/100) = -16%.",
+      "hash": "3f4364a96a08897b",
+      "translations": {
+        "hi": {
+          "question": "यदि एक त्रिभुज की ऊँचाई 40% कम कर दी जाती है और इसका आधार 40% बढ़ा दिया जाता है, तो इसके क्षेत्रफल पर क्या प्रभाव पड़ेगा?",
+          "options": {
+            "A": "कोई बदलाव नहीं",
+            "B": "16% वृद्धि",
+            "C": "16% कमी",
+            "D": "8% कमी"
+          },
+          "explanation": "प्रभाव = -40 + 40 + (-40*40/100) = -16%."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-021",
+      "number": 21,
+      "question": "A can do a work in 10 days and B in 15 days. They work together for 2 days and then A leaves. In how many days will B finish the remaining work?",
+      "options": {
+        "A": "8 days",
+        "B": "10 days",
+        "C": "12 days",
+        "D": "15 days"
+      },
+      "answer": "B",
+      "explanation": "Together in 2 days = 2 * (1/10 + 1/15) = 2 * 5/30 = 1/3. Remaining = 2/3. B takes (2/3) * 15 = 10 days.",
+      "hash": "3390f6f985520420",
+      "translations": {
+        "hi": {
+          "question": "A एक काम को 10 दिनों में और B 15 दिनों में कर सकता है। वे 2 दिनों तक साथ काम करते हैं और फिर A चला जाता है। B शेष काम को कितने दिनों में पूरा करेगा?",
+          "options": {
+            "A": "8 दिन",
+            "B": "10 दिन",
+            "C": "12 दिन",
+            "D": "15 दिन"
+          },
+          "explanation": "2 दिनों में साथ = 2 * (1/10 + 1/15) = 2 * 5/30 = 1/3. शेष = 2/3. B को (2/3) * 15 = 10 दिन लगेंगे।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-022",
+      "number": 22,
+      "question": "A man walks at 5 km/h and reaches his office 6 minutes late. If he walks at 6 km/h, he reaches 2 minutes early. Find the distance to his office.",
+      "options": {
+        "A": "3 km",
+        "B": "4 km",
+        "C": "5 km",
+        "D": "6 km"
+      },
+      "answer": "B",
+      "explanation": "Distance = (S1*S2 / (S2-S1)) * (Total time diff / 60) = (30/1) * (8/60) = 4 km.",
+      "hash": "f7a45d02905d2ff0",
+      "translations": {
+        "hi": {
+          "question": "एक व्यक्ति 5 किमी/घंटा की गति से चलता है और अपने कार्यालय 6 मिनट देरी से पहुँचता है। यदि वह 6 किमी/घंटा की गति से चलता है, तो वह 2 मिनट जल्दी पहुँचता है। उसके कार्यालय की दूरी ज्ञात कीजिए।",
+          "options": {
+            "A": "3 किमी",
+            "B": "4 किमी",
+            "C": "5 किमी",
+            "D": "6 किमी"
+          },
+          "explanation": "दूरी = (S1*S2 / (S2-S1)) * (कुल समय अंतर / 60) = (30/1) * (8/60) = 4 किमी।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-023",
+      "number": 23,
+      "question": "The sum of three consecutive odd numbers is 57. Find the middle number.",
+      "options": {
+        "A": "17",
+        "B": "19",
+        "C": "21",
+        "D": "23"
+      },
+      "answer": "B",
+      "explanation": "Middle number = Average = 57 / 3 = 19.",
+      "hash": "f4712e5865501e78",
+      "translations": {
+        "hi": {
+          "question": "तीन क्रमिक विषम संख्याओं का योग 57 है। मध्य संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "17",
+            "B": "19",
+            "C": "21",
+            "D": "23"
+          },
+          "explanation": "मध्य संख्या = औसत = 57 / 3 = 19."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-024",
+      "number": 24,
+      "question": "Find the value of (1 + 2 + 3 + ... + 20).",
+      "options": {
+        "A": "190",
+        "B": "200",
+        "C": "210",
+        "D": "220"
+      },
+      "answer": "C",
+      "explanation": "Sum = n(n+1)/2 = 20 * 21 / 2 = 210.",
+      "hash": "8eb84838063690d2",
+      "translations": {
+        "hi": {
+          "question": "(1 + 2 + 3 + ... + 20) का मान ज्ञात कीजिए।",
+          "options": {
+            "A": "190",
+            "B": "200",
+            "C": "210",
+            "D": "220"
+          },
+          "explanation": "योग = n(n+1)/2 = 20 * 21 / 2 = 210."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-025",
+      "number": 25,
+      "question": "The price of 15 pens is Rs. 180. Find the price of 25 such pens.",
+      "options": {
+        "A": "250",
+        "B": "300",
+        "C": "325",
+        "D": "350"
+      },
+      "answer": "B",
+      "explanation": "One pen = 180/15 = 12. 25 pens = 25 * 12 = 300.",
+      "hash": "a4d4b5258f1a6585",
+      "translations": {
+        "hi": {
+          "question": "15 पेन की कीमत 180 रुपये है। ऐसे ही 25 पेन की कीमत ज्ञात कीजिए।",
+          "options": {
+            "A": "250",
+            "B": "300",
+            "C": "325",
+            "D": "350"
+          },
+          "explanation": "एक पेन = 180/15 = 12. 25 पेन = 25 * 12 = 300."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-026",
+      "number": 26,
+      "question": "If 10 workers can build a wall in 12 days, how many days will 8 workers take?",
+      "options": {
+        "A": "15 days",
+        "B": "16 days",
+        "C": "18 days",
+        "D": "20 days"
+      },
+      "answer": "A",
+      "explanation": "M1D1 = M2D2 => 10 * 12 = 8 * x => x = 120 / 8 = 15.",
+      "hash": "c494a71892ae4a2e",
+      "translations": {
+        "hi": {
+          "question": "यदि 10 मजदूर 12 दिनों में एक दीवार बना सकते हैं, तो 8 मजदूर कितने दिन लेंगे?",
+          "options": {
+            "A": "15 दिन",
+            "B": "16 दिन",
+            "C": "18 दिन",
+            "D": "20 दिन"
+          },
+          "explanation": "M1D1 = M2D2 => 10 * 12 = 8 * x => x = 120 / 8 = 15."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-027",
+      "number": 27,
+      "question": "What is the unit digit in (7^105)?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "7",
+        "D": "9"
+      },
+      "answer": "C",
+      "explanation": "Cycle of 7 is 7, 9, 3, 1. 105 mod 4 = 1. So, unit digit is 7^1 = 7.",
+      "hash": "6308bddd22e14051",
+      "translations": {
+        "hi": {
+          "question": "(7^105) में इकाई अंक क्या है?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "7",
+            "D": "9"
+          },
+          "explanation": "7 का चक्र 7, 9, 3, 1 है। 105 mod 4 = 1. अतः इकाई अंक 7^1 = 7 है।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-028",
+      "number": 28,
+      "question": "The diagonal of a square is 10 cm. Find its area.",
+      "options": {
+        "A": "25 cm²",
+        "B": "50 cm²",
+        "C": "75 cm²",
+        "D": "100 cm²"
+      },
+      "answer": "B",
+      "explanation": "Area = (d^2) / 2 = 100 / 2 = 50.",
+      "hash": "3abbe0ea488feb21",
+      "translations": {
+        "hi": {
+          "question": "एक वर्ग का विकर्ण 10 सेमी है। इसका क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "25 सेमी²",
+            "B": "50 सेमी²",
+            "C": "75 सेमी²",
+            "D": "100 सेमी²"
+          },
+          "explanation": "क्षेत्रफल = (d^2) / 2 = 100 / 2 = 50."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-029",
+      "number": 29,
+      "question": "Solve: 1/2 + 1/4 + 1/8.",
+      "options": {
+        "A": "3/8",
+        "B": "5/8",
+        "C": "7/8",
+        "D": "1"
+      },
+      "answer": "C",
+      "explanation": "(4 + 2 + 1) / 8 = 7/8.",
+      "hash": "337908190d449463",
+      "translations": {
+        "hi": {
+          "question": "हल करें: 1/2 + 1/4 + 1/8.",
+          "options": {
+            "A": "3/8",
+            "B": "5/8",
+            "C": "7/8",
+            "D": "1"
+          },
+          "explanation": "(4 + 2 + 1) / 8 = 7/8."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-030",
+      "number": 30,
+      "question": "Find the SI on Rs. 5000 at 8% p.a. for 9 months.",
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "400",
+        "D": "600"
+      },
+      "answer": "B",
+      "explanation": "SI = (5000 * 8 * 9) / (100 * 12) = 300.",
+      "hash": "b21bbf00f1901a9b",
+      "translations": {
+        "hi": {
+          "question": "5000 रुपये पर 8% वार्षिक दर से 9 महीने का साधारण ब्याज ज्ञात कीजिए।",
+          "options": {
+            "A": "200",
+            "B": "300",
+            "C": "400",
+            "D": "600"
+          },
+          "explanation": "SI = (5000 * 8 * 9) / (100 * 12) = 300."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-031",
+      "number": 31,
+      "question": "The ratio of boys and girls in a school is 4:5. If there are 200 boys, find the number of girls.",
+      "options": {
+        "A": "220",
+        "B": "240",
+        "C": "250",
+        "D": "300"
+      },
+      "answer": "C",
+      "explanation": "4x = 200 => x = 50. Girls = 5 * 50 = 250.",
+      "hash": "128754bf8ba38c11",
+      "translations": {
+        "hi": {
+          "question": "एक स्कूल में लड़कों और लड़कियों का अनुपात 4:5 है। यदि 200 लड़के हैं, तो लड़कियों की संख्या ज्ञात कीजिए।",
+          "options": {
+            "A": "220",
+            "B": "240",
+            "C": "250",
+            "D": "300"
+          },
+          "explanation": "4x = 200 => x = 50. लड़कियां = 5 * 50 = 250."
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-032",
+      "number": 32,
+      "question": "40% of a number is 160. What is 20% of that number?",
+      "options": {
+        "A": "40",
+        "B": "80",
+        "C": "120",
+        "D": "160"
+      },
+      "answer": "B",
+      "explanation": "If 40% is 160, then 20% is exactly half, which is 80.",
+      "hash": "69d32ab84e921e4a",
+      "translations": {
+        "hi": {
+          "question": "एक संख्या का 40% 160 है। उस संख्या का 20% क्या है?",
+          "options": {
+            "A": "40",
+            "B": "80",
+            "C": "120",
+            "D": "160"
+          },
+          "explanation": "यदि 40% 160 है, तो 20% ठीक आधा होगा, जो कि 80 है।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-033",
+      "number": 33,
+      "question": "The volume of a cube is 216 cm³. Find its surface area.",
+      "options": {
+        "A": "144 cm²",
+        "B": "196 cm²",
+        "C": "216 cm²",
+        "D": "256 cm²"
+      },
+      "answer": "C",
+      "explanation": "Side = cube root(216) = 6. Surface Area = 6 * a^2 = 6 * 36 = 216.",
+      "hash": "cc867419d7e95248",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन 216 सेमी³ है। इसका पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+          "options": {
+            "A": "144 सेमी²",
+            "B": "196 सेमी²",
+            "C": "216 सेमी²",
+            "D": "256 सेमी²"
+          },
+          "explanation": "भुजा = cube root(216) = 6। पृष्ठीय क्षेत्रफल = 6 * a^2 = 6 * 36 = 216।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-034",
+      "number": 34,
+      "question": "Find the HCF of 24, 36 and 60.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "answer": "B",
+      "explanation": "Largest number that divides all three is 12.",
+      "hash": "b729eda7bda6a958",
+      "translations": {
+        "hi": {
+          "question": "24, 36 और 60 का HCF ज्ञात कीजिए।",
+          "options": {
+            "A": "6",
+            "B": "12",
+            "C": "18",
+            "D": "24"
+          },
+          "explanation": "वह सबसे बड़ी संख्या जो तीनों को विभाजित करती है, 12 है।"
+        }
+      }
+    },
+    {
+      "id": "arithmetic-02-035",
+      "number": 35,
+      "question": "What is the square of 0.05?",
+      "options": {
+        "A": "0.25",
+        "B": "0.025",
+        "C": "0.0025",
+        "D": "0.00025"
+      },
+      "answer": "C",
+      "explanation": "0.05 * 0.05 = 0.0025.",
+      "hash": "1f4ac1301fc4c9a5",
+      "translations": {
+        "hi": {
+          "question": "0.05 का वर्ग क्या है?",
+          "options": {
+            "A": "0.25",
+            "B": "0.025",
+            "C": "0.0025",
+            "D": "0.00025"
+          },
+          "explanation": "0.05 * 0.05 = 0.0025."
+        }
+      }
+    }
+  ]
+}

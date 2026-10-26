@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 11,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-11-001",
+      "number": 1,
+      "question": "The value appearing most frequently in data is called?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका",
+        "C": "बहुलक (Mode)",
+        "D": "परिसर"
+      },
+      "answer": "C",
+      "explanation": "The observation with the highest frequency is the Mode.",
+      "hash": "41da0d870357660f",
+      "translations": {
+        "hi": {
+          "question": "आंकड़ों में सबसे अधिक बार आने वाला मान क्या कहलाता है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक (Mode)",
+            "D": "परिसर"
+          },
+          "explanation": "जिस प्रेक्षण की बारंबारता सबसे अधिक होती है, वह बहुलक कहलाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-002",
+      "number": 2,
+      "question": "What is the mean of the first 5 natural numbers?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "B",
+      "explanation": "Sum of numbers (15) divided by count (5) is 3.",
+      "hash": "263a1fab3c4b57e6",
+      "translations": {
+        "hi": {
+          "question": "प्रथम 5 प्राकृत संख्याओं का माध्य (Mean) क्या है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "explanation": "(1+2+3+4+5)/5 = 15/5 = 3।"
+        }
+      }
+    },
+    {
+      "id": "math-11-003",
+      "number": 3,
+      "question": "Relationship between Mean, Median, and Mode?",
+      "options": {
+        "A": "बहुलक = 3(माध्यिका) - 2(माध्य)",
+        "B": "बहुलक = 2(माध्यिका) - 3(माध्य)",
+        "C": "माध्य = 3(बहुलक) - 2(माध्यिका)",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Empirical formula: Mode = 3(Median) - 2(Mean).",
+      "hash": "2aebe3f72b7dc23c",
+      "translations": {
+        "hi": {
+          "question": "माध्य, माध्यिका और बहुलक के बीच क्या संबंध है?",
+          "options": {
+            "A": "बहुलक = 3(माध्यिका) - 2(माध्य)",
+            "B": "बहुलक = 2(माध्यिका) - 3(माध्य)",
+            "C": "माध्य = 3(बहुलक) - 2(माध्यिका)",
+            "D": "कोई नहीं"
+          },
+          "explanation": "आनुभविक सूत्र: बहुलक = 3(माध्यिका) - 2(माध्य)।"
+        }
+      }
+    },
+    {
+      "id": "math-11-004",
+      "number": 4,
+      "question": "Formula to find Class Mark?",
+      "options": {
+        "A": "(उच्च सीमा - निम्न सीमा)/2",
+        "B": "(उच्च सीमा + निम्न सीमा)/2",
+        "C": "उच्च सीमा - निम्न सीमा",
+        "D": "उच्च सीमा + निम्न सीमा"
+      },
+      "answer": "B",
+      "explanation": "Class Mark = (Upper Limit + Lower Limit) / 2.",
+      "hash": "9ba1fc8a68248703",
+      "translations": {
+        "hi": {
+          "question": "वर्ग चिन्ह (Class Mark) ज्ञात करने का सूत्र क्या है?",
+          "options": {
+            "A": "(उच्च सीमा - निम्न सीमा)/2",
+            "B": "(उच्च सीमा + निम्न सीमा)/2",
+            "C": "उच्च सीमा - निम्न सीमा",
+            "D": "उच्च सीमा + निम्न सीमा"
+          },
+          "explanation": "वर्ग चिन्ह = (ऊपरी सीमा + निचली सीमा) / 2।"
+        }
+      }
+    },
+    {
+      "id": "math-11-005",
+      "number": 5,
+      "question": "Ogive is used to determine?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका (Median)",
+        "C": "बहुलक",
+        "D": "परिसर"
+      },
+      "answer": "B",
+      "explanation": "X-coordinate of intersection gives the Median.",
+      "hash": "a08b98d76be8c97b",
+      "translations": {
+        "hi": {
+          "question": "तोरण (Ogive) का उपयोग किसे ज्ञात करने के लिए किया जाता है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका (Median)",
+            "C": "बहुलक",
+            "D": "परिसर"
+          },
+          "explanation": "तोरण के प्रतिच्छेद बिंदु का x-निर्देशांक माध्यिका देता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-006",
+      "number": 6,
+      "question": "Cumulative Frequency Curve is also known as?",
+      "options": {
+        "A": "आयतचित्र",
+        "B": "बारंबारता बहुभुज",
+        "C": "तोरण (Ogive)",
+        "D": "दंड आलेख"
+      },
+      "answer": "C",
+      "explanation": "It is called an Ogive.",
+      "hash": "9884d46c8a36ed8b",
+      "translations": {
+        "hi": {
+          "question": "संचयी बारंबारता वक्र (Cumulative Frequency Curve) को और क्या कहा जाता है?",
+          "options": {
+            "A": "आयतचित्र",
+            "B": "बारंबारता बहुभुज",
+            "C": "तोरण (Ogive)",
+            "D": "दंड आलेख"
+          },
+          "explanation": "इसे तोरण (Ogive) कहा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-007",
+      "number": 7,
+      "question": "If n is odd, the Median is?",
+      "options": {
+        "A": "n/2 वां पद",
+        "B": "(n+1)/2 वां पद",
+        "C": "n वां पद",
+        "D": "(n-1)/2 वां पद"
+      },
+      "answer": "B",
+      "explanation": "(n+1)/2 th term.",
+      "hash": "50da50d464b242b1",
+      "translations": {
+        "hi": {
+          "question": "यदि आंकड़ों की संख्या n विषम (Odd) है, तो माध्यिका क्या होगी?",
+          "options": {
+            "A": "n/2 वां पद",
+            "B": "(n+1)/2 वां पद",
+            "C": "n वां पद",
+            "D": "(n-1)/2 वां पद"
+          },
+          "explanation": "विषम संख्या के लिए माध्यिका (n+1)/2 वां पद होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-008",
+      "number": 8,
+      "question": "What can be determined graphically using a Histogram?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका",
+        "C": "बहुलक (Mode)",
+        "D": "इनमें से कोई नहीं"
+      },
+      "answer": "C",
+      "explanation": "Mode is determined using the highest rectangle.",
+      "hash": "7676f5b1232c824f",
+      "translations": {
+        "hi": {
+          "question": "आयतचित्र (Histogram) की सहायता से आलेखीय रूप में क्या ज्ञात किया जा सकता है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक (Mode)",
+            "D": "इनमें से कोई नहीं"
+          },
+          "explanation": "सबसे ऊंचे आयत की मदद से बहुलक ज्ञात किया जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-009",
+      "number": 9,
+      "question": "If mean of x, 3, 4, 5 is 4, then x is?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "Sum is 16, so x = 4.",
+      "hash": "9a1400f3dfad9a92",
+      "translations": {
+        "hi": {
+          "question": "यदि x, 3, 4, 5 का माध्य 4 है, तो x का मान क्या है?",
+          "options": {
+            "A": "4",
+            "B": "3",
+            "C": "5",
+            "D": "2"
+          },
+          "explanation": "(x+3+4+5)/4 = 4 => x+12 = 16 => x = 4।"
+        }
+      }
+    },
+    {
+      "id": "math-11-010",
+      "number": 10,
+      "question": "Which is NOT a measure of Central Tendency?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका",
+        "C": "बहुलक",
+        "D": "परिसर (Range)"
+      },
+      "answer": "D",
+      "explanation": "Range is a measure of dispersion.",
+      "hash": "f5f92346c3e2d16d",
+      "translations": {
+        "hi": {
+          "question": "केंद्रीय प्रवृत्ति (Central Tendency) का माप कौन सा नहीं है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक",
+            "D": "परिसर (Range)"
+          },
+          "explanation": "परिसर फैलाव (Dispersion) का माप है, केंद्रीय प्रवृत्ति का नहीं।"
+        }
+      }
+    },
+    {
+      "id": "math-11-011",
+      "number": 11,
+      "question": "Mode of data 2, 3, 4, 5, 0, 1, 3, 3, 4, 3?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "0"
+      },
+      "answer": "B",
+      "explanation": "3 appears most frequently.",
+      "hash": "170ce88d59807215",
+      "translations": {
+        "hi": {
+          "question": "आंकड़ों 2, 3, 4, 5, 0, 1, 3, 3, 4, 3 का बहुलक क्या है?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "0"
+          },
+          "explanation": "3 सबसे अधिक बार (4 बार) आया है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-012",
+      "number": 12,
+      "question": "Class mark of interval 10-25?",
+      "options": {
+        "A": "17.5",
+        "B": "15",
+        "C": "35",
+        "D": "17"
+      },
+      "answer": "A",
+      "explanation": "Average of limits is 17.5.",
+      "hash": "00116eeca972bbfa",
+      "translations": {
+        "hi": {
+          "question": "वर्ग अंतराल 10-25 का वर्ग चिन्ह (Class Mark) क्या है?",
+          "options": {
+            "A": "17.5",
+            "B": "15",
+            "C": "35",
+            "D": "17"
+          },
+          "explanation": "(10 + 25) / 2 = 35 / 2 = 17.5।"
+        }
+      }
+    },
+    {
+      "id": "math-11-013",
+      "number": 13,
+      "question": "Mean of even numbers from 1 to 10?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "7"
+      },
+      "answer": "A",
+      "explanation": "Sum 30 divided by 5 is 6.",
+      "hash": "e6ac62b1a7a72074",
+      "translations": {
+        "hi": {
+          "question": "1 से 10 तक की सम संख्याओं का माध्य क्या है?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "4",
+            "D": "7"
+          },
+          "explanation": "2, 4, 6, 8, 10 का माध्य = 30/5 = 6।"
+        }
+      }
+    },
+    {
+      "id": "math-11-014",
+      "number": 14,
+      "question": "Intersection point of 'less than' and 'more than' ogives represents?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका",
+        "C": "बहुलक",
+        "D": "वर्ग चिन्ह"
+      },
+      "answer": "B",
+      "explanation": "The abscissa represents the Median.",
+      "hash": "c02132e0fb4c2cb0",
+      "translations": {
+        "hi": {
+          "question": "'से कम प्रकार' और 'से अधिक प्रकार' के तोरणों का प्रतिच्छेद बिंदु क्या दर्शाता है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक",
+            "D": "वर्ग चिन्ह"
+          },
+          "explanation": "प्रतिच्छेद बिंदु का भुज (x-axis value) माध्यिका होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-015",
+      "number": 15,
+      "question": "What is needed to find the Median Class?",
+      "options": {
+        "A": "वर्ग चिन्ह",
+        "B": "संचयी बारंबारता (Cumulative Frequency)",
+        "C": "बहुलक",
+        "D": "परिसर"
+      },
+      "answer": "B",
+      "explanation": "Cumulative Frequency (cf).",
+      "hash": "99b0b1793b4e9255",
+      "translations": {
+        "hi": {
+          "question": "माध्यिका वर्ग ज्ञात करने के लिए किसकी आवश्यकता होती है?",
+          "options": {
+            "A": "वर्ग चिन्ह",
+            "B": "संचयी बारंबारता (Cumulative Frequency)",
+            "C": "बहुलक",
+            "D": "परिसर"
+          },
+          "explanation": "संचयी बारंबारता (cf) की मदद से n/2 का स्थान ढूंढा जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-016",
+      "number": 16,
+      "question": "Formula for Range?",
+      "options": {
+        "A": "उच्चतम मान - निम्नतम मान",
+        "B": "उच्चतम मान + निम्नतम मान",
+        "C": "माध्य - बहुलक",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Range = Max value - Min value.",
+      "hash": "54551fce9d9464ed",
+      "translations": {
+        "hi": {
+          "question": "परिसर (Range) का सूत्र क्या है?",
+          "options": {
+            "A": "उच्चतम मान - निम्नतम मान",
+            "B": "उच्चतम मान + निम्नतम मान",
+            "C": "माध्य - बहुलक",
+            "D": "कोई नहीं"
+          },
+          "explanation": "परिसर = अधिकतम मान - न्यूनतम मान।"
+        }
+      }
+    },
+    {
+      "id": "math-11-017",
+      "number": 17,
+      "question": "Modal class is the class having maximum _______.",
+      "options": {
+        "A": "बारंबारता (Frequency)",
+        "B": "संचयी बारंबारता",
+        "C": "वर्ग सीमा",
+        "D": "कोई नहीं"
+      },
+      "answer": "A",
+      "explanation": "Maximum Frequency.",
+      "hash": "5f5e2feffda5d784",
+      "translations": {
+        "hi": {
+          "question": "बहुलक वर्ग (Modal Class) वह वर्ग है जिसकी _______ अधिकतम होती है।",
+          "options": {
+            "A": "बारंबारता (Frequency)",
+            "B": "संचयी बारंबारता",
+            "C": "वर्ग सीमा",
+            "D": "कोई नहीं"
+          },
+          "explanation": "सर्वाधिक बारंबारता वाला वर्ग बहुलक वर्ग कहलाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-018",
+      "number": 18,
+      "question": "Class size of interval 20-30?",
+      "options": {
+        "A": "10",
+        "B": "25",
+        "C": "50",
+        "D": "20"
+      },
+      "answer": "A",
+      "explanation": "Upper limit - Lower limit = 10.",
+      "hash": "8c08fd96f99ca8e7",
+      "translations": {
+        "hi": {
+          "question": "वर्ग अंतराल 20-30 की माप (Class Size) क्या है?",
+          "options": {
+            "A": "10",
+            "B": "25",
+            "C": "50",
+            "D": "20"
+          },
+          "explanation": "30 - 20 = 10।"
+        }
+      }
+    },
+    {
+      "id": "math-11-019",
+      "number": 19,
+      "question": "Assumed Mean Method is used to find?",
+      "options": {
+        "A": "माध्य (Mean)",
+        "B": "माध्यिका",
+        "C": "बहुलक",
+        "D": "सभी"
+      },
+      "answer": "A",
+      "explanation": "It is a method to find Mean.",
+      "hash": "08e075b8775b02f0",
+      "translations": {
+        "hi": {
+          "question": "कल्पित माध्य विधि (Assumed Mean Method) का उपयोग किसे निकालने के लिए किया जाता है?",
+          "options": {
+            "A": "माध्य (Mean)",
+            "B": "माध्यिका",
+            "C": "बहुलक",
+            "D": "सभी"
+          },
+          "explanation": "यह माध्य (Mean) निकालने की एक विधि है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-020",
+      "number": 20,
+      "question": "If Mean = 5, Median = 6, then Mode?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "9",
+        "D": "6"
+      },
+      "answer": "A",
+      "explanation": "Mode = 3(Median) - 2(Mean) = 8.",
+      "hash": "2df659b45f6b2dfb",
+      "translations": {
+        "hi": {
+          "question": "यदि माध्य = 5 और माध्यिका = 6 है, तो बहुलक क्या होगा?",
+          "options": {
+            "A": "8",
+            "B": "7",
+            "C": "9",
+            "D": "6"
+          },
+          "explanation": "बहुलक = 3(6) - 2(5) = 18 - 10 = 8।"
+        }
+      }
+    },
+    {
+      "id": "math-11-021",
+      "number": 21,
+      "question": "When are Mean, Median, and Mode equal?",
+      "options": {
+        "A": "विषम बंटन",
+        "B": "सममित बंटन (Symmetrical Distribution)",
+        "C": "असममित बंटन",
+        "D": "कभी नहीं"
+      },
+      "answer": "B",
+      "explanation": "In a Symmetrical Distribution.",
+      "hash": "9ae459fc194afc85",
+      "translations": {
+        "hi": {
+          "question": "किस स्थिति में माध्य, माध्यिका और बहुलक समान होते हैं?",
+          "options": {
+            "A": "विषम बंटन",
+            "B": "सममित बंटन (Symmetrical Distribution)",
+            "C": "असममित बंटन",
+            "D": "कभी नहीं"
+          },
+          "explanation": "सामान्य या सममित बंटन (Normal Distribution) में तीनों एक ही बिंदु पर होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-11-022",
+      "number": 22,
+      "question": "Median of distribution: 1, 3, 2, 5, 9?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "5",
+        "D": "2.5"
+      },
+      "answer": "A",
+      "explanation": "Sorted: 1, 2, 3, 5, 9. Middle is 3.",
+      "hash": "7e7db57bcc74af15",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित बंटन: 1, 3, 2, 5, 9 की माध्यिका क्या है?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "5",
+            "D": "2.5"
+          },
+          "explanation": "आरोही क्रम: 1, 2, 3, 5, 9। बीच वाली संख्या 3 है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-023",
+      "number": 23,
+      "question": "Mid-points of classes are called?",
+      "options": {
+        "A": "वर्ग चिन्ह (Class Mark)",
+        "B": "बारंबारता",
+        "C": "वर्ग सीमा",
+        "D": "परिसर"
+      },
+      "answer": "A",
+      "explanation": "Class Mark.",
+      "hash": "f8af64ca6ce2f93a",
+      "translations": {
+        "hi": {
+          "question": "वर्गों के मध्य-बिंदुओं को क्या कहा जाता है?",
+          "options": {
+            "A": "वर्ग चिन्ह (Class Mark)",
+            "B": "बारंबारता",
+            "C": "वर्ग सीमा",
+            "D": "परिसर"
+          },
+          "explanation": "मध्य-बिंदु को वर्ग चिन्ह कहते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-11-024",
+      "number": 24,
+      "question": "Mean of first n natural numbers?",
+      "options": {
+        "A": "n/2",
+        "B": "(n+1)/2",
+        "C": "n(n+1)/2",
+        "D": "n+1"
+      },
+      "answer": "B",
+      "explanation": "Sum/n = (n+1)/2.",
+      "hash": "21a1d2b8c1c27599",
+      "translations": {
+        "hi": {
+          "question": "प्रथम n प्राकृत संख्याओं का माध्य क्या है?",
+          "options": {
+            "A": "n/2",
+            "B": "(n+1)/2",
+            "C": "n(n+1)/2",
+            "D": "n+1"
+          },
+          "explanation": "योग = n(n+1)/2। माध्य = योग/n = (n+1)/2।"
+        }
+      }
+    },
+    {
+      "id": "math-11-025",
+      "number": 25,
+      "question": "Step Deviation Method is for?",
+      "options": {
+        "A": "माध्य",
+        "B": "माध्यिका",
+        "C": "बहुलक",
+        "D": "मानक विचलन"
+      },
+      "answer": "A",
+      "explanation": "For calculating Mean.",
+      "hash": "583d5e3e65d2da7d",
+      "translations": {
+        "hi": {
+          "question": "पग-विचलन विधि (Step Deviation Method) का सूत्र किस केंद्रीय प्रवृत्ति के लिए है?",
+          "options": {
+            "A": "माध्य",
+            "B": "माध्यिका",
+            "C": "बहुलक",
+            "D": "मानक विचलन"
+          },
+          "explanation": "यह माध्य (Mean) निकालने की लघु विधि है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-026",
+      "number": 26,
+      "question": "Cumulative frequency table is needed for?",
+      "options": {
+        "A": "माध्य",
+        "B": "बहुलक",
+        "C": "माध्यिका (Median)",
+        "D": "सभी"
+      },
+      "answer": "C",
+      "explanation": "For calculating Median.",
+      "hash": "ef1a9213c99a69ce",
+      "translations": {
+        "hi": {
+          "question": "संचयी बारंबारता सारणी की आवश्यकता किसके परिकलन में होती है?",
+          "options": {
+            "A": "माध्य",
+            "B": "बहुलक",
+            "C": "माध्यिका (Median)",
+            "D": "सभी"
+          },
+          "explanation": "माध्यिका के लिए cf की आवश्यकता होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-11-027",
+      "number": 27,
+      "question": "For drawing Ogive, class intervals must be?",
+      "options": {
+        "A": "समावेशी (Inclusive)",
+        "B": "अपवर्जी (Exclusive/Continuous)",
+        "C": "दोनों",
+        "D": "कोई नहीं"
+      },
+      "answer": "B",
+      "explanation": "Exclusive/Continuous.",
+      "hash": "ab9ae17f00e194aa",
+      "translations": {
+        "hi": {
+          "question": "तोरण खींचने के लिए वर्ग अंतरालों को कैसा होना चाहिए?",
+          "options": {
+            "A": "समावेशी (Inclusive)",
+            "B": "अपवर्जी (Exclusive/Continuous)",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "अंतराल सतत (Continuous) होने चाहिए।"
+        }
+      }
+    },
+    {
+      "id": "math-11-028",
+      "number": 28,
+      "question": "Class mark 15, class width 6. Lower limit?",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "15",
+        "D": "9"
+      },
+      "answer": "A",
+      "explanation": "15 - (6/2) = 12.",
+      "hash": "73726460505b6fc7",
+      "translations": {
+        "hi": {
+          "question": "एक बारंबारता बंटन में, मध्यमान 15 है और वर्ग चौड़ाई 6 है। निम्न सीमा क्या होगी?",
+          "options": {
+            "A": "12",
+            "B": "18",
+            "C": "15",
+            "D": "9"
+          },
+          "explanation": "निम्न सीमा = मध्यमान - (चौड़ाई/2) = 15 - 3 = 12।"
+        }
+      }
+    },
+    {
+      "id": "math-11-029",
+      "number": 29,
+      "question": "For grouped data, modal class has?",
+      "options": {
+        "A": "बारंबारता न्यूनतम है",
+        "B": "बारंबारता अधिकतम है",
+        "C": "संचयी बारंबारता अधिकतम है",
+        "D": "कोई नहीं"
+      },
+      "answer": "B",
+      "explanation": "Maximum Frequency.",
+      "hash": "7ec39c24c20faa5d",
+      "translations": {
+        "hi": {
+          "question": "वर्गीकृत आंकड़ों में बहुलक निकालने के लिए, बहुलक वर्ग वह है जिसकी?",
+          "options": {
+            "A": "बारंबारता न्यूनतम है",
+            "B": "बारंबारता अधिकतम है",
+            "C": "संचयी बारंबारता अधिकतम है",
+            "D": "कोई नहीं"
+          },
+          "explanation": "अधिकतम बारंबारता (Highest Frequency)।"
+        }
+      }
+    },
+    {
+      "id": "math-11-030",
+      "number": 30,
+      "question": "Effect of extreme values on Mean?",
+      "options": {
+        "A": "कोई प्रभाव नहीं",
+        "B": "बहुत अधिक प्रभाव",
+        "C": "नगण्य प्रभाव",
+        "D": "कुछ कहा नहीं जा सकता"
+      },
+      "answer": "B",
+      "explanation": "Mean is highly affected by extreme values.",
+      "hash": "bc3d0be592f9b275",
+      "translations": {
+        "hi": {
+          "question": "माध्य (Mean) पर चरम मानों (Extreme Values) का क्या प्रभाव पड़ता है?",
+          "options": {
+            "A": "कोई प्रभाव नहीं",
+            "B": "बहुत अधिक प्रभाव",
+            "C": "नगण्य प्रभाव",
+            "D": "कुछ कहा नहीं जा सकता"
+          },
+          "explanation": "माध्य चरम मानों से बहुत अधिक प्रभावित होता है।"
+        }
+      }
+    }
+  ]
+}

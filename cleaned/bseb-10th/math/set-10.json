@@ -1,0 +1,787 @@
+{
+  "subject": "Math",
+  "set": 10,
+  "title": "Math Mock Test 10",
+  "questions": [
+    {
+      "id": "math-10-001",
+      "number": 1,
+      "question": "Formula for Volume of a Cube with side 'a'?",
+      "options": {
+        "A": "a²",
+        "B": "a³",
+        "C": "6a²",
+        "D": "4a²"
+      },
+      "answer": "B",
+      "explanation": "Volume = side³ = a³.",
+      "hash": "a13bc8628041cdad",
+      "translations": {
+        "hi": {
+          "question": "एक घन (Cube) का आयतन ज्ञात करने का सूत्र क्या है जिसकी भुजा 'a' है?",
+          "options": {
+            "A": "a²",
+            "B": "a³",
+            "C": "6a²",
+            "D": "4a²"
+          },
+          "explanation": "घन का आयतन = भुजा × भुजा × भुजा = a³।"
+        }
+      }
+    },
+    {
+      "id": "math-10-002",
+      "number": 2,
+      "question": "Curved Surface Area of a Cylinder with radius r and height h?",
+      "options": {
+        "A": "2πrh",
+        "B": "πr²h",
+        "C": "2πr(r+h)",
+        "D": "πrh"
+      },
+      "answer": "A",
+      "explanation": "CSA = 2πrh.",
+      "hash": "ffff5cf7498f1f01",
+      "translations": {
+        "hi": {
+          "question": "r त्रिज्या और h ऊंचाई वाले बेलन (Cylinder) का वक्र पृष्ठीय क्षेत्रफल क्या होता है?",
+          "options": {
+            "A": "2πrh",
+            "B": "πr²h",
+            "C": "2πr(r+h)",
+            "D": "πrh"
+          },
+          "explanation": "बेलन का वक्र पृष्ठ = 2πrh।"
+        }
+      }
+    },
+    {
+      "id": "math-10-003",
+      "number": 3,
+      "question": "Volume of a Sphere?",
+      "options": {
+        "A": "4/3 πr³",
+        "B": "2/3 πr³",
+        "C": "4πr²",
+        "D": "3πr³"
+      },
+      "answer": "A",
+      "explanation": "Volume = 4/3 πr³.",
+      "hash": "dc8028a99e89cc79",
+      "translations": {
+        "hi": {
+          "question": "एक गोले (Sphere) का आयतन क्या होता है?",
+          "options": {
+            "A": "4/3 πr³",
+            "B": "2/3 πr³",
+            "C": "4πr²",
+            "D": "3πr³"
+          },
+          "explanation": "गोले का आयतन = 4/3 πr³।"
+        }
+      }
+    },
+    {
+      "id": "math-10-004",
+      "number": 4,
+      "question": "Formula for Slant Height 'l' of a Cone?",
+      "options": {
+        "A": "√(h² - r²)",
+        "B": "√(r² + h²)",
+        "C": "r + h",
+        "D": "rh"
+      },
+      "answer": "B",
+      "explanation": "l = √(r² + h²).",
+      "hash": "db5d21ed366cfd2a",
+      "translations": {
+        "hi": {
+          "question": "शंकु (Cone) की तिर्यक ऊंचाई (Slant Height) 'l' का सूत्र क्या है?",
+          "options": {
+            "A": "√(h² - r²)",
+            "B": "√(r² + h²)",
+            "C": "r + h",
+            "D": "rh"
+          },
+          "explanation": "पाइथागोरस प्रमेय से: l = √(r² + h²)।"
+        }
+      }
+    },
+    {
+      "id": "math-10-005",
+      "number": 5,
+      "question": "Ratio of volumes of Cylinder and Cone with same r and h?",
+      "options": {
+        "A": "1:3",
+        "B": "3:1",
+        "C": "1:1",
+        "D": "1:2"
+      },
+      "answer": "B",
+      "explanation": "Cylinder is 3 times the volume of the cone.",
+      "hash": "9442ba0a54d39744",
+      "translations": {
+        "hi": {
+          "question": "एक बेलन और एक शंकु की त्रिज्या और ऊंचाई समान हैं। उनके आयतनों का अनुपात क्या होगा?",
+          "options": {
+            "A": "1:3",
+            "B": "3:1",
+            "C": "1:1",
+            "D": "1:2"
+          },
+          "explanation": "बेलन (πr²h) : शंकु (1/3 πr²h) = 3:1।"
+        }
+      }
+    },
+    {
+      "id": "math-10-006",
+      "number": 6,
+      "question": "If two cubes are joined end-to-end, the resulting shape is?",
+      "options": {
+        "A": "घन",
+        "B": "घनाभ (Cuboid)",
+        "C": "बेलन",
+        "D": "शंकु"
+      },
+      "answer": "B",
+      "explanation": "It becomes a Cuboid.",
+      "hash": "6755a761b26fbc52",
+      "translations": {
+        "hi": {
+          "question": "यदि दो घनों को सिरे से सिरा मिलाकर (end-to-end) जोड़ा जाए, तो प्राप्त आकृति क्या होगी?",
+          "options": {
+            "A": "घन",
+            "B": "घनाभ (Cuboid)",
+            "C": "बेलन",
+            "D": "शंकु"
+          },
+          "explanation": "दो घनों को जोड़ने पर लंबाई बढ़ जाती है, जिससे यह घनाभ बन जाता है।"
+        }
+      }
+    },
+    {
+      "id": "math-10-007",
+      "number": 7,
+      "question": "Total Surface Area of a solid Hemisphere?",
+      "options": {
+        "A": "2πr²",
+        "B": "3πr²",
+        "C": "4πr²",
+        "D": "πr²"
+      },
+      "answer": "B",
+      "explanation": "CSA (2πr²) + Base (πr²) = 3πr².",
+      "hash": "f7445517892f6a70",
+      "translations": {
+        "hi": {
+          "question": "अर्धगोले (Hemisphere) का सम्पूर्ण पृष्ठीय क्षेत्रफल (TSA) क्या होता है?",
+          "options": {
+            "A": "2πr²",
+            "B": "3πr²",
+            "C": "4πr²",
+            "D": "πr²"
+          },
+          "explanation": "वक्र पृष्ठ (2πr²) + आधार का क्षेत्रफल (πr²) = 3πr²।"
+        }
+      }
+    },
+    {
+      "id": "math-10-008",
+      "number": 8,
+      "question": "What remains constant when a solid is melted to form another?",
+      "options": {
+        "A": "आयतन (Volume)",
+        "B": "पृष्ठीय क्षेत्रफल",
+        "C": "आकार",
+        "D": "त्रिज्या"
+      },
+      "answer": "A",
+      "explanation": "Volume remains constant.",
+      "hash": "41c9aea8a269e67e",
+      "translations": {
+        "hi": {
+          "question": "एक ठोस को पिघलाकर दूसरा ठोस बनाने पर क्या नहीं बदलता?",
+          "options": {
+            "A": "आयतन (Volume)",
+            "B": "पृष्ठीय क्षेत्रफल",
+            "C": "आकार",
+            "D": "त्रिज्या"
+          },
+          "explanation": "पदार्थ की मात्रा समान रहती है, इसलिए आयतन नहीं बदलता।"
+        }
+      }
+    },
+    {
+      "id": "math-10-009",
+      "number": 9,
+      "question": "Surface Area of a cube with side 6 cm?",
+      "options": {
+        "A": "36",
+        "B": "216",
+        "C": "144",
+        "D": "24"
+      },
+      "answer": "B",
+      "explanation": "6a² = 216.",
+      "hash": "f5b4f949a7c3d454",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी भुजा वाले घन का पृष्ठीय क्षेत्रफल क्या होगा?",
+          "options": {
+            "A": "36",
+            "B": "216",
+            "C": "144",
+            "D": "24"
+          },
+          "explanation": "6a² = 6 × (6)² = 6 × 36 = 216 सेमी²।"
+        }
+      }
+    },
+    {
+      "id": "math-10-010",
+      "number": 10,
+      "question": "Volume of a Cuboid with dimensions l, b, h?",
+      "options": {
+        "A": "2(lb+bh+hl)",
+        "B": "lbh",
+        "C": "l+b+h",
+        "D": "√l²+b²+h²"
+      },
+      "answer": "B",
+      "explanation": "Volume = lbh.",
+      "hash": "2b30f6ccf26eea38",
+      "translations": {
+        "hi": {
+          "question": "एक घनाभ (Cuboid) का आयतन क्या है जिसकी विमाएं l, b और h हैं?",
+          "options": {
+            "A": "2(lb+bh+hl)",
+            "B": "lbh",
+            "C": "l+b+h",
+            "D": "√l²+b²+h²"
+          },
+          "explanation": "आयतन = लंबाई × चौड़ाई × ऊंचाई = lbh।"
+        }
+      }
+    },
+    {
+      "id": "math-10-011",
+      "number": 11,
+      "question": "A bucket is usually in the shape of?",
+      "options": {
+        "A": "शंकु",
+        "B": "शंकु का छिन्नक (Frustum of a cone)",
+        "C": "बेलन",
+        "D": "गोला"
+      },
+      "answer": "B",
+      "explanation": "Frustum of a cone.",
+      "hash": "8af6a4998b85cdf7",
+      "translations": {
+        "hi": {
+          "question": "बाल्टी (Bucket) सामान्यतः किस आकार की होती है?",
+          "options": {
+            "A": "शंकु",
+            "B": "शंकु का छिन्नक (Frustum of a cone)",
+            "C": "बेलन",
+            "D": "गोला"
+          },
+          "explanation": "यह शंकु के छिन्नक (Frustum) के आकार की होती है।"
+        }
+      }
+    },
+    {
+      "id": "math-10-012",
+      "number": 12,
+      "question": "Surface area of sphere with radius 7?",
+      "options": {
+        "A": "154",
+        "B": "616",
+        "C": "308",
+        "D": "88"
+      },
+      "answer": "B",
+      "explanation": "616 cm².",
+      "hash": "7986cc40026a505a",
+      "translations": {
+        "hi": {
+          "question": "7 सेमी त्रिज्या वाले गोले का पृष्ठीय क्षेत्रफल क्या है?",
+          "options": {
+            "A": "154",
+            "B": "616",
+            "C": "308",
+            "D": "88"
+          },
+          "explanation": "4πr² = 4 × 22/7 × 7 × 7 = 88 × 7 = 616।"
+        }
+      }
+    },
+    {
+      "id": "math-10-013",
+      "number": 13,
+      "question": "Cone volume is 1/3 πr²h. If height is doubled, volume becomes?",
+      "options": {
+        "A": "दोगुना",
+        "B": "आधा",
+        "C": "चार गुना",
+        "D": "समान"
+      },
+      "answer": "A",
+      "explanation": "Volume is directly proportional to height, so doubled.",
+      "hash": "5f52fcc16d32222e",
+      "translations": {
+        "hi": {
+          "question": "एक शंकु का आयतन 1/3 πr²h है। यदि ऊंचाई दोगुनी कर दी जाए, तो आयतन हो जाएगा?",
+          "options": {
+            "A": "दोगुना",
+            "B": "आधा",
+            "C": "चार गुना",
+            "D": "समान"
+          },
+          "explanation": "आयतन ऊंचाई के समानुपाती होता है, इसलिए यह दोगुना हो जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "math-10-014",
+      "number": 14,
+      "question": "A medicine capsule is a combination of?",
+      "options": {
+        "A": "बेलन + 2 शंकु",
+        "B": "बेलन + 2 अर्धगोले",
+        "C": "गोला + बेलन",
+        "D": "केवल बेलन"
+      },
+      "answer": "B",
+      "explanation": "Cylinder + 2 Hemispheres.",
+      "hash": "1348998e0819e5b7",
+      "translations": {
+        "hi": {
+          "question": "एक दवा का कैप्सूल (Medicine Capsule) अक्सर किन आकृतियों का संयोजन होता है?",
+          "options": {
+            "A": "बेलन + 2 शंकु",
+            "B": "बेलन + 2 अर्धगोले",
+            "C": "गोला + बेलन",
+            "D": "केवल बेलन"
+          },
+          "explanation": "मध्य में बेलन और दोनों सिरों पर अर्धगोले।"
+        }
+      }
+    },
+    {
+      "id": "math-10-015",
+      "number": 15,
+      "question": "If radius of sphere is tripled, volume becomes ___ times?",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "27",
+        "D": "6"
+      },
+      "answer": "C",
+      "explanation": "27 times.",
+      "hash": "dfdae5c13407cb39",
+      "translations": {
+        "hi": {
+          "question": "यदि गोले की त्रिज्या 3 गुनी कर दी जाए, तो उसका आयतन कितना गुना हो जाएगा?",
+          "options": {
+            "A": "3",
+            "B": "9",
+            "C": "27",
+            "D": "6"
+          },
+          "explanation": "(3r)³ = 27r³। आयतन 27 गुना हो जाएगा।"
+        }
+      }
+    },
+    {
+      "id": "math-10-016",
+      "number": 16,
+      "question": "Diagonal of a Cube?",
+      "options": {
+        "A": "√2a",
+        "B": "√3a",
+        "C": "a√3/2",
+        "D": "3a"
+      },
+      "answer": "B",
+      "explanation": "√3a.",
+      "hash": "b574828838e0c90d",
+      "translations": {
+        "hi": {
+          "question": "घन का विकर्ण (Diagonal) क्या होता है?",
+          "options": {
+            "A": "√2a",
+            "B": "√3a",
+            "C": "a√3/2",
+            "D": "3a"
+          },
+          "explanation": "√(a² + a² + a²) = √3a।"
+        }
+      }
+    },
+    {
+      "id": "math-10-017",
+      "number": 17,
+      "question": "Total Surface Area of Cylinder?",
+      "options": {
+        "A": "2πrh",
+        "B": "2πr(r+h)",
+        "C": "πr²h",
+        "D": "2πr²"
+      },
+      "answer": "B",
+      "explanation": "2πr(r+h).",
+      "hash": "a049365afd7abb24",
+      "translations": {
+        "hi": {
+          "question": "बेलन का कुल पृष्ठीय क्षेत्रफल (TSA) क्या है?",
+          "options": {
+            "A": "2πrh",
+            "B": "2πr(r+h)",
+            "C": "πr²h",
+            "D": "2πr²"
+          },
+          "explanation": "वक्र पृष्ठ + 2 × आधार का क्षेत्रफल = 2πrh + 2πr² = 2πr(h+r)।"
+        }
+      }
+    },
+    {
+      "id": "math-10-018",
+      "number": 18,
+      "question": "A sharpened pencil is a combination of?",
+      "options": {
+        "A": "बेलन + गोला",
+        "B": "बेलन + शंकु",
+        "C": "घन + शंकु",
+        "D": "शंकु + अर्धगोला"
+      },
+      "answer": "B",
+      "explanation": "Cylinder + Cone.",
+      "hash": "76f30f0e23d15960",
+      "translations": {
+        "hi": {
+          "question": "एक पेंसिल (छिली हुई) किन आकृतियों का संयोजन है?",
+          "options": {
+            "A": "बेलन + गोला",
+            "B": "बेलन + शंकु",
+            "C": "घन + शंकु",
+            "D": "शंकु + अर्धगोला"
+          },
+          "explanation": "नीचे बेलनाकार भाग और ऊपर शंक्वाकार (Conical) टिप।"
+        }
+      }
+    },
+    {
+      "id": "math-10-019",
+      "number": 19,
+      "question": "Volume of hollow cylinder (Outer R, Inner r)?",
+      "options": {
+        "A": "πh(R² - r²)",
+        "B": "πh(R - r)²",
+        "C": "πh(R² + r²)",
+        "D": "2πh(R - r)"
+      },
+      "answer": "A",
+      "explanation": "πh(R² - r²).",
+      "hash": "d272d513208a7ed2",
+      "translations": {
+        "hi": {
+          "question": "खोखले बेलन (Hollow Cylinder) का आयतन क्या होता है (बाहरी त्रिज्या R, भीतरी r)?",
+          "options": {
+            "A": "πh(R² - r²)",
+            "B": "πh(R - r)²",
+            "C": "πh(R² + r²)",
+            "D": "2πh(R - r)"
+          },
+          "explanation": "बाहरी आयतन - भीतरी आयतन = πR²h - πr²h = πh(R² - r²)।"
+        }
+      }
+    },
+    {
+      "id": "math-10-020",
+      "number": 20,
+      "question": "Volume of cube is 64. Its side is?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "2"
+      },
+      "answer": "A",
+      "explanation": "4 cm.",
+      "hash": "d745497c35cb8312",
+      "translations": {
+        "hi": {
+          "question": "एक घन का आयतन 64 सेमी³ है। इसकी भुजा है?",
+          "options": {
+            "A": "4",
+            "B": "8",
+            "C": "16",
+            "D": "2"
+          },
+          "explanation": "a³ = 64 => a = ∛64 = 4 सेमी।"
+        }
+      }
+    },
+    {
+      "id": "math-10-021",
+      "number": 21,
+      "question": "Area of base of a cone?",
+      "options": {
+        "A": "πr²",
+        "B": "2πr",
+        "C": "πrl",
+        "D": "2πr²"
+      },
+      "answer": "A",
+      "explanation": "Circular base, so πr².",
+      "hash": "650af368b7cc38e2",
+      "translations": {
+        "hi": {
+          "question": "शंकु के आधार का क्षेत्रफल क्या होता है?",
+          "options": {
+            "A": "πr²",
+            "B": "2πr",
+            "C": "πrl",
+            "D": "2πr²"
+          },
+          "explanation": "शंकु का आधार वृत्ताकार होता है, अतः πr²।"
+        }
+      }
+    },
+    {
+      "id": "math-10-022",
+      "number": 22,
+      "question": "Shape of 'Gilli' is a combination of?",
+      "options": {
+        "A": "दो बेलन",
+        "B": "एक बेलन और दो शंकु",
+        "C": "एक बेलन और दो गोले",
+        "D": "दो शंकु"
+      },
+      "answer": "B",
+      "explanation": "One Cylinder and two Cones.",
+      "hash": "3db84d5a75a61a4c",
+      "translations": {
+        "hi": {
+          "question": "गिल्ली-डंडा खेल में 'गिल्ली' का आकार किसका संयोजन होता है?",
+          "options": {
+            "A": "दो बेलन",
+            "B": "एक बेलन और दो शंकु",
+            "C": "एक बेलन और दो गोले",
+            "D": "दो शंकु"
+          },
+          "explanation": "बीच में बेलन और दोनों सिरों पर शंकु।"
+        }
+      }
+    },
+    {
+      "id": "math-10-023",
+      "number": 23,
+      "question": "Spheres of radii 6, 8, 10 melted to form a single sphere. Radius?",
+      "options": {
+        "A": "12 सेमी",
+        "B": "24 सेमी",
+        "C": "14 सेमी",
+        "D": "18 सेमी"
+      },
+      "answer": "A",
+      "explanation": "12 cm.",
+      "hash": "862217839fb7e089",
+      "translations": {
+        "hi": {
+          "question": "6 सेमी, 8 सेमी और 10 सेमी त्रिज्या वाले तीन धातु के गोलों को पिघलाकर एक बड़ा गोला बनाया जाता है। बड़े गोले की त्रिज्या?",
+          "options": {
+            "A": "12 सेमी",
+            "B": "24 सेमी",
+            "C": "14 सेमी",
+            "D": "18 सेमी"
+          },
+          "explanation": "R³ = 6³ + 8³ + 10³ = 216 + 512 + 1000 = 1728। R = 12।"
+        }
+      }
+    },
+    {
+      "id": "math-10-024",
+      "number": 24,
+      "question": "Cylinder diameter 4, height 14. CSA?",
+      "options": {
+        "A": "88",
+        "B": "176",
+        "C": "352",
+        "D": "66"
+      },
+      "answer": "B",
+      "explanation": "176 cm².",
+      "hash": "6e2ff3a362d9b1c0",
+      "translations": {
+        "hi": {
+          "question": "लंब वृत्तीय बेलन के आधार का व्यास 4 सेमी और ऊँचाई 14 सेमी है। वक्र पृष्ठीय क्षेत्रफल?",
+          "options": {
+            "A": "88",
+            "B": "176",
+            "C": "352",
+            "D": "66"
+          },
+          "explanation": "r = 2। CSA = 2πrh = 2 × 22/7 × 2 × 14 = 44 × 4 = 176।"
+        }
+      }
+    },
+    {
+      "id": "math-10-025",
+      "number": 25,
+      "question": "Ratio of volumes of two spheres is 8:27. Ratio of radii?",
+      "options": {
+        "A": "2:3",
+        "B": "4:9",
+        "C": "8:27",
+        "D": "1:3"
+      },
+      "answer": "A",
+      "explanation": "Cube root of 8:27 is 2:3.",
+      "hash": "f394439ffd9a7be3",
+      "translations": {
+        "hi": {
+          "question": "यदि दो गोलों के आयतनों का अनुपात 8:27 है, तो उनकी त्रिज्याओं का अनुपात क्या है?",
+          "options": {
+            "A": "2:3",
+            "B": "4:9",
+            "C": "8:27",
+            "D": "1:3"
+          },
+          "explanation": "r₁³/r₂³ = 8/27 => r₁/r₂ = ∛(8/27) = 2/3।"
+        }
+      }
+    },
+    {
+      "id": "math-10-026",
+      "number": 26,
+      "question": "Two hemispheres of radius 'r' joined base to base. CSA?",
+      "options": {
+        "A": "4πr²",
+        "B": "6πr²",
+        "C": "3πr²",
+        "D": "8πr²"
+      },
+      "answer": "A",
+      "explanation": "It becomes a sphere, 4πr².",
+      "hash": "10bc033e9a769c77",
+      "translations": {
+        "hi": {
+          "question": "समान आधार त्रिज्या 'r' वाले दो अर्धगोलों को उनके आधारों से जोड़ दिया जाए, तो वक्र पृष्ठीय क्षेत्रफल क्या होगा?",
+          "options": {
+            "A": "4πr²",
+            "B": "6πr²",
+            "C": "3πr²",
+            "D": "8πr²"
+          },
+          "explanation": "यह एक पूरा गोला बन जाएगा, जिसका क्षेत्रफल 4πr² है।"
+        }
+      }
+    },
+    {
+      "id": "math-10-027",
+      "number": 27,
+      "question": "Formula for diagonal of a cuboid?",
+      "options": {
+        "A": "√(l² + b²)",
+        "B": "√(l² + b² + h²)",
+        "C": "l + b + h",
+        "D": "3(l+b+h)"
+      },
+      "answer": "B",
+      "explanation": "√(l² + b² + h²).",
+      "hash": "df8c9c72ef93bca4",
+      "translations": {
+        "hi": {
+          "question": "एक घनाभ के विकर्ण की लंबाई का सूत्र?",
+          "options": {
+            "A": "√(l² + b²)",
+            "B": "√(l² + b² + h²)",
+            "C": "l + b + h",
+            "D": "3(l+b+h)"
+          },
+          "explanation": "√(l² + b² + h²)।"
+        }
+      }
+    },
+    {
+      "id": "math-10-028",
+      "number": 28,
+      "question": "Shape of a drinking glass?",
+      "options": {
+        "A": "शंकु",
+        "B": "बेलन",
+        "C": "शंकु का छिन्नक",
+        "D": "गोला"
+      },
+      "answer": "C",
+      "explanation": "Frustum of a cone.",
+      "hash": "8723059953a758c8",
+      "translations": {
+        "hi": {
+          "question": "एक गिलास (Glass) का आकार सामान्यतः क्या होता है?",
+          "options": {
+            "A": "शंकु",
+            "B": "बेलन",
+            "C": "शंकु का छिन्नक",
+            "D": "गोला"
+          },
+          "explanation": "यह आमतौर पर शंकु के छिन्नक (Frustum) के आकार का होता है।"
+        }
+      }
+    },
+    {
+      "id": "math-10-029",
+      "number": 29,
+      "question": "Number of faces in a Cuboid?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "B",
+      "explanation": "6 faces.",
+      "hash": "8c11b3926409042f",
+      "translations": {
+        "hi": {
+          "question": "घनाभ के कुल कितने फलक (Faces) होते हैं?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "12"
+          },
+          "explanation": "घनाभ में 6 आयताकार फलक होते हैं।"
+        }
+      }
+    },
+    {
+      "id": "math-10-030",
+      "number": 30,
+      "question": "Cone h=4, r=3. Slant height l?",
+      "options": {
+        "A": "5 सेमी",
+        "B": "7 सेमी",
+        "C": "25 सेमी",
+        "D": "1 सेमी"
+      },
+      "answer": "A",
+      "explanation": "5 cm.",
+      "hash": "52c06960d6ef7033",
+      "translations": {
+        "hi": {
+          "question": "एक शंकु की ऊँचाई 4 सेमी और त्रिज्या 3 सेमी है। इसकी तिर्यक ऊँचाई (l) क्या है?",
+          "options": {
+            "A": "5 सेमी",
+            "B": "7 सेमी",
+            "C": "25 सेमी",
+            "D": "1 सेमी"
+          },
+          "explanation": "l = √(3² + 4²) = √(9 + 16) = √25 = 5।"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "subject": "Reasoning",
+  "set": 2,
+  "title": "Reasoning Mock Test 2",
+  "questions": [
+    {
+      "id": "reasoning-02-001",
+      "number": 1,
+      "question": "Complete the series: 6, 13, 28, 59, ?",
+      "options": {
+        "A": "122",
+        "B": "120",
+        "C": "118",
+        "D": "124"
+      },
+      "answer": "A",
+      "explanation": "Logic: *2+1, *2+2, *2+3... 59*2+4 = 122.",
+      "hash": "6619452a6bf8369c",
+      "translations": {
+        "hi": {
+          "question": "दी गई श्रृंखला को पूरा करें: 6, 13, 28, 59, ?",
+          "options": {
+            "A": "122",
+            "B": "120",
+            "C": "118",
+            "D": "124"
+          },
+          "explanation": "तर्क: $ imes 2 + 1, imes 2 + 2, imes 2 + 3...$ $6 imes 2 + 1 = 13$ $13 imes 2 + 2 = 28$ $28 imes 2 + 3 = 59$ $59 imes 2 + 4 = 118 + 4 = 122$。"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-002",
+      "number": 2,
+      "question": "Statements: All laptops are electronics. Some electronics are expensive. Conclusions: I. All laptops are expensive. II. Some expensive are laptops.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "D",
+      "explanation": "No direct relation between Laptop and Expensive. Laptops are subset of Electronics, Expensive intersects Electronics. Overlap of Laptop and Expensive is unknown.",
+      "hash": "ffff6d3f5b493e3a",
+      "translations": {
+        "hi": {
+          "question": "कथन: 'सभी लैपटॉप इलेक्ट्रॉनिक्स हैं। कुछ इलेक्ट्रॉनिक्स महंगे हैं।' निष्कर्ष: I. सभी लैपटॉप महंगे हैं। II. कुछ महंगे लैपटॉप हैं।",
+          "options": {
+            "A": "केवल I",
+            "B": "केवल II",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "लैपटॉप और महंगे के बीच कोई सीधा संबंध नहीं दिया गया है। इलेक्ट्रॉनिक्स का जो हिस्सा महंगा है, वह लैपटॉप हो भी सकता है और नहीं भी। इसलिए दोनों निष्कर्ष निश्चित नहीं हैं।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-003",
+      "number": 3,
+      "question": "If $12 \\# 8 = 80$ and $16 \\# 7 = 207$, then $25 \\# 21 = ?$",
+      "options": {
+        "A": "184",
+        "B": "200",
+        "C": "190",
+        "D": "180"
+      },
+      "answer": "A",
+      "explanation": "Logic: $A^2 - B^2$. $25^2 - 21^2 = 184$.",
+      "hash": "58387cc1e4d20c4e",
+      "translations": {
+        "hi": {
+          "question": "यदि $12 \\# 8 = 80$ और $16 \\# 7 = 207$, तो $25 \\# 21 = ?$",
+          "options": {
+            "A": "184",
+            "B": "200",
+            "C": "190",
+            "D": "180"
+          },
+          "explanation": "तर्क: $A^2 - B^2$। $12^2 - 8^2 = 144 - 64 = 80$ $16^2 - 7^2 = 256 - 49 = 207$ $25^2 - 21^2 = 625 - 441 = 184$。"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-004",
+      "number": 4,
+      "question": "In a code, PAINT is 74128, EXCEL is 93596. Code for ACCEPT?",
+      "options": {
+        "A": "455978",
+        "B": "459578",
+        "C": "457958",
+        "D": "459758"
+      },
+      "answer": "A",
+      "explanation": "Direct coding from given words. A=4, C=5, E=9, P=7, T=8.",
+      "hash": "427b5d3fbf53513f",
+      "translations": {
+        "hi": {
+          "question": "एक निश्चित कूट में, PAINT को 74128 और EXCEL को 93596 लिखा जाता है। ACCEPT के लिए कोड क्या है?",
+          "options": {
+            "A": "455978",
+            "B": "459578",
+            "C": "457958",
+            "D": "459758"
+          },
+          "explanation": "सीधा प्रतिस्थापन (Direct Substitution): A=4, C=5, C=5, E=9, P=7, T=8. कोड: 455978।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-005",
+      "number": 5,
+      "question": "In a class of 40, 24 play Cricket, 20 play Football, 10 play both. How many play neither?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "5"
+      },
+      "answer": "A",
+      "explanation": "Union = 24 + 20 - 10 = 34. Neither = Total - Union = 40 - 34 = 6.",
+      "hash": "d573a2ea95cb2521",
+      "translations": {
+        "hi": {
+          "question": "40 छात्रों की एक कक्षा में, 24 क्रिकेट खेलते हैं, 20 फुटबॉल खेलते हैं और 10 क्रिकेट और फुटबॉल दोनों खेलते हैं। कितने छात्र न तो क्रिकेट खेलते हैं और न ही फुटबॉल?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "8",
+            "D": "5"
+          },
+          "explanation": "Union = 24 + 20 - 10 = 34. Neither = Total - Union = 40 - 34 = 6."
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-007",
+      "number": 7,
+      "question": "How many times do the hands of a clock form a right angle in a day?",
+      "options": {
+        "A": "44",
+        "B": "48",
+        "C": "22",
+        "D": "24"
+      },
+      "answer": "A",
+      "explanation": "22 times in 12 hours. 44 times in 24 hours.",
+      "hash": "fc82b43646a7c242",
+      "translations": {
+        "hi": {
+          "question": "घड़ी की सुइयां दिन में कितनी बार समकोण (90°) बनाती हैं?",
+          "options": {
+            "A": "44",
+            "B": "48",
+            "C": "22",
+            "D": "24"
+          },
+          "explanation": "1 घंटे में 2 बार। 12 घंटे में 22 बार (3 और 9 बजे कॉमन होते हैं)। 24 घंटे में 44 बार।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-008",
+      "number": 8,
+      "question": "Statement: 'If you are an engineer, we have a job for you.' Conclusions: I. We need engineers. II. You are an engineer.",
+      "options": {
+        "A": "Only I follows",
+        "B": "Only II follows",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "The ad implies a vacancy for engineers (I). It addresses a general audience, not confirming the reader is an engineer (II).",
+      "hash": "107a804ce42c5b06",
+      "translations": {
+        "hi": {
+          "question": "कथन: 'यदि आप एक इंजीनियर हैं, तो हमारे पास आपके लिए नौकरी है।' - एक विज्ञापन। निष्कर्ष: I. हमें इंजीनियरों की जरूरत है। II. आप एक इंजीनियर हैं।",
+          "options": {
+            "A": "केवल I अनुसरण करता है",
+            "B": "केवल II अनुसरण करता है",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "विज्ञापन नौकरी की पेशकश कर रहा है, इसका मतलब उन्हें जरूरत है (I सही)। विज्ञापन पाठक को संबोधित कर रहा है, लेकिन यह जरूरी नहीं कि पाठक इंजीनियर हो (II गलत)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-009",
+      "number": 9,
+      "question": "Dice positions: (1,3,5), (1,2,3). Opposite to 5?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "CND"
+      },
+      "answer": "A",
+      "explanation": "Rule of 2 common faces (1 and 3). Remaining faces are opposite. 5 opposite 2.",
+      "hash": "e6f3527f8f461776",
+      "translations": {
+        "hi": {
+          "question": "पासे की स्थिति: (1,3,5), (1,2,3)। '5' के विपरीत क्या है?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "निर्धारित नहीं किया जा सकता"
+          },
+          "explanation": "दो फलक कॉमन हैं: 1 और 3। बचे हुए फलक एक-दूसरे के विपरीत होते हैं। अतः 5 के विपरीत 2 है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-010",
+      "number": 10,
+      "question": "Angle between clock hands at 7:20?",
+      "options": {
+        "A": "100°",
+        "B": "110°",
+        "C": "90°",
+        "D": "120°"
+      },
+      "answer": "A",
+      "explanation": "Formula: |30H - 11/2M|. |210 - 110| = 100.",
+      "hash": "9fb8a7c69fa0af0f",
+      "translations": {
+        "hi": {
+          "question": "7:20 बजे घड़ी की सुइयों के बीच का कोण क्या है?",
+          "options": {
+            "A": "100°",
+            "B": "110°",
+            "C": "90°",
+            "D": "120°"
+          },
+          "explanation": "$|30(7) - 5.5(20)| = |210 - 110| = 100°$。"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-011",
+      "number": 11,
+      "question": "A$B=A is mother of B. A#B=A is father of B. A@B=A is husband of B. A%B=A is daughter of B. In 'P @ Q $ M # T', relation of P to T?",
+      "options": {
+        "A": "Paternal Grandfather",
+        "B": "Maternal Grandfather",
+        "C": "Father",
+        "D": "Uncle"
+      },
+      "answer": "A",
+      "explanation": "P is husband of Q. Q is mother of M. M is father of T. P is father of M, so P is Paternal Grandfather of T.",
+      "hash": "77c0d85d841b7d9e",
+      "translations": {
+        "hi": {
+          "question": "निर्देश: A $ B का अर्थ है A, B की माँ है। A # B का अर्थ है A, B का पिता है। A @ B का अर्थ है A, B का पति है। A % B का अर्थ है A, B की बेटी है। व्यंजक 'P @ Q $ M # T' में P का T से क्या संबंध है?",
+          "options": {
+            "A": "दादा (Paternal Grandfather)",
+            "B": "नाना (Maternal Grandfather)",
+            "C": "पिता",
+            "D": "चाचा"
+          },
+          "explanation": "Q, T की दादी है। P, Q का पति है। अतः P, T का दादा (Paternal Grandfather) है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-012",
+      "number": 12,
+      "question": "Choose odd number: 253, 473, 143, 633",
+      "options": {
+        "A": "633",
+        "B": "253",
+        "C": "143",
+        "D": "473"
+      },
+      "answer": "A",
+      "explanation": "Logic: 1st digit + 3rd digit = Middle digit. 6+3 != 3.",
+      "hash": "fc28c32c9795fb30",
+      "translations": {
+        "hi": {
+          "question": "विषम चुनें: 253, 473, 143, 633",
+          "options": {
+            "A": "633",
+            "B": "253",
+            "C": "143",
+            "D": "473"
+          },
+          "explanation": "11 से विभाज्यता का नियम या (पहली + तीसरी संख्या = बीच की संख्या)। $2+3=5$ (253 सही) $4+3=7$ (473 सही) $1+3=4$ (143 सही) $6+3=9$ (लेकिन यहाँ बीच में 3 है - 633)। अतः 633 विषम है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-013",
+      "number": 13,
+      "question": "Analogy: 24 : 126 :: 48 : ?",
+      "options": {
+        "A": "344",
+        "B": "342",
+        "C": "240",
+        "D": "216"
+      },
+      "answer": "A",
+      "explanation": "Logic: $5^2-1 : 5^3+1$. Next $7^2-1 : 7^3+1 = 344$.",
+      "hash": "591a661622b3ecd9",
+      "translations": {
+        "hi": {
+          "question": "सादृश्यता: 24 : 126 :: 48 : ?",
+          "options": {
+            "A": "344",
+            "B": "342",
+            "C": "240",
+            "D": "216"
+          },
+          "explanation": "तर्क: $n^2 - 1 : n^3 + 1$ (जहाँ n=5)। $5^2 - 1 = 24$। $5^3 + 1 = 126$। $48 = 7^2 - 1$। अगला पद $7^3 + 1 = 343 + 1 = 344$।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-014",
+      "number": 14,
+      "question": "Rita is 15th from left, Madhu 18th from right. If they swap, Madhu becomes 25th from right. Total people?",
+      "options": {
+        "A": "39",
+        "B": "40",
+        "C": "38",
+        "D": "41"
+      },
+      "answer": "A",
+      "explanation": "Total = (New Right + Old Left) - 1 = 25 + 15 - 1 = 39.",
+      "hash": "23c60ca45c94b5d3",
+      "translations": {
+        "hi": {
+          "question": "एक कतार में, रीता बाएं से 15वीं है और मधु दाएं से 18वीं है। यदि वे स्थान बदलते हैं, तो मधु दाएं से 25वीं हो जाती है। कतार में कुल कितने लोग हैं?",
+          "options": {
+            "A": "39",
+            "B": "40",
+            "C": "38",
+            "D": "41"
+          },
+          "explanation": "कुल = (मधु का नया दायां + मधु के नए स्थान का बायां) - 1। मधु का नया स्थान रीता का पुराना स्थान है (बाएं से 15)। कुल = (25 + 15) - 1 = 39।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-015",
+      "number": 15,
+      "question": "If South-West becomes North-East, what will North-West become?",
+      "options": {
+        "A": "South-East",
+        "B": "South",
+        "C": "East",
+        "D": "West"
+      },
+      "answer": "A",
+      "explanation": "Opposite direction logic (180 degree shift). Opposite of NW is SE.",
+      "hash": "55dd9c45db5a679d",
+      "translations": {
+        "hi": {
+          "question": "यदि दक्षिण-पश्चिम 'उत्तर-पूर्व' बन जाता है, तो उत्तर-पश्चिम क्या बन जाएगा?",
+          "options": {
+            "A": "दक्षिण-पूर्व",
+            "B": "दक्षिण",
+            "C": "पूर्व",
+            "D": "पश्चिम"
+          },
+          "explanation": "SW से NE बिल्कुल विपरीत (180°) है। तो NW का विपरीत SE (दक्षिण-पूर्व) होगा।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-017",
+      "number": 17,
+      "question": "How many triangles in a regular hexagon with diagonals connecting opposite vertices?",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "6",
+        "D": "14"
+      },
+      "answer": "C",
+      "explanation": "6 small triangles.",
+      "hash": "09ca740f0ff5920b",
+      "translations": {
+        "hi": {
+          "question": "निम्नलिखित आकृति में कितने त्रिभुज हैं? (एक षट्भुज जिसमें सभी विकर्ण केंद्र से गुजरते हैं)",
+          "options": {
+            "A": "12",
+            "B": "10",
+            "C": "6",
+            "D": "14"
+          },
+          "explanation": "षट्भुज में 3 विकर्ण केंद्र से गुजरने पर 6 समबाहु त्रिभुज बनते हैं। उत्तर: 6।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-018",
+      "number": 18,
+      "question": "If $84 imes 13 = 8$, $37 imes 13 = 6$, $26 imes 11 = 6$, then $56 imes 22 = ?$",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "9",
+        "D": "3"
+      },
+      "answer": "A",
+      "explanation": "Logic: Sum of digits of 1st number - Sum of digits of 2nd number. (11 - 4) = 7.",
+      "hash": "babaa80bb463f0bc",
+      "translations": {
+        "hi": {
+          "question": "यदि $84 imes 13 = 8$, $37 imes 13 = 6$, $26 imes 11 = 6$, तो $56 imes 22 = ?$",
+          "options": {
+            "A": "7",
+            "B": "6",
+            "C": "9",
+            "D": "3"
+          },
+          "explanation": "तर्क: अंकों का योग और अंतर? $(8+4) - (1+3) = 12 - 4 = 8$ (सही)। $(3+7) - (1+3) = 10 - 4 = 6$ (सही)। $(2+6) - (1+1) = 8 - 2 = 6$ (सही)। $(5+6) - (2+2) = 11 - 4 = 7$ (उत्तर)।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-019",
+      "number": 19,
+      "question": "A family has a man, his wife, their 3 sons, their wives, and each son has 3 children. Total members?",
+      "options": {
+        "A": "17",
+        "B": "15",
+        "C": "19",
+        "D": "13"
+      },
+      "answer": "A",
+      "explanation": "Parents(2) + Sons&Wives(6) + Children(9) = 17.",
+      "hash": "8bae37ef53cd230f",
+      "translations": {
+        "hi": {
+          "question": "एक परिवार में एक व्यक्ति, उसकी पत्नी, उनके तीन बेटे, उनकी पत्नियां और प्रत्येक बेटे के तीन बच्चे हैं। परिवार में कुल कितने सदस्य हैं?",
+          "options": {
+            "A": "17",
+            "B": "15",
+            "C": "19",
+            "D": "13"
+          },
+          "explanation": "माता-पिता = 2। बेटे और उनकी पत्नियां = 3 × 2 = 6। पोते-पोतियां = 3 × 3 = 9। कुल = 2 + 6 + 9 = 17।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-020",
+      "number": 20,
+      "question": "Statements: All cars are jeeps. All jeeps are 4-wheelers. Conclusions: I. All 4-wheelers are cars. II. Some 4-wheelers are jeeps.",
+      "options": {
+        "A": "Only II follows",
+        "B": "Only I follows",
+        "C": "Both",
+        "D": "None"
+      },
+      "answer": "A",
+      "explanation": "Outer to inner circle logic. All 4-wheelers cannot be cars. Some 4-wheelers are Jeeps is true.",
+      "hash": "7fc7aa291dd304a8",
+      "translations": {
+        "hi": {
+          "question": "कथन: सभी कारें जीप हैं। सभी जीप चार पहिया वाहन हैं। निष्कर्ष: I. सभी चार पहिया वाहन कारें हैं। II. कुछ चार पहिया वाहन जीप हैं।",
+          "options": {
+            "A": "केवल II अनुसरण करता है",
+            "B": "केवल I अनुसरण करता है",
+            "C": "दोनों",
+            "D": "कोई नहीं"
+          },
+          "explanation": "बाहर से अंदर (4-wheeler -> jeep -> car) जाने पर 'सभी' गलत होता है, 'कुछ' सही होता है। इसलिए I गलत, II सही।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-021",
+      "number": 21,
+      "question": "Find missing number in matrix: 7 6 8 5 4 9 3 2 1 83 56 ?",
+      "options": {
+        "A": "146",
+        "B": "128",
+        "C": "148",
+        "D": "136"
+      },
+      "answer": "A",
+      "explanation": "Sum of squares of numbers in the column. 64+81+1 = 146.",
+      "hash": "a3354415db5d7836",
+      "translations": {
+        "hi": {
+          "question": "लुप्त संख्या ज्ञात करें: [Matrix] 7 6 8 5 4 9 3 2 1 83 56 ?",
+          "options": {
+            "A": "146",
+            "B": "128",
+            "C": "148",
+            "D": "136"
+          },
+          "explanation": "तर्क: $(Row1)^2 + (Row2)^2 + (Row3)^2 = Row4$? $7^2+5^2+3^2 = 49+25+9 = 83$ (सही)। $6^2+4^2+2^2 = 36+16+4 = 56$ (सही)। $8^2+9^2+1^2 = 64+81+1 = 146$।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-022",
+      "number": 22,
+      "question": "Mirror Image of 'REASONING'",
+      "options": {
+        "A": "GNINOSAER",
+        "B": "GИIИOSAER",
+        "C": "⅁NINOƧAƎЯ",
+        "D": "⅁ИIИOƧAƎЯ"
+      },
+      "answer": "D",
+      "explanation": "Letters reversed and laterally inverted.",
+      "hash": "0b10c6673dcf8d84",
+      "translations": {
+        "hi": {
+          "question": "दर्पण प्रतिबिम्ब: 'REASONING'",
+          "options": {
+            "A": "GNINOSAER",
+            "B": "GИIИOSAER",
+            "C": "⅁NINOƧAƎЯ",
+            "D": "⅁ИIИOƧAƎЯ"
+          },
+          "explanation": "पूरा शब्द उल्टा होगा और अक्षरों का पार्श्व परिवर्तन (Lateral Inversion) होगा। G -> ⅁, N -> И, S -> Ƨ, E -> Ǝ, R -> Я।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-023",
+      "number": 23,
+      "question": "Introducing a man, a woman said, 'His wife is the only daughter of my father.' How is the man related to the woman?",
+      "options": {
+        "A": "Husband",
+        "B": "Brother",
+        "C": "Father",
+        "D": "Father-in-law"
+      },
+      "answer": "A",
+      "explanation": "Only daughter of my father = Myself. So his wife = Me. He is my husband.",
+      "hash": "3aa4115961372078",
+      "translations": {
+        "hi": {
+          "question": "एक पुरुष का परिचय देते हुए, एक महिला ने कहा, 'उसकी पत्नी मेरे पिता की इकलौती बेटी है।' वह पुरुष उस महिला से कैसे संबंधित है?",
+          "options": {
+            "A": "पति",
+            "B": "भाई",
+            "C": "पिता",
+            "D": "ससुर"
+          },
+          "explanation": "महिला के पिता की इकलौती बेटी = महिला स्वयं। तो, 'उसकी पत्नी' = 'महिला स्वयं'। अतः पुरुष उस महिला का पति है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-024",
+      "number": 24,
+      "question": "P, Q, R, S, T have different weights. R is heavier than only P. S is lighter than Q but heavier than T. Who is heaviest?",
+      "options": {
+        "A": "Q",
+        "B": "S",
+        "C": "T",
+        "D": "CND"
+      },
+      "answer": "A",
+      "explanation": "Order: Q > S > T > R > P. Q is heaviest.",
+      "hash": "41a376844329bf36",
+      "translations": {
+        "hi": {
+          "question": "P, Q, R, S, T में से प्रत्येक का वजन अलग-अलग है। R केवल P से भारी है। S, Q से हल्का है लेकिन T से भारी है। सबसे भारी कौन है?",
+          "options": {
+            "A": "Q",
+            "B": "S",
+            "C": "T",
+            "D": "ज्ञात नहीं किया जा सकता"
+          },
+          "explanation": "1. R > P (और R केवल P से भारी है, मतलब बाकी सब R से भारी हैं)। तो R और P सबसे नीचे हैं: _ > _ > _ > R > P. 2. Q > S > T. क्रम: Q > S > T > R > P. सबसे भारी Q है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-025",
+      "number": 25,
+      "question": "Calendar of 2012 will be same as?",
+      "options": {
+        "A": "2040",
+        "B": "2036",
+        "C": "2018",
+        "D": "2028"
+      },
+      "answer": "A",
+      "explanation": "Leap year repeats after 28 years. 2012+28=2040.",
+      "hash": "cac6849f3357b658",
+      "translations": {
+        "hi": {
+          "question": "2012 का कैलेंडर किस वर्ष के समान होगा?",
+          "options": {
+            "A": "2040",
+            "B": "2036",
+            "C": "2018",
+            "D": "2028"
+          },
+          "explanation": "2012 एक लीप वर्ष है। लीप वर्ष का कैलेंडर 28 साल बाद दोहराता है। 2012 + 28 = 2040।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-026",
+      "number": 26,
+      "question": "Dictionary Order: 1. Repetitive 2. Repository 3. Reptile 4. Report 5. Republic",
+      "options": {
+        "A": "1, 4, 2, 3, 5",
+        "B": "1, 4, 2, 5, 3",
+        "C": "1, 2, 4, 3, 5",
+        "D": "4, 1, 2, 5, 3"
+      },
+      "answer": "A",
+      "explanation": "Repetitive -> Report -> Repository -> Reptile -> Republic.",
+      "hash": "881bb51f84a5f966",
+      "translations": {
+        "hi": {
+          "question": "शब्दकोश क्रम: 1. Repetitive 2. Repository 3. Reptile 4. Report 5. Republic",
+          "options": {
+            "A": "1, 4, 2, 3, 5",
+            "B": "1, 4, 2, 5, 3",
+            "C": "1, 2, 4, 3, 5",
+            "D": "4, 1, 2, 5, 3"
+          },
+          "explanation": "Repe (1) -> Repo... Report(4) -> Repos(2) -> Rept(3) -> Repu(5)? सही क्रम: Repetitive (1), Report (4), Repository (2), Reptile (3), Republic (5)। क्रम: 1, 4, 2, 3, 5।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-028",
+      "number": 28,
+      "question": "Choose odd word: Geography, Physics, Chemistry, Biology",
+      "options": {
+        "A": "Geography",
+        "B": "Physics",
+        "C": "Chemistry",
+        "D": "Biology"
+      },
+      "answer": "A",
+      "explanation": "Others are pure sciences. Geography is a social science/earth science.",
+      "hash": "c6ce8f2e00f32da3",
+      "translations": {
+        "hi": {
+          "question": "विषम शब्द चुनें: भूगोल, भौतिकी, रसायन विज्ञान, जीव विज्ञान",
+          "options": {
+            "A": "भूगोल",
+            "B": "भौतिकी",
+            "C": "रसायन विज्ञान",
+            "D": "जीव विज्ञान"
+          },
+          "explanation": "भौतिकी, रसायन विज्ञान और जीव विज्ञान 'प्राकृतिक विज्ञान' (Science) की शाखाएं हैं। भूगोल एक 'सामाजिक विज्ञान' या पृथ्वी विज्ञान है।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-029",
+      "number": 29,
+      "question": "A cube cut into 125 small cubes. How many have at least 1 face painted?",
+      "options": {
+        "A": "98",
+        "B": "96",
+        "C": "100",
+        "D": "125"
+      },
+      "answer": "A",
+      "explanation": "Total - Inner Core. 125 - (3^3) = 125 - 27 = 98.",
+      "hash": "52085a85396525df",
+      "translations": {
+        "hi": {
+          "question": "एक घन को 125 छोटे घनों में काटा गया है। कितने घनों की कम से कम एक सतह रंगी हुई है? (बाहरी सतह रंगी हुई है)",
+          "options": {
+            "A": "98",
+            "B": "96",
+            "C": "100",
+            "D": "125"
+          },
+          "explanation": "कुल घन = 125 ($n=5$)। बिना रंग वाले घन (आंतरिक) = $(n-2)^3 = (5-2)^3 = 3^3 = 27$। कम से कम 1 रंगीन = कुल - बिना रंग वाले = $125 - 27 = 98$।"
+        }
+      }
+    },
+    {
+      "id": "reasoning-02-030",
+      "number": 30,
+      "question": "Minimum straight lines to make a square with diagonals and mid-cross?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "4",
+        "D": "10"
+      },
+      "answer": "B",
+      "hash": "0bffa4dc6206111b",
+      "translations": {
+        "hi": {
+          "question": "दी गई आकृति को बनाने के लिए आवश्यक न्यूनतम सीधी रेखाओं की संख्या ज्ञात कीजिये। (एक वर्ग जिसमें दो विकर्ण और मध्य से क्षैतिज/ऊर्ध्वाधर रेखाएं हैं)",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "4",
+            "D": "10"
+          },
+          "explanation": "सीधी रेखाओं की गिनती: क्षैतिज: 3 (ऊपर, मध्य, नीचे)। ऊर्ध्वाधर: 3 (बाएं, मध्य, दाएं)। विकर्ण: 2। कुल = 3 + 3 + 2 = 8।"
+        }
+      }
+    }
+  ]
+}
