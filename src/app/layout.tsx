@@ -2,16 +2,16 @@ import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import { SessionProvider } from '@/components/session';
 import { Anek_Devanagari } from 'next/font/google';
-import { siteDescription, siteName, siteUrl } from '@/lib/site';
+import { siteName, siteSummary, siteUrl } from '@/lib/site';
 import './globals.css';
 // One variable family for Latin and Devanagari display text, self-hosted by next/font.
 const display = Anek_Devanagari({ subsets: ['latin', 'devanagari'], variable: '--font-display', display: 'swap', axes: ['wdth'] });
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: { default: 'ExamForge — Timed mock tests for government exams', template: '%s | ExamForge' },
-  description: siteDescription,
+  description: siteSummary,
   applicationName: siteName,
-  openGraph: { type: 'website', siteName, locale: 'en_IN', title: 'ExamForge — Timed mock tests for government exams', description: siteDescription },
+  openGraph: { type: 'website', siteName, locale: 'en_IN', title: 'ExamForge — Timed mock tests for government exams', description: siteSummary },
   twitter: { card: 'summary_large_image' },
   // Search Console HTML-tag verification; leave unset when verifying through DNS.
   ...(process.env.GOOGLE_SITE_VERIFICATION ? { verification: { google: process.env.GOOGLE_SITE_VERIFICATION } } : {}),

@@ -9,3 +9,15 @@ export const clip = (text: string, max = 155) => {
   const cut = text.slice(0, max - 1); const space = cut.lastIndexOf(' ');
   return `${cut.slice(0, space > max * 0.6 ? space : cut.length).replace(/[\s,;:.-]+$/, '')}…`;
 };
+// Short description for search snippets (about 155 characters); `siteDescription` stays for structured data and the manifest.
+export const siteSummary = 'Free timed mock tests for CTET, BPSC TRE, SSC, Railway, Police, Banking and Defence exams, explained in English and Hindi. First three sets need no signup.';
+// Google shows about 60 characters of a title. Take the first candidate that fits with the site suffix, else the first that fits without it.
+const titleSuffix = ` | ${siteName}`;
+export const fitTitle = (...candidates: string[]) => {
+  for (const c of candidates) {
+    if (c.length + titleSuffix.length <= 60) return { template: c as string | { absolute: string }, shown: c + titleSuffix };
+    if (c.length <= 60) return { template: { absolute: c } as string | { absolute: string }, shown: c };
+  }
+  const last = candidates[candidates.length - 1];
+  return { template: { absolute: last } as string | { absolute: string }, shown: last };
+};
