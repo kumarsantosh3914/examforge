@@ -19,19 +19,20 @@ const resolve = async (params: Props['params']) => {
   const subject = exam ? undefined : catalog?.subjects.find(s => s._id === id);
   return { id, catalog, exam: exam ?? catalog?.exams.find(e => e._id === subject?.examId), subject };
 };
-const social = (title: string, rawDescription: string, url: string): Metadata => { const description = clip(rawDescription); return { title, description, alternates: { canonical: url }, openGraph: { type: 'website', title, description, url, images: ['/opengraph-image'] }, twitter: { card: 'summary_large_image', title, description, images: ['/twitter-image'] } }; };
+// Per-page share image from /og (a catch-all route cannot hold an opengraph-image file).
+const social = (title: string, rawDescription: string, url: string, id: string): Metadata => { const description = clip(rawDescription); const images = [{ url: `/og?id=${encodeURIComponent(id)}`, width: 1200, height: 630 }]; return { title, description, alternates: { canonical: url }, openGraph: { type: 'website', title, description, url, images }, twitter: { card: 'summary_large_image', title, description, images } }; };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id, catalog, exam, subject } = await resolve(params);
   // A database blip must not tell Google the page is gone: fall back to the static exam metadata.
   if (!catalog) {
     const fallback = liveExamMeta[id];
-    return fallback ? social(fallback.metaTitle ?? `${fallback.shortTitle ?? fallback.title} Mock Test ${new Date().getFullYear()}: Free Test Series`, fallback.description ?? fallback.blurb, examHref(id)) : {};
+    return fallback ? social(fallback.metaTitle ?? `${fallback.shortTitle ?? fallback.title} Mock Test ${new Date().getFullYear()}: Free Test Series`, fallback.description ?? fallback.blurb, examHref(id), id) : {};
   }
   if (!exam) return { title: 'Exam not found', robots: { index: false } };
   if (subject) {
     const short = examShortTitle(exam); const name = /mock test/i.test(subject.name) ? subject.name : `${subject.name} Mock Test`;
-    return social(`${short} ${name}: ${subject.setCount} Free Sets`, `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id));
+    return social(`${short} ${name}: ${subject.setCount} Free Sets`, `${subject.setCount} free timed ${subject.name} mock tests with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained in English and Hindi.`, subjectHref(id), id);
   }
   const subjects = catalog.subjects.filter(s => s.examId === id);
   const sets = catalog.sets.filter(s => s.examId === id).length;
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Matches how people search: "<exam> mock test", "free", "test series", and the current year.
   const pageTitle = liveExamMeta[id]?.metaTitle ?? `${examShortTitle(exam)} Mock Test ${new Date().getFullYear()}: Free Test Series`;
   const description = liveExamMeta[id]?.description ?? `${examTitle(exam)} mock tests: ${sets} timed practice sets and ${questions.toLocaleString('en-IN')} questions across ${subjects.length} subjects, with explanations in English and Hindi.`;
-  return social(pageTitle, description, examHref(id));
+  return social(pageTitle, description, examHref(id), id);
 }
 
 export default async function ExamPage({ params }: Props) {
