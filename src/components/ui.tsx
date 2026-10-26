@@ -43,7 +43,7 @@ export function Shell({ children, wide = false }: { children: React.ReactNode; w
     <main id="main" className={wide ? 'page-wide' : 'page-content'}>{children}</main>
     <footer className="footer">
       <nav className="footer-exams" aria-label="Mock tests by exam"><span>Mock tests</span>{Object.entries(liveExamMeta).map(([id, m]) => <Link key={id} href={examHref(id)}>{m.shortTitle ?? m.title}</Link>)}</nav>
-      <div className="footer-inner"><span className="footer-brand"><LogoMark size={20} />ExamForge</span><span>Practice deliberately. Progress confidently.</span></div>
+      <div className="footer-inner"><span className="footer-brand"><LogoMark size={20} />ExamForge</span><span>Practice deliberately. Progress confidently.</span><Link href="/privacy">Privacy</Link></div>
     </footer>
   </div>;
 }

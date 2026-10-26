@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { ArrowUpRight, BookOpen, Check, CheckCircle2, Clock3, Code2, Database, Layers3, Search, ShieldCheck, Terminal, Cpu, Network, Play, ChevronRight, Monitor } from 'lucide-react';
 import type { Catalog, AttemptView } from '@/lib/types';
 import { api, ApiError, post } from '@/lib/client';
+import { clarityEvent } from '@/lib/clarity';
 import { useSession } from './session';
 import { examHref, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
 import { Shell, ErrorMessage, Loading } from './ui';
@@ -22,8 +23,8 @@ function LibraryContent({ id, initialCatalog, children }: { id: string; initialC
   useEffect(() => { if (!initialCatalog) api<Catalog>('/catalog').then(setCatalog).catch(e => setError(e.message)); }, [initialCatalog]);
   async function start(id: string) {
     setBusy(id); setError('');
-    try { const a = await api<AttemptView>('/attempts', post({ setId: id })); await refresh(); router.push(`/test/${a.id}`); }
-    catch (e) { if (e instanceof ApiError && (e.code === 'FREE_LIMIT' || e.code === 'AUTH_REQUIRED')) router.push(`/auth?reason=limit&set=${encodeURIComponent(id)}`); else setError((e as Error).message); }
+    try { const a = await api<AttemptView>('/attempts', post({ setId: id })); clarityEvent('start_practice'); await refresh(); router.push(`/test/${a.id}`); }
+    catch (e) { if (e instanceof ApiError && (e.code === 'FREE_LIMIT' || e.code === 'AUTH_REQUIRED')) { clarityEvent('free_limit_reached'); router.push(`/auth?reason=limit&set=${encodeURIComponent(id)}`); } else setError((e as Error).message); }
     finally { setBusy(''); }
   }
   if (!catalog) return error ? <ErrorMessage message={error} retry={load} /> : <Loading />;
