@@ -131,3 +131,10 @@ html{scrollbar-color:#b6c4ca transparent}input,textarea{caret-color:var(--green)
 @media(max-width:520px){.guide-facts{grid-template-columns:minmax(0,1fr)}.guide-facts>div{border-right-width:0}.guide-facts>div:nth-child(n+2){border-top-width:1px}}
 @media(max-width:520px){.guide-table{font-size:.82rem}.guide-table th,.guide-table td{padding:9px 5px}.guide-table tbody th{white-space:normal;width:15%}.guide-table thead th{font-size:.7rem;letter-spacing:0}}
 .legal-page{max-width:720px;margin:0 auto;padding:8px 0 40px}.legal-page h1{margin:0 0 4px}.legal-page h2{font-size:1.25rem;margin:30px 0 8px}.legal-page p,.legal-page li{line-height:1.7;color:#3b4a56}.legal-page ul{padding-left:20px;display:grid;gap:8px}.legal-page a{color:var(--green-dark);text-decoration:underline;text-underline-offset:3px}.legal-updated{color:var(--muted);font-size:.9rem;margin:0 0 20px}
+/* Dead-click fixes: the whole live exam card opens the exam (the title link stretches over it), while the CTA and subject chips stay separate links above it. */
+.exam-card.live{position:relative;transition:border-color .18s,box-shadow .18s}
+.exam-card.live h3 a::after{content:'';position:absolute;inset:0;border-radius:inherit}
+.exam-card.live:hover{border-color:#9bc6b5;box-shadow:0 1px 2px rgba(16,40,52,.05),0 14px 30px -16px rgba(16,40,52,.45)}
+.exam-card.live .exam-cta,.exam-card.live .subject-chips a{position:relative;z-index:1}
+.exam-card.live h3 a:focus-visible::after{outline:3px solid #289d85;outline-offset:2px}
+.hero-search{cursor:text}.hero-search .search-clear{cursor:pointer}

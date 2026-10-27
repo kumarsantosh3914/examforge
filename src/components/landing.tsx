@@ -49,7 +49,7 @@ export function Landing({ initialCatalog = null }: { initialCatalog?: Catalog | 
       <div className="hero-inner">
         <h1 id="hero-title">Which exam are you preparing&nbsp;for?</h1>
         <p className="hero-lede">Timed mock tests that save every answer as you go, with explanations, in English and <span lang="hi">हिन्दी</span> for many exams. Your first three sets need no signup.</p>
-        <form className="hero-search" role="search" onSubmit={e => { e.preventDefault(); document.getElementById('exams')?.scrollIntoView({ behavior: 'smooth' }); }}>
+        <form className="hero-search" role="search" onClick={e => { if (e.target === e.currentTarget || (e.target as HTMLElement).closest('svg, kbd')) search.current?.focus(); }} onSubmit={e => { e.preventDefault(); document.getElementById('exams')?.scrollIntoView({ behavior: 'smooth' }); }}>
           <label htmlFor="exam-search" className="sr-only">Search exams</label>
           <Search size={20} aria-hidden="true" />
           <input id="exam-search" ref={search} type="search" autoComplete="off" placeholder="Search exams, e.g. BPSC, SSC, CTET" value={query} onChange={e => setQuery(e.target.value)} />

@@ -23,7 +23,7 @@ export function SiteHeader() {
   async function logout() { try { await api('/auth/logout', post()); await refresh(); router.push('/'); } catch (e) { setError((e as Error).message); } }
   const account = session?.email
     ? <><span className="account-email" title={session.email}>{session.email}</span><button className="button secondary small" onClick={logout}><LogOut size={16} />Sign out</button></>
-    : <><span className="guest-label">{session ? `${session.remaining} of 3 free sets left` : 'Guest'}</span><Link className="button primary small" href="/auth">Sign in</Link></>;
+    : <><span className="guest-label" style={session ? undefined : { visibility: 'hidden' }}>{session ? `${session.remaining} of 3 free sets left` : '3 of 3 free sets left'}</span><Link className="button primary small" href="/auth">Sign in</Link></>;
   return <header className={`site-header ${open ? 'is-open' : ''}`}>
     <div className="site-header-inner">
       <Brand />
