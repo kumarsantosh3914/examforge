@@ -2509,7 +2509,7 @@ export const examGuides: Record<string, ExamGuide> = {
     intro: [
       'SSC CGL (Combined Graduate Level) is the Staff Selection Commission’s exam for graduate-level posts in central ministries, departments and offices. Tier 1 is the computer-based screening paper: you have to clear its cut-off to reach Tier 2.',
       'ExamForge gives you free, timed full-length mock tests in the Tier 1 format: 100 questions in four sections of 25 (Reasoning, General Awareness, Quantitative Aptitude and English). Each question is explained after you submit. Your first three sets need no signup.',
-      'The question banks are in English only. Several of the later mock tests reuse questions from the earlier ones, with some numbers changed, so use them for repeated timing practice rather than as new material each time. Sets give you one minute per question, which is more time than the real 60 minutes, and they do not deduct marks for wrong answers.',
+      'The question banks are in English only. Sets give you one minute per question, which is more time than the real 60 minutes, and they do not deduct marks for wrong answers.',
     ],
     facts: {
       title: 'SSC CGL Tier 1 at a glance',
@@ -2563,7 +2563,6 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real Tier 1 deducts 0.50 mark per wrong answer, so apply that to your score yourself.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
-      { question: 'Do the mock tests repeat questions?', answer: 'Yes. Mock tests 5 to 10 largely reuse questions from tests 1 to 4, so the bank holds about four tests’ worth of distinct material.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2607,6 +2606,22 @@ export const examGuides: Record<string, ExamGuide> = {
       areas: [
         { title: 'General Intelligence and Reasoning', summary: 'Verbal and number reasoning.', topics: ['Day and calendar puzzles', 'Letter and alphabet position', 'Number analogies and series', 'Distance and direction'] },
         { title: 'General Awareness', summary: 'Static general knowledge.', topics: ['Indian history, polity and geography', 'Basic science', 'Economy and current basics'] },
+      ],
+    },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the posts, age limits and relaxations, and they differ between cycles.',
+      items: [
+        { title: 'Qualification', detail: 'A diploma or degree in Civil, Mechanical or Electrical Engineering, depending on the post and department. You need it by the closing date of the online application.' },
+        { title: 'Age', detail: 'Most posts set an upper limit of 30 years and some 32, counted from the date given in the notice, with relaxation for reserved categories. Check the post-wise table.' },
+        { title: 'Nationality', detail: 'Indian citizens, with the other categories the notice allows.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection runs in stages. The details can change from one cycle to the next, so confirm them in the notice.',
+      items: [
+        { title: 'Paper 1', detail: 'The computer-based paper of 200 questions described above. In some cycles it only decides who goes on to Paper 2.' },
+        { title: 'Paper 2', detail: 'A descriptive paper on your engineering branch. Check the notice for how its marks and Paper 1’s are combined.' },
+        { title: 'Document verification', detail: 'Candidates on the merit list have their qualifications, category and age checked before the post is allotted.' },
       ],
     },
     tips: [
@@ -2664,6 +2679,21 @@ export const examGuides: Record<string, ExamGuide> = {
         { title: 'English Language', summary: 'Vocabulary and grammar.', topics: ['Spelling, synonyms and antonyms', 'One-word substitution and idioms'] },
       ],
     },
+    eligibility: {
+      intro: 'Eligibility depends on the post, so read its row in the notice. The main conditions, in short.',
+      items: [
+        { title: 'Qualification', detail: 'Posts are grouped by level: Matriculation (Class 10), Higher Secondary (Class 12) and Graduate. You apply for the level you hold, and some posts ask for extra certificates or experience.' },
+        { title: 'Age', detail: 'Usually 18 to 30 years, but the limit changes with the post and the cut-off date, with relaxation for reserved categories. Check the notice.' },
+      ],
+    },
+    stages: {
+      intro: 'Selection is mainly one computer-based test for each qualification level.',
+      items: [
+        { title: 'Computer-based test', detail: 'The 100-question paper described above. Your score decides who is shortlisted.' },
+        { title: 'Skill or typing test', detail: 'Only for posts that need one, such as data entry or clerical roles. The notice lists which.' },
+        { title: 'Document verification', detail: 'Shortlisted candidates have their documents checked before the post is allotted.' },
+      ],
+    },
     tips: [
       { title: 'Practise against the clock', detail: 'Time yourself to 60 minutes for 100 questions even though the set allows longer.' },
       { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
@@ -2717,6 +2747,22 @@ export const examGuides: Record<string, ExamGuide> = {
         { title: 'English Language and Comprehension', summary: 'The last 100 questions.', topics: ['Spelling, vocabulary and one-word substitution', 'Error spotting and grammar'] },
       ],
     },
+    eligibility: {
+      intro: 'The main conditions, in short. Each notice sets the age limits and relaxations, and they differ between cycles.',
+      items: [
+        { title: 'Qualification', detail: 'A pass in Class 12 or an equivalent exam from a recognised board or university, held by the date the notice names.' },
+        { title: 'Age', detail: 'Grade C is usually 18 to 30 years and Grade D 18 to 27, counted from the notice’s cut-off date, with relaxation for reserved categories. Sources differ on Grade D, so check the notice.' },
+        { title: 'Nationality', detail: 'Indian citizens, with the other categories the notice allows.' },
+      ],
+    },
+    stages: {
+      intro: 'There is no interview. Selection has three steps.',
+      items: [
+        { title: 'Computer-based test', detail: 'The 200-question written test described above. Your score here ranks you for the merit list.' },
+        { title: 'Skill test', detail: 'A stenography test: ten minutes of dictation at 100 words a minute for Grade C and 80 for Grade D, followed by transcription. It is qualifying only and adds no marks.' },
+        { title: 'Document verification', detail: 'Shortlisted candidates have their documents checked before the post is allotted.' },
+      ],
+    },
     tips: [
       { title: 'Practise the full length', detail: 'Two hundred questions is a long sitting. Use the full mock tests to build stamina and time yourself to 2 hours.' },
       { title: 'Practise the skill test separately', detail: 'The dictation test decides your final selection, and ExamForge does not cover it.' },
@@ -2768,6 +2814,26 @@ export const examGuides: Record<string, ExamGuide> = {
         { title: 'Paper II: CSAT', summary: 'Sets 4 to 6, 100 questions each.', topics: ['English vocabulary and spelling', 'Basic arithmetic and percentages', 'Alphabet and sequence puzzles'] },
       ],
     },
+    eligibility: {
+      intro: 'The main conditions, in short. The notice sets the posts, the age limits and the relaxations, and they differ between cycles.',
+      items: [
+        { title: 'Qualification', detail: 'A degree from a recognised university. Some posts ask for more, such as a physical standard for police services.' },
+        { title: 'Age', detail: 'The general range is 21 to 40 years, counted from the date in the notice, with extra years for reserved categories and some other groups. Check the notice for your category.' },
+        { title: 'Nationality', detail: 'Indian citizens, with the other categories the notice allows.' },
+      ],
+    },
+    stages: {
+      intro: 'The Provincial Civil Services selection has three stages.',
+      items: [
+        { title: 'Preliminary exam', detail: 'The two objective papers described above. It only shortlists candidates for the mains.' },
+        { title: 'Mains exam', detail: 'A written exam with descriptive papers. Its marks count towards the final rank.' },
+        { title: 'Interview', detail: 'A personality test for shortlisted candidates.' },
+      ],
+    },
+    merit: [
+      { title: 'Prelims', detail: 'Used only to choose who sits the mains. Its marks are not added to the final result.' },
+      { title: 'Final rank', detail: 'Decided by your mains marks together with the interview.' },
+    ],
     tips: [
       { title: 'Move on to harder material', detail: 'These sets are introductory. Pair them with past UPPSC papers for the real difficulty.' },
       { title: 'Review explanations', detail: 'After each set, read the explanation for every question you got wrong or guessed.' },
