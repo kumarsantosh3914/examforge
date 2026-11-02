@@ -1611,6 +1611,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'How many questions does each set have?', answer: 'Between 92 and 100, with one minute for each question.' },
       { question: 'Can I practise in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 10 sets hold 975 questions, but only about 592 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2563,6 +2564,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real Tier 1 deducts 0.50 mark per wrong answer, so apply that to your score yourself.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 4 sets hold 400 questions, but only about 106 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2631,6 +2633,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Do these tests include Civil, Mechanical or Electrical Engineering questions?', answer: 'No. They cover Reasoning and General Awareness only.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 10 sets hold 1,000 questions, but only about 488 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2701,6 +2704,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Is there negative marking in ExamForge sets?', answer: 'No. The real exam deducts 0.50 mark per wrong answer, so apply that to your score yourself.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 10 sets hold 1,000 questions, but only about 591 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2770,6 +2774,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Does ExamForge cover the stenography skill test?', answer: 'No. These are practice sets for the written test only.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 10 sets hold 2,000 questions, but only about 578 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
@@ -2841,6 +2846,7 @@ export const examGuides: Record<string, ExamGuide> = {
     faq: [
       { question: 'Are these questions as hard as the real prelims?', answer: 'No. They are introductory and well below the real exam’s difficulty.' },
       { question: 'Are the questions available in Hindi?', answer: 'No. This question bank is in English only.' },
+      { question: 'Do the mock tests repeat questions?', answer: 'Yes. The 6 sets hold 750 questions, but only about 411 of them are different, so later sets repeat earlier material. Use them for timing and revision practice, not as new questions each time.' },
       { question: 'Is ExamForge free?', answer: 'Yes. Your first three sets need no account; create a free account to keep practising and keep your history.' },
     ],
   },
