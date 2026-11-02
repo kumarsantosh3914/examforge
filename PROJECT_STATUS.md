@@ -198,7 +198,7 @@ New concurrency coverage: simultaneous starts from two tabs reserve one attempt;
 ## 5 More Exams Added (2026-10-26)
 
 - Added five single-subject question banks, each with one `Mock Tests` subject: **SSC CGL** (`/exams/ssc-cgl`, 10 sets of 100, 1,000 questions), **SSC JE** (`/exams/ssc-je`, 10 sets of 100, 1,000), **SSC Selection Post** (`/exams/ssc-selection-post`, 10 sets of 100, 1,000), **SSC Stenographer** (`/exams/ssc-stenographer`, 10 sets of 200, 2,000) and **UPPSC** (`/exams/uppsc`, 3 Paper I sets of 150 and 3 CSAT sets of 100, 750). All have explanations; none has Hindi translations.
-- Totals: 34 exams, 126 subjects, 989 sets, 47,041 usable questions of 47,056 (15 quarantined, none new).
+- Totals: 34 exams, 126 subjects, 983 sets, 46,441 usable questions of 46,456 (15 quarantined, none new). SSC CGL trimmed from 10 to 4 mock tests.
 - Change on import: the root `index.json` of each folder had `"category"` set to a label (`SSC`, `State PSC`), which the loader rejects for exams without a category folder; it is now `null` like the other flat exams. Nothing else in the data was edited.
 - Added a `civil` family ("Civil services") for UPPSC, plus `liveExamMeta` and `examGuides` entries for all five. Guide patterns come from published summaries (SSC CGL Tier 1, Stenographer, Selection Post and JE Paper 1 agree across sources; the UPPSC per-answer penalty is not stated).
 - Known source quirks, left as supplied:

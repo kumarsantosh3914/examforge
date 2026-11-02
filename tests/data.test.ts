@@ -7,9 +7,9 @@ test('cleaned question bank is discovered and validated dynamically', async () =
   const bank = await readBank();
   assert.deepEqual(bank.exams.map(e => e._id).sort(), ['afcat', 'agniveer', 'bihar-police', 'bihar-police-constable', 'bpsc-tre-4.0/computer', 'bpsc-tre-4.0/physics-11-12', 'ctet-paper-1', 'ctet-paper-2', 'delhi-police', 'dsssb-tgt/computer-science', 'ibps-po', 'rajasthan-police', 'rpf-constable', 'rrb-group-d', 'rrb-je', 'rrb-ntpc-cbt-1', 'rrb-technician', 'sbi-clerk', 'sbi-po', 'ssc-gd-constable', 'ssc-mts', 'tet', 'up-police', 'rpf-si', 'rrb-alp', 'rrb-ntpc-cbt-2', 'ssc-cpo', 'bseb-10th', 'bpsc-tre-4.0/math-high-school', 'ssc-cgl', 'ssc-je', 'ssc-selection-post', 'ssc-stenographer', 'uppsc'].sort());
   assert.equal(bank.subjects.length, 126);
-  assert.equal(bank.sets.length, 989);
-  assert.equal(bank.sourceQuestions, 47056);
-  assert.equal(bank.questions.length, 47041);
+  assert.equal(bank.sets.length, 983);
+  assert.equal(bank.sourceQuestions, 46456);
+  assert.equal(bank.questions.length, 46441);
   assert.deepEqual(bank.excluded.map(q => q.id).sort(), ['english-10-007', 'hindi-05-003', 'mathematics-05-014', 'mathematics-06-014', 'mathematics-10-027', 'mathematics-10-035', 'mathematics-10-041', 'mock-test-full-test-01-057', 'mock-test-full-test-05-105', 'mock-test-mathematics-science-full-test-05-073', 'programming-languages-05-027', 'reasoning-02-002', 'science-19-004', 'social-science-15-017', 'social-science-36-015']);
   assert.equal(bank.subjects.filter(s => s.examId === 'ssc-gd-constable').length, 5);
   assert.equal(bank.subjects.filter(s => s.examId === 'bpsc-tre-4.0/physics-11-12').length, 20);
