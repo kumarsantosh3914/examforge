@@ -5,7 +5,7 @@ import { ExamGuide } from '@/components/exam-guide';
 import { Library } from '@/components/library';
 import { RelatedExams } from '@/components/related-exams';
 import { SubjectGuide } from '@/components/subject-guide';
-import { getCatalogOrNull } from '@/lib/catalog';
+import { getCatalogOrNull, getSampleQuestions } from '@/lib/catalog';
 import { duplicatesExamPage, examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
 import { examGuides } from '@/lib/exam-guides';
 import { absolute, clip, fitTitle } from '@/lib/site';
@@ -46,6 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ExamPage({ params }: Props) {
   const { id, catalog, exam, subject } = await resolve(params);
   if (catalog && !exam) notFound();
+  const samples = subject ? await getSampleQuestions(subject._id) : null;
   const crumbs = exam ? [
     { '@type': 'ListItem', position: 1, name: 'ExamForge', item: absolute('/') },
     { '@type': 'ListItem', position: 2, name: examTitle(exam), item: absolute(examHref(exam._id)) },
@@ -60,6 +61,6 @@ export default async function ExamPage({ params }: Props) {
   ] : null;
   return <>
     {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />}
-    <Suspense><Library id={id} initialCatalog={catalog}>{subject && catalog ? <SubjectGuide subject={subject} catalog={catalog} /> : <><ExamGuide examId={id} />{exam && catalog && <RelatedExams examId={id} catalog={catalog} />}</>}</Library></Suspense>
+    <Suspense><Library id={id} initialCatalog={catalog}>{subject && catalog ? <SubjectGuide subject={subject} catalog={catalog} samples={samples ?? []} /> : <><ExamGuide examId={id} />{exam && catalog && <RelatedExams examId={id} catalog={catalog} />}</>}</Library></Suspense>
   </>;
 }

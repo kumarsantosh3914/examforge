@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import type { Catalog, Subject } from '@/lib/types';
+import type { SampleQuestion } from '@/lib/catalog';
 import { examGuides } from '@/lib/exam-guides';
 import { examHref, examShortTitle, examTitle, subjectHref } from '@/lib/exam-directory';
 
 const practiceName = (name: string) => /mock test/i.test(name) ? name : `${name} mock tests`;
 
 // Server-rendered "what these sets cover" content for a subject page, so it is in the page HTML for search engines.
-export function SubjectGuide({ subject, catalog }: { subject: Subject; catalog: Catalog }) {
+export function SubjectGuide({ subject, catalog, samples = [] }: { subject: Subject; catalog: Catalog; samples?: SampleQuestion[] }) {
   const exam = catalog.exams.find(e => e._id === subject.examId);
   if (!exam) return null;
   const title = examTitle(exam); const short = examShortTitle(exam);
@@ -51,6 +52,24 @@ export function SubjectGuide({ subject, catalog }: { subject: Subject; catalog: 
           <p>{area.summary}</p>
           <ul>{area.topics.map(t => <li key={t}>{t}</li>)}</ul>
         </article>)}</div>
+      </section>}
+
+      {samples.length > 0 && <section aria-labelledby="subject-samples-title">
+        <h3 id="subject-samples-title">Sample {isMock ? short : subject.name} questions with answers</h3>
+        <p>A few questions from the first set. Open each one for the answer and explanation, then try the full set against the clock.</p>
+        <ol className="sample-list">{samples.map(q => { const hi = q.translations?.hi; return <li key={q.number} className="sample-q">
+          <p className="sample-text">{q.question}</p>
+          <ul className="sample-options">{Object.entries(q.options).map(([k, v]) => <li key={k}><strong>{k}.</strong> {v}</li>)}</ul>
+          <details>
+            <summary>Show answer and explanation</summary>
+            <p><strong>Answer: {q.answer}.</strong> {q.explanation}</p>
+            {hi && <div lang="hi">
+              <p className="sample-text">{hi.question}</p>
+              <ul className="sample-options">{Object.entries(hi.options).map(([k, v]) => <li key={k}><strong>{k}.</strong> {v}</li>)}</ul>
+              {hi.explanation && <p>{hi.explanation}</p>}
+            </div>}
+          </details>
+        </li>; })}</ol>
       </section>}
 
       {siblings.length > 0 && <section aria-labelledby="subject-more-title">
