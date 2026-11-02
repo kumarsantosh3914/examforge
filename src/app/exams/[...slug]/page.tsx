@@ -6,7 +6,7 @@ import { Library } from '@/components/library';
 import { RelatedExams } from '@/components/related-exams';
 import { SubjectGuide } from '@/components/subject-guide';
 import { getCatalogOrNull } from '@/lib/catalog';
-import { examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
+import { duplicatesExamPage, examHref, examShortTitle, examTitle, liveExamMeta, subjectHref } from '@/lib/exam-directory';
 import { examGuides } from '@/lib/exam-guides';
 import { absolute, clip, fitTitle } from '@/lib/site';
 
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!exam) return { title: 'Exam not found', robots: { index: false } };
   if (subject) {
     const short = examShortTitle(exam); const name = /mock test/i.test(subject.name) ? subject.name : `${subject.name} Mock Test`;
-    return social(fitTitle(`${short} ${name}: ${subject.setCount} Free Sets`, `${short} ${name}`), `${subject.setCount} free timed ${/mock test/i.test(subject.name) ? (subject.name === 'Mock Tests' ? 'mock tests' : `${subject.name} sets`) : `${subject.name} mock tests`} with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained${subject.hindi === false ? '' : ' in English and Hindi'}.`, subjectHref(id), id);
+    return social(fitTitle(`${short} ${name}: ${subject.setCount} Free Sets`, `${short} ${name}`), `${subject.setCount} free timed ${/mock test/i.test(subject.name) ? (subject.name === 'Mock Tests' ? 'mock tests' : `${subject.name} sets`) : `${subject.name} mock tests`} with ${subject.questionCount} questions for ${examTitle(exam)}. Answers save as you go; every question is explained${subject.hindi === false ? '' : ' in English and Hindi'}.`, duplicatesExamPage(subject, catalog.subjects) ? examHref(exam._id) : subjectHref(id), id);
   }
   const subjects = catalog.subjects.filter(s => s.examId === id);
   const sets = catalog.sets.filter(s => s.examId === id).length;
